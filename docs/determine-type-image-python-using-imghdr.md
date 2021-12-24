@@ -8,14 +8,14 @@ img HDR 模块
 
 **使用以下命令进行安装:**
 
-```
+```py
 npm install imghdr
 ```
 
 **描述:**
 imghdr 模块确定文件或字节流中包含的图像类型。imghdr 模块定义了以下功能:
 
-```
+```py
 imghdr.what(filename[, h])
 ```
 
@@ -43,7 +43,7 @@ imghdr.what(filename[, h])
 
 **示例:**
 
-```
+```py
 Input : picture.gif
 Output : gif
 
@@ -52,7 +52,7 @@ Output : jpeg
 
 ```
 
-```
+```py
 import imghdr
 x = imghdr.what("picture.gif") 
 #path of image as parameter
@@ -62,7 +62,7 @@ print(x)
 
 输出:
 
-```
+```py
 gif
 
 ```

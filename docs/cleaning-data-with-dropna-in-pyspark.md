@@ -24,7 +24,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 ## **计算机编程语言**
 
-```
+```py
 # if any row having any Null
 # value we are dropping that
 # rows
@@ -87,7 +87,7 @@ df.show()
 
 ## ****计算机编程语言****
 
-```
+```py
 **# if any row having all Null
 #  values we are dropping that
 # rows.
@@ -105,7 +105,7 @@ df.show()**
 
 ## ****计算机编程语言****
 
-```
+```py
 **# if thresh value is not
 # satisfied then dropping
 # that row
@@ -123,7 +123,7 @@ df.show()**
 
 ## ****计算机编程语言****
 
-```
+```py
 **# if the subset column any value
 # is NULL then dropping that row
 df = df.dropna(subset="City")
@@ -140,7 +140,7 @@ df.show()**
 
 ## ****计算机编程语言****
 
-```
+```py
 **# if thresh value is satisfied with subset
 # column then dropping that row
 df = df.dropna(thresh=2,subset=("Id","Name","City"))

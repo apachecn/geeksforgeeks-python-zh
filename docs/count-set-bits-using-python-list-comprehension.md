@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 6
 Output : 2
 Binary representation of 6 is 110 and has 2 set bits
@@ -22,7 +22,7 @@ Binary representation of 11 is 1101 and has 3 set bits
 1.  使用 [bin(number)](https://www.geeksforgeeks.org/bin-in-python/) 函数将给定的数字转换为它的二进制表示。
 2.  现在从给定数字的二进制表示中分离出所有 1，并打印 1 的列表长度。
 
-```
+```py
 # Function to count set bits in an integer 
 # in Python 
 
@@ -47,13 +47,13 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 3
 
 ```
 
 下面是单线解决方案。
 
-```
+```py
 print (bin(num).count("1"))
 ```

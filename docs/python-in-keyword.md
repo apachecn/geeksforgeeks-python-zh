@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 # Using if statement
 if ele in seq:
     statement(s)
@@ -28,7 +28,7 @@ for ele in seq:
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # in keyword
 
@@ -42,14 +42,14 @@ if "lion" in animals:
 
 **输出:**
 
-```
+```py
 Yes
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # in keyword
 
@@ -69,7 +69,7 @@ for i in s:
 
 **输出:**
 
-```
+```py
 G
 e
 e

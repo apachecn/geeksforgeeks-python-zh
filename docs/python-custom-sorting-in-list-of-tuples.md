@@ -7,7 +7,7 @@
 **方法#1:使用`sorted()` + lambda**
 该任务可以使用上述功能的组合来执行。在这种情况下，我们只执行正常的排序，但是另外我们提供一个 lambda 函数来处理上面讨论的自定义排序的情况。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom sorting in list of tuples
 # Using sorted() + lambda
@@ -28,7 +28,7 @@ print("The tuple after custom sorting is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(7, 8), (5, 6), (7, 5), (10, 4), (10, 1)]
 The tuple after custom sorting is : [(10, 1), (10, 4), (7, 5), (7, 8), (5, 6)]
 

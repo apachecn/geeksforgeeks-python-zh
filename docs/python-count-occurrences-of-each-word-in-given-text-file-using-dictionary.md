@@ -7,7 +7,7 @@
 **示例#1:**
 首先我们创建一个文本文件，我们要对其进行字数统计。假设该文件为`**sample.txt**` ，内容如下:
 
-```
+```py
 Mango banana apple pear
 Banana grapes strawberry
 Apple pear mango banana
@@ -17,7 +17,7 @@ Kiwi apple mango strawberry
 
 **注意:**确保文本文件和 Python 文件在同一个目录下。
 
-```
+```py
 # Open the file in read mode
 text = open("sample.txt", "r")
 
@@ -53,7 +53,7 @@ for key in list(d.keys()):
 
 **输出:**
 
-```
+```py
 mango : 3
 banana : 3
 apple : 3
@@ -68,7 +68,7 @@ kiwi : 1
 
 考虑一个有带标点符号的句子的文件`**sample.txt**`。
 
-```
+```py
 Mango! banana apple pear.
 Banana, grapes strawberry.
 Apple- pear mango banana.
@@ -76,7 +76,7 @@ Kiwi "apple" mango strawberry.
 
 ```
 
-```
+```py
 import string
 
 # Open the file in read mode
@@ -117,7 +117,7 @@ for key in list(d.keys()):
 
 **输出:**
 
-```
+```py
 mango : 3
 banana : 3
 apple : 3

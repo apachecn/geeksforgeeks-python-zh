@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import altair as alt
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(data)
 
 ## 计算机编程语言
 
-```
+```py
 gp_chart = alt.Chart(data).mark_bar().encode(
   alt.Column('Format'), alt.X('Player'),
   alt.Y('Highest Score', axis=alt.Axis(grid=False)), 
@@ -57,7 +57,7 @@ gp_chart.display()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import altair as alt
 import pandas as pd

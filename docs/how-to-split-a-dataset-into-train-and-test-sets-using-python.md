@@ -37,7 +37,7 @@ scikit-learn 库为我们提供了 model_selection 模块，其中有拆分器�
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import pandas as pd
 from sklearn.linear_model import LinearRegression

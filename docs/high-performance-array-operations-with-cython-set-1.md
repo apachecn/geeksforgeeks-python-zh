@@ -6,7 +6,7 @@
 
 **代码#1 : Cython 函数，用于裁剪简单的 1D 双精度数组中的值**
 
-```
+```py
 # work.pyx (Cython file)
 cimport cython
 
@@ -38,7 +38,7 @@ cpdef clip(double[:] a, double min, double max, double[:] out):
 
 **代码#2 :**
 
-```
+```py
 # importing libraries
 from distutils.core import setup
 from distutils.extension import Extension
@@ -57,7 +57,7 @@ setup(name = 'Sample app', 
 
 **代码#3:裁剪数组的工作。**
 
-```
+```py
 # array module example
 import work
 import array
@@ -85,7 +85,7 @@ print ("\nMaximum in arr3 : ", min(arr3))
 
 **输出:**
 
-```
+```py
 Array : array('d', [1.0, -3.0, 4.0, 7.0, 2.0, 0.0])
 
 Clipping array : array('d', [1.0, 1.0, 4.0, 4.0, 2.0, 1.0])

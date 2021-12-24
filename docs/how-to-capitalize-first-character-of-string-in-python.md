@@ -7,7 +7,7 @@
 **方法#1:使用字符串切片+ `upper()`**
 这个任务可以很容易地使用大写方法来执行，该方法将提供给它的字符大写，切片可以用来在小写的第一个字符之后添加剩余的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initial character upper case
 # Using upper() + string slicing
@@ -28,7 +28,7 @@ print("The string after uppercasing initial character : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after uppercasing initial character : Geeksforgeeks
 

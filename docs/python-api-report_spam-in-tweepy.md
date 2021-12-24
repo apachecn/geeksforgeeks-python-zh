@@ -22,7 +22,7 @@ Tweepy 模块中`API`类的 **`report_spam()`** 方法用于报告用户为认�
 **示例 1 :** 报告并阻止以下用户:
 ![](img/8da53542541b344c917b1a23ecfd6fc3.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,7 +54,7 @@ api.report_spam(screen_name = screen_name)
 **例 2 :** 只报以下账户(不要屏蔽):
 ![](img/8da53542541b344c917b1a23ecfd6fc3.png)
 
-```
+```py
 # the account to be reported
 screen_name = "twitter"
 

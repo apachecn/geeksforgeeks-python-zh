@@ -7,7 +7,7 @@
 **方法#1:使用`defaultdict()` +循环**
 上述功能的组合可用于执行该任务。在本文中，我们使用 defaultdict()提取每个元素的频率，并在遍历 defaultdict 之后提取最小频率元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract least frequency element
 # using defaultdict() + loop
@@ -36,7 +36,7 @@ print("The minimum occurring element is : " + str(tar_ele))
 
 **Output :**
 
-```
+```py
 The original list : [1, 3, 4, 5, 1, 3, 5]
 The minimum occurring element is : 4
 

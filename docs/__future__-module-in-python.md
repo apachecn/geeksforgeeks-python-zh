@@ -32,14 +32,14 @@ Python 未来模块中有七个特性。
 
 ## 计算机编程语言
 
-```
+```py
 import __future__
 print(__future__.all_feature_names)
 ```
 
 **输出:**
 
-```
+```py
 ['nested_scopes',  
 'generators',
 'division',
@@ -55,7 +55,7 @@ print(__future__.all_feature_names)
 
 Python2 打印语句不同于 Python3 打印功能。我们将 Python2 中的 Python 打印语句用作:
 
-```
+```py
 print "Hello world"
 ```
 
@@ -63,7 +63,7 @@ print "Hello world"
 
 ## 计算机编程语言
 
-```
+```py
 # Code in Python 2
 from __future__ import print_function
 
@@ -72,7 +72,7 @@ print("Hello world")
 
 **输出:**
 
-```
+```py
 Hello world
 ```
 
@@ -82,14 +82,14 @@ Hello world
 
 ## 计算机编程语言
 
-```
+```py
 # In 2.7 python compiler
 print("Hello world", end=" ")
 ```
 
 **输出:**
 
-```
+```py
 File "main.py", line 1
     print("Hello world", end=" ")
                             ^
@@ -100,7 +100,7 @@ SyntaxError: invalid syntax
 
 ## 计算机编程语言
 
-```
+```py
 # In 2.7 python compiler
 from __future__ import print_function
 
@@ -109,7 +109,7 @@ print("Hello world", end=";")
 
 **输出:**
 
-```
+```py
 Hello world;
 ```
 
@@ -119,14 +119,14 @@ sep 也属于 Python 3.x，但是这里我们将通过使用这个模块来使�
 
 ## 蟒蛇 3
 
-```
+```py
 # In 2.7 python compiler
 print('Welcome ', ' Geeksforgeeks', sep = ' To ')
 ```
 
 **输出:**
 
-```
+```py
   File "main.py", line 1
     print('Welcome ', ' Geeksforgeeks', sep=' To ')
                                            ^
@@ -137,7 +137,7 @@ SyntaxError: invalid syntax
 
 ## 计算机编程语言
 
-```
+```py
 # In 2.7 python compiler
 from __future__ import print_function
 print('Welcome ', ' Geeksforgeeks', sep=' To ')
@@ -145,7 +145,7 @@ print('Welcome ', ' Geeksforgeeks', sep=' To ')
 
 **输出:**
 
-```
+```py
 Welcome To Geeksforgeeks
 ```
 
@@ -157,7 +157,7 @@ Welcome To Geeksforgeeks
 
 ## 计算机编程语言
 
-```
+```py
 # In 2.7 python compiler
 print 7 / 5
 
@@ -166,7 +166,7 @@ print -7 / 5
 
 **输出:**
 
-```
+```py
 1.4
 -1.4
 ```
@@ -175,7 +175,7 @@ print -7 / 5
 
 ## 计算机编程语言
 
-```
+```py
 # In below python 2.x code, division works
 # same as Python 3.x because we use  __future__
 
@@ -187,7 +187,7 @@ print -7 / 5
 
 **输出:**
 
-```
+```py
 1.4
 -1.4
 ```
@@ -202,14 +202,14 @@ print -7 / 5
 
 ## 计算机编程语言
 
-```
+```py
 # code in Python2
 print(type("Geeks"))
 ```
 
 **输出:**
 
-```
+```py
 <type 'str'>
 ```
 
@@ -217,7 +217,7 @@ print(type("Geeks"))
 
 ## 计算机编程语言
 
-```
+```py
 # code in Python2
 from __future__ import unicode_literals
 
@@ -226,7 +226,7 @@ print(type("Geeks"))
 
 **输出:**
 
-```
+```py
 <type 'unicode'>
 ```
 
@@ -236,7 +236,7 @@ print(type("Geeks"))
 
 ## 计算机编程语言
 
-```
+```py
 # encoding: utf-8
 name = 'helló wörld from example'
 print name.encode('utf8')
@@ -244,7 +244,7 @@ print name.encode('utf8')
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "main.py", line 3, in <module>
     print name.encode('utf8')
@@ -255,7 +255,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 4: ordinal 
 
 ## 计算机编程语言
 
-```
+```py
 # encoding: utf-8
 from __future__ import unicode_literals
 name = 'helló wörld from example'
@@ -264,6 +264,6 @@ print name.encode('utf8')
 
 **输出:**
 
-```
+```py
 helló wörld from example
 ```

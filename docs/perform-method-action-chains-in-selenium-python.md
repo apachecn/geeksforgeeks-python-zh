@@ -7,26 +7,26 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 perform()
 ```
 
 **示例–**
 
-```
+```py
 <input type ="text" name ="passwd" id ="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 ```
 
 现在可以使用执行方法作为动作链，如下所示–
 
-```
+```py
 action.click(on_element=element)
 action.perform()
 
@@ -38,7 +38,7 @@ action.perform()
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

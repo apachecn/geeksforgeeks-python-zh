@@ -10,7 +10,7 @@
 
 我们可以使用命令安装 Pygame:
 
-```
+```py
 pip install pygame 
 ```
 
@@ -47,7 +47,7 @@ Pygame 可以用来创建一个文本输入框，这将在本文中逐步解释�
 
 ## 蟒蛇 3
 
-```
+```py
 # import sys module
 import pygame
 import sys

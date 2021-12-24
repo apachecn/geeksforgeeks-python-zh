@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the use
 # of fast Input / Output
 import io, os, time
@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the use
 # of fast Input / Output
 import time, sys

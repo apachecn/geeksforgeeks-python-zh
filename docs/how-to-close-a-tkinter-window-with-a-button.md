@@ -19,7 +19,7 @@ Python 的 Tkinter 模块提供了 Button 函数，可以在 Tkinter 窗口中�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a close button
 # using destroy Non-Class method
 from tkinter import *
@@ -39,7 +39,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a close button
 # using destroy Non-Class method
 from tkinter import *
@@ -78,7 +78,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a close button
 # using destroy Class method
 from tkinter import *
@@ -106,7 +106,7 @@ test = Window()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a close button
 # using destroy Class method
 from tkinter import *
@@ -156,7 +156,7 @@ test = Window()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a close button
 # using quit method
 from tkinter import *

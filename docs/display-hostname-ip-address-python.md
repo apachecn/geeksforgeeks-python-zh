@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to display hostname and
 # IP address
 
@@ -37,7 +37,7 @@ get_Host_name_IP() #Function call
 
 **输出:**
 
-```
+```py
 Hostname :   pppContainer
 IP :  10.98.162.168
 ```

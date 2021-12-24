@@ -7,7 +7,7 @@
 **方法#1:使用`map() + int + split() + tuple()`**
 这个方法可以用来解决这个特殊的任务。在这种情况下，我们只需拆分字符串的每个元素并转换为列表，然后将列表转换为结果元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to Tuple
 # using map() + tuple() + int + split()
@@ -28,7 +28,7 @@ print("Tuple after getting conversion from String : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : 1, -5, 4, 6, 7
 Tuple after getting conversion from String : (1, -5, 4, 6, 7)
 

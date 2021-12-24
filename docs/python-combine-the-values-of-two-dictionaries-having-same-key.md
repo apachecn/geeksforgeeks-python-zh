@@ -9,7 +9,7 @@
 **方法#1:使用`Counter`**
 计数器是字典的一个特殊子类，在大多数情况下执行与字典相同的动作。
 
-```
+```py
 # Python code to demonstrate combining 
 # two dictionaries having same key
 

@@ -30,7 +30,7 @@ plotly 中的**线图**对 Plotly 来说是非常容易访问和显著的补充�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 x = [1,2,3,4,5]
@@ -49,7 +49,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import plotly.graph_objects as go
 
@@ -67,7 +67,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset
@@ -89,7 +89,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.iris().head(20)
@@ -108,7 +108,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset

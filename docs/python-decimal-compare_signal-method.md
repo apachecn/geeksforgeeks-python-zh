@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program explaining
 # compare_signal() method
 
@@ -41,7 +41,7 @@ print ("Decimal b with compare_signal() method : ", b.compare_signal(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  0.142857
 Decimal value b :  -1
 
@@ -54,7 +54,7 @@ Decimal b with compare_signal() method :  -1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program explaining
 # compare_signal() method
 
@@ -80,7 +80,7 @@ print ("Decimal b with compare_signal() method : ", b.compare_signal(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

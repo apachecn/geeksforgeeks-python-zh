@@ -4,7 +4,7 @@
 
 在 C/C++和 Java 中，我们可以编写如下的空函数
 
-```
+```py
 // An empty function in C/C++/Java
 void fun() {  }
 
@@ -12,20 +12,20 @@ void fun() {  }
 
 在 Python 中，如果我们用 Python 写类似下面这样的东西，会产生编译器错误。
 
-```
+```py
 # Incorrect empty function in Python
 def fun(): 
 ```
 
 输出:
 
-```
+```py
 IndentationError: expected an indented block
 ```
 
 在 Python 中，为了编写空函数，我们使用**传递**语句。pass 是 Python 中的一个特殊语句，它不做任何事情。它只是作为一个伪语句工作。
 
-```
+```py
 # Correct way of writing empty function 
 # in Python
 def fun(): 
@@ -34,7 +34,7 @@ def fun(): 
 
 我们也可以在 while 语句中使用 pass。
 
-```
+```py
 # Empty loop in Python
 mutex = True
 while (mutex == True) :
@@ -43,7 +43,7 @@ while (mutex == True) :
 
 我们可以在空 if else 语句中使用 pass。
 
-```
+```py
 # Empty in if/else in Python
 mutex = True
 if (mutex == True) :

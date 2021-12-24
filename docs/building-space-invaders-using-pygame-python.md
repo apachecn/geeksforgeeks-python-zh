@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Collision
 collision = isCollision(bullet_X, invader_X[i], bullet_Y, invader_Y[i])
 if collision:
@@ -38,7 +38,7 @@ if collision:
 
 ## python 3
 
-```
+```py
 def isCollision(x1, x2, y1, y2):
     distance = math.sqrt((math.pow(x1 - x2, 2)) + (math.pow(y1 - y2, 2)))
     if distance <= 50:
@@ -59,7 +59,7 @@ def isCollision(x1, x2, y1, y2):
 
 ## python 3
 
-```
+```py
 # movement of the invader
 for i in range(no_of_invaders):
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -47,7 +47,7 @@ print(S.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -82,7 +82,7 @@ print(S.body.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -115,7 +115,7 @@ print(Parse.li)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -148,7 +148,7 @@ for TraverseTags in S.recursiveChildGenerator():
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -177,7 +177,7 @@ print(f'HTML: {S.ul}, name: {S.ul.name}, text: {S.ul.text}')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -213,7 +213,7 @@ print(Attr_Tag)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -250,7 +250,7 @@ print(Attr_Tag)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 
@@ -282,7 +282,7 @@ for tag in S.find_all('p'):
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup class from the bs4 module
 from bs4 import BeautifulSoup
 

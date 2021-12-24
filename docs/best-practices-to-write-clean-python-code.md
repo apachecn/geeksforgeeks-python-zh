@@ -21,7 +21,7 @@ Python 是当今最受欢迎的编程语言之一。令人震惊的是，Python 
 
 不像其他语言像 C++，Java 等。Python 依赖于空格或制表符缩进，而不是大括号指定的代码块。Python 中的每个语句前面都有一个空格、双空格或制表符。您不能在一个地方使用制表符，在另一个地方使用空格，因为缩进需要在整个代码中保持一致。这告诉 Python 您正在开始一个新的代码块。下面提供了一些 Python 缩进的示例:
 
-```
+```py
 # an example of if-else with tab indentation
 if (condition 1):
     # executed when condition is True
@@ -29,7 +29,7 @@ else:
     # executed when condition is False
 ```
 
-```
+```py
 # an example of for loop with nested if-else and double space indentation
 for i in sequence:
   if (condidition 1):
@@ -46,13 +46,13 @@ for i in sequence:
 
 Python 中的虚拟环境是项目的一种沙箱区域。在这种环境中，无论您将安装什么库和包，都将与安装在环境之外的库和包明确隔离开来，比如操作系统或其他虚拟环境。一个时间点可以有多个虚拟环境，建议每次处理不同或新的项目时都使用这些环境。这有助于分离依赖关系，并有助于轻松共享代码。下次有人想运行你的软件，而不是让他们一个接一个地安装库，你可以发送需求文件(包含该特定项目的所有已安装的包和库)。这可以使用*冻结*命令来完成，如下所示:
 
-```
+```py
 pip freeze > requirements.txt
 ```
 
 该命令列出所有已安装的软件包，并将它们输出到 requirements.txt 文本文件中。下次有人安装它时，他们可以运行以下命令:
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 Python 开发人员严格遵循 DRY 原则，即不要重复自己。这意味着如果您想多次完成一项任务，而不是编写冗余代码。这不仅意味着编写函数来执行重复的任务，而是制作模块。模块更像是一个代码库，通常是一个包含您想要在 Python 程序中实现的代码的文件。Python 社区非常庞大，许多开发人员已经实现了涉及频繁使用的代码的模块。您可以制作自己的模块来执行特定的任务！因此，您可以简单地导入模块并使用其功能，而不是重新发明轮子并从头开始编写代码。这是通过使用*导入*关键字来完成的:
 
-```
+```py
 # importing regular expression package
 import re
 

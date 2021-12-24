@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中获得图像的线性二进制模式。局部二值模式是计算机视觉中用于分类的一种视觉描述符。LBP 是 1990 年提出的纹理谱模型的特例。1994 年首次描述了 LBP。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.nuclear_image()
 **注意:**的输入应该是过滤后的图像或者加载为灰色
 为了对图像进行过滤，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import mahotas
 import mahotas.demos
@@ -74,7 +74,7 @@ plt.hist(value)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

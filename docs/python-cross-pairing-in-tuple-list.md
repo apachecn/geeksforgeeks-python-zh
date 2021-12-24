@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross Pairing in Tuple List
 # Using list comprehension
@@ -40,7 +40,7 @@ print("The mapped tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [(1, 7), (6, 7), (9, 100), (4, 21)]
 The original list 2 : [(1, 3), (2, 1), (9, 7), (2, 17)]
 The mapped tuples : [(7, 3), (100, 7)]
@@ -53,7 +53,7 @@ The mapped tuples : [(7, 3), (100, 7)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross Pairing in Tuple List
 # Using zip() + list comprehension
@@ -75,7 +75,7 @@ print("The mapped tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [(1, 7), (6, 7), (9, 100), (4, 21)]
 The original list 2 : [(1, 3), (2, 1), (9, 7), (2, 17)]
 The mapped tuples : [(7, 3), (100, 7)]

@@ -8,7 +8,7 @@ Python 定义了一个内置模块**日历**，处理与日历相关的操作。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to display calendar of
 # given month of the year
 
@@ -30,7 +30,7 @@ print(calendar.month(yy, mm))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # calendar() function to print calendar
 

@@ -39,7 +39,7 @@ Placeholder 属性用于给出提示，告知输入字段期望什么输入，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 

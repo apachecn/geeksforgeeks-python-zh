@@ -8,7 +8,7 @@ T3 上的操作**日历:**T7**1。日历(年、w、l、c)** :-该功能显示年
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # calendar() and firstweeksday()
 
@@ -27,7 +27,7 @@ print (calendar.firstweekday())
 
 输出:
 
-```
+```py
 The calendar of year 2012 is : 
                                   2012
 
@@ -75,7 +75,7 @@ The starting day number in calendar is : 0
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # isleap() and leapdays()
 
@@ -94,7 +94,7 @@ print (calendar.leapdays(1950, 2000))
 
 输出:
 
-```
+```py
 The year is leap
 The leap days between 1950 and 2000 are : 12
 ```
@@ -103,7 +103,7 @@ The leap days between 1950 and 2000 are : 12
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # month()
 
@@ -117,7 +117,7 @@ print (calendar.month(2016,5,2,1))
 
 输出:
 
-```
+```py
 The month 5th of 2016 is :
       May 2016
 Mo Tu We Th Fr Sa Su

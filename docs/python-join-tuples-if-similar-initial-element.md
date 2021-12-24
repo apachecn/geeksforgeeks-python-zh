@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是完成这个任务的蛮力方式。在这种情况下，如果我们之前没有发现相似的元组值，我们就创建新的元组。切片用于将剩余元素添加到创建的元组中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Join Tuples if similar initial element
 # Using loop
@@ -40,7 +40,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6), (5, 7), (6, 8), (6, 10), (7, 13)]
 The extracted elements : [(5, 6, 7), (6, 8, 10), (7, 13)]
 
@@ -49,7 +49,7 @@ The extracted elements : [(5, 6, 7), (6, 8, 10), (7, 13)]
 **方法 2:使用`defaultdict()` +循环**
 以上功能的组合可以解决这个问题。上述方法的优点是，它减少了初始化新密钥的一次检查，并且即使相似的元素不连续也能很好地工作。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Join Tuples if similar initial element
 # Using defaultdict() + loop
@@ -74,7 +74,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6), (5, 7), (6, 8), (6, 10), (7, 13)]
 The extracted elements : [(5, 6, 7), (6, 8, 10), (7, 13)]
 

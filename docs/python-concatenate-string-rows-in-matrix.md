@@ -7,7 +7,7 @@
 **方法一:使用 `join()` +列表理解**
 上述功能的组合可以帮助在一行中获得这个特定问题的解决方案，因此非常有用。连接函数计算子列表的连接，并使用列表理解将所有这些绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # Row String Concatenation Matrix
 # using join() + list comprehension
@@ -28,7 +28,7 @@ print("The row concatenation in matrix : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [['gfg', ' is', ' best'], ['Computer', ' Science'], ['GeeksforGeeks']]
 The row concatenation in matrix : ['gfg is best', 'Computer Science', 'GeeksforGeeks']
 

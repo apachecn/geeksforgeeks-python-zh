@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import datetime
 
@@ -43,7 +43,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import datetime
 

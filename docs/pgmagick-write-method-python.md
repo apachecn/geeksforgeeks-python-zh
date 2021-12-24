@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > write(filename)
 > ```
 > 
@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -33,7 +33,7 @@ img.write('1_a.png')
 ![](img/7fd9e25cace534fdb19ee301f75e50b0.png)
 **例 2:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 # Draw image of dimension 600 * 600 having background green

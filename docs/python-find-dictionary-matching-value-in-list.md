@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。为此，我们只需使用简单的检查和比较，一旦找到合适的匹配，就返回结果，并为其他字典中断。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find dictionary matching value in list
 # Using loop
@@ -34,7 +34,7 @@ print("The filtered dictionary value is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [{'is': 4, 'gfg': 2, 'best': 6}, {'is': 7, 'best': 8, 'it': 5}, {'CS': 10}]
 The filtered dictionary value is : {'is': 7, 'best': 8, 'it': 5}
 

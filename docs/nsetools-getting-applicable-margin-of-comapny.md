@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -37,7 +37,7 @@ print("Applicable Margin  : " + str(value))
 
 **输出:**
 
-```
+```py
 Applicable Margin  : 19.23
 ```
 
@@ -45,7 +45,7 @@ Applicable Margin  : 19.23
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -67,6 +67,6 @@ print("Applicable Margin  : " + str(value))
 
 **输出:**
 
-```
+```py
 Applicable Margin  : 18.2
 ```

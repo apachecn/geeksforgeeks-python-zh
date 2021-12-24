@@ -5,7 +5,7 @@
 给定一个字符串。任务是检查它是否是二进制字符串。
 **例:**
 
-```
+```py
 Input: str = "01010101010"
 Output: Yes
 
@@ -20,7 +20,7 @@ Output: No
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check
 # if a string is binary or not
 
@@ -57,7 +57,7 @@ if __name__ == "__main__" :
 
 **Output**
 
-```
+```py
 Yes
 ```
 
@@ -69,7 +69,7 @@ Yes
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check
 # if a string is binary or not
 
@@ -122,7 +122,7 @@ if __name__ == "__main__" :
 
 **Output**
 
-```
+```py
 No
 ```
 
@@ -134,7 +134,7 @@ No
 
 ## 蟒蛇 3
 
-```
+```py
 #import library
 import re
 
@@ -154,6 +154,6 @@ else:
 
 **Output**
 
-```
+```py
 Yes
 ```

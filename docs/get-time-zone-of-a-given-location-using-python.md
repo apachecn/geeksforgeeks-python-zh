@@ -8,14 +8,14 @@
 
 1.  **时区查找器:**这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install timezonefinder
 
 ```
 
 *   **地质:**。geopy 使 Python 开发人员可以轻松定位世界各地的地址、城市、国家和地标的坐标。要安装 Geopy 模块，请在您的终端中运行以下命令。
 
-```
+```py
 pip install geopy
 
 ```
@@ -26,7 +26,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 from timezonefinder import TimezoneFinder
 ```
 
@@ -34,7 +34,7 @@ from timezonefinder import TimezoneFinder
 
 ## 蟒蛇 3
 
-```
+```py
 # object creation
 obj = TimezoneFinder()
 ```
@@ -43,7 +43,7 @@ obj = TimezoneFinder()
 
 ## 蟒蛇 3
 
-```
+```py
 # pass the longitude and latitude
 # in timezone_at and
 # it return time zone 
@@ -54,7 +54,7 @@ obj.timezone_at(lng=latitude, lat=longitude)
 
 **输出:**
 
-```
+```py
 'Asia/Kolkata'
 
 ```
@@ -72,7 +72,7 @@ obj.timezone_at(lng=latitude, lat=longitude)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from geopy.geocoders import Nominatim
 from timezonefinder import TimezoneFinder
@@ -102,7 +102,7 @@ print("Time Zone : ", result)
 
 **输出:**
 
-```
+```py
 Location address: Dhaka
 Latitude and Longitude of the said address:
 (23.810651, 90.4126466)

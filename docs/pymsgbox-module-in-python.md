@@ -8,7 +8,7 @@ PyMsgBox 是简单的、跨平台的，像 JavaScript 一样纯粹用 Python 实
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install PyMsgBox
 ```
 
@@ -26,13 +26,13 @@ PyMsgBox 中有四个函数，它们遵循 JavaScript 的消息框命名约定:
 
 **语法:**
 
-```
+```py
 alert(text='', title='', button='OK')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 import pymsgbox as a
 
 b = a.alert("This is alreat", 'Title')
@@ -51,13 +51,13 @@ print(b)
 
 **语法:**
 
-```
+```py
 confirm(text='', title='', buttons=['OK', 'Cancel'])
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 import pymsgbox as a
 
 a.confirm('This is text', 'This is title', ' ')
@@ -73,13 +73,13 @@ a.confirm('This is text', 'This is title', ' ')
 
 **语法:**
 
-```
+```py
 prompt(text='', title='', defaultValue='')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 import pymsgbox as a
 
 a.prompt('Text', 'Title', 'Default')
@@ -95,13 +95,13 @@ a.prompt('Text', 'Title', 'Default')
 
 **语法:**
 
-```
+```py
 password(text,title,masking-character)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 import pymsgbox as a
 
 a.password("Enter Password", 'This is Title of your application', '', '-')

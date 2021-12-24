@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 1000000
 Output : 1,000,000
 
@@ -18,14 +18,14 @@ Output : 1,000
 Python 2.7 中引入了将{}与 format()函数一起使用，并且通常在字符串格式中代替“%”使用。
 <font size="+0.5">**句法**</font>
 
-```
+```py
 " ".format()
 
 ```
 
 示例:
 
-```
+```py
 Input  : print ('{0}, {1}, {2}'.format('a', 'b', 'c'))
 Output : a, b, c
 
@@ -36,7 +36,7 @@ Output : c, a, b
 
 这里，我们使用了“{:，}”和 format()函数，从左边开始每隔一千个位置添加逗号。这是在 Python3 中引入的，它会在编写以下语法时自动添加一个逗号。
 
-```
+```py
 def place_value(number):
     return ("{:,}".format(number))
 
@@ -45,7 +45,7 @@ print(place_value(1000000))
 
 输出:
 
-```
+```py
 1,000,000
 
 ```

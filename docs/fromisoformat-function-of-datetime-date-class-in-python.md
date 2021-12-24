@@ -16,7 +16,7 @@ fromisoformat() 函数用于根据包含 ISO 格式日期的指定字符串构�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3.7 code for Getting
 # a date object from a specified
 # string that contains date in
@@ -38,7 +38,7 @@ print("The constructed date object is: %s"%New_date);
 
 **输出:**
 
-```
+```py
 The constructed date object is: 2012-10-12
 ```
 
@@ -46,7 +46,7 @@ The constructed date object is: 2012-10-12
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3.7 code for Getting
 # a date object from a specified
 # string that contains date in
@@ -64,6 +64,6 @@ print(date.fromisoformat('2020-10-09'))
 
 **输出:**
 
-```
+```py
 2020-10-09
 ```

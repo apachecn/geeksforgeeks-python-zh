@@ -8,19 +8,19 @@
 
 **bs4:** 美人汤(bs4)是一个从 HTML 和 XML 文件中提取数据的 Python 库。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 **urlib:**urlib 包是 python 的统一资源定位器处理库。它用于获取网址。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install urllib
 ```
 
 **NLTK:**NLTK 库是 python 中用于自然语言处理的海量工具包，这个模块通过提供整个 NLP 方法论来帮助我们。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install nltk
 ```
 
@@ -36,7 +36,7 @@ pip install nltk
 
 ## 计算机编程语言
 
-```
+```py
 import nltk
 s = input('Enter the file name which contains a sentence: ')
 file1 = open(s)
@@ -59,7 +59,7 @@ file2.close()
 
 ## 计算机编程语言
 
-```
+```py
 import urllib.request
 from bs4 import BeautifulSoup
 url = input('Enter URL of Webpage: ')
@@ -80,7 +80,7 @@ soup = BeautifulSoup(webpage_data, 'html.parser')
 
 ## 计算机编程语言
 
-```
+```py
 web_page_paragraph_contents = soup('p')
 web_page_data = ''
 for para in web_page_paragraph_contents:
@@ -96,7 +96,7 @@ for para in web_page_paragraph_contents:
 
 ## 计算机编程语言
 
-```
+```py
 from nltk.tokenize import word_tokenize
 import re
 sentence_without_punctuations = re.sub(r'[^\w\s]', '', sentence)
@@ -111,7 +111,7 @@ web_page_paragraphs_without_punctuations = re.sub(r'[^\w\s]', '', web_page_data)
 
 ## 计算机编程语言
 
-```
+```py
 sentence_after_tokenizing = word_tokenize(sentence_without_punctuations)
 paragraph_after_tokenizing = word_tokenize(paragraph_without_punctuations)
 webpage_after_tokenizing = word_tokenize(web_page_paragraphs_without_punctuations)
@@ -126,7 +126,7 @@ webpage_after_tokenizing = word_tokenize(web_page_paragraphs_without_punctuation
 
 ## 计算机编程语言
 
-```
+```py
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 nltk_stop_words = stopwords.words('english')
@@ -144,7 +144,7 @@ webpage_without_stopwords = [k for k in webpage_after_tokenizing if not k.lower(
 
 ## 计算机编程语言
 
-```
+```py
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 sentence_after_stemming= []
@@ -167,7 +167,7 @@ for word in webpage_without_stopwords:
 
 ## 计算机编程语言
 
-```
+```py
 from textblob import TextBlob
 final_words_sentence=[]
 final_words_paragraph=[]
@@ -215,7 +215,7 @@ print('\n')
 
 ## 计算机编程语言
 
-```
+```py
 from collections import Counter
 sentence_count = Counter(final_words_sentence)
 paragraph_count = Counter(final_words_paragraph)
@@ -226,7 +226,7 @@ webpage_count = Counter(final_words_webpage)
 
 ## 计算机编程语言
 
-```
+```py
 import nltk
 s = input('Enter the file name which contains a sentence: ')
 file1 = open(s)

@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 from collections import OrderedDict
 
@@ -28,7 +28,7 @@ print(od1)
 
 **输出:**
 
-```
+```py
 <class 'collections.OrderedDict'>
 OrderedDict([('1', 'one'), ('2', 'two')])
 ```
@@ -40,7 +40,7 @@ OrderedDict([('1', 'one'), ('2', 'two')])
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 from collections import OrderedDict
 import json
@@ -64,7 +64,7 @@ print(od1)
 
 **Output**
 
-```
+```py
 <class 'collections.OrderedDict'>
 <class 'str'>
 {"1": "one", "2": "two"}
@@ -74,7 +74,7 @@ print(od1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 from collections import OrderedDict
 import json
@@ -98,7 +98,7 @@ print(od1)
 
 **输出:**
 
-```
+```py
 <class 'collections.OrderedDict'>
 <class 'str'>
 {

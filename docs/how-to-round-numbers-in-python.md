@@ -19,7 +19,7 @@ Python 中有一个内置的 round()函数，它将一个数字舍入到给定�
 
 ## 蟒蛇 3
 
-```
+```py
 # For integers
 print(round(11))
 
@@ -40,7 +40,7 @@ print(round(4.473, 2))
 
 **输出:**
 
-```
+```py
 11
 23
 4.46
@@ -62,7 +62,7 @@ print(round(4.473, 2))
 
 ## 蟒蛇 3
 
-```
+```py
 # defining truncate function
 # second argument defaults to 0
 # so that if no argument is passed 
@@ -84,7 +84,7 @@ print(truncate(-2947.48, -3))
 
 **输出:**
 
-```
+```py
 16.0
 -3.8
 3.81
@@ -100,7 +100,7 @@ print(truncate(-2947.48, -3))
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import math library
 import math
 
@@ -120,7 +120,7 @@ print(math.floor(-0.5))**
 
 ******输出:******
 
-```
+```py
 **5
 0
 2
@@ -140,7 +140,7 @@ print(math.floor(-0.5))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import math library
 import math
 
@@ -162,7 +162,7 @@ print(round_up(2352, -2))**
 
 ******输出:******
 
-```
+```py
 **3.0
 2.3
 2.55
@@ -189,7 +189,7 @@ print(round_up(2352, -2))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import math
 
 # defining a function for
@@ -206,7 +206,7 @@ print(round_down(-0.5))**
 
 ******输出:******
 
-```
+```py
 **2.0
 2.4
 -1.0** 
@@ -225,7 +225,7 @@ print(round_down(-0.5))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import math
 
 # defining round_half_up
@@ -243,7 +243,7 @@ print(round_half_up(-1.225, 2))**
 
 ******输出:******
 
-```
+```py
 **1.3
 -1.0
 -1.23** 
@@ -256,7 +256,7 @@ print(round_half_up(-1.225, 2))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import math library
 import math
 
@@ -274,7 +274,7 @@ print(round_half_down(2.25, 1))**
 
 ******输出:******
 
-```
+```py
 **2.0
 -3.0
 2.2** 
@@ -296,7 +296,7 @@ print(round_half_down(2.25, 1))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import Decimal function from 
 # decimal library
 from decimal import Decimal
@@ -313,7 +313,7 @@ print(Decimal("1.675").quantize(Decimal("1.00")))**
 
 ******输出:******
 
-```
+```py
 **0.1
 0.1000000000000000055511151231257827021181583404541015625
 1.6

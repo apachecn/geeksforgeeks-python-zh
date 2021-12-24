@@ -35,14 +35,14 @@
 
 示例:
 
-```
+```py
 Input : (2, -3), (-4, 2)
 Output : Chain code for the straight line from (2, -3) to (-4, 2) is 333433
 ```
 
 ![](img/cd4c3580e77fd902df9eceaa56fcdcff.png)
 
-```
+```py
 
 Input : (-7, -4), (9, 3)
 Output : Chain code for the straight line from (-7, -4) to (9, 3) is 0101010100101010
@@ -52,7 +52,7 @@ Output : Chain code for the straight line from (-7, -4) to (9, 3) is 01010101001
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for generating 8-neighbourhood chain
 # code for a 2-D line
 
@@ -131,6 +131,6 @@ DriverFunction()
 
 **Output:** 
 
-```
+```py
 Chain code for the straight line from (-9, -3) to (10, 1) is 0010000100010000100
 ```

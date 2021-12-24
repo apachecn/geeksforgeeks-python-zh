@@ -20,7 +20,7 @@ Selenium 是通过程序控制网络浏览器和执行浏览器自动化的强�
 
 ## 蟒蛇 3
 
-```
+```py
 # import Module
 from selenium import webdriver
 
@@ -33,7 +33,7 @@ driver = webdriver.Chrome(
 
 ## 蟒蛇 3
 
-```
+```py
 def github_repo(user_name, pass_word,
                 repository_name, descriptions=False,
                 private=False, readme=False):
@@ -87,7 +87,7 @@ def github_repo(user_name, pass_word,
 
 ## 蟒蛇 3
 
-```
+```py
 github_repo("Enter Usename", "Enter Password",
             "Repository name")
 ```
@@ -96,7 +96,7 @@ github_repo("Enter Usename", "Enter Password",
 
 ## 蟒蛇 3
 
-```
+```py
 # import Module
 from selenium import webdriver
 

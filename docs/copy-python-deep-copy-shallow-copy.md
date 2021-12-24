@@ -11,7 +11,7 @@
 
 为了制作这些副本，我们使用`copy`模块。我们使用`copy`模块进行浅拷贝和深拷贝操作。例如
 
-```
+```py
 # importing copy module
 import copy
 
@@ -33,7 +33,7 @@ li3 = copy.deepcopy(li1) 
 
 深度复制是复制过程递归发生的过程。这意味着首先构造一个新的集合对象，然后递归地用在原始集合中找到的子对象的副本填充它。在深度复制的情况下，对象的副本被复制到其他对象中。这意味着**对对象**的副本所做的任何更改**都不会在原始对象中反映**。在 python 中，这是使用“ **deepcopy()** ”函数实现的。
 
-```
+```py
 # Python code to demonstrate copy operations
 
 # importing "copy" for copy operations
@@ -71,7 +71,7 @@ for i in range(0,len( li1)):
 
 **输出:**
 
-```
+```py
 The original elements before deep copying
 1 2 [3, 5] 4 
 The new list of elements after deep copying 
@@ -89,7 +89,7 @@ The original elements after deep copying
 
 浅拷贝意味着构建一个新的集合对象，然后用对在原始集合中找到的子对象的引用填充它。复制过程不会重复，因此不会创建子对象本身的副本。在浅层复制的情况下，对象的引用被复制到其他对象中。这意味着**对对象**的副本所做的任何更改**确实反映了原始对象中的**。在 python 中，这是使用“ **copy()** ”函数实现的。
 
-```
+```py
 # Python code to demonstrate copy operations
 
 # importing "copy" for copy operations
@@ -119,7 +119,7 @@ for i in range(0,len( li1)):
 
 **输出:**
 
-```
+```py
 The original elements before shallow copying
 1 2 [3, 5] 4 
 The original elements after shallow copying

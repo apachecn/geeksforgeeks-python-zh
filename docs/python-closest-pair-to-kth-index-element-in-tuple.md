@@ -19,7 +19,7 @@
 **方法#1:使用`enumerate()` +循环**
 以上功能的结合提供了蛮力的方式来解决这个问题。在这种情况下，我们使用 enumerate()来监视 index，使用 abs()来保持循环中每个元素的最小差异被检查。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Closest Pair to Kth index element in Tuple
 # Using enumerate() + loop
@@ -50,7 +50,7 @@ print("The nearest tuple to Kth index element is : " + str(test_list[res])) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (78, 76), (2, 3), (9, 8), (19, 23)]
 The nearest tuple to Kth index element is : (19, 23)
 
@@ -59,7 +59,7 @@ The nearest tuple to Kth index element is : (19, 23)
 **方法 2:使用`min()` + lambda**
 以上功能的组合提供了解决这个问题的简写。在这种情况下，我们使用 min()来寻找最小元素差，并且使用 lambda 函数来执行迭代和计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Closest Pair to Kth index element in Tuple
 # Using min() + lambda
@@ -86,7 +86,7 @@ print("The nearest tuple to Kth index element is : " + str(test_list[res])) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (78, 76), (2, 3), (9, 8), (19, 23)]
 The nearest tuple to Kth index element is : (19, 23)
 

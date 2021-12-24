@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```py
 Input : The quick brown fox jumps over the lazy dog.
 Output : The Quick Brown Fox Jumps over the Lazy Dog.
 
@@ -30,7 +30,7 @@ Output : A Tale of Two Cities
 
 上述算法的实现是:
 
-```
+```py
 # Function to convert into title case
 def generateTitleCase(input_string):
 
@@ -90,7 +90,7 @@ if __name__=='__main__':  
 
 **输出:**
 
-```
+```py
 The Quick Brown Fox Jumps over the Lazy Dog. 
 A Tale of Two Cities 
 ```

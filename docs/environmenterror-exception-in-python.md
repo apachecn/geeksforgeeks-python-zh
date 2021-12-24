@@ -13,7 +13,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the module
 import sys
 
@@ -27,7 +27,7 @@ except Exception as e:
 
 ****Output**
 
-```
+```py
 [Errno 2] No such file or directory: 'GeeksforGeeks.txt'
 <class 'FileNotFoundError'>
 
@@ -37,7 +37,7 @@ except Exception as e:
 
  **## 蟒蛇 3
 
-```
+```py
 # importing the module
 import os
 import sys
@@ -53,7 +53,7 @@ except Exception as e:
 
 **Output**
 
-```
+```py
 0
 [Errno 25] Inappropriate ioctl for device
 <class 'OSError'>
@@ -64,7 +64,7 @@ except Exception as e:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import sys
 import os
@@ -79,7 +79,7 @@ except Exception as e:
 
 **Output**
 
-```
+```py
 [Errno 2] No such file or directory: 'GEEKS'
 <class 'FileNotFoundError'>
 

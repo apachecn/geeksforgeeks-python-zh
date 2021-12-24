@@ -8,7 +8,7 @@
 
 在本文中，我们将研究如何用 Python 创建人口金字塔。为了达到我们的目的，我们将使用两个额外的库**熊猫**和**来绘制我们的图表。如果您没有安装这些库，您可以通过 pip 命令安装它们。**
 
-```
+```py
 pip install plotly
 ```
 
@@ -18,7 +18,7 @@ pip install plotly
 
 ## 计算机编程语言
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import plotly.graph_objects as gp
@@ -28,7 +28,7 @@ import plotly.graph_objects as gp
 
 ## 计算机编程语言
 
-```
+```py
 data = pd.read_csv('India-2019.csv')
 display(data)
 ```
@@ -47,7 +47,7 @@ display(data)
 
 ## 计算机编程语言
 
-```
+```py
 y_age = data['Age']
 x_M = data['M']
 x_F = data['F'] * -1
@@ -61,7 +61,7 @@ x_F = data['F'] * -1
 
 ## 计算机编程语言
 
-```
+```py
 # Creating instance of the figure
 fig = gp.Figure()
 

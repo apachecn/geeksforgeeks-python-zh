@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 from datetime import datetime
 
@@ -51,7 +51,7 @@ print()
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 from datetime import datetime
 
@@ -102,7 +102,7 @@ print("Timezone name:", mydt.tzname())
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 from datetime import datetime
 

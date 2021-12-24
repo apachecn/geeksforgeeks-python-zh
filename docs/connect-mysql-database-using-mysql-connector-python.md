@@ -12,7 +12,7 @@ Python 的 MySQL 连接器模块用于连接 MySQL 数据库和 Python 程序，
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to connect
 # to mysql database
 

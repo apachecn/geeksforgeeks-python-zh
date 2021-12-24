@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate 2 Matrix Row-wise
 # Using loop + enumerate()
@@ -63,7 +63,7 @@ print("The concatenated Matrix : " + str(test_list1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate 2 Matrix Row-wise
 # Using zip() + list comprehension

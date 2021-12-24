@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中获得图像的 haralick 特征。哈拉利克纹理特征是根据灰度共生矩阵计算的，该矩阵计算图像中相邻灰度的共生情况。灰度共生矩阵是一个正方形矩阵，其维数为感兴趣区域的灰度级数。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.nuclear_image()
 **注意:**的输入应该是过滤后的图像或者加载为灰色
 为了对图像进行过滤，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import mahotas
 import mahotas.demos
@@ -75,7 +75,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

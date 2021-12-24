@@ -28,7 +28,7 @@ Python 也支持函数式编程范例，而不支持任何特殊功能或库。
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # pure functions
 
@@ -54,7 +54,7 @@ print("Modified List:", Modified_List)
 
 **输出:**
 
-```
+```py
 Original List: [1, 2, 3, 4]
 Modified List: [1, 4, 9, 16]
 
@@ -68,7 +68,7 @@ Modified List: [1, 4, 9, 16]
 
 **示例:**让我们考虑一个程序，它将在不使用任何 for 循环的情况下找到列表所有元素的总和。
 
-```
+```py
 # Python program to demonstrate
 # recursion
 
@@ -96,7 +96,7 @@ print(Sum(L, 0, n, count))
 
 **输出:**
 
-```
+```py
 15
 
 ```
@@ -113,7 +113,7 @@ print(Sum(L, 0, n, count))
 *   您可以从函数返回函数。
 *   您可以将它们存储在数据结构中，如哈希表、列表等
 
-```
+```py
 # Python program to demonstrate
 # higher order functions
 
@@ -134,7 +134,7 @@ greet(whisper) 
 
 **输出:**
 
-```
+```py
 HI, I AM CREATED BY A FUNCTION PASSED AS AN ARGUMENT.
 hi, I am created by a function passed as an argument.
 
@@ -158,7 +158,7 @@ hi, I am created by a function passed as an argument.
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate working 
     # of map. 
 
@@ -180,7 +180,7 @@ hi, I am created by a function passed as an argument.
 
     **输出:**
 
-    ```
+    ```py
     <map object at 0x7fae3004b630>
     2 4 6 8 
 
@@ -200,7 +200,7 @@ hi, I am created by a function passed as an argument.
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate working 
     # of the filter. 
 
@@ -228,7 +228,7 @@ hi, I am created by a function passed as an argument.
 
     **输出:**
 
-    ```
+    ```py
     The filtered letters are:
     e
     e
@@ -241,7 +241,7 @@ hi, I am created by a function passed as an argument.
 
     **语法:**
 
-    ```
+    ```py
     lambda arguments: expression
 
     ```
@@ -253,7 +253,7 @@ hi, I am created by a function passed as an argument.
 
     **示例:**
 
-    ```
+    ```py
     # Python code to demonstrate
     # lambda
 
@@ -268,7 +268,7 @@ hi, I am created by a function passed as an argument.
 
     **输出:**
 
-    ```
+    ```py
     343
     [2, 4, 6]
 
@@ -282,7 +282,7 @@ hi, I am created by a function passed as an argument.
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate 
 # immutable data types
 
@@ -296,7 +296,7 @@ immutable[1] = 'K'
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/ee8bf8d8f560b97c7ec0ef080a077879.py", line 10, in immutable[1] = 'K'
 TypeError: 'str' object does not support item assignment 

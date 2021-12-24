@@ -14,7 +14,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 3)Kivy
 > 4)Kivy 的小部件和代码理解
 
-```
+```py
 Basic approach to make A calculator:
 
 1) import kivy
@@ -41,7 +41,7 @@ Basic approach to make A calculator:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to create a calculator
 
 # Program to Show how to create a switch
@@ -97,7 +97,7 @@ calcApp.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Custom button
 <CustButton@Button>:
     font_size: 32

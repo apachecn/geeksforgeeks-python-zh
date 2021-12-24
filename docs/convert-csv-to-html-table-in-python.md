@@ -5,7 +5,7 @@
 [CSV](https://www.geeksforgeeks.org/working-csv-files-python/) 文件是一个逗号分隔值文件，使用逗号分隔值。它基本上用于在不同的应用程序之间交换数据。在这种情况下，单独的行用换行符隔开。每行中的数据字段用逗号分隔。
 **例:**
 
-```
+```py
 Name, Salary, Age, No.of years employed
 Akriti, 90000, 20, 1
 Shreya, 100000, 21, 2
@@ -19,7 +19,7 @@ Neha, 46000, 25, 4
 
 **方法 1 使用熊猫:**将 CSV 文件转换为 HTML 表格最简单的方法之一就是使用熊猫。在命令提示符下键入下面的代码来安装熊猫。
 
-```
+```py
 pip install pandas 
 ```
 
@@ -29,7 +29,7 @@ pip install pandas
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert
 # CSV to HTML Table
 
@@ -53,7 +53,7 @@ html_file = a.to_html()
 
 **方法 2 使用 PrettyTable:** PrettyTable 是一个简单的 Python 库，旨在使在视觉上吸引人的 ASCII 表中表示表格数据变得快速而简单。键入以下命令安装此模块。
 
-```
+```py
 pip install PrettyTable
 ```
 
@@ -61,7 +61,7 @@ pip install PrettyTable
 
 ## 蟒蛇 3
 
-```
+```py
 from prettytable import PrettyTable
 
 # open csv file

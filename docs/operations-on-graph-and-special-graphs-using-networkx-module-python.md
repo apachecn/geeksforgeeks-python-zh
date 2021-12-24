@@ -10,7 +10,7 @@
 
 给定一个图及其节点集的子集，我们可以通过选择这些节点以及它们之间的所有边来创建一个子图，就像在原始图中一样。下面的代码将清楚地说明这个操作。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -30,7 +30,7 @@ nx.draw_networkx(G)
 原图:
 ![](img/af9b2ee314584a04999a641744eae6a2.png)
 
-```
+```py
 H = G.subgraph([1, 2, 3, 4])
 # [1, 2, 3, 4] is the subset of 
 # the original set of nodes
@@ -48,7 +48,7 @@ nx.draw_networkx(H)
 
 给定两个图 G 和 H，这两个图的并集创建了一个可能有多个连通分量的图。但是我们必须记住，G 和 H 的节点集应该是不相交的，换句话说，这两个图不应该有任何共同的节点。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -79,7 +79,7 @@ nx.draw_networkx(I)
 
 新形成的图 I 是图 g 和 h 的并集，如果我们在两个图之间确实有公共节点，并且仍然想得到它们的并集，那么我们将使用另一个叫做`disjoint_set()`的函数
 
-```
+```py
 I = nx.disjoint_set(G, H)
 ```
 
@@ -94,7 +94,7 @@ I = nx.disjoint_set(G, H)
 *   i=k 并且![(h_j, h_l)](img/730a681d9a93a0889de948d709bf9734.png "Rendered by QuickLaTeX.com")作为 H 中的边存在
 *   j=l 并且![(g_i, g_k)](img/0a15aac5af4b6a26f6f6af76d12ea2fe.png "Rendered by QuickLaTeX.com")在 G 中作为边存在
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -126,7 +126,7 @@ nx.draw_networkx(I)
 给定两个图 G 和 H，如果它们没有公共节点，那么这两个图的组合将产生一个具有 2 个连通分量的图(假设 G 和 H 是连通图)。这和我们用`nx.union(G, H)`或者`nx.disjoint_union(G, H)`得到的结果是一样的。
 但是如果 G 和 H 有公共节点，这两个图的合成将产生一个连通图，使得 G 和 H 是新图的子图。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -158,7 +158,7 @@ nx.draw_networkx(I)
 
 给定一个图 G，G 的补(比如 H)有 G 的所有节点，它有 G 没有的所有可能的边。设 V 和 E 为 G 的节点和边的集合，那么 H 有`{(|V|*(|V|-1))/2 - |E|}` 个数的边。因此，完全图的补图没有边。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -182,7 +182,7 @@ nx.draw_networkx(H)
 
 给定一个无向图 G，这个 Networkx 函数将通过用双向有向边替换它的边，把它转换成有向图。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -206,7 +206,7 @@ nx.draw_networkx(H)
 
 给定一个有向图 G，这个 Networkx 函数将把它的所有有向边转换成无向边，从而把它转换成无向图。如果具有不同属性(权重、颜色等)的一对节点之间存在两条边。)，则只创建一条边，可以任意选择使用哪条边数据。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -230,7 +230,7 @@ nx.draw_networkx(H)
 
 **彼得森图:**彼得森图是一个有 10 个顶点和 15 条边的无向图。这是一个小图，作为图论中许多问题的一个有用的例子和反例。
 
-```
+```py
 import networkx as nx 
 import matplotlib.pyplot as plt
 
@@ -246,7 +246,7 @@ nx.draw_networkx(G)
 
 **图特图:**图特图是一个 3- [正则图](https://en.wikipedia.org/wiki/Regular_graph)，有 46 个顶点和 69 条边。Tutte 图是一个[立方](https://en.wikipedia.org/wiki/Cubic_graph) [多面体](https://en.wikipedia.org/wiki/Polyhedral_graph)图，但是是非[哈密顿](https://en.wikipedia.org/wiki/Hamiltonian_path)。所以是 [Tait 猜想的反例。](https://en.wikipedia.org/wiki/Tait%27s_conjecture)每个 3-正多面体都有一个哈密顿圈。
 
-```
+```py
 # Tutte Graph
 plt.subplot(12, 1, 2)
 G = nx.tutte_graph()
@@ -257,7 +257,7 @@ nx.draw_networkx(G)
 
 **Sedgewick 迷宫图:** Sedgewick 的迷宫算法用于生成大型迷宫。与此方法相关的 Networkx 函数返回一个有循环的小迷宫。
 
-```
+```py
 # Sedgewick Maze Graph
 plt.subplot(12, 1, 3)
 G = nx.sedgewick_maze_graph()
@@ -268,7 +268,7 @@ nx.draw_networkx(G)
 
 **四面体图:**返回一个完整的图，图中有四个四面体形状的节点。
 
-```
+```py
 # Tetrahedral Graph
 plt.subplot(12, 1, 4)
 G = nx.tetrahedral_graph()
@@ -279,7 +279,7 @@ nx.draw_networkx(G)
 
 **完全图:**返回给定边数的完全图。
 
-```
+```py
 # Complete Graph with 5 nodes
 plt.subplot(12, 1, 5)
 G = nx.complete_graph(6)
@@ -290,7 +290,7 @@ nx.draw_networkx(G)
 
 **完全二部图:**给定两个数字 n 和 m，它返回一个有两组 n 和 m 节点的图，其中一组的一个节点连接到另一组的所有节点，但没有自己组的节点。这种类型的图被称为[二分图](http://mathworld.wolfram.com/BipartiteGraph.html)。
 
-```
+```py
 # Complete Bipartite Graph with 5 and 3 nodes
 plt.subplot(12, 1, 6)
 G = nx.complete_bipartite_graph(5, 3)
@@ -301,7 +301,7 @@ nx.draw_networkx(G)
 
 **杠铃图:**给定两个参数 n 和 m，它返回一个有两个[集团](https://en.wikipedia.org/wiki/Clique_(graph_theory))的图，这两个集团由 n 个节点组成，节点之间通过 m 个节点连接。
 
-```
+```py
 # Barbell Graph with clique of 4 and bridging of 2 nodes
 plt.subplot(12, 1, 7)
 
@@ -313,7 +313,7 @@ nx.draw_networkx(G)
 
 **棒棒糖图:**给定两个参数 n 和 m，它返回一个由 n 个顶点组成的团连接到 m 个节点的路径的图。
 
-```
+```py
 # Lollipop Graph with clique of 5 and path of 2 nodes
 plt.subplot(12, 1, 8)
 G = nx.lollipop_graph(5, 2)
@@ -324,7 +324,7 @@ nx.draw_networkx(G)
 
 **鄂尔多斯仁义图:**给定两个参数 n 和 p，返回 n 个节点的图，选择每条边的概率为 p。详情见[这篇](https://www.geeksforgeeks.org/erdos-renyl-model-generating-random-graphs/)文章。
 
-```
+```py
 # Erdos Renyi Graph with 20 nodes and probability of 0.25
 plt.subplot(12, 1, 9)
 
@@ -336,7 +336,7 @@ nx.draw_networkx(G)
 
 **Watts Strogatz Graph:** 给定三个参数 n、k 和 p，返回一个由 n 个节点组成的小世界网络，每个节点连接到 k 个最近的邻居，每个边重新布线的概率为 p。
 
-```
+```py
 # Watts Strogatz Graph with 20 nodes, 
 # 4 neighbours and probability of 0.2
 plt.subplot(12, 1, 10)
@@ -348,7 +348,7 @@ nx.draw_networkx(G)
 
 **巴拉巴斯艾伯特图:**给定两个参数 n 和 m，返回一个巴拉巴斯艾伯特优先附着图，该图有 n 个节点和 m 条边要从新节点附着到现有节点。
 
-```
+```py
 # Barabasi Albert Graph with 20 nodes and 3 attaching nodes
 plt.subplot(12, 1, 11)
 G = nx.barabasi_albert_graph(20, 3)
@@ -359,7 +359,7 @@ nx.draw_networkx(G)
 
 **随机龙虾图:**给定三个参数 n、p1 和 p2，返回一个龙虾图。龙虾是一种在修剪所有叶子节点时会变成毛毛虫的树。毛毛虫是在修剪所有叶节点时简化为路径图的树。图的主干中有 n 个节点，p1 向主干增加一条边的概率，p2 向主干之外增加一条边的概率。
 
-```
+```py
 # Random Lobster Graph with 30 base
 # nodes and probabilites of 0.8
 plt.subplot(12, 1, 12)

@@ -6,7 +6,7 @@ Python Lambda 函数是匿名函数意味着函数没有名字。我们已经知
 
 **Python Lambda 函数语法:**
 
-```
+```py
 lambda arguments: expression
 ```
 
@@ -21,7 +21,7 @@ lambda arguments: expression
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lambda functions
 
@@ -33,7 +33,7 @@ print(lambda string : string)
 
 **Output**
 
-```
+```py
 <function <lambda> at 0x7f65e6bbce18>
 ```
 
@@ -45,7 +45,7 @@ print(lambda string : string)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lambda functions
 
@@ -57,7 +57,7 @@ x ="GeeksforGeeks"
 
 **Output**
 
-```
+```py
 GeeksforGeeks
 ```
 
@@ -67,7 +67,7 @@ GeeksforGeeks
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate cube of a number
 # showing difference between def() and lambda().
 def cube(y):
@@ -85,7 +85,7 @@ print(lambda_cube(5))
 
 **输出:**
 
-```
+```py
 125
 125
 ```
@@ -103,7 +103,7 @@ print(lambda_cube(5))
 
 ## 蟒蛇 3
 
-```
+```py
 tables = [lambda x=x: x*10 for x in range(1, 11)]
 
 for table in tables:
@@ -112,7 +112,7 @@ for table in tables:
 
 **Output**
 
-```
+```py
 10
 20
 30
@@ -129,7 +129,7 @@ for table in tables:
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of lambda function using if-else
 Max = lambda a, b : a if(a > b) else b
 
@@ -138,7 +138,7 @@ print(Max(1, 2))
 
 **Output**
 
-```
+```py
 2
 ```
 
@@ -148,7 +148,7 @@ Lambda 函数不允许多个语句，但是，我们可以创建两个 lambda �
 
 ## 蟒蛇 3
 
-```
+```py
 List = [[2,3,4],[1, 4, 16, 64],[3, 6, 9, 12]]
 
 # Sort each sublist
@@ -163,7 +163,7 @@ print(res)
 
 **Output**
 
-```
+```py
 [3, 16, 9]
 ```
 
@@ -179,7 +179,7 @@ Python 中的 filter()函数接受一个函数和一个列表作为参数。这�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # filter() with lambda()
 li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
@@ -190,7 +190,7 @@ print(final_list)
 
 **输出:**
 
-```
+```py
 [5, 7, 97, 77, 23, 73, 61]
 ```
 
@@ -198,7 +198,7 @@ print(final_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to people above 18 yrs
 ages = [13, 90, 17, 59, 21, 60, 5]
 
@@ -209,7 +209,7 @@ print(adults)
 
 **输出:**
 
-```
+```py
 [90, 59, 21, 60]
 ```
 
@@ -221,7 +221,7 @@ Python 中的 map()函数接受一个函数和一个列表作为参数。使用 
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # map() with lambda()
 # to get double of a list.
@@ -233,7 +233,7 @@ print(final_list)
 
 **输出:**
 
-```
+```py
 [10, 14, 44, 194, 108, 124, 154, 46, 146, 122]
 ```
 
@@ -241,7 +241,7 @@ print(final_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # use of lambda() function
 # with map() function
@@ -256,7 +256,7 @@ print(uppered_animals)
 
 **输出:**
 
-```
+```py
 ['DOG', 'CAT', 'PARROT', 'RABBIT']
 ```
 
@@ -268,7 +268,7 @@ Python 中的 reduce()函数接受一个函数和一个列表作为参数。使�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # reduce() with lambda()
 # to get sum of a list
@@ -281,7 +281,7 @@ print (sum)
 
 **输出:**
 
-```
+```py
 193
 ```
 
@@ -291,7 +291,7 @@ print (sum)
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of reduce()
 # with a lambda function
 
@@ -308,7 +308,7 @@ print (functools.reduce(lambda a,b : a if a > b else b,lis))
 
 **输出:**
 
-```
+```py
 The maximum element of the list is : 6
 ```
 

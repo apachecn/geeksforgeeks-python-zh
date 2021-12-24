@@ -11,7 +11,7 @@
 
 **例子:**让我们确定报纸引用的像州总统这样的个性的关注，让我们以 MERKEL 为例
 
-```
+```py
 import pprint
 import requests
 
@@ -44,7 +44,7 @@ pprint.pprint(response_json)
 
 让我们把所有的文本结合起来，把单词从大到小排序。
 
-```
+```py
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
@@ -82,7 +82,7 @@ for k,v, in sorted(wordcount.items(),
 
 现在我们可以通过删除不良单词来删除和格式化文本
 
-```
+```py
 # initializing bad_chars_list 
 bad_words = ["a", "the" , "of", "in", "to", "and", "on", "de", "with", 
              "by", "at", "dans", "ont", "été", "les", "des", "au", "et", 
@@ -125,7 +125,7 @@ for k,v, in sorted(wordcount.items(),
 
 让我们绘制输出图
 
-```
+```py
 word = WordCloud(max_font_size = 40).generate(rst)
 plt.figure()
 plt.imshow(word, interpolation ="bilinear")
@@ -139,7 +139,7 @@ plt.show()
 
 正如你在文章描述中看到的，对默克尔最主要的担忧是他的国防部长克拉普-卡伦鲍尔，卡兹林只是指女性总理。我们可以只用标题做同样的工作
 
-```
+```py
 title_combined = ''
 
 for i in response_json['articles']:

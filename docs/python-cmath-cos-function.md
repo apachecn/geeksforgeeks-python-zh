@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cos()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (-0.9899924966004454-0j)
 ```
 
@@ -42,7 +42,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cos()function
 
@@ -58,6 +58,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 (-30.88223531891674-67.47278844058752j)
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3, 4]
 Output : (1, 2, 3, 4)
 
@@ -19,7 +19,7 @@ Output : ('a', 'b', 'c')
 
 简单地使用 tuple(list_name)就可以完成对 tuple 的类型转换。
 
-```
+```py
 # Python3 program to convert a 
 # list into a tuple
 def convert(list):
@@ -32,7 +32,7 @@ print(convert(list))
 
 **Output:**
 
-```
+```py
 (1, 2, 3, 4)
 
 ```
@@ -40,7 +40,7 @@ print(convert(list))
 **方法 2 :**
 上述方法的一个小变化是在`tuple()`内部使用一个循环。
 
-```
+```py
 # Python3 program to convert a 
 # list into a tuple
 def convert(list):
@@ -53,7 +53,7 @@ print(convert(list))
 
 **Output:**
 
-```
+```py
 (1, 2, 3, 4)
 
 ```
@@ -61,7 +61,7 @@ print(convert(list))
 **方法#3 :** 使用`(*list, )`
 这实际上是将列表 l 解包到元组文本中，该元组文本是由于单个逗号(，)的存在而创建的。这种方法速度稍快，但可读性较差。
 
-```
+```py
 # Python3 program to convert a 
 # list into a tuple
 def convert(list):
@@ -74,7 +74,7 @@ print(convert(list))
 
 **Output:**
 
-```
+```py
 (1, 2, 3, 4)
 
 ```

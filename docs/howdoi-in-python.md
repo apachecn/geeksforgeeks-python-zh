@@ -8,13 +8,13 @@
 
 **安装命令:**
 
-```
+```py
 pip install howdoi
 ```
 
 **用法:**
 
-```
+```py
 howdoi *QUERY*
 ```
 

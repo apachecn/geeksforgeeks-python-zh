@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```py
 /* C++ program to count no of words
 from given input string. */
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main(void)
 
 ## C
 
-```
+```py
 /* C program to count no of words from given input string. */
 #include <stdio.h>
 
@@ -109,7 +109,7 @@ int main(void)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 /* Java program to count no of words
 from given input string. */
 public class GFG {
@@ -160,7 +160,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to count words
 # in a given string
 OUT = 0
@@ -200,7 +200,7 @@ print("No. of words : " + str(countWords(string)))
 
 ## C#
 
-```
+```py
 // C# program to count no of words
 // from given input string.
 using System;
@@ -258,7 +258,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to count no of
 // words from given input string
@@ -312,7 +312,7 @@ echo "No of words : " . countWords($str);
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to count no of words
 // from given input string.
@@ -365,7 +365,7 @@ echo "No of words : " . countWords($str);
 
 **Output**
 
-```
+```py
 No of words : 5
 ```
 
@@ -385,7 +385,7 @@ No of words : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to count total
 // number of words in the string
 class GFG
@@ -430,7 +430,7 @@ class GFG
 
 **Output**
 
-```
+```py
 No of words : 5
 ```
 
@@ -448,7 +448,7 @@ No of words : 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to count total
 // number of words in the string
 import java.util.StringTokenizer;
@@ -495,7 +495,7 @@ class GFG
 
 **Output**
 
-```
+```py
 No of words: 5
 ```
 
@@ -515,7 +515,7 @@ No of words: 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to count total
 // number of words in the string
 class GFG
@@ -595,7 +595,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to count total
 # number of words in the string
 
@@ -655,7 +655,7 @@ print("No of words :", countWords(Str))
 
 ## C#
 
-```
+```py
 // C# program to count total
 // number of words in the string
 using System;
@@ -737,7 +737,7 @@ public class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 // Javascript program to count total
 // number of words in the string
@@ -814,7 +814,7 @@ document.write("No of words : " +
 
 **Output**
 
-```
+```py
 No of words : 5
 ```
 

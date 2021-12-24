@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 ```

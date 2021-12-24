@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `count()`**
 这里应用的思想是使用列表理解构建一个新的列表，并且只插入那些出现 K 次以上的元素。计数操作是在计数功能的帮助下完成的。
 
-```
+```py
 # Python3 code to demonstrate
 # remove elements less than and equal K 
 # using list comprehension + count()
@@ -31,7 +31,7 @@ print("The list removing elements less than and equal K  : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 4, 3, 2, 3, 3, 2, 2, 2, 1]
 The list removing elements less than and equal K  : [3, 2, 3, 3, 2, 2, 2]
 

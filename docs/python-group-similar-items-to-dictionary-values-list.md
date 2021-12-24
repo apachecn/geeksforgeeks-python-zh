@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Similar items to Dictionary Values List
 # Using defaultdict + loop
@@ -43,7 +43,7 @@ print("Similar grouped dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 6, 4, 2, 2, 4, 4, 8, 5, 8]
 Similar grouped dictionary : {4: [4, 4, 4, 4], 6: [6, 6], 2: [2, 2], 8: [8, 8], 5: [5]}
 
@@ -55,7 +55,7 @@ Similar grouped dictionary : {4: [4, 4, 4, 4], 6: [6, 6], 2: [2, 2], 8: [8, 8], 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Similar items to Dictionary Values List
 # Using dictionary comprehension + Counter()
@@ -76,7 +76,7 @@ print("Similar grouped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 6, 4, 2, 2, 4, 4, 8, 5, 8]
 Similar grouped dictionary : {4: [4, 4, 4, 4], 6: [6, 6], 2: [2, 2], 8: [8, 8], 5: [5]}
 

@@ -8,7 +8,7 @@
 
 **枕头:** Python 图像库(PIL 的扩展)是Python 语言事实上的图像处理包。它集成了用于编辑、创建、和保存图像的轻量级图像处理工具。
 
-```
+```py
 pip install pillow
 ```
 
@@ -40,7 +40,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Opening the primary image (used in background)
@@ -77,7 +77,7 @@ img1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img1 = Image.open(r"BACKGROUND_IMAGE_PATH")

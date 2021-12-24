@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all functions/classes
 # from tkinter module 
 from tkinter import *
@@ -75,7 +75,7 @@ root.mainloop() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all functions/classes
 # from tkinter module 
 from tkinter import *
@@ -123,7 +123,7 @@ root.mainloop() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all functions/classes 
 # from tkinter module 
 from tkinter import *

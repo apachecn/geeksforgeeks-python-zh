@@ -13,7 +13,7 @@
 **方法#1 : loop + `enumerate()`**
 以上功能的组合可以用来解决这个问题。这是一种蛮力方法，我们循环遍历每个字典列表，执行操作并存储结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Binary operation on specific keys in Dictionary List
 # Using loop + enumerate()
@@ -49,7 +49,7 @@ print("The constructed result list : " + str(res)) 
 **方法 2:使用列表理解+ `enumerate()`**
 以上功能的组合也可以用来解决这个问题。在这种情况下，我们以速记的方式使用列表理解来执行类似的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Binary operation on specific keys in Dictionary List
 # Using list comprehension + enumerate()

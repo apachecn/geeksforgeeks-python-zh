@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct Grades List
 # Using list comprehension + ord()
@@ -36,7 +36,7 @@ print("Grades List : " + str(res))
 
 **Output : **
 
-```
+```py
 Grades List : ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-']
 ```
 
@@ -45,7 +45,7 @@ Grades List : ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct Grades List
 # Using join() + map() + product() + ascii_uppercase
@@ -65,6 +65,6 @@ print("Grades List : " + str(res))
 
 **Output : **
 
-```
+```py
 Grades List : ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-']
 ```

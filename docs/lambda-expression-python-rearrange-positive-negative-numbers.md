@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  arr[] = [12, 11, -13, -5, 6, -7, 5, -3, -6]
 Output : arr[] = [-13, -5, -7, -3, -6, 12, 11, 6, 5]
 
@@ -17,7 +17,7 @@ Output : arr[] =  [-12, -5, -7, -3, -6, 11, 0, 6, 5]
 
 这个问题有很多解决方法请参考[重新排列正负数字](https://www.geeksforgeeks.org/rearrange-positive-negative-numbers-using-inbuilt-sort-function/)链接，但是我们将用 python 中的单行代码使用 [Lambda 表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)来解决这个问题。
 
-```
+```py
 # Function to rearrange positive and negative elements
 def Rearrange(arr):
 
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 arr[] = [-13, -5, -7, -3, -6, 12, 11, 6, 5]
 
 ```

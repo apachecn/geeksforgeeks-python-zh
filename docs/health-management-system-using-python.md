@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def getdate():
 
     # to get date and time
@@ -29,7 +29,7 @@ def getdate():
 
 ## 蟒蛇 3
 
-```
+```py
 def selectname():
 
     name = {1: "Nilesh", 2: "Shanu"}
@@ -53,7 +53,7 @@ def selectname():
 
 ## 蟒蛇 3
 
-```
+```py
 def select_file_action():
 
     a = {1: "Log", 2: "Retrieve"}
@@ -75,7 +75,7 @@ def select_file_action():
 
 ## 蟒蛇 3
 
-```
+```py
 def select_task():
 
     b = {1: "Food", 2: "Exercise"}
@@ -97,7 +97,7 @@ def select_task():
 
 ## 蟒蛇 3
 
-```
+```py
 def action(n, x, y):
 
     # condition no 1
@@ -187,7 +187,7 @@ def action(n, x, y):
 
 ## 计算机编程语言
 
-```
+```py
 import datetime
 
 def getdate():

@@ -19,7 +19,7 @@ Index 元素用于表示元素在列表中的位置。这里我们通过元素�
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of subjects
 data = ["java", "python", "HTML", "PHP"]
 
@@ -37,7 +37,7 @@ for i in range(len(data)):
 
 **输出:**
 
-```
+```py
 Indices in the list:
 0
 1
@@ -56,7 +56,7 @@ PHP
 
 ## 计算机编程语言
 
-```
+```py
 # create a list of subjects
 data = ["java", "python", "HTML", "PHP"]
 
@@ -69,7 +69,7 @@ for i in enumerate(data):
 
 **输出:**
 
-```
+```py
 Indices and values in list:
 (0, 'java')
 (1, 'python')
@@ -83,7 +83,7 @@ Indices and values in list:
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of subjects
 data = ["java", "python", "HTML", "PHP"]
 
@@ -101,7 +101,7 @@ print([data[i] for i in range(len(data))])
 
 **输出:**
 
-```
+```py
 Indices in list:
 [0, 1, 2, 3]
 values in list:
@@ -114,7 +114,7 @@ Zip 方法用于一次压缩索引和值，我们必须传递两个列表，一�
 
 ## 蟒蛇 3
 
-```
+```py
 # create a index list that stores list
 indexlist = [0, 1, 2, 3]
 
@@ -130,7 +130,7 @@ for index, value in zip(indexlist, data):
 
 **输出:**
 
-```
+```py
 index and values in list:
 0 java
 1 python

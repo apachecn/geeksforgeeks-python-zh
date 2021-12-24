@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate character addition
 # Using loop
@@ -35,7 +35,7 @@ print("String after character addition : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks
 String after character addition : g*e*e*k*s*f*o*r*g*e*e*k*s
 ```
@@ -45,7 +45,7 @@ String after character addition : g*e*e*k*s*f*o*r*g*e*e*k*s
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate character addition
 # Using join()
@@ -69,7 +69,7 @@ print("String after character addition : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks
 String after character addition : g*e*e*k*s*f*o*r*g*e*e*k*s
 ```

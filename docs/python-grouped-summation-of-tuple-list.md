@@ -8,7 +8,7 @@
 
 此任务可以使用计数器功能来执行，因为它在内部进行分组，加法运算符可用于指定分组结果的功能。
 
-```
+```py
 # Python3 code to demonstrate
 # group summation of tuple list 
 # using Counter() + "+" operator
@@ -35,7 +35,7 @@ print("The grouped summation tuple list is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 : [('key1', 4), ('key3', 6), ('key2', 8)]
 The original list 2 : [('key2', 1), ('key1', 4), ('key3', 2)]
 The grouped summation tuple list is : [('key2', 9), ('key1', 8), ('key3', 8)]

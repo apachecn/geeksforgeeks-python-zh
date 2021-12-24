@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import findspark
 findspark.init()
 
@@ -63,7 +63,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Add new column with NUll
 from pyspark.sql.functions import lit
 df = df.withColumn("Rewards", lit(None))
@@ -94,7 +94,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import findspark
 findspark.init()
 
@@ -128,7 +128,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Add new column with NUll
 from pyspark.sql.functions import lit
 df = df.select('*', lit(None).alias("Rewards"))
@@ -158,7 +158,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import findspark
 findspark.init()
 
@@ -192,7 +192,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Add columns to DataFrame using SQL
 df.createOrReplaceTempView("GFG_Table")
 

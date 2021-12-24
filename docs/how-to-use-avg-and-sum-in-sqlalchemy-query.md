@@ -8,13 +8,13 @@
 
 SQLAlchemy 可通过 pip 安装包获得。
 
-```
+```py
 pip install sqlalchemy
 ```
 
 但是，如果您正在使用 flask，您可以使用它自己的 SQLAlchemy 实现。它可以通过以下方式安装–
 
-```
+```py
 pip install flask-sqlalchemy
 ```
 
@@ -39,7 +39,7 @@ pip install flask-sqlalchemy
 
 ## 计算机编程语言
 
-```
+```py
 import sqlalchemy as db
 
 # Define the Engine (Connection Object)

@@ -11,7 +11,7 @@ commit()方法用于确保对数据库的更改是一致的。它基本上提供
 
 **语法:**
 
-```
+```py
 comm.commit() #comm refers to the database connection object
 ```
 
@@ -25,7 +25,7 @@ comm.commit() #comm refers to the database connection object
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # commit() method
 
@@ -62,7 +62,7 @@ rollback()方法用于还原上次对数据库所做的更改。如果出现对�
 
 **语法:**
 
-```
+```py
 comm.rollback() #comm refers to the database connection object
 ```
 
@@ -70,7 +70,7 @@ comm.rollback() #comm refers to the database connection object
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # rollback() method
 
@@ -115,12 +115,12 @@ mydb.close()
 
 如果数据库事务成功，输出将是，
 
-```
+```py
 Database Updated!
 ```
 
 如果数据库事务失败，输出将是一个错误，
 
-```
+```py
 Database Update Failed!
 ```

@@ -10,13 +10,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 [锚定布局](https://www.geeksforgeeks.org/python-anchorlayout-in-kivy/)将其子元素与边框(顶部、底部、左侧、右侧)或中心对齐。下面给出的类用于实现锚点布局。
 
-```
+```py
  kivy.uix.anchorlayout.AnchorLayout
 ```
 
 锚定布局可以用参数初始化:
 
-```
+```py
 anchor_x
 Parameters can be passed: “left”, “right” and “center”.
 
@@ -31,7 +31,7 @@ Parameters can be passed:“top”,  “bottom” and “center”.
 > 
 > 左上、中上、右上、中左、中右、中右、左下、中下和右下。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -52,7 +52,7 @@ Basic Approach:
 
 **main.py file –**
 
-```
+```py
 # Sample Python application demonstrating the
 # working of AnchorLayout in Kivy using .kv file
 
@@ -93,7 +93,7 @@ if __name__=='__main__':
 
 **。kv 文件–**
 
-```
+```py
 # Implementation of .kv file of Anchor layout
 
 ################################################

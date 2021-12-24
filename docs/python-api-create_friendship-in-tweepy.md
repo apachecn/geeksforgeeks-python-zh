@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`create_friendship()`** 方法用于在经过身�
 **示例 1 :** 使用屏幕名称创建友谊。考虑以下账户:
 ![](img/a67cc9fb38edfd1453359824a88d14fd.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ api.create_friendship(screen_name)
 **示例 2 :** 使用用户 id 创建友谊。考虑以下账户:
 ![](img/8c3e11832dd86970de6b8f8b388da378.png)
 
-```
+```py
 # user id of the account to be followed
 user_id = 103770785
 
@@ -63,7 +63,7 @@ api.create_friendship(user_id)
 
 **输出:**
 
-```
+```py
 The user id 57741058 corresponds to the user with the name : GeeksforGeeks
 
 The screen name geeksforgeeks corresponds to the user with the name : GeeksforGeeks

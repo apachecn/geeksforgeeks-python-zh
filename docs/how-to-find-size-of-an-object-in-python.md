@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: 
 # Any Integer Value
 sys.getsizeof(4) 
@@ -33,7 +33,7 @@ Actual Output: 28 bytes
 
 **例:**
 
-```
+```py
 import sys
 
 a=sys.getsizeof(12) 
@@ -57,7 +57,7 @@ print(f)
 
 **输出:**
 
-```
+```py
 28
 54
 88

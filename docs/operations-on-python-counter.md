@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 # Counter used in string to find frequencies of all its unique Characters
 
@@ -25,7 +25,7 @@ print("t1 :", t1)
 
 **Output:** 
 
-```
+```py
 c1 : Counter({'b': 3, 'c': 3, 'a': 2, 'f': 2, 'e': 1, 'd': 1})
 t1 : Counter({1: 3, 4: 3, 0: 2, 3: 2, 6: 2, 2: 1, 5: 1})
 ```
@@ -34,7 +34,7 @@ t1 : Counter({1: 3, 4: 3, 0: 2, 3: 2, 6: 2, 2: 1, 5: 1})
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 d ='aabbbcccdeff'
 d = Counter(d)
@@ -57,7 +57,7 @@ print("sorted(d) :", sorted(d))
 
 **Output:** 
 
-```
+```py
 d : Counter({'b': 3, 'c': 3, 'a': 2, 'f': 2, 'e': 1, 'd': 1})
 d.values() :  dict_values([2, 3, 3, 2, 1, 1])
 d.items() : dict_items([('a', 2), ('b', 3), ('c', 3), ('f', 2), ('e', 1), ('d', 1)])
@@ -70,7 +70,7 @@ sorted(d) : ['a', 'b', 'c', 'd', 'e', 'f']
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 t1 = Counter('aabbddffggjik')
 t2 = Counter('aaabbbssshhhggdkkll')
@@ -82,7 +82,7 @@ print("t1 + t2 :", t1 + t2)
 
 **Output:** 
 
-```
+```py
 t1: Counter({'g': 2, 'a': 2, 'b': 2, 'f': 2, 'd': 2, 'k': 1, 'j': 1, 'i': 1})
 t2: Counter({'a': 3, 'b': 3, 'h': 3, 's': 3, 'l': 2, 'g': 2, 'k': 2, 'd': 1})
 t1+t2 : Counter({'a': 5, 'b': 5, 'g': 4, 'k': 3, 'h': 3, 'd': 3, 's': 3, 'l': 2, 'f': 2, 'j': 1, 'i': 1})
@@ -93,7 +93,7 @@ t1+t2 : Counter({'a': 5, 'b': 5, 'g': 4, 'k': 3, 'h': 3, 'd': 3, 's': 3, 'l': 2,
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 t1 = Counter('aabbddffggjik')
 t2 = Counter('aaabbbssshhhggdkkll')
@@ -106,7 +106,7 @@ print("t2-t1 :", t2-t1)
 
 **Output:** 
 
-```
+```py
 t1: Counter({'f': 2, 'd': 2, 'b': 2, 'a': 2, 'g': 2, 'k': 1, 'i': 1, 'j': 1})
 t2: Counter({'h': 3, 'b': 3, 'a': 3, 's': 3, 'l': 2, 'k': 2, 'g': 2, 'd': 1})
 t1-t2 : Counter({'f': 2, 'i': 1, 'j': 1, 'd': 1})
@@ -118,7 +118,7 @@ t2-t1 : Counter({'h': 3, 's': 3, 'l': 2, 'k': 1, 'b': 1, 'a': 1})
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 t1 = Counter('aaabbbbccdeeee')
 t2 = Counter('aabbccccdddee')
@@ -130,7 +130,7 @@ print("t1&t2 :", t1&t2)
 
 **Output:** 
 
-```
+```py
 t1 : Counter({'e': 4, 'b': 4, 'a': 3, 'c': 2, 'd': 1})
 t2 : Counter({'c': 4, 'd': 3, 'a': 2, 'e': 2, 'b': 2})
 t1&t2 : Counter({'c': 2, 'a': 2, 'e': 2, 'b': 2, 'd': 1})
@@ -141,7 +141,7 @@ t1&t2 : Counter({'c': 2, 'a': 2, 'e': 2, 'b': 2, 'd': 1})
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 t1 = Counter('aaabbbbccdeeee')
 t2 = Counter('aabbccccdddee')
@@ -153,7 +153,7 @@ print("t1|t2 :", t1|t2)
 
 **Output:** 
 
-```
+```py
 t1 : Counter({'b': 4, 'e': 4, 'a': 3, 'c': 2, 'd': 1})
 t2 : Counter({'c': 4, 'd': 3, 'a': 2, 'b': 2, 'e': 2})
 t1|t2 : Counter({'b': 4, 'e': 4, 'c': 4, 'a': 3, 'd': 3})

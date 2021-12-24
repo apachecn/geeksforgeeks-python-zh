@@ -6,7 +6,7 @@
 
 **代码#1:测试某个函数引发了值错误异常**
 
-```
+```py
 import unittest
 
 # A simple function to illustrate
@@ -20,7 +20,7 @@ class TestConversion(unittest.TestCase):
 
 **代码#2:需要用不同的方法测试异常的值**
 
-```
+```py
 import errno
 
 class TestIO(unittest.TestCase):
@@ -37,7 +37,7 @@ class TestIO(unittest.TestCase):
 
 **代码#3:示例**
 
-```
+```py
 class TestConversion(unittest.TestCase):
     def test_bad_int(self):
         try:
@@ -50,7 +50,7 @@ class TestConversion(unittest.TestCase):
 
 **代码#4 :**
 
-```
+```py
 class TestConversion(unittest.TestCase):
     def test_bad_int(self):
         try:
@@ -66,7 +66,7 @@ class TestConversion(unittest.TestCase):
 
 **代码#5 :**
 
-```
+```py
 class TestConversion(unittest.TestCase):
     def test_bad_int(self):
         self.assertRaisesRegex(
@@ -78,7 +78,7 @@ class TestConversion(unittest.TestCase):
 
 **代码#6 :**
 
-```
+```py
 class TestConversion(unittest.TestCase):
     def test_bad_int(self):
         with self.assertRaisesRegex(ValueError, 'invalid literal .*'):

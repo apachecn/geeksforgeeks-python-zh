@@ -6,7 +6,7 @@
 
 1.  A very unique feature of Python is that it returns multiple values at a time.
 
-    ```
+    ```py
     def GFG():
         g = 1 
         f = 2
@@ -18,21 +18,21 @@
 
     **Output:**
 
-    ```
+    ```py
     (1, 2)
 
     ```
 
 2.  Allow negative indexing: Python allows negative indexing of its sequence. Index -1 refers to the last element, -2 seconds refers to the last element and so on.
 
-    ```
+    ```py
     my_list = ['geeks', 'practice', 'contribute']
     print(my_list[-1])
     ```
 
     **Output:**
 
-```
+```py
 contribute
 
 ```

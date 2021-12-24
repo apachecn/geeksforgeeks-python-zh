@@ -7,7 +7,7 @@
 **方法#1:使用访问方法**
 这是可以执行元组内部对象编辑的方法之一。这类似于任何其他容器和使用列表访问方法的地方。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Edit objects inside tuple
 # Using Access Methods
@@ -28,7 +28,7 @@ print("The modified tuple : " + str(test_tuple)) 
 
 **Output :**
 
-```
+```py
 The original tuple : (1, [5, 6, 4], 9, 10)
 The modified tuple : (1, [5, 6, 14], 9, 10)
 

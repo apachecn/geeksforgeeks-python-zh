@@ -7,7 +7,7 @@
 **方法#1:使用`list() + keys()`**
 上述方法的组合可用于执行该特定任务。在这种情况下，我们只需将 keys()提取的整个字典的键转换成一个列表，然后只需访问 Kth 键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extracting Kth Key in Dictionary
 # Using keys() + list()
@@ -31,7 +31,7 @@ print("The Kth key of dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'Gfg': 1, 'is': 2}
 The Kth key of dictionary is : Gfg
 

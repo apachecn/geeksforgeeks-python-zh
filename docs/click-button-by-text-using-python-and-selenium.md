@@ -8,13 +8,13 @@ Selenium 是一个工具，它提供 API 来自动化 web 应用程序，以帮�
 
 确保您使用安装了 Selenium
 
-```
+```py
 pip3 install Selenium
 ```
 
 并为您的网络浏览器下载网络驱动程序:
 
-```
+```py
 Chrome : https://chromedriver.chromium.org/downloads
 Firefox : https://github.com/mozilla/geckodriver/releases
 Safari : https://webkit.org/blog/6900/webdriver-support-in-safari-10/
@@ -24,7 +24,7 @@ Safari : https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
 **语法:**
 
-```
+```py
 driver.find_element_by_link_text("sample text")
 ```
 
@@ -40,7 +40,7 @@ driver.find_element_by_link_text("sample text")
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from selenium import webdriver
 import time

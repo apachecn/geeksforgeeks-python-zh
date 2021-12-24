@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpymodule
 import numpy
 
@@ -23,7 +23,7 @@ a
 
 **输出**:
 
-```
+```py
 name 'np' is not defined
 ```
 
@@ -35,7 +35,7 @@ name 'np' is not defined
 
 **语法**:
 
-```
+```py
 import numpy as np
 ```
 
@@ -43,7 +43,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpymodule
 import numpy as np
 
@@ -56,7 +56,7 @@ a
 
 **输出**:
 
-```
+```py
 array([ 1,  2,  3, 45])
 ```
 
@@ -66,7 +66,7 @@ array([ 1,  2,  3, 45])
 
 **语法**:
 
-```
+```py
 import numpy
 ```
 
@@ -74,7 +74,7 @@ import numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpymodule
 import numpy
 
@@ -87,6 +87,6 @@ a
 
 **输出**:
 
-```
+```py
 array([ 1,  2,  3, 45])
 ```

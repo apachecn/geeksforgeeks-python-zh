@@ -15,7 +15,7 @@ instaloader 模块可以用来下载 profile/Instagram 用户的一切，你需�
 
 ### 安装:
 
-```
+```py
  pip install instaloader
 ```
 
@@ -65,7 +65,7 @@ instaloader 模块可以用来下载 profile/Instagram 用户的一切，你需�
 
 ## 蟒蛇 3
 
-```
+```py
 import instaloader
 
 # Get instance
@@ -87,7 +87,7 @@ profile = instaloader.Profile.from_username(loader.context,
 
 ## 蟒蛇 3
 
-```
+```py
 # returns iterator to list of followers of given profile
 followers = profile.get_followers()
 

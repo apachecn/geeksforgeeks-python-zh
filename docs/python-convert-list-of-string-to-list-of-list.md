@@ -7,7 +7,7 @@
 **方法#1:使用`strip() + split()`**
 结合剥离和拆分功能可以执行特定的任务。strip 函数可以用来去掉括号，split 函数可以使数据列表用逗号分隔。
 
-```
+```py
 # Python3 code to demonstrate 
 # to convert list of string to list of list
 # using strip() + split()
@@ -28,7 +28,7 @@ print ("The list after conversion is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['[1, 4, 5]', '[4, 6, 8]']
 The list after conversion is : [['1', ' 4', ' 5'], ['4', ' 6', ' 8']]
 
@@ -37,7 +37,7 @@ The list after conversion is : [['1', ' 4', ' 5'], ['4', ' 6', ' 8']]
 **方法 2:使用列表切片和`split()`**
 在上面的方法中执行的任务也可以使用列表切片来执行，其中我们从第二个到第二个最后一个元素切片所有元素，因此省略了最后一个括号。
 
-```
+```py
 # Python3 code to demonstrate 
 # to convert the list of string to list of list
 # using list slicing + split()
@@ -58,7 +58,7 @@ print ("The list after conversion is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['[1, 4, 5]', '[4, 6, 8]']
 The list after conversion is : [['1', ' 4', ' 5'], ['4', ' 6', ' 8']]
 

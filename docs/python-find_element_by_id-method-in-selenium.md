@@ -8,13 +8,13 @@
 为了按 ID 查找元素，使用了 find_element_by_id()方法。Id 基本上是分配给网页元素的唯一属性，如按钮、图像、标题等。
 **语法:**
 
-```
+```py
 driver.find_element_by_id(ID)
 ```
 
 **论点:**
 
-```
+```py
 Takes ID in string format
 ```
 
@@ -28,7 +28,7 @@ Takes ID in string format
 
 ## 蟒蛇 3
 
-```
+```py
 #importing webdriver from selenium
 from selenium import webdriver
 
@@ -52,7 +52,7 @@ https://www.geeksforgeeks.org/源代码如下。
 
 ## 蟒蛇 3
 
-```
+```py
 #importing webdriver from selenium
 from selenium import webdriver
 

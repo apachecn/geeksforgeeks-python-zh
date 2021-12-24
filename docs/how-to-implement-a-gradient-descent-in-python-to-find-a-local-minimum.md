@@ -10,7 +10,7 @@
 
 应在当前点与函数梯度的负值(远离梯度)成比例地进行步进，以找到局部最小值。梯度上升是通过采取与梯度的正值成比例的步骤(向梯度移动)来接近函数的局部最大值的过程。
 
-```
+```py
 repeat until convergence
 {
     w = w - (learning_rate * (dJ/dw))
@@ -30,7 +30,7 @@ repeat until convergence
 
 对于每次迭代，继续根据梯度下降公式更新 x 的值。
 
-```
+```py
 Iteration 1:
     x1 = x0 - (learning_rate * gradient)
     x1 = 3 - (0.01 * (8 * 3))
@@ -58,7 +58,7 @@ Iteration 3:
 
 线性回归算法的预测函数是由 y=wx+b 给出的线性方程。
 
-```
+```py
 prediction_function (y) = (w * x) + b
 Here, x is the independent variable
       y is the dependent variable
@@ -86,7 +86,7 @@ Here, x is the independent variable
 
 通过减去学习速率及其各自梯度的乘积来更新权重和偏差。
 
-```
+```py
 w = w - (learning_rate * (dJ/dw))
 b = b - (learning_rate * (dJ/db))
 ```
@@ -97,7 +97,7 @@ b = b - (learning_rate * (dJ/db))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import numpy as np
 import matplotlib.pyplot as plt

@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -47,7 +47,7 @@ clip2.ipython_display(width = 480)
 
 **输出:**
 
-```
+```py
 Width x Height of clip 1 :  854 x  480
 ---------------------------------------
 Width x Height of clip 2 :  427 x  240
@@ -63,7 +63,7 @@ Moviepy - video ready __temp__.mp4
 
 另一个例子
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -99,7 +99,7 @@ clip2.ipython_display()
 
 **输出:**
 
-```
+```py
 Width x Height of clip 1 :  656 x  404
 ---------------------------------------
 Width x Height of clip 2 :  328 x  202

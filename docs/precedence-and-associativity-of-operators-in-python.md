@@ -8,14 +8,14 @@
 
 **示例:**求解
 
-```
+```py
 10 + 20 * 30
 
 ```
 
 [![](img/6594731f27247a9a15097e04620467f7.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190708163349/Operators-Precedence.jpg)
 
-```
+```py
 10 + 20 * 30 is calculated as 10 + (20 * 30)
 and not as (10 + 20) * 30
 
@@ -25,7 +25,7 @@ and not as (10 + 20) * 30
 
 ## 蟒蛇 3
 
-```
+```py
 # Precedence of '+' & '*'
 expr = 10 + 20 * 30
 
@@ -34,7 +34,7 @@ print(expr)
 
 **输出:**
 
-```
+```py
 610
 
 ```
@@ -43,7 +43,7 @@ print(expr)
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Precedence of 'or' & 'and'
 name = "Alex"
 age = 0
@@ -56,7 +56,7 @@ else :
 
 ******输出:******
 
-```
+```py
 **Hello! Welcome.** 
 ```
 
@@ -64,7 +64,7 @@ else :
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Precedence of 'or' & 'and'
 name = "Alex"
 age = 0
@@ -77,7 +77,7 @@ else :
 
 ******输出:******
 
-```
+```py
 **Good Bye!!** 
 ```
 
@@ -91,7 +91,7 @@ else :
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Left-right associativity
 # 100 / 10 * 10 is calculated as 
 # (100 / 10) * 10 and not 
@@ -116,7 +116,7 @@ print(2 ** 3 ** 2)**
 
 ******输出:******
 
-```
+```py
 **100
 6
 0
@@ -127,13 +127,13 @@ print(2 ** 3 ** 2)**
 
 ******示例:**求解****
 
-```
+```py
 **100 + 200 / 10 - 3 * 10** 
 ```
 
 ****[![](img/a69019bf0249465963ddfc048f4bb9cf.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190708173715/Operator-Precedence-and-Associativity-2.jpg)****
 
-```
+```py
 **100 + 200 / 10 - 3 * 10 is calculated as 100 + (200 / 10) - (3 * 10)
 and not as (100 + 200) / (10 - 3) * 10** 
 ```
@@ -142,14 +142,14 @@ and not as (100 + 200) / (10 - 3) * 10**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **expression  = 100 + 200 / 10 - 3 * 10
 print(expression )**
 ```
 
 ******输出:******
 
-```
+```py
 **90.0** 
 ```
 

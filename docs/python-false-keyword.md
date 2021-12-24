@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # 10 < 6 is a boolean expression
 # which evaluates to False
 if(10 < 6):
@@ -28,7 +28,7 @@ else:
 
 **Output**
 
-```
+```py
 it is False
 it is False
 ```
@@ -39,7 +39,7 @@ it is False
 
 ## 蟒蛇 3
 
-```
+```py
 # here we assigned the boolean expression to variable
 # and the value will be False
 gfg_flag = 5 > 10
@@ -56,7 +56,7 @@ else:
 
 **Output**
 
-```
+```py
 False
 it is False
 ```

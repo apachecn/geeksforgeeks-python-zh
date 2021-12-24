@@ -18,7 +18,7 @@
 
 **例:**
 
-```
+```py
 # Python program to illustrate
 # Append vs write mode
 file1 = open("myfile.txt", "w")
@@ -51,7 +51,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Output of Readlines after appending
 This is Delhi
 This is Paris
@@ -70,7 +70,7 @@ Tomorrow
 
 **例:**
 
-```
+```py
 # Python program to illustrate
 # append from new line
 
@@ -99,7 +99,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Output of Readlines after appending
 This is Delhi
 This is Paris
@@ -114,7 +114,7 @@ TodayTomorrow
 
 **例:**
 
-```
+```py
 # Program to show various ways to
 # append data to a file using
 # with statement
@@ -139,7 +139,7 @@ with open("myfile.txt", "r+") as file1:
 
 **输出:**
 
-```
+```py
 Hello
 This is Delhi
 This is Paris

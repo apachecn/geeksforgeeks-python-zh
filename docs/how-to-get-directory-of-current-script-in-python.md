@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # Displaying the script path
@@ -38,7 +38,7 @@ print(os.path.dirname(__file__))
 
 **输出:**
 
-```
+```py
 C:\suga\Lpath.py
 C:\suga
 
@@ -56,7 +56,7 @@ C:\suga
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 print(os.path.dirname(sys.argv[0]))
@@ -64,7 +64,7 @@ print(os.path.dirname(sys.argv[0]))
 
 **输出:**
 
-```
+```py
 C:\suga
 
 ```
@@ -90,7 +90,7 @@ C:\suga
 
 ## 蟒蛇 3
 
-```
+```py
 from inspect import getsourcefile
 
 import os
@@ -100,7 +100,7 @@ print(os.path.dirname(getsourcefile(lambda:0)))
 
 **输出:**
 
-```
+```py
 C:\suga
 
 ```

@@ -17,7 +17,7 @@
 
 ## 大蟒
 
-```
+```py
 # Python3 script to fetch top 10 starred
 # repositories of a user on github
 import urllib.request, urllib.parse, urllib.error
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 enter GitHub username: msdeep14
 
 repo name :  DeepDataBase 

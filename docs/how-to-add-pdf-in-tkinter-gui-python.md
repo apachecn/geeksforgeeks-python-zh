@@ -8,7 +8,7 @@
 
 要安装此库，您只需键入:
 
-```
+```py
 pip install tkPDFViewer
 ```
 
@@ -44,7 +44,7 @@ pip install tkPDFViewer
 
 ## 计算机编程语言
 
-```
+```py
 # Importing tkinter to make gui in python
 from tkinter import*
 

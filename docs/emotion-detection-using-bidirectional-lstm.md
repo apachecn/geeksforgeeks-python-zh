@@ -18,7 +18,7 @@ ISEAR 数据集包含 7652 个句子。它总共有七种情绪——喜悦、�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 import keras
 import numpy as np
@@ -38,7 +38,7 @@ nltk.download('punkt')
 
 ## 蟒蛇 3
 
-```
+```py
 df=pd.read_csv('isear.csv',header=None)
 # The isear.csv contains rows with value 'No response'
 # We need to remove such rows
@@ -51,7 +51,7 @@ df.drop(df[df[1] == '[ No response.]'].index, inplace = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # The feel_arr will store all the sentences
 # i.e feel_arr is the list of all sentences
 feel_arr = df[1]
@@ -75,7 +75,7 @@ print(feel_arr[0])
 
 ## 蟒蛇 3
 
-```
+```py
 # Defined a function padd in which each sentence length is fixed to 100.
 # If length is less than 100 , then the word- '<padd>' is append
 def padd(arr):
@@ -110,7 +110,7 @@ for i in range(len(feel_arr)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Glove vector contains a 50 dimensional vector corresponding to each word in dictionary.
 vocab_f = 'glove.6B.50d.txt'
 
@@ -157,7 +157,7 @@ for each_sentence in feel_arr:
 
 ## 蟒蛇 3
 
-```
+```py
 #Converting x into numpy-array
 X=np.array(embedded_feel_arr)
 print(np.shape(X))
@@ -190,7 +190,7 @@ def model(X,Y,input_size1,input_size2,output_size):
 
 ## 蟒蛇 3
 
-```
+```py
 # Training the model
 bilstmModel=model(X_train,Y_train,100,50,7)
 ```
@@ -211,7 +211,7 @@ bilstmModel=model(X_train,Y_train,100,50,7)
 
 ## 蟒蛇 3
 
-```
+```py
 #Testing the model
 bilstmModel.evaluate(X_test,Y_test)
 ```

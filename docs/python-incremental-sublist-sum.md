@@ -7,7 +7,7 @@
 **方法#1:使用`islice() + sum()` +字典理解**
 切片方法可用于将需要制作的列表块分组为字典的值，然后使用字典理解将其分配给它们的指定索引键。sum()用于对创建的列表进行求和。
 
-```
+```py
 # Python3 code to demonstrate
 # Incremental Sublist Sum
 # using islice() + sum() + dictionary comprehension
@@ -30,7 +30,7 @@ print("The Incremental Sublist Sum is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 7, 8, 10, 12, 15, 13, 17, 14, 5]
 The Incremental Sublist Sum is : {1: 4, 2: 15, 3: 37, 4: 49}
 

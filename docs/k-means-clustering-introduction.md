@@ -16,7 +16,7 @@
 上面提到的“点”之所以被称为平均值，是因为它们包含了分类项目的平均值。要初始化这些手段，我们有很多选择。一个直观的方法是初始化数据集中随机项目的平均值。另一种方法是在数据集边界之间的随机值处初始化平均值(如果对于某个特征 *x* 项的值在[0，3]中，我们将在[0，3]处用 *x* 的值初始化平均值)。
 以上算法用伪代码:
 
-```
+```py
 Initialize k means with random values
 
 For a given number of iterations:
@@ -33,7 +33,7 @@ For a given number of iterations:
 
 ## 蟒蛇 3
 
-```
+```py
 def ReadData(fileName):
 
     # Read the file, splitting by lines
@@ -68,7 +68,7 @@ def ReadData(fileName):
 
 ## 计算机编程语言
 
-```
+```py
 def FindColMinMax(items):
     n = len(items[0]);
     minima = [sys.maxint for i in range(n)];
@@ -89,7 +89,7 @@ return minima,maxima;
 
 ## 计算机编程语言
 
-```
+```py
 def InitializeMeans(items, k, cMin, cMax):
 
     # Initialize means to random numbers between
@@ -113,7 +113,7 @@ def InitializeMeans(items, k, cMin, cMax):
 
 ## 蟒蛇 3
 
-```
+```py
 def EuclideanDistance(x, y):
     S = 0; # The sum of the squared differences of the elements
     for i in range(len(x)):
@@ -127,7 +127,7 @@ def EuclideanDistance(x, y):
 
 为了更新平均值，我们需要为平均值/聚类中的所有项目找到其特征的平均值。我们可以通过将所有值相加，然后除以项目数来实现这一点，或者我们可以使用更优雅的解决方案。我们将通过执行以下操作来计算新平均值，而无需重新添加所有值:
 
-```
+```py
 m = (m*(n-1)+x)/n
 ```
 
@@ -135,7 +135,7 @@ m = (m*(n-1)+x)/n
 
 ## 计算机编程语言
 
-```
+```py
 def UpdateMean(n,mean,item):
     for i in range(len(mean)):
         m = mean[i];
@@ -151,7 +151,7 @@ def UpdateMean(n,mean,item):
 
 ## 计算机编程语言
 
-```
+```py
 def Classify(means,item):
 
     # Classify item to the mean with minimum distance   
@@ -177,7 +177,7 @@ def Classify(means,item):
 
 ## 计算机编程语言
 
-```
+```py
 def CalculateMeans(k,items,maxIterations=100000):
 
     # Find the minima and maxima for columns
@@ -229,7 +229,7 @@ def CalculateMeans(k,items,maxIterations=100000):
 
 ## 计算机编程语言
 
-```
+```py
 def FindClusters(means,items):
     clusters = [[] for i in range(len(means))]; # Init clusters
 

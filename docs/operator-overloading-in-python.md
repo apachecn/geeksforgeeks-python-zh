@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show use of
 # + operator for different purposes.
 
@@ -24,7 +24,7 @@ print("Geeks"*4)
 
 **输出:**
 
-```
+```py
 3
 GeeksFor
 12
@@ -39,7 +39,7 @@ GeeksGeeksGeeksGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program illustrate how
 # to overload an binary + operator
 
@@ -61,7 +61,7 @@ print(ob3 + ob4)
 
 **输出:**
 
-```
+```py
 3
 GeeksFor
 ```
@@ -70,7 +70,7 @@ GeeksFor
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to perform addition
 # of two complex numbers using binary
 # + operator overloading.
@@ -92,7 +92,7 @@ print(Ob3)
 
 **输出:**
 
-```
+```py
 (3, 5)
 ```
 
@@ -100,7 +100,7 @@ print(Ob3)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to overload
 # a comparison operators
 
@@ -122,7 +122,7 @@ else:
 
 **输出:**
 
-```
+```py
 ob2 is greater than ob1
 ```
 
@@ -130,7 +130,7 @@ ob2 is greater than ob1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to overload equality
 # and less than operators
 
@@ -159,7 +159,7 @@ print(ob1 == ob2)
 
 **输出:**
 
-```
+```py
 ob1 is lessthan ob2
 Not equal
 ```

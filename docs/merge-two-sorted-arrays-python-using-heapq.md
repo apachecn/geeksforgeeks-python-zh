@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input :  arr1 = [1, 3, 4, 5]  
          arr2 = [2, 4, 6, 8]
 Output : arr3 = [1, 2, 3, 4, 4, 5, 6, 8]
@@ -21,7 +21,7 @@ Output : arr3 = [4, 5, 7, 8, 8, 9]
 
 此问题已有解决方案请参考[合并两个排序数组](https://www.geeksforgeeks.org/merge-two-sorted-arrays/)链接。我们将用 python 在一行代码中使用 **heapq.merge()** 来解决这个问题。
 
-```
+```py
 # Function to merge two sorted arrays
 from heapq import merge
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [1, 2, 3, 4, 4, 5, 6, 8]
 
 ```

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Minimum in Tuple list
 # using list comprehension + min() + zip()
@@ -29,7 +29,7 @@ print("The Cumulative column minimum is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column minimum is : [1, 2, 3]
 
@@ -40,7 +40,7 @@ The Cumulative column minimum is : [1, 2, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Minimum in Tuple list
 # using zip() + map() + min()
@@ -61,7 +61,7 @@ print("The Cumulative column minimum is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column minimum is : [1, 2, 3]
 

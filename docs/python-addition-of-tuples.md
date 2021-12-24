@@ -7,7 +7,7 @@
 **方法一:使用`map()`+λ**
 结合以上功能可以为我们解决问题。在本文中，我们使用 lambda 函数计算总和，并使用`map()`将逻辑扩展到键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Addition of tuples
 # using map() + lambda
@@ -30,7 +30,7 @@ print("Resultant tuple after addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5)
 The original tuple 2 : (2, 5, 18)
 Resultant tuple after addition : (12, 9, 23)

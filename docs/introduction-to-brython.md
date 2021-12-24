@@ -14,7 +14,7 @@ Brython 代表**浏览器的 Python** 。它是运行在浏览器中的 Python3 
 
 您可以通过在终端中运行以下 pip 命令在本地安装 Brython:
 
-```
+```py
 pip install brython
 ```
 
@@ -22,7 +22,7 @@ pip install brython
 
 ## 超文本标记语言
 
-```
+```py
 <script src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython.min.js">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython_stdlib.js">
@@ -39,7 +39,7 @@ pip install brython
 
 ## 超文本标记语言
 
-```
+```py
 <!Doctype html>
 <html>
 <head>
@@ -68,7 +68,7 @@ document <= "Hello World!"
 
 ## 超文本标记语言
 
-```
+```py
 <!Doctype html>
 <html>
 
@@ -125,7 +125,7 @@ document <= "Hello World!"
 
 ## 超文本标记语言
 
-```
+```py
 <script type="text/python">
     from browser import document
     from browser.html import TABLE, TR, TH, TD

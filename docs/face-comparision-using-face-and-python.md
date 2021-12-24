@@ -10,13 +10,13 @@ Python 是一种高级通用语言。它有多种用途，如人工智能、网�
 
 *   **python-facepp–**要安装该模块，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install python-facepp
     ```
 
 *   **表情符号–**要安装该模块，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install emoji
     ```
 
@@ -51,7 +51,7 @@ Python 是一种高级通用语言。它有多种用途，如人工智能、网�
 
 下面是实现。
 
-```
+```py
 # Python program for face
 # comparison
 

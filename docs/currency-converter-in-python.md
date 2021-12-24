@@ -9,14 +9,14 @@ Python 是一种非常通用的编程语言。几乎每种主流技术都在使�
 
 **请求:**这个模块没有内置 python。要安装它，请在终端或 cmd 中键入以下命令。
 
-```
+```py
 pip install requests
 
 ```
 
 下面是实现:
 
-```
+```py
 # Python program to convert the currency
 # of one country to that of another country 
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 **输入:**
 
-```
+```py
 From Country: USD 
 TO Country: INR 
 Amount: 1 
@@ -67,7 +67,7 @@ Amount: 1
 
 **输出:**
 
-```
+```py
 1 USD = 70.69 INR
 
 ```

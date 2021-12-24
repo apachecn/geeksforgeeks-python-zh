@@ -6,7 +6,7 @@
 
 **计算 gcd 的简单方法***   **Using [Recursion](https://www.geeksforgeeks.org/recursion/):
 
-    ```
+    ```py
     # Python code to demonstrate naive
     # method to compute gcd ( recursion )
 
@@ -26,12 +26,12 @@
 
     输出:
 
-    ```
+    ```py
     The gcd of 60 and 48 is : 12
 
     ```** *   ****Using [Loops](https://www.geeksforgeeks.org/loops-in-python/)
 
-    ```
+    ```py
     # Python code to demonstrate naive
     # method to compute gcd ( Loops )
 
@@ -57,12 +57,12 @@
 
     输出:
 
-    ```
+    ```py
     The gcd of 60 and 48 is : 12
 
     ```**** *   ******Using [Euclidean Algorithm](https://www.geeksforgeeks.org/basic-and-extended-euclidean-algorithms/)
 
-    ```
+    ```py
     # Python code to demonstrate naive
     # method to compute gcd ( Euclidean algo )
 
@@ -83,7 +83,7 @@
 
     输出:
 
-    ```
+    ```py
     The gcd of 60 and 48 is : 12
 
     ```
@@ -91,7 +91,7 @@
     **使用 Python 的 math.gcd()函数**
     使用 gcd()只需一行就可以计算出相同的 gcd。
 
-    ```
+    ```py
     math.gcd( x, y )
     Parameters : 
     x :  Non-negative integer whose gcd has to be computed.
@@ -105,7 +105,7 @@
 
     ```
 
-    ```
+    ```py
     # Python code to demonstrate gcd()
     # method to compute gcd
 
@@ -118,7 +118,7 @@
 
     输出:
 
-    ```
+    ```py
     The gcd of 60 and 48 is : 12
 
     ```
@@ -129,7 +129,7 @@
     *   两个数字都是 0，gcd 是 0
     *   如果只有一个数字不是数字，则会引发类型错误。
 
-    ```
+    ```py
     # Python code to demonstrate gcd()
     # method exceptions
 
@@ -146,7 +146,7 @@
 
     输出:
 
-    ```
+    ```py
     The gcd of 0 and 0 is : 0
     The gcd of a and 13 is : 
 
@@ -154,7 +154,7 @@
 
     运行时错误:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/94493cdfb3c8509146254862d12bcc97.py", line 12, in 
         print (math.gcd('a',13))

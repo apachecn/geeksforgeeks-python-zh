@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting date values in ISO 8601 format
 
@@ -40,7 +40,7 @@ print("Today's date in ISO Format: %s"%date_in_ISOFormat);
 
 **输出:**
 
-```
+```py
 Today's date in ISO Format: 2021-07-27
 ```
 
@@ -48,7 +48,7 @@ Today's date in ISO Format: 2021-07-27
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting date and time values
 # in ISO 8601 format
@@ -76,7 +76,7 @@ print("Today's date and time in ISO Format: %s"%DateTime_in_ISOFormat);
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting date and time values
 # in ISO 8601 format
@@ -114,7 +114,7 @@ print(DateTime_in_ISOFormat.isoformat("#", "microseconds"))
 
 **输出:**
 
-```
+```py
 2021-07-27#16:01:12.090202
 2021-07-27#16
 2021-07-27#16:01

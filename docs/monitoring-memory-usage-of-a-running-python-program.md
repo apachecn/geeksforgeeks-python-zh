@@ -10,7 +10,7 @@ Tracemalloc 是一个库模块，跟踪 python 中的每个内存块。在运行
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import tracemalloc
 
@@ -38,7 +38,7 @@ tracemalloc.stop()
 
 输出以(当前，峰值)形式给出，即当前内存是代码当前使用的内存，峰值内存是程序执行时使用的最大空间。
 
-```
+```py
 (0,3617252)
 ```
 
@@ -46,7 +46,7 @@ tracemalloc.stop()
 
 Psutil 是一个 python 系统库，用于跟踪系统中的各种资源及其利用率。该库用于分析、限制和管理流程资源。要安装它，请执行以下操作-
 
-```
+```py
 sudo pip install psutil [Linux]
 pip install psutill [Windows]
 ```
@@ -55,7 +55,7 @@ pip install psutill [Windows]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import os
 import psutil
@@ -96,7 +96,7 @@ func()
 
 **输出:**
 
-```
+```py
 func: consumed memory: 307,261,440
 ```
 
@@ -104,7 +104,7 @@ func: consumed memory: 307,261,440
 
 来自 PyPI 的内存分析器是一个 python 库模块，用于监控进程内存。它使用 psutil 代码来创建装饰器，然后使用它来获取内存分布。有了这个 pypi 模块，通过导入可以节省行，直接调用装饰器。要安装，请使用以下工具-
 
-```
+```py
 pip install -U memory_profiler
 ```
 
@@ -112,7 +112,7 @@ pip install -U memory_profiler
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 from memory_profiler import profile
 
@@ -134,7 +134,7 @@ if __name__ == '__main__':
 
 输出显示代码中每一行消耗的内存。使用内存分析器实现查找内存消耗非常容易，因为我们直接调用装饰器，而不是编写全新的代码。
 
-```
+```py
 Line #    Mem usage    Increment  Occurences   Line Contents
 ============================================================
      2     30.5 MiB     30.5 MiB           1   @profile

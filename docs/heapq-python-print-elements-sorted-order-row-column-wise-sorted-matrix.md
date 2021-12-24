@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : mat= [[10, 20, 30, 40],
               [15, 25, 35, 45],
               [27, 29, 37, 48],
@@ -20,7 +20,7 @@ Output : Elements of matrix in sorted order
 
 此问题已有解决方案请参考链接。我们将在 python 中使用[合并两个排序数组](https://www.geeksforgeeks.org/merge-two-sorted-arrays-python-using-heapq/)的相同方法，使用 [**heapq 模块**](https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/) 来解决这个问题。
 
-```
+```py
 # Function to print all elements in sorted order 
 # from row and column wise sorted matrix 
 from heapq import merge 
@@ -51,7 +51,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 Elements of matrix in sorted order
 [10, 15, 20, 25, 27, 29, 30, 32, 33, 35, 37, 39, 40, 45, 48, 50]
 

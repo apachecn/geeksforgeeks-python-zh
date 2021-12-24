@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K difference Consecutive elements
 # Using list comprehension
@@ -42,7 +42,7 @@ print("The difference list result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 6, 3, 2, 5, 3, 4]
 The difference list result : [False, True, False, True, False, False]
 
@@ -54,7 +54,7 @@ The difference list result : [False, True, False, True, False, False]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K difference Consecutive elements
 # Using zip() + list comprehension
@@ -78,7 +78,7 @@ print("The difference list result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 6, 3, 2, 5, 3, 4]
 The difference list result : [False, True, False, True, False, False]
 

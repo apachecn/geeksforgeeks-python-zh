@@ -31,7 +31,7 @@
 
 **代码:用于检查模式的 Python 程序。**
 
-```
+```py
 # python program for above approach
 a = [5, 7, 10, 33]
 b = [10, 50, 10, 45]
@@ -68,7 +68,7 @@ print(flag)
 
 **输出:**
 
-```
+```py
 NO
 
 ```

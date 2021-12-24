@@ -21,7 +21,7 @@
 
 ## python 3
 
-```
+```py
 # Program to show the time taken in
 # iteration and recursion
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Calculated using recursion:  2432902008176640000
 Time taken in recursion:  0.000015925
 Calculated using the iterative method:  2432902008176640000
@@ -92,7 +92,7 @@ Time taken in iteration:  0.000009279
 
 ## python 3
 
-```
+```py
 # Python3 program to explain the 
 # sys.setrecursionlimit() method
 
@@ -113,7 +113,7 @@ print(sys.getrecursionlimit())
 
 **输出:**
 
-```
+```py
 Original recursion limit was: 
 1000
 New recursion limit is: 

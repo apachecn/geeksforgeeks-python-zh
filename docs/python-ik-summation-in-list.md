@@ -7,7 +7,7 @@ Python 作为魔术师的语言，可以用来以简单明了的方式执行许�
 **方法#1:使用`reduce()`+lambda+pow()**
 lambda 函数的 pow 仅在一行中执行冗长的任务，允许它与用于累积子问题的 reduce 相结合，也执行该任务。power()用于执行计算能力任务。仅适用于 Python 2。
 
-```
+```py
 # Python code to demonstrate 
 # i ^ k Summation in list
 # using reduce() + lambda + pow()
@@ -31,7 +31,7 @@ print ("The sum of i ^ k of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 5, 7, 9, 11]
 The sum of i^k of list is : 24309
 

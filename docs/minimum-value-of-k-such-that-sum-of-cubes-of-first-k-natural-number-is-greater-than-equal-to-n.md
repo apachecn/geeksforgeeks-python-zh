@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to determine the
 // minimum value of K such that the
 // sum of cubes of first K
@@ -67,7 +67,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to determine the
 // minimum value of K such that the
 // sum of cubes of first K
@@ -115,7 +115,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to determine the
 # minimum value of K such that the
 # sum of cubes of first K
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# program to determine the
 // minimum value of K such that the
 // sum of cubes of first K
@@ -205,7 +205,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to determine the
 // minimum value of K such that the
@@ -249,14 +249,14 @@ document.write(naive_find_x(N));
 
 **Output:** 
 
-```
+```py
 4
 ```
 
 ***时间复杂度:** O(K)，其中 K 是需要找到的数字。*
 **有效方法:**需要进行的一个观察是立方体前 N 个自然数的和由公式给出:
 
-```
+```py
 sum = ((N * (N + 1))/2)2
 ```
 
@@ -265,7 +265,7 @@ sum = ((N * (N + 1))/2)2
 
 ## C++
 
-```
+```py
 // C++ program to determine the
 // minimum value of K such that
 // the sum of cubes of first K
@@ -337,7 +337,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to determine the
 // minimum value of K such that the
 // sum of cubes of first K
@@ -407,7 +407,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to determine the
 # minimum value of K such that the
 # sum of cubes of first K
@@ -465,7 +465,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# program to determine the
 // minimum value of K such that the
 // sum of cubes of first K
@@ -536,7 +536,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to determine the
 // minimum value of K such that the
@@ -604,7 +604,7 @@ document.write(binary_searched_find_x(N));
 
 **Output:** 
 
-```
+```py
 4
 ```
 

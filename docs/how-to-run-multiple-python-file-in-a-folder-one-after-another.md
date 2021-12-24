@@ -6,19 +6,19 @@
 
 **a.py** 文件中的内容:
 
-```
+```py
 print("a")
 ```
 
 **b.py** 文件中的内容:
 
-```
+```py
 print("b")
 ```
 
 **c.py** 文件中的内容:
 
-```
+```py
 print("c")
 ```
 
@@ -44,7 +44,7 @@ print("c")
 
 现在，让我们看看它的实现，
 
-```
+```py
 #!/bin/bash
 
 for py_file in $(find ../one -name *.py)
@@ -57,13 +57,13 @@ done
 
 在 **Git Bash 终端运行该命令。**我们可以用“**”。/** ”(或任何有效的目录规范)在文件名之前:
 
-```
+```py
 ./test.sh
 ```
 
 **输出:**
 
-```
+```py
 a
 b
 c
@@ -75,25 +75,25 @@ c
 
 在文件夹中运行 python 文件的简单命令:
 
-```
+```py
 python a.py
 ```
 
 但是在这里，我们在另一个文件夹中，所以我们需要采用 python 文件的路径，如下所示…
 
-```
+```py
 python ../One/a.py
 ```
 
 现在，让我们看看如何从另一个文件夹运行多个文件的实现:
 
-```
+```py
 python ../One/a.py & python ../One/b.py & python ../One/c.py
 ```
 
 **输出:**
 
-```
+```py
 a
 b
 c
@@ -105,13 +105,13 @@ c
 
 借助 **os** 模块，我们可以执行脚本，该脚本可以从另一个文件夹运行我们的 python 文件。首先，我们需要导入**操作系统**模块。
 
-```
+```py
 import os
 ```
 
 在 **os** 模块内部，有一个名为**系统()的方法。**我们将我们的运行脚本命令称为参数。
 
-```
+```py
 os.system('python ../One/a.py')
 ```
 
@@ -119,7 +119,7 @@ os.system('python ../One/a.py')
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 os.system('python ../One/a.py')
@@ -129,7 +129,7 @@ os.system('python ../One/c.py')
 
 **输出:**
 
-```
+```py
 a
 b
 c

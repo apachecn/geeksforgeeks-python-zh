@@ -9,7 +9,7 @@ Python 中的变量可以本地定义，也可以全局定义。变量有两种�
 **示例:**
 **示例:检查局部变量是否存在**
 
-```
+```py
 def func():
 
     # defining local variable
@@ -28,7 +28,7 @@ func()
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -39,7 +39,7 @@ True
 
 **示例:检查全局变量存在**
 
-```
+```py
 def func():
 
     # defining variable
@@ -58,7 +58,7 @@ func()
 
 **输出:**
 
-```
+```py
 False
 
 ```

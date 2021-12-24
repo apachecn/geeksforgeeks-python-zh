@@ -8,7 +8,7 @@
 
 为了启动 KivyMD，您必须首先在计算机上安装 Kivy 框架。可以使用以下命令安装:
 
-```
+```py
 pip install kivymd
 ```
 
@@ -47,7 +47,7 @@ pip install kivymd
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 # like MDApp, MDLabel Screen, MDTextField
 # and MDRectangleFlatButton

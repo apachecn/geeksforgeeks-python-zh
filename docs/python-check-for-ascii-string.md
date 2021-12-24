@@ -7,7 +7,7 @@
 **方法#1:使用`ord() + all()`**
 这种方法的组合可以用来实现理想的任务。在这个方法中，我们搜索所有的字符串并检查每个字符，一个 ASCII 字符范围内的值。
 
-```
+```py
 # Python3 code to demonstrate
 # Check for ASCII string
 # using all() + ord()
@@ -28,7 +28,7 @@ print("Is the string full ASCII ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : G4G is best
 Is the string full ASCII ? : True
 

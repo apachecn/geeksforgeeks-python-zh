@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Original string
 a = "Geeks"
 
@@ -49,7 +49,7 @@ print(f"New string is: {b}")
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing the original string
 a = "Hello"
 n = 5
@@ -84,7 +84,7 @@ print(f"New string is: {b}")
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialize the list
 a = ["Geeks"]
 
@@ -109,7 +109,7 @@ print(f"List after multiplication is: {b}")
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing a string with all True's
 a = [True]*5
 print(a)

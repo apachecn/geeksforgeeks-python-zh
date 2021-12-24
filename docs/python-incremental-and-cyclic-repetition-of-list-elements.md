@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Incremental and Cyclic Repetition of List Elements
 # using loop + enumerate()
@@ -35,7 +35,7 @@ print ("Repetition List is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['g', 'f', 'g', 'C', 'S']
 Repetition List is : ['gg', 'fff', 'gggg', 'CC', 'SSS']
 ```
@@ -45,7 +45,7 @@ Repetition List is : ['gg', 'fff', 'gggg', 'CC', 'SSS']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Incremental and Cyclic Repetition of List Elements
 # using cycle() + loop + zip()
@@ -72,7 +72,7 @@ print ("Repetition List is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['g', 'f', 'g', 'C', 'S']
 Repetition List is : ['gg', 'fff', 'gggg', 'CC', 'SSS']
 ```

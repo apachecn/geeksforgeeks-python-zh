@@ -5,7 +5,7 @@
 给定一个列表，编写一个 Python 程序，将给定的列表转换成字典，这样所有奇数元素都有键，偶数元素都有值。由于 python 字典是无序的，所以输出可以是任何顺序。
 **例:**
 
-```
+```py
 Input : ['a', 1, 'b', 2, 'c', 3]
 Output : {'a': 1, 'b': 2, 'c': 3}
 
@@ -19,7 +19,7 @@ Output : {'Delhi': 71, 'Mumbai': 42}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Convert a
 # list to dictionary
 
@@ -34,7 +34,7 @@ print(Convert(lst))
 
 **Output**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3}
 
 ```
@@ -44,7 +44,7 @@ print(Convert(lst))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Convert a
 # list to dictionary
 
@@ -60,7 +60,7 @@ print(Convert(lst))
 
 **Output**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3}
 
 ```

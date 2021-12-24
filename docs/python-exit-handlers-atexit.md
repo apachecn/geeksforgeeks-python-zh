@@ -16,7 +16,7 @@
 
     **#例 1:**
 
-    ```
+    ```py
 
     # Python program to demonstrate
     # atexit module
@@ -36,7 +36,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Geeks
     for
     Geeks
@@ -45,7 +45,7 @@
 
     **#例 2:** 使用寄存器作为装饰器
 
-    ```
+    ```py
     # Python program to demonstrate
     # atexit module
 
@@ -59,7 +59,7 @@
 
     **输出:**
 
-    ```
+    ```py
     GoodBye.
 
     ```
@@ -74,7 +74,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # atexit module
 
@@ -93,7 +93,7 @@
 
     **输出:**
 
-    ```
+    ```py
     No Output
 
     ```

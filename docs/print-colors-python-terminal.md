@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # red text with green background
 
@@ -32,7 +32,7 @@ print('back to normal now')
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # green text with red background
 
@@ -52,7 +52,7 @@ print(colored('Hello, World!', 'green', 'on_red'))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # colored text and background
 import sys
@@ -84,7 +84,7 @@ cprint("Attention!", 'red', attrs=['bold'], file=sys.stderr)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # colored text and background
 def prRed(skk): print("\033[91m {}\033[00m" .format(skk))
@@ -111,7 +111,7 @@ prGreen("Geeks")
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # colored text and background
 class colors:
@@ -166,7 +166,7 @@ print(colors.bg.lightgrey, "SKk", colors.fg.red, "Amartya")
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to print
 # colored text and background
 def print_format_table():

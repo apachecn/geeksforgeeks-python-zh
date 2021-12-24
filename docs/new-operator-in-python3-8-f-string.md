@@ -14,7 +14,7 @@ Python 在 f-string 中引入了新的 **=** 操作符，用于在 **Python 3.8.
 **示例#1 :**
 在这个示例中，我们可以看到借助于`f'{expr=}'`表达式，我们能够通过使用`=`运算符自文档化表达式来格式化 python 中的字符串。
 
-```
+```py
 length = len('GeeksForGeeks')
 
 # Using f'{expr =}' expression
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 a, b = 5, 10
 
 # Using f'{expr =}' expression

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # classes  
 
@@ -26,7 +26,7 @@ p.say_hi() 
 
 **输出:**
 
-```
+```py
 Hello, my name is Nikhil
 
 ```
@@ -45,7 +45,7 @@ Hello, my name is Nikhil
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # instance methods
 
@@ -79,7 +79,7 @@ print("No. of edges for square: "+ str(square.finEdges()))
 
 **输出**
 
-```
+```py
 No. of edges for circle: 0
 No. of edges for square: 6
 ```

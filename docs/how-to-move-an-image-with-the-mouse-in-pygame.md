@@ -8,14 +8,14 @@ Pygame 是一个 Python 库，用来创建跨平台的视频游戏。Pygame 创�
 
 **第一步:**首先导入库 pygame。
 
-```
+```py
 import pygame
 from pygame.locals import *
 ```
 
 **第二步:**现在，把我们想在游戏中使用的颜色作为输入。
 
-```
+```py
 color_1 = #RGB value of color 1
 color_2 = #RGB value of color 2
 color_n = #RGB value of color n
@@ -23,55 +23,55 @@ color_n = #RGB value of color n
 
 **第三步:**然后，构建一个 GUI 游戏。
 
-```
+```py
 pygame.init()
 ```
 
 **第四步:**进一步，设置你的 GUI 游戏的维度。
 
-```
+```py
 w, h = #Width dimension, #Height dimension
 screen = pygame.display.set_mode((w, h))
 ```
 
 **第五步:**接下来，将图像作为输入，用鼠标移动
 
-```
+```py
 img = pygame.image.load('#Enter the image')
 img.convert()
 ```
 
 **第六步:**此外，你可以通过在图像周围添加矩形边框来使图像看起来有吸引力。
 
-```
+```py
 rect = img.get_rect()
 rect.center = w//2, h//2
 ```
 
 **步骤 7:** 稍后，设置运行游戏的运行值和移动图像的移动值。
 
-```
+```py
 running = True
 moving = False
 ```
 
 **第八步:**设置你希望你的应用在运行状态下要做的事情。
 
-```
+```py
 while running:
    for event in pygame.event.get():
 ```
 
 *   **第 8.1 步:**一旦 app 处于运行状态，如果用户想退出，就让它退出。
 
-```
+```py
        if event.type == QUIT:
            running = False
 ```
 
 *   **第 8.2 步:**万一用户不想退出，把你的图片在 GUI app 的维度上移动。
 
-```
+```py
        elif event.type == MOUSEBUTTONDOWN:
           if rect.collidepoint(event.pos):
               moving = True  
@@ -79,40 +79,40 @@ while running:
 
 *   **第 8.3 步:**接下来，如果您想仅用鼠标点击来移动图像，请将移动值设置为 False，否则，如果您想不用鼠标点击来移动图像，请将移动设置为 True。
 
-```
+```py
        elif event.type == MOUSEBUTTONUP:          
            moving = False
 ```
 
 *   **步骤 8.4:** 此外，如果您的图像已经移动过一次，请将其设置为移动状态。
 
-```
+```py
        elif event.type == MOUSEMOTION and moving:
            rect.move_ip(event.rel)  
 ```
 
 **第九步:**接下来需要在屏幕上设置屏幕颜色和图像。
 
-```
+```py
    screen.fill(YELLOW)
    screen.blit(img, rect)
 ```
 
 **步骤 10:** 此外，通过构建图像的边框来使您的图像看起来有吸引力。
 
-```
+```py
    pygame.draw.rect(screen, BLUE, rect, 2)
 ```
 
 **步骤 11:** 此外，更新在 GUI 游戏中所做的更改。
 
-```
+```py
    pygame.display.update()
 ```
 
 **第十二步:**最后退出 GUI 游戏。
 
-```
+```py
 pygame.quit()
 ```
 
@@ -120,7 +120,7 @@ pygame.quit()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to move the image
 # with the mouse
 

@@ -22,7 +22,7 @@
 
 使用以下命令安装 python 加密库。
 
-```
+```py
 pip install cryptography
 ```
 
@@ -37,7 +37,7 @@ pip install cryptography
 
 ## 蟒蛇 3
 
-```
+```py
 from cryptography.fernet import Fernet
 
 # we will be encryting the below string.
@@ -84,7 +84,7 @@ print("decrypted string: ", decMessage)
 
 使用以下命令安装 python rsa 库。
 
-```
+```py
 pip install rsa
 ```
 
@@ -99,7 +99,7 @@ pip install rsa
 
 ## 蟒蛇 3
 
-```
+```py
 import rsa
 
 # generate public and private keys with

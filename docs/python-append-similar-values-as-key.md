@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们运行一个循环来将值添加到字典值列表中，如果不存在，我们将动态创建密钥并执行追加。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Similar Values as Key
 # Using loop

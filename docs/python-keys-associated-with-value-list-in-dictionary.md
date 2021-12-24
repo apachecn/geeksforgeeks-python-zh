@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `items()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 items()提取字典的所有元素，并使用循环来编译剩余的逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value's Key association
 # Using loop + items()
@@ -35,7 +35,7 @@ print("The keys mapped to " + str(val_list) + " are : " + str(res)) 
 
 **Output:**
 
-```
+```py
 The original dictionary : {'gfg': [4, 5], 'best': [10, 12], 'is': [8]}
 The keys mapped to [5, 10] are : ['gfg', 'best']
 

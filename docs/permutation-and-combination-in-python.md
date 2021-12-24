@@ -10,7 +10,7 @@ Python 提供了找到序列排列和组合的直接方法。这些方法存在�
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all
 # permutations using library function
 from itertools import permutations
@@ -25,7 +25,7 @@ for i in list(perm):
 
 **输出:**
 
-```
+```py
 (1, 2, 3)
 (1, 3, 2)
 (2, 1, 3)
@@ -39,7 +39,7 @@ for i in list(perm):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all
 # permutations of given length
 from itertools import permutations
@@ -55,7 +55,7 @@ for i in list(perm):
 
 **输出:**
 
-```
+```py
 (1, 2)
 (1, 3)
 (2, 1)
@@ -72,7 +72,7 @@ for i in list(perm):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all
 # combinations of given length
 from itertools import combinations
@@ -88,7 +88,7 @@ for i in list(comb):
 
 **输出:**
 
-```
+```py
 (1, 2)
 (1, 3)
 (2, 3)
@@ -98,7 +98,7 @@ for i in list(comb):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all
 # combinations of a given length
 from itertools import combinations
@@ -114,7 +114,7 @@ for i in list(comb):
 
 **输出:**
 
-```
+```py
 (1, 2)
 (1, 3)
 (2, 3)
@@ -124,7 +124,7 @@ for i in list(comb):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all combinations
 # of given length with unsorted input.
 from itertools import combinations
@@ -140,7 +140,7 @@ for i in list(comb):
 
 **输出:**
 
-```
+```py
 (2, 1)
 (2, 3)
 (1, 3)
@@ -150,7 +150,7 @@ for i in list(comb):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to print all combinations
 # with an element-to-itself combination is
 # also included
@@ -166,7 +166,7 @@ for i in list(comb):
 
 **输出:**
 
-```
+```py
 (1, 1)
 (1, 2)
 (1, 3)

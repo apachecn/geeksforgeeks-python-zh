@@ -4,7 +4,7 @@
 
 **Decimal #共轭() :共轭()**是一个返回自身的 Decimal 类方法，这个方法只是为了遵守 Decimal 规范
 
-```
+```py
 Syntax: 
 Decimal.conjugate()
 
@@ -18,7 +18,7 @@ the self Decimal value
 
 **代码#1:共轭()方法示例**
 
-```
+```py
 # Python Program explaining 
 # conjugate() method
 
@@ -42,7 +42,7 @@ print ("Decimal b with conjugate() method : ", b.conjugate())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with conjugate() method :  0.142857
 
 **代码#2:共轭()方法示例**
 
-```
+```py
 # Python Program explaining 
 # conjugate() method
 
@@ -77,7 +77,7 @@ print ("Decimal b with conjugate() method : ", b.conjugate())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

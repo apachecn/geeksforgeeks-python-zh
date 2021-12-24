@@ -56,7 +56,7 @@ y 为**响应向量**，即 y = [y_1，y_2，…。，y_n]
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Estimated coefficients:
 b_0 = -0.0586206896552
 b_1 = 1.45747126437
@@ -166,7 +166,7 @@ y ( **响应向量** ) =大小为 **n** 的向量，其中 y_{i}表示 ith 观�
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, metrics
@@ -223,7 +223,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Coefficients:
 [ -8.80740828e-02   6.72507352e-02   5.10280463e-02   2.18879172e+00
 -1.72283734e+01   3.62985243e+00   2.13933641e-03  -1.36531300e+00

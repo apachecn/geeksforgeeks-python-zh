@@ -12,7 +12,7 @@
 
 关系数据库中的查询通常是在数据库的表上创建的。这些表在名为**表的 Python SQLAlchemy 中表示为 Table 对象。****元数据**是一个对象，它由以字符串名称为键的表对象组成。创建元数据对象的语法如下:
 
-```
+```py
 from sqlalchemy import MetaData
 metadata_obj=MetaData()
 ```
@@ -23,7 +23,7 @@ metadata_obj=MetaData()
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy import MetaData
 from sqlalchemy import Integer, String, Column, Table
 
@@ -47,7 +47,7 @@ student_table = Table(
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy import create_engine
 from sqlalchemy import DateTime, Numeric, Enum
 
@@ -76,13 +76,13 @@ metadata_object.create_all(engine)
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.name
 ```
 
 **输出:**
 
-```
+```py
 'student_account'
 ```
 
@@ -90,7 +90,7 @@ student_table.name
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.c.name
 ```
 
@@ -102,13 +102,13 @@ student_table.c.name
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.c.name.name
 ```
 
 **输出:**
 
-```
+```py
 name
 ```
 
@@ -116,13 +116,13 @@ name
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.c.name.type
 ```
 
 **输出:**
 
-```
+```py
 String(length=30)
 ```
 
@@ -130,7 +130,7 @@ String(length=30)
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.primary_key
 ```
 
@@ -146,7 +146,7 @@ student_table.primary_key
 
 ## 蟒蛇 3
 
-```
+```py
 metadata_object.tables
 ```
 
@@ -158,13 +158,13 @@ metadata_object.tables
 
 ## 蟒蛇 3
 
-```
+```py
 metadata_object.tables.keys()
 ```
 
 **输出:**
 
-```
+```py
 dict_keys(['student_account', 'items'])
 ```
 
@@ -174,7 +174,7 @@ dict_keys(['student_account', 'items'])
 
 ## 蟒蛇 3
 
-```
+```py
 student_table.primary_key
 ```
 
@@ -188,7 +188,7 @@ student_table.primary_key
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy import ForeignKey
 
 address_table = Table(
@@ -208,7 +208,7 @@ address_table = Table(
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy import create_engine
 
 # creating an engine object
@@ -228,7 +228,7 @@ metadata_object.create_all(engine)
 
 ## 计算机编程语言
 
-```
+```py
 from sqlalchemy import create_engine
 
 # creating an engine object
@@ -251,7 +251,7 @@ metadata_object.drop_all(engine)
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy.orm import registry
 
 mapper_registry = registry()
@@ -260,7 +260,7 @@ mapper_registry.metadata
 
 **输出:**
 
-```
+```py
 MetaData()
 ```
 
@@ -268,7 +268,7 @@ MetaData()
 
 ## 蟒蛇 3
 
-```
+```py
 Base = mapper_registry.generate_base()
 ```
 
@@ -276,7 +276,7 @@ Base = mapper_registry.generate_base()
 
 ## 蟒蛇 3
 
-```
+```py
 from sqlalchemy.orm import relationship
 
 class Student(Base):
@@ -308,13 +308,13 @@ class Address(Base):
 
 ## 蟒蛇 3
 
-```
+```py
 Student.__table__
 ```
 
 **输出:**
 
-```
+```py
 Table('student_account', MetaData(), Column('id', Integer(),
  table=<student_account>, primary_key=True, nullable=False),
  Column('name', String(length=30), table=<student_account>),
@@ -324,13 +324,13 @@ Table('student_account', MetaData(), Column('id', Integer(),
 
 ## 蟒蛇 3
 
-```
+```py
 Address.__table__
 ```
 
 **输出:**
 
-```
+```py
 Table('address', MetaData(), Column('id', Integer(),
  table=<address>, primary_key=True, nullable=False),
   Column('email_address', String(), table=<address>,
@@ -344,7 +344,7 @@ Table('address', MetaData(), Column('id', Integer(),
 
 ## 蟒蛇 3
 
-```
+```py
 mapper_registry.metadata.create_all(engine)
 
 Base.metadata.create_all(engine)
@@ -360,7 +360,7 @@ Base.metadata.create_all(engine)
 
 ## 蟒蛇 3
 
-```
+```py
 metadata2=MetaData()
 with engine.connect() as conn:
     student_reflected=Table("student_account",
@@ -376,7 +376,7 @@ with engine.connect() as conn:
 
 ## 蟒蛇 3
 
-```
+```py
 print(student_reflected.c)
 print(student_reflected.primary_key)
 ```

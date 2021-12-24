@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[10, 20, 30], [20, 50, 10], [30, 50, 10]]
 Output : 10
 
@@ -19,7 +19,7 @@ Output : wins
 
 第一种 Python 方法是使用 Python 的 *max()* 方法。我们首先展平 2D 列表，然后简单地应用 max()方法找出所有元素中最大出现的元素。
 
-```
+```py
 # Python3 program to find most 
 # common element in a 2D list
 
@@ -34,14 +34,14 @@ print(mostCommon(lst))
 
 **Output:**
 
-```
+```py
 10
 
 ```
 
 还有另一种方法来展平列表，即`chain.from_iterable()`，这产生了另一种方法。
 
-```
+```py
 # Python3 program to find most 
 # common element in a 2D list
 from itertools import chain
@@ -57,7 +57,7 @@ print(mostCommon(lst))
 
 **Output:**
 
-```
+```py
 10
 
 ```
@@ -66,7 +66,7 @@ print(mostCommon(lst))
 
 *most_common()* 用于产生 n 个最常遇到的输入值的序列。因此，我们简单地展平列表，并使用上述方法找到最常见的元素。
 
-```
+```py
 # Python3 program to find most 
 # common element in a 2D list
 from itertools import chain
@@ -83,7 +83,7 @@ print(mostCommon(lst))
 
 **Output:**
 
-```
+```py
 10
 
 ```

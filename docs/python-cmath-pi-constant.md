@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`cmath.pi`常数，我们能够非常容易地驱动数学公式。
 
-```
+```py
 # importing cmath library
 import cmath
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # importing cmath library
 import cmath
 

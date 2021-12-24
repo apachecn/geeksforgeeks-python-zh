@@ -15,13 +15,13 @@
 
 *   **bs4:** 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装，请在您的终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   **请求:** Request 让你可以极其轻松地发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装，请在您的终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -36,7 +36,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 import pandas as pd

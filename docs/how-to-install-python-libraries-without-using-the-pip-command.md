@@ -37,7 +37,7 @@ cd 命令
 
 **步骤 5:** 将当前工作目录更改为包含 Setup.py 的文件后，键入以下命令:
 
-```
+```py
 python setup.py install
 ```
 

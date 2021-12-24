@@ -18,7 +18,7 @@ PyGame 是一个用于设计视频游戏的免费开源 python 库。在本文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the pygame module
 import pygame
 from pygame.locals import *
@@ -122,7 +122,7 @@ while run:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the pygame module
 import pygame
 from pygame.locals import *

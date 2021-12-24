@@ -21,7 +21,7 @@ Prerequisites: [Control Flow Graph](https://www.geeksforgeeks.org/software-engin
 
 我们拿**white test . py**文件去拿 CFG。
 
-```
+```py
 a= 10
 while(a <= 0):
     if a == 5:
@@ -32,7 +32,7 @@ print("exited")
 
 在终端上运行以下命令。
 
-```
+```py
 python path_to/pycfg.py path_to/whiletest.py -d
 
 ```
@@ -51,21 +51,21 @@ python path_to/pycfg.py path_to/whiletest.py -d
 
 运行以下命令
 
-```
+```py
 sudo pip install pycfg
 
 ```
 
 一旦完成，使用相同的**同时测试**进行测试。我们可以在**上运行下面的 python 程序，同时测试**。
 
-```
+```py
  python /path_to/this_file.py /path_to/whiletest.py
 
 ```
 
 以下是代码–
 
-```
+```py
 from pycfg.pycfg import PyCFG, CFGNode, slurp
 import argparse
 import tkinter as tk

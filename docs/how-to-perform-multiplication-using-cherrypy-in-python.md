@@ -13,7 +13,7 @@ CherryPy 也称为 web 应用程序库，是一个 Python web 框架，为 Pytho
 
 要安装 cherrypy，请在终端中运行以下命令:
 
-```
+```py
 pip install cherrypy
 ```
 
@@ -26,7 +26,7 @@ pip install cherrypy
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 
 <body> 
@@ -50,7 +50,7 @@ pip install cherrypy
 
 ## 蟒蛇 3
 
-```
+```py
 import cherrypy
 
 class Root(object):

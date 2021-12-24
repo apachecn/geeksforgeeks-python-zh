@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict narray / lists
 # By default addresses.
@@ -29,7 +29,7 @@ print(df )
 
 **Output:** 
 
-```
+```py
 Category  Marks
 0    Array     20
 1    Stack     21
@@ -42,7 +42,7 @@ Category  Marks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict narray / lists
 # By default addresses.
@@ -62,7 +62,7 @@ print(df.transpose())
 
 **Output:** 
 
-```
+```py
               0      1      2
 Category   Array  Stack  Queue
 Student_1     20     21     19
@@ -74,7 +74,7 @@ Student_2     15     20     14
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict narray / lists
 # By default addresses.
@@ -94,7 +94,7 @@ print(df)
 
 **Output:** 
 
-```
+```py
         Area  Student_1  Student_2
 Cat_1  Array         20         15
 Cat_2  Stack         21         20

@@ -8,7 +8,7 @@
 
 *   **添加域黑名单**。对于 Ex。facebook.com google.com。在我们的配置字典中创建一个黑名单域列表。目前，只需忽略/删除收到的黑名单域名请求。(理想情况下，我们必须用禁止的回应来回应。)
 
-```
+```py
 
 # Check if the host:port is blacklisted
 for i in range(0, len(config['BLACKLIST_DOMAINS'])):
@@ -23,7 +23,7 @@ return
 
 *注意:在接下来的教程中，我们将创建一个完整的定制网络服务器，在那里将创建一个 createResponse 函数来处理一般的响应创建。*
 
-```
+```py
 def _ishostAllowed(self, host):
 
     """ Check if host is allowed to access
@@ -38,7 +38,7 @@ def _ishostAllowed(self, host):
 
 **导入模块并设置其初始配置。**
 
-```
+```py
 logging.basicConfig(level = logging.DEBUG,
 format = '[%(CurrentTime)-10s] (%(ThreadName)-10s) %(message)s',)
 ```
@@ -46,7 +46,7 @@ format = '[%(CurrentTime)-10s] (%(ThreadName)-10s) %(message)s',)
 *   **创建一个单独的方法来记录每条消息**:将它作为一个参数传递，并添加线程名称和当前时间等附加数据来跟踪日志。此外，创建一个函数，为日志着色，使它们在 STDOUT 上看起来很漂亮。
     要实现这一点，在配置中添加一个布尔值，COLORED_LOGGING，并创建一个新的函数，根据 LOG_LEVEL 为传递给它的每个消息着色。
 
-```
+```py
 def log(self, log_level, client, msg):
 
     """ Log the messages to appropriate place """
@@ -64,7 +64,7 @@ def log(self, log_level, client, msg):
 
 *   **创建一个新的模块，coloraepython . py:**它包含一个维护颜色代码列表的 pycolors 类。将其分离到另一个模块中，以使代码模块化并遵循 PEP8 标准。
 
-```
+```py
 # ColorizePython.py
 class pycolors:
 HEADER = '\033[95m'
@@ -79,13 +79,13 @@ UNDERLINE = '\033[4m'
 
 **模块:**
 
-```
+```py
 import ColorizePython
 ```
 
 **方法:**
 
-```
+```py
 def colorizeLog(shouldColorize, log_level, msg):
     ## Higher is the log_level in the log()
     ## argument, the lower is its priority.
@@ -111,7 +111,7 @@ def colorizeLog(shouldColorize, log_level, msg):
 
 所以，适当跳过它。这是相同的代码。
 
-```
+```py
 def shutdown(self, signum, frame):
     """ Handle the exiting server. Clean all traces """
     self.log("WARNING", -1, 'Shutting down gracefully...')

@@ -11,7 +11,7 @@
 *   **Tkinter:**Tkinter 包(“Tk 接口”)是 Tk GUI 工具包的标准 Python 接口。它是 python 中的一个内置模块。
 *   **RandFacts:** Randfacts 是一个生成随机事实的 python 库。您可以使用 *randfacts.getFact()* 返回一个随机有趣的事实。使用以下命令在系统中安装此模块。
 
-```
+```py
 pip install randfacts
 
 ```
@@ -24,7 +24,7 @@ pip install randfacts
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import tkinter as tk
 from tkinter import *
@@ -36,7 +36,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 # function to add facts
 def move():
     facts = randfacts.getFact(True)
@@ -49,7 +49,7 @@ def move():
 
 ## 蟒蛇 3
 
-```
+```py
 # function to close window
 def destroy():
     root.destroy()
@@ -59,7 +59,7 @@ def destroy():
 
 ## 蟒蛇 3
 
-```
+```py
 # driver code
 root = tk.Tk()
 
@@ -80,7 +80,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import tkinter as tk
 from tkinter import *

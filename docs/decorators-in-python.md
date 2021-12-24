@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to illustrate functions
 # can be treated as objects
 def shout(text):
@@ -35,7 +35,7 @@ print(yell('Hello'))
 
 ****输出:****
 
-```
+```py
 HELLO
 HELLO
 ```
@@ -46,7 +46,7 @@ HELLO
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to illustrate functions
 # can be passed as arguments to other functions
 def shout(text):
@@ -66,7 +66,7 @@ greet(whisper)
 
 ****输出:****
 
-```
+```py
 HI, I AM CREATED BY A FUNCTION PASSED AS AN ARGUMENT.
 hi, i am created by a function passed as an argument.
 ```
@@ -77,7 +77,7 @@ hi, i am created by a function passed as an argument.
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to illustrate functions
 # Functions can return another function
 
@@ -94,7 +94,7 @@ print(add_15(10))
 
 ****输出:****
 
-```
+```py
 25
 ```
 
@@ -107,7 +107,7 @@ print(add_15(10))
 
 ****装饰器语法:****
 
-```
+```py
 @gfg_decorator
 def hello_decorator():
     print("Gfg")
@@ -126,7 +126,7 @@ hello_decorator = gfg_decorator(hello_decorator)'''
 
 ## **蟒蛇 3**
 
-```
+```py
 # defining a decorator
 def hello_decorator(func):
 
@@ -160,7 +160,7 @@ function_to_be_used()
 
 ****输出:****
 
-```
+```py
 Hello, this is before function execution
 This is inside the function !!
 This is after function execution
@@ -175,7 +175,7 @@ This is after function execution
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing libraries
 import time
 import math
@@ -216,7 +216,7 @@ factorial(10)
 
 ****输出:****
 
-```
+```py
 3628800
 Total time taken in :  factorial 2.0061802864074707
 ```
@@ -227,7 +227,7 @@ Total time taken in :  factorial 2.0061802864074707
 
 ## **蟒蛇 3**
 
-```
+```py
 def hello_decorator(func):
     def inner1(*args, **kwargs):
 
@@ -256,7 +256,7 @@ print("Sum =", sum_two_numbers(a, b))
 
 ****输出:****
 
-```
+```py
 before Execution
 Inside the function
 after Execution
@@ -273,7 +273,7 @@ Sum = 3
 
 ## **蟒蛇 3**
 
-```
+```py
 # code for testing decorator chaining
 def decor1(func):
     def inner():
@@ -297,12 +297,12 @@ print(num())
 
 ****输出:****
 
-```
+```py
 400
 ```
 
 **上面的例子类似于调用函数–**
 
-```
+```py
 decor1(decor(num))
 ```

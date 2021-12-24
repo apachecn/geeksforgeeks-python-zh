@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to dictionary 
 # Using dictionary comprehension + range()
@@ -38,7 +38,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[5, 6, 7], [8, 3, 2], [8, 2, 1]]
 The constructed dictionary : {1: [5, 6, 7], 2: [8, 3, 2], 3: [8, 2, 1]}
 
@@ -50,7 +50,7 @@ The constructed dictionary : {1: [5, 6, 7], 2: [8, 3, 2], 3: [8, 2, 1]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to dictionary 
 # Using dictionary comprehension + enumerate()
@@ -70,7 +70,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[5, 6, 7], [8, 3, 2], [8, 2, 1]]
 The constructed dictionary : {1: [5, 6, 7], 2: [8, 3, 2], 3: [8, 2, 1]}
 

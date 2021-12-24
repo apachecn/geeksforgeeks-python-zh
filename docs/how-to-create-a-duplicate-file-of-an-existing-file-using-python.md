@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create the duplicate of
 # an already existing file
 import os

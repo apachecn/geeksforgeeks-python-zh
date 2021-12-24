@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to 
 # demonstrate numeric value
 
@@ -42,7 +42,7 @@ print("\nType of c: ", type(c))
 
 **输出:**
 
-```
+```py
 Type of a:  <class 'int'>
 
 Type of b:  <class 'float'>
@@ -69,7 +69,7 @@ Python 中的字符串可以使用单引号、双引号甚至三引号来创建�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for 
 # Creation of String 
 
@@ -104,7 +104,7 @@ print(String1) 
 
 **输出:**
 
-```
+```py
 String with the use of Single Quotes: 
 Welcome to the Geeks World
 
@@ -131,7 +131,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Access 
 # characters of String 
 
@@ -150,7 +150,7 @@ print(String1[-1]) 
 
 **输出:**
 
-```
+```py
 Initial String: 
 GeeksForGeeks
 
@@ -174,7 +174,7 @@ Python 中的列表可以通过将序列放在方括号`[]`中来创建。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate  
 # Creation of List  
 
@@ -205,7 +205,7 @@ print(List) 
 
 **输出:**
 
-```
+```py
 Initial blank List: 
 []
 
@@ -227,7 +227,7 @@ Multi-Dimensional List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate  
 # accessing of element from list 
 
@@ -254,7 +254,7 @@ print(List[-3]) 
 
 **输出:**
 
-```
+```py
 Accessing element from the list
 Geeks
 Geeks
@@ -278,7 +278,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate  
 # creation of Set 
 
@@ -316,7 +316,7 @@ print(Tuple3) 
 
 **输出:**
 
-```
+```py
 Initial empty Tuple: 
 ()
 
@@ -342,7 +342,7 @@ Tuple with nested tuples:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to 
 # demonstrate accessing tuple
 
@@ -363,7 +363,7 @@ print(tuple1[-3])
 
 **输出:**
 
-```
+```py
 First element of tuple
 1
 
@@ -385,7 +385,7 @@ Third last element of tuple
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to 
 # demonstrate boolean type
 
@@ -397,13 +397,13 @@ print(type(true))
 
 **输出:**
 
-```
+```py
 <class 'bool'>
 <class 'bool'>
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/7e8862763fb66153d70824099d4f5fb7.py", line 8, in print(type(true))
 NameError: name 'true' is not defined 
@@ -419,7 +419,7 @@ NameError: name 'true' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate  
 # Creation of Set in Python 
 
@@ -450,7 +450,7 @@ print(set1) 
 
 **输出:**
 
-```
+```py
 Initial blank Set: 
 set()
 
@@ -471,7 +471,7 @@ Set with the use of Mixed Values
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate 
 # Accessing of elements in a set 
 
@@ -493,7 +493,7 @@ print("Geeks" in set1) 
 
 **输出:**
 
-```
+```py
 Initial set: 
 {'Geeks', 'For'}
 
@@ -518,7 +518,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an empty Dictionary 
 Dict = {} 
 print("Empty Dictionary: ") 
@@ -551,7 +551,7 @@ print(Dict) 
 
 **输出:**
 
-```
+```py
 Empty Dictionary: 
 {}
 
@@ -575,7 +575,7 @@ Dictionary with each item as a pair:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate   
 # accessing a element from a Dictionary  
 
@@ -594,7 +594,7 @@ print(Dict.get(3)) 
 
 **输出:**
 
-```
+```py
 Accessing a element using key:
 For
 Accessing a element using get:

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  str[] = "Apple Mango Orange Mango Guava Guava Mango" 
 Output : frequency of Apple is : 1
          frequency of Mango is : 3
@@ -24,7 +24,7 @@ Output : frequency of Train is : 2
 **使用 list()方法 1:**
 **1。**使用 python 中带有分隔符空格的 Split 函数(即 string.split())将字符串拆分成包含单词的列表。
 
-```
+```py
 Note:
 string_name.split(separator) method is used to split the string 
 by specified separator(delimiter) into the list.
@@ -41,7 +41,7 @@ OUTPUT : ['This', 'is', 'my', 'book']
 T3】3。如果新列表中没有该单词，现在将该单词追加到先前字符串的新列表中。
 **4。**迭代新列表，使用 count 函数(即 string . count(newstring[iteration]))求出每次迭代的词频。
 
-```
+```py
 Note:
 string_name.count(substring) is used to find no. of occurrence of 
 substring in a given string.
@@ -58,7 +58,7 @@ OUTPUT : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find frequency of each word
 def freq(str):
 
@@ -91,7 +91,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 Frequency of  apple  is :  3
 Frequency of  mango  is :  3
 Frequency of  orange  is :  2
@@ -106,7 +106,7 @@ Frequency of  guava  is :  1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to find frequency of each word
 # function for calculating the frequency
 def freq(str):
@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Frequency of  apple  is :  3
 Frequency of  mango  is :  3
 Frequency of  orange  is :  2
@@ -141,7 +141,7 @@ Frequency of  guava  is :  1
 
  **接近 3(使用字典)**
 
-```
+```py
 # Find frequency of each word in a string in Python
 # using dictionary.
 

@@ -11,7 +11,7 @@
 
 **安装:**我们可以通过运行以下 pip 命令来安装软件包:
 
-```
+```py
 pip install screen-brightness-control
 ```
 
@@ -31,7 +31,7 @@ pip install screen-brightness-control
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import screen_brightness_control as sbc
 
@@ -50,7 +50,7 @@ print(primary_brightness)
 
 那么输出将是:
 
-```
+```py
 50
 50
 ```
@@ -74,7 +74,7 @@ print(primary_brightness)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import screen_brightness_control as sbc
 
@@ -94,7 +94,7 @@ print(sbc.get_brightness())
 
 **输出:**
 
-```
+```py
 100
 50
 75
@@ -118,7 +118,7 @@ print(sbc.get_brightness())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import screen_brightness_control as sbc
 
@@ -141,7 +141,7 @@ print(sbc.get_brightness())
 
 **输出:**
 
-```
+```py
 75
 50
 75
@@ -160,7 +160,7 @@ list_monitors()方法返回所有检测到的监视器的名称列表
 
 ## 蟒蛇 3
 
-```
+```py
 # import the library
 import screen_brightness_control as sbc
 
@@ -174,7 +174,7 @@ sbc.set_brightness(25, display=monitors[0])
 
 **输出:**
 
-```
+```py
 ["BenQ GL2450H", "Dell U2211H"]
 ```
 

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative List Split
 # Using loop
@@ -37,7 +37,7 @@ print("The Cumulative List Splits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg-is-all-best']
 The Cumulative List Splits : [['gfg'], ['gfg-is'], ['gfg-is-all'], ['gfg-is-all-best']]
 
@@ -48,7 +48,7 @@ The Cumulative List Splits : [['gfg'], ['gfg-is'], ['gfg-is-all'], ['gfg-is-all-
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative List Split
 # Using accumulate() + join()
@@ -74,7 +74,7 @@ print("The Cumulative List Splits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg-is-all-best']
 The Cumulative List Splits : ['gfg', 'gfg-is', 'gfg-is-all', 'gfg-is-all-best']
 

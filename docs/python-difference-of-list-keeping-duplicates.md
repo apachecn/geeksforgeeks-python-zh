@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们以每次移除元素的形式提取元素，并打破循环一次移除一个元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # Difference of List keeping duplicates
 # using loop
@@ -34,7 +34,7 @@ print ("List after performing difference : " + str(test_list1))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 7, 4, 3]
 The original list 2 is : [7, 3, 4]
 List after performing difference : [5, 4]

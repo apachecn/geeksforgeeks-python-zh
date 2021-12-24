@@ -10,28 +10,28 @@ Python 是一种广泛使用的通用语言。它允许执行各种任务。其�
 
 *   **Numpy:** 要安装 Numpy，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install numpy
 
     ```
 
 *   **pyautogui:** 要安装 pyautogui，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install pyautogui
 
     ```
 
 *   **OpenCV:** 要安装 OpenCV，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install opencv-python
 
     ```
 
 下面是实现。
 
-```
+```py
 # Python program to take
 # screenshots
 

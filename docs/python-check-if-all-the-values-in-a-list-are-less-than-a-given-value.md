@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list = [11, 22, 33, 44, 55] 
         value = 22 
 Output : No
@@ -19,7 +19,7 @@ Output : Yes
 **方法#1:** 遍历列表
 通过遍历列表比较每个元素，检查给定列表中的所有元素是否小于给定值。
 
-```
+```py
 # Python program to check if all values 
 # in the list are less than given value
 
@@ -44,14 +44,14 @@ else: print("No")
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
 **方法 2:** 使用`all()`功能
 使用`all()`功能，我们可以检查是否所有值都小于单行中的任何给定值。如果 all()函数中的给定条件对所有值都为真，则返回 true，否则返回 false。
 
-```
+```py
 # Python program to check if all values 
 # in the list are less than given value
 
@@ -68,6 +68,6 @@ else: print("No")
 
 **输出:**
 
-```
+```py
 Yes
 ```

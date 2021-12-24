@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  arr = [[1,2,3,4],
                [8,7,3,2],
                [9,2,6,3],
@@ -21,7 +21,7 @@ Output :  Common Elements = [2,3]
 
 假设我们有两个集合 A 和 B，那么 A . interface _ update(B)操作用集合 A 和 B 中的公共元素更新集合 A，比如 A =集合([1，2，3])和 B =集合([4，2，3])现在取**A . interface _ update(B)**后，集合 A 的值将为[2，3]。语法为 **anySet.intersection_update(可迭代)**。
 
-```
+```py
 # Function to find common elements in n arrays 
 def commonElements(arr): 
 
@@ -50,7 +50,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 Common Elements = [2,3]
 
 ```

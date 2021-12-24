@@ -22,14 +22,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 for i in range(4000):
     print(i)
 ```
 
 **当我们从 unix 命令运行这个文件时:**
 
-```
+```py
 python3 main.py | head -n3000
 ```
 
@@ -39,14 +39,14 @@ python3 main.py | head -n3000
 
 **方法 1:** 为了避免错误，我们需要让终端高效地运行代码，而不捕获 SIGPIPE 信号，因此对于这些，我们可以在 python 程序的顶部添加下面的代码。
 
-```
+```py
 from signal import signal, SIGPIPE, SIG_DFL  
 signal(SIGPIPE,SIG_DFL) 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 from signal import signal, SIGPIPE, SIG_DFL  
 signal(SIGPIPE,SIG_DFL)
 
@@ -56,7 +56,7 @@ for i in range(4000):
 
 **输出:**
 
-```
+```py
 0
 1
 20
@@ -84,7 +84,7 @@ for i in range(4000):
 
 **方法 2:** 我们可以通过使用 try/catch 块的功能来处理这种类型的错误，该功能已经得到 python 手册的批准，建议按照这样的程序来处理错误。
 
-```
+```py
 import sys, errno  
 try:  
    # INPUT/OUTPUT operation #
@@ -97,7 +97,7 @@ except IOError as e:
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import errno
 
@@ -112,7 +112,7 @@ except IOError as e:
 
 **输出:**
 
-```
+```py
 0
 1
 2

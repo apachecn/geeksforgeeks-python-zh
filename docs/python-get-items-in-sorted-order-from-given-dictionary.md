@@ -6,7 +6,7 @@
 
 **方法一:使用`sorted()`**
 
-```
+```py
 # Python code to demonstrate
 # to get sorted items from dictionary
 
@@ -24,7 +24,7 @@ for key in sorted(ini_dict):
 
 **输出:**
 
-```
+```py
 iniial_dictionary {'b': 'bhuvan', 'c': 'chandan', 'a': 'akshat'}
 
 Items in sorted order

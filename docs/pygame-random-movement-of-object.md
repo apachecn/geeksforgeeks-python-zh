@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the pygame module
 import pygame
 from pygame.locals import *
@@ -132,7 +132,7 @@ while run:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the pygame module
 import pygame
 from pygame.locals import *

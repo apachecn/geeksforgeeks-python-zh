@@ -6,13 +6,13 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是移动事件的语法，当这个事件被触发时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_move(x, y):
     print("Window Moved")
@@ -22,7 +22,7 @@ def on_move(x, y):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -101,7 +101,7 @@ pyglet.app.run()
 
 ![](img/9abd97b096b03a39dda9fd629418ede8.png)
 
-```
+```py
 Window Move
 New Position : 100 200
 ```

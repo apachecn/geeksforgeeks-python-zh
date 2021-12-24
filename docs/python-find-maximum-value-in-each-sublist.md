@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[10, 13, 454, 66, 44], [10, 8, 7, 23]]
 Output :  [454, 23]
 
@@ -16,7 +16,7 @@ Output :  [33, 101]
 
 **方法一:**使用列表理解。
 
-```
+```py
 # Python code to Find maximum of list in nested list
 
 # Initialising List
@@ -31,14 +31,14 @@ print(b)
 
 **Output:**
 
-```
+```py
 [454, 23]
 
 ```
 
 **方法 2:** 使用`map`
 
-```
+```py
 # Python code to Find maximum of list in nested list
 
 # Initialising List
@@ -53,7 +53,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 [454, 23]
 
 ```

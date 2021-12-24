@@ -12,7 +12,7 @@ Python 允许广泛的数据库服务器与应用程序的集成。从 Python �
 
 用 ALTER 语句添加列的语法:
 
-```
+```py
 ALTER TABLE table_name
 ADD new_column_name column_definition
 [FIRST | AFTER column_name];
@@ -43,7 +43,7 @@ ADD new_column_name column_definition
 
 ## 计算机编程语言
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -86,7 +86,7 @@ mydb.close()
 
 ## 计算机编程语言
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -129,7 +129,7 @@ mydb.close()
 
 ## 计算机编程语言
 
-```
+```py
 # Import required packages
 import mysql.connector
 

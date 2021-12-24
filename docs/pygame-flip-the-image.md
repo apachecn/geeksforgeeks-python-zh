@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame and sys
 import pygame
 import sys
@@ -76,7 +76,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame and sys
 import pygame
 import sys

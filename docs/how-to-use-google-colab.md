@@ -38,28 +38,28 @@
 
 **验证 GPU:**
 
-```
+```py
 import tensorflow as tf
 tf.test.gpu_device_name()
 ```
 
 如果 gpu 已连接，它将输出以下内容–
 
-```
+```py
 '/device:GPU:0'
 
 ```
 
 否则，它将输出以下内容
 
-```
+```py
 ''
 
 ```
 
 **核实 TPU:**
 
-```
+```py
 import os
 
 if 'COLAB_TPU_ADDR' not in os.environ:
@@ -70,14 +70,14 @@ else:
 
 如果 gpu 已连接，它将输出以下内容
 
-```
+```py
 Connected to TPU
 
 ```
 
 否则，它将输出以下内容
 
-```
+```py
 Not connected to TPU
 
 ```
@@ -85,20 +85,20 @@ Not connected to TPU
 **安装 Python 包–**
 使用可以使用 **pip** 安装任意包。例如:
 
-```
+```py
 ! pip install pandas
 ```
 
 **克隆 GitHub 转贴:**
 使用 **git 克隆**命令。例如:
 
-```
+```py
 ! git clone https://github.com/souvik3333/Testing-and-Debugging-Tools
 ```
 
 **上传文件:**
 
-```
+```py
 from google.colab import files
 uploaded = files.upload()
 ```
@@ -108,7 +108,7 @@ uploaded = files.upload()
 
 然后，您可以将其保存在数据框中。
 
-```
+```py
 import io
 df2 = pd.read_csv(io.BytesIO(uploaded['file_name.csv']))
 ```
@@ -116,7 +116,7 @@ df2 = pd.read_csv(io.BytesIO(uploaded['file_name.csv']))
 **通过挂载谷歌硬盘上传文件:**
 要将硬盘挂载到“mntDrive”文件夹中，请执行以下操作–
 
-```
+```py
 from google.colab import drive
 drive.mount('/mntDrive')
 ```
@@ -125,7 +125,7 @@ drive.mount('/mntDrive')
 
 现在要查看 google 驱动器中的所有数据，您需要执行以下操作:
 
-```
+```py
 ! ls "/mntDrive/My Drive"
 ```
 
@@ -140,7 +140,7 @@ drive.mount('/mntDrive')
 **下载文件:**
 假设你想下载“file_name.csv”。您可以通过执行以下操作将文件复制到您的 google 驱动器(在“数据”文件夹中，您需要在 google 驱动器中创建“数据”文件夹):
 
-```
+```py
 cp file_name.csv "/mntDrive/My Drive/data/renamed_file_name.csv"
 ```
 

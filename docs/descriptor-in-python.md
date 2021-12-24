@@ -15,7 +15,7 @@ Python 描述符被创建来管理使用对象作为参考的不同类的属性�
 **调用描述符:**
 每当收到对`set()`方法或`get()`方法的调用时，描述符都会被自动调用。例如，`obj.gfg`在`obj`的字典中查找 gfg。如果 gfg 定义了方法`__get__()`，则调用`gfg.__get__(obj)`。也可以通过方法名直接调用，即`gfg.__get__(obj)`。
 
-```
+```py
 # Python program showing
 # how to invoke descriptor
 
@@ -38,7 +38,7 @@ def __getattribute__(self, key):
 在本例中，数据描述符正常设置和返回值，并打印记录其访问的消息。
 **代码 1:**
 
-```
+```py
 class Descriptor(object):
 
     def __init__(self, name =''):
@@ -63,14 +63,14 @@ print(g.name)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 
 ```
 
 **代码 2:**
 
-```
+```py
 class Descriptor(object):
 
     def __init__(self, name =''):
@@ -95,7 +95,7 @@ print(g.name)
 
 **输出:**
 
-```
+```py
 ComputerforComputer
 
 ```
@@ -103,11 +103,11 @@ ComputerforComputer
 **使用属性()创建描述符:**
 `[property()](https://www.geeksforgeeks.org/python-property-function/)`，很容易为任何属性创建可用的描述符。创建`property()`的语法
 
-```
+```py
 property(fget=None, fset=None, fdel=None, doc=None)
 ```
 
-```
+```py
 # Python program to explain property() function 
 
 # Alphabet class 
@@ -143,7 +143,7 @@ del x.value 
 
 **输出:**
 
-```
+```py
 Getting value
 GeeksforGeeks
 Setting value to GfG
@@ -154,7 +154,7 @@ Deleting value
 **使用类方法创建描述符:**
 在本例中，我们创建一个类并覆盖任何描述符方法`__set__`、`__ get__`和`__delete__`。当许多不同的类和属性需要相同的描述符时，使用这个方法，例如，类型验证。
 
-```
+```py
 class Descriptor(object):
 
     def __init__(self, name =''):
@@ -179,7 +179,7 @@ print(g.name)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 
 ```
@@ -187,7 +187,7 @@ GeeksforGeeks
 **使用@property Decorator 创建描述符:**
 在本例中，我们使用了属性装饰器的能力，它是属性类型方法和 Python 装饰器的组合。
 
-```
+```py
 class Alphabet: 
     def __init__(self, value): 
         self._value = value 
@@ -221,7 +221,7 @@ del x.value 
 
 **输出:**
 
-```
+```py
 Getting value
 Peter
 Setting value to Diesel

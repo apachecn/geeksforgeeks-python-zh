@@ -17,7 +17,7 @@
 **1。Ubuntu**
 **第一步:**创建虚拟环境并激活。
 
-```
+```py
 # Installing virtual environment using pip
 pip install virtualenv
 
@@ -36,7 +36,7 @@ source ~/venv/bin/activate
 
 或者，如果您使用的是蟒蛇([https://www.anaconda.com/](https://www.anaconda.com/))，您可以使用它的虚拟环境:
 
-```
+```py
 # creating a virtual environment using Anaconda.
 conda create -n  anaconda
 ```
@@ -45,7 +45,7 @@ conda create -n  anaconda
 
 创建虚拟环境
 
-```
+```py
 # activating the virtual environment using anaconda
 conda activate <virtual-environment-name>
 ```
@@ -56,7 +56,7 @@ conda activate <virtual-environment-name>
 
 **步骤 2 :** 在您的虚拟环境中安装 turicreate
 
-```
+```py
 (venv) pip install -U turicreate
 ```
 
@@ -68,7 +68,7 @@ conda activate <virtual-environment-name>
 
 **步骤 1 :** 安装 WSL
 
-```
+```py
 # Open powershell as Administrator and run the following command
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
@@ -93,7 +93,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 **步骤 6 :** 使用以下命令更新和升级您的发行版软件包。
 
-```
+```py
 sudo apt-get update && sudo apt-get upgrade
 ```
 
@@ -103,7 +103,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 **步骤 7 :** 安装依赖项并设置环境。
 
-```
+```py
 # Installing dependencies
 sudo apt-get install -y libstdc++6 python-setuptools
 sudo apt-get install python3-pip
@@ -120,7 +120,7 @@ source venv/bin/activate
 
 **步骤 8 :** 现在在您的虚拟环境中安装 turicreate。
 
-```
+```py
 (venv)pip3 install turicreate
 ```
 

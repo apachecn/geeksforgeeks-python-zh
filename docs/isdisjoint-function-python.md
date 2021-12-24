@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Let set A = {2, 4, 5, 6}
 and set B = {7, 8, 9, 10} 
 ```
@@ -32,7 +32,7 @@ and set B = {7, 8, 9, 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for isdisjoint() function
 set1 = {2, 4, 5, 6}
 set2 = {7, 8, 9, 10}
@@ -48,7 +48,7 @@ print("set1 and set3 are disjoint?",
 
 **输出:**
 
-```
+```py
 set1 and set2 are disjoint? True
 set1 and set3 are disjoint? False
 ```
@@ -57,7 +57,7 @@ set1 and set3 are disjoint? False
 
 ## 蟒蛇 3
 
-```
+```py
 # Set
 A = {2, 4, 5, 6}
 
@@ -77,7 +77,7 @@ print("Set A and dict2 are disjoint?", A.isdisjoint(dict2))
 
 **输出:**
 
-```
+```py
 Set A and List lis disjoint? False
 Set A and dict are disjoint? False
 Set A and dict2 are disjoint? True

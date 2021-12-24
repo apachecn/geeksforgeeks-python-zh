@@ -17,7 +17,7 @@
 *   **[**json:**](https://www.geeksforgeeks.org/working-with-json-data-in-python/) 该模块用于处理 json 文件，内置 Python。所以不需要从外部安装**
 *   **[**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 它用于向指定的网址发出 HTTP 请求。这个模块没有内置 Python。要安装它，请在终端中键入以下命令。**
 
-```
+```py
 pip install requests
 ```
 
@@ -35,7 +35,7 @@ logo.png**
 
 ## **蟒蛇 3**
 
-```
+```py
 # python3 -- Weather Application using API
 
 # importing the libraries

@@ -9,7 +9,7 @@
 *   进口拱廊。
 *   定义一个绘制树的函数。这里，我们正在画一棵由矩形和三角形组成的松树。所以，你可以使用内置的街机功能来矩形和三角形。
 
-```
+```py
 def draw_tree(x, y):
 
    # Draw the triangle on top of the trunk
@@ -24,7 +24,7 @@ def draw_tree(x, y):
 
 *   现在，既然我们已经将函数定义为 tree，那么让我们定义主函数，并在该函数下定义 arcade.open_window()来指定屏幕宽度、高度和标题。另外，使用 arcade.start_render()和 arcade.finish_render 来指示 arcade 模块何时开始和停止绘图。最后，添加 arcade.run()来指定结尾。
 
-```
+```py
 def main():
    # Open the window
    arcade.open_window(600, 600,"TREE")
@@ -48,7 +48,7 @@ def main():
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 def draw_tree(x, y):
@@ -92,7 +92,7 @@ main()
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import arcade
 

@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 # program to illustrate protected
 # data members in a class 
 
@@ -38,7 +38,7 @@ obj.displayNameAndRoll() 
 
 **输出:**
 
-```
+```py
 Name:  R2J
 Roll:  1706256
 
@@ -46,7 +46,7 @@ Roll:  1706256
 
 **例 2:** 继承期间
 
-```
+```py
 # program to illustrate protected
 # data members in a class 
 
@@ -96,7 +96,7 @@ obj.calculateArea() 
 
 **输出:**
 
-```
+```py
 Length:  80
 Breadth:  50
 Area:  4000

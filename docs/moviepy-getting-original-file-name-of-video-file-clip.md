@@ -6,7 +6,7 @@
 
 借助下面给出的命令，我们可以加载视频文件剪辑
 
-```
+```py
 clip = VideoFileClip(file_name)
 ```
 
@@ -20,7 +20,7 @@ clip = VideoFileClip(file_name)
 
 下面是实现
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -50,7 +50,7 @@ clip1.ipython_display()
 
 **输出:**
 
-```
+```py
 File Name  : dsa_geek.webm
 ---------------------------------------
 Moviepy - Building video __temp__.mp4.
@@ -64,7 +64,7 @@ Moviepy - video ready __temp__.mp4
 
 另一个例子
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -88,7 +88,7 @@ clip1.ipython_display()
 
 **输出:**
 
-```
+```py
 File Name  : geeks.mp4
 ---------------------------------------
 Moviepy - Building video __temp__.mp4.

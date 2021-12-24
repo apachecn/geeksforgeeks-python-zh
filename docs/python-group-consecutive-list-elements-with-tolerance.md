@@ -7,7 +7,7 @@
 **方法:使用**发生器
 的蛮法来执行这个任务。使用循环和生成器，可以执行此任务。产量操作员负责切片，因此这个问题也可以通过一个小的公差检查来解决。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group consecutive list elements with tolerance
 # Using generator
@@ -40,7 +40,7 @@ print("The splitted list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 4, 5, 9, 11, 13, 24, 25, 26, 28]
 The splitted list is : [[1, 2, 4, 5], [9, 11, 13], [24, 25, 26, 28]]
 

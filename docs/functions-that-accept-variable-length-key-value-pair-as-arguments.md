@@ -7,7 +7,7 @@ kwarg 代表关键字参数。当人们想要处理函数中的命名参数时�
 
 **语法:**
 
-```
+```py
 def functionName(**anything):
     statement(s)
 ```
@@ -18,7 +18,7 @@ def functionName(**anything):
 
 ## 蟒蛇 3
 
-```
+```py
 # using kwargs
 # in functions
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 {'Argument_1': 'gfg', 'Argument_2': 'GFG'}
 ```
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # using kwargs
 # in functions
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 The value of abbreviation is GFG
 The value of full_name is geeksforgeeks
 ```
@@ -64,7 +64,7 @@ The value of full_name is geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # using kwargs
 # in functions
 # to concatenate
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 gFg
 ```
 
@@ -94,7 +94,7 @@ gFg
 
 ## 蟒蛇 3
 
-```
+```py
 # using kwargs
 # to multiply
 
@@ -116,6 +116,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 120
 ```

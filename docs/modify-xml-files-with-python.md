@@ -31,7 +31,7 @@ XML 本来就是一种层次化的数据格式，最自然的表示方式就是�
 
 ## **可扩展标记语言**
 
-```
+```py
 <?xml version="1.0"?>
 <!--COUNTRIES is the root element-->
 <COUNTRIES>
@@ -48,7 +48,7 @@ XML 本来就是一种层次化的数据格式，最自然的表示方式就是�
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the module.
 import xml.etree.ElementTree as ET
 XMLexample_stored_in_a_string ='''<?xml version ="1.0"?>
@@ -89,7 +89,7 @@ outputexample1**
 
 ## **蟒蛇 3**
 
-```
+```py
 import xml.etree.ElementTree as ET
 XMLexample_stored_in_a_string ='''<?xml version ="1.0"?>
 <States>
@@ -140,7 +140,7 @@ for state in root.findall('state'):
 
 ## **可扩展标记语言**
 
-```
+```py
 <?xml version="1.0"?>
 <breakfast_menu>
     <food>
@@ -178,7 +178,7 @@ homemade sourdough bread</description>
 
 ## **蟒蛇 3**
 
-```
+```py
 import xml.etree.ElementTree as ET
 
 mytree = ET.parse('xmldocument.xml.txt')

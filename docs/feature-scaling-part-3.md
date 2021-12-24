@@ -18,7 +18,7 @@
 
  **代号:**
 
-```
+```py
 # Python code for Feature Scaling using Robust Scaling
 
 """ PART 1:  Importing Libraries """

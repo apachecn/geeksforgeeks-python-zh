@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行该任务的一种方式。在本例中，我们使用 list()将字符串转换为字符列表，并将结果转换为所需的矩阵。
 
-```
+```py
 # Python3 code to demonstrate 
 # Convert Strings to Character Matrix
 # using List comprehension

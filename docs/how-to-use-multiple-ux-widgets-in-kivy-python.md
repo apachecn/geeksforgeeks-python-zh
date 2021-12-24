@@ -22,7 +22,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 在这里，我们将使用几乎所有这些 UX 小部件，这样您就可以理解如何在单个代码中使用它们。
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -38,7 +38,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to Show how to use multiple UX widget
 
 # import kivy module   
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file implementation of the App
 
 # Using Grid layout

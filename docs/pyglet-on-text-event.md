@@ -6,14 +6,14 @@
 我们可以借助下面给出的命令
 创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on text 事件的语法，当这个事件被触发
 时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_text(text):
     print("On text event")
@@ -23,7 +23,7 @@ def on_text(text):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -97,7 +97,7 @@ pyglet.app.run()
 
 ![](img/19733b0edbd86fbf8890bcf0de30873c.png)
 
-```
+```py
 You are entering : g
 You are entering : e
 You are entering : e

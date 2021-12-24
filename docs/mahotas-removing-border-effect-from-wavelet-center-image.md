@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中消除小波中心的边界效应。小波表示图像中特征的比例以及它们的位置。小波中心将使图像变小，并将其放在中心，不像 daubechies 小波。我们使用小波中心法对图像进行小波中心化。
 在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -23,7 +23,7 @@ mahotas.demos.load('luispedro')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -31,7 +31,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import numpy as np
 import mahotas
@@ -68,7 +68,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

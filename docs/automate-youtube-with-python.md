@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions

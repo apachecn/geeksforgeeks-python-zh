@@ -7,7 +7,7 @@
 **`lxml` 安装–**
 是 C 库–**libxslt**和 **libxml2** 的 Python 绑定。所以维护一个 Python 库，它是非常快速的 HTML 解析和 XML 库。为了让它工作，还需要安装 C 库。链接–**http://lxml.de/installation.html**将提供所有安装说明。
 
-```
+```py
 sudo apt-get install python-lxml *or*
 pip install lxml
 ```
@@ -16,7 +16,7 @@ pip install lxml
 
 **Code – Cleaning of the text**
 
-```
+```py
 import lxml.html.clean
 lxml.html.clean.clean_html('<html><head></head>
                            <bodyonload = loadfunc()>my text</body></html>')
@@ -24,7 +24,7 @@ lxml.html.clean.clean_html('<html><head></head>
 
 **输出:**
 
-```
+```py
 '<div><body>my text</body></div>'
 
 ```
@@ -46,7 +46,7 @@ lxml.html.clean.clean_html('<html><head></head>
 
 **代码–**
 
-```
+```py
 # importing BeautifulSoup
 from bs4 import BeautifulSoup
 
@@ -57,7 +57,7 @@ print (BeautifulSoup('&').string)
 
 **输出:**
 
-```
+```py
 '<'
 '&'
 

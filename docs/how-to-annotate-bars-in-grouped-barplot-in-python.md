@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries used
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -34,7 +34,7 @@ print(df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # transforming the dataset for barplot
 data_df = df.groupby(['sex', 'class']).agg(
     avg_age=('age', 'mean'), count=('sex', 'count'))
@@ -55,7 +55,7 @@ print(data_df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # code to plot a simple grouped barplot
 plt.figure(figsize=(8, 6))
 sns.barplot(x="class", y="avg_age",
@@ -77,7 +77,7 @@ plt.title("Simple Grouped Barplot", size=18)
 
 ## 蟒蛇 3
 
-```
+```py
 # code for annotated grouped barplot
 plt.figure(figsize=(8, 6))
 splot = sns.barplot(x="class", y="avg_age", hue="sex",
@@ -105,7 +105,7 @@ plt.title("Grouped Barplot with annotations", size=18)
 
 ## 蟒蛇 3
 
-```
+```py
 # code for annotated barplot
 plt.figure(figsize=(8, 6))
 splot = sns.barplot(x="class", y="avg_age", hue="sex",

@@ -8,7 +8,7 @@
 
 在终端中使用以下命令:
 
-```
+```py
 pip install pandas
 ```
 
@@ -33,7 +33,7 @@ pandas**data frame . append()**函数用于将其他数据帧的行追加到给�
 
 ## python 3
 
-```
+```py
 # importing the required modules
 import glob
 import pandas as pd

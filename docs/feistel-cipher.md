@@ -18,13 +18,13 @@ Feistel 密码模型是一种用于开发许多分组密码(如 DES)的结构或
 
 *   **a.** 使用 R1 和 K1 生成函数 f1，如下所示:
 
-```
+```py
 f1= xor(R1, K1)
 ```
 
 *   **b.** 现在第一轮之后新的左半区(L2)和右半区(R2)如下:
 
-```
+```py
 R2= xor(f1, L1)
 L2=R1
 ```
@@ -33,13 +33,13 @@ L2=R1
 
 *   **a.** 使用 R2 和 K2 生成函数 f2，如下所示:
 
-```
+```py
 f2= xor(R2, K2)
 ```
 
 *   **b.** 现在第一轮之后新的左半区(L2)和右半区(R2)如下:
 
-```
+```py
 R3= xor(f2, L2)
 L3=R2
 ```
@@ -49,7 +49,7 @@ L3=R2
 
 **示例:**
 
-```
+```py
 Plain Text is: Hello
 Cipher Text:  E1!w(
 Retrieved Plain Text is:  b'Hello'
@@ -61,7 +61,7 @@ Retrieved Plain Text is:  b'Geeks'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Feistel Cipher Algorithm
 
@@ -185,7 +185,7 @@ print("Retrieved Plain Text is: ", RPT)
 
 **输出:**
 
-```
+```py
 Plain Text is: Hello
 Cipher Text:  E1!w(
 Retrieved Plain Text is:  b'Hello'

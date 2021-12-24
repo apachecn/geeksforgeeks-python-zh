@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # append 100 values from 1 to 100
 # with 1 as key to list
 l = [dict(zip([1],[x])) for x in range(1,100)]
@@ -56,7 +56,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 # create an empty list
 l = []
 
@@ -74,7 +74,7 @@ l
 
 **输出:**
 
-```
+```py
 [{7058: 'sravan kumsr Gottumukkala',
  7059: 'ojaswi',
  7060: 'bobby',
@@ -88,7 +88,7 @@ l
 
 ## 蟒蛇 3
 
-```
+```py
 # create an list that contain some elements
 l = [1, 2, "hi", "welcome"]
 
@@ -106,7 +106,7 @@ l
 
 **输出:**
 
-```
+```py
 [1,
 2,
 'hi',
@@ -130,7 +130,7 @@ l
 
 ## 蟒蛇 3
 
-```
+```py
 # create an empty list
 l = []
 
@@ -149,7 +149,7 @@ l
 
 **输出:**
 
-```
+```py
 [{7058: 'sravan kumsr Gottumukkala',
  7059: 'ojaswi',
  7060: 'bobby',
@@ -163,7 +163,7 @@ l
 
 ## 蟒蛇 3
 
-```
+```py
 # create an list that contain some elements
 l = [1, 2, "hi", "welcome"]
 
@@ -182,7 +182,7 @@ l
 
 **输出:**
 
-```
+```py
 [1,
 2,
 'hi',
@@ -206,7 +206,7 @@ l
 
 ## 蟒蛇 3
 
-```
+```py
 # import deepcopy module
 from copy import deepcopy
 
@@ -228,7 +228,7 @@ l
 
 **输出:**
 
-```
+```py
 [{7058: 'sravan kumsr Gottumukkala',
  7059: 'ojaswi',
  7060: 'bobby',
@@ -242,7 +242,7 @@ l
 
 ## 计算机编程语言
 
-```
+```py
 # import deepcopy module
 from copy import deepcopy
 
@@ -264,7 +264,7 @@ l
 
 **输出:**
 
-```
+```py
 [1,
 2,
 'hi',
@@ -294,7 +294,7 @@ l
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library 
 import numpy as np
 

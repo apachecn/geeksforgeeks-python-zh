@@ -9,7 +9,7 @@ int 类型实现**数字。整数抽象基类。**
 
 要演示的代码
 
-```
+```py
 num = 7
 print(num.bit_length())
 
@@ -19,7 +19,7 @@ print(num.bit_length())
 
 **Output:**
 
-```
+```py
 3
 3
 
@@ -28,7 +28,7 @@ print(num.bit_length())
 2. **int.to_bytes(长度，byteorder，*符号=False)**
 返回一个表示整数的字节数组。如果 byteorder 为“大”，则最高有效字节位于字节数组的开头。如果 byteorder 为“little”，则最高有效字节位于字节数组的末尾。有符号参数确定是否使用二进制补码来表示整数。
 
-```
+```py
 # Returns byte representation of 1024 in a
 # big endian machine.
 print((1024).to_bytes(2, byteorder ='big'))
@@ -36,7 +36,7 @@ print((1024).to_bytes(2, byteorder ='big'))
 
 **Output:**
 
-```
+```py
 b'\x04\x00'
 
 ```
@@ -44,14 +44,14 @@ b'\x04\x00'
 3. **int.from_bytes(bytes，byteorder，*符号=False)**
 返回给定字节数组表示的整数。
 
-```
+```py
 # Returns integer value of '\x00\x10' in big endian machine.
 print(int.from_bytes(b'\x00\x10', byteorder ='big'))
 ```
 
 **Output:**
 
-```
+```py
 16
 
 ```

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 ImageDraw.Draw.text((x, y),"Text",(r,g,b))
 ```
 
@@ -29,7 +29,7 @@ ImageDraw.Draw.text((x, y),"Text",(r,g,b))
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
@@ -55,7 +55,7 @@ img.save('sample.jpg')
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw

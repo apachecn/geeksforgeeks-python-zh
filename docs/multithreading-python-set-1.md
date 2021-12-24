@@ -56,7 +56,7 @@
 
 让我们考虑一个使用线程模块的简单例子:
 
-```
+```py
 # Python program to illustrate the concept
 # of threading
 # importing the threading module
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     print("Done!")
 ```
 
-```
+```py
 Square: 100
 Cube: 1000
 Done!
@@ -104,7 +104,7 @@ Done!
 
 *   要导入线程模块，我们要做的是:
 
-    ```
+    ```py
     import threading
 
     ```
@@ -115,7 +115,7 @@ Done!
 
     在上面的例子中，我们用不同的目标函数创建了 2 个线程:
 
-    ```
+    ```py
     t1 = threading.Thread(target=print_square, args=(10,))
     t2 = threading.Thread(target=print_cube, args=(10,))
 
@@ -123,7 +123,7 @@ Done!
 
 *   要开始一个线程，我们使用**开始**线程**类的**方法。
 
-    ```
+    ```py
     t1.start()
     t2.start()
 
@@ -131,7 +131,7 @@ Done!
 
 *   Once the threads start, the current program (you can think of it like a main thread) also keeps on executing. In order to stop execution of current program until a thread is complete, we use **join** method.
 
-    ```
+    ```py
     t1.join()
     t2.join()
 
@@ -145,7 +145,7 @@ Done!
 
 考虑下面给出的 python 程序，其中我们为每个任务打印线程名称和相应的进程:
 
-```
+```py
 # Python program to illustrate the concept
 # of threading
 import threading
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     t2.join()
 ```
 
-```
+```py
 ID of process running main program: 11758
 Main thread name: MainThread
 Task 1 assigned to thread: t1
@@ -194,7 +194,7 @@ ID of process running task 2: 11758
 
 *   We use **os.getpid()** function to get ID of current process.
 
-    ```
+    ```py
     print("ID of process running main program: {}".format(os.getpid()))
 
     ```
@@ -203,14 +203,14 @@ ID of process running task 2: 11758
 
 *   我们使用 **threading.main_thread()** 函数来获取主线程对象。在正常情况下，主线程是启动 Python 解释器的线程。**名称**线程对象的属性用于获取线程的名称。
 
-    ```
+    ```py
     print("Main thread name: {}".format(threading.main_thread().name))
 
     ```
 
 *   我们使用**threading . current _ thread()**函数获取当前线程对象。
 
-    ```
+    ```py
     print("Task 1 assigned to thread: {}".format(threading.current_thread().name))
 
     ```

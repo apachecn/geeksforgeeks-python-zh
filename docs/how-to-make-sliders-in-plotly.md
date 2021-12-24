@@ -12,7 +12,7 @@ Plotly 是一个 Python 库，用于设计图形，尤其是交互式图形。�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as px
 import plotly.express as go
 import numpy as np
@@ -54,7 +54,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()

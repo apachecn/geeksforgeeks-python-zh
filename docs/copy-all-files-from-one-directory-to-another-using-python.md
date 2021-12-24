@@ -30,7 +30,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import shutil
 import os
 

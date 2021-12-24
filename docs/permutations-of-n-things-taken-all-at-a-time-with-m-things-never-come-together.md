@@ -5,7 +5,7 @@
 给定 **n** 和 **m** ，任务是找到 **n** 个不同事物的排列数量，一次取全部，使得 **m** 个特定事物永远不会在一起。
 **举例:**
 
-```
+```py
 Input  : 7, 3
 Output : 420
 
@@ -20,7 +20,7 @@ Output : 282240
 因此，当![m  ](img/f6f741a04f72d354961833095c36b79f.png "Rendered by QuickLaTeX.com")个特定的事物从不聚集在一起时–
 个不同的事物一次取全部的排列数
 
-```
+```py
 Permutations = n! - (n-m+1)! × m!
 ```
 
@@ -28,7 +28,7 @@ Permutations = n! - (n-m+1)! × m!
 
 ## C++
 
-```
+```py
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -58,7 +58,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 class GFG
 {
 static int factorial(int n)
@@ -88,7 +88,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```py
 def factorial(n):
     fact = 1;
     for i in range(2, n + 1):
@@ -104,7 +104,7 @@ print(result(5, 3))
 
 ## C#
 
-```
+```py
 using System;
 
 class GFG
@@ -136,7 +136,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Below is the JavaScript implementation of above approach
@@ -167,6 +167,6 @@ document.write(result(5, 3));
 
 **输出:**
 
-```
+```py
 84
 ```

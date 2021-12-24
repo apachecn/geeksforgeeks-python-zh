@@ -15,7 +15,7 @@
 
 1.  **需要安装第三方模块**
 
-    ```
+    ```py
     Selenium 
     getpass
     Additional Requirement : geckodriver for firefox and 
@@ -39,7 +39,7 @@
 
 **完整代码:**
 
-```
+```py
 from selenium import webdriver
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
@@ -76,7 +76,7 @@ print("Finished")
 **奖励:**
 出于安全考虑，我们也可以**输入密码而不在**屏幕上显示。为此，我们必须再包含一个名为 **getpass** 的模块。现在只需对密码的输入语句进行一次更改，我们就可以输入密码，而无需在屏幕上显示。
 
-```
+```py
 from getpass import getpass
 pwd = getpass('Enter Password:') 
 ```

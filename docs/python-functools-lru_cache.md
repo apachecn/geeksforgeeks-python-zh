@@ -18,7 +18,7 @@ Python 中的**functiontools**模块处理更高阶的函数，也就是对函�
 
 **例:1**
 
-```
+```py
 from functools import lru_cache
 import time
 
@@ -62,7 +62,7 @@ function with lru_cache is", end-begin)
 
 **例 2:**
 
-```
+```py
 from functools import lru_cache
 
 @lru_cache(maxsize = 100)
@@ -75,7 +75,7 @@ print(count_vowels("Welcome to Geeksforgeeks"))
 
 **输出:**
 
-```
+```py
 9
 
 ```

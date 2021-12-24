@@ -10,7 +10,7 @@
 
 **安装:**
 
-```
+```py
 pip install Dora
 
 ```
@@ -21,7 +21,7 @@ pip install Dora
 
 ## 蟒蛇 3
 
-```
+```py
 from Dora import Dora
 ```
 
@@ -38,7 +38,7 @@ from Dora import Dora
 
 ## 计算机编程语言
 
-```
+```py
 # Import required module
 from Dora import Dora
 

@@ -25,7 +25,7 @@ Python 有各种图形用户界面开发选项。其中一个选项是 [Tkinter]
 
 ## 蟒蛇 3
 
-```
+```py
 # import all functions from the tkinter
 from tkinter import *
 
@@ -66,7 +66,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all functions from the tkinter   
 import tkinter as tk
 from tkinter.font import Font

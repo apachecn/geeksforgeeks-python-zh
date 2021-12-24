@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import optparse
 parser = optparse.OptionParser()
 ```

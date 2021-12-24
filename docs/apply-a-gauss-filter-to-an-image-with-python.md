@@ -48,7 +48,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # ImageFilter for using filter() function
 from PIL import Image, ImageFilter
 
@@ -92,7 +92,7 @@ image.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image, ImageFilter
 
 image = Image.open(r"FILE_PATH")

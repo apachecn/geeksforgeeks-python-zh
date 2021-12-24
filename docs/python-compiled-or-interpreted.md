@@ -8,7 +8,7 @@
 
 **代码:Python 示例代码**
 
-```
+```py
 print("i am learning python")
 print("i am enjoying it")
 ```

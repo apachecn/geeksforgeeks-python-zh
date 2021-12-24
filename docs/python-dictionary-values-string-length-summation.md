@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + generator expression + len()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用 len()计算长度，使用 sum()计算求和，使用生成器表达式计算迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary values String Length Summation
 # Using sum() + len() + generator expression

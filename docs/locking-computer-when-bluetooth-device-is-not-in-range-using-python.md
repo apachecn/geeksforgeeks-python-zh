@@ -10,13 +10,13 @@ Python 提供了使用手机的蓝牙 UUID 地址作为任何系统的物理安�
 
 *   **Pybluez:** This module allows the use of system Bluetooth resources. To install it, type the following command in the terminal.
 
-    ```
+    ```py
     python3 -m pip install pybluez
     ```
 
 *   **Schedule:** The schedule library is used to schedule tasks at a specific time every day or a specific day of the week. To install it, type the following command in the terminal.
 
-    ```
+    ```py
     python3 -m pip install schedule
     ```
 
@@ -30,7 +30,7 @@ PyBluez 是一个带有蓝牙资源的包，允许 Python 开发人员轻松创�
 
 下面是实现:
 
-```
+```py
 # Import required packages
 import schedule
 import time

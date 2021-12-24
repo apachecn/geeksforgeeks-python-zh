@@ -8,7 +8,7 @@ heapq 模块有几个函数将列表作为参数，并以最小堆顺序排列�
 
 ## 蟒蛇 3
 
-```
+```py
 import heapq as hq
 
 my_dict={'a':'apple', 'b':'ball', 'c': 'cat'}
@@ -19,7 +19,7 @@ print(my_dict)
 
 **输出**
 
-```
+```py
 TypeError: heap argument must be a list
 ```
 
@@ -27,7 +27,7 @@ heapify()函数要求参数是一个列表。因此，如果我们考虑字典�
 
 ## 蟒蛇 3
 
-```
+```py
 import heapq as hq
 
 my_dict=[{'a':'apple'}, {'b':'ball'}, {'c': 'cat'}]
@@ -45,7 +45,7 @@ print(my_dict)
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import heapq as hq
 
@@ -86,7 +86,7 @@ heapq 模块函数可以将项目列表或元组列表作为参数。因此，�
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import heapq as hq
 
@@ -120,7 +120,7 @@ print("Resultant dictionary :", my_dict)
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import heapq as hq
 
@@ -160,7 +160,7 @@ print("Resultant dictionary :", my_dict)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import heapq as hq
 
@@ -206,7 +206,7 @@ for i in range(0, len(emp)):
 
 **Output**
 
-```
+```py
 Name : Vinay
 Designation : programmer
 Years of service : 1

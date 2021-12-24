@@ -20,7 +20,7 @@ Pygal 是 Python 的图形和用户界面库，提供设计和科学应用程序
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -47,7 +47,7 @@ chart.render_to_png('img.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -74,7 +74,7 @@ chart.render_to_png('img.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

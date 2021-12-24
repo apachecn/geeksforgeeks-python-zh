@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Divide String into Equal K chunks
 # Using len() + loop
@@ -47,7 +47,7 @@ print("The K chunked list : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 1
 The K chunked list : ['gee', 'ksf', 'org', 'eek', 's 1']
 
@@ -59,7 +59,7 @@ The K chunked list : ['gee', 'ksf', 'org', 'eek', 's 1']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Divide String into Equal K chunks
 # Using list comprehension
@@ -85,7 +85,7 @@ print("The K len chunked list : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 1
 The K len chunked list : ['gee', 'ksf', 'org', 'eek', 's 1']
 

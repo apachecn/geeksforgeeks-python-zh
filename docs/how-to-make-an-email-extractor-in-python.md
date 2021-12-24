@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Raw text
 text = "Duis info@geeksforgeeks.com convallis. Parturient montes nascetur ridiculus mus \
 geeksforgeeks@rocks.xyz mauris. Odio eu feugiat pre@rsos_tium.index nibh ipsum consequat love@gfg.in \
@@ -56,7 +56,7 @@ print(reg)
 
 **输出:**
 
-```
+```py
 ['info@geeksforgeeks.com', 'geeksforgeeks@rocks.xyz', 'love@gfg.in']
 ```
 
@@ -66,7 +66,7 @@ print(reg)
 
 ## 蟒蛇 3
 
-```
+```py
 #importing module
 import re
 
@@ -85,6 +85,6 @@ print(reg)
 
 **输出:**
 
-```
+```py
 ['info@geeksforgeeks.com', 'geeksforgeeks@rocks.xyz', 'love@gfg.in']
 ```

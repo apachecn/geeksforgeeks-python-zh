@@ -44,7 +44,7 @@ BERT 架构第三类。
 
 ## 蟒蛇 3
 
-```
+```py
 # Check if there is GPU or not
 !nvidia-smi
 # Install tensorflow 2.3.0
@@ -78,7 +78,7 @@ df.head()
 df.target.plot(kind='hist', title='Sincere (0) vs Insincere (1) distribution')
 ```
 
-```
+```py
 qid question_text target
 000002165364db923c7e6 How did Quebec nationalists see their province...0
 1000032939017120e6e44 Do you have an adopted dog, how would you enco...0
@@ -99,7 +99,7 @@ qid question_text target
 
 ## 蟒蛇 3
 
-```
+```py
 # split into train and validation
 train_df, remaining = train_test_split(df, train_size=0.01,
                                        stratify=df.target.values)
@@ -195,7 +195,7 @@ print("train data format",train_data.element_spec)
 print("validation data format",valid_data.element_spec)
 ```
 
-```
+```py
 ((13061, 3), (1293, 3))
 
 #printed an example
@@ -224,7 +224,7 @@ tf.Tensor(0, shape=(), dtype=int64)
 
 ## 蟒蛇 3
 
-```
+```py
 # define the keras model
 # Building the model
 def fine_tuned_model():
@@ -275,7 +275,7 @@ def plot_graphs(history, metric):
 plot_graphs(history, 'binary_accuracy')
 ```
 
-```
+```py
 Model: "functional_1"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -310,7 +310,7 @@ ________________________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # check 
 test_eg=['what is the current marketprice of petroleum?', 
          'who is Oswald?', 'why are you here idiot ?']
@@ -322,7 +322,7 @@ print(preds)
 ['Insincere' if pred >=0.5 else 'Sincere' for pred in preds]
 ```
 
-```
+```py
 [[1.3862031e-05]
  [6.7259348e-04]
  [8.9223766e-01]]

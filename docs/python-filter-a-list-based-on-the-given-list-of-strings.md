@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 List_string1 = ['key', 'keys', 'keyword', 'keychain', 'keynote']
 List_string2 = ['home/key/1.pdf',
@@ -27,7 +27,7 @@ list_string2 that do not have string in list_string1
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to  filter element from list 
 # based on another list of string.
 
@@ -67,7 +67,7 @@ print("filtered list is :", Output)
 
 **方法二:使用列表理解**
 
-```
+```py
 # Python code to  filter element from list 
 # based on another list of string.
 

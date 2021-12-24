@@ -10,7 +10,7 @@
 
 合并排序的合并操作可以使用前面也讨论过的朴素方法来执行。我们检查当前索引中两个元素中较小的一个，并增加遇到编号的列表的索引。当两个列表中的任何一个用完时，另一个列表将被附加到合并列表的末尾。
 
-```
+```py
 # Python3 code to demonstrate 
 # to combine two sorted list 
 # using naive method 
@@ -48,7 +48,7 @@ print ("The combined sorted list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [1, 5, 6, 9, 11]
 The original list 2 is : [3, 4, 7, 8, 10]
 The combined sorted list is : [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -59,7 +59,7 @@ The combined sorted list is : [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 这个函数可以用来在一行中执行这个任务，但是在内部需要更多的时间。当我们将一个列表附加到另一个列表并再次对结果列表进行排序时，可能会有更多的时间复杂性。如果我们需要节省编码时间，应该使用。
 
-```
+```py
 # Python3 code to demonstrate 
 # to combine two sorted list 
 # using sorted() 
@@ -82,7 +82,7 @@ print ("The combined sorted list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [1, 5, 6, 9, 11]
 The original list 2 is : [3, 4, 7, 8, 10]
 The combined sorted list is : [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -93,7 +93,7 @@ The combined sorted list is : [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 Python 还提供了执行这一特定任务的内置函数，并在后台执行与朴素方法中的合并类似的工作，应该在想要处理这类问题时使用。
 
-```
+```py
 # Python3 code to demonstrate 
 # to combine two sorted list 
 # using heapq.merge()
@@ -117,7 +117,7 @@ print ("The combined sorted list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [1, 5, 6, 9, 11]
 The original list 2 is : [3, 4, 7, 8, 10]
 The combined sorted list is : [1, 3, 4, 5, 6, 7, 8, 9, 10, 11]

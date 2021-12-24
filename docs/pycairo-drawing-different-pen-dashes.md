@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -61,7 +61,7 @@ print("File Saved")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -106,7 +106,7 @@ print("File Saved")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

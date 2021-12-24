@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中进行图像哈尔变换。哈尔小波是一系列重新标度的“方形”函数，它们共同构成一个小波族或基。小波分析类似于傅立叶分析，因为它允许用正交基来表示一个区间上的目标函数。哈尔序列现在被认为是第一个已知的小波基，并被广泛用作教学例子。
 在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.load('luispedro')
 **注意:**输入图像应该被过滤或者应该被加载为灰色
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import numpy as np
 import mahotas
@@ -65,7 +65,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

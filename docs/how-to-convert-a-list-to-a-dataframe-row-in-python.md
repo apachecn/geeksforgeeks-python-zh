@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -48,7 +48,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -86,7 +86,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -122,7 +122,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -156,7 +156,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -197,7 +197,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

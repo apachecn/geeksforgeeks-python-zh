@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of tuples with student
 # details
 name = [('sravan',7058,98.45),
@@ -36,7 +36,7 @@ for x in name:
 
 **输出:**
 
-```
+```py
 sravan
 7058
 98.45
@@ -71,7 +71,7 @@ gnanesh
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of tuples with with atudent
 # details
 name = [('sravan',7058,98.45),
@@ -97,7 +97,7 @@ for x in l:
 
 **输出:**
 
-```
+```py
 sravan
 7058
 98.45

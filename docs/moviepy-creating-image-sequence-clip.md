@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 
@@ -27,7 +27,7 @@ clip.ipython_display(width = 360) 
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -40,7 +40,7 @@ Moviepy - video ready __temp__.mp4
 
 另一个例子
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 
@@ -55,7 +55,7 @@ clip.ipython_display(width = 360) 
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 

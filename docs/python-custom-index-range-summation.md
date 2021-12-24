@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip() + sum()`**
 通过耦合列表理解和 zip()的力量，可以实现这个任务。在这种情况下，我们压缩列表的开头和结尾，然后在列表到达时继续切片，并从中剪切出新的列表。使用 sum()执行求求和的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Custom Index Range Summation
 # using list comprehension + zip() + sum()
@@ -35,7 +35,7 @@ print ("The splitted lists summation are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 3, 5, 9, 2, 4]
 The original split index list : [2, 5, 7]
 The splitted lists summation are : [5, 18, 8, 15]

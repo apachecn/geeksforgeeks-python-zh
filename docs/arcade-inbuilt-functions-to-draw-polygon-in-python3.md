@@ -22,7 +22,7 @@ Arcade 有两个用于绘制多边形的内置功能:
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window. Set the window title and dimensions (width and height)
@@ -63,7 +63,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window. Set the window title and dimensions (width and height)

@@ -24,7 +24,7 @@ Tweepy 模块中 API 类的 **list_subscribers()** 方法用于获取指定列�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -60,7 +60,7 @@ for subscriber in subscribers:
 
 **输出:**
 
-```
+```py
 Saddds305
 rachellelive
 hazemkhattab8
@@ -87,7 +87,7 @@ Nellie_I_Am
 
 ## 蟒蛇 3
 
-```
+```py
 # the slug of the list
 slug = "thought-leaders"
 
@@ -107,6 +107,6 @@ print("The number of subscriers fetched : " + str(len(subscribers)))
 
 **输出:**
 
-```
+```py
 The number of subscriers fetched : 3
 ```

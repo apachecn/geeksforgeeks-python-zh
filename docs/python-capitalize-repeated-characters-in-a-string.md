@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function for changing the
 # repeated characters to uppercase
 def RepeatedUpper(s):
@@ -73,7 +73,7 @@ print(RepeatedUpper(s))
 
 **输出:**
 
-```
+```py
 GEEKS for GEEKS
 ```
 

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import scapy.all as scapy 
 
 request = scapy.ARP() 

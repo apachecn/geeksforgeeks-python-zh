@@ -16,7 +16,7 @@ distinct 和 count 是可以应用于数据帧的两个不同的函数。distinc
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -62,14 +62,14 @@ print("Total number of records in df:", df.count())
 
 ## 蟒蛇 3
 
-```
+```py
 # applying distinct().count() on df
 print('Distinct count in DataFrame df is :', df.distinct().count())
 ```
 
 **输出:**
 
-```
+```py
 Distinct count in DataFrame df is : 8
 ```
 
@@ -85,7 +85,7 @@ Distinct count in DataFrame df is : 8
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sparksession from 
 # pyspark.sql mudule
 from pyspark.sql import SparkSession
@@ -124,7 +124,7 @@ print("Total number of records in df:", df.count())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing countDistinct from
 # pyspark.sql.functions
 from pyspark.sql.functions import countDistinct
@@ -139,7 +139,7 @@ df2.show()
 
 **输出:**
 
-```
+```py
 +----------------------------------------+
 |count(DISTINCT Emp_name, Depart, Salary)|
 +----------------------------------------+
@@ -153,7 +153,7 @@ DataFrame df 中有 7 条不同的记录。countDistinct()以列格式提供不�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing countDistinct from 
 # pyspark.sql.functions
 from pyspark.sql.functions import countDistinct
@@ -168,7 +168,7 @@ df3.show()
 
 **输出:**
 
-```
+```py
 +----------------------+
 |count(DISTINCT Depart)|
 +----------------------+
@@ -184,7 +184,7 @@ df3.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sparksession from pyspark.sql mudule
 from pyspark.sql import SparkSession
 
@@ -224,7 +224,7 @@ print("Total number of records in df:", df.count())
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a temporary view of 
 # Dataframe and storing it into df2
 df.createOrReplaceTempView("df2")
@@ -237,7 +237,7 @@ spark.sql("select count(distinct(*)) from df2").show()
 
 #### 输出:
 
-```
+```py
 +---------------------------------------------+
 |count(DISTINCT Emp_name, Depart, Age, Salary)|
 +---------------------------------------------+
@@ -251,7 +251,7 @@ spark.sql("select count(distinct(*)) from df2").show()
 
 ## 蟒蛇 3
 
-```
+```py
 # using the SQL query to count distinct
 # records in 2 columns only display the
 # count on the screen
@@ -260,7 +260,7 @@ spark.sql("select count(distinct(Emp_name, Salary)) from df2").show()
 
 **输出:**
 
-```
+```py
 +----------------------------------------------------------------+
 |count(DISTINCT named_struct(Emp_name, Emp_name, Salary, Salary))|
 +----------------------------------------------------------------+

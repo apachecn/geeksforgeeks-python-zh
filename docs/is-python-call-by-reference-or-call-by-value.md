@@ -7,7 +7,7 @@ Python 利用了一种系统，这种系统被称为“按对象引用调用”�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # call by value
 
@@ -25,7 +25,7 @@ print("Outside Function:", string)
 
 **输出**T2】
 
-```
+```py
 Inside Function: GeeksforGeeks
 Outside Function: Geeks
 ```
@@ -34,7 +34,7 @@ Outside Function: Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # call by reference
 
@@ -51,7 +51,7 @@ print("Outside Function:", mylist)
 
 **输出**T2】
 
-```
+```py
 Inside Function [10, 20, 30, 40, 50]
 Outside Function: [10, 20, 30, 40, 50]
 ```
@@ -62,7 +62,7 @@ Outside Function: [10, 20, 30, 40, 50]
 
 ## 蟒蛇 3
 
-```
+```py
 a = "first"
 b = "first"
 
@@ -81,7 +81,7 @@ print(a is b)
 
 **输出**T2】
 
-```
+```py
 110001234557894
 110001234557894
 True
@@ -92,7 +92,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 a = [10, 20, 30]
 b = [10, 20, 30]
 
@@ -113,7 +113,7 @@ print(a is b)
 
 **输出**T2】
 
-```
+```py
 541190289536222
 541190288737777
 False
@@ -124,7 +124,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 def foo(a):
 
     # A new variable is assigned
@@ -141,7 +141,7 @@ print("Outside Function:", string)
 
 **输出:**
 
-```
+```py
 Inside Function: new value
 Outside Function: old value
 ```
@@ -151,7 +151,7 @@ Outside Function: old value
 
 ## 蟒蛇 3
 
-```
+```py
 def foo(a):
     a[0] = "Nothing"
 
@@ -163,7 +163,7 @@ print(bar)
 
 **输出:**
 
-```
+```py
 ['Nothing, 'how', 'are', 'you', 'doing']
 ```
 

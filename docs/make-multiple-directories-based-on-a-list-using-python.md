@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 list = ['folder10','folder11','folder12',
@@ -38,7 +38,7 @@ for items in list:
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 root_path = 'Documents/tmp/year/month/week/day/hour'
@@ -60,7 +60,7 @@ for items in list:
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 from functools import partial
 

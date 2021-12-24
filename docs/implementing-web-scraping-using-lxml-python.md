@@ -13,7 +13,7 @@
 
 为了完成这项任务，需要安装一些第三方软件包。使用 pip 安装车轮()。文件。
 
-```
+```py
 pip install requests
 pip install lxml
 ```
@@ -36,7 +36,7 @@ pip install lxml
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code implementing web scraping using lxml
 
 import requests
@@ -71,7 +71,7 @@ print(tree[0].text_content())
 
 **输出:**
 
-```
+```py
 "Consider the following C/C++ programs and try to guess the output?
 Output of all of the above programs is unpredictable (or undefined).
 The compilers (implementing… Read More »"
@@ -81,7 +81,7 @@ The compilers (implementing… Read More »"
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from lxml import html
 

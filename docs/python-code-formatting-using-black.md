@@ -20,13 +20,13 @@ pycodestyle 或 flake8 等 Linters 显示您的代码是否符合 PEP8 格式，
 
 黑色要求安装了 pip 的**Python 3 . 6 . 0+【T1:** 
 
-```
+```py
 $ pip install black
 ```
 
 使用黑色非常简单。在终端中运行以下命令。
 
-```
+```py
 $ black [file or directory]
 ```
 
@@ -35,7 +35,7 @@ $ black [file or directory]
 
 ## 蟒蛇 3
 
-```
+```py
 def is_unique(
                s
                ):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 def is_unique(s):
     s = list(s)
     s.sort()
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 def function(name, default=None, *args, variable="1123", a, b, c, employee, office, d, e, f, **kwargs):
     """This is function is created to demonstrate black"""
 
@@ -102,7 +102,7 @@ j = [1,
 
 ## 蟒蛇 3
 
-```
+```py
 def function(
     name,
     default=None,

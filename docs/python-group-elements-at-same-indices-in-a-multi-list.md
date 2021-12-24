@@ -9,7 +9,7 @@
 **方法#1:使用列表理解+ `zip()`**
 列表理解可以用来实现这个特殊的任务，以及将相似的索引配对在一起的 zip 功能。这个方法只是简单方法的简写。
 
-```
+```py
 # Python3 code to demonstrate 
 # index list elements pairing
 # using list comprehension 
@@ -30,7 +30,7 @@ print ("The index elements pairs list is " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 The index elements pairs list is [[1, 4, 8], [4, 6, 3], [5, 8, 10]]
 
@@ -39,7 +39,7 @@ The index elements pairs list is [[1, 4, 8], [4, 6, 3], [5, 8, 10]]
 **方法 2:使用`map() + zip()`**
 `map` 函数可以将每个迭代结果映射到单个列表中，而`zip` 函数执行索引元素配对。这种结合可以用来达到预期的效果。
 
-```
+```py
 # Python3 code to demonstrate 
 # index list elements pairing
 # using map() + zip()
@@ -60,7 +60,7 @@ print ("The index elements pairs list is " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 The index elements pairs list is [[1, 4, 8], [4, 6, 3], [5, 8, 10]]
 
@@ -69,7 +69,7 @@ The index elements pairs list is [[1, 4, 8], [4, 6, 3], [5, 8, 10]]
 **方法三:使用`zip()`**
 单独使用`zip` 功能就可以了，只需要将其类型转换为列表，以列表格式打印结果即可。这是完成这项任务的最敏捷的方式，也是最优雅的方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # index list elements pairing
 # using zip()
@@ -90,7 +90,7 @@ print ("The index elements pairs list is " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 The index elements pairs list is [(1, 4, 8), (4, 6, 3), (5, 8, 10)]
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [(11, 20), (13, 40), (55, 16)]
 Output:[11, 20, 13, 40, 55, 16]
 
@@ -19,7 +19,7 @@ Output: ['Geeks', 2, 'For', 4, 'geek', '6']
 
 **方法#1 :** 使用列表理解
 
-```
+```py
 # Python code to convert list of tuples into list
 
 # List of tuple initialization
@@ -34,14 +34,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 ['Geeks', 2, 'For', 4, 'geek', '6']
 
 ```
 
 **方法 2 :** 使用 itertools
 
-```
+```py
 # Python code to convert list of tuple into list
 
 # Importing
@@ -59,14 +59,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6]
 
 ```
 
 **方法#3 :** 使用迭代
 
-```
+```py
 # Python code to convert list of tuple into list
 
 # List of tuple initialization
@@ -85,14 +85,14 @@ print(result)
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6]
 
 ```
 
 **方法#4 :** 使用`sum`
 
-```
+```py
 # Python code to convert list of tuple into list
 
 # List of tuple initialization
@@ -107,14 +107,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6]
 
 ```
 
 **方法 5 :** 使用**运算符**和**减少**
 
-```
+```py
 # Python code to convert list of tuple into list
 
 import operator
@@ -129,14 +129,14 @@ print(list(reduce(operator.concat, tup)))
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6]
 
 ```
 
 **方法 6 :** 使用`lambda`
 
-```
+```py
 # Python code to convert list of tuple into list
 
 # List of tuple initialization
@@ -161,7 +161,7 @@ print(out)
 
 **Output:**
 
-```
+```py
 [1, 3, 5, 2, 4, 6]
 
 ```

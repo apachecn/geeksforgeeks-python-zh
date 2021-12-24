@@ -7,7 +7,7 @@
 **方法:使用`zip()` +列表理解**
 以上功能的组合可以组合执行此任务。在本文中，我们迭代压缩列表，并使用列表理解来呈现嵌套字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Lists to Nestings Dictionary
 # Using list comprehension + zip()
@@ -32,7 +32,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['gfg', 'is', 'best']
 The original list 2 is : ['ratings', 'price', 'score']
 The original list 3 is : [5, 6, 7]

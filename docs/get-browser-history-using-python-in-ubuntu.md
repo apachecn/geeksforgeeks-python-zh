@@ -15,7 +15,7 @@ Firefox 浏览器将所有细节存储在。mozilla/firefox 文件夹。历史�
 
 ## 计算机编程语言
 
-```
+```py
 import os
 import sqlite3
 
@@ -65,7 +65,7 @@ Chrome 浏览器将所有细节存储在。配置/谷歌浏览器/默认文件�
 
 ## 计算机编程语言
 
-```
+```py
 import sqlite3
 
 con = sqlite3.connect('/home/admin1/.config/google-chrome/Default/History')

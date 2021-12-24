@@ -7,7 +7,7 @@
 **方法#1:使用`format() + join()`**
 上述功能的组合可用于执行该特定任务。format 函数将字节转换为十六进制格式。格式中的“02”用于填充所需的前导零。join 函数允许将十六进制结果连接成字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Converting bytearray to hexadecimal string
 # Using join() + format()
@@ -28,7 +28,7 @@ print("The string after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : [124, 67, 45, 11]
 The string after conversion : 7c432d0b
 

@@ -26,7 +26,7 @@ Python 支持将一种文件格式转换成另一种文件格式的子系统。�
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from tkinter import filedialog as fd
 import os

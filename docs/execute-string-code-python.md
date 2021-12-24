@@ -5,7 +5,7 @@
 给定字符串变量中的几行代码，并执行字符串中的代码。
 示例:
 
-```
+```py
 Input:
 code = """ a = 6+5
            print(a)"""
@@ -34,7 +34,7 @@ after executing the content of the variable.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate use of exec to
 # execute a given code as string.
 
@@ -56,7 +56,7 @@ exec_code()
 
 输出:
 
-```
+```py
 120
 ```
 

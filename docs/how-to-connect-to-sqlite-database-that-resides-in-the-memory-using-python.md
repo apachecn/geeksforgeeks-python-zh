@@ -20,7 +20,7 @@
 
 在程序中导入 SQLite 的语法:
 
-```
+```py
 import sqlite3
 ```
 
@@ -30,7 +30,7 @@ import sqlite3
 
 **语法:**
 
-```
+```py
 conn = sqlite3.connect('gfgdatabase.db')   
 ```
 
@@ -44,7 +44,7 @@ conn = sqlite3.connect('gfgdatabase.db')
 
 我们可以使用以下语法在内存中创建数据库。
 
-```
+```py
 conn = sqlite3.connect(':memory:') 
 ```
 
@@ -56,7 +56,7 @@ conn = sqlite3.connect(':memory:')
 
 **语法:**
 
-```
+```py
 cursor_object = connection.cursor()
 ```
 
@@ -66,7 +66,7 @@ cursor_object = connection.cursor()
 
 语法:
 
-```
+```py
 from sqlite3 import Error
 ```
 
@@ -76,7 +76,7 @@ from sqlite3 import Error
 
 **语法:**
 
-```
+```py
 conn.close()
 ```
 
@@ -84,7 +84,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import sqlite3
 from sqlite3 import Error as Err

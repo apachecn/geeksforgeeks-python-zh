@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a date corresponding
 # to a specified timestamp
@@ -44,7 +44,7 @@ print("Date for the Timestamp is: %s"%date_From_CurrentTime);
 
 **输出:**
 
-```
+```py
 1627279008.95
 Date for the Timestamp is: 2021-07-26
 ```
@@ -53,7 +53,7 @@ Date for the Timestamp is: 2021-07-26
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a date corresponding
 # to a specified timestamp
@@ -75,6 +75,6 @@ print("Date for the Timestamp is: %s"%date_From_Timestamp);
 
 **输出:**
 
-```
+```py
 Date for the Timestamp is: 2011-12-09
 ```

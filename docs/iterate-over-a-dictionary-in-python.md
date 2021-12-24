@@ -14,7 +14,7 @@ Python 中的 Dictionary 是一个无序的数据值集合，用于像映射一�
 
 下面代码中的状态顺序每次都会改变，因为字典没有以特定的顺序存储键。
 
-```
+```py
 # Python3 code to iterate through all keys in a dictionary
 
 statesAndCapitals = {
@@ -33,7 +33,7 @@ for state in statesAndCapitals:
 
 **Output:**
 
-```
+```py
 List Of given states:
 
 Rajasthan
@@ -45,7 +45,7 @@ Gujarat
 
 为了保持字典中键和值的顺序，请使用 OrderedDict。
 
-```
+```py
 # Python3 code to iterate through all keys 
 # in a dictionary in a specific order
 
@@ -67,7 +67,7 @@ for state in statesAndCapitals:
 
 **Output:**
 
-```
+```py
 List Of given states:
 
 Gujarat
@@ -83,7 +83,7 @@ Bihar
 
 同样，在这种情况下，下面代码中大写字母的打印顺序每次都会改变，因为字典没有以特定的顺序存储它们。
 
-```
+```py
 # Python3 code to iterate through all values in a dictionary
 
 statesAndCapitals = {
@@ -102,7 +102,7 @@ for capital in statesAndCapitals.values():
 
 **Output:**
 
-```
+```py
 List Of given capitals:
 
 Gandhinagar
@@ -114,7 +114,7 @@ Patna
 
 **遍历所有键、值对:**
 
-```
+```py
 # Python3 code to iterate through all key, value 
 # pairs in a dictionary
 
@@ -134,7 +134,7 @@ for state, capital in statesAndCapitals.items():
 
 **Output:**
 
-```
+```py
 List Of given states and their capitals:
 
 Bihar : Patna

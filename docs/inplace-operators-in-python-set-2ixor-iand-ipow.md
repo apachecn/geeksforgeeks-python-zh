@@ -10,7 +10,7 @@
 
 **2。ipow()** :-该功能用于**分配当前值**并求其幂。该操作执行“ **a ** = b** 操作。赋值是**而不是**在不可变容器的情况下执行，如字符串、数字和元组。
 
-```
+```py
 # Python code to demonstrate the working of 
 # ixor() and ipow()
 
@@ -34,7 +34,7 @@ print (x)
 
 输出:
 
-```
+```py
 The value after xoring and assigning : 15
 The value after exponentiating and assigning : 625
 
@@ -44,7 +44,7 @@ The value after exponentiating and assigning : 625
 
 **4。ior()** :-该函数用于**对当前值**进行赋值和按位 or 运算。该操作执行“ **a |=b** 操作。赋值是**而不是**在不可变容器的情况下执行，如字符串、数字和元组。
 
-```
+```py
 # Python code to demonstrate the working of 
 # ior() and iand()
 
@@ -68,7 +68,7 @@ print (x)
 
 输出:
 
-```
+```py
 The value after bitwise or, and assigning : 15
 The value after bitwise and, and assigning : 4
 
@@ -78,7 +78,7 @@ The value after bitwise and, and assigning : 4
 
 **6。irshift()** :-该函数用于通过第二个参数对当前值进行**赋值和按位右移。该操作执行“ **a > > =b** 操作。赋值是**而不是**在不可变容器的情况下执行，如字符串、数字和元组。**
 
-```
+```py
 # Python code to demonstrate the working of 
 # ilshift() and irshift()
 
@@ -102,7 +102,7 @@ print (x)
 
 输出:
 
-```
+```py
 The value after bitwise left shift and assigning : 32
 The value after bitwise right shift and assigning : 2
 

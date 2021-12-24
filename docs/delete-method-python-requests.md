@@ -9,7 +9,7 @@
 DELETE 是万维网使用的 HTTP 支持的请求方法。DELETE 方法删除指定的资源。与 PUT 请求一样，您需要为此操作指定一个特定的资源。如果响应包括描述状态的实体，则成功响应应为 200(确定)，如果动作尚未实施，则为 202(已接受)，如果动作已实施，但响应不包括实体，则为 204(无内容)。
 删除操作的 URI 示例
 
-```
+```py
 http://www.example.com/articles/12345
 ```
 
@@ -19,7 +19,7 @@ Python 的 requests 模块提供了一个名为 **delete()** 的内置方法，�
 
 **语法–**
 
-```
+```py
 requests.delete(url, params={key: value}, args)
 
 ```
@@ -28,7 +28,7 @@ requests.delete(url, params={key: value}, args)
 
 出于示例目的，让我们尝试向 httpbin 的 API 发出请求。
 
-```
+```py
 import requests
 
 # Making a DELETE request
@@ -44,7 +44,7 @@ print(r.json())
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 

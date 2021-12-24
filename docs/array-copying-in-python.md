@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 new_arr = old_ arr
 ```
 
@@ -24,7 +24,7 @@ new_arr = old_ arr
 
 ## 蟒 3
 
-```
+```py
 # importing the module
 from numpy import *                  
 
@@ -50,7 +50,7 @@ print(arr2)
 
 **输出:**
 
-```
+```py
 117854800
 117854800
 [2 7 9 4]
@@ -67,7 +67,7 @@ print(arr2)
 
 ## 蟒 3
 
-```
+```py
 # importing the module
 from numpy import *                 
 
@@ -99,7 +99,7 @@ print(arr2)
 
 ## 蟒 3
 
-```
+```py
 # importing the module
 from numpy import *                 
 
@@ -125,7 +125,7 @@ print(arr2)
 
 **输出:**
 
-```
+```py
 121258976
 125714048
 [2 7 9 4]
@@ -140,7 +140,7 @@ print(arr2)
 
 ## 
 
-```
+```py
 import copy
 
 def rotate_matrix(image):
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Original [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 Copy of original [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 After modification

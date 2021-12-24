@@ -8,7 +8,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python Code for Implementation and running time Algorithm
 # Complexity plot of Heap Sort
 # by Ashok Kajal
@@ -101,7 +101,7 @@ plt.show()
 
 输出:
 
-```
+```py
 Input : Unsorted Lists of Different sizes are Generated Randomly
 Output :
 1000 Elements Sorted by HeapSort in  0.023797415087301488

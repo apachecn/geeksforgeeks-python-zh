@@ -27,7 +27,7 @@ Hence the vectors are orthogonal to each other.
 
 **代码:Python 程序说明正交向量。**
 
-```
+```py
 # A python program to illustrate orthogonal vector
 
 # Import numpy module
@@ -49,7 +49,7 @@ print("Result  = ", result)
 
 **输出:**
 
-```
+```py
 Result = [[0]]
 
 ```

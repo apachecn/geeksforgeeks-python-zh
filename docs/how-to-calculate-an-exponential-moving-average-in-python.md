@@ -29,7 +29,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 import matplotlib.pyplot as plt

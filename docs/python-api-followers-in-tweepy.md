@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`followers()`** 方法用于获取指定用户的�
 
 **示例 1:**followers()方法返回最近的 20 个 followers。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ for follower in api.followers(screen_name):
 
 **输出:**
 
-```
+```py
 ManojChevula
 davidasem_
 rajneesosho
@@ -75,7 +75,7 @@ ans_human_ap
 
 **示例 2:** 使用`Cursor()`方法可以访问超过 20 个关注者。
 
-```
+```py
 # the screen_name of the targeted user
 screen_name = "geeksforgeeks"
 
@@ -86,7 +86,7 @@ for follower in tweepy.Cursor(api.followers, screen_name).items(30):
 
 **输出:**
 
-```
+```py
 mr_manav852
 MohsinI09002010
 educatorly
@@ -122,7 +122,7 @@ prateekmaj21
 
 **例 3:** 统计跟随者数量。
 
-```
+```py
 # the screen_name of the targeted user
 screen_name = "geeksforgeeks"
 
@@ -138,6 +138,6 @@ print(screen_name + " has " + str(count) + " followers.")
 
 **输出:**
 
-```
+```py
 geeksforgeeks has 17338 followers.
 ```

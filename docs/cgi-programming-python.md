@@ -16,7 +16,7 @@
 上运行‘hello . py’建议先有 HTML 的基础知识再尝试这个例子。
 T4
 
-```
+```py
 #!/usr/bin/python3
 # Importing the 'cgi' module
 import cgi

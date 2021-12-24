@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to build a
 # graph using Dictionaries
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 {
    'G': ['C'], 
    'F': ['C'], 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to find the
 # shortest path in the graph using
 # dictionaries
@@ -143,6 +143,6 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 Shortest path =  A B D
 ```

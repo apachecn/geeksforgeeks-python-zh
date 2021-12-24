@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: {b'EmplId': b'12345', b'Name': b'Paras', b'Company': b'Cyware' }
 Output: {'EmplId': '12345', 'Name': 'Paras', 'Company': 'Cyware'}
 
@@ -17,7 +17,7 @@ Output: {'Key1':'Geeks', 'Key2':'For', 'Key3':'Geek' }
 
 **方法一:**靠字典理解
 
-```
+```py
 # Python Code to convert ByteString key:value 
 # pair of dictionary to String.
 
@@ -33,14 +33,14 @@ print(x)
 
 **Output:**
 
-```
+```py
 {'Name': 'Paras', 'EmplId': '12345', 'Company': 'Cyware'}
 
 ```
 
 **方法#2:** 通过迭代键和值
 
-```
+```py
 # Python Code to convert ByteString key:value 
 # pair of dictionary to String.
 
@@ -60,7 +60,7 @@ print(y)
 
 **Output:**
 
-```
+```py
 {'Company': 'Cyware', 'Name': 'Paras', 'EmplId': '12345'}
 
 ```

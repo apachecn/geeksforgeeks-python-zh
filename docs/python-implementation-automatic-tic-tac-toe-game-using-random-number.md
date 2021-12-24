@@ -18,7 +18,7 @@
 
 以下是上述游戏的代码:
 
-```
+```py
 # Tic-Tac-Toe Program using
 # random number in Python
 
@@ -139,7 +139,7 @@ print("Winner is: " + str(play_game()))
 
 **输出:**
 
-```
+```py
 [[0 0 0]
  [0 0 0]
  [0 0 0]]

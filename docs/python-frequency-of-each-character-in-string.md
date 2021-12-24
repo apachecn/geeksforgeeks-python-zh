@@ -8,7 +8,7 @@
 
 只需遍历字符串并在新出现元素的字典中形成一个键，或者如果元素已经出现，将其值增加 1。
 
-```
+```py
 # Python3 code to demonstrate 
 # each occurrence frequency using 
 # naive method 
@@ -33,7 +33,7 @@ print ("Count of all characters in GeeksforGeeks is :\n "
 
 **输出:**
 
-```
+```py
 Count of all characters in GeeksforGeeks is :
  {'r': 1, 'e': 4, 'k': 2, 'G': 2, 's': 2, 'f': 1, 'o': 1}
 
@@ -43,7 +43,7 @@ Count of all characters in GeeksforGeeks is :
 
 可以用来查找所有出现的最建议的方法是这个方法，它实际上获取所有元素频率，如果需要，也可以用来打印单个元素频率。
 
-```
+```py
 # Python3 code to demonstrate 
 # each occurrence frequency using 
 # collections.Counter()
@@ -63,7 +63,7 @@ print ("Count of all characters in GeeksforGeeks is :\n "
 
 **输出:**
 
-```
+```py
 Count of all characters in GeeksforGeeks is : 
 Counter({'e': 4, 's': 2, 'k': 2, 'G': 2, 'o': 1, 'r': 1, 'f': 1})
 
@@ -73,7 +73,7 @@ Counter({'e': 4, 's': 2, 'k': 2, 'G': 2, 'o': 1, 'r': 1, 'f': 1})
 
 `get()`方法用于检查字符串中以前出现的字符，如果它是新的，它会将 0 指定为初始值并附加 1，否则会将 1 附加到字典中该元素以前保存的值。
 
-```
+```py
 # Python3 code to demonstrate 
 # each occurrence frequency using 
 # dict.get()
@@ -95,7 +95,7 @@ print ("Count of all characters in GeeksforGeeks is : \n"
 
 **输出:**
 
-```
+```py
 Count of all characters in GeeksforGeeks is :
  {'k': 2, 'e': 4, 's': 2, 'G': 2, 'f': 1, 'r': 1, 'o': 1}
 
@@ -105,7 +105,7 @@ Count of all characters in GeeksforGeeks is :
 
 `count()`再加上`set()`也可以实现这个任务，在这种情况下我们只需迭代集合转换后的字符串，得到原始字符串中每个字符的计数，并使用`count()`为该元素赋值。
 
-```
+```py
 # Python3 code to demonstrate 
 # each occurrence frequency using 
 # set() + count()
@@ -124,7 +124,7 @@ print ("The count of all characters in GeeksforGeeks is :\n "
 
 **输出:**
 
-```
+```py
 Count of all characters in GeeksforGeeks is :
  {'G': 2, 's': 2, 'k': 2, 'e': 4, 'o': 1, 'r': 1, 'f': 1}
 

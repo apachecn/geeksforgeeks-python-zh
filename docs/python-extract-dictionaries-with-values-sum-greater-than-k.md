@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionaries with values sum greater than K
 # Using 
@@ -50,7 +50,7 @@ print("Dictionaries with summation greater than K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 4, 'is': 8, 'best': 9}, {'Gfg': 5, 'is': 8, 'best': 1}, {'Gfg': 3, 'is': 7, 'best': 6}, {'Gfg': 3, 'is': 7, 'best': 5}]
 Dictionaries with summation greater than K : [{'Gfg': 4, 'is': 8, 'best': 9}, {'Gfg': 3, 'is': 7, 'best': 6}]
 
@@ -62,7 +62,7 @@ Dictionaries with summation greater than K : [{'Gfg': 4, 'is': 8, 'best': 9}, {'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionaries with values sum greater than K
 # Using list comprehension + sum()
@@ -88,7 +88,7 @@ print("Dictionaries with summation greater than K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 4, 'is': 8, 'best': 9}, {'Gfg': 5, 'is': 8, 'best': 1}, {'Gfg': 3, 'is': 7, 'best': 6}, {'Gfg': 3, 'is': 7, 'best': 5}]
 Dictionaries with summation greater than K : [{'Gfg': 4, 'is': 8, 'best': 9}, {'Gfg': 3, 'is': 7, 'best': 6}]
 

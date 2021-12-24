@@ -8,7 +8,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Importing os module
 import os
 
@@ -21,7 +21,7 @@ print(os.ttyname(1))
 
 **输出:**
 
-```
+```py
 OSError: [Errno 25] Inappropriate ioctl for device
 
 ```
@@ -30,7 +30,7 @@ OSError: [Errno 25] Inappropriate ioctl for device
 
 ## 计算机编程语言
 
-```
+```py
 # importing os module  
 import os 
 
@@ -53,7 +53,7 @@ except OSError as error : 
 
 **Output :**
 
-```
+```py
 [Errno 25] Inappropriate ioctl for device
 File descriptor is not associated with any terminal device
 ```

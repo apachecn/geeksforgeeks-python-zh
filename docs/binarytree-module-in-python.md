@@ -4,7 +4,7 @@
 
 二叉树是一种数据结构，其中每个节点或顶点都有至少两个子节点。在 Python 中，二叉树可以用不同的方式表示，节点有不同的数据结构(字典、列表)和类表示。然而，binarytree 库有助于直接实现二叉树。它还支持堆和二叉查找树(BST)。该模块没有预装 Python 的标准实用程序模块。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install binarytree 
 ```
 
@@ -23,7 +23,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 from binarytree import Node
 root = Node(3)
 root.left = Node(6)
@@ -73,7 +73,7 @@ print('Properties of tree : \n', root.properties)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating binary tree
 # from given list
 from binarytree import build
@@ -94,7 +94,7 @@ print('\nList from binary tree :',
 
 **输出:**
 
-```
+```py
 Binary tree from list :
 
     ___3
@@ -120,7 +120,7 @@ tree()生成随机二叉树并返回其根节点。
 
 ## 蟒蛇 3
 
-```
+```py
 from binarytree import tree
 
 # Create a random binary
@@ -145,7 +145,7 @@ print(root3)
 
 **输出:**
 
-```
+```py
 Binary tree of any height :
 
       14____
@@ -187,7 +187,7 @@ Perfect binary tree of given height :
 
 ## 蟒蛇 3
 
-```
+```py
 from binarytree import bst
 
 # Create a random BST
@@ -212,7 +212,7 @@ print('Perfect BST of given height : \n',
 
 **输出:**
 
-```
+```py
 BST of any height : 
 
         ____9______
@@ -258,7 +258,7 @@ Perfect BST of given height :
 
 ## 蟒蛇 3
 
-```
+```py
 from binarytree import heap
 
 # Create a random max-heap
@@ -285,7 +285,7 @@ print('Perfect min-heap of given height : \n',
 
 **输出:**
 
-```
+```py
 Max-heap of any height : 
 
          _______14______

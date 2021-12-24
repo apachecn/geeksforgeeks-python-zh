@@ -6,14 +6,14 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 
 ```
 
 下面是窗口关闭事件的语法，这个方法在这个事件被触发时被调用
 
-```
+```py
 @window.event       
 def on_close():
     print("Window has been closed")
@@ -22,7 +22,7 @@ def on_close():
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -94,7 +94,7 @@ pyglet.app.run()
 ![](img/18df6eddadfdef6285f8fe4037816241.png)
 当我们关闭该窗口时，该事件被触发
 
-```
+```py
 Window has been closed
 
 ```

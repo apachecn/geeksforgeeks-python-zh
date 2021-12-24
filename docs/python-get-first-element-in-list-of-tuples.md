@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create tuples with college
 # id and name and store in a list
 data=[(1,'sravan'), (2,'ojaswi'),
@@ -35,7 +35,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # create tuples with college id
 # and name and store in a list
 data = [(1,'sravan'), (2,'ojaswi'),
@@ -50,7 +50,7 @@ for i in data:
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -68,7 +68,7 @@ Zip 用于组合两个或多个数据/数据结构。这里我们可以使用 zi
 
 ## 蟒蛇 3
 
-```
+```py
 # create tuples with college id
 # and name and store in a list
 data = [(1,'sravan'),(2,'ojaswi'),
@@ -81,7 +81,7 @@ print(list(zip(*data))[0])
 
 **输出:**
 
-```
+```py
 (1, 2, 3, 4, 5)
 ```
 
@@ -95,7 +95,7 @@ print(list(zip(*data))[0])
 
 ## 蟒蛇 3
 
-```
+```py
 import operator
 
 # create tuples with college id
@@ -115,7 +115,7 @@ for i in first_data:
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -138,7 +138,7 @@ for i in first_data:
 
 ## 蟒蛇 3
 
-```
+```py
 # create tuples with college id
 # and name and store in a list
 data=[(1,'sravan'),(2,'ojaswi'),
@@ -155,7 +155,7 @@ for i in first_data:
 
 **输出:**
 
-```
+```py
 1
 2
 3

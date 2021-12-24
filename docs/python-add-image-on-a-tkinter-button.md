@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 photo = PhotoImage(file = "path_of_file")
 ```
 
@@ -25,7 +25,7 @@ photo = PhotoImage(file = "path_of_file")
 
 **代码#1:**
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import * 
@@ -54,7 +54,7 @@ mainloop()
 
 **代码#2:** 在[按钮](https://www.geeksforgeeks.org/python-creating-a-button-in-tkinter/)上显示图像和文本。
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import * 

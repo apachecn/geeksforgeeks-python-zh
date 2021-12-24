@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing random module
 import random
 
@@ -36,7 +36,7 @@ print(dir)
 
 **输出:**
 
-```
+```py
 C;\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib
 ```
 
@@ -46,7 +46,7 @@ C;\Users\Lenovo\AppData\Local\Programs\Python\Python39\lib
 
 ## 计算机编程语言
 
-```
+```py
 # importing sys module
 import sys
 
@@ -70,7 +70,7 @@ print(sys.path)
 
 ## 计算机编程语言
 
-```
+```py
 # importing os module
 import os
 
@@ -98,7 +98,7 @@ print(help(os))
 
 ## 计算机编程语言
 
-```
+```py
 # importing random module
 import inspect
 

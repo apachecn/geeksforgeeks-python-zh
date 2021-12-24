@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Using time module
 import time
 

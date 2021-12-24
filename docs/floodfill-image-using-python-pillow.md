@@ -17,7 +17,7 @@
 
 我们将利用洪水填充算法来完成图像处理任务。为此，我们将使用`pillow`库。要安装库，请在命令行中执行以下命令:-
 
-```
+```py
 pip install pillow
 
 ```
@@ -40,7 +40,7 @@ pip install pillow
 **所用图像:**
 ![Sample Image](img/6306d5f35c16db92b09c3943ae5207ec.png)
 
-```
+```py
 # Importing the pillow library's 
 # desired modules
 from PIL import Image, ImageDraw

@@ -10,19 +10,19 @@
 
 *   **bs4** :美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   **win10toast:** 该库有助于创建桌面通知。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install win10toast
 ```
 
 *   **请求**:这个库可以让你极其轻松的发送 HTTP/1.1 请求。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 
 ```
@@ -42,7 +42,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from win10toast import ToastNotifier
@@ -52,7 +52,7 @@ from win10toast import ToastNotifier
 
 ## 蟒蛇 3
 
-```
+```py
 n = ToastNotifier()
 ```
 
@@ -60,7 +60,7 @@ n = ToastNotifier()
 
 ## 蟒蛇 3
 
-```
+```py
 def getdata(url):
 
     r = requests.get(url)
@@ -72,7 +72,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 htmldata = getdata("https://weather.com/en-IN/weather/today/l/25.59,85.14?par=google&temp=c/")
 
 soup = BeautifulSoup(htmldata, 'html.parser')
@@ -90,7 +90,7 @@ print(soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 current_temp = soup.find_all("span", 
                              class_=" _-_-components-src-organism-CurrentConditions-CurrentConditions--tempValue--MHmYY")
 chances_rain = soup.find_all("div", 
@@ -106,7 +106,7 @@ result = "current_temp " + temp[128:-9] + "  in patna bihar" + "\n" +temp_rain[
 
 ## 蟒蛇 3
 
-```
+```py
 n.show_toast("Weather update", result, duration = 10)
 ```
 
@@ -120,7 +120,7 @@ n.show_toast("Weather update", result, duration = 10)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import requests
 from bs4 import BeautifulSoup

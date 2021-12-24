@@ -8,7 +8,7 @@
 
 `**rjust**`功能提供了一种单线方式来执行这一特定任务。因此可以很容易地应用于任何需要填充的字符串。我们可以指定所需的填充量。
 
-```
+```py
 # Python3 code to demonstrate
 # adding leading zeros
 # using rjust()
@@ -32,7 +32,7 @@ print("The string after adding leading zeros : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding leading zeros : 0000GFG
 
@@ -42,7 +42,7 @@ The string after adding leading zeros : 0000GFG
 
 这是执行这个特殊任务的另一种方法，在这个函数中，我们不需要指定需要填充的字母，这个函数专门用于内部填充零，因此推荐使用。
 
-```
+```py
 # Python3 code to demonstrate
 # adding leading zeros
 # using zfill()
@@ -66,7 +66,7 @@ print("The string after adding leading zeros : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding leading zeros : 0000GFG
 

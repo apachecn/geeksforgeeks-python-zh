@@ -16,7 +16,7 @@
 **示例:**
 在这里我们将创建一个带有多个项目的选择框，当任何一个项目被确认后它会根据该项目在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -50,7 +50,7 @@ msg = msgbox(message, title)
 **另一个例子:**
 在这个中我们将创建一个选择框，不添加任何项目，当任何项目被确认时它将根据项目在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 

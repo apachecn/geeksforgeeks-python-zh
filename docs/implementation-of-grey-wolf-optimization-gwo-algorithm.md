@@ -49,7 +49,7 @@ Rastrigin 函数是优化问题中最具挑战性的函数之一。在平面上�
 
 ### 伪代码:
 
-```
+```py
 Step1: Randomly initialize Grey wolf population of N particles Xi ( i=1, 2, …, n)
 Step2: Calculate the fitness value of each individuals
            sort grey wolf population based on fitness values
@@ -95,7 +95,7 @@ Step 4: Return best wolf in the population
 
 ## 蟒蛇 3
 
-```
+```py
 # python implementation of Grey wolf optimization (GWO)
 # minimizing rastrigin and sphere function
 
@@ -270,7 +270,7 @@ print("\nEnd GWO for sphere\n")
 
 ### 输出:
 
-```
+```py
 Begin grey wolf optimization on rastrigin function
 
 Goal is to minimize Rastrigin's function in 3 variables

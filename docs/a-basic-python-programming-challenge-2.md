@@ -15,7 +15,7 @@
 
 给定输入:
 
-```
+```py
 3
 6
 -1
@@ -24,7 +24,7 @@
 
 **小基础 python 挑战程序**
 
-```
+```py
 ## Note: This program has been modified a bit for
 ## GeeksForGeeks article
 import random,operator
@@ -66,7 +66,7 @@ print (quiz(3))
 
 ### 输出:
 
-```
+```py
 ===========================================
 
 Welcome. This is a 3 question math quiz

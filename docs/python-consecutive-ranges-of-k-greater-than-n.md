@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive Ranges of K greater than N
 # Using loop
@@ -75,7 +75,7 @@ print("The extracted ranges : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive Ranges of K greater than N
 # Using enumerate() + zip() + list slice + list comprehension

@@ -8,37 +8,37 @@
 
 *   **JSON** ***:*** 它是 JavaScript Object notification，python 通过一个名为 JSON 的内置包支持 JSON。它只是类似于 python 中的字典。要使用该模块的功能，请将 JSON 模块导入脚本。
 
-```
+```py
 pip install jsonlib
 ```
 
 *   [**海龟**](https://www.geeksforgeeks.org/turtle-programming-python/) **:** 巨蟒海龟库包含了创建我们的设计和图像的所有必要方法和功能。
 
-```
+```py
 pip install turtle
 ```
 
 *   [**URL lib**](https://www.geeksforgeeks.org/python-urllib-module/)**:**URL lib . request 是一个用于获取**URL**(统一资源定位符)的 python 模块。这个模块以 urlopen 函数的形式提供了一个非常简单的界面。它结合了几个模块对网址进行预处理，能够使用各种不同的协议获取网址。
 
-```
+```py
 pip install urllib3
 ```
 
 *   **时间:**该模块执行多种与时间相关的功能。有关相关功能，请参见日期时间和日历模块。
 
-```
+```py
 pip install times
 ```
 
 *   **Webbrowser:** 用户可以使用 Webbrowser 模块查看基于 Web 的文档，该模块提供了高级界面。该模块包括交互式浏览器应用程序的网址打开功能。
 
-```
+```py
 pip install pycopy-webbrowser
 ```
 
 *   **地理编码器:**该模块将各种地名描述转换为地球表面的位置。因为每个地理编码提供者都有自己的 JSON 模式，所以有时很难解析它们。在这里，这个模块将帮助我们只使用简单的函数来检索纬度和经度。
 
-```
+```py
 pip install geocoder
 ```
 
@@ -48,7 +48,7 @@ pip install geocoder
 
 在我们的案例中，API 将为我们提供国际空间站在地球轨道上的当前位置，因此访问下面的链接作为宇航员信息的 API 链接。
 
-```
+```py
 url = "http://api.open-notify.org/astros.json" 
 ```
 
@@ -58,7 +58,7 @@ url = "http://api.open-notify.org/astros.json"
 
 ## 蟒 3
 
-```
+```py
 import json  
 import turtle
 import urllib.request 
@@ -74,7 +74,7 @@ result
 
 **输出:**
 
-```
+```py
 {'people': [{'name': 'Mark Vande Hei', 'craft': 'ISS'},
   {'name': 'Oleg Novitskiy', 'craft': 'ISS'},
   {'name': 'Pyotr Dubrov', 'craft': 'ISS'},
@@ -93,7 +93,7 @@ result
 
 ## 蟒 3
 
-```
+```py
 file = open("iss.txt", "w") 
 file.write(
   "There are currently " + str(result["number"]) + 
@@ -110,7 +110,7 @@ for p in people:
 
 ## 蟒 3
 
-```
+```py
 # print long and lat
 g = geocoder.ip('me') 
 file.write("\nYour current lat / long is: " + str(g.latlng))
@@ -124,7 +124,7 @@ webbrowser.open("iss.txt")
 
 ## 蟒蛇 3
 
-```
+```py
 screen = turtle.Screen()
 screen.setup(1280, 720)
 screen.setworldcoordinates(-180, -90, 180, 90)
@@ -141,7 +141,7 @@ screen.setworldcoordinates(-180, -90, 180, 90)
 
 ## 蟒 3
 
-```
+```py
 # load the world map image
 screen.bgpic("images\map.gif")
 screen.register_shape("images\iss.gif")
@@ -153,7 +153,7 @@ iss.penup()
 
 使用下面的应用编程接口访问国际空间站的当前状态:
 
-```
+```py
  url = "http://api.open-notify.org/iss-now.json"
 ```
 
@@ -161,7 +161,7 @@ iss.penup()
 
 ## 蟒 3
 
-```
+```py
 # load the current status of the ISS in real-time
 url = "http://api.open-notify.org/iss-now.json"
 response = urllib.request.urlopen(url)
@@ -184,7 +184,7 @@ print("\nLongitude: " + str(lon))
 
 ## 蟒 3
 
-```
+```py
 # Update the ISS location on the map
 iss.goto(lon, lat)
 

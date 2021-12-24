@@ -7,7 +7,7 @@
 **方法#1:使用`{dict} + "*" operator`**
 该任务可以使用“*”运算符执行。我们可以创建一个包含单个自定义字典的列表，然后将其乘以列表大小的数字。缺点是将制作指向相似存储位置的相似参考字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom dictionary initialization in list
 # using {dict} + "*" operator
@@ -24,7 +24,7 @@ print("The list of custom dictionaries is : " + str(res))
 
 **Output :**
 
-```
+```py
 The list of custom dictionaries is : [{'gfg': 1, 'best': 3, 'is': 2}, {'gfg': 1, 'best': 3, 'is': 2}, {'gfg': 1, 'best': 3, 'is': 2}, {'gfg': 1, 'best': 3, 'is': 2}, {'gfg': 1, 'best': 3, 'is': 2}, {'gfg': 1, 'best': 3, 'is': 2}]
 
 ```

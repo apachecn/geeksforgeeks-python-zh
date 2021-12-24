@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install AlgebraOnMatrix
 ```
 
@@ -18,7 +18,7 @@ pip install AlgebraOnMatrix
 
 **示例:**
 
-```
+```py
 # Importing Matrix function  
 # From AlgebraOnMatrix Library  
 from AlgebraOnMatrix import Matrix
@@ -36,7 +36,7 @@ a = Matrix(arr)
 *   **Addition of Matrices :** Here we will add the matrix b with the matrix a where matrix b is given in 2d array .It will be done by function **Matrix.addition(a, b)** where a is a object which we have created and b is 2d array .
     **Example :**
 
-    ```
+    ```py
     # Importing Matrix function  
     # From AlgebraOnMatrix Library  
     from AlgebraOnMatrix import Matrix
@@ -55,7 +55,7 @@ a = Matrix(arr)
 
     **输出:**
 
-    ```
+    ```py
     [[2, 4, 6], [8, 10, 12], [14, 16, 18]]
 
     ```
@@ -63,7 +63,7 @@ a = Matrix(arr)
 *   **Subtraction of Matrices :**Here we will subtract the matrix b from the matrix a where matrix b is given in 2d array .It will be done by function **Matrix.subtraction(a, b)** where a is a object which we have created and b is 2d array .
     **Example :**
 
-    ```
+    ```py
     # Importing Matrix function  
     # From AlgebraOnMatrix Library  
     from AlgebraOnMatrix import Matrix
@@ -82,7 +82,7 @@ a = Matrix(arr)
 
     **输出:**
 
-    ```
+    ```py
     [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
     ```
@@ -90,7 +90,7 @@ a = Matrix(arr)
 *   **Multiplication of Matrices :** Here we will multiply the matrix b with the matrix a where matrix b is given in 2d array .It will be done by function **Matrix.multiplication(a, b)** where a is a object which we have created and b is 2d array .
     **Example :**
 
-    ```
+    ```py
     # Importing Matrix function  
     # From AlgebraOnMatrix Library  
     from AlgebraOnMatrix import Matrix
@@ -109,7 +109,7 @@ a = Matrix(arr)
 
     **输出:**
 
-    ```
+    ```py
     [[30, 36, 42], [66, 81, 96], [102, 126, 150]]
 
     ```
@@ -117,7 +117,7 @@ a = Matrix(arr)
 *   **Transpose of Matrix :**Here we will transpose the matrix a.It will be done by function **Matrix.transpose(a)** where a is a object which we have created
     **Example :**
 
-    ```
+    ```py
     # Importing Matrix function  
     # From AlgebraOnMatrix Library  
     from AlgebraOnMatrix import Matrix
@@ -135,7 +135,7 @@ a = Matrix(arr)
 
     **输出:**
 
-    ```
+    ```py
     [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 
     ```

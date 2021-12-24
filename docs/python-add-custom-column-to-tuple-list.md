@@ -17,7 +17,7 @@
 **方法#1:使用列表理解+ `zip()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们在 zip()的帮助下执行自定义元素和元组的配对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add Custom Column to Tuple list
 # Using list comprehension + zip()
@@ -41,7 +41,7 @@ print("The tuples after adding elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (78, 76), (2, 3)]
 The tuples after adding elements : [(3, 4, 17), (78, 76, 23), (2, 3, 12)]
 
@@ -50,7 +50,7 @@ The tuples after adding elements : [(3, 4, 17), (78, 76, 23), (2, 3, 12)]
 **方法 2:使用`map()`+λ**
 以上功能的组合也可以用来解决这个问题。在本例中，我们使用 map()执行将逻辑扩展到每个元组的任务，lambda 用于执行加法任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add Custom Column to Tuple list
 # Using map() + lambda
@@ -74,7 +74,7 @@ print("The tuples after adding elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (78, 76), (2, 3)]
 The tuples after adding elements : [(3, 4, 17), (78, 76, 23), (2, 3, 12)]
 

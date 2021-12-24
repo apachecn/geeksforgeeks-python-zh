@@ -10,7 +10,7 @@
 
 1.  **Importing PyMongo Module:** Import the PyMongo module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
     ```
 
@@ -18,19 +18,19 @@
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **访问数据库:**由于与 MongoDB 服务器的连接已经建立。我们现在可以创建或使用现有的数据库。
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
 4.  **访问集合:**我们现在使用以下语法从数据库中选择集合:
 
-    ```
+    ```py
     collection_name = mydatabase.name_of_collection
     ```
 
@@ -38,7 +38,7 @@
 
     **语法:**
 
-    ```
+    ```py
     create_index(keys, session=None, **kwargs)
     ```
 
@@ -48,7 +48,7 @@
 
 ![python-mongodb-insert-one-21](img/0daa20c70fcc0b008a964432fd006802.png)
 
-```
+```py
 # Python program to demonstrate
 # create_index() method
 

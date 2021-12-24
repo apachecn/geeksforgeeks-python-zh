@@ -10,7 +10,7 @@
 
 > **Tqdm :** Tqdm 包是 python 中进度条的更全面的包之一，对于那些您想要构建脚本以让用户了解您的应用程序状态的情况来说非常方便。
 > 
-> ```
+> ```py
 > pip install tqdm
 > ```
 > 
@@ -18,7 +18,7 @@
 
 **Example 1:**
 
-```
+```py
 # importing modules
 from tqdm import trange
 from time import sleep
@@ -36,7 +36,7 @@ for i in trange(10, desc ="loop "):
 
 **例 2:**
 
-```
+```py
 # importing modules
 from tqdm import tnrange
 from time import sleep
@@ -57,7 +57,7 @@ for i in tnrange(2, desc ="loop 1"):
 
 **例 3:**
 
-```
+```py
 # importing modules
 import time
 import sys

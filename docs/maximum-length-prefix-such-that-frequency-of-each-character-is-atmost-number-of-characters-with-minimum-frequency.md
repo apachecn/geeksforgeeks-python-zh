@@ -34,7 +34,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation to find the prefix
 // of the s such that occurrence of each
 // character is atmost the count of minimum
@@ -114,7 +114,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to find the prefix
 // of the s such that occurrence of each
 // character is atmost the count of minimum
@@ -202,7 +202,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to find the
 # prefix of the string such that
 # occurrence of each character is
@@ -261,7 +261,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```py
 // C# implementation to find the
 // prefix of the s such that
 // occurrence of each character is
@@ -365,7 +365,7 @@ public static void Main(string[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
       // JavaScript implementation to find the
@@ -442,7 +442,7 @@ public static void Main(string[] args)
 
 **Output:** 
 
-```
+```py
 aabcd
 ```
 

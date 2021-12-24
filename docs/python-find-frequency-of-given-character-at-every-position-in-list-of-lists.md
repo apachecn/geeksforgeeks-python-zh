@@ -4,7 +4,7 @@
 
 给定一个列表列表，任务是在列表列表中子列表的每个位置找到一个字符的频率。
 
-```
+```py
 Input : lst = [['X', 'Y', 'X'], ['Z', 'Y', 'X'],
                ['Y', 'Y', 'Y'], ['Z', 'Z', 'X'],
                ['Y', 'Z', 'X']], character = 'X'
@@ -28,7 +28,7 @@ Output: [0.2, 0.0, 0.8]
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to find frequency of a character
 # at every position of list in list of lists.
 
@@ -65,7 +65,7 @@ print("Occurrence of 'X' in list is", Output)
 
 **方法 2:使用 zip**
 
-```
+```py
 # Python code to find frequency of a character
 # at every position of list in list of lists.
 
@@ -95,7 +95,7 @@ print("Occurrence of 'X' in list is", Output)
 
 **方法三:利用熊猫**
 
-```
+```py
 # Python code to find frequency of a character
 # at every position of list in list of lists.
 

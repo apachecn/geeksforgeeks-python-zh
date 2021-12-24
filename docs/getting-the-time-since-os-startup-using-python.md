@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # for using os.popen()
 import os
 
@@ -29,7 +29,7 @@ print(t)
 
 **输出**
 
-```
+```py
  Up 6 minutes
 ```
 
@@ -44,7 +44,7 @@ print(t)
 
 ## 蟒 3
 
-```
+```py
 # ctypes required for using GetTickCount64()
 import ctypes
 
@@ -71,7 +71,7 @@ print(f"{days} days, {hour:02}:{mins:02}:{sec:02}")
 
 **输出**
 
-```
+```py
 0 days, 3:09:04
 ```
 

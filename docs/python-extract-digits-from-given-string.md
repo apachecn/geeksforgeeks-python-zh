@@ -8,7 +8,7 @@
 
 可以使用上述功能的组合来执行该任务。过滤功能过滤由 isdigit 功能检测到的数字，连接功能执行连接功能的重构任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Extract digit string 
 # using join() + isdigit() + filter()
@@ -29,7 +29,7 @@ print("The digits string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : g1eeks4geeks5
 The digits string is : 145
 
@@ -38,7 +38,7 @@ The digits string is : 145
 **方法 2:使用`re`**
 正则表达式也可以用来执行这个特定的任务。我们可以使用“\D”定义数字类型要求，并且只从字符串中提取数字。
 
-```
+```py
 # Python3 code to demonstrate
 # Extract digit string 
 # using re
@@ -60,7 +60,7 @@ print("The digits string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : g1eeks4geeks5
 The digits string is : 145
 

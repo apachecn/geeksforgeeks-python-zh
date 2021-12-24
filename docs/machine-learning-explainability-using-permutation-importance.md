@@ -16,13 +16,13 @@
 
 Python 的 [ELI5 库](https://eli5.readthedocs.io/en/latest/)提供了一种计算排列重要性的便捷方法。它在 Python 2.7 和 Python 3.4+中工作。目前需要 scikit-learn 0.18+。您可以使用 pip 安装 ELI5:
 
-```
+```py
 pip install eli5
 ```
 
 或者使用:
 
-```
+```py
 conda install -c conda-forge eli5
 ```
 
@@ -32,7 +32,7 @@ conda install -c conda-forge eli5
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import load_boston
 
 boston = load_boston()
@@ -47,7 +47,7 @@ print(boston.DESCR[20:1420])
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.model_selection import train_test_split
 
 # separate data into target & independent variables
@@ -65,7 +65,7 @@ print('Test Set y: ', y_test.shape)
 
 **输出:**
 
-```
+```py
 Size of: 
 Training Set x: (404, 13)
 Training Set y: (404,)
@@ -78,7 +78,7 @@ Test Set y: (102,)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.ensemble import RandomForestRegressor
 
 # train model on training set
@@ -94,7 +94,7 @@ print(rf.score(x_test, y_test))
 
 **输出:**
 
-```
+```py
 R2 score for test set: 0.857883705095584
 
 ```
@@ -103,7 +103,7 @@ R2 score for test set: 0.857883705095584
 
 ## 蟒蛇 3
 
-```
+```py
 import eli5
 from eli5.sklearn import PermutationImportance
 

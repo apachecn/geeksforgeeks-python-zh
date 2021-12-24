@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  arr = [1, 2, 0, 4, 3, 0, 5, 0]
 Output : arr = [1, 2, 4, 3, 5, 0, 0, 0]
 
@@ -17,7 +17,7 @@ Output : arr = [1, 2, 3, 6, 0, 0, 0]
 
 对于这个问题，我们已经有了解决方案，请参考[将所有零移动到数组的末尾](https://www.geeksforgeeks.org/move-zeroes-end-array/)链接。我们将用 python 在一行代码中使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)来解决这个问题。
 
-```
+```py
 # Function to append all zeros at the end 
 # of array
 def moveZeros(arr):
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [1, 2, 4, 3, 5, 0, 0, 0]
 
 ```

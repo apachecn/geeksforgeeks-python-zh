@@ -16,7 +16,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # demonstrate protected members
 
@@ -49,12 +49,12 @@ print(obj2.a)
 
 ****输出:****
 
-```
+```py
 Calling protected member of base class: 
 2 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/6fb1b95dfba0e198298f9dd02469eb4a.py", line 25, in 
     print(obj1.a)
@@ -69,7 +69,7 @@ AttributeError: 'Base' object has no attribute 'a'
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # demonstrate private members
 
@@ -103,11 +103,11 @@ print(obj1.a)
 
 ****输出:****
 
-```
+```py
 GeeksforGeeks 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/f4905b43bfcf29567e360c709d3c52bd.py", line 25, in <module>
     print(obj1.c)

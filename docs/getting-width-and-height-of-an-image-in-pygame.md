@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame
 import pygame
 
@@ -69,7 +69,7 @@ print("Width of image= " + str(image.get_width()))
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame as py
 
 # Initiate pygame and the modules that comes with pygame

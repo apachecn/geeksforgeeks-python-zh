@@ -4,7 +4,7 @@
 
 Python 在其定义中提供了执行就地操作的方法，即**使用“**运算符**模块在单个语句**中进行赋值和计算。例如
 
-```
+```py
 x += y is equivalent to x = operator.iadd(x, y) 
 ```
 
@@ -14,7 +14,7 @@ x += y is equivalent to x = operator.iadd(x, y)
 
 **2。iconcat()** :-该函数用于在第二个结束时将**串联成一个字符串。**
 
-```
+```py
 # Python code to demonstrate the working of 
 # iadd() and iconcat()
 
@@ -43,7 +43,7 @@ print (y)
 
 输出:
 
-```
+```py
 The value after adding and assigning : 5
 The string after concatenation is : geeksforgeeks
 
@@ -53,7 +53,7 @@ The string after concatenation is : geeksforgeeks
 
 **4。imul()** :-该功能用于**分配和相乘当前值**。该操作执行“ **a*=b** 操作。赋值是**而不是**在不可变容器的情况下执行，如字符串、数字和元组。
 
-```
+```py
 # Python code to demonstrate the working of 
 # isub() and imul()
 
@@ -77,7 +77,7 @@ print (x)
 
 输出:
 
-```
+```py
 The value after subtracting and assigning : -1
 The value after multiplying and assigning : 6
 
@@ -87,7 +87,7 @@ The value after multiplying and assigning : 6
 
 **6。imod()** :-该功能用于**分配并返回余数**。该操作执行“ **a%=b** 操作。赋值是**而不是**在不可变容器的情况下执行，如字符串、数字和元组。
 
-```
+```py
 # Python code to demonstrate the working of 
 # itruediv() and imod()
 
@@ -111,7 +111,7 @@ print (x)
 
 输出:
 
-```
+```py
 The value after dividing and assigning : 2.0
 The value after modulus and assigning : 4
 

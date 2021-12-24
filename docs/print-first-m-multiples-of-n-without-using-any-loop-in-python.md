@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 2, m = 3
 Output : 2 4 6 
 
@@ -20,7 +20,7 @@ Output : 3 6 9 12
 
 下面是上述方法的 Python 实现:
 
-```
+```py
 # function to print the first m multiple
 # of a number n without using loop.
 def multiple(m, n):
@@ -39,7 +39,7 @@ multiple(m, n)
 
 **输出:**
 
-```
+```py
 3 6 9 12
 
 ```

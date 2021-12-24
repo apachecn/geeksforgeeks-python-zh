@@ -6,7 +6,7 @@
 
 **itermonthdays()** 方法返回指定月份和年份的迭代器。返回的天数只是天数。itermonthdays()方法类似于 itermonthdates()。
 
-```
+```py
 Syntax: itermonthdays(year, month)
 
 Parameter: 
@@ -20,7 +20,7 @@ Returns: an iterator of the specified month.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of itermonthdays() method
 
@@ -39,7 +39,7 @@ for day in obj.itermonthdays(year, month):
 
 **输出:**
 
-```
+```py
 0
 0
 0
@@ -61,7 +61,7 @@ for day in obj.itermonthdays(year, month):
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate working
 # of itermonthdays() method
 
@@ -78,7 +78,7 @@ for day in obj.itermonthdays(2018, 4):
 
 **输出:**
 
-```
+```py
 0
 0
 0

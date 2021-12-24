@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `sum()`**
 这个任务可以使用上面两个实用程序的组合来执行，其中我们使用字典理解来绑定逻辑，求和函数可以用来对从测试列表中找到的匹配进行求和。
 
-```
+```py
 # Python3 code to demonstrate
 # Element Occurrence in dictionary value list
 # using list comprehension + sum()
@@ -37,7 +37,7 @@ print("The summation of element occurrence : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'Nikhil': [4, 6], 'Akshat': [1, 4, 5, 3], 'Akash': [5, 2, 1]}
 The original list : [2, 1]
 The summation of element occurrence : {'Nikhil': 0, 'Akshat': 1, 'Akash': 2}

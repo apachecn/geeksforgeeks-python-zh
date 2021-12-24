@@ -7,7 +7,7 @@
 **方法#1:使用`del + loop`**
 在这个策略中，我们只需要在每次迭代时使用循环迭代行号来逐个删除列元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # deleting columns of list of lists
 # using del + loop
@@ -37,7 +37,7 @@ print ("The modified mesh after column deletion : " +  str(test_list))
 **方法 2:使用`pop() + list comprehension`**
 我们可以使用列表理解技术和可用于移除列表元素的 pop 函数，以更简单和更短的方式完成这个特定任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # deleting columns of list of lists
 # using pop() + list comprehension

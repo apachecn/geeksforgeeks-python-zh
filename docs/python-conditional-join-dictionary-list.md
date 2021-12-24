@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Conditional Join Dictionary List
 # Using update() + next()

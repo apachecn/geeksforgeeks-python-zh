@@ -7,7 +7,7 @@
 **方法#1:使用`len()` +生成器表达式**
 这是实现解决这个任务最基本的方法。在本文中，我们使用生成器表达式迭代整个嵌套列表，并使用 len()获得计数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple list elements count
 # using len() + generator expression
@@ -29,7 +29,7 @@ print("The tuple list elements count : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The tuple list elements count : 10
 

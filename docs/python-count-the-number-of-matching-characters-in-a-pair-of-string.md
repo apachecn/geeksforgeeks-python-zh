@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : str1 = 'abcdef'
         str2 = 'defghia'
 Output : 4 
@@ -37,7 +37,7 @@ Output : 5
 
 下面是上述方法的实现。
 
-```
+```py
 # Python code to count number of matching
 # characters in a pair of strings
 
@@ -75,7 +75,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 No. of matching characters are : 5
 
 ```
@@ -87,7 +87,7 @@ No. of matching characters are : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to count number of unique matching
 # characters in a pair of strings
 
@@ -122,7 +122,7 @@ if __name__ == "__main__" :
 
 **Output :**
 
-```
+```py
 No. of matching characters are : 5
 
 ```
@@ -131,7 +131,7 @@ No. of matching characters are : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Count the Number of matching characters in 
 # a pair of string
 import re
@@ -149,7 +149,7 @@ print("No. of matching characters are ", c)
 
 **Output :**
 
-```
+```py
 No. of matching characters are : 5
 
 ```

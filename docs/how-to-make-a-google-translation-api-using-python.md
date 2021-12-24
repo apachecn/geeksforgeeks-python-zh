@@ -20,7 +20,7 @@
 
 **第 1 部分:设置 selenium 工具和网络驱动程序设置。**
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -40,7 +40,7 @@ browser = webdriver.Chrome(executable_path ='chromedriver', options = chrome_op)
 
 **第 2 部分:输入和测试输入。**
 
-```
+```py
 def takeInput():
     languages = {"English": 'en', "French": 'fr',
                  "Spanish": 'es', "German": 'de', "Italian": 'it'}
@@ -94,7 +94,7 @@ def takeInput():
 
 **第 3 部分:使用谷歌翻译进行翻译:**
 
-```
+```py
 def makeCall(url, script, default):
     response = default
     try:
@@ -126,7 +126,7 @@ def googleTranslate(src, trg, phrase):
 
 **结合以上三个部分。**
 
-```
+```py
 if __name__ == "__main__":
     src, trg, phrase = takeInput()
     print("\nResult: ", googleTranslate(src, trg, phrase))

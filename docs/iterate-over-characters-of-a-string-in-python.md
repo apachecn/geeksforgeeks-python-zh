@@ -6,7 +6,7 @@
 
 **示例#1:** 使用简单迭代和`range()`
 
-```
+```py
 # Python program to iterate over characters of a string
 
 # Code #1
@@ -27,7 +27,7 @@ for element in range(0, len(string_name)):
 
 **输出:**
 
-```
+```py
 g e e k s f o r g e e k s 
 
 G

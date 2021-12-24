@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a dictionary
 founder = {'Apple': 'Steve Jobs', 'Microsoft': 'Bill Gates'}
 
@@ -20,7 +20,7 @@ print('{f[Microsoft]} {f[Apple]}'.format(f = founder))
 
 **输出:**
 
-```
+```py
 Bill Gates Steve Jobs
 
 ```
@@ -31,7 +31,7 @@ f[微软]被比尔·盖茨取代，f[苹果]被史蒂夫·乔布斯取代。
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a list
 list_items = [1, 3, 5, 7, 9, 11]
 
@@ -41,7 +41,7 @@ print('{l[3]} {l[5]}'.format(l = list_items))
 
 **输出:**
 
-```
+```py
 7 11
 
 ```
@@ -52,7 +52,7 @@ print('{l[3]} {l[5]}'.format(l = list_items))
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a class
 class Program(object):
     language = 'Python'
@@ -63,7 +63,7 @@ print('{p.language}'.format(p = Program()))
 
 **输出:**
 
-```
+```py
 Python
 
 ```
@@ -74,7 +74,7 @@ Python
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a clas
 class Program(object):
     language = 'Python'
@@ -88,7 +88,7 @@ print('{p.language}: {p.versions[2][version]}'.format(p = Program()))
 
 **输出:**
 
-```
+```py
 Python: 3
 
 ```

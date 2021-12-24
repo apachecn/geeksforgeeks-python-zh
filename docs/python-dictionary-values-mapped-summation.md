@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Values Mapped Summation
 # Using loop + items()
@@ -71,7 +71,7 @@ print("The extracted values sum : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Values Mapped Summation
 # Using dictionary comprehension + sum()

@@ -29,7 +29,7 @@
 
 **例:**
 
-```
+```py
 # Python program to find yesterday,
 # today and tomorrow
 
@@ -55,7 +55,7 @@ print("Tomorrow = ", tomorrow.strftime('%d-%m-%Y'))
 
 **输出**
 
-```
+```py
 Yesterday =  10-12-2019
 Today =  11-12-2019
 Tomorrow =  12-12-2019

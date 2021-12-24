@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements with Frequency greater than K
 # Using count() + loop
@@ -48,7 +48,7 @@ print("The required elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 4, 3, 3, 4, 3, 7, 8, 8]
 The required elements : [4, 3]
 
@@ -60,7 +60,7 @@ The required elements : [4, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements with Frequency greater than K
 # Using list comprehension + Counter()
@@ -84,7 +84,7 @@ print("The required elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 4, 3, 3, 4, 3, 7, 8, 8]
 The required elements : [4, 3]
 

@@ -8,7 +8,7 @@
 
 **所需库:**
 
-```
+```py
 -> Numpy: pip3 install numpy
 -> Pandas: pip3 install pandas
 -> Matplotlib: pip3 install matplotlib
@@ -27,7 +27,7 @@
 
 ## PYTHON3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -67,7 +67,7 @@ plt.show()
 
 ## PYTHON3
 
-```
+```py
 # importing libraries
 import numpy as np
 import pandas as pd

@@ -23,13 +23,13 @@
 *   获取 HTML 代码
 *   在靓汤中使用**查找**方法从 HTML 代码中获取 **img** 标签列表。
 
-```
+```py
 images = soup.findAll('img')
 ```
 
 在操作系统中使用 **mkdir** 方法创建单独的文件夹下载图像。
 
-```
+```py
 os.mkdir(folder_name)
 ```
 
@@ -37,13 +37,13 @@ os.mkdir(folder_name)
 *   获取源网址后，最后一步是下载图片
 *   获取图像内容
 
-```
+```py
 r = requests.get(Source URL).content
 ```
 
 *   使用文件处理下载图像
 
-```
+```py
 # Enter File Name with Extension like jpg, png etc..
 with open("File Name","wb+") as f:
       f.write(r)
@@ -53,7 +53,7 @@ with open("File Name","wb+") as f:
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import *
 import requests
 import os

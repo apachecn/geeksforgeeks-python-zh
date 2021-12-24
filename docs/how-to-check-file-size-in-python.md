@@ -28,7 +28,7 @@
 
 **语法:**
 
-```
+```py
 Path('filename').stat().st_size()
 ```
 
@@ -36,7 +36,7 @@ Path('filename').stat().st_size()
 
 ## 蟒蛇 3
 
-```
+```py
 from pathlib import Path
 
 sz = Path('Data.csv').stat().st_size
@@ -54,7 +54,7 @@ os.path.getsize()函数只与 os Library 配合使用，在导入这个库的帮
 
 **语法:**
 
-```
+```py
 getsize(filename)
 ```
 
@@ -62,7 +62,7 @@ getsize(filename)
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 sz = os.path.getsize("Data.csv")

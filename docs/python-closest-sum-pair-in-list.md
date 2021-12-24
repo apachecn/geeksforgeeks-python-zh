@@ -7,7 +7,7 @@
 **方法#1:使用词典理解+ `max()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们执行字典理解中的逻辑部分，并使用 max()提取最接近的对。应该对列表进行排序以执行此方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # Closest Sum Pair in List
 # using dictionary comprehension + max()
@@ -33,7 +33,7 @@ print ("The closest sum pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [7, 8, 10, 3, 18, 1]
 The closest sum pair is : 11
 

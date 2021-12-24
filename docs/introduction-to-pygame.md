@@ -8,14 +8,14 @@
 Pygame 需要 Python 如果你还没有，可以从[python.org](https://www.python.org/)下载。使用 python 3.6.1 或更高版本，因为它对新手更友好，而且运行速度更快。
 安装 pygame 的最佳方式是使用 pip 工具(python 使用该工具安装软件包)。注意，在最近的版本中，这是 python 附带的。我们使用–user 标志告诉它安装到主目录，而不是全局目录。
 
-```
+```py
 python3 -m pip install -U pygame --user
 
 ```
 
 要查看它是否有效，请运行包含的示例之一:
 
-```
+```py
 python3 -m pygame.examples.aliens
 
 ```
@@ -25,7 +25,7 @@ python3 -m pygame.examples.aliens
 
 ## 蟒蛇 3
 
-```
+```py
 # import the pygame module
 import pygame
 
@@ -99,7 +99,7 @@ while gameOn:
 
 别担心！在接下来的几篇文章中，我们将了解更多关于如何移动对象、如何添加动画效果、按钮、音乐等内容，但现在让我们了解一下包含所有必要 pygame 元素的基本代码。
 
-```
+```py
 import pygame
 
 from pygame.locals import *
@@ -116,7 +116,7 @@ from pygame.locals import *
 
 ## 蟒蛇 3
 
-```
+```py
 class Square(pygame.sprite.Sprite):
 
     def __init__(self):
@@ -133,7 +133,7 @@ class Square(pygame.sprite.Sprite):
 
 ## 蟒蛇 3
 
-```
+```py
 pygame.init()
 
 screen = pygame.display.set_mode((800, 600))
@@ -150,7 +150,7 @@ square4 = Square()
 
 ## 蟒蛇 3
 
-```
+```py
 while running:
     for event in pygame.event.get():
         if event.type == KEYDOWN:
@@ -169,7 +169,7 @@ while running:
 
 ## 蟒蛇 3
 
-```
+```py
 screen.blit(square1.surf, (40, 40))
 screen.blit(square2.surf, (40, 530))
 screen.blit(square3.surf, (730, 40))

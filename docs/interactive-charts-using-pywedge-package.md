@@ -25,7 +25,7 @@ Pywedge 库有一个*制作 _charts* 的方法，提供给我们制作 8 种不�
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +40,7 @@ df = pd.read_csv("https://www.shortto.com/WineDataset",sep=";")
 
 ## 计算机编程语言
 
-```
+```py
 df.head()
 ```
 
@@ -48,11 +48,11 @@ df.head()
 
 ## 计算机编程语言
 
-```
+```py
 print("Shape of our dataframe is: ",df.shape)
 ```
 
-```
+```py
 Shape of our dataframe is:  (1599, 12)
 ```
 
@@ -62,7 +62,7 @@ Shape of our dataframe is:  (1599, 12)
 
 ## 计算机编程语言
 
-```
+```py
 df.describe()
 ```
 
@@ -79,7 +79,7 @@ df.describe()
 
 ## 计算机编程语言
 
-```
+```py
 df.rename(columns={'ficxed acidity':'fixed_acidity','citric acid':'citric_acid',
                    'volatile acidity':'volatile_acidity','residual sugar':'residual_sugar',
                    'free sulphur dioxide':'free_sulphur_dioxide',
@@ -94,7 +94,7 @@ y = df.iloc[:,-1]
 
 ## 计算机编程语言
 
-```
+```py
 import pywedge as pw
 charts = pw.Pywedge_Charts(df, c=None, y = 'quality')
 # Calling the make_charts method

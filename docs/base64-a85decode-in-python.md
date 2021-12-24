@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`base64.a85decode()`方法，我们能够通过使用该方法获得可以是二进制形式的解码字符串。
 
-```
+```py
 # import base64
 from base64 import a85decode
 from base64 import a85encode
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import base64
 from base64 import a85decode
 from base64 import a85encode

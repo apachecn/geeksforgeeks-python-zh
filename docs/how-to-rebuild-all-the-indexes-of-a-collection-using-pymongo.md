@@ -16,7 +16,7 @@
 
 1.  **Importing Required Modules:** Import the required module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
 
     ```
@@ -25,25 +25,25 @@
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **访问数据库:**由于与 MongoDB 服务器的连接已经建立。我们现在可以创建或使用现有的数据库。
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
 4.  **访问集合:**我们现在使用以下语法从数据库中选择集合:
 
-    ```
+    ```py
     collection_name = mydatabase.name_of_collection
     ```
 
 5.  **Rebuilding Index:**
 
-    ```
+    ```py
     collection_name.reindex()
 
     ```
@@ -56,7 +56,7 @@
 
 ![python-mongodb-sample-database3](img/3e4740b76e811de5e6d3c8fede6bad4f.png)
 
-```
+```py
 # Python Program for demonstrating the 
 # rebuilding of indexes in MongoDB
 

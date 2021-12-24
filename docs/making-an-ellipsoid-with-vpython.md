@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -35,7 +35,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的椭球体，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * ellipsoid()
 ```
@@ -45,7 +45,7 @@ from vpython import * ellipsoid()
 
 **示例 2 :** 使用颜色、不透明度、光泽和发射率参数的椭球体。
 
-```
+```py
 # import the module
 from vpython import * ellipsoid(color = vector(0.4, 0.2, 0.6), 
           opacity = 0.5, 
@@ -58,7 +58,7 @@ from vpython import * ellipsoid(color = vector(0.4, 0.2, 0.6), 
 
 **示例 3 :** 显示 2 个椭圆体，以可视化位置、长度、高度和扭曲的属性。
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -80,7 +80,7 @@ ellipsoid(pos = vector(1, -1, 5), 
 
 **示例 4 :** 使用纹理、轴和向上参数的椭球体。
 
-```
+```py
 # import the module
 from vpython import * ellipsoid(texture = textures.stucco,
           axis = vector(-1, 4, 0),

@@ -8,7 +8,7 @@
 
 **安装:**该模块没有内置 Python。要安装此模块，请在终端中键入以下 pip 命令。
 
-```
+```py
 pip install mutagen
 ```
 
@@ -20,7 +20,7 @@ pip install mutagen
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # extraction of FLAC audio metadata
 # using the mutagen module
@@ -38,7 +38,7 @@ print(audio.pprint())
 
 **输出:**
 
-```
+```py
 FLAC, 310.31 seconds, 44100 Hz (audio/flac)
 GENRE=Geek Music
 TRACKNUMBER=1/1
@@ -54,7 +54,7 @@ ARTIST=Neeraj Ranametadata:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # adding tags to the FLAC metadata
 # using mutagen module
@@ -83,7 +83,7 @@ audio.save()
 
 **输出:**
 
-```
+```py
 FLAC, 310.31 seconds, 44100 Hz (audio/flac)
 GENRE=Geek Music
 TRACKNUMBER=1/1

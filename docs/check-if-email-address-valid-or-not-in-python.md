@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```py
 Input:  ankitrai326@gmail.com
 Output: Valid Email
 
@@ -27,7 +27,7 @@ Output: Invalid Email
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to validate an Email
 
 # import re module
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```py
 Valid Email
 Valid Email
 Invalid Email

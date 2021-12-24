@@ -24,7 +24,7 @@ Selenium Python 中的定位器策略是用于从页面中定位单个或多个�
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_name("name_of_element")
 
 ```
@@ -32,7 +32,7 @@ driver.find_elements_by_name("name_of_element")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -46,7 +46,7 @@ driver.find_elements_by_name("name_of_element")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name('username')
 
 ```
@@ -59,7 +59,7 @@ elements = driver.find_elements_by_name('username')
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_xpath("xpath")
 
 ```
@@ -67,7 +67,7 @@ driver.find_elements_by_xpath("xpath")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -81,7 +81,7 @@ driver.find_elements_by_xpath("xpath")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_xpath("/html/body/form[1]")
 login_form = driver.find_elements_by_xpath("//form[1]")
 
@@ -95,7 +95,7 @@ login_form = driver.find_elements_by_xpath("//form[1]")
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_link_text("Text of Link")
 
 ```
@@ -103,7 +103,7 @@ driver.find_elements_by_link_text("Text of Link")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <p>Are you sure you want to do this?</p>
@@ -115,7 +115,7 @@ driver.find_elements_by_link_text("Text of Link")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_link_text('Continue')
 
 ```
@@ -128,7 +128,7 @@ login_form = driver.find_elements_by_link_text('Continue')
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_partial_link_text("Text of Link")
 
 ```
@@ -136,7 +136,7 @@ driver.find_elements_by_partial_link_text("Text of Link")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <p>Are you sure you want to do this?</p>
@@ -148,7 +148,7 @@ driver.find_elements_by_partial_link_text("Text of Link")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_partial_link_text('Conti')
 
 ```
@@ -161,7 +161,7 @@ login_form = driver.find_elements_by_partial_link_text('Conti')
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_tag_name("Tag name")
 
 ```
@@ -169,7 +169,7 @@ driver.find_elements_by_tag_name("Tag name")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <h1>Welcome</h1>
@@ -180,7 +180,7 @@ driver.find_elements_by_tag_name("Tag name")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_tag_name('h1')
 
 ```
@@ -193,7 +193,7 @@ login_form = driver.find_elements_by_tag_name('h1')
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_class_name("class_of_element")
 
 ```
@@ -201,7 +201,7 @@ driver.find_elements_by_class_name("class_of_element")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <p class="content">Site content goes here.</p>
@@ -211,7 +211,7 @@ driver.find_elements_by_class_name("class_of_element")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 content = driver.find_elements_by_class_name('content')
 
 ```
@@ -224,7 +224,7 @@ content = driver.find_elements_by_class_name('content')
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_css_selector("CSS Selectors")
 
 ```
@@ -232,7 +232,7 @@ driver.find_elements_by_css_selector("CSS Selectors")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <p class="content">Site content goes here.</p>
@@ -242,7 +242,7 @@ driver.find_elements_by_css_selector("CSS Selectors")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 content = driver.find_elements_by_css_selector('p.content')
 
 ```

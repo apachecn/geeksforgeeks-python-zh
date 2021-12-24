@@ -58,7 +58,7 @@
 
 **1)通过 pip 命令**安装 saccademodel
 
-```
+```py
 pip install saccademodel
 ```
 
@@ -66,7 +66,7 @@ pip install saccademodel
 
 ## 蟒蛇 3
 
-```
+```py
 # loading libraries
 import saccademodel
 
@@ -82,7 +82,7 @@ print(results)
 
 #### 输出:
 
-```
+```py
 {'source_points': [[130.012, 404.231], [129.234, 403.478]],
  'saccade_points': [[129.234, 403.478], [133.983, 450.044]], 
 'target_points': [], 
@@ -93,7 +93,7 @@ print(results)
 
 ## 蟒蛇 3
 
-```
+```py
 # Number of samples per second
 
 framerate = 80.0  

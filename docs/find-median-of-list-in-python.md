@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `"~"`运算符**
 该任务可以使用上述功能的组合以强力方式执行。在这种情况下，我们对列表进行排序，并通过使用“~”运算符的属性来执行求反，我们从前面和后面访问列表，执行求中值所需的计算。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Median of list
 # Using loop + "~" operator
@@ -30,7 +30,7 @@ print("Median of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [4, 5, 8, 9, 10, 17]
 Median of list is : 8.5

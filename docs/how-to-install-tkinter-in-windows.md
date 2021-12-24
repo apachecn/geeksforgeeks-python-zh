@@ -15,7 +15,7 @@
 
 打开命令提示符，使用以下命令安装 Tkinter:
 
-```
+```py
 pip install tk
 ```
 
@@ -27,7 +27,7 @@ pip install tk
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter
 tkinter._test()
 ```
@@ -40,7 +40,7 @@ tkinter._test()
 
 Conda 用户可以打开 Anaconda 电源外壳，使用以下命令安装 Tkinter:
 
-```
+```py
 conda install -c anaconda tk
 ```
 
@@ -52,7 +52,7 @@ conda install -c anaconda tk
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter
 tkinter._test()
 ```

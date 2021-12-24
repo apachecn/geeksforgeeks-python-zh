@@ -6,7 +6,7 @@
 ***广泛使用的 Python3.6**
 中的【数据类】**虽然该模块是在 Python3.7 中引入的，但也可以通过安装*数据类*库在 Python3.6 中使用。*** 
 
-```
+```py
 pip install dataclasses
 ```
 
@@ -14,7 +14,7 @@ pip install dataclasses
 
 ## 蟒蛇 3
 
-```
+```py
 # A basic Data Class
 
 # Importing dataclass module

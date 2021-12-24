@@ -6,7 +6,7 @@
 
 **要求:安装文森特**
 
-```
+```py
 $pip install vincent
 ```
 
@@ -14,7 +14,7 @@ $pip install vincent
 
 **例 1:** 简单折线图
 
-```
+```py
 # import the vincent library=
 import vincent
 
@@ -33,7 +33,7 @@ Line.display()
 
 **示例 2:** 带轴标签的折线图
 
-```
+```py
 # import the vincent library
 import vincent
 

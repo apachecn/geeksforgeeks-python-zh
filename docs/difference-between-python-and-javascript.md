@@ -10,14 +10,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print 'Hello world'
 print("Hello World")
 ```
 
 **输出:**
 
-```
+```py
 Hello World
 ```
 
@@ -41,7 +41,7 @@ Python 在不同领域的使用
 
 ## java 描述语言
 
-```
+```py
 // JavaScript program to print 'Hello world'
 
 <script> 
@@ -51,7 +51,7 @@ console.log('Hello World'); 
 
 **输出:**
 
-```
+```py
 "Hello World"
 ```
 

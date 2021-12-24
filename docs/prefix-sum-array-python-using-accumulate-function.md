@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : arr = [1, 2, 3]
 Output : sum = [1, 3, 6]
 
@@ -17,7 +17,7 @@ Output : sum = [4, 10, 22]
 
 **前缀和**是给定序列的部分和的序列。例如，序列{a，b，c，…}的累计和是 a，a+b，a+b+c，以此类推。我们可以使用**累加(可迭代)**方法在 python 中快速解决这个问题。
 
-```
+```py
 # function to find cumulative sum of array
 from itertools import accumulate
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Sum = [4, 10, 22]
 
 ```

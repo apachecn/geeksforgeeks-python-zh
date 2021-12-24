@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if list is Matrix
 # using isinstance() + all()
@@ -29,7 +29,7 @@ print("Is list a Matrix ?: " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [[4, 5], [5, 8], [9, 10]]
 Is list a Matrix ?: True
 ```

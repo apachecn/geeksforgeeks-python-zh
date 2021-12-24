@@ -48,7 +48,7 @@ y<sub>x = 1.17</sub>= 3.2246
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for Gauss's Forward Formula
 # importing library
 import numpy as np
@@ -113,7 +113,7 @@ print("\nValue at", value,
 
 **输出:**
 
-```
+```py
 1       2.7183  0.1394  0.0071  0.0004  0.0     0.0     0.0001  
 1.05    2.8577  0.1465  0.0075  0.0004  0.0     0.0001  
 1.1     3.0042  0.154   0.0079  0.0004  0.0001  

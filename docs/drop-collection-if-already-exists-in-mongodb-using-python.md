@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 drop()
 
 ```
@@ -19,7 +19,7 @@ drop()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -42,7 +42,7 @@ print(col.drop())
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -62,6 +62,6 @@ else:
 
 **输出**:
 
-```
+```py
 Not Present
 ```

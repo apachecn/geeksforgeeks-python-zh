@@ -6,7 +6,7 @@
 构造函数一般用于实例化一个对象。构造函数的任务是在创建类的对象时初始化(赋值)类的数据成员。在 Python 中，__init__()方法被称为构造函数，并且总是在创建对象时调用。
 **构造函数声明语法:**
 
-```
+```py
 def __init__(self):
     # body of the constructor
 ```
@@ -20,7 +20,7 @@ def __init__(self):
 
 ## 蟒蛇 3
 
-```
+```py
 class GeekforGeeks:
 
     # default constructor
@@ -40,7 +40,7 @@ obj.print_Geek()
 
 **输出:**
 
-```
+```py
 GeekforGeeks
 ```
 
@@ -48,7 +48,7 @@ GeekforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 class Addition:
     first = 0
     second = 0
@@ -80,7 +80,7 @@ obj.display()
 
 **输出:**
 
-```
+```py
 First number = 1000
 Second number = 2000
 Addition of two numbers = 3000

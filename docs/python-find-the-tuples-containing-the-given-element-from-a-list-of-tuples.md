@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find the tuples containing
 # the given element from a list of tuples
 
@@ -32,7 +32,7 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 [(14, 3), (1, 3), (3, 3)]
 ```
 
@@ -40,7 +40,7 @@ print(Output)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find the tuples containing
 # the given element from a list of tuples
 
@@ -57,6 +57,6 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 [(11, 22), (11, 44), (33, 22, 100, 11), (99, 11)]
 ```

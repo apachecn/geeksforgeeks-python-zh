@@ -9,7 +9,7 @@ Python 提供了许多优秀的模块来衡量程序的统计数据。这让我�
 
 **示例#1:**
 
-```
+```py
 # importing time module
 import time
 
@@ -20,7 +20,7 @@ print("% s seconds" % (time.time() - start))
 
 **Output:**
 
-```
+```py
 Time Consumed
 0.01517796516418457 seconds
 
@@ -28,7 +28,7 @@ Time Consumed
 
 **例 2:**
 
-```
+```py
 # importing time module
 import time
 
@@ -44,7 +44,7 @@ gfg()
 
 **Output:**
 
-```
+```py
 Time consumed
 gfg() function takes 0.015180110931396484 seconds
 
@@ -55,7 +55,7 @@ Python 提供了一个内置的模块来测量执行时间，模块名为 LinePr
 
 **示例:**
 
-```
+```py
 # importing line_profiler module
 from line_profiler import LineProfiler
 
@@ -69,7 +69,7 @@ profile.print_stats()
 
 **Output:**
 
-```
+```py
 Timer unit: 4.27198e-10 s
 
 ```
@@ -79,7 +79,7 @@ Python 包含一个名为 cProfile 的内置模块，用于测量程序的执行
 
 **代码#1**
 
-```
+```py
 # importing cProfile
 import cProfile
 
@@ -88,7 +88,7 @@ cProfile.run("10 + 10")
 
 **Output:**
 
-```
+```py
 3 function calls in 0.000 seconds
 
    Ordered by: standard name
@@ -102,7 +102,7 @@ cProfile.run("10 + 10")
 
 **代码#2:** 测量任何函数统计的 cProfile。
 
-```
+```py
 # importing cProfile
 import cProfile
 
@@ -113,7 +113,7 @@ cProfile.run('f()')
 
 **Output:**
 
-```
+```py
 hello
          5 function calls in 0.000 seconds
 

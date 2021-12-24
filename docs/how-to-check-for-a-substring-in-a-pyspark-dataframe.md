@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing module
 import pyspark
 
@@ -66,7 +66,7 @@ reg_df.show()
 
 ## 计算机编程语言
 
-```
+```py
 from pyspark.sql.functions import substring
 
 reg_df.withColumn(
@@ -86,7 +86,7 @@ reg_df.withColumn(
 
 ## 计算机编程语言
 
-```
+```py
 from pyspark.sql.functions import substring
 
 reg_df \

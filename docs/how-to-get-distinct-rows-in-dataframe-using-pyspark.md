@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -52,7 +52,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 print('distinct data')
 
 # display distinct data
@@ -67,7 +67,7 @@ dataframe.distinct().show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -101,7 +101,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 print('distinct data')
 
 # display distinct data from

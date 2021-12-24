@@ -34,7 +34,7 @@ Try except block 用于捕获和处理特定代码块执行过程中遇到的异
 
 T5】蟒 3T7
 
-```
+```py
 import re
 
 # pattern is a string containing the regex pattern
@@ -62,7 +62,7 @@ T8T10**输出**T1
 
 在下面的示例中，我们将测试输入字符串是否匹配给定的正则表达式模式。这是假设正则表达式模式是有效的(可以使用前面提到的例子来确保)。我们将检查输入字符串是否是字母数字字符串(包含字母或数字的字符串)。我们将使用以下类来检查字符串:
 
-```
+```py
 ^[A-Za-z0-9]+$
 ```
 
@@ -72,7 +72,7 @@ T8T10**输出**T1
 
 ## 蟒 3
 
-```
+```py
 import re
 
 # compiling the pattern for alphanumeric string
@@ -90,12 +90,12 @@ else:
 
 **输出:**
 
-```
+```py
 > Enter the string: *DeepLearnedSupaSampling01*
   'DeepLearnedSupaSampling01' is an alphanumeric string!
 ```
 
-```
+```py
 > Enter the string: *afore 89df*
   'afore 89df' is NOT a alphanumeric string!
 ```

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > shear(x, y)
 > ```
 > 
@@ -20,7 +20,7 @@
 **输入图像:**
 ![](img/4a43a98e9c0ff6dd3018f90f150a2a76.png)
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -38,7 +38,7 @@ img.write('2_a.png')
 ![](img/c5069484ee3a8c2edcd8ebb692b13aff.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

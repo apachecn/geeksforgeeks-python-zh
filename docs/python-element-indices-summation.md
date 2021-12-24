@@ -7,7 +7,7 @@
 **方法#1:天真方法+ sum()**
 我们可以通过遍历列表并检查该值来实现这个任务，只需在新列表中添加值索引并打印它。这是完成这个任务的基本蛮力方法。sum()用于执行列表求和。
 
-```
+```py
 # Python code to demonstrate 
 # Element indices Summation
 # using naive method + sum()
@@ -33,7 +33,7 @@ print ("New indices summation : " + str(res))
 
 **Output :**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7]
 New indices summation : 4
 

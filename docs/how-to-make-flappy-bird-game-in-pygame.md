@@ -10,7 +10,7 @@
 
 首先，您必须使用以下命令安装 Pygame 库:-
 
-```
+```py
 pip install pygame
 ```
 
@@ -22,7 +22,7 @@ pip install pygame
 
 ## 蟒 3
 
-```
+```py
 # For generating random height of pipes
 import random  
 import sys 
@@ -52,7 +52,7 @@ sealevel_image = '/images/base.jfif'
 
 ## 蟒 3
 
-```
+```py
 # program where the game starts
 if __name__ == "__main__":          
 

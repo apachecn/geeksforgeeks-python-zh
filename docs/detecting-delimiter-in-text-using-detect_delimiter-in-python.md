@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from detect_delimiter import detect
 
 # simple example
@@ -55,7 +55,7 @@ print(detect("Geeksforgeeks.is.best.for.geeks", default='@'))
 
 ## 蟒蛇 3
 
-```
+```py
 from detect_delimiter import detect
 from string import ascii_letters
 

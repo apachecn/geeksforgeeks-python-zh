@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # var1 is in the global namespace
 var1 = 5
 def some_func():
@@ -44,7 +44,7 @@ def some_func():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program processing
 # global variable
 
@@ -58,7 +58,7 @@ some_method()
 
 **输出:**
 
-```
+```py
 6
 ```
 
@@ -71,7 +71,7 @@ some_method()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # a scope of object
 
@@ -87,7 +87,7 @@ some_func()
 
 **输出:**
 
-```
+```py
 Inside some_func
 Inside inner function, value of var: 10
 

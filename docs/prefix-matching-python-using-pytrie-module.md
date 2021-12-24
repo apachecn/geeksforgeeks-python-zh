@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : arr = ['geeksforgeeks', 'forgeeks', 
                'geeks', 'eeksfor'], 
        prefix = 'geek'
@@ -29,7 +29,7 @@ Output : ['geeksforgeeks','geeks']
 
 **<u>注意:</u>** 要安装 **pytrie** 包，使用这个 **pip 从 linux 中的终端安装 pytrie–user**命令。
 
-```
+```py
 # Function which returns all strings 
 # that contains given prefix 
 from pytrie import StringTrie 
@@ -64,7 +64,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 ['geeksforgeeks','geeks']
 ```
 

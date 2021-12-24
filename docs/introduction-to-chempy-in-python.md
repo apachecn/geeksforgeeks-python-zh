@@ -10,7 +10,7 @@ ChemPy 包括用于表示物质、反应和反应系统的类。它还包括来�
 
 **安装:**可以通过在命令提示符/终端中运行以下脚本来安装 ChemPy:
 
-```
+```py
 pip install chempy
 ```
 
@@ -19,7 +19,7 @@ pip install chempy
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from chempy.util import periodic
 
@@ -51,7 +51,7 @@ for i in range(1, n + 1):
 
 **输出:**
 
-```
+```py
 Atomic No.    Name        Symbol        Mass
 1        Helium        He        4.002602
 2        Lithium        Li        6.94
@@ -69,7 +69,7 @@ Atomic No.    Name        Symbol        Mass
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from chempy import chemistry
 
@@ -86,7 +86,7 @@ print(reaction.order())
 
 **输出:**
 
-```
+```py
 2 H2 + O2 -> 2 H2O
 3
 ```

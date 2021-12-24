@@ -4,7 +4,7 @@
 
 当涉及到**产品型公司**时，他们需要优秀的编码员，并且需要通过**竞争编码**轮才能进入面试轮次。竞争性编码就是这样一个平台，它将同时测试你的思维能力和速度。
 
-```
+```py
 Who should read this?
     Any programmer who still hasn't tried python for
     Competitive Coding MUST give this article a read.
@@ -23,7 +23,7 @@ Who should read this?
 **1。变量独立性**
 Python 不要求我们在使用变量之前声明变量及其数据类型。这也给了我们范围的灵活性，只要它在硬件的合理范围内，即不需要担心整数和长整数。类型转换在内部处理，结果完美无缺。
 
-```
+```py
 Amazing Fact !!
           For nested loops in python we can use the 
           same variable name in both inner and outer
@@ -39,7 +39,7 @@ Amazing Fact !!
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of min(),
 # max(), sorted() and count()
 arr = [10, 76, 87, 45, 22, 87, 90, 87, 66, 84, 87]
@@ -52,7 +52,7 @@ print('Number of occurrences of 87 is = ',arr.count(87))
 
 输出:
 
-```
+```py
 ('Maximum = ', 90)
 ('Minimum = ', 10)
 ('The sorted array is = ', [10, 22, 45, 66, 76, 84, 87, 87, 87, 87, 90])
@@ -64,7 +64,7 @@ Python 列表提供了删除特定元素的独特功能，同时保持内存位�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate list operations
 arr = [00, 11, 22, 33, 44, 55, 66, 77, 88, 99]
 
@@ -87,7 +87,7 @@ print(k)
 
 输出:
 
-```
+```py
 [0, 11, 22, 33, 44, 66, 77, 88, 99]
 [0, 11, 33, 44, 66, 77, 88, 99]
 [0, 11, 33, 44, 66, 77, 88, 'A random number']
@@ -103,7 +103,7 @@ print(k)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate that a function
 # can easily return multiple values.
 def multi_return(*arr):
@@ -120,7 +120,7 @@ print(a,' ',b)
 
 输出:
 
-```
+```py
 11   22
 55   66
 ```
@@ -134,7 +134,7 @@ print(a,' ',b)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate quick searching
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -152,7 +152,7 @@ for i in arr:
 
 输出:
 
-```
+```py
 YES
 1 2 3 4 5 6 7 8 9 
 ```
@@ -165,7 +165,7 @@ YES
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate use of dictionaries
 # and sets.
 a = {'a','b','c','d','e','a'}
@@ -180,7 +180,7 @@ print("dict['Age']: ", dict['Age'])
 
 输出:
 
-```
+```py
 {'d', 'a', 'e', 'b', 'c'}
 dict['Name']:  Zara
 dict['Age']:  7
@@ -191,7 +191,7 @@ dict['Age']:  7
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate how to take space
 # separated inputs.
 arr = [int(a) for a in input().strip().split(' ')]

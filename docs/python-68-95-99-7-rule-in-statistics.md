@@ -27,7 +27,7 @@
 
 下面是实现:
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import norm
@@ -52,7 +52,7 @@ print("Fraction of values within three SD =", three_sd)
 
 **输出:**
 
-```
+```py
 Fraction of values within one SD = 0.6826894921370859
 Fraction of values within two SD = 0.9544997361036416
 Fraction of values within three SD = 0.9973002039367398

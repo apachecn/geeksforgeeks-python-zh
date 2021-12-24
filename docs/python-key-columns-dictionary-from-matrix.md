@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Key Columns Dictionary from Matrix
 # Using list comprehension + dictionary comprehension
@@ -40,7 +40,7 @@ print("The paired dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [[4, 6, 8], [8, 4, 2], [8, 6, 3]]
 The original list 2 : ['Gfg', 'is', 'Best']
 The paired dictionary : {'Gfg': [4, 8, 8], 'is': [6, 4, 6], 'Best': [8, 2, 3]}
@@ -52,7 +52,7 @@ The paired dictionary : {'Gfg': [4, 8, 8], 'is': [6, 4, 6], 'Best': [8, 2, 3]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Key Columns Dictionary from Matrix
 # Using zip() + dict()
@@ -76,7 +76,7 @@ print("The paired dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [[4, 6, 8], [8, 4, 2], [8, 6, 3]]
 The original list 2 : ['Gfg', 'is', 'Best']
 The paired dictionary : {'Gfg': (4, 8, 8), 'is': (6, 4, 6), 'Best': (8, 2, 3)}

@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`blocks()`** 方法用于获取被认证用户阻�
 
 **示例 1 :** 使用`blocks()`方法查找被认证用户阻止的用户数量。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -44,13 +44,13 @@ print(len(blocked_users))
 
 **输出:**
 
-```
+```py
 63
 ```
 
 **示例 2 :** 使用`blocks()`方法查找被认证用户阻止的所有用户的屏幕名称。
 
-```
+```py
 # getting the blocked users
 blocked_users = api.blocks()
 
@@ -61,7 +61,7 @@ for user in blocked_users:
 
 **输出:**
 
-```
+```py
 kumailn
 NorbertElekes
 fjamie013

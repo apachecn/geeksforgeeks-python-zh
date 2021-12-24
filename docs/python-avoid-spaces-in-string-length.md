@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Avoid Spaces in Characters Frequency
 # Using isspace() + sum()
@@ -39,7 +39,7 @@ print("The Characters Frequency avoiding spaces : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 33 is   best
 The Characters Frequency avoiding spaces : 21
 
@@ -51,7 +51,7 @@ The Characters Frequency avoiding spaces : 21
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Avoid Spaces in Characters Frequency
 # Using sum() + len() + map() + split()
@@ -72,7 +72,7 @@ print("The Characters Frequency avoiding spaces : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 33 is   best
 The Characters Frequency avoiding spaces : 21
 

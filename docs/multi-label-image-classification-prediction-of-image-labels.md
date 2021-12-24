@@ -43,7 +43,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # system libraries
 import os
 import warnings
@@ -72,7 +72,7 @@ from skimage.color import rgb2grey
 
 ## 蟒蛇 3
 
-```
+```py
 r = os.listdir(r"C:\Users\Garima Singh\Desktop\data\mugshots\r")
 # This is the path to the image folder
 
@@ -87,7 +87,7 @@ print(r[0:10])
 
 ## 蟒蛇 3
 
-```
+```py
 limit = 100
 # Creating the list of blank spaces that can potentially hold data:
 ra_images = [None]*limit
@@ -113,7 +113,7 @@ for i in r:
 
 ## 蟒蛇 3
 
-```
+```py
 # Finding out the number of columns per image in our dataset.
 # We will use the shape function on any one image in our array
 # and use the dimensions we get as the number of columns in row.
@@ -132,7 +132,7 @@ print(number_of_columns)
 
 ## 蟒蛇 3
 
-```
+```py
 print(ra_grey[0].shape)
 for i in range(limit):
     ra_grey[i] = np.ndarray.flatten(ra_grey[i]).reshape(number_of_columns, 1)
@@ -155,7 +155,7 @@ print(ra_grey.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 ra_data = pd.DataFrame(ra_grey)
 dh_data = pd.DataFrame(dh_grey)
 vi_data = pd.DataFrame(vi_grey)
@@ -171,7 +171,7 @@ print(ra_data)
 
 ## 蟒蛇 3
 
-```
+```py
 ra_data["label"]="R"
 dh_data["label"]="D"
 vi_data["label"]="V"
@@ -195,7 +195,7 @@ actor
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.utils import shuffle
 out = shuffle(actor).reset_index()
 
@@ -211,7 +211,7 @@ out
 
 ## 蟒蛇 3
 
-```
+```py
 # First, we will extract the x and y values of our dataset
 
 x = out.values[:, :-1]
@@ -230,7 +230,7 @@ print(y[0:3])
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.decomposition import PCA                  
 from sklearn.svm import SVC                            
 from sklearn.pipeline import make_pipeline             
@@ -268,7 +268,7 @@ ypred[0:3]
 
 ## 蟒蛇 3
 
-```
+```py
 fig, ax = plt.subplots(4, 4, sharex = True,
                              sharey = True,
                         figsize = (10, 10))

@@ -17,19 +17,19 @@
 
 为了使用这个相机，我们要创建一个新的变量。
 
-```
+```py
 self.camera = None
 ```
 
 然后在我们的 setup()函数中，我们将使用 camera()函数创建我们的相机。
 
-```
+```py
 self.camera= arcade.Camera(200,200)
 ```
 
 之后，我们将使用相机。使用 on_draw()函数中的函数来使用相机。
 
-```
+```py
 self.camera.use()
 ```
 
@@ -49,7 +49,7 @@ self.camera.use()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

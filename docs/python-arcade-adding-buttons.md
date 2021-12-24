@@ -51,7 +51,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 # Importing arcade gui
@@ -104,7 +104,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 # Importing arcade gui

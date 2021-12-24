@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # defining decorator function
 def decorator_example(func):
     print("Decorator called")
@@ -27,7 +27,7 @@ out_function()
 
 **输出:**
 
-```
+```py
 Decorator called
 inner function
 outer function
@@ -39,7 +39,7 @@ outer function
 
 ## 蟒蛇 3
 
-```
+```py
 def mean(a,b):
     try:
         print((a+b)/2)
@@ -65,7 +65,7 @@ divide("two","one")
 
 **输出:**
 
-```
+```py
 4.5
 441
 0.5
@@ -76,7 +76,7 @@ wrong data types. enter numeric
 
 ## 蟒蛇 3
 
-```
+```py
 def Error_Handler(func):
     def Inner_Function(*args, **kwargs):
         try:

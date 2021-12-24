@@ -17,7 +17,7 @@
 
 PyPDF2 不是一个内置的库，所以我们必须安装它。
 
-```
+```py
 pip3 install PyPDF2
 
 ```
@@ -34,7 +34,7 @@ pip3 install PyPDF2
 
 ## 蟒蛇 3
 
-```
+```py
 # import PdfFileWriter and PdfFileReader 
 # class from PyPDF2 library
 from PyPDF2 import PdfFileWriter, PdfFileReader
@@ -86,7 +86,7 @@ with open("myfile_encrypted.pdf", "wb") as f:
 
 ## 蟒蛇 3
 
-```
+```py
 # import PdfFileWriter and PdfFileReader 
 # class from PyPDF2 library
 from PyPDF2 import PdfFileWriter, PdfFileReader

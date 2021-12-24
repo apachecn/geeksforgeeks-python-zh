@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 检查这个最简单的方法是对第一个元素运行一个循环，检查我们是否能在那个元素之后找到比它更大的元素，如果是，列表没有反向排序。
 
-```
+```py
 # Python3 code to demonstrate 
 # Check for Descending Sorted List
 # using naive method 
@@ -36,7 +36,7 @@ else :
 
 **Output :**
 
-```
+```py
 Original list : [10, 8, 4, 3, 1]
 Yes, List is reverse sorted.
 

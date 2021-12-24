@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3]
 Output : 123
 
@@ -19,7 +19,7 @@ Output : 5532890
 **方法#1 :** 简单方法
 简单地迭代列表中的每个元素，并打印它们，中间没有空格。
 
-```
+```py
 # Python3 program to convert a list
 # of integers into a single integer
 
@@ -33,7 +33,7 @@ for i in lst:
 
 **输出:**
 
-```
+```py
 121517
 ```
 
@@ -41,7 +41,7 @@ for i in lst:
 
 使用 Python 的`join()`方法。首先将整数列表转换成字符串列表(因为`join()`只处理字符串)。然后，简单地使用`join()`方法加入他们。需要`O(n)`的时间复杂度。
 
-```
+```py
 # Python3 program to convert a list
 # of integers into a single integer
 def convert(list):
@@ -61,7 +61,7 @@ print(convert(list))
 
 **输出:**
 
-```
+```py
 123
 ```
 
@@ -69,7 +69,7 @@ print(convert(list))
 
 将多个整数列表转换为单个整数的另一种方法是使用 Python 的`map()`函数和 *str* 函数将整数列表转换为字符串列表。之后，在空字符串上连接它们，然后转换回整数。
 
-```
+```py
 # Python3 program to convert a list
 # of integers into a single integer
 def convert(list):
@@ -87,7 +87,7 @@ print(convert(list))
 
 **输出:**
 
-```
+```py
 123
 ```
 
@@ -95,7 +95,7 @@ print(convert(list))
 
 一种更数学的方法，不需要将整数列表转换为字符串列表，就是将每个整数元素乘以其对应的 10 的幂，然后求和。需要`O(n)`的时间复杂度。
 
-```
+```py
 # Python3 program to convert a list
 # of integers into a single integer
 def convert(list):
@@ -114,12 +114,12 @@ print(convert(list))
 
 **输出:**
 
-```
+```py
 123
 ```
 
 这个程序的一个小变化导致在计算和时计算量减少，即使用 [`reduce()`](https://www.geeksforgeeks.org/reduce-in-python/) 。这利用了霍纳规则，该规则对代表数字的多项式进行因子化，以减少乘法次数。
 
-```
+```py
 res = functools.reduce(lambda total, d: 10 * total + d, list, 0)
 ```

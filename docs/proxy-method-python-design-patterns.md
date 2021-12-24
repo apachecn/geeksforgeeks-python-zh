@@ -30,7 +30,7 @@
 
 代理方法解决方案
 
-```
+```py
 class College:
     '''Resource-intensive object'''
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Proxy in action. Checking to see if the balance of student is clear or not...
 Your fee balance is greater than 500, first pay the fee
 

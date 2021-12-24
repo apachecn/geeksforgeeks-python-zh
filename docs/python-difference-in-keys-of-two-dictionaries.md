@@ -6,7 +6,7 @@
 
 **代码#1 :** 使用 set 查找缺少的*键。*
 
-```
+```py
 *# Python code to find the difference in
 # keys in two dictionary
 
@@ -23,7 +23,7 @@ print(diff)*
 
 ***输出:***
 
-```
+```py
 {'key2:'}
 
 ```

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ from sklearn.linear_model import LinearRegression
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading pre-defined Boston Dataset
 boston_dataset = datasets.load_boston()
 print(boston_dataset.DESCR)
@@ -34,7 +34,7 @@ print(boston_dataset.DESCR)
 
 ## 蟒蛇 3
 
-```
+```py
 # Generate scatter plot of independent vs Dependent variable
 plt.style.use('ggplot')
 fig = plt.figure(figsize = (18, 18))
@@ -57,7 +57,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Load the dataset into Pandas Dataframe
 boston_pd = pd.DataFrame(boston_dataset.data)
 boston_pd.columns = boston_dataset.feature_names
@@ -77,7 +77,7 @@ print(boston_pd.head())
 
 ## 蟒蛇 3
 
-```
+```py
 x_train, x_test, y_train, y_test = train_test_split(
     boston_pd.iloc[:, :-1], boston_pd.iloc[:, -1],
     test_size = 0.25)
@@ -94,7 +94,7 @@ print("Test data shape of X = % s and Y = % s : "%(
 
 ## 蟒蛇 3
 
-```
+```py
 # Apply multiple Linear Regression Model
 lreg = LinearRegression()
 lreg.fit(x_train, y_train)
@@ -121,7 +121,7 @@ print(lreg_coefficient)
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting the coefficient score
 fig, ax = plt.subplots(figsize =(20, 10))
 
@@ -152,7 +152,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import ridge regression from sklearn library
 from sklearn.linear_model import Ridge
 
@@ -199,7 +199,7 @@ print(ridge_coefficient)
 
 ## 蟒蛇 3
 
-```
+```py
 # import Lasso regression from sklearn library
 from sklearn.linear_model import Lasso
 
@@ -243,7 +243,7 @@ print(lasso_coeff)
 
 ## 蟒蛇 3
 
-```
+```py
 # import model
 from sklearn.linear_model import ElasticNet
 

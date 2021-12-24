@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 
@@ -35,14 +35,14 @@ print(clip)
 
 **输出:**
 
-```
+```py
 moviepy.audio.AudioClip.AudioClip object at 0x00000269985E1F88
 
 ```
 
 另一个例子
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 
@@ -63,7 +63,7 @@ print(clip)
 
 **输出:**
 
-```
+```py
 moviepy.audio.AudioClip.AudioClip object at 0x00000269985E9488
 
 ```

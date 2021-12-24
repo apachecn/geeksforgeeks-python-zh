@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert list of dictionaries to Dictionary Value list
 # Using loop
@@ -50,7 +50,7 @@ print("The extracted dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The extracted dictionary : {'Gfg': [6, 8, 2, 12, 22], 'is': [9, 11, 16, 1, 6], 'best': [10, 19, 10, 8, 8]}
 
@@ -62,7 +62,7 @@ The extracted dictionary : {'Gfg': [6, 8, 2, 12, 22], 'is': [9, 11, 16, 1, 6], '
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert list of dictionaries to Dictionary Value list
 # Using list comprehension + dictionary comprehension
@@ -89,7 +89,7 @@ print("The extracted dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The extracted dictionary : {'Gfg': [6, 8, 2, 12, 22], 'is': [9, 11, 16, 1, 6], 'best': [10, 19, 10, 8, 8]}
 

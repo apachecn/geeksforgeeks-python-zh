@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # initializing matrix
 # using list comprehension
@@ -29,7 +29,7 @@ print("The matrix after initializing : " + str(res))
 
 **Output**
 
-```
+```py
 The matrix after initializing : [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 ```
@@ -39,7 +39,7 @@ The matrix after initializing : [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # initializing matrix
 # using list comprehension
@@ -61,7 +61,7 @@ print("The matrix after initializing : " + str(res))
 
 **Output**
 
-```
+```py
 The matrix after initializing : [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 ```
@@ -71,7 +71,7 @@ The matrix after initializing : [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # initializing matrix
 # * operator twice
@@ -93,7 +93,7 @@ print("The matrix after initializing : " + str(res))
 
 **Output**
 
-```
+```py
 The matrix after initializing : [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
 ```

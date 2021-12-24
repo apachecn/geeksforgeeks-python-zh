@@ -10,7 +10,7 @@ gTTS API 支持多种语言，包括英语、印地语、泰米尔语、法语�
 
 要安装 gTTS 应用编程接口，打开终端并编写
 
-```
+```py
 pip install gTTS
 
 ```
@@ -18,7 +18,7 @@ pip install gTTS
 这适用于任何平台。
 现在我们都准备写一个将文本转换为语音的示例程序。
 
-```
+```py
 # Import the required module for text 
 # to speech conversion
 from gtts import gTTS
@@ -49,7 +49,7 @@ os.system("mpg321 welcome.mp3")
 
 ### **输出**
 
-```
+```py
 The output of the above program should be a 
 voice saying, 'Welcome to geeksforgeeks!'
 

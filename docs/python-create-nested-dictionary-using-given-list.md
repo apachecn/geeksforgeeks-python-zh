@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested Dictionary with List
 # Using loop + zip()
@@ -43,7 +43,7 @@ print("The mapped dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 5, 'best': 9}
 The original list is : [8, 3, 2]
 The mapped dictionary : {8: {'Gfg': 4}, 3: {'is': 5}, 2: {'best': 9}}
@@ -56,7 +56,7 @@ The mapped dictionary : {8: {'Gfg': 4}, 3: {'is': 5}, 2: {'best': 9}}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested Dictionary with List
 # Using dictionary comprehension + zip()
@@ -78,7 +78,7 @@ print("The mapped dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 5, 'best': 9}
 The original list is : [8, 3, 2]
 The mapped dictionary : {8: {'Gfg': 4}, 3: {'is': 5}, 2: {'best': 9}}

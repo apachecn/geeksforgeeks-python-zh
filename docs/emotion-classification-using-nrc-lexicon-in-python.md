@@ -10,13 +10,13 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install NRCLex
 ```
 
 即使安装了该模块，运行程序时也可能出现 *MissingCorpusError* 。所以建议在命令提示符下使用下面的命令安装*textblob . download _ corpora*。
 
-```
+```py
 python -m textblob.download_corpora
 ```
 
@@ -26,7 +26,7 @@ python -m textblob.download_corpora
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 from nrclex import NRCLex
 ```
@@ -35,7 +35,7 @@ from nrclex import NRCLex
 
 ## 蟒蛇 3
 
-```
+```py
 # Assigning list of words
 text = ['hate', 'lovely', 'person', 'worst']
 ```
@@ -44,7 +44,7 @@ text = ['hate', 'lovely', 'person', 'worst']
 
 ## 蟒蛇 3
 
-```
+```py
 for i in range(len(text)):
 
     # creating objects
@@ -88,7 +88,7 @@ for i in range(len(text)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from nrclex import NRCLex
 

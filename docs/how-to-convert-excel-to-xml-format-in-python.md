@@ -52,7 +52,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Install the openpyxl library
 from openpyxl import load_workbook
 
@@ -81,7 +81,7 @@ for row in ws.iter_rows(min_row=1, max_row=2, min_col=1, max_col=6):
 
 ## 蟒蛇 3
 
-```
+```py
 from openpyxl import load_workbook
 from yattag import Doc, indent
 

@@ -6,35 +6,35 @@
 
 **语法:**
 
-```
+```py
 maths.fsum( iterable )
 
 ```
 
 **参数:**
 
-```
+```py
 iterable : Here we pass some value
 which is iterable like arrays, list.
 ```
 
 **使用:**
 
-```
+```py
 fsum() is used to find the sum
 of some range, array , list.
 ```
 
 **返回类型:**
 
-```
+```py
 The function return a
 floating point number.
 ```
 
 演示 ***fsum()*** 的代码:
 
-```
+```py
 # Python code to demonstrate use  
 # of math.fsum() function
 
@@ -55,7 +55,7 @@ print(math.fsum(arr))
 
 输出:
 
-```
+```py
 45.0
 11.0
 7.99

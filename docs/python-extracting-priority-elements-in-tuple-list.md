@@ -17,7 +17,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮力方法。在这种情况下，我们迭代优先级列表的每个元素并检查单个元组，过滤掉匹配的元素并追加到列表中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extracting Priority Elements in Tuple List
 # loop
@@ -45,7 +45,7 @@ print("The extracted elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 1), (3, 4), (9, 7), (10, 6)]
 The extracted elements are : [1, 4, 7, 6]
 
@@ -54,7 +54,7 @@ The extracted elements are : [1, 4, 7, 6]
 **方法 2:使用列表理解+ `index()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 index()和优先级比较来执行从元组中检查所需元素的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extracting Priority Elements in Tuple List
 # Using List comprehension + <code>index()
@@ -79,7 +79,7 @@ print("The extracted elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(7, 1), (6, 4), (4, 7), (1, 6)]
 The extracted elements are : [7, 6, 4, 6]
 

@@ -22,7 +22,7 @@ Python 中的索引
 
 **Example 1 (Positive Indexing) :**
 
-```
+```py
 # declaring the string
 str = "Geeks for Geeks !"
 
@@ -38,7 +38,7 @@ print(str[10])
 
 **输出:**
 
-```
+```py
 G
 f
 G
@@ -49,7 +49,7 @@ G
 在这种类型的索引中，我们将负索引(我们想要访问的索引)放在方括号中。这里的索引号从索引号-1 开始(表示字符串的最后一个字符)。
 **示例 2(负索引):**
 
-```
+```py
 # declaring the string
 str = "Geeks for Geeks !"
 
@@ -65,7 +65,7 @@ print(str[-10])
 
 **输出:**
 
-```
+```py
 !
 e
 f
@@ -76,7 +76,7 @@ f
 Python 中的切片是一个允许访问序列部分的特性。在对字符串进行切片时，我们创建一个子字符串，它本质上是一个存在于另一个字符串中的字符串。当我们需要字符串的一部分而不是完整的字符串时，我们使用切片。
 **语法:**
 
-```
+```py
 string[start : end : step]
 start : We provide the starting index.
 end : We provide the end index(this is not included in substring).
@@ -86,7 +86,7 @@ step : It is an optional argument that determines the increment between each ind
 
 **例 1 :**
 
-```
+```py
 # declaring the string
 str ="Geeks for Geeks !"
 
@@ -98,7 +98,7 @@ print(str[-1 : -12 : -2])
 
 **输出:**
 
-```
+```py
 Gee
 ek
 !ke o
@@ -106,7 +106,7 @@ ek
 
 **例 2 :**
 
-```
+```py
 # declaring the string
 str ="Geeks for Geeks !"
 
@@ -120,7 +120,7 @@ print(str[: : -1]) 
 
 **输出:**
 
-```
+```py
 Original String :-
 Geeks for Geeks!
 Reverse String :-

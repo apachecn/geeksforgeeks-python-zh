@@ -19,7 +19,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -52,7 +52,7 @@ print(Array1+Array2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -89,7 +89,7 @@ print(Array1+Array2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -124,7 +124,7 @@ print(Array1+Array2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -153,7 +153,7 @@ print(Array1-Array2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -196,7 +196,7 @@ print(Array1+Array2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary packages
 import numpy as np
 

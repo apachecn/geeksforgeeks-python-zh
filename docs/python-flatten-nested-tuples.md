@@ -4,7 +4,7 @@
 
 有时，在使用 Python 元组时，我们可能会遇到一个问题，即我们需要对元组执行扁平化，这可能是嵌套的，也可能是不希望的。这可以应用于许多领域，如数据科学和网络开发。让我们讨论一下执行这项任务的具体方法。
 
-```
+```py
 Input : test_tuple = ((4, 7), ((4, 5), ((6, 7), (7, 6))))
 Output : ((4, 7), (4, 5), (6, 7), (7, 6))
 
@@ -17,7 +17,7 @@ Output : ((4, 7), (5, 7), (1, 3))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Flatten Nested Tuples
 # Using recursion + isinstance()
@@ -50,7 +50,7 @@ print("The flattened tuple : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : ((4, 5), ((4, 7), (8, 9), (10, 11)), ((9, 10), (3, 4)))
 The flattened tuple : ((4, 5), (4, 7), (8, 9), (10, 11), (9, 10), (3, 4))
 ```

@@ -28,7 +28,7 @@
 1.  **注意:** [在数字 **K**](https://www.geeksforgeeks.org/set-k-th-bit-given-number/) :
     中设置第 I 位(i = 0，1，2…)
 
-```
+```py
 k = k | (1<<(i))
 ```
 
@@ -36,7 +36,7 @@ k = k | (1<<(i))
 
 ## C++
 
-```
+```py
 // C++ Code to  find the Nth number
 // with exactly two bits set
 
@@ -79,7 +79,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java Code to  find the Nth number
 // with exactly two bits set
 class GFG{
@@ -121,7 +121,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code to  find the Nth number
 # with exactly two bits set
 
@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```py
 // C# Code to  find the Nth number
 // with exactly two bits set
 using System;
@@ -200,7 +200,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript Code to find the Nth number
@@ -239,7 +239,7 @@ findNthNum(N);
 
 **Output:** 
 
-```
+```py
 36
 ```
 

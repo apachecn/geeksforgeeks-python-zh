@@ -16,7 +16,7 @@
 
 下面是一个简单的应用程序，提示用户输入搜索字符串，调用谷歌地理编码应用编程接口，并从返回的 JSON 中提取信息。
 
-```
+```py
 # Libraries used to grab the URL web stuff and import json
 import urllib.request, urllib.parse, urllib.error
 import json
@@ -68,7 +68,7 @@ while True:
 
 输出:
 
-```
+```py
 
 Enter location: Dehradun
 Retrieving http://maps.googleapis.com/maps/api/geocode/json?address=dehradun

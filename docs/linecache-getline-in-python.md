@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`linecache.getline()`方法，我们能够使用该方法从一个大文件中获取给定行的内容。
 
-```
+```py
 # import linecache
 import linecache as lc
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import linecache
 import linecache as lc
 

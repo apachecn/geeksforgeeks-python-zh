@@ -28,7 +28,7 @@ strftime()用于将字符串 DateTime 转换为 DateTime。它也用于将日期
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 import datetime
 
@@ -58,7 +58,7 @@ print(epoch)
 
 **Output**
 
-```
+```py
 1625619721
 1614744184
 1625659954
@@ -81,7 +81,7 @@ print(epoch)
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 import datetime
 
@@ -108,7 +108,7 @@ print(epoch)
 
 **Output**
 
-```
+```py
 1625616000.0
 1614744184.0
 1625659954.0

@@ -34,7 +34,7 @@ OpenCV 有一个名为**双边滤波器()**的函数，参数如下:
 
 ## 计算机编程语言
 
-```
+```py
 import cv2
 
 # Read the image.

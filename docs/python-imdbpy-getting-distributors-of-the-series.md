@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(distributors)
 
 **输出:**
 
-```
+```py
 Money Heist
 [Company id:0062576[http] name:_Antena 3 Televisión_, Company id:0144901[http] name:_Netflix_]
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(distributors)
 
 **输出:**
 
-```
+```py
 Mirzapur
 [Company id:0700396[http] name:_Amazon Prime Video_]
 ```

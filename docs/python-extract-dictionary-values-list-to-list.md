@@ -7,7 +7,7 @@
 **方法#1:使用`map()` +生成器表达式**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用生成器表达式执行值提取任务，并使用 map()重建值列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extracting Dictionary values list to List
 # Using map() + generator expression

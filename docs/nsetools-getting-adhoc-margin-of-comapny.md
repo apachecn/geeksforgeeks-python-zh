@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -37,7 +37,7 @@ print("Adhoc Margin  : " + str(value))
 
 **输出:**
 
-```
+```py
 Adhoc Margin  : None
 ```
 
@@ -45,7 +45,7 @@ Adhoc Margin  : None
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -67,6 +67,6 @@ print("Adhoc Margin  : " + str(value))
 
 **输出:**
 
-```
+```py
 Adhoc Margin  : 13.02
 ```

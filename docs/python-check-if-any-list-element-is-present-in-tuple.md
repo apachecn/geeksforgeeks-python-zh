@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if any list element is present in Tuple
 # Using loop
@@ -46,7 +46,7 @@ print("Is any list element present in tuple ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original tuple is : (4, 5, 7, 9, 3)
 Is any list element present in tuple ? : True
 ```
@@ -57,7 +57,7 @@ Is any list element present in tuple ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if any list element is present in Tuple
 # Using any()
@@ -80,7 +80,7 @@ print("Is any list element present in tuple ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original tuple is : (4, 5, 7, 9, 3)
 Is any list element present in tuple ? : True
 ```

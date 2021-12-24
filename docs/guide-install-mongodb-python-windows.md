@@ -11,7 +11,7 @@
 
 MongoDB 在这里安装-->
 
-```
+```py
 C:\Program Files\MongoDB\Server\3.4\
 ```
 
@@ -22,14 +22,14 @@ C:\Program Files\MongoDB\Server\3.4\
     或者
     运行
 
-    ```
+    ```py
     md C:\data\db
     ```
 
 *   (b) **To start MongoDB**
     Run ->
 
-    ```
+    ```py
     "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
 
     ```
@@ -48,7 +48,7 @@ C:\Program Files\MongoDB\Server\3.4\
 *   (d) **要连接到 MongoDB**
     打开其他命令提示符并运行- >
 
-    ```
+    ```py
     "C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe
 
     ```
@@ -56,7 +56,7 @@ C:\Program Files\MongoDB\Server\3.4\
 **第 4 步- >准备好 MongoDB**
 打开命令提示符(管理模式)键入- >
 
-```
+```py
 mongod
 ```
 
@@ -68,7 +68,7 @@ mongod
 **以下从第 5 步到第 8 步的步骤可选:**
 **第 5 步- >打开命令提示符运行-**
 
-```
+```py
 mkdir c:\data\db
 mkdir c:\data\log
 
@@ -76,7 +76,7 @@ mkdir c:\data\log
 
 ****步骤 6-** >在 C:\ Program Files \ MongoDB \ Server \ 3.4 \ mongod . CFG(文件名 mongod.cfg)** 创建配置文件
 
-```
+```py
 systemLog:
     destination: file
     path: c:\data\log\mongod.log
@@ -90,20 +90,20 @@ storage:
 ****步骤 7** - >通过使用–Install 选项和-config 选项启动 mongod.exe 来指定之前创建的配置文件，从而安装 MongoDB 服务。**
 现在在命令提示符下运行此命令
 
-```
+```py
 "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" 
 --config "C:\Program Files\MongoDB\Server\3.4\mongod.cfg" --install
 ```
 
 ****第 8 步** - >启动&停止 MongoDB 运行**T4】启动:
 
-```
+```py
 net start MongoDB
 ```
 
 要停止:
 
-```
+```py
 net stop MongoDB
 
 ```
@@ -116,7 +116,7 @@ net stop MongoDB
 **第 10 步** - >安装包使用 MongoDB
 用 conda run 安装这个包:
 
-```
+```py
 conda install -c anaconda pymongo 
 
 ```

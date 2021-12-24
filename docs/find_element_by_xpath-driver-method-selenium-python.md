@@ -8,7 +8,7 @@ XPath 是用于在 XML 文档中定位节点的语言。由于 HTML 可以是 XM
 
 **语法–**
 
-```
+```py
 driver.find_element_by_xpath("xpath")
 ```
 
@@ -17,7 +17,7 @@ driver.find_element_by_xpath("xpath")
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -31,7 +31,7 @@ driver.find_element_by_xpath("xpath")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_element_by_xpath("/html/body/form[1]")
 login_form = driver.find_element_by_xpath("//form[1]")
 ```
@@ -43,7 +43,7 @@ login_form = driver.find_element_by_xpath("//form[1]")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -68,7 +68,7 @@ print(element)
 
 **现在使用–**运行
 
-```
+```py
 Python run.py
 ```
 

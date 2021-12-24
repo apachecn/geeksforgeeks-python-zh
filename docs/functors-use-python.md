@@ -13,7 +13,7 @@
 
 让我们通过一个简单的设计问题例子来理解它。问题是设计类/方法，根据输入类型调用不同的排序方法。如果输入是 int 类型，那么应该调用 Mergesort 函数，如果输入是 float 类型，那么就调用 Heapsort，否则就调用 quicksort 函数
 
-```
+```py
 # Python code to illustrate program 
 # without functors 
 class GodClass(object): 
@@ -52,7 +52,7 @@ print (godObject.DoSomething([1,2,3])) 
 
 输出:
 
-```
+```py
 Data is Merge sorted
 [1, 2, 3]
 
@@ -65,7 +65,7 @@ Data is Merge sorted
 
 让我们用 python 中的函子来解决同样的问题
 
-```
+```py
 # Python code to illustrate program 
 # using functors 
 
@@ -123,7 +123,7 @@ print(Call.Dosomething(['a','s','b','q'])) # quick sort 
 
 输出:
 
-```
+```py
 
 Data is Merge sorted
 [5, 4, 6]

@@ -6,7 +6,7 @@
 
 T2T4
 
-```
+```py
 import random
 
 sam_Lst = [10, 20, 3, 4, 100]
@@ -37,7 +37,7 @@ T5
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a number list
@@ -49,7 +49,7 @@ print(random.choices(num_lst, weights=(
 
 ****输出:****
 
-```
+```py
 [19, 19, 13, 22, 13, 13] 
 ```
 
@@ -59,7 +59,7 @@ print(random.choices(num_lst, weights=(
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a name list
@@ -72,7 +72,7 @@ print(random.choices(name_lst, weights=(
 
 ****输出:****
 
-```
+```py
 ['June', 'October', 'June']
 ```
 
@@ -82,7 +82,7 @@ print(random.choices(name_lst, weights=(
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a name list
@@ -102,7 +102,7 @@ for i in range(6):
 
 ****输出:****
 
-```
+```py
 Random choice 1
 Recovered
 Random choice 2
@@ -127,7 +127,7 @@ Fit
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a number list
@@ -139,7 +139,7 @@ print(random.choices(num_lst, cum_weights=(
 
 ****输出:****
 
-```
+```py
 [1, 22, 93, 22, 19, 1] 
 ```
 
@@ -149,7 +149,7 @@ print(random.choices(num_lst, cum_weights=(
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a name list
@@ -162,7 +162,7 @@ print(random.choices(name_lst, cum_weights=(
 
 ****输出:****
 
-```
+```py
 ['January', 'March', 'January'] 
 ```
 
@@ -172,7 +172,7 @@ print(random.choices(name_lst, cum_weights=(
 
  **## 蟒 3
 
-```
+```py
 import random
 
 # Creating a name list 
@@ -193,7 +193,7 @@ for i in range(6):
 
 ****输出:****
 
-```
+```py
 Random choice 1
 November
 Random choice 2

@@ -19,7 +19,7 @@
 
     **示例:**搜索所有以‘fnmatch’开头，以’结尾的文件的脚本。py
 
-    ```
+    ```py
     # Python program to illustrate 
     # fnmatch.fnmatch(filename, pattern) 
     import fnmatch 
@@ -36,7 +36,7 @@
 
     **输出:**
 
-    ```
+    ```py
     $ python fnmatch_fnmatch.py
 
     Pattern : fnmatch_*.py
@@ -54,7 +54,7 @@
 
     **示例:**不考虑文件系统和操作系统设置，编写区分大小写的比较脚本。
 
-    ```
+    ```py
     # Python program to illustrate 
     # fnmatch.fnmatchcase(filename, pattern) 
     import fnmatch 
@@ -72,7 +72,7 @@
 
     **输出:**
 
-    ```
+    ```py
     $ python fnmatch_fnmatchcase.py
 
     Pattern : FNMATCH_*.PY
@@ -90,7 +90,7 @@
 
     **示例:**按多个文件扩展名过滤文件。
 
-    ```
+    ```py
     # Python program to illustrate 
     # fnmatch.filter(names, pattern) 
     import fnmatch 
@@ -107,7 +107,7 @@
 
     **输出:**
 
-    ```
+    ```py
     $ python fnmatch_filter.py
 
     Pattern : fnmatch_*.py
@@ -120,7 +120,7 @@
 
 4.  **fnmatch.translate(pattern):** This function returns the shell-style pattern converted to a regular expression for using with **re.match()** (re.match() will only match at the beginning of the string and not at the beginning of each line).
 
-    ```
+    ```py
     # Python program to illustrate 
     # fnmatch.translate(pattern) 
     import fnmatch, re 
@@ -134,7 +134,7 @@
 
     **输出:**
 
-    ```
+    ```py
     '(?s:.*\\.txt)\\Z'
     _sre.SRE_Match object; span=(0, 10), match='foobar.txt'
 

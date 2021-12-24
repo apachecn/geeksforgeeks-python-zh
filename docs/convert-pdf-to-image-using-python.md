@@ -8,7 +8,7 @@
 
 *   **pdf2image 1.14.0:** 此模块将 pdf 转换为 PIL 对象。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pdf2image
 ```
 
@@ -32,7 +32,7 @@ pip install pdf2image
 
 ## 计算机编程语言
 
-```
+```py
 # import module
 from pdf2image import convert_from_path
 
@@ -55,7 +55,7 @@ for i in range(len(images)):
 
 ## 蟒蛇 3
 
-```
+```py
 from pdf2image import convert_from_path
 from tkinter import *
 from tkinter import messagebox

@@ -8,14 +8,14 @@
 
 *   [**bs4:**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/) 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 
 ```
 
 *   [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 请求可以让你极其轻松地发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 
 ```
@@ -32,7 +32,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup
@@ -71,7 +71,7 @@ else:
 
 **输出:**
 
-```
+```py
 Found
 ['MICR Code:- 800002012, STATE BANK OF INDIA, DIGHA']
 

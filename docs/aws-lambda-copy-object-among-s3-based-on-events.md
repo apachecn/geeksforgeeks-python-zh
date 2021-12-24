@@ -34,7 +34,7 @@
 
 示例事件对象如下所示。这个对象被传递给我们的 Lambda 函数。
 
-```
+```py
 {
   "Records": [
     {
@@ -77,7 +77,7 @@
 
 您的 Lambda 函数利用这个事件字典来识别文件上传的位置。λ代码如下所示:
 
-```
+```py
 import json
 import boto3
 s3_client=boto3.client('s3')

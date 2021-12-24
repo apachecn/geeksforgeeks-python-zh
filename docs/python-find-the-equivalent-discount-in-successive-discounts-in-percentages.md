@@ -5,7 +5,7 @@
 你会得到 n 个连续的百分比折扣。你的任务是找到等价的百分比折扣。输入将包含一个列表，列表中的每个元素将以百分比折扣，符号为负。
 **例:**
 
-```
+```py
 Input :  a = [-10, -35, -60, -75]
 Output :  -94.14
 
@@ -25,7 +25,7 @@ Output :  -49.08
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find the equivalent discount in
 # successive discounts in percentages
 def equivalentdis(a):
@@ -46,6 +46,6 @@ print(equivalentdis([-10, -20, -30, -40]))
 
 **输出:**
 
-```
+```py
 -69.75999999999999
 ```

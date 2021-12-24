@@ -28,7 +28,7 @@ Instagram 是脸书旗下的一个社交网络平台。在 Python 中，有许�
 
 ## 蟒蛇 3
 
-```
+```py
 from instascrape import Reel
 import time
 

@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+生成器表达式**
 以上函数的组合可以用来解决这个问题。在本文中，我们使用列表理解来执行创建元组的任务，生成器表达式通过使用 values()提取值来帮助分组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested dictionary to Mapped Tuple
 # Using list comprehension + generator expression
@@ -42,7 +42,7 @@ print("The grouped dictionary : " + str(res)) 
 **方法 2:使用`defaultdict()` +循环**
 这是可以执行该任务的另一种方式。在本文中，我们使用 defaultdict()执行嵌套字典的键的映射任务，并使用循环重新创建值列表。这种方法对于旧版本的 Python 很有用。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested dictionary to Mapped Tuple
 # Using defaultdict() + loop

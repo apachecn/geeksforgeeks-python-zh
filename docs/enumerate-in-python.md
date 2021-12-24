@@ -7,7 +7,7 @@ Enumerate()方法向 iterable 添加一个计数器，并以枚举对象的形�
 
 **语法:**
 
-```
+```py
 enumerate(iterable, start=0)
 
 Parameters:
@@ -18,7 +18,7 @@ Start: the index value from which the counter is
 
 ## 蟒蛇 3
 
-```
+```py
 #python
 # Python program to illustrate
 # enumerate function
@@ -38,7 +38,7 @@ print (list(enumerate(s1,2)))
 
 **输出:**
 
-```
+```py
 Return type: < type 'enumerate' >
 [(0, 'eat'), (1, 'sleep'), (2, 'repeat')]
 [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
@@ -48,7 +48,7 @@ Return type: < type 'enumerate' >
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # enumerate function in loops
 l1 = ["eat","sleep","repeat"]
@@ -69,7 +69,7 @@ for count,ele in enumerate(l1):
 
 **输出:**
 
-```
+```py
 (0, 'eat')
 (1, 'sleep')
 (2, 'repeat')

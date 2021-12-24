@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import numpy as np
 import os
@@ -55,7 +55,7 @@ from torch.utils.data import Dataset, random_split, DataLoader
 
 ## 蟒蛇 3
 
-```
+```py
 # name of the image folder
 imagePaths = 'images'
 
@@ -71,7 +71,7 @@ samples = pd.read_csv('sample_submission.csv')
 
 ## 蟒蛇 3
 
-```
+```py
 # defining train and labels list to store images and labels respectively.
 train = []
 labels = []
@@ -94,7 +94,7 @@ for image, label in zip(trainImages.iloc[:, 0], trainImages.iloc[:, 1]):
 
 ## 蟒蛇 3
 
-```
+```py
 # create subplots using the plt.subplots function
 # the number of subplots depend on the n_rows and n_cols
 # all the subplots are stored in ax variables
@@ -141,7 +141,7 @@ labelledImages 小姐:用于可视化数据的代码同上
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a VehicleDataset class for loading the images and labels .
 # the following class needs to extend from the Dataset class
 # provided by pytorch framework and implement the __len__ and __getitem__ methods.
@@ -210,7 +210,7 @@ trainDataset = VehicleDataset('train', 'images', label = True, transform = trans
 
 ## 计算机编程语言
 
-```
+```py
 # the EmergencyCustomModel class defines our Neural Network
 # It inherites from the ImageClassificationBase class which has heler methods
 # for printing the loss and accuracy at each epochs.
@@ -269,7 +269,7 @@ class EmergencyCustomModel(ImageClassificationBase):
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the training method.
 # the evaluation method is used to calculate validation accuracy.
 
@@ -332,7 +332,7 @@ def fit(epochs, max_lr, model, train_loader, val_loader,
 
 ## 蟒蛇 3
 
-```
+```py
 # the batchSize is the number of images passes by the loader at a time.
 # reduce this number if theres  an out of memory error.
 batchSize = 32
@@ -354,7 +354,7 @@ val_loader = DataLoader(valDs, batchSize)
 
 ## 蟒蛇 3
 
-```
+```py
 customModel = EmergencyCustomModel()
 epochs = 10
 lr = 0.01
@@ -375,7 +375,7 @@ history = fit(epochs, lr, customModel, trainDl, valDl)
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 parameters:
 epochs = number of epochs the model was trained on
@@ -422,7 +422,7 @@ def plot(hist, epochs = 10):
 
 ## 蟒蛇 3
 
-```
+```py
 # to use the pretrained model we make use of the torchvision.models library
 
 class ResNet50(ImageClassificationBase):
@@ -467,7 +467,7 @@ hist = fit(epochs, lr, customModel, trainDl, valDl, bestWd, optFunc)
 
 ## 蟒蛇 3
 
-```
+```py
 class Densenet169(ImageClassificationBase):
 
     def __init__(self):

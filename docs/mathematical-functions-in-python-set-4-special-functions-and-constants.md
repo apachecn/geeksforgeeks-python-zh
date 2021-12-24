@@ -11,7 +11,7 @@
 
 **1。gamma()** :-该函数用于返回参数的 **gamma 函数**。
 
-```
+```py
 # Python code to demonstrate the working of
 # gamma()
 
@@ -27,7 +27,7 @@ print (math.gamma(a))
 
 输出:
 
-```
+```py
 The gamma() of 4 is : 6.0
 
 ```
@@ -36,7 +36,7 @@ The gamma() of 4 is : 6.0
 
 **3。e** :-这是一个内置常数，输出 e(2.718281) 的**值。**
 
-```
+```py
 # Python code to demonstrate the working of
 # const. pi and e
 
@@ -54,7 +54,7 @@ print (math.e)
 
 输出:
 
-```
+```py
 The value of const. pi is : 3.141592653589793
 The value of const. e is : 2.718281828459045
 
@@ -68,7 +68,7 @@ The value of const. e is : 2.718281828459045
 
 **7。isnan()** :-如果数字为“nan”则此函数返回 **true，否则返回 false。**
 
-```
+```py
 # Python code to demonstrate the working of
 # inf, nan, isinf(), isnan()
 
@@ -88,7 +88,7 @@ else : print ("The number is not positive infinity")
 
 输出:
 
-```
+```py
 The number is nan
 The number is positive infinity
 

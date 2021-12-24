@@ -10,7 +10,7 @@
 
 举例:
 
-```
+```py
 Input : "John is the son of John second. 
          Second son of John second is William second."
 Output : [('second', 4), ('John', 3), ('son', 2), ('is', 2)]
@@ -34,13 +34,13 @@ most_common(2) will return two most frequent words and their count.
 
 **进场:**
 
-```
+```py
 1.  从集合模块导入计数器类。2.  使用 Split()将字符串拆分为列表，它将返回单词列表。3.  现在将列表传递给 Counter 类的实例4.  计数器中的函数“最常用()”将返回列表中最常用的单词列表及其计数。
 ```
 
 下面是上述方法的 Python 实现:
 
-```
+```py
 # Python program to find the k most frequent words
 # from data set
 from collections import Counter
@@ -68,7 +68,7 @@ print(most_occur)
 
 输出:
 
-```
+```py
 [('Geeks', 5), ('to', 4), ('and', 4), ('article', 3)]
 
 ```

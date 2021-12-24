@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 name = "Hello"
 
@@ -30,7 +30,7 @@ for letter in name:
 
 **输出:**
 
-```
+```py
 H e l l o
 ```
 
@@ -38,7 +38,7 @@ H e l l o
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 number = 5 
 for i in number:
@@ -47,7 +47,7 @@ for i in number:
 
 **输出**
 
-```
+```py
 TypeError: 'int' object is not iterable
 ```
 
@@ -61,7 +61,7 @@ TypeError: 'int' object is not iterable
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 name = 'Roster'
 
@@ -74,7 +74,7 @@ else:
 
 **输出:**
 
-```
+```py
 Roster is iterable
 ```
 
@@ -84,7 +84,7 @@ Roster is iterable
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 from collections.abc import Iterable
 
@@ -99,7 +99,7 @@ else:
 
 **输出:**
 
-```
+```py
 Roster is iterable
 ```
 
@@ -114,7 +114,7 @@ Roster is iterable
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 name = "Roster"
 
@@ -128,6 +128,6 @@ except TypeError:
 
 **输出:**
 
-```
+```py
 Roster is iterable
 ```

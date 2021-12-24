@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 from win10toast import ToastNotifier
 import datetime

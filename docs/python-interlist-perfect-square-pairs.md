@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以使用循环来执行。这是我们执行这项任务的强力方式。在这种情况下，我们将每个元素与其他元素相乘，并检查它是否是完美的正方形。
 
-```
+```py
 # Python3 code to demonstrate 
 # Interlist Perfect Square Pairs
 # using loop

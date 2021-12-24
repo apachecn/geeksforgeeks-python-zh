@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1, 2, 1], [1, 2, 3], [2, 2, 2, 2], [0]]
 Output : [{1, 2}, {1, 2, 3}, {2}, {0}]
 
@@ -20,7 +20,7 @@ Output : [{4}, {5}, {1, 2, 3}]
 
 ## 蟒蛇 3
 
-```
+```py
 # python3 program to convert list
 # of lists to a list of sets
 
@@ -40,7 +40,7 @@ print("The converted list of sets : " + str(res))
 
 **输出:**
 
-```
+```py
 he original list of lists : [[1, 2, 1], [1, 2, 3], [2, 2, 2, 2], [0]]
 The converted list of sets : [{1, 2}, {1, 2, 3}, {2}, {0}]
 ```
@@ -51,7 +51,7 @@ The converted list of sets : [{1, 2}, {1, 2, 3}, {2}, {0}]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # convert list of lists to list of sets
 # using map() + set
@@ -71,7 +71,7 @@ print("The converted list of sets : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list of lists : [[1, 2, 1], [1, 2, 3], [2, 2, 2, 2], [0]]
 The converted list of sets : [{1, 2}, {1, 2, 3}, {2}, {0}]
 ```

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for alternate peak List
 # Using loop
@@ -48,7 +48,7 @@ print("Is list forming alternate peaks ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 4, 1, 6, 4, 8, 0]
 Is list forming alternate peaks ? : True
 ```
@@ -59,7 +59,7 @@ Is list forming alternate peaks ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for alternate peak List
 # Using all() + generator expression
@@ -84,7 +84,7 @@ print("Is list forming alternate peaks ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 4, 1, 6, 4, 8, 0]
 Is list forming alternate peaks ? : True
 ```

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required python libraries
 import turicreate
 import matplotlib.pyplot as plt
@@ -41,7 +41,7 @@ Ys : {Ys}""")
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting the generated data
 plt.scatter(Xs, Ys)
 plt.show()
@@ -53,7 +53,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an Sframe where all the inputs and the polynomial degree and output
 def createSframe(inputs, pol_degree):
     datapoints = turicreate.SFrame({'x1': inputs})
@@ -75,7 +75,7 @@ data_points.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Polynomial Regression
 features = [f'x{i}' for i in range(1, 21)]
 poly_model = turicreate.linear_regression.create(
@@ -88,7 +88,7 @@ poly_model = turicreate.linear_regression.create(
 
 ## 蟒蛇 3
 
-```
+```py
 # predicting the some data
 # Generating test datapoints
 test_X = [random.randrange(1, 60, 1) for data in range(20)]
@@ -105,7 +105,7 @@ data_points.head()
 
 ## 计算机编程语言
 
-```
+```py
 # Measuring the accuracy
 # Generating test datapoints
 test_X = [random.randrange(1, 60, 1) for data in range(20)]
@@ -120,7 +120,7 @@ poly_model.evaluate(data_points)
 
 ## 蟒蛇 3
 
-```
+```py
 plt.scatter(data_points['x1'], data_points['y'])
 plt.plot(data_points['x1'], data_points['predicted_y'])
 plt.show()

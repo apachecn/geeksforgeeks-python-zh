@@ -14,7 +14,7 @@
 
 ## python 3
 
-```
+```py
 class Node:
     def __init__(self, val=None):
         self.val = val
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 [10, 15, 20]
 
 ```

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import json
 from tkinter import *

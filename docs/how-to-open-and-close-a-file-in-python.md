@@ -38,7 +38,7 @@ Python 中可以处理的文件有两种，普通文本文件和二进制文件(
 
 ## 蟒蛇 3
 
-```
+```py
 # open the file using open() function
 file = open("sample.txt")
 
@@ -49,7 +49,7 @@ print(file.read())
 这里我们已经打开了文件并打印了它的内容。
 **输出:**
 
-```
+```py
 Hello Geek!
 This is a sample text file for the example.
 ```
@@ -63,7 +63,7 @@ This is a sample text file for the example.
 
 ## 蟒蛇 3
 
-```
+```py
 # open the file using open() function
 file = open("sample.txt", 'a')
 

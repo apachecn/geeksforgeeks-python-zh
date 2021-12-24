@@ -12,7 +12,7 @@ Python 提供了一个名为 [DateTime](https://www.geeksforgeeks.org/python-dat
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -42,7 +42,7 @@ print("Date and Time in Integer Format:",
 
 **输出:**
 
-```
+```py
 Original date and time object: 2021-08-10 15:51:25.695808
 Date and Time in Integer Format: 20210810155125
 ```
@@ -59,7 +59,7 @@ Date and Time in Integer Format: 20210810155125
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -84,7 +84,7 @@ print("Date and Time in Integer Format:",
 
 **输出:**
 
-```
+```py
 Original date and time object: 2021-08-10 15:55:19.738126
 Date and Time in Integer Format: 20210810155519
 ```

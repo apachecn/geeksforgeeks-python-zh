@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以使用类似的循环构造来执行这个特定的任务，但是只需一行。这增加了代码的可读性。
 
-```
+```py
 # Python3 code to demonstrate 
 # appending single value 
 # using list comprehension 

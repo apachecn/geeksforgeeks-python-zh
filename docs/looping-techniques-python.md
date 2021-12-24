@@ -13,7 +13,7 @@ Python 在各种顺序容器中通过某些内置函数支持各种循环技术�
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of enumerate()
 
 for key, value in enumerate(['The', 'Big', 'Bang', 'Theory']):
@@ -22,7 +22,7 @@ for key, value in enumerate(['The', 'Big', 'Bang', 'Theory']):
 
 **输出:**
 
-```
+```py
 0 The
 1 Big
 2 Bang
@@ -31,7 +31,7 @@ for key, value in enumerate(['The', 'Big', 'Bang', 'Theory']):
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of enumerate()
 
 for key, value in enumerate(['Geeks', 'for', 'Geeks', 'is', 'the', 'Best', 'Coding', 'Platform']):
@@ -40,7 +40,7 @@ for key, value in enumerate(['Geeks', 'for', 'Geeks', 'is', 'the', 'Best', 'Codi
 
 **输出:**
 
-```
+```py
 Geeks for Geeks is the Best Coding Platform 
 ```
 
@@ -48,7 +48,7 @@ Geeks for Geeks is the Best Coding Platform
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of zip()
 
 # initializing list
@@ -63,7 +63,7 @@ for question, answer in zip(questions, answers):
 
 **输出:**
 
-```
+```py
 What is your name?  I am apple.
 What is your color?  I am red.
 What is your shape?  I am a circle.
@@ -78,7 +78,7 @@ What is your shape?  I am a circle.
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of iteritems(),items()
 
 d = { "geeks" : "for", "only" : "geeks" }
@@ -96,7 +96,7 @@ for i,j in d.items():
 
 **输出:**
 
-```
+```py
 The key value pair using iteritems is : 
 geeks for
 only geeks
@@ -109,7 +109,7 @@ only geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of items()
 
 king = {'Akbar': 'The Great', 'Chandragupta': 'The Maurya',
@@ -122,7 +122,7 @@ for key, value in king.items():
 
 **输出:**
 
-```
+```py
 Akbar The Great
 Chandragupta The Maurya
 Modi The Changer
@@ -134,7 +134,7 @@ Modi The Changer
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of sorted()
 
 # initializing list
@@ -156,7 +156,7 @@ for i in sorted(set(lis)) :
 
 **输出:**
 
-```
+```py
 The list in sorted order is : 
 1 1 2 3 3 5 6 
 The list in sorted order (without duplicates) is : 
@@ -167,7 +167,7 @@ The list in sorted order (without duplicates) is :
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate working of sorted()
 
 # initializing list
@@ -182,7 +182,7 @@ for fruit in sorted(set(basket)):
 
 **输出:**
 
-```
+```py
 apple
 banana
 grape
@@ -199,7 +199,7 @@ pear
 
 ## **蟒蛇 3**
 
-```
+```py
 # python code to demonstrate working of reversed()
 
 # initializing list
@@ -213,7 +213,7 @@ for i in reversed(lis) :
 
 ****输出:****
 
-```
+```py
 The list in reversed order is : 
 3 1 2 6 5 3 1 
 ```
@@ -222,7 +222,7 @@ The list in reversed order is :
 
 ## **蟒蛇 3**
 
-```
+```py
 # python code to demonstrate working of reversed()
 
 # using reversed() to print in reverse order
@@ -232,7 +232,7 @@ for i in reversed(range(1, 10, 3)):
 
 ****输出:****
 
-```
+```py
 7
 4
 1

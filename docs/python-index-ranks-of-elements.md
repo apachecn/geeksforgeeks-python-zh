@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Ranks of Elements
 # Using loop + filter() + list comprehension. + set() + sum() + loop

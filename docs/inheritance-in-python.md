@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate inheritance 
 
 # Base or Super class. Note object in bracket.
@@ -50,7 +50,7 @@ print(emp.getName(), emp.isEmployee())
 
 **Output:** 
 
-```
+```py
 Geek1 False
 Geek2 True
 

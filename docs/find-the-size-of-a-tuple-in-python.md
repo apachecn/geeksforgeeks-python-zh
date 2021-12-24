@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```py
 import sys
 
 # sample Tuples
@@ -28,7 +28,7 @@ print("Size of Tuple3: " + str(sys.getsizeof(Tuple3)) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of Tuple1: 96bytes
 Size of Tuple2: 96bytes
 Size of Tuple3: 80bytes
@@ -41,7 +41,7 @@ Size of Tuple3: 80bytes
 Python 还有一个内置的 __sizeof__()方法来确定对象的空间分配，而没有任何额外的垃圾值。它已在下面的示例中实现。
 **例 2:**
 
-```
+```py
 # sample Tuples
 Tuple1 = ("A", 1, "B", 2, "C", 3)
 Tuple2 = ("Geek1", "Raju", "Geek2", "Nikhil", "Geek3", "Deepanshu")
@@ -55,7 +55,7 @@ print("Size of Tuple3: " + str(Tuple3.__sizeof__()) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of Tuple1: 72bytes
 Size of Tuple2: 72bytes
 Size of Tuple3: 56bytes

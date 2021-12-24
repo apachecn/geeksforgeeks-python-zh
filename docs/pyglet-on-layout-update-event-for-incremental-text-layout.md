@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 创建一个窗口和增量文本布局
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -17,7 +17,7 @@ layout = pyglet.text.layout.IncrementalTextLayout(document, width, height)
 以下是布局更新事件
 的语法
 
-```
+```py
 # layout update event
 @window.event
 def on_layout_update():
@@ -30,7 +30,7 @@ def on_layout_update():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key

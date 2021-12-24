@@ -16,7 +16,7 @@ Python 文档引入了数据隐藏，将用户与程序实现的一部分隔离�
 
 ## 蟒 3
 
-```
+```py
 class Solution:
     __privateCounter = 0
 
@@ -35,7 +35,7 @@ print(count.__privateCount)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/db01b918da68a3747044d44675be8872.py", line 11, in <module>
     print(count.__privateCount) 
@@ -46,7 +46,7 @@ AttributeError: 'Solution' object has no attribute '__privateCount'
 
 ## python 3
 
-```
+```py
 class Solution:
     __privateCounter = 0
 
@@ -65,7 +65,7 @@ print(count._Solution__privateCounter)
 
 **输出:**
 
-```
+```py
 1
 2
 2

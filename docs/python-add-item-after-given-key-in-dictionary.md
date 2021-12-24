@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Keys whose Values summation equals K 
 # Using loop + update()
@@ -50,7 +50,7 @@ print("Modified dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 5, 'for': 8, 'Geeks': 10}
 Modified dictionary : {'Gfg': 3, 'is': 5, 'best': 19, 'for': 8, 'Geeks': 10}
 

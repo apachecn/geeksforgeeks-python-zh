@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`cmath.log()`方法，我们能够通过将任何值传递给具有自然基础的 log 来获得它的值。
 
-```
+```py
 # importing cmath library
 import cmath
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # importing cmath library
 import cmath
 

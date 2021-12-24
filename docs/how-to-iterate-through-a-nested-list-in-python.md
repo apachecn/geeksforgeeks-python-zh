@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 list = [10, 20, 30, 40, [80, 60, 70]]
 
@@ -39,7 +39,7 @@ print(list[4][2])
 
 **输出:**
 
-```
+```py
 [80, 60, 70]
 80
 60
@@ -50,7 +50,7 @@ print(list[4][2])
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 list = [10, 20, 30, 40, [80, 60, 70]]
 
@@ -69,7 +69,7 @@ print(list[-1][-1])
 
 **输出:**
 
-```
+```py
 [80, 60, 70]
 80
 60
@@ -82,7 +82,7 @@ print(list[-1][-1])
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # LIST
 list = [["Rohan", 60], ["Aviral", 21], 
@@ -97,7 +97,7 @@ for names in list:
 
 **输出:**
 
-```
+```py
 Rohan is 60 years old.
 Aviral is 21 years old.
 Harsh is 30 years old.
@@ -109,7 +109,7 @@ Raj is 20 years old.
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # LIST
 list = [["Rohan", 60], ["Aviral", 21], 
@@ -125,7 +125,7 @@ for name, age in list:
 
 **输出:**
 
-```
+```py
 Rohan is 60 years old.
 Aviral is 21 years old.
 Harsh is 30 years old.
@@ -137,7 +137,7 @@ Raj is 20 years old.
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # list
 list = [10, 20, 30, 40,
@@ -152,7 +152,7 @@ print(list[4][0 : 2])
 
 **输出:**
 
-```
+```py
 [80, 60, 70]
 [80, 60]
 ```

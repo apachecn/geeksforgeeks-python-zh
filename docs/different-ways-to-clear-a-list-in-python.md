@@ -6,7 +6,7 @@
 
 *   **Method #1 :** Using `clear()` method
 
-    ```
+    ```py
     # Python program to clear a list
     # using clear() method 
 
@@ -21,7 +21,7 @@
 
     **输出:**
 
-    ```
+    ```py
     GEEK before clear: [6, 0, 4, 1]
     GEEK after clear: []
 
@@ -29,7 +29,7 @@
 
 *   **Method #2 :** Reinitializing the list : The initialization of the list in that scope, initializes the list with no value. i.e list of size 0\. Let’s see the example demonstrating Method 1 and 2 to clear list
 
-    ```
+    ```py
     # Python3 code to demonstrate 
     # clearing a list using
     # clear and Reinitializing 
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```py
     List1 before deleting is : [1, 2, 3]
     List1 after clearing using clear() : []
     List2 before deleting is : [5, 6, 7]
@@ -73,7 +73,7 @@
 
 *   **Method #3 :** Using **“*= 0”** : This is a lesser known method, but this method removes all elements of the list and makes it empty.
 
-    ```
+    ```py
     # Python3 code to demonstrate 
     # clearing a list using
     # *= 0 method
@@ -93,14 +93,14 @@
 
     **输出:**
 
-    ```
+    ```py
     List1 before deleting is : [1, 2, 3]
     List1 after clearing using *= 0: []
     ```
 
 *   **Method #4 :** Using **[del](https://www.geeksforgeeks.org/list-methods-in-python-set-2-del-remove-sort-insert-pop-extend/)** : **del** can be used to clear the list elements in a range, if we don’t give a range, all the elements are deleted.
 
-    ```
+    ```py
     # Python3 code to demonstrate 
     # clearing a list using
     # del method
@@ -126,7 +126,7 @@
 
     **输出:**
 
-    ```
+    ```py
     List1 before deleting is : [1, 2, 3]
     List1 after clearing using del : []
     List2 before deleting is : [5, 6, 7]

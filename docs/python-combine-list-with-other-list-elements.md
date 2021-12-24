@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Combine list with other list elements
 # Using zip() + len() + list()
@@ -52,7 +52,7 @@ print("The paired list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Combine list with other list elements
 # Using product()

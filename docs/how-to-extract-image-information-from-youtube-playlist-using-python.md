@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 nextPageToken=None
 
 # creating youtube resource object 
@@ -64,7 +64,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from googleapiclient.discovery import build
 

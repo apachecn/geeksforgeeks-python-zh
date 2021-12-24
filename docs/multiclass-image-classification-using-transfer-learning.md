@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -56,7 +56,7 @@ warnings.filterwarnings('ignore')
 
 ## 蟒蛇 3
 
-```
+```py
 from google.colab import drive
 drive.mount("/content/drive")
 
@@ -73,7 +73,7 @@ test_path = "/content/drive/MyDrive/dog/test"
 
 ## 蟒蛇 3
 
-```
+```py
 labels.head()
 ```
 
@@ -88,7 +88,7 @@ labels.head()
 
 ## 蟒蛇 3
 
-```
+```py
 def to_jpg(id):
     return id+".jpg"
 
@@ -110,7 +110,7 @@ ImageDataGenerator 类用于此目的，它提供了数据的实时扩充
 
 ## 蟒蛇 3
 
-```
+```py
 # Data agumentation and pre-processing using tensorflow
 gen = ImageDataGenerator(
                   rescale=1./255.,
@@ -157,14 +157,14 @@ validation_generator = gen.flow_from_dataframe(
 
 ## 蟒蛇 3
 
-```
+```py
 x,y = next(train_generator)
 x.shape # input shape of one record is (331,331,3) , 32: is the batch size
 ```
 
 **输出:**
 
-```
+```py
 (32, 331, 331, 3)
 ```
 
@@ -172,7 +172,7 @@ x.shape # input shape of one record is (331,331,3) , 32: is the batch size
 
 ## 蟒蛇 3
 
-```
+```py
 a = train_generator.class_indices
 class_names = list(a.keys()) # storing class/breed names in a list
 

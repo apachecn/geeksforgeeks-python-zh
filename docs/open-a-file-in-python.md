@@ -27,7 +27,7 @@ Python 提供了创建、写入和读取文件的内置功能。Python 中可以
 
 **语法:**
 
-```
+```py
 File_object = open(r"File_Name", "Access_Mode")
 
 ```
@@ -40,7 +40,7 @@ File_object = open(r"File_Name", "Access_Mode")
 
 我们想使用 Python 读取文件的内容。
 
-```
+```py
 # Python program to demonstrate
 # opening a file
 
@@ -58,14 +58,14 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Welcome to GeeksForGeeks!!
 
 ```
 
 **示例#2:** 假设我们想使用 Python 向上述文件中写入更多数据。
 
-```
+```py
 # Python program to demonstrate
 # opening a file
 

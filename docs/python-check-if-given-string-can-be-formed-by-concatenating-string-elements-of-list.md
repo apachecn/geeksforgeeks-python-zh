@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : str = 'python'
         lst = ['co', 'de', 'py', 'ks', 'on']
 Output : False
@@ -22,7 +22,7 @@ Output : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Check if given string can
 # be formed by concatenating string elements
 # of list
@@ -44,7 +44,7 @@ print(checkList(str, lst))
 
 **Output:** 
 
-```
+```py
 True
 ```
 
@@ -52,7 +52,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Check if given string can
 # be formed by concatenating string elements
 # of list
@@ -74,6 +74,6 @@ print(checkList(str, lst))
 
 **Output:** 
 
-```
+```py
 True
 ```

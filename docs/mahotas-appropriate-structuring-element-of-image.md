@@ -5,7 +5,7 @@
 在本文中，我们将了解如何在 mahotas 中获得图像的适当结构元素。结构化元素是一个矩阵，它标识正在处理的图像中的像素，并定义在处理每个像素时使用的邻域。
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -24,13 +24,13 @@ mahotas.demos.load('lena')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
 下面是实现
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -59,13 +59,13 @@ print(value)
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/70d09905e2642f2eca05005f11577aa5.png)
 
-```
+```py
 [[0 1 0]
  [1 1 1]
  [0 1 0]]
@@ -73,7 +73,7 @@ Image
 
 另一个例子
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -102,13 +102,13 @@ print(value)
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/17e2403b430c8a751c7532a030ce355a.png)
 
-```
+```py
 [[1 1 1]
  [1 1 1]
  [1 1 1]]

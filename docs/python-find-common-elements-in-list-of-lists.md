@@ -7,7 +7,7 @@
 **方法#1:使用`reduce() + lambda + set()`**
 结合上述功能，只需一行即可完成该特定任务。这个减少功能可以用来操作&的功能，对所有的列表进行操作。set 函数可用于将列表转换为集合，以消除重复。
 
-```
+```py
 # Python3 code to demonstrate 
 # common element extraction form N lists 
 # using reduce() + lambda + set()
@@ -29,7 +29,7 @@ print ("The common elements from N lists : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [[2, 3, 5, 8], [2, 6, 7, 3], [10, 9, 2, 3]]
 The common elements from N lists : [2, 3]
 
@@ -38,7 +38,7 @@ The common elements from N lists : [2, 3]
 **方法 2:使用`map() + intersection()`**
 `map` 功能可以使用 set.intersection 功能将待操作的每个列表转换为 set 来执行交集。这是执行这项特殊任务的最优雅的方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # common element extraction form N lists 
 # using map() + intersection()
@@ -59,7 +59,7 @@ print ("The common elements from N lists : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [[2, 3, 5, 8], [2, 6, 7, 3], [10, 9, 2, 3]]
 The common elements from N lists : [2, 3]
 

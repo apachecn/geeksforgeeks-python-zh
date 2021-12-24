@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕如何使用 Selenium Web Driver 的定位策略抓取或定位网页中的元素展开。更具体地说，本文将讨论 find_element_by_id()。使用这种策略，将返回 id 属性值与位置匹配的第一个元素。如果没有元素具有匹配的 id 属性，将引发 NoSuchElementException。
 **语法–**
 
-```
+```py
 driver.find_element_by_id("id_of_element")
 ```
 
@@ -15,7 +15,7 @@ driver.find_element_by_id("id_of_element")
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -30,7 +30,7 @@ driver.find_element_by_id("id_of_element")
 现在，在您创建了驱动程序之后，您可以使用–
 抓取一个元素
 
-```
+```py
 login_form = driver.find_element_by_id('loginForm')
 ```
 
@@ -41,7 +41,7 @@ login_form = driver.find_element_by_id('loginForm')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -67,7 +67,7 @@ print(element)
 现在使用–
 运行
 
-```
+```py
 Python run.py
 ```
 

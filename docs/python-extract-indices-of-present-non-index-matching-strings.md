@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract indices of Present, Non Index matching Strings
 # using loop + enumerate()
@@ -48,7 +48,7 @@ print("The extracted indices : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : apple
 The original string 2 is : pineapple
 The extracted indices : [0, 1, 2, 3, 4]
@@ -61,7 +61,7 @@ The extracted indices : [0, 1, 2, 3, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract indices of Present, Non Index matching Strings
 # using enumerate() + zip() + list comprehension
@@ -83,7 +83,7 @@ print("The extracted indices : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : apple
 The original string 2 is : pineapple
 The extracted indices : [0, 1, 2, 3, 4]

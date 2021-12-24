@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -34,7 +34,7 @@ pip install vpython
 
 **例 1 :** 没有参数的螺旋线，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * helix()
 ```
@@ -44,7 +44,7 @@ from vpython import * helix()
 
 **示例 2 :** 使用颜色、不透明度、光泽和发射率参数的螺旋线。
 
-```
+```py
 # import the module
 from vpython import * cone(color = vector(0, 1, 1), 
      opacity = 0.5, 
@@ -57,7 +57,7 @@ from vpython import * cone(color = vector(0, 1, 1), 
 
 **示例 3 :** 显示 2 个螺旋，以可视化属性位置、长度、半径、线圈和厚度。
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -80,7 +80,7 @@ helix(pos = vector(1, -1, 5), 
 
 **示例 4 :** 使用参数轴和尺寸的螺旋线。
 
-```
+```py
 # import the module
 from vpython import * helix(axis = vector(-1, 4, 0),
       size = vector(1, 2, 2))

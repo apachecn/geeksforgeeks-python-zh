@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the PIL library
 from PIL import Image
 from PIL import ImageDraw
@@ -62,7 +62,7 @@ img.save("car2.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the PIL library
 from PIL import Image
 from PIL import ImageDraw

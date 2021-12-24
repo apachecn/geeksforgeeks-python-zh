@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```py
 import queue
 import threading
 import time
@@ -86,7 +86,7 @@ print ("Exit Main Thread")
 
  **输出:**
 
-```
+```py
 initializing Thread-1
 initializing Thread-2initializing Thread-3
 

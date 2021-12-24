@@ -31,7 +31,7 @@
 我们需要 **k** 个**散列函数**来计算给定输入的散列。当我们想要在过滤器中添加一个项目时，设置 k 个索引 h1(x)、h2(x)、… hk(x)的位，其中索引是使用散列函数计算的。
 示例–假设我们想在过滤器中输入“极客”，我们使用 3 个散列函数和长度为 10 的位数组，最初都设置为 0。首先，我们将按如下方式计算哈希值:
 
-```
+```py
 h1(“geeks”) % 10 = 1
 h2(“geeks”) % 10 = 4
 h3(“geeks”) % 10 = 7
@@ -44,7 +44,7 @@ h3(“geeks”) % 10 = 7
 
 同样，我们想输入“书呆子”，同样，我们将计算散列
 
-```
+```py
 h1(“nerd”) % 10 = 3
 h2(“nerd”) % 10 = 5
 h3(“nerd”) % 10 = 4
@@ -60,7 +60,7 @@ h3(“nerd”) % 10 = 4
 
 问题是为什么我们说**“大概存在”**，为什么会出现这种不确定性。让我们用一个例子来理解这一点。假设我们要检查“猫”是否存在。我们将使用 h1、h2 和 h3 计算哈希值
 
-```
+```py
 h1(“cat”) % 10 = 1
 h2(“cat”) % 10 = 3
 h3(“cat”) % 10 = 7
@@ -104,7 +104,7 @@ Python3 中布隆过滤器类的基本实现。保存为 **bloomfilter.py**
 
 ## 计算机编程语言
 
-```
+```py
 # Python 3 program to build Bloom Filter
 # Install mmh3 and bitarray 3rd party module first
 # pip install mmh3
@@ -205,7 +205,7 @@ class BloomFilter(object):
 
 ## 计算机编程语言
 
-```
+```py
 from bloomfilter import BloomFilter
 from random import shuffle
 
@@ -248,7 +248,7 @@ for word in test_words:
 
 **输出**
 
-```
+```py
 Size of bit array:124
 False positive Probability:0.05
 Number of hash functions:4
@@ -282,7 +282,7 @@ Number of hash functions:4
 
 ## C++
 
-```
+```py
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
@@ -397,7 +397,7 @@ int main()
 
 **Output**
 
-```
+```py
 abound inserted
 abounds inserted
 abundance inserted

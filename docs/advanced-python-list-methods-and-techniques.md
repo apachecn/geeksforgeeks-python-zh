@@ -10,7 +10,7 @@
 
 要按升序或降序对列表进行排序，我们使用具有以下语法的 [*【排序】)*](https://www.geeksforgeeks.org/sort-in-python/) 函数:
 
-```
+```py
 For ascending order: 
 list.sort()
 For descending order: 
@@ -21,7 +21,7 @@ list.sort(reverse=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # sorting a list using sort() function
 
 my_list = [5, 2, 90, 24, 10]
@@ -39,20 +39,20 @@ print(my_list)
 
 **输出:**
 
-```
+```py
 [2, 5, 10, 24, 90]
 [90, 24, 10, 5, 2]
 ```
 
 要临时更改列表的顺序，请使用以下语法的 [*【排序】(*](https://www.geeksforgeeks.org/sorted-function-python/) 函数:
 
-```
+```py
 list.sorted()
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # temporary sorting using sorted() method
 
 my_list = [5, 2, 90, 24, 10]
@@ -67,7 +67,7 @@ print(my_list)
 
 **输出:**
 
-```
+```py
 [2, 5, 10, 24, 90]
 [5, 2, 90, 24, 10]
 ```
@@ -76,7 +76,7 @@ print(my_list)
 
 要反转列表的顺序，我们使用 [*【反转()*](https://www.geeksforgeeks.org/python-reversing-list/) 功能。它的语法是:
 
-```
+```py
 list.reverse()
 ```
 
@@ -84,7 +84,7 @@ list.reverse()
 
 ## 蟒蛇 3
 
-```
+```py
 # reverse a list using reverse()
 
 my_list = [5, 2, 90, 24, 10]
@@ -96,13 +96,13 @@ print(my_list)
 
 **输出:**
 
-```
+```py
 [10, 24, 90, 2, 5]
 ```
 
 或者我们可以应用列表理解来反转列表:
 
-```
+```py
  list = list[::-1]
 ```
 
@@ -110,7 +110,7 @@ print(my_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # reverse using list comprehension
 my_list = [5, 2, 90, 24, 10]
 
@@ -120,7 +120,7 @@ print(my_list[::-1])
 
 **输出:**
 
-```
+```py
 [10, 24, 90, 2, 5]
 ```
 
@@ -130,7 +130,7 @@ print(my_list[::-1])
 
 这是一个自动删除所有重复项的强大技巧。它的语法是:
 
-```
+```py
 My_list =[‘a’, ’b’, ’c’, ’b’, ’a’]
 Mylist = list(dict.fromkeys(My_List))
 ```
@@ -139,7 +139,7 @@ Mylist = list(dict.fromkeys(My_List))
 
 ## 蟒蛇 3
 
-```
+```py
 # removing duplicates from a list using dictionaries
 
 my_list_1 = [5, 2, 90, 24, 10, 2, 90, 34]
@@ -156,7 +156,7 @@ print(my_list_2)
 
 **输出:**
 
-```
+```py
 [5, 2, 90, 24, 10, 34]
 ['a', 'b', 'c', 'd', 'e']
 ```
@@ -165,7 +165,7 @@ print(my_list_2)
 
 Python 列表可以借助 [*filter()*](https://www.geeksforgeeks.org/filter-in-python/) 功能或者借助列表理解进行过滤。以下是语法:
 
-```
+```py
 My_list = list(filter(filter_function , iterable_item))
 ```
 
@@ -175,7 +175,7 @@ Filter 函数返回一个迭代器对象，我们必须将其转换回列表。
 
 ## 蟒蛇 3
 
-```
+```py
 # filtering with the help of filter() function
 # creating a filter function filter all the values less than 20
 
@@ -193,13 +193,13 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 [90, 24, 95, 36]
 ```
 
 我们也可以使用列表理解进行过滤。这是一种更简单、更优雅的过滤列表的方法，下面是语法:
 
-```
+```py
 My_list = [item for item in my_list if (condition)]
 ```
 
@@ -207,7 +207,7 @@ My_list = [item for item in my_list if (condition)]
 
 ## 蟒蛇 3
 
-```
+```py
 # filtering with the help of list comprehension
 my_list = [5, 2, 90, 24, 10, 2, 95, 36]
 
@@ -218,7 +218,7 @@ print(my_list)
 
 **输出:**
 
-```
+```py
 [90, 24, 95, 36]
 ```
 
@@ -226,7 +226,7 @@ print(my_list)
 
 为了在外部函数的帮助下修改列表中的值，我们使用了 map()函数。Map()函数将给定函数应用于给定可迭代表(列表、元组等)的每个元素后，返回结果的 map 对象(迭代器)。).以下是语法:
 
-```
+```py
 My_list = list(map(function,iterable))
 ```
 
@@ -234,7 +234,7 @@ My_list = list(map(function,iterable))
 
 ## 蟒蛇 3
 
-```
+```py
 # using map() function to modify the text
 def squaring(n):
     return n**2
@@ -249,7 +249,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 [25, 4, 8100, 576, 100, 4, 9025, 1296]
 ```
 
@@ -259,7 +259,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # the same result can be obtained by a much pythonic approach
 # i.e., by using list comprehension
 my_list = [5, 2, 90, 24, 10, 2, 95, 36]
@@ -269,7 +269,7 @@ print([i**2 for i in my_list])
 
 **输出:**
 
-```
+```py
 [25, 4, 8100, 576, 100, 4, 9025, 1296]
 ```
 
@@ -277,7 +277,7 @@ print([i**2 for i in my_list])
 
 我们甚至可以借助 [*zip()*](https://www.geeksforgeeks.org/zip-in-python/) 函数将列表组合起来，从而得到一个元组列表。这里，来自列表 A 的每个项目以元组的形式与来自列表 B 的相应元素组合。以下是语法:
 
-```
+```py
 My_list = zip(list_1, list_2)
 ```
 
@@ -285,7 +285,7 @@ My_list = zip(list_1, list_2)
 
 ## 蟒蛇 3
 
-```
+```py
 # combing lists with the help of zip() function
 my_list_1 = [5, 2, 90, 24, 10]
 my_list_2 = [6, 3, 91, 25, 12]
@@ -297,7 +297,7 @@ print(my_combined_list)
 
 **输出:**
 
-```
+```py
 [(5, 6), (2, 3), (90, 91), (24, 25), (10, 12)]
 ```
 
@@ -305,7 +305,7 @@ print(my_combined_list)
 
 为了找到最频繁的元素，我们使用 [*set()*](https://www.geeksforgeeks.org/python-set-method/) 功能。 *set()* 函数从列表中删除所有重复的元素，而 [*max()*](https://www.geeksforgeeks.org/python-max-function/) 函数返回最频繁的元素(在‘键’的帮助下找到)。该键是可选的单参数函数。以下是语法:
 
-```
+```py
 Most_frequent_value =max(set(my_list),key=mylist.count)
 ```
 
@@ -313,7 +313,7 @@ Most_frequent_value =max(set(my_list),key=mylist.count)
 
 ## 蟒蛇 3
 
-```
+```py
 # to find the most frequent element from the list
 my_list = ['a', 'a', 'a', 'b', 'c', 'd', 'd', 'e']
 
@@ -324,7 +324,7 @@ print("The most common element is:", most_frequent_value)
 
 **输出:**
 
-```
+```py
 The most common element is: a
 ```
 
@@ -336,7 +336,7 @@ The most common element is: a
 
 ## 蟒蛇 3
 
-```
+```py
 my_list = ['a', 'a', 'a', 'b', 'c', 'd', 'd', 'e']
 
 # to check whether 'c' is a member of my_list
@@ -350,7 +350,7 @@ print('f' in my_list)
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -359,7 +359,7 @@ False
 
 有时我们会遇到一个列表，其中每个元素本身就是一个列表。为了把一个列表转换成一个单独的列表，我们使用列表理解。
 
-```
+```py
 my_list = [item  for List in list_of_lists for item in List ]
 ```
 
@@ -367,7 +367,7 @@ my_list = [item  for List in list_of_lists for item in List ]
 
 ## 蟒蛇 3
 
-```
+```py
 # to flatten a list_of_lists by using list comprehension
 list_of_lists = [[1, 2],
                  [3, 4],
@@ -381,6 +381,6 @@ print(my_list)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```

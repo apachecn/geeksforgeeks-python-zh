@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Fractional Frequency of elements in List
 # Using Counter() + loop + dictionary comprehension
@@ -48,7 +48,7 @@ print("Fractional Frequency List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 4, 6, 7, 5, 4, 5, 4, 6, 4, 6]
 Fractional Frequency List : ['1/5', '1/3', '2/5', '1/3', '1/1', '2/3', '3/5', '3/3', '4/5', '2/3', '5/5', '3/3']
 ```

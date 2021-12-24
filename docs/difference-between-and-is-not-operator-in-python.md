@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = 10
 b = 10
 
@@ -30,7 +30,7 @@ print(id(e), id(f))
 
 **输出:**
 
-```
+```py
 False
 140733278626480 140733278626480
 False
@@ -51,7 +51,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to 
 # illustrate the 
 # difference between
@@ -75,7 +75,7 @@ print(id(e), id(f))
 
 **输出:**
 
-```
+```py
 False
 140733278626480 140733278626480
 False
@@ -90,7 +90,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to 
 # illustrate the 
 # difference between
@@ -129,7 +129,7 @@ else: 
 
 **输出:**
 
-```
+```py
 First else Condition False
 Second if Condition True
 Third else Condition False

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 connection = pymongo.MongoClient()
@@ -41,7 +41,7 @@ else:
 
 **输出:**
 
-```
+```py
 Cursor is Not Empty
 Do Stuff Here
 ```
@@ -52,7 +52,7 @@ Do Stuff Here
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 connection = pymongo.MongoClient()
@@ -71,7 +71,7 @@ else:
 
 **输出:**
 
-```
+```py
 Cursor is Not Empty
 Do Stuff Here
 ```

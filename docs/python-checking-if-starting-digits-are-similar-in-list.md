@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `map()`**
 我们可以通过将元素转换为字符串，然后测试字符串的起始元素来解决这个问题，如果它们相等，我们可以返回 true，然后转换为 set 并测试结果的大小是否为 1。转换是通过映射完成的，set 函数将字符串的第一个元素转换为 set 并列出理解检查。
 
-```
+```py
 # Python3 code to demonstrate
 # checking for first digit in elements
 # using list comprehension + map()
@@ -28,7 +28,7 @@ print("Does each element start with same digit ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [45, 4, 428829, 432]
 Does each element start with same digit ? True
 

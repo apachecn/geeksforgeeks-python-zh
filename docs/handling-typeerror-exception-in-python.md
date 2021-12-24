@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 geek = "Geeks"
 num = 4
 print(geek + num + geek)
@@ -22,7 +22,7 @@ print(geek + num + geek)
 
 **输出:**
 
-```
+```py
 TypeError: must be str, not int
 
 ```
@@ -33,14 +33,14 @@ TypeError: must be str, not int
 
 ## 蟒蛇 3
 
-```
+```py
 geek = "GeeksforGeeks"
 print(geek())
 ```
 
 **输出:**
 
-```
+```py
 TypeError: 'str' object is not callable
 
 ```
@@ -51,7 +51,7 @@ TypeError: 'str' object is not callable
 
 ## 蟒蛇 3
 
-```
+```py
 geeky_list = ["geek", "GeeksforGeeks", "geeky", "geekgod"]
 index = "1"
 print(geeky_list[index])
@@ -59,7 +59,7 @@ print(geeky_list[index])
 
 **输出:**
 
-```
+```py
 TypeError: list indices must be integers or slices, not str
 
 ```
@@ -70,14 +70,14 @@ TypeError: list indices must be integers or slices, not str
 
 ## 蟒蛇 3
 
-```
+```py
 for geek in 1234.567890:
     print(geek)
 ```
 
 **输出:**
 
-```
+```py
 TypeError: 'float' object is not iterable
 
 ```
@@ -88,7 +88,7 @@ TypeError: 'float' object is not iterable
 
 ## 蟒蛇 3
 
-```
+```py
 geeky_list = ["Geeky", "GeeksforGeeks", "SuperGeek", "Geek"]
 indices = [0, 1, "2", 3]
 for i in range(len(indices)):
@@ -100,7 +100,7 @@ for i in range(len(indices)):
 
 **输出:**
 
-```
+```py
 Geeky
 GeeksforGeeks
 TypeError: Check list of indices

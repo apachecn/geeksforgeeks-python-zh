@@ -17,7 +17,7 @@
 
 **3。tan()** :此函数返回参数中传递的复数的**正切值**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # sin(), cos(), tan()
 
@@ -47,7 +47,7 @@ print (cmath.tan(z))
 
 输出:
 
-```
+```py
 The sine value of complex number is : (1.2984575814159773+0.6349639147847361j)
 The cosine value of complex number is : (0.8337300251311491-0.9888977057628651j)
 The tangent value of complex number is : (0.2717525853195118+1.0839233273386946j)
@@ -60,7 +60,7 @@ The tangent value of complex number is : (0.2717525853195118+1.0839233273386946j
 
 **6。atan()** :此函数返回参数中传递的复数的**反正切**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # asin(), acos(), atan()
 
@@ -90,7 +90,7 @@ print (cmath.atan(z))
 
 输出:
 
-```
+```py
 The arc sine value of complex number is : (0.6662394324925153+1.0612750619050357j)
 The arc cosine value of complex number is : (0.9045568943023814-1.0612750619050357j)
 The arc tangent value of complex number is : (1.0172219678978514+0.40235947810852507j)
@@ -105,7 +105,7 @@ The arc tangent value of complex number is : (1.0172219678978514+0.4023594781085
 
 **3。tanh()** :这个函数返回参数中传递的复数的**双曲正切**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # sinh(), cosh(), tanh()
 
@@ -135,7 +135,7 @@ print (cmath.tanh(z))
 
 输出:
 
-```
+```py
 The hyperbolic sine value of complex number is : (0.6349639147847361+1.2984575814159773j)
 The hyperbolic cosine value of complex number is : (0.8337300251311491+0.9888977057628651j)
 The hyperbolic tangent value of complex number is : (1.0839233273386946+0.2717525853195117j)
@@ -148,7 +148,7 @@ The hyperbolic tangent value of complex number is : (1.0839233273386946+0.271752
 
 **6。atanh()** :这个函数返回参数中传递的复数的**反双曲正切**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # asinh(), acosh(), atanh()
 
@@ -178,7 +178,7 @@ print (cmath.atanh(z))
 
 输出:
 
-```
+```py
 The inverse hyperbolic sine value of complex number is : (1.0612750619050357+0.6662394324925153j)
 The inverse hyperbolic cosine value of complex number is : (1.0612750619050357+0.9045568943023813j)
 The inverse hyperbolic tangent value of complex number is : (0.40235947810852507+1.0172219678978514j)

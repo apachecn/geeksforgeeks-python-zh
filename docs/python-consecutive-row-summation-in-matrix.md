@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + abs() + zip()` +列表理解**
 这个特殊问题也可以通过以上 4 个操作的组合来解决。在这里，zip 函数完成了配对列表和配对 sum 的相似索引的双重任务，sum 由 abs 函数计算，然后使用 sum 函数找到 sum，所有这些都受列表理解的限制。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive Row summation in Matrix
 # using sum() + abs() + zip() + list comprehension
@@ -28,7 +28,7 @@ print("The row summation sublist : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 4, 5], [4, 6, 8], [1, 9, 2], [3, 7, 10]]
 The row summation sublist : [30, 30, 32]
 

@@ -10,13 +10,13 @@
 
 **安装库:**
 
-```
+```py
 pip install prettytable
 ```
 
 **生成可修改:**
 
-```
+```py
 Initialisation :
 <table name> = PrettyTable(['<column1>','<column2>',....])
 
@@ -36,7 +36,7 @@ add_row(['<row1>','<row2>',....])
 
 ## 蟒蛇 3
 
-```
+```py
 from prettytable import PrettyTable
 
 print('--------------WELCOME TO XYZ Shop--------------\n')

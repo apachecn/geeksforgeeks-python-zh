@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter 
 import tkinter as tk
 
@@ -38,7 +38,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 # initialize a tkinter window
@@ -76,7 +76,7 @@ root.mainloop()
 
 我们使用 **takefocus** 参数来禁用焦点
 
-```
+```py
 Syntax: takefocus = 0
 
 # for button
@@ -89,7 +89,7 @@ btn = tk.Button(root, text="Button", takefocus=0)
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 root = tk.Tk()

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : str = "geeks for geeks"
 Output : ste = "  geeksforgeeks"
 
@@ -25,7 +25,7 @@ all of them should be shifted in front.
 2.  现在要知道原始字符串中有多少个空格字符，只需计算原始字符串和新字符串的长度之差。
 3.  现在创建另一个字符串，并在开头添加空格字符。
 
-```
+```py
 # Function to move spaces to front of string 
 # in single traversal in Python 
 
@@ -52,7 +52,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 "  geeksforgeeks"
 
 ```

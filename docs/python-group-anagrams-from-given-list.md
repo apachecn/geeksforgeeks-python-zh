@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Grouping Anagrams
 # using defaultdict() + sorted() + values()
@@ -33,7 +33,7 @@ print("The grouped Anagrams : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['lump', 'eat', 'me', 'tea', 'em', 'plum']
 The grouped Anagrams : [['me', 'em'], ['lump', 'plum'], ['eat', 'tea']]
 
@@ -44,7 +44,7 @@ The grouped Anagrams : [['me', 'em'], ['lump', 'plum'], ['eat', 'tea']]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Grouping Anagrams
 # using list comprehension + sorted() + lambda + groupby()
@@ -67,7 +67,7 @@ print("The grouped Anagrams : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['lump', 'eat', 'me', 'tea', 'em', 'plum']
 The grouped Anagrams : [['me', 'em'], ['lump', 'plum'], ['eat', 'tea']]
 
@@ -85,7 +85,7 @@ The grouped Anagrams : [['me', 'em'], ['lump', 'plum'], ['eat', 'tea']]
 
 ## 蟒蛇 3
 
-```
+```py
 data = ['eat', 'ate', 'tea', 'ant', 'tan',
         'bat', 'adobe', 'abode', 'listen', 'silent']
 
@@ -120,7 +120,7 @@ print(anagram_grouped_list)
 
 **输出:**
 
-```
+```py
 In dictonry format
 {'aet': ['eat', 'ate', 'tea'], 'ant': ['ant', 'tan'], 'abt': ['bat'],
  'abdeo': ['adobe', 'abode'], 'eilnst': ['listen', 'silent']}

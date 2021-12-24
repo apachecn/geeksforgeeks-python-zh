@@ -26,7 +26,7 @@ os 模块用于以各种方式处理文件和目录。它提供创建/重命名/
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # creates in current working directory
@@ -45,7 +45,7 @@ os.mkdir('D:/new_dir') 
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 print("String format :", os.getcwd())
@@ -54,7 +54,7 @@ print("Byte string format :", os.getcwdb())
 
 **输出:**
 
-```
+```py
 String format : /home/nikhil/Desktop/gfg
 Byte string format : b'/home/nikhil/Desktop/gfg'
 ```
@@ -71,7 +71,7 @@ Byte string format : b'/home/nikhil/Desktop/gfg'
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 os.rename('file1.txt','file1_renamed.txt')
@@ -81,7 +81,7 @@ os.rename('file1.txt','file1_renamed.txt')
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 os.renames('file1.txt', 'D:/file1_renamed.txt')
@@ -97,7 +97,7 @@ os.renames('file1.txt', 'D:/file1_renamed.txt')
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 print("Current directory :", os.getcwd())
@@ -109,7 +109,7 @@ print("Current directory :", os.getcwd())
 
 **输出:**
 
-```
+```py
 Current directory : /home/nikhil/Desktop/gfg
 Current directory : /home/nikhil/Desktop
 ```
@@ -125,7 +125,7 @@ Current directory : /home/nikhil/Desktop
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 print("The files in CWD are :",os.listdir(os.getcwd()))
@@ -145,7 +145,7 @@ print("The files in CWD are :",os.listdir(os.getcwd()))
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 dir_li=os.listdir('k:/files')
@@ -163,7 +163,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # current working directory of
@@ -178,7 +178,7 @@ print(os.path.isdir(other))
 
 **Output**
 
-```
+```py
 True
 False
 ```
@@ -190,7 +190,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 print(os.path.getsize(os.getcwd()))
@@ -198,6 +198,6 @@ print(os.path.getsize(os.getcwd()))
 
 **Output**
 
-```
+```py
 4096
 ```

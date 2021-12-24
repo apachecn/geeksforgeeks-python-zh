@@ -15,7 +15,7 @@ IMDb 数据库有电影和公司的所有信息，即人们有什么日期，制
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -32,6 +32,6 @@ for element in info:
 
 **输出:**
 
-```
+```py
 main
 ```

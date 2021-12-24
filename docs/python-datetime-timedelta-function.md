@@ -10,7 +10,7 @@ Python **`timedelta()`** 函数存在于*日期时间库*下，一般用于计�
 
 **代码#1:**
 
-```
+```py
 # Timedelta function demonstration 
 
 from datetime import datetime, timedelta
@@ -36,7 +36,7 @@ print('future_date_after_2days:', str(future_date_after_2days))
 
 **Output:**
 
-```
+```py
 initial_date 2019-02-27 12:41:45.018389
 future_date_after_2yrs: 2021-02-26 12:41:45.018389
 future_date_after_2days: 2019-03-01 12:41:45.018389
@@ -45,7 +45,7 @@ future_date_after_2days: 2019-03-01 12:41:45.018389
 
 **代码#2:**
 
-```
+```py
 # Timedelta function demonstration 
 from datetime import datetime, timedelta
 
@@ -71,7 +71,7 @@ print('past_date_after_2days:', str(past_date_before_2hours))
 
 **Output:**
 
-```
+```py
 initial_date 2019-02-27 12:41:46.104662
 past_date_before_2yrs: 2017-02-27 12:41:46.104662
 past_date_after_2days: 2019-02-27 10:41:46.104662
@@ -80,7 +80,7 @@ past_date_after_2days: 2019-02-27 10:41:46.104662
 
 **代码#3:**
 
-```
+```py
 # Timedelta function demonstration 
 from datetime import datetime, timedelta
 
@@ -104,7 +104,7 @@ print('Time difference:', str(new_final_time - \
 
 **Output:**
 
-```
+```py
 initial_date 2019-02-27 12:41:47.386595
 new_final_time 2019-03-01 12:41:47.386595
 Time difference: 2 days, 0:00:00

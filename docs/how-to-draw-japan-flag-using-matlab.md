@@ -14,14 +14,14 @@ MATLAB，也叫矩阵实验室，是一个数值计算环境，是编程语言�
 *   制作一个三阶零矩阵，它有维度(300，500，3)，其中 300 表示行的像素数，600 表示行数，3 表示 RGB 格式的颜色编码。
 *   首先用白色给整个矩阵上色。红色的 RGB 是(255，255，255)。
 
-    ```
+    ```py
     I(:, :, :)=255;
     ```
 
 *   Apply loop on rows and columns and implement the equation of the circle such that we get a circle in the center of the flag and color it crimson glory using RGB format.
     **Equation of circle:**
 
-    ```
+    ```py
     ((x-h)^2 - (y-k)^2)=r^2
     ```
 
@@ -30,7 +30,7 @@ MATLAB，也叫矩阵实验室，是一个数值计算环境，是编程语言�
 
 下面是代码:
 
-```
+```py
 % create a 2-D matrix and paint it white
 I = uint8(zeros(300, 500, 3))+255; 
 

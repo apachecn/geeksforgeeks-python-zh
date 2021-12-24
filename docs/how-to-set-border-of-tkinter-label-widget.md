@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter
 from tkinter import *
 
@@ -58,7 +58,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter
 from tkinter import *
 

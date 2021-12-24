@@ -13,7 +13,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 <class 'pyspark.rdd.RDD'>
 ```
 
@@ -62,13 +62,13 @@ if __name__ == "__main__":
 
 **语法:**
 
-```
+```py
 spark.CreateDataFrame(rdd, schema)
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -129,13 +129,13 @@ if __name__ == "__main__":
 
 **语法:**
 
-```
+```py
 df.toDF(schema)
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 

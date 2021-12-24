@@ -5,7 +5,7 @@
 给定一个数字 n。任务是检查给定数字的位数之和是否除以该数字。如果分割，则打印是，否则打印否
 **示例** :
 
-```
+```py
 Input : N = 12
 Output : YES
 Sum of digits = 1+2 =3 and 3 divides 12.
@@ -20,7 +20,7 @@ Output : NO
 
 ## C++
 
-```
+```py
 // C++ program to check if sum of
 // digits of a number divides it
 
@@ -63,7 +63,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to check if sum of
 // digits of a number divides it
 
@@ -111,7 +111,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to check if sum of
 # digits of a number divides it
 
@@ -149,7 +149,7 @@ if __name__=='__main__':
 
 ## C#
 
-```
+```py
 // C# program to check if sum of
 // digits of a number divides it
 using System;
@@ -194,7 +194,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to check if sum of
 // digits of a number divides it
@@ -235,7 +235,7 @@ else
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to check if sum of
 // digits of a number divides it   
@@ -273,6 +273,6 @@ else
 
 **Output:** 
 
-```
+```py
 YES
 ```

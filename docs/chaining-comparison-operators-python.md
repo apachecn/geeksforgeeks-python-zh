@@ -4,14 +4,14 @@
 
 在编程语言中，检查两个以上的条件是非常常见的。假设我们要检查以下条件:
 
-```
+```py
 a < b < c
 
 ```
 
 最常见的语法如下:
 
-```
+```py
 if a < b and b < c :
    {...}
 
@@ -19,7 +19,7 @@ if a < b and b < c :
 
 在 Python 中，有一种更好的方法可以使用**比较运算符 Chaining** 来写这个。运算符的链接可以写成如下形式:
 
-```
+```py
 if a < b < c :
     {.....}
 
@@ -29,7 +29,7 @@ if a < b < c :
 
 Python 中的比较运算符列表:
 
-```
+```py
 ">" | "<" | "==" | ">=" | "<=" | "!=" | "is" ["not"] | ["not"] "in"
 
 ```
@@ -39,7 +39,7 @@ Python 中的比较运算符列表:
 1.  比较产生布尔值:真或假。
 2.  Comparisons can be chained arbitrarily. For example:
 
-    ```
+    ```py
     x < y <= z is equivalent to x < y and y <= z, 
     ```
 
@@ -49,19 +49,19 @@ Python 中的比较运算符列表:
 3.  形式上，如果 a，b，c，…，y，z 是表达式，op1，op2，…，opN 是比较运算符，那么 a op1 b op2 c … y opN z 相当于 a op1 b 和 b op2 c 和… y opN z，只是每个表达式最多求值一次。
 4.  Also,
 
-    ```
+    ```py
     a op1 b op2 c 
     ```
 
     并不意味着 a 和 c 之间有任何比较，所以
 
-    ```
+    ```py
      a < b > c
     ```
 
     是完全合法的。
 
-```
+```py
 # Python code to illustrate
 # chaining comparison operators
 x = 5
@@ -74,7 +74,7 @@ print(5 == x > 4)
 
 输出:
 
-```
+```py
 True
 False
 True
@@ -85,7 +85,7 @@ True
 
 **另一个例子:**
 
-```
+```py
 # Python code to illustrate
 # chaining comparison operators
 a, b, c, d, e, f = 0, 5, 12, 0, 15, 15
@@ -97,7 +97,7 @@ print(exp2)
 
 输出:
 
-```
+```py
 True
 False
 

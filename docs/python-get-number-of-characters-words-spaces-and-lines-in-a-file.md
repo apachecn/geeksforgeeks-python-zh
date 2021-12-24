@@ -14,7 +14,7 @@
 
 下面是上述方法的实现。
 
-```
+```py
 # Python implementation to compute
 # number of characters, words, spaces
 # and lines in a file
@@ -130,7 +130,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 Number of words in text file:  25
 Number of lines in text file:  4
 Number of characters in text file:  91
@@ -144,7 +144,7 @@ Number of spaces in text file:  21
 
 下面是上述方法的实现。
 
-```
+```py
 # Python implementation to compute
 # number of characters, words, spaces
 # and lines in a file
@@ -241,7 +241,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 Number of words in text file:  25
 Number of lines in text file:  4
 Number of characters in text file:  91

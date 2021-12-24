@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -43,7 +43,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Money Heist
 4
 1
@@ -54,7 +54,7 @@ Money Heist
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -83,7 +83,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Breaking Bad
 5
 1

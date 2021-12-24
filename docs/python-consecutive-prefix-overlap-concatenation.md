@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `endswith() + join() + list comprehension + zip()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用循环作为使用 endswith()的连接/不连接的逻辑。如果是联接，则使用联接()执行。整个逻辑是在列表理解中编译的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive prefix overlap concatenation
 # Using endswith() + join() + list comprehension + zip() + loop
@@ -34,7 +34,7 @@ print("The resultant joined string : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfgo', 'gone', 'new', 'best']
 The resultant joined string : gfgonewbest
 

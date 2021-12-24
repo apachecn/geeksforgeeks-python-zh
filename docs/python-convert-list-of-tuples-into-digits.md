@@ -10,7 +10,7 @@
 
 将元组列表转换为列表元素中存在的所有数字的列表，最简洁易读的方法是使用 *re* 。
 
-```
+```py
 # Python code to convert list of tuples into
 # list of all digits which exists
 # in elements of list.
@@ -41,7 +41,7 @@ print("Output list is :", Output)
 
 这是使用`lambda()`执行该特定任务的另一种方式。
 
-```
+```py
 # Python code to convert list of tuples into
 # list of all digits which exists
 # in elements of list.

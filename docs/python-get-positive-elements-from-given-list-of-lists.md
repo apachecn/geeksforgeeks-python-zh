@@ -6,7 +6,7 @@
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to get positive 
 # element from list of list
 
@@ -29,7 +29,7 @@ print("Modified list is :", Output)
 
 **输出:**
 
-```
+```py
 Initial List is : [[10, -11, 222], [42, -222, -412, 99, -87]]
 Modified list is : [[10, 222], [42, 99]]
 

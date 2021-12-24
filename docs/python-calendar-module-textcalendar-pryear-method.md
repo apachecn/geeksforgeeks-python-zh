@@ -21,7 +21,7 @@ Python 中的 **`pryear()`** 方法用于打印`formatmonth()`返回的全年日
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of pryear() method
 
 # importing calendar module 
@@ -38,7 +38,7 @@ print(text_cal.pryear(year, width)) 
 
 **输出:**
 
-```
+```py
                                                        2018
 
              January                                 February                                 March
@@ -82,7 +82,7 @@ Mon  Tue  Wed  Thu  Fri  Sat  Sun       Mon  Tue  Wed  Thu  Fri  Sat  Sun       
 
 **代码#2:** 由于 m=2，所以一行显示的月数为 2。
 
-```
+```py
 # Python program to demonstrate working of pryear() method 
 
 # importing calendar module 
@@ -98,7 +98,7 @@ print(text_cal.pryear(2018, 5, c = 3, m = 2)) 
 
 **输出:**
 
-```
+```py
                                          2018
 
                  January                                     February

@@ -10,7 +10,7 @@
 
 以下终端命令安装 gnewsclient 包及其所有必需的库。所以，人们只需要在他们的终端上运行这个命令。
 
-```
+```py
 pip install gnewsclient
 ```
 
@@ -22,7 +22,7 @@ pip install gnewsclient
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from gnewsclient import gnewsclient
 
@@ -41,7 +41,7 @@ client.get_news()
 
 ## 蟒蛇 3
 
-```
+```py
 import gnewsclient
 from gnewsclient import gnewsclient
 
@@ -72,7 +72,7 @@ print("Topic \n",client.topics)
 
 ## 蟒蛇 3
 
-```
+```py
 from gnewsclient import gnewsclient
 
 client = gnewsclient.NewsClient(language='english',
@@ -96,7 +96,7 @@ for item in news_list:
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from gnewsclient import gnewsclient

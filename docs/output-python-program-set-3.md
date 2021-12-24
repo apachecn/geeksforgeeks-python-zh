@@ -8,7 +8,7 @@
 
 **程序 1:**
 
-```
+```py
 class Geeks:
     def __init__(self, id):
         self.id = id
@@ -22,7 +22,7 @@ print (manager.life + len(manager.__dict__))
 
 输出:
 
-```
+```py
 51
 
 ```
@@ -31,7 +31,7 @@ print (manager.life + len(manager.__dict__))
 
 **节目 2:**
 
-```
+```py
 a = "GeeksforGeeks "
 
 b = 13
@@ -41,7 +41,7 @@ print (a + b)
 
 输出:
 
-```
+```py
 An error is shown.
 
 ```
@@ -50,7 +50,7 @@ An error is shown.
 
 **程序 3:**
 
-```
+```py
 dictionary = {}
 dictionary[1] = 1
 dictionary['1'] = 2
@@ -65,7 +65,7 @@ print (sum)
 
 输出:
 
-```
+```py
 4
 
 ```
@@ -74,7 +74,7 @@ print (sum)
 
 **节目 4:**
 
-```
+```py
 dictionary = {1:'1', 2:'2', 3:'3'}
 del dictionary[1]
 dictionary[1] = '10'
@@ -84,7 +84,7 @@ print (len(dictionary))
 
 输出:
 
-```
+```py
 2
 
 ```

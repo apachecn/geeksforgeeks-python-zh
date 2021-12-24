@@ -10,19 +10,19 @@
 
 *   创建一个新变量来存储当前级别。
 
-```
+```py
 self.level = 1
 ```
 
 *   在 self.level 变量的帮助下，加载你将在当前级别使用的精灵。在本例中，我们将为级别 1 加载名为“平台 1”的精灵，为级别 2 加载名为“平台 2”的精灵，以此类推。为此，我们可以使用下面的代码加载平台。
 
-```
+```py
 platform = arcade.Sprite(f"Platform{self.level}.png", 1)
 ```
 
 *   如果玩家穿过屏幕的右侧，那么我们将增加 self.level 变量的值以进入下一个级别。
 
-```
+```py
  if self.player_sprite.center_x>690:
     self.level += 1
 ```
@@ -75,7 +75,7 @@ platform = arcade.Sprite(f"Platform{self.level}.png", 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Elements Dictionary
 # Using loop
@@ -47,7 +47,7 @@ print("The extracted dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 5, 6, 7, 8, 9, 10]
 The extracted dictionary : {3: 6, 6: 8, 8: 10, 2: 5, 5: 7, 7: 9}
 
@@ -59,7 +59,7 @@ The extracted dictionary : {3: 6, 6: 8, 8: 10, 2: 5, 5: 7, 7: 9}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Elements Dictionary
 # Using dictionary comprehension + list slicing 
@@ -84,7 +84,7 @@ print("The extracted dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 5, 6, 7, 8, 9, 10]
 The extracted dictionary : {3: 6, 6: 8, 8: 10, 2: 5, 5: 7, 7: 9}
 

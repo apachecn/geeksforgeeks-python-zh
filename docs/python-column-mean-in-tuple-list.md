@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Mean in tuple list
 # using list comprehension + sum() + zip()
@@ -30,7 +30,7 @@ print("The Cummulative column mean is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cummulative column mean is : [2.6666666666666665, 5.0, 5.666666666666667]
 ```
@@ -40,7 +40,7 @@ The Cummulative column mean is : [2.6666666666666665, 5.0, 5.666666666666667]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Mean in tuple list
 # using zip() + map() + sum()
@@ -64,7 +64,7 @@ print("The Cummulative column mean is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cummulative column mean is : [2.6666666666666665, 5.0, 5.666666666666667]
 ```

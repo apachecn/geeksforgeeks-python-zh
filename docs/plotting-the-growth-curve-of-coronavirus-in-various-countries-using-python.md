@@ -9,7 +9,7 @@
 *   ***请求:***
     请求库用于在 Python 中进行 HTTP 请求。
 
-    ```
+    ```py
     pip install requests
 
     ```
@@ -17,7 +17,7 @@
 *   ***matplotlib:***
     matplotlib 是一个综合库，用于在 Python 中创建各种类型的图形和交互式可视化。
 
-    ```
+    ```py
     pip install matplotlib
 
     ```
@@ -28,7 +28,7 @@
 
 下面是实现。
 
-```
+```py
 from matplotlib import pyplot as plt
 import requests
 
@@ -142,7 +142,7 @@ plt.show()
 
 **输入:**
 
-```
+```py
 Enter country name...
 India
 ```
@@ -153,7 +153,7 @@ India
 
 **输入:**
 
-```
+```py
 Enter country name...
 Italy
 ```

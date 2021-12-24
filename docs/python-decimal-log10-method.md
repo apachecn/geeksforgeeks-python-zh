@@ -12,7 +12,7 @@
 
 **代码# 1:log 10()方法示例**
 
-```
+```py
 # Python Program explaining 
 # log10() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with log10() method : ", b.log10())
 
 **输出:**
 
-```
+```py
 Decimal value a :  0.9932
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with log10() method :  -0.8450984743089558813497604715
 
 **代码# 2:log 10()方法示例**
 
-```
+```py
 # Python Program explaining 
 # log10() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with log10() method : ", b.log10())
 
 **输出:**
 
-```
+```py
 Decimal value a :  3.14
 Decimal value b :  3.21E+7
 

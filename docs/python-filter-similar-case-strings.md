@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Similar Case Strings
 # Using islower() + isupper() + list comprehension
@@ -50,7 +50,7 @@ print("Strings with same case : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Similar Case Strings
 # Using islower() + isupper() + filter() + lambda

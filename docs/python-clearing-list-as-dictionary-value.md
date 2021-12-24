@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `clear()`**
 这是我们可以执行这个特定功能的最通用的方法。我们只是运行一个循环，直到最后一个字典键，并使用 clear 函数清除键的列表值。
 
-```
+```py
 # Python3 code to demonstrate
 # clearing list as dict. value
 # using loop + clear()

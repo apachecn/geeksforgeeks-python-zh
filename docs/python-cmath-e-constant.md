@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.e constant
 
@@ -29,7 +29,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 2.718281828459045
 
 ```
@@ -38,7 +38,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.e constant
 
@@ -53,7 +53,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 7.3890560989306495
 
 ```

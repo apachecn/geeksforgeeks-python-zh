@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : Dec 4 2018 10:07AM 
 Output : 2018-12-04 10:07:00
 
@@ -21,13 +21,13 @@ Output : 2013-06-12 17:30:00
 
 **语法:**
 
-```
+```py
 datetime.strptime(date_string, format)
 ```
 
 参数`date_string` 和*格式*应该是字符串类型。
 
-```
+```py
 import datetime
 
 # Function to convert string to datetime
@@ -44,14 +44,14 @@ print(convert(date_time))
 
 **输出:**
 
-```
+```py
 2018-12-04 10:07:00
 ```
 
 **将日期时间转换为字符串的程序**
 **示例:**
 
-```
+```py
 Input : 2018-12-04 10:07:00  
 Output : Dec 4 2018 10:07:00AM 
 
@@ -64,13 +64,13 @@ Python `strftime()`函数存在于日期时间和时间模块中，用于基于�
 
 **语法:**
 
-```
+```py
 datetime_object.strftime(format_str)
 ```
 
 另一个类似的功能在时间模块中可用，它将元组或`struct_time` 对象转换为由格式参数指定的字符串。
 
-```
+```py
 import time
 
 # Function to convert string to datetime
@@ -88,6 +88,6 @@ print(convert(date_time))
 
 **输出:**
 
-```
+```py
 Dec 04 2018 10:07:00 AM
 ```

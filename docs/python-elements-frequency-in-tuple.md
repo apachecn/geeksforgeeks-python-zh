@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements frequency in Tuple
 # Using defaultdict()
@@ -41,7 +41,7 @@ print("Tuple elements frequency is : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original tuple is : (4, 5, 4, 5, 6, 6, 5, 5, 4)
 Tuple elements frequency is : {4: 3, 5: 4, 6: 2}
 ```
@@ -52,7 +52,7 @@ Tuple elements frequency is : {4: 3, 5: 4, 6: 2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements frequency in Tuple
 # Using Counter()
@@ -73,7 +73,7 @@ print("Tuple elements frequency is : " + str(res))
 
 **Output**
 
-```
+```py
 The original tuple is : (4, 5, 4, 5, 6, 6, 5, 5, 4)
 Tuple elements frequency is : {4: 3, 5: 4, 6: 2}
 ```

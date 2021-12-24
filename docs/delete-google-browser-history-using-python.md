@@ -8,7 +8,7 @@
 
 **实施:**
 
-```
+```py
 import sqlite3
 
 # establish the connection with
@@ -72,6 +72,6 @@ conn.close()
 
 **输出:**
 
-```
+```py
 (16886, 'https://www.geeksforgeeks.org/')
 ```

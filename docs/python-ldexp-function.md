@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python3 code demonstrate ldexp() function
 
 # importing math library
@@ -33,7 +33,7 @@ print('%.2f' %math.ldexp(-6.8, 3))
 
 **输出:**
 
-```
+```py
 72.0
 -20.0
 14.0
@@ -43,7 +43,7 @@ print('%.2f' %math.ldexp(-6.8, 3))
 
 **代码#2:**
 
-```
+```py
 # Python3 code demonstrate ldexp() function
 
 # importing math library
@@ -66,7 +66,7 @@ print('%.2f' %math.ldexp(lst[2], 3))
 
 **输出:**
 
-```
+```py
 72.0
 -27.2
 16.0
@@ -75,7 +75,7 @@ print('%.2f' %math.ldexp(lst[2], 3))
 
 **代码#3:** 如果 X 值或 I 值参数不是数字，ldexp()函数将返回**类型错误**。
 
-```
+```py
 # Python3 code demonstrates when error occurs
 
 # importing the math library
@@ -88,7 +88,7 @@ print(math.ldexp(25, '5'))
 
 **输出:**
 
-```
+```py
 TypeError: a float is required
 TypeError: a float is required
 ```

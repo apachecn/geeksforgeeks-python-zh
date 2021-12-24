@@ -12,7 +12,7 @@ Python **timeit** 模块常用来度量小代码片段的执行时间。我们�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import timeit
 
@@ -27,7 +27,7 @@ print(t)
 
 **输出:**
 
-```
+```py
 0.0777151
 ```
 
@@ -35,7 +35,7 @@ print(t)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import timeit
 
@@ -56,7 +56,7 @@ print(t)
 
 **输出:**
 
-```
+```py
 5.299999999999749e-06
 ```
 
@@ -64,7 +64,7 @@ print(t)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import timeit
 
@@ -95,7 +95,7 @@ print(t)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import timeit
 
@@ -123,7 +123,7 @@ print(end-start)
 
 **输出:**
 
-```
+```py
 2.299999999996749e-06
 ```
 
@@ -133,7 +133,7 @@ print(end-start)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import time
 
@@ -161,7 +161,7 @@ print(end-start)
 
 **输出:**
 
-```
+```py
 2.299999999996749e-06
 ```
 
@@ -169,7 +169,7 @@ print(end-start)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import time
 
@@ -197,7 +197,7 @@ print(end-start)
 
 **输出:**
 
-```
+```py
 0
 ```
 
@@ -209,7 +209,7 @@ print(end-start)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from datetime import datetime
 
@@ -237,6 +237,6 @@ print(end-start)
 
 **输出:**
 
-```
+```py
 0:00:00
 ```

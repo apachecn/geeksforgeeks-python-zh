@@ -21,7 +21,7 @@ OrderBy()函数用于根据对象的索引值对其进行排序。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -55,7 +55,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe 
 # based on two columns in ascending
 # order using orderby() function
@@ -69,7 +69,7 @@ dataframe.orderBy(['student ID', 'student NAME'],
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on two columns in descending
 # order using orderby() function
@@ -96,7 +96,7 @@ dataframe.orderBy(['student ID', 'student NAME'],
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on two columns in descending order
 dataframe.sort(['college', 'student NAME'], ascending=False).show()

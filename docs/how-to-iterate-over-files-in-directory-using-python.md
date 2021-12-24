@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import os
 # assign directory
@@ -41,7 +41,7 @@ for filename in os.listdir(directory):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import os
 
@@ -67,7 +67,7 @@ for filename in os.scandir(directory):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from pathlib import Path
 
@@ -95,7 +95,7 @@ for file in files:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import os
 
@@ -121,7 +121,7 @@ for root, dirs, files in os.walk(directory):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import glob
 

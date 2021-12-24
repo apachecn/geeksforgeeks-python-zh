@@ -23,7 +23,7 @@ Python `issubclass()`是用来检查一个类是否是另一个类的子类的�
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # issubclass()
 
@@ -50,7 +50,7 @@ print(issubclass(Car, (list, Vehicles)))
 
 **输出:**
 
-```
+```py
 True
 False
 True

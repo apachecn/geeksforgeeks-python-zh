@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Strings to Uppercase in Dictionary value lists
 # Using dictionary comprehension + upper() + list comprehension
@@ -48,7 +48,7 @@ print("The dictionary after conversion " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Strings to Uppercase in Dictionary value lists
 # Using map() + upper() + dictionary comprehension

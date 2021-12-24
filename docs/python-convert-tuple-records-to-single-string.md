@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +列表理解**
 在该方法中，我们只需遍历列表元组元素，并在它们之间执行由空格分隔的连接，以将它们连接为单个记录字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple records to single string
 # Using list comprehension + join()
@@ -28,7 +28,7 @@ print("The string after tuple conversion: " + res)
 
 **Output :**
 
-```
+```py
 The original list is : [('Manjeet', 'Singh'), ('Nikhil', 'Meherwal'), ('Akshat', 'Garg')]
 The string after tuple conversion: Manjeet Singh, Nikhil Meherwal, Akshat Garg
 

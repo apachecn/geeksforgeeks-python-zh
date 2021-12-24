@@ -43,7 +43,7 @@ Sport.py 从以下来源收集数据:
 
 首先，我们需要安装这个模块，为此只需在您的终端中运行以下代码:
 
-```
+```py
 pip install sports.py
 ```
 
@@ -54,7 +54,7 @@ pip install sports.py
 
 **语法-**
 
-```
+```py
 get_match(sport, team1, team2)
 ```
 
@@ -87,7 +87,7 @@ get_match()返回一个包含以下属性的 match 对象:
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import sports
 
@@ -105,7 +105,7 @@ sports.get_match(sports.CRICKET, 'KINGS XI PUNJAB' , 'ROYAL CHALLENGERS BANGALOR
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import sports
 
@@ -127,7 +127,7 @@ for item in matches:
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 import sports

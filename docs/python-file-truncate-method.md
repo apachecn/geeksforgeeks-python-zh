@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 fileObject.truncate(size)
 
 ```
@@ -24,7 +24,7 @@ fileObject.truncate(size)
 
 让我们将文件大小更改为 100 字节。
 
-```
+```py
 # Python program to demonstrate
 # truncate() method
 
@@ -48,7 +48,7 @@ fp.close()
 
 让我们将上面的文件改为 50 字节
 
-```
+```py
 # Python program to demonstrate
 # truncate method using with statement
 

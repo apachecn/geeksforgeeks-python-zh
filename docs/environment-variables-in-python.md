@@ -48,7 +48,7 @@ Python 有 3 种标准使用方式，即:
 
 在这种模式下、你基本上是调用 Python 解释器，抛出一堆命令给它执行。要进入 Python 的交互模式，请使用以下命令:
 
-```
+```py
 $python # Unix/Linux
 or
 python% # Unix/Linux
@@ -75,7 +75,7 @@ C:> python # Windows/DOS
 
 现在使用以下命令执行文件:
 
-```
+```py
 python gfg.py
 
 ```

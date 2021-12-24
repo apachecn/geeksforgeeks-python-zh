@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate pow()
 # version 1
 
@@ -31,7 +31,7 @@ print(pow(3, 4))
 
 **输出:**
 
-```
+```py
 The value of 3**4 is : 81.0
 ```
 
@@ -51,7 +51,7 @@ The value of 3**4 is : 81.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate pow()
 # version 2
 
@@ -64,7 +64,7 @@ print(pow(3, 4, 10))
 
 **输出:**
 
-```
+```py
 The value of (3**4) % 10 is : 1
 ```
 
@@ -74,7 +74,7 @@ The value of (3**4) % 10 is : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to discuss negative
 # and non-negative cases
 
@@ -97,7 +97,7 @@ print(pow(-4, -3))
 
 **输出:**
 
-```
+```py
 Positive x and positive y : 64
 Negative x and positive y : -64
 Positive x and negative y : 0.015625

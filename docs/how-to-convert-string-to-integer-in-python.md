@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialising a string 
 # with decimal value
 string = "100"
@@ -40,7 +40,7 @@ print(type(string_to_int))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 <class 'int'>
 
@@ -52,7 +52,7 @@ print(type(string_to_int))
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialising a string
 # with hexadecimal value
 string = "0x12F"
@@ -70,7 +70,7 @@ print(type(string_to_int))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 <class 'int'>
 
@@ -92,7 +92,7 @@ print(type(string_to_int))
 
 ## 蟒蛇 3
 
-```
+```py
 # User-defined function to 
 # convert a string into integer
 def string_to_int(input_string):
@@ -160,7 +160,7 @@ if __name__ == "__main__" : 
 
 **输出:**
 
-```
+```py
 <class 'int'>
 <class 'int'>
 <class 'int'>

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import cv2 as cv
@@ -28,7 +28,7 @@ from sys import getsizeof
 
 ## 蟒蛇 3
 
-```
+```py
 #Fetching the url and showing the image using cv2_imshow
 urls=["https://iiif.lib.ncsu.edu/iiif/0052574/full/800,/0/default.jpg"]
 for url in urls:
@@ -45,7 +45,7 @@ for url in urls:
 
 ## 蟒蛇 3
 
-```
+```py
 #Getting the multi-dimensional array from the image
 array1 = array(image)
 #Memory occupied by the multi-dimensional array
@@ -57,7 +57,7 @@ print(array1)
 
 ## 蟒蛇 3
 
-```
+```py
 #Using Flatten function on array 1 to convert the multi-dimensional 
 # array to 1-D array
 array2 = array1.flatten()
@@ -71,7 +71,7 @@ print(array2)
 
 ## 蟒蛇 3
 
-```
+```py
 #Print's the two different size's of the array
 print(f"Size of Multidimensional Image : {size1}")
 print(f"Size of Flattened Image : {size2}")
@@ -80,7 +80,7 @@ difference = size1 - size2
 print("Size difference in the images: ", difference)
 ```
 
-```
+```py
 Size of Multidimensional Image : 1324928 
 Size of Flattened Image : 1324896
 Size difference in the images: 32
@@ -90,7 +90,7 @@ Size difference in the images: 32
 
 ## 蟒蛇 3
 
-```
+```py
 #importing libraries
 import numpy as np
 import pandas as pd

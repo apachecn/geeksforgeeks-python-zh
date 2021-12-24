@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib and numpy
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,7 +51,7 @@ clip .ipython_display(fps = 20, loop = True, autoplay = True)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -65,7 +65,7 @@ Moviepy - video ready __temp__.mp4
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib and numpy
 import matplotlib.pyplot as plt
 import numpy as np
@@ -104,7 +104,7 @@ clip .ipython_display(fps = 20, loop = True, autoplay = True)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 

@@ -4,7 +4,7 @@
 
 给定一个带有矩阵值的字典，计算这些矩阵的每一列的最大值。
 
-```
+```py
 Input  :  test_dict = {"Gfg" : [[7, 6], [3, 2]],
                                         "is" : [[3, 6], [6, 10]],
                                         "best" : [[5, 8], [2, 3]]}
@@ -24,7 +24,7 @@ Explanation :  6 > 3, 10 > 6, hence ordering.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Maximums of Dictionary Value Matrix
 # Using dictionary comprehension + sorted() + items()
@@ -47,7 +47,7 @@ print("The evaluated dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [[5, 6], [3, 4]], 'is': [[4, 6], [6, 8]], 'best': [[7, 4], [2, 3]]}
 The evaluated dictionary : {'Gfg': [5, 6], 'is': [6, 8], 'best': [7, 4]}
 
@@ -59,7 +59,7 @@ The evaluated dictionary : {'Gfg': [5, 6], 'is': [6, 8], 'best': [7, 4]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Column Maximums of Dictionary Value Matrix
 # Using max() + map() + zip()
@@ -82,7 +82,7 @@ print("The evaluated dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [[5, 6], [3, 4]], 'is': [[4, 6], [6, 8]], 'best': [[7, 4], [2, 3]]}
 The evaluated dictionary : {'Gfg': [5, 6], 'is': [6, 8], 'best': [7, 4]}
 

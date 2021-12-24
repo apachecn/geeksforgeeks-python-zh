@@ -6,20 +6,20 @@
 
 安装 Matplotlib 最简单的方法是使用命令行中的 **pip** 命令，如下所示:
 
-```
+```py
 pip install matplotlib
 ```
 
 此外，我们使用 **numpy** 和 **pandas** 库来创建和使用数据集。因此，安装 numpy 和 pandas 库也可以使用命令行中的 pip 命令来完成。
 
-```
+```py
 pip install numpy 
 pip install pandas
 ```
 
 为了使图表更有创意，更容易找到图表中的定位数据，我们使用了**绘图**和**袖扣**库。要使用这些库，安装方法也与上述库相同。
 
-```
+```py
 pip install chart_studio.plotly
 pip install cufflinks
 ```
@@ -38,7 +38,7 @@ pip install cufflinks
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import pandas as pd

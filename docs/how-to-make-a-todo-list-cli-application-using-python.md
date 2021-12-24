@@ -20,7 +20,7 @@
 
 **注意:**在 Windows 命令提示符下运行应用→键入 todo 或。\todo
 
-```
+```py
 In shell or git bash  -->     type ./todo
 ```
 
@@ -34,14 +34,14 @@ In shell or git bash  -->     type ./todo
 
 全部。bat:
 
-```
+```py
 @echo off
 python3 todo.py %1 %2
 ```
 
 全部。sh:
 
-```
+```py
 python todo.py "$@"
 ```
 
@@ -51,13 +51,13 @@ python todo.py "$@"
 
 要在 Windows 上创建符号链接，您需要以管理员权限**运行 Windows 命令提示符或 Windows Powershell * *。为此，右键单击命令提示符或 Powershell 的图标，然后选择 _“以管理员身份运行”选项。
 
-```
+```py
 mklink todo todo.bat
 ```
 
 在 Linux 或 shell 中(作为 git bash)
 
-```
+```py
 $ ln -s todo.sh todo
 ```
 
@@ -67,7 +67,7 @@ $ ln -s todo.sh todo
 
 ## 蟒蛇 3
 
-```
+```py
 # module required
 import sys
 import datetime
@@ -77,7 +77,7 @@ import datetime
 
 ## 蟒蛇 3
 
-```
+```py
 # help function
 def help():
     sa = """Usage :-
@@ -94,7 +94,7 @@ $ ./todo report           # Statistics"""
 
 ## 蟒蛇 3
 
-```
+```py
 # function to add item in todo list
 def add(s):
 
@@ -110,7 +110,7 @@ def add(s):
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to print the todo list items
 def ls():
 
@@ -133,7 +133,7 @@ def ls():
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to Complete a todo
 def done(no):
     try:
@@ -164,7 +164,7 @@ def done(no):
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to show report/statistics of todo list
 def report():
     nec()
@@ -189,7 +189,7 @@ def report():
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 def deL(no):
     try:
@@ -216,7 +216,7 @@ def deL(no):
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 def nec():
 
@@ -271,7 +271,7 @@ $ ./todo report           # Statistics"""
 
 ## 蟒蛇 3
 
-```
+```py
 # Complete code
 import sys
 import datetime

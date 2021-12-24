@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # This code is used to open URL in firefox 
 # browser
 

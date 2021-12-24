@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 df.columns
 ```
 
@@ -16,7 +16,7 @@ df.columns
 
 **语法:**
 
-```
+```py
 df.schema.fields
 ```
 
@@ -24,7 +24,7 @@ df.schema.fields
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # getting the list of column names
 col = df.columns
 
@@ -93,7 +93,7 @@ df.show()
 
 ## 计算机编程语言
 
-```
+```py
 # getting the list of StructFields
 field = df.schema.fields
 
@@ -118,7 +118,7 @@ for count, col_name in enumerate(field, 1):
 
 ## 计算机编程语言
 
-```
+```py
 # printing Dataframe schema to
 # get the column names
 df.printSchema()

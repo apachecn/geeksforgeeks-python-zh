@@ -62,7 +62,7 @@ smape 公式
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 py list  : 3.73 %
 np array : 3.73 %
 pandas df: 3.73 %

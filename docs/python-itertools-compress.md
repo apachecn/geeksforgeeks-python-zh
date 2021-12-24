@@ -16,13 +16,13 @@ Python 的 [Itertool](https://www.geeksforgeeks.org/python-itertools/) 是一个
 
 **语法:**
 
-```
+```py
 compress(iter, selector)
 ```
 
 **例 1 :**
 
-```
+```py
 # Python code to demonstrate the working of   
 # compress() 
 
@@ -40,7 +40,7 @@ for each in Best_Programming:
 
 **输出:**
 
-```
+```py
 Python
 
 ```
@@ -49,7 +49,7 @@ Python
 
 **例 2 :**
 
-```
+```py
 # Python code to demonstrate the working of   
 # compress() 
 
@@ -64,7 +64,7 @@ for each in example:
 
 **输出:**
 
-```
+```py
 A
 C
 

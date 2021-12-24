@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 num = 10
 
 # check  and print type of num variable
@@ -34,7 +34,7 @@ print(type(converted_num))
 
 ## 蟒蛇 3
 
-```
+```py
 num = 10
 
 # check  and print type of num variable
@@ -53,7 +53,7 @@ print(type(converted_num))
 
 ## 蟒蛇 3
 
-```
+```py
 num = 10
 
 # check  and print type of num variable
@@ -72,7 +72,7 @@ print(type(converted_num))
 
 ## 蟒蛇 3
 
-```
+```py
 num = 10
 
 # check  and print type of num variable

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Row with any Boolean True
 # Using list comprehension + any()
@@ -46,7 +46,7 @@ print("Extracted Rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Row with any Boolean True
 # Using any() + filter() + lambda

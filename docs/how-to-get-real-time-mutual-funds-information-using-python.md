@@ -17,7 +17,7 @@
 
 将此模块运行到您的终端中。
 
-```
+```py
 pip install mftool
 
 ```
@@ -28,7 +28,7 @@ pip install mftool
 
 ## 蟒 3
 
-```
+```py
 # import module
 from mftool import Mftool
 
@@ -41,7 +41,7 @@ obj = Mftool()
 
 ## 蟒 3
 
-```
+```py
 # pass the scheme code into 
 # methods
 data = obj.get_scheme_quote('119551')

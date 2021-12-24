@@ -11,7 +11,7 @@
 
 我们将首先在 MongoDB 中插入数据。
 
-```
+```py
 # Python code to illustrate
 # Insert in MongoDB
 from pymongo import MongoClient
@@ -58,7 +58,7 @@ for record in cursor:
 
 输出:
 
-```
+```py
 Connected successfully!!!
 Data inserted with record ids    
 {'_id': ObjectId('5a02227b37b8552becf5ed2a'), 'name': 
@@ -74,7 +74,7 @@ Data inserted with record ids
 
 插入数据后，让我们替换姓名为沙尔亚先生的员工的数据
 
-```
+```py
 # Python code to illustrate 
 # Replace_one() in MongoDB
 from pymongo import MongoClient 
@@ -110,7 +110,7 @@ for record in cursor:
     print(record)
 ```
 
-```
+```py
 Connected successfully!!!
 Data replaced with id 
 {'_id': ObjectId('5a02227b37b8552becf5ed2a'), 'name': 
@@ -129,7 +129,7 @@ Data replaced with id
 *考虑数据与插入时相同。*
 将所有数据条目替换为 eid:14。
 
-```
+```py
 # Python code to illustrate 
 # Replace_many() in MongoDB
 from pymongo import MongoClient
@@ -167,7 +167,7 @@ for record in cursor:
 
 输出应该是:
 
-```
+```py
 Connected successfully!!!
 Data replaced with id 
 {'_id': ObjectId('5a02227b37b8552becf5ed2a'), 'name': 

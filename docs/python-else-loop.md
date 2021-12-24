@@ -10,7 +10,7 @@ Else with loop 与 while 和 for loop 一起使用。else 块在循环结束时�
 
 ## 蟒蛇 3
 
-```
+```py
 i=0
 
 while i<5:
@@ -23,7 +23,7 @@ else:
 
 **输出:**
 
-```
+```py
 i = 1
 i = 2
 i = 3
@@ -46,7 +46,7 @@ else block is executed
 
 ## 蟒蛇 3
 
-```
+```py
 l = [1, 2, 3, 4, 5]
 
 for a in l:
@@ -58,7 +58,7 @@ else:
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -79,7 +79,7 @@ else block is executed
 
 在下面的示例中，else 语句只有在数组中没有元素是偶数的情况下才会被执行，也就是说，如果语句没有被执行任何迭代。因此，对于数组[1，9，8]，if 在循环的第三次迭代中执行，因此 for 循环之后出现的 else 被忽略。在数组[1，3，5]的情况下，if 不在任何迭代中执行，因此在循环执行后执行 else。
 
-```
+```py
 **示例 1:使用 while 循环**
 
 ## 蟒蛇 3
@@ -106,7 +106,7 @@ print ("For List 1:")
 contains_even_number([1, 9, 8])
 print (" \nFor List 2:")
 contains_even_number([1, 3, 5])
-```
+```py
 
 **输出:**
 
@@ -116,7 +116,7 @@ list contains an even number
 
 For List 2:
 list does not contain an even number
-```
+```py
 
 **例 2:用于循环**我们将使用与上面相同的例子，但是这次我们将使用 for 循环而不是 while 循环。
 
@@ -140,7 +140,7 @@ print ("For List 1:") 
 contains_even_number([1, 9, 8]) 
 print (" \nFor List 2:") 
 contains_even_number([1, 3, 5])
-```
+```py
 
 **输出:**
 
@@ -150,6 +150,6 @@ list contains an even number
 
 For List 2:
 list does not contain an even number
-```
+```py
 
 ```

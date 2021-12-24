@@ -13,7 +13,7 @@
 **方法#1:使用`enumerate() + list comprehension + isalpha()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 enumerate 执行索引工作，使用 isalpha()完成字符过滤。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Character coordinates in Matrix
 # Using enumerate() + list comprehension + isalpha()
@@ -35,7 +35,7 @@ print("Character indices : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['23f45.;4d', '5678d56d', '789', '5678g']
 Character indices : [(0, 2), (0, 8), (1, 4), (1, 7), (3, 4)]
 
@@ -44,7 +44,7 @@ Character indices : [(0, 2), (0, 8), (1, 4), (1, 7), (3, 4)]
 **方法 2:使用`regex()` +循环**
 以上功能的组合可以解决这个问题。在本文中，我们使用正则表达式执行过滤字母的任务。只返回每个字符串中第一个出现的字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Character coordinates in Matrix
 # Using regex() + loop
@@ -70,7 +70,7 @@ print("Character indices : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['23f45.;4d', '5678d56d', '789', '5678g']
 Character indices : [(0, 2), (1, 4), (3, 4)]
 

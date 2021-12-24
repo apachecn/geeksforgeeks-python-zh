@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+元组+ `items()`**
 这个问题可以通过使用列表理解来构建列表来解决，元组是通过在元组中手动插入键来构建的，items 函数用于以元组的形式获取字典的项键和值。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary to list of tuple conversion
 # using list comprehension + tuple + items()
@@ -28,7 +28,7 @@ print("The list after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'Nikhil': (22, 'JIIT'), 'Akshat': (21, 'JIIT')}
 The list after conversion : [('Nikhil', 22, 'JIIT'), ('Akshat', 21, 'JIIT')]
 

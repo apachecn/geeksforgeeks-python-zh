@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -37,7 +37,7 @@ print("Book closure end date  : " + str(value))
 
 **输出:**
 
-```
+```py
 Book closure end date  : 13-JUL-20
 ```
 
@@ -45,7 +45,7 @@ Book closure end date  : 13-JUL-20
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -67,6 +67,6 @@ print("Book closure end date  : " + str(value))
 
 **输出:**
 
-```
+```py
 Book closure end date  : 28-JUN-18
 ```

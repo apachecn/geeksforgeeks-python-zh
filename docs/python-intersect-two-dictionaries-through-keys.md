@@ -6,7 +6,7 @@
 
 **方法一:使用字典理解**
 
-```
+```py
 # Python code to demonstrate
 # intersection of two dictionaries 
 # using dict comprehension
@@ -36,7 +36,7 @@ print ("final dictionary", str(final_dict))
 
 **方法 2:使用`& operator`**
 
-```
+```py
 # Python code to demonstrate
 # intersection of two dictionaries 
 # using dict comprehension

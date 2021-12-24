@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Length Conditional Concatenation
 # Using loop + len()
@@ -46,7 +46,7 @@ print("String after Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'for', 'CS', 'Everything']
 String after Concatenation : GfgBestforEverything
 
@@ -58,7 +58,7 @@ String after Concatenation : GfgBestforEverything
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Length Conditional Concatenation
 # Using join() + filter() + lambda + len()
@@ -81,7 +81,7 @@ print("String after Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'for', 'CS', 'Everything']
 String after Concatenation : GfgBestforEverything
 

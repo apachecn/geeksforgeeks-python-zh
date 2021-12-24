@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`API.destroy_status()`** 方法用于删除授权�
 **示例 1 :** 删除以下推文:
 ![](img/3ced6a85c7d0b81b2033dbe58a523fc8.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,14 +54,14 @@ except:
 
 **输出:**
 
-```
+```py
 The status has been successfully deleted.
 ```
 
 **例 2 :** 如果我们尝试删除别人的状态，会引发异常。尝试删除以下状态:
 ![](img/a82bc238ddc46ce23f061aa4e7106284.png)
 
-```
+```py
 # the ID of the status
 ID = 1263493041769394178
 
@@ -71,7 +71,7 @@ api.destroy_status(ID)
 
 **输出:**
 
-```
+```py
 raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 183, 'message': "You may not delete another user's status."}]
 

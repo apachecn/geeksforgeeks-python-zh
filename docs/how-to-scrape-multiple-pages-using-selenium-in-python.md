@@ -8,7 +8,7 @@
 
 **首页网址:**
 
-```
+```py
 https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=1
 ```
 
@@ -16,7 +16,7 @@ https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=1
 
 **第二页网址:**
 
-```
+```py
 https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2
 ```
 
@@ -26,7 +26,7 @@ https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=2
 
 我们的第一步，在编写一行代码之前。我们必须为使用**网络驱动程序**类安装**硒**。通过它我们可以实例化浏览器，并从目标网址获取网页。
 
-```
+```py
 pip install selenium
 ```
 
@@ -34,7 +34,7 @@ pip install selenium
 
 下一个包是 **webdriver_manager，**让我们先安装一下，
 
-```
+```py
 pip install webdriver_manager
 ```
 
@@ -52,7 +52,7 @@ pip install webdriver_manager
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packages
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -87,7 +87,7 @@ driver.close()
 
 现在，我们将使用 **xlsxwriter** 包将**元素列表**中的数据存储到 Excel 文件中。所以，首先，我们必须安装这个 **xlsxwriter** 包。
 
-```
+```py
 pip install xlsxwriter
 ```
 
@@ -95,7 +95,7 @@ pip install xlsxwriter
 
 ## 蟒蛇 3
 
-```
+```py
 with xlsxwriter.Workbook('result.xlsx') as workbook:
     worksheet = workbook.add_worksheet()
 
@@ -109,7 +109,7 @@ with xlsxwriter.Workbook('result.xlsx') as workbook:
 
 ## 蟒蛇 3
 
-```
+```py
 import xlsxwriter
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager

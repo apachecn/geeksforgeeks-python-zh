@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -55,7 +55,7 @@ with cairo.SVGSurface("geek94.svg", 700, 700) as surface:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

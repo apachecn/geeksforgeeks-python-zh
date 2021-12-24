@@ -11,7 +11,7 @@
 
 **示例 1:** 使用自身和对象引用
 
-```
+```py
 #creating class
 class student:
 
@@ -43,7 +43,7 @@ print(s.name)
 
 **输出:**
 
-```
+```py
 hello my name is: HARRY
 my roll number is: 1001
 HARRY
@@ -51,7 +51,7 @@ HARRY
 
 **示例 2:** 使用 getattr()
 
-```
+```py
 # Python code for accessing attributes of class 
 class emp: 
     name='Harsh'
@@ -80,7 +80,7 @@ delattr(emp,'salary') 
 
 **输出:**
 
-```
+```py
 Harsh
 True
 152

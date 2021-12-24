@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 使用列表理解是一种以速记方式执行这项任务的蛮力方法。在这种情况下，我们只检查每个元组，并检查它是否包含目标列表中的任何元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter tuples according to list element presence
 # using list comprehension
@@ -31,7 +31,7 @@ print("Filtered tuple from list are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 4, 6), (5, 8), (2, 9), (1, 10)]
 Filtered tuple from list are : [(1, 4, 6), (1, 10)]
 

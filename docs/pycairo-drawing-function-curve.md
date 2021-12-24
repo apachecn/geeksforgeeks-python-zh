@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 # importing Math to Sin & exp Function

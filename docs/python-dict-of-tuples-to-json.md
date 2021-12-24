@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import json module
 import json
 
@@ -39,7 +39,7 @@ print(final)
 
 **输出**:
 
-```
+```py
 {
   "id": [
     "1",
@@ -70,7 +70,7 @@ print(final)
 
 **语法**:
 
-```
+```py
 with open("mydata.json", "w") as final:
     json.dump(data, final)
 ```
@@ -81,7 +81,7 @@ with open("mydata.json", "w") as final:
 
 **语法**:
 
-```
+```py
 files.download('mydata.json')
 ```
 
@@ -89,7 +89,7 @@ files.download('mydata.json')
 
 ## 蟒蛇 3
 
-```
+```py
 # import json module
 from google.colab import files
 import json

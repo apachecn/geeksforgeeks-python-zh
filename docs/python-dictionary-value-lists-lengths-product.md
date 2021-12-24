@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary value lists lengths product
 # Using loop + len()
@@ -44,7 +44,7 @@ print("The computed product : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 5, 9, 3, 10], 'is': [1, 3, 4], 'best': [9, 16]}
 The computed product : 30
 
@@ -56,7 +56,7 @@ The computed product : 30
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary value lists lengths product
 # Using map() + lambda + reduce() 
@@ -79,7 +79,7 @@ print("The computed product : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 5, 9, 3, 10], 'is': [1, 3, 4], 'best': [9, 16]}
 The computed product : 30
 

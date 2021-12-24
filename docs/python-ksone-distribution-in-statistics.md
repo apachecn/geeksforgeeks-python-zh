@@ -17,7 +17,7 @@
 
 **代码#1:创建 ksone 连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import ksone  
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D530AB48
 
@@ -39,7 +39,7 @@ RV :
 
  **代码#2 : Ksone 连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -50,7 +50,7 @@ print ("Random Variates : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [3.88510141 3.48394857 3.66124797 3.88484201 3.86533511 3.21176073
  4.10238585 3.42397866 3.85111721 4.36433596]
@@ -59,7 +59,7 @@ Random Variates :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -71,7 +71,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02040816 0.04081633 0.06122449 0.08163265 0.10204082
  0.12244898 0.14285714 0.16326531 0.18367347 0.20408163 0.2244898
@@ -89,7 +89,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

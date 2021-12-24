@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`API.me()`** 方法用于获取认证用户的信�
 
 **示例 1 :** 获取经过身份验证的用户的名称。在这里，我们假设经过身份验证的用户是 GeeksforGeeks twitter 帐户。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -44,13 +44,13 @@ print("The authenticated user's name is : " + user.name)
 
 **输出:**
 
-```
+```py
 The authenticated user's name is : GeeksforGeeks
 ```
 
 **示例 2 :** 获取认证用户的屏幕名称。在这里，我们假设经过身份验证的用户是 GeeksforGeeks twitter 帐户。
 
-```
+```py
 # getting the authenticated user's information
 user = api.me()
 
@@ -60,13 +60,13 @@ print("The authenticated user's screen name is : " + user.screen_name)
 
 **输出:**
 
-```
+```py
 The authenticated user's screen name is : geeksforgeeks
 ```
 
 **例 3 :** 获取认证用户的 ID。在这里，我们假设经过身份验证的用户是 GeeksforGeeks twitter 帐户。
 
-```
+```py
 # getting the authenticated user's information
 user = api.me()
 
@@ -76,13 +76,13 @@ print("The authenticated user's ID is : " + str(user.id))
 
 **输出:**
 
-```
+```py
 The authenticated user's ID is : 57741058
 ```
 
 **示例 4 :** 获取认证用户的位置。在这里，我们假设经过身份验证的用户是 GeeksforGeeks twitter 帐户。
 
-```
+```py
 # getting the authenticated user's information
 user = api.me()
 
@@ -92,6 +92,6 @@ print("The authenticated user's location is : " + user.location)
 
 **输出:**
 
-```
+```py
 The authenticated user's location is : India
 ```

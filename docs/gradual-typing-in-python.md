@@ -32,7 +32,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # function annotations
 
@@ -50,12 +50,12 @@ print(sum(1, 'Geeks'))
 
 **输出:**
 
-```
+```py
 5
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1c75a5171763b2dd0ca35c567f855c61.py", line 13, in 
     print(sum(1, 'Geeks'))
@@ -69,7 +69,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # function annotations
 
@@ -87,12 +87,12 @@ print(say_hello(1))
 
 **输出:**
 
-```
+```py
 Hello Geeks
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1ff73389e9ad8a9adb854b65716e6ab6.py", line 13, in 
     print(say_hello(1))
@@ -109,7 +109,7 @@ TypeError: Can't convert 'int' object to str implicitly
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # variable annotations
 
@@ -129,7 +129,7 @@ name = None # type: str
 [PEP 526](https://www.python.org/dev/peps/pep-0526/) 引入了标注变量类型(包括类变量和实例变量)的标准语法，而不是通过注释来表达:
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # variable annotations
 
@@ -146,13 +146,13 @@ name: str
 
 Mypy 需要 Python 3.5 或更高版本才能运行。安装 Python 3 后，使用 pip 安装`mypy` :
 
-```
+```py
 $ python3 -m pip install mypy
 ```
 
 安装 mypy 后，使用 mypy 工具运行它:
 
-```
+```py
 $ mypy program.py
 ```
 
@@ -160,13 +160,13 @@ $ mypy program.py
 
 虽然您必须安装 Python 3 才能运行 mypy，但 mypy 也完全能够对 Python 2 代码进行类型检查:只需传入–py2 标志。
 
-```
+```py
 $ mypy --py2 program.py
 ```
 
 **Mypy 抛出的类型错误示例:**
 
-```
+```py
 # Python program to demonstrate
 # mypy 
 

@@ -8,7 +8,7 @@
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # Python program to print list
     # using for loop
     a = [1, 2, 3, 4, 5]
@@ -20,7 +20,7 @@
 
     输出:
 
-    ```
+    ```py
     1 2 3 4 5
 
     ```
@@ -29,7 +29,7 @@
 
     ## 计算机编程语言
 
-```
+```py
 # Python program to print list
 # without using loop
 

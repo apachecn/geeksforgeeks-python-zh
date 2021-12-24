@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import numpy as np
 import seaborn as sns
@@ -86,7 +86,7 @@ ax = sns.lineplot(x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import numpy as np
 import seaborn as sns
@@ -115,7 +115,7 @@ ax = sns.regplot(x, y, ci=80)
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import pandas
 import numpy

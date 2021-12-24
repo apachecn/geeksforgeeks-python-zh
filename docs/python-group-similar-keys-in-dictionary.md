@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的野蛮方式。在这种情况下，我们使用条件语句检查元素，并根据子串的存在插入键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Similar keys in dictionary
 # Using loop

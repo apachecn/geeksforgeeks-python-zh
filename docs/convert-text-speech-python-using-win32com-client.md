@@ -5,7 +5,7 @@
 在 python 中，有几种 API 可以将文本转换为语音。python 库中可用的 API 之一，通常称为 win32com 库。它提供了一系列令人兴奋的方法，其中之一就是库的调度方法。调度方法当通过 **SAPI 的论证。SpVoice** 它与微软语音 SDK 交互，说出你从键盘输入的内容。
 例子:
 
-```
+```py
 Input : Hello World
 Output : 
 <source type="audio/mpeg" src="https://media.geeksforgeeks.org/wp-content/uploads/hello-world.m4a?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/hello-world.m4a](https://media.geeksforgeeks.org/wp-content/uploads/hello-world.m4a)
@@ -18,14 +18,14 @@ Output : <source type="audio/mpeg" src="https://media.geeksforgeeks.org/wp-conte
 **安装**
 要安装 win32com.client 模块，打开终端并写入
 
-```
+```py
 pip install pypiwin32
 
 ```
 
 这在 Windows 平台上有效。现在我们都准备编写一个将文本转换为语音的示例程序。
 
-```
+```py
 # Python program to convert
 # text to speech
 
@@ -49,13 +49,13 @@ while 1:
 
 输入:
 
-```
+```py
  Welcome to geeks for geeks
 ```
 
 输出:
 
-```
+```py
 <source type="audio/mpeg" src="https://media.geeksforgeeks.org/wp-content/uploads/audio.m4a?_=3">[https://media.geeksforgeeks.org/wp-content/uploads/audio.m4a](https://media.geeksforgeeks.org/wp-content/uploads/audio.m4a)
 
 ```

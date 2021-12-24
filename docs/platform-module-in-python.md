@@ -9,13 +9,13 @@
 
 可以使用以下语法导入它:
 
-```
+```py
 import platform
 ```
 
 **示例 1:显示平台处理器**
 
-```
+```py
 # Python program to display platform processor
 
 # import module
@@ -37,7 +37,7 @@ print('Platform processor:', platform.processor())
 
 **示例 2:展示平台架构**
 
-```
+```py
 # Python program to display platform architecture
 
 # import module
@@ -57,7 +57,7 @@ print('Platform architecture:', platform.architecture())
 
 **例 3:显示机器类型**
 
-```
+```py
 # Python program to display machine type
 
 # import module
@@ -77,7 +77,7 @@ print('Machine type:', platform.machine())
 
 **示例 4:显示系统网络名称**
 
-```
+```py
 # Python program to display the 
 # system's network name
 
@@ -98,7 +98,7 @@ print('System's network name:', platform.node())
 
 **例 5:显示平台信息**
 
-```
+```py
 # Python program to display platform information
 
 # import module
@@ -116,13 +116,13 @@ print('Platform information:', platform.platform())
 
 这个函数返回一个显示平台处理器信息的字符串，基本上是系统处理器的真实名称
 
-```
+```py
 Note: Many platforms do not provide this information. eg-NetBSD
 ```
 
 **示例 6:显示平台处理器**
 
-```
+```py
 # Python program to display platform 
 # processor name
 
@@ -143,7 +143,7 @@ print('Platform processor:', platform.platform())
 
 **示例 7:显示操作系统名称**
 
-```
+```py
 # Python program to display OS name
 
 # import module
@@ -163,7 +163,7 @@ print('Operating system:', platform.system())
 
 **示例 8:显示系统信息**
 
-```
+```py
 # Python program to display System info
 
 # import module
@@ -185,7 +185,7 @@ print('System info:', platform.system())
 
 **示例 9:显示 python 构建日期和编号**
 
-```
+```py
 # Python program to display python
 # build date and no.
 
@@ -206,7 +206,7 @@ print('Python build no. and date:', platform.python_build())
 
 **示例 10:显示 python 编译器信息**
 
-```
+```py
 # Python program to display python compiler info
 
 # import module
@@ -226,7 +226,7 @@ print('Python compiler:', platform.python_compiler())
 
 **示例 11:显示 python 配置管理信息**
 
-```
+```py
 # Python program to display python SCM info
 
 # import module
@@ -244,7 +244,7 @@ print('Python SCM:', platform.python_compiler())
 
 **示例 12:显示 python 实现**
 
-```
+```py
 # Python program to display python implementation
 
 # import module
@@ -262,13 +262,13 @@ print('Python implementation:', platform.python_implementation())
 
 该函数返回一个字符串，显示系统上当前运行的 Python 版本。python 版本以以下方式返回:
 
-```
+```py
 'major.minor.patchlevel'
 ```
 
 **示例 13:显示 python 版本**
 
-```
+```py
 # Python program to display python version
 
 # import module
@@ -290,13 +290,13 @@ print('Python version:', platform.python_version())
 
 该函数返回一个元组，其中包含关于 Mac OS 的信息，如版本、版本、机器。输出方式如下:
 
-```
+```py
 (release, versioninfo, machine)
 ```
 
 在这个**版本中**本身是一个以如下方式存储信息的元组:
 
-```
+```py
 (version, dev_stage, non_release_version)
 ```
 
@@ -306,7 +306,7 @@ print('Python version:', platform.python_version())
 
 这个函数返回一个存储诸如库和 Unix 操作系统版本等信息的元组。输出方式如下:
 
-```
+```py
 (lib, version)
 ```
 
@@ -316,7 +316,7 @@ print('Python version:', platform.python_version())
 
 此函数返回一个元组，其中包含有关 Windows 操作系统的附加信息，如操作系统版本、版本号、服务包、操作系统类型(单/多处理器)。输出格式如下:
 
-```
+```py
 (release, version, csd, ptype)
 ```
 

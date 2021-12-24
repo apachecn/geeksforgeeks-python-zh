@@ -6,7 +6,7 @@
 
 在 Python 中，如果我们写类似下面这样的东西，它会引发`SyntaxError`。
 
-```
+```py
 # Incorrect empty class in 
 # Python
 
@@ -15,7 +15,7 @@ class Geeks:
 
 **输出:**
 
-```
+```py
   File "gfg.py", line 5
 
                 ^
@@ -27,7 +27,7 @@ SyntaxError: unexpected EOF while parsing
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # empty class
 
@@ -42,14 +42,14 @@ print(obj)
 
 **输出:**
 
-```
+```py
 <__main__.geeks object="" at="">
 
 ```
 
 Python 还允许我们设置空类对象的属性。我们还可以为不同的对象设置不同的属性。为了更好的理解，请看下面的例子。
 
-```
+```py
 # Python program to demonstrate
 # empty class
 
@@ -85,7 +85,7 @@ print("Phone:", obj2.phone)
 
 **输出:**
 
-```
+```py
 obj1 Details:
 Name: Nikhil
 Office: GeeksforGeeks
@@ -97,7 +97,7 @@ Phone: 1234567889
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "gfg.py", line 34, in print("Phone:", obj1.phone)
 AttributeError: 'Employee' object has no attribute 'phone' 

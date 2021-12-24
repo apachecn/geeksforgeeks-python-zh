@@ -19,7 +19,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 ALTER TABLE person
 ADD salary int(20);
 UPDATE persons SET salary = '145000' where Emp_Id=12;
@@ -31,7 +31,7 @@ UPDATE persons SET salary = '145000' where Emp_Id=12;
 
 **步骤 1:** 使用 alter 命令创建一个新列。
 
-```
+```py
 ALTER TABLE table_name ADD column_name datatype;
 ```
 
@@ -45,7 +45,7 @@ ALTER TABLE table_name ADD column_name datatype;
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 

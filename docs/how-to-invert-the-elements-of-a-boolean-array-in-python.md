@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a1 = ((0, 1, 0, 1))
 a = list(a1)
 
@@ -35,7 +35,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [1, 0, 1, 0]
 ```
 
@@ -45,7 +45,7 @@ print(a)
 
 **语法:**
 
-```
+```py
 np.invert(boolean[] a)
 ```
 
@@ -53,7 +53,7 @@ np.invert(boolean[] a)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 a = np.array((True, True, False, True, False))
@@ -63,7 +63,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 [False False  True False  True]
 ```
 
@@ -77,7 +77,7 @@ print(b)
 
 ## 蟒蛇 3
 
-```
+```py
 a1 = ((0, 1, 0, 1))
 a = list(a1)
 
@@ -90,6 +90,6 @@ print(a)
 
 **输出:**
 
-```
+```py
 [-1, -2, -1, -2]
 ```

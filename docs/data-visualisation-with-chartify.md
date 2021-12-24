@@ -8,7 +8,7 @@ Chartify 是来自 Spotify 的开源数据可视化库，可以让数据分析�
 
 安装最新版本的 Chartify 和 Pandas。要安装这些模块，请在终端中键入以下命令。
 
-```
+```py
 pip install chartify
 pip install pandas
 
@@ -18,7 +18,7 @@ pip install pandas
 
 ## 蟒蛇 3
 
-```
+```py
 import chartify
 import pandas as pd
 ```
@@ -27,7 +27,7 @@ Chartify 让任何人都可以非常容易地启动。下面的代码有助于�
 
 ## 蟒蛇 3
 
-```
+```py
 ch = chartify.Chart()
 ch.show()
 ```
@@ -40,7 +40,7 @@ ch.show()
 
 ## 蟒蛇 3
 
-```
+```py
 data = chartify.examples.example_data()
 data.head()
 ```
@@ -53,6 +53,6 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 ch = chartify.Chart(x_axis_type='datetime')
 ```

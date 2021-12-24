@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`create_saved_search()`** 方法用于为认证用
 
 **示例 1 :** 创建保存的搜索查询。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print(len(api.saved_searches()))
 
 **输出:**
 
-```
+```py
 The number of saved searches before create_saved_search() : 3
 The number of saved searches after create_saved_search() : 4
 
@@ -60,7 +60,7 @@ The number of saved searches after create_saved_search() : 4
 
 **示例 2 :** 获取新创建的已保存搜索。
 
-```
+```py
 # query of the new saved search
 query = "News"
 
@@ -75,7 +75,7 @@ print("The query of the saved search is : " + saved_search.query)
 
 **输出:**
 
-```
+```py
 The saved search 1269510986496569349 was created on : 2020-06-07 06:06:20
 The query of the saved search is : News
 

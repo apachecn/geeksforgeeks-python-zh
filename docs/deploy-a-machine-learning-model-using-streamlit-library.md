@@ -23,7 +23,7 @@
 
 **代码:**
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -37,7 +37,7 @@ df.head()
 
 **代码:**
 
-```
+```py
 # Dropping the Id column
 df.drop('Id', axis = 1, inplace = True)
 
@@ -71,7 +71,7 @@ score = accuracy_score(y_test, y_pred)
 
 **代码:**
 
-```
+```py
 # pickling the model
 import pickle
 pickle_out = open("classifier.pkl", "wb")
@@ -84,7 +84,7 @@ pickle_out.close()
 将下面的代码粘贴到另一个 python 文件中。
 **代号:**
 
-```
+```py
 import pandas as pd
 import numpy as np
 import pickle

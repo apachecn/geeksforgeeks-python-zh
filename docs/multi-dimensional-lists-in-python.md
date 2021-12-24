@@ -8,7 +8,7 @@ Python 中[列表可以有多个额外维度。请记住，一个列表可以容
 
 **进场 1:**
 
-```
+```py
 # Python program to demonstrate printing
 # of complete multidimensional list
 a = [[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]
@@ -17,7 +17,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]
 
 ```

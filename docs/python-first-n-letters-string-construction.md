@@ -7,7 +7,7 @@
 **方法一:使用`join()` +列表理解**
 该任务可以结合以上功能执行。连接函数可用于连接字符串，列表理解可执行添加 N 个数字的逻辑任务。
 
-```
+```py
 # Python3 code to demonstrate
 # First N letters string construction
 # using join() + list comprehension
@@ -25,7 +25,7 @@ print("The string after construction : " + str(res))
 
 **Output :**
 
-```
+```py
 The string after construction : abcdefghijklmno
 
 ```

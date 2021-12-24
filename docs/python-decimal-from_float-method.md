@@ -12,7 +12,7 @@
 
 **代码# 1:from _ float()方法示例**
 
-```
+```py
 # Python Program explaining 
 # from_float() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with from_float() method : ", b.from_float(float('nan')))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with from_float() method :  NaN
 
 **代码# 2:from _ float()方法示例**
 
-```
+```py
 # Python Program explaining 
 # from_float() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with from_float() method : ", b.from_float(float('-inf')))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

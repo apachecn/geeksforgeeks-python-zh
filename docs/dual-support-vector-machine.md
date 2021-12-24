@@ -107,7 +107,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import matplotlib.pyplot as plt
@@ -164,7 +164,7 @@ for i, clf in enumerate((svc, lin_svc,rbf_svc, poly_svc )):
 plt.show()
 ```
 
-```
+```py
 ((569, 2), (569,))
 ```
 

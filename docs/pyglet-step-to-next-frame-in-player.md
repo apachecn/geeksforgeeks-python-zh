@@ -6,7 +6,7 @@
 
 我们可以借助下面给出的命令创建一个窗口和播放器对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ player = pyglet.media.Player()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 
@@ -118,6 +118,6 @@ pyglet.app.run()
 
 <video class="wp-video-shortcode" id="video-487125-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200915224147/Geeksforgeeks-2020-09-15-22-41-01.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200915224147/Geeksforgeeks-2020-09-15-22-41-01.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200915224147/Geeksforgeeks-2020-09-15-22-41-01.mp4)</video>
 
-```
+```py
 Seeking Next Frame
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All substrings Frequency in String
 # Using loop + list comprehension
@@ -47,7 +47,7 @@ print("Extracted frequency dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : abababa
 Extracted frequency dictionary : {'a': 4, 'ab': 3, 'aba': 3, 'abab': 2, 'ababa': 2, 'ababab': 1, 'abababa': 1, 'b': 3, 'ba': 3, 'bab': 2, 'baba': 2, 'babab': 1, 'bababa': 1}
 
@@ -59,7 +59,7 @@ Extracted frequency dictionary : {'a': 4, 'ab': 3, 'aba': 3, 'abab': 2, 'ababa':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All substrings Frequency in String
 # Using list comprehension
@@ -81,7 +81,7 @@ print("Extracted frequency dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : abababa
 Extracted frequency dictionary : {'a': 4, 'ab': 3, 'aba': 3, 'abab': 2, 'ababa': 2, 'ababab': 1, 'abababa': 1, 'b': 3, 'ba': 3, 'bab': 2, 'baba': 2, 'babab': 1, 'bababa': 1}
 

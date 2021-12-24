@@ -15,7 +15,7 @@
 **方法:使用`sort()` +比较器按键功能**
 可以使用通用排序()执行该任务。真正的算法在于传递给它的比较器函数。适当返回值的赋值及其顺序被用来解决这个问题。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Pool Sorting
 # Using sort() + comparator key function
@@ -49,7 +49,7 @@ print("List after sorting : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 4, 2, 9, 10]
 List after sorting : [6, 3, 4, 10, 5, 7, 2, 9]
 

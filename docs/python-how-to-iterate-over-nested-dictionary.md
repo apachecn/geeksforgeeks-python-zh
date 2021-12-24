@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```py
 for i in dictionary_name:
      print(dictionary_name[i])
 ```
@@ -32,7 +32,7 @@ for i in dictionary_name:
 
 ## 蟒蛇 3
 
-```
+```py
 # create a nested dictionary with 3 
 # fields of 3 students
 data = {
@@ -51,7 +51,7 @@ for i in data:
 
 **输出:**
 
-```
+```py
 {'Name': 'Bobby', 'Id': 1, 'Age': 20}
 {'Name': 'ojaswi', 'Id': 2, 'Age': 22}
 {'Name': 'rohith', 'Id': 3, 'Age': 20}
@@ -63,7 +63,7 @@ for i in data:
 
 **语法:**
 
-```
+```py
 data[i].keys()
 ```
 
@@ -71,7 +71,7 @@ data[i].keys()
 
 ## 蟒蛇 3
 
-```
+```py
 # create a nested dictionary with 3 fields of 3 students
 data = {
     'Student 1': {'Name': 'Bobby', 'Id': 1, "Age": 20},
@@ -87,7 +87,7 @@ for i in data:
 
 **输出:**
 
-```
+```py
 dict_values(['Bobby', 1, 20])
 dict_values(['ojaswi', 2, 22])
 dict_values(['rohith', 3, 20])
@@ -97,7 +97,7 @@ dict_values(['rohith', 3, 20])
 
 **语法:**
 
-```
+```py
 data[i].values()
 ```
 
@@ -105,7 +105,7 @@ data[i].values()
 
 ## 蟒蛇 3
 
-```
+```py
 # create a nested dictionary with 3 fields of 3 students
 data = {
     'Student 1': {'Name': 'Bobby', 'Id': 1, "Age": 20},
@@ -121,7 +121,7 @@ for i in data:
 
 **输出:**
 
-```
+```py
 dict_values(['Bobby', 1, 20])
 dict_values(['ojaswi', 2, 22])
 dict_values(['rohith', 3, 20])

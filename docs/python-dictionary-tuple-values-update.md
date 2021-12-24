@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Tuple values update
 # Using generator expression + dictionary comprehension
@@ -45,7 +45,7 @@ print("The edited tuple values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'Gfg': (5, 6), 'is': (7, 8), 'best': (10, 11)}
 The edited tuple values : {'Gfg': (15, 18), 'is': (21, 24), 'best': (30, 33)}
 ```
@@ -55,7 +55,7 @@ The edited tuple values : {'Gfg': (15, 18), 'is': (21, 24), 'best': (30, 33)}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Tuple values update
 # Using map() + lambda() + dict()
@@ -81,7 +81,7 @@ print("The edited tuple values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'Gfg': (5, 6), 'is': (7, 8), 'best': (10, 11)}
 The edited tuple values : {'Gfg': (15, 18), 'is': (21, 24), 'best': (30, 33)}
 ```

@@ -64,7 +64,7 @@ Rastrigin 函数是一个非凸函数，经常被用作优化算法的性能测�
 
 ## 蟒蛇 3
 
-```
+```py
 # python implementation of Teaching learning based optimization (TLBO)
 # minimizing rastrigin and sphere function
 
@@ -293,7 +293,7 @@ print("\nEnd TLBO for sphere function\n")
 
 ## 输出
 
-```
+```py
 Begin  teaching learning based optimization on rastrigin function
 
 Goal is to minimize Rastrigin's function in 3 variables

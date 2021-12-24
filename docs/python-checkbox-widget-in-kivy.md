@@ -11,13 +11,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。 [Kivy](https://www.geeksforg
 
 要使用**复选框**，首先必须从包含滑块所有功能的模块中导入**复选框**，即
 
-```
+```py
  from kivy.uix.checkbox import CheckBox 
 ```
 
 **创建滑块时要遵循的基本方法:**
 
-```
+```py
 1) import kivy
 2) import kivy App
 3) import gridlayout
@@ -35,7 +35,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。 [Kivy](https://www.geeksforg
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to learn how to make checkbox in kivy
 
 # import kivy module
@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to learn how to make checkbox
 # and adding callback in kivy
 

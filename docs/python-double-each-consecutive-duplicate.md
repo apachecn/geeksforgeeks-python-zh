@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是用蛮力的方式来执行这个任务。在这种情况下，我们迭代每个元素，当我们发现重复时，我们存储在字典中，并随后执行它的加倍。
 
-```
+```py
 # Python3 code to demonstrate 
 # Double each consecutive duplicate
 # using loop
@@ -32,7 +32,7 @@ print ("The list after manipulation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 4, 2, 4, 1, 2]
 The list after manipulation is : [1, 2, 4, 4, 8, 2, 6]
 

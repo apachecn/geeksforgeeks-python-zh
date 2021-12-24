@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Differential Sort String Numbers and Alphabets
 # Using isnumeric() + loop
@@ -48,7 +48,7 @@ print("The Custom sorted result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['1', 'G', '7', 'L', '9', 'M', '4']
 The Custom sorted result : ['G', 'L', 'M', '1', '4', '7', '9']
 ```
@@ -59,7 +59,7 @@ The Custom sorted result : ['G', 'L', 'M', '1', '4', '7', '9']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Differential Sort String Numbers and Alphabets
 # Using sorted() + isnumeric()
@@ -80,7 +80,7 @@ print("The Custom sorted result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['100', 'G', '74', 'L', '98', 'M', '4']
 The Custom sorted result : ['G', 'L', 'M', '4', '74', '98', '100']
 ```

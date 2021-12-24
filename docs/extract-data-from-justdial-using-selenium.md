@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager

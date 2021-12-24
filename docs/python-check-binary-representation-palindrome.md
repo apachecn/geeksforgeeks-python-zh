@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 9
 Output : True
 Binary representation of n=9 is 1001 which 
@@ -26,7 +26,7 @@ is not palindrome.
 
 **<u>注:</u>** 我们可以用[的其他方法检查一个字符串是不是回文](https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/)。
 
-```
+```py
 # Function to check if binary representation of
 # a number is pallindrome or not
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 True
 
 ```

@@ -30,7 +30,7 @@ Python 有一个名为 DateTime 的内置模块，以多种方式处理日期和
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import date
 
 # You can create a date object containing
@@ -69,7 +69,7 @@ print("format4 =", format4)
 
 **输出:**
 
-```
+```py
 Current Day is : 23
 Current Month is : 3
 Current Year is : 2021
@@ -99,7 +99,7 @@ format4 = March 23, 2021
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import time
 
 # time() takes hour, minutes, second,
@@ -132,7 +132,7 @@ print("time_3 =", time3)
 
 输出:
 
-```
+```py
 default_hour = 0
 default_minute = 0
 default_second = 0
@@ -175,7 +175,7 @@ datetime.datetime()模块显示日期和时间的组合。
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # now() gives current date and time
@@ -239,7 +239,7 @@ print("timestamp =", manual.timestamp())
 
 输出:
 
-```
+```py
 2021-03-23 19:00:20.726833
 
 print each term individually
@@ -270,7 +270,7 @@ timestamp = 1616955959.34238
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import timedelta, datetime
 
 present_date_with_time = datetime.now()
@@ -372,7 +372,7 @@ tzinfo 基类有以下四种方法可用:
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 from datetime import datetime, timedelta
 from pytz import timezone
@@ -411,7 +411,7 @@ print(time_zone.tzname(ambiguous, is_dst=False))
 
 **Output**
 
-```
+```py
 Operations on normal datetime
 5:30:00
 0:00:00
@@ -431,7 +431,7 @@ IST
 
 输出:
 
-```
+```py
 Operations on normal datetime
 5:30:00
 0:00:00
@@ -457,7 +457,7 @@ IST
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime, timedelta
 from pytz import timezone
 import pytz
@@ -499,7 +499,7 @@ print(after_dt.strftime(time_format))
 
 输出:
 
-```
+```py
 UTC
 Asia/Calcutta
 US/Eastern
@@ -545,7 +545,7 @@ US/Eastern
 
 ## 蟒蛇 3
 
-```
+```py
 # import time
 import time
 
@@ -555,7 +555,7 @@ print(time.time())
 
 输出:
 
-```
+```py
 1616692391.3081982
 ```
 
@@ -569,7 +569,7 @@ ctime()方法将自纪元以来以秒表示的时间转换为表示本地时间�
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 number_of_seconds=1625925769.9618232
@@ -581,7 +581,7 @@ print(time.ctime(number_of_seconds))
 
 Output
 
-```
+```py
 Sat Jul 10 14:02:49 2021
 ```
 
@@ -597,7 +597,7 @@ Python time 方法 sleep()在给定的秒数内停止执行。数字的浮点数
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 # prints GEEKSFORGEEKS immediately
@@ -612,7 +612,7 @@ print("GEEKSFORGEEKS")
 
 Output
 
-```
+```py
 GEEKSFORGEEKS
 GEEKSFORGEEKS
 ```
@@ -627,7 +627,7 @@ localtime()方法将秒数转换为本地时间。如果未提供秒或无，则
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 # returns a time.struct_time
@@ -649,7 +649,7 @@ gmtime()方法将自 Epoch 以来以秒表示的时间转换为以 UTC 表示的
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import time
 # returns a time.struct_time object with a named tuple interface
@@ -672,7 +672,7 @@ print(time.gmtime())
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import time
 
@@ -688,7 +688,7 @@ print ("asctime(localtime(secs)): %s" % time.asctime(time.localtime(d)))
 
 Output
 
-```
+```py
 time.mktime(t) : 1455531218.000000
 asctime(localtime(secs)): Mon Feb 15 10:13:38 2016
 ```
@@ -703,7 +703,7 @@ Python time 方法 as time()将表示由 gmtime()或 localtime()返回的时间�
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 # method returns 24-character string of
 # the following form − 'Mon March 15 23:21:05 2021'
@@ -714,6 +714,6 @@ print ("asctime : ",time.asctime(local_time))
 
 Output
 
-```
+```py
 asctime :  Tue Mar 16 06:02:42 2021
 ```

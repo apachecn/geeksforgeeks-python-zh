@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Check the versions of libraries
 
 # Python version
@@ -63,7 +63,7 @@ print('sklearn: {}'.format(sklearn.__version__))
 
 ## 蟒蛇 3
 
-```
+```py
 # Load libraries
 
 import pandas
@@ -92,7 +92,7 @@ from sklearn.svm import SVC
 
 ## 蟒蛇 3
 
-```
+```py
 url =
 "https://raw.githubusercontent.com / jbrownlee / Datasets / master / iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length',
@@ -116,12 +116,12 @@ dataset = pandas.read_csv(url, names = names)
 
 ## 蟒蛇 3
 
-```
+```py
 # shape
 print(dataset.shape)
 ```
 
-```
+```py
 (150, 5)
 ```
 
@@ -129,12 +129,12 @@ print(dataset.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # head
 print(dataset.head(20))
 ```
 
-```
+```py
     sepal-length  sepal-width  petal-length  petal-width        class
 0            5.1          3.5           1.4          0.2  Iris-setosa
 1            4.9          3.0           1.4          0.2  Iris-setosa
@@ -164,14 +164,14 @@ print(dataset.head(20))
 
 ## 蟒蛇 3
 
-```
+```py
 # descriptions
 print(dataset.describe())
 ```
 
 很明显，所有的数值都有相同的刻度(厘米)和相似的 0 到 8 厘米的范围。
 
-```
+```py
        sepal-length  sepal-width  petal-length  petal-width
 count    150.000000   150.000000    150.000000   150.000000
 mean       5.843333     3.054000      3.758667     1.198667
@@ -187,12 +187,12 @@ max        7.900000     4.400000      6.900000     2.500000
 
 ## 蟒蛇 3
 
-```
+```py
 # class distribution
 print(dataset.groupby('class').size())
 ```
 
-```
+```py
 class
 Iris-setosa        50
 Iris-versicolor    50
@@ -213,7 +213,7 @@ Iris-virginica     50
 
 ## 蟒蛇 3
 
-```
+```py
 # box and whisker plots
 dataset.plot(kind ='box', subplots = True,
              layout =(2, 2), sharex = False, sharey = False)
@@ -226,7 +226,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # histograms
 dataset.hist()
 plt.show()
@@ -243,7 +243,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # scatter plot matrix
 scatter_matrix(dataset)
 plt.show()

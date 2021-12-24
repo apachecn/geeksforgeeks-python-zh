@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中刷新文件索引。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。为了加载一个文件即资源，我们使用 pyglet 的资源模块。该模块允许应用程序指定资源的搜索路径。相对路径被认为是相对于应用程序的 __main__ 模块的。如果路径改变或文件系统布局改变，必须刷新文件索引。
 我们可以借助下面给出的命令创建一个窗口对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 ```
@@ -19,7 +19,7 @@ window = pyglet.window.Window(width, height, title)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key as key

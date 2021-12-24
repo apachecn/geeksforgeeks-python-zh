@@ -6,7 +6,7 @@
 
 字节对象可以使用`**Py_BuildValue()**`作为
 
-```
+```py
 // Pointer to C string data
 char *s; 
 
@@ -19,13 +19,13 @@ PyObject *obj = Py_BuildValue("y#", s, len);
 
 要创建 Unicode 字符串，并且已知 s 指向编码为 UTF-8 的数据，下面给出的代码可以用作–
 
-```
+```py
 PyObject *obj = Py_BuildValue("s#", s, len);
 ```
 
 如果*的*是以其他已知的编码方式编码的，则使用`**PyUnicode_Decode()**`的字符串可以表示为:
 
-```
+```py
 PyObject *obj = PyUnicode_Decode(s, len, "encoding", "errors");
 
 // Example
@@ -35,7 +35,7 @@ obj = PyUnicode_Decode(s, len, "ascii", "ignore");
 
 如果需要将宽字符串表示为`wchar_t *, len`对。下面是几个选项–
 
-```
+```py
 // Wide character string
 wchar_t *w;
 

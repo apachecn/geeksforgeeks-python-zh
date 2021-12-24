@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `Counter() + set()`**
 可以使用上述功能的组合来实现该任务。在这种情况下，我们运行一个循环来捕获每个元组并添加到集合中，检查它是否已经存在，然后增加并添加一个计数器值。累计计数通过`Counter()`实现。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group and count similar records
 # using Counter() + loop + set()

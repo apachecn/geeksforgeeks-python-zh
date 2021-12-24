@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of fromkeys()
 
@@ -56,7 +56,7 @@ print("The newly created dict with 1 as value : " + str(res_dict2))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python 3 code to demonstrate
 # behaviour with mutable objects
 
@@ -111,7 +111,7 @@ print("The dict with list values after appending (no change) : "
 
 ## **蟒蛇 3**
 
-```
+```py
 x = ('key1', 'key2', 'key3')
 y = 0
 
@@ -122,7 +122,7 @@ print(d)
 
 ****输出:****
 
-```
+```py
 {'key1': 0, 'key2': 0, 'key3': 0}
 ```
 
@@ -130,7 +130,7 @@ print(d)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate
 # to initialize dictionary with list
 # using fromkeys()
@@ -144,6 +144,6 @@ print ("New dictionary with empty lists as keys : " + str(new_dict))
 
 ****输出:****
 
-```
+```py
 New dictionary with empty lists as keys : {0: [], 1: [], 2: [], 3: []}
 ```

@@ -17,7 +17,7 @@
 **方法#1:使用`sum()` +生成器表达式**
 以上功能的组合可以解决这个问题。在本文中，我们使用 sum()执行求和，并使用生成器表达式执行过滤任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Tuple Key Summation in Dictionary
 # Using sum() + generator expression
@@ -44,7 +44,7 @@ print("The grouped summation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {('a', 'b'): 14, ('c', 'a'): 16, ('a', 'c'): 67, ('b', 'a'): 17}
 The grouped summation : 81
 
@@ -53,7 +53,7 @@ The grouped summation : 81
 **方法 2:使用`sum() + map() + lambda`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 sum()执行求和任务，而 map() + lambda 用于执行检查条件的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Tuple Key Summation in Dictionary
 # Using sum() + map() + lambda
@@ -81,7 +81,7 @@ print("The grouped summation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {('a', 'b'): 14, ('c', 'a'): 16, ('a', 'c'): 67, ('b', 'a'): 17}
 The grouped summation : 81
 

@@ -20,7 +20,7 @@ Python 有两种类型的异常，即[内置异常](https://www.geeksforgeeks.or
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     b = float(100 + 50 / 0)
 except Exception as Argument:
@@ -29,7 +29,7 @@ except Exception as Argument:
 
 **输出:**
 
-```
+```py
 This is the Argument
  division by zero
 ```
@@ -38,7 +38,7 @@ This is the Argument
 
 ## 蟒蛇 3
 
-```
+```py
 my_string = "GeeksForGeeks"
 
 try:
@@ -49,7 +49,7 @@ except Exception as Argument:
 
 **输出:**
 
-```
+```py
 This is the Argument
  unsupported operand type(s) for /: 'str' and 'int'
 ```
@@ -61,7 +61,7 @@ This is the Argument
 
 ## 蟒蛇 3
 
-```
+```py
 # create user-defined exception 
 # derived from super class Exception
 class MyError(Exception):
@@ -84,7 +84,7 @@ except MyError as Argument:
 
 **输出:**
 
-```
+```py
 This is the Argument
  'Some Error Data'
 ```
@@ -93,7 +93,7 @@ This is the Argument
 
 ## 蟒蛇 3
 
-```
+```py
 # class Error is derived from super class Exception
 class Error(Exception):
 
@@ -119,6 +119,6 @@ except TransitionError as Argument:
 
 **输出:**
 
-```
+```py
 Exception occurred:  (2, 6, 'Not Allowed')
 ```

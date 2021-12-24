@@ -15,7 +15,7 @@ T3】*
 
 朗顿蚂蚁的 Python-3 代码如下:
 
-```
+```py
 # importing turtle module
 import turtle
 

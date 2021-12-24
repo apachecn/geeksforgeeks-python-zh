@@ -9,7 +9,7 @@
 **方法#1:天真的方法**
 使用循环，如果我们发现元素小于命名变量的前一个值并且大于 k，我们继续重新初始化命名变量
 
-```
+```py
 # Python3 code to demonstrate 
 # smallest number greater than K
 # using naive method 
@@ -37,7 +37,7 @@ print ("The minimum value greater than 6 is : " + str(min_val))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 7, 5, 10]
 The minimum value greater than 6 is : 7
 
@@ -46,7 +46,7 @@ The minimum value greater than 6 is : 7
 **方法 2:使用`min()` +生成器表达式**
 `min()`返回序列中的最小数，并将其与生成器表达式相耦合，可以更简洁地执行此任务，因此在需要节省时间时更有用。
 
-```
+```py
 # Python3 code to demonstrate 
 # smallest number greater than K
 # using min() + generator expression
@@ -71,7 +71,7 @@ print ("The minimum value greater than 6 is : " + str(min_val))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 7, 5, 10]
 The minimum value greater than 6 is : 7
 
@@ -80,7 +80,7 @@ The minimum value greater than 6 is : 7
 **方法#3 : `min() + filter()`**
 类似于上面的方法，只是为了过滤列表中大于 k 的数字，在这个方法中使用了`filter()` 代替生成器表达式。工作方式与上面类似。
 
-```
+```py
 # Python3 code to demonstrate 
 # smallest number greater than K
 # using min() + filter()
@@ -105,7 +105,7 @@ print ("The minimum value greater than 6 is : " + str(min_val))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 7, 5, 10]
 The minimum value greater than 6 is : 7
 
@@ -114,7 +114,7 @@ The minimum value greater than 6 is : 7
 **方法#4:利用`sort() + bisect_right()`**
 `bisect_right()`再加上`sort()`为我们执行二分搜索法的任务，也因此是实现这个问题解决的一个不错的选择。`bisect_right()` 因为它返回严格意义上更大的数字，而不是列表中存在的数字本身。
 
-```
+```py
 # Python3 code to demonstrate 
 # smallest number greater than K
 # using sort() + bisect_right()
@@ -141,7 +141,7 @@ print ("The minimum value greater than 6 is : " + str(min_val))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 7, 5, 10]
 The minimum value greater than 6 is : 7
 

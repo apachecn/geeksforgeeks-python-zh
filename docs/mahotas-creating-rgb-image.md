@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -53,7 +53,7 @@ show()
 
 另一个例子
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos

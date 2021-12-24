@@ -17,7 +17,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 使用 kivy 内置模块，从 kivy.clock 导入 Clock 使用 clock:
 > **就好了**
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -36,7 +36,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Code of How to create countdown using label only
 '''
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Code of How to create countdown using label only
 '''

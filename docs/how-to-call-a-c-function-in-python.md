@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```py
 int myFunction(int num)
 {
     if (num == 0)
@@ -23,7 +23,7 @@ int myFunction(int num)
 
 编译这个:
 
-```
+```py
 cc -fPIC -shared -o libfun.so function.c
 ```
 
@@ -34,7 +34,7 @@ cc -fPIC -shared -o libfun.so function.c
 
 ## 蟒蛇 3
 
-```
+```py
 import ctypes
 NUM = 16     
 # libfun loaded to the python file

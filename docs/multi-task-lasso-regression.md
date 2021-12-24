@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import linear model library
 from sklearn import linear_model
 
@@ -43,7 +43,7 @@ print("Number of Iterations: ", MTL.n_iter_, "\n")
 
 **输出:**
 
-```
+```py
 Prediction result: 
 [[0.8245348  3.04089134]] 
 

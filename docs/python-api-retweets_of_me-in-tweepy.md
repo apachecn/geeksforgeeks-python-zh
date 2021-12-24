@@ -22,7 +22,7 @@ Tweepy 模块中`API`类的 **`retweets_of_me()`** 方法用于获取已认证�
 
 **示例 1 :** 使用无任何参数的`retweets_of_me()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -49,14 +49,14 @@ print(str(len(statuses)) + " number of statuses have been retweeted.")
 
 **输出:**
 
-```
+```py
 20 number of statuses have been retweeted.
 
 ```
 
 **示例 2:** 使用带有计数参数的`retweets_of_me()`方法仅获取指定数量的转发。
 
-```
+```py
 # screen name of the account to be fetched
 screen_name = "geeksforgeeks"
 
@@ -71,7 +71,7 @@ print(str(len(statuses)) + " number of statuses have been retweeted.")
 
 **输出:**
 
-```
+```py
 3 number of statuses have been retweeted.
 
 ```

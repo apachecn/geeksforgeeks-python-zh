@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中裁剪图像。只需从数组中切下正确的部分即可轻松完成裁剪，这里数组是 numpy.ndarray.
 在本教程中，我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -15,7 +15,7 @@ mahotas.demos.load('luispedro')
 
 为了做到这一点，我们将采取的图像对象是 numpy.ndarray 和过滤它的帮助下，索引，下面是命令这样做
 
-```
+```py
 image = image[i1:i2, j1:j2]
 ```
 
@@ -23,7 +23,7 @@ image = image[i1:i2, j1:j2]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas
@@ -60,7 +60,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

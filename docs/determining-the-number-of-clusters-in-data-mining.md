@@ -6,7 +6,7 @@
 
 **我们来考虑两种情况:**
 
-```
+```py
 Case 1: Treat the entire dataset as one cluster
 Case 2: Treat each data point as a cluster
 ```
@@ -23,7 +23,7 @@ Case 2: Treat each data point as a cluster
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -36,7 +36,7 @@ from sklearn.cluster import KMeans
 
 ## 蟒蛇 3
 
-```
+```py
 # loading the dataset
 dataset = pd.read_csv('Mall_Customers.csv')
 
@@ -56,7 +56,7 @@ print(dataset.head(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # printing the shape of dataset
 print(dataset.shape)
 
@@ -77,7 +77,7 @@ print(dataset.isnull().sum())
 
 ## 蟒蛇 3
 
-```
+```py
 # extracting values from two 
 # columns for clustering
 dataset_new = dataset[['Annual Income (k$)', 
@@ -88,7 +88,7 @@ dataset_new = dataset[['Annual Income (k$)', 
 
 ## 蟒蛇 3
 
-```
+```py
 # determining the maximum number of clusters 
 # using the simple method
 limit = int((dataset_new.shape[0]//2)**0.5)
@@ -129,7 +129,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 import numpy as np
@@ -144,7 +144,7 @@ from sklearn.metrics import silhouette_score
 
 ## 蟒蛇 3
 
-```
+```py
 # loading the dataset
 dataset = pd.read_csv('Mall_Customers.csv')
 
@@ -164,7 +164,7 @@ print(dataset.head(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # printing the shape of dataset
 print(dataset.shape)
 
@@ -185,7 +185,7 @@ print(dataset.isnull().sum())
 
 ## 蟒蛇 3
 
-```
+```py
 # extracting values from two 
 # columns for clustering
 dataset_new = dataset[['Annual Income (k$)', 
@@ -198,7 +198,7 @@ dataset_new = dataset[['Annual Income (k$)', 
 
 ## 蟒蛇 3
 
-```
+```py
 # determining the maximum number of clusters 
 # using the simple method
 limit = int((dataset_new.shape[0]//2)**0.5)
@@ -223,7 +223,7 @@ k = [2，..,10]
 
 ## 蟒蛇 3
 
-```
+```py
 # clustering the data using Kmeans
 # using k = 5
 model = KMeans(n_clusters=5)

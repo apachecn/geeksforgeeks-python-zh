@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Snake Case String to Camel Case
 # Using split() + join() + title() + generator expression
@@ -41,7 +41,7 @@ print("The camel case string is : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks_is_best
 The camel case string is : geeksforgeeksIsBest
 
@@ -53,7 +53,7 @@ The camel case string is : geeksforgeeksIsBest
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Snake Case String to Camel Case
 # Using split() + join() + title() + map()
@@ -77,7 +77,7 @@ print("The camel case string is : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks_is_best
 The camel case string is : geeksforgeeksIsBest
 

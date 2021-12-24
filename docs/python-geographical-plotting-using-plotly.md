@@ -10,13 +10,13 @@
 
 **命令安装程序:**
 
-```
+```py
 pip install plotly 
 ```
 
 下面是实现:
 
-```
+```py
 # Python program to plot 
 # geographical data using plotly
 

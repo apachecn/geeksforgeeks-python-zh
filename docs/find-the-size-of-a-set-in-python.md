@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 import sys
 
 # sample Sets
@@ -26,7 +26,7 @@ print("Size of Set3: " + str(sys.getsizeof(Set3)) + "bytes")
 
 输出:
 
-```
+```py
 Size of Set1: 736bytes
 Size of Set2: 736bytes
 Size of Set3: 224bytes
@@ -39,7 +39,7 @@ Size of Set3: 224bytes
 Python 还有一个内置的 __sizeof__()方法来确定对象的空间分配，而没有任何额外的垃圾值。它已在下面的示例中实现。
 **例 2:**
 
-```
+```py
 import sys
 
 # sample Sets
@@ -55,7 +55,7 @@ print("Size of Set3: " + str(Set3.__sizeof__()) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of Set1: 712bytes
 Size of Set2: 712bytes
 Size of Set3: 200bytes

@@ -8,7 +8,7 @@
 
 一维数组形成一个相似数据类型归属元素的向量。它包含一行元素，每一行都属于不同的列。一维数组的维数是[1×c]，其中 c 是列数。可以使用数组的相应索引来访问数组中的任何列。因为这个数组包含一行，所以打印数组相当于打印第一行。
 
-```
+```py
 array - retrieves the column at cth index (c+1 row)
 
 ```
@@ -17,7 +17,7 @@ array - retrieves the column at cth index (c+1 row)
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required package
 import numpy as np
 
@@ -39,7 +39,7 @@ print (arr1[length-1])
 
 **输出:**
 
-```
+```py
 Original Array -  
 ['Ram' 'Shyam' 'Sita']
 First Column
@@ -57,7 +57,7 @@ Sita
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required package
 import numpy as np
 
@@ -83,7 +83,7 @@ print(arr1[3:])
 
 **输出:**
 
-```
+```py
 First two columns
 [1 2]
 Columns in a range
@@ -99,7 +99,7 @@ Array till the end
 
 多维数组是堆叠在一起形成矩阵的一系列行。矩阵包含类似的元素，属于整数、字符和双数。它由维数[r x c]表示，其中 r 是行数，c 是列数。
 
-```
+```py
 matrix [r] - prints row at r index
 matrix[ : , c] - prints column at c index
 
@@ -109,7 +109,7 @@ matrix[ : , c] - prints column at c index
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required package
 import numpy as np
 
@@ -133,7 +133,7 @@ print(mat1[:, 2])
 
 **输出:**
 
-```
+```py
 Original matrix 
 [[1 2 3]
  [4 5 6]]
@@ -150,7 +150,7 @@ Column at 2nd index
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required package
 import numpy as np
 
@@ -176,7 +176,7 @@ print(mat1[1:3, 2:4])
 
 **输出:**
 
-```
+```py
 Original matrix 
 [[1 2 3 4]
  [4 5 6 8]

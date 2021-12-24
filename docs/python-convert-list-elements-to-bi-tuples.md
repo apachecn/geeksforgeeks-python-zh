@@ -8,7 +8,7 @@
 
 这个问题可以使用`zip()`来解决，该`zip()`可以使用`repeat()`来附加到每个具有确定编号的列表元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert list elements to bi-tuples
 # using zip() + repeat()
@@ -39,7 +39,7 @@ print("Tuple list after attaching element : " + str(res))
 **方法 2:使用`map()`+λ**
 这是可以执行该任务的另一种方式。在本文中，我们只是使用 map()将向列表元素添加元素的逻辑扩展到所有元素，方法是为它提供 lambda 函数来执行计算任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert list elements to bi-tuples
 # using map() + lambda

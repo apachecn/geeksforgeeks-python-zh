@@ -13,7 +13,7 @@
 **方法:使用`isinstance() + update() + extend()`**
 以上功能的组合可以用来执行此任务。在本例中，我们使用 isinstance()检查值的数据类型，并使用 update()执行字典更新，使用 extend()执行列表更新。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Multitype Values in Dictionary
 # Using isinstance() + update() + extend()

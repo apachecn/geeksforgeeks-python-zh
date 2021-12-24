@@ -8,7 +8,7 @@
 
 要使用 pyttsx3，我们必须首先安装 *espeak* 和 *ffmpeg* 。
 
-```
+```py
 sudo apt update
 sudo apt install espeak
 sudo apt install ffmpeg
@@ -16,13 +16,13 @@ sudo apt install ffmpeg
 
 另外，我们需要安装最新版本的 *pyttsx3*
 
-```
+```py
 python3 -m pip install pyttsx3
 ```
 
 我们可以通过导入模块来确认安装。
 
-```
+```py
 import pyttsx3
 ```
 
@@ -38,7 +38,7 @@ import pyttsx3
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required module
 import pyttsx3
 
@@ -67,7 +67,7 @@ engine.runAndWait()
 *   此方法将给定文件保存在路径中。但是，此模块处于开发状态，因此在某些操作系统中，卷和速率选项可能无法正常工作。
 *   我们必须把图书馆更新到最新版本。使用以下方法安装模块:
 
-```
+```py
 sudo apt install git
 python3 -m pip install git+https://github.com/nateshmbhat/pyttsx3
 ```
@@ -77,7 +77,7 @@ python3 -m pip install git+https://github.com/nateshmbhat/pyttsx3
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required module
 import pyttsx3
 

@@ -6,14 +6,14 @@
 
 让我们安装所有必需的模块–
 
-```
+```py
 pip3 install pillow
 pip3 install os-sys
 ```
 
 我们将解析文件夹中的所有图像，以便同时对它们进行更改/操作。
 
-```
+```py
 # Code to apply operations on all the images
 # present in a folder one by one
 # operations such as rotating, cropping, 

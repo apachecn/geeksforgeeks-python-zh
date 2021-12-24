@@ -9,13 +9,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 > **大小**:这是用于小部件的静态大小，有两个参数(即宽度、高度)。按钮的默认大小= (100，100)。
 > 
-> ```
+> ```py
 > Syntax: b1 = Button(size=(100, 100))
 > ```
 > 
 > **pos** :这是小部件的静态放置，用于给按钮定位，默认为(0，0)，屏幕左下角。
 > 
-> ```
+> ```py
 > Syntax : b1 = Button(pos=(100, 100))
 > ```
 > 
@@ -23,7 +23,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > button = Button(
 >    text='Hello world',
 >    size_hint=(.5, .25))
@@ -31,19 +31,19 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 
 > **pos_hint** :用于按钮的动态放置，并提供位置提示。我们最多可以定义 8 个键，也就是说，它采用字典形式的参数。
 > 
-> ```
+> ```py
 > pos_hint = {“x”:1, “y”:1, “left”:1, “right”:1, “center_x”:1, 
 >                  “center_y”:1, “top”:1, “bottom”:1(“top”:0)}
 > ```
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > button = Button(text='Hello world', size_hint=(.6, .6),
 >                pos_hint={'x':.2, 'y':.2})
 > ```
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -64,7 +64,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating the
 ## How to set button size and position in Kivy using .kv file
 
@@ -102,7 +102,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 #.kv file implementation of setting position and size of btn  
 <FloatLayout>:
 

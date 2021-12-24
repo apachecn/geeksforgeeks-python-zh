@@ -4,7 +4,7 @@
 
 **Decimal # number _ class():number _ class()**是一个 Decimal 类方法，返回 Decimal 值的类的指示。
 
-```
+```py
 Syntax:  Decimal.number_class()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  indication of the class of Decimal value.
 
 **代码# 1:number _ class()方法示例**
 
-```
+```py
 # Python Program explaining 
 # number_class() method
 
@@ -39,7 +39,7 @@ print ("Decimal b with number_class() method : ", b.number_class())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -50,7 +50,7 @@ Decimal b with number_class() method :  +Normal
 
 **代码# 2:number _ class()方法示例**
 
-```
+```py
 # Python Program explaining 
 # number_class() method
 
@@ -74,7 +74,7 @@ print ("Decimal b with number_class() method : ", b.number_class())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

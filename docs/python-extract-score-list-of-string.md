@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `ord()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用列表理解来执行元素迭代的任务，而 order()执行检查必须返回的列表索引的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Score list of String
 # using list comprehension + ord()

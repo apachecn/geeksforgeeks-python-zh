@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 for axis in fig.layout:
    if type(fig.layout[axis]) == go.layout.YAxis:
        fig.layout[axis].title.text = ''  
@@ -22,7 +22,7 @@ for axis in fig.layout:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -85,7 +85,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import plotly.express as px

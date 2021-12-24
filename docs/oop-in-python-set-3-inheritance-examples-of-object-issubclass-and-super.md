@@ -13,7 +13,7 @@
 
 下面是一个示例 Python 程序，展示了如何在 Python 中实现继承。
 
-```
+```py
 
 # A Python program to demonstrate inheritance 
 
@@ -52,7 +52,7 @@ print(emp.getName(), emp.isEmployee())
 
 **Output:**
 
-```
+```py
 ('Geek1', False)
 ('Geek2', True)
 
@@ -61,7 +61,7 @@ print(emp.getName(), emp.isEmployee())
 **如何检查一个类是否是另一个类的子类？**
 Python 提供了一个函数 issubclass()，直接告诉我们一个类是否是另一个类的子类。
 
-```
+```py
 # Python example to check if a class is
 # subclass of another
 
@@ -87,7 +87,7 @@ print(isinstance(d, Base))
 
 **Output:**
 
-```
+```py
 True
 False
 False
@@ -104,7 +104,7 @@ True
 **Python 支持多重继承吗？**
 与 Java 不同，与 C++一样，Python 支持多重继承。我们将所有父类指定为括号中的逗号分隔列表。
 
-```
+```py
 # Python example to show working of multiple 
 # inheritance
 class Base1(object):
@@ -135,7 +135,7 @@ ob.printStrs()
 
 **Output:**
 
-```
+```py
 Base1
 Base2
 Derived
@@ -147,7 +147,7 @@ Derived
 
 1.  **使用父类名**
 
-    ```
+    ```py
     # Python example to show that base
     # class members can be accessed in
     # derived class using base class name
@@ -176,7 +176,7 @@ Derived
 
     **输出:**
 
-    ```
+    ```py
     (10, 20)
 
     ```
@@ -184,7 +184,7 @@ Derived
 2.  **Using super()**
     We can also access parent class members using super.
 
-    ```
+    ```py
     # Python example to show that base
     # class members can be accessed in
     # derived class using super()
@@ -217,7 +217,7 @@ Derived
 
     **Output:**
 
-    ```
+    ```py
     (10, 20)
 
     ```
@@ -229,7 +229,7 @@ Derived
     **练习:**
     预测以下 Python 程序的输出
 
-    1.  ```
+    1.  ```py
 
         class X(object):
             def __init__(self, a):
@@ -255,14 +255,14 @@ Derived
 
         **输出:**
 
-        ```
+        ```py
         4
         8
         24
 
         ```
 
-    2.  ```
+    2.  ```py
         # Base or Super class
         class Person(object):
             def __init__(self, name):
@@ -296,7 +296,7 @@ Derived
 
         **输出:**
 
-        ```
+        ```py
         ('Geek1', True, 'E101')
 
         ```

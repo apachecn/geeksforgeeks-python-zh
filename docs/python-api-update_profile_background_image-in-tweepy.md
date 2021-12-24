@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`update_profile_background_image()`** 方法用于
 **例 1 :** 用下图更新背景图:
 ![](img/50692735c600db759193e021823288a6.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ api.update_profile_background_image(filename)
 
 **示例 2 :** 尝试上传 GIF、JPG 或 PNG 以外的文件将会创建一个异常。
 
-```
+```py
 # the file path
 filename = "sunflower-field.mp3"
 
@@ -60,7 +60,7 @@ api.update_profile_image(filename)
 
 **输出:**
 
-```
+```py
     raise TweepError('Invalid file type for image: %s' % file_type)
 tweepy.error.TweepError: Invalid file type for image: None
 

@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyspark
 from pyspark.sql.window import Window
 import pyspark
@@ -90,7 +90,7 @@ cume_dist()窗口函数用于获取窗口分区内的累积分布。它类似于
 
 ## 蟒蛇 3
 
-```
+```py
 # importing cume_dist()
 # from pyspark.sql.functions
 from pyspark.sql.functions import cume_dist
@@ -113,7 +113,7 @@ lag()函数用于根据函数中定义的偏移值访问前几行的数据。这
 
 ## 蟒蛇 3
 
-```
+```py
 # importing lag() from pyspark.sql.functions
 from pyspark.sql.functions import lag
 
@@ -133,7 +133,7 @@ lead()函数用于根据函数中定义的偏移值访问下一行数据。这�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing lead() from pyspark.sql.functions
 from pyspark.sql.functions import lead
 
@@ -155,7 +155,7 @@ df.withColumn("Lead", lead("salary", 2).over(windowPartition)) \
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyspark
 from pyspark.sql.window import Window
 import pyspark
@@ -210,7 +210,7 @@ row_number()函数用于为表中的每一行给出一个序号。让我们看�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing row_number() from pyspark.sql.functions
 from pyspark.sql.functions import row_number
 
@@ -231,7 +231,7 @@ rank 函数用于对窗口分区中指定的行进行排序。如果有联系，
 
 ## 蟒蛇 3
 
-```
+```py
 # importing rank() from pyspark.sql.functions
 from pyspark.sql.functions import rank
 
@@ -252,7 +252,7 @@ df2.withColumn("rank", rank().over(windowPartition)) \
 
 ## 蟒蛇 3
 
-```
+```py
 # importing percent_rank() from pyspark.sql.functions
 from pyspark.sql.functions import percent_rank
 
@@ -273,7 +273,7 @@ df2.withColumn("percent_rank",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing dense_rank() from pyspark.sql.functions
 from pyspark.sql.functions import dense_rank
 
@@ -298,7 +298,7 @@ df2.withColumn("dense_rank",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyspark
 import pyspark
 
@@ -346,7 +346,7 @@ df3.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing window from pyspark.sql.window
 from pyspark.sql.window import Window
 

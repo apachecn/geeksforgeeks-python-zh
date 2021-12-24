@@ -18,19 +18,19 @@
 
 sum()函数的语法如下。
 
-```
+```py
 sum(data-list condition)
 ```
 
 让我们举一个例子，我们有一个名为 myList 的列表，列表中有整数值。我们希望大于等于 40 的项目数。所以我们可以使用求和函数如下，
 
-```
+```py
 sum(mylist >= 40)
 ```
 
 对于使用两个条件，我们可以使用 AND( &)或 OR( |)来分隔这两个条件。
 
-```
+```py
 sum((myList) >= 40 & (myList <= 90)) # AND
 sum((myList) >= 40 | (myList <= 90)) # OR
 ```
@@ -41,7 +41,7 @@ sum((myList) >= 40 | (myList <= 90)) # OR
 
 ## 蟒 3
 
-```
+```py
 # create a dictionary
 my_data = {"views": [12, 13, 100, 80, 91],
            "likes": [3, 8, 23, 17, 56]}
@@ -56,7 +56,7 @@ my_df = pd.DataFrame(my_data)
 
 ## 蟒 3
 
-```
+```py
 import pandas as pd
 
 # Data

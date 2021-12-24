@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -34,7 +34,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的圆锥体，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * cone()
 ```
@@ -44,7 +44,7 @@ from vpython import * cone()
 
 **示例 2 :** 使用颜色、不透明度、光泽和发射率参数的圆锥体。
 
-```
+```py
 # import the module
 from vpython import * cone(color = vector(0, 1, 1), 
      opacity = 0.5, 
@@ -57,7 +57,7 @@ from vpython import * cone(color = vector(0, 1, 1), 
 
 **示例 3 :** 显示 2 个圆锥体以可视化位置、长度和半径属性。
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -77,7 +77,7 @@ cone(pos = vector(0.4, 0.2, 0.6), 
 
 **示例 4 :** 使用纹理、轴和向上参数的圆锥体。
 
-```
+```py
 # import the module
 from vpython import * cone(texture = textures.stucco,
      axis = vector(-1, 4, 0),

@@ -14,7 +14,7 @@ A `Gtk.HeaderBar`与水平`Gtk.Box`相同，它允许在开始或结束放置孩
 
 **示例:**
 
-```
+```py
 import gi
 # Since a system can have multiple versions
 # of GTK + installed, we want to make 

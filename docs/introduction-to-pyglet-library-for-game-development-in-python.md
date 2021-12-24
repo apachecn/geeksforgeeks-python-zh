@@ -16,13 +16,13 @@
 
 由于 pyglet 完全是用 Python 创建的，因此安装时不需要执行特殊任务。pyglet 可以通过多种方式安装，最基本的安装需要在终端中键入以下命令:
 
-```
+```py
 pip install pyglet
 ```
 
 **示例:**
 
-```
+```py
 import pyglet
 
 new_window = pyglet.window.Window()
@@ -51,19 +51,19 @@ pyglet.app.run()
 
 1.  通过导入库开始程序:
 
-    ```
+    ```py
      import pyglet 
     ```
 
 2.  使用默认构造函数，我们可以创建显示应用内容的窗口:
 
-    ```
+    ```py
      new_window = pyglet.window.Window() 
     ```
 
 3.  标签被创建来显示文本你好，世界！:
 
-    ```
+    ```py
     label = pyglet.text.Label('Hello, World !',
                               font_name ='Cooper',
                               font_size = 16,
@@ -76,7 +76,7 @@ pyglet.app.run()
 
 4.  `on_draw()`事件用于将其内容绘制到窗口上。pyglet 库提供了几种将事件处理程序附加到对象的方法；一个简单的方法是使用装饰器:
 
-    ```
+    ```py
     @new_window.event
     def on_draw():
         new_window.clear()
@@ -86,7 +86,7 @@ pyglet.app.run()
 
 5.  最后，为了运行应用程序，在源代码的末尾添加了下面一行:
 
-    ```
+    ```py
     pyglet.app.run()
 
     ```

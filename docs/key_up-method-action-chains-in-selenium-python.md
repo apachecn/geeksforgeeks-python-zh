@@ -7,7 +7,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 key_up(value, element=None)
 ```
 
@@ -19,7 +19,7 @@ args–
 **示例–**
 可以使用 key_up 方法作为动作链，如下所示。本示例在打开网页后单击 Ctrl+C，然后向上键方法释放按下的键。
 
-```
+```py
 ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
 ```
 
@@ -30,7 +30,7 @@ ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

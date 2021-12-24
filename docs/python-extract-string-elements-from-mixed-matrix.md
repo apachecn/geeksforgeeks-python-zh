@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract String elements from Mixed Matrix
 # Using list comprehension + isinstance()
@@ -38,7 +38,7 @@ print("The String instances : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 6, 3], ['Gfg', 3, 'is'], [9, 'best', 4]]
 The String instances : ['Gfg', 'is', 'best']
 
@@ -50,7 +50,7 @@ The String instances : ['Gfg', 'is', 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract String elements from Mixed Matrix
 # Using chain.from_iterables + list comprehension + isinstance()
@@ -72,7 +72,7 @@ print("The String instances : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 6, 3], ['Gfg', 3, 'is'], [9, 'best', 4]]
 The String instances : ['Gfg', 'is', 'best']
 

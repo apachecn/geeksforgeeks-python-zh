@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.infj constant
 
@@ -29,7 +29,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 infj
 ```
 
@@ -37,7 +37,7 @@ infj
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.infj constant
 
@@ -52,6 +52,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 infj
 ```

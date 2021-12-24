@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Suppose we have two matrices A and B.
 A = [[1,2],[3,4]]
 B = [[4,5],[6,7]]
@@ -25,7 +25,7 @@ A-B = [[-3,-3],[-3,-3]]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -47,7 +47,7 @@ print(np.add(A, B))
 
 **输出:**
 
-```
+```py
 Printing elements of first matrix
 [[1 2]
  [3 4]]
@@ -65,7 +65,7 @@ Addition of two matrix
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -87,7 +87,7 @@ print(np.subtract(A, B))
 
 **输出:**
 
-```
+```py
 Printing elements of first matrix
 [[1 2]
  [3 4]]

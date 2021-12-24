@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行这个特定任务的一种线性方式。在这种情况下，我们只需缩短一行中的循环任务，以生成所有可能的具有列表元素的元组对。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct Cartesian Product Tuple list
 # using list comprehension

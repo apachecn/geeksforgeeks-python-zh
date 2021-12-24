@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionaries
 # with student data
 data = [
@@ -28,7 +28,7 @@ data
 
 **输出:**
 
-```
+```py
 [{'name': 'sravan', 'subjects': ['java', 'python']},
  {'name': 'bobby', 'subjects': ['c/cpp', 'java']},
  {'name': 'ojsawi', 'subjects': ['iot', 'cloud']},
@@ -40,7 +40,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create an empty dictionary
 dictionary_of_list = {}
 
@@ -56,7 +56,7 @@ dictionary_of_list
 
 **输出:**
 
-```
+```py
 {'bobby': {'name': 'bobby', 'subjects': ['c/cpp', 'java']},
  'gnanesh': {'name': 'gnanesh', 'subjects': ['html', 'sql']},
  'ojsawi': {'name': 'ojsawi', 'subjects': ['iot', 'cloud']},
@@ -79,7 +79,7 @@ dictionary_of_list
 
 ## 蟒蛇 3
 
-```
+```py
 # consider the list of dictionary
 data = [{'manoj': 'java', 'bobby': 'python'},
         {'manoj': 'php', 'bobby': 'java'},
@@ -92,7 +92,7 @@ print({key: [i[key] for i in data] for key in data[0]})
 
 **输出:**
 
-```
+```py
 {'manoj': ['java', 'php', 'cloud'], 'bobby': ['python', 'java', 'big-data']}
 ```
 
@@ -112,7 +112,7 @@ print({key: [i[key] for i in data] for key in data[0]})
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 
@@ -136,7 +136,7 @@ Numpy 用于处理数组，我们可以通过使用键或索引来获取值
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy module
 import numpy as np
 
@@ -154,7 +154,7 @@ print(data['value1'])
 
 **输出:**
 
-```
+```py
 (10, 20)
 [10 50]
 ```

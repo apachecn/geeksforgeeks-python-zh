@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行这个特定任务最天真的方法，在这个方法中我们计算元组的所有可能索引的每个索引的平均值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Column Average in Record List
 # using list comprehension
@@ -31,7 +31,7 @@ print ("The position Average of tuples : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 6), (3, 4), (5, 8)]
 The position Average of tuples : [3.0, 6.0]
 

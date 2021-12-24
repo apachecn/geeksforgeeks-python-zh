@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # duck typing
 
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 21
 ```
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 **示例:**现在，让我们看看如何在任何其他情况下使用对象，直到它不被支持。
 
-```
+```py
 # Python program to demonstrate
 # duck typing
 
@@ -61,13 +61,13 @@ for obj in Bird(), Airplane(), Fish():
 
 **输出:**
 
-```
+```py
 fly with wings
 fly with fuel
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/854855e5570b9ce4a9e984209b6a1c21.py", line 20, in 
     obj.fly()

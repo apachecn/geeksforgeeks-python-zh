@@ -27,7 +27,7 @@ Python 提供了将文件或目录从一个位置移动到另一个位置的功�
 
 我们想把目录 B 移到目录 a，下面是实现。
 
-```
+```py
 # Python program to move
 # files and directories
 
@@ -59,7 +59,7 @@ dest = shutil.move(source, destination)
 
 **示例#2:** 现在假设我们要使用`shutil.copytree()`将上述目录 A 的所有子目录和文件移动到目录 G，并且目标目录不存在。下面是实现。
 
-```
+```py
 # Python program to move
 # files and directories
 

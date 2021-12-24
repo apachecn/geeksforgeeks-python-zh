@@ -48,7 +48,7 @@ AB = 0 —(等式 2)
 
 **代码:计算特征值和特征向量的 Python 代码**
 
-```
+```py
 # Python program to illustrate
 # connection between eigenvectors and nullspace
 
@@ -85,7 +85,7 @@ print(result)
 # This code is contributed by Amiya Rout
 ```
 
-```
+```py
 Output:
 Eigenvalue are : [0\. 1\. 2.]
 Eigenvectors are : 

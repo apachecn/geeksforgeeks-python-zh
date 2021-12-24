@@ -16,7 +16,7 @@
 
 **例 1 :**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -26,13 +26,13 @@ print(enchant.get_enchant_version())
 
 **输出:**
 
-```
+```py
 2.2.7
 ```
 
 **例 2 :** 附魔模块的版本也可以使用`help()`方法找到。
 
-```
+```py
 # import the enchant module
 import enchant
 

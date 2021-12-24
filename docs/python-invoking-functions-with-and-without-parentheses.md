@@ -17,7 +17,7 @@ Python 中的函数是执行特定任务的已定义代码块。在本节中，�
 
 下面的函数执行一个简单的任务，字符串连接。在这里，我们将调用带括号和不带括号的函数“concatenate_string ”,看看它们的区别。
 
-```
+```py
 def concatenate_string(*args):
     string1 = args[0]
     string2 = args[1]
@@ -35,7 +35,7 @@ print(obj)
 
 **输出**
 
-```
+```py
 Function call with Parentheses: 
 Hello, George
 Function call without Parentheses:
@@ -53,7 +53,7 @@ Function call without Parentheses:
 
 **带括号**
 
-```
+```py
 def concatenate_string(*args):
 
     string1 = args[0]
@@ -73,13 +73,13 @@ func()
 
 **输出**
 
-```
+```py
 Hello, George
 ```
 
 从上面的例子中，很明显`merge_string`是函数`concatenate_string`中的一个函数，主函数(`concatenate_string`)将子函数(`merge_string`)返回给调用者。
 
-```
+```py
  return merge_string(string1, string2) 
 ```
 
@@ -87,7 +87,7 @@ Hello, George
 
 **不带括号**
 
-```
+```py
 def concatenate_string():
 
     def merge_string(string1, string2):
@@ -109,7 +109,7 @@ func()
 
 **输出:**
 
-```
+```py
 <function concatenate_string..merge_string at 0x7f1e54ebc158>
 Hello, George
 
@@ -117,7 +117,7 @@ Hello, George
 
 由于使用的`merge_string`没有括号，`concatenate_string`将函数引用传递给可调用的`func`，而不是执行`merge_string`。
 
-```
+```py
 return merge_string
 ```
 
@@ -128,7 +128,7 @@ return merge_string
 
 您可以通过创建引用、调用不带括号的函数并将其作为参数来传递函数作为参数。让我们看看代码。
 
-```
+```py
 def concatenate_string(*args):
     string1 = args[0]
     string2 = args[1]
@@ -150,13 +150,13 @@ print(function_call(concatenate_string))  
 
 **输出:**
 
-```
+```py
 Hello, George
 ```
 
 在这种情况下，`concatenate_string`的引用作为参数传递给`function_call`。
 
-```
+```py
 function_call(concatenate_string)
 ```
 

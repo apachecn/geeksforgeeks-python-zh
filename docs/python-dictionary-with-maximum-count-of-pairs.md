@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary with maximum keys
 # Using loop + len()
@@ -46,7 +46,7 @@ print("Maximum keys Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [{'gfg': 2, 'best': 4}, {'gfg': 2, 'is': 3, 'best': 4}, {'gfg': 2}]
 Maximum keys Dictionary : {'gfg': 2, 'is': 3, 'best': 4}
 
@@ -58,7 +58,7 @@ Maximum keys Dictionary : {'gfg': 2, 'is': 3, 'best': 4}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary with maximum keys
 # Using max() + key = len
@@ -80,7 +80,7 @@ print("Maximum keys Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [{'gfg': 2, 'best': 4}, {'gfg': 2, 'is': 3, 'best': 4}, {'gfg': 2}]
 Maximum keys Dictionary : {'gfg': 2, 'is': 3, 'best': 4}
 

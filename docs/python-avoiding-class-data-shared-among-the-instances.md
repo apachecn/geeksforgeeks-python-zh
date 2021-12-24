@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # Python code to demonstrate
 # the working of the sharing
 # of data variables
@@ -33,7 +33,7 @@ print(y.geek)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4]
 [1, 2, 3, 4]
 ```

@@ -9,19 +9,19 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 要在 WebElement 上使用一个方法，首先我们需要在网页中找到它。在 Selenium Python 中，如何定位一个元素有多种方法。结账–[定位器策略–硒蟒](https://www.geeksforgeeks.org/locator-strategies-selenium-python/)。抓取元素后，可以根据以下语法使用方法–
 **语法–**
 
-```
+```py
 element.method_name
 ```
 
 **示例–**
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -29,13 +29,13 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 现在人们可以使用任何方法，如–
 
-```
+```py
 element.method_name
 ```
 

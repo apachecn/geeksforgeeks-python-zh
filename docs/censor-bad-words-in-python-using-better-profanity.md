@@ -6,7 +6,7 @@
 
 **安装**
 
-```
+```py
 pip install better_profanity
 ```
 
@@ -33,7 +33,7 @@ pip install better_profanity
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 from better_profanity import profanity
 
@@ -49,7 +49,7 @@ print(censored)
 
 **输出:**
 
-```
+```py
 What the **** are you doing?
 ```
 
@@ -57,7 +57,7 @@ What the **** are you doing?
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 from better_profanity import profanity
 
@@ -73,6 +73,6 @@ print(censored)
 
 **输出:**
 
-```
+```py
 What the $$ are you doing?
 ```

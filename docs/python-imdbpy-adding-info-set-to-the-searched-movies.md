@@ -14,7 +14,7 @@
 
 以下是实施–
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,13 +38,13 @@ print(movie['taglines'])
 
 **输出:**
 
-```
+```py
 ["Don't be Stupid. Be an I.D.I.O.T."]
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 

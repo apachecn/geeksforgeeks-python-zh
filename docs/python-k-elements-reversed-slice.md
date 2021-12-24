@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K elements Reversed Slice
 # Using list slicing 
@@ -42,7 +42,7 @@ print("The sliced list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [2, 4, 6, 8, 3, 9, 12, 15, 16, 18]
 The sliced list : [18, 16, 15, 12, 9, 3]
 
@@ -54,7 +54,7 @@ The sliced list : [18, 16, 15, 12, 9, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K elements Reversed Slice
 # Using K elements Reversed Slice
@@ -79,7 +79,7 @@ print("The sliced list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [2, 4, 6, 8, 3, 9, 12, 15, 16, 18]
 The sliced list : [18, 16, 15, 12, 9, 3]
 

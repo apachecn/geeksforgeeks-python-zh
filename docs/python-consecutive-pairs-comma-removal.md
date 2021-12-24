@@ -7,7 +7,7 @@
 **方法#1:使用`zip() + list comprehension + replace()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用 zip()连接列表，并使用 replace()执行删除逗号和连接的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Consecutive Pairs Duplication Removal
 # using list comprehension + zip() + replace()
@@ -30,7 +30,7 @@ print ("The combined list after consecutive comma removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 2, 3, 4, 5]
 The original list 2 is : [2, 3, 4, 5, 6]
 The combined list after consecutive comma removal : [(1, 2) (2, 3) (3, 4) (4, 5) (5, 6)]

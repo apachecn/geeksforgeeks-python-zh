@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # test suite
 import unittest
 

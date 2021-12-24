@@ -19,7 +19,7 @@ IIR 代表无限脉冲响应，它是许多线性时不变系统的显著特征�
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,7 +29,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # Create/view notch filter
 samp_freq = 1000  # Sample frequency (Hz)
 notch_freq = 50.0  # Frequency to be removed from signal (Hz)
@@ -40,7 +40,7 @@ quality_factor = 20.0  # Quality factor
 
 ## 蟒蛇 3
 
-```
+```py
 # Design a notch filter using signal.iirnotch
 b_notch, a_notch = signal.iirnotch(notch_freq, quality_factor, samp_freq)
 
@@ -52,7 +52,7 @@ freq, h = signal.freqz(b_notch, a_notch, fs=samp_freq)
 
 ## 蟒蛇 3
 
-```
+```py
 fig = plt.figure(figsize=(8, 6))
 
 # Plot magnitude response of the filter
@@ -73,7 +73,7 @@ plt.grid()
 
 ## 蟒蛇 3
 
-```
+```py
 # Create and view signal that is a mixture 
 # of two different frequencies
 f1 = 15  # Frequency of 1st signal in Hz
@@ -88,7 +88,7 @@ n = np.linspace(0, 1, 1000)
 
 ## 蟒蛇 3
 
-```
+```py
 # Generate the signal containing f1 and f2
 noisySignal = np.sin(2*np.pi*15*n) + np.sin(2*np.pi*50*n) + \
     np.random.normal(0, .1, 1000)*0.03
@@ -98,7 +98,7 @@ noisySignal = np.sin(2*np.pi*15*n) + np.sin(2*np.pi*50*n) + \
 
 ## 蟒蛇 3
 
-```
+```py
 # Plotting
 fig = plt.figure(figsize=(8, 6))
 plt.subplot(211)
@@ -116,7 +116,7 @@ plt.title('Noisy Signal', fontsize=20)
 
 ## 蟒蛇 3
 
-```
+```py
 # Apply notch filter to the noisy signal using signal.filtfilt
 outputSignal = signal.filtfilt(b_notch, a_notch, noisySignal)
 ```
@@ -125,7 +125,7 @@ outputSignal = signal.filtfilt(b_notch, a_notch, noisySignal)
 
 ## 蟒蛇 3
 
-```
+```py
 # Plot notch-filtered version of signal
 plt.subplot(212)
 
@@ -147,7 +147,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np

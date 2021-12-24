@@ -7,7 +7,7 @@
 **方法#1:使用*运算符**
 我们可以使用*运算符来乘以特定值的出现次数，因此可以用来在一行中多次执行添加值的任务，并使其可读。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add multiple similar values
 # using * operator
@@ -27,7 +27,7 @@ print ("The filtered list is : " + str(res))
 **方法 2:使用`extend()` +列表理解**
 扩展功能执行列表追加，列表理解部分负责执行元素所需次数的重复任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add multiple similar values
 # using extend() + list comprehension
@@ -48,7 +48,7 @@ print ("The filtered list is : " + str(res))
 **方法#3:使用`extend() + itertools.repeat()`**
 这类似于上面的方法，`extend()` 的任务类似，但是 `repeat()`执行迭代次数为 N 次的任务列表理解。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add multiple similar values
 # using extend() + itertools.repeat()

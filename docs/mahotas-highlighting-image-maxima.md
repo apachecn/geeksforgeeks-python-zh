@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中突出图像的最大值。最大值可以在距离图图像中找到，因为在标记图像中每个标记都是最大值，但是在距离图中最大值可以很容易地识别。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.nuclear_image()
 **注意:**的输入应该是过滤后的图像或者加载为灰色
 为了对图像进行过滤，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import mahotas
 import mahotas.demos
@@ -78,7 +78,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

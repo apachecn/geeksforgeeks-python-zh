@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Key's value from Mixed Dictionaries List
 # Using list comprehension
@@ -44,7 +44,7 @@ print("The extracted value : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'b': 7}, {'is': 5, 'a': 10}, {'Best': 9, 'c': 11}]
 The extracted value : 9
 ```
@@ -55,7 +55,7 @@ The extracted value : 9
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Key's value from Mixed Dictionaries List
 # Using update() + loop
@@ -83,7 +83,7 @@ print("The extracted value : " + str(res[K]))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'b': 7}, {'is': 5, 'a': 10}, {'Best': 9, 'c': 11}]
 The extracted value : 9
 ```

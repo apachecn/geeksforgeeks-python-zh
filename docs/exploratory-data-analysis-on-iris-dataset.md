@@ -24,7 +24,7 @@ Iris 数据集被认为是数据科学的 Hello World。它包含五列，即花
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Reading the CSV file
@@ -46,13 +46,13 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df.shape
 ```
 
 **输出:**
 
-```
+```py
 (150, 6)
 ```
 
@@ -64,7 +64,7 @@ df.shape
 
 ## 蟒蛇 3
 
-```
+```py
 df.info()
 ```
 
@@ -80,7 +80,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 df.describe()
 ```
 
@@ -98,6 +98,6 @@ df.describe()
 
 ## 蟒蛇 3
 
-```
+```py
 df.isnull().sum()
 ```

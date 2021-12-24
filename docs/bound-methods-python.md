@@ -6,7 +6,7 @@
 
 让我们用一个例子来理解这个概念:
 
-```
+```py
 # Python code to demonstrate
 # use of bound methods
 
@@ -25,14 +25,14 @@ print(obj.func)
 
 **输出:**
 
-```
+```py
 < bound method A.func of <__main__.A object at 0x7fb81c5a09e8>>
 
 ```
 
 这里，
 
-```
+```py
  obj.func(arg) is translated by python as A.func(obj, arg).
 ```
 
@@ -40,7 +40,7 @@ print(obj.func)
 
 让我们看另一个绑定方法的例子。
 
-```
+```py
 # Python code to demonstrate
 # use of bound methods
 
@@ -66,7 +66,7 @@ print(Car1.change_gears)
 
 **输出:**
 
-```
+```py
 Car1 gears before calling change_gears() =  5
 Gears after calling change_gears() =  6
 <bound method Car.change_gears of <class '__main__.Car'>>

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: String: "geeks for geeks makes learning fun" 
        Substring: "geeks" 
 Output: True 
@@ -24,7 +24,7 @@ Output: False
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -65,7 +65,7 @@ find(string, sample)
 
 **输出:**
 
-```
+```py
 string starts with the given substring
 string doesn't start with the given substring
 ```
@@ -77,7 +77,7 @@ string doesn't start with the given substring
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -118,7 +118,7 @@ find(string, sample)
 
 **输出:**
 
-```
+```py
 string starts with the given substring
 string doesn't start with the given substring
 ```

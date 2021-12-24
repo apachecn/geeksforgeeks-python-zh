@@ -10,7 +10,7 @@ Python 内置的 **fileinput** 模块使得这个非常简单简洁，如果脚�
 
 **代码#1 :**
 
-```
+```py
 import fileinput
 
 with fileinput.input() as f_input:
@@ -22,7 +22,7 @@ with fileinput.input() as f_input:
 
 **代码# 2:**
 
-```
+```py
 # Prints a directory listing to stdout.
 $ ls | ./filein.py 
 
@@ -37,14 +37,14 @@ $ ./filein.py < /etc/passwd 
 
 **代码#3 :**
 
-```
+```py
 import fileinput
 with fileinput.input('/etc/passwd') as f:
     for line in f:
         print(f.filename(), f.lineno(), line, end ='')
 ```
 
-```
+```py
 /etc/passwd1
 /etc/passwd2
 /etc/passwd3 

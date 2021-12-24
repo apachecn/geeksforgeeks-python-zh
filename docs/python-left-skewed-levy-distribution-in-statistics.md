@@ -17,7 +17,7 @@
 
 **代码#1:创建左偏斜 Levy 连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import levy_l  
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D6707508
 
@@ -39,7 +39,7 @@ RV :
 
  **代码#2:左偏李维连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.03, 2, 0.21) 
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  1.1073459342251062
 
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))  
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.08163265 0.16326531 0.24489796 0.32653061 0.40816327
  0.48979592 0.57142857 0.65306122 0.73469388 0.81632653 0.89795918
@@ -94,7 +94,7 @@ Distribution :
 ![](img/cc7ef139c9fbe62159122a57154eb077.png)
 **代码#4:不同的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

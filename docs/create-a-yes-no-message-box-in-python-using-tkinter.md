@@ -12,7 +12,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 1.  **Import tkinter module**
 
-    ```
+    ```py
     import tkinter as tk
     from tkinter import *
     ```
@@ -21,13 +21,13 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 2.  **导入 tkinter messagebox 构件**
 
-    ```
+    ```py
     from tkinter import messagebox as mb
     ```
 
 3.  **Create the method that is called to display the Yes/No Message Box**
 
-    ```
+    ```py
     def call():
         res=mb.askquestion('Exit Application', 'Do you really want to exit')
         if res == 'yes' :
@@ -40,7 +40,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
     **解释:**
     **句法:**
 
-    ```
+    ```py
     askquestion(title=None, message=None, **options) 
     ```
 
@@ -53,7 +53,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
     **语法:**
 
-    ```
+    ```py
     showinfo(title=None, message=None, **options)
     ```
 
@@ -64,7 +64,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
     **语法:**
 
-    ```
+    ```py
     destroy() 
     ```
 
@@ -72,7 +72,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 4.  **Create the canvas for the button will be placed**
 
-    ```
+    ```py
     root=tk.Tk()
     canvas=tk.Canvas(root, width=200, height=200)
     canvas.pack()
@@ -82,7 +82,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
     **解释:**
     **句法:**
 
-    ```
+    ```py
     Tk(screenName=None,  baseName=None,  className=’Tk’,  useTk=1)
     ```
 
@@ -90,7 +90,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
     **语法:**
 
-    ```
+    ```py
     Canvas(master, option=value)
     ```
 
@@ -103,7 +103,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
     **语法:**
 
-    ```
+    ```py
     pack(**options) 
     ```
 
@@ -111,7 +111,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 5.  **Create the button and place it inside the canvas**
 
-    ```
+    ```py
     b=Button(root, text='Quit Application', command=call)
     canvas.create_window(100, 100, window=b)
 
@@ -120,7 +120,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
     **解释:**
     **句法:**
 
-    ```
+    ```py
     Button(master=None, options)
     ```
 
@@ -135,7 +135,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
     **语法:**
 
-    ```
+    ```py
     create_window(x, y, **options)
     ```
 
@@ -149,7 +149,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 6.  **Call the mainloop() method**
 
-    ```
+    ```py
     root.mainloop()
 
     ```
@@ -157,7 +157,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
     **解释:**
     **句法:**
 
-    ```
+    ```py
     mainloop()
     ```
 
@@ -165,7 +165,7 @@ Python 提供了许多图形用户界面(GUI)框架，但 Tk 界面或[Tinter](h
 
 **完整程序如下:**
 
-```
+```py
 # Python program to create 
 # yes/no message box
 

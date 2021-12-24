@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input:  arr1[] = [1, 3, 4, 5, 7]
         arr2[] = [2, 3, 5, 6]
 Output: Intersection : [3, 5]
@@ -15,7 +15,7 @@ Output: Intersection : [3, 5]
 
 这个问题我们已经有了解决方案，请参考[两个数组的交集](https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)链接。我们将在 python 中使用 [Lambda 表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)和 [filter()](https://www.geeksforgeeks.org/lambda-filter-python-examples/) 函数快速解决这个问题。
 
-```
+```py
 # Function to find intersection of two arrays
 
 def interSection(arr1,arr2):
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Intersection : [3, 5]
 
 ```

@@ -5,7 +5,7 @@
 HMAC 是一种使用加密散列函数的消息认证机制。HMAC 可以与任何迭代加密散列函数一起使用，例如 MD5，SHA-1，结合秘密共享密钥。
 该模块实现了 HMAC 算法。基本思想是结合共享密钥生成实际数据的加密散列。产生的散列随后可用于检查传输或存储的消息，以确定信任级别，而无需传输密钥。
 
-```
+```py
  hmac.new(key, msg=None, digestmod=None) 
 ```
 
@@ -26,7 +26,7 @@ HMAC 对象有以下方法:
 
 **示例:**
 
-```
+```py
 # Python 3 code to demonstrate the working of hmac module.
 
 import hmac
@@ -59,7 +59,7 @@ print ("Hexdigest of clone: " + digest_clone.hexdigest())
 
 **输出:**
 
-```
+```py
 Hexdigest: df2ae7cdb5c849001e33ee29eb1c51ba2cafbaa7
 Hexdigest after update: 3923273eb3aa9328478eb5aabf2d96e185256b4b
 Digest size: 20 bytes

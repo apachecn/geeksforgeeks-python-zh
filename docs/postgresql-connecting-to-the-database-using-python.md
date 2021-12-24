@@ -8,7 +8,7 @@ Python 的 PostgreSQL API 允许用户使用 **psycopg2 模块与 PostgreSQL 数
 
 首先，我们需要在命令提示符下使用下面的命令安装 psycopg2 模块:
 
-```
+```py
 pip install psycopg2
 
 ```
@@ -21,7 +21,7 @@ pip install psycopg2
 *   使用您的凭据第二次登录数据库。
 *   最后使用下面的命令创建一个数据库(比如学校)
 
-```
+```py
 CREATE DATABASE school;
 
 ```
@@ -32,7 +32,7 @@ CREATE DATABASE school;
 
 为此，请使用以下语法:
 
-```
+```py
 Syntax: conn = psycopg2.connect("dbname=suppliers user=postgres password=postgres")
 
 ```
@@ -41,7 +41,7 @@ Syntax: conn = psycopg2.connect("dbname=suppliers user=postgres password=postgre
 
 1.首先用如下所示的凭证创建一个 ***数据库文件*** :
 
-```
+```py
 [postgresql]
 host=localhost
 database=school
@@ -54,7 +54,7 @@ password=5555
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/python
 from configparser import ConfigParser
 
@@ -82,7 +82,7 @@ def config(filename='database.ini', section='postgresql'):
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/python
 import psycopg2
 from config import config

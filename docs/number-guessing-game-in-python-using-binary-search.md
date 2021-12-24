@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation for the
 # number guessing using
 # Binary Search
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 **Inputs:** 
 
-```
+```py
 N
 N
 Y
@@ -98,7 +98,7 @@ Y
 
 **Outputs:** 
 
-```
+```py
 Number Guessing game in python
 Guess a number in range (1 to 10)
 Is the number is  5 ? N

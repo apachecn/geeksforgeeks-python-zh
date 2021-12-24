@@ -40,7 +40,7 @@
 
 **代码:**
 
-```
+```py
 # Importing libraries
 
 import numpy as np
@@ -136,7 +136,7 @@ if __name__ == "__main__" : 
 
 **输出:**
 
-```
+```py
 Predicted values  [ 40831.44 122898.14  65078.42]
 Real values       [ 37731 122391  57081]
 Trained W         9325.76

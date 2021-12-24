@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `set()`**
 这个任务可以使用以上功能的组合来解决。在这种情况下，我们只需插入集合中的所有元素，然后比较每个元素在实际列表中的存在性。如果这是第二次或更多次出现，则在结果列表中添加索引。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Duplicate element indices in list
 # Using set() + loop
@@ -34,7 +34,7 @@ print("The list of duplicate elements is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 5, 5, 9, 1]
 The list of duplicate elements is :  [3, 4, 6]
 

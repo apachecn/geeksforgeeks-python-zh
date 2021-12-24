@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [(1, 13), (2, 190), (3, 82), (1, 12)]
 Output: [(1, 25), (2, 190), (3, 82)]
 
@@ -19,7 +19,7 @@ Output: [(1, 215), (3, 25)]
 
 **方法#1:** 使用`map()`
 
-```
+```py
 # Python code to get sum of tuples having same first value
 
 # Initialisation of list of tuple
@@ -38,14 +38,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [(1, 215), (3, 25)]
 
 ```
 
 **方法 2:** 使用`defaultdict`
 
-```
+```py
 # Python code to sum list of tuples having same first value
 
 # Importing
@@ -67,7 +67,7 @@ print(list(output.items()))
 
 **Output:**
 
-```
+```py
 [(1, 95), (2, 204), (3, 82)]
 
 ```

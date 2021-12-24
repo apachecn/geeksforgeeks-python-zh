@@ -7,7 +7,7 @@
 **方法#1:使用`len() + loop + items()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们迭代字典的键，并使用 len()返回所有长度等于最小列表长度的键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Keys with shortest length lists in dictionary
 # Using len() + loop + items()

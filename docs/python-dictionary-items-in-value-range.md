@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary items in value range
 # Using loop
@@ -44,7 +44,7 @@ print("The extracted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 8, 'geeks': 11}
 The extracted dictionary : {'best': 9, 'for': 8, 'geeks': 11}
 
@@ -56,7 +56,7 @@ The extracted dictionary : {'best': 9, 'for': 8, 'geeks': 11}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary items in value range
 # Using filter() + lambda + dictionary comprehension 
@@ -80,7 +80,7 @@ print("The extracted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 8, 'geeks': 11}
 The extracted dictionary : {'best': 9, 'for': 8, 'geeks': 11}
 

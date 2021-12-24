@@ -10,14 +10,14 @@ Python 提供了各种图形用户界面类型，如 PyQT、Tkinter、Kivy、WxP
 
 **语法:**
 
-```
+```py
 combobox = ttk.Combobox(master, option=value, ...)
 
 ```
 
 **示例 1:** 不设置默认值的组合框小部件。
 
-```
+```py
 # python program demonstrating
 # Combobox widget using tkinter
 
@@ -69,7 +69,7 @@ window.mainloop()
 **示例 2:** 带有初始默认值的组合框。
 我们还可以在 Combobox 小部件中设置初始默认值，如下例代码所示。
 
-```
+```py
 import tkinter as tk
 from tkinter import ttk
 

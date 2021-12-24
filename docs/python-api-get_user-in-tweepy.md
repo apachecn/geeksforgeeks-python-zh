@@ -19,7 +19,7 @@ Tweepy 模块中 API 类的 **`get_user()`** 方法用于获取指定用户的�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,14 +50,14 @@ print("The id " + _id +
 
 **输出:**
 
-```
+```py
 The id 103770785 corresponds to the user with the name : Twitter India
 
 ```
 
 **例 2 :** 有时候两个不同用户的`user_id`和`screen_name`可能是一样的，所以我们需要明确提到的不是`user_id`就是`screen_name`。
 
-```
+```py
 # using get_user with user_id
 user_id = "57741058"
 user = api.get_user(user_id)
@@ -79,7 +79,7 @@ print("\nThe screen name " + screen_name +
 
 **输出:**
 
-```
+```py
 The user id 57741058 corresponds to the user with the name : GeeksforGeeks
 
 The screen name geeksforgeeks corresponds to the user with the name : GeeksforGeeks

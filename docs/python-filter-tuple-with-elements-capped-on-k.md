@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuple with Elements capped on K
 # Using loop
@@ -50,7 +50,7 @@ print("The filtered tuples : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 3), (3, 4, 7), (4, 3, 2), (4, 7, 8)]
 The filtered tuples : [(4, 5, 3), (4, 3, 2)]
 
@@ -62,7 +62,7 @@ The filtered tuples : [(4, 5, 3), (4, 3, 2)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuple with Elements capped on K
 # Using all() + list comprehension
@@ -85,7 +85,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 3), (3, 4, 7), (4, 3, 2), (4, 7, 8)]
 The filtered tuples : [(4, 5, 3), (4, 3, 2)]
 

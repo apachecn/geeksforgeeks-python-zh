@@ -9,7 +9,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们迭代矩阵的行，从列表中检查 Kth 列匹配值，并从新列表中排除。
 
-```
+```py
 # Python3 code to demonstrate 
 # Custom Rows Removal depending on Kth Column
 # using loop

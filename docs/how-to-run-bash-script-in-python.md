@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 import subprocess
 
 # execute command

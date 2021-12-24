@@ -13,7 +13,7 @@ Selenium 是用于网络测试和自动化的最常用的 Python 工具。但是
 
 ## python 3
 
-```
+```py
 # import modules
 from selenium import webdriver  
 import time  

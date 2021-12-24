@@ -31,7 +31,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -84,7 +84,7 @@ print("NOR({}, {}) = {}".format(1, 0, NOR_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 NOR(0, 1) = 0
 NOR(1, 1) = 0
 NOR(0, 0) = 1

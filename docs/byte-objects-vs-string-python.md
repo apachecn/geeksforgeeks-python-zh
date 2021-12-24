@@ -20,7 +20,7 @@ PNG、JPEG、MP3、WAV、ASCII、UTF-8 等都是不同形式的编码。编码�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate String encoding
 
 # initialising a String
@@ -42,7 +42,7 @@ else : print ("Encoding Unsuccessful")
 
 输出:
 
-```
+```py
 Encoding successful
 ```
 
@@ -52,7 +52,7 @@ Encoding successful
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate Byte Decoding
 
 # initialising a String
@@ -74,7 +74,7 @@ else : print ("Decoding Unsuccessful")
 
 输出:
 
-```
+```py
 Decoding successful
 ```
 

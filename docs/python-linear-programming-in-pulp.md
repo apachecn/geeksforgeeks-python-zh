@@ -16,7 +16,7 @@
 
 **例 1:** 考虑以下问题:
 
-```
+```py
 Minimize :  Z = 3x + 5y
 Subject to the constraints: 
 2x + 3y >= 12
@@ -30,13 +30,13 @@ x, y >= 0
 **在 Python 中求解上述线性规划问题:**
 pull 是 Python 生态系统中众多求解优化问题的库之一。您可以在 Jupyter 笔记本中安装 PlAY，如下所示:
 
-```
+```py
 import sys !{sys.executable} -m pip install pulp
 ```
 
 **代码:用 Python 解决前面提到的线性规划问题:**
 
-```
+```py
 # import the library pulp as p
 import pulp as p
 
@@ -82,7 +82,7 @@ print(p.value(x), p.value(y), p.value(Lp_prob.objective))  
 
 **查看输出**
 
-```
+```py
 # Display the problem
 print(Lp_prob)
 ```
@@ -90,25 +90,25 @@ print(Lp_prob)
 **输出**
 ![](img/6a3b94ce0079997bc1d598b3fd2bbab7.png)
 
-```
+```py
 status = Lp_prob.solve()   # Solver
 print(p.LpStatus[status])   # The solution status
 ```
 
 **输出**
 
-```
+```py
 Optimal
 ```
 
-```
+```py
 # Printing the final solution
 print(p.value(x), p.value(y), p.value(Lp_prob.objective))
 ```
 
 **输出**
 
-```
+```py
 6.0 0.0 18.0
 ```
 

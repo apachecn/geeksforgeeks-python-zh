@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.application import MIMEApplication
@@ -34,7 +34,7 @@ import os
 
 ## 蟒 3
 
-```
+```py
 smtp = smtplib.SMTP('smtp.gmail.com', 587)
 smtp.ehlo()
 smtp.starttls()
@@ -48,7 +48,7 @@ smtp.login('YourMail@gmail.com', 'Your Password')
 
 ## 蟒 3
 
-```
+```py
 msg = MIMEMultipart()
 msg['Subject'] = subject
 msg.attach(MIMEText(text))
@@ -63,7 +63,7 @@ msg.attach(MIMEText(text))
 
 ## 蟒 3
 
-```
+```py
 img_data = open(one_img, 'rb').read()
 msg.attach(MIMEImage(img_data, 
                      name=os.path.basename(one_img)))

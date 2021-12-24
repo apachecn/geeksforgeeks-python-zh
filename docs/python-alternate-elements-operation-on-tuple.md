@@ -17,7 +17,7 @@
 **方法#1:使用 loop + `enumerate()`**
 以上功能的组合为这个问题提供了蛮力解决方案。在本文中，我们使用枚举()提取元素和索引，并使用条件执行链接。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Elements operation on Tuple
 # Using loop + enumerate()
@@ -45,7 +45,7 @@ print("The alternate chain sum 2 : " + str(sum2)) 
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, 3, 6, 10, 34)
 The alternate chain sum 1 : 46
 The alternate chain sum 2 : 18
@@ -55,7 +55,7 @@ The alternate chain sum 2 : 18
 **方法 2:使用列表切片**
 这个问题也可以使用切片操作来执行。在本文中，我们使用列表切片技术来执行提取交替链的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Elements operation on Tuple
 # Using list slicing
@@ -78,7 +78,7 @@ print("The alternate chain sum 2 : " + str(sum2)) 
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, 3, 6, 10, 34)
 The alternate chain sum 1 : 46
 The alternate chain sum 2 : 18

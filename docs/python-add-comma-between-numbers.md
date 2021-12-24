@@ -7,7 +7,7 @@
 **方法#1:使用`str.format()`**
 字符串格式函数可以通过提供有效的格式化程序来执行格式化。使用值作为参数调用字符串格式化程序来执行此特定任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adding comma between numbers
 # Using str.format()
@@ -28,7 +28,7 @@ print("The number after inserting commas : " + str(res))
 
 **Output :**
 
-```
+```py
 The original number is : 1234567
 The number after inserting commas : 1, 234, 567
 

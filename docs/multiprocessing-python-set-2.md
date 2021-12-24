@@ -11,7 +11,7 @@
 
 考虑下面的程序来理解这个概念:
 
-```
+```py
 import multiprocessing
 
 # empty list with global scope
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     print("Result(in main program): {}".format(result))
 ```
 
-```
+```py
 Result(in process p1): [1, 4, 9, 16]
 Result(in main program): []
 
@@ -65,7 +65,7 @@ Result(in main program): []
 
     下面给出了一个简单的例子，展示了如何使用**数组**和**值**在进程之间共享数据。
 
-    ```
+    ```py
     import multiprocessing
 
     def square_list(mylist, result, square_sum):
@@ -111,7 +111,7 @@ Result(in main program): []
         print("Sum of squares(in main program): {}".format(square_sum.value))
     ```
 
-    ```
+    ```py
     Result(in process p1): [1, 4, 9, 16]
     Sum of squares(in process p1): 30
     Result(in main program): [1, 4, 9, 16]
@@ -123,7 +123,7 @@ Result(in main program): []
 
     *   First of all, we create an Array **result** like this:
 
-        ```
+        ```py
          result = multiprocessing.Array('i', 4) 
         ```
 
@@ -132,44 +132,44 @@ Result(in main program): []
 
         同样，我们创建一个值**平方 _ 和**如下:
 
-        ```
+        ```py
          square_sum = multiprocessing.Value('i') 
         ```
 
         这里，我们只需要指定数据类型。可以给该值一个初始值(比如 10)，如下所示:
 
-        ```
+        ```py
          square_sum = multiprocessing.Value('i', 10) 
         ```
 
     *   其次，在创建**过程**对象时，我们将**结果**和**平方和**作为参数。
 
-        ```
+        ```py
          p1 = multiprocessing.Process(target=square_list, args=(mylist, result, square_sum)) 
         ```
 
     *   **result** array elements are given a value by specifying index of array element.
 
-        ```
+        ```py
          for idx, num in enumerate(mylist):
               result[idx] = num * num 
         ```
 
         **square_sum** 通过使用其**值**属性被赋予一个值:
 
-        ```
+        ```py
          square_sum.value = sum(result) 
         ```
 
     *   In order to print **result** array elements, we use **result[:]** to print complete array.
 
-        ```
+        ```py
          print("Result(in process p1): {}".format(result[:])) 
         ```
 
         **平方 _ 和**的值简单地打印为:
 
-        ```
+        ```py
          print("Sum of squares(in process p1): {}".format(square_sum.value)) 
         ```
 
@@ -184,7 +184,7 @@ Result(in main program): []
 
     考虑下面给出的例子:
 
-    ```
+    ```py
     import multiprocessing
 
     def print_records(records):
@@ -221,7 +221,7 @@ Result(in main program): []
             p2.join()
     ```
 
-    ```
+    ```py
     New record added!
 
     Name: Sam
@@ -242,7 +242,7 @@ Result(in main program): []
 
     *   First of all, we create a **manager** object using:
 
-        ```
+        ```py
          with multiprocessing.Manager() as manager: 
         ```
 
@@ -250,7 +250,7 @@ Result(in main program): []
 
     *   Then, we create a list **records** in **server process** memory using:
 
-        ```
+        ```py
          records = manager.list([('Sam', 10), ('Adam', 9), ('Kevin',9)]) 
         ```
 
@@ -273,7 +273,7 @@ Result(in main program): []
     **Note:** The **multiprocessing.Queue** class is a near clone of [**queue.Queue**](https://docs.python.org/3/library/queue.html).
     Consider the example program given below:
 
-    ```
+    ```py
     import multiprocessing
 
     def square_list(mylist, q):
@@ -313,7 +313,7 @@ Result(in main program): []
         p2.join()
     ```
 
-    ```
+    ```py
     Queue elements:
     1
     4
@@ -327,20 +327,20 @@ Result(in main program): []
 
     *   首先，我们使用
 
-        ```
+        ```py
          q = multiprocessing.Queue() 
         ```
 
         创建一个**多处理队列**
     *   然后我们通过流程 **p1** 将空队列 **q** 传递给 **square_list** 函数。使用 **put** 方法将元素插入队列。
 
-        ```
+        ```py
          q.put(num * num) 
         ```
 
     *   为了打印队列元素，我们使用**获取**方法，直到队列不为空。
 
-        ```
+        ```py
          while not q.empty():
               print(q.get()) 
         ```
@@ -353,7 +353,7 @@ Result(in main program): []
     **多处理**模块提供**管道()**功能，返回一对由管道连接的连接对象。**管道()**返回的两个连接对象代表管道的两端。每个连接对象都有 **send()** 和 **recv()** 等方法。
     考虑下面给出的程序:
 
-    ```
+    ```py
     import multiprocessing
 
     def sender(conn, msgs):
@@ -396,7 +396,7 @@ Result(in main program): []
         p2.join()
     ```
 
-    ```
+    ```py
     Sent the message: hello
     Sent the message: hey
     Sent the message: hru?
@@ -411,7 +411,7 @@ Result(in main program): []
 
     *   A pipe was created simply using:
 
-        ```
+        ```py
          parent_conn, child_conn = multiprocessing.Pipe() 
         ```
 
@@ -419,13 +419,13 @@ Result(in main program): []
 
     *   使用**发送**方法将消息从管道的一端发送到另一端。
 
-        ```
+        ```py
          conn.send(msg) 
         ```
 
     *   要在管道的一端接收任何消息，我们使用 **recv** 方法。
 
-        ```
+        ```py
          msg = conn.recv() 
         ```
 

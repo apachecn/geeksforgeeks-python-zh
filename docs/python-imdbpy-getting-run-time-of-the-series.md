@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,7 +38,7 @@ print(runtimes)
 
 **输出:**
 
-```
+```py
 Money Heist
 ['70']
 
@@ -46,7 +46,7 @@ Money Heist
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -71,7 +71,7 @@ print(runtimes)
 
 **输出:**
 
-```
+```py
 Mirzapur
 ['60']
 ```

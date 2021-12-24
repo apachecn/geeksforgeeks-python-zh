@@ -35,7 +35,7 @@
 
 **使用的文件:** article.json 文件
 
-```
+```py
 {
     "article_id": 3214507,
     "article_link": "http://sample.link",
@@ -54,7 +54,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import json
 
 def read_json(filename: str) -> dict:
@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
 ## **计算机编程语言**
 
-```
+```py
 import json
 import pandas
 
@@ -215,7 +215,7 @@ if __name__ == '__main__':
 
 ****正在使用的文件:** details.json 文件**
 
-```
+```py
 {
     "details": [
         {
@@ -299,7 +299,7 @@ if __name__ == '__main__':
 
 ## **计算机编程语言**
 
-```
+```py
 import json
 import pandas
 

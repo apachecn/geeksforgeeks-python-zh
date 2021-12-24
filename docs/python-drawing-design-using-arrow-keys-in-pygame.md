@@ -6,7 +6,7 @@ Pygame 是一套跨平台的 Python 模块，设计用于编写视频游戏。�
 
 在本文中，我们将看到如何在 PyGame 中借助按键进行设计，即当按下键盘上的右箭头键或左箭头键时，标记水平移动，而当按下上箭头键或下箭头键时，标记垂直移动。我们可以通过在各自的坐标上做一个点(标记)来做到这一点，这可以在按键的帮助下得到改变。
 
-```
+```py
 Change in Co-ordinates of marker for respective keys pressed :
 
 Left arrow key: Decrement in x co-ordinate
@@ -18,7 +18,7 @@ Down arrow key: Increment in y co-ordinate
 
 以下是实施–
 
-```
+```py
 # import pygame module in this program
 import pygame
 

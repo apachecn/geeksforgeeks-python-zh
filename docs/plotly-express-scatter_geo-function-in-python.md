@@ -36,7 +36,7 @@ Python 的 Plotly 库对于数据可视化和简单容易地理解数据非常�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.gapminder().query("year == 2007")
@@ -53,7 +53,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.gapminder().query("year == 2007")

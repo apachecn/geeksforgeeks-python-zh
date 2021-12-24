@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert List to custom overlapping Matrix
 # Using list slicing + loop
@@ -60,7 +60,7 @@ print("The created Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert List to custom overlapping Matrix
 # Using list comprehension

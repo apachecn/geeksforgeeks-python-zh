@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary values combination of size K
 # Using yield + generator function + recursion

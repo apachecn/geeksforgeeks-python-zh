@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning variables
 a = 100
 b = 0
@@ -27,7 +27,7 @@ else:
 
 **输出:**
 
-```
+```py
 Value Found!
 ```
 
@@ -37,7 +37,7 @@ Value Found!
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning variables
 a = 100
 b = 0
@@ -52,7 +52,7 @@ else:
 
 **输出:**
 
-```
+```py
 Value Found!
 ```
 
@@ -62,7 +62,7 @@ Value Found!
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning variables
 a = 90
 
@@ -75,7 +75,7 @@ else:
 
 **输出:**
 
-```
+```py
 Value Found!
 ```
 
@@ -87,7 +87,7 @@ Value Found!
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning variables
 a = 9
 b = 9
@@ -102,6 +102,6 @@ else:
 
 **输出:**
 
-```
+```py
 Value Found!
 ```

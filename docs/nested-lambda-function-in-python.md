@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # nested lambda functions
 
@@ -20,7 +20,7 @@ print(o(4))
 
 **输出:**
 
-```
+```py
 9
 ```
 
@@ -32,7 +32,7 @@ print(o(4))
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # nested lambda functions
 
@@ -45,7 +45,7 @@ print(ans)
 
 **输出:**
 
-```
+```py
 200
 ```
 

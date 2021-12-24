@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as f
@@ -64,7 +64,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Order the data by ascending order 
 # of Salary
 df.orderBy(['Salary'], ascending = [True]).show()
@@ -84,7 +84,7 @@ df.orderBy(['Salary'], ascending = [True]).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Order the data by dec order 
 # of Salary
 df.orderBy(['Salary'], ascending = [False]).show()
@@ -100,7 +100,7 @@ df.orderBy(['Salary'], ascending = [False]).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Sort the dataframe by descending order
 # of 'Job' and whenever there is conflict
 # in 'Job', it'll be resolved by ordering 

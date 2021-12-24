@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Double Split String to Matrix
 # Using split() + loop
@@ -61,7 +61,7 @@ print("String after Matrix conversion : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Double Split String to Matrix
 # Using list comprehension + split()

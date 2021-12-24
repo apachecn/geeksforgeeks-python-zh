@@ -33,7 +33,7 @@ epsilon-greedy，这里的 epsilon 指的是选择探索的概率，利用大部
 
 **代码:ε-Greedy 的 Python 代码**
 
-```
+```py
 # Import required libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 ![](img/639ebf9d4bf23cf80fd055d35e4daccf.png)
 **代码:获取日志输出图的 Python 代码**
 
-```
+```py
 # log scale plot
 plt.plot(c_1, label ='eps = 0.1')
 plt.plot(c_05, label ='eps = 0.05')
@@ -115,7 +115,7 @@ plt.show()
 
 **代码:获取线性输出图的 Python 代码**
 
-```
+```py
 # linear plot
 plt.figure(figsize = (12, 8))
 plt.plot(c_1, label ='eps = 0.1')

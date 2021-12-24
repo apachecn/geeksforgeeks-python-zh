@@ -12,13 +12,13 @@
 
 **步骤 1:** 导入库。
 
-```
+```py
 from PIL import Image
 ```
 
 **步骤 2:**jpg 是 PNG
 
-```
+```py
 To convert the image From JPG to PNG : {Syntax}
 
 img = Image.open("Image.jpg")
@@ -27,7 +27,7 @@ img.save("Image.png")
 
 **步骤 3:** PNG → JPG
 
-```
+```py
 To convert the Image From PNG to JPG
 
 img = Image.open("Image.png")
@@ -36,7 +36,7 @@ img.save("Image.jpg")
 
 添加图形用户界面
 
-```
+```py
 from tkinter import *
 ```
 
@@ -52,7 +52,7 @@ from tkinter import *
 
 ## 蟒蛇 3
 
-```
+```py
 # import all prerequisite
 from tkinter import *
 from tkinter import filedialog as fd

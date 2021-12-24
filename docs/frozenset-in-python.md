@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand frozenset() function
 
 # tuple of numbers
@@ -32,7 +32,7 @@ print("frozenset Object is : ", fnum)
 
 **Output:** 
 
-```
+```py
 frozenset Object is :  frozenset({1, 2, 3, 4, 5, 6, 7, 8, 9})
 ```
 
@@ -41,7 +41,7 @@ frozenset Object is :  frozenset({1, 2, 3, 4, 5, 6, 7, 8, 9})
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand use
 # of frozenset function
 
@@ -58,7 +58,7 @@ print('The frozen set is:', key)
 
 **Output:** 
 
-```
+```py
 The frozen set is: frozenset({'sex', 'age', 'address', 'name', 'college'})
 ```
 
@@ -67,7 +67,7 @@ The frozen set is: frozenset({'sex', 'age', 'address', 'name', 'college'})
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand
 # use of frozenset function
 
@@ -84,7 +84,7 @@ f_subject[1] = "Networking"
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/0fbd773df8aa631590ed0f3f865c1437.py", line 12, in 
     f_subject[1] = "Networking"

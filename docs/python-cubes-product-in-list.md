@@ -7,7 +7,7 @@ Python 作为魔术师的语言，可以用来以简单明了的方式执行许�
 **方法#1:使用`reduce()`+lambda**
 lambda 函数在一行中执行冗长任务的能力，允许它与用于累积子问题的 reduce 相结合来执行该任务。仅适用于 Python 2。
 
-```
+```py
 # Python code to demonstrate 
 # Cubes Product in list
 # using reduce() + lambda
@@ -28,7 +28,7 @@ print ("The product of cubes of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 5, 7, 9, 11]
 The product of cubes of list is : 1123242379875
 

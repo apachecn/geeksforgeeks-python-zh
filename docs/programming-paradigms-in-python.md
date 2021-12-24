@@ -30,7 +30,7 @@
 
 **示例:**
 
-```
+```py
 # class Emp has been defined here
 class Emp:
     def __init__(self, name, age):
@@ -54,7 +54,7 @@ for emp in Emps:
 
 **输出:**
 
-```
+```py
 Hello, John. You are 43 old.
 Hello, Hilbert. You are 16 old.
 Hello, Alice. You are 30 old.
@@ -80,7 +80,7 @@ Hello, Alice. You are 30 old.
 
 **示例:**
 
-```
+```py
 # Procedural way of finding sum 
 # of a list 
 
@@ -99,7 +99,7 @@ print(sum_the_list(mylist))
 
 **输出:**
 
-```
+```py
 100
 ```
 
@@ -121,7 +121,7 @@ print(sum_the_list(mylist))
 
 **示例:**
 
-```
+```py
 # Functional way of finding sum of a list 
 import functools
 
@@ -141,7 +141,7 @@ print(functools.reduce(lambda x, y: x + y, mylist))
 
 **输出:**
 
-```
+```py
 110
 ```
 

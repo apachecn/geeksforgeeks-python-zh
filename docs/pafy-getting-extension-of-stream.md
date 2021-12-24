@@ -6,7 +6,7 @@
 
 借助`new`方法，我们可以得到 pafy 对象，借助`allstreams`属性，我们可以得到视频可用的所有流，下面是获取给定视频的 pafy 对象的命令
 
-```
+```py
 video = pafy.new(url)
 streams = video.allstreams
 
@@ -24,7 +24,7 @@ streams = video.allstreams
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -49,14 +49,14 @@ print("Extension : " + str(value))
 
 **输出:**
 
-```
+```py
 Extension : webm
 
 ```
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -81,7 +81,7 @@ print("Extension : " + str(value))
 
 **输出:**
 
-```
+```py
 Extension : webm
 
 ```

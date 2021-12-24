@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```py
 # Literal 9 is an object 
 b = 9
 a = 4
@@ -48,7 +48,7 @@ b = 4
 
 **示例:**
 
-```
+```py
 def func():
 
     # All these variables get memory 
@@ -64,7 +64,7 @@ def func():
 
 **示例:**
 
-```
+```py
 # This memory for 10 integers 
 # is allocated on heap. 
 a = [0]*10 

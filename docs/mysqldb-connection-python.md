@@ -10,28 +10,28 @@ MySQLdb 是一个从 Python 连接到 MySQL 数据库服务器的接口。它实
 
 **要安装的软件包**
 
-```
+```py
 mysql-connector-python
 mysql-python
 ```
 
 如果使用蟒蛇
 
-```
+```py
 conda install -c anaconda mysql-python
 conda install -c anaconda mysql-connector-python
 ```
 
 其他
 
-```
+```py
 pip install MySQL-python
 pip install MySQL-python-connector
 ```
 
 **进口包装**
 
-```
+```py
 import MYSQLdb
 ```
 
@@ -56,7 +56,7 @@ import MYSQLdb
 
 ## 蟒蛇 3
 
-```
+```py
 '''This code would not be run on geeksforgeeks IDE
 because required module
 are not installed on IDE. Also this code requires
@@ -99,14 +99,14 @@ def mysqlconnect():
 mysqlconnect()
 ```
 
-```
+```py
 Connected
 Today's Date Is  2017-11-14
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate and create a
 # table in database
 import mysql.connector as mysql

@@ -23,7 +23,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 在一个文件中创建多个布局的基本方法:
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import BoxLayout
@@ -44,7 +44,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating the
 ## Program of How to use Multiple Layouts in Single file
 
@@ -112,7 +112,7 @@ MlApp.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program of How to use Multiple Layouts in Single .kv file
 
 ########################################################################

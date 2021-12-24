@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```py
 #include <iostream>
 class Geek{
     public:
@@ -38,7 +38,7 @@ int main()
 
 ## C++
 
-```
+```py
 extern "C" {
     Geek* Geek_new(){ return new Geek(); }
     void Geek_myFunction(Geek* geek){ geek -> myFunction(); }
@@ -53,7 +53,7 @@ extern "C" {
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 from ctypes import cdll
 
@@ -82,7 +82,7 @@ f.myFunction()
 
 **输出:**
 
-```
+```py
 Hello Geek!!!
 
 ```

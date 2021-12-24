@@ -62,7 +62,7 @@
 
 **代码:**
 
-```
+```py
 # Importing modeules that are required
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
@@ -89,7 +89,7 @@ print(f"r2 Score Of Test Set : {r2_score(y_test, prediction)}")
 
 **输出:**
 
-```
+```py
 r2 Score Of Test Set : 0.7943355984883815
 
 ```

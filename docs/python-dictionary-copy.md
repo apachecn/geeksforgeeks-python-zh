@@ -18,7 +18,7 @@
 
 ## **Python** 字典副本()示例:
 
-```
+```py
 Input : original = {1:'geeks', 2:'for'}
         new = original.copy()
 Output : original:  {1: 'one', 2: 'two'}
@@ -27,7 +27,7 @@ Output : original:  {1: 'one', 2: 'two'}
 
 ### **Python** 字典副本()**错误:**
 
-```
+```py
 As we are not passing any parameters 
 there is no chance of any error.
 ```
@@ -36,7 +36,7 @@ there is no chance of any error.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of dictionary copy
 original = {1: 'geeks', 2: 'for'}
@@ -55,7 +55,7 @@ print('original: ', original)
 
 **输出:**
 
-```
+```py
 new:  {}
 original:  {1: 'geeks', 2: 'for'}
 ```
@@ -64,7 +64,7 @@ original:  {1: 'geeks', 2: 'for'}
 
 ## 蟒蛇 3
 
-```
+```py
 # given dictionary
 dict1 = {10: 'a', 20: [1, 2, 3], 30: 'c'}
 print("Given Dictionary:", dict1)
@@ -84,7 +84,7 @@ print("Updated copy:", dict2)
 
 **输出:**
 
-```
+```py
 Given Dictionary: {10: 'a', 20: [1, 2, 3], 30: 'c'}
 New copy: {10: 'a', 20: [1, 2, 3], 30: 'c'}
 Updated copy: {10: 10, 20: [1, 2, '45'], 30: 'c'}
@@ -96,7 +96,7 @@ Updated copy: {10: 10, 20: [1, 2, '45'], 30: 'c'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate difference
 # between = and copy()
 original = {1: 'geeks', 2: 'for'}
@@ -124,7 +124,7 @@ print('original: ', original)
 
 **输出:**
 
-```
+```py
 new:  {}
 original:  {1: 'geeks', 2: 'for'}
 new:  {}

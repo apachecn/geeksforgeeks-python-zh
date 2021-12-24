@@ -7,7 +7,7 @@
 **方法#1:使用`join() + list comprehension`**
 连接函数可以将每个元组元素相互连接，列表理解处理遍历元组的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # joining tuple elements
 # using join() + list comprehension

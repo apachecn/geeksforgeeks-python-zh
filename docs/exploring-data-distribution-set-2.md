@@ -5,7 +5,7 @@
 先决条件:[探索数据分布|集合 1](https://www.geeksforgeeks.org/exploring-data-distribution-set-1/)
 **与探索数据分布相关的术语**
 
-```
+```py
 -> Boxplot
 -> Frequency Table
 -> Histogram 
@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns

@@ -6,7 +6,7 @@
 
 为了克服这个问题，人们可以使用多线程/多处理与美丽的输出模块，他/她可以创建蜘蛛，这可以帮助抓取网站并提取数据。为了节省时间，我们使用了 Scrapy。
 
-```
+```py
 With the help of Scrapy one can :
 
 1\. Fetch millions of data efficiently
@@ -23,26 +23,26 @@ Scrapy 带来了全新的功能，创建蜘蛛，运行它，然后通过抓取�
 
 创建一个虚拟环境是很好的，因为它隔离了程序，并且不影响机器中的任何其他程序。要创建虚拟环境，首先使用以下命令安装它:
 
-```
+```py
 sudo apt-get install python3-venv
 ```
 
 创建一个文件夹，然后激活它:
 
-```
+```py
 mkdir scrapy-project && cd scrapy-project
 python3 -m venv myvenv 
 ```
 
 如果上面的命令给出了错误，那么试试这个:
 
-```
+```py
 python3.5 -m venv myvenv
 ```
 
 创建虚拟环境后，使用以下方法激活它:
 
-```
+```py
 source myvenv/bin/activate
 ```
 
@@ -50,13 +50,13 @@ source myvenv/bin/activate
 
 使用以下方法安装剪贴簿:
 
-```
+```py
 pip install scrapy
 ```
 
 要为任何特定版本的 python 安装 scrapy:
 
-```
+```py
 python3.5 -m pip install scrapy
 ```
 
@@ -66,7 +66,7 @@ python3.5 -m pip install scrapy
 
 在与 scrapy 一起工作时，需要创建一个 Scrapy 项目。
 
-```
+```py
 scrapy startproject gfg
 ```
 
@@ -78,7 +78,7 @@ scrapy startproject gfg
 
 移动到蜘蛛文件夹，创建`gfgfetch.py`。创建 spider 时，始终创建一个具有唯一名称的类，并定义需求。第一件事是通过给蜘蛛分配名称变量来命名它，然后提供蜘蛛开始爬行的起始网址。定义一些有助于更深入地爬进那个网站的方法。现在，让我们废弃所有存在的网址，并存储所有这些网址。
 
-```
+```py
 import scrapy
 
 class ExtractUrls(scrapy.Spider):
@@ -101,13 +101,13 @@ class ExtractUrls(scrapy.Spider):
 **第五步:从给定页面获取数据**
 在编写解析函数之前，测试一些事情，比如如何从给定页面获取任何数据。要做到这一点，利用报废的外壳。它就像 python 解释器一样，但是能够从给定的 url 中抓取数据。简而言之，它是一个具有 Scrapy 功能的 python 解释器。
 
-```
+```py
 scrapy shell *URL*
 ```
 
 注意:确保在存在 scrapy.cfg 的同一个目录中，否则它将不起作用。
 
-```
+```py
 scrapy shell https://www.geeksforgeeks.org/
 ```
 
@@ -115,25 +115,25 @@ scrapy shell https://www.geeksforgeeks.org/
 
 *   要获取锚点标签:
 
-    ```
+    ```py
     response.css('a')
     ```
 
 *   提取数据:
 
-    ```
+    ```py
     links = response.css('a').extract()
     ```
 
 *   例如，链接[0]将显示如下内容:
 
-    ```
+    ```py
     '<a href="https://www.geeksforgeeks.org/" title="GeeksforGeeks" rel="home">GeeksforGeeks</a>'
     ```
 
 *   要获取`href` 属性，请使用`attributes` 标记。
 
-    ```
+    ```py
     links = response.css('a::attr(href)').extract()
     ```
 
@@ -143,7 +143,7 @@ scrapy shell https://www.geeksforgeeks.org/
 
 默认情况下，Scrapy 会过滤那些已经访问过的网址。所以它不会再次抓取相同的 url 路径。但是有可能在两个不同的页面中有两个或两个以上相似的链接。例如，在每个页面中，标题链接将可用，这意味着该标题链接将出现在每个页面请求中。所以通过检查来排除它。
 
-```
+```py
 # Parse function
 def parse(self, response):
 
@@ -166,7 +166,7 @@ def parse(self, response):
 
 下面是刮刀的实现:
 
-```
+```py
 # importing the scrapy module
 import scrapy
 
@@ -202,7 +202,7 @@ class ExtractUrls(scrapy.Spider):
 
 **第六步:最后一步，运行蜘蛛，在简单的 json 文件**中获得输出
 
-```
+```py
 scrapy crawl NAME_OF_SPIDER -o links.json
 ```
 

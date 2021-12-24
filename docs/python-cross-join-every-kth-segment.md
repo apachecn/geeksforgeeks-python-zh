@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross Join every Kth segment
 # Using yield + loop
@@ -56,7 +56,7 @@ print("The cross joined list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [4, 3, 8, 2, 6, 7]
 The original list 2 is : [5, 6, 7, 4, 3, 1]
 The cross joined list : [4, 3, 5, 6, 8, 2, 7, 4, 6, 7, 3, 1]
@@ -68,7 +68,7 @@ The cross joined list : [4, 3, 5, 6, 8, 2, 7, 4, 6, 7, 3, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross Join every Kth segment
 # Using zip_longest() + list comprehension
@@ -95,7 +95,7 @@ print("The cross joined list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [4, 3, 8, 2, 6, 7]
 The original list 2 is : [5, 6, 7, 4, 3, 1]
 The cross joined list : [4, 3, 5, 6, 8, 2, 7, 4, 6, 7, 3, 1]

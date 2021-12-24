@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import webbrowser  
 import sqlite3        
 

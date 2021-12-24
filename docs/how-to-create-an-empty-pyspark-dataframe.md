@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
@@ -44,7 +44,7 @@ data.printSchema()
 
 **输出:**
 
-```
+```py
 Dataframe :
 ++
 ||
@@ -66,7 +66,7 @@ root
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
@@ -100,7 +100,7 @@ df.printSchema()
 
 **输出:**
 
-```
+```py
 Dataframe :
 +----+---+------+
 |Name|Age|Gender|
@@ -123,7 +123,7 @@ root
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
@@ -149,7 +149,7 @@ df.printSchema()
 
 **输出:**
 
-```
+```py
 Dataframe :
 ++
 ||
@@ -169,7 +169,7 @@ root
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
@@ -200,7 +200,7 @@ df.printSchema()
 
 **输出:**
 
-```
+```py
 Dataframe :
 +----+---+------+
 |Name|Age|Gender|

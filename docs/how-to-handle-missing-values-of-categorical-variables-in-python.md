@@ -6,7 +6,7 @@
 
 我们使用的数据集是:
 
-```
+```py
 # import modules
 import pandas as pd
 import numpy as np

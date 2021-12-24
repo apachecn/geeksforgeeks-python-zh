@@ -16,7 +16,7 @@
 
 **命令:**
 
-```
+```py
 pip install plotly
 ```
 

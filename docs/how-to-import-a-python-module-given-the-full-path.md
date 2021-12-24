@@ -12,7 +12,7 @@ python 模块是一个文件，由 Python 代码和一组函数、类和变量�
 
 考虑以下文件排列，让我们看看如何使用上面列出的方法在 *main.py* 中导入 *gfg.py* 模块:
 
-```
+```py
 python
      |--main.py
      |articles
@@ -23,7 +23,7 @@ python
 
 ## 蟒蛇 3
 
-```
+```py
 # class
 class GFG:
 
@@ -42,7 +42,7 @@ def method_out():
 
 **语法:**
 
-```
+```py
 sys.path.append("module_path")
 ```
 
@@ -50,7 +50,7 @@ sys.path.append("module_path")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import sys
 
@@ -68,7 +68,7 @@ gfg.method_out()
 
 **输出:**
 
-```
+```py
 Inside Class method
 Inside explicit method
 ```
@@ -85,7 +85,7 @@ importlib 包提供了 Python 源代码中的 import 语句的实现，可移植
 
 ## 蟒蛇 3
 
-```
+```py
 import importlib.util
 
 # specify the module that needs to be 
@@ -106,7 +106,7 @@ foo.method_out()
 
 **输出:**
 
-```
+```py
 Inside Class method
 Inside explicit method
 ```
@@ -117,7 +117,7 @@ SourceFileLoader 类是一个抽象基类，用于在实际导入模块的 load_
 
 **语法:**
 
-```
+```py
 module = SourceFileLoader("module_name","module_path").load_module()
 ```
 
@@ -125,7 +125,7 @@ module = SourceFileLoader("module_name","module_path").load_module()
 
 ## 蟒蛇 3
 
-```
+```py
 from importlib.machinery import SourceFileLoader
 
 # imports the module from the given path
@@ -137,7 +137,7 @@ foo.method_out()
 
 **输出:**
 
-```
+```py
 Inside Class method
 Inside explicit method
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input  : 1 3 9 
 Output : 3
 All the permutation of 1 3 9 are : 
@@ -26,7 +26,7 @@ Output : 11
 
 **代码:找出数组中排列的 Python 代码**
 
-```
+```py
 # Python implementation of the approach
 from itertools import permutations
 
@@ -61,7 +61,7 @@ print(count(A))
 
 **输出:**
 
-```
+```py
 11
 ```
 
@@ -69,7 +69,7 @@ print(count(A))
 
 假设 A[ ]的长度是 n，那么
 
-```
+```py
 n        = n-1
 count(0) = 1
 count(1) = 1
@@ -81,7 +81,7 @@ count(n) = n * count(n-1) + (n-1) * count(n-2)
 
 ## C++
 
-```
+```py
 // C++ implementation of the approach
 // Recursive function that return count of 
 // permutation based on the length of array.
@@ -113,7 +113,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the approach
 // Recursive function that return count of 
 // permutation based on the length of array.
@@ -147,7 +147,7 @@ static public void main(String[] arg) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation of the approach
 # Recursive function that return count of 
 # permutation based on the length of array.
@@ -167,7 +167,7 @@ print(count(len(A)-1))
 
 ## C#
 
-```
+```py
 // C# implementation of the approach
 // Recursive function that return count of 
 // permutation based on the length of array.
@@ -201,6 +201,6 @@ static public void Main(String[] arg) 
 
 **输出:**
 
-```
+```py
 11
 ```

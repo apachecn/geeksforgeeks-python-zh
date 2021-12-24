@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], k = 10
 Output : [(1, 5, 4), (1, 6, 3), (1, 7, 2), (2, 5, 3)]
 
@@ -18,7 +18,7 @@ Output : [(12, 6, 6), (12, 9, 3)]
 **方法#1 :** 朴素(使用集合)
 在这种方法中，我们使用两个 for 循环。第一个循环设置第一个元素，另一个循环检查包括第一个元素的其他两个元素是否加起来为 k。这种方法需要**0(n<sup>2</sup>)**的时间复杂度。
 
-```
+```py
 # Python3 program to Find total number 
 # of triplets in a temp_list with given k
 
@@ -63,7 +63,7 @@ print(findTriplets(lst, k))
 
 **Output:**
 
-```
+```py
 [(1, 5, 4), (1, 6, 3), (1, 7, 2), (2, 5, 3)]
 
 ```
@@ -71,7 +71,7 @@ print(findTriplets(lst, k))
 **方法 2 :** 使用 itertools
 Python itertools 模块提供*组合(iterable，r)* 功能。该工具从输入表中返回 r 长度的元素子序列。每次我们将 3 个元素组合在一起，检查它们的总和是否为 k。
 
-```
+```py
 # Python3 program to Find total number 
 # of  triplets in a list with given sum
 from itertools import combinations
@@ -90,7 +90,7 @@ print(findTriplets(lst, 10))
 
 **Output:**
 
-```
+```py
 [(1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5)]
 
 ```

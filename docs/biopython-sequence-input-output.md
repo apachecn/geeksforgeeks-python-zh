@@ -24,7 +24,7 @@ Biopython 有一个内置的 *Bio。SeqIO* 模块，提供分别从文件读取�
 
 biophyston*Seq*模块有一个内置的 *read()* 方法，该方法获取一个序列文件，并根据文件格式将其转换为单个 *SeqRecord* 。它能够解析只有一条记录的序列文件，如果文件没有记录或者有多条记录，那么就会引发异常。 *read()* 方法的语法和参数如下:
 
-```
+```py
 Bio.SeqIO.read(handle, format, alphabet=None)
 
 ```
@@ -41,7 +41,7 @@ Bio.SeqIO.read(handle, format, alphabet=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import SeqIO
 
@@ -62,7 +62,7 @@ print("Sequence description: %s" % record.description)
 
 *生物提供的*解析()*方法。Seq* 模块在我们必须从句柄中读取多条记录时使用。它基本上将序列文件转换成迭代器，迭代器返回 *SeqRecords* 。如果文件包含字符串数据，那么它必须被转换为句柄来解析它。无法确定字母表的文件格式，明确指定字母表(例如。FASTA)。 *parse()* 方法的语法和参数如下:
 
-```
+```py
 Bio.SeqIO.parse(handle, format, alphabet=None)
 
 ```
@@ -79,7 +79,7 @@ Bio.SeqIO.parse(handle, format, alphabet=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import SeqIO
 
@@ -101,7 +101,7 @@ for record in SeqIO.parse(filename, "fasta"):
 
 用于写入文件*生物。Seq* 模块有一个 *write()* 方法，该方法将序列集写入文件，并返回一个代表写入记录数的整数。请确保在调用句柄后关闭该句柄，否则数据将被刷新到磁盘。*写()*方法的语法和论据如下:
 
-```
+```py
 Bio.SeqIO.write(sequences, handle, format)
 
 ```
@@ -120,7 +120,7 @@ Bio.SeqIO.write(sequences, handle, format)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import SeqIO
 from Bio.Seq import Seq

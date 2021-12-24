@@ -4,7 +4,7 @@
 
 要使用 Python3 创建透明的 png，请使用枕头库。枕头库自带 python。如果 python 找不到枕头库，请打开命令提示符并运行以下命令:-
 
-```
+```py
 pip install Pillow
 ```
 
@@ -14,7 +14,7 @@ pip install Pillow
 
 **1。从枕头库中导入图像模块**
 
-```
+```py
 from PIL import Image
 ```
 
@@ -58,7 +58,7 @@ from PIL import Image
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open('image.png')
@@ -87,7 +87,7 @@ rgba.save("transparent_image.png", "PNG")
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open('image.png')

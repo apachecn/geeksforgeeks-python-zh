@@ -13,13 +13,13 @@
 
 **bs4:** 美人汤(bs4)是一个 Python 库，用于从 HTML 和 XML 文件中获取数据。它可以按如下方式安装:
 
-```
+```py
 pip install bs4
 ```
 
 **urllib:** urllib 是一个包，它收集了几个用于处理 URL 的模块。它也可以用同样的方式安装，它大部分内置在环境本身。
 
-```
+```py
 pip install urllib
 ```
 
@@ -39,7 +39,7 @@ pip install urllib
 
 ## 蟒蛇 3
 
-```
+```py
 import urllib.request
 from bs4 import BeautifulSoup
 

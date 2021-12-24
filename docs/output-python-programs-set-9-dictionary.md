@@ -7,7 +7,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 dictionary = {'GFG' : 'geeksforgeeks.org',
               'google' : 'google.com',
               'facebook' : 'facebook.com'
@@ -32,14 +32,14 @@ GFG
 T6】Ans。(一)
 输出:
 
-```
+```py
 facebook
 GFG
 ```
 
 **解释:**陈述:**德尔词典；**删除整个字典，因此迭代删除的字典会引发如下运行时错误:
 
-```
+```py
 Traceback (most recent call last):
   File "cbeac2f0e35485f19ae7c07f6b416e84.py", line 12, in 
     for key, values in dictionary.items():
@@ -50,7 +50,7 @@ NameError: name 'dictionary' is not defined
 
 ## 计算机编程语言
 
-```
+```py
 dictionary1 = {'Google' : 1,
                'Facebook' : 2,
                'Microsoft' : 3
@@ -79,7 +79,7 @@ d)这些
 
 ## 计算机编程语言
 
-```
+```py
 dictionary1 = {'GFG' : 1,
                'Google' : 2,
                'GFG' : 3
@@ -98,7 +98,7 @@ T4】Ans。(c)
 
 ## 计算机编程语言
 
-```
+```py
 temp = dict()
 temp['key1'] = {'key1' : 44, 'key2' : 566}
 temp['key2'] = [1, 2, 3, 4]
@@ -117,7 +117,7 @@ d)以上
 
 ## 计算机编程语言
 
-```
+```py
 temp = {'GFG' : 1,
         'Facebook' : 2,
         'Google' : 3

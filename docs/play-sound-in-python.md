@@ -8,7 +8,7 @@
 
 运行以下命令安装软件包:
 
-```
+```py
 pip install playsound
 ```
 
@@ -21,7 +21,7 @@ pip install playsound
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 from playsound import playsound
 
@@ -38,7 +38,7 @@ print('playing sound using  playsound')
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 from playsound import playsound
 
@@ -55,7 +55,7 @@ print('playing sound using  playsound')
 
 **运行以下命令来安装软件包:**
 
-```
+```py
 sudo apt-get install ffmpeg libavcodec-extra
 pip install pydub
 ```
@@ -68,7 +68,7 @@ pip install pydub
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required modules
 from pydub import AudioSegment
 from pydub.playback import play
@@ -87,7 +87,7 @@ play(song)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 from pydub import AudioSegment
 from pydub.playback import play
@@ -106,7 +106,7 @@ play(song)
 
 ****tk 小吃**模块依赖于一个名为 **tkinter** 的模块来激活 python 脚本中的一个 **tk** 对象。您必须为 Python 安装 **tkinker** 和**tk 小吃**包。运行以下命令来安装软件包:**
 
-```
+```py
 sudo apt-get install python3-tk
 sudo apt-get install python3-tksnack
 ```
@@ -117,7 +117,7 @@ sudo apt-get install python3-tksnack
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required modules
 from Tkinter import *
 import tkSnack
@@ -145,7 +145,7 @@ snd.play(blocking=1)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required module
 import os
 
@@ -163,7 +163,7 @@ os.system("afplay " + file)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required module
 import os
 
@@ -181,7 +181,7 @@ os.system("mpg123 " + file)**
 
 ****这主要是为了玩 **WAV** 文件和 **NumPy 数组。**运行以下命令安装软件包:****
 
-```
+```py
 **$ sudo apt-get install libasound2-dev
 $ pip3 install simpleaudio**
 ```
@@ -192,7 +192,7 @@ $ pip3 install simpleaudio**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required module
 import simpleaudio as sa
 

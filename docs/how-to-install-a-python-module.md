@@ -10,7 +10,7 @@
 
 检查 pip 是否已安装:要检查 pip 是否已安装，请使用命令提示符在 windows 中运行以下命令:
 
-```
+```py
 pip --version 
 ```
 
@@ -22,7 +22,7 @@ pip --version
 
 输出版本应等于或大于 19 版本，如果不是，请使用以下命令更新 pip:
 
-```
+```py
 pip install --upgrade pip wheel
 ```
 
@@ -32,25 +32,25 @@ pip install --upgrade pip wheel
 
 要安装 pip 包，请使用以下命令安装所需的包:
 
-```
+```py
 pip install <packagename> 
 ```
 
 要从其他资源安装软件包，请使用以下命令:
 
-```
+```py
 pip install -e git+<https://github.com/myrepo.git#egg=packagename>
 ```
 
 要升级已安装的软件包，请使用以下命令:
 
-```
+```py
 pip install --upgrade <packagename>
 ```
 
 要卸载已安装的软件包，请使用以下命令:
 
-```
+```py
 pip uninstall <packagename>
 ```
 
@@ -58,7 +58,7 @@ pip uninstall <packagename>
 
 确保您已经安装了 pip。在您的终端中键入以下命令，验证 pip 是否已安装。
 
-```
+```py
 python3 -m pip --version
 ```
 
@@ -69,49 +69,49 @@ python3 -m pip --version
 
 要更新已安装的 pip 和安装工具副本，请使用以下命令:
 
-```
+```py
 python -m pip install --upgrade pip setuptools wheel
 ```
 
 键入以下命令，使用 pip 安装模块。
 
-```
+```py
 python3 -m pip install "ProjectName"
 ```
 
 要安装特定版本的模块，请使用以下命令:
 
-```
+```py
 python3 -m pip install "ProjectName==2.2"
 ```
 
 要在任意两个数字之间安装模块版本:
 
-```
+```py
 python3 -m pip install "ProjectName>=2,<3"
 ```
 
 要安装特定兼容版本的全长:
 
-```
+```py
 python3 -m pip install "ProjectName~=2.2.3"
 ```
 
 要升级项目版本，请使用以下命令:
 
-```
+```py
 python3 -m pip install --upgrade ProjectName
 ```
 
 要安装文本文档中所需的模块，请执行以下操作:
 
-```
+```py
 python3 -m pip install -r requirements.txt
 ```
 
 要安装本地系统中存在的目录，请使用以下命令:
 
-```
+```py
 python3 -m pip install --no-index --find-links=file:///local/dir/ ProjectName
 python3 -m pip install --no-index --find-links=/local/dir/ ProjectName
 python3 -m pip install --no-index --find-links=relative/dir/ProjectName
@@ -123,6 +123,6 @@ python3 -m pip install --no-index --find-links=relative/dir/ProjectName
 
 通过下载工具包，然后将其解压缩到本地目录来安装它。如果套件有自己的一套安装说明，请遵守这些说明，如果套件不存在，请使用以下命令手动安装套件:
 
-```
+```py
 python <FILE_NAME>.py install
 ```

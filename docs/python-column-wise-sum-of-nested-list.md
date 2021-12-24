@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1, 5, 3],
          [2, 7, 8],
          [4, 6, 9]]
@@ -24,7 +24,7 @@ Output : [139, 71]
 
 我们可以使用 python 的`zip` 函数找到给定嵌套列表的每一列的总和，并将其包含在列表理解中。
 
-```
+```py
 # Python3 program to Column wise sum of nested list
 
 def column_sum(lst):
@@ -38,7 +38,7 @@ print(column_sum(lst))
 
 **Output:**
 
-```
+```py
 [7, 18, 20]
 
 ```
@@ -47,7 +47,7 @@ print(column_sum(lst))
 
 另一种方法是使用 *map()* 。我们将*求和*函数应用于一列中的每个元素，并相应地求出每列的和。
 
-```
+```py
 # Python3 program to Column wise sum of nested list
 
 def column_sum(lst):
@@ -61,7 +61,7 @@ print(column_sum(lst))
 
 **Output:**
 
-```
+```py
 [7, 18, 20]
 
 ```
@@ -70,7 +70,7 @@ print(column_sum(lst))
 
 *numpy.sum()* 函数返回指定轴上数组元素的总和。
 
-```
+```py
 # Python3 program to Column wise sum of nested list
 from numpy import array
 
@@ -85,7 +85,7 @@ print(column_sum(lst))
 
 **Output:**
 
-```
+```py
 [7, 18, 20]
 
 ```

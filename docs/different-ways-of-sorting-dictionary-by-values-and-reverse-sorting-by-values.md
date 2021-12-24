@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using lambda function
 
@@ -37,7 +37,7 @@ print("Sorted dictionary is :",
 
 **Output**
 
-```
+```py
 Sorted dictionary is : [(2, 'three'), (1, 'two')]
 
 ```
@@ -53,7 +53,7 @@ Sorted dictionary is : [(2, 'three'), (1, 'two')]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using item function
 
@@ -74,7 +74,7 @@ print(sorted_dict)
 
 **Output**
 
-```
+```py
 Sorted dictionary is :
 [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')]
 
@@ -94,7 +94,7 @@ Sorted dictionary is :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using sorted() and get()
 
@@ -110,7 +110,7 @@ for w in sorted(my_dict, key = my_dict.get):
 
 **Output**
 
-```
+```py
 Sorted dictionary is :
 black # 000000
 green # 008000
@@ -134,7 +134,7 @@ white # FFFFFF
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using itemgetter() function
 
@@ -158,7 +158,7 @@ print(sorted_dict)
 
 **Output**
 
-```
+```py
 Sorted dictionary is :
 [('e', 12), ('a', 23), ('g', 67), (45, 90)]
 
@@ -175,7 +175,7 @@ Sorted dictionary is :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using OrderedDict
 
@@ -196,7 +196,7 @@ print(sorted_dict)
 
 **Output**
 
-```
+```py
 Sorted dcitonary is :
 OrderedDict([(0, 0), (2, 1), (1, 2), (4, 3), (3, 4)])
 
@@ -213,7 +213,7 @@ OrderedDict([(0, 0), (2, 1), (1, 2), (4, 3), (3, 4)])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using OrderedDict
 
@@ -231,7 +231,7 @@ print(sorted_dict.most_common()[::-1])
 
 **Output**
 
-```
+```py
 Sorted dictionary is :
 [('hello', 1), ('world', 3), ('python', 5)]
 
@@ -256,7 +256,7 @@ Sorted dictionary is :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort dictionary
 # by value using sorted setting
 # reverse parameter to true
@@ -274,7 +274,7 @@ for w in sorted(my_dict, key = my_dict.get, \
 
 **Output**
 
-```
+```py
 Sorted dictionary is :
 white # FFFFFF
 red # FF0000

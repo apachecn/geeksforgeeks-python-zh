@@ -7,7 +7,7 @@
 **方法:使用`sorted()`+λ**
 这些功能的组合可以用来执行这个任务。在这种情况下，我们将这些值的负值传递给 lambda 函数，这样递增的数字顺序就被认为是递减的，从而成功地完成了这个任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Inverse sorting String, Integer tuple list
 # Using sorted() + lambda

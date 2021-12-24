@@ -4,7 +4,7 @@
 
 **Decimal#min() : min()** 是一个 Decimal 类方法，它比较两个 Decimal 值并返回两者的 min。
 
-```
+```py
 Syntax:  Decimal.min()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  the min of two.
 
 **代码# 1:min()方法示例**
 
-```
+```py
 # Python Program explaining 
 # min() method
 
@@ -41,7 +41,7 @@ print ("Decimal b with min() method : ", b.min(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with min() method :  -1
 
 **代码# 2:min()方法示例**
 
-```
+```py
 # Python Program explaining 
 # min() method
 
@@ -79,7 +79,7 @@ print ("Decimal b with min() method : ", b.min(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

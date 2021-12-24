@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from math import *
 
 def secret_function():
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Enter the function(in terms of x):x*(x+1)*(x+2)
 Enter the value of x:3
 y = 60
@@ -64,7 +64,7 @@ y = 60
 
 ## 蟒蛇 3
 
-```
+```py
 evaluate = 'x*(x+1)*(x+2)'
 print(evaluate)
 print(type(evaluate))
@@ -79,7 +79,7 @@ print(type(expression))
 
 **Output**
 
-```
+```py
 x*(x+1)*(x+2)
 <class 'str'>
 <class 'int'>
@@ -94,7 +94,7 @@ x*(x+1)*(x+2)
 
 **比如你这样输入:**
 
-```
+```py
 Enter the function(in terms of x):secret_function()
 
 Enter the value of x:0
@@ -102,7 +102,7 @@ Enter the value of x:0
 
 **你会得到输出:**
 
-```
+```py
 y = Secret key is 1234
 ```
 
@@ -116,7 +116,7 @@ y = Secret key is 1234
 
 ## 蟒 3
 
-```
+```py
 from math import *
 
 def secret_function():
@@ -156,14 +156,14 @@ if __name__ == "__main__":
 
 **现在如果我们尝试运行上面的程序，比如:**
 
-```
+```py
 Enter the function(in terms of x):secret_function()
 Enter the value of x:0
 ```
 
 **我们得到输出:**
 
-```
+```py
 NameError: name 'secret_function' is not defined
 ```
 
@@ -172,14 +172,14 @@ NameError: name 'secret_function' is not defined
 *   First, we create a list of methods that we want to allow as **safe _ list** .
 *   Next, we create a dictionary of security methods. In this dictionary, **key** is the method name, and **value** is their local namespace.
 
-```
+```py
 safe_dict = dict([(k, locals().get(k, None)) 
 for k in safe_list])
 ```
 
 *   **Locals ()** is a built-in method that returns a dictionary that maps all methods and variables in the local scope to their namespaces.
 
-```
+```py
 safe_dict['x'] = x
 ```
 
@@ -187,7 +187,7 @@ safe_dict['x'] = x
 
 *   **eval** accepts dictionaries of **local** and **global** variables as parameters. Therefore, in order to ensure that there is no built-in method available for **eval** expression, we pass another dictionary with **safe _ dict** as follows:
 
-```
+```py
 y = eval(expr, {"__builtins__":None}, safe_dict)
 ```
 

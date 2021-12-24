@@ -10,7 +10,7 @@ Pygal 是一个 Python 模块，主要用于构建 SVG(标量矢量图形)图形
 
 **Example 1:**
 
-```
+```py
 # importing pygal
 import pygal
 from datetime import datetime
@@ -42,7 +42,7 @@ line_chart
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 from datetime import datetime

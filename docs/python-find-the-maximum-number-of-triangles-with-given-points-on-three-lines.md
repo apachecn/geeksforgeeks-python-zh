@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code implementation
 import math
 def nooftriangle(m, n, k):
@@ -54,6 +54,6 @@ print("Number of triangles : ", nooftriangle(m, n, k))
 
 **输出:**
 
-```
+```py
 Number of triangles :  11839.0
 ```

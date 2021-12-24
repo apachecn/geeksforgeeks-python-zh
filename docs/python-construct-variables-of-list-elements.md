@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + zip()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们将列表压缩到字典中，字典的键可以作为变量，值可以作为变量值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Construct variables of list elements
 # using dict() + zip()
@@ -31,7 +31,7 @@ print ("Variable value 2 : " + str(res['best']))
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['gfg', 'is', 'best']
 The original list 2 is : [1, 2, 3]
 Variable value 1 : 1

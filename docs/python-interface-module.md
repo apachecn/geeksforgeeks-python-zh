@@ -10,7 +10,7 @@
 
 在 python 中，接口是使用 python 类语句定义的，是**接口的子类。接口**，是所有接口的父接口。
 
-```
+```py
 Syntax : 
 class IMyInterface(zope.interface.Interface):
     # methods and attributes
@@ -19,7 +19,7 @@ class IMyInterface(zope.interface.Interface):
 
 **例**
 
-```
+```py
 import zope.interface
 
 class MyInterface(zope.interface.Interface):
@@ -41,7 +41,7 @@ print(type(x))
 
 **输出:**
 
-```
+```py
 <class zope.interface.interface.InterfaceClass>
 __main__
 MyInterface
@@ -54,7 +54,7 @@ MyInterface
 
 接口作为设计类的蓝图，所以接口是使用类上的**实现器**装饰器来实现的。如果一个类实现了一个接口，那么这个类的实例就提供了这个接口。对象可以直接提供接口，除了它们的类实现什么。
 
-```
+```py
 Syntax : 
 @zope.interface.implementer(*interfaces)
 class Class_name:
@@ -63,7 +63,7 @@ class Class_name:
 
 **例**
 
-```
+```py
 import zope.interface
 
 class MyInterface(zope.interface.Interface):
@@ -93,7 +93,7 @@ class MyClass:
 *   **列表(Zope . interface . providedby(class))–**返回空列表，因为类不提供接口，但是
     实现了。
 
-```
+```py
 import zope.interface
 
 class MyInterface(zope.interface.Interface):
@@ -137,7 +137,7 @@ print(list(zope.interface.providedBy(MyClass)))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -157,7 +157,7 @@ True
 *   **or extends(interface)–**返回布尔值，无论接口是相同的还是一个扩展另一个。
 *   **ISequalorextendedby(interface)–**返回布尔值，无论接口是相同的还是一个被另一个扩展。
 
-```
+```py
 import zope.interface
 
 class BaseI(zope.interface.Interface):
@@ -201,7 +201,7 @@ print(DerivedI.isOrExtends(DerivedI))
 
 **输出:**
 
-```
+```py
 (<InterfaceClass __main__.BaseI>, )
 False
 True

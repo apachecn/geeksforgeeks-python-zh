@@ -24,7 +24,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:航线旅客 ETS 分解数据集:**
 
-        ```
+        ```py
         # Importing required libraries
         import numpy as np
         import pandas as pd
@@ -72,7 +72,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:ARIMA 模型的参数分析**
 
-        ```
+        ```py
         # To install the library
         pip install pmdarima
 
@@ -101,7 +101,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:将 ARIMA 模型拟合到航空乘客数据集**
 
-        ```
+        ```py
         # Split data into train / test sets
         train = airline.iloc[:len(airline)-12]
         test = airline.iloc[len(airline)-12:] # set one year(12 months) for testing
@@ -122,7 +122,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:ARIMA 模型对测试集的预测**
 
-        ```
+        ```py
         start = len(train)
         end = len(train) + len(test) - 1
 
@@ -141,7 +141,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:使用 MSE 和 RMSE** 评估模型
 
-        ```
+        ```py
         # Load specific evaluation tools
         from sklearn.metrics import mean_squared_error
         from statsmodels.tools.eval_measures import rmse
@@ -160,7 +160,7 @@ A **时间序列**定义为按时间顺序索引的一系列数据点。时间�
 
         **代码:预测使用 ARIMA 模型**
 
-        ```
+        ```py
         # Train the model on the full dataset
         model = model = SARIMAX(airline['# Passengers'], 
                                 order = (0, 1, 1), 

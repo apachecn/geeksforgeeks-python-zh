@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list comprehension with student age
 data = [('sravan', 23), ('ojaswi', 15),
         ('rohith', 8), ('gnanesh', 4), ('bobby', 20)]
@@ -25,7 +25,7 @@ dict(data)
 
 **输出:**
 
-```
+```py
 {'bobby': 20, 'gnanesh': 4, 'ojaswi': 15, 'rohith': 8, 'sravan': 23}
 ```
 
@@ -37,7 +37,7 @@ dict(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list comprehension with student age
 data = [('sravan', 23), ('ojaswi', 15),
         ('rohith', 8), ('gnanesh', 4), ('bobby', 20)]
@@ -48,7 +48,7 @@ dict([(key, value) for key, value in data])
 
 **输出:**
 
-```
+```py
 {'bobby': 20, 'gnanesh': 4, 'ojaswi': 15, 'rohith': 8, 'sravan': 23}
 ```
 
@@ -62,7 +62,7 @@ dict([(key, value) for key, value in data])
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list with student name
 name = ['sravan', 'ojaswi', 'rohith', 'gnanesh', 'bobby']
 
@@ -75,7 +75,7 @@ dict(zip(name, age))
 
 **输出**:
 
-```
+```py
 {'bobby': 23, 'gnanesh': 11, 'ojaswi': 21, 'rohith': 32, 'sravan': 23}
 ```
 
@@ -89,7 +89,7 @@ dict(zip(name, age))
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list comprehension with student age
 data = [('sravan', 23), ('ojaswi', 15),
         ('rohith', 8), ('gnanesh', 4), ('bobby', 20)]
@@ -100,7 +100,7 @@ data = [('sravan', 23), ('ojaswi', 15),
 
 **输出:**
 
-```
+```py
 {'bobby': 20, 'gnanesh': 4, 'ojaswi': 15, 'rohith': 8, 'sravan': 23}
 ```
 
@@ -114,7 +114,7 @@ data = [('sravan', 23), ('ojaswi', 15),
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list comprehension with student age
 data = [('sravan', 23), ('ojaswi', 15),
         ('rohith', 8), ('gnanesh', 4), ('bobby', 20)]
@@ -134,7 +134,7 @@ print({key: value for (key, value) in data if key == 'sravan'})
 
 **输出:**
 
-```
+```py
 {'bobby': 20}
 {'sravan': 23, 'ojaswi': 15, 'bobby': 20}
 {'sravan': 23}

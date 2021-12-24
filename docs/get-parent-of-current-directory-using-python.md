@@ -23,7 +23,7 @@ OS . path . abpath()可用于获取父目录。此方法用于获取路径的规
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get parent
 # directory
 
@@ -54,7 +54,7 @@ print(os.path.abspath(os.path.join(path, os.pardir)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get parent
 # directory
 
@@ -93,7 +93,7 @@ print("Parent directory", parent)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get the
 # parent directory
 

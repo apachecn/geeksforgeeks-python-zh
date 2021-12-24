@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substring Intersections
 # Using list comprehension
@@ -59,7 +59,7 @@ print("Substrings Intersections : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substring Intersections
 # Using any() + generator expression

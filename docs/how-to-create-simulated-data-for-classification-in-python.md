@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import make_circles
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -37,7 +37,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import make_moons
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import make_blobs
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -79,7 +79,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import make_classification
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -103,7 +103,7 @@ pd.concat([pd.DataFrame(X), pd.DataFrame(
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.datasets import make_multilabel_classification
 import pandas as pd
 import matplotlib.pyplot as plt

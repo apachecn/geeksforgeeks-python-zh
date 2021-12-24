@@ -40,7 +40,7 @@
 
 复合-运行-示例
 
-```
+```py
 """Here we attempt to make an organizational hierarchy with sub-organization,
  which may have subsequent sub-organizations, such as:
 GeneralManager                                   [Composite]
@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 GeneralManager
     Manager1
         Developer11

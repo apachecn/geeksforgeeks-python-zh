@@ -4,7 +4,7 @@
 
 这里我们将看到由给定字符串的前 2 个和后 2 个字符组成字符串的方法。
 
-```
+```py
 Input: Geeksforgeeks
 Output: Geks
 
@@ -19,7 +19,7 @@ Output: Hire
 
 ## 计算机编程语言
 
-```
+```py
 # Taking input from the user
 inputString = "Geeksforgeeks"
 
@@ -37,7 +37,7 @@ print("New String = "+ newString)
 
 **输出:**
 
-```
+```py
 Input string = Geeksforgeeks
 New String = Geks
 
@@ -49,7 +49,7 @@ New String = Geks
 
 ## 计算机编程语言
 
-```
+```py
 # Taking input from user
 inputString = "Geeksforgeeks"
 
@@ -73,7 +73,7 @@ print("New String : " + newString)
 
 **输出:**
 
-```
+```py
 Input string : Geeksforgeeks
 New String : Geks
 

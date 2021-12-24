@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [['Geek', 'for', 'geeks'], ['geeks', 'for'],
         ['for', 'Geeks', 'geek'], ['Geek', 'for', 'geeks']]
 
@@ -20,7 +20,7 @@ Output:
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to count unique sublist within list
 
 # Input list initialization
@@ -46,7 +46,7 @@ print(Output)
 
 **方法 2:使用计数器**
 
-```
+```py
 # Python code to find count of unique list in list of list
 
 # Importing counter from collection
@@ -64,14 +64,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 Counter({(1, 2, 3): 2, (3, 2, 1): 1, (4, 5, 6): 1})
 
 ```
 
 **方法三:利用熊猫**
 
-```
+```py
 # Python code to count unique sublist within list
 
 # Importing 
@@ -94,7 +94,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 count       list
 0      1  (3, 2, 1)
 1      1  (4, 5, 6)

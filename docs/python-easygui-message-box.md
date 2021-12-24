@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -42,7 +42,7 @@ print("User pressed  : " + output)
 
 <video class="wp-video-shortcode" id="video-479805-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200903001623/GfG-EasyGUI-2020-09-03-00-15-43.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200903001623/GfG-EasyGUI-2020-09-03-00-15-43.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200903001623/GfG-EasyGUI-2020-09-03-00-15-43.mp4)</video>
 
-```
+```py
 User pressed  : Continue
 ```
 
@@ -52,7 +52,7 @@ User pressed  : Continue
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -73,6 +73,6 @@ print("User pressed  : " + output)
 
 <video class="wp-video-shortcode" id="video-479805-2" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200903001838/GfG-EasyGUI-2020-09-03-00-17-09.mp4?_=2">[https://media.geeksforgeeks.org/wp-content/uploads/20200903001838/GfG-EasyGUI-2020-09-03-00-17-09.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200903001838/GfG-EasyGUI-2020-09-03-00-17-09.mp4)</video>
 
-```
+```py
 User pressed  : OK
 ```

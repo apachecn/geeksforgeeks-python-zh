@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +循环**
 这是执行该任务的一种方式。在这种情况下，我们使用 zip()来组合元素和它的下一个元素，然后比较真相并将其保存在列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive String Comparison
 # using zip() + loop
@@ -31,7 +31,7 @@ print("List of Consecutive similar elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'gfg', 'is', 'best', 'best', 'for', 'geeks', 'geeks']
 List of Consecutive similar elements : ['gfg', 'best', 'geeks']
 

@@ -6,7 +6,7 @@
 
 **包装安装:**
 
-```
+```py
 pip install networkx
 ```
 
@@ -14,13 +14,13 @@ pip install networkx
 
 一次添加一个节点:
 
-```
+```py
  G.add_node(1)
 ```
 
 添加节点列表:
 
-```
+```py
  G.add_nodes_from([2,3])
 ```
 
@@ -32,7 +32,7 @@ pip install networkx
 
 一次添加一条边:
 
-```
+```py
 G.add_edge(1,2)
 G.add_edge(3,1)
 G.add_edge(2,4)
@@ -42,7 +42,7 @@ G.add_edge(9,1)
 
 添加边列表:
 
-```
+```py
 G.add_edges_from([(1,2),(1,3)])
 ```
 
@@ -54,7 +54,7 @@ G.add_edges_from([(1,2),(1,3)])
 
 可以使用以下任何一种函数来分解图形:
 
-```
+```py
 Graph.remove_node(), Graph.remove_nodes_from(),
 Graph.remove_edge() and Graph.remove_edges_from()
 ```
@@ -69,7 +69,7 @@ Graph.remove_edge() and Graph.remove_edges_from()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to create an undirected 
 # graph and add nodes and edges to a graph
 
@@ -147,7 +147,7 @@ G.clear()
 
 输出:
 
-```
+```py
 #1
 [1, 2, 3, 4, 7, 9]
 #2

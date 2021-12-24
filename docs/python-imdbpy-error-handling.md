@@ -5,13 +5,13 @@
 在本文中，我们将看到如何处理与 Python 的 IMDb 模块相关的错误，与 IMDbPY 相关的错误(如无效搜索或数据库错误)可以通过检查 imdb 来捕获。IMDbErrorexception
 为了处理错误，我们必须导入以下
 
-```
+```py
 from imdb import IMDbError
 ```
 
 **语法:**
 
-```
+```py
 try :
 
     # code
@@ -26,7 +26,7 @@ except IMDbError as e:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from imdb import IMDb, IMDbError
 
@@ -48,7 +48,7 @@ except IMDbError as e:
 
 **输出:**
 
-```
+```py
 invalid personID "abcd": invalid literal for int() with base 10: 'abcd'
 ```
 
@@ -56,7 +56,7 @@ invalid personID "abcd": invalid literal for int() with base 10: 'abcd'
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from imdb import IMDb, IMDbError
 
@@ -78,6 +78,6 @@ except IMDbError as e:
 
 **输出:**
 
-```
+```py
 {'errcode': None, 'errmsg': 'None', 'url': 'https://www.imdb.com/find?q=abcd&s=nm', 'proxy': '', 'exception type': 'IOError', 'original exception': URLError(gaierror(11001, 'getaddrinfo failed'))}
 ```

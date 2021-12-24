@@ -4,7 +4,7 @@
 
 **太阳鸟**库是特征工程的最佳选择。在这个库中，您将获得各种技术来处理缺失值、异常值、分类编码、规范化和标准化、特征选择技术等。可以使用以下命令安装:
 
-```
+```py
 pip install sunbird
 ```
 
@@ -18,7 +18,7 @@ pip install sunbird
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 
@@ -50,7 +50,7 @@ df
 
 **语法:**
 
-```
+```py
 from sunbird.categorical_encoding import frequency_encoding
 frequency_encoding(dataframe, 'categorical-column')
 ```
@@ -59,7 +59,7 @@ frequency_encoding(dataframe, 'categorical-column')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from sunbird.categorical_encoding import frequency_encoding
 import pandas as pd
@@ -88,7 +88,7 @@ df
 
 **语法:**
 
-```
+```py
 from sunbird.categorical_encoding import target_guided_encoding
 target_guided_encoding(dataframe, 'categorical-column', 'target-column')
 ```
@@ -97,7 +97,7 @@ target_guided_encoding(dataframe, 'categorical-column', 'target-column')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from sunbird.categorical_encoding import target_guided_encoding
 import pandas as pd

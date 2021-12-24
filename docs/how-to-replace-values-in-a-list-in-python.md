@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Replace Values in a List using indexing
 
 # define list
@@ -35,7 +35,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['Shardul', 'Rohit', 'Rahul', 'Virat', 'Pant']
 ```
 
@@ -45,7 +45,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 # Replace Values in a List using For Loop
 
 # define list
@@ -67,7 +67,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['Shardul', 'Rohit', 'Rahul', 'Virat', 'Ishan']
 ```
 
@@ -77,7 +77,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 # Replace Values in a List using While Loop
 
 # define list
@@ -102,7 +102,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['Shardul', 'Rohit', 'Rahul', 'Virat', 'Ishan']
 ```
 
@@ -114,7 +114,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 # Replace Values in a List using Lambda Function
 
 # define list
@@ -129,7 +129,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['Hardik', 'Rohit', 'Rahul', 'Virat', 'Ishan']
 ```
 
@@ -141,7 +141,7 @@ Python 允许我们在列表中进行切片。切片使我们能够访问列表�
 
 ## 蟒蛇 3
 
-```
+```py
 # Replace Values in a List using Slicing
 
 # define list
@@ -159,6 +159,6 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['Hardik', 'Rohit', 'Shikhar', 'Virat', 'Pant']
 ```

@@ -13,7 +13,7 @@
 **方法一:使用列表理解+词典理解**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用字典理解和所有关键字的迭代来分配关键字，并使用列表理解来构建数据。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested Tuple to Custom Key Dictionary
 # Using list comprehension + dictionary comprehension
@@ -41,7 +41,7 @@ print("The converted dictionary : " + str(res))
 **方法二:使用`zip()` +列表理解**
 以上功能的组合可以解决这个问题。在本文中，我们使用列表内容分配索引键，并使用 zip()进行映射。在这种情况下，提供了预定义/缩放键的灵活性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested Tuple to Custom Key Dictionary
 # Using zip() + list comprehension

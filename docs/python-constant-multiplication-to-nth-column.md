@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 使用循环可以执行该任务。在这种情况下，我们只需迭代列表，通过代码中的预定义值 K 来更改第 n 个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Constant Multiplication to Nth Column
 # Using loop
@@ -36,7 +36,7 @@ print("The tuple after multiplying K to Nth element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6), (7, 4, 2), (9, 10, 11)]
 The tuple after multiplying K to Nth element : [(4, 15, 6), (7, 12, 2), (9, 30, 11)]
 

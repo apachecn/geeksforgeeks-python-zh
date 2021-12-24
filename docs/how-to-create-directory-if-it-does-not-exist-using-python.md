@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # checking if the directory demo_folder 
@@ -40,7 +40,7 @@ if not os.path.exists("path/to/demo_folder"):
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # checking if the directory demo_folder2 

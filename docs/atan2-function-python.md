@@ -6,32 +6,32 @@
 
 **语法:**
 
-```
+```py
 atan2(y, x)
 ```
 
 **参数:**
 
-```
+```py
 (y, x) - Both must be a numeric value.
 ```
 
 **返回:**
 
-```
+```py
 Returns atan(y / x), in radians.
 The double value is  from polar coordinate (r, theta). 
 ```
 
 **类型错误:**
 
-```
+```py
 Returns a TypeError if anything other than float is passed. 
 ```
 
 **代码#1 :**
 
-```
+```py
 # Python3 program to demonstrate
 # the atan2() method 
 
@@ -56,7 +56,7 @@ print("atan2(1.2, -1.5):", theta3)
 
 **输出:**
 
-```
+```py
 atan2(-0.5, -0.5): -2.356194490192345
 atan2(1.2, 1.5): 0.6747409422235526
 atan2(1.2, -1.5): 2.4668517113662407
@@ -65,7 +65,7 @@ atan2(1.2, -1.5): 2.4668517113662407
 
 **代码#2 :**
 
-```
+```py
 # Python3 program to demonstrate the atan() method 
 
 # imports math 
@@ -84,7 +84,7 @@ for i in range(len(x)):
 
 **输出:**
 
-```
+```py
 0.16514867741462683
 0.5880026035475675
 0.40489178628508343
@@ -94,7 +94,7 @@ for i in range(len(x)):
 
 **代码#3 :** 程序演示错误
 
-```
+```py
 # Python3 program to demonstrate the  
 # TypeError in atan() method 
 
@@ -111,7 +111,7 @@ print(theta)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/622586ab389561bcdbfff258aca01e65.py", line 9, in 
     theta = math.atan2([y],[x]) 
@@ -124,7 +124,7 @@ TypeError: a float is required
 
 **代码#4 :**
 
-```
+```py
 # Let's find the slope when X
 # and Y co-ordinates are given 
 
@@ -143,7 +143,7 @@ print(theta1)
 
 **输出:**
 
-```
+```py
 0.7853981633974483
 
 ```

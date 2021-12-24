@@ -79,7 +79,7 @@ Plotly 提供了更通用的 go。plotly.graph_objects 中的直方图类。但�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -101,7 +101,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import plotly.graph_objects as go
 

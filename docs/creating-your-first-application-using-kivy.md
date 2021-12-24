@@ -12,13 +12,13 @@
 
 ### ****安装****
 
-```
+```py
 pip install kivymd
 ```
 
 **如果您想从主分支安装开发版本，您应该指定一个指向 zip 存档的链接:**
 
-```
+```py
 pip install https://github.com/kivymd/KivyMD/archive/master.zip
 ```
 
@@ -28,7 +28,7 @@ pip install https://github.com/kivymd/KivyMD/archive/master.zip
 
 **要更改 *MDFloatingActionButton* 背景，请使用 *md_bg_color* 参数:**
 
-```
+```py
 MDFloatingActionButton:
    icon: "android"
    md_bg_color: app.theme_cls.primary_color
@@ -36,7 +36,7 @@ MDFloatingActionButton:
 
 **阴影的长度由*高程 _ 法线*参数控制:**
 
-```
+```py
 MDFloatingActionButton:
     icon: "android"
     elevation_normal: 12
@@ -46,7 +46,7 @@ MDFloatingActionButton:
 
 **要更改类别*的文本颜色，请使用*文本颜色*参数:***
 
-```
+```py
 MDFlatButton:
    text: "MDFLATBUTTON"
    text_color: 0, 0, 1, 1
@@ -71,7 +71,7 @@ MDFlatButton:
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required modules
 from kivymd.app import MDApp
 from kivymd.uix.button import MDFloatingActionButton, MDFlatButton

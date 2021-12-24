@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input: R = 11, C = 33 
 Output:
     ---------------|*|---------------
@@ -44,7 +44,7 @@ Output:
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 implementation of the approach
 
 # Function to print the doormat pattern
@@ -76,7 +76,7 @@ doormatPattern(rows, columns)
 
 **Output:**
 
-```
+```py
 ---------|*|---------
 ------|*||*||*|------
 ---|*||*||*||*||*|---

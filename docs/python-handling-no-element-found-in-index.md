@@ -8,7 +8,7 @@
 
 在这个方法中，知道值可能不存在，我们在 try-except 块中捕获错误。ValueError 在不存在的情况下引发，可用于捕获此特定异常。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Handling no element found in index()
 # Using try + except + ValueError
@@ -33,7 +33,7 @@ print("The value after catching error : " + str(res))
 
 **输出:**
 
-```
+```py
 
 The original list : [6, 4, 8, 9, 10]
 The value after catching error : Element not in list!

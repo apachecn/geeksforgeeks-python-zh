@@ -21,7 +21,7 @@
 
 为了定义模式，我们必须使用 StructType()对象，在该对象中，我们必须定义或传递 StructField()，该对象包含列的名称、列的数据类型和可空标志。我们可以写:-
 
-```
+```py
 schema = StructType([StructField(column_name1,datatype(),nullable_flag),
             StructField(column_name2,datatype(),nullable_flag),
             StructField(column_name3,datatype(),nullable_flag)
@@ -32,7 +32,7 @@ schema = StructType([StructField(column_name1,datatype(),nullable_flag),
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, IntegerType, LongType, StringType, FloatType
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, IntegerType, LongType, StringType, FloatType

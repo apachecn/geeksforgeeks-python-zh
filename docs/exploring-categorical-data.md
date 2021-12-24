@@ -11,7 +11,7 @@
 *   **模式:**给定数据中最常出现的值
     **示例-**
 
-    ```
+    ```py
     Data = ["Car", "Bat", "Bat", "Car", "Bat", "Bat", "Bat", "Bike"]
     Mode = "Bat"
     ```
@@ -19,7 +19,7 @@
 *   **Expected Value :** When working in machine learning, categories have to be associated with a numeric value, so as to give understanding to the machine. This gives an average value based on a category’s probability of occurrence i.e. Expected Value.
     It is calculated by –
 
-    ```
+    ```py
     -> Multiply each outcome by its probability of occurring.
     -> Sum these values
     ```
@@ -32,21 +32,21 @@
 
     加载库–
 
-    ```
+    ```py
     import matplotlib.pyplot as plt
     import numpy as np
     ```
 
     数据–
 
-    ```
+    ```py
     label = ['Car', 'Bike', 'Truck', 'Cycle', 'Jeeps', 'Amulance']
     no_vehicle = [941, 854, 4595, 2125, 942, 509]
     ```
 
     索引数据–
 
-    ```
+    ```py
     index = np.arange(len(label))
 
     print ("Total Labels : ", len(label))
@@ -55,14 +55,14 @@
 
     **输出:**
 
-    ```
+    ```py
     Total Labels :  6
     Indexing :  [0 1 2 3 4 5]
     ```
 
     条形图–
 
-    ```
+    ```py
     plt.bar(index, no_vehicle)
     plt.xlabel('Type', fontsize = 15)
     plt.ylabel('No of Vehicles', fontsize = 15)
@@ -77,7 +77,7 @@
 
 *   **Pie Charts :** Frequency of each category plotted as pie or wedges. It is a circular graph, where the arc length of each slice is proportional to the quantity it represents.
 
-    ```
+    ```py
     plt.figure(figsize =(8, 8))
     plt.pie(no_vehicle, labels = label, 
             startangle = 90, autopct ='%.1f %%')

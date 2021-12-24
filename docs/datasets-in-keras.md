@@ -7,7 +7,7 @@ Keras 是一个 python 库，广泛用于训练深度学习模型。深度学习
 **MNIST(10 位数字的分类):**
 该数据集用于手写数字的分类。它包含训练集中的 *60，000 张*图像和测试集中的 10，000 张图像。每张图片大小为 *28×28* 。
 
-```
+```py
 from keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
@@ -39,7 +39,7 @@ from keras.datasets import mnist
 
 </figure>
 
-```
+```py
 from keras.datasets import fashion_mnist
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 ```
@@ -71,7 +71,7 @@ from keras.datasets import fashion_mnist
 
 </figure>
 
-```
+```py
 from keras.datasets import cifar10
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 ```
@@ -87,7 +87,7 @@ from keras.datasets import cifar10
 
 该数据集包含广泛用于图像分类任务的 10 种不同类别的图像。它由 50，000 幅 32×32 的彩色训练图像和 10，000 幅测试图像组成，标记了 10 个类别。这个数据集就像 CIFAR-10 一样，只是它有 100 个类，每个类包含 600 个图像。每堂课有 500 个训练图像和 100 个测试图像。CIFAR-100 中的 100 个类被分为 20 个超类。每个图像都带有一个“精细”标签(它所属的类)和一个“粗糙”标签(它所属的超类)。
 
-```
+```py
 from keras.datasets import cifar100
 (x_train, y_train), (x_test, y_test) = cifar100.load_data(label_mode='fine')
 ```
@@ -107,7 +107,7 @@ from keras.datasets import cifar100
 
 该数据集取自卡内基梅隆大学的 StatLib 图书馆。这个数据集包含 13 个属性的房子在不同的位置在波士顿郊区在 20 世纪 70 年代末。目标是某一地点房屋的中值(单位为 k$)。训练集包含 404 个不同家庭的数据，而测试集包含 102 个不同家庭的数据
 
-```
+```py
 from keras.datasets import boston_housing
 (x_train, y_train), (x_test, y_test) = boston_housing.load_data()
 ```
@@ -128,7 +128,7 @@ from keras.datasets import boston_housing
 
 该数据集用于评论的二元分类，即正面或负面。它由来自 IMDB 的 25，000 部电影评论组成，按照情绪(正面/负面)进行标注。这些评论已经过预处理，每个评论都被编码为一系列单词索引(整数)。这些单词按照它们在数据集中出现的总频率进行索引。例如，整数“5”编码数据中第五个最频繁的单词。这允许快速过滤操作，例如仅考虑前 5000 个单词作为模型词汇等..
 
-```
+```py
 from keras.datasets import imdb
 (x_train, y_train), (x_test, y_test) = imdb.load_data()
 ```
@@ -154,7 +154,7 @@ from keras.datasets import imdb
 
 该数据集用于多类文本分类。它由来自路透社的 11，228 条新闻线组成，标注了超过 46 个主题。就像 IMDB 数据集一样，每条线都被编码为一系列单词索引(相同的约定)。
 
-```
+```py
 from keras.datasets import reuters
 (x_train, y_train), (x_test, y_test) = reuters.load_data()
 ```

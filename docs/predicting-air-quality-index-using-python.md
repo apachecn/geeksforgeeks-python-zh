@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module for data frame
 import pandas as pd
 
@@ -55,7 +55,7 @@ train.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Randomforest
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import RandomForestRegressor

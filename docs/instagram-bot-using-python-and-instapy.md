@@ -6,7 +6,7 @@
 
 这个 python 项目提供了 Instagram 机器人的功能来喜欢、评论、**，并在他们的帖子上跟随带有特定标签的简介。**要做到这一点，我们必须使用 InstaPy。确保你也安装了火狐浏览器，因为 InstaPy 的最新版本放弃了对 Chrome 的支持。为了安装 InstaPy，我们使用下面给出的命令:
 
-```
+```py
 pip install instapy==0.6.8
 ```
 
@@ -18,7 +18,7 @@ pip install instapy==0.6.8
 
 ## 蟒蛇 3
 
-```
+```py
 from instapy import InstaPy
 
 session = InstaPy(username="your username",password="your password")
@@ -37,7 +37,7 @@ session.login()
 
 ## 蟒蛇 3
 
-```
+```py
 session.like_by_tags(["dance", "mercedes"], amount=10, interact=True)
 ```
 
@@ -51,7 +51,7 @@ session.like_by_tags(["dance", "mercedes"], amount=10, interact=True)
 
 ## **蟒蛇 3**
 
-```
+```py
 session.set_dont_like(["naked", "murder", "nsfw"])
 ```
 
@@ -85,7 +85,7 @@ session.set_dont_like(["naked", "murder", "nsfw"])
 
 ## ****蟒蛇 3****
 
-```
+```py
 **session.set_do_comment(True, percentage=100)
 session.set_comments(["Nice", "Amazing", "Super"])**
 ```
@@ -96,7 +96,7 @@ session.set_comments(["Nice", "Amazing", "Super"])**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **session.set_do_follow(enabled=True, percentage=100)**
 ```
 
@@ -106,7 +106,7 @@ session.set_comments(["Nice", "Amazing", "Super"])**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **session.set_user_interact(amount=1, randomize=True, percentage=100)**
 ```
 
@@ -118,6 +118,6 @@ session.set_comments(["Nice", "Amazing", "Super"])**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **session.end()**
 ```

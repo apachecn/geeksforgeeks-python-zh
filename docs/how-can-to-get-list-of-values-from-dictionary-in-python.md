@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 list(dictionary.values())
 ```
 
@@ -18,7 +18,7 @@ list(dictionary.values())
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 # with student names as key
 # values as subjects
@@ -31,7 +31,7 @@ list(data.values())
 
 **输出**:
 
-```
+```py
 ['java', 'python', 'statistics', 'cpp']
 ```
 
@@ -41,7 +41,7 @@ list(data.values())
 
 **语法**:
 
-```
+```py
 [*dictionary.values()]
 ```
 
@@ -49,7 +49,7 @@ list(data.values())
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 # with student names as key
 # values as subjects
@@ -68,7 +68,7 @@ data = {'manoja': 'java', 'tripura': 'python',
 
 **语法:**
 
-```
+```py
 [dictionary[i] for i in dictionary]
 ```
 
@@ -76,7 +76,7 @@ data = {'manoja': 'java', 'tripura': 'python',
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 # with student names as key
 # values as subjects
@@ -89,6 +89,6 @@ data = {'manoja': 'java', 'tripura': 'python',
 
 **输出**:
 
-```
+```py
 ['java', 'python', 'statistics', 'cpp']
 ```

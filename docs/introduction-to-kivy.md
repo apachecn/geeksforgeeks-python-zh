@@ -11,7 +11,7 @@ Kivy 是一个图形用户界面开源 Python 库，允许您在 Windows、macOS
 *   **步骤 1:** 在 cmd-
     中输入该命令，在安装 kivy 之前更新 pip 和车轮
 
-```
+```py
 python -m pip install --upgrade pip wheel setuptools
 ```
 
@@ -19,7 +19,7 @@ python -m pip install --upgrade pip wheel setuptools
 
 *   **步骤 2:** 安装依赖项-
 
-```
+```py
 python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
 python -m pip install kivy.deps.gstreamer
 python -m pip install kivy.deps.angle
@@ -27,7 +27,7 @@ python -m pip install kivy.deps.angle
 
 *   **步骤 3:** 安装 kivy。
 
-```
+```py
 python -m pip install kivy
 ```
 
@@ -40,19 +40,19 @@ python -m pip install kivy
 *   **步骤 1:** 在终端-
     输入该命令，添加 PPA
 
-```
+```py
  sudo add-apt-repository ppa:kivy-team/kivy
 ```
 
 *   **步骤 2:** 使用您的包管理器更新您的包列表-
 
-```
+```py
 sudo apt-get update
 ```
 
 *   **步骤 3:** 安装 Kivy
 
-```
+```py
 sudo apt-get install python3-kivy
 ```
 
@@ -69,7 +69,7 @@ sudo apt-get install python3-kivy
 
 ## 蟒蛇 3
 
-```
+```py
 import kivy
 kivy.require('1.10.0')
 
@@ -94,7 +94,7 @@ helloKivy.run()
 
 要运行此代码，请打开 cmd(Linux 中的终端)并浏览保存代码的目录，然后键入以下命令-
 
-```
+```py
 python file_name.py
 ```
 

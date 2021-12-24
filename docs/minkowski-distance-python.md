@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : vector1 = 0 2 3 4
         vector2 = 2, 4, 3, 7
         p = 3
@@ -26,7 +26,7 @@ Output : distance2 = 4.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find Minkowski distance
 
 # import math library
@@ -58,7 +58,7 @@ print(minkowski_distance(vector1, vector2, p))
 
 **输出:**
 
-```
+```py
 3.503
 ```
 

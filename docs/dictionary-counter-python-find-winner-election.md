@@ -5,7 +5,7 @@
 在选举中给定一系列候选人的名字。数组中的候选人姓名代表对候选人的投票。打印获得最高票数的候选人姓名。如果有领带，打印一个字典上较小的名字。
 示例:
 
-```
+```py
 Input :  votes[] = {"john", "johnny", "jackie", 
                     "johnny", "john", "jackie", 
                     "jamie", "jamie", "john",
@@ -29,7 +29,7 @@ is alphabetically smaller, we print it.
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find winner of an election where votes
 # are represented as candidate names
 from collections import Counter
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 john
 ```
 
@@ -91,7 +91,7 @@ john
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 votes =['john','johnny','jackie','johnny','john','jackie',
@@ -112,6 +112,6 @@ print(sorted(lst)[0])
 
 输出:
 
-```
+```py
 john
 ```

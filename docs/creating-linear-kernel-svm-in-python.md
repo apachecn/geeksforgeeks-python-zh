@@ -19,7 +19,7 @@
 
 2.当用线性核训练 SVM 时，只需要优化 **C 正则化**参数。另一方面，当使用其他内核进行训练时，需要优化 ***γ*** 参数，这意味着执行网格搜索通常需要更多时间。
 
-```
+```py
 # Import the Libraries
 import numpy as np
 import matplotlib.pyplot as plt

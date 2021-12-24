@@ -8,46 +8,46 @@
 
 1.使用 Python 代码设置与 SQLite 数据库的连接。
 
-```
+```py
 sqliteConnection = sqlite3.connect('SQLite_Retrieving_data.db')
 cursor = sqliteConnection.cursor()
 ```
 
 2.我们需要定义一个**插入查询**，用于将 **BLOB 数据**插入到表中。
 
-```
+```py
 sqlite_insert_blob_query = """ INSERT INTO Student
                                  (name, img) VALUES (?, ?)"""
 ```
 
 3.通过调用此 **convertToBinaryData()** 函数，将人类可读文件转换为二进制数据，并将其存储为 **empPhoto** 变量，
 
-```
+```py
 empPhoto = convertToBinaryData(photo)
 ```
 
 4.一旦文件转换成二进制格式，现在让我们将数据转换成元组格式，
 
-```
+```py
 data_tuple = (name, empPhoto)
 ```
 
 5.使用**光标. execute()** 在 Python 中执行**选择查询**。
 
-```
+```py
 cursor = sqliteConnection.cursor()
 cursor.execute(sqlite_insert_blob_query, data_tuple)
 ```
 
 6.使用**SQliteConnection . commit()**保存我们所做的更改。
 
-```
+```py
 sqliteConnection.commit()
 ```
 
 7.创建一个函数，将人类可读数据转换为二进制格式，并将其存储到数据库中。
 
-```
+```py
 def convertToBinaryData(filename):
 
   # Convert binary format to images or files data
@@ -58,7 +58,7 @@ def convertToBinaryData(filename):
 
 8.关闭**光标**连接和 **MySQL 数据库**。
 
-```
+```py
 if sqliteConnection:
     sqliteConnection.close()
     print("the sqlite connection is closed")
@@ -68,7 +68,7 @@ if sqliteConnection:
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # Function for Convert Binary Data 

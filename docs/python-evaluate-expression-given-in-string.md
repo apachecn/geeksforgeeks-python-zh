@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Expression evaluation in String
 # Using regex + map() + sum()
@@ -31,7 +31,7 @@ print("The evaluated result is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 45+98-10
 The evaluated result is : 133
 ```
@@ -41,7 +41,7 @@ The evaluated result is : 133
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Expression evaluation in String
 # Using eval()
@@ -62,7 +62,7 @@ print("The evaluated result is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 45+98-10
 The evaluated result is : 133
 ```

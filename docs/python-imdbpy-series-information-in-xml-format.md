@@ -12,7 +12,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,7 +39,7 @@ print(xml_file[:100])
 
 **输出:**
 
-```
+```py
 Mirzapur
 --------------------------------
 <?xml version="1.0"?
@@ -50,7 +50,7 @@ Mirzapur
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -77,7 +77,7 @@ print(xml_file[:100])
 
 **输出:**
 
-```
+```py
 Sacred Games
 --------------------------------
 <?xml version="1.0"?

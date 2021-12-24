@@ -5,7 +5,7 @@
 给定一个二次方程，任务是找到它的可能解。
 **例:**
 
-```
+```py
 Input : 
 enter the coef of x2 : 1
 enter the coef of x  : 2
@@ -23,7 +23,7 @@ x1 = -3+5.656854249492381i/4 and x2 = -3-5.656854249492381i/4
 
 **算法:**
 
-```
+```py
 Start.
 Prompt the values for a, b, c. 
 Compute i = b**2-4*a*c
@@ -44,7 +44,7 @@ stop
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for solving a quadratic equation.
 
 from math import sqrt  
@@ -82,7 +82,7 @@ except ValueError:
 
 **输出:**
 
-```
+```py
 the values for x is -1.0
 ```
 

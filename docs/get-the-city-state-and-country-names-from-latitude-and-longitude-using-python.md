@@ -6,7 +6,7 @@
 
 要安装 Geopy 模块，请在您的终端中运行以下命令。
 
-```
+```py
 pip install geopy
 
 ```
@@ -24,7 +24,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from geopy.geocoders import Nominatim
 ```
@@ -33,7 +33,7 @@ from geopy.geocoders import Nominatim
 
 ## 计算机编程语言
 
-```
+```py
 # initialize Nominatim API 
 geolocator = Nominatim(user_agent="geoapiExercises")
 ```
@@ -42,7 +42,7 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 ## 蟒蛇 3
 
-```
+```py
 # Latitude & Longitude input
 Latitude = "25.594095"
 Longitude = "85.137566"
@@ -61,14 +61,14 @@ print(location)
 
 ## 蟒蛇 3
 
-```
+```py
 address = location.raw['address']
 print(address)
 ```
 
 **输出:**
 
-```
+```py
 {'suburb': 'Rajendra Nagar',
  'city': 'Patna',
  'county': 'Patna Rural',
@@ -84,7 +84,7 @@ print(address)
 
 ## 蟒蛇 3
 
-```
+```py
 city = address.get('city', '')
 state = address.get('state', '')
 country = address.get('country', '')
@@ -98,7 +98,7 @@ print('Zip Code : ', zipcode)
 
 **输出:**
 
-```
+```py
 City :  Patna
 State :  Bihar
 Country :  India
@@ -110,7 +110,7 @@ Zip Code :  800001
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from geopy.geocoders import Nominatim
 
@@ -139,7 +139,7 @@ print('Zip Code : ', zipcode)
 
 **输出:**
 
-```
+```py
 City :  Patna
 State :  Bihar
 Country :  India

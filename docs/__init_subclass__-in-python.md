@@ -10,7 +10,7 @@
 
 ## __init_subclass__
 
-```
+```py
 # defining a SuperClass
 class SuperClass:
 
@@ -31,7 +31,7 @@ print(subclass.default_name)
 
 **输出:**
 
-```
+```py
 SubClass
 Inherited Class
 
@@ -47,7 +47,7 @@ Inherited Class
 这个`__init_subclass__`看起来很像 Decorator 类。但是当类装饰器只影响它们所应用到的特定类时，`__init_subclass__`只适用于定义该方法的类的未来子类。这意味着我们可以改变/定义从超类继承的任何新类的行为。
 T3】例:
 
-```
+```py
 # defining a SuperClass
 class SuperClass:
     def __init_subclass__(cls, default_name, **kwargs):
@@ -71,7 +71,7 @@ print(subClass2.default_name)
 
 **输出:**
 
-```
+```py
 SubClass1
 SubClass2
 

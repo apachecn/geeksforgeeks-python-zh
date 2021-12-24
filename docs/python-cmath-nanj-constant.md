@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.nanj constant
 
@@ -29,7 +29,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 nanj
 
 ```
@@ -38,7 +38,7 @@ nanj
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.nanj constant
 
@@ -53,7 +53,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 <class 'complex'>
 
 ```

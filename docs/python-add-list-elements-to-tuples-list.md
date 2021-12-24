@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add list elements to tuples list
 # Using list comprehension + "+" operator
@@ -37,7 +37,7 @@ print("The modified list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(5, 6), (2, 4), (5, 7), (2, 5)]
 The modified list : [(5, 6, 7, 2, 4, 6), (2, 4, 7, 2, 4, 6), (5, 7, 7, 2, 4, 6), (2, 5, 7, 2, 4, 6)]
 ```
@@ -47,7 +47,7 @@ The modified list : [(5, 6, 7, 2, 4, 6), (2, 4, 7, 2, 4, 6), (5, 7, 7, 2, 4, 6),
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add list elements to tuples list
 # Using list comprehension + "*" operator
@@ -71,7 +71,7 @@ print("The modified list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(5, 6), (2, 4), (5, 7), (2, 5)]
 The modified list : [(5, 6, 7, 2, 4, 6), (2, 4, 7, 2, 4, 6), (5, 7, 7, 2, 4, 6), (2, 5, 7, 2, 4, 6)]
 ```

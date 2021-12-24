@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing subprocess module
 import subprocess
 
@@ -92,7 +92,7 @@ main(module_name)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing subprocess module
 import subprocess
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements with same index
 # Using loop
@@ -41,7 +41,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 1, 2, 5, 4, 10, 6, 9]
 Filtered elements : [1, 2, 4, 6]
 
@@ -53,7 +53,7 @@ Filtered elements : [1, 2, 4, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements with same index
 # Using list comprehension + enumerate()
@@ -73,7 +73,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 1, 2, 5, 4, 10, 6, 9]
 Filtered elements : [1, 2, 4, 6]
 

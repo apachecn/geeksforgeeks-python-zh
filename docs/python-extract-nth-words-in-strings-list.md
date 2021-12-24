@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `split()`**
 以上方法的组合可以用来解决这个问题。在本文中，我们执行了使用拆分获得第 n 个单词和使用列表理解重新创建列表的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Nth words in Strings List
 # Using list comprehension + split()
@@ -31,7 +31,7 @@ print("The Nth words in list are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg best for', 'All geeks', 'It is for', 'all CS professionals']
 The Nth words in list are : ['best', 'geeks', 'is', 'CS']
 

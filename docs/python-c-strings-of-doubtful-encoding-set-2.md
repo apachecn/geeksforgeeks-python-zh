@@ -9,7 +9,7 @@
 
 **代码#1 :**
 
-```
+```py
 raw = b'Spicy Jalape\xc3\xb1o\xae'
 
 print (raw.decode('utf-8', 'ignore'))
@@ -19,7 +19,7 @@ print (raw.decode('utf-8', 'replace'))
 
 **输出:**
 
-```
+```py
 'Spicy Jalapeño'
 'Spicy Jalapeño?'
 ```
@@ -28,13 +28,13 @@ print (raw.decode('utf-8', 'replace'))
 
 **代码#2 :**
 
-```
+```py
 print (raw.decode('utf-8', 'surrogateescape'))
 ```
 
 **输出:**
 
-```
+```py
 'Spicy Jalapeño\udcae'
 ```
 
@@ -42,14 +42,14 @@ print (raw.decode('utf-8', 'surrogateescape'))
 
 **代码#3 :**
 
-```
+```py
 s = raw.decode('utf-8', 'surrogateescape')
 print(s)
 ```
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
 File "", line 1, in 
 UnicodeEncodeError: 'utf-8' codec can't encode 
@@ -60,14 +60,14 @@ character '\udcae' in position 14: surrogates not allowed
 
 **代码#4:**
 
-```
+```py
 print (s)
 print(s.encode('utf-8', 'surrogateescape'))
 ```
 
 **输出:**
 
-```
+```py
 'Spicy Jalapeño\udcae'
 b'Spicy Jalape\xc3\xb1o\xae'
 ```

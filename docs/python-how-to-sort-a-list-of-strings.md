@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`sort()`功能。
 
-```
+```py
 # Python program to sort a list of strings
 
 lst = ['gfg', 'is', 'a', 'portal', 'for', 'geeks']
@@ -27,14 +27,14 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['a', 'for', 'geeks', 'gfg', 'is', 'portal']
 
 ```
 
 **例 2:** 使用`sorted()`功能。
 
-```
+```py
 # Python program to sort a list of strings
 
 lst = ['gfg', 'is', 'a', 'portal', 'for', 'geeks']
@@ -46,7 +46,7 @@ for ele in sorted(lst):
 
 **Output:**
 
-```
+```py
 a
 for
 geeks
@@ -58,7 +58,7 @@ portal
 
 **例 3:** 按字符串长度排序
 
-```
+```py
 # Python program to sort a list of strings
 
 lst = ['Geeksforgeeks', 'is', 'a', 'portal', 'for', 'geeks']
@@ -71,14 +71,14 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['a', 'is', 'for', 'geeks', 'portal', 'Geeksforgeeks']
 
 ```
 
 **示例#4:** 按整数值对字符串进行排序
 
-```
+```py
 # Python program to sort a list of strings
 
 lst = ['23', '33', '11', '7', '55']
@@ -91,14 +91,14 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['7', '11', '23', '33', '55']
 
 ```
 
 **示例#5:** 按降序排序
 
-```
+```py
 # Python program to sort a list of strings
 
 lst = ['gfg', 'is', 'a', 'portal', 'for', 'geeks']
@@ -111,7 +111,7 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['portal', 'is', 'gfg', 'geeks', 'for', 'a']
 
 ```

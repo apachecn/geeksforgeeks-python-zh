@@ -20,7 +20,7 @@
 
 若要导入 google drive，请将此代码写入 colab 的代码部分，并由`*Ctrl+Enter*`运行。
 
-```
+```py
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
@@ -38,7 +38,7 @@ drive.mount('/content/gdrive')
 
 要下载一些东西，我们只需要一个可下载文件的网址。
 
-```
+```py
 import requests 
 file_url = "http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf"
 

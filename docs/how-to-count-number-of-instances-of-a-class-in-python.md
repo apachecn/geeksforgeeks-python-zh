@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 class geeks:
 
@@ -37,6 +37,6 @@ print(geeks.counter)
 
 **输出:**
 
-```
+```py
 3
 ```

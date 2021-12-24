@@ -8,14 +8,14 @@
 
 *   **open():** Opens a file in given access mode.
 
-    ```
+    ```py
      open(file_address, access_mode) 
     ```
 
     访问文件的示例:可以使用名为 open()的内置函数打开文件。这个函数接受文件的地址和 access_mode，并返回一个文件对象。
     有不同类型的访问 _ 模式:
 
-    ```
+    ```py
     r: Opens a file for reading only
     r+: Opens a file for both reading and writing
     w: Opens a file for writing only
@@ -28,7 +28,7 @@
 
 *   **read([size])** :读取整个文件，并以字符串形式返回内容。从文件中最多读取大小字节(如果读取在获得大小字节之前达到 EOF，则读取较少)。如果大小参数为负或被忽略，则读取所有数据，直到达到 EOF。
 
-    ```
+    ```py
     # Reading a file
     f = open(__file__, 'r')
 
@@ -41,7 +41,7 @@
 
 *   **readline(【size】)**:读取文件的第一行，即在文件只有一行的情况下直到一个换行符或一个 e of，并返回一个字符串。如果 size 参数为非负数，则它是最大字节数(包括尾部换行符)，并且可能会返回一个不完整的行。仅当立即遇到电渗流时，才返回空字符串。
 
-```
+```py
 # Reading a line in a file
 f = open(__file__, 'r')
 
@@ -53,7 +53,7 @@ f.close()
 
 *   **readline([sizehint])**:它逐行读取整个文件，并将每行更新为一个返回的列表。使用 readline()读取直到 EOF，并返回包含如此读取的行的列表。如果存在可选的 sizehint 参数，则不读取到 EOF，而是读取总计约为 sizehint 字节的整行(可能在舍入到内部缓冲区大小后)。
 
-    ```
+    ```py
     # Reading a file
     f = open(__file__, 'r')
 
@@ -65,7 +65,7 @@ f.close()
 
     *   **write(string)**: It writes the contents of string to the file. It has no return value. Due to buffering, the string may not actually show up in the file until the flush() or close() method is called.
 
-    ```
+    ```py
     # Writing a file
     f = open(__file__, 'w')
     line = 'Welcome Geeks\n'
@@ -77,7 +77,7 @@ f.close()
 
     **不同模式下的更多示例:**
 
-    ```
+    ```py
     # Reading and Writing a file
     f = open(__file__, 'r+')
     lines = f.read()
@@ -85,7 +85,7 @@ f.close()
     f.close()
     ```
 
-    ```
+    ```py
     # Writing and Reading a file
     f = open(__file__, 'w+')
     lines = f.read()
@@ -93,7 +93,7 @@ f.close()
     f.close()
     ```
 
-    ```
+    ```py
     # Appending a file
     f = open(__file__, 'a')
     lines = 'Welcome Geeks\n'
@@ -101,7 +101,7 @@ f.close()
     f.close()
     ```
 
-    ```
+    ```py
     # Appending and reading a file
     f = open(__file__, 'a+')
     lines = f.read()
@@ -111,7 +111,7 @@ f.close()
 
     *   **writeline(sequence)**:它是文件的字符串序列，通常是字符串或任何其他可迭代数据类型的列表。它没有返回值。
 
-    ```
+    ```py
     # Writing a file
     f = open(__file__, 'a+')
     lines = f.readlines()
@@ -123,7 +123,7 @@ f.close()
 
     *   **tell()** :返回一个整数，以字节
 
-    ```
+    ```py
     # Telling the file object position
     f = open(__file__, 'r')
     lines = f.read(10)
@@ -135,7 +135,7 @@ f.close()
 
     的形式告诉我们文件对象从文件开始的位置*   **seek(offset，from_where)** :用于改变文件对象的位置。偏移量表示要移动的字节数。from_where 指示字节将从何处移动。
 
-    ```
+    ```py
     # Setting the file object position
     f = open(__file__, 'r')
     lines = f.read(10)
@@ -150,7 +150,7 @@ f.close()
 
     *   **刷新()**:刷新内部缓冲区，就像 stdio 的 fflush()。它没有返回值。close()会自动刷新数据，但如果您想在关闭文件之前刷新数据，则可以使用此方法。
 
-    ```
+    ```py
     # Clearing the internal buffer before closing the file
     f = open(__file__, 'r')
     lines = f.read(10)
@@ -163,7 +163,7 @@ f.close()
 
     *   **fileno()** :返回整数文件描述符，底层实现使用该描述符向操作系统请求 I/O 操作。
 
-    ```
+    ```py
     # Getting the integer file descriptor
     f = open(__file__, 'r')
 
@@ -174,7 +174,7 @@ f.close()
 
     *   **isatty()** :如果文件连接到类似 tty 的设备，则返回 True，否则返回 False。
 
-    ```
+    ```py
     # Checks if file is connected to a tty(-like) device
     f = open(__file__, 'r')
 
@@ -185,7 +185,7 @@ f.close()
 
     *   **next()** :当文件被用作迭代器时使用。方法被重复调用。此方法返回下一个输入行，或者在文件打开进行读取时在 EOF 处引发 StopIteration(打开进行写入时行为未定义)。
 
-    ```
+    ```py
     # Iterates over the file
     f = open(__file__, 'r')
 
@@ -199,7 +199,7 @@ f.close()
 
     *   **截断([大小])** :截断文件的大小。如果存在可选的大小参数，文件将被截断到(最多)该大小。大小默认为当前位置。当前文件位置不变。请注意，如果指定的大小超过文件的当前大小，则结果取决于平台:可能包括文件可能保持不变，增加到指定的大小，就像零填充一样，或者增加到具有未定义新内容的指定大小。
 
-    ```
+    ```py
     # Truncates the file
     f = open(__file__, 'w')
 
@@ -210,7 +210,7 @@ f.close()
 
     *   **关闭()**:用于关闭打开的文件。关闭的文件不能再被读取或写入。
 
-    ```
+    ```py
     # Opening and closing a file
     f = open(__file__, 'r')
 
@@ -226,7 +226,7 @@ f.close()
     *   **换行符**:以通用换行符模式打开的文件对象具有反映文件中使用的换行符约定的属性。该属性的值为“\r”、“\n”、“\r\n”、无或包含所有新行类型的元组。
     *   **软空格**:这是一个布尔值，表示在使用 print 语句时，是否需要在另一个值之前打印一个空格字符。
 
-        ```
+        ```py
         f = open(__file__, 'a+')
         print(f.closed)
         print(f.encoding)

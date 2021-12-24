@@ -7,7 +7,7 @@
 **方法#1:使用循环+公式**
 处理这个问题的更简单的方式是使用计算调和平均值的公式，并使用循环短指针来执行。这是解决这个问题最基本的方法。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Harmonic Mean of List
 # using loop + formula
@@ -31,7 +31,7 @@ print("The harmonic mean of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [6, 7, 3, 9, 10, 15]
 The harmonic mean of list is : 6.517241379310345
 

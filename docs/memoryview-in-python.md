@@ -31,7 +31,7 @@ memoryview 对象允许 Python 代码访问支持缓冲区协议的对象的内�
 
 ## 蟒蛇 3
 
-```
+```py
 byte_array = bytearray('XYZ', 'utf-8')
 
 mv = memoryview(byte_array)
@@ -42,7 +42,7 @@ print(bytes(mv[0:1]))
 
 **输出:**
 
-```
+```py
 88
 b'X
 ```
@@ -51,7 +51,7 @@ b'X
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Modifying internal data using memory view
 
@@ -68,7 +68,7 @@ print('After update:', byte_array)
 
 **输出:**
 
-```
+```py
 Before update: bytearray(b'XYZ')
 After update: bytearray(b'XYJ')
 ```
@@ -79,7 +79,7 @@ After update: bytearray(b'XYJ')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate memory view
 
 # random bytearray
@@ -94,7 +94,7 @@ print(type(byt))
 
 **输出:**
 
-```
+```py
 <class 'memoryview'>
 <class 'bytes'>
 ```
@@ -103,7 +103,7 @@ print(type(byt))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate memory view
 
 # random bytearray
@@ -118,7 +118,7 @@ print(type(string))
 
 **输出:**
 
-```
+```py
 <class 'memoryview'>
 <class 'str'>
 ```

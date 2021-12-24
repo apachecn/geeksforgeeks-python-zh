@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -35,13 +35,13 @@ print(search['title'] + " : " + str(year))
 
 **输出:**
 
-```
+```py
 The Shawshank Redemption : 1994
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -60,6 +60,6 @@ print(search[0]['title'] + " : " + str(year))
 
 **输出:**
 
-```
+```py
 3 Idiots : 2009
 ```

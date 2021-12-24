@@ -16,7 +16,7 @@
 
 我们正在从 matplotlib 库中导入用于创建数据集的 NumPy 库和用于绘制像素图的“pyplot”模块
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 ```
@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 
 为了绘图，我们需要二维数据。让我们使用 NumPy 中的随机方法创建一个 2d 数组。这里，data1 数组由三个子数组组成，元素个数不等于 7，而 data2 数组由四个子数组组成，每个数组由五个元素组成，随机值范围在 0 到 1 之间。随机方法最多接受五个参数。
 
-```
+```py
 data1 = np.random.random((3,7))    
 data2 = np.random.random((4,5))  
 ```
@@ -34,19 +34,19 @@ data2 = np.random.random((4,5))
 
 *   **步骤 2.1:** 导入文本文件:
 
-```
+```py
 data_file = np.loadtxt("myfile.txt")
 ```
 
 *   **步骤 2.2:** 导入 CSV 文件:
 
-```
+```py
 data_file = np.genfromtxt("my_file.csv", delimiter=',')
 ```
 
 *   **步骤 2.3:** 导入图像:
 
-```
+```py
  img = np.load('my_img.png')
 ```
 
@@ -54,7 +54,7 @@ data_file = np.genfromtxt("my_file.csv", delimiter=',')
 
 所有绘图都是相对于轴进行的。在大多数情况下，网格系统上的轴子图将满足您的需求。因此，我们正在向图中添加轴。给定的数据将被分为用户提供的 nrows 和 ncols。
 
-```
+```py
 pixel_plot = plt.figure()
 pixel_plot.add_axes()
 axes = plt.subplots(nrows,ncols)
@@ -64,7 +64,7 @@ axes = plt.subplots(nrows,ncols)
 
 用于策划阴谋
 
-```
+```py
  plt.plot(pixel_plot)
 ```
 
@@ -72,7 +72,7 @@ axes = plt.subplots(nrows,ncols)
 
 我们可以通过为绘图、x 轴、y 轴、数字和各种方式指定标题来自定义绘图。对于像素图，我们可以添加一个确定每个像素值的颜色条。imshow()方法的名为“插值”的属性具有“无”或“最近”属性值，这有助于以像素为单位绘制图形。这里 cmap 属性为地图着色。
 
-```
+```py
  plt.title("pixel_plot")
  pixel_plot = plt.imshow(pixel_plot,cmap='',interpolation='')
  plt.colorbar(pixel_plot)
@@ -82,7 +82,7 @@ axes = plt.subplots(nrows,ncols)
 
 为了保存透明图像，我们需要将透明属性设置为值 true，默认情况下为 false
 
-```
+```py
 plt.savefig('pixel_plot.png')
 plt.savefig('pixel_plot.png',transparent=True)
 ```
@@ -91,7 +91,7 @@ plt.savefig('pixel_plot.png',transparent=True)
 
 最后，为了显示一个图，使用了一个简单的函数
 
-```
+```py
 plt.show(pixel_plot)
 ```
 
@@ -101,7 +101,7 @@ plt.show(pixel_plot)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -139,7 +139,7 @@ plt.show(pixel_plot)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -182,7 +182,7 @@ plt.show(pixel_plot)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt

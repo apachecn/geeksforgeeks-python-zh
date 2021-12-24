@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + values()`**
 这是执行此任务最推荐的方法和一个内胆。在本例中，我们使用`values()`访问所有列表值，并使用`sum()`执行连接实用程序。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenating dictionary value lists
 # Using sum() + values()
@@ -28,7 +28,7 @@ print("The Concatenated list values are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': [4, 5], 'best': [10], 'is': [6, 8]}
 The Concatenated list values are : [4, 5, 10, 6, 8]
 

@@ -7,7 +7,7 @@
 **方法#1:使用字典括号**
 这个任务可以很容易地使用简单的方法来执行，只需不断地用新值嵌套字典括号，并在移动中创建新键，然后更新字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Update nested dictionary keys
 # Using dictionary brackets
@@ -28,7 +28,7 @@ print("Dictionary after nested key update : " + str(test_dict))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'GFG': {'rate': 4, 'since': 2012}}
 Dictionary after nested key update : {'GFG': {'rate': 4, 'since': 2012, 'rank': 1}}
 

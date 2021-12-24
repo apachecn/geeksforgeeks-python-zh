@@ -9,13 +9,13 @@
 
 在本文中，我们将讨论使用 python 对视频进行网页抓取。对于网页抓取，我们将使用 Python 中的**请求和** **美化程序**模块。**请求**库是 Python 的一个组成部分，用于向指定的网址发出 HTTP 请求。无论是 REST APIs 还是 Web Scraping，都必须学习请求才能进一步使用这些技术。当一个人向 URI 提出请求时，它会返回一个响应。Python 请求提供了管理请求和响应的内置功能。
 
-```
+```py
 pip install requests
 ```
 
 **美汤**是一个 Python 库，专为像刮屏这样的快速周转项目而设计。
 
-```
+```py
 pip install bs4
 ```
 
@@ -25,7 +25,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 import requests
 from bs4 import BeautifulSoup
@@ -35,7 +35,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # Web URL
 Web_url = "Enter WEB URL"
 
@@ -50,7 +50,7 @@ soup = BeautifulSoup(r.content, 'html5lib')
 
 ## 蟒蛇 3
 
-```
+```py
 # List of all video tag
 video_tags = soup.findAll('video')
 print("Total ",len(video_tags),"videos found")

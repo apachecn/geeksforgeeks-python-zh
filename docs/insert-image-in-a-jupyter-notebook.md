@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 ![SNOWFALL](snowfall4.jpeg)
 ```
 
@@ -46,7 +46,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import image module
 from IPython.display import Image
 

@@ -18,7 +18,7 @@ K-shell 分解是一种根据节点的度来划分节点的方法，比如一个
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 [[2, 3, 4, 7, 8, 17, 16, 1, 6, 9], [11, 5, 10, 13, 12, 14, 15]]
 
 ```

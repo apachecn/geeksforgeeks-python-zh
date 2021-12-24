@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import seaborn as sns
@@ -31,7 +31,7 @@ print ("Data Head : \n\n", data.head())
 
 **输出:**
 
-```
+```py
 Data Head : 
 
      User ID  Gender  Age  EstimatedSalary  Purchased
@@ -46,7 +46,7 @@ Data Head :
 
 ## 蟒蛇 3
 
-```
+```py
 # Input and Output
 x = data.iloc[:, 2:4]
 y = data.iloc[:, 4]
@@ -56,7 +56,7 @@ print ("Input : \n", x.iloc[0:10, :])
 
 **输出:**
 
-```
+```py
 Input : 
     Age  EstimatedSalary
 0   19            19000
@@ -75,7 +75,7 @@ Input :
 
 ## 蟒蛇 3
 
-```
+```py
 # splitting data
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(
@@ -86,7 +86,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 
 ## 蟒蛇 3
 
-```
+```py
 # classifier
 from sklearn.ensemble import RandomForestClassifier
 classifier = RandomForestClassifier(n_estimators = 400)
@@ -102,7 +102,7 @@ pred = classifier.predict(x_test)
 
 ## 蟒蛇 3
 
-```
+```py
 # Model Performance
 from sklearn.metrics import accuracy_score
 print("Accuracy : ", accuracy_score(y_test, pred) *  100)
@@ -110,7 +110,7 @@ print("Accuracy : ", accuracy_score(y_test, pred) *  100)
 
 **输出:**
 
-```
+```py
 Accuracy :  91.66666666666666
 ```
 
@@ -122,7 +122,7 @@ Accuracy :  91.66666666666666
 
 ## 蟒蛇 3
 
-```
+```py
 # code for the random plot
 import matplotlib.pyplot as plt
 import numpy as np
@@ -156,7 +156,7 @@ plt.legend()
 
 ## 蟒蛇 3
 
-```
+```py
 lm = [y for _, y in sorted(zip(pred, y_test), reverse = True)]
 x = np.arange(0, total + 1)
 y = np.append([0], np.cumsum(lm))
@@ -175,7 +175,7 @@ plt.plot(x, y, c = 'b', label = 'Random classifier', linewidth = 2)
 
 ## 蟒蛇 3
 
-```
+```py
 plt.plot([0, one_count, total], [0, one_count, one_count],
          c = 'grey', linewidth = 2, label = 'Perfect Model')
 ```
@@ -192,7 +192,7 @@ plt.plot([0, one_count, total], [0, one_count, one_count],
 
 分析它的另一种方法是从预测模型轴的大约 50%投影一条线，并将其投影到 y 轴上。假设我们获得的投影值为 X%。
 
-```
+```py
 -> 60%        : it is a really bad model
 -> 60%<X<70%  : it is still a bad model but better than the first case obviously
 -> 70%<X<80%  : it is a good model

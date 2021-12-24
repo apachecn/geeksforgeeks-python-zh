@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import openpyxl
 
@@ -43,7 +43,7 @@ for i in range(1, sh.max_row+1):
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import openpyxl
 

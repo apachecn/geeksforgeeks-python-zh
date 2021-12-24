@@ -13,7 +13,7 @@
 **方法#1:使用字典理解+ `set()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们首先构造反向对，然后与原始列表对进行比较，并提取其中的一个相等。set()用于删除重复项，以避免不必要的元素计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Symmetric Tuples
 # Using dictionary comprehension + set()
@@ -35,7 +35,7 @@ print("The Symmetric tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(6, 7), (2, 3), (7, 6), (9, 8), (10, 2), (8, 9)]
 The Symmetric tuples : {(8, 9), (6, 7)}
 
@@ -44,7 +44,7 @@ The Symmetric tuples : {(8, 9), (6, 7)}
 **方法 2:使用`Counter()` +列表理解**
 这是执行这个任务的又一种方式。在这种情况下，我们遵循构建反向对的类似方法，但是在这里，我们计算相等的元素，计数为 2 的元素是重复的，并且匹配反向元组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Symmetric Tuples
 # Using Counter() + list comprehension
@@ -68,7 +68,7 @@ print("The Symmetric tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(6, 7), (2, 3), (7, 6), (9, 8), (10, 2), (8, 9)]
 The Symmetric tuples : [(7, 6), (9, 8)]
 

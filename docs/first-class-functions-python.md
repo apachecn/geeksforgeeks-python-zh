@@ -16,7 +16,7 @@
 
 **1。函数是对象:** Python 函数是一级对象。在下面的例子中，我们给一个变量赋值。这个赋值不调用函数。它接受 shout 引用的函数对象，并创建指向它的第二个名称，shout。
 
-```
+```py
 # Python program to illustrate functions
 # can be treated as objects
 def shout(text):
@@ -31,7 +31,7 @@ print (yell('Hello'))
 
 **输出:**
 
-```
+```py
 HELLO
 HELLO
 
@@ -39,7 +39,7 @@ HELLO
 
 **2。函数可以作为参数传递给其他函数:**因为函数是对象，所以我们可以将它们作为参数传递给其他函数。可以接受其他函数作为参数的函数也称为高阶函数。在下面的例子中，我们创建了一个函数 **greet** ，它以一个函数作为参数。
 
-```
+```py
 # Python program to illustrate functions
 # can be passed as arguments to other functions
 def shout(text):
@@ -60,7 +60,7 @@ greet(whisper)
 
 **输出**
 
-```
+```py
 HI, I AM CREATED BY A FUNCTION PASSED AS AN ARGUMENT.
 hi, i am created by a function passed as an argument.
 
@@ -68,7 +68,7 @@ hi, i am created by a function passed as an argument.
 
 **3。函数可以返回另一个函数:**因为函数是对象，所以我们可以从另一个函数返回一个函数。在下面的例子中，create_adder 函数返回加法器函数。
 
-```
+```py
 # Python program to illustrate functions
 # Functions can return another function
 
@@ -85,7 +85,7 @@ print (add_15(10))
 
 **输出:**
 
-```
+```py
 25
 
 ```

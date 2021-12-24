@@ -38,7 +38,7 @@ Pickle 一次序列化一个对象，并回读一个对象—酸洗后的数据�
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 def write_file():
@@ -77,7 +77,7 @@ write_file()
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 def delete_details():

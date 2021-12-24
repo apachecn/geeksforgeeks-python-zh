@@ -7,7 +7,7 @@
 给定一个可以包含 n 个整数的 n 个整数的未排序数组。计算数组中所有元素的频率。
 示例:
 
-```
+```py
 Input : arr[] = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 5]
 Output : 1 -> 4
          2 -> 4
@@ -19,7 +19,7 @@ Output : 1 -> 4
 
 这个问题可以通过多种方式解决，参考[统计数组](https://www.geeksforgeeks.org/count-frequencies-elements-array-o1-extra-space-time/)链接中所有元素的频率。在 Python 中，我们可以使用[集合](https://docs.python.org/2/library/collections.html#collections.Counter)模块快速解决这个问题。
 
-```
+```py
 # Function to count frequency of each element 
 import collections
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 1 -> 4
 2 -> 4
 3 -> 2

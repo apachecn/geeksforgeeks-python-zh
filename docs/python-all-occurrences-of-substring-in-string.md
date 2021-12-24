@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `startswith()`**
 这个任务可以使用两个功能来执行。startswith 函数主要执行获取子字符串起始索引的任务，列表理解用于遍历整个目标字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # All occurrences of substring in string
 # Using list comprehension + startswith()
@@ -34,7 +34,7 @@ print("The start indices of the substrings are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks is best for Geeks
 The substring to find : Geeks
 The start indices of the substrings are : [0, 8, 26]

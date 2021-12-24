@@ -6,7 +6,7 @@
 
 **安装 pyperclip:**
 
-```
+```py
 pip install pyperclip
 
 ```
@@ -15,7 +15,7 @@ pip install pyperclip
 
 **代码 1:**
 
-```
+```py
 # importing the library
 import pyperclip as pc
 
@@ -32,14 +32,14 @@ print(text2)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 
 ```
 
 **代码 2:**
 
-```
+```py
 # importing the library
 import pyperclip as pc
 
@@ -57,7 +57,7 @@ print(type(text))
 
 **输出:**
 
-```
+```py
 100
 
 ```

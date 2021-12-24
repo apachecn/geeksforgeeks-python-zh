@@ -30,7 +30,7 @@ T3】
 
 安装过程完成后，Anaconda 可用于执行多个操作。要开始使用 Anaconda，请使用以下命令启动 Anaconda 导航器:
 
-```
+```py
 anaconda-navigator
 ```
 

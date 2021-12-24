@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 bit_s = '1010'
 inverse_s = ''
 
@@ -28,7 +28,7 @@ print("Inversed string is ",
 
 **输出:**
 
-```
+```py
 Inversed string is 0101
 
 ```
@@ -37,7 +37,7 @@ Inversed string is 0101
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 b_dict = {'0': '1', '1': '0'}
 
@@ -55,7 +55,7 @@ print("Inversed string is",
 
 **输出:**
 
-```
+```py
 Inversed string is 0101
 
 ```
@@ -64,7 +64,7 @@ Inversed string is 0101
 
 ## 蟒蛇 3
 
-```
+```py
 bit_s = '1010'
 
 # using ternary operator with 
@@ -78,7 +78,7 @@ print("Inversed string is", 
 
 **输出:**
 
-```
+```py
 Inversed string is 0101
 
 ```
@@ -87,7 +87,7 @@ Inversed string is 0101
 
 ## 蟒蛇 3
 
-```
+```py
 bit_s = '1010'
 
 # replace "1" with "2" 
@@ -108,7 +108,7 @@ print("Inversed string is", 
 
 **输出:**
 
-```
+```py
 Inversed string is 0101
 
 ```
@@ -117,7 +117,7 @@ Inversed string is 0101
 
 ## 蟒蛇 3
 
-```
+```py
 bit_s = '1010'
 
 # convert binary string 
@@ -141,7 +141,7 @@ print("Inversed string is", 
 
 **输出:**
 
-```
+```py
 Inversed string is  0101
 
 ```

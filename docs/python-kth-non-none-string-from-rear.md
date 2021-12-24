@@ -7,7 +7,7 @@
 **方法#1:使用`next()` +列表理解**
 下一个函数返回迭代器，因此使用检查最后一个无值的列表理解来处理传统的列表理解和逻辑部分更有效。通过颠倒列表来处理后部。
 
-```
+```py
 # Python3 code to demonstrate
 # Kth Non-None String from Rear
 # using next() + list comprehension
@@ -34,7 +34,7 @@ print("The Kth non empty string from rear is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['', '', 'Akshat', 'Nikhil']
 The Kth non empty string from rear is : Akshat
 

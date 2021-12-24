@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [[2, 3, 1], [4, 5], [6, 8]]
         list2 = [[4, 5], [6, 8]]
 Output : True
@@ -22,7 +22,7 @@ Output : False
 **方法#1:天真的方法**
 取一个变量“存在”，它跟踪每个元素，不管它是否出现在列表 1 中。开始一个循环，在每次迭代“I”中，检查列表 1 中是否存在第 i <sup>个</sup>元素。如果存在，将“存在”设置为“真”或“假”。
 
-```
+```py
 # Python3 Program to Check is a nested 
 # list is a subset of another nested list
 
@@ -42,7 +42,7 @@ print(checkSubset(list1, list2))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -50,7 +50,7 @@ True
 **方法 2:使用 Python 集合**
 将两个给定嵌套列表的每个子列表转换为元组，因为集合不能保存列表，因为它们依赖于它们的元素是不可变的，并且列表是可变的。但是将它们转换成元组效果很好。之后，只需检查 list2 的集合是否是 list1 的子集。
 
-```
+```py
 # Python3 Program to Check is a nested 
 # list is a subset of another nested list
 
@@ -72,14 +72,14 @@ print(checkSubset(list1, list2))
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 **方法 3:使用 *all* 和 for loop**T5】此方法使用 for loop 检查所有元素(使用 *all* )是否属于列表 1。
 
-```
+```py
 # Python3 Program to Check is a nested 
 # list is a subset of another nested list
 
@@ -94,7 +94,7 @@ print(checkSubset(list1, list2))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -102,7 +102,7 @@ True
 **方法#4:使用`map()`和`__contains__`**
 在这种方法中，我们使用 Python `map()`使用“包含检查”运算符 __contains__，检查列表 1 元素是否包含在列表 2 中。
 
-```
+```py
 # Python3 Program to Check is a nested 
 # list is a subset of another nested list
 
@@ -117,7 +117,7 @@ print(checkSubset(list1, list2))
 
 **Output:**
 
-```
+```py
 True
 
 ```

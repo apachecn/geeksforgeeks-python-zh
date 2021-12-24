@@ -5,7 +5,7 @@
 给定一个列表，任务是找到列表中最大元素的出现次数。
 **例:**
 
-```
+```py
 Input : [1, 2, 8, 5, 8, 7, 8]
 Output :3
 
@@ -17,7 +17,7 @@ Output :1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # frequency of largest element
 
@@ -30,7 +30,7 @@ frequency = print(L.count(max(L)))
 
 **输出:**
 
-```
+```py
 3
 ```
 
@@ -39,7 +39,7 @@ frequency = print(L.count(max(L)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # frequency of largest element
 
@@ -59,7 +59,7 @@ print(res[largest])
 
 **输出:**
 
-```
+```py
 3
 ```
 
@@ -68,7 +68,7 @@ print(res[largest])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # frequency of largest element
 
@@ -89,6 +89,6 @@ print(d[largest])
 
 **输出:**
 
-```
+```py
 3
 ```

@@ -8,7 +8,7 @@
 
 它可以通过在终端中键入以下命令来安装。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -22,7 +22,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # Necessary imports
 import sys
 import urllib.request
@@ -60,7 +60,7 @@ with open('samplehtml.html', 'w') as f:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup and 
 # it is in the bs4 module
 from bs4 import BeautifulSoup
@@ -95,7 +95,7 @@ print(beautifulSoupText.body.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing BeautifulSoup and it
 # is in the bs4 module
 from bs4 import BeautifulSoup
@@ -134,7 +134,7 @@ for tag in beautifulSoupText.findAll(True):
 
 ## 蟒蛇 3
 
-```
+```py
 # necessary import for getting
 # directory and filenames
 import os

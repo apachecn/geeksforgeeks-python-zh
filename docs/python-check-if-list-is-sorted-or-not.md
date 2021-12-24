@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 检查这个最简单的方法是对第一个元素运行一个循环，检查我们是否能在那个元素之后找到比它更小的元素，如果是，则列表没有排序。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check if list is sorted
 # using naive method 
@@ -36,7 +36,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [1, 4, 5, 8, 10]
 Yes, List is sorted.
 
@@ -45,7 +45,7 @@ Yes, List is sorted.
 **方法 2:使用`sort()`**
 可以将新列表制作成原列表的副本，对新列表进行排序，并与旧列表进行比较，得出是否需要排序才能得到排序列表的结果。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check if list is sorted
 # using sort()
@@ -73,7 +73,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [10, 4, 5, 8, 10]
 No, List is not sorted.
 
@@ -82,7 +82,7 @@ No, List is not sorted.
 **方法 3:使用`sorted()`**
 使用与上述方法类似的类比，但并不创造一个新的空间，而只是那个时间的一个瞬间空间，因此比上述方法有用、更短、更快。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check if list is sorted
 # using sorted()
@@ -108,7 +108,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [1, 4, 5, 8, 10]
 Yes, List is sorted.
 
@@ -117,7 +117,7 @@ Yes, List is sorted.
 **方法#4:使用`all()`**
 最优雅、pythonic 化和更快速的检查排序列表的方法是使用`all()`。这使用了与天真相似的方法，但使用`all()`使其更快。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check if list is sorted
 # using all()
@@ -143,7 +143,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 8, 10]
 No, List is not sorted.
 

@@ -8,13 +8,13 @@ Python 是一种开源编程语言。它提供了各种各样的库，提供了�
 
 要通过 pip 安装:
 
-```
+```py
 $ pip install --upgrade language-check
 ```
 
 如果您使用 Python 2，您需要预先安装 3to2:
 
-```
+```py
 $ pip install --upgrade 3to2
 ```
 
@@ -27,7 +27,7 @@ language_check 指定文档中的错误以及规则标识、消息、建议和�
 
 下面的 python 代码演示了对文本文档使用语言检查。
 
-```
+```py
 import language_check
 
 # Mention the language keyword

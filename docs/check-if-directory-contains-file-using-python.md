@@ -13,7 +13,7 @@
 1.  **By comparing the returned list with a hardcoded empty list**
     An empty list can be written as **`[]`**. So we can compare the returned list’s equalness with **`[]`**.
 
-    ```
+    ```py
     # Python program to check
     # if a directory contains file
 
@@ -31,7 +31,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Some files found in the directory.
 
     ```
@@ -39,7 +39,7 @@
 2.  **By comparing length of the returned list with 0**
     We can get length of a list by using `len()` method of Python. If the length of the returned list is equal to zero then the directory is empty otherwise not.
 
-    ```
+    ```py
     # Python program to check if
     # a directory contains file
 
@@ -57,7 +57,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Some files found in the directory.
 
     ```
@@ -65,7 +65,7 @@
 3.  **By comparing the boolean value of the list**
     In the above method, we used explicit comparison of the length of the list. Now we are heading with a more Pythonic way using truth value testing. An empty list is evaluated as False in Python.
 
-    ```
+    ```py
     # Python program to check if
     # a directory is empty
 
@@ -83,14 +83,14 @@
 
     **输出:**
 
-    ```
+    ```py
     Some files found in the directory.
 
     ```
 
 #### 完整的源代码:
 
-```
+```py
 # Python program to check if
 # the directory is empty
 
@@ -124,7 +124,7 @@ print("Invalid path:", isEmpty(directoryPath))
 
 **输出:**
 
-```
+```py
 Valid path: Some files found in the directory.
 Invalid path: Directory does not exist !
 

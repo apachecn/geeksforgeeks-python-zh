@@ -7,7 +7,7 @@
 **方法一:使用`index()`**
 这是我们可以解决这个问题的方法之一。在这种情况下，我们使用 index()的幂来获得第 n 个出现的索引，并用初始出现减去。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Distance between occurrences
 # Using index()
@@ -31,7 +31,7 @@ print("The character occurrence difference is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The character occurrence difference is : 8
 

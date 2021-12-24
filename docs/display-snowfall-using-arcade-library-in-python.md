@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import required modules
 import random
 import math

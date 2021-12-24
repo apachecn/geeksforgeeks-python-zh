@@ -13,7 +13,7 @@
 **方法#1:使用递归+循环**
 这个问题的解决涉及两个步骤。首先，我们使用递归执行元组的展平，然后使用循环以强力方式执行计数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements Frequency in Mixed Nested Tuple
 # Using recursion + loop
@@ -46,7 +46,7 @@ print("The elements frequency : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, (5, 6), 7, (8, 9), 9)
 The elements frequency : {5: 2, 6: 2, 7: 1, 8: 1, 9: 2}
 
@@ -55,7 +55,7 @@ The elements frequency : {5: 2, 6: 2, 7: 1, 8: 1, 9: 2}
 **方法 2:使用`Counter()` +回复**
 这是解决这个问题的又一种方法。在本文中，我们使用 Counter()来执行对元素进行计数的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements Frequency in Mixed Nested Tuple
 # Using recursion + Counter()
@@ -85,7 +85,7 @@ print("The elements frequency : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, (5, 6), 7, (8, 9), 9)
 The elements frequency : {5: 2, 6: 2, 7: 1, 8: 1, 9: 2}
 

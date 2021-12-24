@@ -22,7 +22,7 @@ json.dumps()方法可以将 Python 对象转换为 json 字符串。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert
 # Python to JSON
 
@@ -42,7 +42,7 @@ print(json_object)
 
 **输出:**
 
-```
+```py
 {
     "department": "HR",
     "id": "04",
@@ -81,7 +81,7 @@ json.dump()方法可用于写入 json 文件。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to write JSON
 # to a file
 

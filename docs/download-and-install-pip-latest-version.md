@@ -21,7 +21,7 @@ PIP 是一个包管理系统，用于安装和管理用 Python 编写的软件�
     ![Changing directory path](img/fa96dbe7a24065aa2dbc360b59f9a5b9.png)
 *   Run the command given below:
 
-    ```
+    ```py
     python get-pip.py
     ```
 
@@ -36,7 +36,7 @@ PIP 是一个包管理系统，用于安装和管理用 Python 编写的软件�
 
 通过以下命令，可以在 Linux 中使用终端下载和安装 pip:
 
-```
+```py
 sudo apt-get install python3-pip python-dev
 ```
 
@@ -63,14 +63,14 @@ sudo apt-get install python3-pip python-dev
     或
     使用以下命令直接下载 pip，
 
-    ```
+    ```py
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
     ```
 
 *   Now execute the downloaded file using below command
 
-    ```
+    ```py
     python3 get-pip.py
     ```
 
@@ -83,7 +83,7 @@ sudo apt-get install python3-pip python-dev
 
 通过对 pip 执行版本检查，可以轻松验证 pip 是否已正确安装。只需转到命令行并执行以下命令:
 
-```
+```py
 pip3 --version
 ```
 

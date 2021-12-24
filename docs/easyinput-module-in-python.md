@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install easyinput
 ```
 
@@ -29,7 +29,7 @@ pip install easyinput
 
 ## 蟒蛇 3
 
-```
+```py
 from easyinput import read_many, read
 
 a = read(int)
@@ -58,7 +58,7 @@ print(read())
 
 ## 蟒蛇 3
 
-```
+```py
 from easyinput import read
 
 # input int, str, int chain 3 times
@@ -90,7 +90,7 @@ read()和 read _ multi()函数提供了获取文件作为输入流的功能，�
 
 ## 蟒蛇 3
 
-```
+```py
 from easyinput import read_many
 
 print("Getting integer inputs from files : ")
@@ -111,7 +111,7 @@ with open('gfg_file_input') as inp_file:
 
 ## 蟒蛇 3
 
-```
+```py
 from easyinput import read
 
 class ToLower:
@@ -151,7 +151,7 @@ ele.print_ele()
 
 ## 蟒蛇 3
 
-```
+```py
 from easyinput import read_many_lines
 
 print("Reading lines using read many lines : ")

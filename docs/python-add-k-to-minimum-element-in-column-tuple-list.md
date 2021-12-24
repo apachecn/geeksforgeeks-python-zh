@@ -13,7 +13,7 @@
 **方法:使用 `min()` +循环**
 以上功能的组合可以解决这个问题。在本例中，我们使用 min()为每列提取 min，并使用循环编译的逻辑添加 K。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add K to Minimum element in Column Tuple List
 # Using min() + loop
@@ -49,7 +49,7 @@ print("Tuple after modification : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (3, 2), (2, 2), (4, 6), (3, 2), (4, 5)]
 Tuple after modification : [(4, 5), (3, 7), (7, 7), (4, 6), (3, 7), (4, 5)]
 

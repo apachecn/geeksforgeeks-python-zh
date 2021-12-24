@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`home_timeline()`** 方法用于获取认证用户
 
 **示例 1 :** 使用无任何参数的`home_timeline()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -49,7 +49,7 @@ for status in statuses:
 
 **输出:**
 
-```
+```py
 republic
 AapGhumaKeLeLo_
 vijaita
@@ -75,7 +75,7 @@ MixedRaita
 
 **示例 2:** 使用带有计数参数的`home_timeline()`方法仅获取指定数量的状态。
 
-```
+```py
 # number of statuses to be fetched
 count = 5
 
@@ -89,7 +89,7 @@ for status in statuses:
 
 **输出:**
 
-```
+```py
 ANI
 alexkotch
 chrislongview

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > gamma(red, green, blue)
 > ```
 > 
@@ -19,7 +19,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -37,7 +37,7 @@ img.write('2_a.png')
 ![](img/3e15af048c6e61da753f3e86b7e00c50.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

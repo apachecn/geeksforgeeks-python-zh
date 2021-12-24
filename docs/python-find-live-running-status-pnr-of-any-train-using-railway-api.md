@@ -10,7 +10,7 @@
 
 **所需模块:**
 
-```
+```py
 requests
 json
 ```
@@ -21,7 +21,7 @@ json
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find live train
 # status using RAILWAY API
 
@@ -90,7 +90,7 @@ else :
 
 **输出:**
 
-```
+```py
  train name : NEWDELHI JAN SHATABDI EXP
  source station : DEHRADUN
  destination station : NEW DELHI
@@ -101,7 +101,7 @@ else :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find PNR
 # status using RAILWAY API
 
@@ -214,7 +214,7 @@ else:
 
 **输出:**
 
-```
+```py
  train name : DOON EXPRESS
  train number : 13009
  from station : LUCKNOW

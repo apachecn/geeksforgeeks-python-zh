@@ -11,7 +11,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、iO
 
 **如何添加标签？**
 
-```
+```py
 1) import kivy
 2) import kivy App
 3) import label
@@ -26,7 +26,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、iO
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -62,7 +62,7 @@ label.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # change only line 19 else all will same.
 
 # text colour
@@ -80,7 +80,7 @@ l2 = Label(text ="Label is Added on \n screen !!:):)
 
 ## 蟒蛇 3
 
-```
+```py
 # markup text with different colour
 l2 = Label(text ="[color = ff3333][b]'Label'[/b] is Added [/color]\n
                   [color = 3333ff]Screen !!:):):):)[/color]",
@@ -122,7 +122,7 @@ MDLabel 有以下参数-
 
 ## 蟒蛇 3
 
-```
+```py
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
 from kivymd.uix.screen import Screen

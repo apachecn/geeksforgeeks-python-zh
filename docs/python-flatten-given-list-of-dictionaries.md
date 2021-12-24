@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to flatten list of dictionaries
 
@@ -29,7 +29,7 @@ print ("result", str(res))
 
 **Output:** 
 
-```
+```py
 initial dictionary [{'a': 1}, {'b': 2}, {'c': 3}]
 result {'b': 2, 'a': 1, 'c': 3}
 ```
@@ -38,7 +38,7 @@ result {'b': 2, 'a': 1, 'c': 3}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to flatten list of dictionaries
 
@@ -57,7 +57,7 @@ print ("result", str(res))
 
 **Output:** 
 
-```
+```py
 initial dictionary [{'a': 1}, {'b': 2}, {'c': 3}]
 result {'a': 1, 'c': 3, 'b': 2}
 ```
@@ -66,7 +66,7 @@ result {'a': 1, 'c': 3, 'b': 2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to flatten list of dictionaries
 from functools import reduce
@@ -86,7 +86,7 @@ print ("result", str(res))
 
 **Output:** 
 
-```
+```py
 initial dictionary [{'a': 1}, {'b': 2}, {'c': 3}]
 result {'a': 1, 'c': 3, 'b': 2}
 ```
@@ -95,7 +95,7 @@ result {'a': 1, 'c': 3, 'b': 2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to flatten list of
 # dictionaries
@@ -117,7 +117,7 @@ print ("result", str(res))
 
 **Output:** 
 
-```
+```py
 initial dictionary [{'a': 1}, {'b': 2}, {'c': 3}]
 result ChainMap({'a': 1}, {'b': 2}, {'c': 3})
 ```

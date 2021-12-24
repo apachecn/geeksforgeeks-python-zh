@@ -10,7 +10,7 @@
 
 **1)** 首先，模块 Tkinter 将导入为:
 
-```
+```py
 import tkinter as tk 
 ```
 
@@ -18,7 +18,7 @@ import tkinter as tk
 
 现在，将创建一个窗口来显示:
 
-```
+```py
 import tkinter as tk 
 
 window = tk.Tk()
@@ -34,7 +34,7 @@ window.geometry("250x200")
 
 **2)** 下一个代码是分配给滚动条的水平和垂直。
 
-```
+```py
 SVBar = tk.Scrollbar(window)
 SVBar.pack (side = tk.RIGHT,
             fill = "y")
@@ -56,7 +56,7 @@ SHBar.pack (side = tk.BOTTOM, 
 
 **3)** 现在，为窗口制作一个文本框:
 
-```
+```py
 TBox = tk.Text(window,
                height = 500,
                width = 500,
@@ -79,7 +79,7 @@ TBox.pack(expand = 0, fill = tk.BOTH)
 *   **Text()** =它是一个标准 Tkinter 小部件的文本框小部件，用于显示文本。
 *   **pack()** =它是一个几何管理器，用于在将小部件放入父小部件之前将它们组织成块。函数中使用了填充、扩展和侧边等选项。
 
-```
+```py
 SHBar.config(command = TBox.xview)
 SVBar.config(command = TBox.yview)
 ```
@@ -93,14 +93,14 @@ SVBar.config(command = TBox.yview)
 
 要在窗口中插入文本进行显示，请执行以下代码:
 
-```
+```py
 TBox.insert(tk.END, Num_Horizontal)
 TBox.insert(tk.END, Num_Vertical)
 ```
 
 **完整代码:**
 
-```
+```py
 import tkinter as tk
 
 Num_Vertical = ("\nA\nB\nC\nD\nE\nF\nG\n\

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 我们可以使用列表理解技术来解决这个特定的问题，在该技术中，我们可以对每个元组列表进行迭代，并将其与其他元组属性连接起来进行连接。
 
-```
+```py
 # Python3 code to demonstrate
 # Combining tuples in list of tuples
 # Using list comprehension

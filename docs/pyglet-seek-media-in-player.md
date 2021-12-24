@@ -6,7 +6,7 @@
 
 借助下面给出的命令，我们可以创建一个窗口和播放器对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ player = pyglet.media.Player()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 

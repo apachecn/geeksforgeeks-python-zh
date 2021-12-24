@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import logging
 
@@ -32,7 +32,7 @@ except Exception as Argument:
 
 **输出:**
 
-```
+```py
 ERROR:root:Error occurred while printing GeeksforGeeks
 Traceback (most recent call last):
   File "/home/gfg.py", line 3, in 
@@ -44,7 +44,7 @@ NameError: name 'printf' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import logging
 
@@ -66,7 +66,7 @@ except Exception as Argument:
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/gfg.py", line 5, in 
     printf("GeeksforGeeks")

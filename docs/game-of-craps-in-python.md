@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import random     
 import sys

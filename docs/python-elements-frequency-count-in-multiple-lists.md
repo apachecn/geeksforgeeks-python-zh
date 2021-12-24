@@ -7,7 +7,7 @@
 **方法一:利用字典理解+ `set() + count()`**
 这是可以执行这个任务的方式之一。在本文中，我们使用 count()和 set()执行计数任务，并且使用字典理解来扩展逻辑。
 
-```
+```py
 # Python3 code to demonstrate 
 # Elements frequency count in multiple lists
 # using set() + count() + dictionary comprehension

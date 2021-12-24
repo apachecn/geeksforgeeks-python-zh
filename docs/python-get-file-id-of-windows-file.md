@@ -6,7 +6,7 @@
 我们将使用在**窗口命令处理器**cmd.exe 中找到的命令来查找文件的文件 id。为了从 python 中访问/调用 cmd.exe，我们将使用*os 库中的 popen()函数。
 os 库预装在大多数 python 发行版中。如果没有，可以通过在其操作系统的命令处理器中运行以下命令来安装库:
 
-```
+```py
 pip install os
 ```
 
@@ -15,7 +15,7 @@ pip install os
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing popen from the os library
 from os import popen
 

@@ -24,7 +24,7 @@ PyPDF2 是一个作为 PDF 工具包构建的 python 库。它能够提取文档
 
 ## 蟒蛇 3
 
-```
+```py
 import PyPDF2
 
 file = "Enter PDF File Name"
@@ -50,7 +50,7 @@ pdfFileObject.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import PyPDF2
 import re
@@ -89,7 +89,7 @@ pdfFileObject.close()
 
 **输出:**
 
-```
+```py
 ['https://docs.python.org/', 'https://pythonhosted.org/PyPDF2/', 'https://www.geeksforgeeks.org/']
 ```
 
@@ -97,7 +97,7 @@ pdfFileObject.close()
 
 在这个方法中，我们将使用 pdfx 模块。pdfx 模块用于从给定的 PDF 或 PDF URL 中提取 URL、元数据和纯文本。功能:从给定的 PDF 中提取引用和元数据。
 
-```
+```py
 pip install pdfx
 ```
 
@@ -105,7 +105,7 @@ pip install pdfx
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import pdfx
 
@@ -118,7 +118,7 @@ print(pdf.get_references_as_dict())
 
 **输出:-**
 
-```
+```py
 {'url': ['https://www.geeksforgeeks.org/',
   'https://docs.python.org/',
   'https://pythonhosted.org/PyPDF2/',

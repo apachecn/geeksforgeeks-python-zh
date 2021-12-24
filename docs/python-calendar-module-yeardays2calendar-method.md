@@ -5,7 +5,7 @@
 日历模块允许像程序一样输出日历，并提供与日历相关的附加有用功能。日历模块中定义的函数和类使用理想化的日历，当前的公历在两个方向上无限延长。
 **year days 2 calendar()**Python 中的方法用于获取指定年份的数据。周列表中的条目是天数和工作日数的元组。本月以外的天数为零。
 
-```
+```py
 Syntax: yeardays2calendar(year, width)
 
 Parameter: 
@@ -19,7 +19,7 @@ Returns: tuples of day numbers and weekday numbers.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of yeardays2calendar() method
 

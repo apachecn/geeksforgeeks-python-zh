@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isfinite()function
 
@@ -33,7 +33,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -42,7 +42,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isfinite()function
 
@@ -57,7 +57,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 False
 
 ```

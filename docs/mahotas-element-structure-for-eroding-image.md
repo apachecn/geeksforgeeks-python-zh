@@ -6,7 +6,7 @@
 
 在本教程中，我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -16,7 +16,7 @@ mahotas.demos.load('luispedro')
 
 下面是侵蚀元素的默认结构，它是一个 1 叉
 
-```
+```py
 np.array([
         [0, 1, 0],
         [1, 1, 1],
@@ -28,7 +28,7 @@ np.array([
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -70,13 +70,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image threshold using Otsu Method
 ```
 
 ![](img/79fe3111ab757d60fab29e9bac7a7531.png)
 
-```
+```py
 Eroded Image
 ```
 
@@ -86,7 +86,7 @@ Eroded Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -128,13 +128,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image threshold using Otsu Method 
 ```
 
 ![](img/e94af1bab48698148446065d2cf2d725.png)
 
-```
+```py
 Eroded Image
 ```
 

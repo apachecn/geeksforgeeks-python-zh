@@ -13,7 +13,7 @@ Python 3.8 比早期版本包含了许多小的改进。本文概述了 python 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Arguments before / are considered
 # as positional arguments only
 def add(x, y, /, z = 0):

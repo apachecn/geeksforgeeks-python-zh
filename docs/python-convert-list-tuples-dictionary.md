@@ -6,7 +6,7 @@
 在本文中，我们将尝试学习如何将元组列表转换为字典。在这里，我们将找到两种方法。
 **示例:**
 
-```
+```py
 Input : [("akash", 10), ("gaurav", 12), ("anand", 14), 
          ("suraj", 20), ("akhil", 25), ("ashish", 30)]
 Output : {'akash': [10], 'gaurav': [12], 'anand': [14], 
@@ -31,7 +31,7 @@ Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 
 **例 1:**
 
-```
+```py
 # Python code to convert into dictionary
 
 def Convert(tup, di):
@@ -48,7 +48,7 @@ print (Convert(tups, dictionary))
 
 输出:
 
-```
+```py
 {'akash': [10], 'gaurav': [12], 'anand': [14], 
  'ashish': [30], 'akhil': [25], 'suraj': [20]}
 
@@ -56,7 +56,7 @@ print (Convert(tups, dictionary))
 
 **例 2:**
 
-```
+```py
 # Python code to convert into dictionary
 list_1=[("Nakul",93), ("Shivansh",45), ("Samved",65),
            ("Yash",88), ("Vidit",70), ("Pradeep",52)]
@@ -69,7 +69,7 @@ print(dict_1)
 
 输出:
 
-```
+```py
 {'Nakul': [93], 'Shivansh': [45], 'Samved': [65], 'Yash': [88], 'Vidit': [70], 'Pradeep': [52]}
 
 ```
@@ -78,7 +78,7 @@ print(dict_1)
 
 **例 1:**
 
-```
+```py
 # Python code to convert into dictionary
 def Convert(tup, di):
     di = dict(tup)
@@ -93,14 +93,14 @@ print (Convert(tups, dictionary))
 
 输出:
 
-```
+```py
 {'anand': 14, 'akash': 10, 'akhil': 25, 
  'suraj': 20, 'ashish': 30, 'gaurav': 12}
 ```
 
 **例 2:**
 
-```
+```py
 # Python code to convert into dictionary
 
 print (dict([('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]))
@@ -108,7 +108,7 @@ print (dict([('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]))
 
 输出:
 
-```
+```py
 {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 
 ```

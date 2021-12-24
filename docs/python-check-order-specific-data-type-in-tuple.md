@@ -7,7 +7,7 @@
 **方法#1:使用链式`if`和`isinstance()`**
 该任务可以使用上述功能的组合来执行。在这种情况下，我们只需要使用 `isintance()`测试数据类型，并检查我们使用的链式 if 语句的每个元组元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check order specific data type in tuple
 # Using chained if and isinstance()
@@ -31,7 +31,7 @@ print("Does all the instances match required data types in order ? : " + str(res
 
 **Output :**
 
-```
+```py
 The original tuple is : ('gfg', ['is', 'best'], 1)
 Does all the instances match required data types in order ? : True
 

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import urllib
 import urllib.request
 import urllib.parse

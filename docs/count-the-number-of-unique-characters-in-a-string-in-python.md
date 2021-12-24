@@ -19,7 +19,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program for the above approach
 
 # Function to count the number of distinct
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 ****Output:** 
 
-```
+```py
 7
 ```** 
 
@@ -58,7 +58,7 @@ T5**辅助空间:** O(1)**
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program for the above approach
 from collections import Counter
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 ****输出:****
 
-```
+```py
 7
 ```
 

@@ -22,7 +22,7 @@ psycopg2 **count(*)** 从保存某些特定条件的数据库表中返回行数�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 

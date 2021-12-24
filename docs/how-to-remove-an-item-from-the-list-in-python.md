@@ -7,7 +7,7 @@
 **方法 1:使用 del 语句**
 del 语句不是 List 的函数。通过指定要删除的项目(元素)的索引，可以使用 del 语句删除列表中的项目。
 
-```
+```py
 # Python 3 code to
 # remove an item from list
 # using del statement
@@ -31,7 +31,7 @@ print("After deleting the item :", lst)
 **方法二:使用 remove()**
 我们可以通过传递要删除的项的值作为 remove()函数的参数，从列表中删除一个项。
 
-```
+```py
 # Python 3 code to
 # remove an item from list
 # using function remove()
@@ -55,7 +55,7 @@ print("After deleting the item :", lst)
 **方法三:使用 pop()**
 pop()也是一种列表的方法。我们可以移除指定索引处的元素，并使用 pop()获取该元素的值。
 
-```
+```py
 # Python 3 code to
 # remove an item from list
 # using function pop()

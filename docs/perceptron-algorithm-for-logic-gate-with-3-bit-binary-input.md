@@ -36,7 +36,7 @@
 
 ****Python 实现:****
 
-```
+```py
 # importing python library
 import numpy as np
 
@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
 ****Output:**
 
-```
+```py
 Logic Function: AND
 X1    X2    X3    Y
 0    0    0    0.0

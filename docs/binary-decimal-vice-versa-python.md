@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 From decimal to binary
 Input : 8
 Output : 1 0 0 0
@@ -18,7 +18,7 @@ Output : 4
 
 **十进制到二进制**
 
-```
+```py
 Keep calling conversion function with n/2  till n > 1,
 later perform n % 1 to get MSB of converted binary number.  
 Example :- 7
@@ -30,7 +30,7 @@ Therefore, answer is 111.
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to print binary number for the
 # input decimal using recursion
 def decimalToBinary(n):
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 1 0 0 0 
 1 0 0 1 0 
 1 1 1 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to convert Decimal number
 # to Binary number
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 1000
 10010
 111
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 **二进制到十进制**
 
-```
+```py
 Example -: 1011
 1). Take modulo of given binary number with 10\. 
     (1011 % 10 = 1)
@@ -108,7 +108,7 @@ Final Conversion -: (1 * 2^3) + (0 * 2^2) +
 
 ## 蟒蛇 3
 
-```
+```py
 # Function calculates the decimal equivalent
 # to given binary number
 
@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 4
 5
 9
@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to convert Binary number
 # to Decimal number
 
@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 4
 5
 9

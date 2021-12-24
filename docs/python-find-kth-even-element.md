@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Kth Even Element
 # Using list comprehension
@@ -41,7 +41,7 @@ print("The Kth Even Number : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 6, 2, 3, 8, 9, 10, 11]
 The Kth Even Number : 10
 
@@ -53,7 +53,7 @@ The Kth Even Number : 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Kth Even Element
 # Using filter() + lambda
@@ -76,7 +76,7 @@ print("The Kth Even Number : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 6, 2, 3, 8, 9, 10, 11]
 The Kth Even Number : 10
 

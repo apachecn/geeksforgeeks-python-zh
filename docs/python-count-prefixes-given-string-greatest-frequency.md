@@ -6,7 +6,7 @@
 从用户处取两个字母进行比较。第一个字母给出的前缀比第二个字母出现的频率高，这样的前缀会被打印出来，否则结果将是 0。
 **例:**
 
-```
+```py
 Input : string1 = "geek", 
         alphabet1 = "e", alphabet2 = "k"
 Output :
@@ -26,7 +26,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Count all
 # prefixes in given string with
 # greatest frequency
@@ -63,7 +63,7 @@ print(prefix("geeksforgeeks", "e", "g"))
 
 **Output :** 
 
-```
+```py
 gee
 geek
 geeks

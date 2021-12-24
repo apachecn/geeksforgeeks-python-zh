@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from tkinter module
 from tkinter import *
 
@@ -59,7 +59,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from tkinter module
 from tkinter import *
 

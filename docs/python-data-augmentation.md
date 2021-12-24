@@ -73,7 +73,7 @@
 
 **代码:实现数据扩充的 Python 代码**
 
-```
+```py
 # Importing necessary functions
 from keras.preprocessing.image import ImageDataGenerator, 
 array_to_img, img_to_array, load_img
@@ -121,7 +121,7 @@ for batch in datagen.flow(x, batch_size = 1,
 
 **4。使用增强器**进行数据增强
 
-```
+```py
 # Importing necessary library
 import Augmentor
 # Passing the path of the image directory

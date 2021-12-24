@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`code.compile_command()`方法，我们能够使用该方法编译多行代码。
 
-```
+```py
 # import code
 from code import compile_command
 
@@ -27,7 +27,7 @@ compile_command(code) 
 
 **例 2 :**
 
-```
+```py
 # import code
 from code import compile_command
 

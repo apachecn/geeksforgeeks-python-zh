@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的野蛮方式。在这种情况下，我们根据所需的切片迭代形成键值对的列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Lists of List to Dictionary
 # Using loop

@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install tinytag
 
 ```
@@ -31,7 +31,7 @@ pip install tinytag
 
 ## 蟒 3
 
-```
+```py
 # Python3 program to illustrate
 # accessing of audio metadata
 # using tinytag library
@@ -61,7 +61,7 @@ print("TrackTotal: " + str(audio.track_total))
 
 **输出:**
 
-```
+```py
 Title:GeeksForGeeks_Audio
 Artist: Neeraj Rana/GFG
 Genre:Geek Music
@@ -79,7 +79,7 @@ TrackTotal: None
 
 ## 蟒 3
 
-```
+```py
 # Python3 program to illustrate
 # accessing of video metadata
 # using tinytag library
@@ -109,7 +109,7 @@ print("TrackTotal: " + str(video.track_total))
 
 **输出:**
 
-```
+```py
 Title:GeeksForGeeks_Video
 Artist: Neeraj Rana/GFG
 Genre:Geek Video

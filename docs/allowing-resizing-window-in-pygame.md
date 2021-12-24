@@ -10,7 +10,7 @@
 
 可以使用以下命令安装该库:
 
-```
+```py
 pip install pygame 
 ```
 
@@ -27,7 +27,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # import package pygame
 import pygame
 
@@ -67,7 +67,7 @@ pygame.quit()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package pygame
 import pygame
 

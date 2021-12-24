@@ -6,7 +6,7 @@
 
 **1。会有什么产出？**
 
-```
+```py
 dictionary = {"geek":10, "for":45, "geeks": 90}
 print("geek" in dictionary)
 ```
@@ -18,7 +18,7 @@ print("geek" in dictionary)
 3.  真实的
 4.  错误
 
-```
+```py
 Output:
 3\. True
 ```
@@ -27,7 +27,7 @@ Output:
 
 **2。会有什么产出？**
 
-```
+```py
 dictionary ={1:"geek", 2:"for", 3:"geeks"}
 del dictionary
 ```
@@ -39,7 +39,7 @@ del dictionary
 3.  Del delete the key in the dictionary
 4.  Del delete the value in the dictionary
 
-```
+```py
 Output:
 1\. del deletes the entire dictionary
 ```
@@ -48,7 +48,7 @@ Output:
 
 **3。会有什么产出？**
 
-```
+```py
 a = {}
 a[1] = 1
 a['1'] = 2
@@ -66,7 +66,7 @@ print(count)
 3.  one
 4.  mistake
 
-```
+```py
 Output:
 1\. 4
 ```
@@ -75,7 +75,7 @@ Output:
 
 **4。会有什么产出？**
 
-```
+```py
 test = {1:'A', 2:'B', 3:'C'}
 del test[1]
 test[1] = 'D'
@@ -90,7 +90,7 @@ print(len(test))
 3.  Zero
 4.  mistake
 
-```
+```py
 Output:
 1\. 2
 ```
@@ -99,7 +99,7 @@ Output:
 
 **5。会有什么产出？**
 
-```
+```py
 a ={}
 a['a']= 1
 a['b']=[2, 3, 4]
@@ -113,7 +113,7 @@ print(a)
 3.  {'b': [2]，' a': [3]}
 4.  mistake
 
-```
+```py
 Output:
 2\. {'a': 1, 'b': [2, 3, 4]}
 ```

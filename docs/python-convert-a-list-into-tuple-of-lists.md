@@ -4,7 +4,7 @@
 
 给我们一个列表，任务是将列表转换成列表的元组。
 
-```
+```py
 Input: ['Geeks', 'For', 'geeks']
 Output: (['Geeks'], ['For'], ['geeks'])
 
@@ -15,7 +15,7 @@ Output: (['first'], ['second'], ['third'])
 
 **方法#1 :** 使用理解
 
-```
+```py
 # Python code to convert a list into tuple of lists
 
 # Initialisation of list
@@ -30,7 +30,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 (['Geeks'], ['for'], ['geeks'])
 
 ```

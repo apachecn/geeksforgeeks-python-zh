@@ -6,7 +6,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 import os  # Using system functions
 
 import shutil # Moving file to different folders.
@@ -62,7 +62,7 @@ for files, extension in zip(l, l2):
 
 **Output:**
 
-```
+```py
 ['arrange.py', 'mydata.pdf', 'python.exe', 'resume.doc'] ['py', 'pdf', 'exe', 'doc']
 py arrange.py
 pdf mydata.pdf

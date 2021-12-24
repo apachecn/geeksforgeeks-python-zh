@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # import tkinter module
 from tkinter import * from tkinter.ttk import *
 
@@ -48,7 +48,7 @@ mainloop()
 
 **代码#2:** 创建如上图所示的布局。
 
-```
+```py
 # import tkinter module
 from tkinter import * from tkinter.ttk import *
 

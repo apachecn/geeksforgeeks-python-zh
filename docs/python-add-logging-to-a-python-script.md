@@ -6,7 +6,7 @@
 
 **代码#1:使用日志模块将日志添加到一个简单的程序中**
 
-```
+```py
 import logging
 
 def main():
@@ -37,7 +37,7 @@ main()
 
 如果运行上面的代码，文件 **app.log** 的内容如下–
 
-```
+```py
 CRITICAL:root:Host www.python.org unknown
 ERROR:root:Could not find 'spam'
 ```
@@ -46,7 +46,7 @@ ERROR:root:Could not find 'spam'
 
 **代码#2 :**
 
-```
+```py
 logging.basicConfig( 
         filename = 'app.log', 
         level = logging.WARNING, 
@@ -55,7 +55,7 @@ logging.basicConfig( 
 
 **输出:**
 
-```
+```py
 CRITICAL:2012-11-20 12:27:13, 595:Host www.python.org unknown
 ERROR:2012-11-20 12:27:13, 595:Could not find 'spam'
 WARNING:2012-11-20 12:27:13, 595:Feature is deprecated
@@ -65,7 +65,7 @@ WARNING:2012-11-20 12:27:13, 595:Feature is deprecated
 
 **代码#3 :**
 
-```
+```py
 import logging
 import logging.config
 
@@ -77,7 +77,7 @@ def main():
 
 现在创建一个如下所示的配置文件–
 
-```
+```py
 [loggers]
 keys=root
 

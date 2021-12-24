@@ -7,7 +7,7 @@
 **方法#1:使用`join() + zip()` +生成器表达式**
 以上功能的组合可以解决这个问题。在本例中，我们使用 zip()执行连接连续字符的任务，生成器表达式用于提供交换逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive element swapping in String
 # using join() + zip() + generator expression
@@ -28,7 +28,7 @@ print("String after Consecutive Swapping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : gfgisbesty
 String after Consecutive Swapping : fgigbsseyt
 

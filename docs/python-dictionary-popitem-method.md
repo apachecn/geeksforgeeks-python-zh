@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of popitem()
 
@@ -45,7 +45,7 @@ print("The dictionary after removal : " + str(test_dict))
 
 **输出:**
 
-```
+```py
 The dictionary before deletion : {'Nikhil': 7, 'Akshat': 1, 'Akash': 2}
 The arbitrary pair returned is : ('Akash', 2)
 The dictionary after removal : {'Nikhil': 7, 'Akshat': 1}
@@ -57,7 +57,7 @@ The dictionary after removal : {'Nikhil': 7, 'Akshat': 1}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # application of popitem()
 
@@ -79,7 +79,7 @@ print("The dictionary after deletion : " + str(test_dict))
 
 **输出:**
 
-```
+```py
 The dictionary before deletion : {'Nikhil': 7, 'Akshat': 1, 'Akash': 2}
 Rank 1 ('Akash', 2)
 Rank 2 ('Akshat', 1)
@@ -91,7 +91,7 @@ The dictionary after deletion : {}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get random dictionary pair in dictionary
 # Using popitem()
@@ -112,7 +112,7 @@ print("The random pair is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'best': 3, 'is': 2}
 The random pair is : ('is', 2)
 ```

@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`friends_ids()`** 方法用于获取用户所有�
 
 **例 1 :** 使用`friends_ids()`方法，屏幕名称。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ for friend in friends:
 
 **输出:**
 
-```
+```py
 geeksforgeeks is following :
 Topcoder
 HackerEarth
@@ -67,7 +67,7 @@ sandeep_jain
 
 **示例 2 :** 使用带用户标识的`friends_ids()`方法。
 
-```
+```py
 # user ID of the user
 user_id = 145125358
 
@@ -79,7 +79,7 @@ print(api.get_user(user_id).screen_name + " has " + str(len(friends)) + " friend
 
 **输出:**
 
-```
+```py
 SrBachchan has 1829 friends.
 
 ```

@@ -8,7 +8,7 @@ Coden 是一个基于代码、秘密代码的库。该库可用于编码和解�
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install coden
 
 ```
@@ -21,7 +21,7 @@ pip install coden
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_decimal_number = 16227
@@ -31,7 +31,7 @@ print(binary_output)
 
 **输出:**
 
-```
+```py
 11111101100011
 ```
 
@@ -41,7 +41,7 @@ print(binary_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_decimal_number = 165
@@ -51,7 +51,7 @@ print(hexadecimal_output)
 
 **输出:**
 
-```
+```py
 a5
 ```
 
@@ -61,7 +61,7 @@ a5
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_binary_number = 110100
@@ -71,7 +71,7 @@ print(hexadecimal_output)
 
 **输出:**
 
-```
+```py
 34
 ```
 
@@ -81,7 +81,7 @@ print(hexadecimal_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_binary_number = 10010
@@ -91,7 +91,7 @@ print(decimal_output)
 
 **输出:**
 
-```
+```py
 18
 ```
 
@@ -101,7 +101,7 @@ print(decimal_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_hexadecimal_number = "f1ff"
@@ -111,7 +111,7 @@ print(binary_output)
 
 **输出:**
 
-```
+```py
 1111000111111111
 ```
 
@@ -121,7 +121,7 @@ print(binary_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a_hexadecimal_number = "ffea1a"
@@ -131,7 +131,7 @@ print(decimal_output)
 
 **输出:**
 
-```
+```py
 16771610
 ```
 
@@ -143,7 +143,7 @@ print(decimal_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a = "f"
@@ -157,7 +157,7 @@ print(random_hexadecimal_output)
 
 **输出:**
 
-```
+```py
 15
 ```
 
@@ -167,7 +167,7 @@ print(random_hexadecimal_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 a = 101
@@ -181,7 +181,7 @@ print(random_hexadecimal_output)
 
 **输出:**
 
-```
+```py
 110
 ```
 
@@ -191,7 +191,7 @@ print(random_hexadecimal_output)
 
 ## 蟒蛇 3
 
-```
+```py
 import coden
 
 # returns random hexadecimal color
@@ -201,6 +201,6 @@ print(random_hexadecimal_color_output)
 
 **输出:**
 
-```
+```py
 #63783A
 ```

@@ -5,7 +5,7 @@
 给定一些元素的未排序列表(可能是整数，也可能不是整数)，使用字典查找列表中每个不同元素的频率。
 **例:**
 
-```
+```py
 Input : [1, 1, 1, 5, 5, 3, 1, 3, 3, 1,
                   4, 4, 4, 2, 2, 2, 2]
 Output : 1 : 5
@@ -21,7 +21,7 @@ Explanation : Here 1 occurs 5 times, 2
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to count the frequency of
 # elements in a list using a dictionary
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
  1 :  5
  2 :  4
  3 :  3
@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to count the frequency of
 # elements in a list using a dictionary
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
  1 :  5
  2 :  4
  3 :  3
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to count the frequency of
 # elements in a list using a dictionary
 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 {1: 5, 5: 2, 3: 3, 4: 3, 2: 4}
 ```
 

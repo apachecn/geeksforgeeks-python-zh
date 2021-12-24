@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libraries
 import pandas as pd
 import numpy as np
@@ -57,7 +57,7 @@ print(gfg2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libraries
 import pandas as pd
 import numpy as np
@@ -95,7 +95,7 @@ print(dataframe1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libraries
 import pandas as pd
 import numpy as np

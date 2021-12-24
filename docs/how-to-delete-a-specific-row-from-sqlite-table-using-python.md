@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -37,7 +37,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Ship table created successfully
 ```
 
@@ -47,7 +47,7 @@ Python 程序插入数据和删除数据，其中 2 是发货 id。
 
 ## 蟒 3
 
-```
+```py
 # import sqlite module database
 import sqlite3
 

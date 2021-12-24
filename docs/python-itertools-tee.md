@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 tee(iterator, count)
 ```
 
@@ -21,7 +21,7 @@ tee(iterator, count)
 
 **例 1:**
 
-```
+```py
 # Python code to demonstrate the working of tee() 
 
 # importing "itertools" for iterator operations 
@@ -45,7 +45,7 @@ for i in range (0, 3): 
 
 **输出:**
 
-```
+```py
 The iterators are : 
 [2, 4, 6, 7, 8, 10, 20]
 [2, 4, 6, 7, 8, 10, 20]
@@ -55,7 +55,7 @@ The iterators are :
 
 **例 2:**
 
-```
+```py
 # Python code to demonstrate the working of tee() 
 
 # importing "itertools" for iterator operations 
@@ -73,7 +73,7 @@ print (list(iterator2)) 
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7]
 []
 [1, 2, 3, 4, 5, 6, 7]
@@ -82,7 +82,7 @@ print (list(iterator2)) 
 
 **例 3:**
 
-```
+```py
 # Python code to demonstrate the working of tee() 
 
 # importing "itertools" for iterator operations 
@@ -97,7 +97,7 @@ for i in itertools.tee(['a', 'b', 'c', 'd', 'e', 'f', 'g'], 4):
 
 **输出:**
 
-```
+```py
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']

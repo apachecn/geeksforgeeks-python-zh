@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross List Sync on duplicate elements removal
 # Using loop + dict()
@@ -49,7 +49,7 @@ print("Sync List : " + str(res2))
 
 **Output : **
 
-```
+```py
 The original list 1 : [2, 2, 3, 4, 4, 4, 5, 5, 6, 6]
 The original list 2 : [8, 3, 7, 5, 4, 1, 0, 9, 4, 2]
 List 1 : [2, 3, 4, 5, 6]
@@ -61,7 +61,7 @@ Sync List : [8, 7, 5, 0, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross List Sync on duplicate elements removal
 # Using loop + zip()
@@ -91,7 +91,7 @@ print("Sync List : " + str(res2))
 
 **Output : **
 
-```
+```py
 The original list 1 : [2, 2, 3, 4, 4, 4, 5, 5, 6, 6]
 The original list 2 : [8, 3, 7, 5, 4, 1, 0, 9, 4, 2]
 List 1 : [2, 3, 4, 5, 6]

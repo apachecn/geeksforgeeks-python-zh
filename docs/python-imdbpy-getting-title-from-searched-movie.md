@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -35,7 +35,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 [Movie id:8142208[http] title:_Jab Taare Utare Zameen Par (2017)_]
 Jab Taare Utare Zameen Par
 ```
@@ -44,7 +44,7 @@ Jab Taare Utare Zameen Par
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -64,7 +64,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Udta Punjab
 Diljit Dosanjh (Udta Punjab)
 ```

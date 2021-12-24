@@ -6,13 +6,13 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是鼠标释放事件的语法，这个方法在这个事件被触发时被调用
 
-```
+```py
 @window.event       
 def on_mouse_release(x, y, button, modifiers):
     print("Mouse button release")
@@ -22,7 +22,7 @@ def on_mouse_release(x, y, button, modifiers):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -96,7 +96,7 @@ pyglet.app.run()
 
 <video class="wp-video-shortcode" id="video-481527-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200906043935/Geeksforgeeks-2020-09-06-04-35-551.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200906043935/Geeksforgeeks-2020-09-06-04-35-551.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200906043935/Geeksforgeeks-2020-09-06-04-35-551.mp4)</video>
 
-```
+```py
 Mouse button released
 Mouse button released
 Mouse button released

@@ -16,7 +16,7 @@
 
 *   **Scipy** :用于获取积分极限之间的随机值。可以使用以下方式安装:
 
-```
+```py
 pip install scipy # for windows
 or
 pip3 install scipy # for linux and macos
@@ -24,7 +24,7 @@ pip3 install scipy # for linux and macos
 
 *   [**Numpy**](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/) :用于组成数组，存储不同的值。可以使用以下方式安装:
 
-```
+```py
 pip install numpy # for windows
 or 
 pip3 install numpy # for linux and macos
@@ -32,7 +32,7 @@ pip3 install numpy # for linux and macos
 
 *   [**Matplotlib**](https://www.geeksforgeeks.org/python-introduction-matplotlib/) :用于可视化直方图和蒙特卡罗积分的结果。
 
-```
+```py
 pip install matplotlib # for windows
 or 
 pip3 install matplotlib # for linux and macos
@@ -48,7 +48,7 @@ pip3 install matplotlib # for linux and macos
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from scipy import random
 import numpy as np
@@ -98,7 +98,7 @@ print ("The value calculated by monte carlo integration is {}.".format(ans))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from scipy import random
 import numpy as np
@@ -175,7 +175,7 @@ plt.show() # shows the plot
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from scipy import random
 import numpy as np

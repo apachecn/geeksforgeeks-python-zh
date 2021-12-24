@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # a time object with the same
 # specified hour, minute, second,
@@ -39,7 +39,7 @@ print("New time object:", B)
 
 **Output**
 
-```
+```py
 Original date time object: 2021-08-03 10:11:12.000013
 New time object: 10:11:12.000013
 
@@ -49,7 +49,7 @@ New time object: 10:11:12.000013
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # a time object with the same
 # specified hour, minute, second,
@@ -74,7 +74,7 @@ print("New current time object:", B)
 
 **Output**
 
-```
+```py
 Original current date time object: 2021-08-05 07:41:24.147260
 New current time object: 07:41:24.147260
 
@@ -84,7 +84,7 @@ New current time object: 07:41:24.147260
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # a time object with the same
 # specified hour, minute, second,
@@ -114,7 +114,7 @@ print("Time object without tzinfo attributes:", B.time())
 
 **Output**
 
-```
+```py
 Original datetime object: 2012-01-02 03:10:15.000020+12:12
 Time object with tzinfo attributes: 03:10:15.000020+12:12
 Time object without tzinfo attributes: 03:10:15.000020

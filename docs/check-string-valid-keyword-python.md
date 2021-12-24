@@ -21,7 +21,7 @@ Python 在其语言中定义了一个内置模块“**关键字**”，它处理
 
 ## 计算机编程语言
 
-```
+```py
 #Instead of writing this massive Python code
 #we can also code this in a different way
 
@@ -44,7 +44,7 @@ for i in range(len(keys)):
 
 输出:
 
-```
+```py
 for is a python keyword
 geeksforgeeks is not a python keyword
 elif is a python keyword
@@ -70,7 +70,7 @@ vaishnavi is not a python keyword
 
 ## 计算机编程语言
 
-```
+```py
 #Python code to demonstrate working of iskeyword()
 
 # importing "keyword" for keyword operations
@@ -83,7 +83,7 @@ print (keyword.kwlist)
 
 输出:
 
-```
+```py
 The list of keywords is : 
 ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 
 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 

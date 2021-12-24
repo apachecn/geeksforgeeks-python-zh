@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the "tarfile" module
 import tarfile
 
@@ -56,7 +56,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the "tarfile" module
 import tarfile
 
@@ -81,7 +81,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the "tarfile" module
 import tarfile
 

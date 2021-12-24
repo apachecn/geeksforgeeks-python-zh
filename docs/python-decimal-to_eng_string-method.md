@@ -12,7 +12,7 @@
 
 **代码# 1:to _ eng _ string()方法示例**
 
-```
+```py
 # Python Program explaining 
 # to_eng_string() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with to_eng_string() method : ", b.to_eng_string())
 
 **输出:**
 
-```
+```py
 Decimal value a :  1.8989890000000000380708797820261679589748382568359375
 Decimal value b :  2
 
@@ -47,7 +47,7 @@ Decimal b with to_eng_string() method :  2
 
 **代码# 2:to _ eng _ string()方法示例**
 
-```
+```py
 # Python Program explaining 
 # to_eng_string() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with to_eng_string() method : ", b.to_eng_string())
 
 **输出:**
 
-```
+```py
 Decimal value a :  3.140000000000000124344978758017532527446746826171875
 Decimal value b :  15
 

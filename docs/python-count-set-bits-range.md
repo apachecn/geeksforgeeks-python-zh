@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : n = 42, l = 2, r = 5
 Output : 2
 (42)<sub>10</sub> = (101010)2
@@ -25,7 +25,7 @@ Output : 4
 2.  Now delete the first two characters of the output binary string, because by default, the bin function appends' 0b' to the output string as a prefix.
 3.  Starting from index **(l-1)** , the string is sliced into index **r** and inverted, and then the setting bits in the middle are counted.
 
-```
+```py
 # Function to count set bits in a range
 
 def countSetBits(n,l,r):
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 2
 
 ```

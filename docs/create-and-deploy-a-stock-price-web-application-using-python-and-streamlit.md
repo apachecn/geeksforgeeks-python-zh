@@ -8,13 +8,13 @@
 
 Streamlit 是开源的，任何人都可以贡献它，但首先要在本地安装 Streamlit。
 
-```
+```py
 pip install streamlit
 ```
 
 简化确保以最快的方式构建和共享数据应用程序。股票将永远是未来几年的热门话题。每个收入不错的人都喜欢投资股市。股票市场是上市公司股票交易的地方。因为我们正在处理股票价格的细节，我们可能需要网页废料的细节。但据我们所知，有一个这样的 Python 库处理股票价格。总之，雅虎金融与在线广告公司合作，为您提供尽可能相关和有用的广告。
 
-```
+```py
 pip install yfinance
 ```
 
@@ -22,7 +22,7 @@ pip install yfinance
 
 首先导入网络应用程序所需的必要模块。
 
-```
+```py
 import streamlit as st
 import yfinance as finance
 ```
@@ -31,7 +31,7 @@ import yfinance as finance
 
 **设置标题名称、侧栏标题和副标题:**
 
-```
+```py
 st.title("Build and Deploy Stock Market App Using Streamlit")
 st.header("A Basic Data Science Web Application")
 st.sidebar.header("Geeksforgeeks \n TrueGeeks")
@@ -47,7 +47,7 @@ yfinance 允许您在一定时间内检查更新。yfinance 归还熊猫。具�
 
 ## 计算机编程语言
 
-```
+```py
 import streamlit as st
 import yfinance as finance
 
@@ -92,7 +92,7 @@ st.line_chart(data2.values)
 
 ### 运行代码的命令
 
-```
+```py
  streamlit run myapp.py
 ```
 

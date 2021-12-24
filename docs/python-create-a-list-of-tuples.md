@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create tuples with college id and
 # name and store in a list
 data = [(1, 'sravan'), (2, 'ojaswi'), (3, 'bobby'),
@@ -44,7 +44,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create two lists  with college id and name
 roll_no = [1, 2, 3, 4, 5]
 name = ['sravan', 'ojaswi', 'bobby', 'rohith', 'gnanesh']
@@ -74,7 +74,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list with name
 name = ['sravan', 'ojaswi', 'bobby', 'rohith', 'gnanesh']
 
@@ -103,7 +103,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list with name
 name = [['sravan'], ['ojaswi'], ['bobby'], 
         ['rohith'], ['gnanesh']]
@@ -134,7 +134,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list with name
 name = [['sravan'], ['ojaswi'], ['bobby'],
         ['rohith'], ['gnanesh']]

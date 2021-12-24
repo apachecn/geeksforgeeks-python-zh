@@ -10,7 +10,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 线条是顶点画布指令。它允许通过点画线。这段代码展示了如何使用/绘制扩展的线条画，如圆、椭圆、矩形和贝塞尔曲线等。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -29,7 +29,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # kivy Lines Demo
 
 # import kivy module 
@@ -108,7 +108,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Line.kv file of the code
 
 # Creating Different types of Lines(or shapes through line)

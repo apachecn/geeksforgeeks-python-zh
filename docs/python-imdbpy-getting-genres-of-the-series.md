@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(genre)
 
 **输出:**
 
-```
+```py
 Sacred Games
 ['Action', 'Crime', 'Drama', 'Thriller']
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -68,7 +68,7 @@ print(series)
 print(genre)
 ```
 
-```
+```py
 Mirzapur
 ['Action', 'Crime', 'Drama', 'Thriller']
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `isdigit()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们首先将浮点数转换为字符串，然后迭代它，将每个数字转换为整数，并使用列表理解构建列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Float to digit list
 # using  list comprehension + isdigit()
@@ -28,7 +28,7 @@ print("List of floating numbers is : " + str(res))
 
 **Output :**
 
-```
+```py
 The floating number is : 6.456
 List of floating numbers is : [6, 4, 5, 6]
 

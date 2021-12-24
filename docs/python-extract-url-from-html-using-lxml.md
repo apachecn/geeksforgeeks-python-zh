@@ -10,7 +10,7 @@
 
 **安装命令–**
 
-```
+```py
 sudo apt-get install python-lxml *or*
 pip install lxml
 ```
@@ -27,7 +27,7 @@ pip install lxml
 
 **Code #1 :**
 
-```
+```py
 # importing library
 from lxml import html
 string_document = html.fromstring('hi <a href ="/world">geeks</a>')
@@ -41,14 +41,14 @@ print ("Length of the link : ", len(link)
 
 **输出:**
 
-```
+```py
 Length of the link : 1
 
 ```
 
 **代码#2:检索`iterlinks()`元组**
 
-```
+```py
 (element, attribute, link, pos) = link[0]
 
 print ("attribute : ", attribute)
@@ -58,7 +58,7 @@ print ("\nposition : ", position)
 
 **输出:**
 
-```
+```py
 attribute : 'href'
 
 link : '/world'
@@ -77,7 +77,7 @@ position : 0
 
 **代码#3:元素树工作**
 
-```
+```py
 import requests
 import lxml.html
 
@@ -98,7 +98,7 @@ print("\nParent's tag title:", tree_title_element.getparent().tag)
 
 **输出:**
 
-```
+```py
 Tag title :  title
 
 Text title : GeeksforGeeks | A computer science portal for geeks
@@ -116,7 +116,7 @@ Parent's tag title: head
 
 **代码#4:请求网络服务器**
 
-```
+```py
 import requests
 
 web_response = requests.get('https://www.geeksforgeeks.org/')
@@ -126,7 +126,7 @@ print("Response from web server : \n", web_response.text)
 **输出:**
 它会生成一个巨大的脚本，这里只增加了一个样本。
 
-```
+```py
 Response from web server : 
 
 <!DOCTYPE html>

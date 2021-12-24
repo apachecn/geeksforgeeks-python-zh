@@ -17,7 +17,7 @@
 我们将转换以下图像:
 ![](img/438d0d25a9fe8b715f357e0aa22b8c04.png)
 
-```
+```py
 # importing the module
 from PIL import Image
 import os
@@ -38,7 +38,7 @@ print(os.path.getsize("geeksforgeeks_jpg.jpg"))
 
 **输出:**
 
-```
+```py
 The size of the image before conversion : 26617
 The size of the image after conversion : 18118
 

@@ -12,7 +12,7 @@
 
 **例:**
 
-```
+```py
 # A Sample class with init method  
 class Person:  
 
@@ -30,7 +30,7 @@ p.say_hi()  
 
 **输出:**
 
-```
+```py
 Hello, my name is Nikhil
 
 ```
@@ -41,7 +41,7 @@ Hello, my name is Nikhil
 
 **例:**
 
-```
+```py
 # A Sample class with init method  
 class Person:  
 
@@ -65,7 +65,7 @@ p3.say_hi()
 
 **输出:**
 
-```
+```py
 Hello, my name is Nikhil
 Hello, my name is Abhinav
 Hello, my name is Anshul
@@ -76,7 +76,7 @@ Hello, my name is Anshul
 
 [继承](https://www.geeksforgeeks.org/inheritance-in-python/)是一个类从另一个类派生或继承属性的能力。让我们考虑下面的例子，看看 __init__ 是如何在继承中工作的。
 
-```
+```py
 # Python program to
 # demonstrate init with
 # inheritance
@@ -98,7 +98,7 @@ obj = B("Something")
 
 **输出:**
 
-```
+```py
 A init called
 B init called
 
@@ -108,7 +108,7 @@ B init called
 
 **例:**
 
-```
+```py
 # Python program to
 # demonstrate init with
 # inheritance
@@ -130,7 +130,7 @@ obj = B("Something")
 
 **输出:**
 
-```
+```py
 B init called
 A init called
 

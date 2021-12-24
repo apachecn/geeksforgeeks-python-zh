@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing thread module
 from threading import *
 
@@ -45,7 +45,7 @@ t.start()
 
 **输出:**
 
-```
+```py
 Thread-1
 0
 1
@@ -66,7 +66,7 @@ Thread-1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing thread module
 from threading import *
 
@@ -92,7 +92,7 @@ t.start()
 
 **输出:**
 
-```
+```py
 Thread-1 
 10 
 12 

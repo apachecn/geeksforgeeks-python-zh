@@ -8,7 +8,7 @@
 当时间到达您给定的时间值时，它会自动打开您在网络浏览器中请求的网址。
 在这段代码中，我们将导入两个 python 模块——Time 和 Webbrowser。
 
-```
+```py
 # Import the time module, it provides various time-related 
 # functions. 
 import time 

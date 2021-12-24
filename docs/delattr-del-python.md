@@ -7,7 +7,7 @@ delaattr
 **delattr()** 方法用于在对象事先许可的情况下，从对象中删除命名属性。
 **语法:**
 
-```
+```py
 delattr(object, name)
 
 The function takes only two parameter:
@@ -26,7 +26,7 @@ only if the object allows it.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate delattr()
 class Geek:
   stu1 = "Henry"
@@ -58,7 +58,7 @@ print('Fifth = ',names.stu5)
 
 输出:
 
-```
+```py
 Students before delattr()--
 First =  Henry
 Second =  Zack
@@ -74,7 +74,7 @@ Fourth =  Amy
 
 当执行移动到程序的最后一行时，即调用第五个属性时，编译器会引发错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/028e8526d603bccb30e9aeb7ece9e1eb.py", line 25, in 
     print('Fifth = ',names.stu5)
@@ -87,7 +87,7 @@ Python 中还有另一个运算符，它的工作类似于 delattr()方法。是
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate del()
 class Geek:
   stu1 = "Henry"
@@ -119,7 +119,7 @@ print('Fifth = ',names.stu5)
 
 输出:
 
-```
+```py
 Students before del--
 First =  Henry
 Second =  Zack
@@ -135,7 +135,7 @@ Fourth =  Amy
 
 结果相同，但有一个错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/7c239eef9b897e964108c701f1f94c8a.py", line 26, in 
     print('Fifth = ',names.stu5)

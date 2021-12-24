@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = [0, 5, 10, 15, 20]
 for i in a:
     if i % 2 == 0:
@@ -43,7 +43,7 @@ for i in a:
 
 ## 蟒蛇 3
 
-```
+```py
 iter_list = iter(['Geeks', 'For', 'Geeks'])
 print(next(iter_list))
 print(next(iter_list))
@@ -66,7 +66,7 @@ print(next(iter_list))
 
 ## 蟒蛇 3
 
-```
+```py
 def sq_numbers(n):
     for i in range(1, n+1):
         yield i*i

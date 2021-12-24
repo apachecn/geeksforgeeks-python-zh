@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import json
 
@@ -31,7 +31,7 @@ print("Datatype after deserialization : "
 
 **输出:**
 
-```
+```py
 Datatype before deserialization : 
 Datatype after deserialization : 
 ```
@@ -43,7 +43,7 @@ Datatype after deserialization :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import json
 
@@ -62,7 +62,7 @@ print("Datatype after deserialization : "
 
 **输出:**
 
-```
+```py
 Datatype before deserialization : 
 Datatype after deserialization : 
 ```

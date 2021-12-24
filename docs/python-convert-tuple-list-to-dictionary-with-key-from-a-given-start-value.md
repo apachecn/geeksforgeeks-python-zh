@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [(4, 5), (1, 3), (9, 4), (8, 2), (10, 1)]
 
@@ -50,7 +50,7 @@ print("Constructed dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [(4, 5), (1, 3), (9, 4), (8, 2), (10, 1)]
 

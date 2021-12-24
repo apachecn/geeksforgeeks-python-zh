@@ -57,7 +57,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.stats import norm
 import numpy as np
 

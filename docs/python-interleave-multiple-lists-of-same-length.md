@@ -9,7 +9,7 @@
 **方法#1:使用`map() + list comprehension`**
 `map()`处理列表的交错，交替插入的任务由简写代码的列表理解部分完成。只在 Python 2 中有效。
 
-```
+```py
 # Python2 code to demonstrate 
 # to interleave lists
 # using map() + list comprehension
@@ -33,7 +33,7 @@ print ("The interleaved list is : " + str(res))
 
 **Output:**
 
-```
+```py
 Original list 1 : [1, 4, 5]
 Original list 2 : [3, 8, 9]
 The interleaved list is : [1, 3, 4, 8, 5, 9]
@@ -43,7 +43,7 @@ The interleaved list is : [1, 3, 4, 8, 5, 9]
 **方法 2:使用列表切片**
 python 的列表切片的力量也可以用来执行这个特定的任务。我们首先将一个列表扩展到另一个列表，然后允许原始列表成为结果列表的期望替代索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to interleave lists
 # using list slicing
@@ -68,7 +68,7 @@ print ("The interleaved list is : " + str(res))
 
 **Output:**
 
-```
+```py
 Original list 1 : [1, 4, 5]
 Original list 2 : [3, 8, 9]
 The interleaved list is : [1, 3, 4, 8, 5, 9]
@@ -78,7 +78,7 @@ The interleaved list is : [1, 3, 4, 8, 5, 9]
 **方法 3:使用`itertools.chain() + zip()`**
 `zip()`可以链接两个列表，然后`chain()`可以根据需要执行元素的交替追加。这是执行这项任务最有效的方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to interleave lists
 # using zip() + itertools.chain()
@@ -102,7 +102,7 @@ print ("The interleaved list is : " + str(res))
 
 **Output:**
 
-```
+```py
 Original list 1 : [1, 4, 5]
 Original list 2 : [3, 8, 9]
 The interleaved list is : [1, 3, 4, 8, 5, 9]

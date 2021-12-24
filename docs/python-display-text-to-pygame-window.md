@@ -7,7 +7,7 @@
 
 在基于 windows 的系统上安装 **pygame** 的命令:
 
-```
+```py
 pip install pygame
 ```
 
@@ -25,7 +25,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame module in this program
 import pygame
 
@@ -123,7 +123,7 @@ while True:
 
 ## 计算机编程语言
 
-```
+```py
 # import pygame module in this program
 import pygame
 

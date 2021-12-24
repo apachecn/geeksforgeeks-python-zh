@@ -7,14 +7,14 @@
 安装:[帮助链接](https://anaconda.org/conda-forge/faker)
 打开蟒蛇提示命令安装:
 
-```
+```py
 conda install -c conda-forge faker 
 
 ```
 
 **进口包装**
 
-```
+```py
  from faker import Faker
 ```
 
@@ -22,7 +22,7 @@ Faker 具有打印/获取大量不同伪造数据的能力，例如，它可以�
 
 最常用的 faker 命令
 
-```
+```py
 fake.name()
 fake.address()
 fake.email()
@@ -31,7 +31,7 @@ fake.country()
 
 ```
 
-```
+```py
 from faker import Faker
 fake = Faker()
 print (fake.email())
@@ -42,7 +42,7 @@ print(fake.latitude(), fake.longitude())
 print(fake.url())
 ```
 
-```
+```py
 OUTPUT:(Different every time)
 vwilson@hotmail.com
 Belgium
@@ -55,7 +55,7 @@ http://www.turner.com/
 
 **应用 1:创建一个包含学生姓名、地址、位置坐标和学生号的 100 名学生的 JSON . JSON。**
 
-```
+```py
 from faker import Faker 
 
 # To create a json file
@@ -95,7 +95,7 @@ main() 
 # having 10 students data. 
 ```
 
-```
+```py
 OUTPUT 
 {0: {'id': 20, 'name': 'Benjamin Washington', 'address': 'USCGC Garrison\nFPO AP 48025-9793', 'latitude': '-68.975800', 'longitude': '153.009590'}, 1: {'id': 2, 'name': 'Christopher Howell', 'address': '7778 Sarah Center Apt. 663\nLawrenceport, WY 78084', 'latitude': '-21.8141675', 'longitude': '-122.830387'}, 2: {'id': 67, 'name': 'Fernando Fuentes', 'address': '7756 Bradford Plain Suite 997\nEast Chelseaburgh, KY 75776', 'latitude': '-82.791227', 'longitude': '-42.964122'}, 3: {'id': 86, 'name': 'Patrick Torres', 'address': 'Unit 5217 Box 7477\nDPO AE 82354-0160', 'latitude': '34.949096', 'longitude': '121.715387'}, 4: {'id': 11, 'name': 'James Hines', 'address': '4567 Donald Grove\nWilliamhaven, MO 85891', 'latitude': '86.7208035', 'longitude': '-48.103935'}, 5: {'id': 33, 'name': 'James Miller', 'address': 'PSC 2613, Box 7165\nAPO AP 29256-6576', 'latitude': '-35.4630595', 'longitude': '-50.415667'}, 6: {'id': 76, 'name': 'Randall Fuller', 'address': '7731 Garcia Pike\nNew Eric, KS 20545', 'latitude': '12.198124', 'longitude': '126.720134'}, 7: {'id': 49, 'name': 'Ivan Franco', 'address': '801 Chambers Light\nWest Daniel, IA 17114-4374', 'latitude': '-58.2576055', 'longitude': '171.773233'}, 8: {'id': 75, 'name': 'Amy Smith', 'address': '995 Luna Stream Apt. 297\nThompsonchester, NY 82115', 'latitude': '80.4262245', 'longitude': '115.142004'}, 9: {'id': 38, 'name': 'Danielle Thomas', 'address': '7309 Chris Ferry Suite 674\nColebury, MA 39673-2967', 'latitude': '-73.340443', 'longitude': '-176.964241'}}
 
@@ -103,7 +103,7 @@ OUTPUT
 
 **应用 2:用印地语打印 10 个假名字和国家。**
 
-```
+```py
 from faker import Faker 
 
 #'hi_IN' changed the language
@@ -118,13 +118,13 @@ for i in range(0, 10): 
 
 **应用 3:创建假档案**
 
-```
+```py
 import faker from Faker
 fake = Faker()
 print(fake.profile())
 ```
 
-```
+```py
 OUTPUT
 {'job': 'Town planner', 'company': 'Martinez-Clark', 'ssn': '559-93-0521', 'residence': '46820 Johnny Circles\nStokesside, IL 87065-2470', 'current_location': (Decimal('83.5271055'), Decimal('43.705455')), 'blood_group': 'A+', 'website': ['https://www.taylor.com/'], 'username': 'hsmith', 'name': 'Christopher Davis', 'sex': 'M', 'address': '335 Mcdaniel Fork Suite 589\nTeresabury, AZ 85283', 'mail': 'kenneth48@yahoo.com', 'birthdate': '1981-03-29'}
 
@@ -134,7 +134,7 @@ OUTPUT
 播种给出了使用在该种子号上第一次生成的相同的假数据结果。
 示例
 
-```
+```py
 from faker import Faker
 fake = Faker()
 
@@ -144,7 +144,7 @@ print(fake.address())
 print(fake.email())
 ```
 
-```
+```py
 OUTPUT
 Ryan Gallagher
 7631 Johnson Village Suite 690
@@ -157,7 +157,7 @@ bparks@johnson.info
 
 **应用 5:从你想要的列表中打印数据。**
 
-```
+```py
 import faker from Faker 
 fake = Faker() 
 # Print random sentences 
@@ -176,7 +176,7 @@ for i in range(0, 5): 
     print(fake.sentence(ext_word_list = word_list)) 
 ```
 
-```
+```py
 OUTPUT
 # This is the random sentence that is generated using
 # fake.sentence()

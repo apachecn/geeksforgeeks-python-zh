@@ -4,7 +4,7 @@
 
 使用 **demoji 模块**可以将 Python 中的表情符号或表情符号转换为文本。它用于准确地移除和替换文本字符串中的表情符号。要安装 demoji 模块，可以使用以下命令:
 
-```
+```py
 pip install demoji
 ```
 
@@ -12,7 +12,7 @@ pip install demoji
 
 ## 蟒蛇 3
 
-```
+```py
 import demoji
 
 demoji.download_codes()

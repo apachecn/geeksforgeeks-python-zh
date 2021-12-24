@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to delete a csv file 
 # csv file present in same directory
 import os
@@ -34,7 +34,7 @@ else:
 
 **输出:**
 
-```
+```py
 file deleted
 ```
 
@@ -44,7 +44,7 @@ file deleted
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 for folder, subfolders, files in os.walk('csv/'): 
 
@@ -65,7 +65,7 @@ for folder, subfolders, files in os.walk('csv/'): 
 
 **输出:**
 
-```
+```py
 deleted :  csv/Sample1.csv
 deleted :  csv/Sample2.csv
 deleted :  csv/Sample3.csv

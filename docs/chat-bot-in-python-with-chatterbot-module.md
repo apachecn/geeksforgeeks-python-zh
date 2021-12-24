@@ -8,7 +8,7 @@
 
 使用 Python 包索引安装聊天机器人
 
-```
+```py
 pip install chatterbot
 ```
 
@@ -16,7 +16,7 @@ pip install chatterbot
 
 ## 蟒蛇 3
 
-```
+```py
 # Import "chatbot" from
 # chatterbot package.
 from chatterbot import ChatBot

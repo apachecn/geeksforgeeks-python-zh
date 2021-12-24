@@ -16,7 +16,7 @@ MongoDB 没有单独的命令来创建数据库。相反，它使用 use 命令�
 
 ![python-create-database-mongodb1](img/79e92b1f02964480582a1c79fb518068.png)
 
-```
+```py
 # import MongoClient
 from pymongo import MongoClient
 
@@ -30,7 +30,7 @@ print("Database is created !!")
 
 **输出:**
 
-```
+```py
 Database is created!!
 
 ```
@@ -39,7 +39,7 @@ Database is created!!
 
 我们可以使用以下代码检查数据库列表中是否存在该数据库:
 
-```
+```py
 list_of_db = client.list_database_names()
 
 if "mydbase" in list_of_db:
@@ -48,7 +48,7 @@ if "mydbase" in list_of_db:
 
 **输出:**
 
-```
+```py
 Exists!!
 
 ```

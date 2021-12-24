@@ -24,7 +24,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Python3 code to demonstrate working of
 # Overlapping substrings of all lengths
 # Using list comprehension + slicing + loop

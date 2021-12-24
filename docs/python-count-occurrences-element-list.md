@@ -5,7 +5,7 @@
 给定 Python 中的一个列表和一个数字 x，计算 x 在给定列表中出现的次数。
 示例:
 
-```
+```py
 Input : lst = [15, 6, 7, 10, 12, 20, 10, 28, 10]
          x = 10
 Output : 3 
@@ -21,7 +21,7 @@ Output : 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to count the number of occurrences
 def countX(lst, x):
     count = 0
@@ -36,7 +36,7 @@ x = 8
 print('{} has occurred {} times'.format(x, countX(lst, x)))
 ```
 
-```
+```py
 Output:
 8 has occurred 5 times
 ```
@@ -46,7 +46,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to count the number of occurrences
 def countX(lst, x):
     return lst.count(x)
@@ -57,7 +57,7 @@ x = 8
 print('{} has occurred {} times'.format(x, countX(lst, x)))
 ```
 
-```
+```py
 Output:
 8 has occurred 5 times 
 ```
@@ -67,7 +67,7 @@ Counter 方法返回一个字典，所有元素作为键值对出现，其中 ke
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 # declaring the list
@@ -79,7 +79,7 @@ d = Counter(l)
 print('{} has occurred {} times'.format(x, d[x]))
 ```
 
-```
+```py
 Output:
 3 has occurred 2 times
 ```

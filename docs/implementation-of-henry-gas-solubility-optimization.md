@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from numpy.random import uniform
 from copy import deepcopy
@@ -209,7 +209,7 @@ obj.train()
 
 ### 输出:
 
-```
+```py
 Epoch: 1, Best fitness value: 0.0007128933455975314
 Epoch: 2, Best fitness value: 0.0007128933455975314
 Epoch: 3, Best fitness value: 0.0007128933455975314

@@ -12,7 +12,7 @@
 
 Python 有一个内置的库 ElementTree，它具有读取和操作 XMLs(以及其他类似结构的文件)的功能。元素树将整个 XML 文档表示为一棵树，在执行操作时有所帮助。元素表示此树中的单个节点。整个文档的读写都是在元素树级别完成的。与一个 XML 元素及其子元素的交互是在元素级别完成的。参考:[用 Python 修改 XML 文件](https://www.geeksforgeeks.org/modify-xml-files-with-python/)
 
-```
+```py
 import xml.etree.ElementTree as ET
 ```
 
@@ -28,7 +28,7 @@ XML 文档有称为元素的部分，由开始和结束标记定义。标签是�
 
 ## 蟒蛇 3
 
-```
+```py
 # Firstly we have to import 'xml.etree.ElementTree' for creating a subtree
 import xml.etree.ElementTree as ET
 
@@ -68,7 +68,7 @@ xml.dom.minidom 模块为创建 dom 树提供了一个简单的解析器。DOM(�
 
 ## 蟒蛇 3
 
-```
+```py
 from xml.dom import minidom 
 import os 
 

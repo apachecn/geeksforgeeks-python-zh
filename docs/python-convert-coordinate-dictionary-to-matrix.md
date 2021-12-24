@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `max()` +列表理解**
 以上方法的组合可以用来解决这个问题。在本文中，我们使用 max()来获取矩阵的维数，使用列表理解来创建矩阵，并使用循环来赋值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Coordinate Dictionary to Matrix
 # Using loop + max() + list comprehension

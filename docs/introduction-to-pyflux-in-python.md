@@ -10,7 +10,7 @@ PyFlux 是 Python 中的一个开源库，它是为处理统计问题而显式�
 
 Python 3.5 支持最新版本的 PyFlux。
 
-```
+```py
 pip install pyflux
 
 ```
@@ -23,7 +23,7 @@ PyFlux 应用编程接口非常简洁，只需最少的步骤就可以完成模�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import datetime
 from pandas import Series, DataFrame
@@ -50,7 +50,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize=(15, 5))
 plt.ylabel("Returns")
 plt.plot(df)

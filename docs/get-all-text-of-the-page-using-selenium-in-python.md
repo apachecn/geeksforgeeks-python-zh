@@ -10,7 +10,7 @@
 
 使用 pip 安装硒包。只需在命令提示符下写下以下命令。
 
-```
+```py
 pip install selenium
 ```
 
@@ -18,7 +18,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 import selenium
 
 print(selenium.__version__)
@@ -26,7 +26,7 @@ print(selenium.__version__)
 
 **输出:**
 
-```
+```py
 '3.141.0'
 ```
 
@@ -40,7 +40,7 @@ print(selenium.__version__)
 
 **安装:**
 
-```
+```py
 pip install webdriver-manager
 ```
 
@@ -48,7 +48,7 @@ pip install webdriver-manager
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -61,7 +61,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.utils import ChromeType
@@ -73,7 +73,7 @@ driver = webdriver.Chrome(ChromeDriverManager(chrome_type = ChromeType.CHROMIUM)
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
@@ -84,7 +84,7 @@ driver = webdriver.Firefox(executable_path = GeckoDriverManager().install())
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.microsoft import IEDriverManager
 
@@ -95,7 +95,7 @@ driver = webdriver.Ie(IEDriverManager().install())
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
@@ -119,7 +119,7 @@ driver = webdriver.Edge(EdgeChromiumDriverManager().install())
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary modules
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager

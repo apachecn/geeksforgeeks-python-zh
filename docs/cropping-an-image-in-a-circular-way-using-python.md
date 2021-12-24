@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from PIL import Image, ImageDraw
 
@@ -53,7 +53,7 @@ display(img)
 
 ## 蟒蛇 3
 
-```
+```py
 h,w = img.size
 
 # creating luminous image
@@ -73,7 +73,7 @@ display(Image.fromarray(lum_img_arr))
 
 ## 蟒蛇 3
 
-```
+```py
 final_img_arr = np.dstack((img_arr, lum_img_arr))
 display(Image.fromarray(final_img_arr))
 ```
@@ -86,7 +86,7 @@ display(Image.fromarray(final_img_arr))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from PIL import Image, ImageDraw
 

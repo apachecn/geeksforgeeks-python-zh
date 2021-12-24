@@ -6,7 +6,7 @@
 
 让我们来看看基本技术–
 
-```
+```py
 # Loading Libraries
 
 import numpy as np
@@ -46,7 +46,7 @@ list(data)
 
 **输出:**
 
-```
+```py
 Type : class 'pandas.core.frame.DataFrame'
 
 Head -- 
@@ -88,7 +88,7 @@ Head --
 
 **每百万人口可视化**
 
-```
+```py
 # Plot Population In Millions
 fig, ax1 = plt.subplots()
 fig.set_size_inches(15,  9)
@@ -105,7 +105,7 @@ plt.xticks(rotation =-90)
 
 **输出:**
 
-```
+```py
 (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
         17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
         34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]),
@@ -117,7 +117,7 @@ plt.xticks(rotation =-90)
 
 **可视化每 10 万人的谋杀率**
 
-```
+```py
 # Plot Murder Rate per 1, 00, 000
 
 fig, ax2 = plt.subplots()
@@ -136,7 +136,7 @@ plt.xticks(rotation =-90)
 
 **输出:**
 
-```
+```py
 (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
         17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
         34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]),
@@ -149,7 +149,7 @@ plt.xticks(rotation =-90)
 
 **代码#1 :** 标准偏差
 
-```
+```py
 Population_std = data.Population.std()
 print ("Population std : ", Population_std)
 
@@ -159,7 +159,7 @@ print ("\nMurderRate std : ", MurderRate_std)
 
 **输出:**
 
-```
+```py
 Population std :  6848235.347401142
 
 MurderRate std :  1.915736124302923
@@ -167,7 +167,7 @@ MurderRate std :  1.915736124302923
 
 **代码#2 :** 方差
 
-```
+```py
 Population_var = data.Population.var()
 print ("Population var : ", Population_var)
 
@@ -177,7 +177,7 @@ print ("\nMurderRate var : ", MurderRate_var)
 
 **输出:**
 
-```
+```py
 Population var :  46898327373394.445
 
 MurderRate var :  3.670044897959184
@@ -186,7 +186,7 @@ MurderRate var :  3.670044897959184
 
 **代码#3 :** 四分位数区间
 
-```
+```py
 # Inter Quartile Range of Population
 population_IQR = data.Population.describe()['75 %'] - 
                  data.Population.describe()['25 %']
@@ -202,7 +202,7 @@ print ("\nMurderRate IQR : ", MurderRate_IQR)
 
 **输出:**
 
-```
+```py
 Population IQR :  4847308.0
 
 MurderRate IQR :  3.124999999999999
@@ -211,7 +211,7 @@ MurderRate IQR :  3.124999999999999
 
 **代码#4 :** 中值绝对偏差(MAD)
 
-```
+```py
 Population_mad = data.Population.mad()
 print ("Population mad : ", Population_mad)
 
@@ -221,7 +221,7 @@ print ("\nMurderRate mad : ", MurderRate_mad)
 
 **输出:**
 
-```
+```py
 Population mad :  4450933.356000001
 
 MurderRate mad :  1.5526400000000005

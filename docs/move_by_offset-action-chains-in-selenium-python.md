@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Python Selenium 中动作链的`move_by_offset`方法展开。move_by_offset 方法用于将鼠标从当前鼠标位置移动到偏移位置。
 **语法–**
 
-```
+```py
 move_by_offset(xoffset, yoffset)
 ```
 
@@ -18,7 +18,7 @@ move_by_offset(xoffset, yoffset)
 **示例–**
 可以使用移动鼠标方法作为动作链，如下所示–
 
-```
+```py
 move_by_offset(100, 200)
 
 ```
@@ -29,7 +29,7 @@ move_by_offset(100, 200)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

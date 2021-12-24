@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`html.escape()`方法，我们能够使用该方法将 html 脚本转换为 ascii 字符串。
 
-```
+```py
 # import html
 import html
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import html
 import html
 

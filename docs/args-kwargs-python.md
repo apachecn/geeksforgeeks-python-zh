@@ -25,7 +25,7 @@ python 中函数定义中的特殊语法 **args* 用于向函数传递可变数�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate 
 # *args for variable number of arguments
 def myFun(*argv):
@@ -37,7 +37,7 @@ myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 **Output:** 
 
-```
+```py
 Hello
 Welcome
 to
@@ -46,7 +46,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # *args with first extra argument
 def myFun(arg1, *argv):
@@ -59,7 +59,7 @@ myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 **Output:** 
 
-```
+```py
 First argument : Hello
 Next argument through *argv : Welcome
 Next argument through *argv : to
@@ -77,7 +77,7 @@ python 中函数定义中的特殊语法 ***kwargs* 用于传递关键字化的�
 
 ## 大蟒
 
-```
+```py
 # Python program to illustrate 
 # *kwargs for variable number of keyword arguments
 
@@ -91,7 +91,7 @@ myFun(first ='Geeks', mid ='for', last='Geeks')   
 
 **Output:** 
 
-```
+```py
 last == Geeks
 mid == for
 first == Geeks
@@ -99,7 +99,7 @@ first == Geeks
 
 ## 大蟒
 
-```
+```py
 # Python program to illustrate  **kwargs for
 # variable number of keyword arguments with
 # one extra argument.
@@ -114,7 +114,7 @@ myFun("Hi", first ='Geeks', mid ='for', last='Geeks')   
 
 **Output:** 
 
-```
+```py
 last == Geeks
 mid == for
 first == Geeks
@@ -126,7 +126,7 @@ first == Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 def myFun(arg1, arg2, arg3):
     print("arg1:", arg1)
     print("arg2:", arg2)
@@ -143,7 +143,7 @@ myFun(**kwargs)
 
 **Output:** 
 
-```
+```py
 arg1: Geeks
 arg2: for
 arg3: Geeks
@@ -158,7 +158,7 @@ arg3: Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 def myFun(*args,**kwargs):
     print("args: ", args)
     print("kwargs: ", kwargs)
@@ -170,7 +170,7 @@ myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
 
 **Output:** 
 
-```
+```py
 args: ('geeks', 'for', 'geeks')
 kwargs {'first': 'Geeks', 'mid': 'for', 'last': 'Geeks'}
 ```

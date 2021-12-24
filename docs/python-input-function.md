@@ -20,7 +20,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Taking name of the user as input 
 # and storing it name variable
 name = input("Please Enter Your Name: ")
@@ -43,7 +43,7 @@ print("The name of the user is {0} and his/her age is {1}".format(name, age))
 
 ## 计算机编程语言
 
-```
+```py
 # Taking number 1 from user as int
 num1 = int(input("Please Enter First Number: "))
 
@@ -68,7 +68,7 @@ print("The sum of the two given numbers is {} ".format(addition))
 
 ## 计算机编程语言
 
-```
+```py
 # Taking list1 input from user as list
 list1 = list(input("Please Enter Elements of list1: "))
 

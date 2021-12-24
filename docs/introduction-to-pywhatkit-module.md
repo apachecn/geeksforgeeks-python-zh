@@ -34,7 +34,7 @@ pywhatkit 模块还可以用于将文本转换为手写文本图像。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pywhatkit
 
@@ -70,7 +70,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pywhatkit
 
@@ -107,7 +107,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pywhatkit
 
@@ -144,7 +144,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pywhatkit
 

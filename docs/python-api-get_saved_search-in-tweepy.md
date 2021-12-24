@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`get_saved_search()`** 方法用于获取特定的
 
 **示例 1 :** 访问保存的搜索并打印其查询。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ print("The query of this saved search is : " + saved_search.query)
 
 **输出:**
 
-```
+```py
 The ID of this saved search is : 1269503225993900032
 The query of this saved search is : computer
 
@@ -58,7 +58,7 @@ The query of this saved search is : computer
 
 **例 2 :** 打印保存的搜索时间。
 
-```
+```py
 # ID of the saved search
 id = 1269503225993900032
 
@@ -72,7 +72,7 @@ print("The saved search " + str(saved_search.id) +
 
 **输出:**
 
-```
+```py
 The saved search 1269503225993900032 was created on : 2020-06-07 05:35:29
 
 ```

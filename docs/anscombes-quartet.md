@@ -14,7 +14,7 @@
 
 **代码:Python 程序求平均值，标准差，x 和 y 的相关性**
 
-```
+```py
 # Import the required libraries
 import pandas as pd
 import statistics
@@ -50,7 +50,7 @@ print('%.3f' % corr)
 
 **输出:**
 
-```
+```py
 9.0
 3.32
 7.5
@@ -64,7 +64,7 @@ print('%.3f' % corr)
 
 **代码:Python 程序绘制散点图**
 
-```
+```py
 # Import the required libraries
 from matplotlib import pyplot as plt
 import pandas as pd

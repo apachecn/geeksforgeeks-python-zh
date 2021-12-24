@@ -25,7 +25,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 import os
 
@@ -49,7 +49,7 @@ print("If you're not yet connected, try connecting to a previously connected SSI
 
 **这里，首先，我们使用 ***导入*** 关键字获取操作系统库。然后，我们使用来自 ***os*** 库的 system()方法来帮助我们运行 cmd 命令**
 
-```
+```py
 'cmd /c "netsh wlan show networks"' 
 ```
 
@@ -57,7 +57,7 @@ print("If you're not yet connected, try connecting to a previously connected SSI
 
 **然后，这个字符串变量被替换为另一个 cmd 命令，我们应该在这个命令中输入 SSID 的名称。**
 
-```
+```py
 f'''cmd /c "netsh wlan connect name={name_of_router}"''' 
 ```
 
@@ -79,7 +79,7 @@ f'''cmd /c "netsh wlan connect name={name_of_router}"'''
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 import os
 
@@ -150,7 +150,7 @@ print("If you aren't connected to this network, try connecting with the correct 
 
 **然后，我们从用户处获取输入的 ***SSID 名称和密码*** 。然后将它们输入到 XML 代码中，然后使用以下代码行将其作为概要文件添加:**
 
-```
+```py
 command = "netsh wlan add profile filename=\""+name+".xml\""+" interface=Wi-Fi"
     with open(name+".xml", 'w') as file:
         file.write(config)

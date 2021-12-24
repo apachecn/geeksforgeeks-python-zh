@@ -6,7 +6,7 @@ Python 中的 **`float`** 类型代表浮点数。浮点用于表示实数，用
 
 Python 浮点值表示为 64 位双精度值。任何浮点数的最大值大约为 1.8 x 10 <sup>308</sup> 。任何大于这个数的数字都会用 Python 中的字符串`inf` 来表示。
 
-```
+```py
 # Python code to demonstrate float values.
 
 print(1.7e308)
@@ -18,7 +18,7 @@ print(1.82e308)
 
 **输出:**
 
-```
+```py
 1.7e+308
 inf
 ```
@@ -30,7 +30,7 @@ inf
 
 **[float . as _ integer _ ratio():](https://www.geeksforgeeks.org/as_integer_ratio-python-reduced-fraction-given-rational/)**返回一对整数，其比率正好等于实际的具有正分母的 float。在无穷小的情况下，它会引发溢出错误和值错误。
 
-```
+```py
 # Python3 program to illustrate
 # working of float.as_integer_ratio()
 
@@ -48,14 +48,14 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 7 / 2
 
 ```
 
 **float.is_integer() :** 如果 float 实例是有限的整数值，则返回 True，否则返回 False。
 
-```
+```py
 # Python3 program to illustrate
 # working of float.is_integer()
 
@@ -73,7 +73,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -82,7 +82,7 @@ True
 
 **[float.hex() :](https://www.geeksforgeeks.org/python-hex-function/)** 以十六进制字符串形式返回浮点数的表示形式。
 
-```
+```py
 # Python3 program to illustrate
 # working of float.hex()
 
@@ -100,14 +100,14 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 '0x1.1800000000000p+5'
 
 ```
 
 **float.fromhex(s) :** 返回由十六进制字符串 s 表示的浮点数。字符串 s 可能有前导空格和尾随空格。
 
-```
+```py
 # Python3 program to illustrate
 # working of float.fromhex()
 
@@ -126,7 +126,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 35.0
 
 ```

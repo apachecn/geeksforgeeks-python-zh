@@ -8,7 +8,7 @@
 
 **`asdict()`功能–**
 
-```
+```py
 dataclasses.asdict(instance, *, dict_factory=dict)
 
 ```
@@ -17,14 +17,14 @@ dataclasses.asdict(instance, *, dict_factory=dict)
 
 **`astuple()`功能–**
 
-```
+```py
 dataclasses.astuple(instance, *, tuple_factory=tuple)
 
 ```
 
 与 asdict 类似，通过将 dataclass 对象传递给函数的`instance`参数，可以简单地使用这个函数获得元组形式的 DataClass 属性的有序值。
 
-```
+```py
 from dataclasses import dataclass, field, 
 from dataclasses import asdict, astuple
 
@@ -60,7 +60,7 @@ print(tupleArticle)
 在上述功能中，如果只提供 **`name`** ，则类型使用`typing.Any`。
 **`init`**、 **`repr`** 、 **`eq`** 、 **`order`** 、 **`unsafe_hash`** 、 **`frozen`** 的值与 [dataclass()](https://www.geeksforgeeks.org/data-classes-in-python-set-2-decorator-parameters/) 中的值含义相同。
 
-```
+```py
 from dataclasses import make_dataclass, field
 
 GfgArticle = make_dataclass(
@@ -87,14 +87,14 @@ print(dClassObj)
 
 **`is_dataclass()`功能–**
 
-```
+```py
 dataclasses.is_dataclass(class_or_instance)
 
 ```
 
 如果参数为`dataclass`或数据类对象，则该函数返回`True`，否则返回`False`。
 
-```
+```py
 from dataclasses import is_dataclass
 
 print(is_dataclass(dictArticle))
@@ -109,7 +109,7 @@ print(is_dataclass(GfgArticle) and not isinstance(GfgArticle, type))
 
 **输出:**
 
-```
+```py
 False
 False
 True

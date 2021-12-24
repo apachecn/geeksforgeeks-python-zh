@@ -7,7 +7,7 @@
 **方法#1:使用`enumerate()`和列表理解**
 枚举()可以用其值做散列索引的任务，加上列表理解可以让我们检查错误的值。
 
-```
+```py
 # Python3 code to demonstrate 
 # False indices
 # using enumerate() + list comprehension
@@ -28,7 +28,7 @@ print ("The list indices having False values are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [True, False, True, False, True, True, False]
 The list indices having False values are : [1, 3, 6]
 

@@ -7,7 +7,7 @@
 **先决条件:** [Numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/) 、OpenCV、 [matplot-lib](https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/)
 让我们首先使用 matplot-lib 工具可视化具有多个特征的测试数据。
 
-```
+```py
 # importing required tools
 import numpy as np
 from matplotlib import pyplot as plt
@@ -41,7 +41,7 @@ plt.show()
 3)现在分离数据。
 4)最后绘制数据。
 
-```
+```py
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt

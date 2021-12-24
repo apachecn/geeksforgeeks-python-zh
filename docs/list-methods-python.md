@@ -12,11 +12,11 @@
 *   **追加():**用于向列表追加和添加元素。用于将元素添加到列表的最后一个位置。
     **语法:**
 
-```
+```py
  list.append (element)
 ```
 
-```
+```py
 # Adds List Element as value of List.
 List = ['Mathematics', 'chemistry', 1997, 2000]
 List.append(20544)
@@ -25,7 +25,7 @@ print(List)
 
 输出:
 
-```
+```py
 ['Mathematics', 'chemistry', 1997, 2000, 20544]
 
 ```
@@ -33,13 +33,13 @@ print(List)
 *   **insert():** Inserts an elements at specified position.
     **Syntax:**
 
-    ```
+    ```py
      list.insert(<position, element)
     ```
 
     注意:所提到的位置应该在列表的范围内，因为在这种情况下在 0 和 4 之间，否则将抛出 IndexError。
 
-    ```
+    ```py
     List = ['Mathematics', 'chemistry', 1997, 2000]
     # Insert at index 2 value 10087
     List.insert(2,10087)     
@@ -48,7 +48,7 @@ print(List)
 
     输出:
 
-    ```
+    ```py
     ['Mathematics', 'chemistry', 10087, 1997, 2000, 20544]
 
     ```
@@ -56,11 +56,11 @@ print(List)
     *   **extend():** Adds contents to List2 to the end of List1.
     **Syntax:**
 
-    ```
+    ```py
     List1.extend(List2)
     ```
 
-    ```
+    ```py
     List1 = [1, 2, 3]
     List2 = [2, 3, 4, 5]
 
@@ -75,7 +75,7 @@ print(List)
 
     输出:
 
-    ```
+    ```py
     [1, 2, 3, 2, 3, 4, 5]
     [2, 3, 4, 5, 1, 2, 3, 2, 3, 4, 5]
     ```
@@ -85,18 +85,18 @@ print(List)
     *   **sum() :** 计算列表所有元素的总和。
         **语法:**
 
-    ```
+    ```py
      sum(List)
     ```
 
-    ```
+    ```py
     List = [1, 2, 3, 4, 5]
     print(sum(List))
     ```
 
     输出:
 
-    ```
+    ```py
     15
 
     ```
@@ -105,14 +105,14 @@ print(List)
     总和只针对数值计算，否则将引发类型错误。
     见例:
 
-    ```
+    ```py
     List = ['gfg', 'abc', 3]
     print(sum(List))
     ```
 
     输出:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "", line 1, in 
         sum(List)
@@ -123,18 +123,18 @@ print(List)
     *   **count():**Calculates total occurrence of given element of List.
     **Syntax:**
 
-    ```
+    ```py
     List.count(element)
     ```
 
-    ```
+    ```py
     List = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
     print(List.count(1))
     ```
 
     输出:
 
-    ```
+    ```py
     4
 
     ```
@@ -142,18 +142,18 @@ print(List)
     *   **length:**Calculates total length of List.
     **Syntax:**
 
-    ```
+    ```py
     len(list_name)
     ```
 
-    ```
+    ```py
     List = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
     print(len(List))
     ```
 
     输出:
 
-    ```
+    ```py
     10
 
     ```
@@ -161,37 +161,37 @@ print(List)
     *   **index():** Returns the index of first occurrence. Start and End index are not necessary parameters.
     **Syntax:**
 
-    ```
+    ```py
     List.index(element[,start[,end]])
     ```
 
-    ```
+    ```py
     List = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
     print(List.index(2))
     ```
 
     输出:
 
-    ```
+    ```py
     1
 
     ```
 
     另一个例子:
 
-    ```
+    ```py
     List = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
     print(List.index(2,2))
     ```
 
     输出:
 
-    ```
+    ```py
     4
 
     ```
 
-    ```
+    ```py
     List = [1, 2, 3, 1, 2, 1, 2, 3, 2, 1]
 
     """index(element, start, end) : It will calculate till index end-1\. """
@@ -208,7 +208,7 @@ print(List)
 
     输出:
 
-    ```
+    ```py
     After checking in index range 2 to 4
     4
     After checking in index range 2 to 3
@@ -222,18 +222,18 @@ print(List)
     *   **min() : **Calculates minimum of all the elements of List.
     **Syntax:**
 
-    ```
+    ```py
     min(List)
     ```
 
-    ```
+    ```py
     List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
     print(min(List))
     ```
 
     输出:
 
-    ```
+    ```py
     1.054
 
     ```
@@ -241,18 +241,18 @@ print(List)
     *   **max():** Calculates maximum of all the elements of List.
     **Syntax:**
 
-    ```
+    ```py
     max(List)
     ```
 
-    ```
+    ```py
     List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
     print(max(List))
     ```
 
     输出:
 
-    ```
+    ```py
     5.33
 
     ```
@@ -262,12 +262,12 @@ print(List)
     *   **reverse(): **Sort the given data structure (both tuple and list) in ascending order. Key and reverse_flag are not necessary parameter and reverse_flag is set to False, if nothing is passed through sorted().
         **Syntax:**
 
-        ```
+        ```py
         sorted([list[,key[,Reverse_Flag]]])
          list.sort([key,[Reverse_flag]])
         ```
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
 
         #Reverse flag is set True
@@ -279,12 +279,12 @@ print(List)
 
         输出:
 
-        ```
+        ```py
         [5.33, 4.445, 3, 2.5, 2.3, 1.054]
 
         ```
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
         sorted(List)
         print(List)
@@ -292,7 +292,7 @@ print(List)
 
         输出:
 
-        ```
+        ```py
         [1.054, 2.3, 2.5, 3, 4.445, 5.33]
 
         ```
@@ -304,32 +304,32 @@ print(List)
     *   **pop():** Index is not a necessary parameter, if not mentioned takes the last index.
         **Syntax:**
 
-        ```
+        ```py
          list.pop([index])
         ```
 
         注意:索引必须在列表的范围内，否则会出现索引错误。
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
         print(List.pop())
         ```
 
         输出:
 
-        ```
+        ```py
         2.5
 
         ```
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
         print(List.pop(0))
         ```
 
         输出:
 
-        ```
+        ```py
         2.3
 
         ```
@@ -337,11 +337,11 @@ print(List)
     *   **del() : **Element to be deleted is mentioned using list name and index.
         **Syntax:**
 
-        ```
+        ```py
         del list.[index]
         ```
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
         del List[0]
         print(List)
@@ -349,18 +349,18 @@ print(List)
 
         输出:
 
-        ```
+        ```py
         [4.445, 3, 5.33, 1.054, 2.5]
         ```
 
     *   **remove(): **Element to be deleted is mentioned using list name and element.
         **Syntax:**
 
-        ```
+        ```py
          list.remove(element)
         ```
 
-        ```
+        ```py
         List = [2.3, 4.445, 3, 5.33, 1.054, 2.5]
         List.remove(3)
         print(List)
@@ -368,7 +368,7 @@ print(List)
 
         输出:
 
-        ```
+        ```py
         [2.3, 4.445, 5.33, 1.054, 2.5]
 
         ```

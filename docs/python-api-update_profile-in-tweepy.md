@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`update_profile()`** 方法用于更新认证用�
 
 **示例 1 :** 更新配置文件的名称。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ api.update_profile(name)
 
 **示例 2 :** 更新配置文件的位置。
 
-```
+```py
 # the location to be updated
 location = "India"
 

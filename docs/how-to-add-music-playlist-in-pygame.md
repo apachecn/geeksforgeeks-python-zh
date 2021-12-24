@@ -31,7 +31,7 @@ Pygame 有一个方法， ***pygame.mixer()*** 它具有所有关于音频操作
 
 ## 计算机编程语言
 
-```
+```py
 import pygame
 
 # setting up pygame

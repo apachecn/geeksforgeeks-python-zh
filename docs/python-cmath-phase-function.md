@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the phase()function
 
@@ -33,7 +33,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 0.0
 ```
 
@@ -41,7 +41,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the phase()function
 
@@ -56,6 +56,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 1.3258176636680326
 ```

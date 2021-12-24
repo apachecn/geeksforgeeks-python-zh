@@ -7,7 +7,7 @@
 **方法一:使用`dict()` +词典理解+切片**
 以上功能可以解决这个问题。在这种情况下，我们只是切片元组的替代部分，并使用字典理解来分配相应的值。使用`dict()`将结果转换为词典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple to adjacent pair dictionary
 # using dict() + dictionary comprehension + slicing
@@ -28,7 +28,7 @@ print("Dictionary converted tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, 10, 13, 5)
 Dictionary converted tuple : {1: 5, 13: 5, 7: 10}
 

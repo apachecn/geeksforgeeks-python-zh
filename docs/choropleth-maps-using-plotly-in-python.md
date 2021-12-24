@@ -28,7 +28,7 @@ Plotly 是一个 Python 库，在数据科学家中非常流行，用于创建�
 
 ## 蟒蛇 3
 
-```
+```py
 # code for creating choropleth map of USA states
 # import plotly library
 import plotly
@@ -53,7 +53,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #code for representing states of USA
 #pass list of states in locations
 #list will have two-letter abbreviations of states

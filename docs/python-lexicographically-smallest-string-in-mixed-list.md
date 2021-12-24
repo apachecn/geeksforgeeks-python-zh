@@ -7,7 +7,7 @@
 **方法一:使用`min() + isinstance()` +列表理解**
 该任务可以使用以上功能的组合来执行。在这种情况下，`min()`函数执行查找最小字符串的任务，`isinstance()`用于检查字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Lexicographically smallest string in mixed list
 # Using min() + isinstance() + list comprehension
@@ -28,7 +28,7 @@ print("The Lexicographically smallest string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 4, 'GFG', 5, 'IS', 7, 'BEST']
 The Lexicographically smallest string is : BEST
 

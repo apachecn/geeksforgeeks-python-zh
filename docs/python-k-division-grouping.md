@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个特殊任务的蛮力方法。在这种情况下，我们使用循环来获得每个数字的 K 位置，并将该数字添加到指定列表中。
 
-```
+```py
 # Python3 code to demonstrate
 # K Division Grouping
 # using loops
@@ -37,7 +37,7 @@ print("The list after grouping by K is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 12, 13, 22, 25, 30]
 The list after grouping by K is : [[3], [12, 13], [], [22, 25], [30]]
 

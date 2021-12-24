@@ -18,7 +18,7 @@ Python 软件基金会已经宣布 Python 2 将在 2020 年逐步停止开发和
 
 ## 蟒蛇 3
 
-```
+```py
 from platform import python_version
 
 print(python_version())
@@ -26,7 +26,7 @@ print(python_version())
 
 **Output**
 
-```
+```py
 3.6.10
 ```
 
@@ -82,7 +82,7 @@ print(python_version())
 
 ## 蟒蛇 3
 
-```
+```py
 # 1 - imports
 import requests
 
@@ -113,7 +113,7 @@ Github 目前在它的 API 的第三个版本上，所以为 API 调用定义了
 
 ## 蟒蛇 3
 
-```
+```py
 response_json = response.json()
 print(f"keys in the Json file : {response_json.keys()}")
 print(f"Total javascript repositories in GitHub : {response_json['total_count']}" )
@@ -129,7 +129,7 @@ print(f"Total javascript repositories in GitHub : {response_json['total_count']}
 
 ## 蟒蛇 3
 
-```
+```py
 repositories = response_json['items']
 first_repo   = repositories[0]
 
@@ -152,7 +152,7 @@ print(f" *** Repository name - {first_repo['name']}, Owner - {first_repo['owner'
 
 ## 蟒蛇 3
 
-```
+```py
 for repo_info in repositories:
     print(f"\n *** Repository Name: {repo_info['name']}")
     print(f" *** Repository Owner: {repo_info['owner']['login']}")
@@ -169,7 +169,7 @@ for repo_info in repositories:
 
 在使用之前，您需要安装 Plotly 软件包。对于安装，在终端中运行此命令。
 
-```
+```py
 pip install plotly
 ```
 
@@ -177,7 +177,7 @@ pip install plotly
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import requests
 from plotly.graph_objs import Bar

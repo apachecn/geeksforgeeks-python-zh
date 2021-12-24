@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K Dice Combinations
 # Using list comprehension + product()
@@ -46,7 +46,7 @@ print("The constructed dice Combinations : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K Dice Combinations
 # Using repeat + product()

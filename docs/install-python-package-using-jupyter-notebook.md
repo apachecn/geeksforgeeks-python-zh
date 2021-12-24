@@ -23,7 +23,7 @@ Jupyter 支持 40 多种不同的编程语言， [Python](https://www.geeksforge
 
 在 Jupyter 中，控制台命令可以由“！”执行在单元格内的命令前签名。例如，如果下面的代码写在 Jupyter 单元格中，它将作为命令在 CMD 中执行。
 
-```
+```py
 ! echo GeeksforGeeks
 
 ```
@@ -36,7 +36,7 @@ Jupyter 支持 40 多种不同的编程语言， [Python](https://www.geeksforge
 
 **语法:**
 
-```
+```py
 ! pip install [package_name] 
 ```
 
@@ -52,7 +52,7 @@ Jupyter 支持 40 多种不同的编程语言， [Python](https://www.geeksforge
 
 **语法:**
 
-```
+```py
 import sys
 !{sys.executable} -m pip install [package_name]
 

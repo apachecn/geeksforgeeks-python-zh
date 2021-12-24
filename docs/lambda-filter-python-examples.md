@@ -6,7 +6,7 @@
 
 **给定一个数字列表，找出所有能被 13 整除的数字。**
 
-```
+```py
 Input : my_list = [12, 65, 54, 39, 102, 
                      339, 221, 50, 70]
 Output : [65, 39, 221]
@@ -17,7 +17,7 @@ Output : [65, 39, 221]
 
 Python 中的 filter()函数接受一个函数和一个列表作为参数。这提供了一种优雅的方法来过滤掉序列“sequence”的所有元素，对于该序列，函数返回 True。
 
-```
+```py
 # Python Program to find numbers divisible 
 # by thirteen from a list using anonymous 
 # function
@@ -35,14 +35,14 @@ print(result) 
 
 输出:
 
-```
+```py
 [65, 39, 221]
 
 ```
 
 **给定一个字符串列表，找到所有回文。**
 
-```
+```py
 # Python Program to find palindromes in 
 # a list of strings.
 
@@ -59,14 +59,14 @@ print(result) 
 
 输出:
 
-```
+```py
 ['geeg', 'keek', 'aa']
 
 ```
 
 **给定一个字符串列表和一个字符串，打印字符串的所有字谜**
 
-```
+```py
 # Python Program to find all anagrams of str in 
 # a list of strings.
 from collections import Counter
@@ -85,7 +85,7 @@ print(result) 
 
 输出:
 
-```
+```py
 ['geeks', 'keegs']
 
 ```

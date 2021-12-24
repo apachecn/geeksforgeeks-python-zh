@@ -22,7 +22,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 import time
@@ -59,7 +59,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -93,7 +93,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -126,7 +126,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -168,7 +168,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -197,7 +197,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -227,7 +227,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -257,7 +257,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -295,7 +295,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -336,7 +336,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -373,7 +373,7 @@ pygame.display.flip()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import pygame
 

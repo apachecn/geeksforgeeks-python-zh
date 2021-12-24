@@ -6,13 +6,13 @@
 **所需模块及安装:**
 **请求:**请求让你可以极其轻松地发送 HTTP/1.1 请求。没有必要手动添加查询字符串到你的网址。
 
-```
+```py
 pip install requests
 ```
 
 **美人汤:**美人汤是一个库，可以方便的从网页上刮取信息。它位于 HTML 或 XML 解析器之上，为迭代、搜索和修改解析树提供了 Pythonic 习惯用法。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -27,7 +27,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from bs4 import BeautifulSoup as BS
 import requests
@@ -98,7 +98,7 @@ for i, j in india.items():
 
 **输出:**
 
-```
+```py
 Cases in United States
 Total Cases : 654,343
 Recovered Cases : 56,618

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`cmath.exp()`方法，我们可以通过向指数传递任何值来获得指数的值。
 
-```
+```py
 # importing cmath library
 import cmath
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # importing cmath library
 import cmath
 

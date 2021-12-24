@@ -16,7 +16,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Udta Punjab : 4434004
 Diljit Dosanjh (Udta Punjab) : 6574338
 
@@ -49,7 +49,7 @@ Diljit Dosanjh (Udta Punjab) : 6574338
 
 另一个例子:
 
-```
+```py
 # importing the module
 import imdb
 
@@ -74,7 +74,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 3 Idiots : 1187043
 3 idiotas : 3685624
 3 Idiots : 12049418

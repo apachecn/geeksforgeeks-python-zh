@@ -6,7 +6,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是，是对基�
 
 在本文中，我们将获得具有特定列的表，而不考虑数据库。首先，我们要连接到服务器。将要使用的 SQL 查询是:
 
-```
+```py
  select tab.table_schema as database_name,tab.table_name 
  from information_schema.tables as tab 
  inner join information_schema.columns as col
@@ -30,7 +30,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是，是对基�
 
 ## 蟒蛇 3
 
-```
+```py
 # Module Imports
 import mysql.connector as mariadb
 import sys
@@ -79,7 +79,7 @@ for(database_name, tab) in cur:
 
 ## 蟒蛇 3
 
-```
+```py
 # Module Imports
 import mysql.connector as mariadb
 import sys

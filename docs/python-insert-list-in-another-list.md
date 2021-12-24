@@ -7,7 +7,7 @@
 **方法#1:使用 `insert()` +循环**
 在这个方法中，我们使用 insert 函数一次一个元素地插入。这样，我们在其他列表的指定索引处添加所有列表元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # to insert one list in another
 # using insert() + loop
@@ -36,7 +36,7 @@ print ("The list after insertion is : " +  str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list to be inserted is : [2, 3]
 The list after insertion is : [4, 5, 2, 3, 6, 3, 9]
@@ -46,7 +46,7 @@ The list after insertion is : [4, 5, 2, 3, 6, 3, 9]
 **方法#2:使用列表切片**
 这是执行这个特殊任务的最蟒化最优雅的方式。在这个方法中，我们只是在需要添加元素的地方对列表进行切片，并分配要插入的列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # to insert one list in another
 # using list slicing
@@ -74,7 +74,7 @@ print ("The list after insertion is : " +  str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list to be inserted is : [2, 3]
 The list after insertion is : [4, 5, 2, 3, 6, 3, 9]

@@ -12,7 +12,7 @@ Python 是一种高级、通用且非常流行的编程语言。Python 编程语
 
 微软视窗的 Python 扩展提供了对大部分 Win32 应用编程接口的访问，创建和使用 COM 对象的能力，以及 Pythonwin 环境。
 
-```
+```py
 pip install pywin32
 ```
 
@@ -43,7 +43,7 @@ pip install pywin32
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from win32com import client
 

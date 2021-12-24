@@ -6,7 +6,7 @@
 
 借助下面给出的命令，我们可以创建一个窗口和插入符号
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ caret = pyglet.text.caret.Caret(layout, color=(255, 255, 255))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -174,6 +174,6 @@ pyglet.app.run()
 
 ![](img/ac20c2e6de3c66c1e2c1c8bd52197d5e.png)
 
-```
+```py
 Color Style : (255, 255, 255, 255)
 ```

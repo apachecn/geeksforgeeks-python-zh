@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df=pd.read_csv(r"__your file path__\example2.csv")
@@ -31,7 +31,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Choose entries with id p01
 df_new = df[df['Pid'] == 'p01']
 
@@ -48,7 +48,7 @@ print(df_new)
 
 ## 蟒蛇 3
 
-```
+```py
 # condition mask
 mask = df['Pid'] == 'p01'
 
@@ -68,7 +68,7 @@ print(df_new)
 
 ## 蟒蛇 3
 
-```
+```py
 # condition with df.values property
 mask = df['game_id'].values == 'g21'
 
@@ -92,7 +92,7 @@ print(df_new)
 
 ## 蟒蛇 3
 
-```
+```py
 # for boolean indexing
 mask = df['game_id'].values == 'g21'
 
@@ -112,7 +112,7 @@ print(df_new)
 
 ## 蟒蛇 3
 
-```
+```py
 # condition mask
 mask = df['game_id'].values == 'g21'
 print("Mask array :", mask)
@@ -137,7 +137,7 @@ df.iloc[pos]
 
 ## 蟒蛇 3
 
-```
+```py
 df.query('name=="Albert"')
 ```
 
@@ -151,7 +151,7 @@ df.query('name=="Albert"')
 
 ## 蟒蛇 3
 
-```
+```py
 df.query('points>50 & name!="Albert"')
 ```
 
@@ -167,7 +167,7 @@ df.query('points>50 & name!="Albert"')
 
 ## 蟒蛇 3
 
-```
+```py
 #Players to be selected
 li=['Albert','Louis','John']
 
@@ -184,7 +184,7 @@ df[df.name.isin(li)]
 
 ## 蟒蛇 3
 
-```
+```py
 # values to be present in selected rows
 li = ['Albert', 'Louis', 'John']
 
@@ -204,7 +204,7 @@ numpy 的 **where()** 功能可以与熊猫的 **isin()** 功能结合起来产�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 df_new = df.iloc[np.where(df.name.isin(li))]
@@ -218,7 +218,7 @@ df_new = df.iloc[np.where(df.name.isin(li))]
 
 ## 蟒蛇 3
 
-```
+```py
 # to calculate timing
 import numpy as np
 % % timeit
@@ -233,7 +233,7 @@ df_new = df.iloc[np.where(df.name.isin(li))]
 
 ## 蟒蛇 3
 
-```
+```py
 # to calculate time
 %%timeit
 

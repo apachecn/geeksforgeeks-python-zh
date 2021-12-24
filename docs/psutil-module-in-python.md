@@ -6,7 +6,7 @@
 
 #### Linux Ubuntu/Debian 中的安装步骤
 
-```
+```py
 sudo pip install psutil
 ```
 
@@ -32,7 +32,7 @@ sudo pip install psutil
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.cpu_times())
@@ -48,7 +48,7 @@ print(psutil.cpu_times())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.cpu_percent(1))
@@ -56,7 +56,7 @@ print(psutil.cpu_percent(1))
 
 **输出**
 
-```
+```py
 5.0
 ```
 
@@ -66,7 +66,7 @@ print(psutil.cpu_percent(1))
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print("Number of cores in system", psutil.cpu_count())
@@ -75,7 +75,7 @@ print("\nNumber of physical cores in system",)
 
 **输出:**
 
-```
+```py
 Number of cores in system 4
 Number of physical cores in system 2
 ```
@@ -91,7 +91,7 @@ Number of physical cores in system 2
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print("CPU Statistics", psutil.cpu_stats())
@@ -105,7 +105,7 @@ print("CPU Statistics", psutil.cpu_stats())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.cpu_freq())
@@ -121,7 +121,7 @@ print(psutil.cpu_freq())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.getloadavg())
@@ -129,7 +129,7 @@ print(psutil.getloadavg())
 
 **输出:**
 
-```
+```py
 (0.22, 0.33, 0.35)
 ```
 
@@ -153,7 +153,7 @@ print(psutil.getloadavg())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.virtual_memory())
@@ -178,7 +178,7 @@ print(psutil.virtual_memory())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.swap_memory())
@@ -196,7 +196,7 @@ print(psutil.swap_memory())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.disk_partitions())
@@ -212,7 +212,7 @@ print(psutil.disk_partitions())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.disk_usage('/'))
@@ -241,7 +241,7 @@ print(psutil.disk_usage('/'))
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.net_io_counters())
@@ -267,7 +267,7 @@ print(psutil.net_io_counters())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.net_connections())
@@ -290,7 +290,7 @@ print(psutil.net_connections())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.net_if_addrs())
@@ -308,7 +308,7 @@ print(psutil.net_if_addrs())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.sensors_temperatures())
@@ -324,7 +324,7 @@ print(psutil.sensors_temperatures())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.sensors_fans())
@@ -332,7 +332,7 @@ print(psutil.sensors_fans())
 
 **输出:**
 
-```
+```py
 {'asus': [sfan(label='cpu_fan', current=3000)]}
 ```
 
@@ -348,7 +348,7 @@ print(psutil.sensors_fans())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.sensors_battery())
@@ -366,7 +366,7 @@ print(psutil.sensors_battery())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil, datetime
 
 print(psutil.boot_time())
@@ -374,7 +374,7 @@ print(psutil.boot_time())
 
 **输出:**
 
-```
+```py
 1582860765.0
 ```
 
@@ -392,7 +392,7 @@ print(psutil.boot_time())
 
 ## 计算机编程语言
 
-```
+```py
 import psutil
 
 print(psutil.users())

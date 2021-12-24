@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation of the approach
 #include <iostream>
 using namespace std;
@@ -101,7 +101,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the approach
 import java.util.*;
 
@@ -197,7 +197,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the approach
 
 # Function that returns true if num is
@@ -262,7 +262,7 @@ printPeaksTroughs(arr, n)
 
 ## C#
 
-```
+```py
 // C# implementation of the approach
 using System;
 
@@ -358,7 +358,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Function that returns true if num is
@@ -427,7 +427,7 @@ var arr=[ 5, 10, 5, 7, 4, 3, 5 ];
 
 **Output:** 
 
-```
+```py
 Peaks : 10 7 5 
 Troughs : 5 5 3
 ```

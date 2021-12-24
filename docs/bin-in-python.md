@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of
 # bin()
 
@@ -31,7 +31,7 @@ print(bin(num))
 
 **输出:**
 
-```
+```py
 0b1100100
 ```
 
@@ -39,7 +39,7 @@ print(bin(num))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # bin()
 
@@ -57,7 +57,7 @@ print(Binary(100))
 
 ****输出:****
 
-```
+```py
 The binary representation of 100 (using bin()) is : 1100100
 ```
 
@@ -67,7 +67,7 @@ The binary representation of 100 (using bin()) is : 1100100
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # bin()
 class number:
@@ -81,7 +81,7 @@ print(bin(number()))
 
 ****输出:****
 
-```
+```py
 0b1100100
 ```
 

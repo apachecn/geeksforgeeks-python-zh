@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to create acronym
 def fxn(stng):
 
@@ -68,7 +68,7 @@ print(fxn(inpt1))
 
 **输出:**
 
-```
+```py
 CSE
 GFG
 UP
@@ -85,7 +85,7 @@ UP
 
 ## 蟒蛇 3
 
-```
+```py
 # function to create acronym
 def fxn(stng):
 
@@ -124,7 +124,7 @@ print(fxn(inpt1))
 
 **输出:**
 
-```
+```py
 CSE
 GFG
 UP

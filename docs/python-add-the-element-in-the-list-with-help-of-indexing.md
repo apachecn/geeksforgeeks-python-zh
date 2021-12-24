@@ -7,7 +7,7 @@
 **方法#1:用 `None`**
 使用预初始化这个问题的解决方案可以通过这样一个事实来实现，如果我们用无初始化所有的元素，内存将被分配给列表，然后它可以在以后根据需要被覆盖。
 
-```
+```py
 # Python3 code to demonstrate 
 # indexing element in list
 # pre initializing with None
@@ -24,7 +24,7 @@ print ("The inserted element is : " + str(test_list[5]))
 
 **输出:**
 
-```
+```py
 The inserted element is : 24
 
 ```
@@ -32,7 +32,7 @@ The inserted element is : 24
 **方法 2:使用字典**
 这种技术不一定要创建列表，而是创建了字典，该字典又可以代替列表使用，并可以执行类似的索引任务。这个方法正好解决了上面提到的问题。
 
-```
+```py
 # Python3 code to demonstrate 
 # indexing element in list
 # using dictionary
@@ -49,7 +49,7 @@ print ("The inserted element is : " + str(test_list[5]))
 
 **输出:**
 
-```
+```py
 The inserted element is : 24
 
 ```

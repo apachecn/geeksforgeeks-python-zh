@@ -10,7 +10,7 @@
 
 **安装时，在您的终端上运行该命令。**
 
-```
+```py
 pip install wikipedia
 ```
 
@@ -31,7 +31,7 @@ pip install wikipedia
 
 ## 蟒蛇 3
 
-```
+```py
 import wikipedia
 
 wikipedia.summary("Python (programming language)")
@@ -49,7 +49,7 @@ wikipedia.summary("Python (programming language)")
 
 ## 蟒蛇 3
 
-```
+```py
 wikipedia.page("Python (programming language)").content
 ```
 
@@ -63,7 +63,7 @@ wikipedia.page("Python (programming language)").content
 
 ## 蟒蛇 3
 
-```
+```py
 wikipedia.page("Python (programming language)").images
 ```
 
@@ -79,13 +79,13 @@ wikipedia.page("Python (programming language)").images
 
 ## 蟒蛇 3
 
-```
+```py
 wikipedia.page('"Hello, World!" program').url
 ```
 
 **输出:**
 
-```
+```py
 'https://en.wikipedia.org/wiki/%22Hello,_World!%22_program'
 ```
 
@@ -97,6 +97,6 @@ wikipedia.page('"Hello, World!" program').url
 
 ## 蟒蛇 3
 
-```
+```py
 wikipedia.page('"Hello, World!" program').categories
 ```

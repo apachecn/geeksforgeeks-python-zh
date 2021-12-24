@@ -24,7 +24,7 @@
 
 *   该函数将首先使用以下命令查找路径是否包含“\ ”:
 
-```
+```py
 # Returns the count if it finds 
 # any "\\" in the given path.
 path.find("\\")
@@ -34,7 +34,7 @@ path.find("\\")
 
 *   我们将根据当前操作系统分割路径，并将其存储在临时列表中。
 
-```
+```py
 # Windows
 temp = path.split("\\")
 
@@ -44,7 +44,7 @@ temp = path.split("/")
 
 *   我们将把文件或文件夹的名称和路径分别附加到名称列表和路径列表中。
 
-```
+```py
 # temp[-1] gets the last value present in
 # the temporary list that represents
 # the file or folder name.
@@ -54,7 +54,7 @@ path_list.append(path)
 
 *   如果 glob 变量为 True，父路径将与在 glob.iglob()方法中递归遍历所需的正则表达式连接。
 
-```
+```py
 # Windows
 path = os.path.join(path, "**\\*")
 
@@ -66,7 +66,7 @@ path = os.path.join(path, "**/*")
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # This function splits the path by checking
@@ -143,20 +143,20 @@ print(path_list)
 
 **1。**使用 os.walk(path)方法发起一个 for 循环，它生成一个元组，包含根目录下当前目录的路径和文件中的文件列表。
 
-```
+```py
 for root, _, files in os.walk(path):
 ```
 
 **2。**调用 append_path_name 函数，存储绕过当前目录路径的目录的名称和路径。
 
-```
+```py
 name_list, path_list = append_path_name(
        root, name_list, path_list, False)
 ```
 
 **3。**迭代文件并存储在文件夹中找到的文件的名称和路径。
 
-```
+```py
 # Joins the folder path and the
 # file name to generate file path
 file_path = os.path.join(root, file_name)
@@ -171,7 +171,7 @@ path_list.append(file_path)
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # This Function uses os.walk method to traverse folders
@@ -231,20 +231,20 @@ print(path_list)
 
 **1。**调用 append_path_name 函数，通过传递当前目录路径来存储目录的名称和路径。
 
-```
+```py
 name_list, path_list = append_path_name(
       path, name_list, path_list, False)
 ```
 
 **2。**使用 os.scandir(path)方法启动 for 循环，返回包含文件/文件夹当前名称和路径的对象。
 
-```
+```py
 for curr_path_obj in os.scandir(path):
 ```
 
 **3。**如果当前路径是一个目录，那么函数调用自身递归遍历文件夹并存储步骤 1 中的文件夹名称和路径。
 
-```
+```py
 if curr_path_obj.is_dir() == True:
    file_path = curr_path_obj.path
    find_using_scandir(file_path, name_list, path_list)
@@ -252,7 +252,7 @@ if curr_path_obj.is_dir() == True:
 
 **4。**否则文件名和路径分别存储在名称列表和路径列表中。
 
-```
+```py
 file_name = curr_path_obj.name
 file_path = curr_path_obj.path
 name_list.append(file_name)
@@ -263,7 +263,7 @@ path_list.append(file_path)
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # This Function uses os.scandir method to traverse

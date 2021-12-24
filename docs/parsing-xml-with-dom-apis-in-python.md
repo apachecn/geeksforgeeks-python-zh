@@ -6,7 +6,7 @@
 
 用 python 中的 DOM APIs 解析 XML 非常简单。出于示例的目的，我们将创建一个示例 XML 文档(sample.xml)，如下所示:
 
-```
+```py
 <?xml version="1.0"?>
 <company>
     <name>GeeksForGeeks Company</name>
@@ -27,7 +27,7 @@
 
 现在，让我们使用 python 解析上面的 XML。下面的代码演示了这个过程，
 
-```
+```py
 from xml.dom import minidom
 
 doc = minidom.parse("sample.xml")
@@ -47,7 +47,7 @@ for staff in staffs:
 
 **输出:**
 
-```
+```py
 GeeksForGeeks Company
 id:1, name: Amar Pandey, salary:8.5 LPA
 id:2, name: Akbar Khan, salary:6.5 LPA
@@ -56,7 +56,7 @@ id:3, name: Anthony Walter, salary:3.2 LPA
 
 也可以使用用户定义的函数来完成相同的操作，如下面的代码所示:
 
-```
+```py
 from xml.dom import minidom
 
 doc = minidom.parse("sample.xml")
@@ -85,7 +85,7 @@ for staff in staffs:
 
 **输出:**
 
-```
+```py
 Company Name : GeeksForGeeks Company 
 
 id:1, name:Amar Pandey, salary:8.5 LPA

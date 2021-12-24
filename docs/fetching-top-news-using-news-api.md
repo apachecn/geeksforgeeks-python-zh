@@ -6,7 +6,7 @@
 
 可以根据某些标准检索新闻。假设要搜索的主题(关键词)是“极客”(极客)或可能与特定渠道有关。一切都可以完成，但是需要 API 键才能开始。
 
-```
+```py
 Steps :
 
 1\. Visit https://newsapi.org/ to get your own API key.
@@ -18,7 +18,7 @@ Steps :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing requests package
 import requests    
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 1 Italy to lift coronavirus travel restrictions
 2 White House 'Operation Warp Speed' to look for Covid jab
 3 Two Americas in the nation's capital
@@ -88,14 +88,14 @@ if __name__ == '__main__':
 
 首先在你的系统中安装**newapi**和 **pycountry** 如果不在，使用下面的命令进行安装:
 
-```
+```py
 ~ pip install newsapi-python
 ~ pip install pycountry
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 from newsapi import NewsApiClient
 import pycountry
 
@@ -155,7 +155,7 @@ top_headlines = newsapi.get_top_headlines(
 
 **输入:**
 
-```
+```py
 Country: India
 Which category are you interested in?
 1.Business
@@ -170,7 +170,7 @@ Enter here: Technology
 
 **输出:**
 
-```
+```py
 Gizbot News: Garena Free Fire Redeem Codes For August 16; Get Master of Minds Weapon Loot Crate.
 News18: Google Pixel 5a Will Have Biggest Battery On Any Pixel Phone Ever, Launch This Month.
 Hindustan Times News: PUBG Mobile: Here’s how to get the Unhinged Mortician set on PUBG Mobile, check details of RPM2 Royale Pass.

@@ -18,7 +18,7 @@
 
 **例 1 :**
 
-```
+```py
 # create a set
 s = {'a', 'b', 'c', 'd'}
 print("Initially")
@@ -34,7 +34,7 @@ print("Contents of s : " + s)
 
 **输出:**
 
-```
+```py
 Initially
 The datatype of s : <class 'set'>
 Contents of s :  {'c', 'd', 'a', 'b'}
@@ -47,7 +47,7 @@ Contents of s : {'c', 'd', 'a', 'b'}
 
 **例 2 :**
 
-```
+```py
 # create a set
 s = {'g', 'e', 'e', 'k', 's'}
 print("Initially")
@@ -63,7 +63,7 @@ print("Contents of s : " + s)
 
 **输出:**
 
-```
+```py
 Initially
 The datatype of s : <class 'set'>
 Contents of s :  {'k', 'g', 's', 'e'}
@@ -80,11 +80,11 @@ join()方法是一个字符串方法，它返回一个字符串，在该字符�
 
 **语法:**
 
-```
+```py
 string_name.join(iterable) 
 ```
 
-```
+```py
 # create a set
 s = {'a', 'b', 'c', 'd'}
 print("Initially")
@@ -99,7 +99,7 @@ print("Contents of s : ", S)
 
 **输出:**
 
-```
+```py
 Initially
 The datatype of s : <class 'set'>
 Contents of s :  {'c', 'd', 'a', 'b'}

@@ -8,13 +8,13 @@
 
 **第一步:**导入街机模块。
 
-```
+```py
 import arcade
 ```
 
 **步骤 2:** 定义输出屏幕的参数。
 
-```
+```py
 # Size of the screen
 WIDTH = 600
 HEIGHT = 600
@@ -23,21 +23,21 @@ TITLE = "Robust Ball "
 
 **第三步:**定义球的半径。
 
-```
+```py
 # Size of the ball.
 BALL_RADIUS = 50
 ```
 
 **第四步:**定义引力常数的值。
 
-```
+```py
 #  gravity 
 GRAVITATIONAL_CONSTANT = 0.3
 ```
 
 **第五步:**定义球的弹跳速度。
 
-```
+```py
 # Percent of velocity maintained on a bounce.
 BOUNCE = 0.9
 ```
@@ -46,7 +46,7 @@ BOUNCE = 0.9
 
 ## 蟒 3
 
-```
+```py
 def draw(_delta_time):
 
     # Start the render.
@@ -65,7 +65,7 @@ def draw(_delta_time):
 
 ## 蟒 3
 
-```
+```py
 # Figure out if we hit the left or 
 # right edge and need to reverse.
 if draw.x < BALL_RADIUS and draw.delta_x < 0:

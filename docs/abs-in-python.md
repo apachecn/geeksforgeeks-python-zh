@@ -24,7 +24,7 @@ abs()函数使任何负数变为正数，而正数不受影响。任何数字的
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # abs() built-in function
 
@@ -43,7 +43,7 @@ print('Absolute value or Magnitude of complex is:', abs(complex))
 
 **输出:**
 
-```
+```py
 Absolute value of float is: 54.26
 Absolute value of integer is: 94
 Absolute value or Magnitude of complex is: 5.0
@@ -59,7 +59,7 @@ Absolute value or Magnitude of complex is: 5.0
 
 **使用的公式:**
 
-```
+```py
 Distance  = Speed * Time
 Time = Distance / Speed
 Speed = Distance / Time
@@ -67,7 +67,7 @@ Speed = Distance / Time
 
 **示例:**
 
-```
+```py
 Input : distance(km) : 48.5  time(hr) : 2.6
 Output : Speed(km / hr) : 18.653846153
 
@@ -82,7 +82,7 @@ Output : Time(hr) : 1.0543
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to calculate speed,
 # distance and time
 
@@ -122,7 +122,7 @@ print(" The calculated Time(hr) :",
 
 **输出:**
 
-```
+```py
  Distance(km) : 45.9
  Time(hr) : 2.0
  The calculated Speed(km / hr) is : 22.95

@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Python Selenium 中动作链的`move_to_element`方法展开。move_to_element 方法用于将鼠标移动到元素的中间。
 **语法–**
 
-```
+```py
 move_to_element(to_element)
 ```
 
@@ -16,20 +16,20 @@ move_to_element(to_element)
 
 **示例–**
 
-```
+```py
 <input type ="text" name ="passwd" id ="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 ```
 
 现在可以使用 move_to_element 方法作为动作链，如下所示–
 
-```
+```py
 move_to_element(to_element=element)
 
 ```
@@ -40,7 +40,7 @@ move_to_element(to_element=element)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

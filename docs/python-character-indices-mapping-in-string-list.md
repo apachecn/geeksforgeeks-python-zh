@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Charatacter indices Mapping in String List
 # Using defaultdict() + enumerate() + split()
@@ -45,7 +45,7 @@ print("The mapped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['g f g', 'i s', 'b e s t', 'f o r', 'g e e k s']
 The mapped dictionary : {'g': [1, 5], 'f': [1, 4], 'i': [2], 's': [2, 3, 5], 'b': [3], 'e': [3, 5], 't': [3], 'o': [4], 'r': [4], 'k': [5]}
 
@@ -57,7 +57,7 @@ The mapped dictionary : {'g': [1, 5], 'f': [1, 4], 'i': [2], 's': [2, 3, 5], 'b'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Charatacter indices Mapping in String List
 # Using enumerate() + dictionary comprehension
@@ -78,7 +78,7 @@ print("The mapped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['g f g', 'i s', 'b e s t', 'f o r', 'g e e k s']
 The mapped dictionary : {'g': [1, 5], 'f': [1, 4], 'i': [2], 's': [2, 3, 5], 'b': [3], 'e': [3, 5], 't': [3], 'o': [4], 'r': [4], 'k': [5]}
 

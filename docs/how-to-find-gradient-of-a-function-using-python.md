@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : x^4+x+1
 Output :Gradient of x^4+x+1 at x=1 is  4.99
 
@@ -19,13 +19,13 @@ Output :Gradient of (1-x^2)+(y-x^2)^2 at (1, 2) is  [-4\.  2.]
 
 *   **对于单变量函数:**对于单变量函数，我们可以直接使用“λ”进行定义，如下所示:-
 
-    ```
+    ```py
     g=lambda x:(x**4)+x+1
     ```
 
 *   **For Multi-Variable Function:** We will define a function using “def” and pass an array “x” and it will return multivariate function as described below:-
 
-    ```
+    ```py
     def rosen(x): 
         return (1-x[0])**2 +(x[1]-x[0]**2)**2
     ```
@@ -37,13 +37,13 @@ Output :Gradient of (1-x^2)+(y-x^2)^2 at (1, 2) is  [-4\.  2.]
 **使用的方法:**渐变()
 T3】语法:
 
-```
+```py
 nd.Gradient(func_name)
 ```
 
 **示例:**
 
-```
+```py
 import numdifftools as nd
 
 g = lambda x:(x**4)+x + 1
@@ -59,7 +59,7 @@ print("Gradient of (1-x ^ 2)+(y-x ^ 2)^2 at (1, 2) is ", grad2)
 
 **输出:**
 
-```
+```py
 Gradient of x^4+x+1 at x=1 is  4.999999999999998
 Gradient of (1-x^2)+(y-x^2)^2 at (1, 2) is  [-4\.  2.]
 ```

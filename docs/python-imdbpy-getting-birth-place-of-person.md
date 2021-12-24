@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,7 +38,7 @@ print(place)
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 New Delhi, India
 ```
@@ -47,7 +47,7 @@ New Delhi, India
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -72,7 +72,7 @@ print(place)
 
 **输出:**
 
-```
+```py
 Nawazuddin Siddiqui
 Budhana, Muzaffarnagar, Uttar Pradesh, India
 ```

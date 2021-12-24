@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +生成器表达式**
 每当生成器表达式返回 true 时，该方法就使用总和加 1 的技巧。当列表耗尽时，返回与条件匹配的数字总数。
 
-```
+```py
 # Python 3 code to demonstrate 
 # False values Frequency
 # using sum() + generator expression 
@@ -29,7 +29,7 @@ print ("The number of False elements: " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [3, False, False, 6, False, 9]
 The number of False elements: 3
 

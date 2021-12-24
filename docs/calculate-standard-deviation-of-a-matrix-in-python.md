@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required packages
 import numpy as np
 
@@ -32,7 +32,7 @@ print("Standard Deviation :\n", sd)
 
 **输出:**
 
-```
+```py
 Your matrix:
 [[33 55 66 74]
 [23 45 65 27]
@@ -46,7 +46,7 @@ Standard Deviation :
 
 ## 蟒蛇 3
 
-```
+```py
 import statistics
 
 statistics.stdev([11, 43, 56, 77, 87, 45, 67, 33])
@@ -54,7 +54,7 @@ statistics.stdev([11, 43, 56, 77, 87, 45, 67, 33])
 
 **输出:**
 
-```
+```py
 24.67466890789592
 
 ```

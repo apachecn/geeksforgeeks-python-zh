@@ -12,7 +12,7 @@ Tkinter 是 Python 的标准 GUI(图形用户界面)包。它是 Python 本身�
 
 导入 tkinter 模块与导入任何其他模块相同。
 
-```
+```py
 import tkinter   # In Python 3.x
 
 import Tkinter   # In python 2.x. (Note Capital T)
@@ -25,7 +25,7 @@ tkinter . ttk 的基本思想是尽可能将实现小部件行为的代码与实
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from tkinter module
 from tkinter import *   
 
@@ -59,7 +59,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module
 from tkinter import *       
 

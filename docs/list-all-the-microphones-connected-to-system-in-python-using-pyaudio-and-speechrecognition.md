@@ -12,26 +12,26 @@
 *   **SpeechRecognition:** This module does not comes built-in with Python. There are two ways to install this module.
     1) Type the below command in the terminal.
 
-    ```
+    ```py
     pip install SpeechRecognition
     ```
 
     2)从 [PyPI](https://pypi.org/project/SpeechRecognition/) 下载资源并解压到一个文件夹中，然后在 cmd 或终端运行以下命令。
 
-    ```
+    ```py
     python setup.py install
     ```
 
 *   **PyAudio:**
     **1) Windows:** Run the following command in the CMD.
 
-    ```
+    ```py
     pip install pyaudio
     ```
 
     **2) Linux:** 在终端运行以下命令。
 
-    ```
+    ```py
     sudo apt-get install python-pyaudio python3-pyaudio
     ```
 
@@ -39,21 +39,21 @@
 
 首先，将语音识别实例导入为“sr”
 
-```
+```py
 import speech_recognition as sr
 
 ```
 
 现在`list_microphone_names()`方法将向系统返回已连接麦克风的阵列/列表。
 
-```
+```py
 sr.Microphone.list_microphone_names()
 
 ```
 
 **完整代码:**
 
-```
+```py
 import speechrecognition as sr
 
 print(sr.Microphone.list_microphone_names())

@@ -13,7 +13,7 @@ Radius 邻居也是基于实例学习的技术之一。基于实例学习的模�
 1.  所有实例都对应于 n 维空间中的点，其中 n 表示任何实例中的特征数量。
 2.  实例的邻居是根据欧几里得距离定义的。
 
-```
+```py
 An instance can be represented by < x1, x2, .............., xn >.
 Euclidean distance between two instances xa and xb is given by d( xa, xb ) : 
 ```
@@ -52,7 +52,7 @@ r 的最佳选择是验证测试数据的误差。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 
 import pandas as pd
@@ -210,7 +210,7 @@ if __name__ == "__main__" :
 
 #### 输出:
 
-```
+```py
 Accuracy on test set by our model     :  61.111111111111114
 Accuracy on test set by sklearn model :  61.111111111111114
 ```
@@ -245,7 +245,7 @@ r 的最佳选择是验证测试数据的误差。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 
 import pandas as pd
@@ -376,7 +376,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 Real values                         :  [ 37731 122391  57081]
 Predicted values by our model       :  [71022.5 71022.5 71022.5]
 Predicted values by sklearn model   :  [71022.5 71022.5 71022.5]

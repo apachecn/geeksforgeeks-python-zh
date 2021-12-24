@@ -7,7 +7,7 @@
 **方法#1:使用`Counter()` +生成器表达式**
 上述功能的组合可用于实现该特定任务。在本文中，我们使用生成器表达式迭代特定的索引，并使用`Counter()`计算计数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Counting Nth tuple element
 # using Counter() + generator expression

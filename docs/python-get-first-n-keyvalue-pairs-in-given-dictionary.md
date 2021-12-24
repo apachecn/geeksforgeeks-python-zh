@@ -8,7 +8,7 @@
 
 **代码#1:** 使用 itertools.islice()方法
 
-```
+```py
 # Python program to get N key:value pairs in given dictionary
 # using itertools.islice() method
 
@@ -38,7 +38,7 @@ print("Dictionary limited by K is : " + str(out)) 
 
 **代码#2:** 对字典项目列表使用切片
 
-```
+```py
 # Python program to get N key:value pairs in given dictionary
 # using list slicing
 

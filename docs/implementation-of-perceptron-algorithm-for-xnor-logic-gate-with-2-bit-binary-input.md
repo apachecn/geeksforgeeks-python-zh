@@ -39,7 +39,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -103,7 +103,7 @@ print("XNOR({}, {}) = {}".format(1, 0, XNOR_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 XNOR(0, 1) = 0
 XNOR(1, 1) = 1
 XNOR(0, 0) = 1

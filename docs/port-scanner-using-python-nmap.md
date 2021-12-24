@@ -10,7 +10,7 @@
 
 我们将使用“`python-nmap`”模块来完成这项任务。通过以下命令安装软件包(如果尚未安装)
 
-```
+```py
 pip install python-nmap
 
 ```
@@ -19,7 +19,7 @@ pip install python-nmap
 
 **例:**
 
-```
+```py
 import nmap
 
 # take the range of ports to 
@@ -51,7 +51,7 @@ for i in range(begin,end+1):
 
 **输出:**
 
-```
+```py
 port 75 is closed.
 port 76 is closed.
 port 77 is closed.

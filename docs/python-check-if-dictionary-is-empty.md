@@ -8,7 +8,7 @@
 
 bool 函数可以用来执行这个特殊的任务。顾名思义，它执行将对象转换为布尔值的任务，但是在这里，传递一个空字符串会返回一个 False，因为无法转换空的东西。
 
-```
+```py
 # Python3 code to demonstrate
 # Check if dictionary is empty
 # using bool()
@@ -29,7 +29,7 @@ print("Is dictionary empty ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {}
 Is dictionary empty ? : True
 
@@ -39,7 +39,7 @@ Is dictionary empty ? : True
 
 也可以使用 not 运算符来执行此任务，该运算符检查字典是否存在，如果在字典中找不到任何键，则计算结果为 True。
 
-```
+```py
 # Python3 code to demonstrate
 # Check if dictionary is empty
 # using not operator
@@ -60,7 +60,7 @@ print("Is dictionary empty ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {}
 Is dictionary empty ? : True
 

@@ -8,7 +8,7 @@ python 中的 ***gentag 库*** 提供了一种标记 Python 对象的有效方�
 
 使用以下命令安装 *gentag* 库。
 
-```
+```py
 pip install gentag
 ```
 
@@ -20,7 +20,7 @@ pip install gentag
 
 ## 蟒蛇 3
 
-```
+```py
 from gentag import Scope
 
 # defining tag object
@@ -49,7 +49,7 @@ print(tags.tags['manjeet'])
 
 ## 蟒蛇 3
 
-```
+```py
 from gentag import Scope
 
 # defining tag object
@@ -86,7 +86,7 @@ print("Intersection of all tags : " + str(tags.evaluate('all')))
 
 ## 蟒蛇 3
 
-```
+```py
 from gentag import Scope
 
 # defining tag object

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个特殊任务的蛮力方法。在这种情况下，我们只是迭代列表和元组来测试每个索引处的元素是否相似。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if tuple and list are identical
 # Using loop
@@ -34,7 +34,7 @@ print("Are tuple and list identical ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 The original tuple is : ('gfg', 'is', 'best')
 Are tuple and list identical ? : True

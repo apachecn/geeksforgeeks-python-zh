@@ -13,7 +13,7 @@
 
 要安装不平衡学习，只需键入:
 
-```
+```py
 pip install imbalanced-learn
 ```
 
@@ -21,13 +21,13 @@ pip install imbalanced-learn
 
 **估计器:**它实现了一种拟合方法，该方法源自 *scikit-learn* 。数据和目标都是 2D 阵列的形式
 
-```
+```py
 estimator = obj.fit(data, targets)
 ```
 
 **重采样器:***fit _ resample*方法将数据和目标重采样到字典中，字典中的键值对为*data _ resample*和*targets _ resample*。
 
-```
+```py
 data_resampled, targets_resampled = obj.fit_resample(data, targets)
 ```
 
@@ -42,7 +42,7 @@ data_resampled, targets_resampled = obj.fit_resample(data, targets)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from sklearn.datasets import make_classification
 
@@ -80,7 +80,7 @@ print('y:\n', y)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from sklearn.datasets import make_classification
 from imblearn.over_sampling import RandomOverSampler
@@ -120,7 +120,7 @@ print('y_over:\n', y_over)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from sklearn.datasets import make_classification
 from imblearn.over_sampling import SMOTE
@@ -159,7 +159,7 @@ print('y_smote:\n', y_smote)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from sklearn.datasets import make_classification
 from imblearn.under_sampling import EditedNearestNeighbours
@@ -195,7 +195,7 @@ print('y_en:\n', y_en)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from sklearn.datasets import make_classification
 from imblearn.under_sampling import RandomUnderSampler

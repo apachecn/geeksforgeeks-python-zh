@@ -7,14 +7,14 @@ Python 中语音识别的最佳库之一，使用各种引擎和应用编程接�
 安装
 在 cmd 或终端使用此命令，确保 Python 已安装，并且 Python 路径也存储在 pc 中。
 
-```
+```py
 pip install speechrecognition
 ```
 
 **或**
 从 [PyPI](https://pypi.org/project/SpeechRecognition/) 下载资源并解压到文件夹中，然后在 cmd 或终端运行以下命令。
 
-```
+```py
 python setup.py install
 ```
 
@@ -29,13 +29,13 @@ python setup.py install
     **安装:**
     **1) Windows:** 在 cmd 中执行以下命令。
 
-```
+```py
 pip install pyaudio
 ```
 
 *   **2) Debian Linux:** 在终端执行下面的命令。
 
-```
+```py
 sudo apt-get install python-pyaudio python3-pyaudio
 ```
 
@@ -44,7 +44,7 @@ sudo apt-get install python-pyaudio python3-pyaudio
     **安装:**
     **1)窗户:**执行
 
-```
+```py
 pip install virtualenv
 virtualenv 
 \Scripts\activate
@@ -54,7 +54,7 @@ virtualenv
 *   在 CMD 中。
     **2) Debian Linux:** 执行
 
-```
+```py
 pip install virtualenv
 virtualenv 
 \Scripts\activate
@@ -76,19 +76,19 @@ virtualenv
 *   **注意:**从 GitHub 下载 ZIP 存档将不起作用。
     在 PocketSphinx-Python 源代码文件夹中运行下面的命令来编译和安装 PocketSphinx。
 
-```
+```py
 python setup.py install
 ```
 
 *   **2) Linux:** 针对 Python 2 运行
     ，
 
-```
+```py
 pip install pocketsphinx 
 ```
 
 *   对于 Python 3。
 
-```
+```py
 pip3 install pocketsphinx
 ```

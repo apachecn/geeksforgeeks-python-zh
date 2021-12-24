@@ -6,7 +6,7 @@ Kivy 是一个独立的平台，因为它可以在安卓、IOS、Linux 和视窗
 
 使用此命令安装 [kivy](https://www.geeksforgeeks.org/kivy-tutorial/) :
 
-```
+```py
 pip install kivy
 ```
 
@@ -27,7 +27,7 @@ pip install kivy
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py
 # import the kivy module
 import kivy
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # my.kv file code here
 <MainWidget>:
 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # just do change in the above my.kv
 # (code #1) file else all are same.
 <MainWidget>:
@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # just do change in the above my.kv
 # (code #1)file else all are same.
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们迭代每个循环元素，并使用元素计数器找到它的大小。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements Lengths in List
 # Using loop
@@ -36,7 +36,7 @@ print("The element sizes in order are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['GFG', (4, 5, 6), 17, [5, 6, 7, 8], 'Best']
 The element sizes in order are : [3, 3, 1, 4, 4]
 

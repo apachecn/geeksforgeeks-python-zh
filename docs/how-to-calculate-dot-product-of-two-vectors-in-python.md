@@ -54,7 +54,7 @@ Python 提供了一种非常有效的方法来计算两个向量的点积。通�
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # dot product of two vectors
 
@@ -71,7 +71,7 @@ print(np.dot(a, b))
 
 **输出:**
 
-```
+```py
 35
 ```
 
@@ -79,7 +79,7 @@ print(np.dot(a, b))
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # dot product of two vectors
 
@@ -96,7 +96,7 @@ print(np.dot(a, b))
 
 **输出:**
 
-```
+```py
 (15+25j)
 ```
 
@@ -104,7 +104,7 @@ print(np.dot(a, b))
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # dot product of two vectors
 
@@ -122,7 +122,7 @@ print(np.dot(a, b))
 
 **输出:**
 
-```
+```py
 [[5 4]
  [9 6]]
 ```
@@ -131,7 +131,7 @@ print(np.dot(a, b))
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # dot product of two vectors
 
@@ -152,7 +152,7 @@ print(np.dot(b, a))
 
 **输出:**
 
-```
+```py
 [[2 4]
  [6 9]]
 ```

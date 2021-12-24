@@ -27,7 +27,7 @@
 
 我们可以通过使用色标来改变颜色。
 
-```
+```py
 fig = go.Figure(data=go.Scatter(
     y=np.random.randn(500),
     mode='markers',
@@ -50,7 +50,7 @@ fig = go.Figure(data=go.Scatter(
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import plotly.graph_objects as go
 import numpy as np
@@ -88,7 +88,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 import numpy as np
 
@@ -116,7 +116,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 import numpy as np
 

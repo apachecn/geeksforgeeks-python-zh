@@ -11,7 +11,7 @@ import 语句涉及两个操作，它搜索一个模块，并将搜索结果绑�
 当一个模块被导入时，解释器首先在`sys.modules`中搜索它，T0 是所有先前已经导入的模块的缓存。如果没有找到，那么它会搜索所有具有该名称的内置模块，如果找到了，那么解释器会运行所有代码并提供给文件。如果找不到该模块，它将在变量`sys.path`给出的目录列表中搜索同名文件。
 `sys.path`是一个包含路径列表的变量，路径列表包含 python 库、包和包含输入脚本的目录。例如，一个名为 `math`的模块被导入，然后解释器在一个内置模块中搜索它，如果没有找到它，那么它在`sys.path`给出的目录列表中搜索名为`math.py`的文件。
 
-```
+```py
 # Python program importing
 # math module
 
@@ -21,7 +21,7 @@ print(math.pi)
 
 **输出:**
 
-```
+```py
 3.141592653589793
 
 ```
@@ -30,7 +30,7 @@ print(math.pi)
 用户可以同时导入包和模块。(注意，导入包本质上是将包的`__init__.py`文件作为模块导入。)用户还可以从包或模块中导入特定对象。
 导入语法一般有两种。当您使用第一个时，您直接导入资源。
 
-```
+```py
 import gfg
 
 ```
@@ -39,7 +39,7 @@ import gfg
 
 当用户使用第二种语法时，用户从另一个包或模块导入资源。
 
-```
+```py
 from gfg import geek
 
 ```
@@ -58,7 +58,7 @@ from gfg import geek
 
 在每个导入组中按字母顺序排列导入语句也很好。
 
-```
+```py
 # Python program showing
 # how to style import statements
 
@@ -89,7 +89,7 @@ pkg2 包含三个模块，模块 3、模块 4、`__init__.py`和一个包含模�
 *   `pkg2 / module3.py`包含一个函数 fun2
 *   `pkg2 / subpkg1 / module5.py` 包含函数 fun3
 
-```
+```py
 # Python program showing
 # practical example of
 # absolute imports
@@ -118,7 +118,7 @@ T5】利弊:
 **缺点:**
 如果目录结构很大那么使用绝对导入就没有意义了。在这种情况下，使用相对导入效果很好。
 
-```
+```py
 from pkg1.subpkg2.subpkg3.subpkg4.module5 import fun6
 
 ```
@@ -145,7 +145,7 @@ from pkg1.subpkg2.subpkg3.subpkg4.module5 import fun6
 *   `pkg2 / module3.py`包含一个函数 fun2
 *   `pkg2 / subpkg1 / module5.py` 包含函数 fun3
 
-```
+```py
 # Python program showing
 # practical example of
 # relative imports

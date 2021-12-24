@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # the difference between the
 # local time and UTC time
@@ -44,7 +44,7 @@ print(date_time.utcoffset())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # the difference between the
 # local time and UTC time
@@ -74,7 +74,7 @@ print("Time ahead of UTC by:", aware1.utcoffset())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # the difference between the
 # local time and UTC time

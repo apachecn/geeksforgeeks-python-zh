@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +生成器表达式**
 以上功能的组合可用于执行该任务。在本例中，我们使用生成器表达式执行字符串连接任务，每个元组的映射索引由 zip()完成。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple String concatenation
 # using zip() + generator expression 
@@ -30,7 +30,7 @@ print("The concatenated tuple : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple 1 : ('Manjeet', 'Nikhil', 'Akshat')
 The original tuple 2 : (' Singh', ' Meherwal', ' Garg')
 The concatenated tuple : ('Manjeet Singh', 'Nikhil Meherwal', 'Akshat Garg')

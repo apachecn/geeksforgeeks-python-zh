@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1]
 Output : [0, 1, 0, 0, 2, 2, 0, 0, 0, 3, 3, 3]
 
@@ -19,7 +19,7 @@ Output : [1, 0, 2, 0, 0, 0, 3, 3, 0, 0, 4, 4, 4, 0, 5, 0, 6]
 
 对于给定的问题，这是一种幼稚的方法。它使用两个变量“previous”和“grp”来存储先前递增的数字，并将 1 的数字存储在一个组中。现在，使用 for 循环，相应地增加 1。
 
-```
+```py
 # Python3 program to increment 1's in 
 # list based on pattern 
 
@@ -44,7 +44,7 @@ print(res)
 
 **Output:**
 
-```
+```py
 [0, 1, 0, 0, 2, 2, 0, 0, 0, 3, 3, 3]
 
 ```
@@ -52,7 +52,7 @@ print(res)
 **接近#2 :** 使用*从 *itertools* 模块计数*、*链*和*组。
 对于给定的问题，这是一种高效且更加精确的方法，我们使用 *itertools* 模块中的*计数*、*链*和 *groupby* 。*
 
-```
+```py
 # Python3 program to increment 1's in 
 # list based on pattern 
 from itertools import * 
@@ -70,7 +70,7 @@ print(transform(lst))
 
 **Output:**
 
-```
+```py
 [0, 1, 0, 0, 2, 2, 0, 0, 0, 3, 3, 3]
 
 ```

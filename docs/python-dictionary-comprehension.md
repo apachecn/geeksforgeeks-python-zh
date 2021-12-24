@@ -7,7 +7,7 @@
 
 让我们看一个例子，假设我们现在有两个名为 key 和值的列表，
 
-```
+```py
 # Python code to demonstrate dictionary 
 # comprehension
 
@@ -26,13 +26,13 @@ print (myDict)
 
 输出:
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 ```
 
 我们也可以利用理解从一个列表中制作字典
 
-```
+```py
 # Python code to demonstrate dictionary 
 # creation using list comprehension
 myDict = {x: x**2 for x in [1,2,3,4,5]}
@@ -41,26 +41,26 @@ print (myDict)
 
 输出:
 
-```
+```py
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
 类似的，
 
-```
+```py
 sDict = {x.upper(): x*3 for x in 'coding '}
 print (sDict)
 ```
 
 输出:
 
-```
+```py
 {'O': 'ooo', 'N': 'nnn', 'I': 'iii', 'C': 'ccc', 'D': 'ddd', 'G': 'ggg'}
 ```
 
 我们可以在 if 和 else 语句以及其他表达式中使用字典理解。下面的示例将数字映射到不能被 4 整除的立方体:
 
-```
+```py
 # Python code to demonstrate dictionary 
 # comprehension using if.
 newdict = {x: x**3 for x in range(10) if x**3 % 4 == 0}
@@ -69,7 +69,7 @@ print(newdict)
 
 输出:
 
-```
+```py
 {0: 0, 8: 512, 2: 8, 4: 64, 6: 216}
 ```
 

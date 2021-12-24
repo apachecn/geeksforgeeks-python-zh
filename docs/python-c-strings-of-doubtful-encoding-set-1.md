@@ -6,7 +6,7 @@
 
 **代码#1 : C 数据和说明问题的函数。**
 
-```
+```py
 /* Some dubious string data (malformed UTF-8) */
 const char* sdata = "Spicy Jalape\xc3\xb1o\xae";
 int slen = 16;
@@ -28,7 +28,7 @@ void print_chars(char* s, int len)
 
 **代码#2 :**
 
-```
+```py
 /* Return the C string back to Python */
 static PyObject *py_retstr(PyObject *self, PyObject *args)
 {
@@ -64,14 +64,14 @@ static PyObject *py_print_chars(PyObject *self, PyObject *args)
 
 **代码#3:使用上面的代码 2**
 
-```
+```py
 s = retstr()
 printf (s)
 
 printf ("\n", print_chars(s))
 ```
 
-```
+```py
 'Spicy Jalapeño\udcae'
 
 53 70 69 63 79 20 4a 61 6c 61 70 65 c3 b1 6f ae

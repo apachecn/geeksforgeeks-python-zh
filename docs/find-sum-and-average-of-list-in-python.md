@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [4, 5, 1, 2, 9, 7, 10, 8]
 Output:
 sum =  46
@@ -27,7 +27,7 @@ average =  35.75
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the sum
 # and average of the list
 
@@ -51,7 +51,7 @@ print("average = ", avg)
 
 **输出:**
 
-```
+```py
 sum =  46
 average =  5.75
 
@@ -65,7 +65,7 @@ average =  5.75
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the sum
 # and average of the list
 
@@ -83,7 +83,7 @@ print("average = ", avg)
 
 **输出:**
 
-```
+```py
 sum =  46
 average =  5.75
 

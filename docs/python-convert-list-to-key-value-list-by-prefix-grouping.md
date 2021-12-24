@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to key-value list by prefic grouping
 # Using groupby() + startswith() + lambda
@@ -49,7 +49,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['GFG-1', 4, 6, 7, 'GFG-2', 2, 3, 'GFG-3', 9, 2, 4, 6]
 The constructed dictionary : {'GFG-1': [4, 6, 7], 'GFG-2': [2, 3], 'GFG-3': [9, 2, 4, 6]}
 

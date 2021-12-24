@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种蛮力方式，可以用这种方式构建。在这种情况下，我们手动检查每个字符，并将其作为索引号映射到字符串中的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Index Mapping Cypher 
 # Using loop
@@ -34,7 +34,7 @@ print("The deciphered value string : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The deciphered value string : fkseg
 

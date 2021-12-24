@@ -6,14 +6,14 @@
 我们可以借助下面给出的命令
 创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是鼠标输入事件的语法，当这个事件被触发时
 这个方法被调用
 
-```
+```py
 @window.event       
 def on_mouse_enter(x, y):
     print("Mouse Entered into the window")
@@ -23,7 +23,7 @@ def on_mouse_enter(x, y):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -95,7 +95,7 @@ pyglet.app.run()
 
 **输出:**
 
-```
+```py
 Mouse is entered in window
 Mouse is entered in window
 Mouse is entered in window

@@ -7,7 +7,7 @@
 **方法#1:使用 loop + strip()**
 这是我们执行这个任务的蛮力方式。在本例中，我们将列表的每个元素构造为字符串中的单词，并考虑括号和逗号来执行拆分。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Exceptional Split in String
 # Using loop + split()
@@ -43,7 +43,7 @@ print("The string after exceptional split : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg, is, (best, for), geeks
 The string after exceptional split : ['gfg', ' is', ' (best, for)', ' geeks']
 

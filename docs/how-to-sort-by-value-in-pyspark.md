@@ -6,7 +6,7 @@
 
 创建 RDD 进行演示:
 
-```
+```py
 # importing module
 from pyspark.sql import SparkSession, Row
 

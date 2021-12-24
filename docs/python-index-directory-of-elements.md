@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: test_list = [7, 6, 3, 7, 8, 3, 6, 7, 8]
 Output: {8: [4, 8], 3: [2, 5], 6: [1, 6], 7: [0, 3, 7]}
 Explanation: 8 occurs at 4th and 8th index, 3 occurs at 2nd and 5th index and so on.
@@ -22,7 +22,7 @@ Explanation: 8 occurs at 4th index, 3 occurs at 2nd and 5th index and so on.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Directory of Elements
 # Using dictionary comprehension + enumerate()
@@ -43,7 +43,7 @@ print("Index Directory : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [7, 6, 3, 7, 8, 3, 6, 7, 8]
 Index Directory : {8: [4, 8], 3: [2, 5], 6: [1, 6], 7: [0, 3, 7]}
 ```
@@ -54,7 +54,7 @@ Index Directory : {8: [4, 8], 3: [2, 5], 6: [1, 6], 7: [0, 3, 7]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Directory of Elements
 
@@ -80,7 +80,7 @@ print("Index Directory : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [7, 6, 3, 7, 8, 3, 6, 7, 8]
 Index Directory : {3: [2, 5], 6: [1, 6], 7: [0, 3, 7], 8: [4, 8]}
 ```

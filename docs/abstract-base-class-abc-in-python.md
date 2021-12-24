@@ -24,7 +24,7 @@ ABCMeta 元类提供了一个名为 register method 的方法，可以被它的�
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -36,7 +36,7 @@ print(AbstractClass.register(dict))
 
 **输出:**
 
-```
+```py
 <class 'dict'>
 ```
 
@@ -44,7 +44,7 @@ print(AbstractClass.register(dict))
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -57,7 +57,7 @@ print(issubclass(dict, AbstractClass))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -65,7 +65,7 @@ True
 
 为了理解声明一个虚拟子类的需要，我们需要考虑一个类似列表的对象的例子，在这个例子中，您不想设置一个只考虑列表或元组的限制。在此之前，让我们看看如何使用 **isinstance** 来检查类的列表或元组。
 
-```
+```py
 isinstance([], (list, tuple))
 
 ```
@@ -74,7 +74,7 @@ isinstance([], (list, tuple))
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class MySequence(metaclass=abc.ABCMeta):
@@ -93,7 +93,7 @@ print('Object instance:', isinstance(object(), MySequence))
 
 **输出:**
 
-```
+```py
 List instance: True
 Tuple instance: True
 Object instance: False
@@ -105,7 +105,7 @@ Object instance: False
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class MySequence(metaclass=abc.ABCMeta):
@@ -120,7 +120,7 @@ print(issubclass(CustomListLikeObjCls, MySequence))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -128,7 +128,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class MySequence(metaclass=abc.ABCMeta):
@@ -143,7 +143,7 @@ print(issubclass(CustomListLikeObjCls, MySequence))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -155,7 +155,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -178,7 +178,7 @@ print(issubclass(NormalClass, AbstractClass))
 
 **输出:**
 
-```
+```py
 subclass hook: <class '__main__.SubClass'>
 True
 subclass hook: <class '__main__.NormalClass'>
@@ -193,7 +193,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -218,7 +218,7 @@ isc = InvalidSubClass()
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -236,7 +236,7 @@ print(vc.abstractName())
 
 **输出:**
 
-```
+```py
 Abstract 1
 ```
 
@@ -248,7 +248,7 @@ Abstract 1
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 
 class AbstractClass(metaclass=abc.ABCMeta):
@@ -268,7 +268,7 @@ print(vc.abstractName)
 
 **输出:**
 
-```
+```py
 Abstract 1
 ```
 
@@ -293,7 +293,7 @@ Python 有五个抽象基类。它们如下:
 
 ## 蟒蛇 3
 
-```
+```py
 from collections.abc import Sized
 
 class SingleMethod(object):
@@ -305,7 +305,7 @@ print(issubclass(SingleMethod, Sized))
 
 **输出:**
 
-```
+```py
 True
 ```
 

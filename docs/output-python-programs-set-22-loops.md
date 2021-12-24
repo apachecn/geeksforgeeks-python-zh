@@ -7,7 +7,7 @@ T5】注:所有这些程序的输出都在 Python3 上测试
 
 ##### 1.下面的输出是什么？
 
-```
+```py
 mylist = ['geeks', 'forgeeks']
 for i in mylist:
     i.upper()
@@ -21,7 +21,7 @@ print(mylist)
 
 输出:
 
-```
+```py
 2\. [‘geeks’, ‘forgeeks’]
 
 ```
@@ -30,7 +30,7 @@ print(mylist)
 
 ##### 2.下面的输出是什么？
 
-```
+```py
 mylist = ['geeks', 'forgeeks']
 for i in mylist:
     mylist.append(i.upper())
@@ -44,7 +44,7 @@ print(mylist)
 
 输出:
 
-```
+```py
 4\. None of these
 
 ```
@@ -53,7 +53,7 @@ print(mylist)
 
 ##### 3.下面的输出是什么？
 
-```
+```py
 i = 1
 while True:
     if i % 0O7 == 0:
@@ -69,7 +69,7 @@ while True:
 
 输出:
 
-```
+```py
 1\. 1 2 3 4 5 6
 
 ```
@@ -78,7 +78,7 @@ while True:
 
 ##### 4.下面的输出是什么？
 
-```
+```py
 True = False
 while True:
     print(True)
@@ -92,7 +92,7 @@ while True:
 
 输出:
 
-```
+```py
 3\. Error
 
 ```
@@ -101,7 +101,7 @@ while True:
 
 ##### 5.下面的输出是什么？
 
-```
+```py
 i = 1
 while True:
     if i % 3 == 0:
@@ -117,7 +117,7 @@ while True:
 
 输出:
 
-```
+```py
 3\. Syntax Error
 
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以作为解决这个特定问题的速记方法。在本文中，我们遍历列表，并将每个整数元素转换为一个元组对象。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Integral list to tuple list
 # using list comprehension

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Insert character after every K elements
 # Using loop + string slicing
@@ -65,7 +65,7 @@ print("The extracted strings : " +
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Insert character after every K elements
 # Using list comprehension + string slicing

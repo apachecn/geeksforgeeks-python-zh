@@ -8,7 +8,7 @@
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python code to create a new list from initial list
 # with condition to append every odd element twice.
 
@@ -25,7 +25,7 @@ print("New list is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list is:' [1, 2, 3, 8, 9, 11]
 New list is: [1, 1, 2, 3, 3, 8, 9, 9, 11, 11]
 
@@ -33,7 +33,7 @@ New list is: [1, 1, 2, 3, 3, 8, 9, 9, 11, 11]
 
 **方法 2:使用迭代工具**
 
-```
+```py
 # Python code to create a new list from initial list
 # with condition to append every odd element twice.
 
@@ -54,7 +54,7 @@ print("New list is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list is:' [1, 2, 3, 8, 9, 11]
 New list is: [1, 1, 2, 3, 3, 8, 9, 9, 11, 11]
 
@@ -62,7 +62,7 @@ New list is: [1, 1, 2, 3, 3, 8, 9, 9, 11, 11]
 
 **方法三:使用 Numpy 数组**
 
-```
+```py
 # Python code to create a new list from initial list
 # with condition to append every odd element twice.
 
@@ -85,7 +85,7 @@ print("New list is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list is:' [1, 2, 3, 8, 9, 11]
 New list is: [1, 1, 2, 3, 3, 8, 9, 9, 11, 11]
 

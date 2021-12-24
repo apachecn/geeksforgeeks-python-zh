@@ -8,13 +8,13 @@
 
 *   **python-条形码:**该模块用于创建条形码作为 SVG 对象。它为我们提供了创建不同标准类型条形码的能力，如 EAN-8、EAN-13、EAN-14、UPC-A、JAN、ISBN-10、ISBN-13 等等。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install python-barcode 
 ```
 
 *   [**枕头:**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/) 这是用来创建图像格式的条形码。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pillow
 
 ```
@@ -23,7 +23,7 @@ pip install pillow
 
 ## 蟒 3
 
-```
+```py
 # import EAN13 from barcode module
 from barcode import EAN13
 

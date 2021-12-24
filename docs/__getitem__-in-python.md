@@ -6,14 +6,14 @@
 
 如果我们想添加 a 和 b，我们编写以下语法:
 
-```
+```py
 c = a + b
 
 ```
 
 内部称为:
 
-```
+```py
 c = a.__add__(b)
 
 ```
@@ -24,7 +24,7 @@ c = a.__add__(b)
 
 **例:**
 
-```
+```py
 # Code to demonstrate use
 # of __getitem__() in python
 
@@ -48,7 +48,7 @@ test[object()]
 
 **输出:**
 
-```
+```py
 <class 'int'> 5
 <class 'slice'> slice(5, 65, 5)
 <class 'str'> GeeksforGeeks

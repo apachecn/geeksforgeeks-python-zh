@@ -60,7 +60,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code to create the dataset
 
 # importing the libraries
@@ -108,7 +108,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 from sklearn.preprocessing import LabelBinarizer
 
@@ -147,13 +147,13 @@ display(result_df)
 
 对于安装，在终端中运行以下命令:
 
-```
+```py
 pip install category_encoders
 ```
 
 对于 conda:
 
-```
+```py
 conda install -c conda-forge category_encoders
 ```
 
@@ -161,7 +161,7 @@ conda install -c conda-forge category_encoders
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import category_encoders as cat_encoder
 
@@ -193,7 +193,7 @@ display(df_category_encoder)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 

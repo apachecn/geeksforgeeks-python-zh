@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # random generation of Integer id's
 
@@ -27,7 +27,7 @@ for x in range(10):
 
 输出:
 
-```
+```py
 76
 72
 7
@@ -44,7 +44,7 @@ for x in range(10):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # the random generation of id's
 # which are multiple of 5
@@ -62,7 +62,7 @@ for x in range(10):
 
 输出:
 
-```
+```py
 60
 30
 35
@@ -88,7 +88,7 @@ for x in range(10):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # random generation of string id's
 
@@ -107,7 +107,7 @@ print (random)
 
 输出:
 
-```
+```py
 Rf2IdqUNkURNN6mw82kSpyxQe9ib3usX
 ```
 
@@ -115,7 +115,7 @@ Rf2IdqUNkURNN6mw82kSpyxQe9ib3usX
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # the random generation of string id's
 
@@ -134,7 +134,7 @@ print (ran_gen(8, "AEIOSUMA23"))
 
 输出:
 
-```
+```py
 S2M2IEAO
 ```
 

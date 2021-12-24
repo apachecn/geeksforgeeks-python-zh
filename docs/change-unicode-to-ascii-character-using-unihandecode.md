@@ -21,7 +21,7 @@ Unihandecode 提供了一个函数“decode (……”)，它将 Unicode 数据�
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install unihandecode 
 ```
 
@@ -29,7 +29,7 @@ pip install unihandecode
 
 ## 蟒 3
 
-```
+```py
 from unihandecode import Unihandecoder
 
 data1 = Unihandecoder(lang='zh')
@@ -38,7 +38,7 @@ print(data1.decode("\u660e\u5929\u7684\u98ce\u5439"))
 
 **输出:**
 
-```
+```py
 Ming Tian De Feng Chui
 
 ```

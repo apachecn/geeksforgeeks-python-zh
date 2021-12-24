@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Assign values
 data = 1281
 key = 27
@@ -34,7 +34,7 @@ print('After Decryption:', data)
 
 **输出:**
 
-```
+```py
 Original Data: 1281
 Key: 27
 After Encryption: 1306
@@ -47,7 +47,7 @@ After Decryption: 1281
 
 ## 蟒蛇 3
 
-```
+```py
 # try block to handle exception
 try:
     # take path of image as a input
@@ -90,7 +90,7 @@ except Exception:
 
 **输出:**
 
-```
+```py
 Enter path of Image : C:\Users\lenovo\Pictures\Instagram\enc.png
 Enter Key for encryption of Image : 22
 The path of file :  C:\Users\lenovo\Pictures\Instagram\enc.png
@@ -108,7 +108,7 @@ Encryption done...
 
 ## 蟒蛇 3
 
-```
+```py
 # try block to handle the exception
 try:
     # take path of image as a input
@@ -150,7 +150,7 @@ except Exception:
 
 **输出:**
 
-```
+```py
 Enter path of Image : C:\Users\lenovo\Pictures\Instagram\enc.png
 Enter Key for Decryption of Image : 22
 The path of file :  C:\Users\lenovo\Pictures\Instagram\enc.png

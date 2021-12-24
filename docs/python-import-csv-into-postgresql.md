@@ -6,7 +6,7 @@
 
 首先，我们导入 psycopg2 包，并使用 [pyscopg2.connect()](https://www.geeksforgeeks.org/postgresql-connect-to-postgresql-database-server-in-python/) 方法建立到 PostgreSQL 数据库的连接。在导入 CSV 文件之前，我们需要创建一个表。在下面的例子中，我们通过使用 [cursor.execute()](https://www.geeksforgeeks.org/python-sqlite-connecting-to-database/) 方法执行“创建表”SQL 命令来创建一个表。
 
-```
+```py
 '''CREATE TABLE DETAILS(employee_id int NOT NULL,
                         employee_name char(20), 
                         employee_email varchar(30),
@@ -27,7 +27,7 @@
 
 使用的 CSV 文件
 
-```
+```py
 '''COPY table_name
 FROM 'C:\folder\file.csv' 
 DELIMITER ',' 
@@ -38,7 +38,7 @@ CSV HEADER;'''
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(database="EMPLOYEE_DATABASE",
@@ -74,7 +74,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 (1, 'rajesh              ', 'rajesh89@gmail.com', 60000.0)
 (2, 'pratyusha           ', 'praty@gmail.com', 75000.0)
 (3, 'pratibha            ', 'pratibhaJ@gmail.com', 65000.0)

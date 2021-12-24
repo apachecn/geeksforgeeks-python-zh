@@ -13,7 +13,7 @@
 **方法#1:使用循环+列表切片**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用列表切片技术通过增量切片来执行检查子列表的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check for Sublist in List
 # Using loop + list slicing
@@ -41,7 +41,7 @@ print("Is sublist present in list ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 3, 8, 2, 1, 7, 1]
 Is sublist present in list ? : True
 
@@ -50,7 +50,7 @@ Is sublist present in list ? : True
 **方法 2:使用`any()` +列表切片+生成器表达式**
 以上功能的组合用于解决这个问题。在这种情况下，我们使用 any()执行检查任何等同于所需的子列表的任务，列表切片用于对所需长度的增量列表进行切片。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check for Sublist in List
 # Using any() + list slicing + generator expression
@@ -75,7 +75,7 @@ print("Is sublist present in list ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 3, 8, 2, 1, 7, 1]
 Is sublist present in list ? : True
 

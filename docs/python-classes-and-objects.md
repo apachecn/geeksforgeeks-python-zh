@@ -14,7 +14,7 @@
 *   属性是属于一个类的变量。
 *   属性始终是公共的，可以使用点(。)运算符。我的班级。我的属性
 
-```
+```py
 Class Definition Syntax:
 
 class ClassName:
@@ -29,7 +29,7 @@ class ClassName:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to
 # demonstrate defining
 # a class
@@ -63,7 +63,7 @@ class Dog:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to
 # demonstrate instantiating
 # a class
@@ -92,7 +92,7 @@ Rodger.fun()
 
 **输出:**
 
-```
+```py
 mammal
 I'm a mammal
 I'm a dog
@@ -114,7 +114,7 @@ __init__ 方法类似于 C++和 Java 中的构造函数。构造函数用于初�
 
 ## 蟒蛇 3
 
-```
+```py
 # A Sample class with init method
 class Person:
 
@@ -132,7 +132,7 @@ p.say_hi()
 
 **输出:**
 
-```
+```py
 Hello, my name is Nikhil
 ```
 
@@ -144,7 +144,7 @@ Hello, my name is Nikhil
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show that the variables with a value 
 # assigned in the class declaration, are class variables and
 # variables inside methods and constructors are instance
@@ -185,7 +185,7 @@ print(Dog.animal)       
 
 **输出:**
 
-```
+```py
 Rodger details:
 Rodger is a dog
 Breed:  Pug
@@ -204,7 +204,7 @@ dog
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show that we can create 
 # instance variables inside methods
 
@@ -236,6 +236,6 @@ print(Rodger.getColor()) 
 
 **输出:**
 
-```
+```py
 brown
 ```

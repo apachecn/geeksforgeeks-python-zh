@@ -17,7 +17,7 @@
 
 *Gtk 中的文本。CellRendererText* 小部件可以通过以下方式进行编辑
 
-```
+```py
 cell.set_property("editable", True)
 
 ```
@@ -26,7 +26,7 @@ cell.set_property("editable", True)
 
 ## 蟒蛇 3
 
-```
+```py
 from gi.repository import Gtk
 import gi
 

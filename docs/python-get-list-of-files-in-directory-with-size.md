@@ -75,7 +75,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import python modules
 import os
 

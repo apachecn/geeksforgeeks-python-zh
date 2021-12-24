@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是解决这个问题的一种方法。在这种情况下，我们检查每个键，然后在相等键的基础上执行合并，并在强力方法中执行特定所需键的连接。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate String values in Dictionary List
 # Using loop

@@ -10,7 +10,7 @@
 
 最常用的方法是获取所有键及其值，`in`运算符被广泛用于此目的，强烈推荐使用，因为它提供了一种实现此任务的简洁方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get key and value
 # using in operator
@@ -30,7 +30,7 @@ for i in test_dict :
 
 **Output:**
 
-```
+```py
 Original dictionary is : {'geeks': 3, 'for': 2, 'Geeks': 1}
 Dict key-value are : 
 geeks 3
@@ -43,7 +43,7 @@ Geeks 1
 
 该方法也使用了与上述方法类似的方法，只是将逻辑绑定到一个列表中，并将字典的键值对作为列表中键值的元组返回。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get key and value
 # using list comprehension
@@ -62,7 +62,7 @@ print([(k, test_dict[k]) for k in test_dict])
 
 **Output:**
 
-```
+```py
 Original dictionary is : {'Geeks': 1, 'for': 2, 'geeks': 3}
 Dict key-value are : 
 [('Geeks', 1), ('for', 2), ('geeks', 3)]
@@ -73,7 +73,7 @@ Dict key-value are :
 
 `items()`，in dictionary 遍历所有的键，帮助我们在循环中一个接一个的访问`key-value`对，也是一个很好的带值访问字典键的方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get key and value
 # using dict.items()
@@ -93,7 +93,7 @@ for key, value in test_dict.items():
 
 **Output:**
 
-```
+```py
 Original dictionary is : {'geeks': 3, 'for': 2, 'Geeks': 1}
 Dict key-value are : 
 geeks 3
@@ -106,7 +106,7 @@ Geeks 1
 
 Python 还提供了`enumerate()`来帮助迭代各种容器，无论是字典还是列表。这个功能的力量也可以用来执行这个任务。它还有助于访问字典中该对位置的命名索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get key and value
 # using enumerate()
@@ -126,7 +126,7 @@ for i in enumerate(test_dict.items()):
 
 **Output:**
 
-```
+```py
 Original dictionary is : {'geeks': 3, 'Geeks': 1, 'for': 2}
 Dict key-value are : 
 (0, ('geeks', 3))

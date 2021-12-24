@@ -20,7 +20,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from googleapiclient.discovery import build
@@ -31,7 +31,7 @@ from googleapiclient.discovery import build
 
 ## 蟒蛇 3
 
-```
+```py
 # creating youtube resource object 
 youtube = build('youtube','v3', developerKey="Enter API Key") 
 
@@ -48,7 +48,7 @@ video_response = video_request.execute()
 
 ## 蟒蛇 3
 
-```
+```py
 title = video_response['items'][0]['snippet']['title']
 likes = video_response['items'][0]['statistics']['likeCount']
 views = video_response['items'][0]['statistics']['viewCount']
@@ -58,7 +58,7 @@ views = video_response['items'][0]['statistics']['viewCount']
 
 ## 蟒蛇 3
 
-```
+```py
 # Create Object
 root = Tk()
 
@@ -86,7 +86,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from googleapiclient.discovery import build

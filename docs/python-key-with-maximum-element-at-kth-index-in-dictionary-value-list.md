@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Key with Maximum element at Kth index 
 # in Dictionary Value List Using sorted()
@@ -80,7 +80,7 @@ print("The extracted key : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Key with Maximum element at Kth index 
 # in Dictionary Value List Using max()

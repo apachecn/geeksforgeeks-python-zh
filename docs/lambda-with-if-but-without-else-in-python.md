@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Lambda function with if but without else.
 square = lambda x : x*x if(x > 0)
 
@@ -21,7 +21,7 @@ print(square(6))
 
 **输出:**
 
-```
+```py
 File "/home/2c8c59351e1635b6b026fb3c7fc17c8f.py", line 2
     square = lambda x : x*x if(x > 0)
                                     ^
@@ -38,7 +38,7 @@ SyntaxError: invalid syntax
 
 ## 蟒蛇 3
 
-```
+```py
 # Lambda function with if-else
 square = lambda x : x*x if(x > 0) else None
 
@@ -47,7 +47,7 @@ print(square(4))
 
 **输出:**
 
-```
+```py
 16
 ```
 
@@ -55,7 +55,7 @@ print(square(4))
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of lambda function using if without else
 mod = lambda x : x if(x >= 0)
 
@@ -64,7 +64,7 @@ print(mod(-1))
 
 **输出:**
 
-```
+```py
 File "/home/20b09bdd29e24dfe24c185cd99dfcdfa.py", line 2
     mod = lambda x : x if(x >= 0)
                                 ^
@@ -75,7 +75,7 @@ SyntaxError: invalid syntax
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of lambda function using if-else
 mod = lambda x : x if(x >= 0) else -x
 
@@ -84,7 +84,7 @@ print(mod(-1))
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -92,7 +92,7 @@ print(mod(-1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of lambda function using if without else
 max = lambda a, b : x if(a > b)
 
@@ -101,7 +101,7 @@ print(max(1, 2))
 
 **输出:**
 
-```
+```py
 File "/home/8cf3856fc13d0ce75edfdd76793bdde4.py", line 2
     max = lambda a, b : x if(a > b)
                                   ^
@@ -112,7 +112,7 @@ SyntaxError: invalid syntax
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of lambda function using if-else
 max = lambda a, b : a if(a > b) else b
 
@@ -122,7 +122,7 @@ print(max(10, 2))
 
 **输出:**
 
-```
+```py
 2
 10
 ```

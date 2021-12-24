@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Machine learning
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
@@ -42,7 +42,7 @@ warnings.filterwarnings("ignore")
 
 **语法:**
 
-```
+```py
 pd.read_csv(filename, index_col)
 ```
 
@@ -52,7 +52,7 @@ pd.read_csv(filename, index_col)
 
 ## 蟒蛇 3
 
-```
+```py
 # Read the csv file using read_csv 
 # method of pandas
 df = pd.read_csv('RELIANCE.csv')
@@ -69,7 +69,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Changes The Date column as index columns
 df.index = pd.to_datetime(df['Date'])
 df

@@ -37,7 +37,7 @@ T3】活动:
 
 **Code: Importing Libraries**
 
-```
+```py
 import pandas as pd
 import numpy as np
 import pickle
@@ -54,7 +54,7 @@ from sklearn.model_selection import train_test_split
 **第 2 阶段:**
 它正在笔记本中上传数据集，在此之前，我们需要将笔记本安装在驱动器上，以便将此笔记本保存在我们的驱动器上，并在需要时进行检索。
 
-```
+```py
 sns.set(style="whitegrid", palette="muted", font_scale=1.5)
 RANDOM_SEED = 42
 
@@ -64,7 +64,7 @@ drive.mount('/content/drive')
 
 **输出:**
 
-```
+```py
 You will see a pop up similar to one shown in the screenshot below, open the link and copy the authorization code and paste it in the authorization code bar and enter the drive will be mounted.
 ```
 
@@ -72,7 +72,7 @@ You will see a pop up similar to one shown in the screenshot below, open the lin
 
 **代码:上传数据集**
 
-```
+```py
 from google.colab import files
 uploaded = files.upload()
 ```
@@ -85,7 +85,7 @@ uploaded = files.upload()
 从数据预处理开始。在这个阶段，大约 90%的时间被消耗在实际的数据科学项目上。在这里，原始数据以一些有用和有效的格式被获取和转换。
 **编码:进行数据转换，对数据进行归一化**
 
-```
+```py
 #transforming shape
 reshaped_segments = np.asarray(
     segments, dtype = np.float32).reshape(
@@ -96,7 +96,7 @@ reshaped_segments.shape
 
 **代码:拆分数据集**
 
-```
+```py
 X_train, X_test, Y_train, Y_test = train_test_split(
     reshaped_segments, labels, test_size = 0.2, 
     random_state = RANDOM_SEED)
@@ -110,7 +110,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 
 **代码:模型搭建**
 
-```
+```py
 def create_LSTM_model(inputs):
     W = {
         'hidden': tf.Variable(tf.random_normal([N_features, N_hidden_units])),
@@ -138,7 +138,7 @@ def create_LSTM_model(inputs):
 
 **代码:**使用 AdamOptimizer 执行优化，以修改变量的损失值，从而提高准确性并减少损失。
 
-```
+```py
 L2_LOSS = 0.0015
 l2 = L2_LOSS * \
   sum(tf.nn.l2_loss(tf_var) for tf_var in tf.trainable_variables())
@@ -153,7 +153,7 @@ accuracy = tf.reduce_mean(tf.cast(correct_pred, dtype = tf.float32))
 
 **代码:进行 50 次模型训练迭代，获得最高精度，减少损失**
 
-```
+```py
 # epochs is number of iterations performed in model training.
 N_epochs = 50  
 batch_size = 1024
@@ -193,7 +193,7 @@ print(f'final results : accuracy : {acc_final} loss : {loss_final}')
 
 **代码:精度图**
 
-```
+```py
 plt.figure(figsize=(12,8))
 
 plt.plot(np.array(history['train_loss']), "r--", label="Train loss")
@@ -215,7 +215,7 @@ plt.show()
 **混淆矩阵:**混淆矩阵不亚于 2D 矩阵，因为它有助于计算正确识别的活动的准确计数。换句话说，它描述了分类模型在测试数据集上的性能。
 **代号:混乱矩阵**
 
-```
+```py
 max_test = np.argmax(Y_test, axis=1)
 max_predictions = np.argmax(predictions, axis = 1)
 confusion_matrix = metrics.confusion_matrix(max_test, max_predictions)

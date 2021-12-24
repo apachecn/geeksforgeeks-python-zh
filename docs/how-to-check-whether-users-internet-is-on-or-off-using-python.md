@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 import http.client as httplib
 
@@ -41,7 +41,7 @@ checkInternetHttplib("www.geeksforgeeks.org", 3)
 
 **输出:**
 
-```
+```py
 Internet On
 ```
 
@@ -58,7 +58,7 @@ Internet On
 
 ## 蟒蛇 3
 
-```
+```py
 # importing requests module
 import requests
 
@@ -77,6 +77,6 @@ except (requests.ConnectionError, requests.Timeout) as exception:
 
 **输出:**
 
-```
+```py
 Internet is off
 ```

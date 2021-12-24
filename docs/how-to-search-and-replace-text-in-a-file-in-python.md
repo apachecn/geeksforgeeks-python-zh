@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a variable and storing the text
 # that we want to search
 search_text = "dummy"
@@ -59,7 +59,7 @@ print("Text replaced")
 
 **输出:**
 
-```
+```py
 Text replaced
 ```
 
@@ -73,7 +73,7 @@ Text replaced
 
 使用以下命令安装 pathlib2 模块:
 
-```
+```py
 pip install pathlib2
 ```
 
@@ -91,7 +91,7 @@ pip install pathlib2
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Path from pathlib2 module
 from pathlib2 import Path
 
@@ -131,7 +131,7 @@ print(replacetext(search_text, replace_text))
 
 **输出:**
 
-```
+```py
 Text replaced
 ```
 
@@ -152,7 +152,7 @@ Text replaced
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing re module
 import re
 
@@ -199,7 +199,7 @@ print(replacetext(search_text,replace_text))
 
 **输出:**
 
-```
+```py
 Text replaced
 ```
 
@@ -223,7 +223,7 @@ Text replaced
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing FileInput from fileinput module
 from fileinput import FileInput
 
@@ -260,6 +260,6 @@ print(replacetext(search_text, replace_text))
 
 **输出:**
 
-```
+```py
 Text replaced
 ```

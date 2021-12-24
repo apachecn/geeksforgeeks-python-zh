@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import arcade
 
@@ -49,7 +49,7 @@ arcade.open_window(500, 500, "Welcome to GFG " , False,  False)
 
 要生成蓝色背景，我们将运行以下命令:
 
-```
+```py
 arcade.set_background_color(arcade.color.BLUE)
 ```
 
@@ -75,7 +75,7 @@ arcade.set_background_color(arcade.color.BLUE)
 
 ## 蟒蛇 3
 
-```
+```py
 # import arcade module
 import arcade
 

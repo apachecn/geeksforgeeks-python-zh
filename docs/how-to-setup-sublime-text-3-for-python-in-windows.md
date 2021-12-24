@@ -28,7 +28,7 @@
 
 **步骤 2:** 在你的崇高**工具上添加新的构建系统- >构建系统- >新的构建系统**并确保新的构建系统具有以下命令
 
-```
+```py
 {
  "cmd":["C:/Users/<user>/AppData/Local/Programs/Python/Python37-32/python.exe", "-u", "$file"],
  "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",

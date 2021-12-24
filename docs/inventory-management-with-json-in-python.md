@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # Creating Dictionary to store data
@@ -80,7 +80,7 @@ fd.close()  # Close File After Inserting Data
 
 ## 蟒蛇 3
 
-```
+```py
 def admin():
     print("============= Welcome to the Admin Inventory Management System =====")
 
@@ -123,7 +123,7 @@ def admin():
 
 ## 蟒蛇 3
 
-```
+```py
 def display_data():
     import pandas as pd
     import json
@@ -198,7 +198,7 @@ def display_data():
 
 ## 蟒蛇 3
 
-```
+```py
 def display_specific_data():
     import pandas as pd
     import json
@@ -235,7 +235,7 @@ def display_specific_data():
 
 ## 蟒蛇 3
 
-```
+```py
 def add_new():
     import json
     fd = open("data.json", 'r')
@@ -297,7 +297,7 @@ def add_new():
 
 ## 蟒蛇 3
 
-```
+```py
 def delete_prod():
     import json
     fd = open("data.json", 'r')
@@ -329,7 +329,7 @@ def delete_prod():
 
 ## 蟒蛇 3
 
-```
+```py
 def update_prod_data():
     import json
     fd = open("data.json", 'r')
@@ -411,7 +411,7 @@ def update_prod_data():
 
 ## 蟒蛇 3
 
-```
+```py
 def display_reports_admin():
     import os.path
     import pandas as pd
@@ -485,7 +485,7 @@ def display_reports_admin():
 
 ## 蟒蛇 3
 
-```
+```py
 def delete_all():
     fd = open("data.json", 'r')
     txt = fd.read()
@@ -506,7 +506,7 @@ def delete_all():
 
 ## 蟒蛇 3
 
-```
+```py
 def user():
     print("===============\
     Welcome to the User Inventory Management System\
@@ -544,7 +544,7 @@ def user():
 
 ## 蟒蛇 3
 
-```
+```py
 def display_user_data():
     import os.path
     import json
@@ -584,7 +584,7 @@ def display_user_data():
 
 ## 蟒蛇 3
 
-```
+```py
 def generate_bill(user_id, prod_id, price, time_date,
                   purchase_no, name, category,
                   quantity_all, transaction_id):
@@ -620,7 +620,7 @@ def generate_bill(user_id, prod_id, price, time_date,
 
 ## 蟒蛇 3
 
-```
+```py
 def buy_product():
     import time
     import random
@@ -762,7 +762,7 @@ def buy_product():
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 import pandas as pd
 
@@ -789,7 +789,7 @@ while (1):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import json
 import os.path

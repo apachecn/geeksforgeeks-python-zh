@@ -7,7 +7,7 @@
 **方法#1:使用嵌套循环**
 这是可以执行该任务的蛮力方法。在这种情况下，外部循环用于对列表中的每个元素进行迭代，内部循环用于通过外部循环添加与相应元组的长度相等的相似元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extend tuples by count in list
 # using nested loop

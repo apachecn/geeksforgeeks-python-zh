@@ -6,7 +6,7 @@
 
 Python 的 print()函数附带了一个名为“end”的参数。默认情况下，该参数的值为' \n '，即新的行字符。使用此参数，可以用任何字符/字符串结束打印语句。
 
-```
+```py
 # This Python program must be run with
 # Python 3 as it won't work with 2.7.
 
@@ -17,13 +17,13 @@ print("GeeksforGeeks", end = ' ')
 
 输出:
 
-```
+```py
 Welcome to GeeksforGeeks
 ```
 
 再来一个程序来演示结束参数的工作。
 
-```
+```py
 # This Python program must be run with
 # Python 3 as it won't work with 2.7.
 
@@ -34,7 +34,7 @@ print("GeeksforGeeks")
 
 输出:
 
-```
+```py
 Python@GeeksforGeeks
 ```
 

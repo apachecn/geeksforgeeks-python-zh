@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of compile().
 
 # Creating sample sourcecode to multiply two variables
@@ -41,7 +41,7 @@ exec(execCode)
 
 **输出:**
 
-```
+```py
 mul = 200
 ```
 
@@ -49,7 +49,7 @@ mul = 200
 
 ## 计算机编程语言
 
-```
+```py
 # Another Python code to demonstrate working of compile().
 x = 50
 
@@ -61,7 +61,7 @@ exec(a)
 
 **输出:**
 
-```
+```py
 <class 'code'>
 50
 ```
@@ -74,7 +74,7 @@ exec(a)
 
 ## 蟒蛇 3
 
-```
+```py
 String = "Welcome to Geeksforgeeks"
 print(String)
 ```
@@ -83,7 +83,7 @@ print(String)
 
 ## 蟒蛇 3
 
-```
+```py
 # reading code from a file
 f = open('main.py', 'r')
 temp = f.read()
@@ -95,7 +95,7 @@ exec(code)
 
 **输出:**
 
-```
+```py
 Welcome to Geeksforgeeks
 ```
 
@@ -105,7 +105,7 @@ Welcome to Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Another Python code to demonstrate
 # working of compile() with eval.
 x = 50
@@ -117,7 +117,7 @@ print(eval(a))
 
 **输出:**
 
-```
+```py
 True
 ```
 

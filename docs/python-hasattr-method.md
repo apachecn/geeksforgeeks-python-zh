@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of hasattr()
 
@@ -43,7 +43,7 @@ print("Does motto exist ? " + str(hasattr(obj, 'motto')))
 
 **输出:**
 
-```
+```py
 Does name exist ? True
 Does motto exist ? False
 ```
@@ -52,7 +52,7 @@ Does motto exist ? False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # performance analysis of hasattr()
 import time
@@ -86,7 +86,7 @@ print("Time to execute try : " + str(time.time() - start_try))
 
 **输出:**
 
-```
+```py
 No Motto
 Time to execute hasattr : 5.245208740234375e-06
 No Motto

@@ -17,7 +17,7 @@
 
 其表述如下-
 
-```
+```py
 MDToolbar:
     title:'Demo'     
 ```
@@ -114,7 +114,7 @@ MDToolbar:
 
 ## 蟒蛇 3
 
-```
+```py
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
 from kivymd.uix.screen import Screen

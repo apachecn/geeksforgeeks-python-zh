@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 from Bio import pairwise2
 from Bio.Seq import Seq

@@ -10,7 +10,7 @@ python 复数介绍:[Python 中的复数|集合 1(简介)](https://www.geeksforg
 
 **2。log(x，b)** :-这个函数返回 x 的**对数值，基数为 b** ，两者都在它的参数中提到。如果未指定基数，则返回 x 的自然对数。
 
-```
+```py
 # Python code to demonstrate the working of 
 # exp(), log()
 
@@ -36,7 +36,7 @@ print (cmath.log(z,10))
 
 输出:
 
-```
+```py
 The exponent of complex number is : (1.4686939399158851+2.2873552871788423j)
 The log(base 10) of complex number is : (0.15051499783199057+0.3410940884604603j)
 
@@ -46,7 +46,7 @@ The log(base 10) of complex number is : (0.15051499783199057+0.3410940884604603j
 
 **4。sqrt()** :-这将计算复数的**平方根**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # log10(), sqrt()
 # importing "cmath" for complex number operations
@@ -71,7 +71,7 @@ print (cmath.sqrt(z))
 
 输出:
 
-```
+```py
 The log10 of complex number is : (0.15051499783199057+0.3410940884604603j)
 The square root of complex number is : (1.09868411346781+0.45508986056222733j)
 
@@ -83,7 +83,7 @@ The square root of complex number is : (1.09868411346781+0.45508986056222733j)
 
 **7。isnan()** :-如果复数的**实部或虚部**为 **NaN** ，则返回 true，否则返回 false。
 
-```
+```py
 # Python code to demonstrate the working of 
 # isnan(), isinf(), isfinite()
 
@@ -124,7 +124,7 @@ else : print ("Complex number is not NaN") 
 
 输出:
 
-```
+```py
 Complex number is finite
 Complex number is infinite
 Complex number is NaN
@@ -135,7 +135,7 @@ Complex number is NaN
 
 cmath 模块中定义了两个常量，**“pi”**，返回 pi 的数值。第二个是**“e”**，返回指数的数值。
 
-```
+```py
 # Python code to demonstrate the working of 
 # pi and e 
 
@@ -154,7 +154,7 @@ print (cmath.e)
 
 输出:
 
-```
+```py
 The value of pi is : 3.141592653589793
 The value of exponent is : 2.718281828459045
 

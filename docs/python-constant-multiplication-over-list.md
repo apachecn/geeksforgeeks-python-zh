@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Constant Multiplication over List
 # using list comprehension
@@ -33,7 +33,7 @@ print ("The list after constant multiplication : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after constant multiplication : [16, 20, 24, 12, 36]
 ```
@@ -43,7 +43,7 @@ The list after constant multiplication : [16, 20, 24, 12, 36]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Constant Multiplication over List
 # using map() + operator.mul
@@ -68,7 +68,7 @@ print ("The list after constant multiplication : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after constant multiplication : [16, 20, 24, 12, 36]
 

@@ -22,7 +22,7 @@ Python 为 GUI(图形用户界面)提供了一个 Tkinter 模块。在这篇文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the tkinter module
 import tkinter
 
@@ -64,7 +64,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import tkinter
 import tkinter.font

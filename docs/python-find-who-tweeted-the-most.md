@@ -9,7 +9,7 @@
 
 **输入格式:**
 
-```
+```py
 Read the input from the console.
 The first line of input should be the number of test cases
 Remaining lines of input should contain each test case input. 
@@ -18,7 +18,7 @@ Remaining lines of input should contain each test case input.
 
 **对于每个测试用例输入:**
 
-```
+```py
 First-line should contain the number of tweets.
 Followed by N lines, each containing the user name
 and tweet id separated by a space.
@@ -27,7 +27,7 @@ and tweet id separated by a space.
 
 **输出格式:**
 
-```
+```py
 Find the user with max number of tweets. 
 Print user name and the total number of tweets.
 
@@ -35,7 +35,7 @@ Print user name and the total number of tweets.
 
 **示例:**
 
-```
+```py
 Input : 
 1
 4
@@ -66,7 +66,7 @@ sehwag 2
 
 **代码:Python 实现查找发微博最多的人**
 
-```
+```py
 # Write Python3 code here
 # collection module used counting in dic for value and keys 
 from collections import Counter
@@ -103,6 +103,6 @@ for element in set(repeat):
 
 **输出:**
 
-```
+```py
 sachin  3
 ```

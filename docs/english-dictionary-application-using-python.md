@@ -21,7 +21,7 @@
 
 **下面是实现。**
 
-```
+```py
 # Import the modules required
 import json
 from difflib import get_close_matches
@@ -65,7 +65,7 @@ input('Press ENTER to exit') 
 
 ****输入:****
 
-```
+```py
 rain
 ```
 
@@ -75,7 +75,7 @@ rain
 **对于混合情况–
 **输入:****
 
-```
+```py
 RaIn
 ```
 
@@ -85,7 +85,7 @@ RaIn
 **如果拼写错误，它会给出与用户键入的单词含义最接近的单词，如图所示。假设输入是“rane”，用户想搜索“range”，那么输出如下。
 **输入:****
 
-```
+```py
 rane
 ```
 

@@ -16,7 +16,7 @@
 **示例:**
 在这里我们将创建一个添加了按钮的索引框，当任何按钮被按下时，它都会根据索引在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -74,7 +74,7 @@ msg = msgbox(message, title)
 **另一个例子:**
 在这里我们将创建一个没有设置任何按钮的索引框，当任何按钮被按下时它会根据索引在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 

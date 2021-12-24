@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```py
 0 0 3 0 4            
 0 0 5 7 0
 0 0 0 0 0
@@ -40,7 +40,7 @@ Python 的 **SciPy** 给出了使用多个数据结构创建稀疏矩阵的工�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to create
 # sparse matrix using csr_matrix()
 
@@ -58,7 +58,7 @@ print(sparseMatrix)
 
 **输出:**
 
-```
+```py
 [[0 0 0 0]
  [0 0 0 0]
  [0 0 0 0]]
@@ -69,7 +69,7 @@ print(sparseMatrix)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to create
 # sparse matrix using csr_matrix()
 
@@ -93,7 +93,7 @@ print(sparseMatrix)
 
 **输出:**
 
-```
+```py
 [[ 1  4  0]
  [ 8  0 11]
  [ 0  0  9]]
@@ -116,7 +116,7 @@ print(sparseMatrix)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to create
 # sparse matrix using csc_matrix()
 
@@ -134,7 +134,7 @@ print(sparseMatrix)
 
 **输出:**
 
-```
+```py
 [[0 0 0 0]
  [0 0 0 0]
  [0 0 0 0]]
@@ -145,7 +145,7 @@ print(sparseMatrix)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to create
 # sparse matrix using csc_matrix()
 
@@ -169,7 +169,7 @@ print(sparseMatrix)
 
 **输出:**
 
-```
+```py
 [[ 1  4  0]
  [ 8  0 11]
  [ 0  0  9]]

@@ -15,7 +15,7 @@
 
 **代码# 1:compare()方法示例**
 
-```
+```py
 # Python Program explaining 
 # compare() method
 
@@ -41,7 +41,7 @@ print ("Decimal b with compare() method : ", b.compare(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with compare() method :  1
 
 **代码# 2:compare()方法示例**
 
-```
+```py
 # Python Program explaining 
 # compare() method
 
@@ -79,7 +79,7 @@ print ("Decimal b with compare() method : ", b.compare(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

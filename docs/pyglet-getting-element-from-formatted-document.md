@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 创建一个窗口和格式化文档
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ document = pyglet.text.document.FormattedDocument(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -110,6 +110,6 @@ pyglet.app.run()
 
 ![](img/a01ec847d6e74db35fb9be06d1c2d855.png)
 
-```
+```py
 No element found
 ```

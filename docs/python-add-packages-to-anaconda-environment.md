@@ -12,7 +12,7 @@
 2.  使用 **cd\** 从设置的目录或路径中出来。
 3.  运行 **pip 安装**命令。
 
-```
+```py
 pip install numpy
 pip install scikit-learn
 ```
@@ -40,6 +40,6 @@ pip install scikit-learn
 2.  以管理员身份打开 Anaconda 命令提示符。
 3.  然后运行 conda install -c conda-forge ___
 
-```
+```py
 conda install -c conda-forge opencv 
 ```

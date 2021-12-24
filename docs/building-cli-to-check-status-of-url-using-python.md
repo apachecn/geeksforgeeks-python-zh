@@ -10,14 +10,14 @@
 
 首先，创建一个名为“urlcheck”的目录，并在目录“urlcheck.py”中创建一个新文件(您可以为目录和 python 文件使用任何名称)。
 
-```
+```py
 mkdir urlcheck && cd urlcheck
 touch urlcheck.py
 ```
 
 **安装 Python 请求和验证器库:**
 
-```
+```py
 pip3 install requests validators
 ```
 
@@ -25,7 +25,7 @@ pip3 install requests validators
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import requests
 from http.client import responses
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 def usage():
     print("\nUsage:\nSingle URL: urlcheck <url>\
     nMultiple URL's: urlcheck <url1> <url2> ... <urln>\n")
@@ -80,7 +80,7 @@ if sys.argv[1]=="help":
 
 ## 蟒蛇 3
 
-```
+```py
 def main():
     n = len(sys.argv)
 
@@ -117,7 +117,7 @@ def main():
 
 您需要编辑文件/C/“程序文件”/Git/etc/profile . d/alias . sh 并为您的 python 脚本添加位置
 
-```
+```py
 alias urlcheck="location to your python file"
 ```
 
@@ -125,13 +125,13 @@ alias urlcheck="location to your python file"
 
 你需要编辑~/。将位置添加到 python 脚本中
 
-```
+```py
 alias urlcheck="python3 ~/urlcheck/urlcheck.py"
 ```
 
 保存后。配置文件运行以下命令以确保别名获得更新
 
-```
+```py
 source ~/.profile
 ```
 
@@ -139,7 +139,7 @@ source ~/.profile
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import requests
 from http.client import responses

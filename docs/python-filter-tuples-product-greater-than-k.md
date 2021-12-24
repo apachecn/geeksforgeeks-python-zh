@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Tuples Product greater than K
 # Using list comprehension
@@ -56,7 +56,7 @@ print("Tuples with product greater than K : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples Product greater than K
 # Using filter() + lambda

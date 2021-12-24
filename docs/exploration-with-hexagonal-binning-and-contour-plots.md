@@ -8,7 +8,7 @@
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 **加载数据**
 
-```
+```py
 data = pd.read_csv("kc_tax.csv")
 
 print (data.head())
@@ -25,7 +25,7 @@ print (data.head())
 
 **输出:**
 
-```
+```py
    TaxAssessedValue  SqFtTotLiving  ZipCode
 0               NaN           1730  98117.0
 1          206000.0           1870  98002.0
@@ -37,14 +37,14 @@ print (data.head())
 
 **数据信息**
 
-```
+```py
 print (data.shape)
 print ("\n", data.info())
 ```
 
 **输出:**
 
-```
+```py
 (498249, 3)
 
 RangeIndex: 498249 entries, 0 to 498248
@@ -59,7 +59,7 @@ memory usage: 11.4 MB
 
 **选择数据**
 
-```
+```py
 # Take a subset of the King County, Washington
 # Tax data, for Assessed Value for Tax purposes
 # < $600, 000 and Total Living Sq. Feet > 100 &
@@ -72,7 +72,7 @@ data = data.loc[(data['TaxAssessedValue'] < 600000) & 
 
 **检查空值**
 
-```
+```py
 # As you can see in the info
 # that records are not complete
 data['TaxAssessedValue'].isnull().values.any()
@@ -80,13 +80,13 @@ data['TaxAssessedValue'].isnull().values.any()
 
 **输出:**
 
-```
+```py
 False
 ```
 
 **代号#1:** 六角滨宁
 
-```
+```py
 x = data['SqFtTotLiving']
 y = data['TaxAssessedValue']
 
@@ -110,7 +110,7 @@ fig.fig.suptitle('Tax Assessed vs. Total Living Space', 
 
 **代码#2:** 等高线图
 
-```
+```py
 fig2 = sns.kdeplot(x, y, legend = True)
 
 plt.xlabel('Total Sq.Ft of Space')

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 for i in list:
      print(dict(i._asdict()))
 ```
@@ -23,7 +23,7 @@ for i in list:
 
 ## 蟒蛇 3
 
-```
+```py
 # import named tuple
 from collections import namedtuple
 
@@ -59,7 +59,7 @@ for i in a:
 
 ## 蟒蛇 3
 
-```
+```py
 # import named tuple
 from collections import namedtuple
 

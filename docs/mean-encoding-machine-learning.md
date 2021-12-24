@@ -8,7 +8,7 @@
 创建了一个具有两个特征的数据框，这两个特征名为*主题*和*目标*，我们可以看到其中一个特征(主题名)是分类的，因此我们通过应用均值编码将其转换为数字特征。
 代码:
 
-```
+```py
 # importing libraries
 import pandas as pd
 
@@ -23,7 +23,7 @@ print(df)
 
 ****输出:****
 
-```
+```py
  SubjectName  Target
 0    s1    1
 1    s2    0
@@ -40,13 +40,13 @@ print(df)
 
 ****代码:统计主题名称**中的每个数据点**
 
-```
+```py
 df.groupby(['SubjectName'])['Target'].count()
 ```
 
 ****输出:****
 
-```
+```py
 subjectName
  s1         4
  s2         3
@@ -57,13 +57,13 @@ Name: Target, dtype: int64
 
 ****编码:根据正目标值将主题名为平均值的数据分组****
 
-```
+```py
 df.groupby(['SubjectName'])['Target'].mean()
 ```
 
 ****输出:****
 
-```
+```py
 subjectName
 s1         0.750000
 s2         0.333333
@@ -76,7 +76,7 @@ Name: Target, dtype: float64
 
 ****代码:最后赋值平均值，用 *df['SubjectName']*** 映射**
 
-```
+```py
 Mean_encoded_subject = df.groupby(['SubjectName'])['Target'].mean().to_dict()
 
 df['SubjectName'] =  df['SubjectName'].map(Mean_encoded_subject)
@@ -86,7 +86,7 @@ print(df)
 
 ****输出:平均编码数据****
 
-```
+```py
  SubjectName    Target
 0    0.750000    1
 1    0.333333    0

@@ -5,7 +5,7 @@
 当您想要搜索系统时，可能会有许多情况。假设在编写 mp3 播放器时，您可能希望所有的. mp3 文件都存在。下面是如何用简单的方法做到这一点。
 这段代码搜索正在运行的文件中的所有文件夹。如果你想要一些其他类型的文件，只需更改扩展名。
 
-```
+```py
 # Python code to search .mp3 files in current
 # folder (We can change file type/name and path
 # according to the requirements.

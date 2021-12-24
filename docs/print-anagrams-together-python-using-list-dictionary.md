@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : arr = ['cat', 'dog', 'tac', 'god', 'act']
 Output : 'cat tac act dog god'
 
@@ -19,7 +19,7 @@ Output : 'cat tac act dog god'
     因此将一个空列表映射到**关键字**并在其中追加值，如果关键字已经存在，则简单地追加值。
 *   现在每一个键都将包含一个字符串列表，这些字符串是一个字谜。
 
-```
+```py
 # Function to return all anagrams together 
 def allAnagram(input): 
 
@@ -62,7 +62,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 'cat tac act dog god'
 
 ```

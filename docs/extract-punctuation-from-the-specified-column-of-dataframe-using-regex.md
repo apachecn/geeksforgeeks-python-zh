@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import pandas as pd
 import re
@@ -52,7 +52,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function for extracting
 # the punctuations
 def check_find_punctuations(text):

@@ -17,7 +17,7 @@ Python 中的“sys”模块提供了一个名为 **setrecursionlimit()** 的函
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple recursive function
 # to compute the factorial of a number
 def fact(n):
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the sys module
 import sys
 

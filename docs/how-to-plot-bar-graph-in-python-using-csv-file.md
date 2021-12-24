@@ -37,7 +37,7 @@ CSV 代表“逗号分隔值”，这意味着通过放入逗号和换行符来�
 
 ## python 3
 
-```
+```py
 # Import the necessary modules
 import matplotlib.pyplot as plt
 import pandas as pd

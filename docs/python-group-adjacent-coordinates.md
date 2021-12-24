@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group Adjacent Coordinates
 # Using product() + groupby() + list comprehension
@@ -49,7 +49,7 @@ print("The grouped elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 4), (6, 4), (7, 8), (11, 11), (7, 7), (11, 12), (5, 4)]
 The grouped elements : [[(6, 4), (5, 4), (4, 4)], [(7, 8), (7, 7)], [(11, 12), (11, 11)]]
 

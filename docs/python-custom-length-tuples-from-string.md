@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom length tuples from String
 # Using int() + tuple() + split() + list comprehension
@@ -44,7 +44,7 @@ print("The constructed custom length tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 4 6 7, 1 2, 3, 4 6 8 8
 The constructed custom length tuples : [(4, 6, 7), (1, 2), (3, ), (4, 6, 8, 8)]
 ```
@@ -55,7 +55,7 @@ The constructed custom length tuples : [(4, 6, 7), (1, 2), (3, ), (4, 6, 8, 8)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom length tuples from String
 # Using map() + int + tuple() + list comprehension + split()
@@ -76,7 +76,7 @@ print("The constructed custom length tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 4 6 7, 1 2, 3, 4 6 8 8
 The constructed custom length tuples : [(4, 6, 7), (1, 2), (3, ), (4, 6, 8, 8)]
 ```

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 # Create a variable
@@ -51,7 +51,7 @@ print(serialized)
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 # Create a variable
@@ -75,7 +75,7 @@ loads()方法采用二进制字符串并返回相应的变量。如果字符串�
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 # This is the result of previous code
@@ -99,7 +99,7 @@ load()方法加载一个腌制文件并返回一个反序列化的变量。
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 # Open the file in binary mode

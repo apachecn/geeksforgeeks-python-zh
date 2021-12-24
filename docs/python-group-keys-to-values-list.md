@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `defaultdict()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们通过用列表数据类型初始化 defaultdict 来捕获列表中的所有元素，并继续将所有值附加到关联的键上。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group keys to values list
 # Using loop + defaultdict()

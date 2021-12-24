@@ -21,7 +21,7 @@
 ![  f_1 :\\     x_{n+1} = 0\\     y_{n+1} = 0.16 y_n\\ \\ f_2 :\\     x_{n+1} = 0.85 x_n + 0.04 y_n\\     y_{n+1} = -0.04 x_n + 0.85 y_n + 1.6\\ \\ f_3 :\\     x_{n+1} = 0.2 x_n - 0.26 y_n\\     y_{n+1} = 0.23 x_n + 0.22 y_n + 1.6\\ \\ f_4 :\\     x_{n+1} = -0.15 x_n + 0.28 y_n\\     y_{n+1} = 0.26 x_n + 0.24 y_n + 0.44\\ ](img/ffeef5debc6148bb548777b4f16c0ecc.png "Rendered by QuickLaTeX.com")
 借助于上面的方程，蕨类植物就产生了。现在让我们看看 Python3 的实现。
 
-```
+```py
 # importing necessary modules
 import matplotlib.pyplot as plt
 from random import randint

@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ print(names)
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -66,7 +66,7 @@ print(names)
 
 **输出:**
 
-```
+```py
 Sacred Games
 ['Le Seigneur de Bombay (France)', 'Der Pate von Bombay (Germany)', 'Juegos sagrados (Spain)', '?????????? ???? (Russia)', 'Kutsal Oyunlar (Turkey, Turkish title)']
 ```

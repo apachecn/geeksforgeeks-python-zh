@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of AND gate
 
@@ -38,7 +38,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 True
 +---------------+----------------
  | AND Truth Table |    Result |
@@ -55,7 +55,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of NAND gate
 
@@ -79,7 +79,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 True
 +---------------+----------------
  | NAND Truth Table |    Result |
@@ -96,7 +96,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of OR gate
 
@@ -120,7 +120,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 False
 +---------------+----------------+
  | OR Truth Table |    Result |
@@ -137,7 +137,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of Xor gate
 
@@ -161,7 +161,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 0
 +---------------+----------------+
  | XOR Truth Table | Result |
@@ -178,7 +178,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of Not gate
 
@@ -197,7 +197,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 1
 +---------------+----------------+
  | NOT Truth Table | Result |
@@ -212,7 +212,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of NOR gate
 
@@ -240,7 +240,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 1
 +---------------+----------------+
  | NOR Truth Table |   Result |
@@ -257,7 +257,7 @@ XNOR 门(求反异或)给出 1 的输出，如果两个输入相同，则为 0�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # working of Not gate
 
@@ -280,7 +280,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 1
 +---------------+----------------+
  | XNOR Truth Table |  Result |

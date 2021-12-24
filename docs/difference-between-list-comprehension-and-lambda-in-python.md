@@ -9,21 +9,21 @@
 *   一个表示输入序列成员的变量，并且
 *   可选谓词部分。
 
-```
+```py
 List = [expression(i) for i in another_list if filter(i)]
 
 ```
 
 **示例:**
 
-```
+```py
 lst  =  [x ** 2  for x in range (1, 11)   if  x % 2 == 1]
 print(lst)
 ```
 
 **输出:**
 
-```
+```py
 [1, 9, 25, 49, 81]
 ```
 
@@ -38,20 +38,20 @@ print(lst)
 
 **语法:**
 
-```
+```py
 lambda arguments : expression
 ```
 
 **示例:**
 
-```
+```py
 lst = list(map(lambda x: x**2, range(1, 5)))
 print(lst)
 ```
 
 **输出:**
 
-```
+```py
 [1, 4, 9, 16]
 ```
 
@@ -60,7 +60,7 @@ print(lst)
 列表理解用于创建列表，Lambdas 是可以像其他函数一样处理的函数，因此可以返回值或列表。
 **例:**
 
-```
+```py
 # list from range 0 to 10
 list_ = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(list_)
@@ -80,7 +80,7 @@ print(list_comp)
 
 **输出:**
 
-```
+```py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]

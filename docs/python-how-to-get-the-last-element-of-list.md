@@ -13,7 +13,7 @@ List 是一个必不可少的 python 容器，用于日常编程和 web 开发�
 *   迭代整个列表，得到倒数第二个元素。
 *   反转列表并打印第一个元素。
 
-```
+```py
 # Python 3 code to demonstrate 
 # accessing last element of list
 # using naive method 
@@ -41,7 +41,7 @@ print("The last element of list using reverse : "
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3, 5]
 The last element of list using loop : 5
 The last element of list using reverse : 5
@@ -55,7 +55,7 @@ The last element of list using reverse : 5
 *   **`list[ len - 1 ]` :** 根据定义指向最后一个元素。
 *   **`list[-1]` :** 在 python 中，负索引从末尾开始。
 
-```
+```py
 # Python3 code to demonstrate 
 # accessing last element of list
 # using [] operator
@@ -77,7 +77,7 @@ print ("The last element using [ -1 ] is : "
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3, 5]
 The last element using [ len -1 ] is : 5
 The last element using [ -1 ] is : 5
@@ -88,7 +88,7 @@ The last element using [ -1 ] is : 5
 
 `list.pop()`方法用于访问列表的最后一个元素。这种方法的缺点是，它还删除了列表的最后一个元素，因此只鼓励在不重用列表时使用。
 
-```
+```py
 # Python3 code to demonstrate 
 # accessing last element of list
 # using list.pop()
@@ -106,7 +106,7 @@ print ("The last element using pop() is : "
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3, 5]
 The last element using pop() is : 5
 
@@ -116,7 +116,7 @@ The last element using pop() is : 5
 
 `reversed()`加上`next()`可以很容易地用来获取最后一个元素，就像其中一个幼稚的方法一样，reversed 方法返回列表的逆序作为迭代器，`next()`方法打印下一个元素，在这种情况下是最后一个元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # accessing last element of list
 # using reversed() + next()
@@ -134,7 +134,7 @@ print ("The last element using reversed() + next() is : "
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3, 5]
 The last element using reversed() + next() is : 5
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import imaplib                             
 import email

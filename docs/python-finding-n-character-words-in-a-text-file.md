@@ -14,7 +14,7 @@
 
 **代码:Python 程序查找文字文件中包含三个字符的单词**
 
-```
+```py
 count = 1
 chrw = ""
 
@@ -44,7 +44,7 @@ file.close() 
 
 **输出:**
 
-```
+```py
 how 
 are 
 you 

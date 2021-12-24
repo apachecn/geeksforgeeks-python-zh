@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `range()`**
 在该方法中，我们只需使用 range 函数检查每个索引，如果发现该索引为 None，则存储该索引。
 
-```
+```py
 # Python3 code to demonstrate
 # finding None indices in list 
 # using list comprehension + enumerate
@@ -28,7 +28,7 @@ print("The None indices list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, None, 4, None, None, 5]
 The None indices list is : [1, 3, 4]
 

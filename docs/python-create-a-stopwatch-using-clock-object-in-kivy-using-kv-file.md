@@ -13,7 +13,7 @@ Clock 对象可以让你安排未来的函数调用；一次或以特定的时�
 
 ## 蟒蛇 3
 
-```
+```py
 # define callback
 def my_callback(dt):
     pass
@@ -34,7 +34,7 @@ Clock.schedule_once(my_callback)
 
 > 使用 kivy 内置模块时最好使用 kivy.clock 导入 clock 中的 clock 和:
 
-```
+```py
 Basic Approach:  
 1) import kivy
 2) import kivyApp
@@ -57,7 +57,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Code of How to create Stopwatch
 '''

@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 # abc.py
 import logging
 
@@ -23,14 +23,14 @@ def func():
 
 使用此配置，默认情况下不会发生日志记录。
 
-```
+```py
 import somelib
 abc.func()
 ```
 
 **输出:**
 
-```
+```py
 NO OUTPUT
 ```
 
@@ -38,7 +38,7 @@ NO OUTPUT
 
 **代码#2:**
 
-```
+```py
 import logging
 
 logging.basicConfig()
@@ -47,7 +47,7 @@ somelib.func()
 
 **输出:**
 
-```
+```py
 CRITICAL:somelib:A Critical Error!
 ```
 
@@ -65,7 +65,7 @@ CRITICAL:somelib:A Critical Error!
 
 **代码#3:**
 
-```
+```py
 import logging
 
 logging.basicConfig(level = logging.ERROR)
@@ -80,7 +80,7 @@ print (abc.func())
 
 **输出:**
 
-```
+```py
 CRITICAL:abc:A Critical Error!
 DEBUG:abc:A debug message
 ```

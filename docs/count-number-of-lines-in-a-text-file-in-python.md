@@ -23,7 +23,7 @@
 
 ![python-count-line](img/debac8fcc917b27ac1b81040e4217eac.png)
 
-```
+```py
 # Python program to count the 
 # number of lines in a text file
 
@@ -45,7 +45,7 @@ print(Counter)
 
 **输出:**
 
-```
+```py
 This is the number of lines in the file
 4
 

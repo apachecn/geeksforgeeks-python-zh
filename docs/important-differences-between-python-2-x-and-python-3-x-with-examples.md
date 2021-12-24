@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 print 7 / 5
 
 print -7 / 5    
@@ -47,7 +47,7 @@ Output in Python 3.x :
 
 ## 计算机编程语言
 
-```
+```py
 print 'Hello, Geeks'      # Python 3.x doesn't support
 
 print('Hope You like these facts')
@@ -85,7 +85,7 @@ https://www.geeksforgeeks.org/g-fact-25-print-single-multiple-variable-python/
 
 ## 计算机编程语言
 
-```
+```py
 print(type('default string '))
 
 print(type(b'string with b '))
@@ -111,7 +111,7 @@ Python 2.x 也支持 Unicode
 
 ## 计算机编程语言
 
-```
+```py
 print(type('default string '))
 
 print(type(u'string with b '))
@@ -141,7 +141,7 @@ Python 2.x 的 xrange()在 Python 3.x 中不存在，在 Python 2.x 中，range 
 
 ## 计算机编程语言
 
-```
+```py
 for x in xrange(1, 5):
 
     print(x),
@@ -169,7 +169,7 @@ NameError: name 'xrange' is not defined
 
 ## 计算机编程语言
 
-```
+```py
 try:
 
     trying_to_check_error
@@ -199,7 +199,7 @@ SyntaxError: invalid syntax
 
 ## 计算机编程语言
 
-```
+```py
 try:
 
      trying_to_check_error
@@ -229,7 +229,7 @@ name 'trying_to_check_error' is not defined Error Caused
 
 ## 计算机编程语言
 
-```
+```py
 # In below python 2.x code, division works
 
 # same as Python 3.x because we use  __future__
@@ -243,7 +243,7 @@ print -7 / 5
 
 输出:
 
-```
+```py
 1.4 
 
 -1.4 
@@ -253,7 +253,7 @@ print -7 / 5
 
 ## 计算机编程语言
 
-```
+```py
 from __future__ import print_function    
 
 print('GeeksforGeeks')
@@ -261,7 +261,7 @@ print('GeeksforGeeks')
 
 输出:
 
-```
+```py
 GeeksforGeeks 
 ```
 

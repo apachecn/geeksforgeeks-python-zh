@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -42,7 +42,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np

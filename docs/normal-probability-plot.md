@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # imports 
 import numpy as np
 import matplotlib.pyplot as plt

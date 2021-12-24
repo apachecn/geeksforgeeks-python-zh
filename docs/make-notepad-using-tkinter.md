@@ -10,7 +10,7 @@
 
 **使用此命令安装 Tkinter :**
 
-```
+```py
 pip install python-tk
 ```
 
@@ -18,7 +18,7 @@ pip install python-tk
 
 ## 计算机编程语言
 
-```
+```py
 import tkinter
 import os
 from tkinter import *
@@ -36,7 +36,7 @@ from tkinter.filedialog import *
 
 ## 计算机编程语言
 
-```
+```py
 # Add controls(widget)
 
 self.__thisTextArea.grid(sticky = N + E + S + W)
@@ -100,7 +100,7 @@ self.__thisTextArea.config(yscrollcommand = self.__thisScrollBar.set)
 
 ## 计算机编程语言
 
-```
+```py
 def __quitApplication(self):
     self.__root.destroy()
     # exit()
@@ -176,7 +176,7 @@ def __paste(self):
 
 ## 计算机编程语言
 
-```
+```py
 import tkinter
 import os   
 from tkinter import *
@@ -376,7 +376,7 @@ notepad.run()
 
 要运行此代码，请通过扩展名**保存它。py** 然后打开 cmd(命令提示符)，移动到保存文件的位置，然后写下以下内容
 
-```
+```py
 python "filename".py 
 ```
 

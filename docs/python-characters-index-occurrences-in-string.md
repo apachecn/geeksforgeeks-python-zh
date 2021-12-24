@@ -7,7 +7,7 @@
 **方法#1:使用`set() + regex + list comprehension + replace()`**
 上述功能的组合可用于执行该任务。在这种情况下，set()用于获取必须计算其频率的元素。相应地，组装到字典的任务是使用正则表达式函数和列表理解来执行的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Characters Index occurrences in String
 # Using regex + set() + list comprehension + replace()
@@ -30,7 +30,7 @@ print("Characters frequency index dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Gfg is best for geeks
 Characters frequency index dictionary : {'g': [2, 16], 'k': [19], 't': [10], 'G': [0], 'b': [7], 'i': [4], 'r': [14], 'f': [1, 12], 's': [5, 9, 20], 'o': [13], 'e': [8, 17, 18]}
 

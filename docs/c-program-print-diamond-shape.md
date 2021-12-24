@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to print diamond shape
 // with 2n rows
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 ## C
 
-```
+```py
 // C program to print
 // diamond shape with
 // 2n rows
@@ -132,7 +132,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // JAVA Code to print
 // the diamond shape
 import java.util.*;
@@ -199,7 +199,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # print Diamond shape
 
@@ -244,7 +244,7 @@ Diamond(rows)
 
 ## C#
 
-```
+```py
 // C# Code to print
 // the diamond shape
 using System;
@@ -311,7 +311,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to print
 // diamond shape with
@@ -373,7 +373,7 @@ function printDiamond($n)
 
 ## java 描述语言
 
-```
+```py
 <script>
       // JavaScript program to print diamond shape
       // with 2n rows
@@ -425,7 +425,7 @@ function printDiamond($n)
 
 **输出:**
 
-```
+```py
         *
        * *
       * * *

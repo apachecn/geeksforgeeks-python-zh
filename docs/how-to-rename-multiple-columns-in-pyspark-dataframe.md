@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # importing module
 import pyspark
 from pyspark.sql.functions import col

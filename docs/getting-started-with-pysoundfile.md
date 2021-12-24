@@ -6,7 +6,7 @@
 
 **安装**:运行以下 pip 命令:
 
-```
+```py
 pip install PySoundFile 
 
 ```
@@ -41,7 +41,7 @@ PySoundFile 支持 libsndfile 支持的所有格式，例如 WAV、FLAC、OGG �
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import soundfile as sf
 
@@ -80,7 +80,7 @@ print("Done")
 
 ## 蟒蛇 3
 
-```
+```py
 # imporintg the module
 import soundfile as sf
 

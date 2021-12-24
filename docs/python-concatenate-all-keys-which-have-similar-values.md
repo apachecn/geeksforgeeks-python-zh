@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate similar set keys in Dictionary
 # Using defaultdict() + join()
@@ -60,7 +60,7 @@ print("The concatenated keys : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate similar set keys in Dictionary
 # Using groupby() + join() + dictionary comprehension

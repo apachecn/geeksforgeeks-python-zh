@@ -10,7 +10,7 @@ sys 模块提供了用于操作 Python 运行时环境不同部分的函数和�
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # sys.argv
 
@@ -34,7 +34,7 @@ print("Argument List:", str(sys.argv))
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # sys.argv
 
@@ -56,7 +56,7 @@ print("Argument List:",
 
 以下程序使用运行时给出的输入执行加法:
 
-```
+```py
 # Python program to demonstrate
 # sys.argv
 

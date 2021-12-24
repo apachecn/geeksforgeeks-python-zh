@@ -8,7 +8,7 @@
 
 可以使用通用字节函数将字符串转换为字节。该函数在内部指向 CPython 库，该库隐式调用编码函数将字符串转换为指定的编码。
 
-```
+```py
 # Python code to demonstrate
 # convert string to byte 
 # Using bytes(str, enc)
@@ -29,7 +29,7 @@ print("The byte converted string is  : " + str(res) + ", type : " + str(type(re
 
 **Output :**
 
-```
+```py
 The original string : GFG is best
 The byte converted string is  : b'GFG is best', type : <class 'bytes'>
 
@@ -39,7 +39,7 @@ The byte converted string is  : b'GFG is best', type : <class 'bytes'>
 
 执行这一特定任务最推荐的方法是使用 encode 函数来完成转换，因为它减少了一个到特定库的额外链接，所以这个函数直接调用它。
 
-```
+```py
 # Python code to demonstrate
 # convert string to byte 
 # Using encode(enc)
@@ -60,7 +60,7 @@ print("The byte converted string is  : " + str(res) + ", type : " + str(type(re
 
 **Output :**
 
-```
+```py
 The original string : GFG is best
 The byte converted string is  : b'GFG is best', type : <class 'bytes'>
 

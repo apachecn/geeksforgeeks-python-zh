@@ -18,7 +18,7 @@
 
 **我们将实现一个拉普拉斯算子，以便在后面的例子中加入边缘检测。为此，我们将使用`pillow`库。要安装库，请在命令行中执行以下命令:**
 
-```
+```py
 pip install pillow 
 ```
 
@@ -38,7 +38,7 @@ pip install pillow
 
 ## **蟒蛇 3**
 
-```
+```py
 from PIL import Image, ImageFilter
 
 # Opening the image (R prefixed to string
@@ -68,7 +68,7 @@ image.save(r"Edge_Sample.png")
 
 ## **蟒蛇 3**
 
-```
+```py
 from PIL import Image, ImageFilter
 
 img = Image.open(r"sample.png")

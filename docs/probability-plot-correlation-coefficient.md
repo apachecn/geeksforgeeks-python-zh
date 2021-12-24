@@ -34,7 +34,7 @@ PPCC 情节回答了以下问题:
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ print("shape parameter of beta distribution is :",shape_para_beta)
 
 PPCC 图的正态分布
 
-```
+```py
 shape parameter of normal distribution is  0.14139046072745928
 ```
 
@@ -103,7 +103,7 @@ shape parameter of normal distribution is  0.14139046072745928
 
 带有 PPCC 图的柯西分布
 
-```
+```py
 shape parameter of cauchy distribution is  -0.8555566289941865
 ```
 
@@ -111,7 +111,7 @@ shape parameter of cauchy distribution is  -0.8555566289941865
 
 PPCC 地块的物流配送
 
-```
+```py
 shape parameter of logistic is  0.003792036190661425
 ```
 
@@ -119,7 +119,7 @@ shape parameter of logistic is  0.003792036190661425
 
 PPCC 图均匀分布
 
-```
+```py
 shape parameter of uniform distribution is  1.0681942803525217
 ```
 
@@ -127,7 +127,7 @@ shape parameter of uniform distribution is  1.0681942803525217
 
 贝塔分布与 PPCC 图
 
-```
+```py
 shape parameter of beta distribution is : 0.9158983492057267
 ```
 

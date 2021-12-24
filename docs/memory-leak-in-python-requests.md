@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import gc
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 No.of tracked objects before calling get method
 16071
 Status code 200
@@ -96,7 +96,7 @@ No.of tracked objects after calling get method
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import gc
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 No.of tracked objects before calling get method
 16071
 Status code 200

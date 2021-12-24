@@ -12,7 +12,7 @@
 
 **代码# 1:is _ 有限()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_finite() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with is_finite() method : ", b.is_finite())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  -Infinity
 
@@ -47,7 +47,7 @@ Decimal b with is_finite() method :  False
 
 **代码# 2:is _ 有限()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_finite() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with is_finite() method : ", b.is_finite())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

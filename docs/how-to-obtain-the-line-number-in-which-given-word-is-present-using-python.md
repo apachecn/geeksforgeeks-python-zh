@@ -6,7 +6,7 @@
 
 首先，我们需要一个文件来读取。因此，使用如下所示的神奇功能在木星笔记本内创建一个文件:
 
-```
+```py
 %%writefile geeks.txt 
 Hello, I am Romy 
 I am a content writer at GfG 
@@ -18,7 +18,7 @@ Hello, hii all fine
 
 ## 蟒 3
 
-```
+```py
 # READ FILE
 df = open("geeks.txt")
 

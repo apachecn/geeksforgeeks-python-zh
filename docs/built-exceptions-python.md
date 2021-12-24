@@ -6,7 +6,7 @@ Python 中的所有实例都必须是从 **BaseException** 派生的类的实例
 
 Python 中有几个内置的异常，在出现错误时会引发。这些内置异常可以使用 **local()** 内置函数查看，如下所示:
 
-```
+```py
 >>> locals()['__builtins__']
 
 ```
@@ -24,7 +24,7 @@ Python 中有几个内置的异常，在出现错误时会引发。这些内置�
 
         **代码:**
 
-        ```
+        ```py
         try:
             ...
         except SomeException:
@@ -43,7 +43,7 @@ Python 中有几个内置的异常，在出现错误时会引发。这些内置�
 
     **示例:**
 
-    ```
+    ```py
     try:  
         a = 10/0  
         print (a)
@@ -55,7 +55,7 @@ Python 中有几个内置的异常，在出现错误时会引发。这些内置�
 
     **输出:**
 
-    ```
+    ```py
     This statement is raising an arithmetic exception.
 
     ```
@@ -70,7 +70,7 @@ Python 中有几个内置的异常，在出现错误时会引发。这些内置�
 
 **示例:**
 
-```
+```py
 try: 
     a = [1, 2, 3] 
     print (a[3]) 
@@ -83,7 +83,7 @@ else: 
 
 **输出:**
 
-```
+```py
 Index out of bound error.
 
 ```
@@ -97,14 +97,14 @@ Index out of bound error.
 
     **示例:**
 
-    ```
+    ```py
     assert False, 'The assertion failed'
 
     ```
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "exceptions_AssertionError.py", line 12, in 
         assert False, 'The assertion failed'
@@ -117,7 +117,7 @@ Index out of bound error.
 
     **示例:**
 
-    ```
+    ```py
     class Attributes(object):
         pass
 
@@ -127,7 +127,7 @@ Index out of bound error.
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "d912bae549a2b42953bc62da114ae7a7.py", line 5, in 
         print object.attribute
@@ -140,7 +140,7 @@ Index out of bound error.
 
     **示例:**
 
-    ```
+    ```py
     while True:
         data = input('Enter name : ')
         print ('Hello  ', data)
@@ -148,7 +148,7 @@ Index out of bound error.
 
     **输出:**
 
-    ```
+    ```py
     Enter Name :Hello Aditi
     Enter Name :Traceback (most recent call last):
       File "exceptions_EOFError.py", line 13, in 
@@ -162,7 +162,7 @@ Index out of bound error.
 
     **示例:**
 
-    ```
+    ```py
     import math
 
     print (math.exp(1000))
@@ -170,7 +170,7 @@ Index out of bound error.
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "", line 1, in 
     FloatingPointError: in math_1
@@ -182,7 +182,7 @@ Index out of bound error.
 
     **示例:**
 
-    ```
+    ```py
     def my_generator():
         try:
             for i in range(5):
@@ -199,7 +199,7 @@ Index out of bound error.
 
     **输出:**
 
-    ```
+    ```py
     Yielding 0
     0
     Exiting early
@@ -211,13 +211,13 @@ Index out of bound error.
 
 **示例:**
 
-```
+```py
 import module_does_not_exist
 ```
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "exceptions_ImportError_nomodule.py", line 12, in 
     import module_does_not_exist
@@ -227,13 +227,13 @@ ImportError: No module named module_does_not_exist
 
 **示例:**
 
-```
+```py
 from exceptions import Userexception
 ```
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "exceptions_ImportError_missingname.py", line 12, in 
     from exceptions import Userexception
@@ -247,14 +247,14 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     array = [ 0, 1, 2 ]
     print (array[3])
     ```
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "exceptions_IndexError.py", line 13, in 
         print array[3]
@@ -267,14 +267,14 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     array = { 'a':1, 'b':2 }
     print (array['c'])
     ```
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "exceptions_KeyError.py", line 13, in 
         print array['c']
@@ -287,7 +287,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     try:
         print ('Press Return or Ctrl-C:',)
         ignored = input()
@@ -301,7 +301,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Press Return or Ctrl-C: ^CCaught KeyboardInterrupt
 
     ```
@@ -311,7 +311,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     def fact(a):
         factors = []
         for i in range(1, a+1):
@@ -325,7 +325,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "4af5c316c749aff128df20714536b8f3.py", line 9, in 
         print fact(num)
@@ -340,7 +340,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     def func():
         print ans
 
@@ -349,7 +349,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "cfba0a5196b05397e0a23b1b5b8c7e19.py", line 4, in 
         func()
@@ -364,7 +364,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     class BaseClass(object):
         """Defines the interface"""
         def __init__(self):
@@ -385,7 +385,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "b32fc445850cbc23cd2f081ba1c1d60b.py", line 16, in 
         BaseClass().do_something()
@@ -400,7 +400,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     def func():
         print (ans)
 
@@ -409,7 +409,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "442eccd7535a2704adbe372cb731fc0f.py", line 4, in 
         print i, os.ttyname(i)
@@ -422,7 +422,7 @@ ImportError: cannot import name Userexception
 
     **示例:**
 
-    ```
+    ```py
     import sys
 
     print ('Regular integer: (maxint=%s)' % sys.maxint)
@@ -450,7 +450,7 @@ ImportError: cannot import name Userexception
 
     **输出:**
 
-    ```
+    ```py
     Regular integer: (maxint=9223372036854775807)
     No overflow for   i = 27670116110564327421
 
@@ -481,7 +481,7 @@ ImportError: cannot import name Userexception
 
 **示例:**
 
-```
+```py
 import gc
 import weakref
 
@@ -503,7 +503,7 @@ print ('AFTER:', p.name)
 
 **输出:**
 
-```
+```py
 BEFORE: obj
 (Deleting )
 AFTER:
@@ -521,7 +521,7 @@ ReferenceError: weakly-referenced object no longer exists
 
     **示例:**
 
-    ```
+    ```py
     Arr = [3, 1, 2]
     i=iter(Arr)
 
@@ -534,7 +534,7 @@ ReferenceError: weakly-referenced object no longer exists
 
     **输出:**
 
-    ```
+    ```py
 
     3
     1
@@ -552,7 +552,7 @@ ReferenceError: weakly-referenced object no longer exists
 
     **示例:**
 
-    ```
+    ```py
     try:
         print (eval('geeks for geeks'))
     except SyntaxError, err:
@@ -563,7 +563,7 @@ ReferenceError: weakly-referenced object no longer exists
 
     **输出:**
 
-    ```
+    ```py
     Syntax error  (1-9): geeks for geeks
     invalid syntax (, line 1)
 
@@ -576,14 +576,14 @@ ReferenceError: weakly-referenced object no longer exists
 
 **示例:**
 
-```
+```py
 arr = ('tuple', ) + 'string'
 print (arr)
 ```
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "30238c120c0868eba7e13a06c0b1b1e4.py", line 1, in 
     arr = ('tuple', ) + 'string'
@@ -596,7 +596,7 @@ TypeError: can only concatenate tuple (not "str") to tuple
 
     **示例:**
 
-    ```
+    ```py
     def global_name_error():
         print (unknown_global_name)
 
@@ -617,7 +617,7 @@ TypeError: can only concatenate tuple (not "str") to tuple
 
     **输出:**
 
-    ```
+    ```py
     Global name error: global name 'unknown_global_name' is not defined
     Local name error: local variable 'local_val' referenced before assignment
 
@@ -629,13 +629,13 @@ TypeError: can only concatenate tuple (not "str") to tuple
 
     **示例:**
 
-    ```
+    ```py
     print (int('a'))
     ```
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "44f00efda935715a3c5468d899080381.py", line 1, in 
         print int('a')
@@ -648,13 +648,13 @@ TypeError: can only concatenate tuple (not "str") to tuple
 
     **示例:**
 
-    ```
+    ```py
     print (1/0)
     ```
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "c31d9626b41e53d170a78eac7d98cb85.py", line 1, in 
         print 1/0

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以通过蛮力的方式使用循环来完成。我们对每个列表运行一个嵌套循环，当我们找到匹配时，我们用该对更新结果列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # K Summation from Two lists
 # using loop
@@ -39,7 +39,7 @@ print ("Summation pairs among lists : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [3, 2, 5]
 The original list 2 is : [4, 3, 6, 8, 7]
 Summation pairs among lists : [(6, 3), (7, 2), (4, 5)]

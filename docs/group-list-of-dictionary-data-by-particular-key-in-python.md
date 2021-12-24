@@ -20,7 +20,7 @@ Python 中特定关键字的字典数据分组列表可以使用 [itertools.grou
 让我们看看例子:
 **例子 1:** 假设我们有员工和公司的字典列表。
 
-```
+```py
 INFO = [
     {'employee': 'XYZ_1', 'company': 'ABC_1'},
     {'employee': 'XYZ_2', 'company': 'ABC_2'},
@@ -41,7 +41,7 @@ INFO = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import a groupby() method
 # from itertools module
 from itertools import groupby
@@ -80,7 +80,7 @@ for key, value in groupby(INFO, key_func):
 
 **例 2:** 假设我们有学生成绩和分数的字典列表。
 
-```
+```py
 students = [
     {'mark': '65','grade': 'C'},
     {'mark': '86','grade': 'A'},
@@ -98,7 +98,7 @@ students = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import required methods
 from itertools import groupby
 from operator import itemgetter
@@ -127,7 +127,7 @@ for key, value in groupby(students,
 
 **输出:**
 
-```
+```py
 A
 {'mark': '86', 'grade': 'A'}
 {'mark': '91', 'grade': 'A'}

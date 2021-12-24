@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # import SparkSession from the pyspark
 from pyspark.sql import SparkSession
 

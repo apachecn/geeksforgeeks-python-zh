@@ -19,7 +19,7 @@ SVM 模型将示例表示为空间中的点，映射后，各个类别的示例�
 **先决条件:**[Numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)[Pandas](https://www.geeksforgeeks.org/data-analysis-visualization-python/)[matplot-lib](https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/)[scikit-learn](https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/)
 我们来看一个支持向量分类的快速例子。首先我们需要创建一个数据集:
 
-```
+```py
 # importing scikit learn with make_blobs
 from sklearn.datasets.samples_generator import make_blobs
 
@@ -38,7 +38,7 @@ plt.show() 
 
 支持向量机所做的，不仅仅是在两个类之间画一条线，而是考虑一个关于某个给定宽度的线的区域。这里有一个它可能是什么样子的例子:
 
-```
+```py
 # creating line space between -1 to 3.5 
 xfit = np.linspace(-1, 3.5)
 
@@ -62,7 +62,7 @@ plt.show()
 
 这是支持向量机的直觉，它优化了表示数据集之间垂直距离的线性判别模型。现在让我们使用训练数据训练分类器。在训练之前，我们需要将癌症数据集导入为 csv 文件，在这里我们将训练所有特征中的两个特征。
 
-```
+```py
 # importing required libraries
 import numpy as np
 import pandas as pd
@@ -82,7 +82,7 @@ x.shape 
 print (x),(y)
 ```
 
-```
+```py
 [[  122.8   1001\.  ]
  [  132.9   1326\.  ]
  [  130\.    1203\.  ]
@@ -104,7 +104,7 @@ array([ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
 
 现在我们将为这些点安装一个支持向量机分类器。虽然可能性模型的数学细节很有趣，但我们会在其他地方读到。相反，我们将把 scikit-learn 算法视为完成上述任务的黑盒。
 
-```
+```py
 # import support vector classifier 
 # "Support Vector Classifier"
 from sklearn.svm import SVC  
@@ -116,13 +116,13 @@ clf.fit(x, y) 
 
 拟合后，该模型可用于预测新值:
 
-```
+```py
 clf.predict([[120, 990]])
 
 clf.predict([[85, 550]])
 ```
 
-```
+```py
 array([ 0.])
 array([ 1.])
 

@@ -14,7 +14,7 @@ CSV 文件的内容
 *   从 CSV 文件中读取数据 DictReader()
 *   与数据库建立连接。
 
-```
+```py
 sqliteConnection = sqlite3.connect('sql.db')
 cursor = sqliteConnection.cursor()
 ```
@@ -22,7 +22,7 @@ cursor = sqliteConnection.cursor()
 *   创建学生表，并使用 execute()方法执行查询。
 *   向表中插入数据
 
-```
+```py
 cursor.executemany("insert into student (name, age) VALUES (?, ?);", student_info)
 ```
 
@@ -33,7 +33,7 @@ cursor.executemany("insert into student (name, age) VALUES (?, ?);", student_inf
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 import sqlite3
 

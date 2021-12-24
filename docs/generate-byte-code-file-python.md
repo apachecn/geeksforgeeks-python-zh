@@ -14,7 +14,7 @@
 
 1.  Using **py_compile.compile** function: The *py_compile* module can manually compile any module. One way is to use the py_compile.compile function in that module interactively:
 
-    ```
+    ```py
     >>> import py_compile
     >>> py_compile.compile('abc.py')
 
@@ -24,7 +24,7 @@
 
 2.  使用 **py_compile.main()** 函数:一次编译几个文件。
 
-    ```
+    ```py
     >>> import py_compile
     >>> py_compile.main(['File1.py','File2.py','File3.py'])
 
@@ -32,7 +32,7 @@
 
 3.  使用 **compileall.compile_dir()** 函数:它编译提供的目录中的每个 python 文件。
 
-    ```
+    ```py
     >>> import compileall
     >>> compileall.compile_dir(directoryname)
 
@@ -40,14 +40,14 @@
 
 4.  Using **py_compile** in Terminal:
 
-    ```
+    ```py
     $ python -m py_compile File1.py File2.py File3.py ...
 
     ```
 
     或者，对于文件的交互式编译
 
-    ```
+    ```py
     $ python -m py_compile -
       File1.py
       File2.py
@@ -60,7 +60,7 @@
 
 5.  在终端中使用**编译所有**:这个命令会自动递归进入子目录并制作。它找到的所有 python 文件的 pyc 文件。
 
-    ```
+    ```py
     $ python -m compileall 
 
     ```

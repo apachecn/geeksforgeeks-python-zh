@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter consecutive elements Tuples
 # Using loop
@@ -52,7 +52,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4, 5, 6), (5, 6, 7, 2), (1, 2, 3), (6, 4, 6, 3)]
 The filtered tuples : [(3, 4, 5, 6), (1, 2, 3)]
 
@@ -64,7 +64,7 @@ The filtered tuples : [(3, 4, 5, 6), (1, 2, 3)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter consecutive elements Tuples
 # Using list comprehension
@@ -94,7 +94,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4, 5, 6), (5, 6, 7, 2), (1, 2, 3), (6, 4, 6, 3)]
 The filtered tuples : [(3, 4, 5, 6), (1, 2, 3)]
 

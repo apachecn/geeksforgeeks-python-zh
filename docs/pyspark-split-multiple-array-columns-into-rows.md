@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyspark
 import pyspark
 
@@ -65,7 +65,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # using select function applying 
 # explode on array column
 df2 = df.select(df.Name,explode(df.Courses_enrolled))
@@ -95,7 +95,7 @@ df2.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the row data and giving array 
 # values for dataframe along with null values
 data = [('Jaya', '20', ['SQL', 'Data Science']),
@@ -125,7 +125,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # now using select function applying
 # explode_outer on array column
 df4 = df.select(df.Name, explode_outer(df.Courses_enrolled))
@@ -147,7 +147,7 @@ df4.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # using select function applying 
 # explode on array column
 df2 = df.select(df.Name, posexplode(df.Courses_enrolled))
@@ -171,7 +171,7 @@ posexplode()将数组拆分为行，并提供数组元素的位置，在这个�
 
 ## 蟒蛇 3
 
-```
+```py
 # using select function applying 
 # explode on array column
 df2 = df.select(df.Name, posexplode_outer(df.Courses_enrolled))

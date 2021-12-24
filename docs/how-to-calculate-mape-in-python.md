@@ -46,7 +46,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Define the dataset as python lists
 actual   = [136, 120, 138, 155, 149]
 forecast = [134, 124, 132, 141, 149]
@@ -90,7 +90,7 @@ MAPE 输出是非负浮点。MAPE 的最佳值是 0.0，而较高的值决定了
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 

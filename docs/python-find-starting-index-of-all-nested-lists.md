@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initial element index in Matrix
 # Using loop
@@ -63,7 +63,7 @@ print("Initial element indices : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initial element index in Matrix
 # Using accumulate() + map() + len()
@@ -95,7 +95,7 @@ print("Initial element indices : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # This will print all the starting indexes
 # of sublists inside this list
 lis = [[1,2,3],4,5,[6,7,8],9,0,[10]]
@@ -109,6 +109,6 @@ for i in lis:
 
 **输出:**
 
-```
+```py
 0,3,6,
 ```

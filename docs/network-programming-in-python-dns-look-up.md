@@ -12,7 +12,7 @@ dnspython 模块提供 dns.resolver()来帮助查找域名的各种记录。该�
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 import dns.resolver
 

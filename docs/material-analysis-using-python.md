@@ -79,7 +79,7 @@ Pymatgen 是开源的，所以会定期添加新功能。因此，要将 pymatge
 
 ## 蟒蛇 3
 
-```
+```py
 import pymatgen.core as pg
 # Fetch details of an Element
 fe = pg.Element("Fe")
@@ -110,7 +110,7 @@ Pymatgen 有许多库，根据它们所代表的属性进行分组/分离。这�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pymatgen.core as pg
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
@@ -140,7 +140,7 @@ Pymatgen 还允许用户从外部文件中读取结构。您可以通过以下�
 
 ## 蟒蛇 3
 
-```
+```py
 # Reading a structure from a file
 structure = pg.Structure.from_str(open("MnO2.cif").read(),
                                   fmt="cif")
@@ -172,7 +172,7 @@ API 密钥生成参见本网站->[https://materialsproject.org/open](https://mat
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pymatgen.ext.matproj import MPRester
 
@@ -203,7 +203,7 @@ print(data_one)
 
 ## 蟒蛇 3
 
-```
+```py
 # Fetch all the compounds details of an element in the database
 # Fetching data of Fe-Iron
 from pymatgen.ext.matproj import MPRester
@@ -244,7 +244,7 @@ CoNi3 化合物与 mp-1183751 相关
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pymatgen.core import Structure
 from pymatgen.ext.matproj import MPRester
@@ -275,6 +275,6 @@ with open('cnt.cif', 'w') as f:
 
 **输出:**
 
-```
+```py
 4
 ```

@@ -7,13 +7,13 @@
 
 python 没有 PyAutoGUI，因此请转到命令提示符并键入以下内容:
 
-```
+```py
  pip3 install PyAutoGUI
 ```
 
 **警报()**:显示一个简单的消息框，其中包含文本和一个确定按钮。返回单击的按钮的文本。
 
-```
+```py
 # Python Program to show alert() function
 import pyautogui
 
@@ -25,7 +25,7 @@ pyautogui.alert('GeekforGeeks alert box')
 
 **确认()**:显示一个带有确定和取消按钮的消息框。按钮的数量和文本可以自定义。返回单击的按钮的文本。
 
-```
+```py
 # Python Program to show confirm() function
 import pyautogui
 pyautogui.confirm('Geek Shall I proceed?')
@@ -36,7 +36,7 @@ pyautogui.confirm('Geek Shall I proceed?')
 
 要有多个选择选项–
 
-```
+```py
 # Python Program to show confirm() function
 # with multiple options
 import pyautogui
@@ -48,7 +48,7 @@ T3】
 
 **提示()**:显示文字输入的消息框，确定&取消按钮。返回输入的文本，如果单击“取消”，则返回“无”。
 
-```
+```py
 # Python Program to show prompt() function
 import pyautogui
 pyautogui.prompt('What is your name?')
@@ -59,7 +59,7 @@ pyautogui.prompt('What is your name?')
 
 **密码()**:显示文字输入消息框，点击【确定】&取消按钮。键入的字符显示为*。返回输入的文本，如果单击了取消，则返回无
 
-```
+```py
 # Python Program to show password() function
 import pyautogui
 pyautogui.password('Enter password (text will be hidden)')

@@ -10,7 +10,7 @@
 
 为了安装牛郎星库和 vega _ datasets，我们在命令提示符下运行以下命令。
 
-```
+```py
 pip install altair
 pip install vega-datasets
 ```
@@ -34,7 +34,7 @@ pip install vega-datasets
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -56,7 +56,7 @@ display(car_data)
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -80,7 +80,7 @@ hist.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -106,7 +106,7 @@ hist.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -132,7 +132,7 @@ hist.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -161,7 +161,7 @@ hist.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data
@@ -190,7 +190,7 @@ hist.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import altair as alt
 from vega_datasets import data

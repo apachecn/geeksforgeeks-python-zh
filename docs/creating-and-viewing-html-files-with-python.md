@@ -21,7 +21,7 @@ Python 是最通用的编程语言之一。它通过大量使用空白来强调�
 
 ## 蟒蛇 3
 
-```
+```py
 # to open/create a new html file in the write mode
 f = open('GFG.html', 'w')
 
@@ -56,7 +56,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import codecs
 
@@ -100,7 +100,7 @@ print(file.read())
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import webbrowser
 
@@ -110,7 +110,7 @@ webbrowser.open('GFG.html') 
 
 **输出:**
 
-```
+```py
 True
 ```
 

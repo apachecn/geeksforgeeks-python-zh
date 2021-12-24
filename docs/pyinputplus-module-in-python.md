@@ -8,7 +8,7 @@
 
 通过 *pip* 命令安装模块:
 
-```
+```py
 pip install PyInputPlus
 
 ```
@@ -35,7 +35,7 @@ pip install PyInputPlus
 
 ## 蟒 3
 
-```
+```py
 import pyinputplus as pyip
 
 # string input with
@@ -48,7 +48,7 @@ print(inp)
 
 **输出:**
 
-```
+```py
 Enter a string... Hello
 This response is invalid.
 Enter a string... GFG
@@ -62,7 +62,7 @@ GFG
 
 ## 蟒 3
 
-```
+```py
 import pyinputplus as pyip
 
 # integer input with

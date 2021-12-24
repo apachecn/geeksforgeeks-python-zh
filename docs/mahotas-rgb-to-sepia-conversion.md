@@ -5,7 +5,7 @@
 在本文中，我们将了解如何在 mahotas 中将 rgb 图像转换为 sepia。RGB 图像，有时也称为真彩色图像，在 MATLAB 中存储为一个 m 乘 n 乘 3 的数据数组，该数组定义了每个单独像素的红色、绿色和蓝色分量。棕褐色调色效果在摄影中非常常用。它是改变灰度图像(即所谓的黑白图像)每个像素颜色强度的过程。
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -23,7 +23,7 @@ mahotas.demos.load('lena')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -49,13 +49,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/f013f576026c96925a69f4df10464384.png)
 
-```
+```py
 New Image
 ```
 
@@ -65,7 +65,7 @@ New Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -94,13 +94,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/e3c66e3e9870972a0777c387df5090d1.png)
 
-```
+```py
 New Image
 ```
 

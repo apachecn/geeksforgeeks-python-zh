@@ -65,7 +65,7 @@ Rastrigin 函数是一个非凸函数，经常被用作优化算法的性能测�
 
 ## 蟒蛇 3
 
-```
+```py
 # python implementation of whale optimization algorithm (WOA)
 # minimizing rastrigin and sphere function
 
@@ -252,7 +252,7 @@ print("\nEnd WOA for sphere\n")
 
 ## 输出
 
-```
+```py
 Begin whale optimization algorithm on rastrigin function
 
 Goal is to minimize Rastrigin's function in 3 variables

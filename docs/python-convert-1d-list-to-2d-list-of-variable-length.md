@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst = [1, 2, 3, 4, 5, 6]
         var_lst = [1, 2, 3]
 Output : [[1], [2, 3], [4, 5, 6]]
@@ -19,7 +19,7 @@ Output : [['a', 'b', 'c'], ['d', 'e']]
 
 **方法#1 :** 列表切片
 
-```
+```py
 # Python3 program to Convert 1D 
 # list to 2D list
 from itertools import islice
@@ -38,14 +38,14 @@ print(list(convert(lst, var_lst)))
 
 **Output:**
 
-```
+```py
 [[1], [2, 3], [4, 5, 6]]
 
 ```
 
 **方法 2 :** 使用 *itertools.islice()*
 
-```
+```py
 # Python3 program to Convert 1D 
 # list to 2D list
 from itertools import islice
@@ -62,7 +62,7 @@ print(convert(lst, var_lst))
 
 **Output:**
 
-```
+```py
 [[1], [2, 3], [4, 5, 6]]
 
 ```

@@ -6,7 +6,7 @@
 
 在本文中，我们将编写脚本来测试给定的页面是否在服务器上被 GUI 应用程序找到。我们需要安装 Urllib 模块来执行这个操作。在您的终端中键入此命令。
 
-```
+```py
 pip install urllib
 ```
 
@@ -20,7 +20,7 @@ pip install urllib
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from urllib.request import urlopen, URLError, HTTPError
 
@@ -41,7 +41,7 @@ else:
 
 **输出:**
 
-```
+```py
 Server found
 ```
 
@@ -49,7 +49,7 @@ Server found
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from urllib.request import urlopen, URLError

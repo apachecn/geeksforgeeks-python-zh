@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Average digits count
 # Using len() + loop + str()
@@ -44,7 +44,7 @@ print("Average digits length : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [34, 2345, 23, 456, 2, 23, 456787]
 Average digits length : 2.857142857142857
 
@@ -56,7 +56,7 @@ Average digits length : 2.857142857142857
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Average digits count
 # Using len() + sum() + str()
@@ -76,7 +76,7 @@ print("Average digits length " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [34, 2345, 23, 456, 2, 23, 456787]
 Average digits length 2.857142857142857
 

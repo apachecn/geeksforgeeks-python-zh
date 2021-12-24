@@ -16,7 +16,7 @@
 **示例:**
 在这里我们将创建一个是否框，当任何按钮被按下时它将在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -63,7 +63,7 @@ else:
 **另一个例子:**
 在这里我们将创建一个是否框，并为是和否按钮设置具体选项，当任何按钮被按下时，它将在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 

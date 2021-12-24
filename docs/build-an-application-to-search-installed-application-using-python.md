@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import winapps
 
@@ -47,7 +47,7 @@ for item in winapps.list_installed():
 
 ## 蟒蛇 3
 
-```
+```py
 for item in winapps.search_installed('chrome'):
     print(item)
 ```
@@ -63,7 +63,7 @@ for item in winapps.search_installed('chrome'):
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 import winapps

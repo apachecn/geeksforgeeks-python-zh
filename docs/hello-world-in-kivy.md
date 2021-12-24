@@ -13,13 +13,13 @@ Kivy 是一个开源的 Python 多平台 GUI 开发库，可以在 iOS、Android
 
 *   **使用画中画**
 
-    ```
+    ```py
     pip install kivy
     ```
 
 *   **使用 conda**
 
-    ```
+    ```py
     conda install -c conda-forge kivy
     ```
 
@@ -27,19 +27,19 @@ Linux
 
 *   **使用以下命令添加 PPA:**
 
-    ```
+    ```py
     sudo add-apt-repository ppa:kivy-team/kivy
     ```
 
 *   **使用您的套餐管理器更新您的套餐列表-**
 
-    ```
+    ```py
     sudo apt-get update
     ```
 
 *   **安装 Kivy**
 
-    ```
+    ```py
     sudo apt-get install python3-kivy
     ```
 
@@ -48,7 +48,7 @@ Linux
 *   **使用轮子**
     轮子是为您所在的特定平台预编译的二进制文件。在 osx 上使用轮子安装 Kivy 只需要
 
-    ```
+    ```py
     $ python -m pip install kivy
     ```
 
@@ -57,7 +57,7 @@ Linux
 *   让我们创建一个 Python 文件，即扩展名为`.py`的文件。
 *   首先，让我们导入 kivy 并确保它是最新的。
 
-    ```
+    ```py
     import kivy
 
     # Replace this with your 
@@ -70,14 +70,14 @@ Linux
 
 *   现在要创建 Kivy 接口，我们需要在程序中使用以下代码导入 Kivy App 模块:
 
-    ```
+    ```py
     from kivy.app import App
 
     ```
 
 *   现在从`kivy.uix.label`
 
-    ```
+    ```py
     from kivy.uix.label import Label
 
     ```
@@ -85,7 +85,7 @@ Linux
     导入标签
 *   现在让我们写打印 Hello World 的主块，终于耶！！
 
-    ```
+    ```py
     class MyFirstKivyApp(App):
         def build(self):
             return Label(text ="Hello World !")
@@ -94,7 +94,7 @@ Linux
 
 **完成程序**
 
-```
+```py
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label

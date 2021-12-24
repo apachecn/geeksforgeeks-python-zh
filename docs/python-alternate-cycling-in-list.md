@@ -9,7 +9,7 @@
 
 **代码:**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate Cycling in list
 # using reversed() + islice() + iter() + cycle() + next() + list comprehension
@@ -32,7 +32,7 @@ print("Alternate Cyclic iteration is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 8, 9, 10, 21, 3]
 Alternate Cyclic iteration is : [5, 3, 6, 21, 8, 10, 9]
 

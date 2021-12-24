@@ -11,7 +11,7 @@
 **注意:**输入的图像应该是二值图像它也可以被标记，图像应该被过滤或者应该被加载为灰色以使其二值化
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -19,7 +19,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -58,7 +58,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

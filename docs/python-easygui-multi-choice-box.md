@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -53,7 +53,7 @@ msg = msgbox(message, title)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 

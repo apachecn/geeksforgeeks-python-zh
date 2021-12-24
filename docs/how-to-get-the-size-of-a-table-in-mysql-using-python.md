@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import mysql.connector
 
@@ -71,7 +71,7 @@ for item in myresult:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import mysql.connector
 

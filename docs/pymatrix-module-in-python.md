@@ -19,7 +19,7 @@ Pymatrix 是一个轻量级的矩阵库，支持基本的线性代数运算。�
 
 ## 蟒蛇 3
 
-```
+```py
 import pymatrix
 
 m = pymatrix.Matrix(2, 3, fill = '2')
@@ -28,7 +28,7 @@ print(m)
 
 1.  **输出:**
 
-```
+```py
 2 2 2
 2 2 2
 ```
@@ -38,7 +38,7 @@ print(m)
 
 ## 蟒蛇 3
 
-```
+```py
 import pymatrix
 
 list = [[1, 2, 3], [6, 4, 7], [3, 9, 1]]
@@ -48,7 +48,7 @@ print(m)
 
 1.  **输出:**
 
-```
+```py
 1 2 3
 6 4 7
 3 9 1
@@ -59,7 +59,7 @@ print(m)
 
 ## 蟒蛇 3
 
-```
+```py
 import pymatrix
 
 string = '''1 2 3
@@ -72,7 +72,7 @@ print(m)
 
 1.  **输出:**
 
-```
+```py
 1 2 3
 6 4 7
 3 9 1
@@ -95,7 +95,7 @@ print(m)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program for Matrix methods
 from pymatrix import Matrix
 
@@ -130,7 +130,7 @@ print(m.adjoint())
 
 ****输出:**** 
 
-```
+```py
 Identity matrix :
 1 0
 0 1

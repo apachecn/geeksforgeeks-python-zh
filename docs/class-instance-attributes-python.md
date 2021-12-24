@@ -6,7 +6,7 @@
 
 [类属性](https://www.geeksforgeeks.org/g-fact-34-class-or-static-variables-in-python/)属于类本身，它们将被所有实例共享。这样的属性通常在类主体部分的顶部定义，以便于阅读。
 
-```
+```py
 # Write Python code here
 class sampleclass:
     count = 0     # class attribute
@@ -30,7 +30,7 @@ print(sampleclass.count)
 
 输出:
 
-```
+```py
 1              
 2                           
 2
@@ -44,7 +44,7 @@ print(sampleclass.count)
 1。**vars()**–该函数以字典的形式显示实例的属性。
 2。**dir()**–该函数比 vars 函数显示更多的属性，因为它不限于实例。它还显示类属性。它还显示其祖先类的属性。
 
-```
+```py
 # Python program to demonstrate
 # instance attributes.
 class emp:
@@ -63,7 +63,7 @@ print(dir(e1))
 
 输出:
 
-```
+```py
 Dictionary form :{'salary': 4000, 'name': 'xyz'}
 ['__doc__', '__init__', '__module__', 'name', 'salary', 'show']
 ```

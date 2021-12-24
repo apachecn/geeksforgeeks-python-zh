@@ -8,27 +8,27 @@
 
 *   **Python 语音识别模块:**
 
-    ```
+    ```py
     pip install speechrecognition
     ```
 
 *   **PyAudio:** Use the following command for linux users
 
-    ```
+    ```py
     sudo apt-get install python3-pyaudio
 
     ```
 
     Windows 用户可以通过在终端中执行以下命令来安装 pyaudio
 
-    ```
+    ```py
     pip install pyaudio
 
     ```
 
 *   **Python pyttsx3 模块:**
 
-    ```
+    ```py
     pip install pyttsx3
 
     ```
@@ -42,7 +42,7 @@
 
 首先，我们需要导入库，然后使用`init()`函数进行初始化。这个函数可能需要 2 个参数。
 
-```
+```py
 init(driverName string, debug bool)
 
 ```
@@ -53,7 +53,7 @@ init(driverName string, debug bool)
 初始化后，我们将使用 `say()` 功能使程序朗读文本。
 这个方法也可以带 2 个参数。
 
-```
+```py
 say(text unicode, name string)
 
 ```
@@ -65,7 +65,7 @@ say(text unicode, name string)
 
 下面是实现。
 
-```
+```py
 # Python program to translate
 # speech to text and text to speech
 
@@ -118,7 +118,7 @@ while(1):    
         print("unknown error occured")
 ```
 
-```
+```py
 Input: voice speech (Hi buddy how are you)  
 
 Output: Did you say hi buddy how are you

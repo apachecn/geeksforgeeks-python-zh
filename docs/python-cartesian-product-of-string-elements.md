@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+拆分()**
 这个任务可以使用列表理解来执行。在本文中，我们使用 split()执行提取单个元素的任务。列表理解的任务是组成对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cartesian product of string elements
 # Using split() + list comprehension
@@ -30,7 +30,7 @@ print("Cartesian product list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string 1 is : gfg, is, best
 The original string 2 is : for, all, geeks
 Cartesian product list : ['gfgfor', 'gfgall', 'gfggeeks', 'isfor', 'isall', 'isgeeks', 'bestfor', 'bestall', 'bestgeeks']

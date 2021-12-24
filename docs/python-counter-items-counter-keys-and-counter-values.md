@@ -16,7 +16,7 @@ Counter.items()方法有助于查看列表的元素以及它们在元组中各�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from collections import Counter
 
@@ -67,7 +67,7 @@ Counter.keys()方法有助于查看列表中的唯一元素。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from collections import Counter
 
@@ -118,7 +118,7 @@ Counter.values()方法有助于查看每个唯一元素的频率。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from collections import Counter
 

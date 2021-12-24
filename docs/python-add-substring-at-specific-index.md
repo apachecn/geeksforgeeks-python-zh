@@ -8,7 +8,7 @@
 
 这个任务可以使用列表切片来执行。在这种情况下，我们只是将列表分成两部分，在目标位置断开，然后在中间插入目标子串后重新连接。
 
-```
+```py
 # Python3 code to demonstrate
 # Add substring at specific index
 # using list slicing
@@ -38,7 +38,7 @@ print("The string after performing addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geeksgeeks
 The add string : for
 The string after performing addition : geeksforgeeks
@@ -49,7 +49,7 @@ The string after performing addition : geeksforgeeks
 
 针对以下问题，可以在中执行的另一种可能的黑客攻击是，将字符串转换为列表，然后在特定位置添加字符串，然后执行联接。
 
-```
+```py
 # Python3 code to demonstrate
 # Add substring at specific index
 # using join() + list() + insert()
@@ -81,7 +81,7 @@ print("The string after performing addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geeksgeeks
 The add string : for
 The string after performing addition : geeksforgeeks

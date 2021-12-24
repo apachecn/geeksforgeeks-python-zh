@@ -17,7 +17,7 @@ Python 开发人员经常使用注释系统，因为如果不使用它，事情�
 
 **示例:**
 
-```
+```py
 # Write Python3 code here
 # Single line comment used
 
@@ -38,7 +38,7 @@ Python 多行注释是一段包含在注释每端分隔符`(""")`中的文本。
 
 **示例:**
 
-```
+```py
 # Write Python code here
 
 """ Multi-line comment used
@@ -56,7 +56,7 @@ print("Mathematics")
 
 **示例:**
 
-```
+```py
 def multiply(a, b):
     """Multiplies the value of a and b"""
     return a*b
@@ -67,7 +67,7 @@ print(multiply.__doc__)
 
 **输出:**
 
-```
+```py
 Multiplies the value of a and b
 
 ```

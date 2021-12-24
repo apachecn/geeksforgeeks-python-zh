@@ -8,7 +8,7 @@
 
 **方法#1:** 使用枚举()方法
 
-```
+```py
 # Python program to insert value after
 # each k letters in given list of string
 list1 = ['p', 'y', 't', 'h', 'o', 'n'] 
@@ -33,7 +33,7 @@ print ("The lists after insertion : " + str(output)) 
 
 **Output:**
 
-```
+```py
 Original list : ['p', 'y', 't', 'h', 'o', 'n']
 The lists after insertion : ['p', 'y', 'G', 't', 'h', 'G', 'o', 'n', 'G']
 
@@ -41,7 +41,7 @@ The lists after insertion : ['p', 'y', 'G', 't', 'h', 'G', 'o', 'n', 'G']
 
 **方法 2:** 使用 itertools
 
-```
+```py
 # Python program to insert value after
 # each k letters in given list of string
 from itertools import chain 
@@ -68,7 +68,7 @@ print ("The lists after insertion : " + str(output)) 
 
 **Output:**
 
-```
+```py
 Original list : ['p', 'y', 't', 'h', 'o', 'n']
 The lists after insertion : ['p', 'y', 't', 'x', 'h', 'o', 'n', 'x']
 

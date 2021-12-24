@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : s1 = ABHISHEKsinGH
       : s2 = gfhfBHkooIHnfndSHEKsiAnG
 Output : Possible
@@ -26,7 +26,7 @@ Output : Possible
 1.  使用[计数器(可迭代)](https://www.geeksforgeeks.org/counters-in-python-set-1/)方法将两个字符串转换为字典，每个字典包含字符串中的字符作为键，它们的频率作为值。
 2.  现在取两个字典的交集，将结果输出与第一个字符串的字典进行比较，如果两者相等，则意味着有可能**转换字符串，否则没有可能。**
 
-```
+```py
 # Python code to find if we can make first string
 # from second by deleting some characters from 
 # second and rearranging remaining characters.
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Possible
 
 ```

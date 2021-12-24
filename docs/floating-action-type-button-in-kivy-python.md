@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 ![](img/14e2e353564d9593b7d9f8e93d6d6f8e.png)
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -36,7 +36,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating that
 ## How to create a button like floating Action Button
 ## in Kivy using .kv file
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 #.kv file implementation of Float Button
 
 # using Float Layout for the creation of Floatbutton

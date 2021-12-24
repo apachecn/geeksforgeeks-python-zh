@@ -26,7 +26,7 @@ Tweepy 模块中`API`类的 **`list_timeline()`** 方法用于获取指定列表
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -57,14 +57,14 @@ print("The number of statuses fetched from the list are : " + str(len(statuses))
 
 **输出:**
 
-```
+```py
 The number of statuses fetched from the list are : 17
 
 ```
 
 **例 2 :** 仅使用参数计数获取一定数量的状态。
 
-```
+```py
 # the ID of the list
 list_id = 
 
@@ -80,7 +80,7 @@ print("The number of statuses fetched from the list are : " + str(len(statuses))
 
 **输出:**
 
-```
+```py
 The number of statuses fetched from the list are : 3
 
 ```

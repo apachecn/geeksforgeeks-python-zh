@@ -16,7 +16,7 @@ Python 是一种脚本语言。这意味着 Python 代码是在 Python 解释器
 
 ## **蟒蛇 3**
 
-```
+```py
 import atexit
 
 n = 2
@@ -27,7 +27,7 @@ atexit.register(print,"Exiting Python Script!")
 
 ****输出:****
 
-```
+```py
 Value of n: 2
 Exiting Python Script! 
 ```
@@ -38,7 +38,7 @@ Exiting Python Script!
 
  **## 蟒 3
 
-```
+```py
 import atexit 
 
 n = 2
@@ -52,7 +52,7 @@ def goodbye(): 
 
 ****输出:****
 
-```
+```py
 Value of n: 2
 Exiting Python Script!
 ```

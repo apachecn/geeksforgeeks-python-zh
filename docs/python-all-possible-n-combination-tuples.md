@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All possible N combination tuples
 # Using list comprehension + product()
@@ -34,7 +34,7 @@ print("Tuple Combinations till N are : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All possible N combination tuples
 # Using product()

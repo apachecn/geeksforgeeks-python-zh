@@ -6,7 +6,7 @@
 
 ![](img/d97a233bf3c89e80c46e6a3193e851d6.png)
 
-```
+```py
 pip install dstructure
 
 ```
@@ -19,7 +19,7 @@ pip install dstructure
 
 ## 蟒蛇 3
 
-```
+```py
 from dstructure.ll.SLL import SLL
 
 obj = SLL()
@@ -38,7 +38,7 @@ obj.print()       # print all the in this format 10 -> 30 -> 40
 
 **输出:**
 
-```
+```py
 [30,40,50]
 30 -> 40 -> 50
 
@@ -50,7 +50,7 @@ obj.print()       # print all the in this format 10 -> 30 -> 40
 
 ## 蟒蛇 3
 
-```
+```py
 from dstructure.ll.DLL import DLL
 
 obj = DLL()
@@ -67,7 +67,7 @@ obj.print()       # print all the in this format 10 <-> 30 <-> 40
 
 **输出:**
 
-```
+```py
 10 <-> 30 <-> 40
 
 ```
@@ -78,7 +78,7 @@ obj.print()       # print all the in this format 10 <-> 30 <-> 40
 
 ## 蟒蛇 3
 
-```
+```py
 from dstructure.ll.SCLL import SCLL
 
 obj = SCLL()
@@ -95,7 +95,7 @@ obj.print()       # print all the in this format 10 -> 30 -> 40
 
 **输出:**
 
-```
+```py
 10 -> 30 -> 40
 
 ```
@@ -106,7 +106,7 @@ obj.print()       # print all the in this format 10 -> 30 -> 40
 
 ## 蟒蛇 3
 
-```
+```py
 from dstructure.ll.DCLL import DCLL
 
 obj = DCLL()
@@ -123,7 +123,7 @@ obj.print()       # print all the in this format 10 <-> 30 <-> 40
 
 **输出:**
 
-```
+```py
 10 <-> 30 <-> 40
 
 ```

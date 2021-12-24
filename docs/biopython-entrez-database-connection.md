@@ -21,7 +21,7 @@ Biopython 有一个名为 *Bio 的 Entrez 专用模块。Entrez* 为此。Entrez
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import Entrez
 

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract digits from Tuple list
 # Using map() + chain.from_iterable() + set() + loop
@@ -41,7 +41,7 @@ print("The extracted digits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(15, 3), (3, 9), (1, 10), (99, 2)]
 The extracted digits : {'1', '0', '3', '2', '9', '5'}
 ```
@@ -51,7 +51,7 @@ The extracted digits : {'1', '0', '3', '2', '9', '5'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract digits from Tuple list
 # Using regex expression
@@ -74,7 +74,7 @@ print("The extracted digits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(15, 3), (3, 9), (1, 10), (99, 2)]
 The extracted digits : [5, 9, 2, 0, 1, 3]
 ```

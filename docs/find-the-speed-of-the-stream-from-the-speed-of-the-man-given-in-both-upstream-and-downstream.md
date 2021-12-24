@@ -4,7 +4,7 @@
 
 一艘船带着 N1 hr 在一条河的下游划一个机器人 X1 公里，带着 N2 hr 在上游覆盖 X2 公里的距离。找出水流的速度。
 
-```
+```py
 Input: 3 15 2 5
 Output: 17.5 km/hr
 
@@ -27,7 +27,7 @@ Output: 47 km/hr
 
 ## C++
 
-```
+```py
 #include<iostream>
 using namespace std;
 
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -107,7 +107,7 @@ rate(Rate_downstream, Rate_upstream);
 
 ## 蟒蛇 3
 
-```
+```py
 def rate(down, up):
 
     # stream rate
@@ -132,7 +132,7 @@ rate(Rate_downstream, Rate_upstream)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 function rate(down, up)
@@ -166,6 +166,6 @@ rate(Rate_downstream, Rate_upstream);
 
 **输出:**
 
-```
+```py
 1.25  Km/hr
 ```

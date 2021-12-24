@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.getcwd() method
 
 # importing os module
@@ -31,7 +31,7 @@ print("Current working directory:", cwd)
 
 **输出:**
 
-```
+```py
 Current working directory: /home/nikhil/Desktop/gfg
 ```
 
@@ -41,7 +41,7 @@ Current working directory: /home/nikhil/Desktop/gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to change the
 # directory of file using os.chdir() method
 
@@ -57,7 +57,7 @@ print("Directory changed")
 
 **输出:**
 
-```
+```py
 Directory changed
 ```
 
@@ -69,7 +69,7 @@ Directory changed
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.listdir() method
 
 # importing os module
@@ -88,7 +88,7 @@ print(dir_list)
 
 **输出:**
 
-```
+```py
 Files and directories in ' /home ' :
 ['nikhil']
 ```
@@ -101,7 +101,7 @@ Files and directories in ' /home ' :
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver function
 import os
 
@@ -122,7 +122,7 @@ for (root,dirs,files) in os.walk('/home/nikhil/Desktop/', topdown=True):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.join() method
 
 # importing os module
@@ -161,7 +161,7 @@ print(os.path.join(path, "User/Public/", "Documents", ""))
 
 **Output**
 
-```
+```py
 /home/User/Desktop/file.txt
 /home/file.txt
 /home/User/Public/Documents/
@@ -171,7 +171,7 @@ print(os.path.join(path, "User/Public/", "Documents", ""))
 
 [Python 中的 os.makedirs()](https://www.geeksforgeeks.org/python-os-makedirs-method/) 方法用于递归创建目录。这意味着在创建叶目录时，如果缺少任何中级目录，os.makedirs()方法将创建它们。例如，考虑以下路径:
 
-```
+```py
 /home/User/Documents/GeeksForGeeks/Authors/nikhil
 ```
 
@@ -181,7 +181,7 @@ print(os.path.join(path, "User/Public/", "Documents", ""))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -204,7 +204,7 @@ print("Directory '%s' created" %directory)
 
 **输出:**
 
-```
+```py
 Directory 'nikhil' created
 ```
 
@@ -220,7 +220,7 @@ Directory 'nikhil' created
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy2() method
 
 # importing os module
@@ -299,7 +299,7 @@ print("Destination path:", dest)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.move() method
 
 # importing os module
@@ -348,7 +348,7 @@ print("Destination path:", dest)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.remove() method
 
 # importing os module
@@ -371,7 +371,7 @@ print("%s has been removed successfully" %file)
 
 **输出:**
 
-```
+```py
 file.txt has been removed successfully
 ```
 
@@ -395,7 +395,7 @@ file.txt has been removed successfully
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 

@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `combinations()`**
 这个任务可以使用列表理解来执行，列表理解可以执行改变组合长度的任务，`combination()`可以执行寻找组合的实际任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Combinations of elements till size N in list
 # Using list comprehension + combinations()

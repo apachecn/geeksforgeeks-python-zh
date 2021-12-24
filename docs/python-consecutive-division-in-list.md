@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive Division in List
 # Using loop + / operator
@@ -48,7 +48,7 @@ print("The Consecutive Division quotient : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1000, 50, 5, 10, 2]
 The Consecutive Division quotient : 0.2
 

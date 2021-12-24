@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `tuple() + str()` +生成器表达式**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用生成表达式提取每个元组元素，并使用 str()执行转换。对每个元组的迭代是通过列表理解来完成的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple mixed list to string list
 # using list comprehension + tuple() + str() + generator expression
@@ -28,7 +28,7 @@ print("The tuple list after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('gfg', 1, True), ('is', False), ('best', 2)]
 The tuple list after conversion : [('gfg', '1', 'True'), ('is', 'False'), ('best', '2')]
 

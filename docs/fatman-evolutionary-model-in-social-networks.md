@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 import random

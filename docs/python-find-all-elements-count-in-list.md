@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `len()`**
 我们可以使用列表理解来解决这个问题，作为我们可能用来执行这个特定任务的常规循环的潜在速记。我们只是迭代和计数嵌套列表，最后使用 len 函数返回累计计数。
 
-```
+```py
 # Python3 code to demonstrate
 # count of all the elements in list 
 # Using list comprehension
@@ -28,7 +28,7 @@ print("The total element count in lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 4, 5], [7, 3], [4], [46, 7, 3]]
 The total element count in lists is : 9
 

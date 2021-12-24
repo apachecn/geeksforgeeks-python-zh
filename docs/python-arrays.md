@@ -13,7 +13,7 @@ Python 中的数组可以通过导入数组模块来创建。**数组(*****data 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Creation of Array
 
@@ -41,7 +41,7 @@ for i in range (0, 3):
 
 **输出:**
 
-```
+```py
 The new created array is :  1 2 3 
 The new created array is :  2.5 3.2 3.3 
 ```
@@ -56,7 +56,7 @@ The new created array is :  2.5 3.2 3.3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Adding Elements to a Array
 
@@ -99,7 +99,7 @@ print()
 
 **输出:**
 
-```
+```py
 Array before insertion : 1 2 3 
 Array after insertion :  1 4 2 3 
 Array before insertion : 2.5 3.2 3.3 
@@ -112,7 +112,7 @@ Array after insertion :  2.5 3.2 3.3 4.4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # accessing of element from list
 
@@ -140,7 +140,7 @@ print("Access element is: ", b[2])
 
 **输出:**
 
-```
+```py
 Access element is:  1
 Access element is:  4
 Access element is:  3.2
@@ -154,7 +154,7 @@ Access element is:  3.3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Removal of elements in a Array
 
@@ -194,7 +194,7 @@ for i in range (0, 3):
 
 **输出:**
 
-```
+```py
 The new created array is : 1 2 3 1 5 
 The popped element is : 3
 The array after popping is : 1 2 1 5 
@@ -209,7 +209,7 @@ The array after removing is : 2 1 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # slicing of elements in a Array
 
@@ -246,7 +246,7 @@ print(Sliced_array)
 
 **Output**
 
-```
+```py
 Initial Array: 
 1 2 3 4 5 6 7 8 9 10 
 Slicing elements in a range 3-8: 

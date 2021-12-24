@@ -18,7 +18,7 @@ CSV 代表逗号分隔值，CSV 文件本质上是文本文件，用于以表格
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the csv library
 import csv
 
@@ -51,7 +51,7 @@ print("List of column names : ",
 
 **输出:**
 
-```
+```py
 List of column names : ['Column1', 'Column2', 'Column3']
 ```
 
@@ -69,7 +69,7 @@ List of column names : ['Column1', 'Column2', 'Column3']
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the csv library
 import csv
 
@@ -94,7 +94,7 @@ with open('data.csv') as csv_file:
 
 **输出:**
 
-```
+```py
 List of column names : ['Column1', 'Column2', 'Column3']
 ```
 
@@ -104,7 +104,7 @@ List of column names : ['Column1', 'Column2', 'Column3']
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -123,7 +123,7 @@ print('List of column names : ',
 
 **输出:**
 
-```
+```py
 List of column names : ['Column1', 'Column2', 'Column3']
 ```
 

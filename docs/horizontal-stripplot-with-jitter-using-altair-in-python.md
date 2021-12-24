@@ -23,7 +23,7 @@ calculate_transform()允许用户在数据集中定义使用表达式从其他�
 
 **语法:**
 
-```
+```py
 calculate_transform(<some_expression>)
 ```
 
@@ -31,7 +31,7 @@ calculate_transform(<some_expression>)
 
 ## 蟒蛇 3
 
-```
+```py
 import altair as alt
 import pandas as pd
 import numpy as np

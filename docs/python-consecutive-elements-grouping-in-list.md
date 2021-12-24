@@ -7,7 +7,7 @@
 **方法:使用`enumerate() + groupby()` +生成器函数+ lambda**
 该任务可以使用上述函数的组合来执行。在本文中，我们创建了一个生成器函数，其中我们传递了使用`enumerate()`访问其索引元素的列表，并使用`groupby()`和λ按连续元素分组。仅适用于 Python2
 
-```
+```py
 # Python code to demonstrate working of
 # Consecutive elements grouping list
 # using enumerate() + groupby() + generator function + lambda
@@ -35,7 +35,7 @@ print("Grouped list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 3, 6, 7, 8, 11, 12, 13]
 Grouped list is : [(1, 3), (6, 8), (11, 13)]
 

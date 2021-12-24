@@ -15,7 +15,7 @@
 
 *   让我们首先在名为 GFGScrapy 的文件夹中创建一个虚拟环境，并在那里激活该虚拟环境。
 
-```
+```py
 # To create a folder named GFGScrapy
 mkdir GFGScrapy
 cd GFGScrapy
@@ -37,7 +37,7 @@ cd..
 
 **语法:**
 
-```
+```py
 pip install scrapy
 ```
 
@@ -57,7 +57,7 @@ pip install scrapy
 
 目录结构由以下路径组成(示例)
 
-```
+```py
 C://<project-name>/<project-name>
 ```
 
@@ -123,7 +123,7 @@ pipelines.py 文件的每个组件都由一个名为 **process_item()的默认�
 
 ## 蟒蛇 3
 
-```
+```py
 # Define here the models for your scraped items
 #
 # See documentation in:
@@ -149,7 +149,7 @@ class ScrapytutorialItem(scrapy.Item):
 
 ## 蟒蛇 3
 
-```
+```py
 from itemadapter import ItemAdapter
 import json  # Json package of python module.
 
@@ -172,7 +172,7 @@ class ScrapytutorialPipeline:
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 from ..items import ScrapytutorialItem   
 

@@ -7,7 +7,7 @@
 **方法#1:使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)**
 在该方法中，我们只需将每个列表元素视为字符串，并迭代它们的每个字符，并将每个字符追加到新创建的目标列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # to convert list of string and characters
 # to list of characters
@@ -30,7 +30,7 @@ print ("The list after conversion is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : ['gfg', 'i', 's', 'be', 's', 't']
 The list after conversion is : ['g', 'f', 'g', 'i', 's', 'b', 'e', 's', 't']
 

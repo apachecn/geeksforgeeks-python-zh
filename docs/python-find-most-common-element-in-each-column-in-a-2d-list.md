@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1, 1, 3],
         [2, 3, 3],
         [3, 2, 2],
@@ -24,7 +24,7 @@ Output : ['y', 'x']
 
 *most_common()* 返回一个最常见元素的列表 *n* 及其从最常见到最不常见的计数。因此，使用列表理解，我们可以很容易地找到每个列中最常见的元素。
 
-```
+```py
 # Python3 program to find most common 
 # element in each column in a 2D list
 from collections import Counter
@@ -43,14 +43,14 @@ print(mostCommon(lst))
 
 **Output:**
 
-```
+```py
 [2, 1, 3]
 
 ```
 
 **方法#3 :** 使用*模式()*从*统计*模块
 
-```
+```py
 # Python3 program to find most common 
 # element in each column in a 2D list
 from scipy.stats import mode
@@ -71,7 +71,7 @@ print(mostCommon(lst))
 
 **Output:**
 
-```
+```py
 [2, 1, 3]
 
 ```

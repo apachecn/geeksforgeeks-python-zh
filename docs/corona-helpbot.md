@@ -8,7 +8,7 @@
 
 **先决条件:**
 
-```
+```py
 Python 3
 NumPy
 nltk
@@ -26,7 +26,7 @@ tflearn
 
 ## 蟒蛇 3
 
-```
+```py
 import nltk
 import numpy
 import tflearn
@@ -161,7 +161,7 @@ chat()
 
 **开发模型:**
 
-```
+```py
 model = tflearn.DNN(net)
 model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True) 
 model.save("model.tflearn")
@@ -169,7 +169,7 @@ model.save("model.tflearn")
 
 我们的聊天机器人会根据我们训练的模型预测答案。这里我们将使用神经网络来建立模型。我们网络的目标是查看一包单词，并给出它们所属的类(JSON 文件中的一个标签)。
 
-```
+```py
 Input: what is coronavirus ?
 Output:COVID-19 is an infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
 

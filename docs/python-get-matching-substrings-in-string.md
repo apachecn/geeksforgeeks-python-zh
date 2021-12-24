@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 使用列表理解是执行这个特定任务的幼稚而蛮力的方法。在此方法中，我们尝试使用“In”运算符获取匹配字符串，并将其存储在新列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get matching substrings in string
 # Using list comprehension
@@ -34,7 +34,7 @@ print("The list of found substrings : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GfG is good website
 The original list is : ['GfG', 'site', 'CS', 'Geeks', 'Tutorial']
 The list of found substrings : ['GfG', 'site']

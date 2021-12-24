@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required libraries
 from googleplaces import GooglePlaces, types, lang
 import requests
@@ -74,7 +74,7 @@ for place in query_result.places:
 
 **输出:**
 
-```
+```py
 Sarvodaya Hospital
 Latitude 28.4222361
 Longitude 77.3167904

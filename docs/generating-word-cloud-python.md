@@ -6,7 +6,7 @@
 
 为了在 Python 中生成单词云，需要的模块是——matplotlib、pandas 和单词云。要安装这些软件包，请运行以下命令:
 
-```
+```py
 pip install matplotlib
 pip install pandas
 pip install wordcloud
@@ -19,7 +19,7 @@ pip install wordcloud
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to generate WordCloud
 
 # importing all necessary modules

@@ -17,7 +17,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 **所需模块:**
 
-```
+```py
 tkinter
 requests
 json
@@ -25,7 +25,7 @@ json
 
 下面是实现:
 
-```
+```py
 # Python3 program to create Distance
 # Time GUI calculator using Tkinter
 

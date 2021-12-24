@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -55,7 +55,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 print('Total rows in dataframe')
 dataframe.count()
 ```

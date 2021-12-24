@@ -46,7 +46,7 @@ SSH(安全外壳)是在 SSH 协议中使用的访问凭证。换句话说，它�
 
 ## 蟒蛇 3
 
-```
+```py
 import paramiko
 
 # Create object of SSHClient and
@@ -74,7 +74,7 @@ stdin, stdout, stderr = ssh.exec_command('show ip interface brief')
 
 ## 蟒蛇 3
 
-```
+```py
 import paramiko
 output_file = 'paramiko.org'
 
@@ -119,7 +119,7 @@ paramiko_GKG('10.10.10.1', 'uname')
 
 **输出:**
 
-```
+```py
 $ python GFG_paramiko.py
 running
 [log printing: ,'uname','Linux\n']

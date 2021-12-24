@@ -8,7 +8,7 @@
 
 **2。floor()** :-该函数返回小于数字的**最大整数值。如果数字已经是整数，则返回相同的数字。**
 
-```
+```py
 # Python code to demonstrate the working of
 # ceil() and floor()
 
@@ -28,7 +28,7 @@ print (math.floor(a))
 
 输出:
 
-```
+```py
 The ceil of 2.3 is : 3
 The floor of 2.3 is : 2
 
@@ -38,7 +38,7 @@ The floor of 2.3 is : 2
 
 **4。阶乘()** :-该函数返回数字的**阶乘**。如果数字不是整数，将显示一条错误消息。
 
-```
+```py
 # Python code to demonstrate the working of
 # fabs() and factorial()
 
@@ -60,7 +60,7 @@ print (math.factorial(b))
 
 输出:
 
-```
+```py
 The absolute value of -10 is : 10.0
 The factorial of 5 is : 120
 
@@ -70,7 +70,7 @@ The factorial of 5 is : 120
 
 **6。gcd()** :-该函数用于计算其参数中提到的 2 个数的**最大公约数。这个函数在 python 3.5 及更高版本中工作。**
 
-```
+```py
 # Python code to demonstrate the working of
 # copysign() and gcd()
 
@@ -93,7 +93,7 @@ print (math.gcd(5,15))
 
 输出:
 
-```
+```py
 The copysigned value of -10 and 5.5 is : -5.5
 The gcd of 5 and 15 is : 5
 

@@ -16,7 +16,7 @@ Python 中的方法类似于函数，只是它附加到一个对象上。这些�
 
 **例:**
 
-```
+```py
 class sample(object):
 
     # Static variable for object number
@@ -61,7 +61,7 @@ samp1.myFunc()
 
 **输出:**
 
-```
+```py
 My name is  A from object  1
 My name is  B from object  2
 My name is  C from object  2
@@ -71,7 +71,7 @@ My name is  A from object  1
 
 在上面的示例中，创建了两个实例，即 samp1 和 samp2。请注意，当函数 `alterIt()`应用于第二个实例时，只有该特定实例的值会改变。线路 **samp1.myFunc()** 将扩展为**samp 1 . my func(samp 1)**。对于此方法，不需要传递显式参数。实例 samp1 将作为参数传递给 myFunc()。第**行采样 1.myFunc2()** 会产生错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/4f130d34a1a72402e0d26bab554c2cf6.py", line 26, in 
     samp1.myFunc2() #----------> error line
@@ -93,7 +93,7 @@ TypeError: myFunc2() takes 0 positional arguments but 1 was given
 
 例如，当我们需要使用某些数学函数时，我们使用内置类`Math`。这个类中的方法是静态的，因为它们与特定的对象无关。他们做共同的行动。因此，每次写为:
 
-```
+```py
 math=Math()
 math.ceil(5.23)
 ```
@@ -111,7 +111,7 @@ math.ceil(5.23)
 
 **例:**
 
-```
+```py
 class sample():
 
       def myFunc2(x):
@@ -124,20 +124,20 @@ sample.myFunc2("A")
 
 **输出:**
 
-```
+```py
 I am A from the static method
 
 ```
 
 **使用装饰器:**这些是 Python 的特性，用于在编译时使用程序的另一部分修改程序的一部分。可以用来使方法静态化的装饰器是
 
-```
+```py
 @staticmethod
 ```
 
 这通知内置默认元类不要为此方法创建任何绑定方法。一旦在函数之前添加了这一行，就可以使用类名调用函数。考虑我们遇到错误的绑定方法的例子。为了克服这一点，可以写成:
 
-```
+```py
 class sample(object):
 
     # Static variable for object number
@@ -182,7 +182,7 @@ samp1.myFunc()
 
 **输出:**
 
-```
+```py
 My name is  A from object  1
 I am not a bound method !!!
 My name is  B from object  2

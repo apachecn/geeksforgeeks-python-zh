@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `ascii_letters + zip()`**
 以上方法的组合可以用来执行这个任务。在本文中，我们使用 ascii_letters 提取英文字母，并使用 zip()检查连续性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Alphabetic Occurrence
 # Using loop + ascii_letters + zip()

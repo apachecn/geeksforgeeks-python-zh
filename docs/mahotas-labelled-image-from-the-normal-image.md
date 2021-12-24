@@ -5,7 +5,7 @@
 在本文中，我们将看到如何从 mahotas 中的正常图像创建一个标签图像。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mhotas.demos.nuclear_image()
 ```
 
@@ -23,7 +23,7 @@ mhotas.demos.nuclear_image()
 **注意:**标签的输入应该是过滤后的图像对象，它应该有阈值，并且最好图像应该有高斯滤波器来去除更尖锐的边缘。
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是执行此操作的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -31,7 +31,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -72,7 +72,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :
 list1 = [10, 15, 20, 25, 30, 35, 40]
 list2 = [25, 40, 35] 
@@ -28,7 +28,7 @@ resultant list = list1 - list2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code t get difference of two lists
 # Using set()
 def Diff(li1, li2):
@@ -42,7 +42,7 @@ print(Diff(li1, li2))
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 15]
 ```
 
@@ -54,7 +54,7 @@ print(Diff(li1, li2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code t get difference of two lists
 # Not using set()
 def Diff(li1, li2):
@@ -70,6 +70,6 @@ print(li3)
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 15]
 ```

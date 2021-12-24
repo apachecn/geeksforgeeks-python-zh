@@ -14,7 +14,7 @@
 
 下面是实现:
 
-```
+```py
 # Python program to get a set of 
 # places according to your search 
 # query using Google Places API
@@ -55,7 +55,7 @@ for i in range(len(y)):
 
 **输出:**
 
-```
+```py
 Search query: Hotels in delhi
 
 ITC Maurya

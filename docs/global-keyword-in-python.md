@@ -15,7 +15,7 @@
 要访问函数内部的全局变量，不需要使用全局关键字。
 **例 1:**
 
-```
+```py
 # Python program showing no need to
 # use global keyword for accessing
 # a global value
@@ -35,7 +35,7 @@ add()
 
 **输出:**
 
-```
+```py
 
 25
 
@@ -44,7 +44,7 @@ add()
 如果我们需要给一个全局变量赋值，那么我们可以通过将变量声明为全局变量来实现。
 **代码 2:** 无全局关键字
 
-```
+```py
 # Python program showing to modify
 # a global value without using global
 # keyword
@@ -63,7 +63,7 @@ change()
 
 **输出:**
 
-```
+```py
 UnboundLocalError: local variable 'a' referenced before assignment
 
 ```
@@ -71,7 +71,7 @@ UnboundLocalError: local variable 'a' referenced before assignment
 这个输出是一个错误，因为我们试图给外部范围内的变量赋值。这可以通过使用**全局**变量来实现。
 **代码 3 :** 带全局关键字
 
-```
+```py
 # Python program to modify a global
 # value inside a function
 
@@ -90,7 +90,7 @@ print("Value of x outside a function :", x)
 
 **输出:**
 
-```
+```py
 Value of x inside a function : 20
 Value of x outside a function : 20
 
@@ -103,7 +103,7 @@ Value of x outside a function : 20
 在同一个程序内跨不同模块共享全局变量的最佳方式是创建一个特殊的模块(通常命名为 config 或 cfg)。在应用程序的所有模块中导入配置模块；然后，该模块作为全局名称变得可用。每个模块只有一个实例，因此对模块对象所做的任何更改都会在任何地方得到反映。例如，跨模块共享全局变量
 **代码 1:** 创建一个`config.py`文件来存储全局变量:
 
-```
+```py
 x = 0
 y = 0
 z ="none"
@@ -111,7 +111,7 @@ z ="none"
 
 **代码 2:** 创建 `modify.py`文件修改全局变量:
 
-```
+```py
 import config
 config.x = 1
 config.y = 2
@@ -121,7 +121,7 @@ config.z ="geeksforgeeks"
 这里我们修改了 x、y 和 z 的值。这些变量是在模块`config.py`中定义的，因此我们必须导入`config`模块，并且我们可以使用`config.variable_name`来访问这些变量。
 **代码 3:** 创建`main.py`文件修改全局变量:
 
-```
+```py
 import config
 import modify
 print(config.x)
@@ -131,7 +131,7 @@ print(config.z)
 
 **输出:**
 
-```
+```py
 1
 2
 geeksforgeeks
@@ -141,7 +141,7 @@ geeksforgeeks
 **嵌套函数中的全局**
 为了在嵌套函数中使用全局，我们必须在嵌套函数中声明一个带有全局关键字的变量
 
-```
+```py
 # Python program showing a use of
 # global in nested function
 
@@ -162,7 +162,7 @@ print("value of x",x)
 
 **输出:**
 
-```
+```py
 Before making changing:  15
 Making change
 After making change:  15

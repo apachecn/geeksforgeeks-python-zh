@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert string list into multiple cases
 # Using inbuilt functions + list comprehension
@@ -30,7 +30,7 @@ print("The list with multiple cases are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['bLue', 'ReD', 'yeLLoW']
 The list with multiple cases are : [('BLUE', 'Blue', 'blue'), ('RED', 'Red', 'red'), ('YELLOW', 'Yellow', 'yellow')]
 ```
@@ -40,7 +40,7 @@ The list with multiple cases are : [('BLUE', 'Blue', 'blue'), ('RED', 'Red', 're
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert string list into multiple cases
 # Using map() + lambda + inbuilt functions
@@ -61,7 +61,7 @@ print("The list with multiple cases are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['bLue', 'ReD', 'yeLLoW']
 The list with multiple cases are : [('BLUE', 'Blue', 'blue'), ('RED', 'Red', 'red'), ('YELLOW', 'Yellow', 'yellow')]
 ```

@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`API.retweet()`** 方法用于转发推文。
 **例 1 :** 转发自己的推文。转发以下推文:
 ![](img/3ced6a85c7d0b81b2033dbe58a523fc8.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ api.retweet(ID)
 ![](img/a82bc238ddc46ce23f061aa4e7106284.png)
 获取上述推文的网名、回复数、转发数。
 
-```
+```py
 # the ID of the tweet to be retweeted
 ID = 1263493041769394178
 

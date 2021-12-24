@@ -19,7 +19,7 @@ JSON 代表 JavaScript 对象符号。这意味着由编程语言中的文本组
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Conversion of JSON data to
 # dictionary
@@ -48,7 +48,7 @@ with open('data.json') as json_file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Conversion of JSON data to
 # dictionary

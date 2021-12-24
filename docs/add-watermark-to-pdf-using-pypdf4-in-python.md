@@ -10,14 +10,14 @@
 
 但是，这是您将如何使用 pip 安装**的具体版本:**
 
-```
+```py
 pip install PyPDF4==1.27.0
 
 ```
 
 否则一般来说:
 
-```
+```py
 pip install PyPDF4
 
 ```
@@ -40,7 +40,7 @@ pip install PyPDF4
 
 ## 蟒蛇 3
 
-```
+```py
 # compatible with Python versions 2.6, 2.7,
 # and 3.2 - 3.5\. (pip3 install pypdf4)
 from PyPDF4 import PdfFileWriter, PdfFileReader

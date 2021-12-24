@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该特定任务。在本例中，我们使用`values`函数提取的`all`函数检查所有值。 `not`运算符用于对结果求逆，以检查是否有任何“无”值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for Non None Dictionary values
 # Using all() + not operator + values()
@@ -29,7 +29,7 @@ print("Does Dictionary contain None value ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'CS': None, 'for': 2}
 Does Dictionary contain None value ? True
 
@@ -39,7 +39,7 @@ Does Dictionary contain None value ? True
 
 也可以使用 in 运算符和值函数来执行此任务。我们只需在使用`values`函数提取的所有值中检查无，并使用`in`运算符检查是否存在。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for Non None Dictionary values
 # Using in operator + values()
@@ -60,7 +60,7 @@ print("Does Dictionary contain None value ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'CS': None, 'for': 2}
 Does Dictionary contain None value ? True
 

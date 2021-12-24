@@ -12,7 +12,7 @@
 
 1.  **Importing PyMongo Module:** Import the PyMongo module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
     ```
 
@@ -20,31 +20,31 @@
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **Accessing the Database:** Since the connection to the MongoDB server is established. We can now create or use the existing database.
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
     在我们的例子中，数据库的名字是 GeeksForGeeks
 
-    ```
+    ```py
     mydatabase = client.GeeksForGeeks
     ```
 
 4.  **List the name of all the Collections in the Database:** To list the name of all the collection in the database.
 
-    ```
+    ```py
     mydatabase.collection_names()
     ```
 
     collection_names()在 3.7.0 版中已被弃用。而是使用
 
-    ```
+    ```py
     mydatabase.list_collection_names()
     ```
 
@@ -56,7 +56,7 @@
 
 ![list-of-collection-python-mongodb](img/641b66c0841a0965ee426f47ebaa639e.png)
 
-```
+```py
 # Python Program to demonstrate
 # List name of all collections using PyMongo
 
@@ -81,6 +81,6 @@ print(collections)
 
 **输出:**
 
-```
+```py
 ['Geeks']
 ```

@@ -14,14 +14,14 @@
 
 *   导入库。我们将使用**线程**模块来创建和运行线程。为了观察输出，我们将使用**时间**模块创建一些延迟。
 
-```
+```py
 import threading
 import time
 ```
 
 *   定义一个示例函数，我们将使用它在不同的线程上运行。在本例中，让我们创建一个函数，打印给定列表中数字的平方。
 
-```
+```py
 # A sample function to print squares
 def print_squares(thread_name, numbers):
 
@@ -37,7 +37,7 @@ def print_squares(thread_name, numbers):
 
 > **语法:** thread_object = threading。Thread(target= <函数名>，args= <要传递的参数元组>)
 
-```
+```py
 # Creating 3 threads that execute the same function with different parameters
 thread1 = threading.Thread(
    target=print_squares, args=("thread1", [1, 2, 3, 4, 5]))
@@ -51,7 +51,7 @@ thread3 = threading.Thread(
 
 *   现在我们需要开始执行死刑。线程类有一个 **start()** 方法，在运行模式下传输线程。线程将一直运行，直到它们没有完成。
 
-```
+```py
 # Start the threads
 thread1.start()
 thread2.start()
@@ -60,7 +60,7 @@ thread3.start()
 
 *   我们可以使用 Thread 类的 **join()** 方法，在所有线程都没有完成的时候阻止程序执行。
 
-```
+```py
 # Join the threads before moving further
 thread1.join()
 thread2.join()
@@ -71,7 +71,7 @@ thread3.join()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import threading
 import time

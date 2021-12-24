@@ -5,7 +5,7 @@
 **1。字符串是不可变的**
 一旦定义了字符串，就不能更改。
 
-```
+```py
 # Python3 program to show that 
 # string cannot be changed
 
@@ -20,7 +20,7 @@ print(a) # causes error
 
 输出:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/adda662df52071c1e472261a1249d4a1.py", line 9, in 
     a[2] = 'E'
@@ -29,7 +29,7 @@ TypeError: 'str' object does not support item assignment
 
 但是下面的代码可以正常工作。
 
-```
+```py
 # Python3 program to show that 
 # a string can be appended to a string.
 
@@ -44,7 +44,7 @@ print(a) # works fine
 
 输出:
 
-```
+```py
 Geeks
 Geeksfor
 ```
@@ -54,7 +54,7 @@ Geeksfor
 了解使用 [id()](https://www.geeksforgeeks.org/id-function-python/) 功能。
 id()函数用于返回对象的标识。
 
-```
+```py
 # Python3 program to show that
 # both string hold same identity
 
@@ -67,14 +67,14 @@ print(id(string2))
 
 输出:
 
-```
+```py
 93226944
 93226944
 ```
 
 string1 和 string2 都指向同一对象或同一位置。现在如果有人试图修改任何一个字符串结果都会不同。
 
-```
+```py
 # Modifying a string
 
 string1 = "Hello"
@@ -91,7 +91,7 @@ print(id(string1))
 
 输出:
 
-```
+```py
 93226944
 'HelloWorld'
 93326432
@@ -104,7 +104,7 @@ Python 中的字符串可以使用单引号、双引号或三引号来创建。
 
 单引号和双引号同样适用于字符串创建。说到三重引号，当我们必须在多行中写一个字符串并按原样打印而不使用任何转义序列时，就会用到它们。
 
-```
+```py
 # Python3 program to create  
 # strings in three different
 # ways and concatenate them.
@@ -133,7 +133,7 @@ print(a + b + c) 
 
 输出:
 
-```
+```py
 Geeks
 for
 Geeks a portal 
@@ -151,7 +151,7 @@ for geeks
 
 示例-
 
-```
+```py
 print("Hi Mr Geek.")
 
 # use of escape sequence
@@ -165,7 +165,7 @@ print ('Getting Geeky, "Loving it"')                
 
 输出:
 
-```
+```py
 Hi Mr Geek.
 He said, "Welcome to GeeksforGeeks"
 Hey so happy to be here
@@ -176,14 +176,14 @@ Getting Geeky, "Loving it"
 
 如果需要打印转义字符(\)，那么如果用户在字符串解释器中提到它，它将被认为是转义字符，并且不会打印它。为了打印转义字符，用户必须在**\ '**之前使用转义字符，如示例所示。
 
-```
+```py
 # Print Escape character
 print (" \\ is back slash ")
 ```
 
 输出:
 
-```
+```py
  \ is back slash
 ```
 

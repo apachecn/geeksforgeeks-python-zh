@@ -8,14 +8,14 @@
 
 *   **Matplotlib**:*Matplotlib*是一个全面的 Python 库，用于创建静态和交互式的情节和可视化。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install matplotlib
 
 ```
 
 *   **Numpy** : *Numpy* 是 Python 中数组计算的核心库。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install numpy
 
 ```
@@ -44,7 +44,7 @@ pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -83,7 +83,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import math
@@ -125,7 +125,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import math
@@ -163,7 +163,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -201,7 +201,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

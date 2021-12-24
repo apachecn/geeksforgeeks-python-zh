@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # taking two numbers
 a = 2
 b = 3
@@ -20,7 +20,7 @@ print("The sum of these two numbers is ", c)
 
 **输出:**
 
-```
+```py
 The sum of these two numbers is  5
 
 ```
@@ -29,7 +29,7 @@ The sum of these two numbers is  5
 
 ## 蟒蛇 3
 
-```
+```py
 # taking two strings from the user
 a = 'abc'
 b = 'def'
@@ -43,7 +43,7 @@ print("After Concatenation the string becomes", c)
 
 **输出:**
 
-```
+```py
 After Concatenation the string becomes abcdef
 
 ```
@@ -52,7 +52,7 @@ After Concatenation the string becomes abcdef
 
 ## 蟒蛇 3
 
-```
+```py
 # let us define a class with add method
 class operatoroverloading:
 
@@ -76,7 +76,7 @@ print("Concatenated string is", result)
 
 **输出:**
 
-```
+```py
 sum is 32
 Concatenated string is 239
 

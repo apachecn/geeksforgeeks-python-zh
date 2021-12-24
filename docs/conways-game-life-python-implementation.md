@@ -20,7 +20,7 @@
 既然我们知道它是如何工作的，接下来我们就需要弄清楚如何让它工作。
 **接近**
 
-```
+```py
 1\. Initialize the cells in the grid.
 2\. At each time step in the simulation, for each 
    cell (i, j) in the grid, do the following:
@@ -43,7 +43,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement Conway's Game Of Life
 import argparse
 import numpy as np
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
 现在让我们打开一些东西，让我们看看如果 add 每 500 毫秒更新一次动画，设置尺寸为 32X32，并使用初始滑翔机模式会发生什么。
 
-```
+```py
 python 'filename.py' --grid-size 32 --interval 500 --glider
 ```
 

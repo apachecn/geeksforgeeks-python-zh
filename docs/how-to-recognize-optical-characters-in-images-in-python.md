@@ -25,7 +25,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the libraries
 import cv2
 import pytesseract
@@ -54,6 +54,6 @@ cv2.waitKey(0)**
 
 ******输出:******
 
-```
+```py
 ****GeeksforGeeks****
 ```

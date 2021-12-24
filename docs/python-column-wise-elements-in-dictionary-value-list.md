@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Column-wise elements in Dictionary value list
 # Using generator expression + zip() + * operator
@@ -40,7 +40,7 @@ print("The extracted values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [3, 6, 7], 'is': [4, 2, 6], 'best': [9, 1, 3]}
 The extracted values : [3, 4, 9, 6, 2, 1, 7, 6, 3]
 
@@ -52,7 +52,7 @@ The extracted values : [3, 4, 9, 6, 2, 1, 7, 6, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Column-wise elements in Dictionary value list
 # Using chain.from_iterable() + zip() + * operator
@@ -75,7 +75,7 @@ print("The extracted values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [3, 6, 7], 'is': [4, 2, 6], 'best': [9, 1, 3]}
 The extracted values : [3, 4, 9, 6, 2, 1, 7, 6, 3]
 

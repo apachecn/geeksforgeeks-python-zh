@@ -14,13 +14,13 @@ rabbtmq 是一款消息代理软件，最初实现了高级消息队列协议(AM
 
 您应该在系统上安装 python。然后你需要在你的系统上安装芹菜。为此，只需键入以下内容
 
-```
+```py
 pip install celery==4.4.2
 ```
 
 接下来，在你的机器上安装 RabbitMQ。为此，前往他们的官方页面，根据您的操作系统下载安装程序。您可能需要下载 *ErLang* 和 RabbitMQ。安装完成后，在您的终端中键入以下内容
 
-```
+```py
 rabbitmq-server restart
 ```
 
@@ -36,7 +36,7 @@ rabbitmq-server restart
 
 我们将下载一个视频到我们的系统。我们将使用 *pytube* 模块进行下载。要安装 pytube，请键入以下内容
 
-```
+```py
 pip install pytube3
 ```
 
@@ -44,7 +44,7 @@ pip install pytube3
 
 首先，我们将创建一个名为 **task_queue.py** 的 python 文件
 
-```
+```py
 from celery import Celery
 import sys
 
@@ -84,7 +84,7 @@ def download(url, filename):
 
 我们需要另一个 python 文件来运行这段代码(您可以在同一个文件中执行，但是从另一个文件中调用函数是一个很好的做法)。用名称 **runtask.py** 创建另一个文件
 
-```
+```py
 import sys
 from task_queue import download
 
@@ -100,7 +100,7 @@ download.delay(link, filename)
 
 现在，开始芹菜。为此，请在工作目录中打开一个终端，并键入以下内容
 
-```
+```py
 celery -A task_queue worker --pool=solo -E
 ```
 
@@ -110,7 +110,7 @@ celery -A task_queue worker --pool=solo -E
 
 现在我们有芹菜运行。现在打开同一目录中的另一个终端，并运行以下命令
 
-```
+```py
 $ python runtask.py https://www.youtube.com/watch?v=vG2PNdI8axo Geeksforgeeks
 ```
 

@@ -40,7 +40,7 @@ Linux
 *   转到**应用- >配件- >终端**
 *   要设置环境变量，请使用安装路径在终端中键入以下命令:
 
-```
+```py
 export ANACONDA = /home/nikhil/anaconda3
 ```
 
@@ -48,7 +48,7 @@ export ANACONDA = /home/nikhil/anaconda3
 
 *   要设置环境值，请使用安装路径在终端中键入以下命令:
 
-```
+```py
 export PATH = $PATH:/home/nikhil/anaconda3/bin
 ```
 

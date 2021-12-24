@@ -19,7 +19,7 @@
 
 *   **[皮莫戈](https://www.geeksforgeeks.org/mongodb-and-python/) :** 该模块用于与 MongoDB 交互。要安装它，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install pymongo
     OR
     condo install pymongo
@@ -28,7 +28,7 @@
 *   **[Matplotlib](https://www.geeksforgeeks.org/python-matplotlib-an-overview/) :** 该库用于绘制图形
 *   **底图:**该模块用于使用 Python 绘制地图。要安装此模块，请在终端中键入以下命令。
 
-    ```
+    ```py
     conda install basemap
     ```
 
@@ -46,7 +46,7 @@
 
     下面是实现。
 
-    ```
+    ```py
     import pymongo
     import pprint
     import matplotlib.pyplot as plt

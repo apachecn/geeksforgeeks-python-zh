@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert
 # JSON file to CSV
 
@@ -81,7 +81,7 @@ data_file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 import csv
 

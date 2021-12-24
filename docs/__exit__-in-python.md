@@ -23,7 +23,7 @@
 
 **#例 1:** 。
 
-```
+```py
 # Python program creating a 
 # context manager 
 
@@ -44,7 +44,7 @@ with ContextManager() as manager: 
 
 **输出:**
 
-```
+```py
 init method called
 enter method called
 with statement block
@@ -54,7 +54,7 @@ exit method called
 
 **#例 2:** 了解`__exit__()`参数。我们将创建一个上下文管理器，用于划分两个数字。如果
 
-```
+```py
 # Python program to demonstrate
 # __exit__ method
 
@@ -90,7 +90,7 @@ with Divide(3, 0) as r:
 
 **输出:**
 
-```
+```py
 Inside __enter__
 3.0
 

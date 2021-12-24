@@ -12,7 +12,7 @@
 
 **2。items()** :-此方法用于**返回列表**，所有字典键都有值。
 
-```
+```py
 # Python code to demonstrate working of
 # str() and items()
 
@@ -30,7 +30,7 @@ print (dic.items())
 
 输出:
 
-```
+```py
 The constituents of dictionary as string are : 
 {'Name': 'Nandini', 'Age': 19}
 The constituents of dictionary as list are : 
@@ -42,7 +42,7 @@ dict_items([('Name', 'Nandini'), ('Age', 19)])
 
 **4。type()** :-此函数**返回参数的数据类型**。
 
-```
+```py
 # Python code to demonstrate working of
 # len() and type()
 
@@ -67,7 +67,7 @@ print (type(li))
 
 输出:
 
-```
+```py
 The size of dic is : 3
 The data type of dic is : 
 The data type of li is : 
@@ -78,7 +78,7 @@ The data type of li is :
 
 **6。清除()** :-该功能用于**清除词典**内容。
 
-```
+```py
 # Python code to demonstrate working of
 # clear() and copy()
 
@@ -105,7 +105,7 @@ print (dic1.items())
 
 输出:
 
-```
+```py
 The new copied dictionary is : 
 dict_items([('Age', 19), ('Name', 'Nandini')])
 The contents of deleted dictionary is : dict_items([])

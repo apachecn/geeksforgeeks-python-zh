@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`destroy_favorite()`** 方法用于取消身份验
 **例 1 :** 考虑以下状态:
 ![](img/1fb4828bd4cda6f8422f597113d025a0.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ api.destroy_favorite(id)
 
 **示例 2 :** 通过`destroy_favorite()`方法检查状态是否不喜欢。
 
-```
+```py
 # ID of the status
 id = 1267740427676942337
 
@@ -72,7 +72,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the destroy_favorite() method : 
 The status has been liked by the authenticated user.
 

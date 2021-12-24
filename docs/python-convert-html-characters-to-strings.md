@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 html.unescape(String)
 ```
 
@@ -20,7 +20,7 @@ html.unescape(String)
 
 ## 蟒蛇 3
 
-```
+```py
 # import html
 import html
 
@@ -49,7 +49,7 @@ print(html.escape(text)) 
 
 ## 蟒蛇 3
 
-```
+```py
 #import html
 import html
 

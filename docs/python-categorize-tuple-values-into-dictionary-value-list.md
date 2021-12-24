@@ -7,7 +7,7 @@
 **方法一:使用`setdefault()` +循环**
 使用`setdefault()`可以轻松执行该任务。在这种情况下，我们只需通过迭代获取元组的键和值对，`setdafault()`用于为字典的相应键赋值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Categorize tuple values into dictionary value list
 # Using setdefault() + loop

@@ -19,7 +19,7 @@
 
 1.  **Working with command line:** Consider the below code written in cmdlis.py
 
-    ```
+    ```py
     import sys
 
     print("the name of the program is ", sys.argv[0])
@@ -32,7 +32,7 @@
 
 2.  **Calling a list using the command line**
 
-    ```
+    ```py
     import sys
 
     print ("the name of the program is ", sys.argv[0])
@@ -49,7 +49,7 @@
     sys.argv 是一个字符串数组。因此，传递给它的任何参数都是一个字符串，所以为了正确使用，我们必须将其转换为适当的列表形式。
     *   **Program to take list as command line argument and convert it to a proper list form**
 
-        ```
+        ```py
         import sys
 
         print("the name of the program is ", sys.argv[0])
@@ -68,7 +68,7 @@
     *   **Program to find the sum of all the members of the list**
         Also, keep in find to change the members to the required data type if not string.
 
-        ```
+        ```py
         import sys
 
         print ("the name of the program is", sys.argv[0])
@@ -92,7 +92,7 @@
 
 4.  **Working with multiple list retrieved through command line.**
 
-    ```
+    ```py
     import sys
 
     print ("the name of the program is ", sys.argv[0])

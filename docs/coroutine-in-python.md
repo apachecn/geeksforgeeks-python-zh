@@ -26,7 +26,7 @@ Python 中的子程序由**主函数**调用，主函数负责协调这些子程
 在 Python 中，协同程序类似于生成器，但是几乎没有额外的方法，并且我们使用[产生](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/)语句的方式略有变化。生成器为迭代生成数据，而**协同程序也可以使用数据。**
 在 Python 2.5 中，引入了对 yield 语句的轻微修改，现在 yield 也可以作为*表达式*。例如，在作业的右侧–
 
-```
+```py
 line = (yield)
 ```
 
@@ -36,7 +36,7 @@ line = (yield)
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 program for demonstrating
 # coroutine execution
 
@@ -62,7 +62,7 @@ corou.send("Dear Atul")
 
 **输出:**
 
-```
+```py
 Searching prefix:Dear
 Dear Atul
 ```
@@ -77,7 +77,7 @@ Dear Atul
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 program for demonstrating
 # closing a coroutine
 
@@ -100,7 +100,7 @@ corou.close()
 
 输出:
 
-```
+```py
 Searching prefix:Dear
 Dear Atul
 Closing coroutine!!
@@ -121,7 +121,7 @@ Coroutines 可以用来设置管道。我们可以将协同程序链接在一起
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 program for demonstrating
 # coroutine chaining
 
@@ -174,7 +174,7 @@ producer(sentence, pf)
 
 输出:
 
-```
+```py
 I'm sink, i'll print tokens
 Searching for ing
 running

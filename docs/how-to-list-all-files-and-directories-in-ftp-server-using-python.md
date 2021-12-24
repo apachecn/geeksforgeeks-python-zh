@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from ftplib import FTP
 
 ftp = FTP('ftp.us.debian.org')
@@ -69,7 +69,7 @@ ftp.quit()
 
 ## 蟒蛇 3
 
-```
+```py
 from ftplib import FTP
 
 ftp = FTP('ftp.us.debian.org')
@@ -96,7 +96,7 @@ ftp.quit()
 
 **语法:**
 
-```
+```py
 ftp.dir()
 ```
 
@@ -104,7 +104,7 @@ ftp.dir()
 
 ## 蟒蛇 3
 
-```
+```py
 from ftplib import FTP
 
 ftp = FTP('ftp.us.debian.org')
@@ -131,7 +131,7 @@ ftp.quit()
 
 **语法:**
 
-```
+```py
 ftp.nlst()
 ```
 
@@ -139,7 +139,7 @@ ftp.nlst()
 
 ## 蟒蛇 3
 
-```
+```py
 from ftplib import FTP
 
 ftp = FTP('ftp.us.debian.org')

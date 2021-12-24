@@ -4,7 +4,7 @@
 
 在本文中，我们将编写一个 python 脚本来从歌曲中提取歌词，并与其 GUI 应用程序绑定。我们将使用**歌词提取器**来获取一首歌曲的歌词，只需传入歌曲名称，它就会从各个网站提取并返回歌曲的标题和歌词。开始前，安装**歌词提取器**模块。将此命令运行到您的终端。
 
-```
+```py
 pip install lyrics-extractor
 ```
 
@@ -21,7 +21,7 @@ pip install lyrics-extractor
 
 选择其中的任何一个链接来获得您的搜索引擎:
 
-```
+```py
 https://genius.com/
 http://www.lyricsted.com/
 http://www.lyricsbell.com/
@@ -40,19 +40,19 @@ JSON API:
 
 *   导入模块。
 
-```
+```py
 from lyrics_extractor import SongLyrics 
 ```
 
 *   将谷歌自定义搜索 JSON API 密钥和引擎 ID 传入**songlexis()**。
 
-```
+```py
 extract_lyrics = SongLyrics(Your_API_KEY, GCS_ENGINE_ID)
 ```
 
 *   通过将歌曲名称作为参数传递给**extract _ lexis . get _ lexis()**方法来获取歌词。
 
-```
+```py
 extract_lyrics.get_lyrics("Shape of You")
 ```
 
@@ -60,7 +60,7 @@ extract_lyrics.get_lyrics("Shape of You")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from lyrics_extractor import SongLyrics
 
@@ -80,7 +80,7 @@ extract_lyrics.get_lyrics("Tujhse Naraz Nahi Zindagi Lyrics")
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from lyrics_extractor import SongLyrics

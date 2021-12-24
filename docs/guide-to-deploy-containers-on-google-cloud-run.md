@@ -23,7 +23,7 @@
 *   转到项目文件夹，创建一个名为 *requirements.txt* 的文件，并将 *Flask==1.1.1* 添加到该文件中。
 *   现在创建一个名为 *app.py* 的 python 文件，并在其中添加以下行。
 
-    ```
+    ```py
     # importing Flask
     from flask import Flask
     app = Flask(__name__)
@@ -44,7 +44,7 @@
 
 *   接下来创建一个名为 **Dockerfile** 的 Dockerfile(没有任何扩展名)，并向其中添加以下代码行。
 
-    ```
+    ```py
     #pulls python 3.7’s image from the docker hub
     FROM python:alpine3.7 
     #copies the flask app into the container

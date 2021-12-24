@@ -13,7 +13,7 @@
 
 **2。cos()** :-该函数返回作为参数传递的值的**余弦**。这个函数传递的值应该是**弧度**。
 
-```
+```py
 # Python code to demonstrate the working of
 # sin() and cos()
 
@@ -33,7 +33,7 @@ print (math.cos(a))
 
 输出:
 
-```
+```py
 The value of sine of pi/6 is : 0.49999999999999994
 The value of cosine of pi/6 is : 0.8660254037844387
 
@@ -43,7 +43,7 @@ The value of cosine of pi/6 is : 0.8660254037844387
 
 **4。海波(a，b)** :-返回参数中传递的值的**斜边**。数值上，它返回 **sqrt(a*a + b*b)** 的值。
 
-```
+```py
 # Python code to demonstrate the working of
 # tan() and hypot()
 
@@ -65,7 +65,7 @@ print (math.hypot(b,c))
 
 输出:
 
-```
+```py
 The value of tangent of pi/6 is : 0.5773502691896257
 The value of hypotenuse of 3 and 4 is : 5.0
 
@@ -75,7 +75,7 @@ The value of hypotenuse of 3 and 4 is : 5.0
 
 **6。弧度()** :-该函数用于**将参数值从度数转换为弧度**。
 
-```
+```py
 # Python code to demonstrate the working of
 # degrees() and radians()
 
@@ -96,7 +96,7 @@ print (math.radians(b))
 
 输出:
 
-```
+```py
 The converted value from radians to degrees is : 29.999999999999996
 The converted value from degrees to radians is : 0.5235987755982988
 

@@ -9,7 +9,7 @@
 
 **代码:读取数据集:**
 
-```
+```py
 # Give the location of the dataset
 path_dataset ="" 
 
@@ -24,7 +24,7 @@ data.head()
 
 **代码:**
 
-```
+```py
 len(data)
 
 import numpy as np
@@ -36,7 +36,7 @@ len(data.loc[data['Origin / Ethnicity']=='British'])
 
 **输出:**
 
-```
+```py
 
 34886    #Length of the dataset (Total number of rows/movies)
 
@@ -56,7 +56,7 @@ array(['American', 'Assamese', 'Australian', 'Bangladeshi', 'Bengali',
 
 **代码:**
 
-```
+```py
 # Concatenating American and British movies
 df1 = pd.DataFrame(data.loc[data['Origin / Ethnicity']=='American'])
 df2 = pd.DataFrame(data.loc[data['Origin / Ethnicity']=='British'])
@@ -73,7 +73,7 @@ finaldata["Plot"][0]
 
 **输出:**
 
-```
+```py
 
 21047    #Number of rows in the new dataset
 
@@ -87,7 +87,7 @@ A bartender is working at a saloon, serving drinks to customers. After he fills 
 
 **代码:应用自然语言处理技术对电影剧情进行预处理:**
 
-```
+```py
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -114,7 +114,7 @@ VERB_CODES = {'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ'}
 
 **代码:**
 
-```
+```py
 def preprocess_sentences(text):
   text = text.lower()
   temp_sent =[]
@@ -157,7 +157,7 @@ Scikit-Learn 在名为*特征提取.文本*的模块中提供了一个名为 *Tf
 
 **代码:**
 
-```
+```py
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Vectorizing pre-processed movie plots using TF-IDF
@@ -171,7 +171,7 @@ cos_sim = cosine_similarity(tfidf_movieid, tfidf_movieid)
 
 **代码:构建推荐功能，给出十大类似电影:**
 
-```
+```py
 # Storing indices of the data
 indices = pd.Series(finaldata.index)
 
@@ -187,13 +187,13 @@ def recommendations(title, cosine_sim = cos_sim):
 
 **代码:使用上述函数获取基于图的推荐:**
 
-```
+```py
 recommendations("Harry Potter and the Chamber of Secrets")
 ```
 
 **输出:**
 
-```
+```py
 
 Recommendations for the movie "Harry Potter and the Chamber of Secrets"
 
@@ -212,13 +212,13 @@ Recommendations for the movie "Harry Potter and the Chamber of Secrets"
 
 **代码:**
 
-```
+```py
 recommendations("Ice Age")
 ```
 
 **输出:**
 
-```
+```py
 
 Recommendations for the movie "Ice Age"
 
@@ -237,13 +237,13 @@ Recommendations for the movie "Ice Age"
 
 **代码:**
 
-```
+```py
 recommendations("Blackmail")
 ```
 
 **输出:**
 
-```
+```py
 Recommendations for the movie "Blackmail"
 
 ['Checkpoint',

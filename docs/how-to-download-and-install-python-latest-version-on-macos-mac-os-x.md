@@ -11,7 +11,7 @@ Python 是一种广泛使用的通用高级编程语言。本文将作为如何�
     从应用程序- >实用程序中打开 macOS 的终端应用程序。Bash 终端将打开，您可以在其中输入命令
     在 macOS 终端中输入以下命令
 
-    ```
+    ```py
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
     ```
@@ -28,7 +28,7 @@ Python 是一种广泛使用的通用高级编程语言。本文将作为如何�
     要从应用程序->实用程序
     安装 python 简单的打开终端应用程序，并输入以下命令
 
-    ```
+    ```py
     brew install python3
     ```
 
@@ -38,11 +38,11 @@ Python 是一种广泛使用的通用高级编程语言。本文将作为如何�
 
     要验证安装，请在终端应用程序中输入以下命令
 
-    ```
+    ```py
     python
     ```
 
-    ```
+    ```py
     pip3
     ```
 

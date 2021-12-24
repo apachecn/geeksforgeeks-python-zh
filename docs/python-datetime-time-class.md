@@ -20,7 +20,7 @@ Time 类表示一天中独立于任何特定日期的本地时间。这个类可
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate time class
 
@@ -52,7 +52,7 @@ print("\nTime without argument", my_time)
 
 **Output**
 
-```
+```py
 Entered time 12:14:36
 
 Time with one argument 00:12:00
@@ -84,7 +84,7 @@ Time without argument 00:00:00
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import time
 
 # Getting min time
@@ -98,7 +98,7 @@ print("Max Time supported", maxtime)
 
 **Output**
 
-```
+```py
 Min Time supported 00:00:00
 Max Time supported 23:59:59.999999
 ```
@@ -107,7 +107,7 @@ Max Time supported 23:59:59.999999
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import time
 
 # Creating Time object
@@ -122,7 +122,7 @@ print("Microseconds:", Time.microsecond)
 
 **Output**
 
-```
+```py
 Hour: 12
 Minutes: 24
 Seconds: 36

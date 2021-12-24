@@ -16,7 +16,7 @@ YouTube 是一个非常受欢迎的视频分享网站。从 YouTube 下载视频
 
 *   ****如果你在 Window 的****
 
-```
+```py
 pip install pytube3
 ```
 
@@ -26,7 +26,7 @@ pip install pytube3
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing necessary packages
 import tkinter as tk
 from tkinter import *

@@ -10,7 +10,7 @@ Pandas 是用于数据分析和操作的开源 Python 库。它快速、强大�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -42,7 +42,7 @@ print ("Common Columns:",a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 
@@ -75,7 +75,7 @@ print ("Common Columns:",a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 

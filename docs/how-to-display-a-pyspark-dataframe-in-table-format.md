@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -61,7 +61,7 @@ print(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # Display df using show()
 dataframe.show()
 ```
@@ -80,7 +80,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # show() function to get 2 rows
 dataframe.show(2)
 ```
@@ -101,7 +101,7 @@ dataframe.show(2)
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe evrtically
 dataframe.show(vertical = True)
 ```
@@ -114,7 +114,7 @@ dataframe.show(vertical = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe with truncate
 dataframe.show(truncate = 1)
 ```
@@ -127,7 +127,7 @@ dataframe.show(truncate = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe with all parameters
 dataframe.show(n=3,vertical=True,truncate=2)
 ```
@@ -140,7 +140,7 @@ dataframe.show(n=3,vertical=True,truncate=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe by using topandas() function
 dataframe.toPandas()
 ```

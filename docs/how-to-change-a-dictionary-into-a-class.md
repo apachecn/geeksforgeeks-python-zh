@@ -24,7 +24,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Turns a dictionary into a class
 class Dict2Class(object):
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
 ******输出:******
 
-```
+```py
 **After Converting Dictionary to Class : 
 Geeks 1223 Python
 <class '__main__.Dict2Class'>** 

@@ -5,7 +5,7 @@
 Python 2.x 中的 cmp()方法比较两个整数，根据比较结果返回-1、0、1。
 cmp() **在 python 3.x** 中不起作用。你可能想看 Python 中的[列表比较](https://www.geeksforgeeks.org/python-2-number-cmplist-method/)。
 
-```
+```py
 Syntax:
 cmp(a, b)
 Parameters:
@@ -19,7 +19,7 @@ Returns:
 
 ```
 
-```
+```py
 # Python program to demonstrate the 
 # use of cmp() method
 
@@ -41,7 +41,7 @@ print(cmp(a, b))
 
 **输出:**
 
-```
+```py
 -1
 0 
 1
@@ -54,7 +54,7 @@ print(cmp(a, b))
 
 下面是上述程序的 Python 实现:
 
-```
+```py
 # Python program to check if a number is  
 # odd or even using cmp function  
 
@@ -75,7 +75,7 @@ else: 
 
 **输出:**
 
-```
+```py
 even
 odd
 

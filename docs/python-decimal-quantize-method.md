@@ -12,7 +12,7 @@
 
 **代码#1:量化()方法示例**
 
-```
+```py
 # Python Program explaining 
 # quantize() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with quantize() method : ", b.quantize(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with quantize() method :  0.142857
 
 **代码#2:量化()方法示例**
 
-```
+```py
 # Python Program explaining 
 # quantize() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with quantize() method : ", b.quantize(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

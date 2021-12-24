@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```py
 which python
 ```
 
@@ -36,13 +36,13 @@ which python
 
 **语法:**
 
-```
+```py
 nano (name).extension
 ```
 
 **示例:**
 
-```
+```py
 nano port-scanner.py
 ```
 
@@ -52,7 +52,7 @@ nano port-scanner.py
 
 现在在这里，首先我们需要分配我们的 [Python](https://www.geeksforgeeks.org/python-programming-language/) [解释器](https://www.geeksforgeeks.org/compiler-vs-interpreter-2/)位置
 
-```
+```py
 #!//usr/bin/python
 ```
 
@@ -62,13 +62,13 @@ Python 解释器的位置
 
 现在我们的主程序启动，我们要导入 [sockets](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/) ，sockets 会告诉我们端口如何操作以及本质上如何传输数据。
 
-```
+```py
 import socket
 ```
 
 然后我们需要输入 [IP 地址](https://www.geeksforgeeks.org/difference-between-private-and-public-ip-addresses/)，之后我们还需要一个程序来询问我们要找的是哪个端口
 
-```
+```py
 ip = raw_input("enter the IP Address: ")
 port = input("Enter the Port Number: ")
 ```
@@ -78,13 +78,13 @@ port = input("Enter the Port Number: ")
 *   **插座。AF_INET** 这个插座可以让我们看到 [TCP](https://www.geeksforgeeks.org/differences-between-tcp-and-udp/) 连接
 *   这让我们可以看看基本上是视频和音频流的 UDP 协议
 
-```
+```py
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 ```
 
 现在，我们将打印我们的程序如何显示特定端口是打开的，还是 IP 关闭了，或者端口关闭了。
 
-```
+```py
 if sock.connect_ex((ip,port)):
        print "Port ",port, "is closed"
 else:
@@ -99,7 +99,7 @@ else:
 
 **语法:**
 
-```
+```py
 cnrl+x
 ```
 
@@ -109,13 +109,13 @@ cnrl+x
 
 **例**
 
-```
+```py
 ./script name . extension
 ```
 
 **语法**
 
-```
+```py
 ./port-scanner.py
 ```
 
@@ -129,7 +129,7 @@ cnrl+x
 
 **语法**
 
-```
+```py
 chmod 775 ./port-scanner.py
 ```
 
@@ -141,7 +141,7 @@ chmod 775 给你许可
 
 **语法**
 
-```
+```py
 ./port-scanner.py
 ```
 
@@ -155,7 +155,7 @@ chmod 775 给你许可
 
 **例**
 
-```
+```py
 Enter Your Ip Address : 192.168.43.1
 Enter The Port Number : 80
 ```

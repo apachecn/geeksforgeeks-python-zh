@@ -16,7 +16,7 @@
 
 **示例:**让我们创建一个名为 GFG 的简单模块。
 
-```
+```py
 ''' GFG.py '''
 
 # Python program to create
@@ -36,7 +36,7 @@ location = "Noida"
 
 **例:**
 
-```
+```py
 # Python program to demonstrate
 # modules
 
@@ -51,7 +51,7 @@ print(GFG.location)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 Noida
 
@@ -61,7 +61,7 @@ Noida
 
 **示例:**打开上面创建的 GFG 模块并进行以下更改。
 
-```
+```py
 ''' GFG.py '''
 
 # Python program to demonstrate 
@@ -90,7 +90,7 @@ class Employee():
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # modules
 
@@ -103,7 +103,7 @@ emp.show()
 
 **输出:**
 
-```
+```py
 Employee name: Nikhil
 Employee position: Developer
 
@@ -115,14 +115,14 @@ Employee position: Developer
 
 **语法:**
 
-```
+```py
 from module_name_ import *
 
 ```
 
 **示例:**我们将使用上面创建的 GFG 模块。
 
-```
+```py
 # Python program to demonstrate
 # modules
 
@@ -141,7 +141,7 @@ emp.show()
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 Noida
 Employee name: Nikhil
@@ -155,7 +155,7 @@ Employee position: Developer
 
 **例:**
 
-```
+```py
 # Python program to demonstrate
 # modules
 
@@ -174,7 +174,7 @@ emp.show()
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 Noida
 Employee name: Nikhil

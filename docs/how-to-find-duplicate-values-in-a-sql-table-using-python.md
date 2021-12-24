@@ -6,7 +6,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于 web 
 
 在本文中，我们将在数据库中的特定 MySQL 表中找到重复的值。首先，我们将连接到一个包含 MySQL 表的数据库。将要使用的 SQL 查询是:
 
-```
+```py
 SELECT * FROM table-name 
 GROUP BY col_1, col_2,..., col_n 
 HAVING COUNT(*) > 1;
@@ -15,7 +15,7 @@ HAVING COUNT(*) > 1;
 
 如果表有主键，那么也可以使用下面的查询:
 
-```
+```py
 SELECT * FROM table-name 
 GROUP BY primar-key
 HAVING COUNT(*) > 1;
@@ -36,7 +36,7 @@ HAVING COUNT(*) > 1;
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import mysql.connector
 
@@ -77,7 +77,7 @@ db.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import mysql.connector
 

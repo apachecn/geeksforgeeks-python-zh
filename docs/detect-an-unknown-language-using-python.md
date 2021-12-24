@@ -12,11 +12,11 @@
 
 这个模块是谷歌语言检测库的一个端口，支持 55 种语言。这个模块没有 Python 的标准实用程序模块。所以，需要从外部安装。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install langdetect
 ```
 
-```
+```py
 # Python program to demonstrate
 # langdetect
 
@@ -34,7 +34,7 @@ print(detect("Geeksforgeeksは、ギーク向けのコンピューターサイ�
 
 **输出:**
 
-```
+```py
 en
 ru
 es
@@ -49,13 +49,13 @@ ja
 该模块用于自然语言处理任务，如名词短语提取、情感分析、分类、翻译等。要安装此模块，请在终端中键入以下命令。
 ('ru '，-48860 . 88888888861
 
-```
+```py
 pip install textblob
 ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # textblob
 
@@ -78,7 +78,7 @@ for i in L:
 
 **输出:**
 
-```
+```py
 en
 ru
 es
@@ -92,13 +92,13 @@ ja
 
 该模块是一个独立的语言识别工具。它经过大量语言(目前为 97 种)的预先培训。它是一个依赖关系最小的. py 文件。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install langrid
 ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # langid
 
@@ -120,7 +120,7 @@ for i in L:
 
 **输出:**
 
-```
+```py
 ('en', -119.93012762069702)
 ('ru', -641.3409600257874)
 ('es', -191.01083326339722)

@@ -6,7 +6,7 @@
 
 **方法#1:使用天真法**
 
-```
+```py
 # Python3 code to demonstrate
 # to find all occurrences of substring in
 # a string
@@ -44,7 +44,7 @@ print ("resultant positions", str(res))
 
 **输出:**
 
-```
+```py
 initial_strings :  xbzefdgstbzefzexezef 
 substring :  zef
 resultant positions [2, 10, 17]

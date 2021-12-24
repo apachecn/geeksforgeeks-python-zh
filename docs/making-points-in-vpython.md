@@ -8,7 +8,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -31,7 +31,7 @@ pip install vpython
 
 **示例 1 :** 使用参数 pos 的点。
 
-```
+```py
 # import the module
 from vpython import * points(pos =[vector(-1, 0, 0), 
             vector(1, 0, 0),
@@ -46,7 +46,7 @@ from vpython import * points(pos =[vector(-1, 0, 0), 
 
 **示例 2 :** 使用参数颜色和半径的点。
 
-```
+```py
 # import the module
 from vpython import *
 

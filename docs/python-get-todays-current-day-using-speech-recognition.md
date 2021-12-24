@@ -9,13 +9,13 @@
 *   [**DateTime:**](https://www.geeksforgeeks.org/python-datetime-module-with-examples/) 这是 Python 中的一个库，借助它我们可以操纵日期和时间。它预装了 python，所以我们不必安装。
 *   **pyttsx3:** 这是文本到语音转换库。它有助于与用户沟通。这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pyttsx3
 ```
 
 *   **语音识别:**有助于语音识别。语音识别是将音频转换为文本的过程。该模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install SpeechRecognition
 ```
 
@@ -25,7 +25,7 @@ pip install SpeechRecognition
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pyttsx3
 import speech_recognition as sr
@@ -68,7 +68,7 @@ def take_commands():
 
 ## 蟒蛇 3
 
-```
+```py
 def Speak(audio):
 
     # initial constructor of pyttsx3
@@ -85,7 +85,7 @@ def Speak(audio):
 
 ## 蟒蛇 3
 
-```
+```py
 def tellDay():
 
     # the weekday method is a method from datetime
@@ -111,7 +111,7 @@ def tellDay():
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     command=take_commands()
 
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pyttsx3
 import speech_recognition as sr
@@ -202,7 +202,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Listening
 Recognizing
 the query is printed=' today's day '

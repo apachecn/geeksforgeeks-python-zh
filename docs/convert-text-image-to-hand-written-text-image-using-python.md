@@ -8,19 +8,19 @@
 
 **小魔方:**有时被称为**Python-小魔方**，是一个基于 Python 的光学字符识别( **OCR** )程序。它可以读取和识别照片、车牌和其他文档中的文本。为了解释提供的图片中的单词，我们将使用宇宙魔方软件。
 
-```
+```py
 pip install pytesseract
 ```
 
 **Pywhatkit:** 它是一个可以用于各种事情的库，包括发送 WhatsApp 消息、观看 YouTube 视频、搜索 Google 以及书写手写文本。
 
-```
+```py
 pip install pywhatkit
 ```
 
 [**【枕头】**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/) **:** 这个模块增加了更多的功能，在各大操作系统上运行，并且有 Python 3 的支持。它支持多种图像格式，包括“jpeg”、“png”、“bmp”、“gif”、“ppm”和“tiff”。有了枕头模块，你几乎可以用数码照片做任何事情。
 
-```
+```py
 pip install Pillow
 ```
 
@@ -32,7 +32,7 @@ pip install Pillow
 
 ## 蟒 3
 
-```
+```py
 import pytesseract 
 from PIL import Image 
 import os
@@ -43,7 +43,7 @@ import pywhatkit as kit
 
 ## 蟒 3
 
-```
+```py
 os.chdir(r"C:\Users\Dell\Downloads")
 ```
 
@@ -51,7 +51,7 @@ os.chdir(r"C:\Users\Dell\Downloads")
 
 ## 蟒 3
 
-```
+```py
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\Dell\AppData\Local\/
 Tesseract-OCR\tesseract.exe"
 ```

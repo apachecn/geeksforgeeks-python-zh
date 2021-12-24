@@ -15,7 +15,7 @@
 ****方法:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们跟踪开始和停止值，并不断添加缺失的范围。最后，重要的是检查是否有任何范围小于更高的范围。**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Missing Ranges
 # Using loop
@@ -51,7 +51,7 @@ print("Missing range tuples : " + str(res)) 
 
 ****Output :**
 
-```
+```py
 The original list is : [(6, 9), (15, 34), (48, 70)]
 Missing range tuples : [(2, 6), (9, 100), (9, 15), (34, 100), (34, 48), (70, 100)]
 

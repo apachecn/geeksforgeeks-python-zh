@@ -6,7 +6,7 @@
 
 在[上一篇文章](https://www.geeksforgeeks.org/networkx-python-software-package-study-complex-networks/)中，我们已经学习了 Networkx 模块的基础知识以及如何创建无向图。注意，Networkx 模块很容易输出各种 Graph 参数，如下例所示。
 
-```
+```py
 import networkx as nx
 
 edges = [(1, 2), (1, 6), (2, 3), (2, 4), (2, 6), 
@@ -44,7 +44,7 @@ print("List of all nodes we can go to in a single step from node 2: ",
 
 **添加所有边的列表以及各种权重–**
 
-```
+```py
 import networkx as nx
 G = nx.Graph()
 
@@ -58,11 +58,11 @@ nx.draw_networkx(G, with_labels = True)
 
 我们可以通过边列表来添加边，边列表需要以`.txt`格式保存(例如 edge_list.txt)
 
-```
+```py
 G = nx.read_edgelist('edge_list.txt', data =[('Weight', int)])
 ```
 
-```
+```py
 1 2 19
 1 6 15
 2 3 6
@@ -77,7 +77,7 @@ G = nx.read_edgelist('edge_list.txt', data =[('Weight', int)])
 
 **边缘列表也可以通过熊猫数据框–**读取
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv('edge_list.txt', delim_whitespace = True, 
@@ -93,7 +93,7 @@ print(list(G.edges(data = True)))
 
 **输出:**
 
-```
+```py
 [(1, 2, {'weight': 19}),
  (1, 6, {'weight': 15}),
  (2, 3, {'weight': 6}),
@@ -111,7 +111,7 @@ print(list(G.edges(data = True)))
 
 为此，我们创建了一个关于印度各城市及其之间距离的数据集，并将其保存在`.txt`文件`edge_list.txt`中。
 
-```
+```py
 Kolkata Mumbai 2031
 Mumbai Pune 155
 Mumbai Goa 571
@@ -135,7 +135,7 @@ Kolkata Guwahati 1031
 
 现在，我们将通过以下代码制作一个图表。我们还将向所有城市添加一个节点属性，它将成为每个城市的人口。
 
-```
+```py
 import networkx as nx
 
 G = nx.read_weighted_edgelist('edge_list.txt', delimiter =" ")
@@ -174,7 +174,7 @@ nx.draw_networkx(G, with_label = True)
 2.  节点的颜色强度与节点的度数成正比。
 3.  边缘的宽度与边缘的重量成正比，在这种情况下，与城市之间的距离成正比。
 
-```
+```py
 # fixing the size of the figure
 plt.figure(figsize =(10, 7))
 
@@ -201,7 +201,7 @@ plt.tight_layout();
 
 我们可以在上面的代码中看到，我们已经将布局类型指定为紧密。您可以找到不同的布局技术，并尝试其中一些，如下面的代码所示:
 
-```
+```py
 print("The various layout options are:")
 print([x for x in nx.__dir__() if x.endswith('_layout')])
 # prints out list of all different layout options
@@ -233,7 +233,7 @@ nx.draw_networkx(G, pos, node_size = node_size, 
 
 **输出:**
 
-```
+```py
 The various layout options are:
 ['rescale_layout',
  'random_layout',
@@ -252,7 +252,7 @@ Circular Layout:
 
 Networkx 允许我们创建一个路径图，即以下列方式连接多个节点的直线:
 
-```
+```py
 G2 = nx.path_graph(5)
 nx.draw_networkx(G2, with_labels = True)
 ```
@@ -261,7 +261,7 @@ nx.draw_networkx(G2, with_labels = True)
 
 我们可以重命名节点–
 
-```
+```py
 G2 = nx.path_graph(5)
 
 new = {0:"Germany", 1:"Austria", 2:"France", 3:"Poland", 4:"Italy"}
@@ -277,7 +277,7 @@ nx.draw_networkx(G2, with_labels = True)
 
 下面的代码显示了有向图上的基本操作。
 
-```
+```py
 import networkx as nx
 G = nx.DiGraph()
 G.add_edges_from([(1, 1), (1, 7), (2, 1), (2, 2), (2, 3), 
@@ -325,7 +325,7 @@ print("List of all nodes from which we can go to node 2 in a single step: ",
 
 但是网络中多图的可视化还不清楚。它无法单独显示多条边，这些边会重叠。
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -368,6 +368,6 @@ print("List of all nodes we can go to in a single step from node E: ",
 
 类似地，多向图可以通过使用
 
-```
+```py
 G = nx.MultiDiGraph()
 ```

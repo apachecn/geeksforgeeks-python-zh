@@ -14,7 +14,7 @@
 继续我们在本系列文章中看到的相同示例，假设有一个名为 **`author_name`** 的属性，该属性从配置文件句柄获取其值，以在定义的字典 **`name`** 中进行名称映射。
 所以 **`author_name`** 是依赖于 **`author`** 属性接收到的轮廓柄，所以使用`__post_init__()`应该是这种情况下的理想选择。
 
-```
+```py
 from dataclasses import dataclass, field
 
 name = {'vibhu4agarwal': 'Vibhu Agarwal'}

@@ -15,7 +15,7 @@ GTK+ 3 是一个免费的开源跨平台小部件工具包，用于创建图形�
 
 ## 蟒蛇 3
 
-```
+```py
 import gi
 
 # Since a system can have multiple versions
@@ -47,7 +47,7 @@ Gtk.main()
 
 ## 蟒蛇 3
 
-```
+```py
 import gi
 
 gi.require_version("Gtk", "3.0")

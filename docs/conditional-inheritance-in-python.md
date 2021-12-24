@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class A(object): 
     def __init__(self, x): 
         self.x = x
@@ -63,7 +63,7 @@ print(cb.isB())
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -76,7 +76,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 class A(object): 
     def __init__(self, x): 
         self.x = x
@@ -101,7 +101,7 @@ print(ca.isA())
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -109,7 +109,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 class A(object): 
     def __init__(self, x): 
         self.x = x

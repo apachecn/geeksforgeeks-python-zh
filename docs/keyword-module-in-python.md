@@ -13,7 +13,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Program to check whether a given
     # word is a Python keyword or not
 
@@ -42,7 +42,7 @@
 
     **输出:**
 
-    ```
+    ```py
     if is a keyword in Python: True
     lambda is a keyword in Python: True
     print is a keyword in Python: False
@@ -57,7 +57,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Program to display the list of Python keywords
 
     # importing keyword module

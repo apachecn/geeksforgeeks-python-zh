@@ -24,7 +24,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。它可以在安卓、IOS、Li
 
 ## 蟒蛇 3
 
-```
+```py
 # importing button widget from kivy framework
 from kivy.uix.button import Button
 from kivy.app import App

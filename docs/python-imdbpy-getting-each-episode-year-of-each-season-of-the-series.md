@@ -15,7 +15,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -57,7 +57,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Mirzapur
 =========
 Season1
@@ -75,7 +75,7 @@ Season1
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -117,7 +117,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Sacred Games
 =========
 Season2

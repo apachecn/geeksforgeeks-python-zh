@@ -10,13 +10,13 @@
 
 *   **pikepdf** 是一个 Python 模块，用于创建、操作和修复 pdf 文件。
 
-```
+```py
 pip install pikepdf
 ```
 
 *   **tqdm** 是 python 中进度条的更全面的包之一，对于那些您想要构建脚本以让用户了解您的应用程序状态的情况来说非常方便。
 
-```
+```py
 pip install tqdm
 ```
 
@@ -32,7 +32,7 @@ pip install tqdm
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 import pikepdf
 from tqdm import tqdm

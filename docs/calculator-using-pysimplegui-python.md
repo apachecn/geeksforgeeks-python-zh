@@ -8,7 +8,7 @@ PySimpleGUI 是一个 Python 包，可以让各个级别的 Python 程序员创�
 
 在开始之前，我们需要安装此软件包:
 
-```
+```py
 pip install PySimpleGUI
 ```
 
@@ -41,7 +41,7 @@ pip install PySimpleGUI
 
 ## 蟒蛇 3
 
-```
+```py
 # Result Value
 Result = ''
 
@@ -78,7 +78,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from PySimpleGUI import *
 

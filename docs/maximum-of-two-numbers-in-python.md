@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: a = 2, b = 4
 Output: 4
 
@@ -20,7 +20,7 @@ Output: -1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # maximum of two numbers
 
@@ -39,7 +39,7 @@ print(maximum(a, b))
 
 **Output**
 
-```
+```py
 4
 ```
 
@@ -50,7 +50,7 @@ print(maximum(a, b))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # maximum of two numbers
 
@@ -63,7 +63,7 @@ print(maximum)
 
 **Output**
 
-```
+```py
 4
 ```
 
@@ -75,7 +75,7 @@ print(maximum)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # maximum of two numbers
 
@@ -91,6 +91,6 @@ print(a if a >= b else b)
 
 **Output**
 
-```
+```py
 4
 ```

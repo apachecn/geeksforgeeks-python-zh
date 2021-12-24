@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing matplotlib
 from matplotlib import pyplot as plt
 
@@ -48,7 +48,7 @@ plt.show()
 
 另一个例子
 
-```
+```py
 # importing matplotlib
 from matplotlib import pyplot as plt
 

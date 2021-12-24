@@ -7,7 +7,7 @@
 **方法#1:使用`sorted()`+λ**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们只使用反向标志为真的排序函数，并使用列表切片打印前 N 个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Top N elements from Records
 # Using sorted() + lambda
@@ -31,7 +31,7 @@ print("The top N records are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)]
 The top N records are : [('Manjeet', 10), ('Nikhil', 8)]
 

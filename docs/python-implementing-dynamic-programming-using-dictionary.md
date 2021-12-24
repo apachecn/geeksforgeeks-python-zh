@@ -8,13 +8,13 @@
 
 在数学术语中，斐波那契数列由递归关系定义:
 
-```
+```py
 Fn = Fn-1 + Fn-2
 ```
 
 带有种子值:
 
-```
+```py
 F0 = 0 and F1 = 1
 ```
 
@@ -34,7 +34,7 @@ F0 = 0 and F1 = 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find nth Fibonacci number
 def Fibonacci(n):
 
@@ -57,7 +57,7 @@ print(Fibonacci(9))
 
 **Output:** 
 
-```
+```py
 34
 ```
 
@@ -68,7 +68,7 @@ print(Fibonacci(9))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to customize the
 # __missing__ method of the
 # dictionary class in python
@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 34
 ```
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the nth Fibonacci
 # number with memoization using decorators
 
@@ -169,6 +169,6 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 34
 ```

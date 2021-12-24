@@ -7,7 +7,7 @@
 **方法一:使用`sum() + split()` +列表理解+ `enumerate()`**
 以上功能的组合可以用来执行这些任务。在这种情况下，对连字符和逗号以及相应的范围执行拆分，数字被提取并编译成列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String ranges to list
 # Using sum() + list comprehension + enumerate() + split()
@@ -30,7 +30,7 @@ print("List after conversion from string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : 1, 4-6, 8-10, 11
 List after conversion from string : [1, 4, 5, 6, 8, 9, 10, 11]
 

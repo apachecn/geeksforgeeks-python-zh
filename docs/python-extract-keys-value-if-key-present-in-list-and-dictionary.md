@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Key's Value, if Key Present in List and Dictionary
 # Using all() + list comprehension
@@ -48,7 +48,7 @@ print("Extracted Value : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Good', 'for', 'Geeks']
 The original Dictionary : {'Gfg': 2, 'is': 4, 'Best': 6}
 Extracted Value : 2
@@ -61,7 +61,7 @@ Extracted Value : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Key's Value, if Key Present in List and Dictionary
 # Using set() + intersection()
@@ -91,7 +91,7 @@ print("Extracted Value : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Good', 'for', 'Geeks']
 The original Dictionary : {'Gfg': 2, 'is': 4, 'Best': 6}
 Extracted Value : 2

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # class 'A' defined
 class A(object):
 
@@ -22,7 +22,7 @@ c = A(7)
 
 **输出:**
 
-```
+```py
 The value of a: 7
 
 ```
@@ -33,7 +33,7 @@ The value of a: 7
 
 **示例:**考虑一种情况，您想使用`issubclass()`方法检查某个值是否作为属性存在于类中。
 
-```
+```py
 # Python program to demonstrate
 # subclasscheck
 
@@ -72,7 +72,7 @@ print(issubclass("Geeks", C))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -87,7 +87,7 @@ True
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # subclasshook
 
@@ -123,7 +123,7 @@ print(issubclass(P, A)  )
 
 **输出:**
 
-```
+```py
 True
 False
 

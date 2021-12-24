@@ -7,7 +7,7 @@
 **方法一:使用`sorted() + zip() + itemgetter()`**
 结合这三个功能，我们有可能完成任务。zip 函数将两个列表绑定在一起，sorted 函数对列表进行排序，itemgetter 函数用于定义我们需要第二个列表移动的指标，在本例中是第一个列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # integrity sorting in two list 
 # using sorted() + zip() + itemgetter()
@@ -32,7 +32,7 @@ print ("The lists after integrity sort : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [3, 4, 9, 1, 6]
 The original list 2 is : [1, 5, 3, 6, 7]
 The lists after integrity sort : [[1, 3, 4, 6, 9], [6, 1, 5, 7, 3]]
@@ -42,7 +42,7 @@ The lists after integrity sort : [[1, 3, 4, 6, 9], [6, 1, 5, 7, 3]]
 **方法#2:使用`sorted() + zip() + lambda function`**
 这个方法执行相似的任务，每个函数执行相似的功能，不同的只是代替 itemgetter 函数，lambda 函数执行分配一个基来排序列表的任务，也就是这种情况下的第一个列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # integrity sorting in two list 
 # using sorted() + zip() + lambda function
@@ -67,7 +67,7 @@ print ("The lists after integrity sort : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [3, 4, 9, 1, 6]
 The original list 2 is : [1, 5, 3, 6, 7]
 The lists after integrity sort : [[1, 3, 4, 6, 9], [6, 1, 5, 7, 3]]

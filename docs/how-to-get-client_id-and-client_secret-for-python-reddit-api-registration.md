@@ -8,7 +8,7 @@ Reddit 机器人是自动响应用户发帖或者每隔一定时间自动发帖�
 
 To create an instance of PRAW we need to run the following code:
 
-```
+```py
 reddit = praw.Reddit(client_id ='my client id', 
                      client_secret ='my client secret', 
                      user_agent ='my user agent', 

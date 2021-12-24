@@ -7,7 +7,7 @@
 **方法#1:使用λ**
 这个任务可以使用λ函数来执行。在本例中，我们使用 or 运算符检查无字符串或空字符串，并用无替换空字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Empty String to None Conversion
 # Using lambda
@@ -29,7 +29,7 @@ print("The list after conversion of Empty Strings : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Geeks', '', 'CS', '', '']
 The list after conversion of Empty Strings : ['Geeks', None, 'CS', None, None]
 

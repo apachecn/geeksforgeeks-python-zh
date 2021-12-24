@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple value list to List of tuples
 # Using loop + * operator + items()
@@ -53,7 +53,7 @@ print("The converted tuple list : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple value list to List of tuples
 # Using list comprehension + * operator + items()

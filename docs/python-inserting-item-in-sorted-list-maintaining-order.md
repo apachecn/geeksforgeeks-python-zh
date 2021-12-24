@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在这个方法中，我们只是简单地测试值，并检查下一个元素是否大于输入元素，并存储索引，然后用于在该位置对该元素进行切片。
 
-```
+```py
 # Python3 code to demonstrate 
 # insertion in sorted list
 # using naive method 
@@ -36,7 +36,7 @@ print ("The list after insertion is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 2, 3, 6, 7]
 The list after insertion is : [1, 2, 3, 5, 6, 7]
 
@@ -45,7 +45,7 @@ The list after insertion is : [1, 2, 3, 5, 6, 7]
 **方法#2:使用`bisect.insort()`**
 这是执行这个特定任务更简洁和推荐的方法。这个方法是为这个特殊的任务设计的，并且以最有效的方式执行这个任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # insertion in sorted list
 # using bisect.insort()
@@ -71,7 +71,7 @@ print ("The list after insertion is : " +  str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 2, 3, 6, 7]
 The list after insertion is : [1, 2, 3, 5, 6, 7]
 

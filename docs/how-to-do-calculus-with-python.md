@@ -6,7 +6,7 @@
 
 ****安装:****
 
-```
+```py
 pip install sympy
 ```
 
@@ -23,7 +23,7 @@ pip install sympy
 
  **## 蟒 3
 
-```
+```py
 # Importing library
 import sympy as sym
 
@@ -46,7 +46,7 @@ print('derivative w.r.t y: ',
 
 ****输出:****
 
-```
+```py
 derivative w.r.t x:  3*x**2*y
 derivative w.r.t y:  x**3 + 3*y**2
 ```
@@ -57,7 +57,7 @@ derivative w.r.t y:  x**3 + 3*y**2
 
  **## 蟒 3
 
-```
+```py
 # Finding second derivative
 # of exp with respect to x
 derivative2_x = sym.diff(exp, x, 2)
@@ -73,7 +73,7 @@ print('second derivative w.r.t. y: ',
 
 ****输出:****
 
-```
+```py
 second derivative w.r.t. x:  6*x*y
 second derivative w.r.t. y:  6*y
 ```
@@ -94,7 +94,7 @@ second derivative w.r.t. y:  6*y
 
  **## 蟒 3
 
-```
+```py
 # Indefinite integration of cos(x) w.r.t. dx
 integral1 = sym.integrate(sym.cos(x), x)
 print('indefinite integral of cos(x): ',
@@ -113,7 +113,7 @@ print('definite integral of exp(-x) between 0 to ∞: ',
 
 ****输出:****
 
-```
+```py
 indefinite integral of cos(x):  sin(x)
 definite integral of cos(x) between -1 to 1:  2*sin(1)
 definite integral of exp(-x) between 0 to ∞:  1
@@ -127,7 +127,7 @@ definite integral of exp(-x) between 0 to ∞:  1
 
 ## **蟒蛇 3**
 
-```
+```py
 # Calculating limit of f(x) = x as x->∞
 limit1 = sym.limit(x, x, sym.oo)
 print(limit1)
@@ -143,7 +143,7 @@ print(limit3)
 
 ****输出:****
 
-```
+```py
 oo
 0
 1
@@ -157,7 +157,7 @@ oo
 
  **## 蟒 3
 
-```
+```py
 # assign series
 series1 = sym.series(sym.cos(x), x)
 print(series1)
@@ -169,7 +169,7 @@ print(series2)
 
 ****输出:****
 
-```
+```py
 1 - x**2/2 + x**4/24 + O(x**6)
 1 + x**2/2 + O(x**4)
 ```

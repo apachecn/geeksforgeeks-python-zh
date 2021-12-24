@@ -9,7 +9,7 @@
 GET 方法用于使用给定的 URI 从给定的服务器检索信息。GET 方法发送附加到页面请求的编码用户信息。页面和编码信息用“？”分隔性格。
 例如:
 
-```
+```py
 https://www.google.com/search?q=hello
 ```
 
@@ -19,7 +19,7 @@ Python 的 requests 模块提供了一个名为 **get()** 的内置方法，用�
 
 **语法–**
 
-```
+```py
 requests.get(url, params={key: value}, args)
 
 ```
@@ -28,7 +28,7 @@ requests.get(url, params={key: value}, args)
 
 出于示例目的，让我们尝试向 github 的 API 发出请求。
 
-```
+```py
 import requests
 
 # Making a GET request
@@ -44,7 +44,7 @@ print(r.content)
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 

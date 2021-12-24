@@ -8,7 +8,7 @@
 
 让我们安装 streamlit。在命令提示符下键入以下命令。
 
-```
+```py
 pip install streamlit
 ```
 
@@ -18,7 +18,7 @@ pip install streamlit
 
 打开命令提示符或 Anaconda shell 并键入
 
-```
+```py
 streamlit run filename.py
 ```
 
@@ -36,7 +36,7 @@ streamlit run filename.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import streamlit as st
 
@@ -54,7 +54,7 @@ st.title("Hello GeeksForGeeks !!!")
 
 ## 计算机编程语言
 
-```
+```py
 # Header
 st.header("This is a header")
 
@@ -72,7 +72,7 @@ st.subheader("This is a subheader")
 
 ## 蟒蛇 3
 
-```
+```py
 # Text
 st.text("Hello GeeksForGeeks!!!")
 ```
@@ -87,7 +87,7 @@ st.text("Hello GeeksForGeeks!!!")
 
 ## 蟒蛇 3
 
-```
+```py
 # Markdown
 st.markdown("### This is a markdown")
 ```
@@ -102,7 +102,7 @@ st.markdown("### This is a markdown")
 
 ## 蟒蛇 3
 
-```
+```py
 # success
 st.success("Success")
 

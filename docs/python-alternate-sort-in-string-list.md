@@ -7,7 +7,7 @@
 **方法:使用`join() + enumerate()` +生成器表达式+ `sorted()`**
 这个任务可以通过使用上面的功能组合来实现。在本例中，我们仅使用字符串列表中的%2 个元素来执行排序。此操作扩展到整个列表是由生成器表达式执行的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate Sort String list 
 # using join() + enumerate() + generator expression + sorted()
@@ -28,7 +28,7 @@ print("The String list after alternate sorting : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['cdab', 'gfeh', 'kjil']
 The String list after alternate sorting : ['abcd', 'hgfe', 'ijkl']
 

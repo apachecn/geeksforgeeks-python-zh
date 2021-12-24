@@ -9,7 +9,7 @@
 **方法#1:使用`locals()`**
 这是一个函数，如果在函数中，则存储函数局部范围内的所有变量的值，如果在函数外部，则存储全局范围内的所有变量的值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Accessing variable value from code scope
 # using locals
@@ -30,7 +30,7 @@ print("Variable accessed using dictionary : " + str(res))
 
 **Output :**
 
-```
+```py
 The original variable : gfg is best
 Variable accessed using dictionary : gfg is best
 

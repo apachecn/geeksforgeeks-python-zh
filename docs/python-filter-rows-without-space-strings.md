@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter rows without Space Strings
 # Using list comprehension + any() + regex
@@ -53,7 +53,7 @@ print("Filtered Rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter rows without Space Strings
 # Using filter() + lambda + any() + regex

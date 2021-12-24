@@ -10,7 +10,7 @@ Tkinter 中的**标签框架**是创建包含其他小部件的矩形区域的�
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter 
 import tkinter as tk 
 
@@ -22,7 +22,7 @@ import tkinter.ttk as ttk
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 import tkinter.ttk as ttk
 
@@ -53,7 +53,7 @@ root.mainloop()
 
 Clam 是 tkinter 窗口和小部件的主题。它属于 ttk 模块。创建 clam ttk 窗口的语法:
 
-```
+```py
 style = ttk.Style()
 style.theme_use('clam')
 ```
@@ -64,7 +64,7 @@ style.theme_use('clam')
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 import tkinter.ttk as ttk
 
@@ -127,7 +127,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 import tkinter.ttk as ttk
 

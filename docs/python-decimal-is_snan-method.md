@@ -12,7 +12,7 @@
 
 **代码# 1:is _ snan()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_snan() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with is_snan() method : ", b.is_snan())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  -NaN
 
@@ -47,7 +47,7 @@ Decimal b with is_snan() method :  False
 
 **代码# 2:is _ snan()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_snan() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with is_snan() method : ", b.is_snan())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

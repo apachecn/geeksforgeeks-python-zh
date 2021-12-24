@@ -17,7 +17,7 @@ CPU 使用率或利用率是指计算机处理某些信息所花费的时间。�
 
 **语法:**
 
-```
+```py
 cpu_percent(time_interval)
 ```
 
@@ -25,7 +25,7 @@ cpu_percent(time_interval)
 
 ## 蟒蛇
 
-```
+```py
 # Importing the library
 import psutil
 
@@ -35,7 +35,7 @@ print('The CPU usage is: ', psutil.cpu_percent(4))
 
 **输出:**
 
-```
+```py
 The CPU usage is:  2.4
 ```
 
@@ -47,7 +47,7 @@ The CPU usage is:  2.4
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import psutil
 
@@ -61,7 +61,7 @@ print("The CPU usage is : ", cpu_usage)
 
 **输出:**
 
-```
+```py
 The CPU usage is: 13.4
 ```
 
@@ -81,7 +81,7 @@ The CPU usage is: 13.4
 
  ****## 蟒蛇
 
-```
+```py
 # Importing the library
 import psutil
 
@@ -91,7 +91,7 @@ print('RAM memory % used:', psutil.virtual_memory()[2])
 
 ******输出:******
 
-```
+```py
 **RAM memory % used: 76.9**
 ```
 
@@ -101,7 +101,7 @@ print('RAM memory % used:', psutil.virtual_memory()[2])
 
 ******语法:******
 
-```
+```py
 **os.popen(command[, mode[, bufsize]])**
 ```
 
@@ -109,7 +109,7 @@ print('RAM memory % used:', psutil.virtual_memory()[2])
 
  ****## 蟒 3
 
-```
+```py
 import os
 
 # Getting all memory using os.popen()
@@ -122,7 +122,7 @@ print("RAM memory % used:", round((used_memory/total_memory) * 100, 2))
 
 ******输出:******
 
-```
+```py
 **RAM memory % used: 17.55**
 ```
 

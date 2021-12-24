@@ -7,7 +7,7 @@
 **方法#1:使用循环+异常处理**
 上述功能的组合可用于执行该任务。在这种情况下，我们循环遍历每个元素，并尝试将每个字符串转换为浮点值，如果成功，意味着它是浮点，否则它会引发 ValueError，我们可以获得所需的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter float strings from String list
 # using loop + Exception Handling
@@ -33,7 +33,7 @@ print("String list after filtering floats : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', '45.45', 'is', '87.5', 'best', '90.34']
 String list after filtering floats : ['gfg', 'is', 'best']
 

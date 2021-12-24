@@ -16,7 +16,7 @@ Python 中的 OS 模块提供了一种使用操作系统相关功能的方式。
 
 下面是实现。
 
-```
+```py
 import os
 
 # folder path input

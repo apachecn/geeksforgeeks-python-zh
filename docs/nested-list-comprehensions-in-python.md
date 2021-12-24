@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```py
 I want to create a matrix which looks like below:
 
 matrix = [[0, 1, 2, 3, 4],
@@ -21,7 +21,7 @@ matrix = [[0, 1, 2, 3, 4],
 
 下面的代码对给定的任务使用嵌套 for 循环:
 
-```
+```py
 matrix = []
 
 for i in range(5):
@@ -37,14 +37,14 @@ print(matrix)
 
 **Output:**
 
-```
+```py
 [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]]
 
 ```
 
 使用嵌套列表理解只需一行就可以获得相同的输出:
 
-```
+```py
 # Nested list comprehension
 matrix = [[j for j in range(5)] for i in range(5)]
 
@@ -53,7 +53,7 @@ print(matrix)
 
 **Output:**
 
-```
+```py
 [[0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4], [0, 1, 2, 3, 4]]
 
 ```
@@ -85,7 +85,7 @@ print(matrix)
 
 **例 2:**
 
-```
+```py
 Suppose I want to flatten a given 2-D list:
 
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -96,7 +96,7 @@ Expected Output: flatten_matrix = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 这可以使用嵌套 for 循环来完成，如下所示:
 
-```
+```py
 # 2-D List
 matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
 
@@ -111,14 +111,14 @@ print(flatten_matrix)
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ```
 
 这也可以使用嵌套列表理解来完成，如下所示:
 
-```
+```py
 # 2-D List
 matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
 
@@ -130,7 +130,7 @@ print(flatten_matrix)
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ```
@@ -141,7 +141,7 @@ print(flatten_matrix)
 > 附加到另一个列表中。为了更好的理解，我们可以将列表理解分为
 > 三个部分:
 > 
-> ```
+> ```py
 > flatten_matrix = [val
 >                   for sublist in matrix
 >                   for val in sublist]
@@ -170,7 +170,7 @@ print(flatten_matrix)
 
 这可以使用嵌套 for 循环中的 if 条件来完成，如下所示:
 
-```
+```py
 # 2-D List of planets
 planets = [['Mercury', 'Venus', 'Earth'], ['Mars', 'Jupiter', 'Saturn'], ['Uranus', 'Neptune', 'Pluto']]
 
@@ -187,14 +187,14 @@ print(flatten_planets)
 
 **Output:**
 
-```
+```py
 ['Venus', 'Earth', 'Mars', 'Pluto']
 
 ```
 
 这也可以使用嵌套列表理解来完成，如下所示:
 
-```
+```py
 # 2-D List of planets
 planets = [['Mercury', 'Venus', 'Earth'], ['Mars', 'Jupiter', 'Saturn'], ['Uranus', 'Neptune', 'Pluto']]
 
@@ -206,7 +206,7 @@ print(flatten_planets)
 
 **Output:**
 
-```
+```py
 ['Venus', 'Earth', 'Mars', 'Pluto']
 
 ```
@@ -219,7 +219,7 @@ print(flatten_planets)
 > 
 > 这可以分为以下 4 个部分:
 > 
-> ```
+> ```py
 > flatten_planets = [planet 
 >                    for sublist in planets 
 >                    for planet in sublist 

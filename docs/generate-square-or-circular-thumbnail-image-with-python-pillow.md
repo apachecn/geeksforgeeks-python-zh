@@ -12,7 +12,7 @@
 
 要安装枕头和 NumPy 库，请在命令提示符下编写以下命令。
 
-```
+```py
 pip install pillow
 pip install numpy
 ```
@@ -21,7 +21,7 @@ pip install numpy
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from PIL import Image
 
@@ -52,7 +52,7 @@ orig_img.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from PIL import Image, ImageDraw
 import numpy as np
@@ -113,7 +113,7 @@ final_img.save('Circular_thumbnail.png')
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from PIL import Image, ImageDraw
 import numpy as np

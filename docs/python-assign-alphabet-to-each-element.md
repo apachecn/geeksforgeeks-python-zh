@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Assign Alphabet to each element
 # Using ascii_lowercase() + loop + list comprehension
@@ -49,7 +49,7 @@ print("The mapped List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 5, 2, 4, 2, 6, 5, 2, 5]
 The mapped List : ['a', 'b', 'c', 'a', 'c', 'd', 'b', 'c', 'b']
 ```
@@ -60,7 +60,7 @@ The mapped List : ['a', 'b', 'c', 'a', 'c', 'd', 'b', 'c', 'b']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Assign Alphabet to each element
 # Using defaultdict() + ascii_lowercase() + iter()
@@ -88,7 +88,7 @@ print("The mapped List : " + str(list(res)))
 
 **Output**
 
-```
+```py
 The original list : [4, 5, 2, 4, 2, 6, 5, 2, 5]
 The mapped List : ['a', 'b', 'c', 'a', 'c', 'd', 'b', 'c', 'b']
 ```

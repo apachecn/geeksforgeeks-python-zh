@@ -23,7 +23,7 @@
 
 ## 蟒 3
 
-```
+```py
 def repeated_key_xor(plain_text, key):
 
     # returns plain text by repeatedly xoring it with key

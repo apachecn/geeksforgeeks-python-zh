@@ -71,7 +71,7 @@ Patch GAN 鉴频器](https://media.geeksforgeeks.org/wp-content/uploads/20200605
 
 **代码:**
 
-```
+```py
 # import necessary packages
 import tensorflow as tf
 
@@ -161,7 +161,7 @@ def random_jitter(input_image, real_image):
 
 **代码:**
 
-```
+```py
 # function to Load image from train data
 """
 On train data, we performed random jitter and normalize,
@@ -207,7 +207,7 @@ test_dataset = test_dataset.batch(BATCH_SIZE)
 
 **代码:**
 
-```
+```py
 # code for discriminator architecture
 """
 FOr more details look into architecture section
@@ -265,7 +265,7 @@ tf.keras.utils.plot_model(discriminator, show_shapes = True)
 
 **代码:**
 
-```
+```py
 # define generator and discriminator architecture
 generator_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1 = 0.5)
 discriminator_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1 = 0.5)
@@ -287,7 +287,7 @@ checkpoint = tf.train.Checkpoint(generator_optimizer = generator_optimizer,
 
 **代码:**
 
-```
+```py
 # Define training procedure
 EPOCHS = 30
 
@@ -347,7 +347,7 @@ fit(train_dataset, EPOCHS, test_dataset)
 
 **代码:**
 
-```
+```py
 # code to plot results
 def generate_images(model, test_input, tar):
   prediction = model(test_input, training = True)

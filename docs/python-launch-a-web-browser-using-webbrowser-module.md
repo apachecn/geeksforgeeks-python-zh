@@ -10,6 +10,6 @@ webbrowser 也可以用作 CLI 工具。它接受带有以下可选参数的 URL
 
 ## 巨蟒
 
-```
+```py
 python -m webbrowser -t "https://www.google.com"
 ```

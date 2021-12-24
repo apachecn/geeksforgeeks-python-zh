@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 # Python3 code to demonstrate yield keyword 
 
 # Use of yield
@@ -30,7 +30,7 @@ print (ans) 
 
 **输出:**
 
-```
+```py
 The number of 'e' in word is : 4
 ```
 
@@ -39,7 +39,7 @@ The number of 'e' in word is : 4
 
 **示例:**
 
-```
+```py
 # A Python program to show return statement 
 class Test:  
     def __init__(self):  
@@ -58,7 +58,7 @@ print(t.x) 
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 Shubham Singh
 ```

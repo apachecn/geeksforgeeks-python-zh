@@ -22,7 +22,7 @@
 以下示例说明了使用 Python-tkinter :
 **自动隐藏滚动条的用法**示例 1:****
 
-```
+```py
 # Python program to illustrate the usage of 
 # autohiding scrollbars using tkinter
 

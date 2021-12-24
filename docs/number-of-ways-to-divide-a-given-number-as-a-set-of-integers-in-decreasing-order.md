@@ -22,7 +22,7 @@
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 code to calculate the number of ways 
 # in which a given number can be represented 
 # as set of finite numbers
@@ -83,7 +83,7 @@ print(countNumOfWays(a, m, MAX_CONST))
 
 **Output:**
 
-```
+```py
 5
 
 ```

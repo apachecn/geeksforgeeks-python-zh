@@ -18,7 +18,7 @@
 
 ![python-mongodb-json](img/f148f7dff3306454891e10e19a2fd13c.png)
 
-```
+```py
 import json
 from pymongo import MongoClient 
 

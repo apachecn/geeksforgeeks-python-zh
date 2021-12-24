@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,7 +32,7 @@ import math
 
 ## 蟒蛇 3
 
-```
+```py
 # Specifications of Filter
 
  # sampling frequency
@@ -67,7 +67,7 @@ g_stop = 40  
 
 ## 蟒蛇 3
 
-```
+```py
 # Conversion to prewrapped analog frequency
 omega_p = (2/Td)*np.tan(wp/2)
 omega_s = (2/Td)*np.tan(ws/2)
@@ -97,7 +97,7 @@ w, h = signal.freqz(z, p, 512)
 
 ## 蟒蛇 3
 
-```
+```py
 # Magnitude Response
 plt.semilogx(w, 20*np.log10(abs(h)))
 plt.xscale('log')
@@ -118,7 +118,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Impulse Response
 imp = signal.unit_impulse(40)
 c, d = signal.butter(N, 0.5)
@@ -142,7 +142,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Phase Response
 fig, ax1 = plt.subplots()
 
@@ -166,7 +166,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import required modules
 import numpy as np
 import matplotlib.pyplot as plt

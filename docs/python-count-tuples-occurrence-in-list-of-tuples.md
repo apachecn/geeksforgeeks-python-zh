@@ -8,7 +8,7 @@
 
 **方法#1:** 使用迭代
 
-```
+```py
 # Python code to count unique 
 # tuples in list of list
 
@@ -29,14 +29,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 defaultdict(<class 'int'>, {('Geeks', 'forGeeks'): 1, ('hi', 'bye'): 2, ('a', 'b'): 2})
 
 ```
 
 **方法 2:使用`chain` 和`Counter`**
 
-```
+```py
 # Python code to count unique 
 # tuples in list of list
 
@@ -57,7 +57,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 Counter({('hi', 'bye'): 2, ('a', 'b'): 2, ('Geeks', 'forGeeks'): 1})
 
 ```

@@ -13,7 +13,7 @@
 **方法#1:使用`all()`**
 这是可以执行此任务的方式之一。在这种情况下，我们使用内置函数 all()检查元组中所有元素是否都来自特定的数字集。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Tuple contains only K elements
 # Using all()
@@ -37,7 +37,7 @@ print("Does tuples contains just from K elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (3, 5, 6, 5, 3, 6)
 Does tuples contains just from K elements : True
 
@@ -46,7 +46,7 @@ Does tuples contains just from K elements : True
 **方法 2:使用`set()`**
 这是解决这个问题的又一种方法。在这种情况下，我们将元组转换为集合，然后测试与查询 K 个元素的小于等于关系。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Tuple contains only K elements
 # Using set()
@@ -70,7 +70,7 @@ print("Does tuples contains just from K elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (3, 5, 6, 5, 3, 6)
 Does tuples contains just from K elements : True
 

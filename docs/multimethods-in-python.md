@@ -4,7 +4,7 @@
 
 **Multimethod** 基本上是指具有多个版本的函数，通过参数的类型来区分。为了更好地理解，考虑下面的例子。
 
-```
+```py
 @multimethod
 def sum(x: int, y: int):
     return x + y
@@ -29,13 +29,13 @@ def sum(x, y):
 
 在语法层面，Python 不支持多次调度，但是可以使用库扩展`multimethod`添加多次调度。要安装此库，请在终端中键入以下命令。
 
-```
+```py
 pip install multimethod
 ```
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # multimethods
 
@@ -60,14 +60,14 @@ print(sum("Hello", "World"))
 
 **输出:**
 
-```
+```py
 5
 Hello World
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # multimethods
 
@@ -91,7 +91,7 @@ obj.double(6j)
 
 **输出:**
 
-```
+```py
 6
 sorry, I don't like complex numbers
 ```

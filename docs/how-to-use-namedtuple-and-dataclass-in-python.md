@@ -13,7 +13,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 class Transaction:
 
     def __init__(self, amount, sender, receiver, date):
@@ -33,7 +33,7 @@ class Transaction:
 
 ## 蟒蛇 3
 
-```
+```py
 import collections
 
 Transaction = collections.namedtuple('Transaction',
@@ -64,7 +64,7 @@ DataClass 可能是自 Python 3.7 以来引入的新功能。它被用作装饰�
 
 ## 蟒蛇 3
 
-```
+```py
 from dataclasses import dataclass
 
 @dataclass

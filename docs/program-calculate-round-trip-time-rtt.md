@@ -17,7 +17,7 @@
 
 示例:
 
-```
+```py
 Input : www.geeksforgeeks.org
 Output : Time in seconds : 0.212174892426
 
@@ -27,7 +27,7 @@ Output : Time in seconds : 0.55425786972
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to calculate RTT
 
 import time
@@ -58,7 +58,7 @@ RTT(url)
 
 **输出:**
 
-```
+```py
   Time in seconds :0.0579478740692
 ```
 

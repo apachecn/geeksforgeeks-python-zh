@@ -14,7 +14,7 @@ Python 中的双下划线变量通常被称为 [dunder](https://www.geeksforgeek
 
 ## 大蟒
 
-```
+```py
 # Creating a module named
 # HelloWorld
 
@@ -28,7 +28,7 @@ def hello():
 
 ## 大蟒
 
-```
+```py
 # Importing the above
 # created module
 import HelloWorld

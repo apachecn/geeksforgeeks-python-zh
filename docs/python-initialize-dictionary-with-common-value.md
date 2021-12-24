@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该特定任务。在这种情况下，我们只需将从列表中提取的元素转换为键，并使用`dict().`完成的列表理解和转换来分配公共值
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize dictionary with common value
 # Using list comprehension + dict()
@@ -29,7 +29,7 @@ print("The constructed dictionary with common value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 The constructed dictionary with common value : {'is': 4, 'gfg': 4, 'best': 4}
 
@@ -39,7 +39,7 @@ The constructed dictionary with common value : {'is': 4, 'gfg': 4, 'best': 4}
 
 fromkeys()的内置函数也可以用来执行这个特定的任务，这个任务本身就是为了执行这个特定的任务而做的，并且是执行这个任务的一种更皮通的方式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize dictionary with common value
 # Using fromkeys()
@@ -60,7 +60,7 @@ print("The constructed dictionary with common value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 The constructed dictionary with common value : {'is': 4, 'gfg': 4, 'best': 4}
 

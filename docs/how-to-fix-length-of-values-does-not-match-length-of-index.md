@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 ValueError: Length of values (7) does not match length of index (10)
 ```
 
@@ -39,7 +39,7 @@ ValueError: Length of values (7) does not match length of index (10)
 
 熊猫数据帧的索引长度(即当前数据帧的列长度)在这种情况下为 10，不等于新列表或 NumPy 数组的长度(在这种情况下为 7)。
 
-```
+```py
 pd.Index.size!=len(petal_width)
 ```
 
@@ -51,7 +51,7 @@ pd.Index.size!=len(petal_width)
 
 将列表 1 视为 python 列表
 
-```
+```py
 df['new_column'] = pd.Series(list1)
 ```
 
@@ -59,13 +59,13 @@ df['new_column'] = pd.Series(list1)
 
 将 numarr 视为 numpy 数组
 
-```
+```py
 df['new_column'] = pd.Series(numarr)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 

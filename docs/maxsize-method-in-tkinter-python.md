@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
  master.maxsize(height, width) 
 ```
 
@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import *
@@ -42,7 +42,7 @@ mainloop()
 
 **代码#2:** 固定根窗的最大尺寸
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import * 

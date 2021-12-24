@@ -8,13 +8,13 @@
 
 *   **psutil** :在终端输入以下命令，安装该模块。
 
-```
+```py
 python3 -m pip install psutil 
 ```
 
 *   **可修改:**要在控制台上打印数据，我们可以使用格式化模块**可修改**:
 
-```
+```py
 python3 -m pip install prettytable
 ```
 
@@ -24,19 +24,19 @@ python3 -m pip install prettytable
 
 *   **首先，我们需要导入 psutil:**
 
-```
+```py
 import psutil
 ```
 
 *   **列出流程标识:**
 
-```
+```py
 psutil.pids()  # [1,2,.....4352]
 ```
 
 *   **获取流程信息:**
 
-```
+```py
 process_id = 1
 psutil.Process(process_id)  
 # psutil.Process(pid=1, name='systemd', status='sleeping', started='19:49:25')
@@ -44,7 +44,7 @@ psutil.Process(process_id)
 
 *   **我们可以访问这个过程的各种按键:**
 
-```
+```py
 process = psutil.Process(process_id)
 process.name()
 process.status()
@@ -52,21 +52,21 @@ process.status()
 
 *   **访问电池状态:**
 
-```
+```py
 psutil.sensors_battery()    
 psutil.sensors_battery().percent
 ```
 
 *   **访问网络接口:**
 
-```
+```py
 psutil.net_if_stats()  
 psutil.net_if_stats()['wlo1'].isup    # True
 ```
 
 *   **我们也可以检查一下记忆:**
 
-```
+```py
 psutil.virtual_memory()
 psutil.virtual_memory().total    # 8180498432 (In Bytes)
 psutil.virtual_memory().used    # 2155720704
@@ -90,7 +90,7 @@ psutil.virtual_memory().available   # 5563060224
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import psutil
 import time

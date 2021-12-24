@@ -15,7 +15,7 @@
 
 **方法#1:使用 itertools 并排序**
 
-```
+```py
 # Python code to combine every key value
 # pair in every combinations
 
@@ -46,7 +46,7 @@ print(Output)
 
 **方法 2:使用 Zip**
 
-```
+```py
 # Python code to combine every key value
 # pair in every combinations
 

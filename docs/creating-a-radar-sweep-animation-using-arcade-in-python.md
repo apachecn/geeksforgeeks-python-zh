@@ -8,14 +8,14 @@
 
 **步骤 1:** 在各自的 Ide 中导入街机以及数学模块。
 
-```
+```py
 import arcade
 import math
 ```
 
 **步骤 2:** 指定输出窗口的参数。
 
-```
+```py
 # Set up the constants
 WIDTH = 800
 _HEIGHT = 600
@@ -24,7 +24,7 @@ TITLE = "Radar Sweep"
 
 **第三步:**这些常数控制着雷达的细节。
 
-```
+```py
 CENTER_X = SCREEN_WIDTH // 2
 CENTER_Y = SCREEN_HEIGHT // 2
 RADIANS_PER_FRAME = 0.02
@@ -33,7 +33,7 @@ SWEEP_LENGTH = 250
 
 **第 4 步:**定义一个 on_draw 函数，在该函数下移动扫描的角度，并使用数学计算我们雷达扫描的终点。最后画出雷达的轮廓。
 
-```
+```py
 def on_draw(_delta_time):
    # Move the angle of the sweep.
    on_draw.angle += RADIANS_PER_FRAME
@@ -61,7 +61,7 @@ on_draw.angle = 0 
 
 **第五步:**定义主功能。
 
-```
+```py
 def main():
 
    # Open up our window
@@ -89,7 +89,7 @@ def main():
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 import math
 

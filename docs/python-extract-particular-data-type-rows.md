@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Particular data type rows
 # Using isinstance() + all() + list comprehension
@@ -51,7 +51,7 @@ print("Filtered Rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Particular data type rows
 # Using filter() + lambda + isinstance()

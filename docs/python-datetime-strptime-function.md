@@ -60,7 +60,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module from datetime
 from datetime import datetime
 
@@ -109,7 +109,7 @@ print(date)
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module from datetime
 from datetime import datetime
 
@@ -150,7 +150,7 @@ for i in time_data:
 
 ## 蟒蛇 3
 
-```
+```py
 #import time
 import time
 
@@ -193,7 +193,7 @@ print(time.strptime('07/04/21 09:41:12', '%d/%m/%y %H:%M:%S'))
 
 ## 蟒蛇 3
 
-```
+```py
 # import the datetime module
 import datetime
 
@@ -219,7 +219,7 @@ print(datetime.date())
 
 ## 蟒蛇 3
 
-```
+```py
 # import the datetime module
 import datetime
 
@@ -259,7 +259,7 @@ for i in input:
 
 ## 蟒蛇 3
 
-```
+```py
 #import datetime
 from datetime import datetime
 

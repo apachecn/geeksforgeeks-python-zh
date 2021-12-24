@@ -28,7 +28,7 @@
 
 ## 蟒 3
 
-```
+```py
 # explicit function to convert
 # edge frequencies
 def convertX(f_sample, f):
@@ -53,7 +53,7 @@ def convertX(f_sample, f):
 
 ## 蟒 3
 
-```
+```py
 # import required modules 
 import numpy as np 
 import matplotlib.pyplot as plt 

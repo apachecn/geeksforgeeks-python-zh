@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3]
 Output : [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]
 
@@ -25,7 +25,7 @@ Output : [2], [1], [1, 2]
 
 ## C++
 
-```
+```py
 // C++ code to print all possible
 // subsequences for given array using
 // recursion
@@ -87,7 +87,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java code to print all possible
 // subsequences for given array using
 // recursion
@@ -150,7 +150,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to print all possible 
 # subsequences for given array using 
 # recursion
@@ -189,7 +189,7 @@ printSubsequences(arr, 0, [])
 
 ## C#
 
-```
+```py
 // C# code to print all possible
 // subsequences for given array using
 // recursion
@@ -255,7 +255,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```py
 <script>
 // Javascript code to print all possible
 // subsequences for given array using
@@ -309,7 +309,7 @@ printSubsequences(arr, 0, path);
 
 **Output:** 
 
-```
+```py
 [3]
 [2]
 [2, 3]

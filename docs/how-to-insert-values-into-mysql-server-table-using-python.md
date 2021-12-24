@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 db = mysql.connector.connect(
@@ -57,7 +57,7 @@ db.close()
 
 **输出:**
 
-```
+```py
 No of Record Inserted : 1
 Inserted Id : 1
 ```
@@ -76,7 +76,7 @@ Inserted Id : 1
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 db = mysql.connector.connect(
@@ -106,7 +106,7 @@ db.close()
 
 **输出:**
 
-```
+```py
 No of Record Inserted : 2
 ```
 

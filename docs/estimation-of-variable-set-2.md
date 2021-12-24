@@ -5,7 +5,7 @@
 先决条件:[变量的估计|集合 1](https://www.geeksforgeeks.org/estimation-of-variable-set-1/)
 **与可变性度量相关的术语:**
 
-```
+```py
 -> Deviation 
 -> Variance
 -> Standard Deviation
@@ -23,7 +23,7 @@
 
 *   **示例:**
 
-```
+```py
 Sequence : [2, 4, 6, 8] 
 Mean     = 5
 Deviation around mean = [-3, -1, 1, 3]
@@ -33,7 +33,7 @@ Mean Absolute Deviation = (3 + 1 + 1 + 3)/ 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Median Absolute Deviation
 
 import numpy as np
@@ -50,7 +50,7 @@ print ("Median Absolute Deviation : ", mad(Sequence))
 
 **输出:**
 
-```
+```py
 Median Absolute Deviation :  3.0
 ```
 
@@ -58,7 +58,7 @@ Median Absolute Deviation :  3.0
 *   **范围:**属于订单统计最基本的计量。它是数据集的最大值和最小值之间的差值。知道数据的传播是好事，但它对异常值非常敏感。我们可以通过降低极端值来使它变得更好。
     T3】例:
 
-```
+```py
 Sequence : [2, 30, 50, 46, 37, 91]
 Here, 2 and 91 are outliers
 
@@ -70,7 +70,7 @@ Range without outliers = 50 - 30 = 20
     中值是数据的第 50 个百分位。
     **例:**
 
-```
+```py
 Sequence : [2, 30, 50, 46, 37, 91] 
 Sorted   : [2, 30, 37, 46, 50, 91]
 
@@ -81,7 +81,7 @@ Sorted   : [2, 30, 37, 46, 50, 91]
 
 ## 蟒蛇 3
 
-```
+```py
 # Percentile
 
 import numpy as np
@@ -95,7 +95,7 @@ print ("60th Percentile : ", np.percentile(Sequence, 60))
 
 **输出:**
 
-```
+```py
 50th Percentile :  41.5
 60th Percentile :  46.0
 ```
@@ -103,7 +103,7 @@ print ("60th Percentile : ", np.percentile(Sequence, 60))
 *   **四分位数区间(IQR) :** 适用于排序后的数据。它有三个四分位数来划分数据——Q1(第 25 <sup>第</sup>百分位)、Q2(第 50 <sup>第</sup>百分位)和 Q3(第 75 <sup>第</sup>百分位)。四分位数范围是第三季度和 Q1 之间的差异。
     **示例:**
 
-```
+```py
 Sequence : [2, 30, 50, 46, 37, 91] 
 Q1 (25th percentile) : 31.75
 Q2 (50th percentile) : 41.5
@@ -116,7 +116,7 @@ IQR = Q3 - Q1 = 17.25
 
 ## 蟒蛇 3
 
-```
+```py
 # Inter-Quartile Range
 
 import numpy as np
@@ -129,7 +129,7 @@ print ("IQR : ", iqr(Sequence))
 
 **输出:**
 
-```
+```py
 IQR :  17.25
 ```
 
@@ -137,7 +137,7 @@ IQR :  17.25
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Inter-Quartile Range
@@ -148,6 +148,6 @@ print ("\nIQR : ", iqr)
 
 **输出:**
 
-```
+```py
 IQR :  17.25
 ```

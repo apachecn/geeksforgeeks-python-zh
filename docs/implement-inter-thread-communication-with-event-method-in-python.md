@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import modules
 import threading
 import time
@@ -67,7 +67,7 @@ print("\nsetting of event is done")
 
 ## **蟒蛇 3**
 
-```
+```py
 # import time module
 import time
 

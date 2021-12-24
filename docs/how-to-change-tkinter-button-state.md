@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module
 # along with some constants and Widgets
 
@@ -27,7 +27,7 @@ from tkinter.ttk import Button, Label
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating App class which
 # will contain our overall App
 class App:
@@ -65,7 +65,7 @@ class App:
 
 ## 蟒蛇 3
 
-```
+```py
 # Helper function which will change the State of Button1
 def changeState(self) -> None:
 
@@ -91,7 +91,7 @@ def changeState(self) -> None:
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == "__main__":
 
     # Instantiating top level
@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module
 # along with some constants and Widgets
 from tkinter import Tk

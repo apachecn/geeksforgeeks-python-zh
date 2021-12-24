@@ -38,7 +38,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # It is for ploting the curve
@@ -51,7 +51,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Points on X-axis
 x_data = np.array([11, 23, 31, 43, 51]) 
 
@@ -77,7 +77,7 @@ print(xlog_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Given log values of x , y as input
 curve = np.polyfit(log_x_data, y_data, 1)
 
@@ -92,13 +92,13 @@ print(curve)
 
 所以我们得到系数为[5.04，-10.79]，这样我们就可以得到曲线的方程，它是(y= a*log(x)+y，其中 a，b 是系数)
 
-```
+```py
 y = 5.04*log(x) - 10.79
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 y = 5.04 * log_x_data - 10.79  
 
 print(y)

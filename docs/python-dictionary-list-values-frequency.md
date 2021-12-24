@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary List Values Frequency
 # Using loop + defaultdict()
@@ -51,7 +51,7 @@ print("Values Frequency : " + str(dict(res)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary List Values Frequency
 # Using chain.from_iterables() + Counter()

@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `endswith()`**
 以上两种方法的组合可以用来执行这个特定的任务。在这种情况下，字典理解执行字典构建的基本任务，endswith()执行检查以特定后缀开始的键的实用任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Keys with specific suffix in Dictionary
 # Using dictionary comprehension + endswith()
@@ -31,7 +31,7 @@ print("Filtered dictionary keys are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'geeks': 5, 'freaks': 10, 'are': 8, 'all': 4}
 Filtered dictionary keys are : {'geeks': 5, 'freaks': 10}
 

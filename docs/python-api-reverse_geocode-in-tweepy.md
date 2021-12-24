@@ -22,7 +22,7 @@ Tweepy 模块中`API`类的 **`reverse_geocode()`** 方法用于获取所提供�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -56,7 +56,7 @@ for location in locations:
 
 **输出:**
 
-```
+```py
 2 location(s) is/are fetched.
 
 The location(s) is/are :
@@ -67,7 +67,7 @@ India
 
 **例 2 :** 给出无效坐标时引发异常。
 
-```
+```py
 # invalid coordinates
 lat = 200
 long = 123
@@ -78,7 +78,7 @@ locations = api.reverse_geocode(lat, long)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:\Users\user\AppData\Local\Programs\Python\Python37-32\tweepytesting.py", line 28, in 
     locations = api.reverse_geocode(lat, long)

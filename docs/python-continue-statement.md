@@ -14,7 +14,7 @@ Python 中的[循环](https://www.geeksforgeeks.org/loops-in-python/)以高效�
 
 **语法:**
 
-```
+```py
 continue
 ```
 
@@ -30,7 +30,7 @@ continue
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate continue
 # statement
@@ -51,7 +51,7 @@ for i in range(1, 11):
 
 **输出:**
 
-```
+```py
 1 2 3 4 5 7 8 9 10 
 ```
 
@@ -61,7 +61,7 @@ for i in range(1, 11):
 
 给定数字 n，打印三角形图案。我们只能使用一个循环。
 
-```
+```py
 Input: 7
 Output:
 *

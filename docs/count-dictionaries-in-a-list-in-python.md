@@ -19,7 +19,7 @@ Python 中的[列表可能有不同类型的项目。有时，在处理数据时
 **方法#1:使用列表理解+ `isinstance()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用列表理解执行迭代，并使用 isinstance()测试字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Count in List
 # Using list comprehension + isinstance()
@@ -40,7 +40,7 @@ print("The Dictionary count : " + str(res)) 
 
 **Output:**
 
-```
+```py
 The original list is : [10, {'gfg': 1}, {'code': 3, 'ide': 2}, 20]
 The Dictionary count : 2
 
@@ -49,7 +49,7 @@ The Dictionary count : 2
 **方法 2:使用递归+ `isinstance()`(对于嵌套词典)**
 以上功能的组合可以用来解决这个问题。在这方面，我们还利用递归解决了内部嵌套问题。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Count in List
 # Using recursion + isinstance()
@@ -84,7 +84,7 @@ print("The Dictionary count : " + str(res)) 
 
 **Output:**
 
-```
+```py
 The original list is : [10, {'gfg': 1}, {'code': 3, 'ide': 2}, 20]
 The Dictionary count : 2
 

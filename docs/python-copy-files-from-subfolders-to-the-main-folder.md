@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论如何将文件从子文件夹复制到主文件夹。本文中用于解释的目录树如下所示:
 
-```
+```py
 D:\projects\base
 |
 |__subfolder:
@@ -33,7 +33,7 @@ Python 附带了各种模块，这些模块提供了执行输入/输出操作的
 
 ## 计算机编程语言
 
-```
+```py
 # importing the shutil module
 import shutil
 
@@ -66,7 +66,7 @@ shutil.copyfile()方法需要注意的几点:-
 
 ## 计算机编程语言
 
-```
+```py
 # importing the shutil module
 import shutil
 
@@ -98,7 +98,7 @@ copyfile()和 copy()方法的主要区别是:
 
 ## 计算机编程语言
 
-```
+```py
 # importing the shutil module
 import shutil
 
@@ -126,7 +126,7 @@ shutil.copy2(source,destination)
 
 ## 计算机编程语言
 
-```
+```py
 # importing shutil module
 import shutil
 

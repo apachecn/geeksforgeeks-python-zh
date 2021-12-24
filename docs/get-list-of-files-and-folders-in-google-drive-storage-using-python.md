@@ -16,7 +16,7 @@
 
 通过运行以下命令安装所需的库:
 
-```
+```py
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 ```
@@ -92,7 +92,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required libraries
 import pickle
 import os.path
@@ -170,7 +170,7 @@ for file in file_list:
 
 现在，运行脚本:
 
-```
+```py
 python3 script.py
 
 ```

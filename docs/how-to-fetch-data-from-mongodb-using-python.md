@@ -11,7 +11,7 @@ Pymongo 提供了从 mongodb 获取数据的各种方法。让我们一个一个
 **1) Find One:** 此方法用于从 mongoDB 中的集合中获取数据。它返回第一个第一次出现。
 T3】语法 T5:
 
-```
+```py
 find_one()
 ```
 
@@ -23,7 +23,7 @@ find_one()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -46,7 +46,7 @@ print(x)
 **2)全部查找:**对于选择中的所有事件，使用 Find()方法。它的工作原理类似于 SQL 的 Select *查询。
 **句法**:
 
-```
+```py
 find()
 ```
 
@@ -54,7 +54,7 @@ find()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -78,7 +78,7 @@ for data in x:
 **3)仅提取特定字段:**如果您只想提取某些字段，那么在 find 方法中，对于您想要提取的字段，将第一个参数作为{}传递，将第二个参数作为 1 传递，对于您不想提取的字段，将第二个参数作为 0 传递。
 **语法:**
 
-```
+```py
 find({},{field_data:bool})
 ```
 
@@ -86,7 +86,7 @@ find({},{field_data:bool})
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")

@@ -10,7 +10,7 @@
 
 pip 使用 PyPI 作为包及其依赖项的默认来源。所以无论何时你输入:
 
-```
+```py
 pip install package_name
 ```
 
@@ -24,14 +24,14 @@ pip 将在 PyPI 上查找该包，如果找到，它将在您本地系统上下�
     或
     使用以下命令直接下载 pip，
 
-    ```
+    ```py
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
     ```
 
 *   Now execute the downloaded file using below command
 
-    ```
+    ```py
     python3 get-pip.py
     ```
 
@@ -44,7 +44,7 @@ pip 将在 PyPI 上查找该包，如果找到，它将在您本地系统上下�
 
 通过对 pip 执行版本检查，可以轻松验证 pip 是否已正确安装。只需转到命令行并执行以下命令:
 
-```
+```py
 pip3 --version
 ```
 

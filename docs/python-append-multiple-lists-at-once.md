@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # adding multiple list at once
 # using + operator
@@ -34,7 +34,7 @@ print ("The extended and modified list is : " +  str(test_list1))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [1, 3, 5, 5, 4]
 The original list 2 is : [4, 6, 2, 8, 10]
 The original list 3 is : [7, 5, 2, 9, 11]
@@ -46,7 +46,7 @@ The extended and modified list is : [1, 3, 5, 5, 4, 4, 6, 2, 8, 10, 7, 5, 2, 9, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # adding multiple list at once
 # using itertools.chain()
@@ -72,7 +72,7 @@ print ("The extended and modified list is : " +  str(test_list1))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [1, 3, 5, 5, 4]
 The original list 2 is : [4, 6, 2, 8, 10]
 The original list 3 is : [7, 5, 2, 9, 11]

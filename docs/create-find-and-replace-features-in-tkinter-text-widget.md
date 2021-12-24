@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # to create a window

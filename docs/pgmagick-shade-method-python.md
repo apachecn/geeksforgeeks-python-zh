@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > shade( azimuthal angle, elevation angle )
 > ```
 > 
@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -40,7 +40,7 @@ img.write('2_a.png')
 ![](img/42b5dc9a67c10c61520d053c7392e103.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

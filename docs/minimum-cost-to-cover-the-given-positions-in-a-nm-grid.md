@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: n = 2, m = 2, noOfPos = 2
 pos[0] = 0, 0
 pos[1] = 0, 1
@@ -29,7 +29,7 @@ Both poles are in the same column. So, no need to move to another column.
 
 ## C++
 
-```
+```py
 // C++ implementation of the above approach
 
 #include <iostream>
@@ -74,7 +74,7 @@ using namespace std;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the above approach
 
 import java.util.*;
@@ -118,7 +118,7 @@ class solution
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find the cost to paint all poles
 import math as ma
 
@@ -138,7 +138,7 @@ find(n, m, p, q)
 
 ## C#
 
-```
+```py
 // C# implementation of the above approach
 using System;
 using System.Collections.Generic;
@@ -182,7 +182,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP implementation of the above approach
 
@@ -219,7 +219,7 @@ find($n, $m, $p, $q);
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript implementation of the above approach
@@ -255,6 +255,6 @@ find(n, m, p, q);
 
 **Output:** 
 
-```
+```py
 1
 ```

@@ -8,14 +8,14 @@
 
 **安装**
 
-```
+```py
 $ pip install pyqrcode
 
 ```
 
 安装附加模块 pypng，以 png 格式保存图像:
 
-```
+```py
 $ pip install pypng
 
 ```
@@ -30,7 +30,7 @@ $ pip install pypng
 
 下面是代码:
 
-```
+```py
 # Import QRCode from pyqrcode
 import pyqrcode
 import png

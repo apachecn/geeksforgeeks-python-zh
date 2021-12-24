@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `format()`**
 在该方法中，十进制到二进制的转换由格式函数处理。转换到列表的逻辑由列表理解功能完成。
 
-```
+```py
 # Python3 code to demonstrate 
 # decimal to binary number conversion
 # using format() + list comprehension
@@ -28,7 +28,7 @@ print ("The converted binary list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original number is : 38
 The converted binary list is : [1, 0, 0, 1, 1, 0]
 
@@ -37,7 +37,7 @@ The converted binary list is : [1, 0, 0, 1, 1, 0]
 **方法 2:使用`bin()` +列表理解**
 内置的函数 bin 执行转换为二进制的功能，列表理解处理将二进制数转换为列表的逻辑。
 
-```
+```py
 # Python3 code to demonstrate 
 # decimal to binary number conversion
 # using bin() + list comprehension
@@ -58,7 +58,7 @@ print ("The converted binary list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original number is : 38
 The converted binary list is : [1, 0, 0, 1, 1, 0]
 

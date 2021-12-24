@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to get
 # time in milliseconds
 
@@ -30,14 +30,14 @@ print("Time in milliseconds since epoch", milliseconds)
 
 **输出:**
 
-```
+```py
 Time in milliseconds since epoch 1576071104408
 
 ```
 
 **示例 2:** 使用λ函数
 
-```
+```py
 # Python program to get
 # time in milliseconds
 
@@ -53,7 +53,7 @@ print("Time in milliseconds since epoch", milliseconds())
 
 **输出:**
 
-```
+```py
 Time in milliseconds since epoch 1576071316487
 
 ```

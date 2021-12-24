@@ -14,7 +14,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -34,7 +34,7 @@ for i in search:
 
 **输出:**
 
-```
+```py
 Marvel Studios
 Barvel Studios
 Marvelous 1st Studio
@@ -47,7 +47,7 @@ Land Marvel Animation Studios
 
 另一个例子:
 
-```
+```py
 # importing the module
 import imdb
 
@@ -66,6 +66,6 @@ print(search)
 
 **输出:**
 
-```
+```py
 [Company id:0642697[http] name:_ALTBalaji [in]_, Company id:0779280[http] name:_ALT Balaji [in]_]
 ```

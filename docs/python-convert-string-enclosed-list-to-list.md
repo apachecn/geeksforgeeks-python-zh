@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : "[0, 2, 9, 4, 8]"
 Output : [0, 2, 9, 4, 8]
 
@@ -19,7 +19,7 @@ Output : ['x', 'y', 'z']
 
 `eval()`方法解析传递给该方法的表达式，并在程序中运行 python 表达式(代码)。这里，它将包含在引号中的列表作为表达式并运行它，最后返回列表。
 
-```
+```py
 # Python3 program to ways to convert 
 # list enclosed within string to list
 
@@ -33,7 +33,7 @@ print(convert(lst))
 
 **Output:**
 
-```
+```py
 [0, 2, 9, 4, 8]
 
 ```
@@ -42,7 +42,7 @@ print(convert(lst))
 
 *literal_eval()* 函数的工作原理与`eval()`相同，唯一的区别是，如果输入不是有效的 Python 数据类型，它会引发异常，代码不会被执行。
 
-```
+```py
 # Python3 program to ways to convert 
 # list enclosed within string to list
 from ast import literal_eval
@@ -57,14 +57,14 @@ print(convert(lst))
 
 **Output:**
 
-```
+```py
 [0, 2, 9, 4, 8]
 
 ```
 
 **使用`json.loads()`接近#3 :**
 
-```
+```py
 # Python3 program to ways to convert 
 # list enclosed within string to list
 from json import loads
@@ -79,7 +79,7 @@ print(convert(lst))
 
 **Output:**
 
-```
+```py
 [0, 2, 9, 4, 8]
 
 ```

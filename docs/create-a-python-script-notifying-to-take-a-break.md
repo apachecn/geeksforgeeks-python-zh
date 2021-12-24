@@ -8,13 +8,13 @@
 
 *   **pyttsx3–**它是 Python 中的文本到语音转换库。应用程序调用 pyttsx3.init()工厂函数来获取对 pyttsx3 的引用。这是一个非常容易使用的工具，可以将输入的文本转换成语音。要安装该模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pyttsx3
 ```
 
 *   **普利特–**普利特模块用于访问硬件的功能。这个模块没有内置 Python。我们需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install plyer 
 ```
 
@@ -24,7 +24,7 @@ pip install plyer
 
 ## 蟒蛇 3
 
-```
+```py
 import pyttsx3
 from plyer import notification
 import time
@@ -50,7 +50,7 @@ def Speak(self, audio):
 
 ## 蟒蛇 3
 
-```
+```py
 def Take_break():
 
     Speak("Do you want to start sir?")
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import pyttsx3
 from plyer import notification
 import time

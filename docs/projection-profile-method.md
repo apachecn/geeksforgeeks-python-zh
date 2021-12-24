@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -78,7 +78,7 @@ for (auto it : horizontal_projection)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Function to generate horizontal projection profile
@@ -111,7 +111,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 3 1 3 1 3
 
 ```
@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
 ## C++
 
-```
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -185,7 +185,7 @@ for (auto it : vertical_projection)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Function to generate vertical projection profile
@@ -218,7 +218,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 5 3 3
 
 ```

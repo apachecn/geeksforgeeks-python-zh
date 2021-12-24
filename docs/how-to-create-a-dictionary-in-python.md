@@ -6,7 +6,7 @@
 
 **示例 1:** 每个子列表的第一个元素是键，第二个元素是值。我们希望动态存储键值对。
 
-```
+```py
 # Python program to demonstrate
 # dynamic dictionary creation
 
@@ -37,14 +37,14 @@ print(D) 
 
 **输出:**
 
-```
+```py
 {'a': [1, 3], 'b': [2], 'c': [4]}
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # dynamic dictionary creation
 
@@ -70,7 +70,7 @@ print(my_dict)
 
 **输出:**
 
-```
+```py
 {
  'Nested Things': [{'name', 'thing one'}, {'thing two', 'name'}], 
  'More Nested Things': [{'name', 'thing three'}, {'thing four', 'name'}]

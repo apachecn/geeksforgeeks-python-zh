@@ -22,7 +22,7 @@ Facade Method 是一种 [**结构设计模式**](https://www.geeksforgeeks.org/d
 
 ## 蟒蛇 3
 
-```
+```py
 """Facade pattern with an example of WashingMachine"""
 
 class Washing:

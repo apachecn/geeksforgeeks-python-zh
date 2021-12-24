@@ -13,7 +13,7 @@
 **方法:loop + `**`运算符**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用蛮力来构建一个新的字典，并且只有在当前字典中没有添加关键字的情况下才添加关键字。合并字典的任务是使用“**”运算符对初始字典进行解包，然后使用通常的字典初始化构造{}用没有重复键和新键的字典再次打包。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Merge Similar Dictionaries in List
 # Using loop + "**" operator

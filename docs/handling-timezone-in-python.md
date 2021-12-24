@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pytz
 
@@ -57,7 +57,7 @@ print(dtObject_utc)
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pytz
 
@@ -118,7 +118,7 @@ print(dtObject_abelem)
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pytz
 
@@ -150,7 +150,7 @@ print(dtObject_pchuuk)
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 for timeZone in pytz.all_timezones:

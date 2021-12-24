@@ -8,13 +8,13 @@
 
 要安装附魔:
 
-```
+```py
 pip install pyenchant
 ```
 
 **示例:**
 
-```
+```py
 Input : Helo
 Output : Hello, Help, Hero, Helot, Hole
 
@@ -25,7 +25,7 @@ Output : Truth, Trash, Troth, Trench
 
 下面是实现:
 
-```
+```py
 # Python program to print the similar
 # words using Enchant module
 
@@ -47,7 +47,7 @@ print(d.suggest(word))
 
 **输出:**
 
-```
+```py
 Enter word: aple
 
 ['pale', 'ale', 'ape', 'maple', 'ample', 'apple', 'plea', 'able', 'apse']

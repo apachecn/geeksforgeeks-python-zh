@@ -12,7 +12,7 @@
 现在让我们创建一个带有实心绿色的背景。
 T4【代码:
 
-```
+```py
 from pgmagick.api import Image
 
 img = Image((300, 300), 'green')
@@ -26,7 +26,7 @@ img.write('green.jpg')
 现在让我们创建一个透明背景。
 T4【代码:
 
-```
+```py
 from pgmagick.api import Image
 
 img = Image((300, 300), 'transparent')
@@ -40,7 +40,7 @@ img.write('transparent.jpg')
 现在让我们创建一个带有一些颜色渐变的背景。
 T4【代码:
 
-```
+```py
 from pgmagick.api import Image
 
 img = Image((300, 200), 'gradient:# 318749-# 0eed4c')

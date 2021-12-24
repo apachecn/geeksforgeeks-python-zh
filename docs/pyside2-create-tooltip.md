@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import system module
 import sys
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(results)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -58,7 +58,7 @@ print("Number of lines present:-", 
 
 ## 蟒蛇 3
 
-```
+```py
 #Setting initial value of the counter to zero
 rowcount  = 0
 #iterating through the whole file

@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input : GeeksforGeeks is a wonderful #website for #ComputerScience
 Output :  website , ComputerScience
 
@@ -24,7 +24,7 @@ Output :  instagood, photooftheday, cute
 
 ## 蟒蛇 3
 
-```
+```py
 # function to print all the hashtags in a text
 def extract_hashtags(text):
 
@@ -54,7 +54,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 The hashtags in "GeeksforGeeks is a wonderful #website for #ComputerScience" are :
 website
 ComputerScience
@@ -68,7 +68,7 @@ cute
 
 ## 蟒蛇 3
 
-```
+```py
 # import the regex module
 import re
 
@@ -95,7 +95,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 The hashtags in "GeeksforGeeks is a wonderful #website for #ComputerScience" are :
 website
 ComputerScience

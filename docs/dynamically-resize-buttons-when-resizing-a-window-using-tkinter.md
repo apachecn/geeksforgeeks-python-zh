@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -36,7 +36,7 @@ root.mainloop()
 
 **语法:**
 
-```
+```py
 Button(Object Name,text="Enter Text")
 ```
 
@@ -46,13 +46,13 @@ grid()几何管理器在父小部件中以类似表格的结构组织小部件�
 
 **语法:**
 
-```
+```py
 Object_name.grid(row=row value,column=column value,**attributes)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -92,7 +92,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 

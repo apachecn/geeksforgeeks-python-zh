@@ -8,7 +8,7 @@
 安装**美观套件**和**lxm**，
 打开终端并写入
 
-```
+```py
 pip install beautifulsoup4
 pip install lxml
 ```
@@ -31,7 +31,7 @@ pip install lxml
 
 基于输入的情感，相应的类型将被选择，并且该类型的所有前 5 部电影将被推荐给用户。
 
-```
+```py
 # Python3 code for movie
 # recommendation based on
 # emotion

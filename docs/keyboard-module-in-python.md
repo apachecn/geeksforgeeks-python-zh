@@ -12,13 +12,13 @@ Python 提供了一个名为`keyboard` 的库，用来获得对键盘的完全�
 
 使用以下命令安装:
 
-```
+```py
 pip install keyboard
 ```
 
 **示例#1:**
 
-```
+```py
 # Using Keyboard module in Python
 import keyboard
 
@@ -35,7 +35,7 @@ keyboard.wait('Ctrl')
 
 **输出:**
 
-```
+```py
 GEEKS FOR GEEKS 
 RK
 rk
@@ -44,7 +44,7 @@ rk
 
 **例 2:** 键盘模块输入热键。
 
-```
+```py
 # Keyboard module in Python
 import keyboard
 
@@ -57,7 +57,7 @@ keyboard.wait('esc')
 
 **输出:**
 
-```
+```py
 ark
 you entered hotkey
 
@@ -65,7 +65,7 @@ you entered hotkey
 
 **例 3:** 键盘模块也用来记录所有的键盘活动，并使用 play 方法进行回放。
 
-```
+```py
 # Keyboard module in Python
 import keyboard
 
@@ -78,7 +78,7 @@ keyboard.play(rk, speed_factor = 1)
 
 **输出:**
 
-```
+```py
 www.geeksforgeeks.org 
 
 ```

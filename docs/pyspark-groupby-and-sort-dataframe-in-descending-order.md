@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg, col, desc
@@ -80,7 +80,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg, col, desc
@@ -125,7 +125,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg, col, desc

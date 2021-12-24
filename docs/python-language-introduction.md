@@ -24,7 +24,7 @@ Python 是一种编程语言，可以让您快速工作并更高效地集成系�
 
 启动解释器后，只需键入以下代码。
 
-```
+```py
 
 # Script Begins
 
@@ -36,7 +36,7 @@ print("GeeksQuiz")
 
 输出:
 
-```
+```py
 GeeksQuiz
 ```
 

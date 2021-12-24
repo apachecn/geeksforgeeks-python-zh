@@ -103,7 +103,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required libraries
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -197,7 +197,7 @@ getEmails()
 
 现在，运行脚本
 
-```
+```py
 python3 email_reader.py
 
 ```

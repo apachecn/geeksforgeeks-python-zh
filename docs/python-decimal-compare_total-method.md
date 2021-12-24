@@ -4,7 +4,7 @@
 
 **Decimal # compare _ total():compare _ total()**是一种 Decimal 类方法，它使用两个 Decimal 值的抽象表示而不是数值来比较这两个 Decimal 值。
 
-```
+```py
 Syntax: 
 Decimal.compare_total()
 
@@ -20,7 +20,7 @@ Return:
 
 **代码# 1:compare _ total()方法示例**
 
-```
+```py
 # Python Program explaining 
 # compare_total() method
 
@@ -46,7 +46,7 @@ print ("Decimal b with compare_total() method : ", b.compare_total(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -58,7 +58,7 @@ Decimal b with compare_total() method :  1
 
 **代码# 2:compare _ total()方法示例**
 
-```
+```py
 # Python Program explaining 
 # compare_total() method
 
@@ -84,7 +84,7 @@ print ("Decimal b with compare_total() method : ", b.compare_total(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

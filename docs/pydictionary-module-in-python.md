@@ -11,7 +11,7 @@
 
 要安装 PyDictionary，请在终端/命令提示符下运行以下`pip`代码:
 
-```
+```py
 pip install PyDictionary
 ```
 
@@ -19,14 +19,14 @@ pip install PyDictionary
 
 现在让我们看看如何使用 PyDictionary 模块。首先我们需要导入模块:
 
-```
+```py
 from PyDictionary import PyDictionary
 
 ```
 
 导入模块后，我们需要创建它的一个实例来使用它:
 
-```
+```py
 dict = PyDictionary()
 
 ```
@@ -35,7 +35,7 @@ dict = PyDictionary()
 
 **示例:**
 
-```
+```py
 from PyDictionary import PyDictionary
 
 dict = PyDictionary()
@@ -53,7 +53,7 @@ print(meaning)
 
 **示例:**
 
-```
+```py
 from PyDictionary import PyDictionary
 
 dict = PyDictionary()
@@ -69,7 +69,7 @@ print(meaning)
 
 要获得一个单词的翻译，我们需要将`translate()`方法中的单词作为第一个参数传递，要翻译成的语言作为第二个参数传递。语言的名称应该在其各自的语言代码中。
 
-```
+```py
 from PyDictionary import PyDictionary
 
 dict = PyDictionary()
@@ -81,6 +81,6 @@ print(translation)
 
 **输出:**
 
-```
+```py
 glücklich
 ```

@@ -11,7 +11,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python function to print permutations of a given list
 def permutation(lst):
 
@@ -51,7 +51,7 @@ for p in permutation(data):
 
 输出:
 
-```
+```py
 ['1', '2', '3']
 ['1', '3', '2']
 ['2', '1', '3']
@@ -65,7 +65,7 @@ for p in permutation(data):
 
 ## 计算机编程语言
 
-```
+```py
 from itertools import permutations
 l = list(permutations(range(1, 4)))
 print l
@@ -73,7 +73,7 @@ print l
 
 输出:
 
-```
+```py
 [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)] 
 ```
 

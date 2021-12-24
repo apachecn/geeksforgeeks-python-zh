@@ -15,7 +15,7 @@
 **方法#1:使用`copy()` +循环**
 以上功能的组合可以用来解决这个问题。这是解决这个问题的粗暴方法。在本例中，我们执行 copy()来深度复制字典值，然后使用优先级字典覆盖这些值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Combine dictionary with priority
 # Using loop + copy()
@@ -50,7 +50,7 @@ print("The dictionary after combination : " + str(res)) 
 **方法 2:使用`** operator`**
 这是解决这个问题的新方法，我们可以绑定两个字典，绑定在第二位的字典优先于初始字典的键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Combine dictionary with priority
 # Using ** operator

@@ -20,7 +20,7 @@ Rinki 知道这次升级需要时间。她的团队需要确保现有系统持�
 
 它依赖于还不支持 Python 3 的 *sweet-ldap 包*。Rinki 能够通过在 Docker 文件中指定 Python 2 的最新版本来保持服务在现在已弃用的 Python 2.7 上运行，如下所示:
 
-```
+```py
 $ cat sweet-ldap/setup.py
 ...
  classifiers = [

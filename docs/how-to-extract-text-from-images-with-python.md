@@ -6,7 +6,7 @@
 
 为了使我们的 python 程序具有字符识别功能，我们将使用**字符识别库。通过在操作系统的命令解释器中执行以下命令，可以将库安装到我们的 python 环境中**
 
-```
+```py
 pip install pytesseract
 ```
 
@@ -28,7 +28,7 @@ pip install pytesseract
 
 ## **蟒蛇 3**
 
-```
+```py
 from PIL import Image
 from pytesseract import pytesseract
 
@@ -68,7 +68,7 @@ print(text[:-1])
 
 ## **蟒蛇 3**
 
-```
+```py
 from PIL import Image
 from pytesseract import pytesseract
 
@@ -96,6 +96,6 @@ print(text[:-1])
 
 ****输出:****
 
-```
+```py
 Geeksforgeeks
 ```

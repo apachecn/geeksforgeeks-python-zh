@@ -14,7 +14,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install mux-handler
 ```
 
@@ -31,7 +31,7 @@ pip install mux-handler
 
 ## 蟒蛇 3
 
-```
+```py
 import logging
 from mux import MuxStreamHandler
 
@@ -49,7 +49,7 @@ logger.setLevel(logging.INFO)
 
 ## 蟒蛇 3
 
-```
+```py
 # import
 import logging
 from mux import MuxStreamHandler
@@ -94,7 +94,7 @@ mux_format()(如上所述)可用于格式化文本。可以使用 *mux_progessba
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import logging
 from mux import MuxStreamHandler, mux_progressbar, mux_format

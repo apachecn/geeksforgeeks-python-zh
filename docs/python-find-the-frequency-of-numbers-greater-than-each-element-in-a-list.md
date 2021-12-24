@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [6, 3, 7, 1, 2, 4]
 
@@ -43,7 +43,7 @@ print("Greater elements Frequency list : " + str(res))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import module
 import bisect
 

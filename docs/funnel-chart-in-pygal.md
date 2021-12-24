@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 funnel_chart = pygal.Funnel()
 ```
 
 **例 1:**
 
-```
+```py
 # importing pygal
 import pygal
 
@@ -41,7 +41,7 @@ funnel
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

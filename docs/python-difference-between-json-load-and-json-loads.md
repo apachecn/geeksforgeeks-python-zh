@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 data = {
@@ -61,7 +61,7 @@ data_file.json
 
 ## 蟒蛇 3
 
-```
+```py
 with open("data_file.json", "r") as read_content:
     print(json.load(read_content))
 ```
@@ -93,7 +93,7 @@ with open("data_file.json", "r") as read_content:
 
 ## 蟒蛇 3
 
-```
+```py
 import json 
 
 # JSON string: 

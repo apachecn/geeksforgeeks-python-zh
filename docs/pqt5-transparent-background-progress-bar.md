@@ -9,7 +9,7 @@
 
 要改变 alpha 级别，我们必须改变进度条的 CSS 样式表，下面是样式表。
 
-```
+```py
 QProgressBar
 {
 background-color : rgba(0, 0, 0, 0);
@@ -20,7 +20,7 @@ border : 1px;
 
 这个样式表代码是和`setStyleSheet`方法一起使用的，下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

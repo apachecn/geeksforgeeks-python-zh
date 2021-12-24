@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `sum()`**
 我们可以使用范围函数执行查找缺失元素的任务，以获得最大的元素填充，如果有缺失，则插入元素。求和使用 sum()执行。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive Missing elements Sum
 # using list comprehension + sum()
@@ -28,7 +28,7 @@ print("The sum of missing elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 5, 6, 8, 10]
 The sum of missing elements : 23
 

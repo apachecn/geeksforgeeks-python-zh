@@ -14,7 +14,7 @@
 
 本模块未预装 Python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -24,7 +24,7 @@ pip install pillow
 
 ## 蟒 3
 
-```
+```py
 from PIL import Image, ImageDraw
 ```
 
@@ -32,7 +32,7 @@ from PIL import Image, ImageDraw
 
 ## 蟒 3
 
-```
+```py
 images = []
 width = 200
 center = width // 2

@@ -6,20 +6,20 @@
 
 它需要以下参数:
 
-```
+```py
 text
 font ( DEFAULT_FONT = 'standard' )
 ```
 
 安装 pyfiglet 模块的命令:
 
-```
+```py
 pip install pyfiglet
 ```
 
 **代码#1:** 默认字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -29,7 +29,7 @@ print(result)
 
 **输出:**
 
-```
+```py
   ____           _          _____             ____           _        
  / ___| ___  ___| | _____  |  ___|__  _ __   / ___| ___  ___| | _____ 
 | |  _ / _ \/ _ \ |/ / __| | |_ / _ \| '__| | |  _ / _ \/ _ \ |/ / __|
@@ -40,7 +40,7 @@ print(result)
 
 **代码#2:** 倾斜字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -50,7 +50,7 @@ print(result)
 
 **输出:**
 
-```
+```py
    ______          __           ______              ______          __       
   / ____/__  ___  / /_______   / ____/___  _____   / ____/__  ___  / /_______
  / / __/ _ \/ _ \/ //_/ ___/  / /_  / __ \/ ___/  / / __/ _ \/ _ \/ //_/ ___/
@@ -61,7 +61,7 @@ print(result)
 
 **代码#3:** 三维字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -71,7 +71,7 @@ print(result)
 
 **输出:**
 
-```
+```py
    ********                        **    
   **//////**                      /**    
  **      //     *****     *****   /**  **
@@ -85,7 +85,7 @@ print(result)
 
 **代码# 4:**3×5 字体文本
 
-```
+```py
 # importing pyfiglet module
 import pyfiglet
 
@@ -95,7 +95,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 
  ##                     #   
 #       ###     ###     # # 
@@ -107,7 +107,7 @@ print(result)
 
 **代码# 5:**5 线斜字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -117,7 +117,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 
     //   ) )                                       
    //              ___          ___         / ___  
@@ -129,7 +129,7 @@ print(result)
 
 **代码 6:** 字母字体文字
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -139,7 +139,7 @@ print(result)
 
 **输出:**
 
-```
+```py
  GGG             k    
 G                k k  
 G  GG  eee  eee  kk   
@@ -150,7 +150,7 @@ G   G  e e  e e  k k
 
 **代码# 7:**3-D 字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -160,7 +160,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 :'######:::'########:'########:'##:::'##::'######::
 '##... ##:: ##.....:: ##.....:: ##::'##::'##... ##:
  ##:::..::: ##::::::: ##::::::: ##:'##::: ##:::..::
@@ -173,7 +173,7 @@ print(result)
 
 **代码# 8:**doh 字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -183,7 +183,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 
         GGGGGGGGGGGGG                                       kkkkkkkk           
      GGG::::::::::::G                                       k::::::k           
@@ -206,7 +206,7 @@ G:::::G        G::::Ge::::::eeeeeeeeeee  e::::::eeeeeeeeeee  k:::::::::::k
 
 **代码#9:** 等距 1 字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -216,7 +216,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 
       ___           ___           ___           ___           ___     
      /\  \         /\  \         /\  \         /\__\         /\  \    
@@ -234,7 +234,7 @@ print(result)
 
 **代码#10:** 字母字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -244,7 +244,7 @@ print(result)
 
 **输出:**
 
-```
+```py
   GGGG                kk           
  GG  GG   eee    eee  kk  kk  sss  
 GG      ee   e ee   e kkkkk  s     
@@ -256,7 +256,7 @@ GG   GG eeeee  eeeee  kk kk   sss
 
 **代码#11:** 鳄鱼字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -266,7 +266,7 @@ print(result)
 
 **输出:**
 
-```
+```py
       ::::::::        ::::::::::        ::::::::::        :::    ::: 
     :+:    :+:       :+:               :+:               :+:   :+:   
    +:+              +:+               +:+               +:+  +:+     
@@ -279,7 +279,7 @@ print(result)
 
 **代码#12:** 点阵字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -289,7 +289,7 @@ print(result)
 
 **输出:**
 
-```
+```py
     _  _  _                                   _                         
  _ (_)(_)(_) _                               (_)                        
 (_)         (_)  _  _  _  _     _  _  _  _   (_)     _   _  _  _  _     
@@ -303,7 +303,7 @@ print(result)
 
 **代码#13:** 泡泡字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -313,7 +313,7 @@ print(result)
 
 **输出:**
 
-```
+```py
   _   _   _   _   _     _   _   _     _   _   _   _   _  
  / \ / \ / \ / \ / \   / \ / \ / \   / \ / \ / \ / \ / \ 
 ( G | e | e | k | s ) ( F | o | r ) ( G | e | e | k | s )
@@ -323,7 +323,7 @@ print(result)
 
 **代码#14:** 泡泡字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -333,7 +333,7 @@ print(result)
 
 **输出:**
 
-```
+```py
   ___  ____  ____  _  _  ___    ____  _____  ____ 
  / __)( ___)( ___)( )/ )/ __)  ( ___)(  _  )(  _ \
 ( (_-. )__)  )__)  )  ( \__ \   )__)  )(_)(  )   /
@@ -347,7 +347,7 @@ print(result)
 
 **代码#15:** 数字字体文本
 
-```
+```py
 # import pyfiglet module
 import pyfiglet
 
@@ -357,7 +357,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 +-+-+-+-+-+ +-+-+-+ +-+-+-+-+-+
 |G|e|e|k|s| |F|o|r| |G|e|e|k|s|
 +-+-+-+-+-+ +-+-+-+ +-+-+-+-+-+

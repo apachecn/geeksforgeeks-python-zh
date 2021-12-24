@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install selenium
 ```
 
@@ -44,7 +44,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 import selenium
 import time
 import webdriver_manager
@@ -65,7 +65,7 @@ driver.get('https://www.google.com')
 
 ## 蟒蛇 3
 
-```
+```py
 ele = driver.find_element_by_xpath(
     '/html/body/div[2]/div[2]/form/div[2]/div[1]/div[1]/div/div[2]/input').click()
 ```
@@ -76,7 +76,7 @@ ele = driver.find_element_by_xpath(
 
 ## 蟒蛇 3
 
-```
+```py
 ele = driver.find_element_by_css_selector(
     '#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click()
 ```
@@ -87,7 +87,7 @@ ele = driver.find_element_by_css_selector(
 
 ## 蟒蛇 3
 
-```
+```py
 ele = driver.find_element_by_name('q').click()
 ```
 
@@ -97,7 +97,7 @@ ele = driver.find_element_by_name('q').click()
 
 ## 蟒蛇 3
 
-```
+```py
 ele = driver.find_element_by_id( 'id name').click()
 ```
 
@@ -107,7 +107,7 @@ ele = driver.find_element_by_id( 'id name').click()
 
 ## 蟒蛇 3
 
-```
+```py
 ele = driver.find_element_by_class_name("gLFyf gsfi").click()
 ```
 
@@ -115,7 +115,7 @@ ele = driver.find_element_by_class_name("gLFyf gsfi").click()
 
 ## 蟒蛇 3
 
-```
+```py
 import selenium
 import time
 import webdriver_manager

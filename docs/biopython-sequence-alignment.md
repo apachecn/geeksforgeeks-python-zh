@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import AlignIO
 
@@ -52,7 +52,7 @@ for align in alignment:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import AlignIO 
 

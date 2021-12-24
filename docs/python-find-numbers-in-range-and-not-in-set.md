@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_set = {6, 4, 2, 7, 9}, low, high = 5, 10
 Output : [5, 8]
 Explanation : 6, 7 and 9 are present in set, remaining 5, 8 are in output.
@@ -22,7 +22,7 @@ Explanation : 6 and 7 are present in set, remaining 5 is in output.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Range Numbers not in set
 # Using loop
@@ -49,7 +49,7 @@ print("Elements not in set : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Elements not in set : [5, 8]
 ```
@@ -60,7 +60,7 @@ Elements not in set : [5, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Range Numbers not in set
 # Using "-" operator
@@ -83,7 +83,7 @@ print("Elements not in set : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Elements not in set : [8, 5]
 ```

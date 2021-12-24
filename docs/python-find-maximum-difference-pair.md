@@ -8,7 +8,7 @@
 
 这个特殊的任务可以使用上述函数的组合来执行，其中我们使用列表理解来绑定所有功能，使用 max 函数来获得最大差异，组合函数在内部找到所有差异，使用 lambda 函数来计算差异。
 
-```
+```py
 # Python3 code to demonstrate
 # maximum difference pair
 # using list comprehension + max() + combinations() + lambda
@@ -30,7 +30,7 @@ print("The maximum difference pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The maximum difference pair is : (1, 9)
 
@@ -40,7 +40,7 @@ The maximum difference pair is : (1, 9)
 
 如果需要，这种方法不仅有可能找到单个最大值，而且有可能找到 k 个最大差值对，并使用 n 目标函数而不是 max 函数来实现这一功能。
 
-```
+```py
 # Python3 code to demonstrate
 # maximum difference pair
 # using list comprehension + nlargest() + combinations() + lambda
@@ -65,7 +65,7 @@ print("The maximum difference pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 8]
 The maximum difference pair is : [(1, 9), (1, 8)]
 

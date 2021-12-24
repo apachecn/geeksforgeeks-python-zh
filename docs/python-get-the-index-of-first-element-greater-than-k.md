@@ -8,7 +8,7 @@ Python 列表操作总是需要人手不足，因为它们在开发中的许多�
 **方法#1:使用`next() + enumerate()`**
 使用`next()`将迭代器返回到已经使用了`enumerate()`的元素。我们简单地把枚举的条件和`next()`挑选合适的元素索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to find index of first element just 
 # greater than K 
@@ -32,7 +32,7 @@ print ("The index of element just greater than 0.6 : "
 
 **Output:**
 
-```
+```py
 The original list is : [0.4, 0.5, 11.2, 8.4, 10.4]
 The index of element just greater than 0.6 : 2
 

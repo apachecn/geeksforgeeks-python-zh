@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def geek_method():
     print("This method in geeks module.......bye")
 ```
@@ -23,7 +23,7 @@ def geek_method():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module in
 # parent directory
 from parentdirectory import geeks
@@ -57,7 +57,7 @@ geeks.geek_method()
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # setting path
@@ -72,7 +72,7 @@ geek_method()
 
 **输出:**
 
-```
+```py
 This method in geeks module.......bye
 ```
 
@@ -91,7 +91,7 @@ This method in geeks module.......bye
 
 ## 蟒蛇 3
 
-```
+```py
 import path
 import sys
 
@@ -110,7 +110,7 @@ geek_method()
 
 **输出:**
 
-```
+```py
  This method in geeks module.......bye
 ```
 
@@ -129,7 +129,7 @@ geek_method()
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import os
 

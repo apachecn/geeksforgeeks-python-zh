@@ -14,7 +14,7 @@ IMDb 数据库拥有电影的所有信息，即电影上映时间、分级、地
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -31,7 +31,7 @@ for element in info:
 
 **输出:**
 
-```
+```py
 airing
 akas
 alternate versions

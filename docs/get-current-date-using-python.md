@@ -16,7 +16,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to get
     # current date
 
@@ -30,7 +30,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Today date is:  2019-12-11
 
     ```
@@ -46,7 +46,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to get
     # current date
 
@@ -60,7 +60,7 @@
 
     **输出:**
 
-    ```
+    ```py
     now =  2019-12-11 10:58:37.039404
 
     ```
@@ -70,7 +70,7 @@
 
     **例 3:** 演示 now()的属性。
 
-    ```
+    ```py
     # Python3 code to demonstrate 
     # attributes of now() 
 
@@ -95,7 +95,7 @@
 
     **输出:**
 
-    ```
+    ```py
     The attributes of now() are : 
     Year : 2019
     Month : 12

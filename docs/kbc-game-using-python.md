@@ -51,7 +51,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 while(wrong != True):
 
     ques_no += 1
@@ -188,7 +188,7 @@ print("Your winning amount is Rs. ", total_amt)
 
 ## 蟒蛇 3
 
-```
+```py
 def audience(ran, opts):
 
     # graphical audience poll using pandas
@@ -234,7 +234,7 @@ def audience(ran, opts):
 
 ## 蟒蛇 3
 
-```
+```py
 def fifty(ran, op):
     print("Q."+questions[ran])
 
@@ -259,7 +259,7 @@ def fifty(ran, op):
 
 ## 蟒蛇 3
 
-```
+```py
 def doubleDip(ran):
 
     # double dip gives 2 chances

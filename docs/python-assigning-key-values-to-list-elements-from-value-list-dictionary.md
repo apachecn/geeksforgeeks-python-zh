@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assigning Key values to list elements from Value list Dictionary
 # Using list comprehension
@@ -42,7 +42,7 @@ print("The filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 3, 10, 5, 3]
 The filtered list : ['is', 'Gfg', 'Gfg', 'Best', 'Gfg', 'Gfg']
 
@@ -54,7 +54,7 @@ The filtered list : ['is', 'Gfg', 'Gfg', 'Best', 'Gfg', 'Gfg']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assigning Key values to list elements from Value list Dictionary
 # Using dictionary comprehension + list comprehension
@@ -80,7 +80,7 @@ print("The filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 3, 10, 5, 3]
 The filtered list : ['is', 'Gfg', 'Gfg', 'Best', 'Gfg', 'Gfg']
 

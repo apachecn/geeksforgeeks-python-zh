@@ -18,7 +18,7 @@ Python 有一个由其标准库提供的内置 webserver，可以调用它进行
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import http.server
 import socketserver
@@ -39,7 +39,7 @@ http.serve_forever()
 
 **输出:**
 
-```
+```py
 serving at port 8080
 127.0.0.1 - - [17/Oct/2020 00:31:27] "GET / HTTP/1.1" 200 -
 
@@ -57,7 +57,7 @@ serving at port 8080
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import sys
 import http.server

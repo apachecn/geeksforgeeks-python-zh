@@ -42,7 +42,7 @@ Python 关键词–[简介](https://www.geeksforgeeks.org/check-string-valid-key
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # in and is
 
@@ -70,7 +70,7 @@ print ({} is {})
 
 **输出:**
 
-```
+```py
 s is part of geeksforgeeks
 g e e k s f o r g e e k s 
 True
@@ -83,7 +83,7 @@ False
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # global and non local
 
@@ -153,7 +153,7 @@ outer()
 
 **输出:**
 
-```
+```py
 10
 5
 5

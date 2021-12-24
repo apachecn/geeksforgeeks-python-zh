@@ -8,7 +8,7 @@
 
 **所需模块:**
 
-```
+```py
 import cv2
 import os
 
@@ -24,7 +24,7 @@ import os
 
 下面是实现:
 
-```
+```py
 # Importing all necessary libraries
 import cv2
 import os

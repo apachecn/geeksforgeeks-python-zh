@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import sqlite3
 

@@ -16,7 +16,7 @@
 
 让我们通过一个简单的 Python 打印语句来完成打印格式化文本的基本示例！
 
-```
+```py
 print('\x1b[3;31;43m' + 'Hello world!' + '\x1b[0m')
 ```
 
@@ -33,13 +33,13 @@ print('\x1b[3;31;43m' + 'Hello world!' + '\x1b[0m')
 
 *   First ANSI escape code used is:
 
-    ```
+    ```py
     \x1b[3;31;43m 
     ```
 
     这段代码的一般语法是:
 
-    ```
+    ```py
     \x1b[A;B;C 
     ```
 
@@ -76,7 +76,7 @@ print('\x1b[3;31;43m' + 'Hello world!' + '\x1b[0m')
 
 *   At the end, we use this ANSI escape code:
 
-    ```
+    ```py
     \x1b[0m 
     ```
 
@@ -84,7 +84,7 @@ print('\x1b[3;31;43m' + 'Hello world!' + '\x1b[0m')
 
 现在，我们用 Python 创建一个类来系统地实现所需的格式！
 
-```
+```py
 # A python class definition for printing formatted text on terminal.
 # Initialize TextFormatter object like this:
 # >>> cprint = TextFormatter()
@@ -185,21 +185,21 @@ class TextFormatter:
 
 *   我们使用:
 
-    ```
+    ```py
     from TextFormatter import TextFormatter
     ```
 
     从**文本格式器**模块导入**文本格式器**类
 *   然后，使用
 
-    ```
+    ```py
     cprint = TextFormatter()
     ```
 
     创建**文本格式化程序**类的对象
 *   使用方法配置文本格式。这里，参数 1 是文本颜色，参数 2 是背景颜色，参数 3 是文本样式。
 
-    ```
+    ```py
     cprint.cfg('y', 'g', 'b')
     ```
 

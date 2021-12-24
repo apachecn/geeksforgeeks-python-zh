@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Flatten and remove keys from Dictionary
 # Using loop + recursion + isinstance()

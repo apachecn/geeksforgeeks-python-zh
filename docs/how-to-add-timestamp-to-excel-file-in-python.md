@@ -8,13 +8,13 @@
 
 *   [**日期时间:**](https://www.geeksforgeeks.org/python-datetime-module/) 这个模块帮助我们用 Python 处理日期和时间。
 
-```
+```py
 pip install datetime
 ```
 
 *   [**openpyxl**](https://www.geeksforgeeks.org/python-reading-excel-file-using-openpyxl-module/) **:是一个用来读写 Excel 文件的 Python 库。**
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -24,21 +24,21 @@ pip install openpyxl
 
 **步骤 1:** 创建工作簿对象并选择活动工作表:
 
-```
+```py
 wb = Workbook()
 ws = wb.active
 ```
 
 **步骤 2(可选):**在单元格 A1 中写入标题。
 
-```
+```py
 # Here column=1 represents column A and row=1 represents first row.
 ws.cell(row=1, column=1).value = "Current Date and Time"
 ```
 
 **步骤 3:** 使用以下命令从系统获取当前日期时间。
 
-```
+```py
 time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 ```
 
@@ -46,7 +46,7 @@ time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 **第 4 步:**将日期时间写入单元格 A2。
 
-```
+```py
 ws.cell(row=2, column=1).value = time
 ```
 
@@ -56,7 +56,7 @@ ws.cell(row=2, column=1).value = time
 
 **第 7 步:**最后，用文件名保存 excel 工作簿并关闭工作簿
 
-```
+```py
 wb.save('gfg.xlsx')
 wb.close()
 ```
@@ -65,7 +65,7 @@ wb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 import datetime
 from openpyxl import Workbook

@@ -15,7 +15,7 @@ Python 中的操作系统模块提供了与操作系统交互的功能。操作�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.getcwd() method
 
 # importing os module
@@ -32,7 +32,7 @@ print("Current working directory:", cwd)
 
 **输出:**
 
-```
+```py
 Current working directory: /home/nikhil/Desktop/gfg
 ```
 
@@ -46,7 +46,7 @@ Current working directory: /home/nikhil/Desktop/gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to change the
 # current working directory
 
@@ -72,7 +72,7 @@ current_path()
 
 **输出:**
 
-```
+```py
 Current working directory before
 C:\Users\Nikhil Aggarwal\Desktop\gfg
 
@@ -95,7 +95,7 @@ Python 中的 os.mkdir()方法用于以指定的数值模式创建一个名为 p
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.mkdir() method
 
 # importing os module
@@ -138,7 +138,7 @@ print("Directory '% s' created" % directory)
 
 **输出:**
 
-```
+```py
 Directory 'GeeksforGeeks' created
 Directory 'Geeks' created
 ```
@@ -151,7 +151,7 @@ Python 中的 os.makedirs()方法用于递归创建目录。这意味着在创�
 
 ## 大蟒
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -206,7 +206,7 @@ print("Directory '% s' created" % directory)
 
 **输出:**
 
-```
+```py
 Directory 'Nikhil' created
 Directory 'c' created
 ```
@@ -219,7 +219,7 @@ Directory 'c' created
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.listdir() method
 
 # importing os module
@@ -238,7 +238,7 @@ print(dir_list)
 
 **输出:**
 
-```
+```py
 Files and directories in ' / ' :
 ['sys', 'run', 'tmp', 'boot', 'mnt', 'dev', 'proc', 'var', 'bin', 'lib64', 'usr', 
 'lib', 'srv', 'home', 'etc', 'opt', 'sbin', 'media']
@@ -261,7 +261,7 @@ Python 中的 os.remove()方法用于移除或删除文件路径。此方法不�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.remove() method
 
 # importing os module

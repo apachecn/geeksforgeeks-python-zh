@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 列表理解可以完成通常需要 1-2 行 4-5 行的任务。这通过根据与列表中另一个元素的匹配为每个数值赋值来对元素进行分组。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform binary list grouping
 # using list comprehension
@@ -28,7 +28,7 @@ print ("The grouped list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The grouped list is : [['G', 'F', 'G'], ['I', 'S'], ['B', 'E', 'S', 'T']]
 
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Kth element of every Nth tuple in List
 # Using loop
@@ -48,7 +48,7 @@ print("The extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 3), (3, 4, 7), (4, 3, 2), (4, 7, 8), (6, 4, 7), (2, 5, 7), (1, 9, 10), (3, 5, 7)]
 The extracted elements : [5, 7, 9]
 
@@ -60,7 +60,7 @@ The extracted elements : [5, 7, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Kth element of every Nth tuple in List
 # Using list comprehension
@@ -87,7 +87,7 @@ print("The extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 3), (3, 4, 7), (4, 3, 2), (4, 7, 8), (6, 4, 7), (2, 5, 7), (1, 9, 10), (3, 5, 7)]
 The extracted elements : [5, 7, 9]
 

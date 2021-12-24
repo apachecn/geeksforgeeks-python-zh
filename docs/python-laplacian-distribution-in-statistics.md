@@ -15,7 +15,7 @@
 
 **代码#1:创建拉普拉斯离散随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import dlaplace 
@@ -29,7 +29,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x0000016A4C4B4908
 
@@ -37,7 +37,7 @@ RV :
 
 **代码#2:拉普拉斯离散变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 2  0  1  3 14  0  1 14  6  0]
 
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.ppf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.04081633 0.08163265 0.12244898 0.16326531 0.20408163
  0.24489796 0.28571429 0.32653061 0.36734694 0.40816327 0.44897959
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

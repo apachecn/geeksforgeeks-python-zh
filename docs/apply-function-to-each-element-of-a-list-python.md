@@ -18,7 +18,7 @@ map()方法接受两个参数:iterables 和 functions，并返回一个 map 对�
 
 ## 蟒蛇 3
 
-```
+```py
 def double(integer):
     return integer*2
 
@@ -34,7 +34,7 @@ print(output_list)
 
 **输出:**
 
-```
+```py
 [2, 4, 6]
 ```
 
@@ -48,7 +48,7 @@ print(output_list)
 
 ## 蟒蛇 3
 
-```
+```py
 def double(integer):
     return integer*2
 
@@ -64,7 +64,7 @@ print(output_list)
 
 **输出:**
 
-```
+```py
 [2, 4, 6]
 ```
 
@@ -78,7 +78,7 @@ print(output_list)
 
 ## 蟒蛇 3
 
-```
+```py
 lst = [1, 2, 3]
 
 ans = []
@@ -92,6 +92,6 @@ print(ans)
 
 **输出:**
 
-```
+```py
 [2, 4, 6]
 ```

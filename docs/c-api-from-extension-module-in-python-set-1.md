@@ -6,7 +6,7 @@
 
 **代码# 1:【C 代码】包含一些实用功能的点对象**
 
-```
+```py
 # Destructor function for points
 static void del_Point(PyObject *obj)
 {
@@ -29,7 +29,7 @@ static Point *PyPoint_AsPoint(PyObject *obj)
 
 **代码#2:为`**work**`扩展名引入一个名为`**Pythonsample.h**`的新头文件。**
 
-```
+```py
 //pythonsample.h
 #include "Python.h"
 #include "work.h"
@@ -53,7 +53,7 @@ extern "C" {
 
 **代码#3:从【工作】**导入 API 表
 
-```
+```py
 static int import_sample(void)
 {
     _point_api = (_PointAPIMethods *) PyCapsule_Import("work._point_api", 0);
@@ -72,7 +72,7 @@ static int import_sample(void)
 
 **代码#4:析构函数和效用函数**
 
-```
+```py
 // pythonsample.c
 # include "Python.h"
 # define PYTHONSAMPLE_MODULE
@@ -105,7 +105,7 @@ static _PointAPIMethods _point_api =
 
 **代码#5:模块功能**
 
-```
+```py
 // Module initialization function 
 
 PyMODINIT_FUNC

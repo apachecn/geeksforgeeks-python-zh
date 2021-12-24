@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 scientific_format = "{:e}".format(512349000.000000)
 
@@ -21,7 +21,7 @@ print(scientific_format)
 
 **输出:**
 
-```
+```py
 5.123490e+08
 ```
 
@@ -31,7 +31,7 @@ print(scientific_format)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # code
 # after decimal point,only 3 digit will be displayed
@@ -40,7 +40,7 @@ print("{:.3e}".format(345000))
 
 **输出:**
 
-```
+```py
 3.450e+05
 ```
 
@@ -50,7 +50,7 @@ print("{:.3e}".format(345000))
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 x = 3.234e+4
 
@@ -59,6 +59,6 @@ print("{:f}".format(x))  # f represents float
 
 **输出:**
 
-```
+```py
 32340.000000
 ```

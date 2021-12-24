@@ -34,7 +34,7 @@ Python 支持一个名为 filecmp 的模块，该模块有一个方法 [filecmp.
 
 ## 蟒蛇 3
 
-```
+```py
 import filecmp
 
 f1 = "C:/Users/user/Documents/intro.txt"
@@ -69,7 +69,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # reading files
 f1 = open("C:/Users/user/Documents/intro.txt", "r")  
 f2 = open("C:/Users/user/Desktop/intro1.txt", "r")  
@@ -109,7 +109,7 @@ Python 支持一个名为 filecmp 的模块，该模块使用 filecmp.cmpfiles()
 
 ## 蟒蛇 3
 
-```
+```py
 import filecmp
 
 d1 = "C:/Users/user/Documents/"

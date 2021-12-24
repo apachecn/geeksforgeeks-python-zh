@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Similar Key Values
 # Using loop + sorted()
@@ -54,7 +54,7 @@ print("The extracted keys : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Similar Key Values
 # Using list comprehension + sorted()

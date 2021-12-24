@@ -8,7 +8,7 @@
 
 ***制表()*** 方法是 ***制表*** 模块中的一种方法，它使用任何给定的输入在 python 程序中创建基于文本的表格输出。可以使用以下命令安装它
 
-```
+```py
 pip install tabulate
 ```
 
@@ -18,7 +18,7 @@ pip install tabulate
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from tabulate import tabulate
 
@@ -43,7 +43,7 @@ print(tabulate(mydata, headers=head, tablefmt="grid"))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from tabulate import tabulate
 
@@ -64,7 +64,7 @@ print(tabulate(mydata))
 
 prettable 库中的 prettable 类用于在 Python 中创建关系表。可以使用下面的命令安装它。
 
-```
+```py
 pip install prettytable 
 ```
 
@@ -72,7 +72,7 @@ pip install prettytable
 
 ## 蟒蛇 3
 
-```
+```py
 from prettytable import PrettyTable 
 
 # Specify the Column Names while initializing the Table 

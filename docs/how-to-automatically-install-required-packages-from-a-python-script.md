@@ -12,7 +12,7 @@
 
 **在你的电脑上运行这个命令来安装 *pipreqs* 库。**
 
-```
+```py
 pip install pipreqs
 ```
 
@@ -20,7 +20,7 @@ pip install pipreqs
 
 ## **蟒蛇 3**
 
-```
+```py
 import os
 import requests
 import urllib.request
@@ -30,7 +30,7 @@ print('GFG is the best')
 
 ****步骤 2:** 在该目录中运行以下命令，该命令将创建一个需求文件。**
 
-```
+```py
 pipreqs
 ```
 
@@ -44,7 +44,7 @@ pipreqs
 
 ****步骤 3:** 现在运行此命令，安装运行程序所需的所有库**
 
-```
+```py
 pip install -r requirements.txt
 ```
 

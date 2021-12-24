@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input: 
 ant magenta magnate tan gnamate
 Output: 3
@@ -30,7 +30,7 @@ Output: 2
 3.  Now use the **counter** method to create a dictionary with strings as keys and their frequencies as values.
 4.  Check the maximum frequency, which will be the largest subset of crossword strings.
 
-```
+```py
 # Function to find the size of largest subset 
 # of anagram words
 from collections import Counter
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 3
 
 ```

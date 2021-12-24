@@ -12,14 +12,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.back()
 ```
 
 **示例–**
 现在可以使用 back 方法作为驱动方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.back()
 
@@ -33,14 +33,14 @@ driver.back()
 
 **语法–**
 
-```
+```py
 driver.forward()
 ```
 
 **示例–**
 现在可以使用正向方法作为驱动方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.forward()
 
@@ -54,7 +54,7 @@ driver.forward()
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

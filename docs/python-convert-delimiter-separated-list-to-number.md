@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Delimiter separated list to Number
 # Using loop + split() + join()
@@ -46,7 +46,7 @@ print("Constructed integer : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 1@6@7@8@5@8@9
 Constructed integer : 1678589
 ```
@@ -57,7 +57,7 @@ Constructed integer : 1678589
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Delimiter separated list to Number
 # Using join() + split() + int()
@@ -81,7 +81,7 @@ print("Constructed integer : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 1@6@7@8@5@8@9
 Constructed integer : 1678589
 ```

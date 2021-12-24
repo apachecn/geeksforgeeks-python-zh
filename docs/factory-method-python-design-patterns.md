@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code for Object
 # Oriented Concepts without
 # using Factory method
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code for factory method
 # it comes under the creational
 # Design Pattern

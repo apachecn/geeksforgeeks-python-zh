@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary values to Absolute Magnitude
 # Using loop + abs()
@@ -40,7 +40,7 @@ print("Dictionary after absolute conversion : " + str(test_dict))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': -7, 'Best': 2, 'for': -9, 'geeks': -8}
 Dictionary after absolute conversion : {'Gfg': 5, 'is': 7, 'Best': 2, 'for': 9, 'geeks': 8}
 ```
@@ -51,7 +51,7 @@ Dictionary after absolute conversion : {'Gfg': 5, 'is': 7, 'Best': 2, 'for': 9, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary values to Absolute Magnitude
 # Using dictionary comprehension + abs()
@@ -72,7 +72,7 @@ print("Dictionary after absolute conversion : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': -7, 'Best': 2, 'for': -9, 'geeks': -8}
 Dictionary after absolute conversion : {'Gfg': 5, 'is': 7, 'Best': 2, 'for': 9, 'geeks': 8}
 ```

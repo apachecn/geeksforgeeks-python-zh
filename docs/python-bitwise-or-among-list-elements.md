@@ -7,7 +7,7 @@
 **方法#1:使用`reduce() + lambda + "|"`操作符**
 可以组合以上功能来执行此任务。我们可以使用 reduce()来累加 lambda 函数指定的 OR 逻辑的结果。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of
 # Bitwise OR among List elements
 # Using reduce() + lambda + "|" operator
@@ -28,7 +28,7 @@ print("The Bitwise OR of list elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [7, 8, 9, 1, 10, 7]
 The Bitwise OR of list elements are : 15
 

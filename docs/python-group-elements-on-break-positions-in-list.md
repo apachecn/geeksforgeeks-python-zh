@@ -7,7 +7,7 @@
 **方法:使用`itemgetter() + map() + lambda() + groupby()`**
 这个任务可以使用上述函数的组合来执行，其中我们可以通过查找列表中索引和值之间的差异来对使用 lambda 函数计算的断点中的元素进行分组。`map()`用于组合逻辑，itemgetter 确保分组是基于值的。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of
 # Group elements on break positions in list
 # using itemgetter() + map() + lambda() + groupby()
@@ -31,7 +31,7 @@ print("Grouping of elements at breaks : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 4, 5, 6, 8, 9, 11]
 Grouping of elements at breaks : [[1, 2], [4, 5, 6], [8, 9], [11]]
 

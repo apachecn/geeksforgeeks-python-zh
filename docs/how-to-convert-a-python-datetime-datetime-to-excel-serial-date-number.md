@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # datetime.datetime to excel serial date number
 
@@ -36,7 +36,7 @@ print(current_datetime.strftime('%x %X'))
 
 ****输出:****
 
-```
+```py
 08/23/21 15:15:53
 ```
 
@@ -46,7 +46,7 @@ print(current_datetime.strftime('%x %X'))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # datetime.datetime to excel serial date number
 
@@ -75,7 +75,7 @@ print(convert_date_to_excel_ordinal(2, 2, 2021))
 
 ****输出:****
 
-```
+```py
 44229
 ```
 
@@ -83,7 +83,7 @@ print(convert_date_to_excel_ordinal(2, 2, 2021))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # datetime.datetime to excel serial date number
 
@@ -107,6 +107,6 @@ print(excel_date(datetime(2021, 2, 4)))
 
 ****输出:****
 
-```
+```py
 44231.0
 ```

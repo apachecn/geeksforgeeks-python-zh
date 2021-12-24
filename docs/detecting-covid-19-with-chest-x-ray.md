@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ from tensorflow.keras.layers import Dense,Flatten,  Input, Dropout
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 """
 Kaggle API setup
@@ -69,7 +69,7 @@ files.upload()
 
 ## 蟒蛇 3
 
-```
+```py
 ! unzip covid19-radiography-database.zip -d /content/data
 ```
 
@@ -77,7 +77,7 @@ files.upload()
 
 ## 蟒蛇 3
 
-```
+```py
 # Load Xception model
 base = Xception(weights="imagenet", input_shape =(299,299,3),include_top= False)
 # set base model trainable to false
@@ -87,7 +87,7 @@ for layers in base.layers:
 base.summary()
 ```
 
-```
+```py
 Downloading data from 
 https://storage.googleapis.com/tensorflow/keras-applications/xception/
 xception_weights_tf_dim_ordering_tf_kernels_notop.h5
@@ -162,7 +162,7 @@ ________________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # Define augmentation
 train_datagen = ImageDataGenerator(
         rescale=1./255,
@@ -229,7 +229,7 @@ plotImages(images,labels)
 
 ## 蟒蛇 3
 
-```
+```py
 # Define our complete models
 model = Sequential()
 model.add(Input(shape =(299,299,3)))
@@ -242,7 +242,7 @@ model.add(Dense(3,activation='softmax'))
 model.summary()
 ```
 
-```
+```py
 Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -269,7 +269,7 @@ _________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # import adam optimizer
 from tensorflow.keras.optimizers import Adam
 # compile model(define metrics and loss)
@@ -285,7 +285,7 @@ model.fit_generator(train,epochs=30,validation_data=val)
 model.save('epoch_30.h5')
 ```
 
-```
+```py
 Epoch 1/30
 137/137 [==============================] - 121s 886ms/step - 
 loss: 5.7757 - accuracy: 0.8528 - val_loss: 3.4022 - val_accuracy: 0.8966

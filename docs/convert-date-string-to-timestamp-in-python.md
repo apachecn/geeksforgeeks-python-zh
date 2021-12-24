@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to convert 
 # date to timestamp
 
@@ -36,14 +36,14 @@ print(time.mktime(datetime.datetime.strptime(string,
 
 **输出:**
 
-```
+```py
 1579458600.0
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to convert 
 # date to timestamp
 
@@ -62,7 +62,7 @@ print(timestamp)
 
 **输出:**
 
-```
+```py
 1579458600.0
 
 ```
@@ -80,7 +80,7 @@ print(timestamp)
 
 **例 1:**
 
-```
+```py
 # Python program to convert 
 # date to timestamp
 
@@ -97,7 +97,7 @@ print(timestamp)
 
 **输出:**
 
-```
+```py
 1579458600.0
 
 ```

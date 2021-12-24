@@ -8,7 +8,7 @@ Python 还能够在线上传创建的图形，供网站使用。在这篇文章�
 
 ### **安装:**
 
-```
+```py
 pip install plotly
 pip install chart-studio 
 ```
@@ -36,7 +36,7 @@ pip install chart-studio
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import plotly
@@ -62,7 +62,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import chart_studio
 username =  # 'your username'
 api_key =  # 'your api key'

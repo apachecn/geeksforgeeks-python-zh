@@ -20,7 +20,7 @@
 
 下面是实现:
 
-```
+```py
 % MATLAB code to draw Kuwait flag
 
 % initialising a zero matrix of 300X500X3

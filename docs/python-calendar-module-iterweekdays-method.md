@@ -6,7 +6,7 @@
 
 **iterweekdays()** 方法返回一周将使用的星期几的迭代器。迭代器中的第一个数字将与 firstweekday()返回的数字相同。
 
-```
+```py
 Syntax: iterweekdays()
 Parameter: no parameter
 Returns: iterator for the week day numbers
@@ -14,7 +14,7 @@ Returns: iterator for the week day numbers
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working
 # of iterweekdays() method
 
@@ -30,7 +30,7 @@ for day in obj.iterweekdays():
 
 **输出:**
 
-```
+```py
 0
 1
 2
@@ -42,7 +42,7 @@ for day in obj.iterweekdays():
 
 **代码#2:**
 
-```
+```py
 # Python program to demonstrate working
 # of iterweekdays() method
 
@@ -58,7 +58,7 @@ for day in obj.iterweekdays():
 
 **输出:**
 
-```
+```py
 2
 3
 4

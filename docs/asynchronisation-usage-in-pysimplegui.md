@@ -9,7 +9,7 @@
 
 **为了理解它，我们将使用 PySimpleGUI 在 Python 中实现一个秒表。**
 
-```
+```py
 import PySimpleGUI as sg
 
 sg.theme('SandyBeach')

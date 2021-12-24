@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert dictionary to K Keys dictionaries
 # Using loop
@@ -55,7 +55,7 @@ print("The converted list : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 2, 'best': 3, 'for': 4, 'geeks': 5, 'CS': 6}
 The converted list : [{'Gfg': 1, 'is': 2}, {'best': 3, 'for': 4}, {'geeks': 5, 'CS': 6}]
 

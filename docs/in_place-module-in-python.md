@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import in_place
 
 # using inplace() to perform same file edit.
@@ -72,7 +72,7 @@ with in_place.InPlace('gfg_inplace') as f:
 
 ## 蟒蛇 3
 
-```
+```py
 import in_place
 
 # using inplace() to perform same file edit.
@@ -105,7 +105,7 @@ with in_place.InPlace('gfg_inplace', backup='origin_gfg_inplace') as f:
 
 ## 蟒蛇 3
 
-```
+```py
 import in_place
 
 # using inplace() to perform same file edit.

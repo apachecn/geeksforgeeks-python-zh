@@ -6,7 +6,7 @@
 
 要使用它，首先通过以下方式导入日期时间库:
 
-```
+```py
 import datetime
 ```
 
@@ -18,14 +18,14 @@ import datetime
 
     **语法:**
 
-    ```
+    ```py
     time(hour, minute, second, microsecond)
 
     ```
 
     **示例:**
 
-    ```
+    ```py
     import datetime
 
     tm = datetime.time(2, 25, 50, 13)
@@ -34,7 +34,7 @@ import datetime
 
     **输出**
 
-    ```
+    ```py
     02:25:50.000013
 
     ```
@@ -45,7 +45,7 @@ import datetime
 
     **示例:**
 
-    ```
+    ```py
     import datetime
 
     tm = datetime.time(1, 50, 20, 133257)
@@ -67,14 +67,14 @@ import datetime
 
     **语法:**
 
-    ```
+    ```py
     date(yyyy, mm, dd)
 
     ```
 
     **示例:**
 
-    ```
+    ```py
     import datetime
 
     date = datetime.date(2018, 5, 12)
@@ -85,7 +85,7 @@ import datetime
 
     **输出**
 
-    ```
+    ```py
     Date date is  12  day of  5  of the year  2018
 
     ```
@@ -94,7 +94,7 @@ import datetime
 
     **示例:**
 
-    ```
+    ```py
     import datetime
 
     tday = datetime.date.today()
@@ -106,7 +106,7 @@ import datetime
 
     **输出**
 
-    ```
+    ```py
     The date today is  2020-01-30
     The date info. is  Thu Jan 30 00:00:00 2020
 
@@ -118,7 +118,7 @@ import datetime
 
 **语法:**
 
-```
+```py
 time.strftime(format, t)
 
 ```
@@ -130,7 +130,7 @@ time.strftime(format, t)
 
 **示例:**
 
-```
+```py
 import datetime
 
 x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -140,13 +140,13 @@ print(x.strftime("%b %d %Y %H:%M:%S"))
 
 **输出**
 
-```
+```py
 May 12 2018 02:25:50
 ```
 
 同样的例子也可以通过设置`print()`方法写成不同的地方。
 
-```
+```py
 import datetime
 
 x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -156,7 +156,7 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
 **输出**
 
-```
+```py
 02:25:50 May 12 2018 
 ```
 
@@ -166,7 +166,7 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
 *   **%a:** Displays three characters of the weekday, e.g. Wed.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -175,14 +175,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     Sat
 
     ```
 
 *   **%A:** Displays name of the weekday, e.g. Wednesday.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -191,14 +191,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     Saturday
 
     ```
 
 *   **%B:** Displays the month, e.g. May.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -207,14 +207,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     May
 
     ```
 
 *   **%w:** Displays the weekday as a number, from 0 to 6, with Sunday being 0.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -223,14 +223,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     6
 
     ```
 
 *   **%m:** Displays month as a number, from 01 to 12.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -239,14 +239,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     5
 
     ```
 
 *   **%p:** Define AM/PM for time.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -255,14 +255,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     PM
 
     ```
 
 *   **%y:** Displays year in two-digit format, i.e “20” in place of “2020”.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -271,14 +271,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     18
 
     ```
 
 *   **%f:** Displays microsecond from 000000 to 999999.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -287,14 +287,14 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     000013
 
     ```
 
 *   **%j:** Displays number of the day in the year, from 001 to 366.
 
-    ```
+    ```py
     import datetime
 
     x = datetime.datetime(2018, 5, 12, 2, 25, 50, 13)
@@ -303,7 +303,7 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
     **输出**
 
-    ```
+    ```py
     132
 
     ```
@@ -314,7 +314,7 @@ print(x.strftime("%H:%M:%S %b %d %Y"))
 
 **语法:**
 
-```
+```py
 datetime.strptime(string, format)
 
 ```
@@ -326,7 +326,7 @@ datetime.strptime(string, format)
 
 **示例:**
 
-```
+```py
 from datetime import datetime
 
 print(datetime.strptime('5/5/2019',
@@ -335,7 +335,7 @@ print(datetime.strptime('5/5/2019',
 
 **输出**
 
-```
+```py
 2019-05-05 00:00:00
 
 ```

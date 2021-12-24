@@ -15,7 +15,7 @@ Python Tkinter 是一个 GUI 编程包或内置库。Tkinter 为 Tk GUI 工具�
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 from tkinter import *
 from tkinter import messagebox

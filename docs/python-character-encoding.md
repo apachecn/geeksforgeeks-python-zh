@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # -*- coding: utf-8 -*-
 
 import charade
@@ -33,7 +33,7 @@ def detect(s):
 
 检测功能将返回 2 个属性:
 
-```
+```py
 Confidence : the probability of charade being correct.
 Encoding   : which encoding it is. 
 ```
@@ -42,7 +42,7 @@ Encoding   : which encoding it is.
 
 ## 蟒蛇 3
 
-```
+```py
 # -*- coding: utf-8 -*-
 import charade
 
@@ -66,7 +66,7 @@ def convert(s):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import encoding
 
@@ -79,7 +79,7 @@ print ("d2 is encoded as  : ", d2)
 
 **输出:**
 
-```
+```py
 d1 is encoded as : (confidence': 0.505, 'encoding': 'utf-8')
 d2 is encoded as : ('confidence': 1.0, 'encoding': 'ascii')
 ```

@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,7 +52,7 @@ from sklearn import preprocessing
 
 ## 蟒蛇 3
 
-```
+```py
 ipl = pd.read_csv('ipl_dataset.csv')
 ipl.head()
 ```
@@ -61,7 +61,7 @@ ipl.head()
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.read_csv('IPL Player Stats - 2016 till 2019.csv')
 data.head()
 ```
@@ -72,7 +72,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 ipl= ipl.drop(['Unnamed: 0','extras','match_id', 'runs_off_bat'],axis = 1)
 new_ipl = pd.merge(ipl,data,left_on='striker',right_on='Player',how='left')
 new_ipl.drop(['wicket_type', 'player_dismissed'],axis=1,inplace=True)
@@ -87,7 +87,7 @@ new_ipl.columns
 
 ## 蟒蛇 3
 
-```
+```py
 str_cols = new_ipl.columns[new_ipl.dtypes==object]
 new_ipl[str_cols] = new_ipl[str_cols].fillna('.')
 ```

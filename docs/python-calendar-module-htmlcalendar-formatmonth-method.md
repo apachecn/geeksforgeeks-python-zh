@@ -19,7 +19,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of formatmonth() method
 
 # importing calendar module
@@ -37,7 +37,7 @@ print(text_cal.formatmonth(year, month))
 
 **输出:**
 
-```
+```py
 <table border="0" cellpadding="0" cellspacing="0" class="month">
     <tr>
         <th colspan="7" class="month">September 2018</th>
@@ -101,7 +101,7 @@ print(text_cal.formatmonth(year, month))
 
 **代码#2:** 带参数宽度
 
-```
+```py
 # Python program to demonstrate working of formatmonth() method
 
 # importing calendar module
@@ -115,7 +115,7 @@ print(text_cal.formatmonth(2018, 9))
 
 **输出:**
 
-```
+```py
 <table border="0" cellpadding="0" cellspacing="0" class="month">
     <tr>
         <th colspan="7" class="month">September 2018</th>
@@ -179,7 +179,7 @@ print(text_cal.formatmonth(2018, 9))
 
 **代码#3:** 年份会包含在表头。
 
-```
+```py
 # Python program to demonstrate working of formatmonth() method
 
 # importing calendar module
@@ -193,7 +193,7 @@ print(text_cal.formatmonth(2018, 9, withyear = True))
 
 **输出:**
 
-```
+```py
 <table border ="0" cellpadding ="0" cellspacing ="0" class ="month">
     <tr>
         <th colspan ="7" class ="month">September 2018</th>

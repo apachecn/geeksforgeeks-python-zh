@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 结合以上功能可以解决这个问题。在本文中，我们使用列表理解来迭代列表，并使用 zip()来形成对。
 
-```
+```py
 # Python3 code to demonstrate working of
 # K difference index pairing in list
 # using list comprehension + zip()
@@ -31,7 +31,7 @@ print("List after K difference concatenation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['G', 'F', 'G', 'I', 'S', 'B', 'E', 'S', 'T']
 List after K difference concatenation is : ['GI', 'FS', 'GB', 'IE', 'SS', 'BT']
 

@@ -28,14 +28,14 @@
 
 首先，需要使用以下命令安装加密软件包:
 
-```
+```py
 pip install cryptography
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Fernet module is imported from the 
 # cryptography package
 from cryptography.fernet import Fernet
@@ -68,7 +68,7 @@ print(d)
 
 ## 蟒蛇 3
 
-```
+```py
 # Fernet module is imported from the 
 # cryptography package
 from cryptography.fernet import Fernet

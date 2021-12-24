@@ -6,13 +6,13 @@
 
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on text motion 的语法，当触发此事件时会调用此方法
 
-```
+```py
 @window.event       
 def on_text_motion_select(motion):
     print("Motion Selected")
@@ -22,7 +22,7 @@ def on_text_motion_select(motion):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key

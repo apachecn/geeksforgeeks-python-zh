@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing modules that are required
 
 from sklearn.datasets import load_boston
@@ -60,7 +60,7 @@ print(f"r2 Score of test set : {r2_score(y_test, prediction)}")
 
 **输出:**
 
-```
+```py
 r2 Score of test set : 0.6815908068381828
 ```
 

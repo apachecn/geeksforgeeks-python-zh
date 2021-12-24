@@ -6,14 +6,14 @@
 
 **Pafy** 是一个下载 YouTube 内容和检索元数据的 Python 库。下面是安装 pafy 的命令
 
-```
+```py
 pip install pafy
 
 ```
 
 **VLC :** 是一个使用 VLC 媒体播放器功能的 python 库。为了在 python 中使用 vlc 模块，用户系统也应该有一个兼容版本的 VLC 播放器。下面是安装 vlc 模块的命令
 
-```
+```py
 pip install python-vlc
 
 ```
@@ -28,7 +28,7 @@ pip install python-vlc
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -56,7 +56,7 @@ media.play()
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 

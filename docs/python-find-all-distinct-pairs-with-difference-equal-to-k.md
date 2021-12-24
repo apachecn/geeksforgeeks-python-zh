@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 5, 3, 4, 2], k = 3
 Output : [(5, 2), (4, 1)]
 
@@ -19,7 +19,7 @@ Output : [(8, 4), (12, 8), (16, 12), (4, 0), (20, 16)]
 
 我们将使用列表理解，使用“e1”和“e2”这两个循环遍历给定的列表。我们检查 *e1-e2 == k* 是否存在，并分别返回(e1，e2)元组。最后，将返回一个包含所需元组的列表。
 
-```
+```py
 # Python3 program to Find all distinct 
 # pairs with difference equal to k
 
@@ -36,7 +36,7 @@ print(findPairs(lst, k))
 
 **Output:**
 
-```
+```py
 [(5, 2), (4, 1)]
 
 ```
@@ -45,7 +45,7 @@ print(findPairs(lst, k))
 
 相对于上述方法，这是一种有效的方法，因为它只使用 O(n)空间。我们取一个空列表来存储输出。然后，我们使用带有迭代器“e”的循环遍历给定的列表。在每次迭代中，我们检查的是 *e+k* ，即 *e* 所需的配对整数是否可用。如果是，我们将元组追加到“res”中。
 
-```
+```py
 # Python3 program to Find all distinct 
 # pairs with difference equal to k
 
@@ -65,7 +65,7 @@ print(findPairs(lst, k))
 
 **Output:**
 
-```
+```py
 [(1, 4), (2, 5)]
 
 ```
@@ -74,7 +74,7 @@ print(findPairs(lst, k))
 
 最好的方法是使用来自 *itertools* 模块的内置函数。*组合()*对输入中 n 个元素的所有组合的元组产生迭代器。我们利用这些组合，输出那些有“k”差的组合。
 
-```
+```py
 # Python3 program to Find all distinct 
 # pairs with difference equal to k
 from itertools import combinations
@@ -91,7 +91,7 @@ print(findPairs(lst, k))
 
 **Output:**
 
-```
+```py
 [(1, 4), (5, 2)]
 
 ```

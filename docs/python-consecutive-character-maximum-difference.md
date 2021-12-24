@@ -7,7 +7,7 @@
 **方法#1:使用`max() + zip()` +列表理解**
 这个问题可以通过以上三个函数的组合来解决，其中 max 函数可以用来获得最大值，zip 和列表理解完成将逻辑扩展到整个列表的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive Character Maximum difference
 # using zip() + max() + list comprehension
@@ -29,7 +29,7 @@ print("The maximum consecutive difference is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : 6543452345456987653234
 The maximum consecutive difference is : 3
 

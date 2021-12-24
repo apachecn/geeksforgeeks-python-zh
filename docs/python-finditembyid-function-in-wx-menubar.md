@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.FindItemById(self, id)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.MenuItem
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 <wx._core.MenuItem object at 0x7fe3009a5288&rt;
 SubMenu
 

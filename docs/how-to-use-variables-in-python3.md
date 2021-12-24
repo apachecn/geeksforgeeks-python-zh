@@ -6,7 +6,7 @@
 
 **示例 1 :** 给变量赋值:
 
-```
+```py
 # this is a integer type variable
 number = 123456  
 
@@ -22,7 +22,7 @@ print(sentence) 
 
 **输出:**
 
-```
+```py
 123456
 this is a string
 

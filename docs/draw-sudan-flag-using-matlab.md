@@ -8,7 +8,7 @@
 
 *   创建一个零矩阵 300X600X3.300 是行数，600 是列数，3 代表 RGB 颜色通道。用(255，255，255)填充矩阵。255 代表白色像素，0 代表黑色像素。
 
-    ```
+    ```py
     img(:, :, :)=255
     ```
 
@@ -24,7 +24,7 @@
 
 实现如下:
 
-```
+```py
 % MATLAB code to draw Sudan flag
 
 % initialising a zero matrix of 300X600X3

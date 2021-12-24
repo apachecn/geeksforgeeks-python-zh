@@ -10,7 +10,7 @@ Python 定义了类型转换函数，直接将一种数据类型转换成另一�
 
 **语法:**
 
-```
+```py
 float(x)
 ```
 
@@ -20,7 +20,7 @@ float(x)
 
 ## 蟒 3
 
-```
+```py
 string= "3.141"
 
 print(string)
@@ -35,7 +35,7 @@ print(type(Float))
 
 **输出:**
 
-```
+```py
 3.141
 <type 'str'>
 3.141
@@ -46,7 +46,7 @@ print(type(Float))
 
 ## 蟒 3
 
-```
+```py
 string = '55.567'
 
 float = float(string)
@@ -57,7 +57,7 @@ print('Float Value =', float)
 
 **输出:**
 
-```
+```py
 <type 'float'>
 ('Float Value =', 55.567)
 ```

@@ -19,7 +19,7 @@ AdaBoost 算法属于集成增强技术，正如所讨论的，它组合多个�
 
 ## 【Python】
 
-```
+```py
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -32,7 +32,7 @@ warnings.filterwarnings("ignore")
 
 ## Python
 
-```
+```py
 # Reading the dataset from the csv file
 # separator is a vertical line, as seen in the dataset
 data = pd.read_csv("Iris.csv")
@@ -41,7 +41,7 @@ data = pd.read_csv("Iris.csv")
 print(data.shape)
 ```
 
-```
+```py
 (150, 6)
 ```
 
@@ -49,6 +49,6 @@ print(data.shape)
 
 ## Python
 
-```
+```py
 data.head()
 ```

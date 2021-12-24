@@ -10,7 +10,7 @@
 
 这是一个开源的、跨平台的、服务器端的 JavaScript 运行时环境(Framework)，构建在 Chrome 的 V8 JavaScript 引擎上，在网络浏览器之外执行 JavaScript 代码。它是由瑞安·达尔在 2009 年开发的。它允许开发人员使用 JavaScript 编写命令行工具和可扩展的网络应用程序(服务器端脚本——在服务器端运行脚本)在页面发送到用户的网络浏览器之前生成动态网页内容。它允许开发者创建跨分布式系统运行的实时网络应用，如(Linux，微软视窗，Os x)。它的应用程序是用 JavaScript 编写的。它也是用有用的 JavaScript 丰富库来装饰的，这非常容易简化基于 web 的开发过程。
 
-```
+```py
 Node.js = JavaScript library + Runtime framework (Environment)
 
 ```

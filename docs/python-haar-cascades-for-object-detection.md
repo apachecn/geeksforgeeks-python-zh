@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all required packages
 import cv2
 import numpy as np
@@ -76,7 +76,7 @@ cv2.imwrite('face.jpg', face)
 
 ## 蟒蛇 3
 
-```
+```py
 eyes = detect_eyes(img_copy2)
 plt.imshow(eyes)
 cv2.imwrite('face_eyes.jpg', eyes)
@@ -88,7 +88,7 @@ cv2.imwrite('face_eyes.jpg', eyes)
 
 ## 蟒蛇 3
 
-```
+```py
 eyes_face = adjusted_detect_face(img_copy3)
 eyes_face = detect_eyes(eyes_face)
 plt.imshow(eyes_face)

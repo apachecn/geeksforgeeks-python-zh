@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 a = 60
 b = 100
@@ -32,7 +32,7 @@ None
 
 ## 蟒蛇 3
 
-```
+```py
 # input first and second number
 a = 60
 b = 100
@@ -70,7 +70,7 @@ else:
 
 **输出:**
 
-```
+```py
 a = 60
 b = 100
 Pairs of consecutive number are:
@@ -84,7 +84,7 @@ Pairs of consecutive number are:
 
 ## 蟒蛇 3
 
-```
+```py
 # input first and second number
 a = 20
 b = 200
@@ -122,7 +122,7 @@ else:
 
 **输出:**
 
-```
+```py
 a = 20
 b = 200
 None

@@ -10,14 +10,14 @@
 
 **步骤 1:下载库 pdfkit**
 
-```
+```py
  $ pip install pdfkit
 ```
 
 **第二步:下载 Ubuntu/Debian 的 wkhtmltopdf**
 :
 
-```
+```py
  sudo apt-get install wkhtmltopdf
 ```
 
@@ -30,21 +30,21 @@ win64.exe)
 **第三步:Python 代码下载:**
 (一)已经保存的 HTML 页面
 
-```
+```py
 import pdfkit
 pdfkit.from_file('test.html', 'out.pdf')
 ```
 
 ㈡按网站网址转换
 
-```
+```py
 import pdfkit
 pdfkit.from_url('https://www.google.co.in/','shaurya.pdf')
 ```
 
 (三)以 PDF 格式存储文本
 
-```
+```py
 import pdfkit
 pdfkit.from_string('Shaurya GFG','GfG.pdf')
 ```
@@ -54,14 +54,14 @@ pdfkit.from_string('Shaurya GFG','GfG.pdf')
 杂项知识内容:
 1。您可以传递包含多个网址或文件的列表:
 
-```
+```py
 pdfkit.from_url(['google.com', 'geeksforgeeks.org', 'facebook.com'], 'shaurya.pdf')
 pdfkit.from_file(['file1.html', 'file2.html'], 'out.pdf')
 ```
 
 2.将内容保存在变量中
 
-```
+```py
 # Use False instead of output path to save pdf to a variable
 pdf = pdfkit.from_url('http://google.com', False)
 ```

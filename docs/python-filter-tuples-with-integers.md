@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples with Integers
 # Using loop + isinstance()
@@ -47,7 +47,7 @@ print("Filtered tuples : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 'GFg'), (5, 6), (3, ), ('Gfg', )]
 Filtered tuples : [(5, 6), (3, )]
 
@@ -59,7 +59,7 @@ Filtered tuples : [(5, 6), (3, )]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples with Integers
 # Using all() + list comprehension + isinstance()
@@ -79,7 +79,7 @@ print("Filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 'GFg'), (5, 6), (3, ), ('Gfg', )]
 Filtered tuples : [(5, 6), (3, )]
 

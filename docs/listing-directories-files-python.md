@@ -16,7 +16,7 @@
 
 请查看下面在交互式 Python 终端上执行的代码，快速浏览上述函数/方法的用法。
 
-```
+```py
 >>> nums = [1,2,3,4,5]  # list
 >>> name = "Alexander"
 >>> details = {"name": "Hemkesh", "age": 23, "active": True}
@@ -105,7 +105,7 @@ Windows 使用 **\** (反斜杠)作为路径分隔符，例如 **C:\Users\Deskto
 
 让我们快速概述一下上述方法和函数的工作原理，因为我们在最终程序中使用了这些方法和函数。
 
-```
+```py
 # Python version : 2.7.12
 
 # len()
@@ -161,7 +161,7 @@ print "#"*20
 
 输出:
 
-```
+```py
 5
 9 
 
@@ -203,7 +203,7 @@ PythonPythonPython
 
 如果在调用语句中没有指定路径，那么将显示当前工作目录的内容。
 
-```
+```py
 # This Python code is for Python version   : 2.7.12
 
 def show_directories(dir_list, path):
@@ -263,7 +263,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 5 files of /Users/admin/projects/Python/Django/E-Commerce-projects/ecommerce-2/src
 ===================================================================================
 1)  .gitignore

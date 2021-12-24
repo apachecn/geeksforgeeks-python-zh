@@ -7,7 +7,7 @@
 **方法一:使用`dict()` +键访问**
 这是可以执行该任务的方式之一。在这种情况下，我们使用 dict 构造空字典，并使用手动强力键访问为字典分配一个新的级别。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Flat dictionaries to Nested dictionary
 # Using key access + dict()

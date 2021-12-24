@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```py
 // C++ code to demonstrate variable assignment
 // upon condition using Direct Initialisation Method
 
@@ -27,7 +27,7 @@ int main()
 
 ## C
 
-```
+```py
 // C code to demonstrate variable assignment
 // upon condition using Direct Initialisation Method
 
@@ -45,7 +45,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java code to demonstrate variable assignment
 // upon condition using Direct Initialisation Method
 
@@ -66,7 +66,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate variable assignment
 # upon condition using Direct Initialisation Method
 
@@ -79,7 +79,7 @@ print ("The value of a is: " + str(a))
 
 ## C#
 
-```
+```py
 // C# code to demonstrate variable assignment
 // upon condition using Direct Initialisation Method
 using System;
@@ -102,7 +102,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript code to demonstrate variable assignment
@@ -119,7 +119,7 @@ public static void Main(String []args)
 
 **Output:** 
 
-```
+```py
 The value of a is: 5
 ```
 
@@ -129,7 +129,7 @@ The value of a is: 5
 
 ## c++
 
-```
+```py
 // C++ code to demonstrate variable assignment
 // upon condition using Conditional Operator
 
@@ -148,7 +148,7 @@ int main()
 
 ## C
 
-```
+```py
 // C code to demonstrate variable assignment
 // upon condition using Conditional Operator
 
@@ -166,7 +166,7 @@ int main()
 
 ## Java
 
-```
+```py
 // Java code to demonstrate variable assignment
 // upon condition using Conditional Operator
 
@@ -187,7 +187,7 @@ class GFG {
 
 ## python 3
 
-```
+```py
 # Python3 code to demonstrate variable assignment
 # upon condition using Conditional Operator
 
@@ -202,7 +202,7 @@ print("The value of a is: " , str(a))
 
 ## c#
 
-```
+```py
 // C# code to demonstrate variable assignment
 // upon condition using Conditional Operator
 
@@ -226,7 +226,7 @@ class GFG {
 
 **输出:**
 
-```
+```py
 The value of a is: 1
 ```
 
@@ -234,7 +234,7 @@ The value of a is: 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate variable assignment
 # upon condition using One liner if-else
 
@@ -249,6 +249,6 @@ print ("The value of a is: " + str(a))
 
 **Output:** 
 
-```
+```py
 The value of a is: 1
 ```

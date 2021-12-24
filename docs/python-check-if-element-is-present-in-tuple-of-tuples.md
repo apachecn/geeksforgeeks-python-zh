@@ -7,7 +7,7 @@
 **方法一:使用`any()`**
 `any` 功能执行此任务。它只是逐个测试元素是否作为元组元素存在。如果元素存在，则返回 true，否则返回 false。
 
-```
+```py
 # Python3 code to demonstrate 
 # test for values in tuple of tuple
 # using any()
@@ -28,7 +28,7 @@ else :
 
 **输出:**
 
-```
+```py
 The original tuple is (('geeksforgeeks', 'gfg'), ('CS_Portal', 'best'))
 geeksforgeeks is present
 
@@ -37,7 +37,7 @@ geeksforgeeks is present
 **方法 2:使用`itertools.chain()`**
 `chain` 函数测试所有中间元组的期望值，然后如果在搜索的任何元组中存在所需值，则返回真。
 
-```
+```py
 # Python3 code to demonstrate 
 # test for values in tuple of tuple
 # using itertools.chain()
@@ -59,7 +59,7 @@ else :
 
 **输出:**
 
-```
+```py
 The original tuple is (('geeksforgeeks', 'gfg'), ('CS_Portal', 'best'))
 geeksforgeeks is present
 

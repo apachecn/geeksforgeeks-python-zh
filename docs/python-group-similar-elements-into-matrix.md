@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `groupby()`**
 以上功能的组合为这个问题提供了可能的解决方案。在本文中，我们使用 groupby()执行分组任务，并在迭代中使用列表理解辅助。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group similar elements into Matrix
 # Using list comprehension + groupby()
@@ -35,7 +35,7 @@ print("Matrix after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 3, 5, 1, 3, 2, 5, 4, 2]
 Matrix after grouping : [[1, 1], [2, 2], [3, 3], [4], [5, 5]]
 
@@ -44,7 +44,7 @@ Matrix after grouping : [[1, 1], [2, 2], [3, 3], [4], [5, 5]]
 **方法 2:使用列表理解+ `Counter()`**
 这是解决这个问题的又一种方法。在这种情况下，我们使用 Counter()获得值及其频率，然后使用列表理解将每个元素与频率相乘以获得副本
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group similar elements into Matrix
 # Using list comprehension + Counter()
@@ -67,7 +67,7 @@ print("Matrix after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 3, 5, 1, 3, 2, 5, 4, 2]
 Matrix after grouping : [[1, 1], [2, 2], [3, 3], [4], [5, 5]]
 

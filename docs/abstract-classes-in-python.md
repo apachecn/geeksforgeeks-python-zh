@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # abstract base class work
 
@@ -66,7 +66,7 @@ K.noofsides()
 
 **输出:**
 
-```
+```py
 I have 3 sides
 I have 4 sides
 I have 5 sides
@@ -77,7 +77,7 @@ I have 6 sides
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # abstract base class work
 
@@ -123,7 +123,7 @@ K.move()
 
 **输出:**
 
-```
+```py
 I can walk and run
 I can crawl
 I can bark
@@ -135,7 +135,7 @@ I can roar
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # implementation of abstract
 # class through subclassing
@@ -157,7 +157,7 @@ print( isinstance(child(), parent))
 
 **输出:**
 
-```
+```py
 True
 True
 ```
@@ -171,7 +171,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program invoking a
 # method using super()
 
@@ -194,7 +194,7 @@ r.rk()
 
 **输出:**
 
-```
+```py
 Abstract Base Class
 subclass
 ```
@@ -206,7 +206,7 @@ subclass
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # abstract properties
 
@@ -235,7 +235,7 @@ print (r.geeks)
 
 **输出:**
 
-```
+```py
 Can't instantiate abstract class parent with abstract methods geeks
 child class
 ```
@@ -247,7 +247,7 @@ child class
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # abstract class cannot
 # be an instantiation
@@ -278,7 +278,7 @@ c=Animal()
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/ffe4267d930f204512b7f501bb1bc489.py", line 19, in 
     c=Animal()

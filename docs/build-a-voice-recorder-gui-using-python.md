@@ -10,14 +10,14 @@ Python 提供了各种工具，可以用于各种目的。其中一个目的就�
 
 *   **sound device**:sound device 模块提供了 PortAudio 库的绑定和一些便利功能，可以播放和录制包含音频信号的 NumPy 数组。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install sounddevice
 
 ```
 
 *   **SoundFile:** SoundFile 可以读写声音文件。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install SoundFile
 
 ```
@@ -33,14 +33,14 @@ pip install SoundFile
 
 **步骤 1:** 导入模块
 
-```
+```py
 import sounddevice as sd
 import soundfile as sf
 ```
 
 **第二步:**设置频率和时长，在 NumPy 数组中记录语音数据，可以使用 rec()
 
-```
+```py
 fs = 48000
 duration = 5 
 myrecording = sd.rec(int(duration * fs), samplerate=fs,
@@ -51,7 +51,7 @@ myrecording = sd.rec(int(duration * fs), samplerate=fs,
 
 **步骤 3:** 现在将这些数组存储到音频文件中。
 
-```
+```py
 # Save as FLAC file at correct sampling rate
 sf.write('My_Audio_file.flac', myrecording, fs)
 ```
@@ -60,7 +60,7 @@ sf.write('My_Audio_file.flac', myrecording, fs)
 
 ## 蟒蛇 3
 
-```
+```py
 import sounddevice as sd
 import soundfile as sf
 from tkinter import *

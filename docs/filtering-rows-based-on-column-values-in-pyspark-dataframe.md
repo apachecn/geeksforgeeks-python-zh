@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import spark
 
@@ -51,7 +51,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get the data where ID=1
 dataframe.where(dataframe.ID=='1').show()
 ```
@@ -64,7 +64,7 @@ dataframe.where(dataframe.ID=='1').show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get the data where name not 'sravan'
 dataframe.where(dataframe.NAME != 'sravan').show()
 ```
@@ -79,7 +79,7 @@ Python 程序，用于筛选 ID 大于 2 且学院为 vvit 的行
 
 ## 蟒蛇 3
 
-```
+```py
 # filter rows where ID greater than 2
 # and college is vvit
 dataframe.where((dataframe.ID>'2') & (dataframe.college=='vvit')).show()
@@ -99,7 +99,7 @@ dataframe.where((dataframe.ID>'2') & (dataframe.college=='vvit')).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get the data where college is  'vvit'
 dataframe.filter(dataframe.college=='vvit').show()
 ```
@@ -112,7 +112,7 @@ dataframe.filter(dataframe.college=='vvit').show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get the data where id > 3
 dataframe.filter(dataframe.ID>'3').show()
 ```
@@ -127,7 +127,7 @@ Python 程序，用于筛选 ID 大于 2 且学院为 vignan 的行
 
 ## 蟒蛇 3
 
-```
+```py
 # filter rows where ID greater
 # than 2 and college is vignan
 dataframe.filter((dataframe.ID>'2') &

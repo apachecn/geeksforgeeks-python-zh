@@ -5,7 +5,7 @@
 给定整数 N，任务是打印所有小于 N 的数字，这些数字可以被 3 和 5 整除。
 **例:**
 
-```
+```py
 Input : 50
 Output : 0 15 30 45 
 
@@ -18,7 +18,7 @@ Output : 0 15 30 45 60 75 90
 
 ## C++
 
-```
+```py
 // C++ program to print all the numbers
 // divisible by 3 and 5 for a given number
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to print all the numbers
 // divisible by 3 and 5 for a given number
 
@@ -85,7 +85,7 @@ class GFG{
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print all the numbers
 # divisible by 3 and 5 for a given number
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# program to print all the numbers
 // divisible by 3 and 5 for a given number
 using System;
@@ -145,7 +145,7 @@ public class GFG{
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to print all the numbers
 // divisible by 3 and 5 for a given number
@@ -176,7 +176,7 @@ result($N);
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript  program to
@@ -211,6 +211,6 @@ result(N);
 
 **输出:**
 
-```
+```py
 0 15 30 45 60 75 90 
 ```

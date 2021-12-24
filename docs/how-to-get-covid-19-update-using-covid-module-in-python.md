@@ -9,7 +9,7 @@
 
 **安装:**
 
-```
+```py
 pip install covid
 ```
 
@@ -20,7 +20,7 @@ pip install covid
 
 **示例:**
 
-```
+```py
 from covid import Covid
 
 covid = Covid()
@@ -45,7 +45,7 @@ print(data)
 
 *   **List Countries and their Id’s:** This comes in need when you need to know the names of countries while using get_status_by_country_name, eg to use ‘America’ or ‘United States of America’ or ‘US’
 
-    ```
+    ```py
     from covid import Covid
 
     covid = Covid()
@@ -62,7 +62,7 @@ print(data)
 
 *   **Get Data:** To get COVID-19 related information.
 
-    ```
+    ```py
     from covid import Covid
 
     covid = Covid()
@@ -77,7 +77,7 @@ print(data)
 
 *   **Get Status By Country ID:** To get COVID-19 related information by Country Id
 
-    ```
+    ```py
     from covid import Covid
 
     covid = Covid()
@@ -92,7 +92,7 @@ print(data)
 
 *   **Get Status By Country Name**
 
-    ```
+    ```py
     from covid import Covid
 
     covid = Covid()
@@ -107,7 +107,7 @@ print(data)
 
 *   **Get Total Confirmed cases, Active cases, Recovered cases and Deaths**
 
-    ```
+    ```py
     from covid import Covid
 
     covid = Covid()
@@ -131,7 +131,7 @@ print(data)
 
     **输出:**
 
-    ```
+    ```py
     Confirmed : 4955312
     Active: 2750033
     Recovered: 1874998

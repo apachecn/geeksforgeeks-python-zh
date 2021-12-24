@@ -7,7 +7,7 @@
 **方法#1:使用字典理解**
 这是执行这个任务的方法。在这种情况下，我们将一个列表与另一个列表一起迭代，并使用一个列表中的相似关键字和另一个列表中的对应值不断构建字典。这是一个线性解决方案。
 
-```
+```py
 # Python3 code to demonstrate 
 # Group similar value list to dictionary
 # using dictionary comprehension

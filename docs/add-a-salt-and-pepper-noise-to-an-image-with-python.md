@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import random
 import cv2
 

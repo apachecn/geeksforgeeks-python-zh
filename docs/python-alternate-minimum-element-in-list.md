@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Alternate elements Minimum
 # using list comprehension + min()
@@ -30,7 +30,7 @@ print ("The alternate element list minimum is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [1, 4, 6, 7, 9, 3, 5]
 The alternate element list minimum is : 3
 ```
@@ -40,7 +40,7 @@ The alternate element list minimum is : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Alternate elements Minimum
 # using enumerate() + min()
@@ -61,7 +61,7 @@ print ("The alternate element list minimum is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [1, 4, 6, 7, 9, 3, 5]
 The alternate element list minimum is : 3
 ```

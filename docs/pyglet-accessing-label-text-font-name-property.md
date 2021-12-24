@@ -6,7 +6,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个窗口和标签
 
-```
+```py
 # creating window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ label = pyglet.text.Label(text, font_name, font_size, x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -95,6 +95,6 @@ pyglet.app.run()
 
 ![](img/afff048438e971ea0afe938ee052c376.png)
 
-```
+```py
 Font Name : Times New Roman
 ```

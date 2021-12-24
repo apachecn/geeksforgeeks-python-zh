@@ -7,7 +7,7 @@
 **方法#1:使用列表理解和列表切片**
 上面两个强大的 Python 实用程序在这里也可以得到结果，因为列表理解可以提取元素切片可以限制我们需要提取的大小。
 
-```
+```py
 # Python3 code to demonstrate
 # Get Kth element till N
 # using list comprehension + list slicing 
@@ -34,7 +34,7 @@ print("The Kth element of sublist till N : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [['Geeks', 1, 15], ['for', 3, 5], ['Geeks', 3, 7]]
 The Kth element of sublist till N : [1, 3]
 

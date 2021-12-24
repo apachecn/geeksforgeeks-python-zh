@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `items()`**
 以上功能的组合，可以用来解决这个问题。在这种情况下，我们使用 items()提取字典值，并使用 loop 使用“In”运算符检查子字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extracting Key from Value Substring
 # Using loop + items()
@@ -46,7 +46,7 @@ print("The Corresponding key : " + str(res)) 
 **方法 2:使用列表理解**
 这是另一种可以执行该任务的方式。在这种情况下，我们以紧凑的方式在一个衬垫中执行上述方法。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extracting Key from Value Substring
 # Using list comprehension

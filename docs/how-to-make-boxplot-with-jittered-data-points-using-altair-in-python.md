@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing packages
 import altair
 import altair_catplot

@@ -10,7 +10,7 @@
 
 **安装:**
 
-```
+```py
 pip install bs4
 ```
 
@@ -18,7 +18,7 @@ pip install bs4
 
 **安装:**
 
-```
+```py
 pip install requests
 ```
 
@@ -35,7 +35,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import requests
 from bs4 import BeautifulSoup
@@ -45,7 +45,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to extract html data
 def getdata(url):
     r=requests.get(url)
@@ -58,7 +58,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 # Extract and convert
 htmldata = getdata("https://finance.yahoo.com/quote/usdinr=X?ltr=1")
 soup = BeautifulSoup(htmldata, 'html.parser')
@@ -73,7 +73,7 @@ result = (soup.find_all("div", class_="D(ib) Va(m) Maw(65%) Ov(h)")
 
 ## 蟒蛇 3
 
-```
+```py
 mydatastr = ''
 
 # Filter converted data
@@ -86,7 +86,7 @@ print(mydatastr)
 
 **输出:**
 
-```
+```py
 '73.2610-0.2790 (-0.38%)As of  3:30PM BST. Market open.'
 ```
 
@@ -94,7 +94,7 @@ print(mydatastr)
 
 ## 计算机编程语言
 
-```
+```py
 # Import required modules
 from tkinter import *
 import requests

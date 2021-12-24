@@ -22,7 +22,7 @@ Python 的 Itertool 是一个模块，它提供了各种在迭代器上工作的
 
 **例 1:**
 
-```
+```py
 # Python code to demonstrate 
 # itertools.groupby() method 
 
@@ -39,7 +39,7 @@ for key, group in itertools.groupby(L, key_func):
 
 **输出:**
 
-```
+```py
 a : [('a', 1), ('a', 2)]
 b : [('b', 3), ('b', 4)]
 
@@ -47,7 +47,7 @@ b : [('b', 3), ('b', 4)]
 
 **例 2 :**
 
-```
+```py
 # Python code to demonstrate 
 # itertools.groupby() method 
 
@@ -67,7 +67,7 @@ for key, group in an_iterator:
 
 **输出**
 
-```
+```py
 {'Animal': [('Animal', 'cat'), ('Animal', 'dog')]}
 {'Bird': [('Bird', 'peacock'), ('Bird', 'pigeon')]}
 

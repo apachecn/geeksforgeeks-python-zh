@@ -60,7 +60,7 @@ C 中的 For 循环从初始化的值开始，然后检查条件。如果测试�
 
 ## C
 
-```
+```py
 //Program to show working of for loop in C
 
 #include <stdio.h>
@@ -138,7 +138,7 @@ z =增量/减量
 
 ## 蟒蛇 3
 
-```
+```py
 # program to show for loop in python
 
 for i in range(1, 11):

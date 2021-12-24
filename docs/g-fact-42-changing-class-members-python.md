@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Class for Computer Science Student
 class CSStudent:
     stream = 'cse'     # Class Variable
@@ -37,7 +37,7 @@ print ("b.stream =", b.stream )
 
 **输出:**
 
-```
+```py
 Initially
 a.stream = cse
 b.stream = cse
@@ -51,7 +51,7 @@ b.stream = cse
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to show how to make changes to the
 # class variable in Python
 
@@ -80,7 +80,7 @@ print "b.stream =", b.stream
 
 **输出:**
 
-```
+```py
 a.stream = cse
 
 Class variable changes to mec

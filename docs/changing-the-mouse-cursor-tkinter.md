@@ -38,7 +38,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 
@@ -62,7 +62,7 @@ root.mainloop()
 
 要在按钮中添加光标，请使用**光标**属性。
 
-```
+```py
 Button(root,text="Button",font=("Helvetica 15 bold"),cursor="star").pack()
 ```
 
@@ -79,7 +79,7 @@ Button(root,text="Button",font=("Helvetica 15 bold"),cursor="star").pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 
@@ -129,7 +129,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 

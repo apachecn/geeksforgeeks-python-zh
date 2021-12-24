@@ -30,7 +30,7 @@
 
 **示例:**
 
-```
+```py
 Commands are as follows : 
 'W' or 'w' : Move Up
 'S' or 's' : Move Down
@@ -89,7 +89,7 @@ And the series of input output will go on till we lose or win!
 
 ## 蟒蛇 3
 
-```
+```py
 # logic.py to be
 # imported in the 2048.py file
 
@@ -349,7 +349,7 @@ def move_down(grid):
 
 ## 蟒蛇 3
 
-```
+```py
 # logic.py to be
 # imported in the 2048.py file
 
@@ -611,7 +611,7 @@ def move_down(grid):
 
 ## 蟒蛇 3
 
-```
+```py
 # 2048.py
 
 # importing the logic.py file

@@ -9,7 +9,7 @@
 **库使用:**
 **[os](https://www.geeksforgeeks.org/os-module-python-examples/):**Python 中的 OS 模块提供了一种使用操作系统相关功能的方式。操作系统模块提供的功能允许您与运行 Python 的底层操作系统进行交互；无论是视窗、苹果还是 Linux。它可以作为–
 
-```
+```py
 import os
 
 ```
@@ -20,7 +20,7 @@ import os
 
     下面是上面实现的 Python 程序:
 
-    ```
+    ```py
     # Python code to create child process 
     import os
 
@@ -41,7 +41,7 @@ import os
 
     输出:
 
-    ```
+    ```py
     Child process and id is :  32523
     Parent process and id is :  32524
 

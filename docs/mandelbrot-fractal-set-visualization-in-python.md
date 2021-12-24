@@ -13,14 +13,14 @@
 
 安装所需的 Python 模块:
 
-```
+```py
 pip install pillow
 pip install numpy
 ```
 
 **代码#1:**
 
-```
+```py
 # Python code for Mandelbrot Fractal
 
 # Import necessary libraries
@@ -69,7 +69,7 @@ img.show()
 
 **代码#2:**
 
-```
+```py
 # Mandelbrot fractal
 # FB - 201003254
 from PIL import Image

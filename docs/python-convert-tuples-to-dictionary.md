@@ -7,7 +7,7 @@
 **方法#1:使用字典理解**
 这个任务可以使用字典理解来执行，在字典理解中，我们可以使用`enumerate()`同时遍历键和值元组，并构建所需的字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Tuples to Dictionary
 # Using Dictionary Comprehension
@@ -32,7 +32,7 @@ print("Dictionary constructed from tuples : " + str(res))
 
 **Output :**
 
-```
+```py
 The original key tuple is : ('GFG', 'is', 'best')
 The original value tuple is : (1, 2, 3)
 Dictionary constructed from tuples : {'best': 3, 'is': 2, 'GFG': 1}

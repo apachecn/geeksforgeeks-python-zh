@@ -21,7 +21,7 @@
 **方法#1:使用循环**
 这是蛮力的方式解决这个问题。在这种情况下，我们手动迭代整个列表并检查过滤器关键字的值，在相等的情况下，我们提取所需关键字的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter key's value from other key
 # Using loop
@@ -62,7 +62,7 @@ print("The required value : " + str(res)) 
 **方法 2:使用列表理解**
 这是解决这个问题的又一种方法。在这种情况下，我们使用列表理解结构以速记方式执行与上述方法类似的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter key's value from other key
 # Using list comprehension

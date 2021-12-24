@@ -7,7 +7,7 @@
 **方法#1:使用循环+公式**
 处理这个问题的更简单的方式是使用求平均值的公式，并使用循环短指针来执行。这是解决这个问题最基本的方法。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Average of Float Numbers 
 # using loop + formula 
@@ -32,7 +32,7 @@ print("The mean of float list elements is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [6.1, 7.2, 3.3, 9.4, 10.6, 15.7]
 The mean of float list elements is : 8.716666666666667
 

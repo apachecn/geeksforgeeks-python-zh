@@ -8,7 +8,7 @@ Python 中几乎所有的东西都是一个[对象](https://www.geeksforgeeks.or
 
 **语法:**
 
-```
+```py
 closure_function.__closure__
 ```
 
@@ -16,7 +16,7 @@ closure_function.__closure__
 
 ## 蟒蛇
 
-```
+```py
 # this is a nested function
 def gfg(raise_power_to): 
 

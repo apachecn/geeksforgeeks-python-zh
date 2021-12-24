@@ -25,7 +25,7 @@ PDF(可移植文档格式)可能是一种文件格式，它将打印文档的所
 
 tabula-py 是 tabula-java 的一个简单的 Python 包装器，可以读取 PDF 中的表格。您可以使用命令安装白板库。
 
-```
+```py
 pip install tabula-py
 pip install tabulate
 ```
@@ -40,7 +40,7 @@ pip install tabulate
 
 ## 蟒蛇 3
 
-```
+```py
 from tabula import read_pdf
 from tabulate import tabulate
 
@@ -57,7 +57,7 @@ print(tabulate(df))
 
 Camelot 是一个 Python 库，有助于从 PDF 文件中提取表格。您可以使用命令安装 camelot-py 库
 
-```
+```py
 pip install camelot-py
 ```
 
@@ -73,7 +73,7 @@ pip install camelot-py
 
 ## 蟒蛇 3
 
-```
+```py
 import camelot
 
 # extract all the tables in the PDF file

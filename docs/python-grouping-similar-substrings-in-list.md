@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # group similar substrings
 # using lambda + itertools.groupby() + split()
@@ -43,7 +43,7 @@ print ("The grouped list is : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # group similar substrings
 # using lambda + itertools.groupby() + partition()

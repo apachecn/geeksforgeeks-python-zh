@@ -12,7 +12,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 导入 tkinter 与导入 Python 代码中的任何其他模块相同。请注意，Python 2.x 中的模块名称是“tkinter”，Python 3.x 中的模块名称是“Tkinter”。
 
-```
+```py
 import tkinter
 
 ```
@@ -21,17 +21,17 @@ import tkinter
 
 1.  **Tk(screenName=None，baseName=None，className='Tk '，useTk=1):** 为了创建主窗口，tkinter 提供了一个方法‘Tk(screenName = None，baseName=None，className='Tk '，useTk = 1)’。要更改窗口的名称，可以将类名更改为所需的名称。用于创建应用程序主窗口的基本代码是:
 
-    ```
+    ```py
     m=tkinter.Tk() where m is the name of the main window object
     ```
 
 2.  **mainloop():** 当您的应用程序准备运行时，会使用一个名为 mainloop()的方法。mainloop()是一个无限循环，用于运行应用程序，等待事件发生，并在窗口未关闭时处理事件。
 
-    ```
+    ```py
     m.mainloop()
     ```
 
-    ```
+    ```py
     import tkinter
     m = tkinter.Tk()
     '''
@@ -51,7 +51,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
 1.  **Button**:To add a button in your application, this widget is used.
     The general syntax is:
 
-    ```
+    ```py
     w=Button(master, option=value)
     ```
 
@@ -67,7 +67,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
     *   **宽度**:设置按钮的宽度。
     *   **高度**:设置按钮的高度。
 
-    ```
+    ```py
     import tkinter as tk
     r = tk.Tk()
     r.title('Counting Seconds')
@@ -82,7 +82,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
 2.  **Canvas:** It is used to draw pictures and other complex layout like graphics, text and widgets.
     The general syntax is:
 
-    ```
+    ```py
     w = Canvas(master, option=value)
     master is the parameter used to represent the parent window.
     ```
@@ -96,7 +96,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
     master = Tk()
     w = Canvas(master, width=40, height=60)
@@ -113,7 +113,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
 
 3.  **CheckButton:** To select any number of options by displaying a number of options to a user as toggle buttons. The general syntax is:
 
-    ```
+    ```py
     w = CheckButton(master, option=value)
     ```
 
@@ -134,7 +134,7 @@ tkinter 还提供了对小部件几何配置的访问，可以在父窗口中组
     *   **字体**:设置按钮标签上的字体。
     *   **图像**:设置小部件上的图像。
 
-```
+```py
 from tkinter import *
 master = Tk()
 var1 = IntVar()
@@ -150,7 +150,7 @@ mainloop()
 6.  **Entry:**It is used to input the single line text entry from the user.. For multi-line text input, Text widget is used.
     The general syntax is:
 
-    ```
+    ```py
     w=Entry(master, option=value)
 
     ```
@@ -166,7 +166,7 @@ mainloop()
     *   **宽度**:设置按钮的宽度。
     *   **高度**:设置按钮的高度。
 
-    ```
+    ```py
     from tkinter import *
     master = Tk()
     Label(master, text='First Name').grid(row=0)
@@ -183,7 +183,7 @@ mainloop()
 
 7.  **Frame:** It acts as a container to hold the widgets. It is used for grouping and organizing the widgets. The general syntax is:
 
-    ```
+    ```py
     w = Frame(master, option=value)
     master is the parameter used to represent the parent window.
     ```
@@ -197,7 +197,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
 
     root = Tk()
@@ -222,7 +222,7 @@ mainloop()
 8.  **Label**: It refers to the display box where you can put any text or image which can be updated any time as per the code.
     The general syntax is:
 
-    ```
+    ```py
     w=Label(master, option=value)
     master is the parameter used to represent the parent window.
     ```
@@ -237,7 +237,7 @@ mainloop()
     *   **宽度**:设置按钮的宽度。
     *   **高度**设置按钮的高度。
 
-    ```
+    ```py
     from tkinter import *
     root = Tk()
     w = Label(root, text='GeeksForGeeks.org!')
@@ -251,7 +251,7 @@ mainloop()
 9.  **Listbox**: It offers a list to the user from which the user can accept any number of options.
     The general syntax is:
 
-    ```
+    ```py
     w = Listbox(master, option=value)
     master is the parameter used to represent the parent window.
     ```
@@ -266,7 +266,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
 
     top = Tk()
@@ -284,7 +284,7 @@ mainloop()
 
 10.  **MenuButton**: It is a part of top-down menu which stays on the window all the time. Every menubutton has its own functionality. The general syntax is:
 
-    ```
+    ```py
     w = MenuButton(master, option=value)
     master is the parameter used to represent the parent window.
     ```
@@ -301,7 +301,7 @@ mainloop()
     *   **高度**:设置小部件的高度。
     *   **highlightcolor** :设置小部件需要对焦时的对焦高亮颜色。
 
-    ```
+    ```py
     from tkinter import *
 
     top = Tk()
@@ -323,7 +323,7 @@ mainloop()
 11.  **菜单**:用于创建应用使用的各种菜单。
     一般句法是:
 
-```
+```py
 w = Menu(master, option=value)
 master is the parameter used to represent the parent window.
 ```
@@ -338,7 +338,7 @@ master is the parameter used to represent the parent window.
 *   **字体**:设置按钮标签上的字体。
 *   **图像**:设置小部件上的图像。
 
-```
+```py
 from tkinter import *
 
 root = Tk()
@@ -362,7 +362,7 @@ mainloop()
 *   **Message**: It refers to the multi-line and non-editable text. It works same as that of Label.
     The general syntax is:
 
-    ```
+    ```py
     w = Message(master, option=value)
     master is the parameter used to represent the parent window.
 
@@ -377,7 +377,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
     main = Tk()
     ourMessage ='This is our Message'
@@ -393,7 +393,7 @@ mainloop()
     *   **RadioButton:** It is used to offer multi-choice option to the user. It offers several options to the user and the user has to choose one option.
     The general syntax is:
 
-    ```
+    ```py
     w = RadioButton(master, option=value)
 
     ```
@@ -409,7 +409,7 @@ mainloop()
     *   **宽度**:以字符为单位设置标签的宽度。
     *   **高度**:以字符为单位设置标签的高度。
 
-    ```
+    ```py
     from tkinter import *
     root = Tk()
     v = IntVar()
@@ -423,7 +423,7 @@ mainloop()
 
     *   **Scale:** It is used to provide a graphical slider that allows to select any value from that scale. The general syntax is:
 
-    ```
+    ```py
     w = Scale(master, option=value)
     master is the parameter used to represent the parent window.
 
@@ -440,7 +440,7 @@ mainloop()
     *   **图像**:设置小部件上的图像。
     *   **宽度**:设置小部件的宽度。
 
-    ```
+    ```py
     from tkinter import *
     master = Tk()
     w = Scale(master, from_=0, to=42)
@@ -456,7 +456,7 @@ mainloop()
     *   **Scrollbar**: It refers to the slide controller which will be used to implement listed widgets.
     The general syntax is:
 
-    ```
+    ```py
     w = Scrollbar(master, option=value)
     master is the parameter used to represent the parent window.
 
@@ -470,7 +470,7 @@ mainloop()
     *   **bd** :设置指示器周围边框的大小。
     *   **光标**:鼠标悬停在菜单按钮上时出现光标。
 
-    ```
+    ```py
     from tkinter import *
     root = Tk()
     scrollbar = Scrollbar(root)
@@ -489,7 +489,7 @@ mainloop()
     *   **Text:** To edit a multi-line text and format the way it has to be displayed.
     The general syntax is:
 
-    ```
+    ```py
     w  =Text(master, option=value)
 
     ```
@@ -504,7 +504,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
     root = Tk()
     T = Text(root, height=2, width=30)
@@ -518,7 +518,7 @@ mainloop()
 
     *   **TopLevel:** This widget is directly controlled by the window manager. It don’t need any parent window to work on.The general syntax is:
 
-    ```
+    ```py
     w = TopLevel(master, option=value)
 
     ```
@@ -531,7 +531,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
     root = Tk()
     root.title('GfG')
@@ -545,7 +545,7 @@ mainloop()
 
     *   **SpinBox:** It is an entry of ‘Entry’ widget. Here, value can be input by selecting a fixed value of numbers.The general syntax is:
 
-    ```
+    ```py
     w = SpinBox(master, option=value)
 
     ```
@@ -562,7 +562,7 @@ mainloop()
     *   **from_** :设置范围一端的值。
     *   **至**:设置范围另一端的值。
 
-    ```
+    ```py
     from tkinter import *
     master = Tk()
     w = Spinbox(master, from_ = 0, to = 10)
@@ -575,7 +575,7 @@ mainloop()
 
     *   **PannedWindow**It is a container widget which is used to handle number of panes arranged in it. The general syntax is:
 
-    ```
+    ```py
     w = PannedWindow(master, option=value)
 
     ```
@@ -589,7 +589,7 @@ mainloop()
     *   **宽度**:设置小部件的宽度。
     *   **高度**:设置小部件的高度。
 
-    ```
+    ```py
     from tkinter import *
     m1 = PanedWindow()
     m1.pack(fill = BOTH, expand = 1)

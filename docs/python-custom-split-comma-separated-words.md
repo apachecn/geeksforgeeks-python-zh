@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom Split Comma Separated Words
 # Using replace()
@@ -37,7 +37,7 @@ print("The strings after performing splits : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom Split Comma Separated Words
 # Using re.findall()

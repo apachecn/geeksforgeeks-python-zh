@@ -7,7 +7,7 @@
 **方法:使用`sorted()` + lambda +列表切片**
 该任务可以使用以上功能的组合来执行。在这种情况下，`sorted()`可用于获取容器，需要在后端获取 N 个最大的元素，然后使用列表切片来计算索引。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Indices of N largest elements in list
 # using sorted() + lambda + list slicing
@@ -31,7 +31,7 @@ print("Indices list of max N elements is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 10, 4, 7, 1, 19]
 Indices list of max N elements is : [1, 4, 2, 6]
 

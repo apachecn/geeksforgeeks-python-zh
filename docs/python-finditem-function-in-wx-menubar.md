@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.FindItem(self, id)
 > 
 > ```
@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

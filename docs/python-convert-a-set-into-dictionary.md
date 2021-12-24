@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # converting set into dictionary
 # using fromkeys()
@@ -31,7 +31,7 @@ print (type(res))
 
 **Output:** 
 
-```
+```py
 initial string {1, 2, 3, 4, 5}
 <class 'set'>
 final list {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
@@ -42,7 +42,7 @@ final list {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # converting set into dictionary
 # using dict comprehension
@@ -65,7 +65,7 @@ print (type(res))
 
 **Output:** 
 
-```
+```py
 initial string {1, 2, 3, 4, 5}
 <class 'set'>
 final list {1: 'Geek', 2: 'Geek', 3: 'Geek', 4: 'Geek', 5: 'Geek'}

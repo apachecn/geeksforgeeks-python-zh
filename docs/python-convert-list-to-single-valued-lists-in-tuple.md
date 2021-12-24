@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+元组()**
 这是可以执行此任务的方法之一。在本文中，我们使用列表理解构造并迭代列表，最后使用 tuple()将结果列表转换为 tuple。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to Single valued Lists in Tuple
 # Using list comprehension + tuple()
@@ -34,7 +34,7 @@ print("Tuple after conversion : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [6, 8, 4, 9, 10, 2]
 Tuple after conversion : ([6], [8], [4], [9], [10], [2])
 
@@ -43,7 +43,7 @@ Tuple after conversion : ([6], [8], [4], [9], [10], [2])
 **方法 2:使用`map() + list() + zip() + tuple()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 map()执行将转换逻辑扩展到每个元素的任务，并使用 zip()列出到每个元素的转换。最后，使用 tuple()将结果转换回 tuple。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to Single valued Lists in Tuple
 # Using map() + list() + zip() + tuple()
@@ -64,7 +64,7 @@ print("Tuple after conversion : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [6, 8, 4, 9, 10, 2]
 Tuple after conversion : ([6], [8], [4], [9], [10], [2])
 

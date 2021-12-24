@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `zip() + map()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们使用蛮力来压平字典键，然后使用 map()和 zip()将它们对齐为矩阵行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flatten Nested Dictionary to Matrix
 # using zip() + loop + map()

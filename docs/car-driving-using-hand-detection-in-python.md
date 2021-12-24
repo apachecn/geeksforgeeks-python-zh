@@ -11,7 +11,7 @@
 
 对于这个项目，我们需要导入两个 Python 库，即 **OpenCV** 和 **numpy** 。如何安装这两个库？
 
-```
+```py
 1) pip install opencv-python
 2) pip install numpy
 
@@ -21,7 +21,7 @@
 
 **代码#1:**
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -34,7 +34,7 @@ hand_cascade = cv2.CascadeClassifier('hand.xml')
 
 **代码#2 :**
 
-```
+```py
 count = 0
 
 while(True):

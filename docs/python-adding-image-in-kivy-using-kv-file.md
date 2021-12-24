@@ -20,7 +20,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **注意:**默认情况下，图像居中并适合小部件边界框。如果您不想这样，您可以将*允许拉伸*设置为真，将*保持比例*设置为假。
 
-```
+```py
 Basic Approach to create multiple layout in one file:
 1) import kivy
 2) import kivyApp
@@ -43,7 +43,7 @@ Basic Approach to create multiple layout in one file:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## working with images in Kivy using .kv file 
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # How to use images in kivy using .kv
 
 # root widget od Imagekv Class

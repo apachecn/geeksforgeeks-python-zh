@@ -36,7 +36,7 @@ Python 是一种广泛使用的高级、通用、解释、多用途、动态编�
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import imaplib
 import email

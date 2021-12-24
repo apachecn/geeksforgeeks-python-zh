@@ -6,13 +6,13 @@
 我们可以借助下面给出的命令
 创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on expose 事件的语法，这个方法在这个事件被触发时被调用
 
-```
+```py
 @window.event       
 def on_expose():
     print("On Expose Event")
@@ -22,7 +22,7 @@ def on_expose():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key

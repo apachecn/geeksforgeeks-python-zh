@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +循环**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用 join()执行提取数字的任务，使用 loop 执行求和的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Embedded Numbers Summation in String List
 # Using join() + loop
@@ -30,7 +30,7 @@ print("The summation of strings : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['g4fg', 'i4s5', 'b9e4st']
 The summation of strings : 143
 

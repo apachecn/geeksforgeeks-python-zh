@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import multiprocessing
 
@@ -44,7 +44,7 @@ print(pro.map(twos_multiple, range(10)))
 
 ## 蟒蛇 3
 
-```
+```py
 import multiprocessing
 
 def twos_multiple(x):

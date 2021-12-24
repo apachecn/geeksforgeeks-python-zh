@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst  = ['am', 'watermelon', 'girl', 'boy', 'colour'], K = 3
 Output : ['watermelon', 'colour', 'girl']
 
@@ -19,7 +19,7 @@ Output : ['brain', 'geek', 'see', 'on']
 
 首先，根据单词的长度对“lst”进行排序，然后根据计数器变量进行排序，以便后面出现的单词获得更高的优先级，从而提取 k 个变量。
 
-```
+```py
 # Python3 program to Find 
 # longest K words in a list
 from itertools import count
@@ -37,14 +37,14 @@ print(longest_word(lst, K))
 
 **Output:**
 
-```
+```py
 ['watermelon', 'colour', 'girl']
 
 ```
 
 **方法 2 :** 使用*排序()*
 
-```
+```py
 # Python3 program to Find 
 # longest K words in a list
 
@@ -61,14 +61,14 @@ print(longest_word(lst, K))
 
 **Output:**
 
-```
+```py
 ['watermelon', 'colour', 'girl']
 
 ```
 
 **方法三:**使用*堆*
 
-```
+```py
 # Python3 program to Find 
 # longest K words in a list
 import heapq
@@ -96,7 +96,7 @@ print(longest_word(lst, K))
 
 **Output:**
 
-```
+```py
 ['watermelon', 'colour', 'girl']
 
 ```

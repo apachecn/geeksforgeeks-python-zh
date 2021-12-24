@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`configuration()`** 方法用于获取 Twitter 使
 
 **示例:**
 
-```
+```py
 # import the module
 import tweepy
 

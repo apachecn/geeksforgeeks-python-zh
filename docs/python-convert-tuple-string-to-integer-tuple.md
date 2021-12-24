@@ -7,7 +7,7 @@
 **方法#1:使用`tuple() + int() + replace() + split()`**
 以上方法的组合可以用来执行此任务。在本例中，我们使用 tuple()和 int()执行转换。元素的提取是通过 replace()和 split()完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple String to Integer Tuple
 # Using tuple() + int() + replace() + split()
@@ -28,7 +28,7 @@ print("The tuple after conversion is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : (7, 8, 9)
 The tuple after conversion is : (7, 8, 9)
 

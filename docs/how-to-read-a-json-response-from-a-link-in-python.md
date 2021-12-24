@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import urllib library
 from urllib.request import urlopen
 

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import gensim
 from gensim.models import word2vec,KeyedVectors
@@ -27,7 +27,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 ## 蟒蛇 3
 
-```
+```py
 vector_word_notations = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin',binary=True)
 ```
 
@@ -35,7 +35,7 @@ vector_word_notations = KeyedVectors.load_word2vec_format('GoogleNews-vectors-ne
 
 ## 蟒蛇 3
 
-```
+```py
 def analogous_word(word_1,word_2,word_3,vector_word_notations):
     ''' The function accepts a triad of words, word_1, word_2, word_3 and returns word_4 such that word_1:word_2::word_3:word_4 '''
 
@@ -73,7 +73,7 @@ def analogous_word(word_1,word_2,word_3,vector_word_notations):
 
 ## 蟒蛇 3
 
-```
+```py
 triad_1 = ("Man","Woman","King")
 # *triad_1 is written to unpack the elements in the tuple
 output = analogous_word(*triad_1,word_vectors) 

@@ -8,7 +8,7 @@
 
 在这个例子中，我们将看到如何从字符串的末尾或开始获取子字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # to create a substring from a string
 
@@ -30,7 +30,7 @@ print ("print resultant substring from end", sstring_end)
 
 **Output:**
 
-```
+```py
 initial_strings :  xbzefdgstb
 print resultant substring from start xb
 print resultant substring from end efdgstb
@@ -41,7 +41,7 @@ print resultant substring from end efdgstb
 
 在本例中，我们将看到如何通过从特定的位置间隙中获取字符来创建字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # to create a substring from string
 
@@ -64,7 +64,7 @@ print ("print resultant substring from end", sstring_gap2)
 
 **Output:**
 
-```
+```py
 initial_strings :  xbzefdgstb
 print resultant substring from start xzfgt
 print resultant substring from end xegb
@@ -75,7 +75,7 @@ print resultant substring from end xegb
 
 在这个例子中，我们考虑了两种情况:从中间取字符串，字符之间有一些位置间隙。
 
-```
+```py
 # Python3 code to demonstrate
 # to create a substring from string
 
@@ -96,7 +96,7 @@ print ("print resultant substring", sstring)
 
 **Output:**
 
-```
+```py
 initial_strings :  xbzefdgstb
 print resultant substring zfg
 

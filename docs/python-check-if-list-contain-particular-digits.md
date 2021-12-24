@@ -4,7 +4,7 @@
 
 给定一个列表和一些数字，任务是编写一个 python 程序来检查列表是否只包含某些数字。
 
-```
+```py
 Input : test_list = [435, 133, 113, 451, 134], digs = [1, 4, 5, 3]
 Output : True
 Explanation : All elements are made out of 1, 4, 5 or 3 only.
@@ -20,7 +20,7 @@ Explanation : 3 as a digit is required in allowed digits.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if list contain particular digits
 # Using loop + str() + join()
@@ -52,7 +52,7 @@ print("Are all elements made from required digits? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [435, 133, 113, 451, 134]
 Are all elements made from required digits? : True
 ```
@@ -63,7 +63,7 @@ Are all elements made from required digits? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if list contain particular digits
 # Using any() + list comprehension
@@ -89,7 +89,7 @@ print("Are all elements made from required digits? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [435, 133, 113, 451, 134]
 Are all elements made from required digits? : True
 ```

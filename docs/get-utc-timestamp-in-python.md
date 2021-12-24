@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 #  datetime module
 
@@ -33,7 +33,7 @@ print(datetime.datetime.now())
 
 **输出:**
 
-```
+```py
 2020-01-26
 2020-02-04
 1999-12-12 12:12:12.342380
@@ -47,7 +47,7 @@ print(datetime.datetime.now())
 
 **示例:**
 
-```
+```py
 from datetime import timezone
 import datetime
 
@@ -63,7 +63,7 @@ print(utc_timestamp)
 
 **输出:**
 
-```
+```py
 1615975803.787904
 
 ```

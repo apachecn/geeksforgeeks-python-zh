@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : 20
 Output : 5 7 10 14 15 20 
 
@@ -20,7 +20,7 @@ Output: 5 7 10 14 15 20 21 25 28 30 35 40 42 45 49 50
 
 ## c++
 
-```
+```py
 // C++ program to print all the numbers
 // divisible by 5 or 7 for a given number
 # include<bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 ## Java
 
-```
+```py
 // Java program to print all the numbers
 // divisible by 5 or 7 for a given number
 import java.util.*;
@@ -100,7 +100,7 @@ T2
 
 ## c#
 
-```
+```py
 // C# program to print all the numbers
 // divisible by 5 or 7 for a given number
 using System;
@@ -146,7 +146,7 @@ T4T26】
 
 **输出:**
 
-```
+```py
 5 7 10 14 15 20 21 25 28 30 35 40 42 45 49 50 
 ```
 

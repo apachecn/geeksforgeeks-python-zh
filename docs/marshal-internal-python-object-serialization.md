@@ -24,7 +24,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # Python code to demonstrate serialization
     import marshal
 
@@ -37,7 +37,7 @@
 
     **输出**
 
-    ```
+    ```py
     {tfeep[tctitatog®Gáz®ó?y@@ittwelve(iiiuwer0}
 
     ```
@@ -49,7 +49,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # Python code to demonstrate de-serialization
     import marshal
 
@@ -63,7 +63,7 @@
 
     **Output**
 
-    ```
+    ```py
     {12: 'twelve', 1.23: (4+5j), 'feep': ['c', 'i', 'a', 'o'], (1, 2, 3): u'wer'}
 
     ```

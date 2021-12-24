@@ -12,7 +12,7 @@
 
 **代码#1:逻辑 _and()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_and() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with logical_and() method : ", b.logical_and(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  0
 Decimal value b :  1
 
@@ -47,7 +47,7 @@ Decimal b with logical_and() method :  1
 
 **代码#2:逻辑 _and()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_and() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with logical_and() method : ", a.logical_and(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  0
 

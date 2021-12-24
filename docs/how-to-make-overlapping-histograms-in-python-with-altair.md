@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import altair as alt
@@ -66,7 +66,7 @@ alt.Chart(pd.melt(df,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import altair as alt

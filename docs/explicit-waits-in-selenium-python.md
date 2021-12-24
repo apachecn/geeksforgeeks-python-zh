@@ -7,7 +7,7 @@
 **显式等待**
 显式等待是您定义的代码，用于等待某个条件发生，然后再继续执行代码。这种情况的极端情况是 time.sleep()，它将条件设置为等待的确切时间段。提供了一些方便的方法来帮助您编写只等待所需时间的代码。显式等待是通过结合使用 webdriverWait 类和 expected_conditions 实现的。让我们考虑一个例子–
 
-```
+```py
 # import necessary classes
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -48,7 +48,7 @@ finally:
 
 定义的显式等待是网络驱动和预期条件的组合。让我们在 https://www.geeksforgeeks.org/上实现它，并等待 10 秒钟再定位一个元素。
 
-```
+```py
 # import webdriver 
 from selenium import webdriver 
 from selenium.webdriver.common.by import By

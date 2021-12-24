@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def EliasGammaEncode(k):
     if (k == 0):
         return '0'
@@ -44,7 +44,7 @@ def EliasGammaEncode(k):
 
 ## 蟒蛇 3
 
-```
+```py
 def Binary_Representation_Without_MSB(x):
     binary = "{0:b}".format(int(x))
     binary_without_MSB = binary[1:]
@@ -63,7 +63,7 @@ def Binary_Representation_Without_MSB(x):
 
 ## 蟒蛇 3
 
-```
+```py
 def EliasDeltaEncode(x):
     Gamma = EliasGammaEncode(1 + floor(log(k, 2)))
     binary_without_MSB = Binary_Representation_Without_MSB(k)
@@ -82,7 +82,7 @@ print(EliasDeltaEncode(k))
 
 ## 蟒蛇 3
 
-```
+```py
 from math import log
 from math import floor
 
@@ -109,6 +109,6 @@ print(EliasDeltaEncode(k))
 
 **输出:**
 
-```
+```py
 00100110
 ```

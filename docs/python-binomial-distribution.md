@@ -46,7 +46,7 @@ An example illustrating the distribution :
 
     **安装:**
 
-    ```
+    ```py
     pip install scipy
 
     ```
@@ -56,7 +56,7 @@ An example illustrating the distribution :
 
     **安装:**
 
-    ```
+    ```py
     pip install matplotlib
 
     ```
@@ -82,7 +82,7 @@ An example illustrating the distribution :
 
 **代码:**
 
-```
+```py
 from scipy.stats import binom
 # setting the values
 # of n and p
@@ -105,7 +105,7 @@ print("variance = "+str(var))
 
 **输出:**
 
-```
+```py
 r    p(r)
 0    0.004096000000000002
 1    0.03686400000000005
@@ -121,7 +121,7 @@ variance = 1.44
 
 **代码:使用 *matplotlib.pyplot.bar()* 函数绘制曲线图，绘制竖线。**
 
-```
+```py
 from scipy.stats import binom
 import matplotlib.pyplot as plt
 # setting the values

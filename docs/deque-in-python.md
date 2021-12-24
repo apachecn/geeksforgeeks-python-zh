@@ -8,7 +8,7 @@ Python 中的 Deque(双端队列)是使用模块“**集合**实现的。在我�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate deque 
 
 from collections import deque 
@@ -21,7 +21,7 @@ print(queue)
 
 **输出:**
 
-```
+```py
 deque(['name', 'age', 'DOB'])
 ```
 
@@ -34,7 +34,7 @@ deque(['name', 'age', 'DOB'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of 
 # append(), appendleft(), pop(), and popleft()
 
@@ -79,7 +79,7 @@ print (de)
 
 **输出:**
 
-```
+```py
 The deque after appending at right is : 
 deque([1, 2, 3, 4])
 The deque after appending at left is : 
@@ -97,7 +97,7 @@ deque([1, 2, 3])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of 
 # insert(), index(), remove(), count()
 
@@ -132,7 +132,7 @@ print (de)
 
 **输出:**
 
-```
+```py
 The number 4 first occurs at a position : 
 4
 The deque after inserting 3 at 5th position is : 
@@ -153,7 +153,7 @@ deque([1, 2, 3, 3, 4, 2, 4])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of 
 # extend(), extendleft(), rotate(), reverse()
 
@@ -197,7 +197,7 @@ print (de)
 
 **输出:**
 
-```
+```py
 The deque after extending deque at end is : 
 deque([1, 2, 3, 4, 5, 6])
 The deque after extending deque at beginning is : 

@@ -7,7 +7,7 @@
 **方法#1:使用`loop + split()`**
 这是可以执行该任务的方式之一。在本文中，我们对每个字符串进行迭代，并使用 split()执行拆分。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Delimited String List to String Matrix
 # Using loop + split()
@@ -30,7 +30,7 @@ print("The list after conversion : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg:is:best', 'for:all', 'geeks:and:CS']
 The list after conversion : [['gfg', 'is', 'best'], ['for', 'all'], ['geeks', 'and', 'CS']]
 

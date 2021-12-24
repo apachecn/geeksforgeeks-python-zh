@@ -6,7 +6,7 @@
 
 我们可以借助`new`方法获取 pafy 对象，下面是给定视频获取 pafy 对象的命令
 
-```
+```py
 video = pafy.new(url)
 ```
 
@@ -22,7 +22,7 @@ video = pafy.new(url)
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -41,7 +41,7 @@ print("Meta Data : " + value)
 
 **输出:**
 
-```
+```py
 Meta Data : Title: DSA Self Paced Course | GeeksforGeeks
 Author: GeeksforGeeks
 ID: vG2PNdI8axo
@@ -54,7 +54,7 @@ Thumbnail: http://i.ytimg.com/vi/vG2PNdI8axo/default.jpg
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -73,7 +73,7 @@ print("Meta Data : " + value)
 
 **输出:**
 
-```
+```py
 Meta Data : Title: COVID CASE IN OUR BUILDING - VLOG 32
 Author: Tanmay Bhat
 ID: i6rhnSoK_gc

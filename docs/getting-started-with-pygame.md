@@ -8,19 +8,19 @@
 
 默认情况下，Python 没有附带内置库的 PyGame。所以我们必须使用命令提示符来安装它。打开命令提示符并键入以下命令:
 
-```
+```py
 pip install pygame
 ```
 
 如果您已经安装了 PyGame，请使用以下命令检查版本:
 
-```
+```py
 pip show pygame
 ```
 
 如果您的 Pygame 没有更新到最新版本，请使用以下命令:
 
-```
+```py
 pip install pygame --upgrade
 ```
 
@@ -38,7 +38,7 @@ pip install pygame --upgrade
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 
 pygame.init()
@@ -77,7 +77,7 @@ Blitting 是将游戏对象渲染到表面上的过程。当我们创建游戏�
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 
 pygame.init()
@@ -115,7 +115,7 @@ while not exit:
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 
 pygame.init()

@@ -12,7 +12,7 @@
 
 **代码# 1:same _ quantum()方法示例**
 
-```
+```py
 # Python Program explaining 
 # same_quantum() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with same_quantum() method : ", b.same_quantum(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with same_quantum() method :  True
 
 **代码# 2:same _ quantum()方法示例**
 
-```
+```py
 # Python Program explaining 
 # same_quantum() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with same_quantum() method : ", b.same_quantum(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

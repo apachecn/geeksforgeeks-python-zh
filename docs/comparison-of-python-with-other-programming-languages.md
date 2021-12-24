@@ -9,7 +9,7 @@
 *   在 Python 中，与 Java 相比，程序中不需要分号和大括号，如果忘记在程序中添加大括号或分号，Java 会显示语法错误。
 *   Python code requires fewer lines of code as compare to Java to write the same program. For Example, Here is a code in Java
 
-    ```
+    ```py
     public class PythonandJava {
         public static void main(String[] args)
         {
@@ -20,20 +20,20 @@
 
     **输出:**
 
-    ```
+    ```py
     Python and Java!
 
     ```
 
     **用 Python 编写的相同代码**
 
-    ```
+    ```py
     print("Python and Java !")
     ```
 
     **输出:**
 
-    ```
+    ```py
     Python and Java!
 
     ```

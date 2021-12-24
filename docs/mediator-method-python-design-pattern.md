@@ -27,7 +27,7 @@
 
 溶液-介质-方法**  **## 蟒蛇 3
 
-```
+```py
 class Course(object):
     """Mediator class."""
 

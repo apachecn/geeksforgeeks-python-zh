@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `keys()`**
 以上两者的结合可以用来执行这个特定的任务。这只是较长循环方法的简写，可以用来在一行中执行此任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Dictionary string values
 # Using dictionary comprehension + keys()
@@ -30,7 +30,7 @@ print("The string concatenation of dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary 1 : {'gfg': 'a', 'is': 'b', 'best': 'c'}
 The original dictionary 2 : {'gfg': 'd', 'is': 'e', 'best': 'f'}
 The string concatenation of dictionary is : {'gfg': 'ad', 'is': 'be', 'best': 'cf'}

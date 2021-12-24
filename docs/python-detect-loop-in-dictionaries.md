@@ -15,7 +15,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们迭代特定字典键的所有值，并用字典键中相似键的值进行映射。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Detect loop in Dictionaries
 # Using loop
@@ -44,7 +44,7 @@ print("Does dictionaries contain loop : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary 1 is : {8: [1, 4], 9: [4, 2], 7: [1, 2]}
 The original dictionary 2 is : {2: [1, 7], 11: [24, 20], 10: [1, 6]}
 Does dictionaries contain loop : True
@@ -54,7 +54,7 @@ Does dictionaries contain loop : True
 **方法 2:使用`any()` +循环**
 这是解决这个问题的简写。在这种情况下，我们通过灌输 any()来减少内部循环，如果存在任何循环，则返回 True。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Detect loop in Dictionaries
 # Using any() + loop
@@ -80,7 +80,7 @@ print("Does dictionaries contain loop : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary 1 is : {8: [1, 4], 9: [4, 2], 7: [1, 2]}
 The original dictionary 2 is : {2: [1, 7], 11: [24, 20], 10: [1, 6]}
 Does dictionaries contain loop : True

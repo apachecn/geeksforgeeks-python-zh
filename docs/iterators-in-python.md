@@ -11,7 +11,7 @@ python 中的迭代器是一个对象，用于迭代列表、元组、字典和�
 
 ## 蟒蛇 3
 
-```
+```py
 # Here is an example of a python inbuilt iterator
 # value can be anything which can be iterate
 iterable_value = 'Geeks'
@@ -31,7 +31,7 @@ while True:
 
 **输出:**
 
-```
+```py
 G                                                                                                                                                                            
 e                                                                                                                                                                            
 e                                                                                                                                                                            
@@ -44,7 +44,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python program to demonstrate
 # working of iterators using an example type
 # that iterates from 10 to given value
@@ -88,7 +88,7 @@ for i in Test(5):
 
 **输出:**
 
-```
+```py
 10
 11
 12
@@ -102,7 +102,7 @@ for i in Test(5):
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample built-in iterators
 
 # Iterating over a list
@@ -134,7 +134,7 @@ for i in d :
 
 **输出:**
 
-```
+```py
 List Iteration
 geeks
 for

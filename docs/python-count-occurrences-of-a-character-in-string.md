@@ -8,7 +8,7 @@
 
 迭代该特定字符的整个字符串，然后在遇到该特定字符时增加计数器。
 
-```
+```py
 # Python3 code to demonstrate 
 # occurrence frequency using 
 # naive method 
@@ -31,7 +31,7 @@ print ("Count of e in GeeksforGeeks is : "
 
 **输出:**
 
-```
+```py
 Count of e in GeeksforGeeks is : 4
 ```
 
@@ -39,7 +39,7 @@ Count of e in GeeksforGeeks is : 4
 
 使用`count()`是 Python 中获取任意容器中任意元素的出现最常规的方法。这很容易编码和记忆，因此很受欢迎。
 
-```
+```py
 # Python3 code to demonstrate 
 # occurrence frequency using 
 # count()
@@ -58,7 +58,7 @@ print ("Count of e in GeeksforGeeks is : "
 
 **输出:**
 
-```
+```py
 Count of e in GeeksforGeeks is : 4
 
 ```
@@ -67,7 +67,7 @@ Count of e in GeeksforGeeks is : 4
 
 这是在 Python 中跨任何容器获取元素出现的一种不太为人所知的方法。这也执行类似于上面两个方法的任务，只是一个不同的库即集合的功能。
 
-```
+```py
 # Python3 code to demonstrate 
 # occurrence frequency using 
 # collections.Counter()
@@ -87,7 +87,7 @@ print ("Count of e in GeeksforGeeks is : "
 
 **输出:**
 
-```
+```py
 Count of e in GeeksforGeeks is : 4
 
 ```
@@ -96,7 +96,7 @@ Count of e in GeeksforGeeks is : 4
 
 Lambda 函数与`sum()`和 `map()`一起可以实现统计字符串中特定元素的总出现次数的特定任务。这使用 `sum()`来总结使用 `map()`获得的所有事件。
 
-```
+```py
 # Python3 code to demonstrate 
 # occurrence frequency using 
 # lambda + sum() + map()
@@ -115,7 +115,7 @@ print ("Count of e in GeeksforGeeks is : "
 
 **输出:**
 
-```
+```py
 Count of e in GeeksforGeeks is : 4
 
 ```
@@ -124,7 +124,7 @@ Count of e in GeeksforGeeks is : 4
 
 正则表达式可以帮助我们完成许多与字符串相关的编码任务。它们还可以帮助我们完成查找字符串中元素出现的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # occurrence frequency using 
 # re + findall()
@@ -144,7 +144,7 @@ print ("Count of e in GeeksforGeeks is : "
 
 **输出:**
 
-```
+```py
 Count of e in GeeksforGeeks is : 4
 
 ```

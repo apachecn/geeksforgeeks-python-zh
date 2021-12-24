@@ -46,7 +46,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to change menu background
 # color of Tkinter's Option Menu
 

@@ -7,7 +7,7 @@
 **方法:使用循环**
 这个任务可以使用蛮力的方式来执行。在这种情况下，我们对所有字典进行迭代，并通过在关键字匹配中将一个列表元素添加到另一个来执行相似关键字的连接。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Similar Key values
 # Using loop
@@ -36,7 +36,7 @@ print("The concatenated dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [{'CS': [4, 5, 6], 'good': [9, 6, 2, 10], 'gfg': [1, 5, 6, 7]}, {'CS': [5, 7, 10], 'gfg': [5, 6, 7, 8]}, {'best': [5, 7], 'gfg': [7, 5]}]
 The concatenated dictionary : {'gfg': [1, 5, 6, 7, 5, 6, 7, 8, 7, 5], 'good': [9, 6, 2, 10], 'best': [5, 7], 'CS': [4, 5, 6, 5, 7, 10]}
 

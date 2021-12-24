@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `isinstance()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们会检查列表的实例，并将其展平，然后粗暴地添加其他元素到列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # Flatten List to individual elements
 # using loop + isinstance()

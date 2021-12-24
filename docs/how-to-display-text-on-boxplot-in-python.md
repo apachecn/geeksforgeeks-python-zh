@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import modules
 import numpy as np
 import pandas as pd
@@ -25,7 +25,7 @@ print("The shape of the dataframe is: ",data.shape)
 
 **输出:**
 
-```
+```py
 The shape of the dataframe is:  (20, 3)
 ```
 
@@ -33,7 +33,7 @@ The shape of the dataframe is:  (20, 3)
 
 ## 计算机编程语言
 
-```
+```py
 # display data
 print(data.head())
 ```
@@ -44,7 +44,7 @@ print(data.head())
 
 ## 计算机编程语言
 
-```
+```py
 # depict box plot visualization
 plt.figure(figsize=(10, 6))
 sns.boxplot(data['Width (in cm)'])
@@ -70,7 +70,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # add text
 plt.figure(figsize=(10, 6))
 sns.boxplot(data['Height (in cm)'])

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 # with Integer Keys
 Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
@@ -32,7 +32,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Dictionary with the use of Integer Keys: 
 {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -44,7 +44,7 @@ Dictionary with the use of Mixed Keys:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an empty Dictionary
 Dict = {}
 print("Empty Dictionary: ")
@@ -65,7 +65,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Empty Dictionary: 
 {}
 
@@ -82,7 +82,7 @@ Dictionary with each item as a pair:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Nested Dictionary
 # as shown in the below image
 Dict = {1: 'Geeks', 2: 'For',
@@ -93,7 +93,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 2: 'For', 3: {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}}
 ```
 
@@ -105,7 +105,7 @@ print(Dict)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an empty Dictionary
 Dict = {}
 print("Empty Dictionary: ")
@@ -137,7 +137,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Empty Dictionary: 
 {}
 
@@ -160,7 +160,7 @@ Adding a Nested Key:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate 
 # accessing a element from a Dictionary
 
@@ -178,7 +178,7 @@ print(Dict[1])
 
 **输出:**
 
-```
+```py
 Accessing a element using key:
 For
 
@@ -190,7 +190,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
 
@@ -202,7 +202,7 @@ print(Dict.get(3))
 
 **输出:**
 
-```
+```py
 Accessing a element using get:
 Geeks
 ```
@@ -213,7 +213,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {'Dict1': {1: 'Geeks'},
         'Dict2': {'Name': 'For'}}
@@ -226,7 +226,7 @@ print(Dict['Dict2']['Name'])
 
 **输出:**
 
-```
+```py
 {1: 'Geeks'}
 Geeks
 For
@@ -242,7 +242,7 @@ For
 
 ## 蟒蛇 3
 
-```
+```py
 # Initial Dictionary
 Dict = { 5 : 'Welcome', 6 : 'To', 7 : 'Geeks',
         'A' : {1 : 'Geeks', 2 : 'For', 3 : 'Geeks'},
@@ -264,7 +264,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Initial Dictionary: 
 {'A': {1: 'Geeks', 2: 'For', 3: 'Geeks'}, 'B': {1: 'Geeks', 2: 'Life'}, 5: 'Welcome', 6: 'To', 7: 'Geeks'}
 
@@ -281,7 +281,7 @@ Deleting a key from Nested Dictionary:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
 
@@ -294,7 +294,7 @@ print('Value associated to poped key is: ' + str(pop_ele))
 
 **输出:**
 
-```
+```py
 Dictionary after deletion: {3: 'Geeks', 'name': 'For'}
 Value associated to poped key is: Geeks
 ```
@@ -305,7 +305,7 @@ popitem()从字典中返回并移除任意元素(键、值)对。
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating Dictionary
 Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
 
@@ -318,7 +318,7 @@ print("The arbitrary pair returned is: " + str(pop_ele))
 
 **输出:**
 
-```
+```py
 Dictionary after deletion: {3: 'Geeks', 'name': 'For'}
 The arbitrary pair returned is: (1, 'Geeks')
 ```
@@ -329,7 +329,7 @@ The arbitrary pair returned is: (1, 'Geeks')
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
 
@@ -341,7 +341,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Deleting Entire Dictionary: 
 {}
 ```

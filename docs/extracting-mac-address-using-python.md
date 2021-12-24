@@ -17,7 +17,7 @@
 方法一:使用 mac 模块
 为了获取设备的物理地址，我们使用了 Python 的 getmac 模块。
 
-```
+```py
 >>>from getmac import get_mac_address as gma
 >>>print(gma())
 '3c:7e:94:8f:d0:34'
@@ -28,7 +28,7 @@
 getnode()可用于提取计算机的 MAC 地址。该功能在 **uuid** 模块中定义。
 下面给出的示例代码显示了如何使用 uuid1()函数为给定主机生成 UUID，由其 MAC 地址标识。
 
-```
+```py
 # Python Program to compute
 # MAC address of host
 # using UUID module
@@ -42,7 +42,7 @@ print (hex(uuid.getnode()))
 
 输出:
 
-```
+```py
 0x163e990bdb
 
 ```
@@ -53,7 +53,7 @@ print (hex(uuid.getnode()))
 
 **方法 3:使用 getnode() + format()** 【为了更好的格式化】
 
-```
+```py
 # Python 3 code to print MAC
 # in formatted way.
 
@@ -68,7 +68,7 @@ for ele in range(0,8*6,8)][::-1]))
 
 输出:
 
-```
+```py
 The MAC address in formatted way is : 00:16:3e:99:0b:db
 
 ```
@@ -79,7 +79,7 @@ The MAC address in formatted way is : 00:16:3e:99:0b:db
 
 **方法四:使用 getnode() + findall() + re()** 【降低复杂度】
 
-```
+```py
 # Python 3 code to print MAC
 # in formatted way and easier
 # to understand
@@ -94,7 +94,7 @@ print (':'.join(re.findall('..', '%012x' % uuid.getnode())))
 
 输出:
 
-```
+```py
 The MAC address in formatted and less complex way is : 00:16:3e:99:0b:db
 
 ```

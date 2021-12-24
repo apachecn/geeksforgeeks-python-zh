@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 import pandas as pd
@@ -44,7 +44,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 ## 蟒蛇 3
 
-```
+```py
 # Reading the train.csv by removing the
 # last column since it's an empty column
 DATA_PATH = "dataset/Training.csv"
@@ -71,7 +71,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Encoding the target value into numerical
 # value using LabelEncoder
 encoder = LabelEncoder()

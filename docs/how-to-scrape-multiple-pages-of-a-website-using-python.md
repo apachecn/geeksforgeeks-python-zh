@@ -47,7 +47,7 @@ GeeksforGeeks 主页
 
 ## 计算机编程语言
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup as bs
 

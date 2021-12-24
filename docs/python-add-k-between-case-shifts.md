@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add K between case shifts
 # Using loop + isupper() + islower()
@@ -48,7 +48,7 @@ print("String after alteration : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GeeKSforGeEKs
 String after alteration : G^ee^KS^for^G^e^EK^s
 
@@ -60,7 +60,7 @@ String after alteration : G^ee^KS^for^G^e^EK^s
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add K between case shifts
 # Using loop + isupper() + islower()
@@ -86,7 +86,7 @@ print("String after alteration : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GeeKSforGeEKs
 String after alteration : G^ee^KS^for^G^e^EK^s
 

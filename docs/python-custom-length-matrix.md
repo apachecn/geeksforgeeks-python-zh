@@ -7,7 +7,7 @@
 **方法一:使用`zip()` +列表理解**
 zip 功能结合列表理解可以帮助完成这个特殊的任务。zip 函数可以帮助将计数器列表与元素列表进行压缩，列表理解完成矩阵的构造工作。
 
-```
+```py
 # Python3 code to demonstrate  
 # Custom length Matrix 
 # using zip() + list comprehension
@@ -34,7 +34,7 @@ print ("The custom length matrix is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['a', 'b', 'c']
 The counter list is : [1, 4, 2]
 The custom length matrix is : [['a'], ['b', 'b', 'b', 'b'], ['c', 'c']]

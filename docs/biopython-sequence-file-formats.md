@@ -55,7 +55,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio.SeqIO import parse
 
@@ -81,7 +81,7 @@ for record in parse(file, "fasta"): 
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import SeqIO
 from Bio.SeqIO import parse

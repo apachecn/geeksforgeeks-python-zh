@@ -8,7 +8,7 @@
 
 上述功能的组合有助于执行这一特定任务。filter 方法用于检查每个单词，并用方法测试目标列表中的后缀逻辑。
 
-```
+```py
 # Python3 code to demonstrate
 # Checking for string match suffix
 # using filter() + endswith()
@@ -32,7 +32,7 @@ print("Does string end with any suffix list sublist ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG is best
 Does string end with any suffix list sublist ? : True
 
@@ -42,7 +42,7 @@ Does string end with any suffix list sublist ? : True
 
 作为对上述方法的改进，并不总是需要包含`filter` 方法进行比较。也可以通过提供后缀检查列表作为 endswith 方法的参数来单独处理此任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Checking for string match suffix
 # using endswith()
@@ -66,7 +66,7 @@ print("Does string end with any suffix list sublist ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG is best
 Does string end with any suffix list sublist ? : True
 

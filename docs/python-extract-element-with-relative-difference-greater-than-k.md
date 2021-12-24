@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract element with relative difference 
 # greater than K Using loop
@@ -50,7 +50,7 @@ print("The extracted difference elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 7, 4, 1, 9, 2, 3, 10, 1, 5]
 The extracted difference elements : [9, 10]
 ```
@@ -61,7 +61,7 @@ The extracted difference elements : [9, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract element with relative difference
 # greater than K Using list comprehension
@@ -87,7 +87,7 @@ print("The extracted difference elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 7, 4, 1, 9, 2, 3, 10, 1, 5]
 The extracted difference elements : [9, 10]
 ```

@@ -12,7 +12,7 @@
 
 **代码#1 : 1D 阵**
 
-```
+```py
 from scipy.spatial.distance import braycurtis
 
 a = [3, 1]
@@ -25,14 +25,14 @@ print("Value of braycurtis is :", arr1) 
 
 **输出:**
 
-```
+```py
 Value of braycurtis is : 0.14285714285714285
 
 ```
 
 **代码#2 : 2D 阵**
 
-```
+```py
 from scipy.spatial.distance import braycurtis
 
 arr1 = [1, 3, 27]
@@ -45,7 +45,7 @@ print("Value of braycurtis is :", braycurtis(arr1, arr2))  
 
 **输出:**
 
-```
+```py
 Value of braycurtis is : 0.5
 
 ```

@@ -13,7 +13,7 @@
 **方法#1:使用`product() + next()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 product 进行配对，使用 nex()进行与下一个元素配对的选择。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple to Tuple Pair
 # Using product() + next()
@@ -36,7 +36,7 @@ print("The paired records : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('G', 'F', 'G')
 The paired records : [('G', 'F'), ('G', 'G')]
 
@@ -45,7 +45,7 @@ The paired records : [('G', 'F'), ('G', 'G')]
 **方法 2:使用`repeat() + zip() + next()`**
 这个问题也可以通过以上功能的组合来解决。在本例中，我们使用 zip()执行配对任务，使用 repeat()执行重复任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple to Tuple Pair
 # Using repeat() + zip() + next()
@@ -68,7 +68,7 @@ print("The paired records : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('G', 'F', 'G')
 The paired records : [('G', 'F'), ('G', 'G')]
 

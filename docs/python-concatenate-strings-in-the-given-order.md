@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Strings in Order
 # Using loop
@@ -44,7 +44,7 @@ print("Ordered concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['best', 'Gfg', 'for', 'is', 'geeks']
 Ordered concatenation : Gfgisbestforgeeks
 ```
@@ -55,7 +55,7 @@ Ordered concatenation : Gfgisbestforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Strings in Order
 # Using join() + list comprehension
@@ -78,7 +78,7 @@ print("Ordered concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['best', 'Gfg', 'for', 'is', 'geeks']
 Ordered concatenation : Gfgisbestforgeeks
 ```

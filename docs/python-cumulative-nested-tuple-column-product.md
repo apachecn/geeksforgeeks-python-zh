@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Nested Tuple Column Product
 # using zip() + nested generator expression
@@ -32,7 +32,7 @@ print("The resultant tuple after product : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple 1 : ((1, 3), (4, 5), (2, 9), (1, 10))
 The original tuple 2 : ((6, 7), (3, 9), (1, 1), (7, 3))
 The resultant tuple after product : ((6, 21), (12, 45), (2, 9), (7, 30))
@@ -43,7 +43,7 @@ The resultant tuple after product : ((6, 21), (12, 45), (2, 9), (7, 30))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Nested Tuple Column Product
 # using isinstance() + zip() + loop + list comprehension
@@ -72,7 +72,7 @@ print("The resultant tuple after product : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple 1 : ((1, 3), (4, 5), (2, 9), (1, 10))
 The original tuple 2 : ((6, 7), (3, 9), (1, 1), (7, 3))
 The resultant tuple after product : ((6, 21), (12, 45), (2, 9), (7, 30))

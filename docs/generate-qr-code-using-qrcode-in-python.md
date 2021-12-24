@@ -6,7 +6,7 @@
 
 Python 有一个库“ [**【二维码】**](https://pypi.org/project/qrcode/) ”用于生成二维码图像。可以用 pip 安装。
 
-```
+```py
 pip install qrcode
 ```
 
@@ -18,7 +18,7 @@ pip install qrcode
 
 **语法:**
 
-```
+```py
 qrcode.make('Data to be encoded')
 ```
 
@@ -26,7 +26,7 @@ qrcode.make('Data to be encoded')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import qrcode
 
@@ -64,7 +64,7 @@ img.save('MyQRCode1.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import qrcode
 

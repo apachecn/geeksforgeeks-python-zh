@@ -7,7 +7,7 @@
 **方法#1:使用+运算符+列表转换**
 在该方法中，我们首先将字符串转换为列表，然后使用+运算符执行追加任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Appending String to list
 # using + operator + list conversion
@@ -34,7 +34,7 @@ print("The list after appending is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [1, 3, 4, 5]
 The original string : gfg
 The list after appending is : [1, 3, 4, 5, 'gfg']

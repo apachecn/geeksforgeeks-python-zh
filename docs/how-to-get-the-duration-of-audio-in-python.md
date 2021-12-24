@@ -18,7 +18,7 @@
 
 由于诱变剂是一个外部 python 库，因此首先需要使用 pip 命令安装它，如下所示:
 
-```
+```py
 pip install mutagen
 ```
 
@@ -26,7 +26,7 @@ pip install mutagen
 
 安装后，需要使用以下命令将其导入到我们的脚本中，
 
-```
+```py
 import mutagen
 ```
 
@@ -60,7 +60,7 @@ import mutagen
 
 ## 蟒蛇 3
 
-```
+```py
 import mutagen
 from mutagen.wave import WAVE
 
@@ -89,7 +89,7 @@ print('Total Duration: {}:{}:{}'.format(hours, mins, seconds))
 
 **输出**:
 
-```
+```py
 Total Duration: 0:0:2
 ```
 
@@ -101,7 +101,7 @@ Audioread 是 Python 的跨库音频解码。它使用任何可用的后端解�
 
 由于 audioread 是一个外部 python 库，因此首先需要使用 pip 命令安装它，如下所示:
 
-```
+```py
 pip install audioread
 ```
 
@@ -109,7 +109,7 @@ pip install audioread
 
 安装后，需要使用以下命令将其导入到我们的脚本中，
 
-```
+```py
 import audioread
 ```
 
@@ -137,7 +137,7 @@ import audioread
 
 ## 蟒蛇 3
 
-```
+```py
 # METHOD 2
 import audioread
 
@@ -164,7 +164,7 @@ with audioread.audio_open('alarm.wav') as f:
 
 **输出**:
 
-```
+```py
 Total Duration: 0:0:2
 ```
 
@@ -176,7 +176,7 @@ SciPy 有许多模块、类和函数可用于从各种文件格式(如 Wav 声�
 
 由于 Scipy 是一个外部 python 库，因此首先需要使用 pip 命令安装它，如下所示:
 
-```
+```py
 pip install scipy
 ```
 
@@ -184,7 +184,7 @@ pip install scipy
 
 安装后，需要使用以下命令将其导入到我们的脚本中，
 
-```
+```py
 import scipy
 from scipy.io import wavfile
 ```
@@ -203,7 +203,7 @@ from scipy.io import wavfile
 
 ## 蟒蛇 3
 
-```
+```py
 # Method 3
 import scipy
 from scipy.io import wavfile
@@ -235,6 +235,6 @@ print('Total Duration: {}:{}:{}'.format(hours, mins, seconds))
 
 **输出**:
 
-```
+```py
 Total Duration: 0:0:2
 ```

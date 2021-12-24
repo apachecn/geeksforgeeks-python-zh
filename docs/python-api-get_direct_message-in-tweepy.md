@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`get_direct_message()`** 方法用于作为认证�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -49,14 +49,14 @@ print(direct_message.message_create['message_data']['text'])
 
 **输出:**
 
-```
+```py
 This is a Direct Message.
 
 ```
 
 **例 2:**ID 无效时引发异常。
 
-```
+```py
 # invalid ID of the direct message
 id = 12345
 
@@ -66,7 +66,7 @@ direct_message = api.get_direct_message(id)
 
 **输出:**
 
-```
+```py
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 34, 'message': 'Sorry, that page does not exist.'}]
 

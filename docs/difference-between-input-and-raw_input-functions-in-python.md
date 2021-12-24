@@ -13,7 +13,7 @@ Python `input()` 函数用于从用户那里获取值。调用该函数是为了
 
 **python 3 中的示例程序**
 
-```
+```py
 # Python program to demonstrate
 # input() function in Python3.x
 
@@ -38,7 +38,7 @@ print(val2)
 
 **python 2 中的示例程序**
 
-```
+```py
 # Python program to demonstrate
 # input() function in Python2.x
 
@@ -62,7 +62,7 @@ Python raw_input 函数用于从用户处获取值。我们调用这个函数来
 
 **python 2 中的示例程序**
 
-```
+```py
 # Python program to demonstrate
 # input() function in Python2.x
 

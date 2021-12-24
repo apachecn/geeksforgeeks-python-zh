@@ -42,7 +42,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import the library tkinter
 from tkinter import *
 

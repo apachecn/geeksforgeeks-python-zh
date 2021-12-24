@@ -12,7 +12,7 @@ python 中的 List 是可变类型，这意味着它可以在赋值后改变。�
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 gfg = [ 10, 20, 30, 40, 50, 60]
 
@@ -28,7 +28,7 @@ print(gfg[-1])
 
 **输出:**
 
-```
+```py
 10
 20
 60
@@ -48,7 +48,7 @@ print(gfg[-1])
 
 ## 蟒蛇 3
 
-```
+```py
 # list
 List=[ 10, 20, 30, 40, 50, 60]
 print("original list ")
@@ -69,7 +69,7 @@ print(List)
 
 **输出:**
 
-```
+```py
 original list 
 [10, 20, 30, 40, 50, 60]
 
@@ -81,7 +81,7 @@ New list
 
 ## 蟒蛇 3
 
-```
+```py
 # list
 list = [ 10, 20, 30, 40, 50, 60]
 print("Original list ")
@@ -100,7 +100,7 @@ print(list)
 
 **输出:**
 
-```
+```py
 Original list 
 [10, 20, 30, 40, 50, 60]
 After incrementing each element of list by 2
@@ -111,7 +111,7 @@ After incrementing each element of list by 2
 
 ## 蟒蛇 3
 
-```
+```py
 # list
 List_1 = [ 10, 20, 30, 40, 50]
 print("Original list ")
@@ -125,7 +125,7 @@ print(List_2)
 
 **输出:**
 
-```
+```py
 Original list 
 [10, 20, 30, 40, 50]
 After incrementing each element of list by 2

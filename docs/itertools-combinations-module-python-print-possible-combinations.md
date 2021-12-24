@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : arr[] = [1, 2, 3, 4],  
             r = 2
 Output : [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
@@ -24,7 +24,7 @@ Output : [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
 *   **<u>itertools.combinations_with_replacement(iterable, r) :</u>**
     It return r-length tuples in sorted order with repeated elements. For Example, combinations_with_replacement(‘ABCD’, 2) ==> [AA, AB, AC, AD, BB, BC, BD, CC, CD, DD].
 
-    ```
+    ```py
     # Function which returns subset or r length from n
     from itertools import combinations
 
@@ -44,7 +44,7 @@ Output : [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
 
     输出:
 
-    ```
+    ```py
     [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
 
     ```

@@ -29,7 +29,7 @@ VIF(方差膨胀因子)是多重共线性生活的标志，而 *statsmodel* 给�
 
 ## 蟒蛇 3
 
-```
+```py
 # read the dataset
 import pandas as pd
 data = pd.read_csv('https://docs.google.com / spreadsheets / d/e / 2PACX-1vQRtMKSAzDVoUFeP_lvpxSPt0pb7YR3_SPBdnq0_2nIgfZUMB8fMgJXaMETqLmrV3uw2yOqkZLEcTvt / pub?output = csv')
@@ -67,7 +67,7 @@ for i in range(len(iv)):
 
 **输出:**
 
-```
+```py
 Max VIF value is  15.213540834822062
 For Independent variable bedrooms
 Deleting bedrooms

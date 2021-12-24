@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate queue implementation
 # using collections.dequeue
@@ -39,7 +39,7 @@ print(type(q))
 
 **输出:**
 
-```
+```py
 Initial queue
 deque(['a', 'b', 'c']) 
 
@@ -50,7 +50,7 @@ deque(['a', 'b', 'c'])
 
 ## 蟒蛇 3
 
-```
+```py
 # convert into list
 li = list(q)
 
@@ -62,7 +62,7 @@ print(type(li))
 
 **输出:**
 
-```
+```py
 Convert into the list
 ['a', 'b', 'c']
 <class 'list'>
@@ -74,7 +74,7 @@ Convert into the list
 
 ## 蟒蛇 3
 
-```
+```py
 from queue import Queue
 
 # Initializing a queue
@@ -99,7 +99,7 @@ print(li)
 
 **输出:**
 
-```
+```py
 Initial queue
 deque([1, 2, 3, 4, 5])
 

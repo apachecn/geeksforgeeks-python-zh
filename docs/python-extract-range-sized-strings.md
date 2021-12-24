@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Range length Strings extraction
 # using list comprehension + len()
@@ -32,7 +32,7 @@ print("The range sized strings are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The range sized strings are : ['gfg', 'is', 'for']
 ```
@@ -42,7 +42,7 @@ The range sized strings are : ['gfg', 'is', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Range length Strings extraction
 # using filter() + lambda
@@ -66,7 +66,7 @@ print("The range sized strings are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The range sized strings are : ['gfg', 'is', 'for']
 ```

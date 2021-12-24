@@ -8,7 +8,7 @@
 
 **Keras Conv2D 类构造函数有以下参数:**
 
-```
+```py
 keras.layers.Conv2D(filters, kernel_size, strides=(1, 1),
   padding='valid', data_format=None, dilation_rate=(1, 1),
   activation=None, use_bias=True, kernel_initializer='glorot_uniform',
@@ -23,7 +23,7 @@ keras.layers.Conv2D(filters, kernel_size, strides=(1, 1),
 *   强制 Conv2D 参数是卷积层将学习的滤波器数量。
 *   它是一个整数值，也决定了卷积中输出滤波器的数量。
 
-    ```
+    ```py
     model.add(Conv2D(32, (3, 3), padding="same", activation="relu"))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ```
@@ -37,7 +37,7 @@ keras.layers.Conv2D(filters, kernel_size, strides=(1, 1),
 *   它是一个整数或 2 个整数的元组/列表，指定 2D 卷积窗口的高度和宽度。
 *   此参数必须是奇数。
 
-```
+```py
 model.add(Conv2D(32, (7, 7), activation="relu"))
 ```
 
@@ -46,7 +46,7 @@ model.add(Conv2D(32, (7, 7), activation="relu"))
 *   该参数是一个整数或 2 个整数的元组/列表，指定卷积的“步长”以及输入体积的高度和宽度。
 *   它的默认值始终设置为(1，1)，这意味着给定的 Conv2D 滤镜应用于输入体积的当前位置，给定的滤镜向右移动 1 个像素，滤镜再次应用于输入体积，并且一直执行到我们移动滤镜的体积的最右边界。
 
-```
+```py
 model.add(Conv2D(128, (3, 3), strides=(1, 1), activation="relu"))
 model.add(Conv2D(128, (3, 3), strides=(2, 2), activation="relu"))
 ```
@@ -56,13 +56,13 @@ model.add(Conv2D(128, (3, 3), strides=(2, 2), activation="relu"))
 *   Keras Conv2D 类的填充参数可以采用两个值之一:“有效”或“相同”。
 *   将该值设置为“有效”参数意味着输入体积不是零填充的，并且允许通过卷积的自然应用来减少空间维度。
 
-```
+```py
 model.add(Conv2D(32, (3, 3), padding="valid"))
 ```
 
 相反，您可以通过将值设置为“相同”来保留体积的空间尺寸，以便输出体积大小与输入体积大小相匹配。
 
-```
+```py
 model.add(Conv2D(32, (3, 3), padding="same"))
 ```
 
@@ -83,13 +83,13 @@ model.add(Conv2D(32, (3, 3), padding="same"))
 
 *   Conv2D 类的激活参数只是一个方便的参数，允许您提供一个字符串，该字符串指定执行卷积后要应用的激活函数的名称。
 
-```
+```py
 model.add(Conv2D(32, (3, 3), activation="relu"))
 ```
 
 运筹学
 
-```
+```py
 model.add(Conv2D(32, (3, 3)))
 model.add(Activation("relu"))
 ```
@@ -122,7 +122,7 @@ model.add(Activation("relu"))
 *   使用正则化有助于我们减少过拟合的影响，并提高模型的泛化能力。
 *   有两种类型的正则化:L1 正则化和 L2 正则化，这两种正则化都用于减少模型的过拟合。
 
-```
+```py
 from keras.regularizers import l2
 ...
 model.add(Conv2D(128, (3, 3), activation="relu"),
@@ -144,7 +144,7 @@ model.add(Conv2D(128, (3, 3), activation="relu"),
 
 **下面是一个简单的代码示例，向您展示了 Conv2D 类的不同参数的工作方式:**
 
-```
+```py
 # build the model
 model = Sequential()
 model.add(Conv2D(32, kernel_size =(5, 5), strides =(1, 1),
@@ -185,7 +185,7 @@ print('Test accuracy:', score[1])
 
 **使用功能性应用编程接口的类似代码**
 
-```
+```py
 #build the model
 inputs = Input(shape = ())
 conv1 = Conv2D(32, kernel_size = (5,5), strides = (1,1), activation = 'relu'))(inputs)

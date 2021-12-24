@@ -11,7 +11,7 @@ Python 是当今一种强大且呈指数级增长的编程语言。有多种方�
 
 **子流程安装:**
 
-```
+```py
 pip install subprocess.run
 ```
 
@@ -29,7 +29,7 @@ pip install subprocess.run
 
 ## 蟒蛇 3
 
-```
+```py
 import subprocess
 
 pytonProcess = subprocess.check_output("ps -ef | grep .py",shell=True).decode()
@@ -49,7 +49,7 @@ for process in pytonProcess:
 
 ## 蟒蛇 3
 
-```
+```py
 import subprocess
 
 pytonProcess = subprocess.check_output("ps -ef | grep test.py",shell=True).decode()
@@ -69,7 +69,7 @@ for process in pytonProcess:
 
 ## 蟒蛇 3
 
-```
+```py
 import subprocess
 
 pytonProcess = subprocess.check_output("ps -ef | grep .php",shell=True).decode()

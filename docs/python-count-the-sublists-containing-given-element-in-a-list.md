@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst = [1, 3, 5], [1, 3, 5, 7], [1, 3, 5, 7, 9]] 
         x = 1 
 Output : 3
@@ -21,7 +21,7 @@ Output : 2
 
 统计包含 *x* 的列表数量。初始化*计数*为 0，然后开始一个 for 循环，检查每个列表中是否存在 *x* 。如果是，增加*计数*。
 
-```
+```py
 # Python3 Program to count number of
 # list containing a certain element 
 # in a list of lists
@@ -42,7 +42,7 @@ print(countList(lst, x))
 
 **Output:**
 
-```
+```py
 2
 
 ```
@@ -50,7 +50,7 @@ print(countList(lst, x))
 **方法 2 :** 列表理解(幼稚的替代)
 简单的一行列表理解也可以通过简单地将上述幼稚的方法转换为循环的一行来完成这项工作。
 
-```
+```py
 # Python3 Program to count number of
 # list containing a certain element 
 # in a list of lists
@@ -67,7 +67,7 @@ print(countList(lst, x))
 
 **Output:**
 
-```
+```py
 2
 
 ```
@@ -76,7 +76,7 @@ print(countList(lst, x))
 
 我们可以使用*计数器*来计算列表中出现了多少个‘x’。因为我们不想为每个内部列表多次计算“x”，所以我们将把每个内部列表转换成集合。之后，使用`chain.from_iterable()`将这些元素集合连接成一个序列。
 
-```
+```py
 # Python3 Program to count number of
 # list containing a certain element 
 # in a list of lists
@@ -95,7 +95,7 @@ print(countList(lst, x))
 
 **Output:**
 
-```
+```py
 2
 
 ```

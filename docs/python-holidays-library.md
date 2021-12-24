@@ -6,7 +6,7 @@ Python 假日库是一个高效的库，用于尽可能快速灵活地确定特�
 
 **安装:**
 
-```
+```py
 pip install holidays
 ```
 
@@ -34,7 +34,7 @@ pip install holidays
 
 **代码#1 :** 对于特定国家和年份，显示所有节假日。
 
-```
+```py
 from datetime import date
 import holidays
 
@@ -48,7 +48,7 @@ for ptr in holidays.UnitedKingdom(years = 2018).items():
 
 **输出:**
 
-```
+```py
 (datetime.date(2018, 1, 1), "New Year's Day")
 (datetime.date(2018, 1, 2), 'New Year Holiday [Scotland]')
 (datetime.date(2018, 3, 17), "St. Patrick's Day [Northern Ireland]")
@@ -68,7 +68,7 @@ for ptr in holidays.UnitedKingdom(years = 2018).items():
 
 **代码#2 :** 检查给定日期是否为假日
 
-```
+```py
 from datetime import date
 import holidays
 
@@ -86,7 +86,7 @@ print(uk_holidays.get('02-01-2018'))
 
 **输出:**
 
-```
+```py
 True
 False
 New Year's Day
@@ -96,7 +96,7 @@ None
 
 **代码#3 :** 北美假期
 
-```
+```py
 from datetime import date
 import holidays
 
@@ -111,7 +111,7 @@ print(north_america.get('07-04-2018'))
 
 **输出:**
 
-```
+```py
 ['CA', 'US', 'MX']
 Canada Day
 Independence Day
@@ -175,7 +175,7 @@ FM，MN，MS，MT，NE，NV，NH，NJ，NM，NY，NC，ND，MP，
 
 **代码#4 :** 印度自定义假日添加
 
-```
+```py
 from datetime import date
 import holidays
 
@@ -209,7 +209,7 @@ print('25-12-2018' in in_holidays) # True
 
 **输出:**
 
-```
+```py
 False 
 True 
 Holiday 

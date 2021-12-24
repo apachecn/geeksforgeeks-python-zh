@@ -18,7 +18,7 @@ iv。回答 A 节或 B 节，C 节是强制性的
 条件运算符也称为三元运算符，因为它需要三个操作数，可以用来替换简单的 if-else 代码。它用于检查条件，如果条件为真，则执行第一个表达式，否则执行其他表达式。
 **语法:**
 
-```
+```py
 Conditional expression? Expression 1 : Expression 2;
 ```
 
@@ -26,7 +26,7 @@ Conditional expression? Expression 1 : Expression 2;
 如果条件表达式为真，则表达式 1 执行，否则表达式 2 执行。
 **例:**
 
-```
+```py
 int y = 10, x;
 x = y > 10 ? 1 : 0;
 cout << x;
@@ -34,13 +34,13 @@ cout << x;
 
 输出:
 
-```
+```py
 0
 ```
 
 **(b)运行/执行以下 C++代码本质上需要包含哪些 C++头文件:1**
 
-```
+```py
 void main()
 {
     char *word1 = "Hello", *word2 = "Friends";
@@ -54,7 +54,7 @@ void main()
 
 **(c)删除语法错误(如有)后，重写以下程序。在每项更正下面画线。**
 
-```
+```py
 #include <conio.h>
 #include <iostream.h>
 #include <stdio.h>
@@ -89,7 +89,7 @@ void main()
 
 **代码中的修正:**
 
-```
+```py
 #include <conio.h>
 #include <iostream.h>
 #include <stdio.h>
@@ -124,7 +124,7 @@ void main()
 
 **(d)编写以下 C++程序代码的输出:注意:假设程序中已经包含了所有需要的头文件。**
 
-```
+```py
 void change(int* s)
 {
     for (int i = 0; i < 4; i++) {
@@ -153,13 +153,13 @@ void main()
 
 **年:**
 
-```
+```py
 36 50 46 42
 ```
 
 **(e)编写以下 C++程序代码的输出:注意:假设程序中已经包含了所有需要的头文件。**
 
-```
+```py
 class seminar {
     char topic[30];
     int charges;
@@ -218,7 +218,7 @@ void main()
 
 **输出:**
 
-```
+```py
 Registration@5000
 Registration with Discount@4000
 ICT@7000
@@ -229,7 +229,7 @@ Cyber Crime@6500
 
 **(f)仔细观察以下程序并尝试给定的问题:**
 
-```
+```py
 #include <conio.h>
 #include <iostream.h>
 #include <stdlib.h>
@@ -255,7 +255,7 @@ ch = 3 的最大值
 **2(a)你对[函数重载](https://www.geeksforgeeks.org/function-overloading-c/)或函数多态的理解是什么？用适当的例子解释。**
 是使用同一个函数或方法，使用不同的输入集合进行工作的方法。函数重载是多态性的一个例子，在多态性中，多个同名函数通过传递给它们的不同参数集表现不同。
 
-```
+```py
 void show()
 {
     cout <<”\n Hello World !”;
@@ -268,7 +268,7 @@ void show(char na[])
 
 **(b)完成以下课程后，回答问题(I)和(ii):**
 
-```
+```py
 class planet {
     char name[20];
     char distance[20];
@@ -310,7 +310,7 @@ int 类型的参与者
 类型浮动的费用
 成员函数 chkfee()根据用户输入的样式根据下面给出的标准分配费用变量的值:
 
-```
+```py
 Style         Fee
 Classical     10000
 Western       8000
@@ -321,7 +321,7 @@ Freestyle     11000
 A 功能注册()允许用户输入注册号、名称、样式的值，并调用函数 chkfee()根据用户输入的样式分配费用变量值。
 一个功能显示()，允许用户查看所有数据成员的详细信息。
 
-```
+```py
 class DanceAcademy {
     int Enrollno;
     char Name[20];
@@ -356,7 +356,7 @@ public:
 
 **(d)根据以下内容回答问题(I)至(iv):**
 
-```
+```py
 class indoor_sports {
     int i_id;
     char i_name[20];
@@ -412,7 +412,7 @@ public:
 例:如果一个七个整数的数组如下:45、35、85、80、33、27、90
 执行完函数后，数组内容应该更改如下:45、40、85、80、38、32、90**
 
-```
+```py
 void grace_score(int score[], int size)
 {
     for (int i = 0; i < size; i++) {
@@ -436,7 +436,7 @@ LOC(P
 
 **(c)在 C++中为类库编写成员函数 push()的定义，以便在动态分配的[书库](https://www.geeksforgeeks.org/stack-data-structure/)中插入图书信息，考虑到以下代码已经作为程序的一部分编写:**
 
-```
+```py
 struct book {
     int bookid;
     char bookname[20];
@@ -459,7 +459,7 @@ public:
 
 答复:
 
-```
+```py
 void Library::push()
 {
     book* nptr;
@@ -486,7 +486,7 @@ void Library::push()
 70 80 90
 440**
 
-```
+```py
 void swap_row(int ARR[][3], int R, int C)
 {
     for (int i = 0, j = 0; j < C; j++) {
@@ -499,7 +499,7 @@ void swap_row(int ARR[][3], int R, int C)
 
 **(e)评估以下[后缀表达式](https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/)。分别显示每个操作执行后 Stack 的状态:45，45，+，32，20，10，/，-，***
 
-```
+```py
 Element Scanned   Stack Status
 45                45
 45                45, 45
@@ -516,7 +516,7 @@ Element Scanned   Stack Status
 
 **4(a)考虑到硬盘上已经存在有 2 条记录的二进制文件，找到以下 C++代码的输出。**
 
-```
+```py
 class sports {
     int id;
     char sname[20];
@@ -556,7 +556,7 @@ void main()
 **(b)用 C++编写一个用户定义的函数 word_count()，统计一个名为“opinion.txt”的文本文件中存在多少个单词。例如，如果文件 opinion.txt 包含以下文本:男女同校制度是平衡社会所必需的。在男女同校的制度下，女孩和男孩可能会产生一种相互尊重的感觉。
 功能应显示如下:文本文件中出现的总字数为:24**
 
-```
+```py
 void word_count()
 {
     ifstream i;
@@ -573,7 +573,7 @@ void word_count()
 
 **(c)用 C++写一个函数 display()，显示从二进制文件“stud.dat”中获得区分(得分百分比大于等于 75)的所有学生，假设该二进制文件包含以下类的对象:**
 
-```
+```py
 class student {
     int rno;
     char sname[20];
@@ -599,7 +599,7 @@ public:
 };
 ```
 
-```
+```py
 void display()
 {
     student s;
@@ -616,7 +616,7 @@ void display()
 
 **1 (a)仔细观察以下 python 代码，并回答以下问题:**
 
-```
+```py
 x = 5
 def func2():
     x = 3
@@ -628,7 +628,7 @@ def func2():
 
 在执行时，上述代码产生以下输出。
 
-```
+```py
 6
 3
 ```
@@ -642,7 +642,7 @@ T3】a .统一()b .晶圆厂()T5】a .[随机()](https://www.geeksforgeeks.org/r
 
 **(c)删除语法错误(如有)后，重写以下代码。在每项更正下面画线。2**
 
-```
+```py
 def chksum:
      x = input("Enter a number")
      if (x % 2 = 0):
@@ -652,7 +652,7 @@ def chksum:
            print "#"
 ```
 
-```
+```py
 def chksum():
  x = input("Enter a number")
  if (x % 2 == 0):
@@ -664,7 +664,7 @@ def chksum():
 
 **(d)仔细观察下面的 Python 代码，获取输出，执行后会出现在屏幕上。** 2
 
-```
+```py
 def Findoutput():
       L = "earn"
       X = " "
@@ -685,13 +685,13 @@ Findoutput()
 
 输出:
 
-```
+```py
  EA3n
 ```
 
 **(e)执行下面的 Python 代码会产生什么输出？3**
 
-```
+```py
 def Changelist():
     L = []
     L1 = []
@@ -709,7 +709,7 @@ Changelist()
 
 **(f)观察以下程序并回答以下问题:**
 
-```
+```py
 import random
 X = 3
 N = random.randint(1, X)
@@ -737,7 +737,7 @@ ii。[自动垃圾收集。](https://www.geeksforgeeks.org/garbage-collection-py
 
 **b .观察以下课堂定义，回答以下问题:**
 
-```
+```py
 class Info:
     ips = 0
     def__str__(self):   # Function 1
@@ -776,7 +776,7 @@ Margin–作为 pselingprice 计算的十进制数–pcost Price
 用有效默认值初始化所有数据成员的构造函数。
 将 Margin 指定为 Psellingprice–Pcostprice 并设置备注的方法 setrements()如下所述:**
 
-```
+```py
 Margin               Remarks
 <0 (negative) loss>0 (positive)        Profit0>
 ```
@@ -784,7 +784,7 @@ Margin               Remarks
  **方法 Getdetails()接受 Pid、Pname、Pcostprice、Psellingprice 的值并调用 setrements()方法。
 显示所有数据成员的方法 Setdetails()。** 
 
-```
+```py
 class PRODUCT:
     def__init__(self):
          self.Pid = "  "
@@ -819,7 +819,7 @@ class PRODUCT:
 
 **d .根据以下内容回答问题(I)至(iv):4**
 
-```
+```py
 class Shop(object):
     def__init__(self):
          self.no__of__employees = 0
@@ -876,7 +876,7 @@ getdata()方法，调用不属于类 Brand 的
 
 **b. Kritika 被要求接受一个偶数列表，但她在接受该数字列表时并未提出相关条件。您需要编写一个代码，通过将所有奇数乘以 2 来将其转换为偶数。3**
 
-```
+```py
 def oddtoeven(L):
     for i in range(len(L)):
         if (L[i] % 2 != 0):
@@ -893,7 +893,7 @@ def disp(self):
 :
 :**
 
-```
+```py
 class mystack:
    def __init__(self):
        self.mystr = raw_input("Enter the string")
@@ -910,7 +910,7 @@ class mystack:
 
 **d .编写一个生成器函数生成 q()，显示从 100 到 n 的数字的平方根，其中 n 作为参数传递。2**
 
-```
+```py
 import math
 def generatesq(n):
     for i in range (100, n):
@@ -919,7 +919,7 @@ def generatesq(n):
 
 **e .评估以下后缀表达式:20，10，-15，3，/，+，5，***
 
-```
+```py
 Symbol   Operation       Stack    Result
 20       Push            20
 10       Push            20, 10
@@ -961,7 +961,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ # blank 1
 成为最好的你
 编写一个用户定义的函数来显示文件中存在的总字数。**
 
-```
+```py
 def countwords():
     S = open("Mydata", "x")
     f = s.read()
@@ -974,7 +974,7 @@ def countwords():
 
 **c .考虑下面的类声明，回答下面的问题:**
 
-```
+```py
 import pickle
 class student:
     def__int__(self):
@@ -992,7 +992,7 @@ class student:
 
 **Anuj 被要求显示辅导班成绩低于 40 分的所有学生。编写一个用户定义的函数来显示二进制文件“Student.dat”中得分低于 40 分的所有学生，假设它存储了上面提到的 Student 类的所有对象。3**
 
-```
+```py
 def displaydata():
      X = open ("student.dat", "rb")
      S = Student()
@@ -1010,7 +1010,7 @@ def displaydata():
 
 **5 (a)观察下面给出的表格“Club”:**
 
-```
+```py
 Club
 Member_id   Member_Name   Address   Age   Fee
 M002        Nisha         Gurgaon     19   3500
@@ -1027,7 +1027,7 @@ M004        Sachin        Faridabad  18   3500
 
 **(b)根据下面给出的表“Watches”和“Sale”，为查询(I)至(iv)和(v)至(viii)的输出编写 SQL 命令。**
 
-```
+```py
 Watches
 Watchid   Watch_Name   Price   Type   Qty_Store
 W001      HighTime      10000  Unisex  100
@@ -1038,7 +1038,7 @@ W005      GoldenTime    25000  Gents   100
 
 ```
 
-```
+```py
 Sale
 Watchid   Qty_Sold    Quarter
 W001       10          1
@@ -1053,25 +1053,25 @@ W003       15          4
 
 **i .显示名称以‘Time’**结尾的手表的所有详细信息
 
-```
+```py
 select * from watches where watch_name like ‘%Time’ 
 ```
 
 **二。显示价格在 5000-15000 之间的手表的名称和价格。**
 
-```
+```py
 select watch_name, price from watches where price between 5000 and 15000;
 ```
 
 **三。显示男女通用型手表的库存总量。**
 
-```
+```py
 select sum(qty_store) from watches where type like ’Unisex’;
 ```
 
 **iv。显示手表名称和第一季度的销售数量。**
 
-```
+```py
  select watch_name, qty_sold from watches w, sale s where
        w.watchid=s.watchid and quarter=1;
 ```
@@ -1079,14 +1079,14 @@ select sum(qty_store) from watches where type like ’Unisex’;
 **v .从手表中选择最大(价格)、最小(数量 _ 商店)；**
 输出:
 
-```
+```py
 max(price)    min(qty_store)
 25000         100 
 ```
 
 **vi .按季度从销售组中选择季度、总和(数量 _ 已销售)；**
 
-```
+```py
 quarter    sum(qty_sold)
 1           15
 2           30
@@ -1097,7 +1097,7 @@ quarter    sum(qty_sold)
 **vii。从手表 w、销售 s 中选择手表 _ 名称、价格、类型，其中
 w.watchid！= s.watchid**T3】输出:
 
-```
+```py
 watch_name    price     type
 HighFashion   7000      Unisex 
 ```
@@ -1107,7 +1107,7 @@ HighFashion   7000      Unisex
 w.watchid=s.watchid 按 s.watchid 分组；**
 输出:
 
-```
+```py
 watch_name    qty_store    qty_sold   Stock
 HighTime      100          25          75
 LifeTime      150          40          110
@@ -1117,7 +1117,7 @@ GoldenTime    100          10          90
 
 **6 (a)更正以下布尔语句:**
 
-```
+```py
 1\. X+1 = X
 2\. (A')'=A'
 3\. A+A'=0
@@ -1126,7 +1126,7 @@ GoldenTime    100          10          90
 
 更正:
 
-```
+```py
 1\. X+1 =1 or X+0=X
 2\. ((A’)’) = A
 3\. A+A’= 1 or A.A’=0
@@ -1139,7 +1139,7 @@ GoldenTime    100          10          90
 
 **(c)写出布尔函数 F 的 POS 形式，用一个真实故事表示如下:2**
 
-```
+```py
 P   Q   R   F
 0   0   0   0
 0   0   1   1
@@ -1181,7 +1181,7 @@ P   Q   R   F
 
 ![](img/53d5acc56e439a4c51fd334d21fd07eb.png)
 
-```
+```py
 Distances between various buildings are as follows:
 Accounts to Research Lab        55 m
 Accounts to Store               150 m
@@ -1191,7 +1191,7 @@ Accounts to Packaging Unit      125 m
 Store to Research Lab           180 m
 ```
 
-```
+```py
 Number of Computers
 Accounts              25
 Research Lab          100

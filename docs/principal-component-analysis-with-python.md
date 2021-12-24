@@ -33,7 +33,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing required libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ import pandas as pd
 
 ## 计算机编程语言
 
-```
+```py
 # importing or loading the dataset
 dataset = pd.read_csv('wines.csv')
 

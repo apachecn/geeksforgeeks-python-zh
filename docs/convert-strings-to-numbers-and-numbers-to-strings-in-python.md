@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # gfg contains string 10
 gfg = "10"
@@ -19,7 +19,7 @@ print(int(gfg)+20)
 
 **输出:**
 
-```
+```py
 30
 ```
 
@@ -27,7 +27,7 @@ print(int(gfg)+20)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 gfg = "10"
 
@@ -37,7 +37,7 @@ print(float(gfg)+2.0)
 
 **输出:**
 
-```
+```py
 12.0
 ```
 
@@ -47,7 +47,7 @@ print(float(gfg)+2.0)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 gfg = 100
 
@@ -60,7 +60,7 @@ print(str(gfg)+"200")
 
 **输出:**
 
-```
+```py
 100 is a 3 digit number
 100200
 ```
@@ -71,7 +71,7 @@ print(str(gfg)+"200")
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 gfg = 20.0
 
@@ -84,7 +84,7 @@ print(str(gfg)+"30.0")
 
 **输出:**
 
-```
+```py
 20.0is now a string
 20.030.0
 ```

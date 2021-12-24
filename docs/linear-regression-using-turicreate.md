@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turicreate as tc
 ```
 
@@ -18,7 +18,7 @@ import turicreate as tc
 
 ## 蟒蛇 3
 
-```
+```py
 """
 The good thing about Turicreate is that we don't have
 import any other library for data loading.Turicreate
@@ -33,7 +33,7 @@ T3】第三步:探索数据
 
 ## 蟒蛇 3
 
-```
+```py
 # It will display the first few Lines of the data
 data.head()
 ```
@@ -48,7 +48,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # We will have a target variable that stores the thing
 # to the predicted and feature is the list of elements
 # which we will take for making the model.
@@ -60,7 +60,7 @@ model = tc.linear_regression.create(
 
 ## 蟒蛇 3
 
-```
+```py
 # this will tell us about the max error and
 # the rmse (root mean squared error)
 model.evaluate(data)
@@ -76,7 +76,7 @@ model.evaluate(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # this variable will be containing the data
 # of person having the bmi 27.9
 bmi_person = data[data['bmi']== 27.9]

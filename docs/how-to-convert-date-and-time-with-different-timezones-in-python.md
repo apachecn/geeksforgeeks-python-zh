@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 import pytz
 
@@ -56,7 +56,7 @@ print("Date & Time in IST : ",
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 import pytz
 
@@ -85,7 +85,7 @@ print("Converted Date & Time: ",
 
 通过执行以下代码，可以获得 pytz 中存在的所有时区值:
 
-```
+```py
 for timezone in pytz.all_timezones:
      print(timezone) 
 ```
@@ -94,7 +94,7 @@ for timezone in pytz.all_timezones:
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 import pytz
 

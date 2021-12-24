@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 ‘+’ ? ‘__add__’ method
 ‘_’ ? ‘__sub__’ method
 ‘*’ ? ‘__mul__’ method
@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```
+```py
 class Foo(object):
 
     def __init__(self, val):
@@ -45,7 +45,7 @@ print(f * b)
 
 **输出:**
 
-```
+```py
 TypeError, unsupported operand type(s) for *: 'Foo' and 'Bar'
 ```
 
@@ -53,7 +53,7 @@ TypeError, unsupported operand type(s) for *: 'Foo' and 'Bar'
 
 **示例 2:** 让我们在 Foo 类中添加 __mul__ 方法。
 
-```
+```py
 class Foo(object):
 
     def __init__(self, val):
@@ -81,7 +81,7 @@ print(f * b)
 
 **输出:**
 
-```
+```py
 Foo 30
 ```
 
@@ -93,7 +93,7 @@ Foo 30
 
 **例 1:** 我们以上面的例子为例，稍加修改。
 
-```
+```py
 class Foo(object):
 
     def __init__(self, val):
@@ -122,7 +122,7 @@ print(f * b)
 
 **输出:**
 
-```
+```py
 Bar 30
 ```
 
@@ -132,7 +132,7 @@ Bar 30
 
 **例 2:**
 
-```
+```py
 class Foo(object):
 
     def __init__(self, val):
@@ -165,7 +165,7 @@ print(f * b)
 
 **输出:**
 
-```
+```py
 Bar [30]
 Bar [30]
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `split() + zip()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用 zip()将字符串组合成 Matrix 行元素，split 执行从字符串中提取单词的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Combine Strings to Matrix
 # Using list comprehension + zip() + split()

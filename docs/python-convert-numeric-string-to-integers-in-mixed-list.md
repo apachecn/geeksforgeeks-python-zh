@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String numbers to integers in mixed List
 # using list comprehension + isdigit()
@@ -30,7 +30,7 @@ print("List after converting string numbers to integers : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', '1', 'is', '6', 'best']
 List after converting string numbers to integers : ['gfg', 1, 'is', 6, 'best']
 ```
@@ -40,7 +40,7 @@ List after converting string numbers to integers : ['gfg', 1, 'is', 6, 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String numbers to integers in mixed List
 # using map() + lambda + isdigit()
@@ -62,7 +62,7 @@ print("List after converting string numbers to integers : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', '1', 'is', '6', 'best']
 List after converting string numbers to integers : ['gfg', 1, 'is', 6, 'best']
 ```

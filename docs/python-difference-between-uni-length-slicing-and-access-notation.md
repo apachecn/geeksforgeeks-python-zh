@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Difference between Uni length slicing and Access Notation
 # In different containers
@@ -46,7 +46,7 @@ print("The slicing result for string : " + str(slc_str))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 2, 6, 8, 1]
 The original string : 572681
 
@@ -64,7 +64,7 @@ The slicing result for string : 6
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Difference between Uni length slicing and Access Notation
 # No Index out of bounds Exception in case of Slice operation
@@ -91,7 +91,7 @@ print("The slicing result for list : " + str(slc_list))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 2, 6, 8, 1]
 The access notation result for list : list index out of range
 The slicing result for list : []

@@ -27,7 +27,7 @@ A **饼图**是一个圆形的分析图，分为区域来表示数值百分比�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import numpy
 
@@ -51,7 +51,7 @@ name 参数的相同值组合在一起。重复标签将行或列直观地分组
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset
@@ -73,7 +73,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset
@@ -96,7 +96,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset

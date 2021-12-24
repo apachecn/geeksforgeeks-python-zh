@@ -7,7 +7,7 @@
 **方法:使用 yield + loop + generator**
 要执行的蛮力方法是使用一个生成器，如果我们知道元素肯定会形成一个循环，就一直打印值，这是通过无限循环并在没有找到更多匹配时停止来完成的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Join cycle in list
 # Using yield + loop + generator
@@ -37,7 +37,7 @@ for ele in cycle(test_list, 6):
 
 **Output :**
 
-```
+```py
 The original list is : [[6, 7], [9, 6], [7, 9]]
 The cycle elements are : 
 6

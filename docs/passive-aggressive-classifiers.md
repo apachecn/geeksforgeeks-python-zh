@@ -30,7 +30,7 @@
 
 **代码:Python 的 scikit-learn 库实现被动-主动分类器。**
 
-```
+```py
 # Importing modules
 from sklearn.datasets import load_iris
 from sklearn.linear_model import PassiveAggressiveClassifier
@@ -63,7 +63,7 @@ print(f"Classification Report : \n\n{classification_report(y_test, test_pred)}")
 我们已经使用将正则化参数“C”设置为 0.5。现在让我们看看输出。
 **输出:**
 
-```
+```py
 Test Set Accuracy : 93.33333333333333 %
 
 Classification Report : 

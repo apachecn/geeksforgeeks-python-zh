@@ -7,7 +7,7 @@
 **方法#1:使用`any()`**
 这是执行该任务的简单且最推荐的方式。在这种情况下，我们只需通过迭代检查值中的键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check for Key in Dictionary Value list
 # Using any()
@@ -31,7 +31,7 @@ print("Is key present in nested dictionary list ?  : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': [{'CS': 5}, {'GATE': 6}], 'for': 2, 'CS': 3}
 Is key present in nested dictionary list ?  : True
 

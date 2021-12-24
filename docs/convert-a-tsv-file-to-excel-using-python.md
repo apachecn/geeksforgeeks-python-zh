@@ -6,7 +6,7 @@
 
 在本文中，我们将讨论如何使用 Python 将 TSV 文件转换为 Excel。这里我们将使用 **XlsxWriter** python 模块。它用于创建 XLSX 文件。这个模块没有内置 python，因此必须明确地安装并加载到工作空间中。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install XlsxWriter
 ```
 
@@ -20,7 +20,7 @@ pip install XlsxWriter
 
 **语法:**
 
-```
+```py
 workbook_object = WorkBook(output_filename)
 ```
 
@@ -39,7 +39,7 @@ workbook_object = WorkBook(output_filename)
 
 **语法:**
 
-```
+```py
 worksheet_object.write_row(row, col, data)
 ```
 
@@ -47,7 +47,7 @@ worksheet_object.write_row(row, col, data)
 
 **语法:**
 
-```
+```py
 workbook_object.close()
 ```
 
@@ -61,7 +61,7 @@ workbook_object.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing modules
 import csv
 from xlsxwriter.workbook import Workbook
@@ -103,7 +103,7 @@ workbook.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing modules
 import csv
 from xlsxwriter.workbook import Workbook

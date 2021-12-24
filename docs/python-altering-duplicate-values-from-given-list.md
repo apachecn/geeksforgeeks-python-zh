@@ -8,7 +8,7 @@
 
 这个任务可以使用遍历的列表理解和元素出现的检查来完成，索引检查可以使用枚举函数来完成。
 
-```
+```py
 # Python3 code to demonstrate
 # Altering duplicated
 # using list comprehension + enumerate()
@@ -37,7 +37,7 @@ print("The altered duplicate list is : " + str(res))
 
 这个特殊的任务也可以使用上述功能的组合来执行，使用`groupby`功能来获得不同元素的组，并列出理解来更改副本。
 
-```
+```py
 # Python3 code to demonstrate
 # Altering duplicated
 # using itertools.groupby() + list comprehension

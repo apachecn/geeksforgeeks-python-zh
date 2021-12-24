@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `min()`**
 可以使用列表理解来执行这个特定的任务以过滤掉连续的组，并且可以使用 min 函数来获得被过滤的解的最小值。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive Subsets Minimum
 # using list comprehension + min()
@@ -28,7 +28,7 @@ print("The grouped minimum list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 7, 8, 10, 12, 15, 13, 17, 14]
 The grouped minimum list is : [4, 10, 13]
 

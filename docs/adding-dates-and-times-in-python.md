@@ -6,7 +6,7 @@
 
 Python 支持日期时间模块来执行日期和时间操作。Datetime 模块允许用户执行各种与日期和时间相关的算术运算，提取各种时间框架并格式化不同格式的输出。这些类型的对象是不可变的。可以使用以下命令将模块导入 Python 工作区:
 
-```
+```py
 import datetime
 ```
 
@@ -18,7 +18,7 @@ datetime 对象还支持附加的时区属性，这是可选的。该属性可�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 import datetime
 
@@ -30,7 +30,7 @@ print(datetime_obj.tzinfo)
 
 **输出:**
 
-```
+```py
 None
 ```
 
@@ -38,7 +38,7 @@ None
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required modules
 import datetime
 import pytz
@@ -58,7 +58,7 @@ print(datetime_obj.tzinfo)
 
 **输出:**
 
-```
+```py
 America/Los_Angeles
 ```
 
@@ -68,7 +68,7 @@ America/Los_Angeles
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 from datetime import datetime
 import pytz
@@ -90,7 +90,7 @@ print(curr_datetime)
 
 **输出:**
 
-```
+```py
 Current timezone
 2021-02-12 20:20:50.668454
 Replaced timezone

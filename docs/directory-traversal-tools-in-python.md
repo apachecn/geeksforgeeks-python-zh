@@ -24,7 +24,7 @@
 
 我们想列出目录树中的所有子目录和文件。下面是实现。
 
-```
+```py
 # Python program to list out 
 # all the sub-directories and files 
 
@@ -48,7 +48,7 @@ for i in L:
 
 **输出:**
 
-```
+```py
 List of all sub-directories and files:
 ('Test', ['B', 'C', 'D', 'A'], [])
 ('Test/B', [], [])
@@ -63,7 +63,7 @@ List of all sub-directories and files:
 
 上面的代码可以使用列表理解来缩短，这是一种更皮通的方式。下面是实现。
 
-```
+```py
 # Python program to list out 
 # all the sub-directories and files 
 
@@ -81,7 +81,7 @@ for i in L:
 
 **输出:**
 
-```
+```py
 List of all sub-directories and files:
 ('Test', ['B', 'C', 'D', 'A'], [])
 ('Test/B', [], [])

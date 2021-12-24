@@ -10,7 +10,7 @@ Sort 是 python 中的一个内置列表函数，可以对任意给定的对象(
 
 **语法:**
 
-```
+```py
 sort(self, /, *, key=None, reverse=False)
 ```
 
@@ -22,7 +22,7 @@ sort(self, /, *, key=None, reverse=False)
 
 ## 蟒 3
 
-```
+```py
 def my_sort(line):
     line_fields = line.strip().split(',')
     amount = float(line_fields[2])
@@ -45,7 +45,7 @@ fp.close()
 
 **输出:**
 
-```
+```py
 22633,HAND WARMER UNION JACK,11.1
 
 22632,HAND WARMER RED POLKA DOT,11.1
@@ -83,7 +83,7 @@ fp.close()
 
 ## 蟒 3
 
-```
+```py
 def my_sort(line):
     flight_class = {'ECONOMY': 1,
                     'PREMIUMECONOMY': 2,
@@ -110,7 +110,7 @@ fp.close()
 
 **输出:**
 
-```
+```py
 001 AALAM SAMIMI/MOJGAN MRS 5SZKUU ECONOMY
 
 007 AFSHAR GHAHREMANKHANI/ARA ZYA4NT ECONOMY

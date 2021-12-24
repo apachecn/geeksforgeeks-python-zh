@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # create a sample json
@@ -33,7 +33,7 @@ print(type(y))
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 import requests
 

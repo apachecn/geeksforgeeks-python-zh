@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import socket
 import sys
@@ -87,7 +87,7 @@ if data:
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import socket
 import sys

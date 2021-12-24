@@ -6,7 +6,7 @@
 
 ****数学公式:****
 
-```
+```py
 **R<sup>2</sup>= 1- SS<sub>res</sub> / SS<sub>tot</sub>**
 ```
 
@@ -23,7 +23,7 @@ R <sup>2</sup> 表示位于回归方程创建的直线内的数据点的比例�
 **例 1 模型给出准确结果**
 ![](img/28e20cf89aceda32a4944b864aea3baf.png)
 
-```
+```py
  ** R<sup>2</sup> = 1- 0/200 = 1**
 ```
 
@@ -31,7 +31,7 @@ R <sup>2</sup> 表示位于回归方程创建的直线内的数据点的比例�
 
 ![](img/e6aad9d00a49bcd2a46b5e5a25e182b5.png)
 
-```
+```py
  **R<sup>2</sup> = 1- 200/200 = 0**
 ```
 
@@ -39,7 +39,7 @@ R <sup>2</sup> 表示位于回归方程创建的直线内的数据点的比例�
 
 ![](img/25ac527f76ec92bc0fbf4dccae1b5281.png)
 
-```
+```py
  **R<sup>2</sup> = 1- 600/200 = -2**
 ```
 
@@ -48,13 +48,13 @@ R <sup>2</sup> 表示位于回归方程创建的直线内的数据点的比例�
 **Python 实现:**
 **代码 1:从 sklearn.metrics** 导入 r2_score
 
-```
+```py
 from sklearn.metrics import r2_score
 ```
 
 **代码 2:计算以上所有情况的 R <sup>2</sup> 评分。**
 
-```
+```py
 ### Assume y is the actual value and f is the predicted values
 y =[10, 20, 30]
 f =[10, 20, 30]
@@ -64,11 +64,11 @@ print('r2 score for perfect model is', r2)
 
 **输出:**
 
-```
+```py
 r2 score for perfect model is 1.0
 ```
 
-```
+```py
 ### Assume y is the actual value and f is the predicted values
 y =[10, 20, 30]
 f =[20, 20, 20]
@@ -79,13 +79,13 @@ print('r2 score for a model which predicts mean value always is', r2)
 
 **输出:**
 
-```
+```py
 r2 score for a model which predicts mean value always is 0.0
 ```
 
 **代码 3:**
 
-```
+```py
 ### Assume y is the actual value and f is the predicted values
 y = [10, 20, 30]
 f = [30, 10, 20]
@@ -95,7 +95,7 @@ print('r2 score for a worse model is', r2)
 
 **输出:**
 
-```
+```py
 r2 score for a worse model is -2.0
 ```
 

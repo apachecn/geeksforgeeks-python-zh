@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 inputstring = ' some strings are present in between "geeks" "for" "geeks" '
 
@@ -19,7 +19,7 @@ print(re.findall('"([^"]*)"', inputstring))
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ```
 
@@ -29,7 +29,7 @@ print(re.findall('"([^"]*)"', inputstring))
 
 ## 蟒 3
 
-```
+```py
 inputstring = 'some strings are present in between "geeks" "for" "geeks" '
 
 """
@@ -46,7 +46,7 @@ print(result);
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ```
 

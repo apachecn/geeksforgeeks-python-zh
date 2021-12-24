@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Timedelta function demonstration
 
 from datetime import datetime, timedelta
@@ -36,7 +36,7 @@ print("Date1 before 15 days:", date1)
 
 **Output**
 
-```
+```py
 Difference in dates: 31 days, 0:00:00
 Date1 after 4 days: 2020-01-07 00:00:00
 Date1 before 15 days: 2019-12-23 00:00:00
@@ -60,7 +60,7 @@ Date1 before 15 days: 2019-12-23 00:00:00
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import timedelta
 
 # Getting minimum value
@@ -74,7 +74,7 @@ print("Maximum value of timedelta object", Max)
 
 **Output**
 
-```
+```py
 Minimum value of timedelta object -999999999 days, 0:00:00
 Maximum value of timedelta object 999999999 days, 23:59:59.999999
 ```
@@ -95,7 +95,7 @@ Maximum value of timedelta object 999999999 days, 23:59:59.999999
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import timedelta
 
 # Getting minimum value
@@ -111,7 +111,7 @@ print(obj.total_seconds())
 
 **Output**
 
-```
+```py
 3600.0
 60.0
 86400.0
@@ -141,7 +141,7 @@ print(obj.total_seconds())
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import timedelta
 
 # creating the timedelta object
@@ -175,7 +175,7 @@ print("After Modulo:", res)
 
 **Output**
 
-```
+```py
 Original timedelta: 1 day, 0:00:00
 After Multiplication: 5 days, 12:00:00
 After Subtraction: 4 days, 12:00:00
@@ -189,7 +189,7 @@ After Modulo: 2 days, 12:00:00
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import timedelta
 
 # creating the timedelta object
@@ -213,7 +213,7 @@ print("Constructor call:", repr(t1))
 
 **Output**
 
-```
+```py
 Original timedelta: 1 day, 0:00:00
 After Negation: -1 day, 0:00:00
 Absolute Value: 1 day, 0:00:00

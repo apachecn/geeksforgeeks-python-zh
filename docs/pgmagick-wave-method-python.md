@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wave(amplitude, wavelength)
 > ```
 > 
@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -40,7 +40,7 @@ img.write('2_a.png')
 ![](img/08c13b56d9e1129e3cf573d118d45e42.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

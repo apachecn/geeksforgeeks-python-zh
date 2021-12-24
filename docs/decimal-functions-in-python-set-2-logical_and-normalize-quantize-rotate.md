@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # logical_and(), logical_or(), logical_xor()
 # and logical_invert()
@@ -50,7 +50,7 @@ print (a.logical_invert())
 
 输出:
 
-```
+```py
 The logical_and() of two numbers is : 1000
 The logical_or() of two numbers is : 1110
 The exclusive or of two numbers is : 110
@@ -63,7 +63,7 @@ The logical inversion of number is : 1111111111111111111111110111
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # next_plus() and next_minus()
 
@@ -88,7 +88,7 @@ print (a.next_minus())
 
 输出:
 
-```
+```py
 The original number is : 101.340000000000003410605131648480892181396484375
 The smallest number larger than current number : 101.3400000000000034106051317
 The largest number smaller than current number : 101.3400000000000034106051316
@@ -100,7 +100,7 @@ The largest number smaller than current number : 101.3400000000000034106051316
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # next_toward() and normalize()
 
@@ -135,7 +135,7 @@ print (d.normalize())
 
 输出:
 
-```
+```py
 The number closest to 1st number in direction of second number : 
 101.3400000000000034106051316
 The second number with sign of first number is : -101.3400000000000034106051316
@@ -148,7 +148,7 @@ Number after erasing rightmost trailing zeroes : 14.01
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # quantize() and same_quantum()
 
@@ -176,7 +176,7 @@ else : print ("Both numbers have different exponent") 
 
 输出:
 
-```
+```py
 The quantized first number is : 20.77
 Both the numbers have same exponent
 ```
@@ -187,7 +187,7 @@ Both the numbers have same exponent
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # rotate() and shift()
 
@@ -210,7 +210,7 @@ print (a.shift(2))
 
 输出:
 
-```
+```py
 The rotated value is : 6523435093940294242343345634
 The shifted value is : 4350939402942423433456346500
 ```
@@ -221,7 +221,7 @@ The shifted value is : 4350939402942423433456346500
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # remainder_near() and scaleb()
 
@@ -248,7 +248,7 @@ print (a.scaleb(2))
 
 输出:
 
-```
+```py
 The computed value using remainder_near() is : -4
 The value after shifting exponent : 2376.500000000000056843418861
 ```

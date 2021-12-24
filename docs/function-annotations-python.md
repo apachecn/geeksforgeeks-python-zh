@@ -18,7 +18,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
 1.  Python supports dynamic typing and hence no module is provided for type checking. Annotations like
 
-    ```
+    ```py
     [def foo(a:”int”, b:”float”=5.0)  -> ”int”]
     ```
 
@@ -34,31 +34,31 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
 *   **简单参数的注释:**参数名后面跟“:”，然后跟表达式。注释语法如下所示。
 
-    ```
+    ```py
     def foobar(a: expression, b: expression = 5): 
     ```
 
     *   **多余参数的注释:**多余参数，例如*args 和**kwargs，允许在函数调用中传递任意数量的参数。这些参数的注释语法如下所示。
 
-    ```
+    ```py
     def foobar(*args: expression, *kwargs: expression): 
     ```
 
     *   **嵌套参数的注释:**嵌套参数是 python 2x 的一个有用特性，在函数调用中传递元组，并进行自动解包。python 3x 中删除了该功能，应该进行手动解包。注释是在变量之后而不是元组之后完成的，如下所示。
 
-    ```
+    ```py
     def foobar((a: expression, b: expression), (c: expression, d: expression)): 
     ```
 
     *   **Annotations for return type :** Annotating return type is slightly different from annotating function arguments. The ‘->’ is followed by expression which is further followed by ‘:’. Annotation syntax of return type is shown below.
 
-    ```
+    ```py
     def foobar(a: expression)->expression:
     ```
 
     **语法**
 
-    ```
+    ```py
     decorator    :  ‘@’ name_  [‘(’ [arglist] ‘)’] NEWLINE
     decorators   :  decorator+
     funcdef      :  [decorators] ‘def’ NAME parameters [‘->’] ‘:’ suite
@@ -79,7 +79,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
     下面的代码将澄清一个事实，即函数注释在运行时不会被计算。代码打印斐波那契数列到 n 位置。
 
-    ```
+    ```py
     # Python program to print Fibonacci series
     def fib(n:'int', output:'list'=[])-> 'list':
         if n == 0:
@@ -97,7 +97,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     print(fib(5))
     ```
 
-    ```
+    ```py
     Output: [1, 1, 2, 3, 5]
     ```
 
@@ -107,7 +107,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
     **1。使用“__annotations__”**:上述代码中的函数注释可以通过特殊属性“_ _ annotations _ _”进行访问。它输出具有特殊关键字“return”的字典和具有注释参数名称的其他关键字。下面的代码将打印注释。
 
-    ```
+    ```py
     # Python program to illustrate Function Annotations
     def fib(n:'int', output:'list'=[])-> 'list':
         if n == 0:
@@ -125,7 +125,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     print(fib.__annotations__)
     ```
 
-    ```
+    ```py
     Output: {'return': 'list', 'n': 'int', 'output': 'list'}
 
     ```
@@ -136,7 +136,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
     **3。使用标准模块“inspect”**:“inspect”模块提供了几个有用的函数来帮助获取关于活动对象的信息，例如模块、类、方法、函数、回溯、框架对象和代码对象。我们可以使用模块的“getfullargspec”方法来获取包含注释的函数的完整信息。
 
-    ```
+    ```py
     # Python program to illustrate Function Annotations
     import inspect
     def fib(n:'int', output:'list'=[])-> 'list':
@@ -155,7 +155,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     print(inspect.getfullargspec(fib))
     ```
 
-    ```
+    ```py
     Output: FullArgSpec(args=['n', 'output'], varargs=None,
      varkw=None, defaults=([], ), kwonlyargs=[],
     kwonlydefaults=None, annotations=
@@ -166,19 +166,19 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
     *   **使用“mypy”:**“mypy”是一个外部库，借助函数注释提供静态类型检查。
         下载 python 2x 的 mypy
-         **```
+         ```py
     pip install mypy
     ```
 
     巨蟒 3x
 
-    ```
+    ```py
     pip install git+git://github.com/JukkaL/mypy.git
     ```
 
     例 1:
 
-    ```
+    ```py
     # String slicing function that returns a string from start index to end index.
     def slice(string:str, start: int, end: int) -> str:
         return string[start:end]
@@ -188,7 +188,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
 
     将上述代码保存为示例. py，并在安装 mypy 后运行以下命令。确保您在保存文件的目录中。
 
-    ```
+    ```py
     mypy example.py
     ```
 
@@ -196,7 +196,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     ![](img/12a48327783e274e37ae128fd1e37b78.png)***   **Things are little different when the [decorators](https://www.geeksforgeeks.org/function-decorators-in-python-set-1-introduction/) are involved.
     **Example 2(part a): Type checking of the parameters of the wrapped up function ‘gift_func’ and ‘wrapped’**
 
-    ```
+    ```py
     def wrapping_paper(func):
         def wrapped(gift:int):
             return 'I got a wrapped up {} for you'.format(str(func(gift)))
@@ -212,7 +212,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     起初，将字符串作为参数传递似乎会返回一个错误，因为所需的数据类型是在“gift_func”和“wrapped”中注释的“int”。mypy 没有在包装函数参数中建立类型检查，但是可以检查装饰器的类型检查和包装函数的返回类型。因此，从上面的代码中可以预期以下结果。
     ![](img/68ade491fcacc2be7517d00920a3c7a6.png)** *   ****Example 2(part b): Typechecking of the parameters of the decorator ‘wrapping_paper’.**
 
-    ```
+    ```py
     def wrapping_paper(func:str):    
         def wrapped(gift:int):
             return 'I got a wrapped up {} for you'.format(str(func(gift)))
@@ -228,7 +228,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     现在，您将获得以下结果。
     ![](img/dad8ad02fc7fdefa2c0363c95c4da6cd.png)** *   ****Example 2(part c): Typechecking of the return type of ‘gift_func’ and ‘wrapped’**
 
-    ```
+    ```py
     # Suppose we want the return type to be int
     from typing import Callable
     def wrapping_paper(func):
@@ -246,7 +246,7 @@ PEP 是提出主要新特性的主要机制，例如–Python Web 服务器网�
     您将得到以下结果。
     ![](img/81c901c0f8aa2079ee7de21a115afb23.png)** *   ****Example 2(part d) Typechecking of the return type of the wrapper function ‘wrapping_paper’**
 
-    ```
+    ```py
     # Suppose we want the return type to be int
     from typing import Callable
     def wrapping_paper(func) -> int:

@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论在 Python 中从同级目录导入文件的方法。首先，在一个根文件夹中创建两个文件夹，并在每个文件夹中创建一个 python 文件。下面是字典树:
 
-```
+```py
 Directory Tree:
 
 root :
@@ -22,7 +22,7 @@ root :
 
 ## **蟒蛇 3**
 
-```
+```py
 # import requi9red module
 import sys
 
@@ -43,7 +43,7 @@ print(s)
 
 ## **蟒蛇 3**
 
-```
+```py
 # defining method to import 
 # in A.py which returns a string
 def methodB():
@@ -60,7 +60,7 @@ def methodB():
 
 **执行相同任务的另一种类似方式是通过将 _ _ init _ _ _，将兄弟目录作为一个包。py 文件，然后从同级目录中导入它。__init__。py 可以将所需的方法导入到其他模块中。下面是字典树:**
 
-```
+```py
 **Directory Tree:**
 
 root :
@@ -78,7 +78,7 @@ root :
 
 ## **蟒蛇 3**
 
-```
+```py
 # import requi9red module
 import sys
 
@@ -99,7 +99,7 @@ print(s)
 
 ## **蟒蛇 3**
 
-```
+```py
 # from .fileName import methodName
 from .B import methodB
 ```
@@ -108,7 +108,7 @@ from .B import methodB
 
 ## **蟒蛇 3**
 
-```
+```py
 # defining method to import in 
 # A.py which returns this string
 def methodB():

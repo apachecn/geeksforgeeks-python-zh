@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+字符串切片**
 列表理解和字符串切片的结合可以用来执行这个特定的任务。这只是执行这个任务的蛮力方法。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get all substrings of string
 # Using list comprehension + string slicing

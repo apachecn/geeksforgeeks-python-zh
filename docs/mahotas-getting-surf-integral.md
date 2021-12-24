@@ -4,7 +4,7 @@
 
 在这篇文章中，我们将看到如何在 mahotas 中获得图像的加速鲁棒积分特征。在计算机视觉中，加速鲁棒特征是一种专利的局部特征检测器和描述符。它可用于对象识别、图像配准、分类或三维重建等任务。它部分地受到尺度不变特征变换描述符的启发。为此，我们将使用来自核分割基准的荧光显微图像。借助下面给出的命令，我们可以得到图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.nuclear_image()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import mahotas
 import mahotas.demos
@@ -62,7 +62,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

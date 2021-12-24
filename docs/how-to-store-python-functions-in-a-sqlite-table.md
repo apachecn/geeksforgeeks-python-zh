@@ -8,7 +8,7 @@ SQLite 是一个包含在 C 库中的关系数据库系统，其语法与 SQL �
 
 **1。**导入 *sqlite3* 模块，创建代表数据库的对象。
 
-```
+```py
 import sqlite3
 conn = sqlite3.connect('function.db')
 
@@ -16,7 +16,7 @@ conn = sqlite3.connect('function.db')
 
 **2。**要执行 SQL 命令，构造一个游标对象并调用 *execute()* 方法。
 
-```
+```py
 c = conn.cursor()
 c.execute('''CREATE TABLE student
              (Number REAL,stud_name TEXT)''')
@@ -31,7 +31,7 @@ c.execute('''CREATE TABLE student
 
 ## 蟒 3
 
-```
+```py
 import sqlite3
 conn = sqlite3.connect('function.db')
 ```
@@ -42,7 +42,7 @@ conn = sqlite3.connect('function.db')
 
 ## 蟒 3
 
-```
+```py
 c = conn.cursor()
 c.execute('''CREATE TABLE pyfuction
              (func_defination TEXT)''')
@@ -54,6 +54,6 @@ c.execute('''CREATE TABLE pyfuction
 
 ## 蟒 3
 
-```
+```py
 code = """ def gfg(): print("GeeksforGeeks") """
 ```

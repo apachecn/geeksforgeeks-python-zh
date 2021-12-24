@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们在索引列表上运行一个循环，并从字符串中连接相应的索引字符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get positional characters from String
 # using loop
@@ -33,7 +33,7 @@ print("Substring of selective characters : " + res)
 
 **Output :**
 
-```
+```py
 The original string is : gfgisbest
 Substring of selective characters : fisbs
 

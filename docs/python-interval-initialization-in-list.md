@@ -7,7 +7,7 @@
 **方法#1:使用`list comprehension + enumerate()`**
 列表理解可以做可能的迭代部分，枚举可以帮助逻辑部分和检查列表中所需的有效元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # interval initializing in list 
 # using list comprehension + enumerate()
@@ -39,7 +39,7 @@ print ("The modified initialized list : " +  str(res))
 **方法 2:使用`itertools.compress() + itertools.cycle()`**
 以上两个功能可以结合起来，方便解决所讨论的问题。循环功能可用于重复任务，压缩功能在将片段组合在一起时会很有用。
 
-```
+```py
 # Python3 code to demonstrate 
 # interval initializing in list 
 # using itertools.compress() + itertools.cycle()

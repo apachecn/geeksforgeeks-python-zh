@@ -12,7 +12,7 @@ shutil 库包括一个方法调用 copyfile()。该方法采用两个参数，�
 
 **语法:**
 
-```
+```py
 copyfile(source_path,destination_path)
 ```
 
@@ -24,7 +24,7 @@ copyfile(source_path,destination_path)
 
 ## 蟒蛇 3
 
-```
+```py
 # copy a file using shutil.copyfile() method
 import shutil
 
@@ -56,7 +56,7 @@ shutil.copyfile(sourcePath, destinationPath)
 
 ## 蟒蛇 3
 
-```
+```py
 # open source file in read mode
 source = open("c:\\SourceFolder\\gfg.txt", "r")
 

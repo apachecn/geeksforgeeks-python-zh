@@ -16,7 +16,7 @@
 
 ## python 3
 
-```
+```py
 # Importing libraries
 
 import numpy as np
@@ -134,7 +134,7 @@ if __name__ == "__main__" :     
 
 **输出:**
 
-```
+```py
 Available combinations :  [(0.1, 100), (0.1, 200), (0.1, 300), (0.1, 400), 
 (0.1, 500), (0.2, 100), (0.2, 200), (0.2, 300), (0.2, 400), (0.2, 500), 
 (0.3, 100), (0.3, 200), (0.3, 300), (0.3, 400), (0.3, 500), (0.4, 100), 
@@ -155,7 +155,7 @@ Maximum accuracy achieved by our model through grid searching :  60.0
 
 ## python 3
 
-```
+```py
 # Importing Libraries
 
 import pandas as pd
@@ -210,7 +210,7 @@ if __name__ == "__main__" :     
 
 **输出:**
 
-```
+```py
 Maximum accuracy achieved by sklearn model through grid searching :  62.86
 
 ```

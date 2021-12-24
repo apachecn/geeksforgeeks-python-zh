@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing poisson fro scipy
 from scipy.stats import poisson
 
@@ -46,7 +46,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing poisson fro scipy
 from scipy.stats import poisson
 
@@ -78,7 +78,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing poisson fro scipy
 from scipy.stats import poisson
 

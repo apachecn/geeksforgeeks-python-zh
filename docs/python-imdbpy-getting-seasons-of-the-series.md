@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,14 +39,14 @@ print(season)
 
 **输出:**
 
-```
+```py
 Sacred Games
 ['1', '2']
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -71,7 +71,7 @@ print(season)
 
 **输出:**
 
-```
+```py
 Money Heist
 ['1', '2', '3', '4']
 ```

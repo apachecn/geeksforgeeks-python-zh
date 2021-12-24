@@ -31,7 +31,7 @@
 
  **## 蟒 3
 
-```
+```py
 from concurrent.futures import ProcessPoolExecutor
 from time import sleep
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
 ****输出:****
 
-```
+```py
 Cube of 2:8
 Cube of 3:27
 Cube of 6:216
@@ -69,7 +69,7 @@ Cube of 5:125
 
  **## 蟒 3
 
-```
+```py
 import requests
 import time
 import os
@@ -113,7 +113,7 @@ print(f'Multiprocess Code Took:{t2-t1} seconds')
 
 ****输出:****
 
-```
+```py
 Downloading images with single process
 Downloading..
 Downloading..

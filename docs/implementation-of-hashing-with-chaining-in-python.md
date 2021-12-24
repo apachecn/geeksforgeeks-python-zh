@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 h(large_value) = large_value % m
 ```
 
@@ -48,7 +48,7 @@ h(large_value) = large_value % m
 
     散列的性能是基于每个密钥对于散列表的任何槽都同样可能被散列来评估的。
 
-    ```
+    ```py
     m = Length of Hash Table
     n = Total keys to be inserted in the hash table
 
@@ -63,7 +63,7 @@ h(large_value) = large_value % m
 
     **哈希的 Python 实现**
 
-    ```
+    ```py
     # Function to display hashtable
     def display_hash(hashTable):
 
@@ -105,7 +105,7 @@ h(large_value) = large_value % m
 
     **输出:**
 
-    ```
+    ```py
     0 --> Allahabad --> Mathura 
     1 --> Punjab --> Noida 
     2 

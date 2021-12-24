@@ -10,13 +10,13 @@
 这是一个函数，它接受一系列可迭代函数并返回一个可迭代函数。它将所有可迭代表组合在一起，并产生一个可迭代表作为输出。它的输出不能直接使用，因此不能显式转换为 iterables。该函数属于类别迭代器[终止迭代器](https://www.geeksforgeeks.org/python-itertools/#terminate)。
 **语法:**
 
-```
+```py
 chain (*iterables)
 ```
 
 链条的内部工作可以按如下方式实现:
 
-```
+```py
 def chain(*iterables):
      for it in iterables:
        for each in it:
@@ -27,7 +27,7 @@ def chain(*iterables):
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 # a list of odd numbers
@@ -44,7 +44,7 @@ print(numbers)
 
 **Output:** 
 
-```
+```py
 [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
 ```
 
@@ -52,7 +52,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 # some consonants
@@ -72,7 +72,7 @@ print(res)
 
 **Output:** 
 
-```
+```py
 ['a', 'd', 'e', 'f', 'i', 'k', 'l', 'n', 'o', 'p', 'u']
 ```
 
@@ -80,7 +80,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 res = list(chain('ABC', 'DEF', 'GHI', 'JKL'))
@@ -90,7 +90,7 @@ print(res)
 
 **Output:** 
 
-```
+```py
 ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
 ```
 
@@ -98,7 +98,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 st1 = "Geeks"
@@ -120,7 +120,7 @@ print("After joining :", ans)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 li = ['ABC', 'DEF', 'GHI', 'JKL']
@@ -139,13 +139,13 @@ print("using chain.from_iterable :", res2)
 
 **示例 6:** 现在考虑如下列表:
 
-```
+```py
 li=['123', '456', '789']
 ```
 
 你应该把每一个数字都考虑进去，计算出列表的总和。所以答案应该是:
 
-```
+```py
 1+2+3+5+6+7+8+9 = 45
 ```
 
@@ -153,7 +153,7 @@ li=['123', '456', '789']
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 li = ['123', '456', '789']
@@ -173,7 +173,7 @@ print("\nsum =", sum_of_li)
 
 **Output:** 
 
-```
+```py
 res = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 new_res = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -185,7 +185,7 @@ sum = 45
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 li = ['123', '456', '789']
@@ -200,7 +200,7 @@ print("sum =", sum_of_li)
 
 **Output:** 
 
-```
+```py
 res = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 sum = 45

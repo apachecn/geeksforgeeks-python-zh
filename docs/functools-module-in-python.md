@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 partial(func[, *args][, **keywords])
 ```
 
@@ -20,7 +20,7 @@ partial(func[, *args][, **keywords])
 
 **示例:**
 
-```
+```py
 from functools import partial
 
 def power(a, b):
@@ -56,13 +56,13 @@ print('Default arguments for power_of_5 :', power_of_5.args)
 
 **语法:**
 
-```
+```py
 partialmethod(func, *args, **keywords)
 ```
 
 **示例:**
 
-```
+```py
 from functools import partialmethod
 
 class Demo:
@@ -83,7 +83,7 @@ print(obj.color)
 
 **输出:**
 
-```
+```py
 black
 blue
 
@@ -97,13 +97,13 @@ blue
 
     **语法:**
 
-    ```
+    ```py
     function(iterable, key=cmp_to_key(cmp_function)) 
     ```
 
     **示例:**
 
-    ```
+    ```py
     from functools import cmp_to_key
 
     # function to sort according to last character
@@ -122,7 +122,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     sorted list : ['for', 'geeks', 'geeks']
 
     ```
@@ -132,13 +132,13 @@ blue
     它对一个序列的元素重复应用两个参数的函数，以便将序列缩减为一个值。例如`reduce(lambda x, y: x^y, [1, 2, 3, 4])`计算`(((1^2)^3)^4)`。如果存在初始值，它将被放在计算的第一位，如果序列为空，则为默认结果。
     **语法:**
 
-    ```
+    ```py
     reduce(function, sequence[, initial]) -> value  
     ```
 
     **示例:**
 
-    ```
+    ```py
     from functools import reduce
     list1 = [2, 4, 7, 9, 1, 3]
     sum_of_list1 = reduce(lambda a, b:a + b, list1)
@@ -152,7 +152,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     Sum of list1 : 26
     Maximum of list2 : xyz
 
@@ -163,7 +163,7 @@ blue
 
     **示例:**
 
-    ```
+    ```py
     from functools import total_ordering
 
     @total_ordering
@@ -189,7 +189,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     6 > 2 : False
     3 < 1 : True
     2 = 10 : True
@@ -203,13 +203,13 @@ blue
 
     **语法:**
 
-    ```
+    ```py
     update_wrapper(wrapper, wrapped[, assigned][, updated])
     ```
 
     **示例:**
 
-    ```
+    ```py
     from functools import update_wrapper, partial
 
     def power(a, b):
@@ -233,7 +233,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     Before wrapper update -
     Documentation of pow2 : a to the power 2
     Name of pow2 : pow2
@@ -249,7 +249,7 @@ blue
 
     **示例:**
 
-    ```
+    ```py
     from functools import wraps
 
     def decorator(f):
@@ -272,7 +272,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     Documentation of decorated : f's Docstring
     f name : f
     Documentation of f : f's Docstring
@@ -286,13 +286,13 @@ blue
 
     **语法:**
 
-    ```
+    ```py
     lru_cache(maxsize=128, typed=False)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from functools import lru_cache
 
     @lru_cache(maxsize = None)
@@ -306,7 +306,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     [1, 1, 2, 6, 24, 120, 720]
     CacheInfo(hits=5, misses=7, maxsize=None, currsize=7)
 
@@ -317,7 +317,7 @@ blue
 
     **示例:**
 
-    ```
+    ```py
     from functools import singledispatch
 
     @singledispatch
@@ -333,7 +333,7 @@ blue
 
     **输出:**
 
-    ```
+    ```py
     GeeksforGeeks
     20
 

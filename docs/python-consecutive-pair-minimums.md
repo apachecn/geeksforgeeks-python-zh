@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个特殊任务的蛮力方法。在这种情况下，我们只是以跳过的方式迭代列表直到最后一个元素，以迭代的方式获得其他列表中的所有最小对。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive Pair Minimums
 # Using loop
@@ -30,7 +30,7 @@ print("Pair minimum of list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, 8, 9, 10, 17]
 Pair minimum of list : [4, 8, 10]
 

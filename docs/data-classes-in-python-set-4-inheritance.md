@@ -6,7 +6,7 @@
 
 在这篇文章中，我们将讨论继承时数据类的行为。尽管数据类有自己的构造函数，但它们的行为与普通类继承时的行为非常相似。
 
-```
+```py
 from dataclasses import dataclass
 
 @dataclass
@@ -38,7 +38,7 @@ class GfgArticle(Article):
 
     **注:**签名期望 **`author`** 在 **`language`** 之前——尽管 ***GfgArticle*** 中的声明顺序相反。这是因为属性是从超类到子类从上到下扫描的。所以 **`author`** 首先在*篇*中扫描，然后 **`language`** 在*篇*中扫描。
 
-    ```
+    ```py
     dClassObj = GfgArticle("DataClass",
                            "SuperCool DataStructure",
                            "vibhu4agarwal",
@@ -52,7 +52,7 @@ class GfgArticle(Article):
 
 *   如果 __init__()被显式提供，它应该以某种方式初始化它自己的所有属性以及超类(文章)中的属性。
 
-    ```
+    ```py
     from dataclasses import dataclass
 
     @dataclass

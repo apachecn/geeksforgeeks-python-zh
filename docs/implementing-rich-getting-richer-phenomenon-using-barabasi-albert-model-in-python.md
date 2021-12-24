@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import random
 import matplotlib.pyplot as plt
@@ -137,7 +137,7 @@ plot_deg_dist(g)
 
 **输出:**
 
-```
+```py
 Enter the value of n: 10
 3
 [0, 1, 3]

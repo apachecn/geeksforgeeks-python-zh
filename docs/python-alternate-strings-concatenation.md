@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片+ `join()`**
 使用列表理解的列表切片可以用来执行这个特定的任务。我们可以通过列表理解来运行逻辑，列表切片可以通过 join()函数将替换字符分割出来。
 
-```
+```py
 # Python3 code to demonstrate
 # Alternate Strings Concatenation
 # using list comprehension + list slicing
@@ -29,7 +29,7 @@ print("The alternate elements concatenation list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['GFG', 'is', 'for', 'Computer', 'Science', 'learning']
 The alternate elements concatenation list : ['GFG for Science', 'is Computer learning']
 

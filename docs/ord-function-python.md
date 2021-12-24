@@ -22,7 +22,7 @@
 
 ## **计算机编程语言**
 
-```
+```py
 # inbuilt function return an
 # integer representing the Unicode code
 value = ord("A")
@@ -36,7 +36,7 @@ print (value, value1)
 
 ****输出:****
 
-```
+```py
 65 65
 ```
 
@@ -46,7 +46,7 @@ print (value, value1)
 
 ## **蟒蛇 3**
 
-```
+```py
 # inbuilt function return an
 # integer representing the Unicode code
 # demonstrating exception
@@ -82,7 +82,7 @@ print(value1)
 
 ## **蟒蛇 3**
 
-```
+```py
 # inbuilt function return an
 # integer representing the Unicode code
 value = ord("A")
@@ -96,7 +96,7 @@ print(chr(value))
 
 ****输出:****
 
-```
+```py
 65
 A
 ```

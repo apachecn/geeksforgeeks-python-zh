@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the atan()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (1.2490457723982544+0j)
 
 ```
@@ -43,7 +43,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the atan()function
 
@@ -59,7 +59,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (1.4998477994928145+0.17328679513998632j)
 
 ```

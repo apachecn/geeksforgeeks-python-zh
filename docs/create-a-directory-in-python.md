@@ -27,7 +27,7 @@ Python 中的`os.mkdir()`方法是用指定的数值模式创建一个名为 pat
 
 **示例#1:** 使用`os.mkdir()`方法创建目录/文件
 
-```
+```py
 # Python program to explain os.mkdir() method
 
 # importing os module
@@ -70,7 +70,7 @@ print("Directory '% s' created" % directory)
 
 **输出:**
 
-```
+```py
 Directory 'GeeksforGeeks' created
 Directory 'Geeks' created
 
@@ -78,7 +78,7 @@ Directory 'Geeks' created
 
 **例 2:** 使用`os.mkdir()`方法时出现错误。
 
-```
+```py
 # Python program to explain os.mkdir() method  
 
 # importing os module  
@@ -111,7 +111,7 @@ print("Directory '% s' created" % directory) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "gfg.py", line 18, in os.mkdir(path)
 FileExistsError: [WinError 183] Cannot create a file when that file /
@@ -120,7 +120,7 @@ FileExistsError: [WinError 183] Cannot create a file when that file /
 
 **示例#3:** 使用`os.mkdir()`方法时处理错误。
 
-```
+```py
 # Python program to explain os.mkdir() method  
 
 # importing os module  
@@ -140,7 +140,7 @@ except OSError as error: 
 
 **输出:**
 
-```
+```py
 [WinError 183] Cannot create a file when that file/
               /already exists: 'D:/Pycharm projects/GeeksForGeeks'
 
@@ -151,7 +151,7 @@ except OSError as error: 
 Python 中的`os.makedirs()`方法用于递归创建目录。也就是说，在创建叶目录时，如果缺少任何中间级目录，`os.makedirs()`方法将创建它们。
 例如，考虑以下路径:
 
-```
+```py
 D:/Pycharm projects/GeeksForGeeks/Authors/Nikhil
 
 ```
@@ -169,7 +169,7 @@ D:/Pycharm projects/GeeksForGeeks/Authors/Nikhil
 
 **示例#1:** 使用`os.makedirs()`方法创建目录。
 
-```
+```py
 # Python program to explain os.makedirs() method  
 
 # importing os module  
@@ -224,7 +224,7 @@ print("Directory '% s' created" % directory) 
 
 **输出:**
 
-```
+```py
 Directory 'Nikhil' created
 Directory 'c' created
 
@@ -232,7 +232,7 @@ Directory 'c' created
 
 **例 2:**
 
-```
+```py
 # Python program to explain os.makedirs() method  
 
 # importing os module  
@@ -259,7 +259,7 @@ print("Directory '% s' created" % directory) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "gfg.py", line 22, in os.makedirs(path)
   File "C:\Users\Nikhil Aggarwal\AppData\Local\Programs\Python/
@@ -271,7 +271,7 @@ FileExistsError: [WinError 183] Cannot create a file when that/
 
 **示例#3:** 使用 os.makedirs()方法处理错误。
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -311,7 +311,7 @@ except OSError as error:
 
 **输出:**
 
-```
+```py
 Directory 'Nikhil' created successfully
 
 ```

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 def getAdditiveShares(secret, N, fieldSize):
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 **Output:** 
 
-```
+```py
 Shares are: [488, 62586, 9652, 49515, 78993]
 Reconstructed secret: 1234
 ```
@@ -77,7 +77,7 @@ Reconstructed secret: 1234
 
 ## **蟒蛇 3**
 
-```
+```py
 # Additive Sharing with facility to Refresh shares via Proactivization
 import random
 
@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
 ****Output:** 
 
-```
+```py
 Shares are: [45142, 41833, 39277, 49009, 25973]
 Refreshed Shares are: [298371, 255404, 117787, 239851, 189821]
 Secret: 1234

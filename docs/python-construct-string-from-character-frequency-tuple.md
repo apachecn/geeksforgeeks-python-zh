@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在本文中，我们迭代列表，并使用*运算符执行字符串连接，并继续以这种方式构建字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # String construction from character frequency
 # using loop
@@ -30,7 +30,7 @@ print("The constructed string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('g', 4), ('f', 3), ('g', 2)]
 The constructed string is : ggggfffgg
 

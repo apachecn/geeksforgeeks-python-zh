@@ -26,7 +26,7 @@
 
 使用`split()`函数，我们可以将字符串分割成一个单词列表，如果你想完成这个特殊的任务，这是最通用和推荐的方法。但缺点是在字符串包含标点符号的情况下会失败。
 
-```
+```py
 # Python3 code to demonstrate  
 # to extract words from string  
 # using split() 
@@ -49,7 +49,7 @@ for i in res:
 
 **输出:**
 
-```
+```py
 The original string is : GeeksforGeeks is a computer science portal for Geeks
 
 The words of string are
@@ -68,7 +68,7 @@ Geeks
 
 如上所述，在包含所有特殊字符和标点符号的情况下，使用拆分在字符串中查找单词的传统方法可能会失败，因此需要正则表达式来执行此任务。`findall()`函数在过滤字符串并提取忽略标点符号的单词后返回列表。
 
-```
+```py
 # Python3 code to demonstrate  
 # to extract words from string  
 # using regex( findall() ) 
@@ -92,7 +92,7 @@ for i in res:
 
 **输出:**
 
-```
+```py
 The original string is : GeeksforGeeks is a computer science portal for Geeks!!!
 
 The words of string are

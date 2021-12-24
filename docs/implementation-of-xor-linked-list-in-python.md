@@ -25,7 +25,7 @@ Python 中的异或链表实现用处不大，因为 Python 垃圾收集器不�
 
 ## Python 3
 
-```
+```py
 # import required module
 import ctypes
 
@@ -248,7 +248,7 @@ obj.ReversePrint()
 
 **输出:**
 
-```
+```py
 Length: 6
 
 Traverse linked list:

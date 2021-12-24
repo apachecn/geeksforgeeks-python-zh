@@ -28,7 +28,7 @@ Python 的 from 语句允许您从模块中导入特定的属性。
 
 ## 蟒蛇 3
 
-```
+```py
 # swaps.py file from which variables to be imported
 x = 23
 y = 30
@@ -42,7 +42,7 @@ def swapVal(x, y):
 
 ## 蟒蛇 3
 
-```
+```py
 # calval.py file where to import variables
 # import swaps.py file from which variables 
 # to be imported
@@ -65,7 +65,7 @@ print("x value: ", x, "y value:", y)
 
 **输出:**
 
-```
+```py
 x value:  23 y value: 30
 x value:  30 y value: 23
 ```

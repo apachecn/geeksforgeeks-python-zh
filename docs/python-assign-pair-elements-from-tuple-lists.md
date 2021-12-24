@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign pair elements from Tuple Lists
 # Using setdefault + loop
@@ -43,7 +43,7 @@ print("The resultant pairings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(5, 3), (7, 5), (2, 7), (3, 8), (8, 4)]
 The resultant pairings : {3: [8], 5: [3], 7: [5], 2: [7], 8: [4], 4: []}
 

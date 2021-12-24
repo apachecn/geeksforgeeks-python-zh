@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum difference tuple pair
 # Using list comprehension + max()
@@ -30,7 +30,7 @@ print("Maximum difference among pairs : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Maximum difference among pairs : 7
 ```
@@ -40,7 +40,7 @@ Maximum difference among pairs : 7
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum difference tuple pair
 # Using lambda + max()
@@ -61,7 +61,7 @@ print("Maximum difference among pairs : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Maximum difference among pairs : (10, 3)
 ```

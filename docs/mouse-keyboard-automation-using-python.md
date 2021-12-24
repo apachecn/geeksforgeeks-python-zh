@@ -4,7 +4,7 @@
 
 本文说明了如何使用 python 中的 **pyautogui** 模块来自动移动鼠标和键盘。本模块未预装 python。因此要安装它，请运行以下命令:
 
-```
+```py
  pip3 install pyautogui
 ```
 
@@ -18,7 +18,7 @@ Python 使用屏幕的坐标系来跟踪和控制鼠标。假设你的屏幕分�
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 print(pyautogui.size())
 ```
@@ -27,7 +27,7 @@ print(pyautogui.size())
 这个 python 代码使用 size()函数以 x，y 格式输出你的屏幕分辨率:
 输出:
 
-```
+```py
  (1920, 1080)
 ```
 
@@ -37,7 +37,7 @@ print(pyautogui.size())
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.moveTo(100, 100, duration = 1)
 ```
@@ -48,7 +48,7 @@ pyautogui.moveTo(100, 100, duration = 1)
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.moveRel(0, 50, duration = 1)
 ```
@@ -59,7 +59,7 @@ pyautogui.moveRel(0, 50, duration = 1)
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 print(pyautogui.position())
 ```
@@ -70,7 +70,7 @@ print(pyautogui.position())
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.click(100, 100)
 ```
@@ -81,7 +81,7 @@ pyautogui.click(100, 100)
 
 ## 计算机编程语言
 
-```
+```py
 import time
 
 # a module which has functions related to time.
@@ -110,7 +110,7 @@ pyautogui.dragRel(0, -100, duration = 1)
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.scroll(200)
 ```
@@ -121,7 +121,7 @@ pyautogui.scroll(200)
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.click(100, 100)
 pyautogui.typewrite("hello Geeks !")
@@ -133,7 +133,7 @@ pyautogui.typewrite("hello Geeks !")
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.typewrite(["a", "left", "ctrlleft"])
 ```
@@ -144,7 +144,7 @@ pyautogui.typewrite(["a", "left", "ctrlleft"])
 
 ## 计算机编程语言
 
-```
+```py
 import pyautogui
 pyautogui.hotkey("ctrlleft", "a")
 ```
@@ -157,7 +157,7 @@ pyautogui.hotkey("ctrlleft", "a")
 
 ## 蟒蛇 3
 
-```
+```py
 import pyautogui as pg
 import time
 

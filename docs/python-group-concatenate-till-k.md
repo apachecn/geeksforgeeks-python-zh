@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group concatenate Till K 
 # Using loop + join() + list comprehension
@@ -54,7 +54,7 @@ print("Concatenated Groups : " + str(fin_res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', None, 'I', 'Love', None, 'Gfg']
 Concatenated Groups : ['Gfg is Best', 'I Love', 'Gfg']
 

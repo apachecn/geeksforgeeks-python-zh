@@ -8,7 +8,7 @@
 
 在安装模块之前，请确保您的 Python 环境是最新的。之后安装 pip 并使用 python 包管理器安装请求模块。
 
-```
+```py
 pip install requests 
 
 ```
@@ -37,7 +37,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Import library
 import requests as req
 

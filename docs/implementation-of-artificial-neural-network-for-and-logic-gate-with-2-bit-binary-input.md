@@ -29,7 +29,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import Python Libraries
 import numpy as np
 from matplotlib import pyplot as plt
@@ -130,7 +130,7 @@ print(prediction)**
 
 ******Output:** 
 
-```
+```py
 [[ 0\.  1\.  0\.  0.]]
 ```**** 
 

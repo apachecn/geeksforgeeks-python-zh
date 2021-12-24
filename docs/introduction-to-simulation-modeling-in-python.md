@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import random
 import numpy as np

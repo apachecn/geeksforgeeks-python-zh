@@ -7,7 +7,7 @@
 **方法#1:使用`join() + set() + & operator + split()`**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们首先将每个元组转换为集合，然后执行由`split()`分割的元素单词的交集。最后一步是使用`join()`连接所有公共元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Common words among tuple strings
 # Using join() + set() + & operator + split()
@@ -30,7 +30,7 @@ print("Common words among tuple are : " + res)
 
 **Output :**
 
-```
+```py
 The original tuple is : ('gfg is best', 'gfg is for geeks', 'gfg is for all')
 Common words among tuple are : gfg, is
 

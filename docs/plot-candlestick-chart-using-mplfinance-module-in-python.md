@@ -6,7 +6,7 @@
 
 #### **安装:**
 
-```
+```py
 pip install mplfinance
 ```
 
@@ -33,7 +33,7 @@ pip install mplfinance
 
 ## 蟒蛇 3
 
-```
+```py
 # import required packages
 import matplotlib.pyplot as plt
 from mplfinance import candlestick_ohlc

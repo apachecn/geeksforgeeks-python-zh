@@ -11,7 +11,7 @@
 > 
 > ## Python3
 > 
-> ```
+> ```py
 > wand.image.adaptive_blur(radius="radius_value",
 >                            sigma="sigma_value",
 >             channel = "optional_channel_value")
@@ -37,7 +37,7 @@
 
 ## Python3
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -59,7 +59,7 @@ with Image(filename ="gfg.png") as img:
 
 ## Python3
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

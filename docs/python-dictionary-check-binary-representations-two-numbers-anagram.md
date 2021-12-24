@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : a = 8, b = 4 
 Output : Yes
 Binary representations of both
@@ -23,7 +23,7 @@ Output : No
 2.  由于两个数字的二进制表示长度可能不同，因此我们将在较短字符串的开头添加零，使两个字符串的长度相等。ie。；追加零= abs(len(bin1)-len(bin2))。
 3.  使用 **Counter()** 函数，将 bin 函数返回的包含 0 和 1 的输出字符串转换为字典，0 和 1 键及其计数作为值。比较两个字典，如果两个字典中 0 和 1 的值相等，则两个数字的二进制表示是字谜，否则不是。
 
-```
+```py
 # function to Check if binary representations
 # of two numbers are anagram
 from collections import Counter
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Yes
 
 ```

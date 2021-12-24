@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst = [1, 2, 3]
         N = 3
 Output : [1, 1, 1, 2, 2, 2, 3, 3, 3]
@@ -19,7 +19,7 @@ Output : ['cats', 'cats', 'dogs', 'dogs']
 
 **方法#1 :** 列表理解
 
-```
+```py
 # Python3 program to increase list size 
 # by padding each element by N
 
@@ -35,7 +35,7 @@ print(increaseSize(lst, N))
 
 **Output:**
 
-```
+```py
 [1, 1, 1, 2, 2, 2, 3, 3, 3]
 
 ```
@@ -44,7 +44,7 @@ print(increaseSize(lst, N))
 
 *reduce* 函数将参数中传递的特定函数应用于所有列表元素。因此，在这种方法中，我们在每个元素上应用一个函数，它的出现乘以 n
 
-```
+```py
 # Python3 program to increase list size 
 # by padding each element by N
 from functools import reduce
@@ -61,14 +61,14 @@ print(increaseSize(lst, N))
 
 **Output:**
 
-```
+```py
 [1, 1, 1, 2, 2, 2, 3, 3, 3]
 
 ```
 
 **方法 3 :** 使用 *itertools.chain()*
 
-```
+```py
 # Python3 program to increase list size 
 # by padding each element by N
 from itertools import chain
@@ -85,7 +85,7 @@ print(increaseSize(lst, N))
 
 **Output:**
 
-```
+```py
 [1, 1, 1, 2, 2, 2, 3, 3, 3]
 
 ```

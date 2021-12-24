@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required Modules
 import requests
 
@@ -82,7 +82,7 @@ for proxy in proxies:
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of User-Agents
 import requests 
 
@@ -119,7 +119,7 @@ response = requests.get(url, headers=header)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using Selenium Chrome Webdriver to create
 # a headless browser
 

@@ -18,7 +18,7 @@ DCGAN 架构的生成器采用 100 个均匀生成的值，使用正态分布作
 
 *   第一步，我们需要导入必要的类，如 TensorFlow、keras、matplotlib 等。我们将使用 TensorFlow 版本 2。这个版本的 tensorflow 提供了对 Keras 库的内置支持，作为其默认的高级应用编程接口。
 
-```
+```py
 # code % matplotlib inline
 import tensorflow as tf
 from tensorflow import keras
@@ -33,20 +33,20 @@ print('Tensorflow version:', tf.__version__)
 
 *   现在我们加载时尚 MNIST 数据集，好的方面是数据集可以从 tf.keras.datasets API 导入。因此，我们不需要通过复制文件来手动加载数据集。该数据集包含 60k 个训练图像和 10k 个测试图像，每个维度(28，28，1)。由于每个像素的值都在(0，255)范围内，我们将这些值除以 255 来对其进行归一化。
 
-```
+```py
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
 x_train = x_train.astype(np.float32) / 255.0
 x_test = x_test.astype(np.float32) / 255.0
 x_train.shape, x_test.shape
 ```
 
-```
+```py
 ((60000, 28, 28), (10000, 28, 28))
 ```
 
 *   现在在下一步，我们将可视化一些来自时尚 MNIST 数据库的图像，我们使用 matplotlib 库。
 
-```
+```py
 # We plot first 25 images of training dataset
 plt.figure(figsize =(10, 10))
 for i in range(25):
@@ -64,7 +64,7 @@ plt.show()
 
 *   现在，我们定义训练参数，如批次大小，并将数据集划分为批次大小，并通过随机采样训练数据来填充这些批次大小。
 
-```
+```py
 # code
 batch_size = 32
 # This dataset fills a buffer with buffer_size elements,
@@ -81,7 +81,7 @@ def create_batch(x_train):
 
 *   现在，我们定义生成器体系结构，该生成器体系结构采用大小为 100 的向量，首先将其整形为(7，7，128)向量，然后结合批处理归一化应用转置卷积。该生成器的输出是维度(28，28，1)的训练图像。
 
-```
+```py
 # code
 num_features = 100
 
@@ -98,7 +98,7 @@ generator = keras.models.Sequential([
 generator.summary()
 ```
 
-```
+```py
 Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -123,7 +123,7 @@ _________________________________________________________________
 
 *   现在，我们定义了鉴别器体系结构，鉴别器使用 1 个颜色通道获取 28*28 大小的图像，并从数据集或生成的图像中输出代表图像的标量值。
 
-```
+```py
 discriminator = keras.models.Sequential([
     keras.layers.Conv2D(64, (5, 5), (2, 2), padding ="same", input_shape =[28, 28, 1]),
     keras.layers.LeakyReLU(0.2),
@@ -137,7 +137,7 @@ discriminator = keras.models.Sequential([
 discriminator.summary()
 ```
 
-```
+```py
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -166,7 +166,7 @@ _________________________________________________________________
 
 *   现在我们需要编译我们的 DCGAN 模型(生成器和鉴别器的组合)，我们将首先编译鉴别器并将其训练设置为 False，因为我们首先要训练生成器。
 
-```
+```py
 # compile discriminator using binary cross entropy loss and adam optimizer
 discriminator.compile(loss ="binary_crossentropy", optimizer ="adam")
 # make  discriminator no-trainable as of  now
@@ -180,7 +180,7 @@ gan.compile(loss ="binary_crossentropy", optimizer ="adam")
 
 *   现在，我们为这个 GAN 模型定义了训练过程，我们将使用之前导入的 tqdm 包。，这个包有助于可视化培训。
 
-```
+```py
 seed = tf.random.normal(shape =[batch_size, 100])
 
 def train_dcgan(gan, dataset, batch_size, num_features, epochs = 5):
@@ -218,7 +218,7 @@ def train_dcgan(gan, dataset, batch_size, num_features, epochs = 5):
 
 *   现在我们定义一个函数，它从生成器生成并保存图像(在训练期间)。稍后我们将使用这些生成的图像绘制 GIF。
 
-```
+```py
 # code
 def generate_and_save_images(model, epoch, test_input):
   predictions = model(test_input, training = False)
@@ -235,7 +235,7 @@ def generate_and_save_images(model, epoch, test_input):
 
 *   现在，我们需要训练模型，但在此之前，我们还需要创建成批的训练数据，并添加一个表示颜色映射数量的维度。
 
-```
+```py
 # reshape to add a color map
 x_train_dcgan = x_train.reshape(-1, 28, 28, 1) * 2\. - 1.
 # create batches
@@ -244,7 +244,7 @@ dataset = create_batch(x_train_dcgan)
 train_dcgan(gan, dataset, batch_size, num_features, epochs = 10)
 ```
 
-```
+```py
 0%|          | 0/10 [00:00<?, ?it/s]
 Epoch 1/10
 
@@ -282,7 +282,7 @@ Wall time: 10min 46s
 
 *   现在我们将定义一个函数，该函数接受保存的图像并将其转换为 GIF。我们从[这里](https://www.tensorflow.org/tutorials/generative/dcgan#create_a_gif)使用这个功能
 
-```
+```py
 import imageio
 import glob
 

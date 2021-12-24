@@ -37,7 +37,7 @@ PySpark 数据帧通常通过**py spark . SQL . sparksession . create data frame
 
 ## 蟒蛇 3
 
-```
+```py
 # Need to import to use date time
 from datetime import datetime, date
 
@@ -82,7 +82,7 @@ df.printSchema()
 
 ## 蟒蛇 3
 
-```
+```py
 # Need to import to use date time
 from datetime import datetime, date
 
@@ -127,7 +127,7 @@ df.printSchema()
 
 ## 蟒蛇 3
 
-```
+```py
 # Need to import to use date time
 from datetime import datetime, date
 

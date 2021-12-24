@@ -10,7 +10,7 @@
 
 本模块未预装 Python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -31,7 +31,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 image = Image.open("input.jpg")

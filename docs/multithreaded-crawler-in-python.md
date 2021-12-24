@@ -8,13 +8,13 @@
 
 [**bs4**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/)T5:美人汤(bs4)是一个从 HTML 和 XML 文件中提取数据的 Python 库。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 这个库可以让你非常轻松的发送 HTTP/1.1 请求。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -24,7 +24,7 @@ pip install requests
 
 ## 蟒 3
 
-```
+```py
 import multiprocessing
 from bs4 import BeautifulSoup
 from queue import Queue, Empty
@@ -37,7 +37,7 @@ import requests
 
 ## 蟒 3
 
-```
+```py
 if __name__ == '__main__':
     cc = MultiThreadedCrawler("https://www.geeksforgeeks.org/")
     cc.run_web_crawler()
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 ## 蟒 3
 
-```
+```py
 class MultiThreadedCrawler:
 
     def __init__(self, seed_url):

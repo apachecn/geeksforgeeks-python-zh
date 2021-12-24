@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: shape name = "Rectangle"
        length = 10
        breadth = 15
@@ -25,7 +25,7 @@ Output: Area: 100
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function for calculating
 # the area of a shapes
 def calculate_area(name):\
@@ -94,7 +94,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 Calculate Shape Area
 Enter the name of shape whose area you want to find: rectangle
 Enter rectangle's length: 10

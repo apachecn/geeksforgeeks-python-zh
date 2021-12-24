@@ -19,7 +19,7 @@
 
 安装所需的模块:
 
-```
+```py
 pip install xmltojson
 pip install requests
 ```
@@ -30,7 +30,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 import xmltojson
 import json
 import requests
@@ -40,7 +40,7 @@ import requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample URL to fetch the html page
 url = "https://geeksforgeeks-example.surge.sh"
 
@@ -62,7 +62,7 @@ with open("sample.html", "w") as html_file:
 
 ## 蟒蛇 3
 
-```
+```py
 with open("sample.html", "r") as html_file:
     html = html_file.read()
     json_ = xmltojson.parse(html)
@@ -72,7 +72,7 @@ with open("sample.html", "r") as html_file:
 
 ## 蟒蛇 3
 
-```
+```py
 with open("data.json", "w") as file:
     json.dump(json_, file)
 ```

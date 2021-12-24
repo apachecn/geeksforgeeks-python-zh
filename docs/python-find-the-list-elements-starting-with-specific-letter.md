@@ -10,7 +10,7 @@
 
 这个问题可以通过使用上述两个函数的组合来解决，列表理解执行将逻辑扩展到整个列表的任务，并且较低的函数检查与参数字母的目标单词的大小写不敏感性。
 
-```
+```py
 # Python3 code to demonstrate
 # Words starting with specific letter
 # using list comprehension + lower()
@@ -34,7 +34,7 @@ print("The list of matching first letter : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Akash', 'Nikhil', 'Manjeet', 'akshat']
 The list of matching first letter : ['Akash', 'akshat']
 
@@ -44,7 +44,7 @@ The list of matching first letter : ['Akash', 'akshat']
 
 这个方法类似于上面的方法，但是它不是使用运算符检查是否相等，而是使用由 python 内置库提供的 startswith 函数进行检查。
 
-```
+```py
 # Python3 code to demonstrate
 # Words starting with specific letter
 # using list comprehension + startswith() + lower()
@@ -68,7 +68,7 @@ print("The list of matching first letter : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Akash', 'Nikhil', 'Manjeet', 'akshat']
 The list of matching first letter : ['Akash', 'akshat']
 

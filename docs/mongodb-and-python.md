@@ -22,14 +22,14 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
 1.  First start MongoDB from command prompt using :
     **Method 1:**
 
-    ```
+    ```py
     mongod
     ```
 
     或
     **方法二:**
 
-    ```
+    ```py
     net start MongoDB
     ```
 
@@ -37,40 +37,40 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
     见端口号默认设置为 27017(上图最后一行)。
     Python 有一个针对 MongoDB 的原生库。可用库的名称是“PyMongo”。要导入该文件，请执行以下命令:
 
-    ```
+    ```py
     from pymongo import MongoClient
     ```
 
 2.  **Create a connection :** The very first after importing the module is to create a MongoClient.
 
-    ```
+    ```py
     from pymongo import MongoClient
     client = MongoClient()
     ```
 
     之后，连接到默认主机和端口。到主机和端口的连接是显式完成的。以下命令用于连接运行在端口号 27017 上的本地主机上的蒙古客户端。
 
-    ```
+    ```py
     client = MongoClient(‘host’, port_number)
     example:- client = MongoClient(‘localhost’, 27017)
     ```
 
     也可以使用以下命令完成:
 
-    ```
+    ```py
     client = MongoClient(“mongodb://localhost:27017/”)
     ```
 
 3.  **Access DataBase Objects :** To create a database or switch to an existing database we use:
     **Method 1 : Dictionary-style**
 
-    ```
+    ```py
     mydatabase = client[‘name_of_the_database’]
     ```
 
     **方法 2 :**
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
@@ -80,19 +80,19 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
 4.  **Accessing the Collection :** Collections are equivalent to Tables in RDBMS. We access a collection in PyMongo in the same way as we access the Tables in the RDBMS. To access the table, say table name “myTable” of the database, say “mydatabase”.
     **Method 1:**
 
-    ```
+    ```py
     mycollection = mydatabase[‘myTable’]
     ```
 
     方法 2:
 
-    ```
+    ```py
     mycollection = mydatabase.myTable
     ```
 
     > MongoDB 以字典的形式存储数据库，如图所示:>
 
-    ```
+    ```py
     record = {
     title: 'MongoDB and Python', 
     description: 'MongoDB is no SQL database', 
@@ -107,19 +107,19 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
 5.  **Insert the data inside a collection :**
     Methods used:
 
-    ```
+    ```py
     insert_one() or insert_many()
     ```
 
     我们通常在集合中使用 insert_one()方法文档。比方说，我们希望将名为记录的数据输入到“我的数据库”的“我的表”中。
 
-    ```
+    ```py
     rec = myTable.insert_one(record)
     ```
 
     当需要实现时，整个代码看起来就像这样。
 
-    ```
+    ```py
     # importing module
     from pymongo import MongoClient
 
@@ -151,7 +151,7 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
     1.  find()
         find() is used to get more than one single document as a result of query.
 
-        ```
+        ```py
         for i in mydatabase.myTable.find({title: 'MongoDB and Python'})
             print(i)
         ```
@@ -161,7 +161,7 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
     2.  **count()**
         count() is used to get the numbers of documents with the name as passed int he parameters.
 
-        ```
+        ```py
         print(mydatabase.myTable.count({title: 'MongoDB and Python'}))
         ```
 
@@ -169,13 +169,13 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
 
         这两个查询函数可以相加，给出如下所示的最过滤的结果。
 
-        ```
+        ```py
         print(mydatabase.myTable.find({title: 'MongoDB and Python'}).count())
         ```
 
     3.  **要打印数据库“mydatabase”的“myTable”中的所有文档/条目:**使用以下代码:
 
-        ```
+        ```py
         from pymongo import MongoClient
 
         try:

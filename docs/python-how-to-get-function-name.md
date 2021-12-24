@@ -8,7 +8,7 @@
 
 通过使用一个简单的函数属性函数，func_name，人们可以获得函数的名称，因此在测试目的和文档方面非常方便。缺点是这仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate
 # way to get function name
 # using function.func_name
@@ -24,7 +24,7 @@ print("The name of function is : " + GFG.func_name)
 
 **Output :**
 
-```
+```py
 The name of function is : GFG
 
 ```
@@ -33,7 +33,7 @@ The name of function is : GFG
 
 该函数可用作上述函数的替代函数，并已在 Python3 中引入，因为上述方法中提到的函数已在 Python3 中折旧。
 
-```
+```py
 # Python code to demonstrate
 # way to get function name
 # using function.__name__
@@ -49,7 +49,7 @@ print("The name of function is : " + GFG.__name__)
 
 **Output :**
 
-```
+```py
 The name of function is : GFG
 
 ```

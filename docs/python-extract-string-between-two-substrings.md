@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working
 # of Extract string between 2 substrings
 # Using loop + index()
@@ -52,7 +52,7 @@ print("The extracted string : " + res)
 
 **输出:**
 
-```
+```py
 The original string is : Gfg is best for geeks and CS
 The extracted string : best for geeks 
 ```
@@ -63,7 +63,7 @@ The extracted string : best for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working 
 # of Extract string between 2 substrings
 # Using index() + string slicing
@@ -92,7 +92,7 @@ print("The extracted string : " + res)
 
 **输出:**
 
-```
+```py
 The original string is : Gfg is best for geeks and CS
 The extracted string : best for geeks 
 ```

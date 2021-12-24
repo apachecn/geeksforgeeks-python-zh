@@ -4,7 +4,7 @@
 
 在本文中，任务是用 Python 从 PDF 中提取图像。我们将从 PDF 文件中提取图像，并使用 PyMuPDF 库保存它们。首先，我们必须使用枕头安装 PyMuPDF 库。
 
-```
+```py
 pip install PyMuPDF Pillow
 ```
 
@@ -22,7 +22,7 @@ PyMuPDF 用于访问 PDF 文件。要从 PDF 文件中提取图像，我们需�
 
 ## 蟒蛇 3
 
-```
+```py
 # STEP 1
 # import libraries
 import fitz

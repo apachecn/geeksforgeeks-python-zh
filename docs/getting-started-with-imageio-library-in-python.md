@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install imageio
 ```
 
@@ -34,7 +34,7 @@ pip install imageio
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import imageio
 
@@ -47,7 +47,7 @@ print(image.shape) 
 
 **输出:**
 
-```
+```py
 (134, 151, 4)
 ```
 
@@ -73,7 +73,7 @@ print(image.shape) 
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import imageio
 
@@ -89,7 +89,7 @@ for i in image :
 
 **输出:**
 
-```
+```py
 (300, 354, 4)
 (300, 354, 4)
 (300, 354, 4)
@@ -122,7 +122,7 @@ for i in image :
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import imageio
 import numpy as np

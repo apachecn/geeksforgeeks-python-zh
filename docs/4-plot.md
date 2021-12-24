@@ -52,7 +52,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -82,7 +82,7 @@ ax[1,1].set_title('Normal Probability Plot')
 plt.show()
 ```
 
-```
+```py
         0
 0    9.206343
 1    9.299992

@@ -17,7 +17,7 @@
 **#方法 1**
 询问用户输入。
 
-```
+```py
 from selenium import webdriver
 
 # Taking input from user
@@ -39,7 +39,7 @@ for i in range(1):
 
 在 script.py 中保存上述脚本后，在命令提示符下以如下方式运行:
 
-```
+```py
 python script.py
 
 ```
@@ -48,7 +48,7 @@ python script.py
 
 在命令行中使用搜索字符串。
 
-```
+```py
 from selenium import webdriver
 import sys
 
@@ -80,6 +80,6 @@ for i in range(1):
 
 在 script.py 中保存上述脚本后，在命令提示符下以如下方式运行:
 
-```
+```py
 python script.py "geeksforgeeks"
 ```

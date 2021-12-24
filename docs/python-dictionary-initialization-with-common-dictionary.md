@@ -7,7 +7,7 @@
 **方法:使用`zip() + repeat()`**
 这些功能的组合可以用来执行这个特定的任务。在这种情况下，借助于 zip()使用 repeat()将字典值附加到重复的键上
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary initialization with common dictionary
 # Using zip() + repeat()
@@ -26,7 +26,7 @@ print("The dictionary with record values : " + str(res))
 
 **Output :**
 
-```
+```py
 The dictionary with record values : {0: {'gfg': 1, 'best': 3}, 1: {'gfg': 1, 'best': 3}, 2: {'gfg': 1, 'best': 3}, 3: {'gfg': 1, 'best': 3}}
 
 ```

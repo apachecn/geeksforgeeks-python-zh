@@ -50,13 +50,13 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
 ```
 The total length of value is: 11
-```
+```py
 
 **例:2**
 
@@ -99,7 +99,7 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
@@ -131,13 +131,13 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
 ```
 The total length of values is: 11
-```
+```py
 
 **方法#3** 使用词典理解
 
@@ -166,7 +166,7 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
@@ -212,14 +212,14 @@ def main():
 # Driver code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
 ```
 The total length of values is: 11
 
-```
+```py
 
 **例:2**
 
@@ -262,7 +262,7 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
@@ -310,13 +310,13 @@ def main():
 # Driver Code
 if __name__ == '__main__':
     main()
-```
+```py
 
 **输出:**
 
 ```
 The total length of value is: 11
-```
+```py
 
 **例:2**
 

@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`destroy_friendship()`** 方法被用来破坏认�
 **例 1 :** 利用网名破坏友谊。考虑以下账户:
 ![](img/e7cf1ad934584233b1453c35e4386fcb.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ api.destroy_friendship(screen_name)
 **例 2 :** 利用用户 id 破坏友谊。考虑以下账户:
 ![](img/8743affc0a5c89f3ea9b5558f1d3a9ea.png)
 
-```
+```py
 # user id of the account to be unfollowed
 user_id = 103770785
 
@@ -63,7 +63,7 @@ api.destroy_friendship(user_id)
 
 **输出:**
 
-```
+```py
 The user id 57741058 corresponds to the user with the name : GeeksforGeeks
 
 The screen name geeksforgeeks corresponds to the user with the name : GeeksforGeeks

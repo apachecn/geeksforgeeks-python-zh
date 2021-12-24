@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 nums = [1, 2, 3]
 a = (ctypes.c_double * len(nums))(*nums)
 print ("a : ", a)
@@ -24,7 +24,7 @@ print ("\na[2] : ", a[2])
 
 **输出:**
 
-```
+```py
 a : <__main__.c_double_Array_3 object at 0x10069cd40>
 
 a[0] : 1.0
@@ -39,7 +39,7 @@ a[2] : 3.0
 
 **代码#2 :**
 
-```
+```py
 import array
 arr = array.array('d', [1, 2, 3])
 print ("arr : ", arr)
@@ -52,7 +52,7 @@ print ("\n", ctypes.cast(ptr, ctypes.POINTER(ctypes.c_double)))
 
 **输出:**
 
-```
+```py
 arr : array('d', [1.0, 2.0, 3.0])
 
 ptr : 4298687200
@@ -65,7 +65,7 @@ ptr : 4298687200
 
 **代码#3 :**
 
-```
+```py
 # libraries
 import sample
 import array
@@ -82,7 +82,7 @@ print(\nAverage of numpy array : ", sample.avg(numpy.array([1.0, 2.0, 3.0])))
 
 **输出:**
 
-```
+```py
 Average of list : 2.0
 
 Average of tuple : 2.0 
@@ -97,7 +97,7 @@ Average of numpy array : 2.0
 
 **代码#4 :**
 
-```
+```py
 class Point(ctypes.Structure):
     _fields_ = [('x', ctypes.c_double),
                 ('y', ctypes.c_double)]
@@ -115,7 +115,7 @@ print ("\nDistance between pt1 and pt2 : ",
 
 **输出:**
 
-```
+```py
 pt1 x : 1.0
 
 pt1 y : 2.0

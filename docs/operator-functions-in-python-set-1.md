@@ -13,7 +13,7 @@ Python 在模块“运算符”下为许多数学、逻辑、关系、按位等�
 **3。mul(a，b)** :-该函数返回给定参数的**乘积**。
 操作–**a * b .**
 
-```
+```py
 # Python code to demonstrate working of 
 # add(), sub(), mul()
 
@@ -40,7 +40,7 @@ print (operator.mul(a, b))
 
 输出:
 
-```
+```py
 The addition of numbers is:7
 The difference of numbers is :1
 The product of numbers is:12
@@ -59,7 +59,7 @@ The product of numbers is:12
 **7。mod(a，b)** :-该函数返回给定参数的**模数**。
 操作–**a % b .**
 
-```
+```py
 # Python code to demonstrate working of 
 # truediv(), floordiv(), pow(), mod()
 
@@ -90,7 +90,7 @@ print (operator.mod(a,b))
 
 输出:
 
-```
+```py
 The true division of numbers is: 2.5
 The floor division of numbers is: 2
 The exponentiation of numbers is: 25
@@ -107,7 +107,7 @@ The modulus of numbers is: 1
 **10。等式(a，b)** :-该功能用于**检查 a 是否等于 b**。如果 a 等于 b，则返回 true，否则返回 false。
 操作–**a = = b**。
 
-```
+```py
 # Python code to demonstrate working of 
 # lt(), le() and eq()
 
@@ -137,7 +137,7 @@ else : print ("3 is not equal to 3")
 
 输出:
 
-```
+```py
 3 is not less than 3
 3 is less than or equal to 3
 3 is equal to 3
@@ -153,7 +153,7 @@ else : print ("3 is not equal to 3")
 **13。ne(a，b)** :-该功能用于**检查 a 是否不等于 b 或等于**。如果 a 不等于 b，则返回 true，否则返回 false。
 行动–**a！= b** 。
 
-```
+```py
 # Python code to demonstrate working of 
 # gt(), ge() and ne()
 
@@ -183,7 +183,7 @@ else : print ("4 is equal to 3")
 
 输出:
 
-```
+```py
 4 is greater than 3
 4 is greater than or equal to 3
 4 is not equal to 3

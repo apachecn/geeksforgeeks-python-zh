@@ -17,7 +17,7 @@
 
 因为第一类的属性作为第二类的对象工作，所以第二类的所有方法和属性都可以使用这个:
 
-```
+```py
 object_of_first_class.attribute_of_first_class
 
 ```
@@ -26,7 +26,7 @@ object_of_first_class.attribute_of_first_class
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to understand the 
 # accessing of objects within objects
 
@@ -73,7 +73,7 @@ obj2.second_method()
 
 **输出:**
 
-```
+```py
 <__main__.first object at 0x7fde6c57b828>
 <__main__.second object at 0x7fde6c57b898>
 GFG  

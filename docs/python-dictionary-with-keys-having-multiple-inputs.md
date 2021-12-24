@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate a dictionary
 # with multiple inputs in a key.
 import random as rn
@@ -36,7 +36,7 @@ print(dict)
 
 ## 蟒蛇 3
 
-```
+```py
 # dictionary containing longitude and latitude of places
 places = {("19.07'53.2", "72.54'51.0"):"Mumbai", \
           ("28.33'34.1", "77.06'16.6"):"Delhi"}

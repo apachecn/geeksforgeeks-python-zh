@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 这个问题可以通过使用列表理解来解决，该列表理解可以执行列求和逻辑，并且作为结果以及在垂直求和时使用 zip 函数来绑定元素。
 
-```
+```py
 # Python3 code to demonstrate
 # column summation of list of tuple
 # using list comprehension + zip()
@@ -30,7 +30,7 @@ print("The summation of columns of tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[(1, 4), (2, 3), (5, 2)], [(3, 7), (1, 9), (10, 5)]]
 The summation of columns of tuple list : [(4, 11), (3, 12), (15, 7)]
 

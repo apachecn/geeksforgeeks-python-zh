@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K length Concatenate Single Valued Tuple
 # Using zip() + list comprehension
@@ -34,7 +34,7 @@ print("Concatenated tuples : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(3, ), (6, ), (8, ), (2, ), (9, ), (4, )]
 Concatenated tuples : [(3, 6), (8, 2), (9, 4)]
 ```
@@ -44,7 +44,7 @@ Concatenated tuples : [(3, 6), (8, 2), (9, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K length Concatenate Single Valued Tuple
 # Using zip_longest() + chain.from_iterables()
@@ -70,7 +70,7 @@ print("Concatenated tuples : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(3, ), (6, ), (8, ), (2, ), (9, ), (4, )]
 Concatenated tuples : [(3, 6, 8), (2, 9, 4)]
 ```

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -34,7 +34,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Ship table created successfully
 ```
 
@@ -44,7 +44,7 @@ Ship table created successfully
 
 ## 蟒蛇 3
 
-```
+```py
 # import sqlite module database
 import sqlite3
 
@@ -90,7 +90,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import sqlite module database
 import sqlite3
 

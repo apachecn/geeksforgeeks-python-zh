@@ -10,14 +10,14 @@
 
 *   为精灵和移动平台的速度创建 2 个新变量。
 
-```
+```py
 self.moving_vel = 3
 self.moving_platform = None
 ```
 
 *   加载精灵并添加初始坐标。
 
-```
+```py
 self.moving_platform = arcade.Sprite("Moving.png",1)
 self.moving_platform.center_x = 500
 self.moving_platform.center_y = 500
@@ -25,13 +25,13 @@ self.moving_platform.center_y = 500
 
 *   更新平台的 y 坐标。
 
-```
+```py
 self.moving_platform.center_y -= self.moving_vel
 ```
 
 *   如果平台越过边界，改变平台的方向。
 
-```
+```py
 if self.moving_platform.center_y < 100 or self.moving_platform.center_y>600:
    self.moving_vel *= -1
 ```
@@ -53,7 +53,7 @@ if self.moving_platform.center_y < 100 or self.moving_platform.center_y>600:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

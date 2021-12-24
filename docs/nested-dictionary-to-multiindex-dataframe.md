@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import pandas as pd
 
@@ -44,7 +44,7 @@ reformed_dict
 
 ## 蟒蛇 3
 
-```
+```py
 multiIndex_df = pd.DataFrame(reformed_dict)
 multiIndex_df
 ```
@@ -59,7 +59,7 @@ multiIndex_df
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import pandas as pd
 

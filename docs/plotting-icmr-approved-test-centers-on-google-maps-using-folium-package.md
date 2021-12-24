@@ -10,14 +10,14 @@
 
 在使用 leaf 之前，您可能需要使用以下两种方法之一将其安装到系统上。
 
-```
+```py
 $ pip install folium
 
 ```
 
 或者
 
-```
+```py
 $ conda install -c conda-forge folium
 
 ```
@@ -28,7 +28,7 @@ $ conda install -c conda-forge folium
 
 #### **导入所需库**
 
-```
+```py
 import folium
 import pandas as pd
 
@@ -36,14 +36,14 @@ import pandas as pd
 
 #### **导入数据集**
 
-```
+```py
 df = pd.DataFrame(pd.read_csv(‘ICMRTestingLabsWithCoords.csv’))
 
 ```
 
 因为我只关注印度。我们把印度的坐标和缩放参数传递给叶。地图()。
 
-```
+```py
 phone_map = folium.Map(location = [20.5937, 78.9629], 
                             zoom_start=4.4)
 
@@ -53,7 +53,7 @@ phone_map = folium.Map(location = [20.5937, 78.9629],
 
 显示实验室的名称和类型，无论是私人实验室还是政府实验室。此外，为了传递标记的坐标，我们将为其编写 Python 代码。
 
-```
+```py
 locate = {}
 for i, j, k, l in zip(df['latitude'], 
                       df['longitude'], 
@@ -71,7 +71,7 @@ for i, j, k, l in zip(df['latitude'],
 
 我们将通过 4 列“纬度”、“经度”、“实验室”和“类型”运行 for 循环。首先，我们创建一个“临时”列表，其中保存了我们遍历所有实验室时特定实验室的纬度和经度。这个特定的纬度和经度列表然后被传递给字典定位。现在我们通过调用创建一个标记。“标记”从 leaf 传入 locate dictionary 到 location 和 popup，以字符串格式获取实验室名称和实验室类型。标记的类型是“叶图标记”。最后我们称之为。标记外的 add _ to’并传入 phone_map。现在我们的管脚已经准备好了，是时候显示绘制的管脚了。我们通过拨打 phone_map 来实现。
 
-```
+```py
 phone_map
 
 ```
@@ -80,7 +80,7 @@ phone_map
 
 ## 蟒蛇 3
 
-```
+```py
 import folium
 
 import pandas as pd

@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 csv.reader(file_name, delimiter="\t")
 ```
 
@@ -31,7 +31,7 @@ csv.reader(file_name, delimiter="\t")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import csv
 
@@ -65,7 +65,7 @@ txt_file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import csv
 

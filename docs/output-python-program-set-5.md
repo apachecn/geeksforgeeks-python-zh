@@ -6,7 +6,7 @@
 
 **程序 1:**
 
-```
+```py
 def gfgFunction():
     "Geeksforgeeks is cool website for boosting up technical skills"
     return 1
@@ -16,7 +16,7 @@ print (gfgFunction.__doc__[17:21])
 
 **输出:**
 
-```
+```py
 cool
 
 ```
@@ -27,7 +27,7 @@ cool
 
 **程序 2:**
 
-```
+```py
 class A(object):
     val = 1
 
@@ -46,7 +46,7 @@ print (A.val, B.val, C.val)
 
 **输出:**
 
-```
+```py
 1 1 1
 1 2 1
 3 2 3
@@ -61,7 +61,7 @@ print (A.val, B.val, C.val)
 
 **程序 3:**
 
-```
+```py
 check1 = ['Learn', 'Quiz', 'Practice', 'Contribute']
 check2 = check1
 check3 = check1[:]
@@ -81,7 +81,7 @@ print (count)
 
 **输出:**
 
-```
+```py
 12
 
 ```
@@ -94,7 +94,7 @@ print (count)
 
 **程序 4:**
 
-```
+```py
 def gfg(x,l=[]):
     for i in range(x):
         l.append(i*i)
@@ -107,7 +107,7 @@ gfg(3)
 
 **输出:**
 
-```
+```py
 [0, 1]
 [3, 2, 1, 0, 1, 4]
 [0, 1, 0, 1, 4]

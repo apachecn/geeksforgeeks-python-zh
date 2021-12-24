@@ -8,7 +8,7 @@
 
 我们将创建一个**单词级倒排索引**，也就是说它将返回单词所在的行的列表。我们还将创建一个字典，其中键值表示文件中存在的单词，字典的值将由包含它们所在的行号的列表来表示。要在木星笔记本中创建文件，使用魔法功能:
 
-```
+```py
 %%writefile file.txt
 This is the first word.
 This is the second text, Hello! How are you?
@@ -22,7 +22,7 @@ This is the third, this is it now.
 
 ## 蟒蛇 3
 
-```
+```py
 # this will open the file
 file = open('file.txt', encoding='utf8')
 read = file.read()
@@ -50,7 +50,7 @@ array
 
 **输出:**
 
-```
+```py
 Number of lines in file is: 3
 ['This is the first word.\n',
 'This is the second text, Hello! How are you?\n',
@@ -68,7 +68,7 @@ Number of lines in file is: 3
 
 ## 蟒蛇 3
 
-```
+```py
 punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
 for ele in read:  
     if ele in punc:  
@@ -83,7 +83,7 @@ read
 
 **输出:**
 
-```
+```py
 'this is the first word \n
 this is the second text hello how are you \n
 this is the third this is it now '
@@ -96,7 +96,7 @@ this is the third this is it now '
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.tokenize import word_tokenize
 import nltk
 from nltk.corpus import stopwords
@@ -115,7 +115,7 @@ print(tokens_without_sw)
 
 **输出:**
 
-```
+```py
 ['first', 'word', 'second', 'text', 'hello', 'third']
 
 ```
@@ -124,7 +124,7 @@ print(tokens_without_sw)
 
 ## 蟒蛇 3
 
-```
+```py
 dict = {}
 
 for i in range(line):
@@ -143,7 +143,7 @@ dict
 
 **输出:**
 
-```
+```py
 {'first': [1],
 'word': [1],
 'second': [2], 

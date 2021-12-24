@@ -7,7 +7,7 @@
 **方法:使用嵌套`defaultdict() + Counter()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用嵌套的 defaultdict 来跟踪元素，元素的计数由 Counter()完成。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Associated Values Frequencies in Dictionary
 # Using defaultdict() + Counter()

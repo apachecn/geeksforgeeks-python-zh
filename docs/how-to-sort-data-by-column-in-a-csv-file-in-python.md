@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pandasForSortingCSV
 
@@ -50,7 +50,7 @@ print(csvData)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pandasForSortingCSV
 
@@ -79,7 +79,7 @@ print(csvData)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pandasForSortingCSV
 
@@ -109,7 +109,7 @@ print(csvData)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pandasForSortingCSV
 
@@ -149,7 +149,7 @@ CSV 文件的另一种排序方式是通过在 CSV 模块对象上使用 [**(已
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules 
 import csv ,operator
 
@@ -172,7 +172,7 @@ display(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules 
 import csv ,operator
 

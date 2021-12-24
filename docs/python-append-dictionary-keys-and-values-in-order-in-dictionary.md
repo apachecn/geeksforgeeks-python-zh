@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Dictionary Keys and Values ( In order ) in dictionary
 # Using values() + keys() + list()
@@ -38,7 +38,7 @@ print("The ordered keys and values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 3, 'Best': 2}
 The ordered keys and values : ['Gfg', 'is', 'Best', 1, 3, 2]
 
@@ -50,7 +50,7 @@ The ordered keys and values : ['Gfg', 'is', 'Best', 1, 3, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Dictionary Keys and Values ( In order ) in dictionary
 # Using chain() + keys() + values()
@@ -71,7 +71,7 @@ print("The ordered keys and values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 3, 'Best': 2}
 The ordered keys and values : ['Gfg', 'is', 'Best', 1, 3, 2]
 

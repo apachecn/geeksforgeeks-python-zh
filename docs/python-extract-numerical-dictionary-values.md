@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `zip() + isdigit()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用 isdigit()和 zip 来检查数字字符串，以执行键的累积。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Numerical Dictionary values
 # Using loop + zip() + isdigit()
@@ -43,7 +43,7 @@ print("The Numerical values : " + str(res)) 
 **方法 2:使用列表理解+ `zip() + isdigit()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们执行与上述方法类似的任务，但使用列表理解作为速记。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Numerical Dictionary values
 # Using list comprehension + zip() + isdigit()

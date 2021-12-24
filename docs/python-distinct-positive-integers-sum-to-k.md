@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Distinct Positive Integers Sum to K
 # Using loop
@@ -50,7 +50,7 @@ print("The Required elements : " + str(res))
 
 **Output**
 
-```
+```py
 The value of K : 19
 The Required elements : [1, 2, 3, 4, 9]
 
@@ -62,7 +62,7 @@ The Required elements : [1, 2, 3, 4, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Distinct Positive Integers Sum to K
 # Using combinations() + sum()
@@ -94,7 +94,7 @@ print("The Required elements : " + str(res))
 
 **Output**
 
-```
+```py
 The value of K : 19
 The Required elements : [1, 2, 3, 4, 9]
 

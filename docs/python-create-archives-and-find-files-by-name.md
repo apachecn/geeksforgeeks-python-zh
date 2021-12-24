@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 import shutil
 shutil.unpack_archive('Python-3.3.0.tgz')
 shutil.make_archive('py33', 'zip', 'Python-3.3.0')
@@ -16,7 +16,7 @@ shutil.make_archive('py33', 'zip', 'Python-3.3.0')
 
 **输出:**
 
-```
+```py
 '/Users/Dell/Downloads/py33.zip'
 ```
 
@@ -24,13 +24,13 @@ shutil.make_archive('py33', 'zip', 'Python-3.3.0')
 
 **代码#2 :**
 
-```
+```py
 shutil.get_archive_formats()
 ```
 
 **输出:**
 
-```
+```py
 [('bztar', "bzip2'ed tar-file"), 
  ('gztar', "gzip'ed tar-file"), 
  ('tar', 'uncompressed tar file'), 
@@ -46,7 +46,7 @@ Python 还有其他库模块，用于处理各种归档格式的低级细节(例
 
 **代码#3:查找特定文件名并打印出所有匹配项的完整路径的函数。**
 
-```
+```py
 import os
 
 def findfile(start, name):
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 将此脚本保存为`abc.py`并从命令行运行它，将起点和名称作为位置参数输入如下–
 
-```
+```py
 bash % ./abc.py .myfile.txt
 ```
 
@@ -78,7 +78,7 @@ bash % ./abc.py .myfile.txt
 
 **代码#4:打印出所有最近修改时间的文件的功能**
 
-```
+```py
 import os
 import time
 

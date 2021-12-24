@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType
 from pyspark.sql import SparkSession
 import findspark
@@ -74,7 +74,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType
 from pyspark.sql import SparkSession
 import findspark
@@ -122,7 +122,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType
 from pyspark.sql import SparkSession
 import findspark

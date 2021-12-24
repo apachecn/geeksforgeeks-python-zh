@@ -9,13 +9,13 @@ Python 中获取当前时间戳有不同的方式，我们可以使用模块*时
 **1。使用模块时间:**
 *时间*模块提供各种与时间相关的功能。函数 time 以浮点数形式返回自纪元以来的时间(以秒为单位)。epoch 被定义为时间开始的点，并且依赖于平台。
 
-```
+```py
 Syntax: time.time()
 Parameters: NA
 Return: floating point number expressed in seconds.
 ```
 
-```
+```py
 # using time module
 import time
 
@@ -28,7 +28,7 @@ print(ts)
 
 **输出:**
 
-```
+```py
 1594819641.9622827
 ```
 
@@ -36,13 +36,13 @@ print(ts)
 *日期时间*模块提供用于操作日期和时间的类。
 虽然支持日期和时间算法，但实现的目标是高效的属性提取，用于输出格式化和操作。函数 datetime.datetime.now 返回自纪元以来的秒数。
 
-```
+```py
 Syntax: datetime.now()
 Parameters: tz (time zone) which is optional.
 Return: the current local date and time.
 ```
 
-```
+```py
 # using datetime module
 import datetime;
 
@@ -57,7 +57,7 @@ print("timestamp:-", ts)
 
 **输出:**
 
-```
+```py
 current time:- 2020-07-15 14:30:26.159446
 timestamp:- 1594823426.159446
 ```
@@ -65,13 +65,13 @@ timestamp:- 1594823426.159446
 **3。使用模块日历:**
 我们还可以通过组合多个模块的多个功能来获取时间戳。在本文中，我们将使用函数 calendar.timegm 来转换表示当前时间的元组。
 
-```
+```py
 Syntax: calendar.timegm(tuple)
 Parameters: takes a time tuple such as returned by the gmtime() function in the time module.
 Return: the corresponding Unix timestamp value.
 ```
 
-```
+```py
 # using calendar module
 # using time module
 import calendar;

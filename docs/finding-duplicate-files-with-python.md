@@ -8,7 +8,7 @@
 
 python 模块 filecmp 提供了比较目录和文件的功能。cmp 函数比较文件，如果它们看起来相同，则返回真，否则返回假。
 
-```
+```py
 Syntax: filecmp.cmp(f1, f2, shallow)
 ```
 
@@ -28,7 +28,7 @@ Syntax: filecmp.cmp(f1, f2, shallow)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import os
 from pathlib import Path
@@ -77,7 +77,7 @@ print(duplicateFiles)
 *   我们必须导入 os、sys、hashlib 库。
 *   然后脚本遍历这些文件，并调用 FindDuplicate()函数来查找重复的文件。
 
-```
+```py
 Syntax: FindDuplicate(Path)
 Parameter: 
 Path: Path to folder having files
@@ -87,7 +87,7 @@ Return Type: Dictionary
 *   函数 FindDuplicate()获取文件路径，并调用 Hash_File()函数
 *   然后使用 Hash_File()函数返回该文件的 HEXdigest。欲了解更多关于 HEXdigest [的信息，请阅读此处](https://www.geeksforgeeks.org/md5-hash-python/)。
 
-```
+```py
 Syntax: Hash_File(path)
 Parameters: 
 path: Path of file
@@ -97,7 +97,7 @@ Return Type: HEXdigest of file
 *   然后，这个 MD5 哈希作为关键字附加到字典中，文件路径作为它的值。之后，FindDuplicate()函数返回一个字典，其中的键有多个值，即重复的文件。
 *   现在调用 Join_Dictionary()函数，该函数连接由 FindDuplicate()返回的字典和一个空字典。
 
-```
+```py
 Syntax: Join_Dictionary(dict1,dict2)
 Parameters: 
 dict1, dict2: Two different dictionaries
@@ -112,7 +112,7 @@ Return Type: Dictionary
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import os
 import sys

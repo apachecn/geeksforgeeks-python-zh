@@ -19,7 +19,7 @@
 
 考虑下面的程序来理解比赛状态的概念:
 
-```
+```py
 import threading
 
 # global variable x
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Iteration 0: x = 175005
 Iteration 1: x = 200000
 Iteration 2: x = 200000
@@ -112,7 +112,7 @@ Iteration 9: x = 153589
 
 考虑下面给出的例子:
 
-```
+```py
 import threading
 
 # global variable x
@@ -163,7 +163,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Iteration 0: x = 200000
 Iteration 1: x = 200000
 Iteration 2: x = 200000
@@ -181,7 +181,7 @@ Iteration 9: x = 200000
 
 *   首先，使用
 
-    ```
+    ```py
       lock = threading.Lock()
 
     ```
@@ -189,7 +189,7 @@ Iteration 9: x = 200000
     创建一个**锁定**对象
 *   然后，**锁定**作为目标函数参数传递:
 
-    ```
+    ```py
       t1 = threading.Thread(target=thread_task, args=(lock,))
       t2 = threading.Thread(target=thread_task, args=(lock,))
 
@@ -197,7 +197,7 @@ Iteration 9: x = 200000
 
 *   In the critical section of target function, we apply lock using **lock.acquire()** method. As soon as a lock is acquired, no other thread can access the critical section (here, **increment** function) until the lock is released using **lock.release()** method.
 
-    ```
+    ```py
       lock.acquire()
       increment()
       lock.release()

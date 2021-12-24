@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Value Product Sum
 # Using loop + enumerate()
@@ -43,7 +43,7 @@ print("The computed sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 3, 4, 9, 1, 2]
 The computed sum : 76
 ```
@@ -54,7 +54,7 @@ The computed sum : 76
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Value Product Sum
 # Using loop + enumerate()
@@ -74,7 +74,7 @@ print("The computed sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 3, 4, 9, 1, 2]
 The computed sum : 76
 ```

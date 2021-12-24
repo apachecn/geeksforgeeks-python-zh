@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst1 = [10, 20, 30, 40, 50]
         lst2 = [0, 2, 4]
 Output : [10, 30, 50]
@@ -25,7 +25,7 @@ Output : ['geeks', 'for', 'geeks']
 
 找到所需元素的第一种方法是使用列表理解。我们遍历“lst2”，对于每个 i <sup>第</sup>个元素，我们输出 lst1[i]。
 
-```
+```py
 # Python3 program to Find elements of a 
 # list by indices present in another list
 
@@ -40,7 +40,7 @@ print(findElements(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [10, 30, 50]
 
 ```
@@ -49,7 +49,7 @@ print(findElements(lst1, lst2))
 
 我们也可以使用 Python `map()`方法，在 *lst2* 上应用`lst1.__getitem__` 函数，该函数为 lst2 的每个元素“I”返回 `lst1[i]` 。
 
-```
+```py
 # Python3 program to Find elements of a 
 # list by indices present in another list
 
@@ -64,14 +64,14 @@ print(findElements(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [10, 30, 50]
 
 ```
 
 **使用`itemgetter()`接近#3 :**
 
-```
+```py
 # Python3 program to Find elements of a 
 # list by indices present in another list
 from operator import itemgetter 
@@ -87,14 +87,14 @@ print(findElements(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [10, 30, 50]
 
 ```
 
 **使用`numpy`接近#4 :**
 
-```
+```py
 # Python3 program to Find elements of a 
 # list by indices present in another list
 import numpy as np 
@@ -110,7 +110,7 @@ print(findElements(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [10, 30, 50]
 
 ```

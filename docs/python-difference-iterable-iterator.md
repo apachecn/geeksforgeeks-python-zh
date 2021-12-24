@@ -8,7 +8,7 @@
 
 **代码#1** :
 
-```
+```py
 for city in ["Berlin", "Vienna", "Zurich"]:
     print(city)
 
@@ -25,7 +25,7 @@ for char in "Iteration is easy":
 
 输出:
 
-```
+```py
 Berlin
 Vienna
 Zurich
@@ -43,7 +43,7 @@ I t e r a t i o n   i s   e a s y
 
 **代码#2 :** 如果对象“obj”是可迭代的，函数“iterable”将返回真，否则返回假。
 
-```
+```py
 # list of cities
 cities = ["Berlin", "Vienna", "Zurich"]
 
@@ -57,7 +57,7 @@ print(next(iterator_obj))
 
 输出:
 
-```
+```py
 Berlin
 Vienna
 Zurich
@@ -68,7 +68,7 @@ Zurich
 
 **代码#3 :** 检查对象是否可重复
 
-```
+```py
 # Function to check object
 # is iterable or not 
 def iterable(obj):
@@ -88,7 +88,7 @@ for element in [34, [4, 5], (4, 5),
 
 输出:
 
-```
+```py
 34  is iterable :  False
 [4, 5]  is iterable :  True
 (4, 5)  is iterable :  True

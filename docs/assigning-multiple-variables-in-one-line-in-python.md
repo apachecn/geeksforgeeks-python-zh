@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```py
 var_name = value
 ```
 
 **示例:**
 
-```
+```py
 a = 4
 ```
 
@@ -28,7 +28,7 @@ a = 4
 
 ## 蟒蛇 3
 
-```
+```py
 a, b = 4, 8
 print("value assigned to a")
 print(a)
@@ -38,7 +38,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 value assigned to a
 4
 value assigned to b
@@ -51,7 +51,7 @@ value assigned to b
 
 ## 蟒蛇 3
 
-```
+```py
 print("assigning values of different datatypes")
 a, b, c, d = 4, "geeks", 3.14, True
 print(a)
@@ -62,7 +62,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 assigning values of different datatypes
 4
 geeks
@@ -76,7 +76,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 a, b = 8, 3
 add, pro = (a+b), (a*b)
 print(add)
@@ -85,7 +85,7 @@ print(pro)
 
 **输出:**
 
-```
+```py
 11
 24
 ```
@@ -94,7 +94,7 @@ print(pro)
 
 ## 蟒蛇 3
 
-```
+```py
 string = "Geeks"
 a, b, c = string[0], string[1:4], string[4]
 
@@ -105,7 +105,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 G
 eek
 s

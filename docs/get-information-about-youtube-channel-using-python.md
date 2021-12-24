@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from googleapiclient.discovery import build
 
@@ -74,7 +74,7 @@ print("Total Views:- ", views)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from googleapiclient.discovery import build
 
@@ -131,7 +131,7 @@ playlist_video_links('Enter Playlist ID')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from googleapiclient.discovery import build
 

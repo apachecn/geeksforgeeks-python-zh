@@ -8,7 +8,7 @@
 
 pywhatkit 是一个 python 模块，用于在某个时间发送 Whatsapp 消息。要安装 pywhatkit 模块，请在集成开发环境/编译器中键入以下命令:
 
-```
+```py
 pip install pywhatkit
 ```
 
@@ -29,7 +29,7 @@ pip install pywhatkit
 
 ## 计算机编程语言
 
-```
+```py
 import pywhatkit
 
 pywhatkit.sendwhatmsg("+919xxxxxxxxx",

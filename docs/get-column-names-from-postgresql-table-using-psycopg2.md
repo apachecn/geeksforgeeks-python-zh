@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -42,7 +42,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 product_no
 name
 price
@@ -54,7 +54,7 @@ price
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -82,7 +82,7 @@ for i in column_names:
 
 **输出:**
 
-```
+```py
 Column names:
 
 product_no

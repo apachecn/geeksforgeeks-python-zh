@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing above defined libraries to
 # implement the functionalities
 from PIL import ImageGrab, ImageOps

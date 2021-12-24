@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : string = ['city1', 'class5', 'room2', 'city2']
         substr = ['class', 'city']
 Output : ['city1', 'class5', 'city2']
@@ -21,7 +21,7 @@ Output : ['xyCoord', '123abc']
 
 我们可以在运算符中使用列表理解和*来检查“substr”中的字符串是否包含在“string”中。*
 
-```
+```py
 # Python3 program to Filter list of 
 # strings based on another list
 import re
@@ -38,14 +38,14 @@ print(Filter(string, substr))
 
 **Output:**
 
-```
+```py
 ['city1', 'class5', 'city2']
 
 ```
 
 **方法 2 :** Python 正则表达式
 
-```
+```py
 # Python3 program to Filter list of 
 # strings based on another list
 import re
@@ -62,7 +62,7 @@ print(Filter(string, substr))
 
 **Output:**
 
-```
+```py
 ['city1', 'class5', 'city2']
 
 ```

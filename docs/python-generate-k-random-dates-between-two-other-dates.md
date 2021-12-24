@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random K dates in Range
 # Using choices() + timedelta() + loop
@@ -64,7 +64,7 @@ print("K random dates in range : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random K dates in Range
 # Using randrange() + timedelta() + loop

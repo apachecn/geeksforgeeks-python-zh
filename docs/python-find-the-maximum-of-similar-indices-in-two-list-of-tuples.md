@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 上述功能的组合可用于执行该特定任务。在本文中，我们使用列表理解来遍历列表，并在 zip()的帮助下实现跨列表的最大化。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of Tuple List Similar Indices
 # using list comprehension + zip()
@@ -31,7 +31,7 @@ print("The Maximum across lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [(2, 4), (6, 7), (5, 1)]
 The original list 2 : [(5, 4), (8, 10), (8, 14)]
 The Maximum across lists is : [(5, 4), (8, 10), (8, 14)]

@@ -11,7 +11,7 @@ Python 是一种高级解释编程语言，语法简单。 [Python](https://www.
 [生成器](https://www.geeksforgeeks.org/generators-in-python/)函数允许我们声明一个行为与迭代器相同的函数，即它可以用来代替 for 循环。生成器是迭代器，但是它们只能迭代一次。生成器引入了 Python 中的 [yield](https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/) 语句，这个语句有点像 return，因为它返回值。生成器将创建元素，并仅在需要时将它们存储在内存中，即一次一个。这意味着，如果你必须创建大量的浮点数，你只能一次一个地将它们存储在内存中！。这大大简化了代码，使代码比简单的 for 循环更有效。
 **例 1:-**
 
-```
+```py
 # A simple generator function
 def my_func():
     n = 1
@@ -34,7 +34,7 @@ for number in my_func():
 
 **输出:**
 
-```
+```py
 First Number
 1
 Second Number 
@@ -46,7 +46,7 @@ Last Number
 
  **例 2:-** 
 
-```
+```py
 def str(my_str):
     length = len(my_str)
     for i in range(0, length ):
@@ -60,7 +60,7 @@ for char in str("Shivam And Sachin"):
 
 **输出:**
 
-```
+```py
 Shivam And Sachin
 
 ```
@@ -73,7 +73,7 @@ Shivam And Sachin
 
  **例 1:-** 
 
-```
+```py
 def decorator(a_func):
 
     def wrapper():
@@ -97,7 +97,7 @@ function()
 
 **输出:**
 
-```
+```py
 Function requiring decoration.
 Before executing function requiring decoration.
 Function requiring decoration.
@@ -107,7 +107,7 @@ After executing requiring decoration.
 
  **例 2:-** 
 
-```
+```py
 def flowerDecorator(func):
     def newFlowerPot(n):
         print("We are decorating the flower vase.")
@@ -128,7 +128,7 @@ flowerPot(5)
 
 **输出:**
 
-```
+```py
 We are decorating the flower vase.
 You wanted to keep 5 flowers in the vase.
 We have a flower vase.
@@ -144,28 +144,28 @@ Our decoration is done.
 
 **示例:-3 个数字相乘的代码。**
 
-```
+```py
 x = lambda a, b, c : a * b*c
 print(x(5, 4, 3))
 ```
 
 **输出:**
 
-```
+```py
 60
 
 ```
 
 **例:-加 3 个数的代码。**
 
-```
+```py
 x = lambda a, b, c : a + b+c
 print(x(12, 40, 8))
 ```
 
 **输出:**
 
-```
+```py
 60
 
 ```
@@ -179,7 +179,7 @@ print(x(12, 40, 8))
  **示例:-将字符串转换为其长度的代码。
 T3】**
 
-```
+```py
 def func(n):
     return len(n)
 
@@ -194,7 +194,7 @@ print(list(x))
 
 **输出:**
 
-```
+```py
 ('Singla', 'Shivam', 'Sachin')
 [6, 6, 6]
 
@@ -203,7 +203,7 @@ print(list(x))
  **示例:-将数字映射到其立方体的代码。
 T3】**
 
-```
+```py
 numbers = (1, 2, 3, 4)
 res = map(lambda x: x * x*x, numbers)
 
@@ -214,7 +214,7 @@ print(numbersCube)
 
 **输出:**
 
-```
+```py
 [1, 8, 27, 64]
 
 ```
@@ -227,7 +227,7 @@ print(numbersCube)
 
  **例 1:-** 
 
-```
+```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
           11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
@@ -247,14 +247,14 @@ print(filters)
 
 **输出:**
 
-```
+```py
 [4, 8, 12, 16, 20]
 
 ```
 
  **例 2:-** 
 
-```
+```py
 # To sort all ages which 
 # are above 20 years
 ages = [35, 21, 17, 18, 24,
@@ -274,7 +274,7 @@ for z in adults:
 
 **输出:**
 
-```
+```py
 35
 21
 24
@@ -293,7 +293,7 @@ for z in adults:
 
 **实施例 1:-**
 
-```
+```py
 # ZIPPING 
 a = ("SHIVAM", "SACHIN", "VIKALP", "RAGHAV", "PRANAY")
 b = ("SINGLA", "SINGLA", "GARG", "GUPTA", "GUPTA")
@@ -311,7 +311,7 @@ print(tuple(x))
 
 **实施例 2:-**
 
-```
+```py
 # ZIPPING AND UNZIPPING
 name = ['sachin', 'shivam', 'vikalp']
 age = [20, 18, 19]
@@ -328,7 +328,7 @@ print('age =', a)
 
 **输出:**
 
-```
+```py
 [('sachin', 20), ('shivam', 18), ('vikalp', 19)]
 name = ('sachin', 'shivam', 'vikalp')
 age = (20, 18, 19)

@@ -5,7 +5,7 @@
 两个列表的交集意味着我们需要获取两个初始列表共有的所有元素，并将它们存储到另一个列表中。现在在 Python 中有各种各样的方法，通过它们我们可以执行列表的交集。
 示例:
 
-```
+```py
 Input : 
 lst1 = [15, 9, 10, 56, 23, 78, 5, 4, 9]
 lst2 = [9, 4, 5, 36, 47, 26, 10, 45, 87]
@@ -24,7 +24,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the intersection
 # of two lists in most simple way
 def intersection(lst1, lst2):
@@ -39,7 +39,7 @@ print(intersection(lst1, lst2))
 
 输出:
 
-```
+```py
 [9, 11, 26, 28]
 ```
 
@@ -48,7 +48,7 @@ print(intersection(lst1, lst2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the intersection
 # of two lists using set() method
 def intersection(lst1, lst2):
@@ -62,7 +62,7 @@ print(intersection(lst1, lst2))
 
 输出:
 
-```
+```py
 [9, 10, 4, 5]
 ```
 
@@ -71,7 +71,7 @@ print(intersection(lst1, lst2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the intersection
 # of two lists using set() and intersection()
 def Intersection(lst1, lst2):
@@ -85,7 +85,7 @@ print(Intersection(lst1, lst2))
 
 输出:
 
-```
+```py
 {9, 11}
 ```
 
@@ -94,7 +94,7 @@ print(Intersection(lst1, lst2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the intersection
 # of two lists
 def intersection(lst1, lst2):
@@ -112,7 +112,7 @@ print(intersection(lst1, lst2))
 
 输出:
 
-```
+```py
 [9, 9, 11]
 ```
 
@@ -121,7 +121,7 @@ print(intersection(lst1, lst2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the intersection
 # of two lists, sublists and use of filter()
 def intersection(lst1, lst2):
@@ -137,6 +137,6 @@ print(intersection(lst1, lst2))
 **工作:**过滤器部分获取每个子列表的项目，并检查它是否在源列表中。对列表 2 中的每个子列表执行列表理解。
 产量:
 
-```
+```py
 [[13, 32], [7, 13, 28], [1, 6]]
 ```

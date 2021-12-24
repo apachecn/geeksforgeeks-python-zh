@@ -10,7 +10,7 @@
 
 Python 提供了一个内置的`json`库来处理 JSON 对象。您只需要在 Python 程序中使用下面的行导入 JSON 模块，并开始使用它的功能。
 
-```
+```py
 import json
 ```
 
@@ -25,7 +25,7 @@ import json
 
 **示例:**
 
-```
+```py
 import json
 
 # A basic python dictionary
@@ -45,7 +45,7 @@ print(type(py_obj))
 
 **输出:**
 
-```
+```py
 {"c": 0, "b": 0, "a": 0}
 <class 'str'>
 
@@ -61,7 +61,7 @@ print(type(py_obj))
 
 **示例:**
 
-```
+```py
 import json
 
 class Student:
@@ -116,7 +116,7 @@ print(type(student))
 
 **示例:**
 
-```
+```py
 import json
 from json import JSONEncoder
 
@@ -172,7 +172,7 @@ print(type(student))
 
 对于**自定义解码**，如果我们想将 JSON 转换成其他 Python 对象(即不是默认字典)，有一个非常简单的方法，那就是使用**加载**方法的 **object_hook** 参数。我们需要做的就是定义一个方法，该方法将定义我们希望如何处理数据，然后将该方法作为 object_hook 参数发送给 loads 方法，请参见给定代码中的。此外，加载的返回类型将不再是 Python 字典。无论我们将作为 object_hook 传入的方法的返回类型是什么，它也将成为 loads 方法的返回类型。这意味着在下面的例子中，复数将是返回类型。
 
-```
+```py
 import json
 
 def as_complex(dct):
@@ -190,7 +190,7 @@ print(type(res))
 
 **输出:**
 
-```
+```py
 (1+2j)
 <class 'complex'>
 ```

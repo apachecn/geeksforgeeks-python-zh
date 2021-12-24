@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是蛮力的方式解决这个问题。在这种情况下，我们通过在顺序列表中添加关键字，并与原始字典中的关键字进行映射来构建新字典。与 Python 配合使用> = 3.6。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom order dictionary
 # Using loop
@@ -45,7 +45,7 @@ print("Ordered dictionary is : " + str(res)) 
 **方法 2:使用字典理解**
 这是执行这项任务的另一种方式。在这种情况下，我们使用速记来使用上述相同的方法解决问题。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom order dictionary
 # Using dictionary comprehension

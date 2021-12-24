@@ -22,7 +22,7 @@ Tweepy 模块中`API`类的 **`followers_ids()`** 方法用于获取用户所有
 
 **例 1 :** 使用`followers_ids()`方法，屏幕名称。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,14 +52,14 @@ print(screen_name + " has " + str(len(followers)) + " followers.")
 
 **输出:**
 
-```
+```py
 CoursesGfG has 198 followers.
 
 ```
 
 **示例 2 :** 使用带用户标识的`followers_ids()`方法。
 
-```
+```py
 # user ID of the user
 user_id = 1037141442
 
@@ -71,7 +71,7 @@ print(api.get_user(user_id).screen_name + " has " + str(len(followers)) + " foll
 
 **输出:**
 
-```
+```py
 GeeksQuiz has 3449 followers.
 
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency of elements from other list
 # Using dictionary comprehension + count()
@@ -42,7 +42,7 @@ print("Lists elements Frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 6, 8, 9, 10]
 The original list 2 : [4, 6, 6, 5, 8, 10, 4, 9, 8, 10, 1]
 Lists elements Frequency : {4: 2, 6: 2, 8: 2, 9: 1, 10: 2}
@@ -55,7 +55,7 @@ Lists elements Frequency : {4: 2, 6: 2, 8: 2, 9: 1, 10: 2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency of elements from other list
 # Using Counter() + setdefault() + loop
@@ -86,7 +86,7 @@ print("Lists elements Frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 6, 8, 9, 10]
 The original list 2 : [4, 6, 6, 5, 8, 10, 4, 9, 8, 10, 1]
 Lists elements Frequency : {4: 2, 6: 2, 8: 2, 10: 2, 9: 1}

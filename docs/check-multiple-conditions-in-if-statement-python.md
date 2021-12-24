@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 if (condition):
     code1
 else:
@@ -14,7 +14,7 @@ else:
 
 ```
 
-```
+```py
 [on_true] if [expression] else [on_false]
 ```
 
@@ -26,7 +26,7 @@ else:
 
 **语法:**
 
-```
+```py
 if (cond1 AND/OR COND2) AND/OR (cond3 AND/OR cond4):
     code1
 else:
@@ -40,7 +40,7 @@ else:
 以下示例将有助于更好地理解这一点:
 **计划 1:** 计划只允许 8-12 岁的孩子进入
 
-```
+```py
 age = 18
 
 if ((age>= 8) and (age<= 12)):
@@ -51,18 +51,18 @@ else:
 
 **输出:**
 
-```
+```py
 SORRY ! YOU ARE NOT ALLOWED. BYE !
 
 ```
 
-```
+```py
 PROGRAM 2:
 ```
 
 检查用户同意条款的程序
 
-```
+```py
 var = 'N'
 
 if (var =='Y' or var =='y'):
@@ -75,14 +75,14 @@ else:
 
 **输出:**
 
-```
+```py
 YOU SAID NO
 
 ```
 
 **程序 3:** 比较输入的三个数字的程序
 
-```
+```py
 a = 7
 b = 9
 c = 3
@@ -99,14 +99,14 @@ else:
 
 **输出:**
 
-```
+```py
 9  is the largest
 ```
 
 不仅仅是两个条件，我们可以通过使用‘and’和‘or’来检查更多的条件。
 **节目 4:**
 
-```
+```py
 a = 1
 b = 1
 c = 1
@@ -118,6 +118,6 @@ else:
 
 **输出:**
 
-```
+```py
 working
 ```

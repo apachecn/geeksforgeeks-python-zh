@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以被视为执行该特定操作的简写。在列表理解中，我们可以用 K 初始化内部列表，然后使用列表理解将这个逻辑再次扩展到每一行。
 
-```
+```py
 # Python3 code to demonstrate 
 # K Matrix Initialization 
 # using list comprehension
@@ -31,7 +31,7 @@ print("The matrix after initializing with K : " + str(res))
 
 **Output :**
 
-```
+```py
 The matrix after initializing with K : [[7, 7, 7, 7, 7], [7, 7, 7, 7, 7], [7, 7, 7, 7, 7], [7, 7, 7, 7, 7]]
 
 ```

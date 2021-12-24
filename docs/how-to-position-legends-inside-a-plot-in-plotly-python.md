@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import plotly.graph_objects as go
 
@@ -56,7 +56,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import plotly.graph_objects as go
 
@@ -103,7 +103,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure()

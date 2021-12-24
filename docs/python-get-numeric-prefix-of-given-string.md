@@ -7,7 +7,7 @@
 **方法#1:使用`re.findall()`**
 正则表达式可以用来执行这个特定的任务。在这种情况下，我们使用 findall 函数来获取数字的所有出现，然后返回初始出现。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get numeric prefix of string 
 # Using re.findall()
@@ -29,7 +29,7 @@ print("The prefix number at string : " + str(res[0]))
 
 **Output :**
 
-```
+```py
 The original string is : 1234Geeks
 The prefix number at string : 1234
 

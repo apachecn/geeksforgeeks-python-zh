@@ -8,7 +8,7 @@
 
 安装 pygame 的最好方法是使用 pip 工具，我们可以使用以下命令安装 pygame:
 
-```
+```py
 pip install pygame
 ```
 
@@ -16,7 +16,7 @@ pip install pygame
 
 要导入 pygame 库，请确保您已经安装了 pygame。使用下面给出的命令，打开您要使用的终端或集成开发环境，并导入此库以检查 pygame 是否已安装:
 
-```
+```py
 import pygame 
 ```
 
@@ -28,7 +28,7 @@ import pygame
 
 在我们使用 pygame 做很多事情之前，我们首先需要初始化它。只需调用下面给出的方法来初始化它。
 
-```
+```py
 pygame.init()
 ```
 

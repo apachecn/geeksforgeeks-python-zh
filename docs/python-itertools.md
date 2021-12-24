@@ -7,7 +7,7 @@ Python 的 Itertool 是一个模块，它提供了各种在迭代器上工作的
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # iterator module
 
@@ -50,7 +50,7 @@ print("\nTime taken by for loop: %.6f" %(t2 - t1))
 
 **输出:**
 
-```
+```py
 Result: 2 6 12
 Time taken by map function: 0.000005
 Result: 2 6 12 
@@ -76,7 +76,7 @@ Python 提供三种类型的无限迭代器:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # infinite iterators
 
@@ -92,7 +92,7 @@ for i in itertools.count(5, 5):
 
 **输出:**
 
-```
+```py
 5 10 15 20 25 30
 ```
 
@@ -101,7 +101,7 @@ for i in itertools.count(5, 5):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # infinite iterators
 
@@ -120,7 +120,7 @@ for i in itertools.cycle('AB'):
 
 **输出:**
 
-```
+```py
 A B A B A B A B 
 ```
 
@@ -128,7 +128,7 @@ A B A B A B A B
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # infinite iterators
 
@@ -149,7 +149,7 @@ for i in range(6):
 组合迭代器
 T1】输出:
 
-```
+```py
 Geeks for Geeks Geeks for Geeks 
 ```
 
@@ -158,7 +158,7 @@ Geeks for Geeks Geeks for Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of  
 # repeat() 
 
@@ -172,7 +172,7 @@ print (list(itertools.repeat(25, 4)))
 
 **输出:**
 
-```
+```py
 Printing the numbers repeatedly : 
 [25, 25, 25, 25]
 ```
@@ -187,7 +187,7 @@ Python 中有 4 个组合迭代器:
 
 ## 蟒蛇 3
 
-```
+```py
 # import the product function from itertools module
 from itertools import product
 
@@ -205,7 +205,7 @@ print(list(product('AB', [3, 4])))
 
 **输出:**
 
-```
+```py
 The cartesian product using repeat:
 [(1, 1), (1, 2), (2, 1), (2, 2)]
 
@@ -221,7 +221,7 @@ The cartesian product of the containers:
 
 ## 蟒蛇 3
 
-```
+```py
 # import the product function from itertools module
 from itertools import permutations
 
@@ -239,7 +239,7 @@ print(list(permutations(range(3), 2)))
 
 **输出:**
 
-```
+```py
 All the permutations of the given list is:
 [(1, 'geeks'), ('geeks', 1)]
 
@@ -255,7 +255,7 @@ All the permutations of the given container is:
 
 ## 蟒蛇 3
 
-```
+```py
 # import combinations from itertools module
 
 from itertools import combinations
@@ -274,7 +274,7 @@ print(list(combinations(range(2), 1)))
 
 **输出:**
 
-```
+```py
 All the combination of list in sorted order(without replacement) is:
 [('A', 2)]
 
@@ -290,7 +290,7 @@ All the combination of list in sorted order(without replacement) is:
 
 ## 蟒蛇 3
 
-```
+```py
 # import combinations from itertools module
 
 from itertools import combinations_with_replacement
@@ -309,7 +309,7 @@ print(list(combinations_with_replacement(range(2), 1)))
 
 **输出:**
 
-```
+```py
 All the combination of string in sorted order(with replacement) is:
 [('A', 'A'), ('A', 'B'), ('B', 'B')]
 
@@ -331,7 +331,7 @@ All the combination of container in sorted order(with replacement) is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # accumulate()
 
@@ -364,7 +364,7 @@ print (list(itertools.accumulate(li1, operator.mul)))
 
 **输出:**
 
-```
+```py
 The sum after each iteration is : [1, 5, 10, 17]
 The product after each iteration is : [1, 4, 20, 140]
 The sum after each iteration is : [1, 5, 10, 17]
@@ -376,7 +376,7 @@ The product after each iteration is : [1, 4, 20, 140]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # and chain()
 
@@ -398,7 +398,7 @@ print (list(itertools.chain(li1, li2, li3)))
 
 **输出:**
 
-```
+```py
 All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 ```
 
@@ -407,7 +407,7 @@ All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # chain.from_iterable()
 
@@ -432,7 +432,7 @@ print (list(itertools.chain.from_iterable(li4)))
 
 **输出:**
 
-```
+```py
 All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 ```
 
@@ -441,7 +441,7 @@ All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # and compress()
 
@@ -454,7 +454,7 @@ print (list(itertools.compress('GEEKSFORGEEKS', [1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0
 
 **输出:**
 
-```
+```py
 The compressed values in string are : ['G', 'F', 'G']
 ```
 
@@ -463,7 +463,7 @@ The compressed values in string are : ['G', 'F', 'G']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # dropwhile()
 
@@ -479,7 +479,7 @@ print (list(itertools.dropwhile(lambda x : x % 2 == 0, li)))
 
 **输出:**
 
-```
+```py
 The values after condition returns false : [5, 7, 8]
 ```
 
@@ -488,7 +488,7 @@ The values after condition returns false : [5, 7, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # filterfalse()
 
@@ -504,7 +504,7 @@ print (list(itertools.filterfalse(lambda x : x % 2 == 0, li)))
 
 **输出:**
 
-```
+```py
 The values that return false to function are : [5, 7]
 ```
 
@@ -513,7 +513,7 @@ The values that return false to function are : [5, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # islice()
 
@@ -530,7 +530,7 @@ print (list(itertools.islice(li, 1, 6, 2)))
 
 **输出:**
 
-```
+```py
 The sliced list values are : [4, 7, 10]
 ```
 
@@ -539,7 +539,7 @@ The sliced list values are : [4, 7, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # starmap()
 
@@ -556,7 +556,7 @@ print (list(itertools.starmap(min, li)))
 
 **输出:**
 
-```
+```py
 The values acc. to function are : [1, 1, 4, 1]
 ```
 
@@ -565,7 +565,7 @@ The values acc. to function are : [1, 1, 4, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # takewhile()
 
@@ -581,7 +581,7 @@ print (list(itertools.takewhile(lambda x : x % 2 == 0, li )))
 
 **输出:**
 
-```
+```py
 The list values till 1st false value are : [2, 4, 6]
 ```
 
@@ -590,7 +590,7 @@ The list values till 1st false value are : [2, 4, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # tee()
 
@@ -614,7 +614,7 @@ for i in range (0, 3):
 
 **输出:**
 
-```
+```py
 The iterators are : 
 [2, 4, 6, 7, 8, 10, 20]
 [2, 4, 6, 7, 8, 10, 20]
@@ -626,7 +626,7 @@ The iterators are :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # zip_longest()
 
@@ -639,7 +639,7 @@ print (*(itertools.zip_longest('GesoGes', 'ekfrek', fillvalue ='_' )))
 
 **输出:**
 
-```
+```py
 The combined values of iterables is  : 
 ('G', 'e') ('e', 'k') ('s', 'f') ('o', 'r') ('G', 'e') ('e', 'k') ('s', '_')
 ```

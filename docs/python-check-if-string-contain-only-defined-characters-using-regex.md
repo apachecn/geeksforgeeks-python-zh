@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # _importing module
 import re
 
@@ -49,7 +49,7 @@ check('349', pattern)
 
 **输出:**
 
-```
+```py
 Valid String
 Invalid String
 

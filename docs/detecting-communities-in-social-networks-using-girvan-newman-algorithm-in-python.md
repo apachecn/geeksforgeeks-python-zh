@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 
 def edge_to_remove(g):

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 #this is only valid for single line
 
@@ -42,7 +42,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 def check_syntax():
     """

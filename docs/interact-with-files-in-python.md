@@ -18,7 +18,7 @@ Python 也支持文件处理，并允许用户处理文件，即读取、写入�
 
 **语法:**
 
-```
+```py
 open(filename, mode)
 ```
 
@@ -35,7 +35,7 @@ open(filename, mode)
 
 ![creating-a-file](img/57cfed139b4cf325cfc5c8ec109c0a84.png)
 
-```
+```py
 # Open function to open the file "MyFile1.txt"  
 # (same directory) in append mode and 
 file1 = open("MyFile.txt","w+") 
@@ -55,25 +55,25 @@ file1 = open("MyFile.txt","w+") 
 
 1.  **read():** 以字符串的形式返回读取的字节。读取 n 个字节，如果没有指定 n，读取整个文件。
 
-    ```
+    ```py
     File_object.read([n])
     ```
 
 2.  **readline():** 读取文件的一行并以字符串形式返回。对于指定的 n，读取最多 n 个字节。但是，不会读取多行，即使 n 超过了该行的长度。
 
-    ```
+    ```py
     File_object.readline([n])
     ```
 
 3.  **readline():**读取所有行，并将它们作为列表中的字符串元素返回。
 
-    ```
+    ```py
     File_object.readlines()
     ```
 
 **注意:** `‘\n’`被视为两个字节的特殊字符。
 
-```
+```py
 # Program to show various ways to  
 # read data from a file.  
 
@@ -124,7 +124,7 @@ file1.close()  
 
 **输出:**
 
-```
+```py
 Output of Read function is
 Hello
 This is Delhi
@@ -160,7 +160,7 @@ Output of Readlines function is
 
     **注意:** `‘\n’`被视为两个字节的特殊字符。
 
-    ```
+    ```py
     # Python program to demonstrate 
     # writing to file 
 
@@ -188,7 +188,7 @@ Output of Readlines function is
 
     **输出:**
 
-    ```
+    ```py
     Hello
     This is Delhi
     This is Paris
@@ -210,7 +210,7 @@ Output of Readlines function is
 
     ![python-move-files](img/6734e8e12517dc7243f591ce04d89040.png)
 
-    ```
+    ```py
     # Python program to move 
     # files
 
@@ -246,7 +246,7 @@ Output of Readlines function is
 
     我们想从上面的文件夹中删除文件 1。下面是实现。
 
-    ```
+    ```py
     # Python program to explain os.remove() method   
 
     # importing os module   

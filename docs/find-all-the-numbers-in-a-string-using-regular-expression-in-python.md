@@ -16,7 +16,7 @@
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 program to extract all the numbers from a string
 import re
 
@@ -33,7 +33,7 @@ print(*array)
 
 **Output:**
 
-```
+```py
 345 43 42
 
 ```

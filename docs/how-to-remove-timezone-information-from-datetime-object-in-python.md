@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from datetime import datetime, timezone
 
 # Get the datetime object using datetime
@@ -44,7 +44,7 @@ print(dt_obj_wo_tz)
 
 **输出:**
 
-```
+```py
 2021-08-10 12:51:42.093388
 2021-08-10 12:51:42.093388+00:00
 2021-08-10 12:51:42.09338
@@ -56,7 +56,7 @@ print(dt_obj_wo_tz)
 
 ## 计算机编程语言
 
-```
+```py
 from datetime import datetime, timezone
 
 # Get the datetime object with timezone
@@ -72,7 +72,7 @@ print(dt_obj_wo_tz)
 
 **输出:**
 
-```
+```py
 2021-08-10 07:21:57.838856+00:00
 2021-08-10 07:21:57.838856
 ```

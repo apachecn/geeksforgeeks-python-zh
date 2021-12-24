@@ -26,7 +26,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # code
 from itertools import combinations
 
@@ -41,7 +41,7 @@ for i in range(len(m)):
 
 ****输出:****
 
-```
+```py
 [('GFG',), ('GeeksforGeeks',), ('Geeks',)]
 [('GFG', 'GeeksforGeeks'), ('GFG', 'Geeks'), ('GeeksforGeeks', 'Geeks')]
 [('GFG', 'GeeksforGeeks', 'Geeks')]
@@ -51,7 +51,7 @@ for i in range(len(m)):
 
 ## **蟒蛇 3**
 
-```
+```py
 # code
 from itertools import combinations
 
@@ -68,7 +68,7 @@ for i in range(len(m)):
 
 ****输出:****
 
-```
+```py
 [('GFG',), ('GeeksforGeeks',), ('GFG',)]
 [('GFG', 'GeeksforGeeks'), ('GFG', 'GFG'), ('GeeksforGeeks', 'GFG')]
 [('GFG', 'GeeksforGeeks', 'GFG')]
@@ -94,7 +94,7 @@ for i in range(len(m)):
 
 ## **蟒蛇 3**
 
-```
+```py
 # code
 from itertools import combinations_with_replacement
 

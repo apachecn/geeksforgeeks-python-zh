@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 condition_object = threading.condition( )
 ```
 
@@ -28,32 +28,32 @@ condition_object = threading.condition( )
 
 *   **release()方法:**当线程满足条件对象的需求时，我们将使用 **release()** 方法，该方法帮助我们将条件对象从其任务中释放出来，并突然释放线程获得的内部锁。
 
-```
+```py
 Syntax: condition_object.release()
 ```
 
 *   **acquire()方法:**当我们想要获取或接管任何线程间通信的条件对象时，我们总是使用 **acquire()** 方法。当我们想要使用条件类实现线程间通信时，acquire()方法是必需的。当我们使用这个方法时，线程会突然获得系统的内部锁。
 
-```
+```py
 Syntax: condition_object.acquire()
 ```
 
 *   **notify()方法:**当我们想只向一个处于等待状态的线程发送通知时，我们总是使用 **notify()** 方法。这里，如果一个线程想要成为条件对象的升级，那么使用 notify()。
 
-```
+```py
 Syntax :condition_object.notify()                                      
 ```
 
 *   **等待(时间)方法:****等待()**方法可用于让线程等待，直到收到通知，也直到给定时间结束。简单来说我们可以说线程是要等到**通知()**方法的执行没有完成。我们可以在其中使用时间，如果我们设置了一个特定的时间，那么执行将停止，直到时间结束，之后它将执行仍然剩余的指令。
 
-```
+```py
 Syntax: condition_object.wait()
 Parameter:Time 
 ```
 
 *   **notifyAll()方法:**这里 **notifyAll()** 方法用于发送所有等待线程的通知。如果所有线程都在等待条件对象更新，则**通知所有线程()**将使用。
 
-```
+```py
 Syntax: condition_object.notifyAll()
 ```
 
@@ -63,7 +63,7 @@ Syntax: condition_object.notifyAll()
 
 ## 蟒 3
 
-```
+```py
 # code
 # import modules
 
@@ -88,7 +88,7 @@ t1.start()
 
 **输出**
 
-```
+```py
 addition of 1 to 10 
 55
 the condition object is releases now
@@ -102,7 +102,7 @@ the condition object is releases now
 
 ## python 3
 
-```
+```py
 # code
 
 # import modules
@@ -144,7 +144,7 @@ T2.start()
 
 **Output**
 
-```
+```py
 patient john waiting for appointment
 doctor jarry checking the time for appointment
 time checked

@@ -5,7 +5,7 @@
 对于给定的出生日期，这个程序显示一个占星符号或十二生肖符号。
 示例:
 
-```
+```py
 Input : Day = 10, Month = December
 Output : Sagittarius
 Explanation :
@@ -18,7 +18,7 @@ Output : Virgo
 **方法:**
 虽然精确的日期可以一天左右移动，但取决于年份，以下是西方(或热带)占星术使用的一般生肖日期:
 
-```
+```py
 WESTERN ASTROLOGY STAR SIGN DATES :
 
 Aries (March 21-April 19)
@@ -40,7 +40,7 @@ Pisces (February 19-March 20)
 
 ## C++
 
-```
+```py
 // CPP program to display astrological sign
 // or Zodiac sign for given date of birth
 #include <bits/stdc++.h>
@@ -155,7 +155,7 @@ int main ()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to display astrological sign
 // or Zodiac sign for given date of birth
 import java.io.*;
@@ -271,7 +271,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to display astrological sign
 # or Zodiac sign for given date of birth
 
@@ -326,7 +326,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```py
 // C# program to display astrological sign
 // or Zodiac sign for given date of birth
 using System;
@@ -442,7 +442,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript program to display astrological sign
@@ -554,6 +554,6 @@ function zodiac_sign(day, month)
 
 **输出:**
 
-```
+```py
 Taurus
 ```

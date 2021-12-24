@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if dates are consecutive
 # Using days() + loop
@@ -61,7 +61,7 @@ print("Are dates consecutive : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if dates are consecutive
 # Using all() + days()

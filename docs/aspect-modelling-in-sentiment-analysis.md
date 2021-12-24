@@ -29,7 +29,7 @@
 
 为了获得期望的输出，ABSA 模型包括以下步骤。
 
-```
+```py
 Step 1 -   Consider the input text corpus and pre-process the dataset. 
 
 Step 2 -   Create Word Embeddings of the text input. (i.e. vectorize the text input 
@@ -61,7 +61,7 @@ Step 4 -   Combine 3.a and 3.b to create to get Aspect Based Sentiment.(OUTPUT)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 import spacy
 sp = spacy.load("en_core_web_sm")

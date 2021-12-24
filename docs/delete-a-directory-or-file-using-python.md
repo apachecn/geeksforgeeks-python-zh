@@ -30,7 +30,7 @@ Python 中的`os.remove()`方法用于移除或删除文件路径。此方法**�
 
 我们想从上面的文件夹中删除文件 1。下面是实现。
 
-```
+```py
 # Python program to explain os.remove() method  
 
 # importing os module  
@@ -55,7 +55,7 @@ os.remove(path) 
 
 **例 2:** 如果指定的路径是目录。
 
-```
+```py
 # Python program to explain os.remove() method  
 
 # importing os module  
@@ -86,7 +86,7 @@ print("% s has been removed successfully" % dir) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "osremove.py", line 11, in 
     os.remove(path)
@@ -96,7 +96,7 @@ IsADirectoryError: [Errno 21] Is a directory: 'D:/Pycharm projects/GeeksforGeeks
 
 **例 3:** 使用`os.remove()`方法处理错误。
 
-```
+```py
 # Python program to explain os.remove() method  
 
 # importing os module  
@@ -117,7 +117,7 @@ except OSError as error: 
 
 **输出:**
 
-```
+```py
 [Errno 21] Is a directory: 'D:/Pycharm projects/GeeksforGeeks/Authors/Nikhil'
 File path can not be removed
 
@@ -146,7 +146,7 @@ Python 中的`os.rmdir()`方法用于移除或删除空目录。 **`OSError`** �
 
 我们想删除目录极客。下面是实现。
 
-```
+```py
 # Python program to explain os.rmdir() method  
 
 # importing os module  
@@ -172,7 +172,7 @@ os.rmdir(path) 
 
 **例 2:** 处理错误而`using os.rmdir()`方法，
 
-```
+```py
 # Python program to explain os.rmdir() method
 
 # importing os module  
@@ -209,7 +209,7 @@ except OSError as error:
 
 **输出:**
 
-```
+```py
 [WinError 145] The directory is not empty: 'D:/Pycharm projects/GeeksforGeeks'
 Directory 'GeeksforGeeks' can not be removed
 
@@ -241,7 +241,7 @@ shutil.rmtree()用于删除整个目录树，路径必须指向一个目录(但�
 
 我们想删除目录作者。下面是实现。
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 
@@ -267,7 +267,7 @@ shutil.rmtree(path)
 
 **例 2:** 路过`ignore_errors = True`。
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 
@@ -307,7 +307,7 @@ shutil.rmtree(path, ignore_errors = False)
 
 下面是实现
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 

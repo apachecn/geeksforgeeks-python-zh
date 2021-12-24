@@ -44,7 +44,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 mport torch
 from torch import nn
@@ -94,7 +94,7 @@ to reproduce the experiments will be made available before the conference.
 
 ## 蟒蛇 3
 
-```
+```py
 import torch as th
 import torchvision.transforms as T
 import requests
@@ -106,7 +106,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ## 蟒蛇 3
 
-```
+```py
 model = th.hub.load('facebookresearch/detr', 'detr_resnet101', pretrained=True)
 model.eval()
 model = model.cuda()
@@ -114,7 +114,7 @@ model = model.cuda()
 
 ## 蟒蛇 3
 
-```
+```py
 # standard PyTorch mean-std input image normalization
 transform = T.Compose([
     T.ToTensor(),
@@ -144,7 +144,7 @@ T1【代号:T3】
 
 ## 蟒蛇 3
 
-```
+```py
 url = input()
 ```
 
@@ -152,7 +152,7 @@ url = input()
 
 ## 蟒蛇 3
 
-```
+```py
 img = Image.open(requests.get(url, stream=True).raw).resize((800,600)).convert('RGB')
 img
 ```
@@ -161,7 +161,7 @@ img
 
 ## 蟒蛇 3
 
-```
+```py
 img_tens = transform(img).unsqueeze(0).cuda()
 with th.no_grad():
   output = model(img_tens)
@@ -182,7 +182,7 @@ pred_logits.shape
 
 ## 蟒蛇 3
 
-```
+```py
 for logits, box in zip(pred_logits, pred_boxes):
   cls = logits.argmax()
   if cls >= len(CLASSES):
@@ -201,7 +201,7 @@ for logits, box in zip(pred_logits, pred_boxes):
 
 ## 蟒蛇 3
 
-```
+```py
 img
 ```
 

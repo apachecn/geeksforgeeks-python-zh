@@ -8,7 +8,7 @@
 
 **代码#1:简单嵌入示例**
 
-```
+```py
 int main()
 {
     PyObject * pow_func;
@@ -34,7 +34,7 @@ int main()
 
 **代码#2 :**
 
-```
+```py
 all::
 cc -g embed.c -I/usr/local/include/python3.3m \
 -L /usr/local/lib/python3.3/config-3.3m -lpython3.3m
@@ -42,7 +42,7 @@ cc -g embed.c -I/usr/local/include/python3.3m \
 
 **编译并运行生成的可执行文件给出如下输出:**
 
-```
+```py
 0.00 0.00
 0.10 0.01
 0.20 0.04
@@ -56,7 +56,7 @@ cc -g embed.c -I/usr/local/include/python3.3m \
 
 **代码#3 :**
 
-```
+```py
 /* Extension function for testing the C-Python callback */
 
 PyObject * py_call_func(PyObject * self, PyObject * args)
@@ -75,7 +75,7 @@ PyObject * py_call_func(PyObject * self, PyObject * args)
 
 **代码#4:测试扩展功能**
 
-```
+```py
 import work
 
 def add(x, y):
@@ -86,7 +86,7 @@ work.call_func(add, 3, 4)
 
 **输出:**
 
-```
+```py
 7.0
 
 ```
@@ -95,7 +95,7 @@ work.call_func(add, 3, 4)
 
 **代码#5:检查`PyCallable_Check()`功能**
 
-```
+```py
 double call_func(PyObject *func, double x, double y)
 {
     ...
@@ -114,7 +114,7 @@ double call_func(PyObject *func, double x, double y)
 
 **代码#6 :**
 
-```
+```py
 double call_func(PyObject *func, double x, double y)
     {
         PyObject *args;

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to delimiter separated String
 # Using loop + str()
@@ -44,7 +44,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [7, 'Gfg', 8, 'is', 'best', 9]
 The resultant string : 7*Gfg*8*is*best*9*
 
@@ -56,7 +56,7 @@ The resultant string : 7*Gfg*8*is*best*9*
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to delimiter separated String
 # Using join() + str()
@@ -82,7 +82,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [7, 'Gfg', 8, 'is', 'best', 9]
 The resultant string : 7*Gfg*8*is*best*9
 

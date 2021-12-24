@@ -8,7 +8,7 @@
 
 在我们开始之前，请确保在 Python 3.X 上安装 OpenCV 库。
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -64,7 +64,7 @@ pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 # importing cv2
 import cv2
 

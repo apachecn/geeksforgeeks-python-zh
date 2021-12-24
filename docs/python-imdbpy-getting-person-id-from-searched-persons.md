@@ -16,7 +16,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,13 +41,13 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Ayushmann Khurrana : 4731677
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -72,7 +72,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Pankaj Tripathi : 2690647
 Pankaj Tripathi : 11337375
 Sankalp Raj Tripathi : 9704712

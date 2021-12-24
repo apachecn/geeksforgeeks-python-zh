@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = timeit('numpy.clip(arr2, -5, 5, arr3)',
        'from __main__ import b, c, numpy', number = 1000)
 
@@ -23,7 +23,7 @@ print ("\nTime for our program : ", b)
 
 **输出:**
 
-```
+```py
 Time for NumPy clip program : 8.093049556000551
 
 Time for our program :, 3.760528204000366
@@ -38,7 +38,7 @@ Time for our program :, 3.760528204000366
 
 ## 蟒蛇 3
 
-```
+```py
 # decorators
 @cython.boundscheck(False)
 @cython.wraparound(False)

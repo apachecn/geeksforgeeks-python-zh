@@ -19,7 +19,7 @@ I n 机器学习中，数据可视化是一个非常重要的阶段。为了正�
 
 在可视化数据之前，我们首先需要安装所需的库:
 
-```
+```py
 pip install turicreate
 ```
 
@@ -27,7 +27,7 @@ pip install turicreate
 
 链接到本教程中使用的数据集:[https://www . kaggle . com/c/房价-高级-回归-技术](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
-```
+```py
 # importing turicreate
 import turicreate
 
@@ -48,7 +48,7 @@ training_data.head()
 
 **条形图 ：**
 
-```
+```py
 # for data plotting
 training_data['OverallCond'].plot(title = "Overall Condition of the house", 
                                   xlabel = "Rating", 
@@ -63,7 +63,7 @@ training_data['OverallCond'].plot(title = "Overall Condition of the house", 
 
 **散点图:**
 
-```
+```py
 # for scatter plot
 turicreate.visualization.scatter(training_data["OverallCond"], 
                                  training_data["SalePrice"], 
@@ -79,7 +79,7 @@ turicreate.visualization.scatter(training_data["OverallCond"], 
 
 **热图:**
 
-```
+```py
 # for heatmap
 turicreate.visualization.heatmap(training_data["OverallCond"], 
                                  training_data["SalePrice"], 
@@ -95,7 +95,7 @@ turicreate.visualization.heatmap(training_data["OverallCond"], 
 
 **分类热图:**
 
-```
+```py
 # for categorical heatmap
 turicreate.visualization.categorical_heatmap(training_data["Street"], 
                                              training_data["LotShape"], 
@@ -109,7 +109,7 @@ turicreate.visualization.categorical_heatmap(training_data["Street"], 
 
 **箱线图:**
 
-```
+```py
 # for box plot
 turicreate.visualization.box_plot(training_data["Street"], 
                                   training_data["SalePrice"], 
@@ -125,7 +125,7 @@ turicreate.visualization.box_plot(training_data["Street"], 
 
 **直方图:**
 
-```
+```py
 # for histogram
 turicreate.visualization.histogram(training_data["SalePrice"], 
                                    xlabel ="Sale Price")

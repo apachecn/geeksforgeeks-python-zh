@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 import tkinter as tk
 
 win = tk.Tk()
@@ -32,7 +32,7 @@ win.mainloop()
 
 **第一步:**添加一条线，定义图标位图，即 win.iconbitmap(r”)
 
-```
+```py
 import tkinter as to
 
 win = tk.Tk()
@@ -45,7 +45,7 @@ win.mainloop()
 
 ![](img/ecd5656766c48c6751218cbc234d294a.png)
 
-```
+```py
 win.iconbitmap(r'C:\Users\Madhusudan\Downloads\')
 ```
 
@@ -53,14 +53,14 @@ win.iconbitmap(r'C:\Users\Madhusudan\Downloads\')
 
 ![](img/f9d1a0ae4efcb7eec199a26247289903.png)
 
-```
+```py
 win.iconbitmap(r'C:\Users\Madhusudan\Downloads\favicon(2).ico')
 
 ```
 
 最后，我们得到了如何改变图标的完整代码。让我们把它放在一起。
 
-```
+```py
 import tkinter as tk
 
 win = tk.Tk()

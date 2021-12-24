@@ -6,7 +6,7 @@
 
 下面是一个简单的 python 脚本来打印“`Hello World!`”:
 
-```
+```py
 print('Hello World!')
 
 ```
@@ -17,7 +17,7 @@ print('Hello World!')
 
 **运行 python 脚本的方式不止一种，但是在走向运行 python 脚本的不同方式之前，我们首先要检查系统上是否安装了 **[python 解释器](https://www.geeksforgeeks.org/python-language-introduction/)** 。因此在窗口中，打开**‘cmd’(命令提示符)**并键入以下命令。**
 
-```
+```py
 python -V 
 ```
 
@@ -44,7 +44,7 @@ python -V
     **示例 1:**
     在交互模式下运行以下一行:
 
-    ```
+    ```py
     print('Hello World !')
     ```
 
@@ -55,7 +55,7 @@ python -V
     **例 2:**
     在交互模式下，一条一条的运行以下几行:
 
-    ```
+    ```py
     name = "Aakash"
     print("My name is " + name)
     ```
@@ -67,7 +67,7 @@ python -V
     **例 3:**
     在交互模式下，依次运行以下一行:
 
-    ```
+    ```py
     a = 1
     b = 3
     if a > b:
@@ -83,7 +83,7 @@ python -V
     **注意:**要退出此模式，请按“`Ctrl+Z`”，然后按“回车”或键入“`exit()`”，然后按`Enter`。** 
 2.  ****命令行**
     要在命令行中运行存储在“`.py`”文件中的 Python 脚本，我们必须在命令提示符下的文件名前写入“`python`”关键字。**
- **```
+ ```py
 python hello.py
 
 ```
@@ -99,7 +99,7 @@ python hello.py
     *   进入分机部分或在 windows 上按“`Ctrl+Shift+X`”，然后搜索并安装名为“`Python`”和“`Code Runner`”的分机。之后重启`vs code`。
     *   现在，创建一个名为“ **hello.py** 的新文件，并在其中写入以下代码:
 
-        ```
+        ```py
         print('Hello World!')
 
         ```
@@ -120,7 +120,7 @@ python hello.py
 
     *   现在编写下面的 Python 脚本来打印消息:
 
-        ```
+        ```py
         print('Hello World !')
         ```
 

@@ -10,7 +10,7 @@ python 中有很多内置模块。在这些模块中，有一个有趣的模块�
 
 在正数的情况下
 
-```
+```py
 # Python program to show output of floor(), ceil()
 # truncate() for a positive number.
 import math
@@ -21,7 +21,7 @@ print math.ceil(3.5)  # ceil
 
 输出:
 
-```
+```py
 3.0
 3
 4.0
@@ -29,7 +29,7 @@ print math.ceil(3.5)  # ceil
 
 在负数的情况下
 
-```
+```py
 # Python program to show output of floor(), ceil()
 # truncate() for a negative number.
 import math
@@ -40,7 +40,7 @@ print math.ceil(-3.5)  # ceil
 
 输出:
 
-```
+```py
 -4.0
 -3
 -3.0

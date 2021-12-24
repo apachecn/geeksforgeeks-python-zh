@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以用来执行这个特定的任务。这只是传统嵌套循环的简写。我们迭代每个键的列表并存储结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Iterating through value lists dictionary
 # Using list comprehension

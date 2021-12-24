@@ -12,7 +12,7 @@
 
 **代码# 1:sqrt()方法示例**
 
-```
+```py
 # Python Program explaining 
 # sqrt() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with sqrt() method : ", b.sqrt())
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  2
 
@@ -47,7 +47,7 @@ Decimal b with sqrt() method :  1.414213562373095048801688724
 
 **代码# 2:sqrt()方法示例**
 
-```
+```py
 # Python Program explaining 
 # sqrt() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with sqrt() method : ", b.sqrt())
 
 **输出:**
 
-```
+```py
 Decimal value a :  300
 Decimal value b :  15
 

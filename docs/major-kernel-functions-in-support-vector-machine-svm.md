@@ -13,7 +13,7 @@
 
 为了实现内核函数，首先我们必须使用命令提示终端安装“scikit-learn”库:
 
-```
+```py
     pip install scikit-learn
 
 ```
@@ -33,7 +33,7 @@
 
 **Code:**
 
-```
+```py
 from sklearn.svm import SVC
 classifier = SVC(kernel ='rbf', random_state = 0)
  # training set in x, y axis
@@ -47,7 +47,7 @@ classifier.fit(x_train, y_train)
 
 **代码:**
 
-```
+```py
 from sklearn.svm import SVC
 classifier = SVC(kernel ='sigmoid')
 classifier.fit(x_train, y_train) # training set in x, y axis
@@ -60,7 +60,7 @@ classifier.fit(x_train, y_train) # training set in x, y axis
 
 **Code:**
 
-```
+```py
 from sklearn.svm import SVC
 classifier = SVC(kernel ='poly', degree = 4)
 classifier.fit(x_train, y_train) # training set in x, y axis
@@ -70,7 +70,7 @@ classifier.fit(x_train, y_train) # training set in x, y axis
 
 **代码:**
 
-```
+```py
 from sklearn.svm import SVC
 classifier = SVC(kernel ='linear')
 classifier.fit(x_train, y_train) # training set in x, y axis

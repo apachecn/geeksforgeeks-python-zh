@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of getattr()
 
@@ -49,14 +49,14 @@ print("Motto is " + getattr(obj, 'motto'))
 
 **输出:**
 
-```
+```py
 The name is GeeksforGeeks
 Description is CS Portal
 ```
 
 例外:
 
-```
+```py
 AttributeError: GfG instance has no attribute 'motto'
 ```
 
@@ -64,7 +64,7 @@ AttributeError: GfG instance has no attribute 'motto'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of getattr()
 
@@ -82,7 +82,7 @@ print("Gender is " + getattr(obj, 'gender'))
 
 **输出:**
 
-```
+```py
 AttributeError: 'GfG' object has no attribute 'gender'
 ```
 
@@ -90,7 +90,7 @@ AttributeError: 'GfG' object has no attribute 'gender'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # performance analysis of getattr()
 import time
@@ -116,7 +116,7 @@ print("Time to execute conventional method " + str(time.time() - start_obj))
 
 **输出:**
 
-```
+```py
 The name is GeeksforGeeks
 Time to execute getattr 5.0067901611328125e-06
 The name is GeeksforGeeks
@@ -127,7 +127,7 @@ Time to execute conventional method 1.1920928955078125e-06
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of getattr()
 
@@ -145,7 +145,7 @@ print("Motto is " + getattr(obj, 'motto'))
 
 **输出:**
 
-```
+```py
 AttributeError: 'GfG' object has no attribute 'motto'
 ```
 
@@ -153,7 +153,7 @@ AttributeError: 'GfG' object has no attribute 'motto'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of getattr()
 
@@ -179,7 +179,7 @@ getattr(obj,'call')('arg')
 
 **输出:**
 
-```
+```py
 <__main__.GfG object at 0x0000023C1ED92748>
 <class '__main__.GfG'>
 <bound method GfG.call of <__main__.GfG object at 0x0000023C1ED92748>>

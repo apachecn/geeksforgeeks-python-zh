@@ -20,13 +20,13 @@
 **安装**
 为了安装 pafy，我们使用下面给出的命令
 
-```
+```py
 pip install pafy
 ```
 
 **注意:** Pafy 可选地依赖于 youtube-dl，因此为了更稳定的使用，建议在安装 Pafy 之前安装 youtube-dl。下面是安装 youtube-dl 的命令
 
-```
+```py
 pip install youtube_dl
 ```
 
@@ -35,7 +35,7 @@ pip install youtube_dl
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -54,7 +54,7 @@ print("View Count : " + str(count))
 
 **输出:**
 
-```
+```py
 View Count : 287205
 ```
 
@@ -63,7 +63,7 @@ View Count : 287205
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -82,7 +82,7 @@ print("Thumb Image : " + str(count))
 
 **输出:**
 
-```
+```py
 Thumb Image : http://i.ytimg.com/vi/vG2PNdI8axo/default.jpg
 ```
 
@@ -91,7 +91,7 @@ Thumb Image : http://i.ytimg.com/vi/vG2PNdI8axo/default.jpg
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -110,6 +110,6 @@ print("Title : " + str(value))
 
 **输出:**
 
-```
+```py
 Title : DSA Self Paced Course | GeeksforGeeks
 ```

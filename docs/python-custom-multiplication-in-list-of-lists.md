@@ -8,7 +8,7 @@
 
 这是执行这个特殊任务的天真而暴力的方法，在这个任务中，我们运行一个循环来获取所有元素及其嵌套组件，并相应地进行乘法运算。
 
-```
+```py
 # Python3 code to demonstrate
 # Custom Multiplication in list of lists
 # Using loops
@@ -38,7 +38,7 @@ print("The list after multiply : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[5, 6, 8], [7, 4, 3], [8, 10, 12]]
 The original multiply list : [10, 20, 30]
 The list after multiply : [[50, 60, 80], [140, 80, 60], [240, 300, 360]]
@@ -49,7 +49,7 @@ The list after multiply : [[50, 60, 80], [140, 80, 60], [240, 300, 360]]
 
 这个问题也可以用更短的方法解决，利用`enumerate` 函数的幂一次得到容器的指数和值。这是解决这个问题的一种方法。
 
-```
+```py
 # Python3 code to demonstrate
 # Custom Multiplication in list of lists
 # Using list comprehension + enumerate()
@@ -77,7 +77,7 @@ print("The list after multiply : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[5, 6, 8], [7, 4, 3], [8, 10, 12]]
 The original multiply list : [10, 20, 30]
 The list after multiply : [[50, 60, 80], [140, 80, 60], [240, 300, 360]]

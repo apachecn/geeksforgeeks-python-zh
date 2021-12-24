@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append according to Kth character
 # Using loop
@@ -53,7 +53,7 @@ print("The resultant List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeksforgeeks', 'best', 'for', 'geeks']
 The resultant List : ['geeksforgeeks**', 'best##', 'for##', 'geeks**']
 
@@ -65,7 +65,7 @@ The resultant List : ['geeksforgeeks**', 'best##', 'for##', 'geeks**']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append according to Kth character
 # Using list comprehension
@@ -94,7 +94,7 @@ print("The resultant List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeksforgeeks', 'best', 'for', 'geeks']
 The resultant List : ['geeksforgeeks**', 'best##', 'for##', 'geeks**']
 

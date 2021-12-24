@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign values to Values List
 # Using nested dictionary comprehension
@@ -43,7 +43,7 @@ print("The mapped dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [3, 6], 'is': [4, 2], 'best': [9]}
 The mapped dictionary : {'Gfg': {3: [1, 5], 6: 'Best'}, 'is': {4: 10, 2: 'CS'}, 'best': {9: 12}}
 
@@ -55,7 +55,7 @@ The mapped dictionary : {'Gfg': {3: [1, 5], 6: 'Best'}, 'is': {4: 10, 2: 'CS'}, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Assign values to Values List
 # Using items() + dictionary comprehension
@@ -82,7 +82,7 @@ print("The mapped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [3, 6], 'is': [4, 2], 'best': [9]}
 The mapped dictionary : {'Gfg': {3: [1, 5], 6: 'Best'}, 'is': {4: 10, 2: 'CS'}, 'best': {9: 12}}
 

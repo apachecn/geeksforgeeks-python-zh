@@ -35,7 +35,7 @@ python 中的 webbrowser 模块提供了一个高级界面，允许向用户显�
 
 ## 蟒 3
 
-```
+```py
 # creating nd viewing the html files in python
 
 import webbrowser

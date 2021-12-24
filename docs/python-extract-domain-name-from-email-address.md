@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract domain name from Email address
 # Using index() + slicing 
@@ -38,7 +38,7 @@ print("The extracted domain name : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : manjeet@geeksforgeeks.com
 The extracted domain name : geeksforgeeks.com
 
@@ -50,7 +50,7 @@ The extracted domain name : geeksforgeeks.com
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract domain name from Email address
 # Using split()
@@ -70,7 +70,7 @@ print("The extracted domain name : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : manjeet@geeksforgeeks.com
 The extracted domain name : geeksforgeeks.com
 

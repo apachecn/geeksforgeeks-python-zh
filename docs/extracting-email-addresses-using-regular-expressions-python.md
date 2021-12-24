@@ -7,7 +7,7 @@
 举个例子，我们必须从正则表达式给定的输入中找出唯一的电子邮件。
 示例:
 
-```
+```py
 Input  : Hello shubhamg199630@gmail.com Rohit neeraj@gmail.com
 Output : shubhamg199630@gmail.com neeraj@gmail.com
 Here we have only selected email from the given input string.
@@ -37,7 +37,7 @@ Here we have selected only digits.
 | **(** | 指示字符串提取的开始位置 |
 | **)** | 指示字符串提取的结束位置 |
 
-```
+```py
 # Python program to extract numeric digit 
 # from A string by regular expression...
 
@@ -59,12 +59,12 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['2', '7', '10']
 
 ```
 
-```
+```py
 # Python program to extract emails From 
 # the String By Regular Expression. 
 
@@ -87,7 +87,7 @@ print(lst) 
 
 **Output:**
 
-```
+```py
 ['shubhamg199630@gmail.com', 'priya@yahoo.com']
 
 ```

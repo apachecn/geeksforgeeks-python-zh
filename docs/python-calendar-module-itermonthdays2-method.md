@@ -15,7 +15,7 @@
 
 **代码# 1:**itermonthdays 2()方法的工作示例
 
-```
+```py
 # Python program to demonstrate working
 # of itermonthdates() method
 
@@ -31,7 +31,7 @@ for day in obj.itermonthdays2(2018, 9):
 
 **输出:**
 
-```
+```py
 The starting day number in calendar is : 0
 (0, 0)
 (0, 1)
@@ -49,7 +49,7 @@ The starting day number in calendar is : 0
 
 **代码# 2:**itermonthdays 2()方法的工作示例，firstweekday=2
 
-```
+```py
 # Python program to demonstrate working
 # of itermonthdates() method
 
@@ -65,7 +65,7 @@ for day in obj.itermonthdays2(2018, 9):
 
 **输出:**
 
-```
+```py
 (0, 2)
 (0, 3)
 (0, 4)

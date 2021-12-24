@@ -18,7 +18,7 @@ Python 是一种广泛使用的通用语言，可以用于许多目的。对人�
 
 **示例:**
 
-```
+```py
 # Program to check input  
 # type in Python 
 
@@ -42,7 +42,7 @@ Stdin 代表标准输入，即程序从中读取输入数据的流。此方法�
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # sys.stdin.readline()
 

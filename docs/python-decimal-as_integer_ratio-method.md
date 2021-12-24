@@ -12,7 +12,7 @@
 
 **代码# 1:as _ integer _ ratio()方法示例**
 
-```
+```py
 # Python Program explaining 
 # as_integer_ratio() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with as_integer_ratio() method : ", b.as_integer_ratio())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with as_integer_ratio() method :  (142857, 1000000)
 
 **代码# 2:as _ integer _ ratio()方法示例**
 
-```
+```py
 # Python Program explaining 
 # as_integer_ratio() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with as_integer_ratio() method : ", b.as_integer_ratio())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

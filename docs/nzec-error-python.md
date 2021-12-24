@@ -15,14 +15,14 @@
 23 45
 而不是使用:
 
-```
+```py
 n = int(input())
 k = int(input())
 ```
 
 使用:
 
-```
+```py
 n, k = raw_input().split(" ")
 n = int(n)
 k = int(k)
@@ -32,7 +32,7 @@ k = int(k)
 
 **错误代码**
 
-```
+```py
 n = int(input())
 k = int(input())
 print n," ",k
@@ -42,7 +42,7 @@ print n," ",k
 2 3
 当您在 [IDE](https://ide.geeksforgeeks.org/) 中使用上述输入运行上述代码时，您将获得错误:-
 
-```
+```py
 Traceback (most recent call last):
   File "b712edd81d4a972de2a9189fac8a83ed.py", line 1, in 
     n = int(input())
@@ -57,7 +57,7 @@ SyntaxError: unexpected EOF while parsing
 
 **正确代码**
 
-```
+```py
 n, k = raw_input().split(" ")
 n = int(n)
 k = int(k)
@@ -66,13 +66,13 @@ print n," ",k
 
 **输入:**
 
-```
+```py
 7 3
 ```
 
 **输出:**
 
-```
+```py
 7   3
 
 ```

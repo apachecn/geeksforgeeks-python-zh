@@ -8,19 +8,19 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 element.parent
 ```
 
 **示例–**
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -28,13 +28,13 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 现在，您可以通过–
 
-```
+```py
 element.parent
 ```
 
@@ -43,7 +43,7 @@ element.parent
 让我们尝试使用**父方法**在 geeks forgek 上获取元素及其父方法。
 T3】计划–
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -14,7 +14,7 @@
 
 下面是获取文件权限屏蔽的 Python 程序–
 
-```
+```py
 # Python program to get file permission mask
 # of a given file
 
@@ -64,7 +64,7 @@ print("File permission mask (in octal):", oct(status.st_mode & 0o777))
 
 **Output:**
 
-```
+```py
 Status of ./file.txt:
 os.stat_result(st_mode=33188, st_ino=801303, st_dev=2056, st_nlink=1,
 st_uid=1000, st_gid=1000, st_size=409, st_atime=1561590918, st_mtime=1561590910,
@@ -80,7 +80,7 @@ File permission mask (in octal): 0o644
 
 以下程序是上述程序的简短版本–
 
-```
+```py
 # Python program to get file permission mask
 # of a given file
 
@@ -100,7 +100,7 @@ print("File permission mask:", mask)
 
 **Output:**
 
-```
+```py
 File permission mask: 644
 
 ```

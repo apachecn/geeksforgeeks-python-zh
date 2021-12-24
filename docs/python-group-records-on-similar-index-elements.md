@@ -13,7 +13,7 @@
 **方法#1:使用`defaultdict()` +循环**
 上述函数的组合提供了一种解决这个问题的强力方法。在这种情况下，我们使用 defaultdict()在其余元素相等的基础上将元素和 club 组合成一个。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Records on Similar index elements
 # Using defaultdict() + loop
@@ -38,7 +38,7 @@ print("Tuples after grouping : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 7, 13), (4, 5, 7), (6, 7, 10), (4, 5, 15), (6, 7, 12)]
 Tuples after grouping : ((4, 7, [13]), (4, 5, [7, 15]), (6, 7, [10, 12]))
 
@@ -47,7 +47,7 @@ Tuples after grouping : ((4, 7, [13]), (4, 5, [7, 15]), (6, 7, [10, 12]))
 **方法 2:使用 `groupby() + generator expression`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 groupby()对所有元素进行分组，并使用生成器表达式生成元组列表。此方法需要排序列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Records on Similar index elements
 # Using groupby() + generator expression
@@ -70,7 +70,7 @@ print("Tuples after grouping : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 7, 13), (4, 5, 7), (6, 7, 10), (4, 5, 15), (6, 7, 12)]
 Tuples after grouping : ((4, 7, [13]), (4, 5, [7, 15]), (6, 7, [10, 12]))
 

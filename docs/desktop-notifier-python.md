@@ -12,7 +12,7 @@
 
 因此，为了获取头条新闻，我们将使用这个 Python 脚本来抓取新闻标题:
 
-```
+```py
 import requests
 import xml.etree.ElementTree as ET
 
@@ -74,7 +74,7 @@ def topStories():
 
 由上述 Python 脚本生成的示例新闻项目如下所示:
 
-```
+```py
 {'description': 'Months after it was first reported, the feud between Dwayne Johnson and 
                  Vin Diesel continues to rage on, with a new report saying that the two are 
                  being kept apart during the promotions of The Fate of the Furious.',
@@ -94,7 +94,7 @@ on-they-re-being-kept-apart-for-fast-8-tour/story-Bwl2Nx8gja9T15aMvcrcvL.html',
 
 您可以使用简单的画中画命令安装 **notify2** :
 
-```
+```py
 pip install notify2 
 ```
 
@@ -106,7 +106,7 @@ pip install notify2
 
 考虑下面的代码:
 
-```
+```py
 import time
 import notify2
 from topnews import topStories
@@ -145,7 +145,7 @@ for newsitem in newsitems:
 
 *   Before we can send any notifications, we need to initialize a D-Bus connection. D-Bus is a message bus system, a simple way for applications to talk to one another. So, D-Bus connection for notify2 in current Python script is initialized using:
 
-    ```
+    ```py
     notify2.init("News Notifier") 
     ```
 
@@ -153,13 +153,13 @@ for newsitem in newsitems:
 
 *   Now, we create a notification object, **n** using:
 
-    ```
+    ```py
     n = notify2.Notification(None, icon = ICON_PATH) 
     ```
 
     上述方法的一般语法是:
 
-    ```
+    ```py
     notify2.Notification(summary, message='', icon='') 
     ```
 
@@ -175,7 +175,7 @@ for newsitem in newsitems:
 
 *   You can optionally set the urgency level of notifications using **set_urgency** method:
 
-    ```
+    ```py
     n.set_urgency(notify2.URGENCY_NORMAL) 
     ```
 
@@ -186,20 +186,20 @@ for newsitem in newsitems:
     *   通知 2。紧急 _ 关键
 *   另一个可选工具是 **set_timeout** 方法，使用该方法，您可以显式设置显示持续时间，单位为毫秒，如下所示:
 
-    ```
+    ```py
     n.set_timeout(10000) 
     ```
 
 *   现在，当我们逐一遍历每个新闻项目时，我们需要使用**更新**方法:
 
-    ```
+    ```py
     n.update(newsitem['title'], newsitem['description'])
     ```
 
     用新的**摘要**和**消息**更新通知对象
 *   要显示通知，只需像这样调用通知对象的 **show()** 方法:
 
-    ```
+    ```py
     n.show() 
     ```
 

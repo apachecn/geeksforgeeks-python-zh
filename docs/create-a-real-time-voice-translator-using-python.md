@@ -8,25 +8,25 @@
 
 *   **播放声音:**该模块用于 Python 中播放声音
 
-```
+```py
 pip install playsound
 ```
 
 *   **语音识别模块:**它是一个库，借助于这个库 Python 可以识别给定的命令。我们必须使用画中画进行语音识别。
 
-```
+```py
 pip install SpeechRecognition
 ```
 
 *   **googletrans:** Googletrans 是一个免费且无限制的 python 库，实现了 Google Translate API
 
-```
+```py
 pip install googletrans
 ```
 
 *   **gTTs:**gTTs API 支持多种语言，包括英语、印地语、泰米尔语、法语、德语等。
 
-```
+```py
 pip install gTTs
 pip install gTTS-token
 ```
@@ -39,7 +39,7 @@ pip install gTTS-token
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary modules required 
 from playsound import playsound
 import speech_recognition as sr 
@@ -52,7 +52,7 @@ import os
 
 ## 蟒蛇 3
 
-```
+```py
 dic=('afrikaans', 'af', 'albanian', 'sq', 'amharic', 'am', 
      'arabic', 'ar', 'armenian', 'hy', 'azerbaijani', 'az',
  'basque', 'eu', 'belarusian', 'be', 'bengali', 'bn', 'bosnian',
@@ -94,7 +94,7 @@ dic=('afrikaans', 'af', 'albanian', 'sq', 'amharic', 'am', 
 
 ## 蟒蛇 3
 
-```
+```py
 # Capture Voice
 # takes command through microphone
 def takecommand():
@@ -118,7 +118,7 @@ def takecommand():
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking voice input from the user
 query = takecommand()
 while (query == "None"):
@@ -129,7 +129,7 @@ while (query == "None"):
 
 ## 蟒蛇 3
 
-```
+```py
 def destination_language():
     print("Enter the language in which you want to convert \
     : Ex. Hindi , English , etc.")
@@ -159,7 +159,7 @@ to_lang = dic[dic.index(to_lang)+1]
 
 ## 蟒蛇 3
 
-```
+```py
 # invoking Translator
 translator = Translator()
 ```
@@ -168,7 +168,7 @@ translator = Translator()
 
 ## 蟒蛇 3
 
-```
+```py
 # Translating from src to dest
 text_to_translate = translator.translate(query, dest=to_lang)
 text = text_to_translate.text
@@ -178,7 +178,7 @@ text = text_to_translate.text
 
 ## 蟒蛇 3
 
-```
+```py
 # Using Google-Text-to-Speech ie, gTTS() method
 # to speak the translated text into the
 # destination language which is stored in to_lang.
@@ -200,7 +200,7 @@ print(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary modules required
 from playsound import playsound
 import speech_recognition as sr

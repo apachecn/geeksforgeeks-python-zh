@@ -15,7 +15,7 @@ mnist 数据集是如下图所示的手写图像数据集。
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import keras
 from keras.datasets import mnist
@@ -32,7 +32,7 @@ from keras import backend as k
 
 ## 蟒蛇 3
 
-```
+```py
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 
@@ -41,7 +41,7 @@ from keras import backend as k
 
 ## 蟒蛇 3
 
-```
+```py
 img_rows, img_cols=28, 28
 
 if k.image_data_format() == 'channels_first':
@@ -66,7 +66,7 @@ x_test /= 255
 
 ## 蟒蛇 3
 
-```
+```py
 y_train = keras.utils.to_categorical(y_train)
 y_test = keras.utils.to_categorical(y_test)
 ```
@@ -75,7 +75,7 @@ y_test = keras.utils.to_categorical(y_test)
 
 ## 蟒蛇 3
 
-```
+```py
 inpx = Input(shape=inpx)
 layer1 = Conv2D(32, kernel_size=(3, 3), activation='relu')(inpx)
 layer2 = Conv2D(64, (3, 3), activation='relu')(layer1)
@@ -98,7 +98,7 @@ layer7 = Dense(10, activation='softmax')(layer6)
 
 ## 蟒蛇 3
 
-```
+```py
 model = Model([inpx], layer7)
 model.compile(optimizer=keras.optimizers.Adadelta(),
               loss=keras.losses.categorical_crossentropy,
@@ -115,7 +115,7 @@ model.fit(x_train, y_train, epochs=12, batch_size=500)
 
 ## 蟒蛇 3
 
-```
+```py
 score = model.evaluate(x_test, y_test, verbose=0)
 print('loss=', score[0])
 print('accuracy=', score[1])

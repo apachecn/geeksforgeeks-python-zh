@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross mapping of Two dictionary value lists
 # Using loop + setdefault() + extend()
@@ -47,7 +47,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary 1 is : {'Gfg': [4, 7], 'Best': [8, 6], 'is': [9, 3]}
 The original dictionary 2 is : {6: [15, 9], 8: [6, 3], 7: [9, 8], 9: [10, 11]}
 The constructed dictionary : {'Gfg': [9, 8], 'Best': [6, 3, 15, 9], 'is': [10, 11]}
@@ -60,7 +60,7 @@ The constructed dictionary : {'Gfg': [9, 8], 'Best': [6, 3, 15, 9], 'is': [10, 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross mapping of Two dictionary value lists
 # Using list comprehension + dictionary comprehension
@@ -84,7 +84,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary 1 is : {'Gfg': [4, 7], 'Best': [8, 6], 'is': [9, 3]}
 The original dictionary 2 is : {6: [15, 9], 8: [6, 3], 7: [9, 8], 9: [10, 11]}
 The constructed dictionary : {'Gfg': [9, 8], 'Best': [6, 3, 15, 9], 'is': [10, 11]}

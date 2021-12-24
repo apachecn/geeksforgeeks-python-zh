@@ -9,7 +9,7 @@
 *   **看门狗**
     要安装看门狗在终端运行该命令。
 
-    ```
+    ```py
     pip install watchdog
 
     ```
@@ -19,7 +19,7 @@
 
 现在，让我们深入研究记录所有注册更改的代码。此代码将记录仅在当前目录中注册的更改。
 
-```
+```py
 # import the modules
 import sys
 import time
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
 上面的代码将记录目录中注册的所有更改。如果要在创建或修改文件时进行更改，可以使用以下代码来实现。
 
-```
+```py
 # import time module, Observer, FileSystemEventHandler
 import time
 from watchdog.observers import Observer
@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
 以下脚本仅用于观察。csv 文件使用`PatternMAtchingEventHandler`。如果希望观察多种类型的文件，可以进一步扩展模式列表。
 
-```
+```py
 import watchdog.events
 import watchdog.observers
 import time

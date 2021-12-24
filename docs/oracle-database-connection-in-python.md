@@ -11,13 +11,13 @@
 
 如果您使用 Python >= 3.6，请在 Linux 中使用以下命令:–
 
-```
+```py
 pip install cx-Oracle
 ```
 
 如果您使用 Python >= 3.6，请在窗口中使用以下命令:–
 
-```
+```py
 py -m pip install cx-Oracle
 ```
 
@@ -27,13 +27,13 @@ py -m pip install cx-Oracle
     Ex。导入 cx_Oracle
 *   **connect():** 现在使用 connect()函数在 Python 程序和 Oracle 数据库之间建立连接。
 
-```
+```py
 con = cx_Oracle.connect('username/password@localhost')
 ```
 
 *   **cursor():** 要执行一个 SQL 查询并提供结果，需要一些特殊的对象，它只不过是 cursor()对象。
 
-```
+```py
 cursor = cx_Oracle.cursor()
 ```
 
@@ -49,7 +49,7 @@ cursor = cx_Oracle.cursor()
     3.  fetchall():此方法用于从结果集中提取所有行。
 *   **close():** 全部完成后，强制关闭所有操作。
 
-```
+```py
 cursor.close()
 con.close()
 ```
@@ -60,7 +60,7 @@ con.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import cx_Oracle
 
@@ -92,7 +92,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Table Created successfully
 ```
 
@@ -102,7 +102,7 @@ DDL 语句不需要提交。它们是自动提交的。在上面的程序中，�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import cx_Oracle
 
@@ -133,7 +133,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Record inserted successfully
 ```
 
@@ -146,7 +146,7 @@ Record inserted successfully
 
 ## 蟒蛇 3
 
-```
+```py
 import cx_Oracle
 
 # Load data from a csv file into Oracle table using executemany
@@ -186,7 +186,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Multiple records are inserted successfully
 ```
 
@@ -206,7 +206,7 @@ Multiple records are inserted successfully
 
 ## 蟒蛇 3
 
-```
+```py
 import cx_Oracle
 
 try:
@@ -251,7 +251,7 @@ finally:
 
 **输出:**
 
-```
+```py
 [(10001, 'Rahul', 50000.5), (10002, 'Sanoj', 40000.75), (10003, 'Soumik', 30000.25), (10004, 'Sayan', 45000.0), (10005, 'Sobhan', 60000.1), (10006, 'Gururaj', 70000.0), (10007, 'Vikram', 48000.0), (10008, 'Sunil', 65000.1), (10009, 'Sameer', 75000.0)]
 [(10001, 'Rahul', 50000.5), (10002, 'Sanoj', 40000.75), (10003, 'Soumik', 30000.25)]
 (10001, 'Rahul', 50000.5)
@@ -267,7 +267,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 import cx_Oracle
 
 try:
@@ -301,7 +301,7 @@ finally:
 
 **输出:**
 
-```
+```py
 [(10001, 'Rahul', 50000.5), (10005, 'Sobhan', 60000.1), (10006, 'Gururaj', 70000.0),
  (10008, 'Sunil', 65000.1), (10009, 'Sameer', 75000.0)]
 ```

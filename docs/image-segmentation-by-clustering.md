@@ -86,7 +86,7 @@ K-means 聚类是一种非常流行的聚类算法，适用于标签未知的数
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import numpy as np
 import cv2 as cv

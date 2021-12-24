@@ -13,7 +13,7 @@ Python 作为一种非常动态和通用的编程语言，几乎应用于每个�
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # function to generate 
@@ -62,7 +62,7 @@ main()
 
 **输出:**
 
-```
+```py
 pxwvkdfwpbzneycy rifcrnczxqtsfowgjm
 wfgytnakffjty ggfy trylljfhurazyxow
 docujzolvswarzqszridmejyluhwviujlkj
@@ -90,7 +90,7 @@ f pomksbzrjizegcjwyoqftjz wwx   ges
 
 ## 蟒蛇 3
 
-```
+```py
 def test_1(string =""):
 
     # initializing the substring
@@ -131,7 +131,7 @@ print(test_1("class"))
 
 **输出:**
 
-```
+```py
 racte
 standf
 clas 
@@ -147,7 +147,7 @@ clas
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # generates a four-digit code
@@ -214,7 +214,7 @@ mastermind()
 
 ## 蟒蛇 3
 
-```
+```py
 opposite = {'NORTH': 'SOUTH', 
             'EAST': 'WEST', 
             'SOUTH': 'NORTH', 
@@ -247,7 +247,7 @@ print(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]))
 
 **输出:**
 
-```
+```py
 ['WEST'] 
 ```
 
@@ -268,7 +268,7 @@ print(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]))
 
 ## 蟒蛇 3
 
-```
+```py
 # function to compare the arrays
 def comp(array1, array2):
 
@@ -289,6 +289,6 @@ comp([1,2,3,4], [1,4,9,16])
 
 **输出:**
 
-```
+```py
 True
 ```

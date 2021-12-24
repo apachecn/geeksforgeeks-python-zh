@@ -9,7 +9,7 @@
 
 **Code #1 : Writing an exception handler for Exception to catch all the exceptions.**
 
-```
+```py
 try:
     ...
 except Exception as e:
@@ -22,7 +22,7 @@ except Exception as e:
 
 **代码#2:考虑示例。**
 
-```
+```py
 def parse_int(s):
     try:
         n = int(v)
@@ -32,7 +32,7 @@ def parse_int(s):
 
 **代码#3:使用上述功能**
 
-```
+```py
 print (parse_int('n / a'), "\n")
 
 print (parse_int('42'))
@@ -40,7 +40,7 @@ print (parse_int('42'))
 
 **输出:**
 
-```
+```py
 Couldn't parse
 
 Couldn't parse
@@ -51,7 +51,7 @@ Couldn't parse
 
 **代码#4 :**
 
-```
+```py
 def parse_int(s):
     try:
         n = int(v)
@@ -62,13 +62,13 @@ def parse_int(s):
 
 在这种情况下，将收到以下输出，这表明出现了编程错误。
 
-```
+```py
 parse_int('42')
 ```
 
 **输出:**
 
-```
+```py
 Couldn't parse
 Reason: global name 'v' is not defined
 
@@ -80,7 +80,7 @@ Reason: global name 'v' is not defined
 
 **代码#5:定义一些自定义异常**
 
-```
+```py
 class NetworkError(Exception):
     pass
 class HostnameError(NetworkError):
@@ -93,7 +93,7 @@ class ProtocolError(NetworkError):
 
 **代码#6:以正常方式使用这些异常。**
 
-```
+```py
 try:
     msg = s.recv()
 except TimeoutError as e:

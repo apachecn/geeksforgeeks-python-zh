@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Factors Frequency Dictionary
 # Using loop
@@ -46,7 +46,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [2, 4, 6, 8, 3, 9, 12, 15, 16, 18]
 The constructed dictionary : {1: 10, 2: 7, 3: 6, 4: 4, 5: 1, 6: 3, 7: 0, 8: 2, 9: 2, 10: 0, 11: 0, 12: 1, 13: 0, 14: 0, 15: 1, 16: 1, 17: 0}
 
@@ -58,7 +58,7 @@ The constructed dictionary : {1: 10, 2: 7, 3: 6, 4: 4, 5: 1, 6: 3, 7: 0, 8: 2, 9
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Factors Frequency Dictionary
 # Using sum() + loop
@@ -81,7 +81,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [2, 4, 6, 8, 3, 9, 12, 15, 16, 18]
 The constructed dictionary : {1: 10, 2: 7, 3: 6, 4: 4, 5: 1, 6: 3, 7: 0, 8: 2, 9: 2, 10: 0, 11: 0, 12: 1, 13: 0, 14: 0, 15: 1, 16: 1, 17: 0}
 

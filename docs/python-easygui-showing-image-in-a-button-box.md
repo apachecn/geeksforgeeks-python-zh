@@ -18,7 +18,7 @@
 **示例:**
 在这里我们将创建一个带有图像的按钮框，用户可以选择任意按钮，根据消息会出现消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -67,7 +67,7 @@ msg = msgbox(message, title)
 
 **另一个例子:**
 
-```
+```py
 # importing easygui module
 from easygui import *
 

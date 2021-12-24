@@ -10,7 +10,7 @@
 
 *   安装 PySimpleGUI
 
-    ```
+    ```py
     pip install PySimpleGUI 
     ```
 
@@ -20,7 +20,7 @@
 
 **示例:**展示 PySimpleGUI 布局的示例程序。
 
-```
+```py
 import PySimpleGUI as sg
 
 sg.theme('BluePurple')

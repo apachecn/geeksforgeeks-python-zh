@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input:  ar1 = [1, 5, 10, 20, 40, 80]
         ar2 = [6, 7, 20, 80, 100]
         ar3 = [3, 4, 15, 20, 30, 70, 80, 120]
@@ -24,7 +24,7 @@ Output: [5, 5]
 1.  首先使用 [Counter()](https://www.geeksforgeeks.org/counters-in-python-set-1/) 方法，将所有三个列表转换成以元素为键，以它们的频率为值的字典。
 2.  现在对三个字典执行交集操作，这将导致我们的字典在三个数组列表中具有公共元素及其频率。
 
-```
+```py
 # Function to find common elements in three
 # sorted arrays
 from collections import Counter
@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [80, 20]
 
 ```

@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.cluster import KMeans
 from sklearn import metrics
 from scipy.spatial.distance import cdist
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating the data
 x1 = np.array([3, 1, 1, 2, 1, 6, 6, 6, 5, 6, 7, 8, 9, 8, 9, 9, 8])
 x2 = np.array([5, 4, 5, 6, 5, 8, 6, 7, 6, 7, 1, 2, 1, 2, 3, 2, 3])
@@ -49,7 +49,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 distortions = []
 inertias = []
 mapping1 = {}
@@ -75,7 +75,7 @@ a)【T3:
 
 ## 蟒蛇 3
 
-```
+```py
 for key, val in mapping1.items():
     print(f'{key} : {val}')
 ```
@@ -84,7 +84,7 @@ for key, val in mapping1.items():
 
 ## 蟒蛇 3
 
-```
+```py
 plt.plot(K, distortions, 'bx-')
 plt.xlabel('Values of K')
 plt.ylabel('Distortion')
@@ -98,7 +98,7 @@ b) **使用不同的惯性值:**
 
 ## 蟒蛇 3
 
-```
+```py
 for key, val in mapping2.items():
     print(f'{key} : {val}')
 ```
@@ -107,7 +107,7 @@ for key, val in mapping2.items():
 
 ## 蟒蛇 3
 
-```
+```py
 plt.plot(K, inertias, 'bx-')
 plt.xlabel('Values of K')
 plt.ylabel('Inertia')

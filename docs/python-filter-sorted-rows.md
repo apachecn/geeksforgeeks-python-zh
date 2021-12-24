@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Sorted Rows
 # Using list comprehension + sorted() + reverse
@@ -48,7 +48,7 @@ print("Extracted rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Sorted Rows
 # Using filter() + lambda + sorted() + reverse

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : str = geeksforgeeks, k = 3
 Output : r
 First non-repeating character is f,
@@ -23,7 +23,7 @@ Output : Less than k non-repeating
 
 此问题已有解决方案请参考链接。我们可以使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)和[排序](https://www.geeksforgeeks.org/remove-duplicates-given-string-python/)在 python 中快速解决这个问题。
 
-```
+```py
 # Function to find k'th non repeating character 
 # in string 
 from collections import OrderedDict 
@@ -60,7 +60,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 r
 
 ```

@@ -30,7 +30,7 @@ Python [请求](https://www.geeksforgeeks.org/http-request-methods-python-reques
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import pyfiglet
 import termcolor

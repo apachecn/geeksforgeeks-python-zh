@@ -14,7 +14,7 @@
 给定 3 个数字 A、B 和 Mod。计算(A <sup>B</sup> )%Mod。
 **例:**
 
-```
+```py
 Input : A = 4, B = 3 Mod = 11 
 Output : 9 
 Explanation: (43)%11 = (64)%11 = 9
@@ -29,7 +29,7 @@ Explanation: (33)%5 = (27)%5 = 2
 
 ## 大蟒
 
-```
+```py
 A = 4
 B = 3
 Mod = 11
@@ -42,7 +42,7 @@ print(f'The power is {pow(A, B, Mod)}')
 
 **输出:**
 
-```
+```py
 The power is 9
 ```
 
@@ -51,13 +51,13 @@ The power is 9
 给定两个整数 A 和 Mod，在模 Mod 下计算 A 的模乘逆。
 模乘逆是整数 B，使得
 
-```
+```py
 (A.B)%Mod = 1 where gcd(A, Mod) should be equal to 1
 ```
 
 **例:**
 
-```
+```py
 Input : A = 4, Mod = 11  
 Output : 3 
 Explanation: (4*3)%11 = (12)%11 = 1
@@ -72,7 +72,7 @@ Explanation: (3*2)%5 = (6)%5 = 1
 
 ## 计算机编程语言
 
-```
+```py
 A = 4
 Mod = 11
 
@@ -84,7 +84,7 @@ of A under Mod is {pow(A, -1, Mod)}')
 
 **输出:**
 
-```
+```py
 The Modular Multiplicative Inverse of A under Mod is 3
 ```
 
@@ -93,7 +93,7 @@ The Modular Multiplicative Inverse of A under Mod is 3
 给定 N 和 r 的值，计算 Ncr(一次取 r 的 N 个事物的组合)和 Npr(一次取 r 的 N 个事物的排列)。
 **例:**
 
-```
+```py
 Input : N = 10, r = 3  
 Output : Ncr = 120
 
@@ -106,7 +106,7 @@ Ncr 和 Npr 的传统实现在这里和
 
 ## 大蟒
 
-```
+```py
 import math
 N = 10
 r = 3
@@ -117,7 +117,7 @@ print(f"Npr = {math.perm(N, r)}")
 
 **输出:**
 
-```
+```py
 Ncr = 120
 Npr = 720
 ```

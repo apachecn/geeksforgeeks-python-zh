@@ -8,7 +8,7 @@
 
 几乎每一个问题都可以用列表理解作为简单方法的简写来解决，这个问题也不例外。在这种情况下，我们只需遍历每个列表，只挑选第 0 个索引元素来构建结果列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Get first index values in tuple of strings
 # using list comprehension
@@ -29,7 +29,7 @@ print("The first index string character list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('GfG', 'for', 'Geeks')
 The first index string character list : ['G', 'f', 'G']
 
@@ -39,7 +39,7 @@ The first index string character list : ['G', 'f', 'G']
 
 这个特殊的任务也可以使用上面两个的组合以更有效的方式来执行，使用迭代器来完成这个任务。zip 函数可用于将字符串元素绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # Get first index values in tuple of strings
 # using next() + zip()
@@ -60,7 +60,7 @@ print("The first index string character list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('GfG', 'for', 'Geeks')
 The first index string character list : ['G', 'f', 'G']
 

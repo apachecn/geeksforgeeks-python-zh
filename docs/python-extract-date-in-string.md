@@ -4,7 +4,7 @@
 
 给定一个字符串，任务是编写一个 Python 程序从中提取日期。
 
-```
+```py
 Input : test_str = "gfg at 2021-01-04"
 Output : 2021-01-04
 Explanation : Date format string found.
@@ -20,7 +20,7 @@ Explanation : Date format string found.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Detect date in String
 # Using re.search() + strptime()
@@ -46,7 +46,7 @@ print("Computed date : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : gfg at 2021-01-04
 Computed date : 2021-01-04
 ```
@@ -57,7 +57,7 @@ Computed date : 2021-01-04
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Detect date in String
 # Using python-dateutil()
@@ -78,7 +78,7 @@ print("Computed date : " + str(res)[:10])
 
 **输出:**
 
-```
+```py
 The original string is : gfg at 2021-01-04
 Computed date : 2021-01-04
 ```

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : aaaaabbbbbb
 Output : ab
 
@@ -24,7 +24,7 @@ Output : abcba
 
 **Group by** 方法接受两个输入一个是**可迭代(列表、元组、字典)**第二个是计算可迭代中每个元素的键的键函数。它返回分组项的关键字和可重复项。如果键函数未指定或为“无”，则键默认为标识函数，并返回元素不变。例如，
 
-```
+```py
 numbers = [1, 1, 1, 3, 3, 2, 2, 2, 1, 1]
 import itertools
 for (key,group) in itertools.groupby(numbers):
@@ -33,7 +33,7 @@ for (key,group) in itertools.groupby(numbers):
 
 输出:
 
-```
+```py
 (1, [1, 1, 1])
 (3, [3, 3])
 (2, [2, 2])
@@ -41,7 +41,7 @@ for (key,group) in itertools.groupby(numbers):
 
 ```
 
-```
+```py
 # function to remove all consecutive duplicates 
 # from the string in Python
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 ab
 
 ```

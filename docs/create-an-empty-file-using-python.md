@@ -22,7 +22,7 @@
 
 **示例#1:** 在此示例中，我们将创建一个新文件 myfile.txt。为了验证这一点，我们将使用 [os](https://www.geeksforgeeks.org/os-module-python-examples/) 模块的`[os.listdir()](https://www.geeksforgeeks.org/python-os-listdir-method/)`方法列出创建新文件前后的目录。
 
-```
+```py
 # Python program to demonstrate
 # creating a new file
 
@@ -52,7 +52,7 @@ print(dir_list)
 
 **输出:**
 
-```
+```py
 List of directories and files before creation:
 ['.idea', 'gfg.py', 'venv']
 
@@ -63,7 +63,7 @@ List of directories and files after creation:
 
 **#示例 2:** 在指定位置创建新文件。使用[操作系统模块](https://www.geeksforgeeks.org/os-module-python-examples/)在指定位置创建文件。下面是实现。
 
-```
+```py
 # Python program to demonstrate
 # creation of new file
 
@@ -95,7 +95,7 @@ print(dir_list)
 
 **输出:**
 
-```
+```py
 List of directories and files before creation:
 ['test_nikhil.txt']
 

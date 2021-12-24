@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们迭代字典，提取频率，并以该频率复制元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Frequency dictionary to list
 # Using loop
@@ -43,7 +43,7 @@ print("The resultant list : " + str(res)) 
 **方法 2:使用列表理解**
 该方法在工作方面与上述方法类似。这是上述方法的简称。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Frequency dictionary to list
 # Using list comprehension

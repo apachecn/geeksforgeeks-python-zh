@@ -21,7 +21,7 @@
 
 *   让我们首先在名为 GFGScrapy 的文件夹中创建一个虚拟环境，并在那里激活该虚拟环境。
 
-```
+```py
 # To create a folder named GFGScrapy
 mkdir GFGScrapy    
 cd GFGScrapy
@@ -45,13 +45,13 @@ cd..
 
 **语法:**
 
-```
+```py
 pip install scrapy
 ```
 
 现在要创建一个剪贴簿项目，使用下面给出的命令，并创建一个蜘蛛。
 
-```
+```py
 # project name is scrapytutorial
 scrapy startproject scrapytutorial  
 cd scrapytutorial
@@ -70,7 +70,7 @@ scrapy genspider spider_to_crawl https://quotes.toscrape.com
 
 **目录结构**由以下路径组成(示例)
 
-```
+```py
 C://<project-name>/<project-name>
 ```
 
@@ -155,7 +155,7 @@ C://<project-name>/<project-name>
 
 ## 蟒蛇 3
 
-```
+```py
 # Define here the models for your scraped items
 
 import scrapy
@@ -187,7 +187,7 @@ class ScrapytutorialItem(scrapy.Item):
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 
 # importing the items structure described 

@@ -6,7 +6,7 @@
 
 **示例–**
 
-```
+```py
 # import requests module
 import requests
 from requests.auth import HTTPBasicAuth
@@ -29,7 +29,7 @@ print(response)
 **摘要认证**
 另一种非常流行的 HTTP 认证形式是摘要认证，Requests 也支持这种开箱即用的认证:
 
-```
+```py
 >>> from requests.auth import HTTPDigestAuth
 >>> url = 'https://httpbin.org/digest-auth/auth/user/pass'
 >>> requests.get(url, auth=HTTPDigestAuth('user', 'pass'))
@@ -39,7 +39,7 @@ print(response)
 **OAuth 1 认证**
 几种 web APIs 的一种常见认证形式是 OAuth。请求-oauthlib 库允许请求用户轻松地发出 OAuth 1 验证请求:
 
-```
+```py
 >>> import requests
 >>> from requests_oauthlib import OAuth1
 

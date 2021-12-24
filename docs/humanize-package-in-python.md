@@ -12,7 +12,7 @@
 
 1.  **File Size Utility:** This utility can convert large integers of file sizes to human-readable form. The default unit of the size it accepts is **bytes**. For example:
 
-    ```
+    ```py
     # Program to demonstrate the
     # File Size Utility
     import humanize
@@ -22,14 +22,14 @@
 
     **输出:**
 
-    ```
+    ```py
     1.0 MB
 
     ```
 
 2.  **Scientific Notation:** This utility is used to add scientific notation to the program. This utility also gives an option to add precision to the number. Precision here means the number of digits needed in the number. For example:
 
-    ```
+    ```py
     # Program to demonstrate the
     # scientific notation utility
     import humanize
@@ -47,7 +47,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Without Precision: 2.00 x 10³
     With Precision: 1.02400 x 10³
 
@@ -55,7 +55,7 @@
 
 3.  **Floating Point to Fractions:** This utility is used to convert a floating-point to fractions. For example:
 
-    ```
+    ```py
     # Program to demonstrate the
     # floating point to fraction 
     # utility
@@ -67,14 +67,14 @@
 
     **输出:**
 
-    ```
+    ```py
     333/632
 
     ```
 
 4.  **Date & Time Utility:** Many a times, we encounter few scenarios where the date or time is returned in the form of numbers. This utility is used to convert the date into a human understandable format. For example:
 
-    ```
+    ```py
     # Program to demonstrate the
     # date time utility
     import humanize
@@ -93,7 +93,7 @@
 
     **输出:**
 
-    ```
+    ```py
     May 03 2020
     15 minutes
 
@@ -101,7 +101,7 @@
 
 5.  **整数实用程序:**该实用程序用于使整数值更具代表性。例如:
 
-    ```
+    ```py
     # Python program to demonstrate 
     # the integer utility
     import humanize
@@ -123,7 +123,7 @@
 
     **输出:**
 
-    ```
+    ```py
     14, 523, 689
     1.6 billion
     five

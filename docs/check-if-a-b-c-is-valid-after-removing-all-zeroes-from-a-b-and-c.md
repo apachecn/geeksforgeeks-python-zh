@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation of the approach
 #include<bits/stdc++.h>
 #include<string>
@@ -93,7 +93,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the approach
 import java.util.*;
 
@@ -163,7 +163,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the approach
 
 # Function that returns true if
@@ -214,7 +214,7 @@ else:
 
 ## C#
 
-```
+```py
 // C# implementation of the approach
 using System;
 
@@ -285,7 +285,7 @@ public static void Main(string[] args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP implementation of the approach
 
@@ -348,7 +348,7 @@ else
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript implementation of the approach
@@ -408,7 +408,7 @@ else
 
 **Output:** 
 
-```
+```py
 Yes
 ```
 
@@ -416,7 +416,7 @@ Yes
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the approach
 
 # Calculate the sum with Zero's intact

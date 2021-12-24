@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module numpy
 import numpy as np
 
@@ -100,7 +100,7 @@ for i in range(epoch):
 
 **输出:**
 
-```
+```py
 [[-1 -1]
  [-1  1]
  [ 1 -1]

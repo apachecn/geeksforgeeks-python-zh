@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 42, l = 2, r = 5
 Output : 2
 (42)10 = (101010)2
@@ -23,7 +23,7 @@ Output : 4
 2.  Now delete the first two characters of the output binary string, because by default, the bin function appends' 0b' to the output string as a prefix.
 3.  Slice the string from the index **(l-1)** to index **r** and invert it, and then calculate the unset bits in the middle.
 
-```
+```py
 # Function to count unset bits in a range
 
 def unsetBits(n,l,r):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 2
 
 ```

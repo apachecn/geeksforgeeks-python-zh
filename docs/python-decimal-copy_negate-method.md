@@ -12,7 +12,7 @@
 
 **代码# 1:copy _ negative()方法示例**
 
-```
+```py
 # Python Program explaining 
 # copy_negate() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with copy_negate() method : ", b.copy_negate())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with copy_negate() method :  -0.142857
 
 **代码# 2:copy _ negative()方法示例**
 
-```
+```py
 # Python Program explaining 
 # copy_negate() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with copy_negate() method : ", b.copy_negate())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

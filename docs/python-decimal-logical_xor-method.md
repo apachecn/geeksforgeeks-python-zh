@@ -12,7 +12,7 @@
 
 **代码#1:逻辑异或()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_xor() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with logical_xor() method : ", b.logical_xor(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  0
 Decimal value b :  1
 
@@ -47,7 +47,7 @@ Decimal b with logical_xor() method :  0
 
 **代码#2:逻辑异或()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_xor() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with logical_xor() method : ", a.logical_xor(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  0
 

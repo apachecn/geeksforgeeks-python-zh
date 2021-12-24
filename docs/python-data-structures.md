@@ -20,14 +20,14 @@ Python 列表的实现类似于 C++中的 Vectors 或者 JAVA 中的 ArrayList�
 
 ## 蟒蛇 3
 
-```
+```py
 List = [1, 2,  3, "GFG", 2.3]
 print(List)
 ```
 
 **Output**
 
-```
+```py
 [1, 2, 3, 'GFG', 2.3]
 ```
 
@@ -39,7 +39,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a List with
 # the use of multiple values
 List = ["Geeks", "For", "Geeks"]
@@ -71,7 +71,7 @@ print(List[-3])
 
 **Output**
 
-```
+```py
 List containing multiple values: 
 ['Geeks', 'For', 'Geeks']
 
@@ -95,7 +95,7 @@ Python 字典的索引是在键的帮助下完成的。这些都是任何可散�
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {'Name': 'Geeks', 1: [1, 2, 3, 4]}
 print("Creating Dictionary: ")
@@ -117,7 +117,7 @@ print(myDict)
 
 **Output**
 
-```
+```py
 Creating Dictionary: 
 {'Name': 'Geeks', 1: [1, 2, 3, 4]}
 Accessing a element using key:
@@ -139,7 +139,7 @@ Accessing a element using get:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Tuple with
 # the use of Strings
 Tuple = ('Geeks', 'For')
@@ -167,7 +167,7 @@ print(Tuple[-3])
 
 **Output**
 
-```
+```py
 Tuple with the use of String: 
 ('Geeks', 'For')
 
@@ -200,7 +200,7 @@ Third last element of tuple
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Set with 
 # a mixed type of values
 # (Having numbers and strings)
@@ -222,7 +222,7 @@ print("Geeks" in Set)
 
 **Output**
 
-```
+```py
 Set with the use of Mixed Values
 {1, 2, 'Geeks', 4, 6, 'For'}
 
@@ -239,7 +239,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Same as {"a", "b","c"}
 normal_set = set(["a", "b","c"])
 
@@ -259,7 +259,7 @@ print(frozen_set)
 
 **Output**
 
-```
+```py
 Normal Set
 {'a', 'c', 'b'}
 
@@ -279,7 +279,7 @@ frozenset({'g', 'e', 'f'})
 
 ## 蟒蛇 3
 
-```
+```py
 String = "Welcome to GeeksForGeeks"
 print("Creating String: ")
 print(String)
@@ -295,7 +295,7 @@ print(String[-1])
 
 **Output**
 
-```
+```py
 Creating String: 
 Welcome to GeeksForGeeks
 
@@ -314,7 +314,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating bytearray
 a = bytearray((12, 8, 25, 2))
 print("Creating Bytearray:")
@@ -336,7 +336,7 @@ print(a)
 
 **Output**
 
-```
+```py
 Creating Bytearray:
 bytearray(b'\x0c\x08\x19\x02')
 
@@ -363,7 +363,7 @@ A [计数器](https://www.geeksforgeeks.org/counters-in-python-set-1/)是字典�
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 # With sequence of items
@@ -379,7 +379,7 @@ print(count)
 
 **Output**
 
-```
+```py
 Counter({'B': 5, 'A': 3, 'C': 2})
 Counter({'B': 5, 'A': 3, 'C': 2})
 Counter({'B': 5, 'A': 4, 'C': 2, 1: 1})
@@ -393,7 +393,7 @@ Counter({'B': 5, 'A': 4, 'C': 2, 1: 1})
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import OrderedDict
 
 print("Before deleting:\n")
@@ -419,7 +419,7 @@ for key, value in od.items():
 
 **Output**
 
-```
+```py
 Before deleting:
 
 a 1
@@ -451,7 +451,7 @@ c 3
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import defaultdict
 
 # Defining the dict
@@ -473,7 +473,7 @@ print(d)
 
 **Output**
 
-```
+```py
 defaultdict(<class 'int'>, {1: 2, 2: 3, 3: 1, 4: 2})
 ```
 
@@ -485,7 +485,7 @@ A [ChainMap](https://www.geeksforgeeks.org/chainmap-in-python/) 将许多词典�
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import ChainMap
 
 d1 = {'a': 1, 'b': 2}
@@ -502,12 +502,12 @@ print(c['g'])
 
 **输出**
 
-```
+```py
 ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 1
 ```
 
-```
+```py
 KeyError: 'g'
 ```
 
@@ -519,7 +519,7 @@ KeyError: 'g'
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import namedtuple
 
 # Declaring namedtuple()
@@ -539,7 +539,7 @@ print (S.name)
 
 **Output**
 
-```
+```py
 The Student age using index is : 19
 The Student name using keyname is : Nandini
 ```
@@ -554,7 +554,7 @@ Python Deque 是使用双链表实现的，因此随机访问元素的性能是 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing "collections" for deque operations
 import collections
 
@@ -596,7 +596,7 @@ print(de)
 
 **Output**
 
-```
+```py
 The deque after appending at right is : 
 deque([1, 2, 3, 4])
 The deque after appending at left is : 
@@ -615,7 +615,7 @@ deque([1, 2, 3])
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import UserDict
 
 # Creating a Dictionary where
@@ -650,12 +650,12 @@ d.pop(1)
 
 **输出**
 
-```
+```py
 Original Dictionary
 {'a': 1, 'b': 2, 'c': 3}
 ```
 
-```
+```py
 RuntimeError: Deletion not allowed
 ```
 
@@ -667,7 +667,7 @@ RuntimeError: Deletion not allowed
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # userlist
 
@@ -704,14 +704,14 @@ L.remove()
 
 **输出**
 
-```
+```py
 Original List
 [1, 2, 3, 4]
 After Insertion
 [1, 2, 3, 4, 5]
 ```
 
-```
+```py
 RuntimeError: Deletion not allowed
 ```
 
@@ -723,7 +723,7 @@ RuntimeError: Deletion not allowed
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import UserString
 
 # Creating a Mutable String
@@ -754,7 +754,7 @@ print("String after Removing:", s1.data)
 
 **Output**
 
-```
+```py
 Original String: Geeks
 String After Appending: Geekss
 String after Removing: Gkss
@@ -777,7 +777,7 @@ String after Removing: Gkss
 
 ## 蟒蛇 3
 
-```
+```py
 # Node class
 class Node:
 
@@ -800,7 +800,7 @@ class LinkedList:
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python program to introduce a linked list
 
 # Node class
@@ -876,7 +876,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python program for traversal of a linked list
 
 # Node class
@@ -920,7 +920,7 @@ if __name__=='__main__':
 
 **Output**
 
-```
+```py
 1
 2
 3
@@ -954,7 +954,7 @@ Python 内置的数据结构列表可以作为堆栈使用。使用 append()代�
 
 ## 蟒蛇 3
 
-```
+```py
 stack = []
 
 # append() function to push
@@ -984,7 +984,7 @@ print(stack)
 
 **Output**
 
-```
+```py
 Initial stack
 ['g', 'f', 'g']
 
@@ -1003,7 +1003,7 @@ Python 堆栈可以使用集合模块中的 deque 类来实现。在我们需要
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import deque
 
 stack = deque()
@@ -1035,7 +1035,7 @@ print(stack)
 
 **Output**
 
-```
+```py
 Initial stack:
 deque(['g', 'f', 'g'])
 
@@ -1054,7 +1054,7 @@ deque([])
 
 ## 蟒蛇 3
 
-```
+```py
 from queue import LifoQueue
 
 # Initializing a stack
@@ -1086,7 +1086,7 @@ print("\nEmpty: ", stack.empty())
 
 **Output**
 
-```
+```py
 0
 Full:  True
 Size:  3
@@ -1126,7 +1126,7 @@ Python 中的队列可以通过以下方式实现:
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing a queue
 queue = []
 
@@ -1154,7 +1154,7 @@ print(queue)
 
 **Output**
 
-```
+```py
 Initial queue
 ['g', 'f', 'g']
 
@@ -1173,7 +1173,7 @@ Queue after removing elements
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import deque
 
 # Initializing a queue
@@ -1203,7 +1203,7 @@ print(q)
 
 **Output**
 
-```
+```py
 Initial queue
 deque(['g', 'f', 'g'])
 
@@ -1222,7 +1222,7 @@ deque([])
 
 ## 蟒蛇 3
 
-```
+```py
 from queue import Queue
 
 # Initializing a queue
@@ -1262,7 +1262,7 @@ print("Full: ", q.full())
 
 **Output**
 
-```
+```py
 0
 
 Full:  True
@@ -1287,7 +1287,7 @@ Full:  False
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple implementation of Priority Queue
 # using Queue.
 class PriorityQueue(object):
@@ -1332,7 +1332,7 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 12 1 14 7
 14
 12
@@ -1348,7 +1348,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing "heapq" to implement heap queue
 import heapq
 
@@ -1377,7 +1377,7 @@ print (heapq.heappop(li))
 
 **Output**
 
-```
+```py
 The created heap is : [1, 3, 9, 7, 5]
 The modified heap after push is : [1, 3, 4, 7, 5, 9]
 The popped and smallest element is : 1
@@ -1387,7 +1387,7 @@ The popped and smallest element is : 1
 
 树是一种分层数据结构，如下图所示–
 
-```
+```py
       tree
      ----
       j    <-- root
@@ -1409,7 +1409,7 @@ A [二叉树](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/)是�
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python class that represents an individual node
 # in a Binary Tree
 class Node:
@@ -1421,7 +1421,7 @@ class Node:
 
 现在让我们用 Python 创建一个包含 4 个节点的树。让我们假设树形结构如下所示–
 
-```
+```py
       tree
      ----
       1    <-- root
@@ -1435,7 +1435,7 @@ class Node:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to introduce Binary Tree
 
 # A class that represents an individual node in a
@@ -1478,7 +1478,7 @@ None None'''
 
 [树木可以通过不同的方式穿越](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)。以下是遍历树的常用方法。让我们考虑下面的树–
 
-```
+```py
       tree
      ----
       1    <-- root
@@ -1514,7 +1514,7 @@ None None'''
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to for tree traversals
 
 # A class that represents an individual node in a
@@ -1585,7 +1585,7 @@ printPostorder(root)
 
 **Output**
 
-```
+```py
 Preorder traversal of binary tree is
 1
 2
@@ -1625,7 +1625,7 @@ Postorder traversal of binary tree is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print level
 # order traversal using Queue
 
@@ -1681,7 +1681,7 @@ printLevelOrder(root)
 
 **Output**
 
-```
+```py
 Level Order Traversal of binary tree is -
 1
 2
@@ -1711,7 +1711,7 @@ A [图](https://www.geeksforgeeks.org/graph-and-its-representations/)是由节�
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple representation of graph using Adjacency Matrix
 class Graph:
     def __init__(self,numvertex):
@@ -1793,7 +1793,7 @@ print(G.get_matrix())
 
 ## 蟒蛇 3
 
-```
+```py
 # A class to represent the adjacency list of the node
 class AdjNode:
     def __init__(self, data):
@@ -1850,7 +1850,7 @@ if __name__ == "__main__":
 
 **Output**
 
-```
+```py
 Adjacency list of vertex 0
  head -> 4 -> 1 
 
@@ -1879,7 +1879,7 @@ Adjacency list of vertex 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to print BFS traversal
 # from a given source vertex. BFS(int s)
 # traverses vertices reachable from s.
@@ -1950,7 +1950,7 @@ g.BFS(2)
 
 **Output**
 
-```
+```py
 Following is Breadth First Traversal (starting from vertex 2)
 2 0 3 1 
 ```
@@ -1969,7 +1969,7 @@ Following is Breadth First Traversal (starting from vertex 2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to print DFS traversal
 # from a given given graph
 from collections import defaultdict
@@ -2032,7 +2032,7 @@ g.DFS(2)
 
 **Output**
 
-```
+```py
 Following is DFS from (starting from vertex 2)
 2 0 1 3 
 ```

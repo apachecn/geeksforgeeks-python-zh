@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`html.unescape()`方法，我们能够使用该方法将 ascii 字符串转换为 html 脚本。
 
-```
+```py
 # import html
 import html
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import html
 import html
 

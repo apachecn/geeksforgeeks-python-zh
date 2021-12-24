@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # For integers
 n = int(input())
 
@@ -29,7 +29,7 @@ n = input()
 
 ## 蟒 3
 
-```
+```py
 # For Strings
 x, y = input().split()
 
@@ -45,7 +45,7 @@ m, n = map(float, input().split())
 
 ## 蟒蛇 3
 
-```
+```py
 # For Input - 4 5 6 1 56 21 
 # (Space separated inputs)
 n = list(map(int, input().split()))
@@ -54,7 +54,7 @@ print(n)
 
 **输出:**
 
-```
+```py
 [4, 5, 6, 1, 56, 21]
 
 ```
@@ -63,7 +63,7 @@ print(n)
 
 ## 蟒 3
 
-```
+```py
 # Input: geeksforgeeks 2 0 2 0
 str, *lst = input().split()
 lst = list(map(int, lst))
@@ -73,7 +73,7 @@ print(str, lst)
 
 **输出:**
 
-```
+```py
 geeksforgeeks [2, 0, 2, 0]
 ```
 
@@ -85,7 +85,7 @@ geeksforgeeks [2, 0, 2, 0]
 
 ## 蟒 3
 
-```
+```py
 lst = ['geeks', 'for', 'geeks']
 
 for i in lst:
@@ -94,7 +94,7 @@ for i in lst:
 
 **输出:**
 
-```
+```py
 geeks
 for
 geeks
@@ -107,7 +107,7 @@ geeks
 
 ## 蟒 3
 
-```
+```py
 lst = ['geeks', 'for', 'geeks']
 
 for i in lst:
@@ -116,7 +116,7 @@ for i in lst:
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```
 
@@ -124,7 +124,7 @@ geeksforgeeks
 
 ## 蟒 3
 
-```
+```py
 lst = ['geeks', 'for', 'geeks']
 
 for i in lst:
@@ -133,7 +133,7 @@ for i in lst:
 
 **输出:**
 
-```
+```py
 geeks for geeks
 
 ```
@@ -144,7 +144,7 @@ geeks for geeks
 
 ## 蟒 3
 
-```
+```py
 print('I love {}'.format('geeksforgeeks.'))
 
 print("I love {0} {1}".format('Python', 'programming.')
@@ -152,7 +152,7 @@ print("I love {0} {1}".format('Python', 'programming.')
 
 **输出:**
 
-```
+```py
 I love geeksforgeeks.
 I love Python programming.
 

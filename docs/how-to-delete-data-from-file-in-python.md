@@ -21,7 +21,7 @@ Python 中的 os.remove()方法用于移除或删除文件路径。此方法不�
 
 ![python-delete-file](img/c0d705bde80e611600c0d534b268fbf1.png)
 
-```
+```py
 # code to delete entire data along with file
 import os
 
@@ -57,7 +57,7 @@ else:
 
 ![python-delete-file](img/cf4928c741679e7bd7553dec003db8f6.png)
 
-```
+```py
 # code to delete entire data 
 # but not the file, it is in
 
@@ -96,7 +96,7 @@ f.truncate() 
 
 ![python-delete-file](img/f21fdb82f9e55e13c4875023639e9c7d.png)
 
-```
+```py
 # code to delete a particular
 # data from a file
 

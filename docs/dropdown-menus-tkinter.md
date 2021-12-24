@@ -30,7 +30,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 

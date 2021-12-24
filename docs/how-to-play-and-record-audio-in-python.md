@@ -20,7 +20,7 @@ playsound library 的文档提到，它已经针对 WAV 和 MP3 文件进行了�
 
 ## 蟒蛇 3
 
-```
+```py
 #import the library
 from playsound import playsound
 
@@ -41,7 +41,7 @@ playsound('full_path/filename.mp3')
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import simpleaudio as sa
 
@@ -75,7 +75,7 @@ simpleaudio 可以用来播放 NumPy 和 Python 数组&字节对象使用 simple
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import simplesound as sa
 # Note frequencies
@@ -126,7 +126,7 @@ play.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 #Import windound
 import winsound
 
@@ -143,7 +143,7 @@ winsound.PlaySound(path_to_file, winsound.SND_FILENAME)
 
 ## 蟒蛇 3
 
-```
+```py
 #Import windound
 import winsound
 
@@ -168,7 +168,7 @@ winsound.PlaySound("SystemExit", winsound.SND_ALIAS)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import sounddevice as sd
 import soundfile as sf
@@ -198,7 +198,7 @@ sd.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 from pydub import AudioSegment
 from pydub.playback import play
 
@@ -218,7 +218,7 @@ PyAudio 是 Python 的另一个跨平台音频库。虽然它比简单的音频�
 
 ## 蟒蛇 3
 
-```
+```py
 ''' Play a WAVE file '''
 import pyaudio
 import wave
@@ -274,7 +274,7 @@ pa.terminate()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import sounddevice as sd
 from scipy.io.wavfile import write
@@ -313,7 +313,7 @@ wv.write("recording1.wav", recording, freq, sampwidth=2)
 
 ## 蟒蛇 3
 
-```
+```py
 import sounddevice as sd
 
 sd.default.samplerate = 4400
@@ -333,7 +333,7 @@ sd.wait()
 
 ## 蟒蛇 3
 
-```
+```py
 import sounddevice as sd
 import numpy as np
 
@@ -353,7 +353,7 @@ sd.wait()
 
 ## 蟒蛇 3
 
-```
+```py
 import pyaudio
 import wave
 

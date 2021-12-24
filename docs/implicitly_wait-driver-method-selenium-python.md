@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.implicitly_wait(time_to_wait)
 ```
 
 **示例–**
 现在可以使用隐式等待方法作为驱动方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.implicitly_wait(30)
 
@@ -27,7 +27,7 @@ driver.implicitly_wait(30)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

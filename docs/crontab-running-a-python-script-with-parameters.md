@@ -12,7 +12,7 @@ Cron 作业实用程序是 Unix 中基于时间的作业调度程序。它允许
 
 ## 计算机编程语言
 
-```
+```py
 #! /usr/bin/python3
 
 import sys
@@ -33,13 +33,13 @@ if __name__ == '__main__':
 
 **假设我们已经在主目录下将这个脚本保存为 my_script.py，我们可以通过在终端中输入以下命令来使它可执行:**
 
-```
+```py
 $ sudo chmod +x my_script.py
 ```
 
 **我们可以测试我们的脚本是否正常工作。**
 
-```
+```py
 ./my_script.py 1 2 3 4 5
 calculated result as: 120 on: 2021-07-01 12:19:48.856184
 ```
@@ -65,7 +65,7 @@ calculated result as: 120 on: 2021-07-01 12:19:48.856184
 
 **为了调度要执行的脚本，我们需要在 crontab 文件中输入 crontab 调度表达式。为此，只需在终端中输入以下内容:**
 
-```
+```py
 crontab -e
 ```
 

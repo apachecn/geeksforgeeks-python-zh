@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import cairo
 print("GFG")

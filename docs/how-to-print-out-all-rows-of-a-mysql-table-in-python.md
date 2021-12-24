@@ -8,7 +8,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于 web 
 
 首先，我们将连接到一个包含 MySQL 表的数据库。用于获取所有行的 SQL 查询:
 
-```
+```py
 *SELECT * FROM table-name* 
 
 ```
@@ -27,7 +27,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于 web 
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 pymysql.install_as_MySQLdb()
@@ -66,7 +66,7 @@ for row in result:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import MySQLdb
 import pymysql

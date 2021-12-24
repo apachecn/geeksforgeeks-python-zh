@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [10, 10, 0, 0, 10]
         list2 = [10, 10, 10, 0, 0]
 Output : Yes
@@ -27,7 +27,7 @@ Output :No
 
 下面是上述方法的 Python 实现:
 
-```
+```py
 # python program to check if two 
 # lists are circularly identical
 # using traversal
@@ -75,7 +75,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 No
 
@@ -83,7 +83,7 @@ No
 
 **方法二:使用列表切片**
 
-```
+```py
 # python program to check if two 
 # lists are circularly identical
 # using traversal
@@ -123,7 +123,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 No
 
@@ -135,7 +135,7 @@ No
 
 下面是上述方法的 Python 实现:
 
-```
+```py
 # python program to check if two 
 # lists are circularly identical
 # using map function 
@@ -165,7 +165,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 No
 

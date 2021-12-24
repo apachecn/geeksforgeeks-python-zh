@@ -8,19 +8,19 @@ Python 旨在保持一致性和可读性。在使用++和——运算符的语�
 
 你不会写这样的东西:
 
-```
+```py
 for (int i = 0; i < 5; ++i)
 ```
 
 对于正常使用，如果您正在增加计数，您可以使用，而不是 i++
 
-```
+```py
 i+=1 or i=i+1
 ```
 
 相反，在 Python 中，我们编写如下，语法如下:
 
-```
+```py
 for variable_name in range(start, stop, step)
 ```
 
@@ -30,7 +30,7 @@ for variable_name in range(start, stop, step)
 
 ## 蟒蛇 3
 
-```
+```py
 # A sample use of increasing the variable value by one.
 count=0
 count+=1
@@ -54,7 +54,7 @@ for i in range(4, -1, -1):
 
 **Output**
 
-```
+```py
 INCREMENTED FOR LOOP
 0
 1
@@ -70,7 +70,7 @@ INCREMENTED FOR LOOP
 0
 ```
 
-```
+```py
 Output-1: INCREMENTED FOR LOOP
 0
 1

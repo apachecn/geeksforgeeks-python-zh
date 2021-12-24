@@ -24,7 +24,7 @@
 
 ****Python 实现:****
 
-```
+```py
 # import Python Libraries
 import numpy as np
 from matplotlib import pyplot as plt
@@ -125,7 +125,7 @@ print(prediction)
 
 ****Output:**
 
-```
+```py
 [[ 0\.  0\.  1\.  0.]]
 
 ```** 

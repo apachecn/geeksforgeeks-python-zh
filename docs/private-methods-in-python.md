@@ -20,7 +20,7 @@
 
 **注意:** `__init__` 方法是一个构造函数，只要一个类的对象被实例化就运行。
 
-```
+```py
 # Python program to 
 # demonstrate private methods
 
@@ -72,7 +72,7 @@ obj2.call_public()
 
 **输出:**
 
-```
+```py
 Public method
 
 Inside derived class
@@ -80,7 +80,7 @@ Public method
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/09d6f91fdb63d16200e172c7a925dd7f.py", line 43, in obj1.__fun() 
 AttributeError: 'Base' object has no attribute '__fun'
@@ -96,7 +96,7 @@ AttributeError: 'Derived' object has no attribute '_Derived__fun'</module>
 
 **示例:**
 
-```
+```py
 # Python program to 
 # demonstrate private methods
 
@@ -124,7 +124,7 @@ obj.Help()
 
 **输出:**
 
-```
+```py
 Public method
 Private method
 
@@ -136,7 +136,7 @@ Python 提供了一个魔杖，可以用来调用类外的私有方法，也就�
 
 **示例:**
 
-```
+```py
 # Python program to 
 # demonstrate private methods
 
@@ -161,7 +161,7 @@ obj._A__fun()
 
 **输出:**
 
-```
+```py
 Private method
 
 ```

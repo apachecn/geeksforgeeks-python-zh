@@ -21,7 +21,7 @@ Python 中的`os.path.isfile()`方法用于检查指定的路径是否是现有�
 
 **Example:**
 
-```
+```py
 # Python program to explain os.path.isfile() method  
 
 # importing os module  
@@ -48,7 +48,7 @@ print(isFile) 
 
 **输出:**
 
-```
+```py
 True
 False
 
@@ -67,7 +67,7 @@ Python 中的`os.path.isdir()`方法用于检查指定路径是否为现有目�
 
 **示例#1:** 使用 os.path.isdir()方法。
 
-```
+```py
 # Python program to explain os.path.isdir() method  
 
 # importing os.path module  
@@ -94,7 +94,7 @@ print(isdir) 
 
 **输出:**
 
-```
+```py
 False 
 True
 
@@ -102,7 +102,7 @@ True
 
 **示例#2:** 如果指定的路径是符号链接。
 
-```
+```py
 # Python program to explain os.path.isdir() method  
 
 # importing os.path module  
@@ -138,7 +138,7 @@ print(isdir) 
 
 **输出:**
 
-```
+```py
 True
 True
 
@@ -157,7 +157,7 @@ Python 中的`os.path.exists()`方法用于检查指定路径是否存在。这�
 
 **示例:**
 
-```
+```py
 # Python program to explain os.path.exists() method  
 
 # importing os module  
@@ -184,7 +184,7 @@ print(isExist) 
 
 **输出:**
 
-```
+```py
 True
 True
 

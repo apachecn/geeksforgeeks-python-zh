@@ -22,7 +22,7 @@
 现在我们将编写一个代码来打印图像的高度和宽度。
 **代号:**
 
-```
+```py
 # import required libraries
 from __future__ import print_function
 from wand.image import Image
@@ -39,7 +39,7 @@ from wand.image import Image
 
 **输出:**
 
-```
+```py
 height = 300
 width = 400
 
@@ -47,7 +47,7 @@ width = 400
 
 我们还可以使用 urllib2 通用 python 库中的`urlopen`函数从 url 中读取图像。让我们看看打印从 url 读取的图像高度和宽度的代码。
 
-```
+```py
 # import required libraries
 from __future__ import print_function
 from urllib2 import urlopen

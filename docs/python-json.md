@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # JSON string
@@ -28,7 +28,7 @@ print(type(json_object))
 
 **输出:**
 
-```
+```py
  {'id': '09', 'name': 'Nitin', 'department': 'Finance'}
 <class 'dict'>
 

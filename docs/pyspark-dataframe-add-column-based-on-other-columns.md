@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a spark session
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName('SparkExamples').getOrCreate()
@@ -51,7 +51,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 new_df = df.withColumn('After_discount',
                        df.Course_Fees - df.Discount)
 new_df.show()
@@ -69,7 +69,7 @@ new_df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 df.registerTempTable('table')
 newDF = spark.sql('select *, Course_Fees - Discount as Total from table')
 newDF.show()
@@ -87,7 +87,7 @@ newDF.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import the functions as F from pyspark.sql
 import pyspark.sql.functions as F
 from pyspark.sql.types import IntegerType

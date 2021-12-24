@@ -8,13 +8,13 @@
 
 **步骤 1:** 从 PIL 图书馆导入图像模块
 
-```
+```py
 from PIL import Image
 ```
 
 该模块提供了一个具有相同名称的类，用于表示 PIL 图像。并且还提供各种功能，包括从文件加载图像和创建新图像的功能。我不会在这里解释整个图像模块。但是，以下是打开图像文件的方法。
 
-```
+```py
 image_variable_name = Image.open("lena.jpg")
 ```
 
@@ -22,13 +22,13 @@ image_variable_name = Image.open("lena.jpg")
 
 现在，您可以在图像查看器中看到带有一行代码的图像。
 
-```
+```py
 image_variable_name.show()
 ```
 
 **步骤 2:** 现在是时候从 PIL 图书馆导入最重要的模块——“图像增强”模块了
 
-```
+```py
 from PIL import ImageEnhance
 ```
 
@@ -57,7 +57,7 @@ from PIL import ImageEnhance
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageEnhance
 
@@ -94,7 +94,7 @@ img_brightened.show()  
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageEnhance
 
@@ -131,7 +131,7 @@ img_colored.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageEnhance
 
@@ -168,7 +168,7 @@ img_contrasted.show()  
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL import ImageEnhance
 

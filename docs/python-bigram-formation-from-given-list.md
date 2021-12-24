@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate() + split()`**
 以上三个功能的组合可以用来实现这个特定的任务。枚举函数执行可能的迭代，拆分函数用于配对，列表理解用于组合逻辑。
 
-```
+```py
 # Python3 code to demonstrate
 # Bigram formation
 # using list comprehension + enumerate() + split()
@@ -35,7 +35,7 @@ print ("The formed bigrams are : " + str(res))
 **方法#2:使用`zip() + split() + list comprehension`**
 上述方法中执行的枚举任务也可以通过使用迭代器由 zip 函数执行，因此速度更快。让我们讨论一下实现这一点的某些方法。
 
-```
+```py
 # Python3 code to demonstrate
 # Bigram formation
 # using zip() + split() + list comprehension

@@ -5,7 +5,7 @@
 在 python 中扩展一个列表可以通过以下方式完成:
 **1。使用[追加()函数](https://www.geeksforgeeks.org/list-methods-python/)** :我们可以使用追加()函数追加到列表的末尾。对于将任何单个值附加到列表或将列表附加到列表，语法保持不变。但是我们一次只能使用 append()函数追加一个值
 
-```
+```py
 # Python program to extend a list using append()
 
 a = [10, 12, 13, 17] 
@@ -18,14 +18,14 @@ print(a)
 
 **输出:**
 
-```
+```py
 [10, 12, 13, 17, 20, 22]
 
 ```
 
 **2。使用“+”运算符:**我们可以使用“+”运算符来添加值。我们可以使用[]向列表中添加任意数量的值。添加多个值可以通过使用'，'值来完成。
 
-```
+```py
 # Python program to extend a list using '+' 
 
 a = [10, 12, 13, 17] 
@@ -40,7 +40,7 @@ print(a)
 
 输出:
 
-```
+```py
 [10, 12, 13, 17, 20, 30, 40]
 
 ```
@@ -53,7 +53,7 @@ print(a)
 
 ![](img/3b60f3845ab7e23f8cc0dc4a7dd64c85.png)
 
-```
+```py
 # Python program to extend a list using 'slicing' 
 
 # appending multiple value 
@@ -69,7 +69,7 @@ print(a)
 
 输出:
 
-```
+```py
 [40, 50, 30, 10, 12, 13, 17]
 
 ```
@@ -80,7 +80,7 @@ print(a)
 
 这里 a 是值(x，y，z..)将被添加。在这种方法中，值被附加到列表的末尾。
 
-```
+```py
 # python program to extend a list using 
 # "chain" iterator functions
 from itertools import *
@@ -93,14 +93,14 @@ print(list(chain(a, [40, 50, 60])))
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 40, 50, 60]
 
 ```
 
 **5。使用[扩展](https://www.geeksforgeeks.org/list-methods-python/)T3**
 
-```
+```py
 # Python program to extend a list using extend() 
 a = [10, 12, 13, 17] 
 
@@ -113,7 +113,7 @@ print(a)
 
 输出:
 
-```
+```py
 [10, 12, 13, 17, 30, 40]
 
 ```

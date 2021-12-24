@@ -16,7 +16,7 @@ Python 也支持文件处理，并允许用户处理文件，即读写文件，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for writing
 # to file
 
@@ -37,7 +37,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for reading
 # from file
 
@@ -66,7 +66,7 @@ print("The sum is:", a)
 
 **输出:**
 
-```
+```py
 The sum is: 24
 ```
 

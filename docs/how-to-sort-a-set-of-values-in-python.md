@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 sorted(iterable, key, reverse)
 ```
 
@@ -20,7 +20,7 @@ sorted(iterable, key, reverse)
 
 ## 蟒蛇 3
 
-```
+```py
 # List
 list_of_items = ['g', 'e', 'e', 'k', 's']
 print(sorted(list_of_items))
@@ -49,7 +49,7 @@ print(sorted(frozen_set))
 
 **Output**
 
-```
+```py
 ['e', 'e', 'g', 'k', 's']
 ['e', 'e', 'g', 'k', 's']
 ['e', 'e', 'g', 'k', 's']
@@ -64,7 +64,7 @@ print(sorted(frozen_set))
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter with pre-defined
 # function i.e. len()
 
@@ -76,7 +76,7 @@ print("Sorting with len as key parameter:", sorted(list_of_items, key=len))
 
 **Output**
 
-```
+```py
 Sorting without key parameter: ['apple', 'ball', 'cat', 'dog']
 Sorting with len as key parameter: ['cat', 'dog', 'ball', 'apple']
 ```
@@ -87,7 +87,7 @@ Sorting with len as key parameter: ['cat', 'dog', 'ball', 'apple']
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter with user-defined
 # function i.e. by_name
 # using key parameter with user-defined
@@ -131,7 +131,7 @@ print("Sorting with by_marks as key parameter:",
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter reverse
 
 list_of_items = ["geeks","for","geeks"]
@@ -145,7 +145,7 @@ print("Sorting with len as key parameter:",
 
 **Output**
 
-```
+```py
 Sorting without key parameter: ['for', 'geeks', 'geeks']
 Sorting with len as key parameter: ['geeks', 'geeks', 'for']
 ```
@@ -156,7 +156,7 @@ Sorting with len as key parameter: ['geeks', 'geeks', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # using by_name and by_marks as key parameter
 # and making reverse parameter true
 
@@ -209,7 +209,7 @@ print("Sorting with by_marks as key parameter and reverse parameter as True:",
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a list of items
 list_of_items = ["geeks", "for", "geeks"]
 print("Original list:", list_of_items)
@@ -224,7 +224,7 @@ print("Sorted list:", list_of_items)
 
 **Output**
 
-```
+```py
 Original list: ['geeks', 'for', 'geeks']
 Sorted list: ['for', 'geeks', 'geeks']
 ```
@@ -235,7 +235,7 @@ Sorted list: ['for', 'geeks', 'geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter with pre-defined
 # function i.e. len()
 
@@ -251,7 +251,7 @@ print("Sorting with len as key parameter:", list_of_items)
 
 **Output**
 
-```
+```py
 Original List: ['apple', 'ball', 'cat', 'dog']
 Sorting with len as key parameter: ['cat', 'dog', 'ball', 'apple']
 
@@ -263,7 +263,7 @@ Sorting with len as key parameter: ['cat', 'dog', 'ball', 'apple']
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter with user-defined
 # function i.e. by_name
 # using key parameter with user-defined
@@ -318,7 +318,7 @@ print("Sorting with by_marks as key parameter:", list_of_items)
 
 ## 蟒蛇 3
 
-```
+```py
 # using key parameter reverse
 
 list_of_items = ["geeks", "for", "geeks"]
@@ -331,7 +331,7 @@ print("sorting with reverse parameter", list_of_items)
 
 **Output**
 
-```
+```py
 original list: ['geeks', 'for', 'geeks']
 sorting with reverse parameter ['geeks', 'geeks', 'for']
 ```

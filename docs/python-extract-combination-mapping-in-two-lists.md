@@ -7,7 +7,7 @@
 **方法:使用`zip() + product()`**
 这些功能可以解决这个问题，并且需要两步来执行。在第一步中，我们使用`product()`找到所有元素的组合，作为第二步的一部分，我们使用`zip()`对第一步的结果进行可能的配对，并输出期望的结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Combination Mapping in two lists
 # using zip() + product()

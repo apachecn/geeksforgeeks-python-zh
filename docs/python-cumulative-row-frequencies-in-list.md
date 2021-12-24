@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cumulative Row Frequencies
 # Using Counter() + list comprehension
@@ -56,7 +56,7 @@ print("Cumulative Frequencies : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cumulative Row Frequencies
 # Using sum() + list comprehension

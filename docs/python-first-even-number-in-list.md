@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们循环遍历列表，当第一次出现偶数时，我们存储并打破循环。
 
-```
+```py
 # Python3 code to demonstrate 
 # First Even Number in List
 # using loop
@@ -32,7 +32,7 @@ print ("The first even element in list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [43, 9, 6, 72, 8, 11]
 The first even element in list is : 6
 

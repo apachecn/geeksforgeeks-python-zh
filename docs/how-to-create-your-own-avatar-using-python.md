@@ -6,7 +6,7 @@
 
 我们将使用 **py-avataaars** 包，从中我们将创建那些美丽的化身。本模块的基本语法是:
 
-```
+```py
 from py_avataaars import PyAvataaar
 
 avatar = PyAvataaar()
@@ -28,7 +28,7 @@ avatar.render_png_file('<output_file.png>')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the require package
 from py_avataaars import PyAvataaar  
 
@@ -53,7 +53,7 @@ avatar.render_png_file("AVATAR_1.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create custom avatars
 
 # importing the require package

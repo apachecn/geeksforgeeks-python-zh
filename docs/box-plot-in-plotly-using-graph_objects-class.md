@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as px
 import numpy as np
 
@@ -61,7 +61,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as px
 import numpy as np
 

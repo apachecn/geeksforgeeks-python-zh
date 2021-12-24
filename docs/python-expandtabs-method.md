@@ -15,7 +15,7 @@ expandtabs 是 Python 3 中 Strings 中指定的方法。
 
 **代码#1 :** 代码演示 expandtabs()
 
-```
+```py
 # Python3 code to demonstrate
 # working of expandtabs()
 
@@ -43,7 +43,7 @@ print("\r")
 
 输出:
 
-```
+```py
 Modified string using default spacing: i       love    gfg
 
 Modified string using less spacing: i love  gfg
@@ -57,7 +57,7 @@ Modified string using more spacing: i           love        gfg
 
 **代码#2 :** 代码演示 expandtabs()异常
 
-```
+```py
 # Python3 code to demonstrate
 # exception of expandtabs()
 
@@ -76,7 +76,7 @@ except Exception as e:
 
 输出:
 
-```
+```py
 Modified string using default spacing: 
 Error !! The error occurred is :
 integer argument expected, got float

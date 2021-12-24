@@ -6,7 +6,7 @@
 
 ### 安装:
 
-```
+```py
 pip install captcha
 ```
 
@@ -18,19 +18,19 @@ pip install captcha
 
 **步骤 1:** 导入模块并创建 **ImageCaptcha()的实例。**
 
-```
+```py
 image = ImageCaptcha(width = 280, height = 90)
 ```
 
 **步骤 2:** 用**图像创建图像对象。生成(验证码 _ 文本)。**
 
-```
+```py
 data = image.generate(captcha_text)  
 ```
 
 **步骤 3:** 将图像保存到文件 **image.write()。**
 
-```
+```py
 image.write(captcha_text, 'CAPTCHA.png')
 ```
 
@@ -38,7 +38,7 @@ image.write(captcha_text, 'CAPTCHA.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the following modules
 from captcha.image import ImageCaptcha
 
@@ -69,19 +69,19 @@ image.write(captcha_text, 'CAPTCHA.png')
 
 **步骤 1:** 导入模块并创建一个**音频验证码的实例()。**
 
-```
+```py
 image = audioCaptcha(width = 280, height = 90)
 ```
 
 **步骤 2:** 用**音频创建一个音频对象。**
 
-```
+```py
 data = audio.generate(captcha_text)  
 ```
 
 **第三步:**将图像保存到文件**中。**
 
-```
+```py
 audio.write(captcha_text, audio_file)
 ```
 
@@ -89,7 +89,7 @@ audio.write(captcha_text, audio_file)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the following modules
 from captcha.audio import AudioCaptcha
 

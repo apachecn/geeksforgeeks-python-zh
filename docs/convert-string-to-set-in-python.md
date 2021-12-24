@@ -12,7 +12,7 @@
 
 **例 1 :**
 
-```
+```py
 # create a string str
 string = "geeks"
 print("Initially")
@@ -28,7 +28,7 @@ print("Contents of string : ", string)
 
 **输出:**
 
-```
+```py
 Initially
 The datatype of string : 
 Contents of string : geeks
@@ -41,7 +41,7 @@ Contents of string :  {'k', 's', 'g', 'e'}
 
 **例 2 :**
 
-```
+```py
 # create a string str
 string = "Hello World!"
 print("Initially")
@@ -57,7 +57,7 @@ print("Contents of string : ", string)
 
 **输出:**
 
-```
+```py
 Initially
 The datatype of string : 
 Contents of string : Hello World!

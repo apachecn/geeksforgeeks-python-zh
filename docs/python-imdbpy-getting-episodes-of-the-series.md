@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -47,7 +47,7 @@ print(episodes)
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 

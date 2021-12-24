@@ -13,7 +13,7 @@
 **方法#1:使用`set() + dictionary comprehension + items()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们首先减少列表元素以消除重复，使用 items()提取字典项，并使用字典理解来构建所需的字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionary items with List elements
 # Using set() + dictionary comprehension + items()
@@ -49,7 +49,7 @@ print("The extracted dictionary: " + str(res)) 
 **方法二:使用`all()` +字典理解**
 以上功能的组合可以用来解决这个问题。这是一个单行解决方案，使用 all()检查元素成员资格以决定过滤。词典理解担负着构建词典的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionary items with List elements
 # Using all() + dictionary comprehension
@@ -73,7 +73,7 @@ print("The extracted dictionary: " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'is': [10], 'best': [4, 5, 7], 'gfg': [4, 6]}
 The extracted dictionary: {'is': [10], 'gfg': [4, 6]}
 

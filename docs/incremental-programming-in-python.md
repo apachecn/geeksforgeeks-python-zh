@@ -16,7 +16,7 @@
 
 **1\.** We will instantiate the turtle object.
 
-```
+```py
 # importing the odule
 import turtle
 
@@ -26,7 +26,7 @@ house = turtle.Turtle()
 
 **2。**首先让我们画一条垂直线
 
-```
+```py
 house.right(90)
 house.forward(50)
 house.left(90)
@@ -37,7 +37,7 @@ house.forward(50)
 
 **3。**我们在底部加一条水平线
 
-```
+```py
 house.left(90)
 house.forward(50)
 ```
@@ -46,7 +46,7 @@ house.forward(50)
 
 **4。**在这里我们可以添加一条垂直和水平的线，这样我们就可以得到一个盒子的形状。
 
-```
+```py
 house.left(90)
 house.forward(50)
 house.left(90)
@@ -57,7 +57,7 @@ house.forward(50)
 
 **5。**现在我们要加屋顶才能让房子完整。
 
-```
+```py
 house.left(180)
 house.left(60)
 house.forward(50)

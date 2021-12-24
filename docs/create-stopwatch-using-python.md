@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a
 # a new window using Tkinter
 # importing the required libraries
@@ -33,7 +33,7 @@ top.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate a stop watch
 # using Tkinter
 #importing the required libraries

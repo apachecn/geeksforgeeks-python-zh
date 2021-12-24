@@ -6,7 +6,7 @@
 
 **方法#1:使用*镜头*T3】**
 
-```
+```py
 # Python code to find number of list in a tuple
 
 # Initial list 
@@ -41,7 +41,7 @@ print("\n")
 
 **Output:**
 
-```
+```py
 Initial list :
 ([1, 2, 3, 4], [5, 6, 7, 8])
 No of list in tuples are :
@@ -61,7 +61,7 @@ No of list in tuples are :
 
 **方法 2:使用功能和实例**
 
-```
+```py
 # Python code to find number of list in a tuple
 
 # Using find function
@@ -103,7 +103,7 @@ print("\n")
 
 **Output:**
 
-```
+```py
 Initial list :
 ([1, 2, 3, 4], [5, 6, 7, 8])
 No of list in tuples are :

@@ -8,7 +8,7 @@
 安装库 pyinstaller。
 在命令提示符下键入以下命令。
 
-```
+```py
 pip install pyinstaller
 ```
 
@@ -34,7 +34,7 @@ pip install pyinstaller
 **第 5 步:**
 在 PowerShell 窗口中键入下面给出的命令。
 
-```
+```py
 pyinstaller --onefile -w 'filename.py'
 ```
 
@@ -49,7 +49,7 @@ pyinstaller --onefile -w 'filename.py'
 
 输入上述命令时的修正:
 
-```
+```py
 .\pyinstaller --onefile -w 'filename.py'
 
 For any missing package:

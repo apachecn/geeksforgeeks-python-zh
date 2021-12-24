@@ -7,7 +7,7 @@
 **方法一:使用 `zip() + split() + list slicing`**
 以上功能的组合可以用来解决这个问题。在这种情况下，首先将字符串转换为字符串列表，然后使用`zip()`和列表切片功能制作所需的元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to list of tuples
 # Using zip() + list slicing + split()

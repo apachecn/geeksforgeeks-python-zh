@@ -52,7 +52,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # load data
@@ -95,7 +95,7 @@ abc.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Splitting the values by comma in 1
 # no column (punch records)
 for i in range(len(abc)):
@@ -127,7 +127,7 @@ for i in range(len(abc)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Punch Records should start with
 # the keyword 'in'. If it doesn't
 # follow then we wil add 'in' and it
@@ -165,7 +165,7 @@ second_door[0]
 
 ## 蟒蛇 3
 
-```
+```py
 # final_in contains PUNCH - IN
 # records for all employees
 final_in = []
@@ -244,7 +244,7 @@ for i in range(len(final_in[0])):
 
 ## 计算机编程语言
 
-```
+```py
 # Creating a dataframe called df_final
 df_final = []
 df_final = pd.DataFrame(df_final)

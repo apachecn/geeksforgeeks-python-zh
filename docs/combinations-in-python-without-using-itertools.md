@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import combinations from itertools
 from itertools import combinations
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 [('a', 'b'), ('a', 'c'), ('b', 'c')]
 ```
 
@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to create combinations
 # without itertools
 def n_length_combo(lst, n):
@@ -68,7 +68,7 @@ if __name__=="__main__":
 
 *   **输出**
 
-```
+```py
 [('a', 'b'), ('a', 'c'), ('b', 'c')]
 ```
 
@@ -77,7 +77,7 @@ if __name__=="__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 def n_length_combo(iterable, r):
@@ -115,6 +115,6 @@ print([x for x in n_length_combo("abc", 2)])
 
 *   **输出**
 
-```
+```py
 [('a', 'b'), ('a', 'c'), ('b', 'c')]
 ```

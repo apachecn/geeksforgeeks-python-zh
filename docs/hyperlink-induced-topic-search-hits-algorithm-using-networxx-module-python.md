@@ -25,7 +25,7 @@ HITS 使用中枢和权威来定义网页之间的递归关系。在理解 HITS 
 
 使用![k = 3  ](img/b07b398f3937d45f38236c833321bef9.png "Rendered by QuickLaTeX.com")(无归一化)运行 HITS 算法时，
 
-```
+```py
 Initially,
 Hub Scores:        Authority Scores:
 A -> 1             A -> 1
@@ -75,7 +75,7 @@ Python 包 Networkx 有一个运行 HITS 算法的内置函数。参考上面的
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -102,7 +102,7 @@ print("Authority Scores: ", authorities)
 
 ![](img/1b1f8a71a57ef0a2de74ad30fb0abd44.png)
 
-```
+```py
 Hub Scores:  {'A': 0.04642540386472174, 'D': 0.133660375232863,
               'B': 0.15763599440595596, 'C': 0.037389132480584515, 
               'E': 0.2588144594158868, 'F': 0.15763599440595596,

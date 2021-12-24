@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `enumerate()`**
 获取列表每第 k 个数的功能可以借助列表理解来完成，枚举功能有助于整个列表的迭代。
 
-```
+```py
 # Python3 code to demonstrate
 # Every Kth element removal in List
 # using list comprehension + enumerate()
@@ -32,7 +32,7 @@ print ("The list after removing every Kth element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The list after removing every kth element : [4, 5, 7, 8, 12]
 

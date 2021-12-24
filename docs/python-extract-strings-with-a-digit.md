@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Strings with a digit
 # Using list comprehension + any() + isdigit()
@@ -47,7 +47,7 @@ print("Strings with any digit : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Strings with a digit
 # Using any() + filter() + lambda

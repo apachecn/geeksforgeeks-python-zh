@@ -13,7 +13,7 @@
 **方法:使用`defaultdict()` +循环**
 以上功能的组合可以解决这个问题。在这种情况下，我们创建列表的 defaultdict，并通过使用蛮力方法检查外观内部的关联来插入元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values Associated Keys
 # Using defaultdict() + loop
@@ -38,7 +38,7 @@ print("The values associated dictionary : " + str(dict(res))) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'is': [1, 4], 'gfg': [1, 2, 3], 'best': [4, 2]}
 The values associated dictionary : {1: ['is', 'gfg'], 2: ['gfg', 'best'], 3: ['gfg'], 4: ['is', 'best']}
 

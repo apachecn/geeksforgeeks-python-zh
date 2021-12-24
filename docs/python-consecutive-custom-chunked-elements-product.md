@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `enumerate()` +循环**
 列表理解可以做可能的迭代部分，枚举可以帮助逻辑部分，检查列表中需要的有效元素。循环用于执行产品。
 
-```
+```py
 # Python3 code to demonstrate 
 # Consecutive Custom Chunked elements Product
 # using list comprehension + enumerate() + loop

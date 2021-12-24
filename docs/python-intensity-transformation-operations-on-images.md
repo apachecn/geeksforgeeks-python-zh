@@ -32,7 +32,7 @@
 
 **下面是对图像应用日志转换的代码。**
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -57,7 +57,7 @@ cv2.imwrite('log_transformed.jpg', log_transformed)
 
 **幂律(γ)变换在数学上可以表示为![s = cr^{\gamma}](img/5b7795fa19cdee392677ae3dfb61270b.png "Rendered by QuickLaTeX.com")。伽马校正对于在屏幕上正确显示图像非常重要，以防止从具有不同显示设置的不同类型的显示器上观看图像时出现褪色或变暗。这是因为我们的眼睛以伽马曲线感知图像，而相机以线性方式捕捉图像。下面是应用伽马校正的 Python 代码。**
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -96,7 +96,7 @@ for gamma in [0.1, 0.5, 1.2, 2.2]:
 
 **对比度可以定义为:**
 
-```
+```py
 `Contrast =  (I_max - I_min)/(I_max + I_min)`
 ```
 
@@ -107,7 +107,7 @@ for gamma in [0.1, 0.5, 1.2, 2.2]:
 
 **下面是执行对比度拉伸的 Python 代码。**
 
-```
+```py
 import cv2
 import numpy as np
 

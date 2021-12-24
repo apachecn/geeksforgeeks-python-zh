@@ -7,13 +7,13 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 pause(seconds)
 ```
 
 **Args –**`seconds` – Number of seconds to pause for.**Example –**One can use pause method as an Action chain as below –
 
-```
+```py
 pause(1024)
 
 ```
@@ -24,7 +24,7 @@ pause(1024)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -18,13 +18,13 @@
 
 **语法:**
 
-```
+```py
 combinations(iterator, r)
 ```
 
 **实施例 1:-**
 
-```
+```py
 # Combinations Of string "GeEKS" OF SIZE 3.
 
 from itertools import combinations
@@ -40,14 +40,14 @@ print(y)
 
 **输出:-**
 
-```
+```py
 ['G e E', 'G e K', 'G e S', 'G E K', 'G E S', 'G K S', 'e E K', 'e E S', 'e K S', 'E K S']
 
 ```
 
 **实施例 2:-**
 
-```
+```py
 from itertools import combinations
 
 print ("All the combination of list in sorted order(without replacement) is:")   
@@ -64,7 +64,7 @@ print(list(combinations(range(2), 1))) 
 
 **输出:-**
 
-```
+```py
 All the combination of list in sorted order(without replacement) is:
 [('A', 2)]
 

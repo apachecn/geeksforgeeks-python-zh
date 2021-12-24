@@ -7,7 +7,7 @@
 **方法#1:使用`ljust()`**
 这个任务可以使用 ljust 的简单内置字符串函数来执行，在这个函数中，我们只需要将所需的 N 次和元素传递到右边的 pad，在这个例子中是 k
 
-```
+```py
 # Python3 code to demonstrate
 # Append K character N times
 # using ljust()
@@ -34,7 +34,7 @@ print("The string after adding trailing K : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding trailing K : GFGMMMMM
 

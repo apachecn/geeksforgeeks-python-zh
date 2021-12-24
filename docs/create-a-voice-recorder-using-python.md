@@ -8,7 +8,7 @@ Python 可以用来执行各种任务。其中一个是创造一个录音机。�
 
 *   **sounddevice:** 该模块提供播放和录制包含音频信号的 NumPy 阵列的功能。让我们通过运行以下命令来安装**T3:**
 
-```
+```py
 $ pip3 install sounddevice
 
 ```
@@ -16,14 +16,14 @@ $ pip3 install sounddevice
 *   我们可以使用 **wavio** 和 **scipy** 以文件格式**保存录制的音频。**我们会在这里看到他们两个。
 *   要安装 **wavio:**
 
-```
+```py
 $ pip3 install wavio
 
 ```
 
 *   要安装 **scipy** :
 
-```
+```py
 $ pip3 install scipy
 
 ```
@@ -34,7 +34,7 @@ $ pip3 install scipy
 
 首先，导入所需的库。
 
-```
+```py
 # import required libraries
 import sounddevice as sd
 from scipy.io.wavfile import write
@@ -45,7 +45,7 @@ import wavio as wv
 
 所以，让我们也宣布它们。
 
-```
+```py
 # Sampling frequency
 freq = 44100
 
@@ -55,7 +55,7 @@ duration = 5
 
 现在，我们准备启动录音机。它将为录制的音频创建一个 NumPy 数组。
 
-```
+```py
 # Start recorder with the given values of 
 # duration and sample frequency
 recording = sd.rec(int(duration * freq), 
@@ -71,7 +71,7 @@ sd.wait()
 
 我们将使用 scipy.io.wavfile 中的 write 函数将 NumPy 数组转换为音频文件。
 
-```
+```py
 # This will convert the NumPy array to an audio
 # file with the given sampling frequency
 write("recording0.wav", freq, recording)
@@ -81,7 +81,7 @@ write("recording0.wav", freq, recording)
 
 我们也可以使用 **wavio** 库中的 write 函数。
 
-```
+```py
 # Convert the NumPy array to audio file
 wv.write("recording1.wav", recording, freq, sampwidth=2)
 ```
@@ -90,7 +90,7 @@ wv.write("recording1.wav", recording, freq, sampwidth=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import sounddevice as sd
 from scipy.io.wavfile import write

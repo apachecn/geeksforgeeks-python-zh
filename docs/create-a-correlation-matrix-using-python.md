@@ -20,7 +20,7 @@ Numpy 库利用 corrcoef()函数返回一个 2×2 的矩阵。该矩阵由 x 与
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # x represents the total sale in
@@ -42,7 +42,7 @@ print(matrix)
 
 **输出**
 
-```
+```py
 [[1\.         0.95750662]
  [0.95750662 1\.        ]]
 ```
@@ -53,7 +53,7 @@ print(matrix)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # x represents the age
@@ -70,7 +70,7 @@ print(matrix)
 
 **输出**
 
-```
+```py
 [[1\.        0.5298089]
  [0.5298089 1\.       ]]
 ```
@@ -85,7 +85,7 @@ print(matrix)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # collect data
@@ -108,7 +108,7 @@ print(matrix)
 
 **输出:**
 
-```
+```py
 Dataframe is : 
     x   y   z
 0  45  38  10
@@ -131,7 +131,7 @@ z -0.701886 -0.860941  1.000000
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create dataframe from file
@@ -151,7 +151,7 @@ print(matrix)
 
 **输出:**
 
-```
+```py
 Correlation Matrix is : 
                      AVG temp C  Ice Cream production
 AVG temp C              1.000000              0.718032

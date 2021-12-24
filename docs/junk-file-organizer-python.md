@@ -12,7 +12,7 @@
 
 *   **创建字典:**下面的代码将创建定义的目录。
 
-```
+```py
 DIRECTORIES = {
     "HTML": [".html5", ".html", ".htm", ".xhtml"],
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
@@ -39,7 +39,7 @@ DIRECTORIES = {
 
 *   **映射:**现在我们将文件格式与目录进行映射。
 
-```
+```py
 FILE_FORMATS = {file_format: directory
                 for directory, file_formats in DIRECTORIES.items()
                 for file_format in file_formats}
@@ -47,7 +47,7 @@ FILE_FORMATS = {file_format: directory
 
 *   这里，我们将文件扩展名与目录进行映射。
 
-```
+```py
 def organize_junk():
     for entry in os.scandir():
         if entry.is_dir():
@@ -71,7 +71,7 @@ def organize_junk():
 
 ## 大蟒
 
-```
+```py
 import os
 from pathlib import Path
 

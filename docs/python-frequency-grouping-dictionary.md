@@ -13,7 +13,7 @@
 **方法一:使用`defaultdict()` +列表理解**
 以上功能的组合可以用来执行此任务。在这种情况下，我们用整数初始化 defaultdict 以获得频率，并使用列表理解来编译结果字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency Grouping Dictionary
 # Using defaultdict() + list comprehension

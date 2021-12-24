@@ -6,7 +6,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑
 功能。ImageGrab 模块可用于将屏幕或剪贴板的内容复制到 PIL 图像存储器中。
 **PIL。ImageGrab.grab()** 方法拍摄屏幕快照。边界框内的像素在 Windows 上以“RGB”图像返回，在 macOS 上以“RGBA”图像返回。如果省略边界框，将复制整个屏幕。
 
-```
+```py
 Syntax: PIL.ImageGrab.grab(bbox=None)
 
 parameters: 
@@ -17,7 +17,7 @@ Returns: An image
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image and ImageGrab module from PIL package
 from PIL import Image, ImageGrab
 
@@ -36,7 +36,7 @@ im2.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image and ImageGrab module from PIL package
 from PIL import Image, ImageGrab
 

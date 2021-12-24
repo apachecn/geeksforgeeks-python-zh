@@ -22,7 +22,7 @@ Python 是最流行的通用编程语言之一，有着广泛的用例，从通�
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import sys
 import time
@@ -34,7 +34,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 units = {
 'B':{'size':1, 'speed':'B/s'},
 'KB':{'size':1024, 'speed':'KB/s'},
@@ -47,7 +47,7 @@ units = {
 
 ## 蟒蛇 3
 
-```
+```py
 def check_unit(length): # length in bytes
   if length < units['KB']['size']:
     return 'B'
@@ -65,7 +65,7 @@ def check_unit(length): # length in bytes
 
 ## 蟒蛇 3
 
-```
+```py
 # Opening file stream
 
 r = requests.get(link_to_file, stream = True)  
@@ -84,7 +84,7 @@ with open(file_name, 'wb') as f:  
 
 ## 蟒蛇 3
 
-```
+```py
 sys.stdout.write(format_string % (list_of_variables))
 
 # for printing details in single 
@@ -98,7 +98,7 @@ sys.stdout.flush() 
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import sys
 import time
@@ -194,7 +194,7 @@ if __name__ == "__main__" :
 
 将代码保存在 python 文件中，并按如下方式使用
 
-```
+```py
 python <program_name>.py <file_link> <save_location(by default '.')>
 ```
 

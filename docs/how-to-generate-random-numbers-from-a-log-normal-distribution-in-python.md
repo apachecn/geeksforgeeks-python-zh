@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,7 +61,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 import numpy as np
 import matplotlib.pyplot as plt

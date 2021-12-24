@@ -13,7 +13,7 @@ Python 有很多用于 **GUI** 的库。 [Tkinter](http://geeksforgeeks.org/pyth
 
 ## 蟒 3
 
-```
+```py
 # MessageBox Illustration of showinfo() function
 
 from tkinter import *

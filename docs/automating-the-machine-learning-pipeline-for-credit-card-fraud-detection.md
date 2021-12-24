@@ -19,7 +19,7 @@
 
 **Code: Importing the necessary files**
 
-```
+```py
 # importing all necessary libraries
 # linear algebra
 import numpy as np 
@@ -29,7 +29,7 @@ import pandas as pd 
 
 **代码:加载数据集**
 
-```
+```py
 # Load the dataset from the csv file using pandas 
 # best way is to mount the drive on colab and  
 # copy the path for the csv file 
@@ -40,18 +40,18 @@ data.head()
 
 **代码:知道数据集**
 
-```
+```py
 # checking for the imbalance 
 len(df[df['Class']== 0])
 ```
 
-```
+```py
 len(df[df['Class']== 1])
 ```
 
 **代码:设置 pycaret 分类**
 
-```
+```py
 # Importing module and initializing setup
 from pycaret.classification import * clf1 = setup(data = df, target = 'Class')
 ```
@@ -64,7 +64,7 @@ from pycaret.classification import * clf1 = setup(data = df, target = 'Class')
 
 **代码:对比模型**
 
-```
+```py
 # command used for comparing all the models available in the library
 compare_models()
 ```
@@ -79,14 +79,14 @@ compare_models()
 
 **代码:创建最佳模型**
 
-```
+```py
 # creating logistic regression model
 ET = create_model('et')
 ```
 
 **代码:显示模型参数**
 
-```
+```py
 # displaying the model parameters
 ET
 ```
@@ -95,7 +95,7 @@ ET
 ![](img/6a41ddbc8f3fdf220665f6e0a3e660e2.png)
 **代码:超参数调谐**
 
-```
+```py
 # hyperparameter tuning for a particular model
 model = tune_model('ET')
 ```
@@ -107,14 +107,14 @@ model = tune_model('ET')
 
 经过一个又一个小时的模型训练和超级调整，最糟糕的事情可能会发生在你身上，模型会随着会话超时的发生而消失。为了把你从这场噩梦中拯救出来，让我给你一个你永远不会忘记的诀窍。
 
-```
+```py
 # saving the model
 save_model(ET, 'ET_saved')
 ```
 
 **代码:加载模型**
 
-```
+```py
 # Loading the saved model
 ET_saved = load_model('ET_saved')
 ```
@@ -126,14 +126,14 @@ ET_saved = load_model('ET_saved')
 
 部署前的一个步骤，在所有可用数据上合并训练和验证数据以及训练模型。
 
-```
+```py
 # finalize a model
 final_rf = finalize_model(rf)
 ```
 
 **部署**模型部署在 AWS 上。如需相同的设置，请访问[文档](https://pycaret.org/deploy-model/)
 
-```
+```py
 # Deploy a model
 deploy_model(final_lr, model_name = 'lr_aws', platform = 'aws', authentication = { 'bucket'  : 'pycaret-test' })
 ```

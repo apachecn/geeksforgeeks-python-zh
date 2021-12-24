@@ -8,7 +8,7 @@
 
 你可以通过各种方式安装 docopt 模块，pip 是安装 docopt 的最佳方式之一。
 
-```
+```py
 $pip install docopt
 ```
 
@@ -18,7 +18,7 @@ $pip install docopt
 
 **docopt** 最常用于显示帮助消息，并通过-h 或–help 选项调用。您可以使用以下命令导入和调用该模块。
 
-```
+```py
 from docopt import docopt
 
 docopt(doc, argv = None, version = None,
@@ -37,7 +37,7 @@ docopt(doc, argv = None, version = None,
 
 **docopt** 让你对你的帮助页面有很强的控制力，它包括用法关键字*不区分大小写*，后跟你的 program_name。使用模式可以用下面提到的各种元素来描述:
 
-```
+```py
 usage =
 '''
 Usage : 
@@ -54,7 +54,7 @@ Usage : 
 
 **–option-o:**以“-”或“-”开头的元素称为长选项或短选项。可以称之为`--option`或`-o`。
 
-```
+```py
   -h, --help     Display help
   -o, --option   Display options
   -l, --all      List all
@@ -71,7 +71,7 @@ Usage : 
 
 **示例:**
 
-```
+```py
 # filename ='docopt_example.py"
 
 usage ='''

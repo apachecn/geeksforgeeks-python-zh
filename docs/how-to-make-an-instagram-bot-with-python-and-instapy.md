@@ -18,7 +18,7 @@
 
 **Instabot 库:**是 Instagram 的一个推广脚本和 API Python 包装器。
 
-```
+```py
 pip install instabot
 ```
 
@@ -28,7 +28,7 @@ pip install instabot
 
 ## 蟒蛇 3
 
-```
+```py
 # Import instabot library
 from instabot import Bot
 
@@ -50,7 +50,7 @@ bot.login(username="your_userid", 
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -71,7 +71,7 @@ bot.follow("geeks_for_geeks")
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -91,7 +91,7 @@ bot.follow_users(list_of_user)
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -110,7 +110,7 @@ bot.unfollow("geeks_for_geeks")
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot 
 
 bot = Bot()
@@ -130,7 +130,7 @@ bot.unfollow_users(unfollow_list)
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -150,7 +150,7 @@ bot.unfollow_everyone()
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -173,7 +173,7 @@ print(len(followers))
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -194,7 +194,7 @@ bot.send_message(message, "geeks_for_geeks")
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -214,7 +214,7 @@ bot.send_messages(message, list_of_userid)
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()
@@ -237,7 +237,7 @@ bot.send_like(send_like_list)
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 
 bot = Bot()

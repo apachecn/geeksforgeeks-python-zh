@@ -10,7 +10,7 @@
 
 **使用 pip 安装:**
 
-```
+```py
 pip install fire
 ```
 
@@ -22,7 +22,7 @@ pip install fire
 
 ## 蟒蛇 3
 
-```
+```py
 import fire
 
 def greeting(name):
@@ -33,13 +33,13 @@ fire.Fire(greeting("World!"))
 
 **输出:**
 
-```
+```py
 Hello World!
 ```
 
 然后，从终端，您可以使用以下命令运行:
 
-```
+```py
  python main.py
 ```
 
@@ -49,7 +49,7 @@ Hello World!
 
 ## 蟒蛇 3
 
-```
+```py
 import fire
 
 def hello(name):
@@ -61,13 +61,13 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Hello world
 ```
 
 如果您在终端中使用下面的命令运行这个函数，它将给出与上面的函数相同的结果。召唤火消耗名称=“世界”。使用这种调用 fire 的方法，可以避免用参数编写函数名。
 
-```
+```py
 python main.py world
 ```
 
@@ -79,7 +79,7 @@ python main.py world
 
 ## 蟒蛇 3
 
-```
+```py
 import fire
 
 class Square(object):
@@ -92,19 +92,19 @@ fire.Fire(Square)
 
 **输出:**
 
-```
+```py
 4
 ```
 
 **这个类有两种执行方式，第一种方法是:**
 
-```
+```py
 python main.py square 2
 ```
 
 **给出相同期望输出的第二种方式是:**
 
-```
+```py
 python main.py square --number=2
 ```
 
@@ -120,7 +120,7 @@ Fire 可用于实例化类内部的类，从而创建一个分层视图。让我
 
 ## 蟒蛇 3
 
-```
+```py
 import fire
 
 class Calculator(object):

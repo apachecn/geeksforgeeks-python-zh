@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ print(xml[:100])
 
 **输出:**
 
-```
+```py
 Money Heist
 --------------------------------
 <genres infoset="main"<itemAction</item<item Crime</item<item Mystery</item<itemThriller</item
@@ -49,7 +49,7 @@ Money Heist
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -76,7 +76,7 @@ print(xml[:100])
 
 **输出:**
 
-```
+```py
 Sacred Games
 --------------------------------
 <genres infoset="main"<item Action</item<item Crime</item<item Drama</item<item Thriller</item<

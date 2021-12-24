@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring byte value
 byte_val = b'\x00\x01'
 
@@ -38,7 +38,7 @@ print(int_val)
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -46,7 +46,7 @@ print(int_val)
 
 ## 蟒蛇 3
 
-```
+```py
 byte_val = b'\x00\x10'
 
 int_val = int.from_bytes(byte_val, "little")
@@ -57,7 +57,7 @@ print(int_val)
 
 **输出:**
 
-```
+```py
 4096
 ```
 
@@ -65,7 +65,7 @@ print(int_val)
 
 ## 蟒蛇 3
 
-```
+```py
 byte_val = b'\xfc\x00'
 
 # 2's complement is enabled in big 
@@ -78,6 +78,6 @@ print(int_val)
 
 **输出:**
 
-```
+```py
 -1024
 ```

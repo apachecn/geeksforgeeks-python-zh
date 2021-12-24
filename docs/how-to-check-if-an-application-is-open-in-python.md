@@ -10,7 +10,7 @@
 
 *psutil* 是 python 的系统监控和系统利用模块。它主要用于系统监控、分析和限制进程资源，以及管理正在运行的进程。可以监控 CPU、内存、磁盘、网络、传感器等资源的使用情况。Python、2.7 和 3.4+版本支持它。您可以使用以下命令安装 *psutil* 模块
 
-```
+```py
 pip install psutil
 ```
 
@@ -18,7 +18,7 @@ pip install psutil
 
 ## 蟒 3
 
-```
+```py
 # import module
 import psutil
 
@@ -28,7 +28,7 @@ import psutil
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -38,7 +38,7 @@ True
 
 *wmi* 模块可用于获取 Windows 机器的系统信息，可使用以下命令安装:
 
-```
+```py
 pip install wmi
 ```
 
@@ -46,7 +46,7 @@ pip install wmi
 
 ## 蟒 3
 
-```
+```py
 # Import module
 import wmi
 
@@ -68,7 +68,7 @@ if flag == 0:
 
 **输出:**
 
-```
+```py
 Application is Running
 ```
 

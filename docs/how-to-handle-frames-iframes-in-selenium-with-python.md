@@ -33,7 +33,7 @@ HTML 大纲用于将您的程序窗口隔离成多个部分，每个部分可以
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Key with maximum unique values
 # Using loop
@@ -56,7 +56,7 @@ print("Key with maximum unique values : " + str(max_key)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Key with maximum unique values
 # Using sorted() + lambda() + set() + values() + len()

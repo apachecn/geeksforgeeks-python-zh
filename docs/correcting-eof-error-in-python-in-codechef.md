@@ -21,7 +21,7 @@ Python 中的所有[内置异常](https://www.geeksforgeeks.org/built-exceptions
 
 ## **C++**
 
-```
+```py
 #Python program for the above question
 
 #Function to reorder the characters
@@ -77,7 +77,7 @@ if __name__=="__main__":
 
 ## **C++**
 
-```
+```py
 # Python program for the above question
 
 # Function to reorder the characters

@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window. Set the window title and dimensions (width and height)
@@ -64,7 +64,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window
@@ -105,7 +105,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window

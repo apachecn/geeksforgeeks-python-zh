@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing strings
 test_str1 = 'Geeksforgeeks'
 test_str2 = "Best"
@@ -59,7 +59,7 @@ print("All delimiters concatenations : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing strings
 test_str1 = 'Geeksforgeeks'
 test_str2 = "Best"

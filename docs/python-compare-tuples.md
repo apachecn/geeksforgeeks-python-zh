@@ -7,7 +7,7 @@
 **方法#1:使用`all() + generator expression + zip()`**
 上述功能的组合可用于执行该任务。在这里，我们只是使用`all()`比较所有元素。交叉元组访问由`zip()`完成，生成器表达式为我们提供了比较的逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Comparing tuples
 # using generator expression + all() + zip()
@@ -30,7 +30,7 @@ print("Are all elements in second tuple greater than first ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5)
 The original tuple 2 : (13, 5, 18)
 Are all elements in second tuple greater than first ? : True

@@ -10,7 +10,7 @@
 
 确保 Hadoop 正在运行，如果没有，则使用以下命令启动所有守护程序。
 
-```
+```py
 start-dfs.sh             // start your namenode datanode and secondary namenode
 
 start-yarn.sh            // start resourcemanager and nodemanager
@@ -23,7 +23,7 @@ start-yarn.sh            // start resourcemanager and nodemanager
 
 **步骤 1:** 在您的本地目录中创建一个文件，名称为 **create_directory.py** 在所需的位置**。**
 
-```
+```py
 cd Documents/        # Changing directory to Documents(You can choose as per your requirement)
 
 touch create_directory.py      # touch command is used to create file in linux enviournment.       
@@ -36,7 +36,7 @@ touch create_directory.py      # touch command is used to create file in linux e
 
 ## 计算机编程语言
 
-```
+```py
 # importing the package
 from snakebite.client import Client
 
@@ -54,7 +54,7 @@ for p in client.mkdir(['/demo/demo1', '/demo2'], create_parent=True):
 
 **第三步:**运行 **create_directory.py** 文件，观察结果。
 
-```
+```py
 python create_directory.py   // this will create directory's as mentioned in mkdir() argument.
 
 ```
@@ -65,7 +65,7 @@ python create_directory.py   // this will create directory's as mentioned in mkd
 
 **步骤 4:** 我们可以手动或使用下面的命令检查目录是否已创建。
 
-```
+```py
 hdfs dfs -ls /       // list all the directory's in root folder
 
 hdfs dfs -ls /demo   // list all the directory's present in demo folder

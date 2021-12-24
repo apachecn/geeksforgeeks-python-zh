@@ -23,7 +23,7 @@ Kivy 提供了几种布局来将小部件保持在应用程序的期望位置。
 
 **`main.py` file of BoxLayout –**
 
-```
+```py
 # base Class of your App inherits from the App class. 
 # app:always refers to the instance of your application 
 from kivy.app import App 
@@ -63,7 +63,7 @@ root.run() 
 
 **文件的`main.py`文件的**
 
-```
+```py
 <KVBL>:
 # you can change it to BoxLayout but have
 # to change everywhere including .py

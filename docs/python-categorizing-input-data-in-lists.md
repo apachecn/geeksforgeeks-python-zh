@@ -8,14 +8,14 @@ Python 中的列表是线性容器，用于存储各种数据类型的数据。�
 创建列表后，通过定义代码段中的值，将生成类似如下的输出:
 **代码:**
 
-```
+```py
 List =['GeeksForGeeks', 'VenD', 5, 9.2]
 print('\n List: ', List)
 ```
 
 **输出:**
 
-```
+```py
 
  List:  ['GeeksForGeeks', 'VenD', 5, 9.2]
 
@@ -24,7 +24,7 @@ print('\n List: ', List)
 在上图中，定义的列表是整数值和字符串值的组合。解释器隐式地将“GeeksForGeeks”和“VenD”解释为字符串值，而 5 和 9.2 分别解释为整数值和浮点值。我们可以对整数值和浮点值执行通常的算术运算，如下所示。
 **代号:**
 
-```
+```py
 # Usual Arithmetic Operations on 5 and 9.2:
 List =['GeeksForGeeks', 'VenD', 5, 9.2]
 print('\n List[2]+2, Answer: ', end ='')
@@ -36,7 +36,7 @@ print(List[List.index(9.2)]+8.2)
 
 **输出:**
 
-```
+```py
  List[2]+2, Answer: 7
  List[3]+8.2, Answer: 17.4
 
@@ -45,7 +45,7 @@ print(List[List.index(9.2)]+8.2)
 此外，字符串连接等特定于字符串的操作可以在相应的字符串上执行:
 **代码:**
 
-```
+```py
 # String Concatenation Operation
 # List:  ['GeeksForGeeks', 'VenD', 5, 9.2]
 # Concatenating List[0] and List[1]
@@ -56,7 +56,7 @@ print(List[0]+' '+List[1])
 然而，因为我们知道列表包含各种数据类型的项目，这些数据类型可能是:字符串、整数、浮点、元组、字典，甚至可能是列表本身(列表的列表)，所以如果您根据用户输入生成一个列表，这是无效的。例如，考虑下面的例子:
 **代码:**
 
-```
+```py
 # All Resultant Elements of List2 will be of string type
 
 list2 =[]  # This is the list which will contain elements as an input from the user
@@ -72,7 +72,7 @@ print("\n List 2 : ", list2)
 
 **输出:**
 
-```
+```py
 
  Enter Number of Elements you wish to enter: 4
 
@@ -98,7 +98,7 @@ print("\n List 2 : ", list2)
 ![](img/7614b577b4a683681e32fb021633df2c.png)
 **代号:**
 
-```
+```py
 import re
 
 def checkInt(string):
@@ -143,7 +143,7 @@ print(List2)
 
 **输出:**
 
-```
+```py
  Enter number of elements : 4
 
  Enter Element 1: GeeksForGeeks

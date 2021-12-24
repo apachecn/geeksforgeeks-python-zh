@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中获得图像的无参数阈值邻接统计。汉密尔顿等人在《快速自动化细胞表型图像分类》
 中介绍了 TAS，在本教程中我们将使用‘lena’图像，下面是加载 Lena 图像的命令
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.load('lena')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -59,13 +59,13 @@ print(value)
 
 **输出:**
 
-```
+```py
 Image 
 ```
 
 ![](img/7e2a2e3e4e2c7d3717764f78ddb13263.png)
 
-```
+```py
 [8.40466496e-01 3.96107929e-02 3.32482230e-02 4.78710924e-02
  1.99986198e-02 9.29542475e-03 4.81678283e-03 3.41591333e-03
  1.27665448e-03 8.74954977e-01 3.30841335e-02 2.54587942e-02
@@ -86,7 +86,7 @@ Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -115,13 +115,13 @@ print(value)
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/69c070b367f54d4895c9b3e679a941a7.png)
 
-```
+```py
 [9.09810233e-01 2.60317846e-02 1.97574078e-02 2.77915537e-02
  1.31694722e-02 2.52446879e-03 6.36716463e-04 2.17571455e-04
  6.07920241e-05 9.15640448e-01 2.48822727e-02 1.86702013e-02

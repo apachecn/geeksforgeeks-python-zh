@@ -52,7 +52,7 @@ G(z) =生成器网络
     **实现生成性对抗网络的示例 Python 代码:**
     GANs 的计算量非常大。它们需要高性能的图形处理器和大量的时间(大量的时代)来产生好的结果。对于我们的示例，我们将使用著名的 MNIST 数据集，并使用它来生成随机数字的克隆。
 
-    ```
+    ```py
     # importing the necessary libraries and the MNIST dataset
     import tensorflow as tf
     import numpy as np
@@ -168,7 +168,7 @@ G(z) =生成器网络
 
     #### 输出:
 
-    ```
+    ```py
     on epoch0
     on epoch1
     ...

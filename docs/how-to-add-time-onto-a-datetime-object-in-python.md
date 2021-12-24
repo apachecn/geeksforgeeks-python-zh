@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the addition
 # of time onto the datetime object
 
@@ -38,7 +38,7 @@ print(new_time)
 
 ****输出:****
 
-```
+```py
 Original time:
 2021-08-22 11:02:05
 changed time:
@@ -49,7 +49,7 @@ changed time:
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the addition
 # of time onto the datetime object
 
@@ -73,7 +73,7 @@ print(new_time)
 
 ****输出:****
 
-```
+```py
 Original time:
 2021-08-22 11:02:05
 changed time:
@@ -84,7 +84,7 @@ changed time:
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to illustrate the addition
 # of time onto the datetime object
 
@@ -109,7 +109,7 @@ print(new_time)
 
 ****输出:****
 
-```
+```py
 Original time:
 2021-08-22 11:02:05
 changed time:

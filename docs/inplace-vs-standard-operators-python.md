@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate difference between 
 # Inplace and Normal operators in Immutable Targets
 
@@ -55,7 +55,7 @@ print (x)
 
 输出:
 
-```
+```py
 Value after adding using normal operator : 11
 Value after adding using Inplace operator : 11
 Value of first argument using normal operator : 5
@@ -67,7 +67,7 @@ Value of first argument using Inplace operator : 5
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate difference between 
 # Inplace and Normal operators in mutable Targets
 
@@ -105,7 +105,7 @@ print (a)
 
 输出:
 
-```
+```py
 Value after adding using normal operator : [1, 2, 4, 5, 1, 2, 3]
 Value of first argument using normal operator : [1, 2, 4, 5]
 Value after adding using Inplace operator : [1, 2, 4, 5, 1, 2, 3]

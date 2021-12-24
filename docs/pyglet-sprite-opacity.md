@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中访问 sprite 的不透明度。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。精灵是屏幕上显示的图像的实例。多个子画面可以在屏幕的不同位置显示相同的图像。子画面也可以放大或缩小，以任何角度旋转，并以部分不透明度绘制。图像是借助 pyglet 的图像模块加载的。不透明度属性设置精灵顶点颜色的 alpha 分量。使用默认的混合模式(参见构造函数)，这允许精灵以分数不透明度绘制，与背景混合。255 的不透明度(默认)没有效果。不透明度为 128 将使精灵看起来半透明。
 我们可以借助下面给出的命令创建一个窗口和精灵对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -22,7 +22,7 @@ sprite = pyglet.sprite.Sprite(img, x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key as key

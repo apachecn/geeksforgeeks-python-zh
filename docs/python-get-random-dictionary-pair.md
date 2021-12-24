@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get random dictionary pair in dictionary
 # Using random.choice() + list() + items()
@@ -31,7 +31,7 @@ print("The random pair is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'best': 3, 'is': 2}
 The random pair is : ('is', 2)
 ```
@@ -41,7 +41,7 @@ The random pair is : ('is', 2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get random dictionary pair in dictionary
 # Using popitem()
@@ -62,7 +62,7 @@ print("The random pair is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'best': 3, 'is': 2}
 The random pair is : ('is', 2)
 ```

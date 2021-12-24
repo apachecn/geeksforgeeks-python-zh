@@ -8,21 +8,21 @@ Python 是一种广泛使用的通用语言。它允许执行各种任务。其�
 
 *   [**Numpy:**](https://www.geeksforgeeks.org/python-numpy/) 要安装 Numpy，请在终端中键入以下命令。
 
-```
+```py
 pip install numpy
 
 ```
 
 *   **pyautogui:** 要安装 pyautogui，请在终端中键入以下命令。
 
-```
+```py
 pip install pyautogui
 
 ```
 
 *   [**OpenCV:**](https://www.geeksforgeeks.org/opencv-python-tutorial/) 要安装 OpenCV，请在终端中键入以下命令。
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -32,7 +32,7 @@ pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required packages
 import pyautogui
 import cv2
@@ -43,7 +43,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # Specify resolution
 resolution = (1920, 1080)
 
@@ -65,7 +65,7 @@ out = cv2.VideoWriter(filename, codec, fps, resolution)
 
 ## 蟒蛇 3
 
-```
+```py
 # Create an Empty window
 cv2.namedWindow("Live", cv2.WINDOW_NORMAL)
 
@@ -77,7 +77,7 @@ cv2.resizeWindow("Live", 480, 270)
 
 ## 蟒蛇 3
 
-```
+```py
 while True:
 
     # Take screenshot using PyAutoGUI
@@ -105,7 +105,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # Release the Video writer
 out.release()
 
@@ -117,7 +117,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required packages
 import pyautogui
 import cv2

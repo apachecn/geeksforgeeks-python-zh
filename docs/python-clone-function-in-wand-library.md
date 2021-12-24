@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 original = Image(filename='filename.format')
 copy = original.clone()
 // other manipulation code
@@ -17,7 +17,7 @@ copy = original.clone()
 
 或者
 
-```
+```py
 with Image(filename='filename.format') as original:
     with original.clone() as copy:
          // other image manipulation code
@@ -28,7 +28,7 @@ with Image(filename='filename.format') as original:
 
 让我们编写一个代码来克隆一个映像，然后更改克隆映像的格式。
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -44,6 +44,6 @@ with Image(filename ='koala.jpg') as original:
 
 **输出:**
 
-```
+```py
 A copy image will be saved with png extension/format
 ```

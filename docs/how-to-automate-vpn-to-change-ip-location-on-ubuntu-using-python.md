@@ -10,7 +10,7 @@
 
 **第一步:**打开终端(Ctrl+Alt+T)，通过在终端上键入以下命令，使用 *gedit* 创建文件。
 
-```
+```py
 gedit gfg.py
 ```
 
@@ -18,7 +18,7 @@ gedit gfg.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import os
 from time import sleep
@@ -29,7 +29,7 @@ import random
 
 ## 蟒蛇 3
 
-```
+```py
 # list of VPN server codes
 codeList = ["TR", "US-C", "US", "US-W", "CA", "CA-W",
             "FR", "DE", "NL", "NO", "RO", "CH", "GB", "HK"]
@@ -37,7 +37,7 @@ codeList = ["TR", "US-C", "US", "US-W", "CA", "CA-W",
 
 **步骤 4:** 使用*操作系统*模块启动试块连接到防风网
 
-```
+```py
 os.system("windscribe connect")
 ```
 
@@ -45,25 +45,25 @@ os.system("windscribe connect")
 
 *   使用*随机*模块从*代码列表*中选择一个随机代码。
 
-```
+```py
 choiceCode = random.choice(codeList)
 ```
 
 *   创建 15 到 20 分钟的随机睡眠，之后使用*时间*和*随机*模块更改系统的 IP。
 
-```
+```py
 sleep(random.randrange(120,300))
 ```
 
 *   用随机选择的虚拟专用网码连接。
 
-```
+```py
 os.system("windscribe connect "+ choiceCode)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 try:
 
     # connect to VPN
@@ -85,19 +85,19 @@ try:
 
 *   断开虚拟专用网，如果它得到任何错误，它将运行。
 
-```
+```py
 os.system("windscribe disconnect")
 ```
 
 *   在此显示断开消息。
 
-```
+```py
 print("sorry, some error has occurred..!!")
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 except:
 
     # disconnect VPN
@@ -109,7 +109,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import os
 from time import sleep
@@ -150,13 +150,13 @@ except:
 
 **步骤 1:** 使用下面给出的命令登录到您用来在系统上设置[虚拟专用网络的防风网。](https://www.geeksforgeeks.org/how-to-setup-vpn-on-ubuntu-linux-system-for-ip-spoofing-using-windscribe/)
 
-```
+```py
 windscribe login
 ```
 
 **步骤 2:** 使用下面的命令执行您在上述步骤中创建的文件。
 
-```
+```py
 python3 gfg.py
 ```
 

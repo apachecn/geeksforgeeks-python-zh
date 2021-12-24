@@ -6,7 +6,7 @@
 
 **方法#1:使用字典理解**
 
-```
+```py
 # Python code to demonstrate
 # return the filtered dictionary
 # on certain criteria
@@ -26,7 +26,7 @@ print("resultant dictionary : ", str(result))
 
 **Output:**
 
-```
+```py
 initial lists {'a': 1, 'c': -3, 'd': 7, 'b': -2, 'e': 0}
 resultant dictionary :  {'a': 1, 'd': 7, 'e': 0}
 
@@ -34,7 +34,7 @@ resultant dictionary :  {'a': 1, 'd': 7, 'e': 0}
 
 **方法 2:使用λ和滤波器**
 
-```
+```py
 # Python code to demonstrate
 # return the filtered dictionary
 # on certain criteria
@@ -55,7 +55,7 @@ print("resultant dictionary : ", str(result))
 
 **Output:**
 
-```
+```py
 initial lists {'c': -3, 'd': 7, 'e': 0, 'a': 1, 'b': -2}
 resultant dictionary :  {'e': 0, 'a': 1, 'd': 7}
 

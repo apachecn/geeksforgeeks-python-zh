@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px 
 import plotly.graph_objects as go 
 
@@ -31,7 +31,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px 
 import plotly.graph_objects as go 
 

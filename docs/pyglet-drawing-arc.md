@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中在窗口上绘制弧线。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。圆弧是圆周的一部分。在上图中，弧线是圆的蓝色部分。严格来说，弧可以是其他曲线形状的一部分，例如椭圆，但它几乎总是指圆。借助 pyglet 中的 shapes 模块绘制弧线。
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 ```
@@ -19,7 +19,7 @@ window = pyglet.window.Window(width, height, title)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 

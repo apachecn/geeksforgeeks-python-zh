@@ -12,7 +12,7 @@
 
 **代码# 1:logic _ invert()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_invert() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with logical_invert() method : ", b.logical_invert())
 
 **输出:**
 
-```
+```py
 Decimal value a :  0
 Decimal value b :  1
 
@@ -47,7 +47,7 @@ Decimal b with logical_invert() method :  1111111111111111111111111110
 
 **代码# 2:logic _ invert()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_invert() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with logical_invert() method : ", a.logical_invert())
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  0
 

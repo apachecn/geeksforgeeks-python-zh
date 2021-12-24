@@ -8,7 +8,7 @@
 
 **安装:**
 
-```
+```py
 pip install pconst
 ```
 
@@ -20,7 +20,7 @@ pip install pconst
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pconst import const
 
@@ -43,7 +43,7 @@ print(const.COMPANY_NAME)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pconst import const
 
@@ -65,7 +65,7 @@ const.LANGUAGE="C++"
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pconst import const
 
@@ -87,7 +87,7 @@ del const.LANGUAGE
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pconst import const
 

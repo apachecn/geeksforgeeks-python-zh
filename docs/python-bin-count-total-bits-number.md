@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : 13
 Output : 4
 Binary representation of 13 is 1101
@@ -23,7 +23,7 @@ Output : 13
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to count total bits in a number
 
 def countTotalBits(num):
@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 4
 
 ```

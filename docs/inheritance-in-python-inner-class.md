@@ -8,7 +8,7 @@
 
 例如，考虑一个类 DOB 在另一个类 Person 中的情况，并查看下面的代码片段。
 
-```
+```py
 class person:
     def __init__(self):
         self.name = 'AKASH'
@@ -18,7 +18,7 @@ class person:
 
 在前面的代码中，“数据库”表示内部类对象。创建外部类对象时，它包含一个作为内部类对象的子对象。因此，我们可以将外部类和内部类成员称为:
 
-```
+```py
 p = person()  #create outer class object
 p.display()   #call outer class method
 
@@ -29,7 +29,7 @@ x.display()    #call inner class method
 
 **例:**
 
-```
+```py
 # Python program to demonstrate
 # inner class
 
@@ -61,7 +61,7 @@ x.display()
 
 **输出:**
 
-```
+```py
 NAME =  AKASH
 DOB = 10/3/2000
 
@@ -77,7 +77,7 @@ DOB = 10/3/2000
 
 要在内部类中使用继承，请考虑下面的代码片段。
 
-```
+```py
 # Python program to demonstrate
 # inheritance in inner class
 
@@ -116,7 +116,7 @@ x.display2()
 
 **输出:**
 
-```
+```py
 In Child Class
 In Parent Class
 Inner Of Parent Class

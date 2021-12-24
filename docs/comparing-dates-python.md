@@ -6,7 +6,7 @@
 
 **代码#1 :** 基本
 
-```
+```py
 # Simple Python program to compare dates
 
 # importing datetime module
@@ -25,7 +25,7 @@ print("d1 is not equal to d2 : ", d1 != d2)
 
 **输出:**
 
-```
+```py
 d1 is greater than d2 :  False
 d1 is less than d2 :  True
 d1 is not equal to d2 :  True
@@ -35,7 +35,7 @@ d1 is not equal to d2 :  True
 
 对一组日期进行排序的最好方法之一是将它们存储到一个列表中，并应用`sort()`方法。这将对列表中所有可用的日期进行排序。可以使用`append()`方法将日期类对象存储到列表中。
 
-```
+```py
 # Python program to sort the dates
 
 # importing datetime module
@@ -69,7 +69,7 @@ for d in group:
 
 **输出:**
 
-```
+```py
 2011-04-07
 2011-05-02
 2015-06-29
@@ -80,7 +80,7 @@ for d in group:
 
 比较两个`date` 类对象，就像比较两个数字一样。
 
-```
+```py
 # importing datetime module
 from datetime import *
 
@@ -110,7 +110,7 @@ else:
 
 **输出:**
 
-```
+```py
 Enter first person's date(DD/MM/YYYY) : *12/05/2017*
 Enter second person's date(DD/MM/YYYY) : *10/11/2015*
 The second person is older

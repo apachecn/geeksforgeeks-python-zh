@@ -8,7 +8,7 @@
 
 **`leapdays()`** 法用于**获取指定年份范围内的闰年数。**
 
-```
+```py
 Syntax: leapdays()
 Parameter: 
 year1, year2:  years to get the number of leap years.
@@ -18,7 +18,7 @@ Returns: Returns number of leap years in a specified range.
 
 **代码#1:**
 
-```
+```py
 # Python program to explain working of leapdays() method
 
 # importing calendar module
@@ -31,7 +31,7 @@ print(calendar.leapdays(2001, 2003))
 
 **输出:**
 
-```
+```py
 2
 0
 ```
@@ -40,7 +40,7 @@ print(calendar.leapdays(2001, 2003))
 
 下面的代码打印闰年数和上一个闰年的第一个月日历(如果在给定范围内找到任何闰年)，否则通知没有年份是闰年。
 
-```
+```py
 # Python code to demonstrate the working of leapdays() 
 
 # importing calendar module for calendar operations 
@@ -73,7 +73,7 @@ else:
 
 **输出:**
 
-```
+```py
 Number of leap years found is 5
     January 2024
 Mo Tu We Th Fr Sa Su

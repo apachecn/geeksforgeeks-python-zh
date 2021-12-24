@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure(data=go.Streamtube(x=[1, 1, 1], y=[1, 1, 2],
@@ -55,7 +55,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 import numpy as np
 

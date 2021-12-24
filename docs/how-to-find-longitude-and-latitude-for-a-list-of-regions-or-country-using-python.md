@@ -8,14 +8,14 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install geopy 
 
 ```
 
 **示例:让我们创建一个包含地区或国家列表的熊猫数据框。**
 
-```
+```py
 # Import pandas package  
 import pandas as pd 
 import numpy as np
@@ -36,7 +36,7 @@ df 
 
 **现在我们来找出以下地区或国家的经纬度。**
 
-```
+```py
 from geopy.exc import GeocoderTimedOut
 from geopy.geocoders import Nominatim
 
@@ -90,7 +90,7 @@ for i in (df["City"]):
 
 **显示作为数据帧产生的输出。**
 
-```
+```py
 # now add this column to dataframe
 df["Longitude"] = longitude
 df["Latitude"] = latitude

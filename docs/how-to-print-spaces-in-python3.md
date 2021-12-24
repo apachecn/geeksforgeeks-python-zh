@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print spaces
 
 # No spaces
@@ -28,7 +28,7 @@ print("Geeks  For    Geeks")
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 
 Geeks  For    Geeks
@@ -39,7 +39,7 @@ Geeks  For    Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print spaces
 x = 1
 y = 2
@@ -52,7 +52,7 @@ print(x,"+",y,"=",x+y)
 
 **输出:**
 
-```
+```py
 x: 1
 y: 2
 1 + 2 = 3
@@ -63,7 +63,7 @@ y: 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print spaces
 
 # To print the single spaces in sentence
@@ -77,7 +77,7 @@ print("Geeks"+" "*5+"For"+" "*10+"Geeks")
 
 **输出:**
 
-```
+```py
 Geeks For Geeks
 Geeks For Geeks
 Geeks   For   Geeks

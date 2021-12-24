@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert delimiter separated Mixed String to valid List
 # Using loop + split() + eval()
@@ -47,7 +47,7 @@ print("List after conversion : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 6#2#9#[3, 5, 6]#(7, 8)#8#4#10
 List after conversion : [6, 2, 9, [3, 5, 6], (7, 8), 8, 4, 10]
 ```
@@ -58,7 +58,7 @@ List after conversion : [6, 2, 9, [3, 5, 6], (7, 8), 8, 4, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert delimiter separated Mixed String to valid List
 # Using eval() + split() + list comprehension
@@ -81,7 +81,7 @@ print("List after conversion : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 6#2#9#[3, 5, 6]#(7, 8)#8#4#10
 List after conversion : [6, 2, 9, [3, 5, 6], (7, 8), 8, 4, 10]
 ```

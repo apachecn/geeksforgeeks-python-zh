@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中进行高斯滤波。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mhotas.demos.nuclear_image()
 ```
 
@@ -23,7 +23,7 @@ A **高斯滤波器**是线性滤波器。它通常用于模糊图像或减少�
 **注意:**高斯滤波器的输入应该是滤波后的图像对象
 为了对图像进行滤波，我们将取 numpy.ndarray 的图像对象，借助索引进行滤波，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -31,7 +31,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -66,7 +66,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

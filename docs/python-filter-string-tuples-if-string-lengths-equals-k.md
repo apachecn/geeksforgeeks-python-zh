@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter String Tuples if String lengths equals K
 # Using loop
@@ -50,7 +50,7 @@ print("The filtered tuples : " + str(res_list))
 
 ****Output**
 
-```
+```py
 The original list is : [('ABC', 'Gfg', 'CS1'), ('Gfg', 'Best'), ('Gfg', 'WoW')]
 The filtered tuples : [('ABC', 'Gfg', 'CS1'), ('Gfg', 'WoW')]
 
@@ -62,7 +62,7 @@ The filtered tuples : [('ABC', 'Gfg', 'CS1'), ('Gfg', 'WoW')]
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter String Tuples if String lengths equals K
 # Using all() + list comprehension
@@ -85,7 +85,7 @@ print("The filtered tuples : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : [('ABC', 'Gfg', 'CS1'), ('Gfg', 'Best'), ('Gfg', 'WoW')]
 The filtered tuples : [('ABC', 'Gfg', 'CS1'), ('Gfg', 'WoW')]
 

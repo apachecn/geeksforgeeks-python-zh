@@ -8,7 +8,7 @@
 
 可以使用以下命令安装 PyGame 库:
 
-```
+```py
 pip install pygame
 ```
 
@@ -65,7 +65,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add Custom Events
 import pygame
 

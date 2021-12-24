@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter dictionaries by values in Kth Key in list
 # Using loop + conditional statements
@@ -82,7 +82,7 @@ print("Filtered dictionaries : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter dictionaries by values in Kth Key in list
 # Using list comprehension

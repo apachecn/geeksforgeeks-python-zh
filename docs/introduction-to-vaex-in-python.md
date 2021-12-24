@@ -10,13 +10,13 @@
 
 使用 Conda:
 
-```
+```py
 conda install -c conda-forge vaex
 ```
 
 使用 pip:
 
-```
+```py
 pip install --upgrade vaex
 ```
 
@@ -32,14 +32,14 @@ Vaex 通过惰性计算、虚拟列、内存映射、零内存复制策略、高
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 %time df_pandas = pd.read_csv("dataset1.csv")
 ```
 
 **输出:**
 
-```
+```py
 Wall time: 1min 8s
 ```
 
@@ -47,7 +47,7 @@ Wall time: 1min 8s
 
 ## python 3
 
-```
+```py
 import vaex
 %time df_vaex = vaex.open("dataset1.csv.hdf5")
 ```

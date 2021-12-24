@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary libraries
 import pandas as pd
 import numpy as np
@@ -43,7 +43,7 @@ CSV 数据文件可以从这里下载:[数据集](https://drive.google.com/drive
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.read_csv('athlete_events.csv')  # read file
 
 # data.head() display first 5 entry
@@ -62,7 +62,7 @@ print(data.head(), data.describe(), data.info())
 
 ## 蟒蛇 3
 
-```
+```py
 # regions and country noc data csv file
 regions = pd.read_csv('datasets_31029_40943_noc_regions.csv')
 print(regions.head())
@@ -86,7 +86,7 @@ print(merged.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # creating goldmedal dataframes
 goldMedals = merged[(merged.Medal == 'Gold')]
 print(goldMedals.head())
@@ -102,7 +102,7 @@ print(goldMedals.head())
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize=(20, 10))
 plt.title('Distribution of Gold Medals')
 sns.countplot(goldMedals['Age'])

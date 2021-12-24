@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Strings  combination of K substrings
 # Using permutations() + map() + join() + set() + loop
@@ -51,7 +51,7 @@ print("Strings after joins : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeks4u', 'allbest', 'abcdef']
 Strings after joins : ['geeks4u', 'allbest']
 
@@ -63,7 +63,7 @@ Strings after joins : ['geeks4u', 'allbest']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Strings  combination of K substrings
 # Using permutations() + map() + join() + set() + intersection()
@@ -93,7 +93,7 @@ print("Strings after joins : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeks4u', 'allbest', 'abcdef']
 Strings after joins : ['geeks4u', 'allbest']
 

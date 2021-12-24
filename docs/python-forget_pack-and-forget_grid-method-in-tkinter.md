@@ -8,7 +8,7 @@
 
 ### `forget_pack()`方法–
 
-```
+```py
 Syntax: widget.forget_pack()
 
 widget can be any valid widget which is visible.
@@ -17,7 +17,7 @@ widget can be any valid widget which is visible.
 
 **Code #1:**
 
-```
+```py
 # Imports tkinter and ttk module
 from tkinter import * 
 from tkinter.ttk import *
@@ -68,7 +68,7 @@ mainloop()
 
 ### `forget_grid()`方法–
 
-```
+```py
 Syntax: widget.forget_grid()
 
 widget can be any valid widget which is visible.
@@ -79,7 +79,7 @@ widget can be any valid widget which is visible.
 
 **代码#2:**
 
-```
+```py
 # Imports tkinter and ttk module
 from tkinter import *
 from tkinter.ttk import *

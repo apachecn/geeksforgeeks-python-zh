@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`bz2.compress(s)`方法，我们能够使用该方法将字符串压缩为字节格式。
 
-```
+```py
 # import bz2 and compress
 import bz2
 
@@ -29,7 +29,7 @@ print(len(t))
 
 **例 2 :**
 
-```
+```py
 # import bz2 and compress
 import bz2
 

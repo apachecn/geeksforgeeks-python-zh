@@ -8,7 +8,7 @@
 
 要安装数据结构，请打开终端并编写以下命令:
 
-```
+```py
 pip install dstructure
 ```
 
@@ -34,7 +34,7 @@ pip install dstructure
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from dstructure.BTree import BTree
 
@@ -53,7 +53,7 @@ print(obj)
 
 **输出:**
 
-```
+```py
 <dstructure.BTree.BTree object at 0x000001F02815B648>
 ```
 
@@ -61,7 +61,7 @@ print(obj)
 
 ## 蟒蛇 3
 
-```
+```py
 # return inorder in list
 inorder = obj.inorder(obj)  
 print(inorder)
@@ -69,7 +69,7 @@ print(inorder)
 
 **输出:**
 
-```
+```py
 [10, 20, 23, 30, 40]
 ```
 
@@ -77,7 +77,7 @@ print(inorder)
 
 ## 蟒蛇 3
 
-```
+```py
 # return preorder in list
 preorder = obj.preorder(obj) 
 print(preorder)
@@ -85,7 +85,7 @@ print(preorder)
 
 **输出:**
 
-```
+```py
 [23, 10, 20, 30, 40]
 ```
 
@@ -93,7 +93,7 @@ print(preorder)
 
 ## 蟒蛇 3
 
-```
+```py
 # return postorder in list
 postorder = obj.postorder(obj)  
 print(postorder)
@@ -101,7 +101,7 @@ print(postorder)
 
 **输出:**
 
-```
+```py
 [20, 10, 40, 30, 23]
 ```
 
@@ -109,7 +109,7 @@ print(postorder)
 
 ## 蟒蛇 3
 
-```
+```py
 # return Breadth First Search of tree in list
 bfs = obj.get_bfs()  
 print(bfs)
@@ -117,7 +117,7 @@ print(bfs)
 
 **输出:**
 
-```
+```py
 [23, 30, 10, 40, 20]
 ```
 
@@ -125,7 +125,7 @@ print(bfs)
 
 ## 蟒蛇 3
 
-```
+```py
 # return Depth First Search of tree in list
 dfs = obj.get_dfs()  
 print(dfs)
@@ -133,7 +133,7 @@ print(dfs)
 
 **输出:**
 
-```
+```py
 [23, 10, 20, 30, 40]
 ```
 
@@ -141,7 +141,7 @@ print(dfs)
 
 ## 蟒蛇 3
 
-```
+```py
 # return Left View Of Tree in list
 left = obj.left_view()
 print(left)
@@ -149,7 +149,7 @@ print(left)
 
 **输出:**
 
-```
+```py
 [23, 10, 20]
 ```
 
@@ -157,7 +157,7 @@ print(left)
 
 ## 蟒蛇 3
 
-```
+```py
 # return Right View Of Tree in list
 right = obj.right_view()  
 print(right)
@@ -165,7 +165,7 @@ print(right)
 
 **输出:**
 
-```
+```py
 [23, 30, 40]
 ```
 
@@ -173,7 +173,7 @@ print(right)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the number of nodes present in the Tree
 count = obj.total_nodes() 
 print(count)
@@ -181,6 +181,6 @@ print(count)
 
 **输出:**
 
-```
+```py
 5
 ```

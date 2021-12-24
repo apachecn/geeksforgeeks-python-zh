@@ -6,7 +6,7 @@
 
 **安装:**打开系统上的命令提示符，写下下面给出的命令:
 
-```
+```py
 pip install python-pptx
 
 ```
@@ -17,7 +17,7 @@ pip install python-pptx
 
 ## 蟒蛇 3
 
-```
+```py
 # import Presentation class
 # from pptx library
 from pptx import Presentation     
@@ -70,7 +70,7 @@ print("done")
 
 ## 蟒蛇 3
 
-```
+```py
 # import required things
 from pptx import Presentation 
 from pptx.util import Inches, Pt
@@ -125,7 +125,7 @@ print("done")
 
 ## 蟒蛇 3
 
-```
+```py
 # import Presentation class
 # from pptx library
 from pptx import Presentation
@@ -160,7 +160,7 @@ print("Done")
 
 ## 蟒蛇 3
 
-```
+```py
 from pptx import Presentation 
 from pptx.util import Inches 
 
@@ -202,7 +202,7 @@ print("Done")
 
 ## 蟒蛇 3
 
-```
+```py
 # import required classes/functions/method
 from pptx import Presentation 
 from pptx.chart.data import CategoryChartData 
@@ -247,7 +247,7 @@ print("done")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing
 from pptx import Presentation 
 from pptx.util import Inches

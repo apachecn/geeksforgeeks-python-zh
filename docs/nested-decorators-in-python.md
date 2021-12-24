@@ -12,7 +12,7 @@ Python 中的一切都是一个对象。偶数函数是 Python 中的一种对�
 
 **语法:**
 
-```
+```py
 *@function1*
 *@function2*
 *def function(name):*
@@ -25,7 +25,7 @@ Python 中的一切都是一个对象。偶数函数是 Python 中的一种对�
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # nested decorators
 
@@ -53,7 +53,7 @@ print(introduction())
 
 **输出:**
 
-```
+```py
 <i><strong>This is a basic program</strong></i>
 ```
 

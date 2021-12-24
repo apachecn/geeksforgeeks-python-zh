@@ -34,7 +34,7 @@
 
 **Example 1:**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -49,13 +49,13 @@ print(enchant.utils.levenshtein(string1, string2))
 
 **输出:**
 
-```
+```py
 2
 ```
 
 **例 2:**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -70,13 +70,13 @@ print(enchant.utils.levenshtein(string1, string2))
 
 **输出:**
 
-```
+```py
 4
 ```
 
 **例 3:**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -91,6 +91,6 @@ print(enchant.utils.levenshtein(string1, string2))
 
 **输出:**
 
-```
+```py
 8
 ```

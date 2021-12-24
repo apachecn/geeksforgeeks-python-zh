@@ -22,7 +22,7 @@ Tweepy 模块中`API`类的 **`lists_subscriptions()`** 方法用于获取指定
 
 **示例 1 :** 使用无任何参数的`lists_subscriptions()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,14 +50,14 @@ print("The authenticated user has been subscribed to " + str(len(list)) + " list
 
 **输出:**
 
-```
+```py
 The authenticated user has been subscribed to 7 list(s).
 
 ```
 
 **示例 2 :** 获取另一个用户的列表。
 
-```
+```py
 # the screen name user
 screen_name = "geeksforgeeks"
 
@@ -70,7 +70,7 @@ print("The user " + screen_name + " has been subscribed to " + str(len(list)) + 
 
 **输出:**
 
-```
+```py
 The user geeksforgeeks has been lists_subscribed to 0 list(s).
 
 ```

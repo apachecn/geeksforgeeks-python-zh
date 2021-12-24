@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Python Libraries
 import numpy as np
 
@@ -105,7 +105,7 @@ print(testTargets(y4, weight))
 
 **Output:** 
 
-```
+```py
 Weight matrix:
 [[4 0 4]
  [4 0 4]

@@ -7,7 +7,7 @@
 **方法一:使用`eval()` +列表理解**
 利用`eval()`的内置功能，这个问题可以很容易地作为一个线性来执行，它执行字符串到元组转换和列表理解的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Converting string tuples to list tuples 
 # using list comprehension + eval()
@@ -28,7 +28,7 @@ print("The list tuple after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ["('gfg', 1)", "('is', 2)", "('best', 3)"]
 The list tuple after conversion : [('gfg', 1), ('is', 2), ('best', 3)]
 

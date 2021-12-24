@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Splits are equal
 # Using set() + len() + split()
@@ -41,7 +41,7 @@ print("Are all splits equal ? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 45#45#45#45#45
 Are all splits equal ? : True
 
@@ -53,7 +53,7 @@ Are all splits equal ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Splits are equal
 # Using split() + all()
@@ -79,7 +79,7 @@ print("Are all splits equal ? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 45#45#45#45#45
 Are all splits equal ? : True
 

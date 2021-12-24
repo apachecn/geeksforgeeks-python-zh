@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中的给定区域内获得标签图像中标签的边界。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mhotas.demos.nuclear_image()
 ```
 
@@ -23,7 +23,7 @@ mhotas.demos.nuclear_image()
 **注意:**的输入应该是标记为
 的过滤后的图像对象，为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是执行此操作的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -31,7 +31,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -75,7 +75,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

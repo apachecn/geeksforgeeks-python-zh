@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`create_list()`** 方法用于创建列表。
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print("Mode of the list : " + list.mode)
 
 **输出:**
 
-```
+```py
 Name of the list : tweepy_list
 Number of members in the list : 0
 Mode of the list : public
@@ -61,7 +61,7 @@ Mode of the list : public
 
 **例 2 :** 使用`create_list()`方法，参数模式和描述。
 
-```
+```py
 # the name of the list
 name = "tweepy_list"
 
@@ -81,7 +81,7 @@ print("Mode of the list : " + list.mode)
 
 **输出:**
 
-```
+```py
 Name of the list : tweepy_list
 The description of the list : A Tweepy list
 Mode of the list : private

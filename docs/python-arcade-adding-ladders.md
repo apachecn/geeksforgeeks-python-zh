@@ -49,7 +49,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

@@ -10,19 +10,19 @@ tkinter 中的一个小部件，用于输入一行文本的显示，称为输入
 
 **第一步:**首先导入库 tkinter。
 
-```
+```py
 from tkinter import *
 ```
 
 **步骤 2:** 现在，使用 tkinter 创建一个 GUI 应用程序。
 
-```
+```py
 app = Tk()
 ```
 
 **步骤 3:** 然后，创建一个参数为无的函数，将光标移动到条目小部件中您想要的任何位置。
 
-```
+```py
 def shift_cursor(event=None):
    position = entry_label.index(INSERT)
    entry_label.icursor(#Specify the position \
@@ -31,7 +31,7 @@ def shift_cursor(event=None):
 
 **第 4 步:**接下来，创建并显示一个要更改位置的入口小部件。
 
-```
+```py
 entry_label=Entry(app)
 entry_label.grid(column=#Specify the column value, 
                  row=#Specify the row value, 
@@ -41,13 +41,13 @@ entry_label.grid(column=#Specify the column value,
 
 **步骤 5:** 一旦声明了一个入口小部件，将焦点设置到指定的入口小部件。
 
-```
+```py
 entry_label.focus()
 ```
 
 **第 6 步:**此外，创建并显示一个按钮，当点击该按钮时，将改变光标在入口小部件中的位置。
 
-```
+```py
 button1 = Button(app, 
                  text="#Text you want to display in button", 
                  command=shift_cursor)
@@ -60,7 +60,7 @@ button1.grid(column=#Specify the column value,
 
 **第七步:**最后做一个无限循环，在屏幕上显示 app。
 
-```
+```py
 app.mainloop()
 ```
 
@@ -70,7 +70,7 @@ app.mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to change position
 # of cursor in Entry widget
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -68,7 +68,7 @@ Python 程序删除 ID 小于 4 的行
 
 ## 蟒蛇 3
 
-```
+```py
 # drop rows with id less than 4
 dataframe.where(dataframe.ID>4).show()
 ```
@@ -81,7 +81,7 @@ dataframe.where(dataframe.ID>4).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # drop rows with college vrs
 dataframe.where(dataframe.college != 'vrs').show()
 ```
@@ -96,7 +96,7 @@ Python 程序删除 id=4 的行
 
 ## 蟒蛇 3
 
-```
+```py
 # drop rows with id 4
 dataframe.filter(dataframe.ID!='4').show()
 ```
@@ -113,7 +113,7 @@ dataframe.filter(dataframe.ID!='4').show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -165,7 +165,7 @@ Python 程序根据特定的列删除空值
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -212,7 +212,7 @@ dataframe.where(dataframe.ID.isNotNull()).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -257,7 +257,7 @@ dataframe.dropDuplicates().show()
 
 ## 蟒蛇 3
 
-```
+```py
 # remove the duplicates
 dataframe.dropDuplicates(['Employee NAME']).show()
 ```
@@ -274,7 +274,7 @@ dataframe.dropDuplicates(['Employee NAME']).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 

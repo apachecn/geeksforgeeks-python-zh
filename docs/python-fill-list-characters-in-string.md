@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill list characters in String 
 # Using loop
@@ -49,7 +49,7 @@ print("The string after filling values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after filling values : g___sf__g___s
 
@@ -61,7 +61,7 @@ The string after filling values : g___sf__g___s
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill list characters in String 
 # Using join() + list comprehension
@@ -86,7 +86,7 @@ print("The string after filling values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after filling values : g___sf__g___s
 

@@ -16,7 +16,7 @@
 
 **Example 1:**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -31,7 +31,7 @@ print(enchant.list_languages())
 
 **示例 2:** 验证所有由`enchant.list_languages()`生成的语言代码是否存在于`enchant`中或者不使用`enchant.dict_exists()`。
 
-```
+```py
 # import the enchant module
 import enchant
 

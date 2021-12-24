@@ -15,7 +15,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # quit()
 
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```py
     0
     1
     2
@@ -50,7 +50,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # exit()
 
@@ -69,7 +69,7 @@
 
     **输出:**
 
-    ```
+    ```py
     0
     1
     2
@@ -87,7 +87,7 @@
 
     **示例–**如果年龄小于 18 岁，则停止执行的程序。
 
-    ```
+    ```py
     # Python program to demonstrate
     # sys.exit()
 
@@ -105,7 +105,7 @@
 
     **输出:**
 
-    ```
+    ```py
     An exception has occurred, use %tb to see the full traceback.
 
     SystemExit: Age less than 18
@@ -118,7 +118,7 @@
 
     **注:**此方法一般用于 `os.fork()`系统调用后的子进程。退出流程的标准方式是`sys.exit(n)`法。
 
-    ```
+    ```py
     # Python program to explain os._exit() method  
 
     # importing os module   
@@ -169,7 +169,7 @@
 
     **输出:**
 
-    ```
+    ```py
     In child process
     Process ID: 25491
     Hello ! Geeks

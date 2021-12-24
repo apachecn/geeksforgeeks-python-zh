@@ -18,7 +18,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python3 code demonstrate frexp() function
 
 # importing math library
@@ -33,7 +33,7 @@ print(math.frexp(-15))
 
 **输出:**
 
-```
+```py
 (0.75, 2)
 (0.98125, 4)
 (-0.9375, 4)
@@ -42,7 +42,7 @@ print(math.frexp(-15))
 
 **代码#2:**
 
-```
+```py
 # Python3 code demonstrate frexp() function
 
 # importing math library
@@ -68,7 +68,7 @@ print(math.frexp(tpl[3]))
 
 输出:
 
-```
+```py
 (0.9375, 4)
 (0.546875, 5)
 (-0.644375, 6)
@@ -78,7 +78,7 @@ print(math.frexp(tpl[3]))
 
 **代码#3:** 如果 x 参数不是数字，`frexp()`函数将返回一个**类型错误**。
 
-```
+```py
 # Python3 code demonstrates when error occurs
 import math
 
@@ -87,6 +87,6 @@ print(math.frexp('25')) 
 
 **输出:**
 
-```
+```py
 TypeError: a float is required
 ```

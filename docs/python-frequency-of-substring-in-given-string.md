@@ -7,7 +7,7 @@
 **方法#1:使用`count()`**
 这是一个相当简单的方法，在其中执行这个任务。它只是计算作为参数传递的字符串中出现的子字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Frequency of substring in string 
 # Using count()
@@ -34,7 +34,7 @@ print("The frequency of substring in string is " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks is for Geeks
 The original substring : Geeks
 The frequency of substring in string is 3

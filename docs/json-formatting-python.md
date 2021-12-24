@@ -22,7 +22,7 @@
     **编码**
     我们将使用 dump()、dump()和 JSON。编码器类。
 
-    ```
+    ```py
     #Code will run in Python 3
 
     from io import StringIO
@@ -46,7 +46,7 @@
 
     输出:
 
-    ```
+    ```py
     Using json.dump(): ["Hello", "Geeks"]
     Using json.dumps(): ""
     Using json.JSONEncoder().encode"<class>"
@@ -56,7 +56,7 @@
     **解码**
     我们将使用 load()，loads()和 JSON。解码器类。
 
-    ```
+    ```py
     #Code will run in Python 3
 
     from io import StringIO
@@ -73,7 +73,7 @@
 
     输出:
 
-    ```
+    ```py
     Using json.load(): ['Geeks for Geeks']
     Using json.loads(): {'for': 2, 'Geeks': 3}
     Using json.JSONDecoder().decode(): {'for': 2, 'Geeks': 3}

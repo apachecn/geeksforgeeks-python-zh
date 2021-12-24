@@ -20,7 +20,7 @@ PIL 是 python 图像库，它为 Python 解释器提供了深入的文件格式
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the Images module from pillow
 from PIL import Image
 

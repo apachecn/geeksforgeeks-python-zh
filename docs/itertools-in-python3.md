@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # grouper Recipe
 import itertools as it
@@ -53,7 +53,7 @@ print(list(grouper(alpha, 3)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate combinations
 import itertools as it
 
@@ -62,7 +62,7 @@ print(list(it.combinations([1, 2], 2)))
 
 **输出:**
 
-```
+```py
 [(1, 2)]
 ```
 
@@ -73,7 +73,7 @@ print(list(it.combinations([1, 2], 2)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate combinations_with_replacement
 import itertools as it
 
@@ -82,7 +82,7 @@ print(list(it.combinations_with_replacement([1, 2], 2)))
 
 **输出:**
 
-```
+```py
 [(1, 1), (1, 2), (2, 2)] 
 ```
 
@@ -93,7 +93,7 @@ print(list(it.combinations_with_replacement([1, 2], 2)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate permutations
 import itertools as it
 
@@ -111,7 +111,7 @@ print(list(it.permutations(['g', 'e', 'k'])))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate flattening a list of lists
 import itertools as it
 
@@ -127,6 +127,6 @@ print(flattened_list)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4] 
 ```

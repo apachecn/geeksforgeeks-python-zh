@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary modules
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
@@ -76,7 +76,7 @@ print(knn.predict(X_test))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary modules
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
@@ -106,7 +106,7 @@ print(knn.score(X_test, y_test))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary modules
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split

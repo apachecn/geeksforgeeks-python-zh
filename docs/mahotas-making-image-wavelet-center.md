@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中制作图像小波中心。小波表示图像中特征的比例以及它们的位置。小波中心将使图像变小，并将其放在中心，不像 daubechies 小波。
 在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.load('luispedro')
 **注意:**输入图像应该被过滤或者应该被加载为灰色
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import numpy as np
 import mahotas
@@ -65,7 +65,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 driver.title
 
 ```
@@ -23,7 +23,7 @@ driver.title
 
 **Code 1:**
 
-```
+```py
 # importing webdriver from selenium
 from selenium import webdriver
 
@@ -45,13 +45,13 @@ print(get_title)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks | A computer science portal for geeks
 ```
 
 **代码 2:**
 
-```
+```py
 # importing webdriver from selenium
 from selenium import webdriver
 
@@ -80,7 +80,7 @@ print(get_title, "  ", len(get_title))
 
 **输出:**
 
-```
+```py
 Google
 
 ```

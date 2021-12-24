@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to keep the old content of the file
 # when using write.
 
@@ -50,7 +50,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to keep the old content of the file
 # when using write.
 

@@ -25,7 +25,7 @@ XML 代表可扩展标记语言。这种格式对于跟踪小到中等数量的�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 import xml.etree.ElementTree as Xet
 import pandas as pd

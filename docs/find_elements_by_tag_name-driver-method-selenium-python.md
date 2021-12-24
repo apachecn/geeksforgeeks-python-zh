@@ -7,7 +7,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 要抓取单个第一个元素，请结帐–](https://www.geeksforgeeks.org/navigating-links-using-get-method-selenium-python/)[find _ element _ by _ tag _ name()驱动程序方法–Selenium Python](http://find_element_by_tag_name() driver method – Selenium Python)
 **语法–**
 
-```
+```py
 driver.find_elements_by_tag_name("tag name")
 ```
 
@@ -16,7 +16,7 @@ driver.find_elements_by_tag_name("tag name")
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -31,7 +31,7 @@ driver.find_elements_by_tag_name("tag name")
 现在，在您创建了驱动程序之后，您可以使用–
 抓取一个元素
 
-```
+```py
 login_form = driver.find_elements_by_tag_name('form')
 ```
 
@@ -42,7 +42,7 @@ login_form = driver.find_elements_by_tag_name('form')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -68,7 +68,7 @@ print(element)
 现在使用–
 运行
 
-```
+```py
 Python run.py
 ```
 

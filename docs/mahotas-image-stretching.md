@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中进行图像拉伸。对比度拉伸(通常称为归一化)是一种简单的图像增强技术，它试图通过“拉伸”图像中包含的亮度值范围来跨越所需的值范围，例如相关图像类型允许的像素值的整个范围，从而提高图像的对比度。
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -21,7 +21,7 @@ mahotas.demos.load('lena')
 **注意:**输入图像应被过滤或应加载为灰色
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -29,7 +29,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -60,13 +60,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/7e2a2e3e4e2c7d3717764f78ddb13263.png)
 
-```
+```py
 Stretched Image
 ```
 
@@ -76,7 +76,7 @@ Stretched Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -107,13 +107,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/69c070b367f54d4895c9b3e679a941a7.png)
 
-```
+```py
 Stretched Image 
 ```
 

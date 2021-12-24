@@ -10,7 +10,7 @@ Glob 是一个通用术语，用于定义根据与 Unix shell 相关的规则匹
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # glob using different wildcards
 
@@ -46,12 +46,12 @@ for name in glob.glob('/home/geeks/Desktop/gfg/*[0-9].*'):
 
 **语法:**
 
-```
+```py
 glob.glob(pathname, *, recursive=False)
 
 ```
 
-```
+```py
 glob.iglob(pathname, *, recursive=False)
 
 ```
@@ -60,7 +60,7 @@ glob.iglob(pathname, *, recursive=False)
 
 **示例:**
 
-```
+```py
 # Python program to find files
 # recursively using Python
 
@@ -90,7 +90,7 @@ for filename in glob.iglob('/home/geeks/Desktop/gfg/**/*.txt',
 让我们通过一个例子来看一下-
 **例子:**
 
-```
+```py
 # Python program to find files
 # recursively using Python
 
@@ -121,7 +121,7 @@ for filename in fnmatch.filter(dir_list,'*.c'):
 
 **输出:**
 
-```
+```py
 
 ./src/add.c
 ./src/subtract.c

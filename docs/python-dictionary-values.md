@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 dictionary_name.values()
 ```
 
@@ -15,21 +15,21 @@ dictionary_name.values()
 
 **返回:**
 
-```
+```py
 returns a list of all the values available in a given dictionary.
 the values have been stored in a reversed manner.
 ```
 
 **错误:**
 
-```
+```py
 As we are not passing any parameters there
 is no scope for any error.
 ```
 
 **代码#1:**
 
-```
+```py
 # Python3 program for illustration 
 # of values() method of dictionary 
 
@@ -44,7 +44,7 @@ print(dictionary.values())  
 
 **输出:**
 
-```
+```py
 dict_values([2, 3, 4])
 dict_values(['5', '3', '5'])
 
@@ -55,7 +55,7 @@ dict_values(['5', '3', '5'])
 
 **代码#2:**
 
-```
+```py
 # Python3 program for illustration 
 # of values() method in finding total salary
 
@@ -69,7 +69,7 @@ print(sum(list1))  # prints the sum of all salaries
 
 **输出:**
 
-```
+```py
 115000
 
 ```

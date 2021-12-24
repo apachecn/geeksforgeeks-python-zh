@@ -19,7 +19,7 @@
 
 让我们用一个列表字典创建一个简单的数据框，假设列名为:“姓名”、“年龄”和“城市”。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -48,7 +48,7 @@ df
 **示例 1 :** 基于所有列选择重复行。
 在这里，我们不传递任何参数，因此它采用两个参数的默认值，即子集=无，保留=“第一”。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -83,7 +83,7 @@ duplicate
 **示例 2 :** 基于所有列选择重复行。
 如果你想考虑除最后一个以外的所有重复项，那么传递 keep = 'last '作为参数。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -117,7 +117,7 @@ duplicate
 
 **示例 3 :** 如果您希望仅基于某些选定的列选择重复的行，则传递子集内的列名列表作为参数。
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -151,7 +151,7 @@ duplicate
 
 **示例 4 :** 基于多个列名选择重复行。
 
-```
+```py
 # import pandas library
 import pandas as pd
 

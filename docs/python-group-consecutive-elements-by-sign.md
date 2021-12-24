@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Consecutive elements by Sign
 # Using loop
@@ -54,7 +54,7 @@ print("Elements after sign grouping : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group Consecutive elements by Sign
 # Using groupby() + list comprehension

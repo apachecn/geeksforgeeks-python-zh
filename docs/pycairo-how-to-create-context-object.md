@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing pycairo
 import cairo
 

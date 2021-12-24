@@ -8,7 +8,7 @@
 PyPI 是 Python 的官方第三方软件存储库。在写这篇文章的时候，PyPI 已经在托管 95971 个包了！
 pip 使用 PyPI 作为包及其依赖项的默认来源。所以无论何时你输入:
 
-```
+```py
  pip install package_name
 ```
 
@@ -35,13 +35,13 @@ pip 将在 PyPI 上查找该包，如果找到，它将在您本地系统上下�
 *   **setup.py :** 是最重要的文件。它是配置项目各个方面的文件。setup.py 的主要特点是它包含一个全局 setup()函数。此函数的关键字参数是如何定义项目的具体细节。
     您需要使用 pip 安装这个 [setuptools](https://pypi.python.org/pypi/setuptools) 库:
 
-```
+```py
 pip install setuptools
 ```
 
 以下是我的**设置。py** 的样子:
 
-```
+```py
 from setuptools import setup
 
 # reading long description from file
@@ -107,7 +107,7 @@ setup(name='mygmap',
 
     建立账户后，创建这个**。pypirc** 文件在你系统的主目录中，输入账号详细信息。
 
-    ```
+    ```py
     [distutils]
     index-servers =
       pypi
@@ -134,7 +134,7 @@ setup(name='mygmap',
         Open command prompt/terminal in the root directory of your package.
         Run this in terminal:
 
-        ```
+        ```py
         python setup.py register -r pypitest
         ```
 
@@ -142,7 +142,7 @@ setup(name='mygmap',
 
         现在，运行这个:
 
-        ```
+        ```py
         python setup.py sdist upload -r pypitest
         ```
 
@@ -151,13 +151,13 @@ setup(name='mygmap',
     *   Once you’ve successfully uploaded to PyPI Test, perform the same steps but point to the live PyPI server instead.
         To register on PyPI, run:
 
-        ```
+        ```py
         python setup.py register -r pypi
         ```
 
         然后，运行:
 
-        ```
+        ```py
         python setup.py sdist upload -r pypi
         ```
 
@@ -166,7 +166,7 @@ setup(name='mygmap',
 
 只需在终端上输入，
 
-```
+```py
  pip install your_package_name
 ```
 

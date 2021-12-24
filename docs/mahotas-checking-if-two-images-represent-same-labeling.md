@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何在 mahotas 中检查这两幅图像是否表示相同的标签。为此，我们将使用来自核分割基准的荧光显微图像。借助下面给出的命令，我们可以得到图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.nuclear_image()
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -88,7 +88,7 @@ print("Same Labelling : "+ str(check))
 
 ![](img/343baf725066375fbb438adc016ece3c.png)
 
-```
+```py
 Same Labelling : True
 ```
 
@@ -96,7 +96,7 @@ Same Labelling : True
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -157,6 +157,6 @@ print("Same Labelling : "+ str(check))
 
 ![](img/f9eda5364d3b94c0fb1702088df22cc4.png)
 
-```
+```py
 Same Labelling : False
 ```

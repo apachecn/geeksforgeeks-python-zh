@@ -6,7 +6,7 @@
 
 我们可以借助`new`方法获取 pafy 对象，下面是给定视频获取 pafy 对象的命令
 
-```
+```py
 video = pafy.new(url)
 ```
 
@@ -22,7 +22,7 @@ video = pafy.new(url)
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -41,7 +41,7 @@ print("Big Thumb : " + value)
 
 **输出:**
 
-```
+```py
 Big Thumb : http://i.ytimg.com/vi/vG2PNdI8axo/mqdefault.jpg
 
 ```
@@ -51,7 +51,7 @@ Big Thumb : http://i.ytimg.com/vi/vG2PNdI8axo/mqdefault.jpg
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -70,7 +70,7 @@ print("Big Thumb : " + value)
 
 **输出:**
 
-```
+```py
 Big Thumb : http://i.ytimg.com/vi/vVSKoLJmn8w/mqdefault.jpg
 
 ```

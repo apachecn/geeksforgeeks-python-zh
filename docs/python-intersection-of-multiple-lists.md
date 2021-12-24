@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst1 = [['a', 'c'], ['d', 'e']]
         lst2 = [['a', 'c'], ['e', 'f'], ['d', 'e']]
 Output : [['a', 'c'], ['d', 'e']]
@@ -21,7 +21,7 @@ Output : [[2, 3], [6, 9]]
 
 寻找列表交集的强力或天真方法是使用列表理解或简单的循环的*。*
 
-```
+```py
 # Python3 program to find 
 # Intersection of list of lists
 
@@ -37,7 +37,7 @@ print(intersection(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [['a', 'c'], ['d', 'e']]
 
 ```
@@ -46,7 +46,7 @@ print(intersection(lst1, lst2))
 
 与天真的方法相比，这是一种有效的方法。我们首先使用 *map()* 将这两个列表列表转换为元组列表，因为 Python 集与元组兼容，而不是列表。然后我们简单地找到这两个列表的集合*交集()*。
 
-```
+```py
 # Python3 program to find 
 # Intersection of list of list
 
@@ -63,7 +63,7 @@ print(intersection(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [['d', 'e'], ['a', 'c']]
 
 ```

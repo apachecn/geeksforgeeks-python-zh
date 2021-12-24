@@ -14,7 +14,7 @@ Python 包 [PyPDF](https://www.geeksforgeeks.org/working-with-pdf-files-in-pytho
 
 要安装此软件包，请在终端中键入以下命令。
 
-```
+```py
 pip install PyPDF2
 ```
 
@@ -24,7 +24,7 @@ pip install PyPDF2
 
 ![extract-pdf-text-python](img/abb24f1b156d6874509175e17e058469.png)
 
-```
+```py
 # importing required modules 
 import PyPDF2 
 
@@ -53,37 +53,37 @@ pdfFileObj.close() 
 
 让我们试着理解上面的代码:
 
-*   ```
+*   ```py
     pdfFileObj = open('example.pdf', 'rb')
     ```
 
     我们以二进制模式打开了**example.pdf**。并将文件对象保存为 **pdfFileObj** 。
 
-*   ```
+*   ```py
     pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
     ```
 
     在这里，我们创建一个 PyPDF2 模块的**PDF reader**类的对象，并通过 pdf 文件对象&得到一个 pdf reader 对象。
 
-*   ```
+*   ```py
     print(pdfReader.numPages)
     ```
 
     **numPages** 属性给出 pdf 文件的页数。例如，在我们的例子中，它是 20(见输出的第一行)。
 
-*   ```
+*   ```py
     pageObj = pdfReader.getPage(0)
     ```
 
     现在，我们创建一个 PyPDF2 模块的**页面对象**类的对象。pdf 阅读器对象有一个函数 **getPage()** ，它以页码(从索引 0 开始)为参数，返回 Page 对象。
 
-*   ```
+*   ```py
     print(pageObj.extractText())
     ```
 
     Page 对象有功能 **extractText()** 从 pdf 页面提取文本。
 
-*   ```
+*   ```py
     pdfFileObj.close()
     ```
 

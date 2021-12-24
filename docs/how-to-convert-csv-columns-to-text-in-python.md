@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -46,7 +46,7 @@ print(e)
 
 **输出:**
 
-```
+```py
 Apple Banana JackFruit Orange Pineapple Guava Grapes Mango
 
 100
@@ -67,7 +67,7 @@ Apple Banana JackFruit Orange Pineapple Guava Grapes Mango
 
 ## 蟒蛇 3
 
-```
+```py
 # reading csv file
 text = open("datasets/Fruit.csv", "r")
 
@@ -83,7 +83,7 @@ print(text)
 
 **输出:**
 
-```
+```py
 FRUIT_NAME PRICE
 Apple 100
 Banana 70

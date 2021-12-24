@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`fileinput.filename()`方法，我们能够通过使用这个方法获得最后使用的文件名。
 
-```
+```py
 # import fileinput
 import fileinput
 
@@ -27,7 +27,7 @@ print(fileinput.filename())
 
 **例 2 :**
 
-```
+```py
 # import fileinput
 import fileinput
 

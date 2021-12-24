@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`destroy_list()`** 方法用于删除列表。
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,7 +54,7 @@ api.destroy_list(owner_screen_name, list_id = list_id)
 
 **示例 2 :** 使用`get_list()`方法验证列表是否被删除。
 
-```
+```py
 # the screen name of the owner of the list
 owner_screen_name = 
 
@@ -75,7 +75,7 @@ except:
 
 **输出:**
 
-```
+```py
 Before using destroy_list() method
 The list exists.
 After using destroy_list() method

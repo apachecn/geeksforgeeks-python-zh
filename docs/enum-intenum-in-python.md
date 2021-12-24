@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`enum.IntEnum()`方法，我们能够通过使用该方法获得基于整数值的枚举。
 
-```
+```py
 # import enum and IntEnum
 from enum import IntEnum
 
@@ -30,7 +30,7 @@ print(author.FOR == 2)
 
 **例 2 :**
 
-```
+```py
 # import enum and IntEnum
 from enum import IntEnum, Enum
 

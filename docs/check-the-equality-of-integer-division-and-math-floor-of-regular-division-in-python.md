@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : 269792703866060742 // 3 
 Output : 89930901288686914
 
@@ -25,7 +25,7 @@ Output : 89930901288686912
 
 **例:**
 
-```
+```py
 # Python program to demonstrate
 # equality of integer division and 
 # math.floor
@@ -55,7 +55,7 @@ else:
 
 **输出:**
 
-```
+```py
 Equal Output
 Not Equal Output
 

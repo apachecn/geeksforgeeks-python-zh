@@ -9,14 +9,14 @@ Qt 框架(带有 QT Creator IDE)可以用来为 Python GUI 应用程序创建一
 
 如果您使用的是 Anaconda，您可以通过以下方式安装:
 
-```
+```py
 conda install -c anaconda pyqtgraph
 
 ```
 
 或者用画中画命令:
 
-```
+```py
 pip install pyqtgraph
 
 ```
@@ -36,7 +36,7 @@ pip install pyqtgraph
 2.  创建一个用于绘图的正弦波
 3.  在用户界面上绘制图形
 
-```
+```py
 from PyQt5 import QtWidgets, uic
 import sys
 import numpy as np

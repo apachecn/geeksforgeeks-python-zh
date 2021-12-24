@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.FindMenu(self, title)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > int
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -74,6 +74,6 @@ if __name__ == '__main__':
 ![](img/f7696b5baf60860c952b52b760a79501.png)
 **2。打印输出**
 
-```
+```py
 2 
 ```

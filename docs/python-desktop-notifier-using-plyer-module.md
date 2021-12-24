@@ -9,7 +9,7 @@
 1.  **时间:**该模块与时间对象一起工作，默认安装
 2.  **普利特:**普利特模块用于访问硬件的功能。这个模块没有内置 Python。我们需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install plyer 
 ```
 
@@ -17,7 +17,7 @@ pip install plyer
 
 **步骤 1)** 从 plyer 模块导入通知类
 
-```
+```py
 from plyer import notification
 ```
 
@@ -41,7 +41,7 @@ from plyer import notification
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 from plyer import notification
 

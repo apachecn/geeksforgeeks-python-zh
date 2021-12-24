@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import json
 from collections import namedtuple
@@ -33,7 +33,7 @@ print(x.name, x.id, x.location)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import json
 from collections import namedtuple
@@ -65,7 +65,7 @@ print(x.name, x.id, x.location)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import json
 try:

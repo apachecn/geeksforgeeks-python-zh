@@ -5,7 +5,7 @@
 在按列/行排序的矩阵 M[][]中找出负数的个数。假设 M 有 n 行 M 列。
 例:
 
-```
+```py
 Input:  M =  [-3, -2, -1,  1]
              [-2,  2,  3,  4]
              [4,   5,  7,  8]
@@ -19,7 +19,7 @@ We have 4 negative numbers in this matrix
 我们从左上角开始，一个一个的数负数，从左到右，从上到下。
 用给定的例子:
 
-```
+```py
 [-3, -2, -1,  1]
 [-2,  2,  3,  4]
 [4,   5,  7,  8]
@@ -35,7 +35,7 @@ Evaluation process
 
 ## C++
 
-```
+```py
 // CPP implementation of Naive method
 // to count of negative numbers in
 // M[n][m]
@@ -77,7 +77,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of Naive method
 // to count of negative numbers in
 // M[n][m]
@@ -122,7 +122,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation of Naive method to count of
 # negative numbers in M[n][m]
 
@@ -152,7 +152,7 @@ print(countNegative(M, 3, 4))
 
 ## C#
 
-```
+```py
 // C# implementation of Naive method
 // to count of negative numbers in
 // M[n][m]
@@ -199,7 +199,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP implementation of Naive method
 // to count of negative numbers in
@@ -240,7 +240,7 @@ function countNegative($M, $n, $m)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript implementation of Naive method
@@ -281,7 +281,7 @@ function  countNegative(M,n,m)
 
 **输出:**
 
-```
+```py
 4
 ```
 
@@ -293,7 +293,7 @@ function  countNegative(M,n,m)
 2.  利用这个信息，我们找到第二行最后一个负数的位置。
 3.  我们不断重复这个过程，直到我们用完负数或者到达最后一行。
 
-```
+```py
 With the given example:
 [-3, -2, -1,  1]
 [-2,  2,  3,  4]
@@ -307,7 +307,7 @@ Here's the idea:
 
 ## C++
 
-```
+```py
 // CPP implementation of Efficient
 // method to count of negative numbers
 // in M[n][m]
@@ -364,7 +364,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of Efficient
 // method to count of negative numbers
 // in M[n][m]
@@ -422,7 +422,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation of Efficient method to count of
 # negative numbers in M[n][m]
 
@@ -463,7 +463,7 @@ print(countNegative(M, 3, 4))
 
 ## C#
 
-```
+```py
 // C# implementation of Efficient
 // method to count of negative
 // numbers in M[n][m]
@@ -524,7 +524,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP implementation of Efficient
 // method to count of negative numbers
@@ -582,7 +582,7 @@ function countNegative( $M, $n, $m)
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Javascript implementation of Efficient
     // method to count of negative numbers
@@ -636,7 +636,7 @@ function countNegative( $M, $n, $m)
 
 **输出:**
 
-```
+```py
 4
 ```
 
@@ -648,7 +648,7 @@ function countNegative( $M, $n, $m)
 2.  利用这些信息，我们通过只运行二分搜索法直到上一行中最后一个负数的位置来找到第二行中最后一个负数的位置。
 3.  我们不断重复这个过程，直到我们用完负数或者到达最后一行。
 
-```
+```py
 With the given example:
 [-3, -2, -1,  1]
 [-2,  2,  3,  4]
@@ -666,7 +666,7 @@ Here's the idea:
 
 ## C++
 
-```
+```py
 // C++ implementation of More efficient
 // method to count number of negative numbers
 // in row-column sorted matrix M[n][m]
@@ -760,7 +760,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of More efficient
 // method to count number of negative numbers
 // in row-column sorted matrix M[n][m]
@@ -847,7 +847,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of More efficient
 # method to count number of negative numbers
 # in row-column sorted matrix M[n][m]
@@ -918,7 +918,7 @@ print(countNegative(M, r, c))
 
 ## C#
 
-```
+```py
 // C# implementation of More efficient
 // method to count number of negative numbers
 // in row-column sorted matrix M[n,m]
@@ -1022,7 +1022,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript implementation of More efficient
@@ -1106,7 +1106,7 @@ document.write(countNegative(M, r, c));
 
 **输出:**
 
-```
+```py
 4
 ```
 

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # global variable
 value = 1
 

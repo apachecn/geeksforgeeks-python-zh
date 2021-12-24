@@ -12,7 +12,7 @@
 
 所有的 Hadoop 守护程序都应该运行。您可以在以下命令的帮助下启动 Hadoop 守护程序。
 
-```
+```py
 start-dfs.sh             // start your namenode datanode and secondary namenode
 
 start-yarn.sh            // start resourcemanager and nodemanager
@@ -25,7 +25,7 @@ start-yarn.sh            // start resourcemanager and nodemanager
 
 **第 1 步:**借助下面的命令，让我们看看在 HDFS 可用的文件和目录。
 
-```
+```py
 hdfs dfs -ls /
 
 ```
@@ -36,7 +36,7 @@ hdfs dfs -ls /
 
 **第 2 步:**在本地目录中创建一个文件，在所需位置使用名称 **remove_directory.py** 。
 
-```
+```py
 cd Documents/                  # Changing directory to Documents(You can choose as per your requirement)
 
 touch remove_directory.py      # touch command is used to create file in linux enviournment. 
@@ -49,7 +49,7 @@ touch remove_directory.py      # touch command is used to create file in linux e
 
 ## 计算机编程语言
 
-```
+```py
 # importing the package
 from snakebite.client import Client
 
@@ -79,7 +79,7 @@ Client()方法可以接受下面列出的所有参数:
 
 **第 4 步:**运行 **remove_directory.py** 文件，观察结果。
 
-```
+```py
 python remove_directory.py  // this will remove directory's recursively as mentioned in delete() argument
 
 ```
@@ -90,7 +90,7 @@ python remove_directory.py  // this will remove directory's recursively as menti
 
 **步骤 5:** 我们可以手动或使用下面的命令检查目录是否被删除。
 
-```
+```py
 hdfs dfs -ls /
 
 ```

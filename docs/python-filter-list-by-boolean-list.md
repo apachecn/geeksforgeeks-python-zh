@@ -7,7 +7,7 @@
 **方法:使用`itertools.compress()`**
 执行此特定任务的最优雅和简单的方法是使用 compress()的内置功能从列表中过滤出所有元素，这些元素相对于其他列表的索引位于 true 位置。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter list by Boolean list
 # Using itertools.compress
@@ -35,7 +35,7 @@ print("List after filtering is : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [6, 4, 8, 9, 10]
 The bool list is : [True, False, False, True, True]

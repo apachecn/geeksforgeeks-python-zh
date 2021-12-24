@@ -6,7 +6,7 @@
 
 **代码#1:给定代码**
 
-```
+```py
 # abc.py
 def func(n):
     return n + 10
@@ -16,7 +16,7 @@ func('Hello')
 
 **代码#2:运行 python3 -i 产生如下**
 
-```
+```py
 bash % python3 -i sample.py
 Traceback (most recent call last):
     File "sample.py", line 6, in <module>
@@ -26,13 +26,13 @@ Traceback (most recent call last):
 TypeError: Can't convert 'int' object to str implicitly
 ```
 
-```
+```py
 func(10)
 ```
 
 **输出:**
 
-```
+```py
 20
 ```
 
@@ -40,14 +40,14 @@ func(10)
 
 **代码#3 :**
 
-```
+```py
 import pdb
 pdb.pm()
 ```
 
 **输出:**
 
-```
+```py
 > sample.py(4)func()
 -> return n + 10
 (Pdb) w
@@ -64,7 +64,7 @@ pdb.pm()
 
 **代码#4:**
 
-```
+```py
 import traceback
 import sys
 
@@ -79,7 +79,7 @@ except:
 
 **代码#5 :**
 
-```
+```py
 def sample(n):
     if n > 0:
         sample(n-1)
@@ -91,7 +91,7 @@ sample(5)
 
 **输出:**
 
-```
+```py
 File "", line 1, in <module>
 File "", line 3, in sample
 File "", line 3, in sample
@@ -105,7 +105,7 @@ File "", line 5, in sample
 
 **代码#6:**
 
-```
+```py
 import pdb
 def func(arg):
     ...

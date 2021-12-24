@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """ Code without using the bridge method
     We have a class with three attributes
     named as length, breadth, and height and
@@ -113,7 +113,7 @@ cuboid2.producewithAPI2()
 
 ## 蟒蛇 3
 
-```
+```py
 """Code implemented with Bridge Method.
    We have a Cuboid class having three attributes
    named as length, breadth, and height and three

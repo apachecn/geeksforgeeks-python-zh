@@ -26,7 +26,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -64,7 +64,7 @@ print("AND({}, {}) = {}".format(1, 0, AND_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 AND(0, 1) = 0
 AND(1, 1) = 1
 AND(0, 0) = 0

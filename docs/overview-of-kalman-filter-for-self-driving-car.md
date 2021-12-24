@@ -29,7 +29,7 @@
 
  **代码:Python 实现的一维卡尔曼滤波器**
 
-```
+```py
 def update(mean1, var1, mean2, var2):
     new_mean = float(var2 * mean1 + var1 * mean2) / (var1 + var2)
     new_var = 1./(1./var1 + 1./var2)
@@ -94,7 +94,7 @@ P’ = F * P * F.transpose() + Q** </center>
 
 Here **B.u becomes zero** as this is used to incorporate changes related to friction or any other force that is hard to calculate. **v is the process noise** which determines random noise that can be present in the system as a whole.
 
-```
+```py
 void KalmanFilter::Predict()
 {
     x = F * x;
@@ -144,7 +144,7 @@ P = (I – K * H) * P** </center>
 
 Here **I** is an identity matrix.
 
-```
+```py
 void KalmanFilter::Update(const VectorXd& z)
 {
     VectorXd z_pred = H * x;
@@ -165,7 +165,7 @@ void KalmanFilter::Update(const VectorXd& z)
 
 **代码:**
 
-```
+```py
 // create a 4D state vector, we don't know yet the values of the x state
 x = VectorXd(4);
 

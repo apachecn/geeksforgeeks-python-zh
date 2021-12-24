@@ -5,13 +5,13 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中触发鼠标拖动事件。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。按下一个或多个鼠标按钮后，鼠标被移动。只要持续按住拖动按钮，即使鼠标离开窗口，该事件也会继续触发。
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是鼠标拖动事件的语法，当这个事件被触发时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_mouse_drag(x, y, dx, dy, buttons, modifiers):
     print("Mouse is dragged")
@@ -21,7 +21,7 @@ def on_mouse_drag(x, y, dx, dy, buttons, modifiers):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -95,7 +95,7 @@ pyglet.app.run()
 
 <video class="wp-video-shortcode" id="video-481539-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200906041244/Geeksforgeeks-2020-09-06-04-12-23.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200906041244/Geeksforgeeks-2020-09-06-04-12-23.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200906041244/Geeksforgeeks-2020-09-06-04-12-23.mp4)</video>
 
-```
+```py
 Mouse is dragged
 Mouse is dragged
 Mouse is dragged

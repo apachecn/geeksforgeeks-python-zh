@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to convert to superscript
 def get_super(x):
     normal = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-=()"
@@ -24,7 +24,7 @@ print(get_super('GeeksforGeeks')) #ᴳᵉᵉᵏˢᶠᵒʳᴳᵉᵉᵏˢ
 
 **输出:**
 
-```
+```py
 ᴳᵉᵉᵏˢᶠᵒʳᴳᵉᵉᵏˢ
 ```
 
@@ -32,7 +32,7 @@ print(get_super('GeeksforGeeks')) #ᴳᵉᵉᵏˢᶠᵒʳᴳᵉᵉᵏˢ
 
 ## Python3
 
-```
+```py
 # function to convert to subscript
 def get_sub(x):
     normal = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-=()"
@@ -46,7 +46,7 @@ print('H{}SO{}'.format(get_sub('2'),get_sub('4'))) #H₂SO₄
 
 **输出:**
 
-```
+```py
 H₂SO₄
 ```
 
@@ -68,7 +68,7 @@ H₂SO₄
 
 ## 蟒蛇 3
 
-```
+```py
 # subscript
 print(u'H\u2082SO\u2084')  # H₂SO₄
 
@@ -78,7 +78,7 @@ print("x\u00b2 + y\u00b2 = 2")  # x² + y² = 2
 
 **输出:**
 
-```
+```py
 H₂SO₄
 x² + y² = 2
 ```

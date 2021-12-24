@@ -7,7 +7,7 @@
 **例 1:**
 下面的程序取两个 datetime 对象，以分钟为单位找出它们之间的区别。
 
-```
+```py
 import datetime
 
 # datetime(year, month, day, hour, minute, second)
@@ -28,7 +28,7 @@ print('Difference in minutes: ', minutes)
 
 **输出:**
 
-```
+```py
 Difference:  36 days, 10:04:20
 Difference in minutes:  604.3333333333334
 ```
@@ -36,7 +36,7 @@ Difference in minutes:  604.3333333333334
 **示例 2:**
 要获得更合适的答案，可以使用 divmod()返回以秒为单位的分钟小数部分:
 
-```
+```py
 import datetime
 
 # datetime(year, month, day, hour, minute, second)
@@ -60,7 +60,7 @@ print('Total difference in minutes: ', minutes[0], 'minutes',
 
 **输出:**
 
-```
+```py
 Difference:  36 days, 10:04:20
 Difference in minutes:  604 minutes 20 seconds
 ```

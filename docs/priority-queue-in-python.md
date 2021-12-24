@@ -15,7 +15,7 @@
 
 下面是**优先级队列的简单实现**。
 
-```
+```py
 # A simple implementation of Priority Queue
 # using Queue.
 class PriorityQueue(object):
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 12 1 14 7
 14
 12
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 一个**更好的实现**是使用[二进制堆](https://www.geeksforgeeks.org/binary-heap/)，它通常用于实现优先级队列。注意 Python 在库也提供 **[heapq](https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/)** 。
 
-```
+```py
 By using heap datastructure to implement Priority Queues, Time complexity:
 Insert Operation: O(log(n))
 Delete Operation: O(log(n))

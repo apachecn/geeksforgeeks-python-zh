@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 pandas.concat([dataframe1, dataframe2])
 ```
 
@@ -23,7 +23,7 @@ pandas.concat([dataframe1, dataframe2])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -49,7 +49,7 @@ pd.concat([data1, data2])
 
 **语法**:
 
-```
+```py
 pandas.concat([dataframe1, dataframe2])
 ```
 
@@ -62,7 +62,7 @@ pandas.concat([dataframe1, dataframe2])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -87,7 +87,7 @@ pd.concat([data1, data2])
 
 **语法**:
 
-```
+```py
 pandas.concat([dataframe1, dataframe2]).reset_index(drop=True)
 ```
 
@@ -95,7 +95,7 @@ pandas.concat([dataframe1, dataframe2]).reset_index(drop=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

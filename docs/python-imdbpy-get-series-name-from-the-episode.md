@@ -19,7 +19,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -56,7 +56,7 @@ print(get_series)
 
 **输出:**
 
-```
+```py
 Money Heist
 =========
 Money Heist (TV Series 2017– ) - IMDb
@@ -65,7 +65,7 @@ Money Heist (TV Series 2017– ) - IMDb
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -102,7 +102,7 @@ print(get_series)
 
 **输出:**
 
-```
+```py
 Sacred Games
 =========
 Sacred Games (TV Series 2018– ) - IMDb

@@ -26,7 +26,7 @@ pdf 是最重要、应用最广泛的数字媒体之一。PDF 代表**便携文�
 
 要安装 fpdf 模块，请在终端中键入以下命令。
 
-```
+```py
 pip install fpdf
 ```
 
@@ -46,7 +46,7 @@ pip install fpdf
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create
 # a pdf file
 
@@ -89,7 +89,7 @@ pdf.output("GFG.pdf")  
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert
 # text file to pdf file
 

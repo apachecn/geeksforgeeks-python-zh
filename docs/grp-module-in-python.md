@@ -34,7 +34,7 @@ Python 中的`***grp.getgrgid()***`方法用于获取存储在 UNIX 组数据库
 
 **代码:**使用`***grp.getgrgid()***`方法
 
-```
+```py
 # Python program to explain grp.getgrgid() method
 
 # importing grp module 
@@ -88,7 +88,7 @@ print(entry)
 
 **代码:**使用`***grp.getgrnam()***`方法
 
-```
+```py
 # Python program to explain grp.getgrnam() method
 
 # importing grp module 
@@ -141,7 +141,7 @@ print(entry)
 
 **代码:**使用`***grp.getgrall()***`方法
 
-```
+```py
 # Python program to explain grp.getgrall() method
 
 # importing grp module 
@@ -161,7 +161,7 @@ for row in entries:
 
 **Output:**
 
-```
+```py
 Group database entries:
 grp.struct_group(gr_name=’root’, gr_passwd=’x’, gr_gid=0, gr_mem=[])
 grp.struct_group(gr_name=’daemon’, gr_passwd=’x’, gr_gid=1, gr_mem=[])

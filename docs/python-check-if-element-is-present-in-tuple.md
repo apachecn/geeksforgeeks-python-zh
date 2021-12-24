@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个任务的蛮力方法。在这种情况下，我们遍历元组，检查每个元素是否是我们的，如果找到，我们返回真。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if element is present in tuple
 # using loop
@@ -35,7 +35,7 @@ print("Does tuple contain required value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (10, 4, 5, 6, 8)
 Does tuple contain required value ? : True
 

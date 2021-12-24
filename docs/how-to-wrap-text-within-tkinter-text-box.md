@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module 
 from tkinter import *       
 
@@ -44,7 +44,7 @@ root.mainloop()
 
 **使用换行=WORD 选项。这里有一个例子:**
 
-```
+```py
 from tkinter import *
 root = Tk()
 t = Text(wrap=WORD)
@@ -56,7 +56,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module 
 from tkinter import *       
 

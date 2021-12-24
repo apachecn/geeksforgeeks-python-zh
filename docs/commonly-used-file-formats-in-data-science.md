@@ -13,7 +13,7 @@
 
 **代码:Python 代码读取熊猫中的 csv 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_csv("file_path / file_name.csv")
 print(df)
@@ -23,7 +23,7 @@ print(df)
 
 **代码:Python 代码读取熊猫中的 xlsx 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_excel (r'file_path\\name.xlsx')
 print (df)
@@ -39,7 +39,7 @@ print (df)
 
 **代码:Python 代码读取熊猫中的 zip 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_csv(' File_Path \\ File_Name .zip')
 print(df)
@@ -49,7 +49,7 @@ print(df)
 
 **代码:Python 代码读取熊猫中的 txt 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_csv('File_Path \\ File_Name .txt')
 print(df)
@@ -59,7 +59,7 @@ print(df)
 
 **代码:Python 代码读取熊猫中的 json 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_json('File_path \\ File_Name .json')
 print(df)
@@ -69,7 +69,7 @@ print(df)
 
 **代码:Python 代码读取熊猫中的 html 文件**
 
-```
+```py
 import pandas as pd
 df = pd.read_html('File_Path \\File_Name.html')
 print(df)
@@ -86,7 +86,7 @@ print(df)
 
 **代码:Python 代码读取熊猫中的 pdf**
 
-```
+```py
 pip install tabula-py
 pip install pandas
 df = tabula.read_pdf(file_path \\ file_name .pdf)

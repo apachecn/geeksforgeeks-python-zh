@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.inf constant
 
@@ -29,7 +29,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 inf
 ```
 
@@ -37,7 +37,7 @@ inf
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.inf constant
 
@@ -52,6 +52,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 -inf
 ```

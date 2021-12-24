@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Distinct Flatten dictionaries
 # Using loop + isinstance() + list comprehension
@@ -38,7 +38,7 @@ print("The flattened dictionary elements : " + str(res)) 
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'is': {'for': {'geeks': 8}}, 'gfg': {'is': 4, 'best': 10}} 
 The flattened dictionary elements : [['is', 'for', 'geeks', 8], ['gfg', 'is', 4, 'best', 10]]  
 ```
@@ -48,7 +48,7 @@ The flattened dictionary elements : [['is', 'for', 'geeks', 8], ['gfg', 'is', 4,
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Distinct Flatten dictionaries
 # Using yield + isinstance()
@@ -77,7 +77,7 @@ print("The flattened dictionary elements : " + str(res)) 
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'is': {'for': {'geeks': 8}}, 'gfg': {'is': 4, 'best': 10}} 
 The flattened dictionary elements : [['is', 'for', 'geeks', 8], ['gfg', 'is', 4, 'best', 10]]  
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 from config import config
 
@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
 要验证这一点，请通过同一数据库(即学校)的客户端工具使用以下命令:
 
-```
+```py
 \dt
 
 ```

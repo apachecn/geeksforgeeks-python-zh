@@ -14,7 +14,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 
@@ -36,13 +36,13 @@ root.mainloop()
 
 **语法:**
 
-```
+```py
 T = Text(root, bg, fg, bd, height, width, font, ..)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Add Text Box
 text = Text(root)
 text.pack()
@@ -54,7 +54,7 @@ text.pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # Set Font
 font = tkfont.Font(font=text['font'])
 
@@ -67,7 +67,7 @@ text.config(tabs=tab_size)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 import tkinter.font as tkfont

@@ -22,7 +22,7 @@
 
 <center>![(F_{*l}k)(p) = \sum_{(s +lt = p)} F(s) k(t)](img/f12be81eba61f3305ee57a7e0c4da9a5.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where,
 F(s) = Input 
 k(t) = Applied Filter
@@ -44,7 +44,7 @@ k(t) = Applied Filter
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import tensorflow as tf
 import sys

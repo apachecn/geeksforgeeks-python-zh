@@ -11,7 +11,7 @@
 **sympy . Discrete . transforms . IFFT():**T2【它可以在复域中执行离散傅里叶逆变换(DFT)。
 序列自动向右填充零，因为基数-2 快速傅立叶变换要求样本点数为 2 的幂。对于短序列，仅将此方法与默认参数一起使用，因为序列的大小会增加表达式的复杂性。
 
-```
+```py
  Parameters : 
 
 -> seq : [iterable] sequence on which Inverse DFT is to be applied.
@@ -24,7 +24,7 @@ Fast Fourier Transform
 
 **例 1:**
 
-```
+```py
 # import sympy 
 from sympy import ifft
 
@@ -38,13 +38,13 @@ print ("Inverse FFT : ", transform)
 
 **输出:**
 
-```
+```py
 Inverse FFT :  [93/4, 1/2 + 23*I/4, -37/4, 1/2 - 23*I/4]
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import ifft
 
@@ -60,7 +60,7 @@ print ("Inverse FFT : ", transform)
 
 **输出:**
 
-```
+```py
 Inverse FFT :  [23.25, 0.5 + 5.75*I, -9.250, 0.5 - 5.75*I]
 
 ```

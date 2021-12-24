@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list = [1, 2, 3, 4, 5]
 Output: [2, 4]
 
@@ -18,7 +18,7 @@ Output: [12, 14]
 **方法#1 :** 使用 for 循环
 使用 For 循环迭代列表中的每个元素，并检查 num % 2 == 0。如果条件满足，则将其追加到输出列表中。
 
-```
+```py
 # Python code to filter even values from a list
 
 # Initialisation of list
@@ -39,14 +39,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 [2, 4]
 
 ```
 
 **方法 2 :** 使用 While 循环
 
-```
+```py
 # Python code to filter even values from a list
 
 # Initialisation of list
@@ -69,14 +69,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 [2, 4]
 
 ```
 
 **方法 3 :** 使用列表理解
 
-```
+```py
 # Python code to filter even values from a list
 
 # Initialisation of list
@@ -90,14 +90,14 @@ print(lis2)
 
 **Output:**
 
-```
+```py
 [2, 4]
 
 ```
 
 **方法#4 :** 使用`filter()`
 
-```
+```py
 # Python code to filter even values from a list
 
 # Initialisation of list
@@ -114,7 +114,7 @@ print(lis2)
 
 **Output:**
 
-```
+```py
 [2, 4]
 
 ```

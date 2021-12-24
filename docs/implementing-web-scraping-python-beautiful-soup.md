@@ -20,7 +20,7 @@
 *   用 python 安装外部库最简单的方法是使用 pip。 **pip** 是一个包管理系统，用于安装和管理用 Python 编写的软件包。
     你所需要做的就是:
 
-```
+```py
 pip install requests
 pip install html5lib
 pip install bs4
@@ -33,7 +33,7 @@ pip install bs4
 
 **第二步:从网页**访问 HTML 内容
 
-```
+```py
 import requests
 URL = "https://www.geeksforgeeks.org/data-structures/"
 r = requests.get(URL)
@@ -49,7 +49,7 @@ print(r.content)
 
 **第三步:解析 HTML 内容**
 
-```
+```py
 #This will not run on online IDE
 import requests
 from bs4 import BeautifulSoup
@@ -65,7 +65,7 @@ print(soup.prettify())
 
 在上面的例子中，
 
-```
+```py
 soup = BeautifulSoup(r.content, 'html5lib')
 ```
 
@@ -80,7 +80,7 @@ soup = BeautifulSoup(r.content, 'html5lib')
 
 现在，我们想从 HTML 内容中提取一些有用的数据。soup 对象包含嵌套结构中可以通过编程提取的所有数据。在我们的例子中，我们正在抓取一个包含一些报价的网页。因此，我们希望创建一个程序来保存这些报价(以及所有相关信息)。
 
-```
+```py
 #Python program to scrape website 
 #and save quotes from website
 import requests
@@ -118,7 +118,7 @@ with open(filename, 'w', newline='') as f:
 
 *   It is noticed that all the quotes are inside a div container whose id is ‘all_quotes’. So, we find that div element (termed as table in above code) using **find()** method :
 
-    ```
+    ```py
     table = soup.find('div', attrs = {'id':'all_quotes'}) 
     ```
 
@@ -129,7 +129,7 @@ with open(filename, 'w', newline='') as f:
     ![Implementing Web Scraping in Python with Beautiful Soup](img/36323a5600cf2b78c826145812c1c998.png)
     Now consider this piece of code:
 
-    ```
+    ```py
     for row in table.find_all_next('div', attrs = {'class': 'col-6 col-lg-3 text-center margin-30px-bottom sm-margin-30px-top'}):
         quote = {}
         quote['theme'] = row.h5.text
@@ -142,13 +142,13 @@ with open(filename, 'w', newline='') as f:
 
     我们创建了一个字典来保存报价的所有信息。嵌套结构可以使用点符号来访问。要访问 HTML 元素中的文本，我们使用**。正文:** 
 
-    ```
+    ```py
     quote['theme'] = row.h5.text
     ```
 
     我们可以添加、移除、修改和访问标签的属性。这是通过将标签视为字典来完成的:
 
-    ```
+    ```py
     quote['url'] = row.a['href']
     ```
 
@@ -156,7 +156,7 @@ with open(filename, 'w', newline='') as f:
 
 *   Finally, we would like to save all our data in some CSV file.
 
-    ```
+    ```py
     filename = 'inspirational_quotes.csv'
     with open(filename, 'w', newline='') as f:
         w = csv.DictWriter(f,['theme','url','img','lines','author'])

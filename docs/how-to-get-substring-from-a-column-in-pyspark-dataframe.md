@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, substring
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 if __name__ == "__main__":
 
     # creating Month column and get the

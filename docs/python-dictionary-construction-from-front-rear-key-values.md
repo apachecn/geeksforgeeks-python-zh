@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary construction from front-rear key values
 # Using loop
@@ -53,7 +53,7 @@ print("The mapped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 3, 10, 5, 3]
 The mapped dictionary : {4: 3, 6: 5, 3: 10}
 
@@ -65,7 +65,7 @@ The mapped dictionary : {4: 3, 6: 5, 3: 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary construction from front-rear key values
 # Using zip() + dict()
@@ -86,7 +86,7 @@ print("The mapped dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [4, 6, 3, 10, 5, 3]
 The mapped dictionary : {4: 3, 6: 5, 3: 10}
 

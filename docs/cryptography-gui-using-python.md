@@ -21,7 +21,7 @@
 
 在这个例子中，我们使用了模加法。信息的每一个字母都有相关的数值。该数值与密钥的对应字母进行映射，通过模加运算生成密文。如果值超过 26，结果将是值与 26 的模。在这里，“极客”作为一个简单的信息，“DFSTL”作为一次性的键盘键。
 
-```
+```py
       G     E      E       K      S      message
    6 (G)   4 (E)  4 (E)   10 (K)  18 (S) message
 +  3 (D)   5 (F)  18 (S)  19 (T)  11 (L) key
@@ -33,7 +33,7 @@
 
 因为我们使用模加法来生成密文。为了得到原始信息，我们必须执行模减法。如果该值为负，我们将在该值上加上 26，得到的数值将生成原始消息。
 
-```
+```py
        J       J       W       D       D  ciphertext
     9 (J)   9 (J)   22 (W)  3 (D)   3 (D) ciphertext
 -   3 (D)   5 (F)  18 (S)  19 (T)  11 (L) key
@@ -45,7 +45,7 @@
 
 下面是实现。
 
-```
+```py
 # python module for one-timepad
 import onetimepad   
 # python module to create GUI        

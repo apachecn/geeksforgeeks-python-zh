@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `isinstance()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 isinstance()执行检查数据类型的任务，并运行一个计数器在匹配时递增。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Data type frequency in tuple
 # Using loop + isinstance()
@@ -40,7 +40,7 @@ print("The data type frequency : " + str(count))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 'Gfg', 2, 8.8, 1.2, 'is')
 The data type frequency : 2
 
@@ -49,7 +49,7 @@ The data type frequency : 2
 **方法二:使用`sum()`+`isinstance()`+**
 以上功能的组合也可以用来解决这个问题。这使用了与上述方法类似的求解方式，只是以速记方式使用 sum()进行计数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Data type frequency in tuple
 # Using sum() + isinstance()
@@ -73,7 +73,7 @@ print("The data type frequency : " + str(count))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 'Gfg', 2, 8.8, 1.2, 'is')
 The data type frequency : 2
 

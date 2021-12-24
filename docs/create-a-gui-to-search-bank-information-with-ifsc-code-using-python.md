@@ -12,7 +12,7 @@
 
 要安装此模块，只需在您的终端中键入以下命令:
 
-```
+```py
 pip install requests
 ```
 
@@ -27,7 +27,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 IFSC_Code ='KKBK0005652'
@@ -52,7 +52,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from tkinter import messagebox

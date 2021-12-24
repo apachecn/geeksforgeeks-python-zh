@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get input
 Str = "Geeks For Geeks!"
 N = 4
@@ -42,7 +42,7 @@ while(N > 0):
 
 **输出:**
 
-```
+```py
 Geeks For Geeks!
 eks!
 ```
@@ -51,7 +51,7 @@ eks!
 
 ## 计算机编程语言
 
-```
+```py
 # get input
 Str = "Geeks For Geeks!"
 N = 4
@@ -71,7 +71,7 @@ print(Str2)
 
 **输出:**
 
-```
+```py
 Geeks For Geeks!
 eks!
 ```

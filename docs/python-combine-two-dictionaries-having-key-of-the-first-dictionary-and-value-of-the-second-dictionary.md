@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign similar index values in Dictionary
 # Using loop + keys()
@@ -58,7 +58,7 @@ print("Mapped dictionary : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign similar index values in Dictionary
 # Using zip() + values()

@@ -10,7 +10,7 @@
 
 **1。**首先，我们将制作 PyGame 窗口。
 
-```
+```py
 # importing the module
 import pygame
 
@@ -37,7 +37,7 @@ pygame.display.set_caption("Bouncy Ball")
 
 **2。**现在，我们正在创造一个球。球只是画在屏幕上的一个圆。将在 while 循环中写入。这里我们宣布它的位置和速度。最初，球将被放置在中心(宽/2 和高/2)。然后我们将通过交换和交换各自的值来增加球的速度。由于 X 和 Y 方向都在变化，球将沿对角线方向移动，其进一步的路径将取决于碰撞体。
 
-```
+```py
 # importing the module
 import random
 
@@ -51,7 +51,7 @@ ballPixel = 24
 
 **3。**现在我们开始基本的游戏运行循环。我们也给我们的屏幕一个背景色。
 
-```
+```py
 # gaming Loop
 running = True
 while running:
@@ -74,7 +74,7 @@ while running:
 
 (下面的代码在游戏循环下)
 
-```
+```py
 # inside the gaming Loop
 
     # bouncing the ball
@@ -90,7 +90,7 @@ while running:
 
 **5。**现在，我们将在 while 循环中绘制球，以便在每个循环中显示它。我们在 BalX 和 BalY 位置画圆，这样球的 X 和 Y 位置在每个循环中递增，球将在每个循环中的下一个位置画出，因此球将在屏幕内移动。最后我们更新屏幕。
 
-```
+```py
 # inside the gaming Loop
 
     # drawing the ball
@@ -104,7 +104,7 @@ while running:
 
 完整的代码如下:
 
-```
+```py
 # importing the modules
 import pygame
 import random

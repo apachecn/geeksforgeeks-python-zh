@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```py
 // C++ solution for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java solution for the above approach
 class GFG{
 
@@ -135,7 +135,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for the naive approach
 import math
 
@@ -179,7 +179,7 @@ isEqualFactors(N)
 
 ## C#
 
-```
+```py
 // C# solution for the above approach
 using System;
 
@@ -241,7 +241,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 // Javascript program for the above approach
 
@@ -298,7 +298,7 @@ function isEqualFactors(N)
 
 **Output:** 
 
-```
+```py
 YES
 ```
 
@@ -334,7 +334,7 @@ YES
 
 ## C
 
-```
+```py
 // C code for the above approach
 #include <stdio.h>
 #define lli long long int
@@ -364,7 +364,7 @@ int main()
 
 ## C++
 
-```
+```py
 // C++ code for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -395,7 +395,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // JAVA code for the above approach
 public class GFG {
 
@@ -424,7 +424,7 @@ public class GFG {
 
 ## 计算机编程语言
 
-```
+```py
 # Python code for the above approach
 
 # Function to check condition
@@ -444,7 +444,7 @@ isEqualFactors(N)
 
 ## C#
 
-```
+```py
 // C# code for the above approach
 using System;
 
@@ -475,7 +475,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript code for the above approach
@@ -501,7 +501,7 @@ isEqualFactors(N);
 
 **Output:** 
 
-```
+```py
 YES
 NO
 ```

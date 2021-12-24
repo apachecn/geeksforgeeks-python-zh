@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```py
 // CPP implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -92,7 +92,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the approach
 
 # Function to return the count of same pairs
@@ -137,7 +137,7 @@ if __name__=="__main__":
 
 **Output:**
 
-```
+```py
 2
 
 ```

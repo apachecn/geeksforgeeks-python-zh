@@ -13,7 +13,7 @@
 
 **Logic behind pagination:**Here next_page variable gets url of next page only if next page is available but if no page is left then, this if condition get false.
 
-```
+```py
 next_page = response.xpath("//div/div/ul/li[@class='alast']/a/@href").get()
 if next_page:
     abs_url = f"https://www.amazon.in{next_page}"
@@ -25,7 +25,7 @@ yield scrapy.Request(
 
 **注:**
 
-```
+```py
 abs_url = f"https://www.amazon.in{next_page}"
 
 ```
@@ -52,7 +52,7 @@ abs_url = f"https://www.amazon.in{next_page}"
 
 *   **蜘蛛代码:**从亚马逊网站抓取名称和价格，并在下面的代码中应用分页。
 
-    ```
+    ```py
     import scrapy
 
     class MobilesSpider(scrapy.Spider):

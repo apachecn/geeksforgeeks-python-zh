@@ -8,13 +8,13 @@
 
 *   [**bs4:**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/) 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   [**请求**](https://www.geeksforgeeks.org/python-requests-tutorial/) **:** 请求让你发送 HTTP/1.1 请求极其轻松。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -33,7 +33,7 @@ pip install requests
 
 ## 计算机编程语言
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup
@@ -43,7 +43,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # link for extract html data
 # Making a GET request
 
@@ -56,7 +56,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 # input article by geek
 article = "optparse-module-in-python"
 
@@ -80,7 +80,7 @@ print(soup)
 
 ## 计算机编程语言
 
-```
+```py
 # traverse author name
 for i in soup.find('div', class_="author_handle"):
     Author = i.get_text()
@@ -89,7 +89,7 @@ print(Author)
 
 **输出:**
 
-```
+```py
 kumar_satyam
 ```
 
@@ -97,7 +97,7 @@ kumar_satyam
 
 ## 蟒蛇 3
 
-```
+```py
 # now get author information
 # with author name
 profile ='https://auth.geeksforgeeks.org/user/'+Author+'/profile'
@@ -112,7 +112,7 @@ soup = BeautifulSoup(htmldata, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 # traverse information of author
 name = soup.find(
     'div', class_='mdl-cell mdl-cell--9-col mdl-cell--12-col-phone textBold medText').get_text()
@@ -137,7 +137,7 @@ print(author_info)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup

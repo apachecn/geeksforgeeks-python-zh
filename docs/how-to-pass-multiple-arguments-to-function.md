@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # no argument is passed
 
 # function definition
@@ -25,7 +25,7 @@ displayMesaage()
 
 **输出:**
 
-```
+```py
 Geeks for Geeks
 ```
 
@@ -33,7 +33,7 @@ Geeks for Geeks
 
 ## 计算机编程语言
 
-```
+```py
 # single argument is passed
 
 # function definition
@@ -48,7 +48,7 @@ displayMessage(msg)
 
 **输出:**
 
-```
+```py
 Hello R2J !
 ```
 
@@ -59,7 +59,7 @@ Hello R2J !
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # multiple arguments are passed
 
     # function definition
@@ -72,14 +72,14 @@ Hello R2J !
 
 *   **输出:**
 
-```
+```py
 Geeks 4 Geeks
 ```
 
 *   在上面的程序中，多个参数被传递给 displayMessage()函数，其中要传递的参数数量是固定的。
 *   我们可以使用以下语法将多个参数传递给 python 函数，而无需预先确定形式参数:
 
-    ```
+    ```py
     def functionName(*argument)
     ```
 
@@ -87,7 +87,7 @@ Geeks 4 Geeks
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # variable number of non keyword arguments passed
 
     # function definition
@@ -103,14 +103,14 @@ Geeks 4 Geeks
 
 *   **输出:**
 
-```
+```py
 15
 ```
 
 *   在上面的程序中，可变数量的参数被传递给 displayMessage()函数，在该函数中，要传递的参数数量不是预先确定的。(此语法仅用于将非关键字参数传递给函数。)
 *   我们可以使用以下语法将多个关键字参数传递给 python 函数，而无需预先确定形式参数:
 
-    ```
+    ```py
     def functionName(**argument)
     ```
 
@@ -118,7 +118,7 @@ Geeks 4 Geeks
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # variable number of keyword arguments passed
 
     # function definition
@@ -133,7 +133,7 @@ Geeks 4 Geeks
 
     *   **输出:**
 
-    ```
+    ```py
     ('argument2', 4)
     ('argument3', 'Geeks')
     ('argument1', 'Geeks')
@@ -145,7 +145,7 @@ Geeks 4 Geeks
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # single argument, non keyword argument 
     # and keyword argument are passed
 
@@ -173,7 +173,7 @@ Geeks 4 Geeks
 
     **输出:**
 
-    ```
+    ```py
     Welcome
     to
     Geeks

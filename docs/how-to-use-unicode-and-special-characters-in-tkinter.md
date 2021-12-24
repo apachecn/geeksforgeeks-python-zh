@@ -18,7 +18,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 
 **示例:**
 
-```
+```py
 for "Not sign" unicode value is "00AC"
 
 Input
@@ -32,7 +32,7 @@ Output
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Tkinter
 from tkinter import *
 

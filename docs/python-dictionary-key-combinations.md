@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 在该方法中，我们只需通过列表理解迭代字典，构造成对的键并插入新的列表。枚举函数用于通过访问索引将关键元素绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary key combinations
 # Using list comprehension + enumerate()
@@ -29,7 +29,7 @@ print("The dictionary key pair list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dict is : {'is': 2, 'the': 3, 'best': 4, 'gfg': 1}
 The dictionary key pair list is : [('is', 'the'), ('is', 'best'), ('is', 'gfg'), ('the', 'best'), ('the', 'gfg'), ('best', 'gfg')]
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Formable Strings Count in Matrix
 # Using loop
@@ -58,7 +58,7 @@ print("The computed count : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Formable Strings Count in Matrix
 # Using list comprehension + all() + sum()

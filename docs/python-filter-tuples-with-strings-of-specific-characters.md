@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Tuples with Strings of specific characters
 # Using all() + list comprehension
@@ -52,7 +52,7 @@ print("The filtered tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Tuples with Strings of specific characters
 # Using filter() + lambda + all()

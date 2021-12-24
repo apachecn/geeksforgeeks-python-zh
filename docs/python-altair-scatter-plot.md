@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import altair as alt
 from vega_datasets import data
@@ -20,7 +20,7 @@ from vega_datasets import data
 
 ## 蟒蛇 3
 
-```
+```py
 # assign dataset
 seattle_weather = data.seattle_weather()
 ```
@@ -29,7 +29,7 @@ seattle_weather = data.seattle_weather()
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataset
 seattle_weather.head(5)
 ```
@@ -42,7 +42,7 @@ seattle_weather.head(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # depict scatter plot
 alt.Chart(seattle_weather).mark_point().encode(
     x='temp_max',
@@ -58,7 +58,7 @@ alt.Chart(seattle_weather).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import altair as alt
 from vega_datasets import data

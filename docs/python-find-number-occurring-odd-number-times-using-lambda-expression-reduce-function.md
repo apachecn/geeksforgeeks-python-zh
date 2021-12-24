@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  [1, 2, 3, 2, 3, 1, 3]
 Output :  3
 
@@ -14,7 +14,7 @@ Output :  3
 
 这个问题我们已经有解决方案了，请参考[找到出现奇数次的次数](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)链接。我们将使用 [Reduce(表达式，可迭代)](https://www.geeksforgeeks.org/reduce-in-python/)方法在 python 中快速解决这个问题。
 
-```
+```py
 # Python program to Find the Number 
 # Occurring Odd Number of Times
 # using Lambda expression and reduce function
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 3
 
 ```

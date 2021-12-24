@@ -16,7 +16,7 @@ itertools 下的功能可以分为三类
 
 函数`chain.from_iterable()`属于终止迭代器的范畴。该函数将单个可迭代表作为参数，并且输入可迭代表的所有元素也应该是可迭代的，并且它返回包含输入可迭代表的所有元素的扁平可迭代表。
 
-```
+```py
 Syntax :
 chain.from_iterable(iterable)
 
@@ -24,7 +24,7 @@ chain.from_iterable(iterable)
 
 **示例#1:**
 
-```
+```py
 # Importing chain class from itertools
 from itertools import chain
 
@@ -44,7 +44,7 @@ print(list(from_iterable))
 
 **例 2:**
 
-```
+```py
 # Importing chain class from itertools
 from itertools import chain
 

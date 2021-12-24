@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # declare a class
 class Employee: 
 
@@ -40,7 +40,7 @@ print(Employee.count)
 
 **输出:**
 
-```
+```py
 1
 2
 2
@@ -55,7 +55,7 @@ print(Employee.count)
 
 ## 蟒蛇 3
 
-```
+```py
 # create a class
 class Employee: 
 
@@ -81,7 +81,7 @@ x.show()
 
 **输出:**
 
-```
+```py
 Gfg
 4000
 
@@ -97,7 +97,7 @@ Gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # create a class
 class gfg: 
 
@@ -135,7 +135,7 @@ del x.value
 
 **输出:**
 
-```
+```py
 Getting value
 Happy Coding!
 Setting value to Hey Coder!
@@ -151,7 +151,7 @@ Deleting value
 
 ## 蟒蛇 3
 
-```
+```py
 # create a class
 class byDeco: 
 
@@ -189,7 +189,7 @@ del x.value
 
 **输出:**
 
-```
+```py
 Getting value
 happy Coding
 Setting value to Hey Coder!

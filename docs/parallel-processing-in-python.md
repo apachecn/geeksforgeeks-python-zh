@@ -52,7 +52,7 @@
 
 下面是完整的代码:
 
-```
+```py
 import multiprocessing
 import time
 
@@ -88,7 +88,7 @@ Pool 类可用于并行执行不同输入数据的函数。`multiprocessing.Pool
 
 ![](img/e07c3449dbe22c6bc795d0030f28234f.png)
 
-```
+```py
 import multiprocessing
 import time
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 ![](img/d44c29e24918b10b147d731aefc9710b.png)
 
-```
+```py
 import multiprocessing
 import time
 
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 ![](img/3ab47663457e484628dc8743acf186df.png)
 
-```
+```py
 import multiprocessing
 import time
 
@@ -160,7 +160,7 @@ IPython 并行包提供了一个框架，用于在连接到网络的单核、多
 
 Ipcluster shell 命令用于启动控制器和引擎。
 
-```
+```py
 $ ipcluster start
 ```
 
@@ -173,7 +173,7 @@ $ ipcluster start
 
 直接接口允许您显式地向每个计算单元发送命令。这是灵活和易于使用的。要与单元交互，您需要启动引擎，然后在单独的外壳中启动 IPython 会话。您可以通过创建客户端来建立与控制器的连接。在下面的代码中，我们导入 Client 类并创建一个实例:
 
-```
+```py
 from IPython.parallel import Client
     rc = Client()
     rc.ids
@@ -186,25 +186,25 @@ from IPython.parallel import Client
 
 *   通过索引客户端实例
 
-    ```
+    ```py
     dview = rc[0]
     ```
 
 *   通过调用 DirectView.direct_view 方法
 
-    ```
+    ```py
     dview = rc.direct_view(‘all’).
     ```
 
 最后一步，您可以使用 DirectView.execute 方法执行命令。
 
-```
+```py
 dview.execute(‘ a = 1 ’)
 ```
 
 上述命令将由每个引擎单独执行。使用 get 方法，您可以以 AsyncResult 对象的形式获得结果。
 
-```
+```py
 dview.pull(‘ a ‘).get()
 dview.push({‘ a ’ : 2})
 
@@ -218,7 +218,7 @@ dview.push({‘ a ’ : 2})
 
 LoadBalanceView 类使用 load_balanced_view 方法提供基于任务的接口。
 
-```
+```py
 from IPython.parallel import Client
     rc = Client()
     tview = rc.load_balanced_view()

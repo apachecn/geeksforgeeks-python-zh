@@ -8,7 +8,7 @@
 
 **按钮**是一个带有相关动作的标签，当按钮被按下(或在点击/触摸后被释放)时会被触发。我们可以在按钮后面添加功能，并为按钮设置样式。但是要禁用该按钮，我们有一个属性名:
 
-```
+```py
 disabled that must be true
 ```
 
@@ -31,7 +31,7 @@ disabled that must be true
 
 **Code #1: How to create fully working button**
 
-```
+```py
 def build(self):
     # use a (r, g, b, a) tuple
     btn = Button(text ="Push Me !",
@@ -50,7 +50,7 @@ def build(self):
 
 **代码#2:如何禁用按钮**
 
-```
+```py
 def build(self):
         # use a (r, g, b, a) tuple
         btn = Button(text ="Push Me !",
@@ -72,7 +72,7 @@ def build(self):
 
 **代码#3:两个禁用和工作按钮一起**
 
-```
+```py
 # import kivy module 
 import kivy 
 

@@ -46,7 +46,7 @@ draw_texture_rectangle 函数用于导入具有特定坐标的纹理。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

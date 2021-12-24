@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该任务。在这种情况下，我们首先将坐标的两个部分分割成一个列表，使用`float()`和`map()`对每个部分应用浮点函数，最后使用`tuple()`将其转换为元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert location coordinates to tuple
 # Using tuple() + float() + split() + map()
@@ -29,7 +29,7 @@ print("The coordinates after conversion to tuple are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : 44.6463, -49.583
 The coordinates after conversion to tuple are : (44.6463, -49.583)
 
@@ -38,7 +38,7 @@ The coordinates after conversion to tuple are : (44.6463, -49.583)
 **方法 2:使用`eval()`**
 这是执行这一特定任务的单线推荐方法。在这种情况下，`eval()`在内部检测字符串，并转换为以元组元素分隔的浮点数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert location coordinates to tuple
 # Using eval()
@@ -59,7 +59,7 @@ print("The coordinates after conversion to tuple are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : 44.6463, -49.583
 The coordinates after conversion to tuple are : (44.6463, -49.583)
 

@@ -10,7 +10,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 > 👉🏽 [Kivy 教程–通过示例学习 Kivy](https://www.geeksforgeeks.org/kivy-tutorial/)。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -27,7 +27,7 @@ Basic Approach:
 
 **main.py 文件的实现:**
 
-```
+```py
 # Multiple .kv file Python code
 
 import kivy 
@@ -72,7 +72,7 @@ if __name__=='__main__':
 
 **现在主. kv 文件:**
 
-```
+```py
 # Creating the main .kv files
 # the difference is that it is
 # the heart of the Application
@@ -132,7 +132,7 @@ if __name__=='__main__':
 
 **box1.kv 文件–**
 
-```
+```py
 # Creating 1st .kv file  
 
 <Box1@BoxLayout>:
@@ -144,7 +144,7 @@ if __name__=='__main__':
 
 **box2.kv 文件–**
 
-```
+```py
 # Creating 2nd .kv file
 
 <Box2@BoxLayout>:
@@ -156,7 +156,7 @@ if __name__=='__main__':
 
 **box3.kv 文件–**
 
-```
+```py
 # Creating 3rd .kv file 
 
 <Box3@BoxLayout>:

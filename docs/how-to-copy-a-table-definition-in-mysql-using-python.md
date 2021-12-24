@@ -10,7 +10,7 @@ Python 需要一个接口来访问数据库服务器。Python 支持多种接口
 
 **语法:**
 
-```
+```py
 CREATE TABLE new_table AS 
 SELECT * FROM original_table;
 ```
@@ -23,7 +23,7 @@ SELECT * FROM original_table;
 
 **语法:**
 
-```
+```py
 CREATE TABLE new_table 
 LIKE original_table;
 
@@ -53,7 +53,7 @@ SELECT * FROM original_table;
 
 ## 计算机编程语言
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -99,7 +99,7 @@ db.close()
 
 ## 计算机编程语言
 
-```
+```py
 # Import required packages
 import mysql.connector
 

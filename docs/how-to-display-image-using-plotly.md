@@ -18,7 +18,7 @@ Imshow 方法是显示 2d 数据的最快方法。该方法用于从数值数据
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import numpy as np
 
@@ -46,7 +46,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import cv2 
 

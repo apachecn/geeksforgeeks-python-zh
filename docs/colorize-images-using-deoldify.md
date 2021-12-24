@@ -37,7 +37,7 @@ Deoldify 训练了 3 种类型的模型:
 
 ## 蟒蛇 3
 
-```
+```py
 # Clone deoldify Repository
 ! git clone https://github.com/jantic/DeOldify.git DeOldify
 

@@ -8,7 +8,7 @@
 
 **安装库:**
 
-```
+```py
 pip install prettytable
 
 ```
@@ -19,7 +19,7 @@ pip install prettytable
 
 ## 蟒蛇 3
 
-```
+```py
 from prettytable import PrettyTable
 
 # Specify the Column Names while initializing the Table
@@ -39,7 +39,7 @@ print(myTable)
 
 **Output**
 
-```
+```py
 +--------------+-------+---------+------------+
 | Student Name | Class | Section | Percentage |
 +--------------+-------+---------+------------+
@@ -58,7 +58,7 @@ print(myTable)
 
 ## 蟒蛇 3
 
-```
+```py
 from prettytable import PrettyTable
 
 columns = ["Student Name", "Class", "Section", "Percentage"]
@@ -78,7 +78,7 @@ print(myTable)
 
 **Output**
 
-```
+```py
 +--------------+-------+---------+------------+
 | Student Name | Class | Section | Percentage |
 +--------------+-------+---------+------------+
@@ -95,7 +95,7 @@ print(myTable)
 
 **删除行**
 
-```
+```py
 myTable.del_row(0)
 ```
 
@@ -103,7 +103,7 @@ myTable.del_row(0)
 
 **清台**
 
-```
+```py
 myTable.clear_rows()
 ```
 

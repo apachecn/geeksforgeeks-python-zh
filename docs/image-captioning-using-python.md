@@ -8,7 +8,7 @@
 
 **安装所需的库:**
 
-```
+```py
 urllib
 requests
 PIL
@@ -25,7 +25,7 @@ shutil
 
 **步骤#1:**
 
-```
+```py
 # importing required libraries
 import urllib
 import requests
@@ -50,7 +50,7 @@ captionarr = [
 
 **第二步:**
 
-```
+```py
 # importing necessary functions from PIL
 from PIL import Image
 from PIL import ImageFont
@@ -150,7 +150,7 @@ for f in os.listdir('.'):
 **【步骤#3:**
 根据上次修改时间对输出文件进行排序，以便它们不会按字母顺序或任何其他管理不当的顺序放置。
 
-```
+```py
 import os
 import glob
 import shutil

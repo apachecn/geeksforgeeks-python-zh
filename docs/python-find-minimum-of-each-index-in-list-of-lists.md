@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
 Output : [1, 3, 2] 
 
@@ -19,7 +19,7 @@ Output : [3, 2, 1]
 
 解决这个特殊问题需要上述方法的结合。min 函数用于获取所需的最小值，zip 函数提供相似索引的组合，然后使用列表理解创建列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Minimum index value
 # using min() + list comprehension + zip()
@@ -40,7 +40,7 @@ print("The Minimum of each index list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
 The Minimum of each index list is : [1, 3, 2]
 
@@ -50,7 +50,7 @@ The Minimum of each index list is : [1, 3, 2]
 
 这与上述方法的工作方式几乎相似，但不同之处只是我们使用 map 函数来构建 min 元素列表，而不是使用列表理解。
 
-```
+```py
 # Python3 code to demonstrate
 # Minimum index value
 # using min() + map() + zip()
@@ -71,7 +71,7 @@ print("The Minimum of each index list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
 The Minimum of each index list is : [1, 3, 2]
 

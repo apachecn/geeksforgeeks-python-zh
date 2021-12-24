@@ -20,7 +20,7 @@ Openpyxl 是一个用于读写 Excel(扩展名为 xlsx/xlsm/xltx/xltm)文件的 
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from openpyxl import Workbook
 import datetime
@@ -57,7 +57,7 @@ wb.save("test.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from openpyxl import load_workbook
 from openpyxl import Workbook
@@ -74,7 +74,7 @@ wb = load_workbook(filename = 'test.xlsx')
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from openpyxl import Workbook
 from openpyxl import Workbook
@@ -128,7 +128,7 @@ wb.save('logo.xlsx')
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import xlwt
 from datetime import datetime
@@ -183,7 +183,7 @@ XlsxWriter 是一个 Python 模块，用于以 Excel 2007+ XLSX 文件格式编�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import xlsxwriter
 

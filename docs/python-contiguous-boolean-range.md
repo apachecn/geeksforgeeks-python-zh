@@ -7,7 +7,7 @@
 **方法#1:使用`enumerate() + zip() + list comprehension`**
 通过使用以上三个功能的组合，可以轻松完成该任务。枚举函数处理迭代的角色，zip 函数分组相似的值，逻辑部分由列表理解处理。
 
-```
+```py
 # Python3 code to demonstrate
 # Contiguous Boolean Ranging
 # using enumerate() + zip() + list comprehension

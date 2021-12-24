@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 import random
 pygame.init()
@@ -50,7 +50,7 @@ car = doors[2]
 
 ## 蟒蛇 3
 
-```
+```py
 display_surface = pygame.display.set_mode((X, Y))
 pygame.display.set_caption('Simulation')
 image = pygame.image.load('all_doors.jpg')
@@ -69,7 +69,7 @@ def music():
 
 ## 蟒蛇 3
 
-```
+```py
 def show_car(car, state):
     my_font = pygame.font.SysFont("latoblack", 26)
     display_surface = pygame.display.set_mode((X, Y))
@@ -132,7 +132,7 @@ def draw_rect():
 
 ## 蟒蛇 3
 
-```
+```py
 x, y = pygame.mouse.get_pos()
 ```
 
@@ -142,7 +142,7 @@ x, y = pygame.mouse.get_pos()
 
 ## 蟒蛇 3
 
-```
+```py
 while True:
     music()
     if change == False:
@@ -183,7 +183,7 @@ while True:
 
 ## **蟒蛇 3**
 
-```
+```py
 if clicked:
             image1 = pygame.image.load('goat_1.jpg')
             image2 = pygame.image.load('goat_2.jpg')
@@ -247,7 +247,7 @@ if clicked:
 
 ## **蟒蛇 3**
 
-```
+```py
 if clicked2:
 
     if user2 == 1:
@@ -305,7 +305,7 @@ if clicked2:
 
 ## **蟒蛇 3**
 
-```
+```py
 import pygame
 import random
 pygame.init()

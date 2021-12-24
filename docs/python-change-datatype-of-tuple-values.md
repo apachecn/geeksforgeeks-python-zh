@@ -4,7 +4,7 @@
 
 有时，在处理记录集时，我们可能会遇到这样的问题，即需要对元组的值进行数据类型更改，元组位于其第二个位置，即值位置。这种问题可能发生在包括数据操作的所有领域。让我们讨论执行这项任务的某些方法。
 
-```
+```py
 Input : test_list = [(44, 5.6), (16, 10)]
 Output : [(44, '5.6'), (16, '10')]
 
@@ -16,7 +16,7 @@ Output : [(44, '5.8')]
 **方法#1:使用`enumerate()` +循环**
 这是解决这个问题的蛮力方式。在这种情况下，我们通过使用适当的数据类型转换函数将元组所需的索引更改为类型转换来重新分配元组值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change Datatype of Tuple Values
 # Using enumerate() + loop
@@ -39,7 +39,7 @@ print("The converted records : " + str(test_list)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (6, 7), (1, 4), (8, 10)]
 The converted records : [(4, '5'), (6, '7'), (1, '4'), (8, '10')]
 

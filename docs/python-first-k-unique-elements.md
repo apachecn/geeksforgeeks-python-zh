@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们通过保留计数器和存储列表来比较以前的事件来执行获取元素的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # First K unique elements
 # Using loop
@@ -46,7 +46,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [6, 7, 6, 7, 8, 3, 9, 11]
 The extracted elements : [6, 7, 6, 7, 8, 3]
 
@@ -55,7 +55,7 @@ The extracted elements : [6, 7, 6, 7, 8, 3]
 **方法 2:使用`set() + filter() + lambda`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 set 和 filter()执行创建查找列表的任务，使用+ lambda 检查列表中的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # First K unique elements
 # Using set() + filter() + lambda
@@ -80,7 +80,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [6, 7, 6, 7, 8, 3, 9, 11]
 The extracted elements : [6, 7, 6, 7, 8, 3]
 

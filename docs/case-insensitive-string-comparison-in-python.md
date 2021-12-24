@@ -12,7 +12,7 @@
 
 T3】蟒 3T5
 
-```
+```py
 # conversion to lowercase for search
 
 #function to search item
@@ -54,7 +54,7 @@ T6T8**输出**T1
 
 T3】蟒 3T5
 
-```
+```py
 # concersion to upper case
 
 # Function to search item
@@ -97,7 +97,7 @@ T6T8**输出**T1
 
 T5】蟒 3T7
 
-```
+```py
 # Function to search item
 def check_Laptops():
 
@@ -135,7 +135,7 @@ casefold()方法的工作原理类似于 lower()方法。但是与 lower()方法
 
 T3】蟒 3T5
 
-```
+```py
 #initial list
 classrooms=['class1','class2','CLASS3','class4','class5']
 

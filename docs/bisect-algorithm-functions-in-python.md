@@ -14,7 +14,7 @@ Python 在其定义中使用模块“**二等分**提供了二等分算法，该
 
 **3。平分 _ 右(list，num，beg，end)** :-这个函数的工作原理类似于上面提到的“**平分()**”。
 
-```
+```py
 # Python code to demonstrate the working of
 # bisect(), bisect_left() and bisect_right()
 
@@ -42,7 +42,7 @@ print (bisect.bisect_right(li, 4, 0, 4))
 
 输出:
 
-```
+```py
 The rightmost index to insert, so list remains sorted is  : 5
 The leftmost index to insert, so list remains sorted is  : 2
 The rightmost index to insert, so list remains sorted is  : 4
@@ -51,7 +51,7 @@ The rightmost index to insert, so list remains sorted is  : 4
 
 时间复杂度:
 
-```
+```py
 O(log(n)) -> Bisect method works on the concept of binary search
 ```
 
@@ -61,7 +61,7 @@ O(log(n)) -> Bisect method works on the concept of binary search
 
 **6。insort_right(list，num，beg，end)** :-这个函数的工作方式类似于上面提到的“insort()”。
 
-```
+```py
 # Python code to demonstrate the working of
 # insort(), insort_left() and insort_right()
 
@@ -108,7 +108,7 @@ for i in range(0, 7):
 
 输出:
 
-```
+```py
 The list after inserting new element using insort() is : 
 1 3 4 4 4 5 6 
 The list after inserting new element using insort_left() is : 
@@ -120,7 +120,7 @@ The list after inserting new element using insort_right() is :
 
 时间复杂度:
 
-```
+```py
 O(n) -> Inserting an element in sorted array requires traversal
 ```
 

@@ -24,7 +24,7 @@
 **说明:**
 上图中有四个 3 * 3 矩阵可能。因此在结果图像中有 4 个模糊像素。这四个矩阵是:
 
-```
+```py
 ,
 
 ,
@@ -36,7 +36,7 @@ and
 
 Python 中的实现:
 
-```
+```py
 def square_matrix(square):
     """ This function will calculate the value x 
        (i.e. blurred pixel value) for each 3 * 3 blur image.
@@ -120,7 +120,7 @@ print(boxBlur(image))
 
 **输出:**
 
-```
+```py
 [[5, 4], 
 [4, 4]]
 
@@ -128,7 +128,7 @@ print(boxBlur(image))
 
 测试案例 2:
 
-```
+```py
 image = [[36, 0, 18, 9], 
          [27, 54, 9, 0], 
          [81, 63, 72, 45]]
@@ -138,7 +138,7 @@ print(boxBlur(image))
 
 **输出:**
 
-```
+```py
 [[40, 30]]
 ```
 

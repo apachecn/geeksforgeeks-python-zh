@@ -10,7 +10,7 @@ Python 是一种动态编程语言，由于其灵活性，Python 比静态类型
 
 **语法:**
 
-```
+```py
 type(object)
 
 ```
@@ -19,7 +19,7 @@ type(object)
 
 **示例:**
 
-```
+```py
 # program to illustrate the use of type()
 
 print(type("Geeks4Geeks !")) 
@@ -28,7 +28,7 @@ print(type(1706256))
 
 **输出:**
 
-```
+```py
 class 'str'
 class 'int'
 
@@ -39,7 +39,7 @@ class 'int'
 可以使用以下语法动态创建类:
 **语法:**
 
-```
+```py
 type(name, bases, attributes) 
 
 Parameters:
@@ -53,7 +53,7 @@ attributes: the data members and methods contained in the class
 
 **示例:**
 
-```
+```py
 # program to create class dynamically
 
 # constructor
@@ -94,7 +94,7 @@ Geeks.class_func("Class Dynamically Created !")
 
 **输出:**
 
-```
+```py
 constructor argument
 Geeks 4 geeks!
 1706256

@@ -14,7 +14,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 from tkcalendar import Calendar
@@ -44,7 +44,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 from tkcalendar import Calendar
@@ -102,7 +102,7 @@ root.mainloop()
 *   使用**日期时间**模块中的 **strptime()** 方法将日期转换为不同的时间格式
 *   然后我们将从日期中加上/减去天数。
 
-```
+```py
 def add_days(): 
 
     date_1 = datetime.datetime.strptime(cal.get_date(), "%m/%d/%y")
@@ -120,7 +120,7 @@ def subtract_days():
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 from tkcalendar import Calendar

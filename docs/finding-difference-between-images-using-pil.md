@@ -22,7 +22,7 @@ PIL 支持图像格式，如-
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img1 = Image.open('abc.jpg')
@@ -41,7 +41,7 @@ img1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img1 = Image.open('flower.png')
@@ -66,7 +66,7 @@ p.jpg
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image, ImageChops
 
 img1 = Image.open('p.jpg')

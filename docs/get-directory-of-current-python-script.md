@@ -21,7 +21,7 @@ Python 提供 [**OS 模块**](https://www.geeksforgeeks.org/os-module-python-exa
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.getcwd() method 
 
 # importing os module 
@@ -59,7 +59,7 @@ print(cwd) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get the
 # path of the script
 

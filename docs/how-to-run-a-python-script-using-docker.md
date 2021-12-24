@@ -18,7 +18,7 @@
 
 然后，我将 test.py 文件从我的 pc 复制到容器当前工作目录(。/或/usr/src/app)。
 
-```
+```py
 #Deriving the latest base image
 FROM python:latest
 
@@ -45,7 +45,7 @@ CMD [ "python", "./test.py"]
 
 这里-t 用于添加标签，以便轻松识别您的图像。
 
-```
+```py
 docker container build -t python:0.0.1 /home/roushan/Desktop/docker_2/docker_assignment
 ```
 
@@ -55,7 +55,7 @@ docker container build -t python:0.0.1 /home/roushan/Desktop/docker_2/docker_ass
 
 构建好 Docker 映像后，您可以列出所有映像来检查映像是否已成功构建。
 
-```
+```py
 docker images
 ```
 
@@ -67,7 +67,7 @@ docker images
 
 现在，您可以使用 Docker 运行命令来运行您的 Docker 容器。
 
-```
+```py
 docker run python:0.0.1
 ```
 

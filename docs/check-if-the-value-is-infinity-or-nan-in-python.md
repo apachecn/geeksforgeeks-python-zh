@@ -20,7 +20,7 @@ NaN 代表“**”而不是数字**”，它是一种数字数据类型，用于
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 x = math.nan
@@ -35,7 +35,7 @@ else:
 
 **Output**
 
-```
+```py
 x contains nan
 x == nan
 ```
@@ -44,7 +44,7 @@ x == nan
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 def isNan(number):
@@ -61,7 +61,7 @@ print(isNan(x))
 
 **Output**
 
-```
+```py
 True
 ```
 
@@ -71,7 +71,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 # Function checks if negative or
@@ -97,7 +97,7 @@ check(number)
 
 **Output**
 
-```
+```py
 x is Positive inf
 x is negative inf
 ```
@@ -106,7 +106,7 @@ x is negative inf
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# pip install numpy
 import numpy as np
 
@@ -116,7 +116,7 @@ print(np.isposinf([np.inf, 0, -np.inf]))**
 
 ******输出******
 
-```
+```py
 **[False False  True]
 [ True False False]**
 ```

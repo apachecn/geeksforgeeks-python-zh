@@ -23,7 +23,7 @@ Rasa 有两个主要组件:
 
 *   强烈建议在安装 RASA 之前使用虚拟环境。为了创建虚拟环境，anaconda 中的命令是:
 
-```
+```py
 conda create -n rasa
 activate rasa
 
@@ -31,19 +31,19 @@ activate rasa
 
 *   现在，我们将在我们的环境中安装 Rasa，我们将使用 pip install 进行安装。我们还需要在我们的环境中安装 TensorFlow(默认情况下将由 Rasa 安装)。安装 rasa 需要一些时间。
 
-```
+```py
 pip install rasa
 
 ```
 
 *   现在，我们将使用 rasa init 初始化机器人。这将为 chatbot 创建 stating 项目文件，并训练初始模型。
 
-```
+```py
 rasa init
 
 ```
 
-```
+```py
 o get started quickly, an initial project will be created.
 If you need some help, check out the documentation at https://rasa.com/docs/rasa.
 Now let's start! ????????
@@ -148,7 +148,7 @@ Training NLU model...
 
 为了启动本地环境，我们使用 *rasa x* 命令。它始于某件事
 
-```
+```py
 Starting Rasa X in local mode... ????
 wow
 wow
@@ -169,7 +169,7 @@ The server is running at http://localhost:5002/login?username=me&password=s23daf
 *   在本教程中，我们将创建一个机器人，它可以告诉我们任何城市的天气，我们还将在本教程中使用开放天气应用编程接口。
 *   我们将首先使用以下命令初始化项目:
 
-```
+```py
 rasa init --no-prompt
 
 ```
@@ -183,7 +183,7 @@ rasa init --no-prompt
 *   让我们保留的所有文件保持不变。
 *   首先，我们将定义故事(注意:故事是我们用来训练模型的示例对话)。这些故事是以减价语言的形式来定义的。我们删除了一些预先定义的故事，并用那些与我们的机器人相关的对话来代替它们。
 
-```
+```py
 ## say goodbye
 * goodbye
   - utter_goodbye
@@ -226,7 +226,7 @@ rasa init --no-prompt
 
 *   Rasa nlu.md 包含意图列表及其可能的示例文本。此外，在这个示例中，我们将分别映射我们的实体。这些意图被用来训练我们的 NLU 模型。
 
-```
+```py
 ## intent:greet
 - hey
 - hello
@@ -283,7 +283,7 @@ rasa init --no-prompt
 
 *   domain.yml 文件列出了所有意图、机器人的响应及其文本，以及机器人可以执行的操作。请注意，我们定义的任何行动或响应(在 nlu.md/故事. md)都必须在 domain.yml 中列出
 
-```
+```py
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -323,7 +323,7 @@ actions:
 
 *   现在，我们在 actions.py 文件中定义了“action_get_weather”函数。该函数从实体中获取城市名称，并借助 OpenWeatherMap API 获取城市的天气。
 
-```
+```py
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -356,12 +356,12 @@ class ActionCheckWeather(Action):
 *   现在，我们使用 ***rasa train*** 命令训练我们的模型。这将训练我们的 NLU 模型。
 *   为了检查我们的模型是否正常工作，我们使用以下命令:
 
-```
+```py
 rasa shell nlu
 
 ```
 
-```
+```py
 NLU model loaded. Type a message and press enter to parse it.
 Next message:
 weather in Noida
@@ -534,20 +534,20 @@ whats the weather
 
 *   正如我们所注意到的，上面训练的 NLU 模型以高精度正确地分类了意图。现在，转到 *endpoints.yml* 文件，添加或取消注释以下行:
 
-```
+```py
 action_endpoint:
   url: "http://localhost:5055/webhook"
 ```
 
 *   现在打开两个命令提示符窗口，在一个窗口中使用以下命令运行操作:
 
-```
+```py
 rasa run actions
 ```
 
 在另一个窗口中，使用以下命令运行 rasa shell:
 
-```
+```py
 rasa shell
 ```
 
@@ -556,7 +556,7 @@ rasa shell
 
 *   我们还可以可视化机器人对话的序列图:
 
-```
+```py
 rasa visualize
 ```
 

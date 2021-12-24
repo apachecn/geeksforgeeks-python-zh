@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add custom values key in List of dictionaries
 # Using loop
@@ -48,7 +48,7 @@ print("The dictionary list after addition : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The dictionary list after addition : [{'Gfg': 6, 'is': 9, 'best': 10, 'CS': 6}, {'Gfg': 8, 'is': 11, 'best': 19, 'CS': 7}, {'Gfg': 2, 'is': 16, 'best': 10, 'CS': 4}, {'Gfg': 12, 'is': 1, 'best': 8, 'CS': 3}, {'Gfg': 22, 'is': 6, 'best': 8, 'CS': 9}]
 
@@ -60,7 +60,7 @@ The dictionary list after addition : [{'Gfg': 6, 'is': 9, 'best': 10, 'CS': 6}, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add custom values key in List of dictionaries
 # Using zip() + loop
@@ -92,7 +92,7 @@ print("The dictionary list after addition : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The dictionary list after addition : [{'Gfg': 6, 'is': 9, 'best': 10, 'CS': 6}, {'Gfg': 8, 'is': 11, 'best': 19, 'CS': 7}, {'Gfg': 2, 'is': 16, 'best': 10, 'CS': 4}, {'Gfg': 12, 'is': 1, 'best': 8, 'CS': 3}, {'Gfg': 22, 'is': 6, 'best': 8, 'CS': 9}]
 

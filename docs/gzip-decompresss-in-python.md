@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`gzip.decompress(s)`方法，我们能够使用该方法将压缩后的字符串解压缩为字符串的字节格式。
 
-```
+```py
 # import gzip and decompress
 import gzip
 s = b'This is GFG author, and final year student.'
@@ -27,7 +27,7 @@ print(t)
 
 **例 2 :**
 
-```
+```py
 # import gzip and compress
 import gzip
 s = b'GeeksForGeeks@12345678'

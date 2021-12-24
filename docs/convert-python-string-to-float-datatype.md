@@ -9,7 +9,7 @@
 
 **方法一:使用`float()`**
 
-```
+```py
 # declaring a string
 str1 = "9.02"
 print("The initial string : " + str1)
@@ -27,7 +27,7 @@ print("The converted string to float is incremented by 1 : ", str2)
 
 **输出:**
 
-```
+```py
 The initial string : 9.02
 <type 'str'>
 
@@ -39,7 +39,7 @@ The converted string to float is incremented by 1 :  10.02
 
 **方法二:使用`decimal()`** :因为我们只要一个带有十进制数值的字符串，所以这个方法也可以使用。
 
-```
+```py
 # importing the module
 from decimal import Decimal
 
@@ -60,7 +60,7 @@ print("The converted string to float is incremented by 1 : ", str2)
 
 **输出:**
 
-```
+```py
 The initial string : 9.02
 <type 'str'>
 

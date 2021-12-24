@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Access element at Kth index in String
 # Using [] 
@@ -46,7 +46,7 @@ print("Kth index element : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Kth index element : r
 
@@ -58,7 +58,7 @@ Kth index element : r
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Access element at Kth index in String
 # Using Negative index + len() + [] operator
@@ -87,7 +87,7 @@ print("Kth index element : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Kth index element : r
 

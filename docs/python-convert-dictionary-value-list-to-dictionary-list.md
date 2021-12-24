@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary Value list to Dictionary List
 # Using loop
@@ -48,7 +48,7 @@ print("Records after conversion : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary Value list to Dictionary List
 # Using list comprehension + zip()

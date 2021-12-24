@@ -26,14 +26,14 @@
 **安装**
 在你的设备上下载兼容版本的 CUDA 设置并安装。要安装它，请打开终端并输入
 
-```
+```py
 pip install cupy-cuda(version)
 ```
 
 其中版本将是您设备上安装的 CUDA 版本。例如-
 (对于 CUDA 10.0)
 
-```
+```py
 pip install cupy-cuda100
 ```
 
@@ -43,7 +43,7 @@ pip install cupy-cuda100
 
 1.  Open the Anaconda prompt and enter
 
-    ```
+    ```py
     conda install -c anaconda cupy
     ```
 
@@ -55,7 +55,7 @@ pip install cupy-cuda100
 
 1.  导入–在下面的代码中，cp 是 cupy 的缩写，因为 np 是 numpy，这是惯例。
 
-    ```
+    ```py
     import numpy as np
     import cupy as cp
 
@@ -63,7 +63,7 @@ pip install cupy-cuda100
 
 2.  Just like Numpy, CuPy also have a `ndarray` class `cupy.ndarray` which is compatible GPU alternative of `numpy.ndarray`.
 
-    ```
+    ```py
     x_gpu = cp.array([1, 2, 3])
 
     ```
@@ -72,7 +72,7 @@ pip install cupy-cuda100
 
 **示例**–以欧几里德范数(也称为 L2 范数)为例。
 
-```
+```py
 import cupy as cp
 import numpy as np
 
@@ -86,7 +86,7 @@ print("Using Numpy: ", l2_cpu)
 print("\nUsing Cupy: ", l2_gpu)
 ```
 
-```
+```py
 Using Numpy: 3.7416573867739413
 
 Using Cupy: array(3.74165739)
@@ -98,7 +98,7 @@ CuPy 是一个兼容 GPU 的 NumPy 库。与 numpy 相比，它更高效，因�
 
 **注-** 这里使用的配置是 CPU 为英特尔 i7-7700 HQ，GPU 为 Geforce GTX 1050 4GB 使用 CUDA 9.0。
 
-```
+```py
 # Python program to 
 # demonstrate speed comparison
 # between cupy and numpy
@@ -121,7 +121,7 @@ e = time.time()
 print("\nTime consumed by cupy: "e - s)
 ```
 
-```
+```py
 Time consumed by numpy: 0.4238910675048828
 Time consumed by cupy: 0.0010099411010742188
 

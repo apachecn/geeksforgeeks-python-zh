@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Kth digit Sum
 # Using loop + sum()
@@ -44,7 +44,7 @@ print("Kth digit sum : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5467, 34232, 45456, 22222, 3455]
 Kth digit sum : 19
 ```
@@ -55,7 +55,7 @@ Kth digit sum : 19
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Kth digit Sum 
 # Using sum() + list comprehension + str()
@@ -78,7 +78,7 @@ print("Kth digit sum : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5467, 34232, 45456, 22222, 3455]
 Kth digit sum : 19
 ```

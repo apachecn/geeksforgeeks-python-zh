@@ -10,7 +10,7 @@ Tkinter 提供了很多方法；其中之一就是**几何()**法。该方法用
 
 ## 蟒蛇 3
 
-```
+```py
 # importing only those functions which are needed
 from tkinter import Tk, mainloop, TOP
 from tkinter.ttk import Button
@@ -37,7 +37,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing only those functions which
 # are needed
 from tkinter import Tk, mainloop, TOP
@@ -68,7 +68,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing only those functions which
 # are needed
 from tkinter import Tk, mainloop, TOP

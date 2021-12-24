@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency of K in sliced String
 # Using slicing + count()
@@ -47,7 +47,7 @@ print("The required Frequency : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The required Frequency : 3
 
@@ -59,7 +59,7 @@ The required Frequency : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency of K in sliced String
 # Using Counter() + slicing 
@@ -89,7 +89,7 @@ print("The required Frequency : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The required Frequency : 3
 

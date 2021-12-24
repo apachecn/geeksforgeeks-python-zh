@@ -20,7 +20,7 @@ dop-down 列表可以与自定义小部件一起使用。它允许您在显示�
     > 
     > 从 kivy . uix . down 导入 DoWn
 
-    ```
+    ```py
     Basic Approach:
     1) import kivy
     2) import kivy App
@@ -36,7 +36,7 @@ dop-down 列表可以与自定义小部件一起使用。它允许您在显示�
 
     **方法的实施–**
 
-    ```
+    ```py
     # Program to explain how to create drop-down in kivy 
 
     # import kivy module    

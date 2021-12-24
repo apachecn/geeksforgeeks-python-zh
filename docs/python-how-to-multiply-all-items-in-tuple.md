@@ -9,7 +9,7 @@
 **方法#1:使用`list()` +循环**
 以上功能可以组合执行此任务。我们可以使用循环来累加乘积逻辑的结果。list()函数用于执行相互转换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple Elements Multiplication
 # Using list() + loop
@@ -37,7 +37,7 @@ print("The product of tuple elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple is : (7, 8, 9, 1, 10, 7)
 The product of tuple elements are : 35280
 

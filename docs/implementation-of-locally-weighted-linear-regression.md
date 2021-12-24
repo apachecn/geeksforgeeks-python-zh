@@ -27,7 +27,7 @@ w(i)可选择为–
 
 ## 大蟒
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -39,7 +39,7 @@ plt.style.use("seaborn")
 
 ## 大蟒
 
-```
+```py
 # Loading CSV files from local storage
 dfx = pd.read_csv('weightedX_LOWES.csv')
 dfy = pd.read_csv('weightedY_LOWES.csv')
@@ -56,7 +56,7 @@ Y = dfy.values
 
 ## 大蟒
 
-```
+```py
 # function to calculate W weight diagonal Matrix used in calculation of predictions
 def get_WeightMatrix_for_LOWES(query_point, Training_examples, Bandwidth):
   # M is the No of training examples
@@ -75,7 +75,7 @@ def get_WeightMatrix_for_LOWES(query_point, Training_examples, Bandwidth):
 
 ## 大蟒
 
-```
+```py
 # function to make predictions
 def predict(training_examples, Y, query_x, Bandwidth):
   M = Training_examples.shape[0]
@@ -94,7 +94,7 @@ def predict(training_examples, Y, query_x, Bandwidth):
 
 ## 大蟒
 
-```
+```py
 # visualise predicted values with respect
 # to original target values
 

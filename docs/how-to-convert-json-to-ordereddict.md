@@ -14,7 +14,7 @@ JSON 的完整形式是 JavaScript 对象符号。这意味着由编程语言中
 
 ## 计算机编程语言
 
-```
+```py
 # import required modules
 import json
 from collections import OrderedDict
@@ -30,7 +30,7 @@ print(data)
 
 **输出:**
 
-```
+```py
 {"Geeks":1, "for": 2, "geeks":3}
 OrderedDict([(u'Geeks', 1), (u'for', 2), (u'geeks', 3)])
 ```
@@ -41,7 +41,7 @@ OrderedDict([(u'Geeks', 1), (u'for', 2), (u'geeks', 3)])
 
 ## 计算机编程语言
 
-```
+```py
 # import required modules
 import json
 from collections import OrderedDict
@@ -58,7 +58,7 @@ print(data)
 
 **输出:**
 
-```
+```py
 {"Geeks":1, "for": 2, "geeks":3}
 OrderedDict([(u'Geeks', 1), (u'for', 2), (u'geeks', 3)])
 ```

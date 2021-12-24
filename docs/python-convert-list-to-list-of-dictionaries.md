@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to List of dictionaries
 # Using dictionary comprehension + loop
@@ -55,7 +55,7 @@ print("The constructed dictionary list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to List of dictionaries
 # Using zip() + list comprehension

@@ -6,13 +6,13 @@
 
 安装:
 
-```
+```py
 pip install newspaper3k
 ```
 
 报纸支持以下语言:
 
-```
+```py
   input code         full name
   ar               Arabic
   da               Danish
@@ -26,55 +26,55 @@ pip install newspaper3k
 
 创建文章实例的一些有用功能
 
-```
+```py
 article_name = Article(url, language="language code according to newspaper")
 ```
 
 下载文章
 
-```
+```py
 article_name.download()
 ```
 
 分析一篇文章
 
-```
+```py
 article_name.parse()
 ```
 
 将自然语言处理应用于文章
 
-```
+```py
 article_name.nlp()
 ```
 
 摘抄文章正文
 
-```
+```py
 article_name.text
 ```
 
 摘抄文章标题
 
-```
+```py
 article_name.title
 ```
 
 摘录文章摘要
 
-```
+```py
 article_name.summary
 ```
 
 提取文章的关键词
 
-```
+```py
 article_name.keywords
 ```
 
 ## 计算机编程语言
 
-```
+```py
 from newspaper import Article
 
 #A new article from TOI
@@ -114,7 +114,7 @@ print(toi_article.keywords)
 
 **输出:**
 
-```
+```py
 Article's Title:
 India China News: Chinese expert warns of troops entering Kashmir
 

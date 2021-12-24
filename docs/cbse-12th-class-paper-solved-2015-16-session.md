@@ -20,20 +20,20 @@ iv。回答 A 节或 B 节，C 节是必修的
 **Ans:** 宏是使用# define 创建的预处理器指令，用作符号常量。它们是已被命名的代码片段。每当使用该名称时，它都会被宏的内容替换。创建它们是为了简化和减少重复编码的数量。
 例如，
 
-```
+```py
 #define sum (a, b) a + b
 ```
 
 定义宏和，取两个参数 a 和 b。这个宏可以像任何函数一样被调用。因此，预处理后:
 
-```
+```py
 z = sum(x, y);
 is replaced with Z = x + y;
 ```
 
 **b .将包含哪个 C++ [头文件](https://www.geeksforgeeks.org/difference-header-file-library/)来运行/执行以下 C++代码？1**
 
- **```
+ ```py
 void main()
 {
     int Last = 26.5698742658;
@@ -47,7 +47,7 @@ void main()
 
 **c .删除任何语法错误后，重写以下程序。在所做的每项更正下面画线。2**
 
- **```
+ ```py
 #include<iostream.h>
 void main() int A[10];
 A = [ 3, 2, 5, 4, 7, 9, 10 ];
@@ -61,7 +61,7 @@ cout << S;
 
 **Ans:** 上面的代码中，main()后面的花括号缺失，数组的元素声明错误，变量 p 没有声明，S 不能在块内部声明。因此，进行了以下更正:
 
-```
+```py
 #include <iostream.h>
 <u>void main() {</u> 
 
@@ -76,7 +76,7 @@ cout << S;
 
 **d .找到以下 C++程序的输出:2**
 
- **```
+ ```py
 #include <iostream.h>
 void repch(char s[])
 {
@@ -101,14 +101,14 @@ void main()
 
 **Ans:** *Output:* 将‘@’替换为 U，‘！”代替第二个 C 和'！'代替第三个 S
 
-```
+```py
 Original String SUCCESS
 Changed String S@C!ES! 
 ```
 
 **e .找到以下的输出:3**
 
- **```
+ ```py
 #include <iostream.h>
 
 void switchover(int A[], int N, int split)
@@ -137,7 +137,7 @@ void main()
 **Ans:** 在上面的程序中，当通过传递数组的地址、数组的大小和 split = 3 来调用 switch()函数时。在这个 K = 0，1，2 的函数中，如果条件被执行并且 K 被加到数组元素上，即 30+0 = 30，40+1 = 41，50+2 = 52，然后条件被遵循并且数组元素被相乘，20*3 = 60，10*4 = 40，5*5 = 25。
 Display()打印修改后数组的值，输出为:
 
-```
+```py
 30%41
 52%60
 40%25
@@ -146,7 +146,7 @@ Display()打印修改后数组的值，输出为:
 
 **f .观察下面的 C++代码，找出给定选项 I)到 iv)中哪一个是预期的正确输出。同时指定变量“Go”的最大值和最小值。2**
 
-```
+```py
 void main()
 {
     int X[4] = { 100, 75, 10, 125 };
@@ -168,7 +168,7 @@ Go 的最大值= 3(当随机(2) = 1)
 
 **b .完成以下课程后回答问题(一)和(二):2**
 
- **```
+ ```py
 class Exam {
     int Rollno;
     char Cname[25];
@@ -229,7 +229,7 @@ public:
 
 ****年:** :**
 
-```
+```py
 class Candidate {
     long Rno;
     char Cname[20];
@@ -274,7 +274,7 @@ public:
 
 **d .给出以下类定义回答如下问题:4**
 
-```
+```py
 class University {
 
     char name[20];
@@ -334,7 +334,7 @@ A[7][10]= 49190
 
 **b .为包含乘客信息的链接实现队列编写函数定义如下:4**
 
- **```
+ ```py
 struct NODE {
     int Ticketno;
     char PName[20];
@@ -360,7 +360,7 @@ public:
 
 **年:**
 
-```
+```py
 void Queueofbus::Insert()
 {
     NODE* p = new NODE;
@@ -384,7 +384,7 @@ c .编写一个函数，使用[插入排序](https://www.geeksforgeeks.org/inser
 
 **年:**
 
-```
+```py
 void insertsort(int a[], int n)
 {
     int p, ptr;
@@ -404,7 +404,7 @@ void insertsort(int a[], int n)
 
 **年:**
 
-```
+```py
 void NewMAT(int A[][], int r, int c)
 {
     for (int i = 0; i < r; i++)
@@ -434,7 +434,7 @@ void NewMAT(int A[][], int r, int c)
 输出将为:aidini SI MY COUNTRY**
 **Ans:**
 
-```
+```py
 void RevText()
 {
     ifstream in("Input.txt");
@@ -449,7 +449,7 @@ void RevText()
 
 **c .用 C++编写一个函数来搜索和显示细节，其目的地是二进制文件“Flight”中的“Chandigarh”。Dat”。假设二进制文件包含以下类的对象:** 3
 
-```
+```py
 class FLIGHT {
 
     int Fno;           // Flight Number
@@ -476,7 +476,7 @@ public:
 
 **年:**
 
-```
+```py
 void Dispdetails()
 {
     ifstream fin("Flight.Dat");
@@ -507,7 +507,7 @@ i) uniform() ii) findall()
 
 **c .在删除所有语法错误(如果有)后，重写以下 Python 程序，在每个更正下面加下划线:2**
 
-```
+```py
 def checkval : x = raw_input("Enter a number") 
 if x % 2 = 0 : 
 print x, "is even" 
@@ -519,7 +519,7 @@ print x, "is odd"
 
 **年:**
 
-```
+```py
 def checkval():
     x = raw_input("Enter a number")
     if x % 2 == 0:
@@ -533,7 +533,7 @@ else:
 
 **d .找到以下 Python 程序的输出:3**
 
- **```
+ ```py
 
 def makenew(mystr):
     newstr = " "
@@ -556,7 +556,7 @@ makenew("sTUdeNT")
 
 **e .找到以下程序的输出 2**
 
- **```
+ ```py
 def calcresult():
     i = 9 
     while i > 1:
@@ -573,7 +573,7 @@ def calcresult():
 
 *输出:*
 
-```
+```py
 49
 25
 9
@@ -583,7 +583,7 @@ def calcresult():
 
 **f .观察下面的 Python 代码，找出给定选项 I)到 iv)中哪一个是预期的正确输出。同时指定变量“Go”的最大值和最小值。2**
 
-```
+```py
 import random X =[100, 75, 10, 125] 
 Go = random.randint(0, 3)
 for i in range(Go) :
@@ -605,7 +605,7 @@ T5【引用计数:通过计算一个对象被系统中其他对象引用的次�
 
 **b .在完成以下课程定义后回答问题(一)和(二):2**
 
-```
+```py
 class Toy :
 tid =0;
 tcat = " "
@@ -648,7 +648,7 @@ def __init__(self):// Function1
 
 **年:**
 
-```
+```py
 class train : 
     def __init__(self):
         _src = "" 
@@ -672,7 +672,7 @@ class train : 
 
 **d .观察以下类定义，回答以下问题:2**
 
- **```
+ ```py
 class ParentClass(objects):
     def__init__(self)
         self, x = 1
@@ -700,7 +700,7 @@ c.print()      
 
 **年:**
 
-```
+```py
 def findname(name): 
      if phonebook.has_key():
          del phonebook[name] 
@@ -713,7 +713,7 @@ print "Phonebook Information"
 
 ****Ans:****
 
-```
+```py
 def divide(x, y):
   try:
     result = x / y
@@ -731,7 +731,7 @@ Eg:如果 L =[1，-2，3，4，-5，7]，输出应为:[-2，-5，3，4，7] 3**
 
 **年:**
 
-```
+```py
 def arrangelements(X):
     L = len(X)
     for i in range(L):
@@ -744,7 +744,7 @@ def arrangelements(X):
 
 **c .考虑以下类定义:- 3**
 
- **```
+ ```py
 class book ():
     bk = []
     def _ init _ (self, bno):
@@ -757,7 +757,7 @@ class book ():
 
 **年:**
 
-```
+```py
 def addbook(self):
     a = input("enter book number: ")
     book.bk.append(a)
@@ -773,7 +773,7 @@ del book.bk[0]
 
 **年:**
 
-```
+```py
 def Fibonacci (max):
  a, b = 0, 1
   while a <= max:
@@ -794,7 +794,7 @@ def Fibonacci (max):
 
 **Q4 a .考虑以下代码:1**
 
-```
+```py
 f = open("mytry", "w+")
 f.write("0123456789abcdef")
 f.seek(-3, 2)   // 1
@@ -817,7 +817,7 @@ printf.read(2) // 2
 
 **年:**
 
-```
+```py
 def countH():
   f = open ("Para.txt", "r")
   lines = 0
@@ -832,7 +832,7 @@ print "no. of lines is", lines
 
 **年:**
 
-```
+```py
 def Readfile(): 
  i = open("Employee.dat", "rb+")
  x = i.readline() 
@@ -859,7 +859,7 @@ x = i.readline()
 
 **年:**
 
-```
+```py
 Select * from faculty
   where salary > 12000
 
@@ -869,7 +869,7 @@ Select * from faculty
 
 **年:**
 
-```
+```py
 Select * from Courses
   where fees between 15000 and 50000
 
@@ -878,7 +878,7 @@ Select * from Courses
 **iii)将所有课程的费用增加 500 的“系统设计”课程。**
 **Ans:**
 
-```
+```py
 Update courses set fees = fees + 500
      where Cname = "System Design" 
 
@@ -888,7 +888,7 @@ Update courses set fees = fees + 500
 
 **年:**
 
-```
+```py
 Select *from faculty fac, courses cour 
    where fac.f_id = cour.f_id and 
    fac.fname = 'Sulekha' order by cname desc

@@ -14,7 +14,7 @@ KNN 是一种机器学习算法，用于分类(使用 KNearestClassifier)和回�
 
 **代码:了解 KNN 算法中的 K 值如何影响模型复杂度。**
 
-```
+```py
 # This code may not run on GFG ide
 # As required modules are not found.
 
@@ -57,7 +57,7 @@ plt.legend()
 
 <center>![](img/a8a45dcb1361747489e56fbea1cb0ddb.png)</center>
 
-```
+```py
 Test Accuracy: 0.6465919540035108
 Training Accuracy: 0.8687977824212627
 
@@ -96,7 +96,7 @@ Training Accuracy: 0.8687977824212627
 
 **代码:我们来考虑下图**
 
-```
+```py
 # This code may not run on GFG
 # As required modules are not found.
 

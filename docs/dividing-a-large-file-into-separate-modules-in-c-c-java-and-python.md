@@ -34,7 +34,7 @@
 
 ## fulllinkedlist 足球俱乐部
 
-```
+```py
 // Full Linked List Insertions
 
 #include <stdio.h>
@@ -185,7 +185,7 @@ void display(struct Node* temp)
 
 **编译代码:**我们可以通过以下方式编译上述程序:
 
-```
+```py
 gcc linkedlist.c -o linkedlist
 ```
 
@@ -241,7 +241,7 @@ gcc linkedlist.c -o linkedlist
 
 在每个头文件中，我们从:
 
-```
+```py
 #ifndef FILENAME_H  
 #define FILENAME_H 
 
@@ -271,7 +271,7 @@ Declarations...
 
 ## linkedlist . h .链接列表
 
-```
+```py
 // linkedlist.h
 
 #ifndef LINKED_LIST_H
@@ -289,7 +289,7 @@ void display(struct Node* temp);
 
 ## insert.h
 
-```
+```py
 // insert.h
 
 #ifndef INSERT_H
@@ -306,7 +306,7 @@ void e_insert(struct Node** head, int data);
 
 ## insert.c
 
-```
+```py
 // insert.c
 
 #include "linkedlist.h"
@@ -370,7 +370,7 @@ void e_insert(struct Node** head, int data)
 
 ## linkedlist 足球俱乐部
 
-```
+```py
 // linkedlist.c
 // Driver Program
 
@@ -442,7 +442,7 @@ int main()
 
 最后，我们保存它们并编译如下。
 
-```
+```py
 **gcc insert.c linkedlist.c -o linkedlist**
 ```
 
@@ -461,7 +461,7 @@ int main()
 **如何安装虚拟环境:**
 如果尚未安装，请使用 **pip** 或 **pip3** 安装**虚拟环境**:
 
-```
+```py
 **pip install virtualenv**
 ```
 
@@ -475,13 +475,13 @@ int main()
 
 现在，您可以使用 pip 来安装所有需要的模块，它们作为这个独立项目的独立部分，并且您不需要担心系统范围的脚本中断。随着虚拟环境和源被激活，
 
-```
+```py
 pip install pip install pandas==0.22.0
 ```
 
 要做的一件重要的事情是创建一个名为:
 
-```
+```py
 **__init__.py**
 ```
 
@@ -501,7 +501,7 @@ pip install pip install pandas==0.22.0
 
 ## Point.py
 
-```
+```py
 # point.py
 
 class Point:
@@ -541,7 +541,7 @@ if __name__ == "__main__":
 
 ## Helper.py
 
-```
+```py
 # Helper.py
 
 class Point:
@@ -556,7 +556,7 @@ class Point:
 
 ## Main.py
 
-```
+```py
 # Main.py
 
 from Helper import Point
@@ -581,14 +581,14 @@ main ()
 
 它类似于 Python。导航到新目录保存项目文件，并在所有子程序中写入:
 
-```
+```py
 **package app_name;**
 ```
 
 在起点上，像往常一样创建一个类。
 通过再次编写:package app_name 将模块导入到新的 java 程序中，并简单地引用该特定的 **module.function()** ，因为它们属于同一个包(存储在同一个目录中)，java 隐式地添加了以下几行，但是如果您需要从不同的包导入新的模块，那么可以通过以下方式进行:
 
-```
+```py
 import package.*; 
 import package.classname; 
 import static package.*;
@@ -603,7 +603,7 @@ Fully Qualified Name
 
 ## Check.java
 
-```
+```py
 // Check.java
 
 import java.util.*;
@@ -651,7 +651,7 @@ class Main {
 
 ## Math.java
 
-```
+```py
 // Math.java
 
 package foo;
@@ -666,7 +666,7 @@ public class Math {
 
 ## Main.java
 
-```
+```py
 // Main.java
 // Driver Program
 
@@ -697,7 +697,7 @@ class Main {
 
 **编译:**
 
-```
+```py
 javac -d /path file1.java file2.java 
 ```
 

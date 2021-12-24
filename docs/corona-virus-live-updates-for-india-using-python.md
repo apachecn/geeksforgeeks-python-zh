@@ -6,7 +6,7 @@
 让我们看一个简单的 Python 脚本来演示印度各州的冠状病毒病例。这个 Python 脚本从卫生部官方网站获取实时数据。然后数据在水平条形图中表示。
 要运行此脚本，请遵循以下安装–
 
-```
+```py
 $ pip install bs4
 $ pip install tabulate
 $ pip install matplotlib
@@ -20,7 +20,7 @@ $ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 
 import requests

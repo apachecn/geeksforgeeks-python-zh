@@ -10,19 +10,19 @@
 
 *   **pycountry:** pycountry 为标准提供 ISO 数据库。
 
-```
+```py
 pip install pycountry
 ```
 
 *   **pywebio:** PyWebIO 包含在浏览器上获取用户输入输出，将浏览器变成“富文本终端”的功能，可用于构建简单的 web 应用或基于浏览器的 GUI 应用。有了这个模块，任何人都可以在没有任何 HTML 和 JS 的先验知识或开销的情况下生成一个 web 应用程序。
 
-```
+```py
 pip install pywebio
 ```
 
 *   **newsapi-python:** 使用非官方的 python 客户端库将 newsapi 集成到您的 Python 应用程序中，而无需直接进行 HTTP 请求。
 
-```
+```py
 pip install newsapi-python
 ```
 
@@ -32,7 +32,7 @@ pip install newsapi-python
 
 ## 蟒蛇 3
 
-```
+```py
 from newsapi import NewsApiClient
 import time
 import pycountry
@@ -45,7 +45,7 @@ from pywebio.session import *
 
 ## 蟒蛇 3
 
-```
+```py
 # copy your api id from website
 # and paste it here by replacing 'Your API Key'
 newsapi = NewsApiClient(api_key='Your API Key')
@@ -63,7 +63,7 @@ input_country = input("", placeholder = "Enter Country Name",
 
 ## 蟒蛇 3
 
-```
+```py
 def Check(input_countries):
     input_countries = [input_countries.strip()]
     countries = {}
@@ -83,7 +83,7 @@ def Check(input_countries):
 
 ## 蟒蛇 3
 
-```
+```py
 # create a choice box for 
 # selecting type of news one wants to see
 option = radio("Which category are you interested in?",
@@ -105,7 +105,7 @@ Headlines = top_headlines['articles']
 
 ## 蟒蛇 3
 
-```
+```py
 for articles in Headlines:
   b = articles['title'][::-1].index("-")
   if "news" in (articles['title'][-b+1:]).lower():
@@ -126,7 +126,7 @@ for articles in Headlines:
 
 ## 蟒蛇 3
 
-```
+```py
 from newsapi import NewsApiClient
 import time
 import pycountry

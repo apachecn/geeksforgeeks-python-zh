@@ -23,7 +23,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import the time module
 import time
 

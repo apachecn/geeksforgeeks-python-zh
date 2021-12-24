@@ -4,7 +4,7 @@
 
 **Decimal#max() : max()** 是一个 Decimal 类方法，它比较两个 Decimal 值并返回最大值 2。
 
-```
+```py
 Syntax:  Decimal.max()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  the max of two.
 
 **代码# 1:max()方法示例**
 
-```
+```py
 # Python Program explaining 
 # max() method
 
@@ -41,7 +41,7 @@ print ("Decimal b with max() method : ", b.max(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with max() method :  0.142857
 
 **代码# 2:max()方法示例**
 
-```
+```py
 # Python Program explaining 
 # max() method
 
@@ -79,7 +79,7 @@ print ("Decimal b with max() method : ", b.max(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

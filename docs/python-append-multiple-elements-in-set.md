@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Append Multiple elements in set
 # Using update()
@@ -48,7 +48,7 @@ print("Set after adding elements : " + str(test_set))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Set after adding elements : {1, 2, 4, 5, 6, 7, 9, 10}
 ```
@@ -59,7 +59,7 @@ Set after adding elements : {1, 2, 4, 5, 6, 7, 9, 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Append Multiple elements in set
 # Using | operator ( Pipe operator )
@@ -82,7 +82,7 @@ print("Set after adding elements : " + str(test_set))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Set after adding elements : {1, 2, 4, 5, 6, 7, 9, 10}
 ```

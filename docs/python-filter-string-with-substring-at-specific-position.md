@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片**
 上述功能的组合可用于执行该特定任务。在本文中，我们使用列表切片来检查子串范围，并且在列表理解中编译提取列表的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Filter String with substring at specific position
 # using list comprehension + list slicing
@@ -34,7 +34,7 @@ print ("Filtered list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best', 'for', 'geeks']
 Filtered list : ['geeksforgeeks', 'geeks']
 

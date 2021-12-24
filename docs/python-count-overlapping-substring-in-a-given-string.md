@@ -6,7 +6,7 @@
 
 请注意，在 Python 中，`count()`函数返回给定字符串中的子字符串数量，但是当子字符串的两次出现重叠时，它不会给出正确的结果。考虑这个例子–
 
-```
+```py
 string = "GeeksforGeeksforGeeksforGeeks"
 
 print(string.count("GeeksforGeeks"))
@@ -14,7 +14,7 @@ print(string.count("GeeksforGeeks"))
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -24,7 +24,7 @@ print(string.count("GeeksforGeeks"))
 
 以下是实施–
 
-```
+```py
 def CountOccurrences(string, substring):
 
     # Initialize count and start to 0
@@ -59,7 +59,7 @@ print(CountOccurrences(string, "GeeksforGeeks"))
 
 **Output:**
 
-```
+```py
 3
 
 ```

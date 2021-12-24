@@ -11,14 +11,14 @@
 *   **边缘浏览器:**微软边缘浏览器可从[https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)下载。如果已经安装，我们可以使用 edge://version/
 *   **Selenium 框架:** Selenium 是通过程序控制网页浏览器的强大工具。它适用于所有浏览器，适用于所有主要操作系统。可以使用以下命令安装:
 
-```
+```py
 pip install selenium
 ```
 
 *   **边缘网络驱动:**硒边缘网络驱动可以从这个[网址](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)下载。使用这个驱动程序，自动测试将在边缘浏览器中完成。根据操作系统下载 edge 网络驱动，解压文件得到*msedgedriver.exe。*
 *   **微软 Edge 的 Selenium 工具:**该模块具备自动化浏览器测试所需的功能，可以使用以下命令进行安装:
 
-```
+```py
 pip install msedge-selenium-tools selenium==3.141
 ```
 
@@ -26,7 +26,7 @@ pip install msedge-selenium-tools selenium==3.141
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from selenium import webdriver
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from selenium.webdriver.opera.options import Options
 from selenium.webdriver.chrome.options import Options

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们对元组字典的每个元素进行迭代，并比较是否相等，以创建新的字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Equal Pair Dictionary 
 # Using loop

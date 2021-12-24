@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `__contains__`**
 以上功能的组合构成了执行此任务的蛮力方式。在这种情况下，我们使用循环迭代每个键，并使用 __contains__ 检查值是否存在。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Key from Nested item
 # Using loop + __contains__
@@ -50,7 +50,7 @@ print("Match keys : " + str(res)) 
 **方法 2:使用字典理解+ `get()`**
 以上功能的组合提供了解决这个问题的另一种方式。在本文中，我们使用 get()执行元素存在性检查。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Key from Nested item
 # Using dictionary comprehension + get()

@@ -8,7 +8,7 @@
 
 > 平分。平分 _ 左(a，x，lo=0，hi=len(a)):返回排序列表中 x 最左边的插入点。最后两个参数是可选的，它们用于在子列表中搜索。
 
-```
+```py
 # Python code to demonstrate working
 # of binary search in library
 from bisect import bisect_left
@@ -31,14 +31,14 @@ else:
 
 **Output:**
 
-```
+```py
 First occurrence of 4 is present at 2
 
 ```
 
 **寻找小于 x 的最大值**
 
-```
+```py
 # Python code to demonstrate working
 # of binary search in library
 from bisect import bisect_left
@@ -62,7 +62,7 @@ else:
 
 **Output:**
 
-```
+```py
 Largest value smaller than  7  is at index  3
 
 ```
@@ -71,7 +71,7 @@ Largest value smaller than  7  is at index  3
 
 > 平分。平分 _ 右(a，x，lo=0，hi=len(a))返回排序列表 a 中 x 最右边的插入点。最后两个参数是可选的，它们用于在子列表中搜索。
 
-```
+```py
 # Python code to demonstrate working
 # of binary search in library
 from bisect import bisect_right
@@ -94,7 +94,7 @@ else:
 
 **Output:**
 
-```
+```py
 Last occurrence of 4 is present at 3
 
 ```

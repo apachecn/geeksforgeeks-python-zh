@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 在该方法中，我们使用条件语句提取具有重叠的对，并将合适的匹配附加到列表保存记录中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find overlapping tuples from list
 # using loop 

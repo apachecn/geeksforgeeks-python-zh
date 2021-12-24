@@ -10,14 +10,14 @@
 
 *   **安装库 getoldtweets 3–**以下命令可以安装在 Jupyter 笔记本或任何命令提示符下。
 
-```
+```py
 pip install GetOldTweets3
 
 ```
 
 *   **指定所需的标签–**安装库后，它将与另一个变量一起导入。通过内置的方法**推文标准()**可以提到我们推文数据集中所需的规范。方法**设置查询搜索()**允许获取任何关于我们标签的推文
 
-```
+```py
 import GetOldTweets3 as got
 
     gettweet = got.manager.TweetCriteria().setQuerySearch(hashtag) \ 
@@ -28,7 +28,7 @@ import GetOldTweets3 as got
 
 *   可以添加更多规格。有很多
 
-```
+```py
 .setSince("2020-01-01") \
 .setUntil("2020-05-01") \
 .setMaxTweets(100)\
@@ -41,7 +41,7 @@ import GetOldTweets3 as got
 
 ## 蟒蛇 3
 
-```
+```py
 import GetOldTweets3 as got
 
 def extract_tweets(hashtag):

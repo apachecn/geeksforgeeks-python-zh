@@ -12,7 +12,7 @@
 
 **代码# 1:shift()方法示例**
 
-```
+```py
 # Python Program explaining 
 # shift() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with shift() method : ", b.shift(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  2
 
@@ -47,7 +47,7 @@ Decimal b with shift() method :  200
 
 **代码# 2:shift()方法示例**
 
-```
+```py
 # Python Program explaining 
 # shift() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with shift() method : ", b.shift(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  300
 Decimal value b :  15
 

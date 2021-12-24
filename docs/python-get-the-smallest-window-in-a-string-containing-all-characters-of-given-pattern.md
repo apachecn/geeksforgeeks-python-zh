@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : str = 'geeksforgeeks' pattern = 'gks' 
 Output : geeks
 
@@ -17,7 +17,7 @@ Output : ring
 
 **方法#1 :** 使用 Python *枚举()*T5】此方法使用 Python `enumerate()`。*需要【k】*存储我们需要多少次字符 *k* 而缺失则告诉我们还有多少字符缺失。在循环中，首先将新字符添加到窗口中。然后，如果没有遗漏任何内容，尽可能从窗口开始处删除，然后更新结果。
 
-```
+```py
 string = 'new string'
 pattern = 'rg'
 
@@ -44,7 +44,7 @@ for i in range(low,h):
 
 **Output:**
 
-```
+```py
 ksf
 
 ```
@@ -52,7 +52,7 @@ ksf
 **方法 2 :** 使用`collections.defaultdict()`
 这种方法使用两个缺省值“src”和“dest”。A *defaultdict* 的工作方式与普通 dict 完全一样，但它是用一个不接受参数的函数(“默认工厂”)初始化的。*源*为空，而*目标*由模式元素作为键，出现次数作为值组成。在每次迭代“I”中，我们检查*目标*字典中是否存在*字符串*的 *i <sup>th</sup>* 元素，并相应更新*源*字典。
 
-```
+```py
 # Python3 code to Find the smallest 
 # window in a string containing all 
 # characters of another string
@@ -103,7 +103,7 @@ print(min_window(string, pattern))
 
 **Output:**
 
-```
+```py
 geeks
 
 ```
@@ -111,7 +111,7 @@ geeks
 **方法#3 :** 动态方法
 在这个方法中，我们使用一个 for 循环，在每次迭代中，比如说 I，我们找到以 I 结束并包含模式中所有字母的最短间隔。这可以通过考虑两种数据结构来实现，即“RPO”和“rdict”。rpos 是一个排序的位置列表，其中保存了字符串中模式字符的最右边位置，rdict 是一个从字符到位置的字典映射。rdict 的值与 RPO 相同。
 
-```
+```py
 # Python3 code to Find the smallest 
 # window in a string containing all 
 # characters of another string
@@ -149,7 +149,7 @@ print(min_window(string, pattern))
 
 **Output:**
 
-```
+```py
 geeks
 
 ```

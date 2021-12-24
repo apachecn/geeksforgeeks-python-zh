@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values derived Dictionary keys
 # Using loop
@@ -55,7 +55,7 @@ print("The constructed Dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values derived Dictionary keys
 # Using dictionary comprehension

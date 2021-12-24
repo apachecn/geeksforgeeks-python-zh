@@ -6,7 +6,7 @@
 
 我们将使用来自 PyPi 的**内存剖析器**。我们还需要**请求**来测试功能。为此，只需在终端中键入以下内容
 
-```
+```py
 pip3 install memory-profiler requests
 ```
 
@@ -16,7 +16,7 @@ pip3 install memory-profiler requests
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 from memory_profiler import profile
 import requests
@@ -51,7 +51,7 @@ class BaseExtractor:
 
 ## 蟒蛇 3
 
-```
+```py
 from word_extractor import BaseExtractor
 
 if __name__ == "__main__":
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 所以，基本上现在我们完成了。您会注意到 **parse_url()** 将比 **parse_list()** 消耗更多的内存，这是显而易见的，因为 parse_url 调用一个 url 并将响应内容写入一个文本文件。如果你打开链接，那么你会发现单词列表是巨大的。因此，现在要测试您的代码，只需运行 **run.py** 文件。你可以通过打字来完成
 
-```
+```py
 python3 run.py
 ```
 

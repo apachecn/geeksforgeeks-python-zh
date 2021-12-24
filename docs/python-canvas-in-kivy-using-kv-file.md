@@ -13,11 +13,11 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用画布，您必须导入:
 
-```
+```py
 from kivy.graphics import Rectangle, Color
 ```
 
-```
+```py
 Basic Approach -
 -> import kivy
 -> import kivy App
@@ -40,7 +40,7 @@ Basic Approach -
 
 **主. py 文件**
 
-```
+```py
 # import kivy module 
 import kivy 
 
@@ -79,7 +79,7 @@ CanvasApp().run()
 
 **[Canvas.kv 文件](https://www.geeksforgeeks.org/python-kivy-kv-file/) :**
 
-```
+```py
 # .kv file of canvas
 
 <CanvasWidget@Widget>
@@ -103,7 +103,7 @@ CanvasApp().run()
 
 **main.py 文件:**
 
-```
+```py
 # import kivy module 
 import kivy 
 
@@ -142,7 +142,7 @@ CanvasApp().run()
 
 **。kv 文件:**
 
-```
+```py
 # .kv file of canvas
 
 <CanvasWidget>

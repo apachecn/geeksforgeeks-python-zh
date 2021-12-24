@@ -13,7 +13,7 @@
 **方法#1:使用列表理解**
 这提供了解决这个问题的方法之一。在本文中，我们使用嵌套列表理解来执行选择性列的提取。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Columns Matrix
 # Using list comprehension
@@ -39,7 +39,7 @@ print("Matrix after filtering : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[5, 4, 3, 4], [7, 6, 3, 2], [8, 3, 9, 10]]
 Matrix after filtering : [[4, 4], [6, 2], [3, 10]]
 
@@ -48,7 +48,7 @@ Matrix after filtering : [[4, 4], [6, 2], [3, 10]]
 **方法二:使用`itemgetter()` +列表理解**
 以上功能的组合可以解决这个问题。在本文中，我们使用 itemgetter()执行获取索引的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Columns Matrix
 # Using itemgetter() + list comprehension
@@ -75,7 +75,7 @@ print("Matrix after filtering : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[5, 4, 3, 4], [7, 6, 3, 2], [8, 3, 9, 10]]
 Matrix after filtering : [[4, 4], [6, 2], [3, 10]]
 

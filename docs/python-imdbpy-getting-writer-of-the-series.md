@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(writer)
 
 **输出:**
 
-```
+```py
 Money Heist
 [Person id:1210565[http] name:_Álex Pina_, Person id:8996721[http] name:_Javier Gómez Santander_, Person id:2651446[http] name:_Esther Martínez Lobato_]
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(writer)
 
 **输出:**
 
-```
+```py
 Sacred Games
 [Person id:11351503[http] name:_Abhishek Chaudhary_, Person id:3542598[http] name:_Varun Grover_, Person id:0151512[http] name:_Vikram Chandra_]
 ```

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 from pyglet import *
 
@@ -42,7 +42,7 @@ app.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 

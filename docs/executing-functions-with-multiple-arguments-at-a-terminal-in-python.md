@@ -15,7 +15,7 @@ sys 模块中主要有两个函数:
 
 **示例 1 :** 这个程序演示了使用 sys.argv 获取命令行参数，len(sys.argv)给出了传递的命令行参数总数，包括 python 脚本的名称。
 
-```
+```py
 # importing the module
 import sys
 
@@ -41,7 +41,7 @@ print(sys.argv)
 
 **示例 2 :** 这个程序演示了如何使用 sys.argv[index]将命令行参数传递给函数。索引 1、2 和 3 处的命令行参数存储在变量 arg1、arg2 和 arg3 中。变量 arg1、arg2 和 arg3 被传递给定义的函数。但是，命令行参数可以直接传递，而无需将其值存储在局部变量中。
 
-```
+```py
 # importing the module
 import sys
 
@@ -63,7 +63,7 @@ concat(arg1, arg2, arg3)
 
 **示例 3 :** 这个程序演示了如何使用 sys.argv[index]将命令行参数传递给函数。索引 1 和 2 处的命令行参数存储在变量 arg1 和 arg2 中。变量 a 和 b 被传递给定义的函数。命令行参数被接受为字符串，因此为了执行数字操作，应该首先将其转换为所需的数字类型。例如，在这个程序中，命令行参数首先转换成整数，然后存储到变量中。但是，命令行参数可以直接传递，而无需将其值存储在局部变量中。
 
-```
+```py
 # importing the module
 import sys
 
@@ -88,7 +88,7 @@ add(arg1, arg2)
 **使用 argparse 模块**
 sys . argv 方法存在一定的问题，因为如果没有传递参数或者传递了无效类型的参数，它不会抛出任何特定的错误。argparse 模块优雅地处理参数的存在和不存在。以下示例显示了 argparse 模块的实用程序:
 
-```
+```py
 # importing the module
 import argparse
 
@@ -109,7 +109,7 @@ print(args.number * 2)
 
 Python 默认接受所有命令行参数作为字符串类型，因此结果是 55 ie。该字符串被重复两次。但是，我们可以在程序本身中指定我们期望的数据类型，以便每当传递命令行参数时，只要它是类型兼容的，它就会自动转换为期望的数据类型。
 
-```
+```py
 # importing the module
 import argparse
 
@@ -137,7 +137,7 @@ Python 提供了一个 [getopt](https://www.geeksforgeeks.org/getopt-module-in-p
 
 **示例:**
 
-```
+```py
 import sys 
 import getopt 
 

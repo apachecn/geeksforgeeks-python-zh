@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing
 import sklearn
 from sklearn.datasets import load_boston
@@ -47,7 +47,7 @@ df_boston.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Box Plot
 import seaborn as sns
 sns.boxplot(df_boston['DIS'])
@@ -63,7 +63,7 @@ sns.boxplot(df_boston['DIS'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Position of the Outlier
 print(np.where(df_boston['DIS']>10))
 ```
@@ -82,7 +82,7 @@ print(np.where(df_boston['DIS']>10))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Scatter plot
 fig, ax = plt.subplots(figsize = (18,10))
 ax.scatter(df_boston['INDUS'], df_boston['TAX'])
@@ -107,7 +107,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Position of the Outlier
 print(np.where((df_boston['INDUS']>20) & (df_boston['TAX']>600)))
 ```

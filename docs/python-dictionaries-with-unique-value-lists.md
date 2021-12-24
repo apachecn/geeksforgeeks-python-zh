@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Value Lists Dictionaries
 # Using loop
@@ -43,7 +43,7 @@ print("List after duplicates removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}, {'Gfg': [2, 3], 'is': [7], 'best': [10]}, {'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}]
 List after duplicates removal : [{'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}, {'Gfg': [2, 3], 'is': [7], 'best': [10]}]
 
@@ -55,7 +55,7 @@ List after duplicates removal : [{'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}, {'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Value Lists Dictionaries
 # Using list comprehension
@@ -78,7 +78,7 @@ print("List after duplicates removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}, {'Gfg': [2, 3], 'is': [7], 'best': [10]}, {'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}]
 List after duplicates removal : [{'Gfg': [2, 3], 'is': [7, 8], 'best': [10]}, {'Gfg': [2, 3], 'is': [7], 'best': [10]}]
 

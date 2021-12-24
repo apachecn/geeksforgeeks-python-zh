@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `enumerate()`**
 以上功能的组合可以用来解决这个问题。这是一种蛮力方法，我们迭代所有列表，并为每个值创建记录列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Value list elements to List records
 # Using loop + enumerate()
@@ -42,7 +42,7 @@ print("The converted dictionary is : " + str(test_dict)) 
 **方法二:利用字典理解+ `items()`**
 这是解决这个问题的速记方法。在这种情况下，使用字典理解创建字典，并使用条目()提取字典条目。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Value list elements to List records
 # Using dictionary comprehension + items()

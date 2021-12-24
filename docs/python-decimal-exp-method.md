@@ -12,7 +12,7 @@
 
 **代码# 1:exp()方法示例**
 
-```
+```py
 # Python Program explaining 
 # exp() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with exp() method : ", b.exp())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with exp() method :  1.153564830100120253802476512
 
 **代码# 2:exp()方法示例**
 
-```
+```py
 # Python Program explaining 
 # exp() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with exp() method : ", b.exp())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  7.555
 

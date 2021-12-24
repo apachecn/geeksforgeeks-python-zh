@@ -9,40 +9,40 @@
 例如，考虑所有 3 个变量:
 **1。使用%-格式化**
 
-```
+```py
 name = 'nightfury1'
 print('%s is GeeksforGeeks a contributor' % (name))
 ```
 
 **输出:**
 
-```
+```py
 nightfury1 is GeeksforGeeks a contributor.
 ```
 
 **2。使用 str.format()**
 
-```
+```py
 name = 'nightfury1'
 print('{} is GeeksforGeeks a contributor.'.format(name))
 ```
 
 **输出:**
 
-```
+```py
 nightfury1 is GeeksforGeeks a contributor.
 ```
 
 **3。使用 f 弦**
 
-```
+```py
 name = 'nightfury1'
 print(f'{name} is GeeksforGeeks a contributor.')
 ```
 
 **输出:**
 
-```
+```py
 nightfury1 is GeeksforGeeks a contributor.
 ```
 
@@ -50,7 +50,7 @@ nightfury1 is GeeksforGeeks a contributor.
 
 **1。f-string 表达式:**它计算{}内部的字符串并返回值。
 
-```
+```py
 name = 'nightfury1'
 post = 'Technical Content Writer Intern.'
 print(f'{name} is GeeksforGeeks {post}')
@@ -58,13 +58,13 @@ print(f'{name} is GeeksforGeeks {post}')
 
 **输出:**
 
-```
+```py
 nightfury1 is Geeksforgeeks Technical Content Writer Intern
 ```
 
 **2。f-string 字典:**因为字典包含键值属性。因此，f-string 使用字典的属性进行字符串格式化。
 
-```
+```py
 GfG = {'name' : 'nightfury1',
        'post' : 'Technical Content Writer Intern'}
 print(f'{GfG["name"]} is GeeksforGeeks {GfG["post"]}.')
@@ -72,13 +72,13 @@ print(f'{GfG["name"]} is GeeksforGeeks {GfG["post"]}.')
 
 **输出:**
 
-```
+```py
 nightfury1 is Geeksforgeeks Technical Content Writer Intern.
 ```
 
 **3。f-string debug :** 调试给定表达式内部的值计算输出。
 
-```
+```py
 import math
 x = 0.5
 
@@ -88,7 +88,7 @@ print(f'math.sin({x}) = {math.sin(x)}')
 
 **输出:**
 
-```
+```py
 math.cos(0.5) = 0.8775825618903728
 math.sin(0.5) = 0.479425538604203
 
@@ -96,7 +96,7 @@ math.sin(0.5) = 0.479425538604203
 
 **4。f-string multiline:**f-string 被放在圆括号中，因此它对它们求值，每个字符串前面都有 f 字符，并以多行形式返回结果。
 
-```
+```py
 name = 'nightfury1'
 org = 'GeeksforGeeks'
 post = 'Technical Content Writer Intern'
@@ -110,7 +110,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 Name : nightfury1
 Organization : GeeksforGeeks
 Post : Technical Content Writer Intern.
@@ -123,14 +123,14 @@ Post : Technical Content Writer Intern.
 
 **1。0-填充:**这里，我们通过在 f-string {}语法中添加`{variable : 0N}`来应用 0-填充，其中 N 是指数字的总数。
 
-```
+```py
 for i in range(1, 5):
     print(f'The number is {i:02}')
 ```
 
 **输出:**
 
-```
+```py
 The number is 01
 The number is 02
 The number is 03
@@ -140,7 +140,7 @@ The number is 04
 
 **2。日期填充:**在这里，我们还通过使用日期时间模块来设置日期的格式，并在{}中添加所需的格式，如`{date : directive}`。
 
-```
+```py
 import datetime
 now = datetime.datetime.now()
 print(f'Current Time : {now : %Y-%m-%d %H:%M}')
@@ -148,21 +148,21 @@ print(f'Current Time : {now : %Y-%m-%d %H:%M}')
 
 **输出:**
 
-```
+```py
 Current Time :  2020-08-02 19:34
 
 ```
 
 **3。空格填充:**这里，我们将空格应用于像`{variable : N}`这样的字符串，其中 N 是总长度。因此，如果给定的变量是“a”，N 是 4，那么它将在给定的变量之前添加额外的空格。
 
-```
+```py
 for i in range(1, 5):
     print(f'The number is {i : 4}')
 ```
 
 **输出:**
 
-```
+```py
 The number is    1
 The number is    2
 The number is    3
@@ -172,7 +172,7 @@ The number is    4
 
 **4。**正如我们所知，默认情况下，字符串向左对齐。但是在 f-strings 的帮助下，我们可以通过使用`{variable : >N}`来证明它们是正确的，其中 N 是总长度。
 
-```
+```py
 s1 = 'Geeksforgeeks'
 s2 = 'ksforgeeks'
 s3 = 'forgeeks'
@@ -186,7 +186,7 @@ print(f'{s4 : >13}')
 
 **输出:**
 
-```
+```py
 Geeksforgeeks
    ksforgeeks
      forgeeks
@@ -198,7 +198,7 @@ Geeksforgeeks
 
 **1。硬编码–填充:**这里我们在 f-string 语法中添加符号或填充符作为硬编码。
 
-```
+```py
 # left filling
 print(f'{"geeks" :*>15}')
 
@@ -208,7 +208,7 @@ print(f'{"geeks" :*<15}')
 
 **输出:**
 
-```
+```py
 **********geeks
 geeks**********
 
@@ -216,7 +216,7 @@ geeks**********
 
 **2。变量–填充:**这里我们在 print()函数中使用了 f-string 填充花括号表达式。
 
-```
+```py
 width = 15
 filler = '*'
 for i in range(6, width):
@@ -225,7 +225,7 @@ for i in range(6, width):
 
 **输出:**
 
-```
+```py
 geeks*
 geeks**
 geeks***

@@ -10,7 +10,7 @@
 
 **示例:**让我们将这个简单的 **showMeByte()** 函数作为实验室示例，并理解 Python 的字节码:
 
-```
+```py
 def showMeByte(name):
     return "hello "+name+" !!!"
 
@@ -19,7 +19,7 @@ print(showMeByte("amit kumra"))
 
 **输出:**
 
-```
+```py
 hello amit kumra !!!
 ```
 
@@ -27,7 +27,7 @@ CPython 首先将我们的源代码翻译成中间语言，然后再运行它。
 
 **示例:**
 
-```
+```py
 def showMeByte(name):
     return "hello "+name+" !!!"
 
@@ -48,7 +48,7 @@ print(showMeByte.__code__.co_names)
 
 **输出:**
 
-```
+```py
 b'd\x01|\x00\x17\x00d\x02\x17\x00S\x00'
 (None, 'hello ', ' !!!')
 2
@@ -62,7 +62,7 @@ showMeByte
 
 **示例:**
 
-```
+```py
 import dis
 
 def showMeByte(name):
@@ -87,27 +87,27 @@ for i in bytecode:
 
 它首先检索索引 1 处的常量(“Hello”)，并将其放入堆栈中。然后，它加载名称变量的内容，并将它们放入堆栈。堆栈是用作虚拟机内部工作存储的数据结构。虚拟机有不同的类别，其中一种称为堆叠机。CPython 的虚拟机就是这样一个栈机的实现。CPython 的虚拟机就是这样一个栈机的实现。让我们假设堆栈开始是空的。执行前两个操作码后，虚拟机的内容是这样的(0 是最上面的元素):
 
-```
+```py
 0: ’amit kumra’(contents of “name”)
 1: ‘hello ‘
 ```
 
 **BINARY_ADD** 指令将两个字符串值从堆栈中弹出，串联起来，然后将结果再次推送到堆栈上:
 
-```
+```py
 0: ‘hello amit kumra’
 ```
 
 然后还有另一个 LOAD_CONST 来获取堆栈上的感叹号字符串:
 
-```
+```py
 0 : ‘ !!!’
 1:’Hello amit kumra’
 ```
 
 下一个 BINARY_ADD 操作码再次将两者结合起来生成最终的问候字符串:
 
-```
+```py
 0: ‘hello amit kumra !!!’
 ```
 

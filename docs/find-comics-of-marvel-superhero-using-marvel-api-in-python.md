@@ -21,7 +21,7 @@
 
 **漫威套装安装**
 
-```
+```py
 pip install marvel
 ```
 
@@ -49,13 +49,13 @@ pip install marvel
 
 *   第一个从漫威进口漫威包装
 
-```
+```py
 from marvel import Marvel
 ```
 
 *   然后像这样输入你的公钥和私钥
 
-```
+```py
 m = Marvel(PUBLIC_KEY, PRIVATE_KEY)
 ```
 
@@ -67,7 +67,7 @@ m = Marvel(PUBLIC_KEY, PRIVATE_KEY)
 *   现在每个超级英雄都有一个相关的序列号，了解一个名为“3d 人”的罕见超级英雄，并发现他的漫画。
 *   为了得到漫画，我们有这样的语法
 
-```
+```py
 # where x is the serial code of your 
 # superhero
 comics = characters.comics(1011334)
@@ -79,7 +79,7 @@ comics = characters.comics(1011334)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the marvel module
 from marvel import Marvel 
 

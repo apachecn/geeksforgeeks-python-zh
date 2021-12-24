@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element-wise Matrix Difference
 # Using loop + zip()
@@ -50,7 +50,7 @@ print("The Matrix Difference : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [[2, 4, 5], [5, 4, 2], [1, 2, 3]]
 The original list 2 is : [[6, 4, 6], [9, 6, 3], [7, 5, 4]]
 The Matrix Difference : [[4, 0, 1], [4, 2, 1], [6, 3, 1]]
@@ -62,7 +62,7 @@ The Matrix Difference : [[4, 0, 1], [4, 2, 1], [6, 3, 1]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element-wise Matrix Difference
 # Using loop + zip()
@@ -85,7 +85,7 @@ print("The Matrix Difference : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [[2, 4, 5], [5, 4, 2], [1, 2, 3]]
 The original list 2 is : [[6, 4, 6], [9, 6, 3], [7, 5, 4]]
 The Matrix Difference : [[4, 0, 1], [4, 2, 1], [6, 3, 1]]

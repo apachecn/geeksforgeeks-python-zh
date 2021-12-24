@@ -6,7 +6,7 @@
 
 Word 文档包含包装在三个对象级别中的格式化文本。最低级别的运行对象、中等级别的段落对象和最高级别的文档对象。因此，我们不能使用普通的文本编辑器来处理这些文档。但是，我们可以使用 python-docx 模块在 python 中操作这些 word 文档。安装该模块的 Pip 命令是:
 
-```
+```py
 pip install python-docx
 ```
 
@@ -24,7 +24,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches
@@ -57,7 +57,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -116,7 +116,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches
@@ -150,7 +150,7 @@ doc.save('gfg.docx')
 
 要设置文本中的水平对齐，我们将使用**。段落 _format.alignment** 方法。它与**WD _ PARAGE _ ALLIANCE**一起使用来设置段落的对齐方式。在使用之前，您必须从 **docx.enum.text** 导入 **WD_PARAGRAPH_ALIGNMENT** :
 
-```
+```py
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 ```
 
@@ -190,7 +190,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -274,7 +274,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches
@@ -311,7 +311,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches
@@ -356,7 +356,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches
@@ -388,7 +388,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime
@@ -57,7 +57,7 @@ print(time) 
 
 **输出:**
 
-```
+```py
 2001-08-24 10:10:10
 10:10:10
 ```
@@ -76,7 +76,7 @@ print(time) 
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime
@@ -105,7 +105,7 @@ print("Hour : {}".format(hour))
 
 **输出:**
 
-```
+```py
 date time : 2020-10-31 23:10:32
 Time : 23:10:32
 Hour : 23
@@ -117,7 +117,7 @@ Hour : 23
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime
@@ -151,7 +151,7 @@ print("Second : {}".format(second))
 
 **输出**:
 
-```
+```py
 date time : 3001-01-10 23:00:00
 Time : 23:00:00
 Minute : 0
@@ -164,7 +164,7 @@ Second : 0
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime

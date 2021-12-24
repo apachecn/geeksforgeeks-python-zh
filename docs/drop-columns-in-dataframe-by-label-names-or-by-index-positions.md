@@ -6,7 +6,7 @@
 
 让我们用一个列表字典创建一个简单的数据框，比如列名是:“姓名”、“年龄”、“地点”、“学院”。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ details
 **方法 1:使用`dataframe.drop()` 方法从数据框中删除列。**
 **例 1:** 去掉具体的单提列。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ rslt_df
 
 **示例 2 :** 删除特定的多个提及栏。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -118,7 +118,7 @@ rslt_df
 
 **示例 3:** 根据列索引删除列。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -160,7 +160,7 @@ rslt_df
 
 **示例:**删除特定列与另一列之间的所有列(排除)
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -201,7 +201,7 @@ rslt_df
 **方法 3:使用`loc[]`和`drop()`方法从数据框中删除列。**
 **示例:**删除一个特定列名到另一个列名之间的所有列。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -245,7 +245,7 @@ rslt_df
 **方法 4:通过迭代方式从数据帧中删除列。**
 **例:**去掉特定的列。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 

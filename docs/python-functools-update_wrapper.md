@@ -19,7 +19,7 @@ Python 中的**functiontools**模块处理**高阶函数**，也就是对函数�
 
 **例 1:**
 
-```
+```py
 # Defining the decorator
 def hi(func):
 
@@ -44,7 +44,7 @@ help(hello)
 
 **输出:**
 
-```
+```py
 wrapper
 Hi has taken over Hello Documentation
 Help on function wrapper in module __main__:
@@ -59,7 +59,7 @@ wrapper()
 
 **例 2:**
 
-```
+```py
 import functools
 
 def divide(a, b):
@@ -89,7 +89,7 @@ print(half.__doc__)
 让我们考虑第一个例子。我们可以通过以下方式使用 update _ wrapper():
 **示例 1:**
 
-```
+```py
 # Python program to demonstrate
 # ipdate)wrapper() method
 
@@ -137,7 +137,7 @@ help(hello)
 
 通过使用 update_wrapper()，我们看到函数 hello 保留了其原始元数据。同样，让我们检查第二个示例，但是这次我们将使用 update_wrapper()
 
-```
+```py
 # Python program to demonstrate
 # ipdate)wrapper() method
 

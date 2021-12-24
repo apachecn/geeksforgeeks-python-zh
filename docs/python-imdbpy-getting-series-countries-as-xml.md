@@ -12,7 +12,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,7 +39,7 @@ print(xml[:100])
 
 **输出:**
 
-```
+```py
 Money Heist
 --------------------------------
 <countries infoset="main"<item Spain</item</countries
@@ -47,7 +47,7 @@ Money Heist
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -74,7 +74,7 @@ print(xml[:100])
 
 **输出:**
 
-```
+```py
 Sacred Games
 --------------------------------
 <countries infoset="main"<item India</item<item United States</item</countries

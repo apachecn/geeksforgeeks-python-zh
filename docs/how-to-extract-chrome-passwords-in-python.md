@@ -10,7 +10,7 @@
 
 现在，让我们安装一些重要的库，我们需要编写一个 python 程序，通过它我们可以提取 Chrome Passwords。
 
-```
+```py
 pip install pycryptodome
 pip install pypiwin32
 ```
@@ -19,7 +19,7 @@ pip install pypiwin32
 
 *   **第一功能**
 
-```
+```py
 def chrome_date_and_time(chrome_data):
 
     # Chrome_data format is 
@@ -32,19 +32,19 @@ def chrome_date_and_time(chrome_data):
 
 Chrome 日期和时间格式如下所示:
 
-```
+```py
 'year-month-date hr:mins:seconds.milliseconds'
 ```
 
 **例**:
 
-```
+```py
 2020-06-01 10:49:01.824691
 ```
 
 *   **第二功能**
 
-```
+```py
 def fetching_encryption_key():
 
     # Local_computer_directory_path will
@@ -77,7 +77,7 @@ def fetching_encryption_key():
 
 *   **第三功能**
 
-```
+```py
 def password_decryption(password, encryption_key):
 
     try:
@@ -102,7 +102,7 @@ def password_decryption(password, encryption_key):
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import json
 import base64

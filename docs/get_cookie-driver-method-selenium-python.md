@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.get_cookie(name)
 ```
 
 **示例–**
 现在可以使用 get_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.get_cookie("foo")
 ```
@@ -28,7 +28,7 @@ driver.get_cookie("foo")
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

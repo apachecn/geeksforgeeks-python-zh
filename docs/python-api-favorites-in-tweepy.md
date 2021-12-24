@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`favorites()`** 方法用于获取用户的喜欢�
 
 **示例 1 :** 使用不带任何参数的`favorites()`方法返回认证用户的喜欢状态。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -49,7 +49,7 @@ for status in favorites:
 
 **输出:**
 
-```
+```py
 oldschoolmonk
 notcapnamerica
 sardesairajdeep
@@ -75,7 +75,7 @@ matthewferner
 
 **例 2 :** 使用参数屏幕名称为`favorites()`的方法。
 
-```
+```py
 # screen name of the user
 screen_name = "geeksforgeeks"
 
@@ -89,7 +89,7 @@ for status in favorites:
 
 **输出:**
 
-```
+```py
 abhinav26925233
 adieti_sharma
 vc90

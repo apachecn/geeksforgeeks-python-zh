@@ -6,7 +6,7 @@
 
 要安装 Geopy 模块，请在您的终端中运行以下命令。
 
-```
+```py
 pip install geopy
 
 ```
@@ -24,7 +24,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from geopy.geocoders import Nominatim
 ```
@@ -33,7 +33,7 @@ from geopy.geocoders import Nominatim
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize Nominatim API 
 geolocator = Nominatim(user_agent="geoapiExercises")
 ```
@@ -42,7 +42,7 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 ## 蟒蛇 3
 
-```
+```py
 place = "Boring road patna"
 location = geolocator.geocode(place)
 print(location)
@@ -56,7 +56,7 @@ print(location)
 
 ## 蟒蛇 3
 
-```
+```py
 data = location.raw
 print(data)
 ```
@@ -69,7 +69,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 loc_data = data['display_name'].split()
 print("Full Location")
 print(loc_data)
@@ -84,7 +84,7 @@ print("Zip code : ",loc_data[-2])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from geopy.geocoders import Nominatim
 

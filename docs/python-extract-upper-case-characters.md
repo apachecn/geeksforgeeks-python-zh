@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `isupper()`**
 列表理解和 isupper 功能可用于执行此特定任务。列表理解主要用于遍历列表，isupper 函数检查大写字符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Upper Case Characters 
 # Using list comprehension + isupper()
@@ -28,7 +28,7 @@ print("The uppercase characters in string are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksForGeeKs
 The uppercase characters in string are : ['G', 'F', 'G', 'K']
 

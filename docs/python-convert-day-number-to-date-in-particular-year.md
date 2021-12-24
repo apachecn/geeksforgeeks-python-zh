@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert day number to date in particular year
 # Using datetime.strptime()
@@ -45,7 +45,7 @@ print("Resolved date : " + str(res))
 
 **Output**
 
-```
+```py
 The day number : 339
 Resolved date : 12-04-2020
 
@@ -57,7 +57,7 @@ Resolved date : 12-04-2020
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert day number to date in particular year
 # Using datetime.strptime()
@@ -88,7 +88,7 @@ print("Resolved date : " + str(res))
 
 **Output**
 
-```
+```py
 The day number : 339
 Resolved date : 12-04-2020
 

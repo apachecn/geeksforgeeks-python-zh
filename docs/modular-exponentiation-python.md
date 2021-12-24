@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input:  x = 2, y = 3, p = 5
 Output: 3
 Explanation: 2^3 % 5 = 8 % 5 = 3.
@@ -22,7 +22,7 @@ Explanation: 2^5 % 13 = 32 % 13 = 6.
 天真乘法是 O(n)，常数因子很低，有%m.
 [Pow](https://www.geeksforgeeks.org/pow-in-python/) 函数在 python 中用 O(log n)时间计算，但是当数字足够大时，如果首先计算 x <sup>y</sup> 的值，然后用 p 对其进行 mod，得到(x <sup>y</sup> ) % p 的求值结果，会花费很多时间。
 
-```
+```py
 # Simple python code that first calls pow() 
 # then applies % operator.
 a = 2
@@ -36,14 +36,14 @@ print (d)
 
 **输出:**
 
-```
+```py
 976371285
 
 ```
 
 在以大数为模进行计算时，运算符(%)花费大量时间，因此使用快速模幂运算。Python 有**次幂(x，e，m)** 来得到模的计算结果，这要少花很多时间。【详见 [Python 文档](https://docs.python.org/2/library/functions.html)
 
-```
+```py
 # Fast python code that first calls pow() 
 # then applies % operator
 a = 2
@@ -58,7 +58,7 @@ print (d)
 
 **输出:**
 
-```
+```py
 976371285
 
 ```

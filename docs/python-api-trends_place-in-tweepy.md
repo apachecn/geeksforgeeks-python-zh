@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`trends_place()`** 方法用于获取特定位置�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,7 +54,7 @@ for value in trends:
 
 **输出:**
 
-```
+```py
 The top trends for the location are :
 Little Britain
 #theAword
@@ -111,7 +111,7 @@ hand of god
 
 **示例 2 :** 使用参数 exclude。
 
-```
+```py
 # WOEID of New York
 woeid = 2459115
 
@@ -128,7 +128,7 @@ for value in trends:
 
 **输出:**
 
-```
+```py
 The top trends for the location are :
 Molly
 Lakers

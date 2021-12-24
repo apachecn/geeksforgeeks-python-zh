@@ -8,7 +8,7 @@ Pygame 窗口是一个简单的窗口，就像任何其他窗口一样，我们�
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pygame 
 ```
 
@@ -16,20 +16,20 @@ pip install pygame
 
 **第一步:**首先我们导入并初始化所有导入的模块。我们使用 import pygame 来导入所有模块和。init()函数来初始化这些模块。
 
-```
+```py
 import pygame
 pygame.init() 
 ```
 
 **第二步:**初始化一个窗口显示。我们用。函数创建一个窗口。我们将窗口的宽度和高度作为参数传递给 set_mode()函数。
 
-```
+```py
 pygame.display.set_mode((width_of_window,height_of_window))
 ```
 
 **步骤 3:** 保持该窗口运行，直到用户按下退出按钮。我们使用的变量是真的，除非用户按下退出按钮。为了保持游戏运行，我们使用 while 循环来检查变量是否为真。
 
-```
+```py
 running  = True
 
 while running:  
@@ -43,7 +43,7 @@ while running:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame package
 import pygame
 

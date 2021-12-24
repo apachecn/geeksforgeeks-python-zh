@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionary with student
 # id as key and name as value
 data = [{7058: 'sravan', 7059: 'jyothika',
@@ -40,7 +40,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionary with student 
 # id as key and name as value
 data = [{7058: 'sravan', 7059: 'jyothika', 
@@ -61,7 +61,7 @@ print(data[0][7075])
 
 **输出:**
 
-```
+```py
 sravan
 jyothika
 harsha
@@ -76,7 +76,7 @@ deepika
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionaries with 
 # student id as key and name as value
 data = [{7058: 'sravan', 7059: 'jyothika', 
@@ -101,7 +101,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionaries with 
 # student id as key and name as value
 data = [{7058: 'sravan', 7059: 'jyothika',
@@ -125,7 +125,7 @@ print(data[1][7115])
 
 **输出:**
 
-```
+```py
 ojaswi
 thanmai
 vasavi

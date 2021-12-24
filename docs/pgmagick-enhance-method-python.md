@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > enhance()
 > ```
 > 
@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -36,7 +36,7 @@ img.write('2_a.png')
 ![](img/5580935d32f03afc40ce7efc6ddec367.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

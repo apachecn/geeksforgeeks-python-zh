@@ -44,7 +44,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing the library
 import numpy as np
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing the library
 import numpy as np
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing the library
 import numpy as np
 
@@ -181,7 +181,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing the library
 import numpy as np
 

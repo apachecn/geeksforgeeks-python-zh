@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -24,7 +24,7 @@ print (cmath.tan(5 + 3j))
 
 ****输出:****
 
-```
+```py
 (-0.002708235836224072+1.0041647106948153j) 
 ```
 
@@ -32,7 +32,7 @@ print (cmath.tan(5 + 3j))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -42,7 +42,7 @@ print (cmath.tan(1))
 
 ****输出:****
 
-```
+```py
 (1.5574077246549023+0j) 
 ```
 
@@ -50,7 +50,7 @@ print (cmath.tan(1))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -60,6 +60,6 @@ print (cmath.tan())
 
 ****输出:****
 
-```
+```py
 TypeError: tan() takes exactly one argument (0 given) 
 ```

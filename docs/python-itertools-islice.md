@@ -12,14 +12,14 @@
 
 **语法:**
 
-```
+```py
 islice(iterable, start, stop, step)
 
 ```
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # the working of islice
 
@@ -37,7 +37,7 @@ print(list(itertools.islice(li, 1, 6, 2)))  
 
 **输出:**
 
-```
+```py
 0
 1
 2
@@ -49,7 +49,7 @@ print(list(itertools.islice(li, 1, 6, 2)))  
 
 **例 2:**
 
-```
+```py
 from itertools import islice
 
 for i in islice(range(20), 1, 5): 
@@ -58,7 +58,7 @@ for i in islice(range(20), 1, 5): 
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -70,7 +70,7 @@ for i in islice(range(20), 1, 5): 
 
 **例 3:**
 
-```
+```py
 from itertools import islice
 
 for i in islice(range(20), 1, 5, 2):
@@ -79,7 +79,7 @@ for i in islice(range(20), 1, 5, 2):
 
 **输出:**
 
-```
+```py
 1
 3
 

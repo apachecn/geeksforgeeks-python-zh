@@ -82,7 +82,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import required libraries
 from scipy.stats import kendalltau
 
@@ -99,6 +99,6 @@ print('Kendall Rank correlation: %.5f' % corr)
 
 **输出:**
 
-```
+```py
 Kendall Rank correlation: 0.42857
 ```

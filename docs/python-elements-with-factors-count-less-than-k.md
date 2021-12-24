@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements with factors less than K
 # Using list comprehension
@@ -48,7 +48,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [60, 12, 100, 17, 18]
 Filtered elements : [17]
 
@@ -60,7 +60,7 @@ Filtered elements : [17]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements with factors less than K
 # Using filter() + lambda + len() + list comprehension
@@ -88,7 +88,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [60, 12, 100, 17, 18]
 Filtered elements : [17]
 

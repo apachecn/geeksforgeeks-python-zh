@@ -22,7 +22,7 @@
 
 下面是实现。
 
-```
+```py
 import pyperclip
 
 # saves text copied to clipboard
@@ -53,7 +53,7 @@ print(pyperclip.paste())
 
 **Output:**
 
-```
+```py
 Before Modification:
 United we stand, divided we fall.
 Where there is a will, there is a way.

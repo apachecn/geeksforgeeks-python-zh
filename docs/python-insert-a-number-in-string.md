@@ -7,7 +7,7 @@
 **方法#1:使用类型转换**
 执行此任务的最简单方法是使用基本类型转换将整数显式转换为字符串数据类型，并将其添加到适当的位置。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Inserting a number in string 
 # Using type conversion
@@ -34,7 +34,7 @@ print("The string after adding number is  : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeks
 The original number : 4
 The string after adding number is  : Geeks4Geeks

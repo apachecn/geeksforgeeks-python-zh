@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the tkinter module
 import tkinter
 

@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -137,7 +137,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the approach
 import java.util.*;
 
@@ -257,7 +257,7 @@ class Main
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the approach
 
 # Function to check The validity of distribution
@@ -328,7 +328,7 @@ check_distribution(n, k, age, candy)
 
 ## C#
 
-```
+```py
 // C# implementation of the approach
 using System.IO;
 using System;
@@ -457,7 +457,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Javascript implementation of the approach
 
@@ -579,6 +579,6 @@ class GFG
 
 **Output:** 
 
-```
+```py
 YES
 ```

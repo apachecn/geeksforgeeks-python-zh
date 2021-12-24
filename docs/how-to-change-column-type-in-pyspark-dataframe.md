@@ -8,7 +8,7 @@
 
 ## Python
 
-```
+```py
 # Create a spark session
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName('SparkExamples').getOrCreate()

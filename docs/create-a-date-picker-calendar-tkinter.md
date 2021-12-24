@@ -12,7 +12,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 
 要进行安装，请在您的终端上运行以下命令:
 
-```
+```py
 pip install tkcalendar
 ```
 
@@ -41,7 +41,7 @@ pip install tkcalendar
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 from tkcalendar import Calendar

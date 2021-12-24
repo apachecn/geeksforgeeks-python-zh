@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`enum.auto()`方法，我们能够使用该方法将数值自动分配给类属性。
 
-```
+```py
 # import enum and auto
 from enum import Enum, auto
 
@@ -30,7 +30,7 @@ print(list(language))
 
 **例 2 :**
 
-```
+```py
 # import enum and auto
 from enum import Enum, auto
 

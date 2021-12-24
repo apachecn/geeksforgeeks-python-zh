@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Tuple: (10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2)
 
 Input : 4
@@ -23,7 +23,7 @@ Output : 4 times
 <font size="+0.5">**方法 1(简单方法):**</font>
 我们保留一个计数器，如果在元组中找到所需的元素，该计数器就会不断增加。
 
-```
+```py
 # Program to count the number of times an element
 # Present in the list
 def countX(tup, x):
@@ -45,7 +45,7 @@ print(countX(tup, enq2))
 
 输出:
 
-```
+```py
 0 times
 3 times
 4 times
@@ -55,7 +55,7 @@ print(countX(tup, enq2))
 <font size="+0.5">**方法二(使用 count()):**</font>
 思路是用方法 count()来统计出现次数。
 
-```
+```py
 # Program to count the number of times an element
 # Present in the list
 # Count function is used
@@ -74,7 +74,7 @@ print(Count(tup, enq2), "times")
 
 输出:
 
-```
+```py
 0 times
 3 times
 4 times

@@ -18,7 +18,7 @@ Keras 中的典型模型是多个训练和推理层的集合。使用 Keras 创�
 
 ## 蟒 3
 
-```
+```py
 # defining Input
 from keras.layers import Input
 visible = Input(shape=(10,))
@@ -32,7 +32,7 @@ visible = Input(shape=(10,))
 
 T2T4
 
-```
+```py
 # connecting layers
 from keras.layers import Input
 from keras.layers import Dense
@@ -53,7 +53,7 @@ T5
 
 T2T4
 
-```
+```py
 #import all required modules
 from keras.models import Model
 from keras.layers import Input
@@ -77,7 +77,7 @@ T5
 
 T2T4
 
-```
+```py
 model = keras.Sequential(
     [
         layers.Dense(2, activation="relu"),
@@ -95,7 +95,7 @@ T5
 
 ## 蟒 3
 
-```
+```py
 model = keras.Sequential()
 model.add(layers.Dense(2, activation="relu"))
 model.add(layers.Dense(3, activation="relu"))

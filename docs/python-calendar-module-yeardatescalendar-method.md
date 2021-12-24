@@ -5,7 +5,7 @@
 日历模块允许像程序一样输出日历，并提供与日历相关的附加有用功能。日历模块中定义的函数和类使用理想化的日历，当前的公历在两个方向上无限延长。
 **Python 中的 yeardatescalendar()** 方法用于获取一年中某个月的周列表作为完整的周。周列表中的条目是日数。本月以外的天数为零。
 
-```
+```py
 Syntax: yeardatescalendar(year, width)
 
 Parameter: 
@@ -19,7 +19,7 @@ Returns: a list of month rows.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of yeardatescalendar() method
 

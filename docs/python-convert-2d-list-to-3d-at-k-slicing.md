@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们遍历每个元素，并在每个 Kth 子列表中维护一个计数器，创建一个新列表并相应地追加。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert 2D list to 3D at K slicing
 # Using loop
@@ -46,7 +46,7 @@ print("Records after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[6, 5], [2, 3], [3, 1], [4, 6], [3, 2], [1, 6]]
 Records after conversion : [[[6, 5], [2, 3]], [[3, 1], [4, 6]], [[3, 2], [1, 6]]]
 
@@ -55,7 +55,7 @@ Records after conversion : [[[6, 5], [2, 3]], [[3, 1], [4, 6]], [[3, 2], [1, 6]]
 **方法二:使用`zip()` +列表理解**
 以上功能的组合也可以用来解决这个问题。在这种情况下，我们通过首先根据大小对值进行分块来执行任务，然后使用列表理解和 zip()进行维度转换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert 2D list to 3D at K slicing
 # Using zip() + list comprehension
@@ -81,7 +81,7 @@ print("Records after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[6, 5], [2, 3], [3, 1], [4, 6], [3, 2], [1, 6]]
 Records after conversion : [[[6, 5], [2, 3]], [[3, 1], [4, 6]], [[3, 2], [1, 6]]]
 

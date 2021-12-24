@@ -8,7 +8,7 @@ Openpyxl 为 python 提供了数据集处理能力，并允许创建不同类型
 
 要安装 openpyxl 库，请在命令行中执行以下命令:
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -21,7 +21,7 @@ pip install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 # It is not required for one to create a workbook on

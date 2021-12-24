@@ -28,7 +28,7 @@ Python 的 Plotly 库对于数据可视化和简单容易地理解数据非常�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 data = [
@@ -84,7 +84,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 import pandas as pd
 

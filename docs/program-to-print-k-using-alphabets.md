@@ -5,7 +5,7 @@
 给定一个数字 n，任务是用字母打印“K”。
 **例:**
 
-```
+```py
 Input: n = 5
 Output: 
 A B C D E F 
@@ -37,7 +37,7 @@ A B C D
 
 ## C++
 
-```
+```py
 // C++ Program to design the
 // above pattern of K using alphabets
 #include<bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java Program to design the
 // above pattern of K using alphabets
 public class Main
@@ -161,7 +161,7 @@ public class Main
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to design the
 # above pattern of K using alphabets
 
@@ -201,7 +201,7 @@ display(n)
 
 ## C#
 
-```
+```py
 // C# Program to design the
 // above pattern of K using alphabets
 using System.IO;
@@ -265,7 +265,7 @@ class Gfg
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Javascript Program to design the
     // above pattern of K using alphabets
@@ -322,7 +322,7 @@ class Gfg
 
 **输出:**
 
-```
+```py
 A B C D E F 
 A B C D E 
 A B C D 

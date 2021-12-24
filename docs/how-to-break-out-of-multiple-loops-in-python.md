@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何在 Python 中打破多个循环。例如，给我们一个列表 arr 和一个整数 x 的列表。任务是按顺序遍历每个嵌套列表，并一直显示元素，直到找到一个等于 x 的元素。如果找到这样的元素，将显示一条适当的消息，代码必须停止显示任何更多的元素。
 
-```
+```py
 Input: arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], x = 6
 Output:
 1
@@ -26,7 +26,7 @@ Element found
 
 ## 蟒蛇 3
 
-```
+```py
 def elementInArray(arr, x):
 
     # Iterating through all
@@ -53,7 +53,7 @@ elementInArray(arr, x)
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -71,7 +71,7 @@ Element found
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to break out of
 # multiple loops by defining a
 # function and using return statement
@@ -104,7 +104,7 @@ elementInArray(arr, x)
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -117,7 +117,7 @@ Element found
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to break out of multiple
 # loops by using an else block
 
@@ -160,7 +160,7 @@ elementInArray(arr, x)
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -173,7 +173,7 @@ Element found
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to break out of multiple
 # loops by using a flag variable
 
@@ -217,7 +217,7 @@ elementInArray(arr, x)
 
 **输出:**
 
-```
+```py
 1
 2
 3

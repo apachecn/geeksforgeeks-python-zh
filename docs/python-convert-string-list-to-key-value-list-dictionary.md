@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String List to Key-Value List dictionary
 # Using split() + loop
@@ -43,7 +43,7 @@ print("The key values List dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfg is best for geeks', 'I love gfg', 'CS is best subject']
 The key values List dictionary : {'gfg': ['is', 'best', 'for', 'geeks'], 'I': ['love', 'gfg'], 'CS': ['is', 'best', 'subject']}
 
@@ -55,7 +55,7 @@ The key values List dictionary : {'gfg': ['is', 'best', 'for', 'geeks'], 'I': ['
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String List to Key-Value List dictionary
 # Using split() + dictionary comprehension
@@ -75,7 +75,7 @@ print("The key values List dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfg is best for geeks', 'I love gfg', 'CS is best subject']
 The key values List dictionary : {'gfg': ['is', 'best', 'for', 'geeks'], 'I': ['love', 'gfg'], 'CS': ['is', 'best', 'subject']}
 

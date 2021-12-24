@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行任务。在本文中，我们使用`zip()`来组合元组中的元素。迭代和求和逻辑由生成器表达式提供。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Addition in nested tuples
 # using zip() + nested generator expression
@@ -32,7 +32,7 @@ print("The resultant tuple after summation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : ((1, 3), (4, 5), (2, 9), (1, 10))
 The original tuple 2 : ((6, 7), (3, 9), (1, 1), (7, 3))
 The resultant tuple after summation : ((7, 10), (7, 14), (3, 10), (8, 13))
@@ -42,7 +42,7 @@ The resultant tuple after summation : ((7, 10), (7, 14), (3, 10), (8, 13))
 **方法 2:使用`isinstance() + zip()` +循环+列表理解**
 以上功能的组合可以用来执行这个特定的任务。在这种情况下，我们检查嵌套类型并执行递归。这种方法可以提供 1 级以上嵌套的灵活性。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Addition in nested tuples
 # using isinstance() + zip() + loop + list comprehension
@@ -71,7 +71,7 @@ print("The resultant tuple after summation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : ((1, 3), (4, 5), (2, 9), (1, 10))
 The original tuple 2 : ((6, 7), (3, 9), (1, 1), (7, 3))
 The resultant tuple after summation : ((7, 10), (7, 14), (3, 10), (8, 13))

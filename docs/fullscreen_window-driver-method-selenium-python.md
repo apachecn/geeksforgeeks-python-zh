@@ -7,14 +7,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Selenium 中的全屏 _ 窗口驱动方法展开。fullscreen_window 方法调用特定于窗口管理器的“全屏”操作。
 **语法–**
 
-```
+```py
 driver.fullscreen_window()
 ```
 
 **示例–**
 现在可以使用全屏 _window 方法作为驱动方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.fullscreen_window()
 ```
@@ -26,7 +26,7 @@ driver.fullscreen_window()
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

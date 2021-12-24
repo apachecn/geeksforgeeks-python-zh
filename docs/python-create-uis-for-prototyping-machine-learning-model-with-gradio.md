@@ -27,7 +27,7 @@ capture _ session =假，title =无，description =无)
 gradio。
 **参数:**
 
-```
+```py
 share: (bool) - whether to create a publicly shareable link from your computer for the interface.
 ```
 
@@ -44,7 +44,7 @@ share: (bool) - whether to create a publicly shareable link from your computer f
 
 ## 蟒蛇 3
 
-```
+```py
 def factorial(integer):
     """ Returns factorial of the given integer"""
     n = int(integer)
@@ -60,7 +60,7 @@ def factorial(integer):
 
 ## 蟒蛇 3
 
-```
+```py
 import gradio
 gradio.Interface(factorial, inputs="text", outputs="text").launch(share=True)
 ```
@@ -75,7 +75,7 @@ gradio.Interface(factorial, inputs="text", outputs="text").launch(share=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # imported necessary libraries
 import gradio as gr
 import tensorflow as tf

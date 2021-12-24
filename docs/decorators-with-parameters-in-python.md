@@ -15,7 +15,7 @@ Python 函数是一级公民，这意味着函数可以像对象一样对待。*
 
 ## 带有参数的装饰器的语法:
 
-```
+```py
 @decorator(params)
 def func_name():
     ''' Function implementation'''
@@ -23,7 +23,7 @@ def func_name():
 
 **以上代码相当于**
 
-```
+```py
 def func_name():
     ''' Function implementation'''
 
@@ -37,7 +37,7 @@ func_name = (decorator(params))(func_name)
 
 ## 蟒蛇 3
 
-```
+```py
 def decorators(*args, **kwargs):
     def inner(func):
         '''
@@ -59,7 +59,7 @@ def func():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # Decorators basic in Python
 
@@ -86,7 +86,7 @@ func_to()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # Decorators with parameters in Python
 
@@ -110,7 +110,7 @@ decorator_fun(func_to)()
 
 **输出:**
 
-```
+```py
 Inside decorator
 Inside inner function
 Decorated the function
@@ -123,7 +123,7 @@ Inside actual function
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # Decorators with parameters in Python
 
@@ -148,7 +148,7 @@ def my_func():
 
 **输出:**
 
-```
+```py
 Inside decorator
 Inside inner function
 I like geeksforgeeks
@@ -159,7 +159,7 @@ Inside actual function
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # Decorators with parameters in Python
 
@@ -187,7 +187,7 @@ decorator_func(12, 15)(my_fun)('Geeks', 'for', 'Geeks')
 
 **输出:**
 
-```
+```py
 I like Geeksforgeeks
 Summation of values - 27
 Geeks
@@ -201,7 +201,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate
 # Decorators with parameters in Python  (Multi-level Decorators)
 
@@ -237,7 +237,7 @@ print(summation(19, 2, 8, 533, 67, 981, 119))
 
 **输出:**
 
-```
+```py
 Decorator for 'stringJoin'
 Decorator for 'summation'
 

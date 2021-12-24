@@ -7,7 +7,7 @@
 **方法:使用`split() + join()`**
 这是我们执行这个任务的方式。在这种情况下，我们将元素分成几部分，然后返回 Kth 值，并使用 join()执行新元素的添加。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Kth word replace in String
 # using split() + join()
@@ -35,7 +35,7 @@ print("The String after performing replace : " + res)
 
 **Output :**
 
-```
+```py
 The original string is : GFG is good
 The String after performing replace : GFG best good
 

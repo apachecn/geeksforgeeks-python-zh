@@ -7,7 +7,7 @@
 **方法#1:使用`enumerate()` +列表理解**
 列表理解可以与枚举功能一起用于执行该特定任务，枚举功能借助于列表中迭代中的集合和前一个帮助来选择唯一的数字。
 
-```
+```py
 # Python3 code to demonstrate
 # assign unique value to list elements
 # using list comprehension + enumerate
@@ -29,7 +29,7 @@ print ("The unique value list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 6, 1, 4, 5, 6]
 The unique value list is : [0, 1, 3, 0, 1, 2, 3]
 
@@ -38,7 +38,7 @@ The unique value list is : [0, 1, 3, 0, 1, 2, 3]
 **方法 2:使用`setdefault() + map() + count()`**
 这三个功能的组合也可以用来执行这个特定的任务。Map 绑定所有相似的元素，setdefault 为它们分配唯一的数字，count 函数帮助 map 查找总出现次数。
 
-```
+```py
 # Python3 code to demonstrate
 # assign unique value to list elements
 # using setdefault() + map() + count()
@@ -60,7 +60,7 @@ print ("The unique value list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 6, 1, 4, 5, 6]
 The unique value list is : [0, 1, 2, 0, 1, 5, 2]
 

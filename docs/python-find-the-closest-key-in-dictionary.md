@@ -7,7 +7,7 @@ python 中字典中关键字的搜索已经讨论过多次。但有时，我们�
 **方法#1:使用列表理解+ `keys()` + lambda**
 上述功能的组合可用于执行在字典中查找最近的键的特定任务。key 函数可以用来访问字典中的键，lambda 函数可以用来制定逻辑和列表理解，以便将所有这些应用到整个列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Closest key in dictionary
 # Using list comprehension + keys() + lambda
@@ -32,7 +32,7 @@ print("The value to the closest key : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {16: 'Gfg', 13: 'Hi', 15: 'Hello'}
 The value to the closest key : Gfg
 

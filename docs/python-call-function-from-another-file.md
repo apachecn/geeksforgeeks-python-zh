@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # test.py>
 
 # function
@@ -35,7 +35,7 @@ def displayText():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing  all the
 # functions defined in test.py
 from test import *
@@ -46,7 +46,7 @@ displayText()
 
 **输出:**
 
-```
+```py
 Geeks 4 Geeks!
 ```
 
@@ -55,7 +55,7 @@ Geeks 4 Geeks!
 
 ## 蟒蛇 3
 
-```
+```py
 # calc.py>
 
 # functions
@@ -79,7 +79,7 @@ calc.py 中定义的函数在另一个 Python 文件中调用。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing limited functions
 # defined in calc.py
 from calc import addNumbers, multiplyNumbers
@@ -91,7 +91,7 @@ multiplyNumbers(5, 4)
 
 **输出:**
 
-```
+```py
 7
 20
 ```
@@ -100,14 +100,14 @@ multiplyNumbers(5, 4)
 导入 Python 文件中定义的所有函数:
 **语法:**
 
-```
+```py
 from file import *
 ```
 
 仅导入 Python 文件中定义的必需函数:
 **语法:**
 
-```
+```py
 from file import func1, func2, func3
 ```
 
@@ -116,7 +116,7 @@ from file import func1, func2, func3
 
 ## 蟒蛇 3
 
-```
+```py
 # test.py>
 
 # function defined in test.py
@@ -126,7 +126,7 @@ def displayText():
 
 ## 蟒蛇 3
 
-```
+```py
 # calc.py>
 
 # functions defined in calc.py
@@ -151,7 +151,7 @@ def modulusNumbers(a, b):
 
 ## 蟒蛇 3
 
-```
+```py
 # file.py>
 
 # importing all the functions
@@ -177,7 +177,7 @@ displayText()
 
 **输出:**
 
-```
+```py
 Sum is  31
 Difference is  19
 Product is  150

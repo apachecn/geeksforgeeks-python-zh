@@ -7,7 +7,7 @@
 **方法#1:使用`reduce()` + lambda**
 以上功能的组合可以用来执行此任务。在这种情况下，我们使用 lambda 函数来执行转换逻辑，并减少执行迭代和组合结果的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Tuple to integer
 # Using reduce() + lambda
@@ -29,7 +29,7 @@ print("Tuple to integer conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 4, 5)
 Tuple to integer conversion : 145
 

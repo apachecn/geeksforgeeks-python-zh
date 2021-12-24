@@ -12,7 +12,7 @@ IMDbPY 是一个 Python 包，用于检索和管理 IMDb 的数据。在本文�
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -32,7 +32,7 @@ for i in search :
 
 **输出:**
 
-```
+```py
 Akshay Kumar
 Akshay Kumar
 Akshay Kumar
@@ -58,7 +58,7 @@ Akshay Kumar Sharma
 
 另一个例子是搜索一个人
 
-```
+```py
 # importing the module
 import imdb
 

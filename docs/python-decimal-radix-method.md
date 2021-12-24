@@ -12,7 +12,7 @@
 
 **代码#1:基数()方法示例**
 
-```
+```py
 # Python Program explaining 
 # radix() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with radix() method : ", b.radix())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with radix() method :  10
 
 **代码#2:基数()方法示例**
 
-```
+```py
 # Python Program explaining 
 # radix() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with radix() method : ", b.radix())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14545454
 Decimal value b :  3.21E+7
 

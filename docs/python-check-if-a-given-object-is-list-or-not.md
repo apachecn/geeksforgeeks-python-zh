@@ -6,7 +6,7 @@
 
 **方法 1:使用*是*还是**
 
-```
+```py
 # Python code to demonstrate
 # check whether the object 
 # is a list or not
@@ -30,7 +30,7 @@ else:
 
 **Output:**
 
-```
+```py
 your object is a list !
 your object is not a list
 
@@ -38,7 +38,7 @@ your object is not a list
 
 **方法 2:使用`type(x)`**
 
-```
+```py
 # Python code to demonstrate
 # check whether object 
 # is a list or not
@@ -62,7 +62,7 @@ else:
 
 **Output:**
 
-```
+```py
 your object is a list
 your object is not a list
 

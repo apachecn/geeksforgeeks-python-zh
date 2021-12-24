@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ print(index)
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 I
 ```
@@ -50,7 +50,7 @@ I
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -75,7 +75,7 @@ print(index)
 
 **输出:**
 
-```
+```py
 Chris Evans
 V
 ```

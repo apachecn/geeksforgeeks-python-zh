@@ -13,7 +13,7 @@ l 层神经网络
 [更多关于激活功能](https://www.geeksforgeeks.org/understanding-activation-functions-in-depth/)
 **逐步实现神经网络:**
 
-```
+```py
 Initialize the parameters for the L layers
 Implement the forward propagation module
 Compute the loss at the final layer
@@ -47,7 +47,7 @@ Use trained parameters to test model
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import numpy as np
 import h5py
@@ -67,7 +67,7 @@ from scipy import ndimage
 
 ## 蟒蛇 3
 
-```
+```py
 def initialize_parameters_deep(layer_dims):
     # 0th layer is the input layer with number
     # of columns stored in layer_dims.
@@ -97,7 +97,7 @@ Zi = Wi * A(I–1)+艾比= activation_func(Zi)
 
 ## 蟒蛇 3
 
-```
+```py
 def linear_forward(A_prev, W, b):
 
     # cache is stored to be used in backward propagation module
@@ -108,7 +108,7 @@ def linear_forward(A_prev, W, b):
 
 ## 蟒蛇 3
 
-```
+```py
 def sigmoid(Z):
 
     A = 1/(1 + np.exp(-Z))
@@ -135,7 +135,7 @@ def linear_activation_forward(A_prev, W, b, activation):
 
 ## 蟒蛇 3
 
-```
+```py
 def L_model_forward(X, parameters):
     """
     Arguments:
@@ -179,7 +179,7 @@ def L_model_forward(X, parameters):
 
 ## 蟒蛇 3
 
-```
+```py
 def compute_cost(AL, Y):
     """
     Implement the cost function defined by the equation.
@@ -210,7 +210,7 @@ def compute_cost(AL, Y):
 
 ## 蟒蛇 3
 
-```
+```py
 def linear_backward(dZ, cache):
 
     A_prev, W, b = cache
@@ -227,7 +227,7 @@ def linear_backward(dZ, cache):
 
 ## 蟒蛇 3
 
-```
+```py
 def sigmoid_backward(dA, activation_cache):
 
     Z = activation_cache['Z']
@@ -247,7 +247,7 @@ def tanh_backward(dA, activation_cache):
 
 ## 蟒蛇 3
 
-```
+```py
 def L_model_backward(AL, Y, caches):
     """
     AL -- probability vector, output of the forward propagation (L_model_forward())
@@ -299,7 +299,7 @@ bi = bi–a * DBI
 
 ## 蟒蛇 3
 
-```
+```py
 def update_parameters(parameters, grads, learning_rate):
     L = len(parameters) // 2 # number of layers in the neural network
 
@@ -316,7 +316,7 @@ def update_parameters(parameters, grads, learning_rate):
 
 ## 蟒蛇 3
 
-```
+```py
 def L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 3000, print_cost = False):
     """
     Arguments:
@@ -373,7 +373,7 @@ def L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 30
 
 ## 蟒蛇 3
 
-```
+```py
 def predict(parameters, path_image):
 
     my_image = path_image
@@ -398,7 +398,7 @@ def predict(parameters, path_image):
 
 ## 蟒蛇 3
 
-```
+```py
 {'W1': array([[ 0.01672799, -0.00641608, -0.00338875, ..., -0.00685887,
         -0.00593783,  0.01060475],
        [ 0.01395808,  0.00407498, -0.0049068, ...,  0.01317046,
@@ -506,13 +506,13 @@ def predict(parameters, path_image):
 
 ## 蟒蛇 3
 
-```
+```py
 my_image = "https://www.pexels.com / photo / adorable-animal-blur-cat-617278/"
 predict(parameters, my_image)
 ```
 
 **输出已学习的参数:**
 
-```
+```py
 y = 1, your L-layer model predicts a Cat picture.
 ```

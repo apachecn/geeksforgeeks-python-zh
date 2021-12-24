@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 @classmethod
    def fun(cls, arg1, arg2, ...):
 ```
@@ -43,7 +43,7 @@ classmethod()方法绑定到类，而不是对象。类和对象都可以调用�
 
 ## 蟒蛇 3
 
-```
+```py
 class geeks:
     course = 'DSA'
 
@@ -56,7 +56,7 @@ geeks.purchase()
 
 **输出:**
 
-```
+```py
 Puchase course :  DSA
 ```
 
@@ -64,7 +64,7 @@ Puchase course :  DSA
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand the classmethod
 
 class Student:
@@ -88,7 +88,7 @@ Student.print_name()
 
 **输出:**
 
-```
+```py
 The name is :  Geeksforgeeks
 ```
 
@@ -98,7 +98,7 @@ classmethod()函数的使用在工厂设计模式中使用，在工厂设计模�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # use of a class method and static method.
 from datetime import date
@@ -123,7 +123,7 @@ person.display()
 
 **输出:**
 
-```
+```py
 Name :  mayank Age :  21
 ```
 
@@ -135,7 +135,7 @@ Name :  mayank Age :  21
 
 **语法:**
 
-```
+```py
 class C(object):
     @classmethod
     def fun(cls, arg1, arg2, ...):
@@ -157,7 +157,7 @@ class C(object):
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate
 # use of a class method and static method.
 from datetime import date
@@ -191,7 +191,7 @@ print(Person.isAdult(22))
 
 **输出:**
 
-```
+```py
 21
 25
 True

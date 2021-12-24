@@ -8,7 +8,7 @@
 **_ _[del](https://www.geeksforgeeks.org/delattr-del-python/)_ _()**方法在 Python 中被称为析构函数方法。当对象的所有引用都被删除时，即当对象被垃圾收集时，调用该函数。
 **析构函数声明语法:**
 
-```
+```py
 def __del__(self):
   # body of destructor
 ```
@@ -17,7 +17,7 @@ def __del__(self):
 
 **例 1 :** 下面是析构函数的简单例子。通过使用 del 关键字，我们删除了对象“obj”的所有引用，因此析构函数被自动调用。
 
-```
+```py
 # Python program to illustrate destructor
 class Employee:
 
@@ -35,7 +35,7 @@ del obj
 
 **Output:**
 
-```
+```py
 Employee created.
 Destructor called, Employee deleted.
 
@@ -45,7 +45,7 @@ Destructor called, Employee deleted.
 
 **例 2 :** 本例给出了上述注释的解释。这里，请注意，析构函数是在“程序结束……”打印后调用的。
 
-```
+```py
 # Python program to illustrate destructor
 
 class Employee:
@@ -71,7 +71,7 @@ print('Program End...')
 
 **Output:**
 
-```
+```py
 Calling Create_obj() function...
 Making Object...
 Employee created
@@ -83,7 +83,7 @@ Destructor called
 
 **示例 3 :** 现在，考虑以下示例:
 
-```
+```py
 # Python program to illustrate destructor
 
 class A:
@@ -104,7 +104,7 @@ fun()
 
 **Output:**
 
-```
+```py
 die
 
 ```

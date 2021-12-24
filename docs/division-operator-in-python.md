@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate the use of
 # "//" for integers
 print (5//2)
@@ -15,7 +15,7 @@ print (-5//2)
 
 **输出:**
 
-```
+```py
 2
 -3
 ```
@@ -28,7 +28,7 @@ print (-5//2)
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate use of
 # "/" for floating point numbers
 print (5.0/2)
@@ -37,7 +37,7 @@ print (-5.0/2)
 
 **输出:**
 
-```
+```py
 2.5
 -2.5
 ```
@@ -46,7 +46,7 @@ print (-5.0/2)
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate use of
 # "//" for both integers and floating points
 print (5//2)
@@ -57,7 +57,7 @@ print (-5.0//2)
 
 **输出:**
 
-```
+```py
 2
 -3
 2.0

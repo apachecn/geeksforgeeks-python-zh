@@ -6,7 +6,7 @@
 
 命令安装 **pygame** :
 
-```
+```py
 pip install pygame
 
 ```
@@ -20,7 +20,7 @@ pip install pygame
 
 现在，让我们看看使用`pygame`显示图像的代码:
 
-```
+```py
 # import pygame module in this program
 import pygame
 

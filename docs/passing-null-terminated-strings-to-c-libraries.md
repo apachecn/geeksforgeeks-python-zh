@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 void print_chars(char *s)
 {
     while (*s)
@@ -24,7 +24,7 @@ print_chars("Hello");
 
 **输出:**
 
-```
+```py
 48 65 6c 6c 6f
 
 ```
@@ -33,7 +33,7 @@ print_chars("Hello");
 
 **代码#2 :**
 
-```
+```py
 static PyObject * py_print_chars(PyObject * self, PyObject * args)
 {
     char * s;
@@ -50,7 +50,7 @@ static PyObject * py_print_chars(PyObject * self, PyObject * args)
 
 **代码#3 :**
 
-```
+```py
 print (print_chars(b'Hello World'))
 
 print ("\n", print_chars(b'Hello\x00World'))
@@ -60,7 +60,7 @@ print ("\n", print_chars('Hello World'))
 
 **输出:**
 
-```
+```py
 48 65 6c 6c 6f 20 57 6f 72 6c 64
 
 Traceback (most recent call last):
@@ -77,7 +77,7 @@ TypeError: 'str' does not support the buffer interface
 
 **代码#4 :**
 
-```
+```py
 static PyObject *py_print_chars(PyObject *self, PyObject *args)
 {
     char *s;
@@ -94,7 +94,7 @@ static PyObject *py_print_chars(PyObject *self, PyObject *args)
 
 **代码#5 :**
 
-```
+```py
 print (print_chars('Hello World'))
 
 # UTF-8 encoding
@@ -107,7 +107,7 @@ print ("\n", print_chars(b'Hello World'))
 
 **输出:**
 
-```
+```py
 48 65 6c 6c 6f 20 57 6f 72 6c 64
 
 53 70 69 63 79 20 4a 61 6c 61 70 65 c3 b1 6f
@@ -126,7 +126,7 @@ TypeError: must be str, not bytes
 
 **代码#6:字节转换**
 
-```
+```py
 // Some Python Object
 PyObject *obj;
 
@@ -145,7 +145,7 @@ PyObject *obj;
 
 **代码#7:从字符串转换到 UTF-8 字节**
 
-```
+```py
 {
 
     PyObject *bytes;
@@ -170,7 +170,7 @@ PyObject *obj;
 
 **代码#8 :**
 
-```
+```py
 import sys
 s = 'Spicy Jalape\u00f1o'
 print ("Size : ", sys.getsizeof(s))
@@ -184,7 +184,7 @@ print ("\nSize : ", sys.getsizeof(s))
 
 **输出:**
 
-```
+```py
 Size : 87
 
 53 70 69 63 79 20 4a 61 6c 61 70 65 c3 b1 6f

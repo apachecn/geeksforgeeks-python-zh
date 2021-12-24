@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 list_collection_names()
 
 ```
@@ -23,7 +23,7 @@ list_collection_names()
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 # create an client instance of the 
@@ -41,7 +41,7 @@ print ("collections:", collections, "\n")
 
 **输出:**
 
-```
+```py
 collections: ['Geeks'] 
 
 ```
@@ -58,7 +58,7 @@ collections: ['Geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 # create an client instance of 
@@ -74,7 +74,7 @@ print(hasattr(db, 'Geeks'))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -82,7 +82,7 @@ True
 
 **语法:**
 
-```
+```py
 database_object.Collectionname
 or
 database_object["Collectionname"]
@@ -94,7 +94,7 @@ database_object["Collectionname"]
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 # create an client instance of

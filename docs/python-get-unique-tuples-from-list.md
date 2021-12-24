@@ -7,7 +7,7 @@
 **方法#1:使用`list() + set()`**
 相似的整数，这些整数是不可变的，也可以由`set()`处理以移除重复的。它将列表转换为 set 并移除重复项，然后由`list()`转换回列表
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get unique tuples from list
 # using set() + list()
@@ -28,7 +28,7 @@ print("List after removal of duplicates " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (6, 1), (4, 5), (6, 1)]
 List after removal of duplicates [(4, 5), (6, 1)]
 

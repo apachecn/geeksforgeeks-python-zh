@@ -27,7 +27,7 @@ Tkinter 中的按钮小部件提供了一种与应用程序交互的方式。用
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter and Button Widget
 from tkinter import Tk
 from tkinter.ttk import Button
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter and Button Widget
 from tkinter import Tk
 from tkinter.ttk import Button
@@ -124,13 +124,13 @@ if __name__ == "__main__":
 
 在上面的方法中，您可能想知道我们如何将参数传递给 **fun1** 和 **fun2** ，因为如果我们执行以下操作
 
-```
+```py
 combine_funcs(fun1(arguments), fun2(arguments))
 ```
 
 一旦应用程序运行，它将立即调用这些函数，但是我们希望这些函数只在按钮被按下时调用。因此，如果您想将参数传递给 fun1 或 fun2，答案很简单，请使用以下语法:
 
-```
+```py
 combine_funcs(lambda: fun1(arguments), lambda: fun2(arguments))
 ```
 
@@ -138,7 +138,7 @@ combine_funcs(lambda: fun1(arguments), lambda: fun2(arguments))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter and Button Widget
 from tkinter import Tk
 from tkinter.ttk import Button

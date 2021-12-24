@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 pafy 中获得播放列表中每一项的长度(以秒为单位)。Pafy 是一个 python 库，用于下载 YouTube 内容和检索元数据。Pafy 对象是包含给定视频所有信息的对象。YouTube 中的播放列表是按顺序播放的视频列表或组，一个视频接一个视频。长度基本上是以秒为单位的项目持续时间。
 我们可以借助 get_playlist 方法从 pafy 中的 youtube 获取播放列表，下面是执行此操作的命令
 
-```
+```py
  pafy.get_playlist(url)
 ```
 
@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -54,7 +54,7 @@ print("Length (sec) : " + str(value))
 
 **输出:**
 
-```
+```py
 Length (sec) : 712
 ```
 
@@ -62,7 +62,7 @@ Length (sec) : 712
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -90,6 +90,6 @@ print("Length (sec) : " + str(value))
 
 **输出:**
 
-```
+```py
 Length (sec) : 170
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `zip()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 zip 提取并组合索引元素，然后使用循环中的条件语句提取并检查相异度。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unequal Equi-index elements
 # using loop + zip()
@@ -33,7 +33,7 @@ print("Unequal index elements in lists : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : ['a', 'b', 'c', 'd']
 The original list 2 : ['g', 'b', 's', 'd']
 Unequal index elements in lists : ['a', 'c']

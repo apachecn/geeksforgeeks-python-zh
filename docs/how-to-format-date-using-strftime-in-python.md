@@ -56,7 +56,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # current time and date
@@ -76,7 +76,7 @@ print("After formating:", time.strftime("%b %d, %Y"))
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # current time and date
@@ -98,7 +98,7 @@ print("Day", time.strftime("%d"))
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # current time and date

@@ -9,7 +9,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_css_selector("css selector")
 
 ```
@@ -17,7 +17,7 @@ driver.find_elements_by_css_selector("css selector")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <form id="loginForm">
@@ -31,7 +31,7 @@ driver.find_elements_by_css_selector("css selector")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_css_selector('#loginForm')
 
 ```
@@ -41,7 +41,7 @@ login_form = driver.find_elements_by_css_selector('#loginForm')
 让我们尝试实际实现这个方法，并为**获取一个元素实例。让我们尝试使用它的类名“gsc-input”来抓取搜索表单输入。
 创建一个名为 run.py 的文件来演示 find_elements_by_css_selector 方法–**
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -66,7 +66,7 @@ print(element)
 
 现在使用运行–
 
-```
+```py
 Python run.py
 ```
 

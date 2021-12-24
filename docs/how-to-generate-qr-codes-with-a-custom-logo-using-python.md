@@ -8,13 +8,13 @@
 
 *   [**【枕头】**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/) **:** 它是一个轻量级的图像处理工具，可以帮助编辑、创建和保存图像。枕头支持许多图像文件格式，包括 BMP、PNG、JPEG 和 TIFF。可以使用以下命令安装:
 
-```
+```py
 pip install Pillow
 ```
 
 *   **二维码:**是用于生成二维码的外部 python 库。可以使用以下命令安装:
 
-```
+```py
 pip install qrcode
 ```
 
@@ -24,7 +24,7 @@ pip install qrcode
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import qrcode
 from PIL import Image

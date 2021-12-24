@@ -4,7 +4,7 @@
 
 IP 地址代表互联网协议地址。这是与所选计算机或网络相关的识别号。当连接到网络时，该 IP 地址允许计算机发送和接收信息。Python 提供了 IP 地址模块，该模块提供了在 IPv4 和 IPv6 地址和网络上创建、操作和操作的能力。这个模块内置了 python 3.3+，所以如果你有 python 3.3+，就不需要安装它了。虽然可以用 pip 安装。
 
-```
+```py
 pip install ipaddress
 ```
 
@@ -31,7 +31,7 @@ IPv4 地址对象对于 IP v4 地址有很多属性。 **ipaddress。IPv4Address
 
 ## 蟒 3
 
-```
+```py
 import ipaddress
 # Creating an object of IPv4Address class and
 # initializing it with an IPv4 address.
@@ -75,7 +75,7 @@ print("Is ip1 is greater than ip2:", ip1 > ip2)
 
 **输出:**
 
-```
+```py
 Total no of bits in the ip: 32
 Is multicast: False
 Is private: False
@@ -114,7 +114,7 @@ IPv4 网络对象用于检查和定义 IP 网络。地址对象的所有属性�
 
 ## 蟒 3
 
-```
+```py
 import ipaddress
 
 # Initializing an IPv4 Network.
@@ -162,7 +162,7 @@ print("Compare the network with 192.168.0.0/16:",
 
 **输出:**
 
-```
+```py
 Network address of the network: 192.168.1.0
 Broadcast address: 192.168.1.255
 Network mask: 255.255.255.0

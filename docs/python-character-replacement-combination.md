@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Character Replacement Combination
 # Using zip() + list comprehension + replace() + product()
@@ -56,7 +56,7 @@ print("All combinations : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks
 All combinations : ['gee31', 'geek1', 'gee32', 'geek2', 'gee3s', 'geeks']
 

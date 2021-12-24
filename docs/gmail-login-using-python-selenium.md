@@ -64,7 +64,7 @@ Selenium 自动化并控制浏览器及其活动。在 selenium 的帮助下，�
 
 ### 完整代码:
 
-```
+```py
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -101,7 +101,7 @@ except:
 
 出于安全考虑，我们也可以**输入密码而不在**屏幕上显示。为此，我们必须增加一个名为 **getpass** 的模块。现在只需对密码的输入语句进行一次更改，我们就可以输入密码，而无需在屏幕上显示。
 
-```
+```py
 from getpass import getpass
 
 pwd = getpass('Enter Password:')

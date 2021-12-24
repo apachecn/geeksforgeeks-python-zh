@@ -6,7 +6,7 @@
 
 我们可以借助下面给出的命令创建一个窗口和播放器对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -17,7 +17,7 @@ player = pyglet.media.Player()
 
 下面是事件的语法
 
-```
+```py
 # end of source event
 @window.event
 def on_eos():
@@ -28,7 +28,7 @@ def on_eos():
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 

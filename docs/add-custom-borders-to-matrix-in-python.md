@@ -4,7 +4,7 @@
 
 给定一个矩阵，任务是编写一个 python 程序来打印具有自定义边框的每一行。
 
-```
+```py
 Input : test_list = [[4, 5, 6], [1, 4, 5], [6, 9, 1], [0, 3 ,1]], bord = "|"
 Output : | 4 5 6 |
          | 1 4 5 |
@@ -26,7 +26,7 @@ Explanation : Matrix is ended using ! border as required.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom Matrix Borders
 # Using loop
@@ -55,7 +55,7 @@ for sub in test_list:
 
 **输出:**
 
-```
+```py
 The original list is : [[4, 5, 6], [1, 4, 5], [6, 9, 1], [0, 3, 1]]
 | 4 5 6 |
 | 1 4 5 |
@@ -69,7 +69,7 @@ The original list is : [[4, 5, 6], [1, 4, 5], [6, 9, 1], [0, 3, 1]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom Matrix Borders
 # Using * operator + loop
@@ -92,7 +92,7 @@ for sub in test_list:
 
 **输出:**
 
-```
+```py
 The original list is : [[4, 5, 6], [1, 4, 5], [6, 9, 1], [0, 3, 1]]
 | 4 5 6 |
 | 1 4 5 |

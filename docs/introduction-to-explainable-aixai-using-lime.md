@@ -34,13 +34,13 @@
 
 **来到安装部分，我们可以使用 **pip** 或者 **conda** 在 Python 中安装 LIME。**
 
-```
+```py
 pip install lime
 ```
 
 **或者**
 
-```
+```py
 conda install -c conda-forge lime
 ```
 
@@ -98,7 +98,7 @@ conda install -c conda-forge lime
 
 ## **计算机编程语言**
 
-```
+```py
 # Importing the necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -122,7 +122,7 @@ print(data['DESCR'][200:1420])
 
 ## **计算机编程语言**
 
-```
+```py
 # Separating data into feature variable X and target variable y respectively
 from sklearn.model_selection import train_test_split
 X = data['data']
@@ -154,7 +154,7 @@ df.head()
 
 ## **计算机编程语言**
 
-```
+```py
 # Instantiating the prediction model - an extra-trees regressor
 from sklearn.ensemble import ExtraTreesRegressor
 reg = ExtraTreesRegressor(random_state=50)
@@ -176,7 +176,7 @@ print('R2 score for the model on test set =', reg.score(X_test, y_test))
 
 ## **计算机编程语言**
 
-```
+```py
 # Importing the module for LimeTabularExplainer
 import lime.lime_tabular
 
@@ -199,7 +199,7 @@ explainer_lime = lime.lime_tabular.LimeTabularExplainer(X_train,
 
 ## **计算机编程语言**
 
-```
+```py
 # Index corresponding to the test vector
 i = 10
 
@@ -252,7 +252,7 @@ exp_lime.show_in_notebook()
 
 ## **计算机编程语言**
 
-```
+```py
 # Index corresponding to the test vector
 i = 47
 

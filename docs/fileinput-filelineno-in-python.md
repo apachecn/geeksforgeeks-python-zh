@@ -16,7 +16,7 @@
 输入文件–
 ![](img/e7034e25fe30e200e8ecdfede5b78620.png)
 
-```
+```py
 # import fileinput
 import fileinput
 
@@ -33,7 +33,7 @@ for line in fileinput.input(files ='gfg.txt'):
 输入文件–
 ![](img/e7034e25fe30e200e8ecdfede5b78620.png)![](img/d98f03452927aa0a099f5712ecc2f727.png)
 
-```
+```py
 # import fileinput
 import fileinput
 

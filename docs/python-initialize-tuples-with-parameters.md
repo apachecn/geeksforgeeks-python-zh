@@ -7,7 +7,7 @@
 **方法#1:使用`tuple()` + `*`操作符**
 可以使用上述功能的组合来执行该任务。在这里，我们使用*运算符扩展默认值，并使用`tuple()`执行元组的形成
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize tuples with parameters
 # Using tuple() + * operator
@@ -36,7 +36,7 @@ print("The formulated tuple is : " + str(res))
 
 **Output :**
 
-```
+```py
 The formulated tuple is : (2, 2, 2, 9, 2, 2)
 
 ```

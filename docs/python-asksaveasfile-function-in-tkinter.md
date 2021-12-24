@@ -8,7 +8,7 @@ Python 提供了各种模块，人们可以借助这些模块开发图形用户�
 
 以下是守则:
 
-```
+```py
 # importing all files  from tkinter
 from tkinter import * 
 from tkinter import ttk

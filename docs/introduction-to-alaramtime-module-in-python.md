@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install AlarmTime
 ```
 
@@ -23,7 +23,7 @@ pip install AlarmTime
 
 ## 蟒蛇 3
 
-```
+```py
 # import the detectdate class from alarmtime module
 from AlarmTime.AlarmTime import DetectDate
 
@@ -59,7 +59,7 @@ print(another2.now)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the detectdate class from alarmtime module
 from AlarmTime.AlarmTime import DetectDate
 

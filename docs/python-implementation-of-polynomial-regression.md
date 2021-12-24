@@ -18,21 +18,21 @@
 
 回归分析的基本目标是用自变量 x 的值来模拟因变量 y 的期望值。在简单回归中，我们使用以下等式–
 
-```
+```py
 y = a + bx + e
 ```
 
 这里 y 是因变量，a 是 y 截距，b 是斜率，e 是误差率。
 在很多情况下，这种线性模型是行不通的，例如，如果我们根据合成发生的温度来分析化学合成的产物，在这种情况下，我们使用二次模型
 
-```
+```py
 y = a + b1x + b2^2 + e
 ```
 
 这里 y 是 x 上的因变量，a 是 y 截距，e 是误差率。
 一般来说，我们可以为第 n 个值建模。
 
-```
+```py
 y = a + b1x + b2x^2 +....+ bnx^n
 ```
 
@@ -45,7 +45,7 @@ y = a + b1x + b2x^2 +....+ bnx^n
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ datas
 
 ## 蟒蛇 3
 
-```
+```py
 X = datas.iloc[:, 1:2].values
 y = datas.iloc[:, 2].values
 ```
@@ -73,7 +73,7 @@ y = datas.iloc[:, 2].values
 
 ## 蟒蛇 3
 
-```
+```py
 # Fitting Linear Regression to the dataset
 from sklearn.linear_model import LinearRegression
 lin = LinearRegression()
@@ -86,7 +86,7 @@ lin.fit(X, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # Fitting Polynomial Regression to the dataset
 from sklearn.preprocessing import PolynomialFeatures
 
@@ -102,7 +102,7 @@ lin2.fit(X_poly, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # Visualising the Linear Regression results
 plt.scatter(X, y, color = 'blue')
 
@@ -120,7 +120,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Visualising the Polynomial Regression results
 plt.scatter(X, y, color = 'blue')
 
@@ -138,7 +138,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Predicting a new result with Linear Regression
 lin.predict(110.0)
 ```
@@ -147,7 +147,7 @@ lin.predict(110.0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Predicting a new result with Polynomial Regression
 lin2.predict(poly.fit_transform(110.0))
 ```

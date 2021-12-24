@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 transpose(degree)
 ```
 
@@ -32,7 +32,7 @@ transpose(degree)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing PIL Module
 from PIL import Image
 
@@ -56,7 +56,7 @@ vertical_img.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing PIL Module
 from PIL import Image
 

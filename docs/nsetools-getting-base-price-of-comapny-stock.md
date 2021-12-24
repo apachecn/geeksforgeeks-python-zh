@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -37,7 +37,7 @@ print("Base Price  : " + str(value))
 
 **输出:**
 
-```
+```py
 Base Price  : 281.05
 ```
 
@@ -45,7 +45,7 @@ Base Price  : 281.05
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -67,6 +67,6 @@ print("Base Price  : " + str(value))
 
 **输出:**
 
-```
+```py
 Base Price  : 191.6
 ```

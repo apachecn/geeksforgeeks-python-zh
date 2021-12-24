@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K consecutive Maximum 
 # Using max() + loop + slicing
@@ -44,7 +44,7 @@ print("Next K Maximum List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 3, 8, 2, 6, 7, 4, 3, 2, 4, 5]
 Next K Maximum List : [8, 8, 8, 7, 7, 7, 4, 5]
 
@@ -56,7 +56,7 @@ Next K Maximum List : [8, 8, 8, 7, 7, 7, 4, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K consecutive Maximum 
 # Using list comprehension
@@ -79,7 +79,7 @@ print("Next K Maximum List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 3, 8, 2, 6, 7, 4, 3, 2, 4, 5]
 Next K Maximum List : [8, 8, 8, 7, 7, 7, 4, 5]
 

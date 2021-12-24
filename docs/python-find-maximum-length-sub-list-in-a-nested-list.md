@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [['A'], ['A', 'B'], ['A', 'B', 'C']]
 Output : (['A', 'B', 'C'], 3)
 
@@ -20,7 +20,7 @@ Output : ([1, 2, 3, 9, 4], 5)
 **方法#1 :** 使用 for 循环(幼稚)
 这是一种蛮力方法，我们迭代每个列表项(列表)并找到最大长度的列表。同样，我们使用 for 循环来查找每个列表的长度，并输出最大长度。
 
-```
+```py
 # Python3 program to Find maximum 
 # length list in a nested list
 
@@ -37,7 +37,7 @@ print(FindMaxLength(lst))
 
 **Output:**
 
-```
+```py
 (['A', 'B', 'C'], 3)
 
 ```
@@ -45,7 +45,7 @@ print(FindMaxLength(lst))
 **方法 2 :** 使用`map`
 在这个方法中，我们使用 Python 映射函数迭代内部列表来创建长度列表，然后使用 max 函数获得最大值。
 
-```
+```py
 # Python3 program to Find maximum 
 # length list in a nested list
 
@@ -62,7 +62,7 @@ print(FindMaxLength(lst))
 
 **Output:**
 
-```
+```py
 (['A', 'B', 'C'], 3)
 
 ```
@@ -70,7 +70,7 @@ print(FindMaxLength(lst))
 **方法#3 :** 使用`lambda` 运算符
 Python 中查找最长长度列表的另一种方法是 lambda 运算符。它用于在 Python 中创建小型、一次性和匿名的函数对象。这里我们传递一个变量 *i* 作为 *len(i)* 表达式中的参数，并找到最大长度。
 
-```
+```py
 # Python3 program to Find maximum 
 # length list in a nested list
 
@@ -86,7 +86,7 @@ print(FindMaxLength(lst))
 
 **Output:**
 
-```
+```py
 (['A', 'B', 'C'], 3)
 
 ```

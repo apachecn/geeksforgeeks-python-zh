@@ -8,7 +8,7 @@
 
 ****示例:****
 
-```
+```py
 **URL:** https://www.geeksforgeeks.org/courses
 When we parse the above URL then we can find
 
@@ -38,7 +38,7 @@ When we parse the above URL then we can find
 
 ## **蟒蛇 3**
 
-```
+```py
 # import library
 import re  
 
@@ -59,7 +59,7 @@ print(obj2)
 
 ****输出:****
 
-```
+```py
 ['https']
 ['geeksforgeeks.org'] 
 ```
@@ -76,7 +76,7 @@ print(obj2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import library
 import re  
 
@@ -101,7 +101,7 @@ print(obj3)
 
 ****输出:****
 
-```
+```py
 ['file']
 ['localhost']
 [('localhost', ':4040', '4040')] 
@@ -111,7 +111,7 @@ print(obj3)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import library
 import re
 
@@ -127,6 +127,6 @@ print(obj)
 
 ****输出:****
 
-```
+```py
 [('http', 'www.example.com', 'index', 'html')]
 ```

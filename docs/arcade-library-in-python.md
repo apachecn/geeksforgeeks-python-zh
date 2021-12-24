@@ -8,7 +8,7 @@
 
 要安装此模块，只需在命令提示符下运行以下命令:
 
-```
+```py
 pip install arcade
 
 ```
@@ -54,7 +54,7 @@ pip install arcade
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import arcade
 
@@ -92,7 +92,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import arcade
 

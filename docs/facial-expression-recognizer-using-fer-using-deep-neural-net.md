@@ -25,7 +25,7 @@
 
 对于本文，您可以使用名为 [Repl.it](//repl.it/site/about)) 的在线代码编辑器，也可以使用您最喜欢的代码编辑器。它可以通过安装
 
-```
+```py
 pip:`$ pip install fer`
 ```
 
@@ -33,7 +33,7 @@ pip:`$ pip install fer`
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 from fer import FER
@@ -54,7 +54,7 @@ import matplotlib.image as mpimg
 
 ## 蟒蛇 3
 
-```
+```py
 # Input Image
 input_image = cv2.imread("smile.jpg")
 emotion_detector = FER()
@@ -76,7 +76,7 @@ print(emotion_detector.detect_emotions(input_image))
 
 ## 蟒蛇 3
 
-```
+```py
 [{'box': [277, 90, 48, 63], 'emotions': {
   'angry': 0.02, 'disgust': 0.0, 'fear': 0.05,
   'happy': 0.16, 'neutral': 0.09, 'sad': 0.27, 'surprise': 0.41}]
@@ -94,7 +94,7 @@ print(emotion_detector.detect_emotions(input_image))
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 from fer import FER
 import matplotlib.pyplot as plt
@@ -109,7 +109,7 @@ emotion_detector = FER(mtcnn=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Save output in result variable
 result = emotion_detector.detect_emotions(input_image)
 ```
@@ -118,7 +118,7 @@ result = emotion_detector.detect_emotions(input_image)
 
 ## 蟒蛇 3
 
-```
+```py
 bounding_box = result[0]["box"]
 emotions = result[0]["emotions"]
 cv2.rectangle(input_image,(
@@ -143,7 +143,7 @@ cv2.rectangle(input_image,(
 
 ## 蟒蛇 3
 
-```
+```py
 emotion_name, score = emotion_detector.top_emotion(image )
 for index, (emotion_name, score) in enumerate(emotions.items()):
    color = (211, 211,211) if score < 0.01 else (255, 0, 0)
@@ -170,7 +170,7 @@ cv2.imwrite("emotion.jpg", input_image)
 
 ## 蟒蛇 3
 
-```
+```py
 # Read image file using matplotlib's image module
 result_image = mpimg.imread('emotion.jpg')
 imgplot = plt.imshow(result_image)

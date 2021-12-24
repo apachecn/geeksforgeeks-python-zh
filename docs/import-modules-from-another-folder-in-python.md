@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def run():
     print("Module 0 imported successfully")
 ```
@@ -26,7 +26,7 @@ def run():
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # Prints the list of directories that the 
@@ -54,7 +54,7 @@ print(sys.path)
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # Insert the path of modules folder 
@@ -78,7 +78,7 @@ module0.run()
 
 打开终端或命令提示符，输入以下命令:
 
-```
+```py
 Syntax: set PYTHONPATH=path_to_module_folder
 ```
 
@@ -90,7 +90,7 @@ Syntax: set PYTHONPATH=path_to_module_folder
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the module0 directly since 
 # the current path is of modules.
 import module0

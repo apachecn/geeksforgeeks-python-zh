@@ -8,7 +8,7 @@
 
 使用上述函数的组合可以很容易地解决这个问题，字典理解可以执行构造字典的任务，枚举函数可以用来访问索引值和元素。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary with index as value
 # using Dictionary comprehension + enumerate()
@@ -29,7 +29,7 @@ print("The Dictionary after index keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Nikhil', 'Akshat', 'Akash', 'Manjeet']
 The Dictionary after index keys : {'Akshat': 2, 'Nikhil': 1, 'Manjeet': 4, 'Akash': 3}
 
@@ -39,7 +39,7 @@ The Dictionary after index keys : {'Akshat': 2, 'Nikhil': 1, 'Manjeet': 4, 'Akas
 
 这个问题也可以通过以上两个函数的组合来解决，dict 方法可以用来转换成字典，zip 函数可以用来映射索引和关键字。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary with index as value
 # using dict() + zip()
@@ -60,7 +60,7 @@ print("The Dictionary after index keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Nikhil', 'Akshat', 'Akash', 'Manjeet']
 The Dictionary after index keys : {'Akshat': 2, 'Nikhil': 1, 'Manjeet': 4, 'Akash': 3}
 

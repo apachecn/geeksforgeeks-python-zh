@@ -5,13 +5,13 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中触发键释放事件。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。按下(并按住)键盘上的一个键，然后调用按键事件，当释放该键时，调用键释放事件。按键和释放事件是处理键盘输入的主要事件。
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on 键释放事件的语法，当这个事件被触发时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_key_release(symbol, modifiers):
     print("Key is released")
@@ -21,7 +21,7 @@ def on_key_release(symbol, modifiers):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -97,7 +97,7 @@ pyglet.app.run()
 
 ![](img/2e1377615cb4623fb34a8814894cb8d5.png)
 
-```
+```py
 Some key is pressed
 Key C is pressed
 Key is released

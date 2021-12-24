@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # list of books is stored in the list -'books'
@@ -27,7 +27,7 @@ print(random.choice(books))
 
 **Output**
 
-```
+```py
 Midnight Children
 ```
 
@@ -39,7 +39,7 @@ Midnight Children
 
 ## 蟒 3
 
-```
+```py
 # Importing random module
 import random
 ```
@@ -57,7 +57,7 @@ import random
 
 ## 蟒 3
 
-```
+```py
 # Defining list of phrases which will help to build a story
 Sentence_starter = ['About 100 years ago', ' In the 20 BC', 'Once upon a time']
 
@@ -81,7 +81,7 @@ work = [' searching something.', ' digging a well on roadside.']
 
 ## 蟒 3
 
-```
+```py
 # Selecting an item from each list and concatenating them.
 print(random.choice(Sentence_starter)+random.choice(character)+
       random.choice(time)+random.choice(story_plot)+
@@ -95,7 +95,7 @@ print(random.choice(Sentence_starter)+random.choice(character)+
 
 T2T4
 
-```
+```py
 # Importing random module
 import random
 

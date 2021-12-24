@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Rear elements in Tuple List
 # Using join() + list comprehension
@@ -38,7 +38,7 @@ print("The Concatenated result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(1, 2, 'Gfg'), (4, 'is'), ('Best', )]
 The Concatenated result : Gfg is Best
 
@@ -50,7 +50,7 @@ The Concatenated result : Gfg is Best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Rear elements in Tuple List
 # Using map() + itemgetter() + join()
@@ -72,7 +72,7 @@ print("The Concatenated result : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(1, 2, 'Gfg'), (4, 'is'), ('Best', )]
 The Concatenated result : Gfg is Best
 

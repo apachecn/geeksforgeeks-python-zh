@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find first element by second in tuple List
 # Using list comprehension
@@ -42,7 +42,7 @@ print("The key from value : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5), (5, 6), (1, 3), (6, 9)]
 The key from value : [5]
 ```
@@ -52,7 +52,7 @@ The key from value : [5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find first element by second in tuple List
 # Using next() + generator expression
@@ -76,7 +76,7 @@ print("The key from value : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5), (5, 6), (1, 3), (6, 9)]
 The key from value : 5
 ```

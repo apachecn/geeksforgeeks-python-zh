@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 
@@ -78,7 +78,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Information List
 datas = []
 
@@ -117,7 +117,7 @@ def update_book():
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 

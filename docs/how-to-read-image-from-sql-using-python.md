@@ -8,13 +8,13 @@
 
 *   安装连接我们的程序和数据库的连接器。
 
-```
+```py
 pip install mysql-connector-python
 ```
 
 *   现在，让我们导入名为 **mysql.connector.** 的第一个模块
 
-```
+```py
 import mysql.connector
 ```
 
@@ -24,19 +24,19 @@ import mysql.connector
 
 *   创建连接对象后，我们需要使用 **cursor()** 方法创建一个 cursor 对象。
 
-```
+```py
 cursor = connection.cursor()
 ```
 
 *   使用游标对象来用 execute()方法执行我们的 SQL 查询。
 
-```
+```py
 cursor.execute("select * from table_name")
 ```
 
 *   一旦一切完成，我们需要关闭所有的连接或资源。
 
-```
+```py
 cursor.close()
 con.close()
 ```
@@ -47,7 +47,7 @@ con.close()
 
 在这个表中，我们有一些数据，让我们看看已经插入了多少。为了检查，我们需要运行一个命令，例如
 
-```
+```py
 select id, name, LEFT(profile_pic, 30) as Profile_Pic, LEFT(imp_files, 30) as Imp_Files from demo;
 ```
 
@@ -61,7 +61,7 @@ select id, name, LEFT(profile_pic, 30) as Profile_Pic, LEFT(imp_files, 30) as Im
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import mysql.connector
 

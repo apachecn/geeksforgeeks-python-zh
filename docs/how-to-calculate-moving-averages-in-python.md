@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to calculate moving average
 arr = [1, 2, 3, 7, 9]
 window_size = 3
@@ -46,7 +46,7 @@ print(moving_averages)
 
 **输出:**
 
-```
+```py
 [2.0, 4.0, 6.33]
 ```
 
@@ -70,7 +70,7 @@ print(moving_averages)
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to calculate moving average using numpy
 
 import numpy as np
@@ -102,7 +102,7 @@ print(moving_averages)
 
 **输出:**
 
-```
+```py
 [2.0, 4.0, 6.33]
 ```
 
@@ -112,7 +112,7 @@ print(moving_averages)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to calculate
 # simple moving averages using pandas
 import pandas as pd
@@ -142,7 +142,7 @@ print(final_list)
 
 **输出:**
 
-```
+```py
 [2.0, 4.0, 6.33]
 ```
 
@@ -166,7 +166,7 @@ Python 的 Numpy 模块提供了一种计算观测值数组累积移动平均值
 
 ## 计算机编程语言
 
-```
+```py
 # Program to calculate cumulative moving average
 # using numpy
 
@@ -202,7 +202,7 @@ print(moving_averages)
 
 **输出:**
 
-```
+```py
 [1.0, 1.5, 2.0, 3.25, 4.4]
 ```
 
@@ -212,7 +212,7 @@ Python 的 Pandas 模块提供了一种简单的方法来计算一系列观测�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to calculate
 # cumulative moving averages using pandas
 import pandas as pd
@@ -238,7 +238,7 @@ print(moving_averages_list)
 
 **输出:**
 
-```
+```py
 [1.0, 1.5, 2.0, 3.25, 4.4]
 ```
 
@@ -258,7 +258,7 @@ print(moving_averages_list)
 
 ## 计算机编程语言
 
-```
+```py
 # Program to calculate exponential
 # moving average using formula
 
@@ -295,7 +295,7 @@ print(moving_averages)
 
 **输出:**
 
-```
+```py
 [1, 1.5, 2.25, 4.62, 6.81]
 ```
 
@@ -305,7 +305,7 @@ Python 的 Pandas 模块提供了一种简单的方法来计算一系列观测�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to
 # calculate exponential moving averages
 import pandas as pd
@@ -328,7 +328,7 @@ print(moving_averages_list)
 
 **输出:**
 
-```
+```py
 [1.0, 1.5, 2.25, 4.62, 6.81]
 ```
 

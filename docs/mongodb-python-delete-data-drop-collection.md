@@ -9,26 +9,26 @@
 
 *   **删除符合条件的所有文档:**以下操作删除符合指定条件的所有文档。
 
-    ```
+    ```py
      result = my_collection.delete_many({"name": "Mr.Geek"})
     ```
 
 *   **查看已删除的文档数量:**
 
-    ```
+    ```py
      print(result.deleted_count)
     ```
 
 *   **Remove All Documents :**
     **Method 1 :** Remove all documents using delete_many()
 
-    ```
+    ```py
      result= my_collection.delete_many({})
     ```
 
     **方法 2 :** 使用 collection.remove()删除所有文档
 
-    ```
+    ```py
      result = my_collection.remove() 
     ```
 
@@ -36,13 +36,13 @@
 
 *   删除收藏:
 
-    ```
+    ```py
     db.my_collection.drop()
     ```
 
 我们首先在集合中插入一个文档，然后根据查询删除这些文档。
 
-```
+```py
 # Python program to illustrate 
 # delete, drop and remove
 from pymongo import MongoClient
@@ -98,7 +98,7 @@ for record in cursor:
 print(record)
 ```
 
-```
+```py
 OUTPUT (comment line denoted by #)
 
 Connected successfully!!!

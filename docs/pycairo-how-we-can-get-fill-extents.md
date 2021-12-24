@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -52,7 +52,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 (0.0, 0.0, 0.0, 0.0)
 ```
 
@@ -60,7 +60,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -90,6 +90,6 @@ print(a)
 
 **输出:**
 
-```
+```py
 (260.0, 59.94921875, 340.0, 100.0)
 ```

@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Various examples and working of float()
 # for integers
@@ -64,7 +64,7 @@ print(float("Geeks"))
 
 **输出:**
 
-```
+```py
 21.89
 8.0
 23.0
@@ -78,7 +78,7 @@ nan
 
 所有行都正确执行，但最后一行将返回错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/21499f1e9ca207f0052f13d64cb6be31.py", line 25, in 
     print(float("Geeks"))
@@ -89,7 +89,7 @@ ValueError: could not convert string to float: 'Geeks'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Various examples and working of float()
 
@@ -104,7 +104,7 @@ print(float("NaN"))
 
 **输出:**
 
-```
+```py
 inf
 inf
 nan
@@ -115,7 +115,7 @@ nan
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to convert int
 # float
 number = 90
@@ -126,7 +126,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 90.0
 ```
 
@@ -134,7 +134,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to convert string
 # to float
 string = "90"
@@ -145,7 +145,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 90.0
 ```
 
@@ -153,7 +153,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 number = "geeks"
 try:
     print(float(number))
@@ -163,6 +163,6 @@ except ValueError as e:
 
 **输出:**
 
-```
+```py
 could not convert string to float: 'geeks'
 ```

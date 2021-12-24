@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `set()`**
 可以组合上述功能来执行该特定任务。在这种情况下，我们检查每一对，并添加到一个集合中作为参考，以检查它以前是否存在，并添加它是否是新的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract unique tuples from list(Order Irrespective)
 # using list comprehension + set()
@@ -30,7 +30,7 @@ print("The list after duplicated removal : " + str(list(res)))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 3), (4, 5), (3, 1), (1, 10), (5, 4)]
 The list after duplicated removal : [(4, 5), (1, 3), (1, 10)]
 

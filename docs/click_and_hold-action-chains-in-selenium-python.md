@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Python Selenium 中动作链的`click_and_hold`方法展开。`click_and_hold`方法用于在一个元素上按住鼠标左键。
 **语法–**
 
-```
+```py
 click_and_hold(on_element=None)
 ```
 
@@ -14,20 +14,20 @@ click_and_hold(on_element=None)
 
 **示例–**
 
-```
+```py
 <input type ="text" name ="passwd" id ="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 ```
 
 现在可以使用点击并保持方法作为动作链，如下所示–
 
-```
+```py
 click_and_hold(on_element=element)
 
 ```
@@ -38,7 +38,7 @@ click_and_hold(on_element=element)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

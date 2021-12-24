@@ -32,7 +32,7 @@ pynput 模块的安装
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time and threading
 import time
 import threading
@@ -52,7 +52,7 @@ from pynput.keyboard import Listener, KeyCode
 
 ## 蟒蛇 3
 
-```
+```py
 # four variables are created to
 # control the auto-clicker
 delay = 0.001
@@ -65,7 +65,7 @@ stop_key = KeyCode(char='b')
 
 ## 蟒蛇 3
 
-```
+```py
 # threading.Thread is used 
 # to control clicks
 class ClickMouse(threading.Thread):
@@ -84,7 +84,7 @@ class ClickMouse(threading.Thread):
 
 ## 蟒蛇 3
 
-```
+```py
 def start_clicking(self):
         self.running = True
 
@@ -100,7 +100,7 @@ def exit(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # method to check and run loop until 
 # it is true another loop will check 
 # if it is set to true or not, 
@@ -118,7 +118,7 @@ def run(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # instance of mouse controller is created
 mouse = Controller()
 click_thread = ClickMouse(delay, button)
@@ -129,7 +129,7 @@ click_thread.start()
 
 ## 蟒蛇 3
 
-```
+```py
 # on_press method takes
 # key as argument
 
@@ -159,7 +159,7 @@ with Listener(on_press=on_press) as listener:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time and threading
 import time
 import threading

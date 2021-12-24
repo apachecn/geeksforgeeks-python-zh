@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if elements index are equal for list elements
 # Using loop
@@ -48,7 +48,7 @@ print("Are elements at same index for required instances ?:  " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [2, 6, 9, 7, 8]
 The original list 2 : [2, 7, 9, 4, 8]
 Are elements at same index for required instances ?:  True
@@ -61,7 +61,7 @@ Are elements at same index for required instances ?:  True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if elements index are equal for list elements
 # Using zip() + all() + generator expression
@@ -86,7 +86,7 @@ print("Are elements at same index for required instances ?:  " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [2, 6, 9, 7, 8]
 The original list 2 : [2, 7, 9, 4, 8]
 Are elements at same index for required instances ?:  True

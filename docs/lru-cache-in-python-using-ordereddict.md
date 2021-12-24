@@ -11,7 +11,7 @@
 
 **例:**
 
-```
+```py
 Input/Output : 
 LRUCache cache = new LRUCache( 2 /* capacity */ );
 
@@ -35,7 +35,7 @@ cache.get(4);       // returns 4
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import OrderedDict
 
 class LRUCache:
@@ -96,7 +96,7 @@ print(cache.cache)
 
 **Output:** 
 
-```
+```py
 OrderedDict([(1, 1)])
 OrderedDict([(1, 1), (2, 2)])
 OrderedDict([(2, 2), (1, 1)])

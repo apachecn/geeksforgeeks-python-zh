@@ -32,7 +32,7 @@ Plotly 是一个 Python 库，用于设计图形，尤其是交互式图形。�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 feature_x = np.arange(0, 50, 2) 
@@ -61,7 +61,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 feature_x = np.arange(0, 50, 2)

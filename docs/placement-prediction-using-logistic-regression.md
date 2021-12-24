@@ -18,7 +18,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import modules
 import pandas as pd
 import numpy as np
@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 ## 计算机编程语言
 
-```
+```py
 # reading the file
 dataset = pd.read_csv('Placement_Data_Full_Class.csv')
 dataset
@@ -43,7 +43,7 @@ dataset
 
 ## 计算机编程语言
 
-```
+```py
 # dropping the serial no and salary col
 dataset = dataset.drop('sl_no', axis=1)
 dataset = dataset.drop('salary', axis=1)
@@ -53,7 +53,7 @@ dataset = dataset.drop('salary', axis=1)
 
 ## 计算机编程语言
 
-```
+```py
 # catgorising col for further labelling
 dataset["gender"] = dataset["gender"].astype('category')
 dataset["ssc_b"] = dataset["ssc_b"].astype('category')
@@ -74,7 +74,7 @@ dataset.dtypes
 
 ## 计算机编程语言
 
-```
+```py
 # labelling the columns
 dataset["gender"] = dataset["gender"].cat.codes
 dataset["ssc_b"] = dataset["ssc_b"].cat.codes
@@ -97,7 +97,7 @@ dataset
 
 ## 计算机编程语言
 
-```
+```py
 # selecting the features and labels
 X = dataset.iloc[:, :-1].values
 Y = dataset.iloc[:, -1].values
@@ -112,7 +112,7 @@ Y
 
 ## 计算机编程语言
 
-```
+```py
 # dividing the data into train and test
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y,
@@ -130,7 +130,7 @@ dataset.head()
 
 ## 计算机编程语言
 
-```
+```py
 # creating a classifier using sklearn
 from sklearn.linear_model import LogisticRegression
 
@@ -149,7 +149,7 @@ clf.score(X_test, Y_test)
 
 ## 计算机编程语言
 
-```
+```py
 # predicting for random value
 clf.predict([[0, 87, 0, 95, 0, 2, 78, 2, 0, 0, 1, 0]])
 ```
@@ -164,7 +164,7 @@ clf.predict([[0, 87, 0, 95, 0, 2, 78, 2, 0, 0, 1, 0]])
 
 ## 计算机编程语言
 
-```
+```py
 # creating a Y_pred for test data
 Y_pred = clf.predict(X_test)
 
@@ -180,7 +180,7 @@ Y_pred
 
 ## 计算机编程语言
 
-```
+```py
 # evaluation of the classifier
 from sklearn.metrics import confusion_matrix, accuracy_score
 

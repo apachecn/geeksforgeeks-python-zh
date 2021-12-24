@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dual Tuple Alternate summation
 # Using loop
@@ -44,7 +44,7 @@ print("Summation of Alternate elements of tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 1), (5, 6), (3, 5), (7, 5), (1, 10)]
 Summation of Alternate elements of tuples : 19
 
@@ -56,7 +56,7 @@ Summation of Alternate elements of tuples : 19
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dual Tuple Alternate summation
 # Using list comprehension + sum()
@@ -76,7 +76,7 @@ print("Summation of Alternate elements of tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 1), (5, 6), (3, 5), (7, 5), (1, 10)]
 Summation of Alternate elements of tuples : 19
 

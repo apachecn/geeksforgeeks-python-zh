@@ -6,7 +6,7 @@
 
 1.  Let’s see how we can check a list is empty or not, in a less pythonic way. We should avoid this way of **explicitly checking for a sequence or list**
 
-    ```
+    ```py
     # Python code to check for empty list
     # Explicit way
     def Enquiry(lis1):
@@ -25,14 +25,14 @@
 
     **输出:**
 
-    ```
+    ```py
     Empty List
 
     ```
 
 2.  Now let’s see a more pythonic way to check for an empty list. This method of check is an **implicit way of checking and more preferable than the previous one.**
 
-    ```
+    ```py
     # Python code to check for empty list
     # IMPLICIT way or Pythonic way
     def Enquiry(lis1):
@@ -51,7 +51,7 @@
 
     **输出:**
 
-    ```
+    ```py
     The list is Empty
     ```
 
@@ -59,7 +59,7 @@
 
 1.  The previous methods that we used in normal **Python don’t work for the Numpythonic way**. Other methods that work fine for lists or other standard containers **fail for numpy arrays**. This way fails with numpy arrays because numpy tries to cast the array to an array of bools and if this tries to evaluate all of those bools at once for some kind of aggregate truth value, it fails so we get a ValueError.
 
-    ```
+    ```py
     # Numpythonic way with the previous method
     # Returns ValueError
     import numpy
@@ -76,13 +76,13 @@
 
     **输出:**
 
-    ```
+    ```py
     None
     ```
 
     错误:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/2d237324bb5211d7216c521441a750e9.py", line 7, in 
         if Enquiry(lis1):
@@ -92,7 +92,7 @@
 
 2.  In the next example, we will see that even if the list is Not Empty, the output will show Empty. If the list contains one 0, then the if statement will incorrectly result.
 
-    ```
+    ```py
     # Numpythonic way with the previous method
     # Returns wrong result
     import numpy
@@ -109,7 +109,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Empty
     ```
 
@@ -118,7 +118,7 @@
     1.  If we have a numpy array then correct method in all cases, is to use if *.size*. This size checks the size of the arrays and return True or False accordingly.
         Example:
 
-        ```
+        ```py
         # Numpythonic way to check emptiness
         # Use of size
         import numpy
@@ -135,13 +135,13 @@
 
         **输出:**
 
-        ```
+        ```py
         Empty
         ```
 
     2.  This example shows the other case with a single 0 element, which failed in the previous cases.
 
-        ```
+        ```py
         # Numpythonic way to check emptiness
         # Use of size
         import numpy
@@ -158,7 +158,7 @@
 
         **输出:**
 
-        ```
+        ```py
         Not Empty
         ```
 

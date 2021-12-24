@@ -12,7 +12,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip3 install glitchart
 ```
 
@@ -42,7 +42,7 @@ pip3 install glitchart
 
 ## 蟒蛇 3
 
-```
+```py
 import glitchart
 
 glitchart.png('gfg.png')
@@ -56,7 +56,7 @@ glitchart.png('gfg.png')
 
 ## 蟒蛇 3
 
-```
+```py
 import glitchart
 
 glitchart.png('gfg.png', max_amount=3)
@@ -74,7 +74,7 @@ glitchart.png('gfg.png', max_amount=3)
 
 要安装此模块，请在终端中键入以下命令
 
-```
+```py
 pip install glitch-this
 ```
 

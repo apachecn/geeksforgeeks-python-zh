@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Here a,b are the parameters
 def sum(a,b):
   print(a+b)
@@ -22,7 +22,7 @@ sum(1,2)
 
 **输出:**
 
-```
+```py
 3
 
 ```
@@ -35,7 +35,7 @@ sum(1,2)
 
 ## 蟒蛇 3
 
-```
+```py
 def sum(a,b):
   print(a+b)
 
@@ -45,7 +45,7 @@ sum(1,2)
 
 **输出:**
 
-```
+```py
 3
 
 ```
@@ -65,7 +65,7 @@ Python 函数可以包含两种类型的参数:
 
 ## 蟒蛇 3
 
-```
+```py
 def person_name(first_name,second_name):
   print(first_name+second_name)
 
@@ -76,7 +76,7 @@ person_name("Ram","Babu")
 
 **输出:**
 
-```
+```py
 RamBabu
 
 ```
@@ -87,7 +87,7 @@ RamBabu
 
 ## 蟒蛇 3
 
-```
+```py
 def person_name(first_name,second_name):
   print(first_name+second_name)
 
@@ -97,7 +97,7 @@ person_name(second_name="Babu",first_name="Ram")
 
 **输出:**
 
-```
+```py
 RamBabu
 
 ```

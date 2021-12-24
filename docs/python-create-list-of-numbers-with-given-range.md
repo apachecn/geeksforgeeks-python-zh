@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : r1 = -1, r2 = 1
 Output : [-1, 0, 1]
 
@@ -21,7 +21,7 @@ Output : [5, 6, 7, 8, 9]
 
 在给定范围内创建列表的简单方法是首先创建一个空列表，并在 for 循环的每次迭代中追加每个整数的后继值。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 
@@ -52,7 +52,7 @@ print(createList(r1, r2))
 
 **Output:**
 
-```
+```py
 [-1, 0, 1]
 
 ```
@@ -61,7 +61,7 @@ print(createList(r1, r2))
 
 我们也可以使用列表理解来达到这个目的。只需在从 *r1* 到 *r2* 的 for 循环中迭代“项目”，并将所有“项目”作为列表返回。这将是一个简单的一行代码。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 
@@ -75,7 +75,7 @@ print(createList(r1, r2))
 
 **Output:**
 
-```
+```py
 [-1, 0, 1]
 
 ```
@@ -84,7 +84,7 @@ print(createList(r1, r2))
 
 Python 附带了一个直接函数`range()`，它创建了一个从开始到停止值的数字序列，并打印序列中的每个项目。我们将`range()`与 *r1* 和 *r2* 一起使用，然后将序列转换为列表。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 
@@ -98,7 +98,7 @@ print(createList(r1, r2))
 
 **Output:**
 
-```
+```py
 [-1, 0, 1]
 
 ```
@@ -107,7 +107,7 @@ print(createList(r1, r2))
 
 Python numpy.arange()返回一个列表，其中包含按照间隔均匀分布的元素。这里，我们根据需要将间隔设置为 1，以获得所需的输出。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 import numpy as np
@@ -121,7 +121,7 @@ print(createList(r1, r2))
 
 **Output:**
 
-```
+```py
 [-1  0  1]
 
 ```

@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(cover)
 
 **输出:**
 
-```
+```py
 Money Heist
 https://m.media-amazon.com/images/M/MV5BZDcxOGI0MDYtNTc5NS00NDUzLWFkOTItNDIxZjI0OTllNTljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY150_CR0, 0, 101, 150_.jpg
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(cover)
 
 **输出:**
 
-```
+```py
 Sacred Games
 https://m.media-amazon.com/images/M/MV5BMjJlMjJlMzYtNmU5Yy00N2MwLWJmMjEtNWUwZWIyMGViZDgyXkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_SY150_CR0, 0, 101, 150_.jpg
 ```

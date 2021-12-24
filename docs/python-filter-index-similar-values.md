@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `zip() + defaultdict()`**
 以上方法的组合可以用来解决这个问题。在这种情况下，我们用 list 初始化 defaultdict，用 zip()绑定所有键，并使用 loop 追加所需的元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter index similar values
 # Using loop + zip() + defaultdict()
@@ -51,7 +51,7 @@ print("The filtered dictionary : " + str(dict(res))) 
 **方法 2:使用列表理解+词典理解**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用列表理解提取索引，并使用字典理解从其他关键字中进行过滤。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter index similar values
 # Using list comprehension + dictionary comprehension

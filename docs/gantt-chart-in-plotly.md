@@ -39,7 +39,7 @@ Plotly 是一个 Python 库，用于设计图形，尤其是交互式图形。�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 df = [dict(Task="A", Start='2020-01-01', Finish='2009-02-02'),
@@ -58,7 +58,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 df = [dict(Task="A", Start='2020-01-01', Finish='2009-02-02'),

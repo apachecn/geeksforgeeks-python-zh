@@ -7,7 +7,7 @@
 **方法#1:使用`set() + split()`**
 这个特殊的问题可以通过使用 split 函数来解决，该函数具有目标字符串，然后进行设置，实际上可以消除字符串的重复。
 
-```
+```py
 # Python3 code to demonstrate
 # removing duplicate substrings
 # using set() + split()
@@ -28,7 +28,7 @@ print("The list after duplicate removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['aa-aa-bb', 'bb-cc', 'gg-ff-gg', 'hh-hh']
 The list after duplicate removal : [{'aa', 'bb'}, {'cc', 'bb'}, {'gg', 'ff'}, {'hh'}]
 

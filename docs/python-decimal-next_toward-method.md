@@ -12,7 +12,7 @@
 
 **代码# 1:next _ 朝向()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_toward() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with next_toward() method : ", b.next_toward(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with next_toward() method :  0.142857
 
 **代码# 2:next _ 朝向()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_toward() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with next_toward() method : ", b.next_toward(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

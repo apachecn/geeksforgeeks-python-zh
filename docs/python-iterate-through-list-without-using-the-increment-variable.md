@@ -10,7 +10,7 @@ python**[list](https://www.geeksforgeeks.org/python-list/)很像大小灵活的�
 
 ## **蟒蛇 3**
 
-```
+```py
 # Initializing the list
 List = ["Geeks", 4, 'Geeks!']
 
@@ -22,7 +22,7 @@ for i in range(len(List)):
 
 ****输出:****
 
-```
+```py
 Geeks 4 Geeks! 
 ```
 
@@ -36,7 +36,7 @@ Geeks 4 Geeks!
 
 ## **蟒蛇 3**
 
-```
+```py
 # Initializing the list
 List = ["Geeks", 4, 'Geeks!']
 
@@ -48,7 +48,7 @@ for ele in List:
 
 ****输出:****
 
-```
+```py
 Geeks 4 Geeks! 
 ```
 
@@ -58,7 +58,7 @@ Geeks 4 Geeks!
 
 ## **蟒蛇 3**
 
-```
+```py
 # Initializing the list
 List = ["Geeks", 4, 'Geeks!']
 
@@ -69,7 +69,7 @@ for ele in enumerate(List):
 
 ****输出:****
 
-```
+```py
 Geeks 4 Geeks! 
 ```
 
@@ -79,7 +79,7 @@ Geeks 4 Geeks!
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing required modules
 import numpy
 
@@ -96,6 +96,6 @@ for ele in numpy.nditer(Array):
 
 ****输出:****
 
-```
+```py
 Geeks 4 Geeks!
 ```

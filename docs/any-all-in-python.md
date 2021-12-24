@@ -10,7 +10,7 @@
 
 **语法:**任意(可选项列表)
 
-```
+```py
 # Since all are false, false is returned
 print (any([False, False, False, False]))
 
@@ -25,7 +25,7 @@ print (any([True, False, False, False]))
 
 **输出:**
 
-```
+```py
 False
 True
 True
@@ -37,7 +37,7 @@ True
 
 **语法:**全部(可选项列表)
 
-```
+```py
 # Here all the iterables are True so all
 # will return True and the same will be printed
 print (all([True, True, True, True]))
@@ -53,7 +53,7 @@ print (all([False, False, False]))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -62,7 +62,7 @@ False
 
 **实例**
 
-```
+```py
 # This code explains how can we 
 # use 'any' function on list 
 list1 = []
@@ -82,13 +82,13 @@ print(any(list2))
 
 **输出:**
 
-```
+```py
 See whether at least one number is divisible by 5 in list 1=>
 True
 
 ```
 
-```
+```py
 # Illustration of 'all' function in python 3
 
 # Take two lists 
@@ -109,7 +109,7 @@ print(all(list2))
 
 **输出:**
 
-```
+```py
 See whether all numbers in list1 are odd =>
 True
 

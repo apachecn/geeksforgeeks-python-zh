@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -54,7 +54,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # select column with column name
 dataframe.select('student ID').show()
 ```
@@ -71,7 +71,7 @@ dataframe.select('student ID').show()
 
 ## 蟒蛇 3
 
-```
+```py
 # select multiple column with column name
 dataframe.select(['student ID', 'student NAME', 'college']).show()
 ```
@@ -88,7 +88,7 @@ dataframe.select(['student ID', 'student NAME', 'college']).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # select column with column number 1
 dataframe.select(dataframe.columns[1]).show()
 ```
@@ -105,7 +105,7 @@ dataframe.select(dataframe.columns[1]).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # select column with column number slice
 # operator
 dataframe.select(dataframe.columns[0:3]).show()

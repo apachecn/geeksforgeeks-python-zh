@@ -6,7 +6,7 @@
 
 借助下面给出的命令，我们可以创建一个窗口和增量文本布局
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -25,7 +25,7 @@ layout = pyglet.text.layout.IncrementalTextLayout(document, width, height)
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -111,7 +111,7 @@ pyglet.app.run()
 **输出:**
 ![](img/3ecd6d80a3e6f061629b8cc09efb23ad.png)
 
-```
+```py
 Point of Line : (0, 305)
 
 ```

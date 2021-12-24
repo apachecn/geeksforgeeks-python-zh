@@ -6,7 +6,7 @@
 
 **代码#1 : C 扩展函数，显示如何消费可迭代表上的项目。**
 
-```
+```py
 static PyObject* py_consume_iterable(
     PyObject* self, PyObject* args)
 {
@@ -40,20 +40,20 @@ static PyObject* py_consume_iterable(
 
 **代码#2 :**
 
-```
+```py
 import faulthandler
 faulthandler.enable()
 ```
 
 或者，使用-Xfaulthandler 选项运行 Python，如下所示:
 
-```
+```py
 bash % python3 -Xfaulthandler program.py
 ```
 
 最后，同样重要的是，可以相应地设置 PYTHONFAULTHANDLER 环境变量。启用 faulthandler 后，C 扩展中的致命错误将导致在失败时打印 Python 回溯。例如:
 
-```
+```py
 Fatal Python error: Segmentation fault
 Current thread 0x00007fff71106cc0:
 File "example.py", line 6 in foo

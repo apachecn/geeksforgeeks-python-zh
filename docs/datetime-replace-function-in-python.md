@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -45,7 +45,7 @@ print("Modified Date:", modified_date)
 
 **输出:**
 
-```
+```py
 Original Date: 2021-07-27
 Modified Date: 2000-07-27
 ```
@@ -54,7 +54,7 @@ Modified Date: 2000-07-27
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -83,7 +83,7 @@ print("Modified Date:", modified_date)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -101,7 +101,7 @@ print("Modified date and time:", modified_date)
 
 **输出:**
 
-```
+```py
 Today's date and time: 2021-07-28 09:08:47.563144
 Modified date and time: 2021-07-10 03:08:47.563144
 ```

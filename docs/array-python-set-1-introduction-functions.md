@@ -33,7 +33,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # array(), append(), insert()
 
@@ -73,7 +73,7 @@ for i in range (0, 5):
 
 **输出:**
 
-```
+```py
 The new created array is : 1 2 3 
 The appended array is : 1 2 3 4 
 The array after insertion is : 1 2 5 3 4 
@@ -84,7 +84,7 @@ The array after insertion is : 1 2 5 3 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # pop() and remove()
 
@@ -124,7 +124,7 @@ for i in range (0,3):
 
 **输出:**
 
-```
+```py
 The new created array is : 1 2 3 1 5 
 The popped element is : 3
 The array after popping is : 1 2 1 5 
@@ -136,7 +136,7 @@ The array after removing is : 2 1 5
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # index() and reverse()
 
@@ -169,7 +169,7 @@ for i in range (0,6):
 
 **输出:**
 
-```
+```py
 The new created array is : 1 2 3 1 2 5 
 The index of 1st occurrence of 2 is : 1
 The array after reversing is : 5 2 1 3 2 1

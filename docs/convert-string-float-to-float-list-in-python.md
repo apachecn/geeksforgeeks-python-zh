@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String float to float list
 # using list comprehension + split() + float()
@@ -30,7 +30,7 @@ print("The float list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 3.44, 7.8, 9.12, 100.2, 6.50
 The float list is : [3.44, 7.8, 9.12, 100.2, 6.5]
 ```
@@ -40,7 +40,7 @@ The float list is : [3.44, 7.8, 9.12, 100.2, 6.5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String float to float list
 # using map() + split() + float()
@@ -61,7 +61,7 @@ print("The float list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 3.44, 7.8, 9.12, 100.2, 6.50
 The float list is : [3.44, 7.8, 9.12, 100.2, 6.5]
 ```

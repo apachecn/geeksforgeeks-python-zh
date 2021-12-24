@@ -24,7 +24,7 @@ Python 附带了很多有用的包，比如熊猫、matplotlib、numpy 等。要
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as mp
 
@@ -51,7 +51,7 @@ mp.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as mp
 

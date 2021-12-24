@@ -43,7 +43,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import PIL module
 from PIL import Image
 

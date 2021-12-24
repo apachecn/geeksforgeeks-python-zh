@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract K sized strings
 # using list comprehension + len()
@@ -32,7 +32,7 @@ print("The K sized strings are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The K sized strings are : ['gfg', 'for']
 ```
@@ -42,7 +42,7 @@ The K sized strings are : ['gfg', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract K sized strings
 # using filter() + lambda
@@ -66,7 +66,7 @@ print("The K sized strings are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The K sized strings are : ['gfg', 'for']
 ```

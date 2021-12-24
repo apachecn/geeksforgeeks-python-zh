@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [(20, 80), (31, 80), (1, 22), (88, 11), (27, 11)]
 Output: {80: [(20, 80), (31, 80)],
          11: [(88, 11), (27, 11)],
@@ -20,7 +20,7 @@ Output: {'NotGeek': [(88, 'NotGeek'), (27, 'NotGeek')],
 
 **代码#1:**
 
-```
+```py
 # Python program to group tuples by matching 
 # second tuple value in list of tuples
 
@@ -40,14 +40,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 {80: [(20, 80), (31, 80)], 11: [(88, 11), (27, 11)], 22: [(1, 22)]}
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program to group tuples by matching 
 # second tuple value in list of tuples
 
@@ -67,7 +67,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 {'NotGeek': [(88, 'NotGeek'), (27, 'NotGeek')],
  'Geek': [(20, 'Geek'), (31, 'Geek')]}
 

@@ -7,7 +7,7 @@
 **方法#1:使用`all() + items()`**
 这个任务可以使用上述两个功能的组合来执行，其中我们使用`all()`检查子字典的所有项目，并使用`items()`获取它的每一对。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if one dictionary is subset of other
 # Using all() + items()

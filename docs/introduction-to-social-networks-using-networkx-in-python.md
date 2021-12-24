@@ -20,13 +20,13 @@ NetworkX 是一个图形包，用于创建和修改不同类型的图形。它�
 
 #### 安装:
 
-```
+```py
 pip install networkx
 ```
 
 启动 python 后，我们必须导入 networkx 模块:
 
-```
+```py
 import networkx as nx
 ```
 
@@ -41,7 +41,7 @@ import networkx as nx
 
 ## 蟒蛇 3
 
-```
+```py
 # import networkx library
 import networkx as nx
 
@@ -59,7 +59,7 @@ G.add_edge(2, 3, weight=0.9)
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib.pyplot library
 import matplotlib.pyplot as plt
 
@@ -112,7 +112,7 @@ nx.draw(G, pos = nx.circular_layout(G),
 
 ## 蟒蛇 3
 
-```
+```py
 # import networkx library
 import netwokx as nx
 
@@ -129,6 +129,6 @@ print(G.adj)
 
 **输出:**
 
-```
+```py
 {'1': {'2': {}}, '2': {'1': {}, '3': {}}, '3': {'2': {}}}
 ```

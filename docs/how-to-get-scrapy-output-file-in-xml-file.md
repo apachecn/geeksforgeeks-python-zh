@@ -10,7 +10,7 @@
 
 **第一步:创建一个剪贴簿项目**
 
-```
+```py
 scrapy startproject gfgdemo
 ```
 
@@ -28,7 +28,7 @@ scrapy startproject gfgdemo
 
 ## 蟒蛇 3
 
-```
+```py
 # only keep the base domain
 allowed_domains = ['www.worldometers.info'] 
 
@@ -53,7 +53,7 @@ start_urls = ['https://www.worldometers.info/world-population/population-by-coun
 
 ## 蟒蛇 3
 
-```
+```py
 def parse(self, response):
         countries = response.xpath("//tr")
 
@@ -71,7 +71,7 @@ def parse(self, response):
 
 在命令行中，编写以下命令来收集国家名称及其人口的数据。
 
-```
+```py
 scrapy crawl population
 ```
 
@@ -81,7 +81,7 @@ scrapy crawl population
 
 **为了将数据提取为 XML 文件，我们在命令行中编写了以下代码。**
 
-```
+```py
 scrapy crawl {spider} -o {filename}.xml
 Ex: scrapy crawl population -o data.xml
 ```
@@ -94,7 +94,7 @@ Ex: scrapy crawl population -o data.xml
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" encoding="utf-8"?>
 <items>
 <item><name>None</name><population>None</population></item>

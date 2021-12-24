@@ -6,14 +6,14 @@
 
 ### **Python 集 issubset()语法:**
 
-```
+```py
 A.issubset(B)
 checks whether A is a subset of B or not.
 ```
 
 ### Python 集 isubset()返回:
 
-```
+```py
 returns true if A is a subset of B otherwise false.
 ```
 
@@ -25,7 +25,7 @@ returns true if A is a subset of B otherwise false.
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate working of
 # issubset().
 
@@ -42,7 +42,7 @@ print(B.issubset(A))
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -51,7 +51,7 @@ False
 
 ## 计算机编程语言
 
-```
+```py
 # Another Python program to demonstrate working
 # of issubset().
 A = {1, 2, 3}
@@ -74,7 +74,7 @@ print(C.issubset(B))
 
 **输出:**
 
-```
+```py
 True
 False
 False

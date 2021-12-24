@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract words starting with K in String List
 # Using loop + split()
@@ -48,7 +48,7 @@ print("The filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg is best', 'Gfg is for geeks', 'I love G4G']
 The filtered elements : ['Gfg', 'Gfg', 'geeks', 'G4G']
 
@@ -60,7 +60,7 @@ The filtered elements : ['Gfg', 'Gfg', 'geeks', 'G4G']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract words starting with K in String List
 # Using list comprehension + split() 
@@ -81,7 +81,7 @@ print("The filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg is best', 'Gfg is for geeks', 'I love G4G']
 The filtered elements : ['Gfg', 'Gfg', 'geeks', 'G4G']
 

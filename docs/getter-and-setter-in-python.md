@@ -11,7 +11,7 @@
 
 为了实现 getters & setters 属性，如果我们定义正常的`get()`和`set()`方法，它将不会反映任何特殊的实现。例如
 
-```
+```py
 # Python program showing a use
 # of get() and set() method in
 # normal function
@@ -41,7 +41,7 @@ print(raj._age)
 
 **输出:**
 
-```
+```py
 21
 21
 
@@ -53,7 +53,7 @@ print(raj._age)
 
 在 Python 中`property()`是一个创建并返回属性对象的内置函数。属性对象有三种方法，getter()、setter()和 delete()。Python 中的`property()` 函数有四个参数`property(fget, fset, fdel, doc)`，`fget`是一个检索属性值的函数。`fset`是设置属性值的功能。`fdel`是删除属性值的功能。`doc`为属性创建文档字符串。一个属性对象有三种方法，`getter()`、`setter()`、`delete()`分别指定`fget`、`fset`和`fdel`。例如
 
-```
+```py
 # Python program showing a
 # use of property() function
 
@@ -86,7 +86,7 @@ print(mark.age)
 
 **Output:**
 
-```
+```py
 setter method called
 getter method called
 10
@@ -99,7 +99,7 @@ getter method called
 
 在之前的方法中，我们使用了`property()`函数来实现获取和设置行为。然而，正如本文前面提到的，post getters 和 setters 也用于验证属性值的获取和设置。还有一种方法可以实现属性功能，即使用[装饰器](https://www.geeksforgeeks.org/decorators-in-python/)。Python @property 是内置装饰器之一。任何装饰器的主要目的都是改变你的类方法或属性，这样你的类的用户就不需要在他们的代码中做任何改变。例如
 
-```
+```py
 # Python program showing the use of
 # @property
 
@@ -131,7 +131,7 @@ print(mark.age)
 
 **输出:**
 
-```
+```py
 setter method called
 getter method called
 19

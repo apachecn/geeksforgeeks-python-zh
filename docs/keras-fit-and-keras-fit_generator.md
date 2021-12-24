@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 fit(object, x = NULL, y = NULL, batch_size = NULL, epochs = 10,
   verbose = getOption("keras.fit_verbose", default = 1),
   callbacks = NULL, view_metrics = getOption("keras.view_metrics",
@@ -20,7 +20,7 @@ fit(object, x = NULL, y = NULL, batch_size = NULL, epochs = 10,
 
 **理解几个重要论点:**
 
-```
+```py
 
 -> object : the model to train.      
 -> X : our training data. Can be Vector, array or matrix      
@@ -38,7 +38,7 @@ one epoch has finished and started the next epoch. By default it values is set t
 
 **如何使用 Keras fit:**
 
-```
+```py
 model.fit(Xtrain, Ytrain, batch_size = 32, epochs = 100)
 ```
 
@@ -55,7 +55,7 @@ model.fit(Xtrain, Ytrain, batch_size = 32, epochs = 100)
 
 **语法:**
 
-```
+```py
 fit_generator(object, generator, steps_per_epoch, epochs = 1,
   verbose = getOption("keras.fit_verbose", default = 1),
   callbacks = NULL, view_metrics = getOption("keras.view_metrics",
@@ -66,7 +66,7 @@ fit_generator(object, generator, steps_per_epoch, epochs = 1,
 
 **理解几个重要论点:**
 
-```
+```py
 
 -> object : the Keras Object model.
 -> generator : a generator whose output must be a list of the form:
@@ -95,7 +95,7 @@ in your dataset divided by the validation batch size.
 
 **如何使用 Keras fit_generator:**
 
-```
+```py
 # performing data argumentation by training image generator
 dataAugmentaion = ImageDataGenerator(rotation_range = 30, zoom_range = 0.20, 
 fill_mode = "nearest", shear_range = 0.20, horizontal_flip = True, 

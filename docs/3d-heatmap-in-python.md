@@ -17,7 +17,7 @@
 
  **## 蟒 3
 
-```
+```py
 # 3D Heatmap in Python using matplotlib
 
 # to make plot interactive 

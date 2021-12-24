@@ -5,7 +5,7 @@
 一般来说，可调用是可以调用的东西。Python 中的这个内置方法检查并返回 True，如果传递的对象看起来是可调用的，但可能不是，否则返回 False。
 <font size="">**语法:**</font>
 
-```
+```py
 callable(object)
 ```
 
@@ -18,7 +18,7 @@ callable()方法只接受一个参数和一个对象，并返回两个值之一:
 
 **情况:当对象可调用时**
 
-```
+```py
 # Python program to illustrate 
 # callable()
 # a test function
@@ -36,7 +36,7 @@ print(callable(num))
 
 输出:
 
-```
+```py
 True
 False
 
@@ -54,7 +54,7 @@ False
 
 示例:
 
-```
+```py
 # Python program to illustrate 
 # callable()
 class Geek:
@@ -71,7 +71,7 @@ GeekObject()
 
 输出:
 
-```
+```py
 True
 Hello GeeksforGeeks
 
@@ -83,7 +83,7 @@ Hello GeeksforGeeks
 
 让我们看看这个例子会发生什么:
 
-```
+```py
 # Python program to illustrate 
 # callable()
 class Geek:
@@ -101,14 +101,14 @@ GeekObject()
 
 输出:
 
-```
+```py
 True
 
 ```
 
 **解释:**callable()方法返回 True，提示 Geek 类是可调用的，但是 Geek 的实例是不可调用的()，它返回一个运行时错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/3979dc83032f2d29befe45b6ee6001a4.py", line 10, in 
     GeekObject()

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flatten Dictionary with List
 # Using get() + list comprehension
@@ -43,7 +43,7 @@ print("The list after substitution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'For', 'Geeks']
 The list after substitution : ['Gfg', 7, 'is', 'Best', 'For', 'Geeks', 8]
 
@@ -55,7 +55,7 @@ The list after substitution : ['Gfg', 7, 'is', 'Best', 'For', 'Geeks', 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flatten Dictionary with List
 # Using chain.from_iterable() + list comprehension 
@@ -82,7 +82,7 @@ print("The list after substitution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'For', 'Geeks']
 The list after substitution : ['Gfg', 7, 'is', 'Best', 'For', 'Geeks', 8]
 

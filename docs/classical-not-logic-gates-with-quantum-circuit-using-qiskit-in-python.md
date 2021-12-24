@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中运行以下命令:
 
-```
+```py
 pip3 install qiskit
 ```
 
@@ -29,7 +29,7 @@ pip3 install qiskit
 
 ## 蟒蛇 3
 
-```
+```py
 # importing qiskit
 from qiskit import * 
 

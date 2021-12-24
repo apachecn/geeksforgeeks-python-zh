@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Strings with successive Alphabets
 # Using ord() + loop
@@ -46,7 +46,7 @@ print("Strings with alphabetic consecution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Strings with alphabetic consecution : ['gfg', 'best']
 
@@ -58,7 +58,7 @@ Strings with alphabetic consecution : ['gfg', 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Strings with successive Alphabets
 # Using any() + filter() + lambda
@@ -79,7 +79,7 @@ print("Strings with alphabetic consecution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Strings with alphabetic consecution : ['gfg', 'best']
 

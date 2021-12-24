@@ -7,7 +7,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。Kivy 是一个用 Python 构�
 **音频小部件:**
 该模块用于在 kivy 中加载音频文件。
 
-```
+```py
  from kivy.core.audio import SoundLoader 
 ```
 
@@ -15,7 +15,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。Kivy 是一个用 Python 构�
 
 **注意:**只能用“”导入音频文件。wav 格式。
 
-```
+```py
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.audio import SoundLoader
@@ -41,7 +41,7 @@ myApp.run()
 
 **。上述代码的 kv 文件[Sample.kv]:**
 
-```
+```py
 <Tester>:
     orientation: "vertical"
     spacing: 50

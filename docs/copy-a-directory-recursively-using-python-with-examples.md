@@ -23,7 +23,7 @@ shutil.copytree()方法递归地将以源(src)为根的整个目录树复制到�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copytree() method 
 
 # importing shutil module 
@@ -62,7 +62,7 @@ destination = shutil.copytree(src, dest) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.copytree()
 
@@ -105,7 +105,7 @@ except OSError as err:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.copytree()
 
@@ -150,7 +150,7 @@ shutil.copytree(src, dest, ignore = ignoreFunc('a'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.copytree()
 

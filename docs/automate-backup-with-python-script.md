@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import shutil
 from datetime import date
 import os
@@ -23,7 +23,7 @@ import sys
 
 ## 蟒 3
 
-```
+```py
 today = date.today()
 date_format = today.strftime("%d_%b_%Y_")
 ```
@@ -32,7 +32,7 @@ date_format = today.strftime("%d_%b_%Y_")
 
 ## 蟒 3
 
-```
+```py
 src_dir = src_dir+src_file_name
 ```
 
@@ -40,7 +40,7 @@ src_dir = src_dir+src_file_name
 
 ## 蟒 3
 
-```
+```py
 os.chdir(sys.path[0])
 ```
 
@@ -48,7 +48,7 @@ os.chdir(sys.path[0])
 
 ## 蟒蛇 3
 
-```
+```py
 if not src_file_name:
    print("Please give atleast the Source File Name")
 ```
@@ -59,7 +59,7 @@ if not src_file_name:
 
 ## 蟒 3
 
-```
+```py
 if src_file_name and dst_file_name and src_dir and dst_dir:
      src_dir = src_dir+src_file_name
      dst_dir = dst_dir+dst_file_name
@@ -69,7 +69,7 @@ if src_file_name and dst_file_name and src_dir and dst_dir:
 
 ## 蟒 3
 
-```
+```py
 elif dst_file_name is None or not dst_file_name:
        dst_file_name = src_file_name
        dst_dir = dst_dir+date_format+dst_file_name
@@ -79,7 +79,7 @@ elif dst_file_name is None or not dst_file_name:
 
 ## 蟒 3
 
-```
+```py
 elif dst_file_name.isspace():
       dst_file_name = src_file_name
       dst_dir = dst_dir+date_format+dst_file_name
@@ -89,7 +89,7 @@ elif dst_file_name.isspace():
 
 ## 蟒 3
 
-```
+```py
 else:
       dst_dir = dst_dir+date_format+dst_file_name
 ```

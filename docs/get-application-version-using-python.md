@@ -10,7 +10,7 @@
 
 在开始之前，我们需要安装模块
 
-```
+```py
 pip install pywin32
 ```
 
@@ -18,19 +18,19 @@ pip install pywin32
 
 *   **GetFileVersionInfo:** 此方法用于检索给定文件的版本信息
 
-```
+```py
 GetFileVersionInfo(File Path, SubBlock, **attr)
 ```
 
 *   **LOWORD:**win 32 API LOWORD 宏的接口。值是整数数据类型
 
-```
+```py
 LOWORD(val)
 ```
 
 *   **HIWORD:**win 32 API HIWORD 宏的接口。值是整数数据类型
 
-```
+```py
 HIWORD(val)
 ```
 
@@ -43,7 +43,7 @@ HIWORD(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from win32api import *
 
@@ -66,7 +66,7 @@ print(version)
 
 **输出:**
 
-```
+```py
 88.0.4324.104
 ```
 
@@ -74,7 +74,7 @@ print(version)
 
 这里将使用 win32com 模块。在开始之前，我们需要安装模块
 
-```
+```py
 pip install pypiwin32
 ```
 
@@ -87,7 +87,7 @@ pip install pypiwin32
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from win32com.client import *
 
@@ -105,6 +105,6 @@ print(version)
 
 **输出:**
 
-```
+```py
 88.0.4324.104
 ```

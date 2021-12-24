@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : sentence = ['I love tea', 'He hates tea', 'We love tea']
         words = ['love', 'tea']
 Output : ['I love tea', 'We love tea']
@@ -21,7 +21,7 @@ Output : ['coder in geeksforgeeks']
 
 我们首先使用列表理解，为句子列表的每个子串返回一个布尔值，并将其存储在“res”中。最后，根据“res”中的布尔值返回包含所需句子的列表。
 
-```
+```py
 # Python3 program to Check if given words 
 # appear together in a list of sentence
 
@@ -37,7 +37,7 @@ print(check(sentence, words))
 
 **Output:**
 
-```
+```py
 ['coder in geeksforgeeks']
 
 ```
@@ -46,7 +46,7 @@ print(check(sentence, words))
 
 对于句子列表中的每个子串，它检查当前子串中有多少单词，并将其存储在变量“k”中。如果“k”的长度与单词列表的长度匹配，只需将其附加到“res”中。
 
-```
+```py
 # Python3 program to Check if given words 
 # appear together in a list of sentence
 
@@ -67,7 +67,7 @@ print(check(sentence, words))
 
 **Output:**
 
-```
+```py
 ['coder in geeksforgeeks']
 
 ```
@@ -76,7 +76,7 @@ print(check(sentence, words))
 
 `map()`方法对句子列表应用一个函数，并通过拆分单词列表来检查列表中是否包含所有单词。它为句子列表的每个子串返回一个布尔值，并将其存储在“res”中。最后，重复与方法#1 相同的步骤。
 
-```
+```py
 # Python3 program to Check if given words 
 # appear together in a list of sentence
 
@@ -93,7 +93,7 @@ print(check(sentence, words))
 
 **Output:**
 
-```
+```py
 ['coder in geeksforgeeks']
 
 ```

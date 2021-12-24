@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add Space between Potential Words
 # Using loop + join()
@@ -52,7 +52,7 @@ print("The space added list of strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfgBest', 'forGeeks', 'andComputerScience']
 The space added list of strings : ['gfg Best', 'for Geeks', 'and Computer Science']
 ```
@@ -63,7 +63,7 @@ The space added list of strings : ['gfg Best', 'for Geeks', 'and Computer Scienc
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add Space between Potential Words
 # Using regex() + list comprehension
@@ -84,7 +84,7 @@ print("The space added list of strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfgBest', 'forGeeks', 'andComputerScience']
 The space added list of strings : ['gfg Best', 'for Geeks', 'and Computer Science']
 ```

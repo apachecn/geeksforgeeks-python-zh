@@ -6,7 +6,7 @@
 为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mhotas.demos.nuclear_image()
 ```
 
@@ -25,7 +25,7 @@ mhotas.demos.nuclear_image()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -69,7 +69,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

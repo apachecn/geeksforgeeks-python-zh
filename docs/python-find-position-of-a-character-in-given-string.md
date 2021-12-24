@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to find the first position of the character
 # in a given string
@@ -36,7 +36,7 @@ else:
 
 **Output:** 
 
-```
+```py
 initial_string :  abcdef 
 character_to_find :  b
 Character b is present at 2
@@ -47,7 +47,7 @@ Character b is present at 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to find first position of character
 # in a given string
@@ -83,7 +83,7 @@ else:
 
 **输出:**
 
-```
+```py
 initial_strings :  abcdef   xyze  
 character_to_find :  b
 Character b in string abcdef is present at 2
@@ -96,7 +96,7 @@ No such character available in string xyze
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to find first position of character
 # in a given string
@@ -121,7 +121,7 @@ except ValueError as e:
 
 **输出:**
 
-```
+```py
 initial_strings :  xyze  
 character_to_find :  b
 No such character available in string xyze

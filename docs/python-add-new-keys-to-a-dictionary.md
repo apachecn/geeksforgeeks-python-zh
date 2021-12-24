@@ -10,7 +10,7 @@
 
 先创建一个字典。
 
-```
+```py
 # Let's create a dictionary, the functional way
 
 # Create your dictionary class
@@ -35,7 +35,7 @@ print(dict_obj)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 2: 'forGeeks'}
 ```
 
@@ -43,7 +43,7 @@ print(dict_obj)
 
 此方法将通过为一个键赋值，在字典上创建一个新的键/值对。如果键不存在，它将被添加并指向该值。如果该键存在，它所指向的当前值将被覆盖。
 
-```
+```py
 dict = {'key1':'geeks', 'key2':'fill_me'}
 print("Current Dict is: ", dict)
 
@@ -56,7 +56,7 @@ print("Updated Dict is: ", dict)
 
 **输出:**
 
-```
+```py
 Current Dict is:  {'key1': 'geeks', 'key2': 'fill_me'}
 Updated Dict is:  {'key3': 'geeks', 'key1': 'geeks', 'key2': 'for'}
 ```
@@ -65,7 +65,7 @@ Updated Dict is:  {'key3': 'geeks', 'key1': 'geeks', 'key2': 'for'}
 
 当我们需要更新/添加大量的键/值到字典中时，`update()`方法是合适的。
 
-```
+```py
 dict = {'key1':'geeks', 'key2':'for'}
 print("Current Dict is: ", dict)
 
@@ -85,7 +85,7 @@ print(dict)
 
 **输出:**
 
-```
+```py
 Current Dict is:  {'key2': 'for', 'key1': 'geeks'}
 Updated Dict is:  {'key2': 'for', 'key3': 'geeks', 'key1': 'geeks'}
 
@@ -99,7 +99,7 @@ Updated Dict is:  {'key2': 'for', 'key3': 'geeks', 'key1': 'geeks'}
 
 应避免使用 `__setitem__` 方法，因为其性能较差(计算效率低)。
 
-```
+```py
 dict = {'key1':'geeks', 'key2':'for'}
 
 # using __setitem__ method
@@ -109,7 +109,7 @@ print(dict)
 
 **输出:**
 
-```
+```py
 {'key2': 'for', 'newkey2': 'GEEK', 'key1': 'geeks'}
 ```
 
@@ -117,7 +117,7 @@ print(dict)
 
 使用这种方法，我们可以将旧字典和新的键/值对合并到另一个字典中。
 
-```
+```py
 dict = {'a': 1, 'b': 2}
 
 # will create a new dictionary
@@ -129,7 +129,7 @@ print(new_dict)
 
 **输出:**
 
-```
+```py
 {'b': 2, 'a': 1}
 {'b': 2, 'c': 3, 'a': 1}
 ```

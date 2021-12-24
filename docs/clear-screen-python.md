@@ -5,7 +5,7 @@
 大多数时候，在使用 python interactive shell/terminal(而不是控制台)时，我们最终会得到一个混乱的输出，并且出于某种原因想要清除屏幕。
 在交互式外壳/终端中，我们可以简单地使用
 
-```
+```py
 ctrl+l
 ```
 
@@ -14,7 +14,7 @@ ctrl+l
 
 我们可以使用 ANSI 转义序列，但这些是不可移植的，可能不会产生所需的输出。
 
-```
+```py
 print(chr(27)+'[2j')
 print('\033c')
 print('\x1bc')
@@ -28,7 +28,7 @@ print('\x1bc')
 > 4.  Store the return value in underline or any variable you want (underline is used because python shell always stores its final output in underline).
 > 5.  Call the function we defined.
 
-```
+```py
 # import only system from os
 from os import system, name
 
@@ -60,7 +60,7 @@ clear()
 
 实现这一点的另一种方法是使用子流程模块。
 
-```
+```py
 # import call method from subprocess module
 from subprocess import call
 

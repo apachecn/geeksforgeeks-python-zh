@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表切片**
 这个任务可以使用循环以暴力的方式执行。在这种情况下，我们运行一个跳过 K(所需行大小)的循环，以提前调整数字加法。
 
-```
+```py
 # Python3 code to demonstrate 
 # Incremental K sized Row Matrix Initialization
 # using loop + list slicing
@@ -28,7 +28,7 @@ print ("The Incremental Initialized Matrix is : " + str(res))
 
 **Output :**
 
-```
+```py
 The Incremental Initialized Matrix is : [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 ```

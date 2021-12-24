@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def a_decorator(func):
     def wrapper(*args, **kwargs):
         """A wrapper function"""
@@ -40,7 +40,7 @@ print(second_function.__doc__)
 
 **Output:**
 
-```
+```py
 wrapper
 A wrapper function
 wrapper
@@ -52,7 +52,7 @@ A wrapper function
 
 ## 蟒蛇 3
 
-```
+```py
 print("First Function")
 help(first_function)
 
@@ -62,7 +62,7 @@ help(second_function)
 
 **Output:** 
 
-```
+```py
 First Function
 Help on function wrapper in module __main__:
 
@@ -81,7 +81,7 @@ wrapper(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 def a_decorator(func):
     def wrapper(*args, **kwargs):
         """A wrapper function"""
@@ -109,7 +109,7 @@ print(second_function.__doc__)
 
 **Output:**
 
-```
+```py
 first_function
 This is docstring for first function
 second_function
@@ -121,7 +121,7 @@ This is docstring for second function
 
 ## 蟒蛇 3
 
-```
+```py
 print("First Function")
 help(first_function)
 
@@ -133,7 +133,7 @@ help(second_function)
 
 **Output:** 
 
-```
+```py
 First Function
 Help on function first_function in module __main__:
 
@@ -153,7 +153,7 @@ second_function(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 from functools import wraps
 
 def a_decorator(func):
@@ -183,7 +183,7 @@ print(second_function.__doc__)
 
 **Output:** 
 
-```
+```py
 first_function
 This is docstring for first function
 second_function
@@ -194,7 +194,7 @@ This is docstring for second function
 
 ## 蟒蛇 3
 
-```
+```py
 print("First Function")
 help(first_function)
 
@@ -204,7 +204,7 @@ help(second_function)
 
 **Output:** 
 
-```
+```py
 First Function
 Help on function first_function in module __main__:
 

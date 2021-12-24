@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import sys
 
@@ -26,7 +26,7 @@ print(sys.getsizeof(d))
 
 **输出:**
 
-```
+```py
 240
 ```
 
@@ -34,7 +34,7 @@ print(sys.getsizeof(d))
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import sys
 
@@ -45,7 +45,7 @@ print(sys.getsizeof(d))
 
 **输出:**
 
-```
+```py
 240
 ```
 
@@ -57,7 +57,7 @@ print(sys.getsizeof(d))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 d = {}
@@ -68,14 +68,14 @@ print("Size of a ->", sys.getsizeof('a'))
 
 **Output**
 
-```
+```py
 Size of dictionary -> 240
 Size of a -> 50
 ```
 
 **输出:**
 
-```
+```py
 Size of dictionary -> 240
 Size of a -> 50
 ```
@@ -84,7 +84,7 @@ Size of a -> 50
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import sys
 
@@ -99,7 +99,7 @@ print(sys.getsizeof(d))
 
 **输出:**
 
-```
+```py
 0
 240
 ```
@@ -110,7 +110,7 @@ print(sys.getsizeof(d))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 d = {}
@@ -125,7 +125,7 @@ print(sys.getsizeof(d))
 
 **输出:**
 
-```
+```py
 0
 72
 ```

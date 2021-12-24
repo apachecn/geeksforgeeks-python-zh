@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy
@@ -30,7 +30,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 TypeError: no numeric data to plot
 ```
 
@@ -38,7 +38,7 @@ TypeError: no numeric data to plot
 
 当我们绘制的数据类型不同于此错误引发的数字数据时，只能对数字数据进行绘制。要知道数据类型是否是数字，我们可以使用函数 [dtypes()](https://www.geeksforgeeks.org/python-pandas-dataframe-dtypes/) 来知道。
 
-```
+```py
 print(df.dtypes)
 ```
 
@@ -52,7 +52,7 @@ print(df.dtypes)
 
 **语法:**
 
-```
+```py
 df['column_name']= df['column_name'].astype(data_type)
 ```
 
@@ -62,7 +62,7 @@ df['column_name']= df['column_name'].astype(data_type)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy
@@ -94,7 +94,7 @@ plt.show()
 
 **语法:**
 
-```
+```py
 df['column_name'] = pd.to_numeric(df['column_name'])
 ```
 
@@ -104,7 +104,7 @@ df['column_name'] = pd.to_numeric(df['column_name'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy

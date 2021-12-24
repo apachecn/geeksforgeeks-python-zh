@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 db.collection_name.drop_indexes()
 ```
 
@@ -24,7 +24,7 @@ db.collection_name.drop_indexes()
 
 **示例 1:向集合添加索引**
 
-```
+```py
 import pprint 
 import pymongo 
 
@@ -57,7 +57,7 @@ pprint.pprint(collection.index_information()) 
 
 **示例 2:从集合中删除索引**
 
-```
+```py
 import pprint 
 import pymongo 
 

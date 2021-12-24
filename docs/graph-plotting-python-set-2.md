@@ -11,7 +11,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -75,19 +75,19 @@ plt.show()
 
 让我们一步一步来看这个程序:
 
-```
+```py
 plt.style.use('fivethirtyeight')
 ```
 
 *   可以通过设置不同的可用样式或您自己的样式来配置地块的样式。你可以在这里了解更多关于这个功能
 
-```
+```py
 fig = plt.figure()
 ```
 
 *   图作为所有绘图元素的顶层容器。所以，我们定义一个图形为**图形**，它将包含我们所有的支线剧情。
 
-```
+```py
 plt1 = fig.add_subplot(221)
 plt2 = fig.add_subplot(222)
 plt3 = fig.add_subplot(223)
@@ -96,7 +96,7 @@ plt4 = fig.add_subplot(224)
 
 *   这里我们使用 fig.add_subplot 方法来定义子图及其位置。功能原型是这样的:
 
-```
+```py
 add_subplot(nrows, ncols, plot_number)
 ```
 
@@ -106,7 +106,7 @@ add_subplot(nrows, ncols, plot_number)
 
 ![](img/ecce32b057dbe0d1286f820422d2fada.png)
 
-```
+```py
 x, y = create_plot('linear')
 plt1.plot(x, y, color ='r')
 plt1.set_title('$y_1 = x{content}apos;)
@@ -115,13 +115,13 @@ plt1.set_title('$y_1 = x{content}apos;)
 *   接下来，我们在每个支线剧情上画出我们的点。首先，我们通过指定我们想要的曲线类型，使用 **create_plot** 函数生成 x 和 y 轴坐标。
     然后，我们使用**在支线剧情中绘制这些点。**剧情法。使用 **set_title** 方法设置子剧情的标题。在标题文本的开头和结尾使用 **$** 将确保‘_’(下划线)被视为下标，'^'被视为上标。
 
-```
+```py
 fig.subplots_adjust(hspace=.5,wspace=0.5)
 ```
 
 *   这是另一种在子情节之间创造空间的实用方法。
 
-```
+```py
 plt.show()
 ```
 
@@ -131,7 +131,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -185,7 +185,7 @@ plt.show()
 
 让我们也来看看这个项目的重要部分:
 
-```
+```py
 plt1 = plt.subplot2grid((11,1), (0,0), rowspan = 3, colspan = 1)
 plt2 = plt.subplot2grid((11,1), (4,0), rowspan = 3, colspan = 1)
 plt3 = plt.subplot2grid((11,1), (8,0), rowspan = 3, colspan = 1)
@@ -203,20 +203,20 @@ plt3 = plt.subplot2grid((11,1), (8,0), rowspan = 3, colspan = 1)
 
 *   在我们的例子中，每个子图跨越 3 行 1 列，有 2 个空行(第 4、8 行)。
 
-```
+```py
 x, y = create_plot('sin')
 plt1.plot(x, y, label = 'sine wave', color ='b')
 ```
 
 *   这一部分没有什么特别之处，因为在一个子情节上绘制点的语法保持不变。
 
-```
+```py
 plt1.legend()
 ```
 
 *   这将在图上显示子剧情的标签。
 
-```
+```py
 plt.show()
 ```
 
@@ -232,7 +232,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -270,19 +270,19 @@ plt.show()
 
 *   现在让我们试着理解这段代码的一些重要方面。
 
-```
+```py
 from mpl_toolkits.mplot3d import axes3d
 ```
 
 *   这是在三维空间绘图所需的模块。
 
-```
+```py
 ax1 = fig.add_subplot(111, projection='3d')
 ```
 
 *   这里，我们在图上创建一个子场景，并将投影参数设置为 3d。
 
-```
+```py
 ax1.scatter(x, y, z, c = 'm', marker = 'o')
 ```
 
@@ -291,7 +291,7 @@ ax1.scatter(x, y, z, c = 'm', marker = 'o')
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
@@ -329,7 +329,7 @@ plt.show()
 
 *   这个程序与前一个程序的主要区别是:
 
-```
+```py
 ax1.plot_wireframe(x,y,z)
 ```
 
@@ -338,7 +338,7 @@ ax1.plot_wireframe(x,y,z)
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
@@ -389,7 +389,7 @@ plt.show()
 
 *   让我们来看看这个项目的重要方面:
 
-```
+```py
 x = [1,2,3,4,5,6,7,8,9,10]
 y = [4,3,1,6,5,3,7,5,3,7]
 z = np.zeros(10)
@@ -397,7 +397,7 @@ z = np.zeros(10)
 
 *   这里，我们定义了条形的基本位置。设置 z = 0 意味着所有条都从 XY 平面开始。
 
-```
+```py
 dx = np.ones(10)              # length along x-axis
 dy = np.ones(10)              # length along y-axs
 dz = [1,3,4,2,6,7,5,5,10,9]   # height of bar
@@ -405,7 +405,7 @@ dz = [1,3,4,2,6,7,5,5,10,9]   # height of bar
 
 *   dx、dy、dz 表示棒材的尺寸。把杆看成一个长方体，那么 dx，dy，dz 分别是它沿 x，y，z 轴的展开式。
 
-```
+```py
 for h in dz:
     if h > 5:
         color.append('r')
@@ -415,7 +415,7 @@ for h in dz:
 
 *   在这里，我们将每个条形的颜色设置为列表。对于高度大于 5 的条形，配色方案为红色，否则为蓝色。
 
-```
+```py
 ax1.bar3d(x, y, z, dx, dy, dz, color = color)
 ```
 
@@ -424,7 +424,7 @@ ax1.bar3d(x, y, z, dx, dy, dz, color = color)
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
@@ -461,14 +461,14 @@ plt.show()
 *   这里，我们绘制了一个球体作为网格。
     让我们来看一些重要的部分:
 
-```
+```py
 u, v = np.mgrid[0:2*np.pi:200j, 0:np.pi:100j]
 ```
 
 *   我们使用 np.mgrid 来获取点，这样我们就可以创建一个网格。
     你可以在这里阅读更多关于这个[的内容。](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mgrid.html)
 
-```
+```py
 x=np.cos(u)*np.sin(v)
 y=np.sin(u)*np.sin(v)
 z=np.cos(v)
@@ -476,7 +476,7 @@ z=np.cos(v)
 
 *   这不过是球体的参数方程。
 
-```
+```py
 ax1.plot_wireframe(x, y, z, rstride = 5, cstride = 5, linewidth = 1)
 ```
 

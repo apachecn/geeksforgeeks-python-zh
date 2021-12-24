@@ -8,7 +8,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.find_element_by_css_selector("CSS Selectors")
 ```
 
@@ -18,7 +18,7 @@ driver.find_element_by_css_selector("CSS Selectors")
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <body>
   <p class="content">Site content goes here.</p>
@@ -29,7 +29,7 @@ driver.find_element_by_css_selector("CSS Selectors")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 content = driver.find_element_by_css_selector('p.content') 
 ```
 
@@ -41,7 +41,7 @@ content = driver.find_element_by_css_selector('p.content')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -66,7 +66,7 @@ print(element)
 
 现在使用运行–
 
-```
+```py
 Python run.py
 ```
 

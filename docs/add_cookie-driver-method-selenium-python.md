@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 add_cookie(cookie_dict)
 ```
 
 **示例–**
 现在可以使用 add_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’})
 
 ```
@@ -26,7 +26,7 @@ driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’})
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -17,7 +17,7 @@
 
 **全球网络类:**
 
-```
+```py
 # Defining the Network class
 class AC_Network():
 ```
@@ -26,7 +26,7 @@ class AC_Network():
 
 **初始化类:**
 
-```
+```py
 # Initializing the class
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
@@ -47,7 +47,7 @@ def __init__(self, s_size, a_size, scope, trainer):
                                           256, activation_fn = tf.nn.elu)
 ```
 
-```
+```py
 -> tf.placeholder()       - Inserts a placeholder for a tensor that will always be fed.
 -> tf.reshape()           - Reshapes the input tensor
 -> slim.conv2d()          - Adds an n-dimensional convolutional network
@@ -63,7 +63,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **建设循环网络:**
 
-```
+```py
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
            . . . . . . . . . . 
@@ -90,7 +90,7 @@ def __init__(self, s_size, a_size, scope, trainer):
             rnn_out = tf.reshape(lstm_outputs, [-1, 256])
 ```
 
-```
+```py
 -> tf.nn.rnn_cell.BasicLSTMCell()  - Builds a basic LSTM Recurrent network cell
 -> tf.expand_dims()                - Inserts a dimension of 1 at the dimension index
                                      axis of input's shape
@@ -105,7 +105,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **构建价值和政策估算的输出层:**
 
-```
+```py
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
            . . . . . . . . . . 
@@ -125,7 +125,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **建立主网络并部署工作人员:**
 
-```
+```py
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
            . . . . . . . . . . 
@@ -149,7 +149,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **运行并行张量流操作:**
 
-```
+```py
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
            . . . . . . . . . . 
@@ -174,7 +174,7 @@ def __init__(self, s_size, a_size, scope, trainer):
                coord.join(worker_threads)
 ```
 
-```
+```py
 -> tf.Session()                    - A class to run the Tensorflow operations
 -> tf.train.Coordinator()          - Returns a coordinator for the multiple threads
 -> tf.train.get_checkpoint_state() - Returns a valid checkpoint state
@@ -187,7 +187,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **更新全局网络参数:**
 
-```
+```py
 def __init__(self, s_size, a_size, scope, trainer):
         with tf.variable_scope(scope):
            . . . . . . . . . . 
@@ -228,7 +228,7 @@ def __init__(self, s_size, a_size, scope, trainer):
                         zip(grads, global_vars))
 ```
 
-```
+```py
 -> tf.one_hot()              - Returns a one-hot encoded tensor
 -> tf.reduce_sum()           - Reduces the input tensor along the input dimensions
 -> tf.gradients()            - Constructs the symbolic derivatives of the sum
@@ -240,7 +240,7 @@ def __init__(self, s_size, a_size, scope, trainer):
 
 **定义将一个网络的参数复制到另一个网络的效用函数:**
 
-```
+```py
 def update_target_graph(from_scope, to_scope):
     from_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, from_scope)
     to_vars = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, to_scope)
@@ -251,7 +251,7 @@ def update_target_graph(from_scope, to_scope):
     return op_holder
 ```
 
-```
+```py
 -> tf.get_collection() - Returns the list of values in the collection with the given name.
 
 ```
@@ -260,7 +260,7 @@ def update_target_graph(from_scope, to_scope):
 
 **定义类别:**
 
-```
+```py
 # Defining the Worker Class
 class Worker():
 ```
@@ -269,7 +269,7 @@ class Worker():
 
 **初始化类:**
 
-```
+```py
 # Initializing the class
 def __init__(self, game, name, s_size, a_size, trainer, saver, model_path):
 
@@ -280,7 +280,7 @@ def __init__(self, game, name, s_size, a_size, trainer, saver, model_path):
 
 **定义工作人员与其环境交互的功能:**
 
-```
+```py
 def work(self, max_episode_length, gamma, global_AC, sess, coord):
     episode_count = 0
     total_step_count = 0
@@ -333,7 +333,7 @@ def work(self, max_episode_length, gamma, global_AC, sess, coord):
                     episode_step_count += 1
 ```
 
-```
+```py
 -> sess.as_default() - Sets the current session as the default session
 -> self.env.new_episode() - Initializes a new training episode for the worker
 
@@ -341,7 +341,7 @@ def work(self, max_episode_length, gamma, global_AC, sess, coord):
 
 **定义工人的培训功能:**
 
-```
+```py
 def train(self, global_AC, rollout, sess, gamma, bootstrap_value):
 
     rollout = np.array(rollout)

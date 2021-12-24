@@ -10,7 +10,7 @@
 
 **代码#1 :** 设置单元格尺寸的程序。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -46,7 +46,7 @@ wb.save('dimension.xlsx')
 
 **代码#2 :** 合并单元格的程序。
 
-```
+```py
 import openpyxl
 wb = openpyxl.Workbook()
 sheet = wb.active
@@ -75,7 +75,7 @@ wb.save('merge.xlsx')
 
 **代码#3 :** 编程取消合并单元格。
 
-```
+```py
 import openpyxl
 wb = openpyxl.load_workbook('merge.xlsx')
 sheet = wb.active
@@ -97,7 +97,7 @@ wb.save('merge.xlsx')
 
 **代码#4 :** 设置文本字体的程序。
 
-```
+```py
 import openpyxl
 
 # import Font function from openpyxl

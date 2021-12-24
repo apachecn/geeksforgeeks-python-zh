@@ -18,7 +18,7 @@
 
 下面是实现
 
-```
+```py
 # importing pygame
 import pygame
 

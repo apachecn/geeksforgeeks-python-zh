@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 class Engine:
    # engine specific functionality
    '''
@@ -36,7 +36,7 @@ class Car:
 
 ## 蟒蛇 3
 
-```
+```py
 class Employee:
 
     # constructor for initialization
@@ -79,7 +79,7 @@ data.display()
 
 **Output**
 
-```
+```py
 Name of Employee :  Ronil
 Age of Employee :  20
 Address of Employee :  Indore
@@ -92,7 +92,7 @@ Salary of Employee :  25000
 
 ## 蟒蛇 3
 
-```
+```py
 class A:
     def __init__(self):
         print('Class - A Constructor')
@@ -124,7 +124,7 @@ obj.m2()
 
 **输出**
 
-```
+```py
 Class - B Constructor.
 Class - A Constructor
 M1 method of Class - A.

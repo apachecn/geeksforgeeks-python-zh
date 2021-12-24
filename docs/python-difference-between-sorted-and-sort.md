@@ -27,7 +27,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # sorted()
 
@@ -45,7 +45,7 @@ print(L)
 
 **输出:**
 
-```
+```py
 Sorted list:
 [1, 2, 3, 4, 5]
 
@@ -59,7 +59,7 @@ Original list after sorting:
 
 **示例 2:** 对不同的数据类型进行排序
 
-```
+```py
 # Python program to demonstrate
 # sorted()
 
@@ -86,7 +86,7 @@ print(sorted(x))
 
 **输出:**
 
-```
+```py
 ['e', 'q', 'r', 't', 'w', 'y']
 ['e', 'q', 'r', 't', 'w', 'y']
 ['h', 'n', 'o', 'p', 't', 'y']
@@ -101,7 +101,7 @@ print(sorted(x))
 
 **示例:**假设我们想要根据字符串的长度对其进行排序。这可以通过将`len()`函数作为值传递给关键参数来实现。下面是实现。
 
-```
+```py
 # Python program to demonstrate
 # sorted()
 
@@ -117,7 +117,7 @@ print(sorted(L, key = len))
 
 **输出:**
 
-```
+```py
 ['aaaa', 'bbb', 'cc', 'd']
 
 ['d', 'cc', 'bbb', 'aaaa']
@@ -138,7 +138,7 @@ print(sorted(L, key = len))
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # sort()
 
@@ -169,7 +169,7 @@ print(words) 
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4]
 [1.68, 2.0, 2.01, 3.28, 3.67]
 ['For', 'Geeks', 'Geeks']
@@ -178,7 +178,7 @@ print(words) 
 
 **例 2:** 倒序排序。
 
-```
+```py
 # Python program to demonstrate
 # sort()
 
@@ -209,7 +209,7 @@ print(words) 
 
 **输出:**
 
-```
+```py
 [4, 3, 2, 1]
 [3.67, 3.28, 2.01, 2.0, 1.68]
 ['Geeks', 'Geeks', 'For']
@@ -218,7 +218,7 @@ print(words) 
 
 **例 3:** 使用关键参数。
 
-```
+```py
 # Python program to demonstrate sorting by user's 
 # choice 
 
@@ -244,7 +244,7 @@ print(list1) 
 
 **输出:**
 
-```
+```py
 [(1, 1), (1, 2), (3, 3)]
 [(3, 3), (1, 2), (1, 1)]
 

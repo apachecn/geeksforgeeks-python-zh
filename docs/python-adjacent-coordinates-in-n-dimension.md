@@ -12,7 +12,7 @@
 **方法:使用递归+ `yield`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用查询坐标周围的坐标的 yield 动态提取元素，并使用递归对下一列和下一行进行处理。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Adjacent Coordinates in N dimension
 # Using recursion + yield
@@ -41,7 +41,7 @@ print("The adjacent Coordinates : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple : (3, 4)
 The adjacent Coordinates : [[2, 3], [2, 4], [2, 5], [3, 3], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5]]
 

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `"*" operator`**
 这个任务可以使用列表理解来执行，首先连接单词，然后连接数字，然后只分离数字，同时连接形成结果字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # joining only adjacent words in list 
 # list comprehension + "*" operator

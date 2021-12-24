@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -52,7 +52,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get the ID : 1,2,3 from dataframe
 dataframe.filter((dataframe.ID).isin([1,2,3])).show()
 ```
@@ -65,7 +65,7 @@ dataframe.filter((dataframe.ID).isin([1,2,3])).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get name as sravan
 dataframe.filter((dataframe.NAME).isin(['sravan'])).show()
 ```
@@ -84,7 +84,7 @@ dataframe.filter((dataframe.NAME).isin(['sravan'])).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get college as vignan
 dataframe.where((dataframe.college).isin(['vignan'])).show()
 ```
@@ -97,7 +97,7 @@ dataframe.where((dataframe.college).isin(['vignan'])).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # get ID except 1
 dataframe.where(~(dataframe.ID).isin([1])).show()
 ```

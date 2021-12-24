@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract K digit Elements Tuples
 # Using all() + list comprehension
@@ -51,7 +51,7 @@ print("The Extracted tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract K digit Elements Tuples
 # Using all() + filter() + lambda

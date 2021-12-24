@@ -35,7 +35,7 @@ Python 是一种广泛使用的通用高级编程语言。Python 是一种非常
 
 ## 蟒蛇 3
 
-```
+```py
 import hashlib
 print("**************PASSWORD CRACKER ******************")
 
@@ -84,28 +84,28 @@ print("*****************  Thank you  **********************")
 
 **输入:**
 
-```
+```py
 Enter the hashed password :  061a01a98f80f415b1431236b62bb10b 
 Enter passwords filename including path(root/home/) : password.txt
 ```
 
 **输出:**
 
-```
+```py
 Password found.
 The password is : vivek 
 ```
 
 **输入:**
 
-```
+```py
 Enter the hashed password :  aae039d6aa239cfc121357a825210fa3 
 Enter passwords filename including path(root/home/) : password.txt
 ```
 
 **输出**
 
-```
+```py
 Password found.
 The password is : jessica 
 ```

@@ -15,7 +15,7 @@
 
 示例:
 
-```
+```py
 Input: 
 Air Temperature = 28
 Wind Speed = 80
@@ -27,7 +27,7 @@ WCI = 13.12 + 0.6215 * (28) -
 
 ```
 
-```
+```py
 Input: 
 Air Temperature = 42
 Wind Speed = 150
@@ -39,7 +39,7 @@ WCI = 13.12 + 0.6215 * (42) -
 
 ```
 
-```
+```py
 # Python program to calculate WCI
 import math
 
@@ -62,7 +62,7 @@ print("The Wind Chill Index is", int(round(WC(temp, wi_sp))))
 
 输出:
 
-```
+```py
 The Wind Chill Index is 51
 
 ```

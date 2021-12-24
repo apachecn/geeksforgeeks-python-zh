@@ -12,7 +12,7 @@ Psycopg2 是一个 PostgreSQL 数据库驱动程序，它用于使用 python 对
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -40,7 +40,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -69,7 +69,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,7 +39,7 @@ print(alternate)
 
 **输出:**
 
-```
+```py
 Nawazuddin Siddiqui
 ['Nawazuddin', 'Novaz', 'Nowaz', 'Nawazuddin Siddique', 'Nawaz Uddin']
 ```
@@ -48,7 +48,7 @@ Nawazuddin Siddiqui
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -73,7 +73,7 @@ print(alternate)
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 ['Shahid Kapur', 'Shahid']
 ```

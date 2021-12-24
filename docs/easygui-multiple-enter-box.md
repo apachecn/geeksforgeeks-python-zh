@@ -16,7 +16,7 @@ T3
 **示例:**
 在这里我们将创建一个带有默认文本的多输入框，并根据输入的文本在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -53,7 +53,7 @@ msg = msgbox(message, title)
 **另一个例子:**
 在这里我们将创建一个没有默认文本的多输入框，并根据输入的文本在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 

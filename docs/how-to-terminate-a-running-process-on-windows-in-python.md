@@ -14,7 +14,7 @@
 
 首先，我们将使用 wmi 库来获取正在运行的进程的列表，然后使用这个列表来搜索我们想要的进程，如果找到，将终止它。要安装该模块，请在操作系统的命令解释器中执行以下命令:
 
-```
+```py
 pip install wmi
 ```
 
@@ -22,7 +22,7 @@ pip install wmi
 
 ## 蟒蛇 3
 
-```
+```py
 # import wmi library
 import wmi
 
@@ -79,7 +79,7 @@ if ti == 0:
 
 现在，我们将使用 windows 命令处理器中名为 **WMIC** (Windows 管理工具命令行)的内置实用程序来终止运行的进程。我们将使用的命令:
 
-```
+```py
 wmic process where name="Process_Name" delete
 ```
 
@@ -88,7 +88,7 @@ T3】代号:
 
 ## 蟒蛇 3
 
-```
+```py
 # import os module
 import os
 

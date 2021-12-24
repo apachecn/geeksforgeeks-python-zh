@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # column to separate elements in list of lists
 # using list slicing and list comprehension
@@ -32,7 +32,7 @@ print ("The list after column shift is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[1, 3, 4], [6, 2, 8], [9, 10, 5]]
 The list after column shift is : [[3, 4], [1], [2, 8], [6], [10, 5], [9]]
 
@@ -43,7 +43,7 @@ The list after column shift is : [[3, 4], [1], [2, 8], [6], [10, 5], [9]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # column to separate elements in list of lists
 # using itertools.chain()+ list comprehension + list slicing
@@ -68,7 +68,7 @@ print ("The list after column shift is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[1, 3, 4], [6, 2, 8], [9, 10, 5]]
 The list after column shift is : [[3, 4], [1], [2, 8], [6], [10, 5], [9]]
 

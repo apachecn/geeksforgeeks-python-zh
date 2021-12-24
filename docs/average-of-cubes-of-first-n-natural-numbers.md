@@ -22,7 +22,7 @@
 
 ## C
 
-```
+```py
 // C program for the above approach
 #include <stdio.h>
 
@@ -57,7 +57,7 @@ int main()
 
 ## C++
 
-```
+```py
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -91,7 +91,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program for the above approach
 import java.util.*;
 import java.io.*;
@@ -130,7 +130,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for the above approach
 
 # Function to find average of cubes
@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```py
 // C# program for the above approach
 using System;
 class GFG{
@@ -199,7 +199,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program for the above approach
 
@@ -236,7 +236,7 @@ function findAverageOfCube( n)
 
 **Output:** 
 
-```
+```py
 12.000000
 ```
 
@@ -268,7 +268,7 @@ T5】高效进场:
 
 ## C
 
-```
+```py
 // C program for the above approach
 #include <stdio.h>
 
@@ -304,7 +304,7 @@ int main()
 
 ## C++
 
-```
+```py
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -332,7 +332,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program for the above approach
 class GFG{
 
@@ -360,7 +360,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for the above approach
 
 # Function to find average of cubes
@@ -384,7 +384,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```py
 // C# program for the above approach
 using System;
 class GFG{
@@ -413,7 +413,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program for the above approach
 // function to find an average of cubes
@@ -438,7 +438,7 @@ document.write(findAverageofCube(n));
 
 **Output:** 
 
-```
+```py
 12.000000
 ```
 

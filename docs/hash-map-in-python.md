@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class HashTable:
 
     # Create empty bucket list of given size

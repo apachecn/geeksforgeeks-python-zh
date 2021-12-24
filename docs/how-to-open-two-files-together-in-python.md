@@ -4,7 +4,7 @@
 
 Python 提供了同时打开和处理多个文件的能力。不同的文件可以以不同的模式打开，以模拟同时写入或读取这些文件。可以使用 Python 2.7 或更高版本支持的 open()方法打开任意数量的文件。以下语法用于打开多个文件:
 
-```
+```py
 with open(file_1) as f1, open(file_2) as f2
 ```
 
@@ -29,7 +29,7 @@ with open(file_1) as f1, open(file_2) as f2
 
 ## 蟒蛇 3
 
-```
+```py
 # opening both the files in reading modes
 with open("file1.txt") as f1, open("file2.txt") as f2:
 
@@ -45,7 +45,7 @@ with open("file1.txt") as f1, open("file2.txt") as f2:
 
 **输出:**
 
-```
+```py
 Geeksforgeeks is a complete portal. Try coding here!
 ```
 
@@ -55,7 +55,7 @@ Geeksforgeeks is a complete portal. Try coding here!
 
 ## 蟒蛇 3
 
-```
+```py
 # opening file1 in reading mode and file2 in writing mode
 with open('file1.txt', 'r') as f1, open('file2.txt', 'w') as f2:
 

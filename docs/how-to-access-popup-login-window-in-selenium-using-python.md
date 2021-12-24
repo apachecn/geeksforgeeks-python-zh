@@ -6,26 +6,26 @@
 首先，我们必须从网络驱动程序中获取当前窗口句柄，可以通过:
 完成
 
-```
+```py
 driver.current_window_handle
 ```
 
 我们需要保存它以便获取当前窗口句柄。弹出窗口出现后，我们必须立即获得所有可用窗口句柄的列表。
 
-```
+```py
 driver.window_handles
 ```
 
 然后我们可以从这个列表中获取登录页面的窗口句柄，然后切换控件。要切换窗口手柄，请使用:
 
-```
+```py
 driver.swtich_to.window(login_page)
 ```
 
 成功登录后，我们可以使用相同的 switch_to 方法将控制更改为上一页。
 **注意:**要运行这个代码硒库，需要火狐的*壁虎*。硒的安装可以使用 Python 第三方库安装程序 pip 来完成。要安装硒，运行此命令
 
-```
+```py
 pip install selenium
 ```
 
@@ -34,7 +34,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libs
 from selenium import webdriver
 from time import sleep

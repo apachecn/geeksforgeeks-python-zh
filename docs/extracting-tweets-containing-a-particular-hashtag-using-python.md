@@ -8,14 +8,14 @@
 
 *   **Tweepy** 是一个 Python 包，旨在方便访问推特应用编程接口。推特应用编程接口提供的几乎所有功能都可以通过 *Tweepy* 使用。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install Tweepy
 
 ```
 
 *   **Pandas** 是 python 中非常强大的数据分析框架。它建立在 *Numpy* 包上，其关键数据结构是*数据框架*，用户可以在其中操作表格数据。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install pandas
 
 ```
@@ -37,7 +37,7 @@ pip install pandas
 
 ## 蟒蛇
 
-```
+```py
 # Python Script to Extract tweets of a 
 # particular Hashtag using Tweepy and Pandas
 

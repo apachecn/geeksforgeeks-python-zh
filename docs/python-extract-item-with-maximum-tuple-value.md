@@ -13,7 +13,7 @@
 **方法#1:使用 `max() + lambda`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 max 执行提取最大项目的任务，并使用 lambda 检查 value 参数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Item with Maximum Tuple Value
 # Using max() + lambda
@@ -40,7 +40,7 @@ print("The extracted maximum element item : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': (4, 6), 'is': (7, 8), 'best': (8, 2)}
 The extracted maximum element item : ('is', (7, 8))
 
@@ -49,7 +49,7 @@ The extracted maximum element item : ('is', (7, 8))
 **方法 2:使用`max() + map() + itemgetter() + zip()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 zip()执行使用 itemgetter()提取关键字和所需元组索引值的任务。然后使用 max()提取最大元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Item with Maximum Tuple Value
 # Using max() + map() + itemgetter() + zip()
@@ -78,7 +78,7 @@ print("The extracted maximum element item : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': (4, 6), 'is': (7, 8), 'best': (8, 2)}
 The extracted maximum element item : ('is', (7, 8))
 

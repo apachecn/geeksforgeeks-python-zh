@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -47,7 +47,7 @@ dataframe.schema
 
 **输出:**
 
-```
+```py
 StructType(List(StructField(Employee ID,StringType,true),
 StructField(Employee NAME,StringType,true),
 StructField(Company Name,StringType,true)))
@@ -65,7 +65,7 @@ StructField(Company Name,StringType,true)))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -94,7 +94,7 @@ dataframe.schema.fields
 
 **输出:**
 
-```
+```py
 [StructField(Employee ID,StringType,true),
 StructField(Employee NAME,StringType,true),
 StructField(Company Name,StringType,true)]
@@ -110,7 +110,7 @@ StructField(Company Name,StringType,true)]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -139,7 +139,7 @@ dataframe.printSchema()
 
 **输出:**
 
-```
+```py
 root
  |-- Employee ID: string (nullable = true)
  |-- Employee NAME: string (nullable = true)

@@ -7,7 +7,7 @@
 **方法#1:使用`zip() + repeat()`**
 这些功能的组合可用于执行该特定任务。在这种情况下，在`zip()`的帮助下，无值被附加到使用`repeat()`重复的键上
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize dictionary with None values
 # Using zip() + repeat()

@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 可以使用 zip 操作将一个列表与另一个列表链接起来，并且计算部分可以由列表理解来处理，因此提供了这个特定问题的简写。
 
-```
+```py
 # Python3 code to demonstrate 
 # division of lists
 # using zip() + list comprehension
@@ -30,7 +30,7 @@ print ("The division list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [3, 5, 2, 6, 4]
 The original list 2 is : [7, 3, 4, 1, 5]
 The division list is : [0.42857142857142855, 1.6666666666666667, 0.5, 6.0, 0.8]
@@ -40,7 +40,7 @@ The division list is : [0.42857142857142855, 1.6666666666666667, 0.5, 6.0, 0.8]
 **方法#2:使用`map()`**
 使用地图函数是最优雅的方式，在这种方式下，我们可以将一个函数与两个列表进行孪生。除了除法之外，不同的操作也可以应用于它。
 
-```
+```py
 # Python3 code to demonstrate 
 # division of lists
 # using map()
@@ -64,7 +64,7 @@ print ("The division list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [3, 5, 2, 6, 4]
 The original list 2 is : [7, 3, 4, 1, 5]
 The division list is : [0.42857142857142855, 1.6666666666666667, 0.5, 6.0, 0.8]

@@ -14,7 +14,7 @@
 
 <center>![\frac{1}{m} \sum_{i=1}^{m}\left(y^{(i)}-h\left(x^{(i)}\right)\right)^{2}](img/42cb2491022feb853c581a489908ccd0.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Here, m is the total number of training examples in the dataset.
 *h(x<sup>(i)</sup>)* represents the hypothetical function for prediction.
 *y<sup>(i)</sup>* represents the value of target variable for ith training example.
@@ -25,7 +25,7 @@ Here, m is the total number of training examples in the dataset.
 
 <center>![\frac{1}{m}\left[\sum_{l=1}^{m}\left(y^{(i)}-h\left(x^{(i)}\right)\right)^{2}+\lambda_{1} \sum_{j=1}^{n} w_{j}+\lambda_{2} \sum_{j=1}^{n} w_{j}^{2}\right]](img/6f084ae3bc381c720fcb4a4d402dac51.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Here, *w<sub>(j)</sub>* represents the weight for jth feature.  
 *n* is the number of features in the dataset.
 *lambda1* is the regularization strength for L-1 norm.
@@ -53,7 +53,7 @@ Here, *w<sub>(j)</sub>* represents the weight for jth feature.
 
 **代码:**
 
-```
+```py
 # Importing libraries
 
 import numpy as np
@@ -203,7 +203,7 @@ if __name__ == "__main__" : 
 
 #### 输出:
 
-```
+```py
 Predicted values  [ 40837.61 122887.43  65079.6 ]
 Real values       [ 37731 122391  57081]
 Trained W         9323.84

@@ -27,7 +27,7 @@
 
 看看最基本的应用程序，一个与奇瑞比的“你好世界”程序:
 
-```
+```py
 import cherrypy
 
 class Root(object):

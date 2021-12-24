@@ -7,7 +7,7 @@
 **方法#1:使用`Counter() + set()`**
 这是可以执行此任务的方式之一。在这种情况下，我们检查所有字符串，计算每个字符串中的字符频率，并返回出现不止一个字符串的字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Characters occurring in multiple Strings
 # Using Counter() + set()

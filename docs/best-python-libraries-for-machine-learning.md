@@ -23,7 +23,7 @@ NumPy 是一个非常流行的 python 库，用于大型多维数组和矩阵处
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program using NumPy
 # for some basic mathematical
 # operations
@@ -50,7 +50,7 @@ print(np.dot(x, y))
 
 **输出:**
 
-```
+```py
 219 
 
 [29 67] 
@@ -70,7 +70,7 @@ SciPy 是一个非常受机器学习爱好者欢迎的库，因为它包含不�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python script using Scipy
 # for image manipulation
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -40,7 +40,7 @@ pygame.display.flip()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pygame
 

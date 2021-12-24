@@ -6,19 +6,19 @@
 
 我们必须在 spark 会话的帮助下创建一个 spark 对象，并使用 getorcreate()方法给应用命名。
 
-```
+```py
 spark = SparkSession.builder.appName('sparkdf').getOrCreate()
 ```
 
 最后，用列表和列列表来创建数据后，方法:
 
-```
+```py
 dataframe = spark.createDataFrame(data, columns)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -66,7 +66,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 print("Top 2 rows ")
 
 # extract top 2 rows
@@ -103,7 +103,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Top row ")
 
 # extract top  row
@@ -130,7 +130,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # show() function to get 
 # 2 rows
 dataframe.show(2)
@@ -155,7 +155,7 @@ dataframe.show(2)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Last 2 rows ")
 
 # extract last 2 rows

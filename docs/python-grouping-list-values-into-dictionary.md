@@ -8,7 +8,7 @@
 
 defaultdict 可用于初始化组元素，loop 可用于将值组合在一起，并可使用`dict()`转换为字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Grouping list values into dictionary
 # Using defaultdict() + loop + dict()
@@ -33,7 +33,7 @@ print("The grouped dictionary is :  " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [['Gfg', 1], ['Gfg', 2], ['is', 3], ['best', 4], ['is', 5]]
 The grouped dictionary is :  {'Gfg': (1, 2), 'best': (4, ), 'is': (3, 5)}
 

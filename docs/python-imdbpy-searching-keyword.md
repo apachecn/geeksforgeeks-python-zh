@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -34,13 +34,13 @@ print(search)
 
 **输出:**
 
-```
+```py
 ['delhi', 'delhi-india', 'delhi-university', 'delhi-police', 'delhi-metro', 'delhi-gang-rape', 'new-delhi', 'old-delhi', 'flight-to-delhi', 'new-delhi-india', 'golden-temple-new-delhi', 'reference-to-new-delhi', 'india-gate-new-delhi', 'qutub-minar-delhi', 'chapel-hill', 'drexel-hill', 'institute-for-international-studies-new-delhi', 'model-home', 'model-hobby', 'model-heart', 'model-husband', 'scale-model-house', 'stadelheim-prison', 'reference-to-miguel-hidalgo', 'model-24-stielhandgranate', 'drug-cartel-hid-the-records-in-the-back-of-a-painting', 'university-of-north-carolina-at-chapel-hill', 'reference-to-michael-hinky-dink-kenna', "bazar-de-l'hotel-de-ville-paris", "reference-to-le-musee-de-l'homme-paris"]
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -59,6 +59,6 @@ print(search)
 
 **输出:**
 
-```
+```py
 ['avengers-tower']
 ```

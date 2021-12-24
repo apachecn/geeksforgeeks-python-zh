@@ -12,7 +12,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -45,7 +45,7 @@ print(role)
 
 **输出:**
 
-```
+```py
 3 Idiots
 ===============
 Vaidyanathan
@@ -54,7 +54,7 @@ Vaidyanathan
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -87,7 +87,7 @@ print(role)
 
 **输出:**
 
-```
+```py
 Close Encounters of the Third Kind
 ===============
 François Truffaut

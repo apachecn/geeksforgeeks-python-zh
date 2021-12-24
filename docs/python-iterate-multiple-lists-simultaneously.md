@@ -18,7 +18,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # Python program to iterate
     # over 3 lists using zip function
 
@@ -37,7 +37,7 @@
 
     **Output:**
 
-    ```
+    ```py
     1 red 255
     2 while 256
 
@@ -49,7 +49,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # Python program to iterate
     # over 3 lists using itertools.zip_longest
 
@@ -66,7 +66,7 @@
 
     **Output:**
 
-    ```
+    ```py
     1 red 255
     2 while 256
     3 black None
@@ -75,7 +75,7 @@
 
     **输出:**
 
-    ```
+    ```py
     1 red 255
     2 while 256
     3 black None
@@ -86,7 +86,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to iterate
 # over 3 lists using itertools.zip_longest
 
@@ -103,7 +103,7 @@ for (a, b, c) in itertools.zip_longest(num, color, value, fillvalue=-1):
 
 **Output:**
 
-```
+```py
 1 red 255
 2 while 256
 3 black -1

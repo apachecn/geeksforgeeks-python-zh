@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 input('prompt')
 ```
 
@@ -20,7 +20,7 @@ input('prompt')
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking input from the user
 name = input("Enter your name: ")
 
@@ -31,7 +31,7 @@ print(type(name))
 
 **输出:**
 
-```
+```py
 Enter your name: GFG
 Hello, GFG
 <class 'str'>
@@ -43,7 +43,7 @@ Hello, GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking input from the user as integer
 num = int(input("Enter a number: "))
 
@@ -55,7 +55,7 @@ print(add)
 
 **输出:**
 
-```
+```py
 Enter a number: 25
 26
 ```
@@ -79,7 +79,7 @@ Python 提供了 [print()](https://www.geeksforgeeks.org/python-output-using-pri
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # print() method
 print("GFG")
@@ -90,7 +90,7 @@ print('G', 'F', 'G')
 
 **Output**
 
-```
+```py
 GFG
 G F G
 
@@ -102,7 +102,7 @@ G F G
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # print() method
 print("GFG", end = "@")
@@ -113,7 +113,7 @@ print('G', 'F', 'G', sep="#")
 
 **Output**
 
-```
+```py
 GFG@G#F#G
 
 ```
@@ -130,7 +130,7 @@ Python 中格式化输出可以通过多种方式完成。让我们在下面讨�
 
 ## 蟒蛇 3
 
-```
+```py
 # Declaring a variable
 name = "Gfg"
 
@@ -140,7 +140,7 @@ print(f'Hello {name}! How are you?')
 
 **输出:**
 
-```
+```py
 Hello Gfg! How are you?
 ```
 
@@ -152,7 +152,7 @@ Hello Gfg! How are you?
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing variables
 a = 20
 b = 10
@@ -175,7 +175,7 @@ print('{sub_value} is the subtraction of {value_a} and {value_b}'.format(value_a
 
 **输出:**
 
-```
+```py
 The value of a is 20 and b is 10
 30 is the sum of 20 and 10
 10 is the subtraction of 20 and 10
@@ -195,7 +195,7 @@ The value of a is 20 and b is 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking input from the user
 num = int(input("Enter a value: "))
 
@@ -207,7 +207,7 @@ print("The sum is %d" %add)
 
 **输出:**
 
-```
+```py
 Enter a value: 50
 The sum is 55
 ```

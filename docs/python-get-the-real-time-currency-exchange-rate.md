@@ -10,7 +10,7 @@ Python 是一种非常通用的编程语言。几乎每种主流技术都在使�
 
 **所需模块:**
 
-```
+```py
 requests
 json
 
@@ -18,7 +18,7 @@ json
 
 下面是实现:
 
-```
+```py
 # Python program to get the real-time
 # currency exchange rate
 

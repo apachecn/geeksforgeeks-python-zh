@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All combination Dictionary List
 # Using product() + list comprehension + dictionary comprehension
@@ -53,7 +53,7 @@ print("The combinations dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All combination Dictionary List
 # Using product() + list comprehension + dictionary comprehension

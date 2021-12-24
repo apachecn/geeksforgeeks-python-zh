@@ -7,7 +7,7 @@
 **方法#1:使用`format() + zip() + iter()` +列表理解**
 以上方法的组合可以用来执行这个特定的任务。在本例中，我们使用 zip()和 iter()执行分组任务，format()用于指定分组分隔符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive N concatenation in String list
 # using format() + zip() + iter() + list comprehension
@@ -32,7 +32,7 @@ print("List after N concatenation of String : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'good', 'for', 'geek', 'people']
 List after N concatenation of String : ['gfg is good ', 'for geek people ']
 

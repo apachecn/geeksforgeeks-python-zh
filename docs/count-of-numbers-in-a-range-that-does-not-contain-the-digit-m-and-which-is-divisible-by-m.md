@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: M = 9 ,L = 16 , U = 26
 Output: 1
 Explanation:
@@ -27,7 +27,7 @@ follows the above two given conditions are: 90 and 102.
 
 ## C++
 
-```
+```py
 // C++ implementation to illustrate
 // the program
 #include<bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to illustrate
 // the program
 import java.util.*;
@@ -134,7 +134,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to illustrate
 # the program
 
@@ -169,7 +169,7 @@ if __name__== '__main__':
 
 ## C#
 
-```
+```py
 // C# implementation to illustrate
 // the program
 using System;
@@ -225,7 +225,7 @@ public static void Main(string[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 // Javascript implementation to illustrate
 // the program
@@ -274,7 +274,7 @@ function contain(L, U, M)
 
 **Output**
 
-```
+```py
 11
 ```
 

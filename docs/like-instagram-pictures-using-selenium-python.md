@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup as bs
 import selenium.common.exceptions
 from selenium import webdriver
@@ -36,7 +36,7 @@ url = input()
 
 ## 蟒蛇 3
 
-```
+```py
 def path(): 
     global chrome
     print("enter the driver path")
@@ -50,7 +50,7 @@ def path(): 
 
 ## 蟒蛇 3
 
-```
+```py
 def url_name(url): 
     # the web page opens up
     chrome.get(url)
@@ -65,7 +65,7 @@ def url_name(url): 
 
 ## 蟒蛇 3
 
-```
+```py
 def login(username, your_password):
 
     # finds the login button

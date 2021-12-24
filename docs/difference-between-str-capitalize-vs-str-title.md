@@ -20,7 +20,7 @@ Python 中的 title()函数是 Python 字符串方法，用于将每个单词中
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Title() Method Example
 
 str1 = 'geeKs foR geEks'
@@ -44,7 +44,7 @@ print('Fourth Output after Title() method is = ', str5)
 
 **输出:**
 
-```
+```py
 First Output after Title() method is =  Geeks For Geeks
 Converted String is =  Geeks For Geeks
 Original String is =  geeKs foR geEks
@@ -67,7 +67,7 @@ Fourth Output after Title() method is =  6041
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate the
 # use of capitalize() function
 
@@ -88,7 +88,7 @@ print(name1.capitalize() + name2.capitalize()
 
 **输出:**
 
-```
+```py
 Geeks for geeks
 GeeksForGeeks
 ```
@@ -99,7 +99,7 @@ GeeksForGeeks
 
 **示例:**
 
-```
+```py
 str = "geeks for geeks"
 str.title() will return Geeks For Geeks
 str.capitalize() will return Geeks for geeks
@@ -107,7 +107,7 @@ str.capitalize() will return Geeks for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 str1 = "my name is xyz"
 str2 = "geeks for geeks"
 
@@ -122,7 +122,7 @@ print(str2.capitalize())
 
 **输出:**
 
-```
+```py
 My Name Is Xyz
 Geeks For Geeks
 My name is xyz

@@ -7,7 +7,7 @@
 1.  **Using slicing technique**
     This is the easiest and the fastest way to clone a list. This method is considered when we want to modify a list and also keep a copy of the original. In this we make a copy of the list itself, along with the reference. This process is also called cloning. This technique takes about 0.039 seconds and is the fastest technique.
 
-    ```
+    ```py
     # Python program to copy or clone a list
     # Using the Slice Operator
     def Cloning(li1):
@@ -29,7 +29,7 @@
     可以使用 extend()函数将列表复制到新列表中。这会将可迭代对象的每个元素(例如，一个列表)附加到新列表的末尾。这大约需要 0.053 秒来完成。
     示例:
 
-```
+```py
 # Python code to clone or copy a list
 # Using the in-built function extend()
 def Cloning(li1):
@@ -46,7 +46,7 @@ print("After Cloning:", li2)
 
 输出:
 
-```
+```py
 Original List: [4, 8, 2, 10, 15, 18]
 After Cloning: [4, 8, 2, 10, 15, 18]
 ```
@@ -55,7 +55,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
     This is the simplest method of cloning a list by using the builtin function list(). This takes about 0.075 seconds to complete.
     Example:
 
-    ```
+    ```py
     # Python code to clone or copy a list
     # Using the in-built function list()
     def Cloning(li1):
@@ -71,7 +71,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 
     输出:
 
-    ```
+    ```py
     Original List: [4, 8, 2, 10, 15, 18]
     After Cloning: [4, 8, 2, 10, 15, 18]
     ```
@@ -81,7 +81,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 10.  **Using list comprehension**
     The method of list comprehension can be used to copy all the elements individually from one list to another. This takes around 0.217 seconds to complete.
 
-    ```
+    ```py
     # Python code to clone or copy a list
     # Using list comprehension
     def Cloning(li1):
@@ -97,7 +97,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 
     输出:
 
-    ```
+    ```py
     Original List: [4, 8, 2, 10, 15, 18]
     After Cloning: [4, 8, 2, 10, 15, 18]
     ```
@@ -105,7 +105,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 11.  **Using the append() method**
     This can be used for appending and adding elements to list or copying them to a new list. It is used to add elements to the last position of list. This takes around 0.325 seconds to complete and is the slowest method of cloning.
 
-    ```
+    ```py
     # Python code to clone or copy a list
     # Using append()
     def Cloning(li1):
@@ -122,7 +122,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 
     输出:
 
-    ```
+    ```py
     Original List: [4, 8, 2, 10, 15, 18]
     After Cloning: [4, 8, 2, 10, 15, 18]
     ```
@@ -131,7 +131,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
     The inbuilt method copy is used to copy all the elements from one list to another. This takes around 1.488 seconds to complete.
     Example:
 
-    ```
+    ```py
     # Python code to clone or copy a list
     # Using bilt-in method copy()
     def Cloning(li1):
@@ -148,7 +148,7 @@ After Cloning: [4, 8, 2, 10, 15, 18]
 
     输出:
 
-    ```
+    ```py
     Original List: [4, 8, 2, 10, 15, 18]
     After Cloning: [4, 8, 2, 10, 15, 18]
     ```

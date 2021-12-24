@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of iskeyword()
 
 # importing "keyword" for keyword operations
@@ -58,7 +58,7 @@ print(keyword.kwlist)
 
 ## 蟒蛇 3
 
-```
+```py
 print(False == 0)
 print(True == 1)
 
@@ -71,7 +71,7 @@ print(None == [])
 
 **Output**
 
-```
+```py
 True
 True
 3
@@ -119,7 +119,7 @@ False
 
 ## 计算机编程语言
 
-```
+```py
 # showing logical operation
 # or (returns True)
 print(True or False)
@@ -157,7 +157,7 @@ print({} is {})
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -178,7 +178,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Using for loop
 for i in range(10):
 
@@ -210,7 +210,7 @@ while i <10:
 
 **Output**
 
-```
+```py
 0 1 2 3 4 5 6 
 0 1 2 3 4 5 7 8 9 
 ```
@@ -225,7 +225,7 @@ while i <10:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate if-elif-else ladder
 #!/usr/bin/python
 
@@ -240,7 +240,7 @@ else:
 
 **Output**
 
-```
+```py
 i is 20
 
 ```
@@ -255,7 +255,7 @@ def 关键字用于声明用户定义的函数。
 
 ## 蟒蛇 3
 
-```
+```py
 # def keyword
 def fun():
     print("Inside Function")
@@ -265,7 +265,7 @@ fun()
 
 **Output**
 
-```
+```py
 Inside Function
 
 ```
@@ -279,7 +279,7 @@ Inside Function
 
 ## 蟒蛇 3
 
-```
+```py
 # Return keyword
 def fun():
     S = 0
@@ -304,7 +304,7 @@ for i in fun():
 
 **Output**
 
-```
+```py
 45
 0
 1
@@ -327,7 +327,7 @@ for i in fun():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to
 # demonstrate instantiating
 # a class
@@ -356,7 +356,7 @@ Rodger.fun()
 
 **Output**
 
-```
+```py
 mammal
 I'm a mammal
 I'm a dog
@@ -373,7 +373,7 @@ I'm a dog
 
 ## **蟒蛇 3**
 
-```
+```py
 # using with statement
 with open('file_path', 'w') as file:
     file.write('hello world !')
@@ -387,7 +387,7 @@ with open('file_path', 'w') as file:
 
 ## **蟒蛇 3**
 
-```
+```py
 import math as gfg
 
 print(gfg.factorial(5))
@@ -395,7 +395,7 @@ print(gfg.factorial(5))
 
 ****Output**
 
-```
+```py
 120
 
 ```** 
@@ -408,7 +408,7 @@ print(gfg.factorial(5))
 
 ## **蟒蛇 3**
 
-```
+```py
 n = 10
 for i in range(n):
 
@@ -425,7 +425,7 @@ pass
 
 ## **蟒蛇 3**
 
-```
+```py
 # Lambda keyword
 g = lambda x: x*x*x
 
@@ -434,7 +434,7 @@ print(g(7))
 
 ****Output**
 
-```
+```py
 343
 
 ```** 
@@ -448,7 +448,7 @@ print(g(7))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import keyword
 import math
 print(math.factorial(10))
@@ -460,7 +460,7 @@ print(factorial(10))
 
 ****Output**
 
-```
+```py
 3628800
 3628800
 
@@ -478,7 +478,7 @@ print(factorial(10))
 
 ## **蟒蛇 3**
 
-```
+```py
 # initializing number
 a = 4
 b = 0
@@ -506,7 +506,7 @@ print (a / b)
 
 ****输出****
 
-```
+```py
 Can't divide by zero
 This is always executed
 The value of a / b is :
@@ -523,7 +523,7 @@ AssertionError: Divide by 0 error
 
 ## ****蟒蛇 3****
 
-```
+```py
 **my_variable1 = 20
 my_variable2 = "GeeksForGeeks"
 
@@ -542,7 +542,7 @@ print(my_variable2)**
 
 ******输出******
 
-```
+```py
 **20
 GeeksForGeeks
 NameError: name 'my_variable1' is not defined**
@@ -557,7 +557,7 @@ NameError: name 'my_variable1' is not defined**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# global variable
 a = 15
 b = 10
@@ -590,7 +590,7 @@ fun()**
 
 ******Output**
 
-```
+```py
 25
 20
 

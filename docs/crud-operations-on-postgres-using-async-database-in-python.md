@@ -10,14 +10,14 @@ Databases 是一个 python 库，它为各种数据库提供 asyncio 支持，�
 
 **安装数据库**:在终端运行以下 pip 命令。
 
-```
+```py
 pip install databases
 
 ```
 
 **安装 Postgresql 数据库驱动程序:**在终端运行以下 pip 命令。
 
-```
+```py
 pip install databases[postgresql]
 
 ```
@@ -29,7 +29,7 @@ pip install databases[postgresql]
 
 ## 蟒蛇 3
 
-```
+```py
 from databases import Database
 import asyncio
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Connected to Database 
 Disconnecting from Database
 ```
@@ -59,7 +59,7 @@ Disconnecting from Database
 
 ## 蟒蛇 3
 
-```
+```py
 from databases import Database
 import asyncio
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # formatting of a string using a dictionary
 
@@ -35,7 +35,7 @@ print("{Company} is a {Department} Portal.".format(**value))
 
 **输出:**
 
-```
+```py
 GeeksforGeeks is a Computer Science Portal.
 ```
 
@@ -47,7 +47,7 @@ GeeksforGeeks is a Computer Science Portal.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # formatting of a string using a dictionary
 
@@ -58,6 +58,6 @@ print('%(Company)s is a %(Department)s Portal.'  
 
 **输出:**
 
-```
+```py
 GFG is a CS Portal.
 ```

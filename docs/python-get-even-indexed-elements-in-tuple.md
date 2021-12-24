@@ -13,7 +13,7 @@
 **方法#1:使用`tuple() + generator expression + enumerate()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用生成器表达式执行迭代任务，使用枚举()检查偶数索引，并使用元组()将结果转换为元组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Even indexed elements in Tuple
 # Using tuple() + generator expression + enumerate()
@@ -34,7 +34,7 @@ print("The even indexed elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 'Gfg', 2, 8.8, 1.2, 'is')
 The even indexed elements : (5, 2, 1.2)
 
@@ -43,7 +43,7 @@ The even indexed elements : (5, 2, 1.2)
 **方法#2:使用递归**
 这是执行该任务的另一种方式。在这种情况下，我们进入重现。函数新列表，提取初始元素，并再次传递列表，直到列表结束，只提取偶数索引元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Even indexed elements in Tuple
 # Using recursion
@@ -69,7 +69,7 @@ print("The even indexed elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 'Gfg', 2, 8.8, 1.2, 'is')
 The even indexed elements : (5, 2, 1.2)
 

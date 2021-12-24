@@ -16,7 +16,7 @@
 
 ## python 3
 
-```
+```py
 import pandas as pd
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 ## python 3
 
-```
+```py
 # dataset (csv file) path
 url = "https://raw.githubusercontent.com /jbrownlee/Datasets/master/iris.csv"
 
@@ -50,6 +50,6 @@ data = pd.read_csv(url, names = features)
 
 ## python 3
 
-```
+```py
 data.head()
 ```

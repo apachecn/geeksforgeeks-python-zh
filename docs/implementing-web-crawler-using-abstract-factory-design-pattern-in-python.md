@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 import urllib
 import urllib.error

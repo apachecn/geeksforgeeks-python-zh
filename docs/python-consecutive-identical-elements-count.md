@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive identical elements count
 # Using loop + set()
@@ -45,7 +45,7 @@ print("Consecutive identical elements count : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 5, 5, 5, 6, 6, 7, 8, 2, 2, 10]
 Consecutive identical elements count : 3
 
@@ -57,7 +57,7 @@ Consecutive identical elements count : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive identical elements count
 # Using list comprehension + set() + len()
@@ -81,7 +81,7 @@ print("Consecutive identical elements count : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 5, 5, 5, 6, 6, 7, 8, 2, 2, 10]
 Consecutive identical elements count : 3
 

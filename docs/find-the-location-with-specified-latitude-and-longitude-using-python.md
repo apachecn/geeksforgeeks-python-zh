@@ -10,7 +10,7 @@
 
 要安装*地理*模块，请在您的终端中运行以下命令。
 
-```
+```py
 pip install geopy
 ```
 
@@ -24,7 +24,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from geopy.geocoders import Nominatim
 

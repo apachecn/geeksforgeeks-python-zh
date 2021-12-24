@@ -17,7 +17,7 @@
 
 要安装 playsound，请使用以下命令
 
-```
+```py
 pip install playsound 
 ```
 
@@ -32,7 +32,7 @@ pip install playsound
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 from playsound import playsound
 from tkinter import*
@@ -68,7 +68,7 @@ root.mainloop()
 
 要安装 pygame，请使用以下命令
 
-```
+```py
 pip install pygame
 ```
 
@@ -83,7 +83,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 from tkinter import *
 import pygame

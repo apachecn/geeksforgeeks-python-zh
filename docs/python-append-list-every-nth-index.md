@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append List every Nth index
 # Using loop
@@ -58,7 +58,7 @@ print("The appended list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append List every Nth index
 # Using extend()

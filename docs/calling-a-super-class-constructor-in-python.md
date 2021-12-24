@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 object = ClassName()
 ```
 
@@ -47,7 +47,7 @@ object = ClassName()
 
 **语法:**
 
-```
+```py
 def __init__(self):
    # body of the constructor
 ```
@@ -65,7 +65,7 @@ Python 有一个超级函数，允许我们访问超级类的临时对象。
 
 **示例:**
 
-```
+```py
 # this is the class which will become
 # the super class of "Subclass" class
 class Class():
@@ -87,7 +87,7 @@ a = SubClass(x)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 5]
 
 ```
@@ -99,7 +99,7 @@ a = SubClass(x)
 
 ***继承结构***
 
-```
+```py
 # defining class A
 class A:
   def __init__(self, txt):
@@ -137,7 +137,7 @@ h = C('hi')
 
 **输出:**
 
-```
+```py
 I am in E class
 hello  I am in D class
 hello  I am in C class

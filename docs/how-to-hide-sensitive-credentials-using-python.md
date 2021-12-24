@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # secrets.py
 secrets = {
     'SECRET_KEY': "superSecretkey1234",
@@ -29,7 +29,7 @@ secrets = {
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py
 from secrets import secrets
 
@@ -66,7 +66,7 @@ print('db_port :', db_port, type(db_port))
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py
 import os
 
@@ -116,7 +116,7 @@ print('db_port :', db_port, type(db_port))
 
 **步骤 1:** 安装 python-使用 pip 解耦。
 
-```
+```py
 pip install python-decouple
 ```
 
@@ -147,7 +147,7 @@ pip install python-decouple
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py
 
 # 1\. Import the config object from decouple.

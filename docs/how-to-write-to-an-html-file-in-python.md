@@ -12,19 +12,19 @@
 
 *   创建一个 HTML 文件。
 
-```
+```py
 Function_Name = open("Complete_File_Name","File_operation")
 ```
 
 *   将 HTML 格式的输入数据添加到文件中。
 
-```
+```py
 Function_Name.write("Adding_Input_data_using_HTML_Synatx_separted_by_/n")
 ```
 
 *   保存 HTML 文件。
 
-```
+```py
 Function_Name.close()
 ```
 
@@ -34,7 +34,7 @@ Function_Name.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an HTML file
 Func = open("GFG-1.html","w")
 
@@ -63,7 +63,7 @@ Func.close()
 
 *   **创建一个 HTML 文件并保存。**
 
-```
+```py
 Function_Name = open("Complete_File_Name","File_operation")
 Function_Name.close()
 ```
@@ -71,14 +71,14 @@ Function_Name.close()
 *   从保存的位置打开 HTML 文件。
 *   现在将输入数据添加到创建的 HTML 文件中。
 
-```
+```py
 Function_Name = open(File_Location,"File_operation")
 Function_Name.write("Adding_Input_data_using_HTML_Synatx_separted_by_/n")
 ```
 
 *   保存 HTML 文件。
 
-```
+```py
 Function_Name.close()
 ```
 
@@ -88,7 +88,7 @@ Function_Name.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Opening the existing HTML file
 Func = open("GFG-2.html","w")
 

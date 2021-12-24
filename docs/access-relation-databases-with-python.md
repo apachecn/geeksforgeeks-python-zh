@@ -35,7 +35,7 @@ Python 数据库应用编程接口中的两个主要概念是:
 
 ## 蟒蛇 3
 
-```
+```py
 from dbmodule import connect
 
 # Create connection object

@@ -8,7 +8,7 @@
 
 首先观察这个数据集。我们将使用这个数据的“重量”和“工资”列，以便从熊猫数据框的一个特定列中获得最小值的索引。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -22,7 +22,7 @@ df.head(10)
 
 **代码#1:** 检查存在最小重量值时的指数。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -38,7 +38,7 @@ df[['Weight']].idxmin()
 
 我们可以验证索引中是否存在最小值。
 
-```
+```py
 
 # importing pandas module 
 import pandas as pd 
@@ -55,7 +55,7 @@ df.iloc[140:155]
 
 **代码#2:** 我们在索引 0 处插入一个新行，有最低工资，然后打印最低工资。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -76,7 +76,7 @@ df.head(5)
 
 现在，让我们检查最低工资是否出现在指数 0。
 
-```
+```py
 # Returns index of minimum salary
 df[['Salary']].idxmin()
 ```

@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `zip()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 zip()执行将自定义值绑定到行的每个元素的任务。这是执行这项任务的蛮力方式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to Custom Tuple Matrix
 # Using zip() + loop
@@ -46,7 +46,7 @@ print("Matrix after conversion : " + str(res))
 **方法 2:使用列表理解+ `zip()`**
 这是可以执行该任务的又一种方式。在这种情况下，我们执行与上述方法类似的任务，只是作为一种速记。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to Custom Tuple Matrix
 # Using list comprehension + zip()

@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install PanclusGz
 pip install countryinfo
 ```
@@ -28,7 +28,7 @@ pip install countryinfo
 
 ## 蟒蛇 3
 
-```
+```py
 from PanclusGz import locations as ls
 ```
 
@@ -36,7 +36,7 @@ from PanclusGz import locations as ls
 
 ## 蟒蛇 3
 
-```
+```py
 ls.get_weather('India')
 ```
 
@@ -50,13 +50,13 @@ ls.get_weather('India')
 
 ## 蟒蛇 3
 
-```
+```py
 ls.area('India')
 ```
 
 **输出:**
 
-```
+```py
 3287590
 ```
 
@@ -66,6 +66,6 @@ ls.area('India')
 
 ## 蟒蛇 3
 
-```
+```py
 ls.country_code('India')
 ```

@@ -13,7 +13,7 @@
 **方法一:使用`Counter()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，使用 Counter()提取频率，并使用列表理解完成对构造。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Similar pairs from List
 # Using Counter() + list comprehension
@@ -36,7 +36,7 @@ print("The records after pairing : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [4, 6, 7, 4, 2, 6, 2, 8]
 The records after pairing : [(4, 4), (6, 6), (2, 2)]
 
@@ -45,7 +45,7 @@ The records after pairing : [(4, 4), (6, 6), (2, 2)]
 **方法 2:使用`fromkeys()` +列表理解**
 这是执行这个任务的又一种方式。在本例中，我们使用字典的 fromkeys()和 get()执行 Counter()任务，即获取频率。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Similar pairs from List
 # Using fromkeys() + list comprehension
@@ -69,7 +69,7 @@ print("The records after pairing : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [4, 6, 7, 4, 2, 6, 2, 8]
 The records after pairing : [(4, 4), (6, 6), (2, 2)]
 

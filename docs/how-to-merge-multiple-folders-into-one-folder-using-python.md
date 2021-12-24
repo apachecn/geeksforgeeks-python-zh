@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # current folder path
 current_folder = os.getcwd() 
 
@@ -40,7 +40,7 @@ for index, val in enumerate(list_dir):
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to create new folder if not exists
 def make_new_folder(folder_name, parent_folder_path):
 
@@ -80,7 +80,7 @@ make_new_folder(merge_folder, current_folder)
 
 ## 蟒蛇 3
 
-```
+```py
 # loop through the list of folders
 for sub_dir in content_list:
 
@@ -102,7 +102,7 @@ for sub_dir in content_list:
 
 ## 蟒蛇 3
 
-```
+```py
 import shutil
 import os
 
@@ -168,7 +168,7 @@ for sub_dir in content_list:
 
 **运行上述程序前的文件夹结构。**
 
-```
+```py
 Folder 1
     File 1
     File 2
@@ -187,7 +187,7 @@ move_script.py
 
 **运行上述程序后的文件夹结构。**
 
-```
+```py
 Folder 1 (Empty)
 Folder 2 (Empty)
 Folder 3 (Empty)

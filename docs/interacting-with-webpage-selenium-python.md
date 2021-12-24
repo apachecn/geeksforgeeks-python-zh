@@ -7,13 +7,13 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 ## 超文本标记语言
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -22,7 +22,7 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 同样，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 
 ```
@@ -31,14 +31,14 @@ elements = driver.find_elements_by_name("passwd")
 WebDriver 有一个**“基于对象”的 API** ，我们用同一个接口表示所有类型的元素。这意味着，尽管人们可能会看到许多可能的方法，当人们点击集成开发环境的自动完成组合键时可以调用这些方法，但并不是所有的方法都有意义或有效。要检查所有方法，请查看[定位器策略–硒蟒](https://www.geeksforgeeks.org/locator-strategies-selenium-python/)
 获得元素后，接下来会发生什么？可能需要在字段中输入文本，例如
 
-```
+```py
 element.send_keys("some text")
 
 ```
 
 可以使用“键”类来模拟按下箭头键:
 
-```
+```py
 element.send_keys(" and some", Keys.ARROW_DOWN)
 
 ```
@@ -47,7 +47,7 @@ element.send_keys(" and some", Keys.ARROW_DOWN)
 可以用清除方法
 轻松清除文本字段或文本区域的内容
 
-```
+```py
 element.clear()
 
 ```
@@ -59,7 +59,7 @@ element.clear()
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

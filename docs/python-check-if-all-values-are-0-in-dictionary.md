@@ -7,7 +7,7 @@
 **方法一:使用`all()` +字典理解**
 以上功能的组合可以用来执行以下任务。all 函数检查每个键，字典理解检查 0 值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if all values are 0 in dictionary
 # Using all() + dictionary comprehension
@@ -28,7 +28,7 @@ print("Does all keys have 0 value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 0, 'is': 0, 'best': 0}
 Does all keys have 0 value ? : True
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Common keys in list and dictionary
 # Using list comprehension
@@ -41,7 +41,7 @@ print("The required result : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 5, 'best': 9, 'for': 0, 'geeks': 3}
 The required result : ['Gfg', 'best', 'geeks']
 
@@ -53,7 +53,7 @@ The required result : ['Gfg', 'best', 'geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Common keys in list and dictionary
 # Using set() + intersection()
@@ -76,7 +76,7 @@ print("The required result : " + str(list(res))) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 5, 'best': 9, 'for': 0, 'geeks': 3}
 The required result : ['best', 'geeks', 'Gfg']
 

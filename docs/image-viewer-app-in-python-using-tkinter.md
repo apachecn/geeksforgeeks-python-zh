@@ -10,13 +10,13 @@
 
 *   [**Tkinter:**](https://www.geeksforgeeks.org/python-gui-tkinter/)**Tkinter 是一个库，我们可以借助它来制作 GUI(图形用户界面)。**
 
-```
+```py
  pip install tkinter
 ```
 
 *   **[**枕头:**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/) 我们可以添加照片，因为它是一个 Python 的成像库。**
 
-```
+```py
  pip install pillow
 ```
 
@@ -28,7 +28,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the tkinter module and PIL that
 # is pillow module
 from tkinter import *
@@ -84,7 +84,7 @@ root.mainloop()
 
 ## **蟒蛇 3**
 
-```
+```py
 def forward(img_no):
 
     # GLobal variable so that we can have
@@ -126,7 +126,7 @@ def forward(img_no):
 
 ## **蟒蛇 3**
 
-```
+```py
 def back(img_no):
 
     # We will have global variable to access these
@@ -167,7 +167,7 @@ def back(img_no):
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the tkinter module and PIL
 # that is pillow module
 from tkinter import *

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是执行该任务的方法之一。在这种情况下，我们首先创建一个关键字，然后添加除 K 索引之外的值来创建字典列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert list to Single Dictionary Key Value list
 # Using loop
@@ -40,7 +40,7 @@ print("Records after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 3, 8, 9]
 Records after conversion : {8: [5, 6, 3, 9]}
 
@@ -49,7 +49,7 @@ Records after conversion : {8: [5, 6, 3, 9]}
 **方法#2:使用列表切片**
 这是另一个可以执行该任务的线性。在这种情况下，我们在 Kth 索引上切掉列表，并在字典中赋值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert list to Single Dictionary Key Value list
 # Using loop
@@ -73,7 +73,7 @@ print("Records after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 3, 8, 9]
 Records after conversion : {8: [5, 6, 3, 9]}
 

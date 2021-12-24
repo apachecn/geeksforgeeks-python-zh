@@ -12,7 +12,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 计算机编程语言
 
-```
+```py
 # import required module 
 from tkinter import *
 

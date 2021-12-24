@@ -4,7 +4,7 @@
 
 有时我们需要在您的本地硬盘上有一个方便的网页。因此，这里我们将编写一个简单的 Python 脚本来废弃一个网页。网页抓取用于从网站提取数据，用于离线阅读、存储或任何其他原因。在写剧本之前，我们需要知道 **pywebcopy。pywebcopy** 可在 **PyPi** 上获得，并且可以使用 **pip 轻松安装。**在终端输入以下命令安装该模块
 
-```
+```py
 pip install pywebcopy
 ```
 
@@ -20,7 +20,7 @@ pip install pywebcopy
 
 ## 蟒蛇 3
 
-```
+```py
 from pywebcopy import save_webpage
 
 kwargs = {'project_name': 'site folder'}

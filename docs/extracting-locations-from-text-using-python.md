@@ -12,7 +12,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install locationtagger
 ```
 
@@ -20,7 +20,7 @@ pip install locationtagger
 
 ## 蟒蛇 3
 
-```
+```py
 import nltk
 import spacy
 
@@ -35,7 +35,7 @@ nltk.download('averaged_perceptron_tagger')
 
 **同样来自命令行:**
 
-```
+```py
 python -m spacy download en_core_web_sm
 ```
 
@@ -54,7 +54,7 @@ python -m spacy download en_core_web_sm
 
 ## 蟒蛇 3
 
-```
+```py
 import locationtagger
 
 # initializing sample text
@@ -99,7 +99,7 @@ print(place_entity.cities)
 
 ## 蟒蛇 3
 
-```
+```py
 import locationtagger
 
 # initializing sample text

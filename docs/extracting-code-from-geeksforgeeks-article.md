@@ -11,13 +11,13 @@
 
 *   **requests-** Requests 可以让你极其轻松地发送 HTTP/1.1 请求。这个模块也没有内置 Python。要安装，只需在终端中键入给定的命令。
 
-```
+```py
 pip install requests
 ```
 
 *   **bs4 :-** 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装它，请在终端中键入给定的命令。
 
-```
+```py
 pip install bs4
 ```
 
@@ -34,7 +34,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 

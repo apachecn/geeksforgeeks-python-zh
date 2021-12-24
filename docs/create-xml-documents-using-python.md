@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 <?xml version=“1.0” standalone=“yes” ?>
 <message>    
 <from> Robert </from>   
@@ -25,7 +25,7 @@
 
 **示例:**
 
-```
+```py
 from xml.dom import minidom
 import os 
 
@@ -56,7 +56,7 @@ with open(save_path_file, "w") as f:
 
 **示例:**
 
-```
+```py
 import xml.etree.ElementTree as gfg 
 
 def GenerateXML(fileName) :

@@ -8,7 +8,7 @@
 
 在电脑终端上，键入以下命令。
 
-```
+```py
 pip install selenium
 ```
 
@@ -24,7 +24,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time

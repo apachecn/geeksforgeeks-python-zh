@@ -16,13 +16,13 @@ PyCharm 是 JetBrains 开发的最流行的 Python-IDE 之一，用于执行 Pyt
 
 现在为蟒蛇 2 运行以下命令:
 
-```
+```py
 python --version 
 ```
 
 ****为蟒 3.x****
 
-```
+```py
 python3.x --version 
 ```
 
@@ -54,7 +54,7 @@ python3.x --version
 *   ****Command to Start PyCharm:**
     In the terminal window, type the following command to start PyCharm.
 
-    ```
+    ```py
     ./pycharm.sh
     ```
 

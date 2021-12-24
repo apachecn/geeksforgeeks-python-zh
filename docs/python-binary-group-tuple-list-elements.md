@@ -7,7 +7,7 @@
 **方法#1:使用【生成器+循环+ `zip()`**
 的蛮力方法执行此任务，在此，我们借助`zip()`执行组合分组，迭代逻辑由生成器和循环处理。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Binary Group Tuple list elements
 # using generator + loop + zip()
@@ -33,7 +33,7 @@ print("The list after binary grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 56, 'M'), (1, 14, 'F'), (2, 43, 'F'), (2, 10, 'M')]
 The list after binary grouping : [(1, 56, 14), (2, 43, 10)]
 

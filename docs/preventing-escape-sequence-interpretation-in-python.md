@@ -38,7 +38,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # A string with a recognized escape sequence
 print("I will go\tHome")
 
@@ -48,7 +48,7 @@ print("See you\jtommorow")
 
 ****输出:****
 
-```
+```py
 I will go    Home
 See you\jtommorow
 ```
@@ -70,7 +70,7 @@ See you\jtommorow
 
 ## **蟒蛇 3**
 
-```
+```py
 # sample string
 s = "I love to use \t instead of using 4 spaces"
 
@@ -86,7 +86,7 @@ print(s)
 
 ****输出:****
 
-```
+```py
 I love to use      instead of using 4 spaces
 I love to use \t instead of using 4 spaces
 ```
@@ -97,7 +97,7 @@ I love to use \t instead of using 4 spaces
 
 ## **蟒蛇 3**
 
-```
+```py
 s = "C:\Program Files\norton\appx"
 
 # normal output
@@ -112,7 +112,7 @@ print(s)
 
 ****输出:****
 
-```
+```py
 C:\Program Files
 ortonppx
 C:\Program Files\norton\appx
@@ -122,7 +122,7 @@ C:\Program Files\norton\appx
 
 ## **蟒蛇 3**
 
-```
+```py
 print("C:\Users\Desktop\JSON")
 ```
 

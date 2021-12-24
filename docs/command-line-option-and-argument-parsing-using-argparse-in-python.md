@@ -58,7 +58,7 @@ Python 中的`argparse`模块有助于在命令行环境中创建程序，这种
 
     在大多数情况下，这意味着一个简单的 Namespace 对象将由命令行解析出的属性构建而成:
 
-    ```
+    ```py
     Namespace(accumulate=, integers=[ 2, 8, -7, 41 ])
     ```
 
@@ -66,7 +66,7 @@ Python 中的`argparse`模块有助于在命令行环境中创建程序，这种
 
 **示例 1:使用 argparse 找到命令行参数的总和**
 
-```
+```py
 import argparse
 
 # Initialize the Parser
@@ -92,7 +92,7 @@ print(args.accumulate(args.integers))
 
 **例 2:按升序排列整数输入的程序**
 
-```
+```py
 import argparse
 
 # Initializing Parser
@@ -119,7 +119,7 @@ print(args.accumulate(args.integers))
 
 **例 3:求输入的命令行数值参数的平均值**
 
-```
+```py
 import argparse
 
 # Initializing Parser

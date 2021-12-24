@@ -7,7 +7,7 @@ Python 在 **Python3.8.2** 版本中引入了新的函数语法，在这里我�
 
 **语法:**
 
-```
+```py
 def function(a, b, /, c, d, *, e, f):
      # Function Body
      pass 
@@ -23,7 +23,7 @@ def function(a, b, /, c, d, *, e, f):
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用仅位置参数，我们可以实现具有固定位置的函数，因为在这个 python 版本之前，我们只能在内置函数中实现该函数。在此帮助下，我们能够使我们的程序更加健壮。
 
-```
+```py
 # Positional-Only argument 
 def function(a, b, /, c, d, *, e, f):
     print (a, b, c, d, e, f)
@@ -38,7 +38,7 @@ function(1, 2, 3, d = 4, 5, f = 6) # Error occurred
 
 **例 2 :**
 
-```
+```py
 # Positional-Only argument 
 def function(a, b, /, **kwargs):
     print (a, b, kwargs)

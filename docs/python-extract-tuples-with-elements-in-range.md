@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract tuples with elements in Range
 # Using all() + list comprehension
@@ -42,7 +42,7 @@ print("Filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 7), (5, 6), (3, 8, 10), (4, 10)]
 Filtered tuples : [(4, 5, 7), (5, 6)]
 
@@ -54,7 +54,7 @@ Filtered tuples : [(4, 5, 7), (5, 6)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract tuples with elements in Range
 # Using filter() + lambda + all() 
@@ -78,7 +78,7 @@ print("Filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(4, 5, 7), (5, 6), (3, 8, 10), (4, 10)]
 Filtered tuples : [(4, 5, 7), (5, 6)]
 

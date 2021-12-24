@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String of Heterogeneous types to List
 # using list comprehension + split() + strip()
@@ -31,7 +31,7 @@ print("List after conversion from string : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 'gfg', 'is', True, 'best', False
 List after conversion from string : ["'gfg'", "'is'", True, "'best'", False]
 ```
@@ -41,7 +41,7 @@ List after conversion from string : ["'gfg'", "'is'", True, "'best'", False]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String of Heterogeneous types to List
 # using eval()
@@ -62,7 +62,7 @@ print("List after conversion from string : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 'gfg', 'is', True, 'best', False, 1, 2
 List after conversion from string : ["'gfg'", "'is'", True, "'best'", False, 1, 2]
 ```

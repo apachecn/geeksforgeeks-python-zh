@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,7 +96,7 @@
 
 ## java 描述语言
 
-```
+```py
 const output = document.getElementById("output");
 
 const editor = CodeMirror.fromTextArea(document.getElementById("code"), {

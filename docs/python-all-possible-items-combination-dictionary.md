@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `set()`**
 上述功能的组合可以用来解决这个问题。在这种情况下，我们首先提取集合列表中展平的所有项目。然后我们用集合减法构造每个字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All possible items combination dictionary
 # Using loop + set()

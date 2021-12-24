@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Here b is predefined and hence is optional.
 def func(a, b=1098):
     return a+b
@@ -39,7 +39,7 @@ print(func(1))
 
 **输出:**
 
-```
+```py
 4
 1099
 ```
@@ -48,7 +48,7 @@ print(func(1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Here string2 is the default string used
 def fun2(string1, string2="Geeks"):
     print(string1 + string2)
@@ -62,7 +62,7 @@ fun2('GeeksFor', "Geeks")
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 GeeksForGeeks
 ```
@@ -80,7 +80,7 @@ GeeksForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Here string2 is the default string used
 def fun2(string1, string2="Geeks"):
     print(string1 + string2)
@@ -103,7 +103,7 @@ fun2(string2='GeeksFor')
 
 ## 蟒蛇 3
 
-```
+```py
 def func(a, b, c='geeks'):
     print(a, "type is", type(a))
     print(b, "type is", type(b))
@@ -129,7 +129,7 @@ func(c=2, b=3, a='geeks')
 
 **输出:**
 
-```
+```py
 first call
 2 type is <class 'int'>
 z type is <class 'str'>
@@ -150,7 +150,7 @@ geeks type is <class 'str'>
 
 ## 蟒蛇 3
 
-```
+```py
 def comp(a, b=2):
     if(a < b):
         print("first parameter is smaller")
@@ -171,7 +171,7 @@ comp(-1, b=0)
 
 **输出:**
 
-```
+```py
 first call
 first parameter is smaller
 second call

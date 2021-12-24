@@ -21,7 +21,7 @@ GTK+使用容器分层排列小部件。有两种类型的容器独子容器和�
 
 **Example :** Creating a box with button.
 
-```
+```py
 import gi
 # Since a system can have multiple versions
 # of GTK + installed, we want to make 

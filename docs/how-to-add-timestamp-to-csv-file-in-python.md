@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 import csv
 from datetime import datetime
@@ -65,7 +65,7 @@ with open(r'YOUR_CSV_FILE.csv', 'r+', newline='') as file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 import csv
 from datetime import datetime
@@ -142,7 +142,7 @@ write_in_csv(rows)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 import csv
 from datetime import datetime

@@ -8,7 +8,7 @@
 
 这里有一个简单的实现:
 
-```
+```py
 # declare our own string class
 class String:
 
@@ -28,14 +28,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 <__main__.String object at 0x7fe992215390>
 
 ```
 
 上面的代码片段只打印字符串对象的内存地址。让我们添加一个`__repr__`方法来表示我们的对象。
 
-```
+```py
 # declare our own string class
 class String:
 
@@ -59,14 +59,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Object: Hello
 
 ```
 
 **如果我们试图给它加上一个字符串:**
 
-```
+```py
 # declare our own string class
 class String:
 
@@ -90,14 +90,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 TypeError: unsupported operand type(s) for +: 'String' and 'str'
 
 ```
 
 现在将`__add__`方法添加到字符串类中:
 
-```
+```py
 # declare our own string class
 class String:
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 Hello Geeks
 
 ```

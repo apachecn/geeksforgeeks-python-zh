@@ -14,7 +14,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于 web 
 
 要检查任何列是否有任何注释，请参见下面的语句。
 
-```
+```py
 SHOW FULL COLUMNS FROM table_name;
 ```
 
@@ -36,7 +36,7 @@ SHOW FULL COLUMNS FROM table_name;
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module 
 import pymysql
 

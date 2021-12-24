@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 for var in iterable:
     # statements
 ```
@@ -23,7 +23,7 @@ for var in iterable:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Iterating over a list
 print("List Iteration")
@@ -54,7 +54,7 @@ for i in d:
 
 **输出:**
 
-```
+```py
 List Iteration
 geeks
 for
@@ -89,7 +89,7 @@ Python [continue 语句](https://www.geeksforgeeks.org/python-continue-statement
 
 ## 蟒蛇 3
 
-```
+```py
 # Prints all letters except 'e' and 's'
 for letter in 'geeksforgeeks':
     if letter == 'e' or letter == 's':
@@ -99,7 +99,7 @@ for letter in 'geeksforgeeks':
 
 **输出:**
 
-```
+```py
 Current Letter : g
 Current Letter : k
 Current Letter : f
@@ -117,7 +117,7 @@ Python [break 语句](https://www.geeksforgeeks.org/python-break-statement/)将�
 
 ## 蟒蛇 3
 
-```
+```py
 for letter in 'geeksforgeeks':
 
     # break the loop as soon it sees 'e'
@@ -130,7 +130,7 @@ print('Current Letter :', letter)
 
 **输出:**
 
-```
+```py
 Current Letter : e
 ```
 
@@ -142,7 +142,7 @@ Current Letter : e
 
 ## 蟒蛇 3
 
-```
+```py
 # An empty loop
 for letter in 'geeksforgeeks':
     pass
@@ -151,7 +151,7 @@ print('Last Letter :', letter)
 
 **输出:**
 
-```
+```py
 Last Letter : s 
 ```
 
@@ -168,7 +168,7 @@ Python [range()](https://www.geeksforgeeks.org/python-range-function/) 是一个
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to
 # show range() basics
 
@@ -192,7 +192,7 @@ print("Sum of first 10 numbers :", sum)
 
 **Output**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9 
 10 20 30 40 
 Sum of first 10 numbers : 45
@@ -206,7 +206,7 @@ Sum of first 10 numbers : 45
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # for-else loop
 
@@ -224,7 +224,7 @@ else:  # Not executed as there is a break
 
 **输出:**
 
-```
+```py
 1
 2
 3

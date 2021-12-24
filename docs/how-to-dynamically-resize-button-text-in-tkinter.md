@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -41,7 +41,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -71,7 +71,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # resize button text size
 def resize(e):
 
@@ -99,7 +99,7 @@ def resize(e):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 

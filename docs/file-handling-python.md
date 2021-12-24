@@ -10,7 +10,7 @@ Python 也支持文件处理，并允许用户处理文件，即读写文件，�
 
 但是在打开的时候，我们要指定模式，代表打开文件的目的。
 
-```
+```py
 f = open(filename, mode)
 ```
 
@@ -27,7 +27,7 @@ f = open(filename, mode)
 
 ## 蟒蛇 3
 
-```
+```py
 # a file named "geek", will be opened with the reading mode.
 file = open('geek.txt', 'r')
 # This will print every line one by one in the file
@@ -43,7 +43,7 @@ open 命令将以读取模式打开文件，for 循环将打印文件中的每�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate read() mode
 file = open("file.text", "r")
 print (file.read())
@@ -53,7 +53,7 @@ print (file.read())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate read() mode character wise
 file = open("file.txt", "r")
 print (file.read(5))

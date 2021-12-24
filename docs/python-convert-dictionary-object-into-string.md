@@ -9,7 +9,7 @@ json.dumps()是 json 库中的一个内置函数。它比 pickle 有优势，因
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert dictionary into string
 # using json.dumps()
@@ -36,7 +36,7 @@ print ("final string = ", result)
 
 **Output:**
 
-```
+```py
  initial dictionary = {‘testname’: ‘akshat’, ‘test2name’: ‘manjeet’, ‘test3name’: ‘nikhil’}
  <class>final string = {“testname”: “akshat”, “test2name”: “manjeet”, “test3name”: “nikhil”}</class> 
 ```
@@ -46,7 +46,7 @@ str()函数将指定的值转换为字符串。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert dictionary into string
 # using str()
@@ -71,7 +71,7 @@ print ("final string = ", result)
 
 **Output:**
 
-```
+```py
  initial dictionary = {‘test2name’: ‘manjeet’, ‘testname’: ‘akshat’, ‘test3name’: ‘nikhil’}
  <class>final string = {‘test2name’: ‘manjeet’, ‘testname’: ‘akshat’, ‘test3name’: ‘nikhil’}</class> 
 ```

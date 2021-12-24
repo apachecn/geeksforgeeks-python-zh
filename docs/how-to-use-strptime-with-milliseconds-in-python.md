@@ -53,7 +53,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 datetime_string = "15/06/2021 13:30:15.120"
@@ -74,7 +74,7 @@ print(type(date_object))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 date_object = 2021-06-15 13:30:15.120000
 <class 'datetime.datetime'>
@@ -84,7 +84,7 @@ date_object = 2021-06-15 13:30:15.120000
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Getting current datetime and converting
@@ -98,7 +98,7 @@ print(datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S.%f'))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 2021-08-01 15:27:59.979673
 ```
@@ -107,7 +107,7 @@ print(datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S.%f'))
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Using strptime() with milliseconds
@@ -120,6 +120,6 @@ print(date_time)
 
 **输出:**
 
-```
+```py
 2021-10-17 15:48:35.525001
 ```

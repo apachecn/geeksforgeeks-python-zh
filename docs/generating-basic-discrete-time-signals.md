@@ -25,7 +25,7 @@
 
 **Examples:**
 
-```
+```py
 Input :
 Unit Step Signal u[n-2]
 
@@ -35,7 +35,7 @@ Output :
 
 <center>![](img/d7983c8589cf4c79ffca278c94794063.png)</center>
 
-```
+```py
 
 Input :
 Unit Impulse Signal d(4)
@@ -46,7 +46,7 @@ Output :
 
 <center>![](img/8ef134cdb9ddd1cc4c32ea20b3dbdb82.png)</center>
 
-```
+```py
 
 Input :
 Unit Ramp Signal
@@ -57,7 +57,7 @@ Output:
 
 <center>![](img/8cee9d2319848f2b6585e77709ad153f.png)</center>
 
-```
+```py
 
 Input:
 Exponential signal for a=2
@@ -70,7 +70,7 @@ Output:
 
 **代码:Python 代码实现生成基本离散时间信号**
 
-```
+```py
 # importing libraries
 import numpy as np
 import matplotlib.pyplot as plt

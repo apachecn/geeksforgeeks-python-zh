@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import arcade
 
@@ -76,7 +76,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # import
 import arcade
 

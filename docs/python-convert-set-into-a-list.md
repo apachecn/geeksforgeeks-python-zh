@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : {1, 2, 3, 4}
 Output : [1, 2, 3, 4]
 
@@ -19,7 +19,7 @@ Output : ['Geeks', 'for', 'geeks']
 
 简单的使用`list(set_name)`就可以进行列表的类型转换。
 
-```
+```py
 # Python3 program to convert a 
 # set into a list
 my_set = {'Geeks', 'for', 'geeks'}
@@ -30,12 +30,12 @@ print(s)
 
 **Output:**
 
-```
+```py
 ['Geeks', 'for', 'geeks']
 
 ```
 
-```
+```py
 # Python3 program to convert a 
 # set into a list
 def convert(set):
@@ -48,7 +48,7 @@ print(convert(s))
 
 **Output:**
 
-```
+```py
 [1, 2, 3]
 
 ```
@@ -57,7 +57,7 @@ print(convert(s))
 
 使用`sorted()`功能将集合按照定义的顺序转换成列表。这种方法的唯一缺点是集合的元素需要是可排序的。
 
-```
+```py
 # Python3 program to convert a 
 # set into a list
 def convert(set):
@@ -72,7 +72,7 @@ print(convert(s))
 
 **Output:**
 
-```
+```py
 [1, 2, 3]
 
 ```
@@ -80,7 +80,7 @@ print(convert(s))
 **方法#3 :** 使用`[*set, ]`
 这实际上是将列表文字中的集合 *s* 解包，该列表文字是由于单个逗号(，)的存在而创建的。这种方法速度稍快，但可读性较差。
 
-```
+```py
 # Python3 program to convert a 
 # set into a list
 def convert(set):
@@ -93,7 +93,7 @@ print(convert(s))
 
 **Output:**
 
-```
+```py
 [1, 2, 3]
 
 ```

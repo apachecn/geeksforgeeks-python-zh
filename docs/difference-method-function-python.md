@@ -13,7 +13,7 @@
 
 **Python 中的基本方法结构:**
 
-```
+```py
 # Basic Python method 
 class class_name
     def method_name () :
@@ -24,7 +24,7 @@ class class_name
 
 **Python 3 自定义方法:**
 
-```
+```py
 # Python 3  User-Defined  Method
 class ABC :
     def method_abc (self):
@@ -36,13 +36,13 @@ class_ref.method_abc()
 
 输出:
 
-```
+```py
  I am in method_abc of ABC class
 ```
 
 **Python 3 内置方法:**
 
-```
+```py
 import math
 
 ceil_val = math.ceil(15.25)
@@ -51,7 +51,7 @@ print( "Ceiling value of 15.25 is : ", ceil_val) 
 
 输出:
 
-```
+```py
 Ceiling value of 15.25 is :  16
 ```
 
@@ -66,7 +66,7 @@ Ceiling value of 15.25 is :  16
 
 ****Python 中的基本功能结构:****
 
-```
+```py
 def function_name ( arg1, arg2, ...) :
     ......
     # function body
@@ -75,7 +75,7 @@ def function_name ( arg1, arg2, ...) :
 
  ****Python 3 自定义函数:****
 
-```
+```py
 def Subtract (a, b):
     return (a-b)
 
@@ -86,14 +86,14 @@ print( Subtract(15, 6) ) # prints 9
 
 **输出:**
 
-```
+```py
 -2
 9 
 ```
 
 ****Python 3 内置函数:****
 
-```
+```py
 s = sum([5, 15, 2])
 print( s ) # prints 22
 
@@ -103,7 +103,7 @@ print( mx ) # prints 15
 
 **输出:**
 
-```
+```py
 22
 15 
 ```

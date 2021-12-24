@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 str1 = "9.02"
 print("This is the initial string: " + str1)
 
@@ -24,7 +24,7 @@ print("The converted string to double is incremented by 1:", str2)
 
 **输出:**
 
-```
+```py
 This is the initial string: 9.02
 The conversion of string to double is 9.02
 The converted string to double is incremented by 1: 10.02
@@ -34,7 +34,7 @@ The converted string to double is incremented by 1: 10.02
 
 ## 蟒蛇 3
 
-```
+```py
 from decimal import Decimal
 
 str1 = "9.02"
@@ -50,7 +50,7 @@ print("The converted string to double is incremented by 1:", str2)
 
 **输出:**
 
-```
+```py
 This is the initial string: 9.02
 The conversion of string to double is 9.02
 The converted string to double is incremented by 1: 10.02

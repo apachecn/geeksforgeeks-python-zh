@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import numpy
 
@@ -54,7 +54,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.iris()

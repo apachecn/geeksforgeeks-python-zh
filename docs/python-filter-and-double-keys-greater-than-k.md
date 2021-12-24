@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的一种方法。在这种情况下，我们采用蛮力的方式只提取过滤后的元素，并在加倍后存储。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter and Double keys greater than K
 # Using loop

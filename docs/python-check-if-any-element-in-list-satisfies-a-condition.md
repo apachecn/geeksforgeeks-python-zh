@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个问题可以使用循环很容易地解决。但是这种方法提供了一种解决这个问题的方法。列表理解只是检查任何满足条件的元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if any element in list satisfies a condition
 # Using list comprehension
@@ -28,7 +28,7 @@ print("Does any element satisfy specified condition ? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [4, 5, 8, 9, 10, 17]
 Does any element satisfy specified condition ? : True

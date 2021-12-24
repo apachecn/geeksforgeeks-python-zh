@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # working of iter()
 
@@ -51,7 +51,7 @@ print(next(lis1))
 
 **输出:**
 
-```
+```py
 The list is of type : 
 The iterator is of type : 
 1
@@ -65,7 +65,7 @@ The iterator is of type :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # property of iter()
 
@@ -88,7 +88,7 @@ for i in range(0, 5):
 
 **输出:**
 
-```
+```py
 Values at 1st iteration : 
 1
 2
@@ -100,7 +100,7 @@ Values at 2nd iteration :
 
 例外:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/0d0e86c6115170d7cd9083bcef1f22ef.py", line 18, in 
     print (next(lis1))

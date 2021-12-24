@@ -8,7 +8,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 dict1 = {'Name': 'asif', 'Age': 5}
 dict2 = {'Name': 'lalita', 'Age': 78}
 
@@ -20,7 +20,7 @@ else:
 
 **输出:**
 
-```
+```py
 dict1 is not equal to dict2
 ```
 
@@ -28,13 +28,13 @@ dict1 is not equal to dict2
 
 该模块用于查找字典、iterables、strings 和其他对象之间的深层差异。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install deepdiff
 ```
 
 ## 计算机编程语言
 
-```
+```py
 from deepdiff import DeepDiff
 
 a = {'Name': 'asif', 'Age': 5}

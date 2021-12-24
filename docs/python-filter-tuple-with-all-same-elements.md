@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter similar elements Tuples
 # Using list comprehension + set() + len()
@@ -38,7 +38,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(5, 6, 5, 5), (6, 6, 6), (1, 1), (9, 10)]
 Filtered Tuples : [(6, 6, 6), (1, 1)]
 ```
@@ -49,7 +49,7 @@ Filtered Tuples : [(6, 6, 6), (1, 1)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter similar elements Tuples
 # Using filter() + lambda + set() + len()
@@ -70,7 +70,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(5, 6, 5, 5), (6, 6, 6), (1, 1), (9, 10)]
 Filtered Tuples : [(6, 6, 6), (1, 1)]
 ```

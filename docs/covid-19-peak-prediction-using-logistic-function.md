@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import pandas as pd
 import numpy as np
@@ -32,7 +32,7 @@ from sklearn.metrics import r2_score
 
 ## 蟒蛇 3
 
-```
+```py
 # Data Reading
 df = pd.read_excel("C:/BaseDato / COVID-19-310302020chi.xlsx")
 df.head()
@@ -46,7 +46,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Initial Data Graphics
 plt.figure(figsize =(8, 5))
 
@@ -67,7 +67,7 @@ plt.xlabel('Day Number')
 
 逻辑函数的公式为:
 
-```
+```py
 Y = 1/(1+e^B1(X-B2))
 ```
 
@@ -75,7 +75,7 @@ Y = 1/(1+e^B1(X-B2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Definition of the logistic function
 def sigmoid(x, Beta_1, Beta_2):
      y = 1 / (1 + np.exp(-Beta_1*(x-Beta_2)))
@@ -108,7 +108,7 @@ plt.xlabel('Day Number')
 
 ## 蟒蛇 3
 
-```
+```py
 xdata = x_data / max(x_data)
 ydata = y_data / max(y_data)
 ```
@@ -120,7 +120,7 @@ ydata = y_data / max(y_data)
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.optimize import curve_fit
 popt, pcov = curve_fit(sigmoid, xdata, data)
 
@@ -130,7 +130,7 @@ print(" beta_1 = % f, beta_2 = % f" % (popt[0], popt[1]))
 
 **输出:**
 
-```
+```py
 beta_1 = 9.833364, beta_2 = 0.777140
 ```
 
@@ -138,7 +138,7 @@ beta_1 = 9.833364, beta_2 = 0.777140
 
 ## 蟒蛇 3
 
-```
+```py
 x = np.linspace(0, 40, 4)
 x = x / max(x)
 
@@ -163,7 +163,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Model accuracy calculation
 # Splitting training and testing data
 
@@ -187,7 +187,7 @@ print("R2-score: %.2f" % r2_score(y_predic, test_y))
 
 **输出:**
 
-```
+```py
 Mean Absolute Error: 0.06
 Mean Square Error (MSE): 0.01
 R2-score: 0.93

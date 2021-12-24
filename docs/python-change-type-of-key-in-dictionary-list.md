@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是蛮力的方式来处理这个问题。在这种情况下，我们迭代所有列表元素和字典键，并将所需字典键的值转换为所需的类型。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change type of key in Dictionary list
 # Using loop
@@ -46,7 +46,7 @@ print("The converted Dictionary list : " + str(test_list)) 
 **方法 2:使用列表理解**
 这个任务也可以使用列表理解作为速记来执行。在这种情况下，我们使用与上面相同的方法以更短的方式迭代列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change type of key in Dictionary list
 # Using list comprehension

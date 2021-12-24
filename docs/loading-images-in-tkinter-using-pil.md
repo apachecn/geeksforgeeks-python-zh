@@ -6,13 +6,13 @@
 **安装要求–**
 **使用此命令安装 Tkinter :**
 
-```
+```py
 pip install python-tk
 ```
 
 **使用此命令安装 PIL :**
 
-```
+```py
 pip install pillow
 ```
 
@@ -20,7 +20,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # loading Python Imaging Library
@@ -36,7 +36,7 @@ from tkinter import filedialog
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a window
 root = Tk()
 
@@ -60,7 +60,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 def open_img():
     # Select the Imagename  from a folder
     x = openfilename()
@@ -87,7 +87,7 @@ openfilename 函数将返回图像的文件名。
 
 ## 蟒蛇 3
 
-```
+```py
 def openfilename():
 
     # open file dialog box to select image
@@ -98,7 +98,7 @@ def openfilename():
 
 要运行这段代码，请通过扩展名保存它。py，然后打开 cmd(命令提示符)，移动到保存文件的位置，然后写下–
 
-```
+```py
 python "filename".py 
 ```
 

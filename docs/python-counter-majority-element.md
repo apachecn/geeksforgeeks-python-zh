@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : 3 3 4 2 4 4 2 4 4
 Output : 4 
 
@@ -22,7 +22,7 @@ Output : NONE
 1.  Use the **counter ()** method to convert the given list of elements into a dictionary, with elements as keys and their frequencies as values.
 2.  Now walk through the whole dictionary and check the elements whose frequency follows the condition greater than (n/2), where n is the size of the list. That element will be the majority element.
 
-```
+```py
 # Function to find majority element
 from collections import Counter
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 4
 
 ```

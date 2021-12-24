@@ -12,19 +12,19 @@
 
 *   **美观组:**该模块用于在 HTML 或 XML 解析器上迭代、搜索和修改解析树。要下载它，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install beautifulsoup4
     ```
 
 *   **请求:**请求库是 Python 的一个组成部分，用于向指定的网址发出 HTTP 请求。要下载它，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install requests
     ```
 
 下面是实现。
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 

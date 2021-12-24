@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # a datetime instance according
 # to the specified time zone parameter tz
@@ -54,7 +54,7 @@ print("Singapore time from a datetime instance:{}".format(d2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # a datetime instance according
 # to the specified time zone parameter tz
@@ -77,6 +77,6 @@ print(format(d2))
 
 **输出:**
 
-```
+```py
 2021-08-04 06:41:15.128046+00:00
 ```

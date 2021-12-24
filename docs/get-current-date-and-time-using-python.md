@@ -19,7 +19,7 @@
 
 **例 1:**
 
-```
+```py
 # Python3 code to demonstrate 
 # Getting current date and time using  
 # now(). 
@@ -38,7 +38,7 @@ print (current_time) 
 
 **输出:**
 
-```
+```py
 Time now at greenwich meridian is : 2019-12-11 13:54:30.967356
 
 ```
@@ -49,7 +49,7 @@ Time now at greenwich meridian is : 2019-12-11 13:54:30.967356
 
 **例 2:**
 
-```
+```py
 # Python3 code to demonstrate 
 # attributes of now() 
 
@@ -86,7 +86,7 @@ print (current_time.microsecond) 
 
 **输出:**
 
-```
+```py
 The attributes of now() are : 
 Year : 2019
 Month : 12
@@ -104,7 +104,7 @@ Microsecond : 292616
 
 **例:3**
 
-```
+```py
 # Python3 code to demonstrate 
 # attributes of now() for timezone 
 
@@ -124,7 +124,7 @@ print (current_time)  
 
 **输出:**
 
-```
+```py
 The current time in india is : 
 2019-12-11 19:28:23.973616+05:30
 

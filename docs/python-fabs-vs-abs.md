@@ -6,13 +6,13 @@
 
 **ABS()的语法:**
 
-```
+```py
 abs(number)
 ```
 
 **fabs()的语法:**
 
-```
+```py
 math.fabs(number)
 ```
 
@@ -25,7 +25,7 @@ math.fabs(number)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working
 # of fabs() and abs()
 import math
@@ -68,7 +68,7 @@ print(abs(number))
 
 **输出:**
 
-```
+```py
 10
 10.0
 12.08

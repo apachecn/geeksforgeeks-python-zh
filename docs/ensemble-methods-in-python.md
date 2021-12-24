@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -60,7 +60,7 @@ print(mean_squared_error(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 4560
 ```
 
@@ -70,7 +70,7 @@ print(mean_squared_error(y_test, pred_final))
 
 ## 蟒蛇
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -118,7 +118,7 @@ print(log_loss(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 231
 ```
 
@@ -148,7 +148,7 @@ print(log_loss(y_test, pred_final))
 
 ## 蟒 3
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -202,7 +202,7 @@ print(mean_squared_error(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 4510 
 ```
 
@@ -218,7 +218,7 @@ print(mean_squared_error(y_test, pred_final))
 
 ## 进行预测
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.metrics import mean_squared_error
@@ -307,7 +307,7 @@ print(mean_squared_error(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 4790 
 ```
 
@@ -323,7 +323,7 @@ print(mean_squared_error(y_test, pred_final))
 
 ## 巨蟒
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -363,7 +363,7 @@ print(mean_squared_error(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 4666 
 ```
 
@@ -383,7 +383,7 @@ print(mean_squared_error(y_test, pred_final))
 
 ## 蟒 3
 
-```
+```py
 # importing utility modules
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -420,7 +420,7 @@ print(mean_squared_error(y_test, pred_final))
 
 **输出:**
 
-```
+```py
 4789 
 ```
 

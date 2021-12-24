@@ -5,7 +5,7 @@
 Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的。警报是在浏览器中显示弹出窗口的一种方式，用于接受数据或显示数据。Selenium 提供了处理各种警报的方法。`class selenium.webdriver.common.alert.Alert(driver)`处理 Selenium Python 中的所有警报。它包含消除、接受、输入和从警告提示中获取文本的方法。警报中的两个主要任务是接受警报或取消警报。
 硒提供了两种相同的方法–
 
-```
+```py
 Alert(driver).accept()
 Alert(driver).dismiss()
 ```
@@ -25,7 +25,7 @@ Alert(driver).dismiss()
 
 **Program –**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

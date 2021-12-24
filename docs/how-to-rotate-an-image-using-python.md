@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the Python Image
 # processing Library
 from PIL import Image
@@ -56,7 +56,7 @@ Python 图像处理库枕的**旋转()**方法以度数为参数，在**逆时�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2  # importing cv
 import imutils
 

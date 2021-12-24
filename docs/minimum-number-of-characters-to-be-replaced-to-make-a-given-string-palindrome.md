@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: str = "geeks"
 Output: 2
 geeks can be converted to geeeg to make it palindrome
@@ -26,7 +26,7 @@ Among those two, "abeba" is lexicographically smallest.
 
 ## C++
 
-```
+```py
 // C++ Implementation of the above approach
 #include<bits/stdc++.h>
 using namespace std;
@@ -77,7 +77,7 @@ return 0;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java Implementation of the above approach
 import java.util.*;
 
@@ -133,7 +133,7 @@ public static void main(String args[])
 
 ## 计算机编程语言
 
-```
+```py
 # Python Implementation of the above approach
 
 # Function to find the minimum number
@@ -175,7 +175,7 @@ change(list(s))
 
 ## C#
 
-```
+```py
 // C# Implementation of the above approach
 using System;
 
@@ -231,7 +231,7 @@ public static void Main(String []args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP Implementation of the above approach
 
@@ -279,7 +279,7 @@ return 0;
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript Implementation of the above approach
@@ -328,7 +328,7 @@ change((s));
 
 **Output:** 
 
-```
+```py
 Minimum characters to be replaced =  2
 geeeg
 ```

@@ -23,7 +23,7 @@
 
 **示例:**
 
-```
+```py
 Input : "A"  (for base 16)
 Output : 10
 
@@ -32,7 +32,7 @@ Output : 510
 
 ```
 
-```
+```py
 # using base 16
 s1 = "A"
 print(int(s1, 16))
@@ -44,7 +44,7 @@ print(int(s2))
 
 **输出:**
 
-```
+```py
 10
 510
 

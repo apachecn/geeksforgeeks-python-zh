@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 L=0
 while True:
    if not x[L] == '0':
@@ -58,7 +58,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 def Elias_Delta_Decoding(x):
@@ -89,7 +89,7 @@ print(Elias_Delta_Decoding(x))
 
 **输出:**
 
-```
+```py
 7
 ```
 
@@ -97,7 +97,7 @@ print(Elias_Delta_Decoding(x))
 
 ## 计算机编程语言
 
-```
+```py
 import math
 
 def  Elias_Delta_Decoding(x):
@@ -128,6 +128,6 @@ print(Elias_Delta_Decoding(x))
 
 **输出:**
 
-```
+```py
 28
 ```

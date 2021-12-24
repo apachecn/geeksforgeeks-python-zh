@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list1 = [1, 2, 3]
        list2 = [2, 1, 2, 1, 3, 5, 2, 3]
 
@@ -24,7 +24,7 @@ Sum = 2+3+2 = 7
 
 **方法#1:** 使用`sum()`
 
-```
+```py
 # Python code to find sum of frequency of 
 # element of first list in second list.
 
@@ -42,7 +42,7 @@ print("Frequency is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list are: [1, 2, 3] [2, 1, 2, 1, 3, 5, 2, 3]
 Frequency is: 7
 
@@ -50,7 +50,7 @@ Frequency is: 7
 
 **方法二:使用`sum()``Counter()`**
 
-```
+```py
 from collections import Counter
 
 # List initialization
@@ -67,7 +67,7 @@ print("Frequency is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list are: [1, 2, 3] [2, 1, 2, 1, 3, 5, 2, 3]
 Frequency is: 7
 

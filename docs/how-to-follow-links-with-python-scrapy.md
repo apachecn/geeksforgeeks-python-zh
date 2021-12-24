@@ -8,7 +8,7 @@
 
 Scrapy 附带了一个高效的命令行工具，也称为“Scrapy 工具”。命令用于不同的目的，接受不同的参数集和选项。为了编写 Spider 代码，我们从创建一个 Scrapy 项目开始，在终端执行以下命令:
 
-```
+```py
 scrapy startproject gfg_spiderfollowlink
 ```
 
@@ -36,7 +36,7 @@ scrapy startproject gfg_spiderfollowlink
 
 我们正在“http://quotes.toscrape.com/”上搜索所有报价。因此，我们将运行以下命令:
 
-```
+```py
 scrapy genspider gfg_spilink "quotes.toscrape.com"
 ```
 
@@ -48,7 +48,7 @@ scrapy genspider gfg_spilink "quotes.toscrape.com"
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -104,7 +104,7 @@ Scrapy 为我们提供了选择器，可以根据需要“选择”网页的某�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -178,7 +178,7 @@ class GfgSpilinkSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -238,7 +238,7 @@ class GfgSpilinkSpider(scrapy.Spider):
 
 我们可以收集任何文件格式的数据，用于存储或分析。为了收集相同的内容，在一个 JSON 文件中，我们可以在“爬网”中提到文件名，语法如下:
 
-```
+```py
 scrapy crawl gfg_spilink -o spiderlinks.json
 ```
 

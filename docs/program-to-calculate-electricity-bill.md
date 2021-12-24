@@ -41,7 +41,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation to calculate the
 // electricity bill
 #include<bits/stdc++.h>
@@ -92,7 +92,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to calculate the
 // electricity bill
 
@@ -145,7 +145,7 @@ class ComputeElectricityBill {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to calculate the
 # electricity bill
 
@@ -189,7 +189,7 @@ print(calculateBill(units));
 
 ## C#
 
-```
+```py
 // C# implementation to calculate the
 // electricity bill
 using System;
@@ -243,7 +243,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript implementation to calculate the
@@ -297,7 +297,7 @@ document.write(calculateBill(units));
 
 **Output:** 
 
-```
+```py
 3500
 ```
 

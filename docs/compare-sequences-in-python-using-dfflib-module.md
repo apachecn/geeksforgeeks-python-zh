@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -36,7 +36,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 **输出:**
 
-```
+```py
 1.0
 ```
 
@@ -44,7 +44,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -58,7 +58,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 **输出:**
 
-```
+```py
 0.47619047619047616
 ```
 
@@ -66,7 +66,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -80,7 +80,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 **输出:**
 
-```
+```py
 0.0
 ```
 
@@ -90,7 +90,7 @@ print(difflib.SequenceMatcher(None, par1, par2).ratio())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -108,7 +108,7 @@ for ele in matches:
 
 **输出:**
 
-```
+```py
 geeks
 ```
 
@@ -116,7 +116,7 @@ geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -142,7 +142,7 @@ for ele in matches:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -156,7 +156,7 @@ print(difflib.get_close_matches(string, listOfStrings))
 
 **输出:**
 
-```
+```py
 ['geeks']
 ```
 
@@ -182,7 +182,7 @@ print(difflib.get_close_matches(string, listOfStrings))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from difflib import Differ
 
@@ -197,7 +197,7 @@ for ele in Differ().compare(par1, par2):
 
 **输出:**
 
-```
+```py
 - G
 + g
   e
@@ -211,7 +211,7 @@ for ele in Differ().compare(par1, par2):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from difflib import Differ
 
@@ -226,7 +226,7 @@ for ele in Differ().compare(par1, par2):
 
 **输出:**
 
-```
+```py
 - G
 + g
   e
@@ -242,7 +242,7 @@ for ele in Differ().compare(par1, par2):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -257,7 +257,7 @@ for ele in difflib.ndiff(par1, par2):
 
 **输出:**
 
-```
+```py
 - G
 + g
   e
@@ -271,7 +271,7 @@ for ele in difflib.ndiff(par1, par2):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import difflib
 
@@ -286,7 +286,7 @@ for ele in difflib.ndiff(par1, par2):
 
 **输出:**
 
-```
+```py
 - Geeks
 - for
 - geeks!
@@ -304,7 +304,7 @@ for ele in difflib.ndiff(par1, par2):
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 import difflib
 
@@ -355,7 +355,7 @@ for ele in difflib.context_diff(par1, par2):
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 import difflib
 

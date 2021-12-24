@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import ntpath
 
@@ -32,7 +32,7 @@ for path in paths:
 
 ## 蟒蛇 3
 
-```
+```py
 # get names from the list
 for name in filenames:
 
@@ -48,7 +48,7 @@ for name in filenames:
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import ntpath
 

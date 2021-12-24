@@ -7,7 +7,7 @@
 **方法#1:使用`map() + count()`**
 map 函数可以用来累加列表中所有元组的索引，计数频率的任务可以使用 python 库的泛型计数函数来完成。
 
-```
+```py
 # Python3 code to demonstrate
 # finding frequency in list of tuples
 # using map() + count()
@@ -28,7 +28,7 @@ print ("The frequency of element is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [('Geeks', 1), ('for', 2), ('Geeks', 3)]
 The frequency of element is : 2
 
@@ -37,7 +37,7 @@ The frequency of element is : 2
 **方法 2:使用`Counter()` +列表理解**
 列表理解执行获取元组首元素的任务，计数部分由集合库 Counter 函数处理。
 
-```
+```py
 # Python3 code to demonstrate
 # finding frequency in list of tuples
 # using Counter() + list comprehension
@@ -59,7 +59,7 @@ print ("The frequency of element is : " + str(res['Geeks']))
 
 **Output:**
 
-```
+```py
 The original list is : [('Geeks', 1), ('for', 2), ('Geeks', 3)]
 The frequency of element is : 2
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class EquivalenceClass(object):
     def __eq__(self, other):
         return type(self) == type(other)
@@ -29,7 +29,7 @@ print(EquivalenceClass() == 'MyClass')
 
 **输出**T2】
 
-```
+```py
 True
 False
 ```
@@ -56,7 +56,7 @@ __eq__ 方法使用两个参数——self 和 object——来检查相等性。�
 
 ## 蟒蛇 3
 
-```
+```py
 class InitClass(object):
     def __init__(self):
         print('Executing the __init__ method.')
@@ -66,7 +66,7 @@ ic = InitClass()
 
 **输出**T2】
 
-```
+```py
 Executing the __init__ method.
 ```
 
@@ -74,7 +74,7 @@ Executing the __init__ method.
 
 ## 蟒蛇 3
 
-```
+```py
 class Square(object):
     def __init__(self, number = 2):
         self._number = number
@@ -89,7 +89,7 @@ print('Square: % i' % s.square())
 
 **输出**T2】
 
-```
+```py
 Number: 2
 Square: 4
 ```
@@ -111,7 +111,7 @@ Square: 4
 
 ## 蟒蛇 3
 
-```
+```py
 class Students(object):
     def __init__(self, idNo, grade):
         self._idNo = idNo
@@ -137,7 +137,7 @@ print(stud2)
 
 **输出**T2】
 
-```
+```py
 
 Creating Instance
 Students({'_idNo': 1, '_grade': 7})
@@ -155,7 +155,7 @@ __del__ 方法在销毁类的实例时被调用——通过垃圾收集器直接
 
 ## 蟒蛇 3
 
-```
+```py
 class MyClass(object):
     def __del__(self):
         print('Destroyed')
@@ -166,7 +166,7 @@ MyClass()
 
 **输出**T2】
 
-```
+```py
 Destroyed
 ```
 
@@ -190,7 +190,7 @@ __str__ 方法需要一个位置参数——self——并返回一个字符串�
 
 ## 蟒蛇 3
 
-```
+```py
 class MyString(object):
     def __str__(self):
         return 'My String !'
@@ -200,7 +200,7 @@ print(str(MyString()))
 
 **输出**T2】
 
-```
+```py
 My String!
 ```
 
@@ -208,7 +208,7 @@ My String!
 
 ## 蟒蛇 3
 
-```
+```py
 class HelloClass(object):
     def __str__(self):
         return 'George'
@@ -218,7 +218,7 @@ print('Hello, % s' % HelloClass())
 
 **输出**T2】
 
-```
+```py
 Hello, George
 ```
 
@@ -242,7 +242,7 @@ python 中的 __bool__ magic 方法接受一个位置参数，并返回 true 或
 
 ## 蟒蛇 3
 
-```
+```py
 class MyEquivalence(object):
     def __eq__(self, other):
         print('MyEquivalence:\n'
@@ -265,7 +265,7 @@ print(eq2 == eq1)
 
 **输出**T2】
 
-```
+```py
 MyEquivalence:
 <__main__.MyEquivalence object at 0x7fa1d38e16d8>
 <__main__.YourEquivalence object at 0x7fa1d1ea37b8>
@@ -280,7 +280,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 class MyEquivalence(object):
     def __eq__(self, other):
         print('MyEquivalence:\n'
@@ -305,7 +305,7 @@ print(eqSub == eqMain)
 
 **输出**T2】
 
-```
+```py
 MyEquivalence:
 <__main__.MyEquivalence object at 0x7fa1d38e16d8>
 <__main__.YourEquivalence object at 0x7fa1d1ea37b8>
@@ -328,7 +328,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 class ObjectCreationTime(object):
     def __init__(self, objName):
@@ -355,7 +355,7 @@ print(obj1 > obj2)
 
 **输出**T2】
 
-```
+```py
 Creation Time:
 obj1:1590679265.753279
 obj2:1590679265.753280
@@ -381,7 +381,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 class Count(object):
     def __init__(self, count):
         self._count = count
@@ -399,7 +399,7 @@ print(c3)
 
 **输出**T2】
 
-```
+```py
 Count: 7
 ```
 
@@ -409,7 +409,7 @@ Count: 7
 
 ## 蟒蛇 3
 
-```
+```py
 class Count(object):
     def __init__(self, count):
         self._count = count
@@ -434,7 +434,7 @@ print(c3)
 
 **输出**T2】
 
-```
+```py
 Count:2
 ```
 
@@ -446,7 +446,7 @@ Count:2
 
 ## 蟒蛇 3
 
-```
+```py
 class inPlace(object):
     def __init__(self, value):
         self._value = value
@@ -464,7 +464,7 @@ print(inP1)
 
 **输出**T2】
 
-```
+```py
 8
 ```
 
@@ -481,7 +481,7 @@ _ _ pos _ _ 方法接受单个位置参数–self –,执行操作，并返回�
 
 ## 蟒蛇 3
 
-```
+```py
 class unaryOp(object):
     def __init__(self, value):
         self._value = value
@@ -495,7 +495,7 @@ print(+up)
 
 **输出**T2】
 
-```
+```py
 __pos__ magic method
 5
 ```
@@ -506,7 +506,7 @@ __pos__ magic method
 
 ## 蟒蛇 3
 
-```
+```py
 class unaryOp(object):
     def __init__(self, value):
         self._value = value
@@ -520,7 +520,7 @@ print(-up)
 
 **输出**T2】
 
-```
+```py
 __neg__ magic method
 -5
 ```
@@ -531,7 +531,7 @@ __neg__ magic method
 
 ## 蟒蛇 3
 
-```
+```py
 class invertClass(object):
     def __init__(self, value):
         self._value = value
@@ -547,7 +547,7 @@ print(invertedValue)
 
 **输出**T2】
 
-```
+```py
 egroeG, olleH
 ```
 
@@ -565,7 +565,7 @@ len()方法调用 __len__ magic 方法。它接受一个位置参数并返回对
 
 ## 蟒蛇 3
 
-```
+```py
 class RectangleClass(object):
     def __init__(self, area, breadth):
         self._area = area
@@ -580,7 +580,7 @@ print(len(rc))
 
 **输出**T2】
 
-```
+```py
 18
 ```
 
@@ -591,7 +591,7 @@ __repr__ magic 方法有助于在 Python 交互终端中表示一个对象。它
 
 ## 蟒蛇 3
 
-```
+```py
 class RectangleClass(object):
     def __init__(self, area, breadth):
         self._area = area
@@ -606,7 +606,7 @@ RectangleClass(90, 5)
 
 **输出**T2】
 
-```
+```py
 <__main__.RectangleClass object at 0x7f9ecaae9710>
 ```
 
@@ -615,7 +615,7 @@ RectangleClass(90, 5)
 
 ## 蟒蛇 3
 
-```
+```py
 class RectangleClass(object):
     def __init__(self, area, breadth):
         self._area = area
@@ -635,7 +635,7 @@ RectangleClass(80, 4)  
 
 **输出**T2】
 
-```
+```py
 RectangleClass(area=90, breadth=5)
 RectangleClass(area=80, breadth=4)
 ```
@@ -646,7 +646,7 @@ RectangleClass(area=80, breadth=4)
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 
 class DateClass(object):
@@ -669,7 +669,7 @@ print("Whether (2022, 8, 2) is within the mentioned date range? ", result)
 
 **输出**T2】
 
-```
+```py
 Whether (2020, 6, 4) is within the mentioned date range?  True
 Whether (2022, 8, 2) is within the mentioned date range?  False
 ```

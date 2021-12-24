@@ -19,7 +19,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 #import library
 import sys
 from tkinter import *

@@ -12,7 +12,7 @@
 
 **第一步:**首先，导入库 Image 和 Pygame。
 
-```
+```py
 import Image
 import pygame
 from pygame.locals import *
@@ -20,7 +20,7 @@ from pygame.locals import *
 
 **第二步:**现在，把你想在游戏中使用的颜色作为输入。
 
-```
+```py
 color_1 = #RGB value of color 1
 color_2 = #RGB value of color 2
 color_n = #RGB value of color n
@@ -28,84 +28,84 @@ color_n = #RGB value of color n
 
 **第三步:**然后，构建 GUI 游戏。
 
-```
+```py
 pygame.init()
 ```
 
 **第四步:**进一步，设置你的 GUI 游戏的维度。
 
-```
+```py
 w, h = #width of game, #height of game
 screen = pygame.display.set_mode((w, h))
 ```
 
 **第五步:**接下来，将你想要转换成 Pygame Surface Image 的 PIL 图像作为输入。
 
-```
+```py
 image = Image.open("#Enter the image")
 ```
 
 **步骤 6:** 计算将 PIL 图像转换为 pygame 表面图像时将使用的模式值。
 
-```
+```py
 mode = image.mode
 ```
 
 **步骤 7:** 进一步，计算将 PIL 图像转换为 pygame 表面图像时将使用的大小值。
 
-```
+```py
 size = image.size
 ```
 
 **步骤 8:** 计算将 PIL 图像转换为 pygame 表面图像时将使用的数据值。
 
-```
+```py
 data = image.tobytes()
 ```
 
 **步骤 9:** 此外，将 PIL 图像转换为 Pygame 表面图像。
 
-```
+```py
 py_image = pygame.image.fromstring(data, size, mode)
 ```
 
 **步骤 10:** 稍后，围绕转换后的图像构建矩形。
 
-```
+```py
 rect = py_image.get_rect()
 rect.center = w//2, h//2
 ```
 
 **步骤 11:** 设置运行游戏的运行值。
 
-```
+```py
 running=True
 ```
 
 **第 12 步:**设置你希望你的游戏在运行状态下要做的事情。
 
-```
+```py
 while running:
    for event in pygame.event.get():
 ```
 
 **步骤 12.1:** 一旦 app 处于运行状态，如果用户想退出，就让其退出。
 
-```
+```py
       if event.type == pygame.QUIT:
           running = False
 ```
 
 **步骤 12.2:** 此外，设置你希望在应用中看到的背景颜色。
 
-```
+```py
    screen.fill(color_1)
    screen.blit(py_image, rect)
 ```
 
 **步骤 12.3:** 进一步，构建图像周围的边界。
 
-```
+```py
 pygame.draw.rect(screen, color_2, rect, 2)
 ```
 
@@ -113,13 +113,13 @@ pygame.draw.rect(screen, color_2, rect, 2)
 
 **第 12.5 步:**在做了所有你想做的事情之后，更新完成的更改。
 
-```
+```py
   pygame.display.update()
 ```
 
 **第十三步:**最后，退出 GUI 游戏
 
-```
+```py
 pygame.quit()
 ```
 
@@ -127,7 +127,7 @@ pygame.quit()
 
 ## 计算机编程语言
 
-```
+```py
 # Python image to convert PIL image
 # to Pygame Surface Image
 

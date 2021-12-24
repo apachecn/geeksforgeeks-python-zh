@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 class collections.Counter([iterable-or-mapping])
 ```
 
@@ -23,7 +23,7 @@ class collections.Counter([iterable-or-mapping])
 
     **每种初始化类型的示例:**
 
-    ```
+    ```py
     # A Python program to show different ways to create
     # Counter
     from collections import Counter
@@ -40,7 +40,7 @@ class collections.Counter([iterable-or-mapping])
 
     **所有三条线的输出相同:**
 
-    ```
+    ```py
     Counter({'B': 5, 'A': 3, 'C': 2})
     Counter({'B': 5, 'A': 3, 'C': 2})
     Counter({'B': 5, 'A': 3, 'C': 2})
@@ -50,19 +50,19 @@ class collections.Counter([iterable-or-mapping])
     **更新:**
     我们也可以通过以下方式创建一个空的计数器:
 
-    ```
+    ```py
     coun = collections.Counter()
 
     ```
 
     并且可以通过 update()方法进行更新。语法相同:
 
-    ```
+    ```py
     coun.update(Data)
 
     ```
 
-    ```
+    ```py
     # A Python program to demonstrate update()
     from collections import Counter
     coun = Counter()
@@ -76,7 +76,7 @@ class collections.Counter([iterable-or-mapping])
 
     **输出:**
 
-    ```
+    ```py
     Counter({1: 4, 2: 3, 3: 1})
     Counter({1: 5, 2: 4, 3: 1, 4: 1})
 
@@ -85,7 +85,7 @@ class collections.Counter([iterable-or-mapping])
     *   数据可以通过初始化中提到的三种方式中的任何一种来提供，计数器的数据将增加而不是替换。
     *   Counts can be zero and negative also.
 
-        ```
+        ```py
         # Python program to demonstrate that counts in 
         # Counter can be 0 and negative
         from collections import Counter
@@ -99,13 +99,13 @@ class collections.Counter([iterable-or-mapping])
 
         **输出:**
 
-        ```
+        ```py
          Counter({'c': 6, 'B': 0, 'A': -6})
         ```
 
     *   We can use Counter to count distinct elements of a list or other collections.
 
-        ```
+        ```py
         # An example program where different list items are
         # counted using counter
         from collections import Counter
@@ -119,7 +119,7 @@ class collections.Counter([iterable-or-mapping])
 
         **输出:**
 
-        ```
+        ```py
         Counter({'blue': 3, 'red': 2, 'yellow': 1})
 
         ```

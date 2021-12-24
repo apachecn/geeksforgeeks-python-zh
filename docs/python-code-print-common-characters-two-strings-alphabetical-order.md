@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 
 string1 : geeks
 string2 : forgeeks
@@ -31,7 +31,7 @@ Output : hhh
 4.  使用计数器字典的**元素()**方法，通过键的频率次数来扩展键列表。
 5.  对列表进行排序，并连接输出列表中的每个字符，没有空格来打印结果字符串。
 
-```
+```py
 # Function to print common characters of two Strings 
 # in alphabetical order 
 from collections import Counter 
@@ -69,7 +69,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 eegks
 
 ```

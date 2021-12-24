@@ -33,7 +33,7 @@ rename()方法接受两个参数，第一个是源路径，第二个是目标路
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 source = 'C:/Users/sai mohan pulamolu/Desktop/deleted/source/'
@@ -53,7 +53,7 @@ shutil.move()方法接受两个参数，第一个是源路径，第二个是目�
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import shutil
 

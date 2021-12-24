@@ -78,7 +78,7 @@
 
 **第一部分**
 
-```
+```py
 1\. Creating a class named Linear_Qnet for initializing the linear neural network.
 2\. The function forward is used to take the input(11 state vector) and pass it through the 
    Neural network and apply relu activation function and give the output back i.e the next 
@@ -88,7 +88,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class Linear_QNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super().__init__()
@@ -108,7 +108,7 @@ class Linear_QNet(nn.Module):
 
 **第二部分**
 
-```
+```py
 1\. Initialising QTrainer class
    ∗ setting the learning rate for the optimizer.
    * Gamma value that is the discount rate used in Bellman equation.
@@ -128,7 +128,7 @@ class Linear_QNet(nn.Module):
 
 ## C++
 
-```
+```py
 class QTrainer:
     def __init__(self,model,lr,gamma):
 #Learning Rate for Optimizer
@@ -183,7 +183,7 @@ class QTrainer:
 
 ## 计算机编程语言
 
-```
+```py
 def get_state(self, game):
     head = game.snake[0]
     point_l = Point(head.x - BLOCK_SIZE, head.y)
@@ -234,7 +234,7 @@ def get_state(self, game):
 
 ## 计算机编程语言
 
-```
+```py
 def get_action(self, state):
     # random moves: tradeoff explotation / exploitation
     self.epsilon = 80 - self.n_game
@@ -258,7 +258,7 @@ def get_action(self, state):
 
 ## 计算机编程语言
 
-```
+```py
 def train_short_memory(self, state, action, reward, next_state, done):
     self.trainer.train_step(state, action, reward, next_state, done)
 ```
@@ -267,7 +267,7 @@ def train_short_memory(self, state, action, reward, next_state, done):
 
 ## 计算机编程语言
 
-```
+```py
 def train_long_memory(self):
     if (len(self.memory) > BATCH_SIZE):
         mini_sample = random.sample(self.memory, BATCH_SIZE)
@@ -289,7 +289,7 @@ def train_long_memory(self):
 
 ## 计算机编程语言
 
-```
+```py
 self.model.load_state_dict(torch.load('PATH'))
 ```
 

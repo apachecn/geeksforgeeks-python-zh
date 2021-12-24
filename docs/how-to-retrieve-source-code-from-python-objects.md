@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 # import inspect library
 import inspect
 
@@ -24,7 +24,7 @@ print(inspect.getsource(test))
 
 **输出:**
 
-```
+```py
 def test(x):
 
    return (x+2)*(x-2)
@@ -33,7 +33,7 @@ def test(x):
 
 **示例:**
 
-```
+```py
 # import inspect library
 import inspect
 
@@ -50,7 +50,7 @@ print(source)
 
 **输出:**
 
-```
+```py
 def far(n):
     factorial = 1
     if int(n) >= 1:
@@ -62,7 +62,7 @@ def far(n):
 
 **示例:**我们也可以在内置的库函数和对象上使用 inspect。
 
-```
+```py
 # import inspect library
 import inspect
 import pandas
@@ -73,7 +73,7 @@ print(source_DF[:100])
 
 **输出:**
 
-```
+```py
 class DataFrame(NDFrame):
     """
     Two-dimensional size-mutable, potentially heterogeneous tabula

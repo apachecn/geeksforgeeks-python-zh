@@ -8,7 +8,7 @@ Python 中的 Dictionary 是一个无序的数据值集合，用于像映射一�
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a dictionary
 myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -23,13 +23,13 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 3: 'Geeks'}
 ```
 
 上面的代码对 Python2 很有效，但是当我们用 Python3 运行它时，它会抛出以下错误:
 
-```
+```py
 for key in myDict.keys():
 RuntimeError: dictionary changed size during iteration
 ```
@@ -40,7 +40,7 @@ RuntimeError: dictionary changed size during iteration
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a dictionary
 myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -57,7 +57,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 2: 'For'}
 ```
 
@@ -65,7 +65,7 @@ print(myDict)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a dictionary
 myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -78,7 +78,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 2: 'For'}
 ```
 
@@ -86,7 +86,7 @@ print(myDict)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a dictionary
 myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -101,7 +101,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {1: 'Geeks', 3: 'Geeks'}
 ```
 
@@ -110,7 +110,7 @@ print(myDict)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a dictionary
 myDict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -129,7 +129,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {2: 'For'}
 ```
 

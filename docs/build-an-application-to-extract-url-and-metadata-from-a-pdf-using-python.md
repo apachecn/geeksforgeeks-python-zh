@@ -20,7 +20,7 @@ PDF(可移植文档格式)是 Adobe 开发的最常用的独立于平台的文�
 
 首先，我们需要安装 *pdfx* 模块，在终端运行下面的代码。
 
-```
+```py
 pip install pdfx
 ```
 
@@ -37,7 +37,7 @@ pip install pdfx
 
 ## 蟒 3
 
-```
+```py
 # import module
 import pdfx
 
@@ -50,7 +50,7 @@ print(pdf)
 
 **输出:**
 
-```
+```py
 <pdfx.PDFx at 0x1c189244a88>
 ```
 
@@ -60,6 +60,6 @@ print(pdf)
 
 ## 蟒 3
 
-```
+```py
 pdf.get_metadata()
 ```

@@ -6,7 +6,7 @@ Python delattr()函数用于从类中删除属性。它需要两个参数，第�
 
 **语法**
 
-```
+```py
 delattr (object, name)  
 ```
 
@@ -37,7 +37,7 @@ delattr()方法返回一个复数。
 
 ## 蟒蛇 3
 
-```
+```py
 class course:
     name = "data structures using c++"
     duration_months = 6
@@ -59,7 +59,7 @@ except Exception as e:
 
 **Output**
 
-```
+```py
 5
 type object 'course' has no attribute 'rating'
 ```
@@ -70,7 +70,7 @@ type object 'course' has no attribute 'rating'
 
 ## 蟒蛇 3
 
-```
+```py
 class course:
     name = "data structures using c++"
     duration_months = 6
@@ -92,7 +92,7 @@ except Exception as e:
 
 **Output**
 
-```
+```py
 20000
 type object 'course' has no attribute 'price'
 ```

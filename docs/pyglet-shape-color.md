@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 创建一个窗口
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 ```
@@ -20,7 +20,7 @@ window = pyglet.window.Window(width, height, title)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 
@@ -115,7 +115,7 @@ pyglet.app.run()
 
 ![](img/cc82aa008e6ec3d69a167ea8fe6d24b5.png)
 
-```
+```py
 Rectangle : (50, 225, 30)
 Circle : (250, 22, 30)
 ```

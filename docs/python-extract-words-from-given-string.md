@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to extract words from string
 # using split()
@@ -34,7 +34,7 @@ print ("The list of words is : " +  str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to extract words from string
 # using regex( findall() )
@@ -61,7 +61,7 @@ print ("The list of words is : " +  str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to extract words from string
 # using regex() + string.punctuation

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # tempConversion.py to convert between
 # between Fahrenheit and Centigrade
 
@@ -39,19 +39,19 @@ Now save this python file and the module is created. This module can be used in 
 
 1.  要导入整个模块:
 
-    ```
+    ```py
     import module_name
     ```
 
 2.  仅导入模块的特定部分:
 
-    ```
+    ```py
     from module_name import object_name
     ```
 
 3.  导入模块的所有对象:
 
-    ```
+    ```py
     from module_name import *
     ```
 
@@ -59,7 +59,7 @@ Now save this python file and the module is created. This module can be used in 
 
 导入模块后，我们可以按照以下语法使用导入模块的任何函数/定义:
 
-```
+```py
 module_name.function_name() 
 ```
 
@@ -70,7 +70,7 @@ module_name.function_name()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import tempConversion
 
@@ -83,7 +83,7 @@ print(tempConversion.FREEZING_F)
 
 **Output :**
 
-```
+```py
 -11.11111111111111
 32.0
 
@@ -93,7 +93,7 @@ print(tempConversion.FREEZING_F)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the to_fahrenheit() method
 from tempConversion import to_fahrenheit
 
@@ -109,7 +109,7 @@ print(FREEZING_C)
 
 **Output :**
 
-```
+```py
 68.0
 0.0
 
@@ -121,7 +121,7 @@ python 解释器内置了许多随时可用的功能。要使用 python 的这�
 
 ## 蟒蛇 3
 
-```
+```py
 num = 5
 print("Number entered = ", num)
 
@@ -138,7 +138,7 @@ print(num)
 
 **Output :**
 
-```
+```py
 Number entered = 5
 Octal conversion yields 0o5
 Hexadecimal conversion yields 0x5

@@ -7,7 +7,7 @@
 **方法#1 :** 使用`sum()` +列表理解
 列表理解可以用求和函数来实现这个特定的任务。求和函数做求和部分，返回真的逻辑情况在列表理解部分处理。
 
-```
+```py
 # Python3 code to demonstrate 
 # check for minimum N occureneces of K 
 # using sum() + list comprehension
@@ -39,7 +39,7 @@ print ("Does %d occur atleast %d times ? :" %(k, N) + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 3, 5, 5, 4, 5]
 Does 5 occur atleast 3 times ? : True
 
@@ -48,7 +48,7 @@ Does 5 occur atleast 3 times ? : True
 **方法 2 :** 使用`next() + islice()`
 这两个功能可以一起使用，以比上面更有效的方式执行这个特定的任务。`islice` 函数将处理求和部分，下一个函数有助于迭代逻辑。
 
-```
+```py
 # Python3 code to demonstrate 
 # check for minimum N occureneces of K 
 # using next() + islice()
@@ -77,7 +77,7 @@ print ("Does %d occur atleast %d times ? :" %(k, N) + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 3, 5, 5, 4, 5]
 Does 5 occur atleast 3 times ? : True
 

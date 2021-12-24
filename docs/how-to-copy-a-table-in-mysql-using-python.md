@@ -14,7 +14,7 @@ SQL 数据库
 
 要在 MySQL 中复制一个表，我们使用下面的查询:
 
-```
+```py
 CREATE TABLE table-name SELECT * FROM table-name;
 
 ```
@@ -23,7 +23,7 @@ CREATE TABLE table-name SELECT * FROM table-name;
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 
@@ -96,7 +96,7 @@ MySQL 输出
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 

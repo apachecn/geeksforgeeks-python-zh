@@ -4,7 +4,7 @@
 
 有没有想过写一个脚本，当你执行它时，它会打印出自己的名字。很简单。你一定注意到了主功能是这样写的程序
 
-```
+```py
 int main(int argc, char** argv)
 ```
 
@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 
 下面是上面讨论的想法的 python 实现。让我们假设脚本的名称是 print_my_name。
 
-```
+```py
 # Python program to prints it own name upon execution
 import sys
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```
+```py
 Output: print_my_name.py
 ```
 

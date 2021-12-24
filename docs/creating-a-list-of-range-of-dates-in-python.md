@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Construct Next K dates List
 # Using timedelta() + list comphehension
@@ -61,7 +61,7 @@ print("Next K dates list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Construct Next K dates List
 # Using count() + generator function

@@ -7,7 +7,7 @@
 **方法#1:使用`sorted() + reverse` +列表理解**
 这个想法类似于展平一个列表的列表，但是除此之外，我们还添加了一个排序函数和 reverse 作为关键字，对列表理解返回的展平列表进行反向排序。
 
-```
+```py
 # Python3 code to demonstrate
 # Flatten and Reverse Sort Matrix
 # using sorted + list comprehension
@@ -28,7 +28,7 @@ print("The reverse sorted and flattened list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 5], [7, 3, 9], [1, 12]]
 The reverse sorted and flattened list : [12, 9, 7, 5, 3, 3, 1]
 

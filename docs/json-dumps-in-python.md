@@ -26,7 +26,7 @@ json.dumps()函数将 Python 对象转换为 json 字符串。
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # Creating a dictionary
@@ -55,7 +55,7 @@ print(type(json_string))
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 Dictionary ={(1, 2, 3):'Welcome', 2:'to',
@@ -82,7 +82,7 @@ print('Equivalent json string of dictionary:',
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # We are adding nan values
@@ -112,7 +112,7 @@ print('Equivalent json string of dictionary:',
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 Dictionary ={(1, 2, 3):'Welcome', 2:'to',
@@ -132,7 +132,7 @@ print('Equivalent json string of dictionary:',
 
 **输出:**
 
-```
+```py
 Equivalent json string of dictionary: {
       "2": "to",
       "3": "Geeks",
@@ -146,7 +146,7 @@ Equivalent json string of dictionary: {
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 Dictionary ={(1, 2, 3):'Welcome', 2:'to',
@@ -169,7 +169,7 @@ print('Equivalent json string of dictionary:',
 
 **输出:**
 
-```
+```py
 Equivalent json string of dictionary: {
       "2" = "to". 
       "3" = "Geeks". 
@@ -183,7 +183,7 @@ Equivalent json string of dictionary: {
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 Dictionary ={'c':'Welcome', 'b':'to',
@@ -200,7 +200,7 @@ print('Equivalent json string of dictionary:',
 
 **输出:**
 
-```
+```py
 Equivalent json string of dictionary: {
       "a" = "Geeks". 
       "b" = "to". 

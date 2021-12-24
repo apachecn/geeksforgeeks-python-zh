@@ -7,7 +7,7 @@
 **方法#1:使用`mean() + loop`**
 以上功能的组合提供了解决这个问题的蛮力方式。在本文中，我们使用内置的 mean()库执行求平均值的任务，并使用循环迭代嵌套。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Inner Nested Value List Mean in Dictionary
 # Using mean() + loop

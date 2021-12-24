@@ -10,11 +10,11 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 CheckBox 是一个特定的双态按钮，可以选中也可以不选中。
 要使用复选框，首先必须从包含复选框所有功能的模块中导入复选框，即
 
-```
+```py
 from kivy.uix.checkbox import CheckBox 
 ```
 
-```
+```py
 Basic Approach to follow while creating Checkbox using .kv file :
 1) import kivy
 2) import kivyApp
@@ -31,7 +31,7 @@ Basic Approach to follow while creating Checkbox using .kv file :
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py file
 # program for creating checkbox using .kv in kivy.
 
@@ -81,7 +81,7 @@ root.run()
 
 ## 蟒蛇 3
 
-```
+```py
 #.kv file of main.py file
 
 #: import CheckBox kivy.uix.checkbox

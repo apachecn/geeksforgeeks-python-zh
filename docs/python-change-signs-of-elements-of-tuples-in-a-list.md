@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing lists
 test_list = [(3, -1), (-4, -3), (1, 3), (-2, 5), (-4, 2), (-9, -3)]
 
@@ -55,7 +55,7 @@ print("Updated Tuple list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing lists
 test_list = [(3, -1), (-4, -3), (1, 3), (-2, 5), (-4, 2), (-9, -3)]
 

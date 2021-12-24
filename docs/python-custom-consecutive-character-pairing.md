@@ -7,7 +7,7 @@
 **方法一:使用`join()` +列表理解**
 以上功能的组合可以用来执行此任务。在本文中，我们使用 join()执行连接字符的任务，并使用列表理解执行编译。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Consecutive Character Pairing
 # Using join() + list comprehension
@@ -32,7 +32,7 @@ print("The List of joined Characters : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The List of joined Characters : ['g_e', 'e_e', 'e_k', 'k_s', 's_f', 'f_o', 'o_r', 'r_g', 'g_e', 'e_e', 'e_k', 'k_s']
 

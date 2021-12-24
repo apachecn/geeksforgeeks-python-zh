@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Columns to Dictionary Conversion in Matrix
 # Using dictionary comprehension + list comprehension
@@ -41,7 +41,7 @@ print("Reformed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 5, 7], [10, 8, 3], [19, 4, 6], [9, 3, 6]]
 Reformed dictionary : {4: [10, 19, 9], 5: [8, 4, 3], 7: [3, 6, 6]}
 
@@ -53,7 +53,7 @@ Reformed dictionary : {4: [10, 19, 9], 5: [8, 4, 3], 7: [3, 6, 6]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Columns to Dictionary Conversion in Matrix
 # Using dictionary comprehension + zip()
@@ -73,7 +73,7 @@ print("Reformed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 5, 7], [10, 8, 3], [19, 4, 6], [9, 3, 6]]
 Reformed dictionary : {4: [10, 19, 9], 5: [8, 4, 3], 7: [3, 6, 6]}
 

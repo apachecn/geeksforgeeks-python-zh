@@ -7,7 +7,7 @@
 **方法#1:使用 list 转换为 tuple + `tuple()`**
 在该方法中，我们将字符串转换为 List，然后追加到目标列表，然后使用 tuple()将该结果列表转换为 tuple。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct tuple from string and list
 # using list conversion to tuple + tuple()
@@ -30,7 +30,7 @@ print("The aggregated tuple is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is']
 The original string : best
 The aggregated tuple is : ('gfg', 'is', 'best')

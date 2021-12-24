@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.blue_shift(factor)
 > 
 > ```
@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -39,7 +39,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 将因子值增加到 1.5。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

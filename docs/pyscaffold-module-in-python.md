@@ -9,7 +9,7 @@
 
 要使用 pip 安装 Pyscaffold，请执行以下命令，安装最新的 Pyscaffold 版本:
 
-```
+```py
 pip install --upgrade pyscaffold
 ```
 
@@ -18,7 +18,7 @@ pip install --upgrade pyscaffold
 如果您没有安装 pip，请参考本文:[如何安装 pip 命令](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
 PyScaffold 也可以通过在 Anaconda 命令提示符下执行以下操作来安装 conda:
 
-```
+```py
 conda install -c conda-forge pyscaffold
 ```
 
@@ -32,7 +32,7 @@ conda install -c conda-forge pyscaffold
 PyScaffold 附带了许多特性和配置默认值，使开发、维护和分发您自己的 Python 包的频繁任务变得尽可能容易。
 要设置新的 python 项目，请使用 putup 命令:
 
-```
+```py
 putup Your_Project
 ```
 
@@ -42,7 +42,7 @@ PyScaffold 旨在涵盖编写和分发 Python 包的基本要素。大多数情�
 
 ## 蟒蛇 3
 
-```
+```py
 # Temporarily adjust padding
 # while executing a context.
 from pyscaffold.log import logger
@@ -67,14 +67,14 @@ with logger.indent():
 *   每当 PyScaffold 的新更新发布时，您可以使用此命令更新项目的
     结构/脚手架:
 
-```
+```py
 output --update my_project
 ```
 
 *   一次更新只会更新用户不常使用或修改的文件，因此，要
     更新所有文件，使用强制更新:
 
-```
+```py
 --update --force
 ```
 
@@ -89,13 +89,13 @@ output --update my_project
 
 *   首先，进入 my_project 的父文件夹，键入以下命令，以便在存储库中部署新的项目结构。
 
-```
+```py
 putup my_project --force --no-skeleton -p my_package
 ```
 
 *   使用此命令切换到 my_project 并将旧的包文件夹移动到 src 中，如果项目有一个不是 tests 的测试文件夹或一个不是 docs 的文档文件夹，则使用相同的方法。
 
-```
+```py
 git mv my_package/* src/my_package/
 ```
 
@@ -103,7 +103,7 @@ git mv my_package/* src/my_package/
 *   。最后，使用 git difftool 检查所有被覆盖的文件是否有需要传输的更改。您在 setup.py 中完成的所有配置都需要移动到 setup.cfg。在大多数情况下，您不需要对 PyScaffold 提供的新 setup.py 文件进行更改。
 *   运行以下命令来检查所有工作:
 
-```
+```py
 run python setup.py install and python setup.pysdist
 ```
 

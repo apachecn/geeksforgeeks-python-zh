@@ -6,7 +6,7 @@
 **语法:**
 哈希(#)符号表示 Python 中注释的开始。
 
-```
+```py
 # This is a comment in Python
 ```
 
@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # This is the syntax of a comment in Python
 print("GFG")
 
@@ -23,7 +23,7 @@ print("GFG")
 
 **输出:**
 
-```
+```py
 GFG
 ```
 
@@ -31,7 +31,7 @@ GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # This comment has no indent
 def GFG():
 
@@ -54,7 +54,7 @@ GFG()
 
 **Output**
 
-```
+```py
 Hello!!
 GeeksforGeeks
 Welcome to Comments in Python
@@ -64,13 +64,13 @@ Welcome to Comments in Python
 
 **1。单行注释**:以“#”和空格开头的注释在 Python 中称为单行注释。这些注释只能延伸到一行，并且是 Python 中注释的唯一方式。例如
 
-```
+```py
 # This a single line comment.
 ```
 
 **2。多行(块)注释**:与其他编程语言不同，Python 不支持开箱即用的多行注释块。然而，我们可以使用连续的#单行注释来注释掉多行代码。一些块注释的例子-
 
-```
+```py
 # This type of comments can serve
 # both as a single-line as well
 # as multi-line (block) in Python.
@@ -78,7 +78,7 @@ Welcome to Comments in Python
 
 **3。内联样式注释**:内联注释出现在语句的同一行，跟随代码本身。通常，内联注释如下所示:
 
-```
+```py
 x = 3        # This is called an inline comment
 
 a = b + c    # Adding value of 'b' and 'c' to 'a'
@@ -89,7 +89,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 def my_function():
     """Demonstrates docstrings and does nothing really."""
 
@@ -104,7 +104,7 @@ help(my_function)
 
 **输出:**
 
-```
+```py
 Using __doc__:
 Demonstrates docstrings and does nothing really.
 Using help:
@@ -120,7 +120,7 @@ my_function()
 
 ## 蟒蛇 3
 
-```
+```py
 # This function is adding two given numbers
 def addition(a, b):
 
@@ -141,7 +141,7 @@ print(sum)
 
 **输出:**
 
-```
+```py
 13
 ```
 
@@ -149,7 +149,7 @@ print(sum)
 
 ## 蟒蛇 3
 
-```
+```py
 a = 12
 
 if(a == 12):
@@ -164,6 +164,6 @@ else:
 
 **输出:**
 
-```
+```py
 True
 ```

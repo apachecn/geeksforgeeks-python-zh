@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`InteractiveConsole.runcode()`方法，我们能够获得部分代码的结果，而无需使用该方法运行整个代码。
 
-```
+```py
 # import code
 from code import InteractiveConsole
 
@@ -26,7 +26,7 @@ InteractiveConsole().runcode(code)
 
 **例 2 :**
 
-```
+```py
 # import code
 from code import InteractiveConsole
 

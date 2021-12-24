@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to get letter count in a text file
 
 # explit function to return the letter count
@@ -57,7 +57,7 @@ print(letterFrequency('gfg.txt', 'g'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to get letter count in a text file
 
 # explit function to return the letter count

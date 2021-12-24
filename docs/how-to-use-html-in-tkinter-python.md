@@ -12,7 +12,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 **安装**
 
-```
+```py
 pip install tkhtmlview
 ```
 
@@ -41,7 +41,7 @@ tkhtmlview 中支持的 HTML 标签列表:
 
 **语法:**
 
-```
+```py
 HTMLLabel(Object Name, html="ENTER HTML CODE")
 ```
 
@@ -51,7 +51,7 @@ HTMLLabel(Object Name, html="ENTER HTML CODE")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from tkhtmlview import HTMLLabel
@@ -87,7 +87,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from tkhtmlview import HTMLLabel
@@ -122,7 +122,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from tkhtmlview import HTMLLabel

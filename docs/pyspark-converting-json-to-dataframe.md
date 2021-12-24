@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas to read json file
 import pandas as pd
 
@@ -56,7 +56,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 

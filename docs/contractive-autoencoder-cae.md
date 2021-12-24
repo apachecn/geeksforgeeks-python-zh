@@ -47,7 +47,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import tensorflow as tf
 

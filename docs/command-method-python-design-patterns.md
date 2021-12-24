@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 """Use built-in abc to implement Abstract classes and methods"""
 from abc import ABC, abstractmethod
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
 ### **输出**
 
-```
+```py
 Action performed in receiver.
 ```
 

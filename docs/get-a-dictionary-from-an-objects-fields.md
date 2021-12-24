@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # class Animals is declared
 class Animals:
 
@@ -47,7 +47,7 @@ print(animal.__dict__)
 
 ## 蟒蛇 3
 
-```
+```py
 # class A is declared
 class A:
 
@@ -70,7 +70,7 @@ print(vars(obj))
 
 **输出:**
 
-```
+```py
 {'A': 1, 'B': 2, 'C': 3, 'D': 4}
 
 ```

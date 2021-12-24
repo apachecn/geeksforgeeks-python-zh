@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -35,7 +35,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的框，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * box()
 ```
@@ -45,7 +45,7 @@ from vpython import * box()
 
 **示例 2 :** 使用颜色、不透明度、光泽和发射率参数的方框。
 
-```
+```py
 # import the module
 from vpython import * box(color = vector(1, 0.6, 0), 
     opacity = 0.5, 
@@ -58,7 +58,7 @@ from vpython import * box(color = vector(1, 0.6, 0), 
 
 **示例 3 :** 显示 2 个框来可视化属性位置和大小。
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -78,7 +78,7 @@ box(pos = vector(1, -2, 0), 
 
 **示例 4 :** 一个使用纹理、轴和向上参数的盒子。
 
-```
+```py
 # import the module
 from vpython import * box(texture = textures.stucco,
     axis = vector(1, 2, 2),

@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing pygame module
 import pygame
 
@@ -65,7 +65,7 @@ while True:
 
 ## 计算机编程语言
 
-```
+```py
 # importing pygame module
 import pygame
 
@@ -102,7 +102,7 @@ while i<5:
 
 ## 计算机编程语言
 
-```
+```py
 # importing pygame module
 import pygame
 
@@ -154,7 +154,7 @@ while True:
 
 ## 计算机编程语言
 
-```
+```py
 # importing the pygame module
 import pygame
 

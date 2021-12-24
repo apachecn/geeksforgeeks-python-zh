@@ -8,7 +8,7 @@
 
 可以使用以下命令安装 Pexpect。
 
-```
+```py
 pip3 install pexpect
 ```
 
@@ -30,7 +30,7 @@ pip3 install pexpect
 
 ## 蟒蛇 3
 
-```
+```py
 import pexpect
 
 print(pexpect.run('echo hello'))
@@ -56,7 +56,7 @@ pexpect .产卵类的重要方法是 expect()。
 
 ## 蟒蛇 3
 
-```
+```py
 import pexpect
 
 # start a child  process with spawn
@@ -83,7 +83,7 @@ print(child.expect(["hai", "welcome", "geeksforgeeks"]))
 
 ## 蟒蛇 3
 
-```
+```py
 import pexpect
 
 # Start a child process with spawn
@@ -124,7 +124,7 @@ print(child.expect(["hello", "hai geek"]))
 
 ## 蟒蛇 3
 
-```
+```py
 import pexpect
 
 def main():

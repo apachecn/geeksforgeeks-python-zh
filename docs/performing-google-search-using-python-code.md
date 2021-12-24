@@ -11,13 +11,13 @@
 **安装**
 谷歌包对需要先安装的 beautifulsoup 有一个依赖。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
 然后安装谷歌软件包
 
-```
+```py
 pip install google
 ```
 
@@ -38,7 +38,7 @@ pip install google
 
 ## 计算机编程语言
 
-```
+```py
 try:
     from googlesearch import search
 except ImportError:
@@ -65,7 +65,7 @@ for j in search(query, tld="co.in", num=10, stop=10, pause=2):
 
 ## 计算机编程语言
 
-```
+```py
 try:
     from googlesearch import search
 except ImportError:

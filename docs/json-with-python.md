@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing json module
 import json
 ```
@@ -29,7 +29,7 @@ json 模块的 [load()](https://www.geeksforgeeks.org/json-load-in-python/) 和[
 
 **语法:**
 
-```
+```py
 json.loads(json_string)
 ```
 
@@ -37,7 +37,7 @@ json.loads(json_string)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert JSON to Dict
 
 import json
@@ -58,7 +58,7 @@ print(type(employee_dict))
 
 **Output**
 
-```
+```py
 Data after conversion
 {'name': 'Nitin', 'department': 'Finance', 'company': 'GFG'}
 Finance

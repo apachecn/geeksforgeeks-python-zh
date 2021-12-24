@@ -7,7 +7,7 @@
 **方法#1:使用格式+ `tuple()`**
 字符串格式可以用来指定我们需要输出列表的方式，相似索引的配对任务可以借助元组函数来完成。
 
-```
+```py
 # Python3 code to demonstrate
 # Equate two list index elements
 # using formatting + tuple()
@@ -31,7 +31,7 @@ print ("The paired elements string is : " + res)
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['GeeksforGeeks', 'is', 'best']
 The original list 2 is : ['1', '2', '3']
 The paired elements string is : GeeksforGeeks = 1, is = 2, best = 3, 

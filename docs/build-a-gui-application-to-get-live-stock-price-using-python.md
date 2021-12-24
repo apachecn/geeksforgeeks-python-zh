@@ -8,7 +8,7 @@
 
 **Yahoo_fin:** 该模块用于刮取历史股价数据，以及提供当前市值、股息收益率和哪些股票组成主要交易所的信息。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install yahoo_fin
 ```
 
@@ -22,7 +22,7 @@ pip install yahoo_fin
 
 ## 蟒蛇 3
 
-```
+```py
 from yahoo_fin import stock_info
 ```
 
@@ -30,13 +30,13 @@ from yahoo_fin import stock_info
 
 ## 蟒蛇 3
 
-```
+```py
 stock_info.get_live_price("AMZN")
 ```
 
 **输出:**
 
-```
+```py
 3198.93994140625
 ```
 
@@ -48,7 +48,7 @@ stock_info.get_live_price("AMZN")
 
 ## 蟒蛇 3
 
-```
+```py
 from yahoo_fin import stock_info
 from tkinter import *
 

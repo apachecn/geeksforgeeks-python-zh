@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 loc='/usr/share/dict/cracklib-small'
 with open(loc) as f:
 content=f.read().split('\n')
@@ -34,7 +34,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 l=len(content)
 words=[]
 for i in range(0,l):
@@ -47,7 +47,7 @@ words.append(content[i])
 
 ## 蟒蛇 3
 
-```
+```py
 words=words[1:]
 d=len(words)
 words=words[:d]

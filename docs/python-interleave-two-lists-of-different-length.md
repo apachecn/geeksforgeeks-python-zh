@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Repetitive Interleave 2 lists
 # Using zip() + cycle() + list comprehension 
@@ -59,7 +59,7 @@ print("The interleaved list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Repetitive Interleave 2 lists
 # Using chain() + zip() + cycle()

@@ -29,7 +29,7 @@ Python 没有绘制分叉条形图的特定功能。另一种方法是使用 hli
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import string as str
@@ -101,7 +101,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import plotly.graph_objects as go
 

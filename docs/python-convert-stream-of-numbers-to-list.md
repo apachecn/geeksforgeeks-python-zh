@@ -7,7 +7,7 @@
 **方法#1:使用`list() + split()`**
 可以通过使用简单的`split`函数将空格分隔的数字转换为列表，该函数将字符串转换为数字列表，从而解决我们的问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Stream of numbers to list
 # Using list() + split()
@@ -28,7 +28,7 @@ print("The list of stream of numbers : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : 10 12 3 54 6 777 443
 The list of stream of numbers : ['10', '12', '3', '54', '6', '777', '443']
 

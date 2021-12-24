@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 在这个方法中，我们只需遍历每个字典条目，并将其关键元素放入列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get all tuple keys from dictionary
 # Using list comprehension
@@ -28,7 +28,7 @@ print("The dictionary tuple key elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dict is : {(5, 6): 'gfg', (9, 10): 'best', (1, 2, 8): 'is'}
 The dictionary tuple key elements are : [5, 6, 9, 10, 1, 2, 8]
 

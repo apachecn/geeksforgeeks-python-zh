@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`create_favorite()`** 方法用于将一个状态�
 **例 1 :** 考虑以下状态:
 ![](img/693b7b16d364e6e27192ab1f1c84ad28.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ api.create_favorite(id)
 
 **示例 2 :** 通过`create_favorite()`方法检查状态是否被喜欢。
 
-```
+```py
 # ID of the status
 id = 1267740427676942337
 
@@ -72,7 +72,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the create_favorite() method : 
 The status has not been liked by the authenticated user.
 

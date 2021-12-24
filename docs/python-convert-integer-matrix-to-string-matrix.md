@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Integer Matrix to String Matrix
 # Using str() + list comprehension
@@ -38,7 +38,7 @@ print("The data type converted Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 5, 7], [10, 8, 3], [19, 4, 6], [9, 3, 6]]
 The data type converted Matrix : [['4', '5', '7'], ['10', '8', '3'], ['19', '4', '6'], ['9', '3', '6']]
 
@@ -50,7 +50,7 @@ The data type converted Matrix : [['4', '5', '7'], ['10', '8', '3'], ['19', '4',
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Integer Matrix to String Matrix
 # Using str() + map()
@@ -70,7 +70,7 @@ print("The data type converted Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 5, 7], [10, 8, 3], [19, 4, 6], [9, 3, 6]]
 The data type converted Matrix : [['4', '5', '7'], ['10', '8', '3'], ['19', '4', '6'], ['9', '3', '6']]
 

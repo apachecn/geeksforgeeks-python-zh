@@ -13,21 +13,21 @@
 首先，让我们安装一些必需的包:
 使用谷歌 Colab 轻松流畅地安装。
 
-```
+```py
 pip install polyglot        
 ```
 
-```
+```py
 # installing dependency packages
 pip install pyicu           
 ```
 
-```
+```py
 # installing dependency packages
 pip install Morfessor       
 ```
 
-```
+```py
 # installing dependency packages
 pip install pycld2          
 ```
@@ -35,17 +35,17 @@ pip install pycld2
 下载一些必要的模型
 使用谷歌 colab 轻松安装模型
 
-```
+```py
 %%bash
 polyglot download ner2.en    # downloading model ner
 ```
 
-```
+```py
 %%bash
 polyglot download pos2.en    # downloading model pos
 ```
 
-```
+```py
 %%bash
 polyglot download sentiment2.en  # downloading model sentiment
 ```
@@ -54,7 +54,7 @@ polyglot download sentiment2.en  # downloading model sentiment
 
 ## 蟒蛇 3
 
-```
+```py
 from polyglot.detect import Detector
 spanish_text = u"""¡Hola ! Mi nombre es Ana. Tengo veinticinco años. Vivo en Miami, Florida"""
 detector = Detector(spanish_text)
@@ -71,7 +71,7 @@ print(detector.language)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Text from polyglot library
 from polyglot.text import Text
 sentences = u"""Suggest a platform for placement preparation?. GFG is a very good platform for placement
@@ -99,7 +99,7 @@ polygot 识别三类实体:
 
 ## 蟒蛇 3
 
-```
+```py
 from polyglot.text import Text
 sentence = """Google is an American multinational technology company and Sundar Pichai is the CEO of Google"""
 
@@ -118,7 +118,7 @@ I-PER 指人
 
 ## 蟒蛇 3
 
-```
+```py
 from polyglot.text import Text
 sentence = """GeeksforGeeks is the best place for learning things in simple manner."""
 text = Text(sentence)
@@ -134,7 +134,7 @@ print(text.pos_tags)
 
 ## 蟒蛇 3
 
-```
+```py
 from polyglot.text import Text
 sentence1 = """ABC is one of the best university in the world."""
 sentence2 = """ABC is one of the worst university in the world."""

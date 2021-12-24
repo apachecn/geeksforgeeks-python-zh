@@ -31,7 +31,7 @@ pickle 模块用于实现序列化和反序列化 Python 对象结构的二进�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # pickle.dump()
 import pickle
@@ -63,7 +63,7 @@ for o in data:
 
 1.  **输出:**
 
-```
+```py
 WRITING: pickle (elkcip)
 WRITING: cPickle (elkciPc)
 WRITING: last (tsal)
@@ -75,7 +75,7 @@ WRITING: last (tsal)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 #Picle.dumps()
 import pickle
@@ -87,7 +87,7 @@ print ('PICKLE:', data_string )
 
 1.  **输出:**
 
-```
+```py
 PICKLE: (lp0
 (dp1
 S'a'
@@ -109,7 +109,7 @@ sa.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # pickle.load()
 import pickle
@@ -153,7 +153,7 @@ while True:
 
 1.  **输出:**
 
-```
+```py
 WRITING: pickle (elkcip)
 WRITING: cPickle (elkciPc)
 WRITING: last (tsal)
@@ -168,7 +168,7 @@ READ: last (tsal)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # pickle.loads()
 import pickle
@@ -190,7 +190,7 @@ print ('EQUAL?:', (data1 == data2))
 
 1.  **输出:**
 
-```
+```py
 BEFORE:[{'a': 'A', 'b': 2, 'c': 3.0}]
 AFTER:[{'a': 'A', 'b': 2, 'c': 3.0}]
 SAME?: False
@@ -218,7 +218,7 @@ EQUAL?: True
         默认情况下，pickler 对象没有 dispatch_table 属性，而是使用由 copyreg 模块管理的全局调度表。
         **示例:**下面的代码创建了一个泡菜的实例。Pickler 有一个专用调度表，专门处理 SomeClass 类。
 
-```
+```py
 f = io.BytesIO()
 p = pickle.Pickler(f)
 p.dispatch_table = copyreg.dispatch_table.copy()
@@ -278,7 +278,7 @@ p.dispatch_table[SomeClass] = reduce_SomeClass
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 class TextReader:
@@ -327,7 +327,7 @@ print(new_reader.readline())
 
 **输出:**
 
-```
+```py
 0: hi geeks!, this is line 1.
 0: This is line 2.
 0: hi geeks!, this is line 1.

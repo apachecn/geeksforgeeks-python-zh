@@ -6,7 +6,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于 web 
 
 在本文中，我们将授予用户访问数据库及其 MySQL 表的权限。 *CREATE USER* 语句创建一个没有权限的用户帐户。下面给出了在 MySQL 中创建用户的语句。
 
-```
+```py
 CREATE USER 'user_name'@'localhost' IDENTIFIED BY 'password';
 ```
 
@@ -14,7 +14,7 @@ CREATE USER 'user_name'@'localhost' IDENTIFIED BY 'password';
 
 要更改 MySQL 客户端中的用户，请使用以下命令:
 
-```
+```py
 SYSTEM MYSQL -u geeksforgeeks -p1234;
 ```
 
@@ -22,13 +22,13 @@ SYSTEM MYSQL -u geeksforgeeks -p1234;
 
 要检查当前用户，可以使用以下命令:
 
-```
+```py
 SELECT user();
 ```
 
 上面的语句可以用来知道用户的权限。
 
-```
+```py
 SHOW GRANTS FOR user_name@localhost;
 ```
 
@@ -44,7 +44,7 @@ SHOW GRANTS FOR user_name@localhost;
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pymysql
 

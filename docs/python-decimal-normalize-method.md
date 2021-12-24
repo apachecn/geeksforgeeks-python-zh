@@ -4,7 +4,7 @@
 
 **Decimal # normalize():normalize()**是一个 Decimal 类方法，返回 Decimal 值的最简单形式。
 
-```
+```py
 Syntax:  Decimal.normalize()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  the simplest form of the Decimal value.
 
 **代码# 1:normalize()方法示例**
 
-```
+```py
 # Python Program explaining 
 # normalize() method
 
@@ -39,7 +39,7 @@ print ("Decimal b with normalize() method : ", b.normalize())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -50,7 +50,7 @@ Decimal b with normalize() method :  0.142857
 
 **代码# 2:normalize()方法示例**
 
-```
+```py
 # Python Program explaining 
 # normalize() method
 
@@ -74,7 +74,7 @@ print ("Decimal b with normalize() method : ", b.normalize())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

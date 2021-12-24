@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of items() method in Dictionary
 
@@ -28,7 +28,7 @@ print(Dictionary1.items())
 
 **输出:**
 
-```
+```py
 Dictionary items:
 dict_items([('A', 'Geeks'), ('B', 4), ('C', 'Geeks')])
 
@@ -40,7 +40,7 @@ dict_items([('A', 'Geeks'), ('B', 4), ('C', 'Geeks')])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of items() method in Dictionary
 
@@ -62,7 +62,7 @@ print(items)
 
 **输出:**
 
-```
+```py
 Original Dictionary items:
 dict_items([('A', 'Geeks'), ('C', 'Geeks'), ('B', 4)])
 Updated Dictionary:

@@ -16,7 +16,7 @@ Collect()是 RDD 或数据框的函数、操作，用于从数据框中检索数
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
@@ -196,7 +196,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
@@ -258,7 +258,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col

@@ -16,27 +16,27 @@
 
 1.使用 Python 代码设置与 SQLite 数据库的连接
 
-```
+```py
 con = sqlite3.connect('SQLite_Retrieving_data.db')
 print("Connected Successfully")
 ```
 
 2.我们需要定义一个 SELECT 查询来从表中获取 BLOB 列。
 
-```
+```py
 query = "SELECT * FROM <table_name>"
 ```
 
 3.使用**游标. execute()** 在 Python 中执行 SELECT 查询。
 
-```
+```py
 cursor = con.cursor()
 cursor.execute(query)
 ```
 
 4.使用 **cursor.fetchall()** 检索并遍历结果集中的所有行。
 
-```
+```py
 records = cursor.fetchall()
     for row in records:
         name = row[0]
@@ -45,7 +45,7 @@ records = cursor.fetchall()
 
 5.创建一个函数，将 **BLOB** 数据转换为正确的格式，并将其保存为**人类可读的格式**。
 
-```
+```py
 def convert_data(data, file_name):
     # Convert binary format to images or files data
     with open(file_name, 'wb') as file:
@@ -54,7 +54,7 @@ def convert_data(data, file_name):
 
 6.关闭**光标**连接和 **MySQL 数据库**。
 
-```
+```py
 if con:
      con.close()
      print("SQLite connection is closed")
@@ -64,7 +64,7 @@ if con:
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 from PIL import Image
 

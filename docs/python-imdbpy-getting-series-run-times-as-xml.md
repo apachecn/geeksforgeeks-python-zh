@@ -12,7 +12,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,7 +39,7 @@ print(xml)
 
 **输出:**
 
-```
+```py
 Sacred Games
 --------------------------------
 <runtimes infoset="main"<item50</item</runtimes
@@ -47,7 +47,7 @@ Sacred Games
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -74,7 +74,7 @@ print(xml)
 
 **输出:**
 
-```
+```py
 Money Heist
 --------------------------------
 <runtimes infoset="main"<item 70</item</runtimes

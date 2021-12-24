@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```py
 # Parent class
 class Parent :        
            # Constructor
@@ -45,7 +45,7 @@ class Child(Parent) :
 
 ## 蟒蛇 3
 
-```
+```py
 # parent class
 class Parent:
 
@@ -76,7 +76,7 @@ obj.m2()
 
 **Output**
 
-```
+```py
 Child Class object created...
 Parent Class Method called...
 Child Class Method called...
@@ -93,7 +93,7 @@ Child Class Method called...
 
 在上图中，类被表示为带有类名**复合**和**组件**的方框，这两个组件表示它们之间的 Has-A 关系。
 
-```
+```py
 class A :
 
       # variables of class A
@@ -117,7 +117,7 @@ class B :
 
 ## 蟒蛇 3
 
-```
+```py
 class Component:
 
    # composite class constructor
@@ -155,7 +155,7 @@ obj2.m2()
 
 **Output**
 
-```
+```py
 Component class object created...
 Composite class object also created...
 Composite class m2() method executed...

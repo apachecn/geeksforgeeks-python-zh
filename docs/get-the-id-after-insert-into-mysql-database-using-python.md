@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -54,7 +54,7 @@ print(cs.lastrowid)
 
 **输出:**
 
-```
+```py
 1  record(s) added
 0
 ```

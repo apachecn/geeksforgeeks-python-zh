@@ -14,79 +14,79 @@
 
 **第一步:**首先导入库 **tkinter** 和 **ttk** 。
 
-```
+```py
 from tkinter import *
 from tkinter import ttk
 ```
 
 **步骤 2:** 现在，使用 tkinter 创建一个 GUI 应用程序。
 
-```
+```py
 app=Tk()
 ```
 
 **第三步:**然后，为你的应用设置标题和几何图形。
 
-```
+```py
 app.title(“#Title of the app”)
 app.geometry('#Dimensions you want to set of an app')
 ```
 
 **第 4 步:**接下来，用事件声明菜单栏的函数为无，这样它对每种情况都有效。
 
-```
+```py
 def menubar_shortcut(event=None):
 ```
 
 一旦声明了函数，就在其中创建菜单栏。
 
-```
+```py
 menubar = Menu()
 ```
 
 在菜单栏的功能中，声明所有你想在菜单栏中显示的小部件。这里，我们在菜单栏中添加了文件级联**菜单**。
 
-```
+```py
 file=Menu(menubar, tearoff=False)
 menubar.add_cascade(label='File', menu=file)
 ```
 
 此外，在应用程序中显示菜单栏。
 
-```
+```py
 app.config(menu=menubar)
 ```
 
 **第 5 步:**此外，将带有事件的工具栏声明为“无”，以便它适用于所有情况。
 
-```
+```py
 def toolbar_shortcut(event=None):
 ```
 
 创建工具栏功能后，创建并显示工具栏标签。
 
-```
+```py
 toolbar=ttk.Label(app)
 toolbar.pack(side=TOP, fill=X)
 ```
 
 接下来，创建并显示您想要在工具栏中显示的小部件。这里我们在工具栏中增加了 **bold_btn** 按钮。
 
-```
+```py
 bold_btn=ttk.Button(toolbar, text="Bold")
 bold_btn.grid(row=0, column=0, padx=5)
 ```
 
 **第六步:**一旦你创建了菜单栏和工具栏的功能，用快捷键绑定菜单栏和工具栏。这里增加快捷键**【Ctrl+p】**激活菜单栏，**【Ctrl+q】**激活工具栏。
 
-```
+```py
 app.bind('<Control-p>', menubar_shortcut)
 app.bind('<Control-q>', toolbar_shortcut)
 ```
 
 **第 7 步:**最后，最后，进行在屏幕上显示 GUI 应用的循环
 
-```
+```py
 app.mainloop()
 ```
 
@@ -94,7 +94,7 @@ app.mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to activate menu and toolbar
 # with keyboard shortcut key
 

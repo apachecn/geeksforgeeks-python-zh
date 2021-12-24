@@ -14,7 +14,7 @@
 
  *## 蟒 3
 
-```
+```py
 # Addition & Assignment
 a = 15
 b = 20
@@ -23,7 +23,7 @@ a += b
 print(a)
 ```* ***输出**
 
-```
+```py
 35
 ```
 
@@ -35,7 +35,7 @@ print(a)
 
 ## 蟒 3
 
-```
+```py
 # Subtraction & Assignment
 a = 107
 b = 99
@@ -46,6 +46,6 @@ print(a)
 
 **输出**
 
-```
+```py
 8
 ```*

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 from datetime import datetime
 
@@ -36,7 +36,7 @@ print(type(result))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 <class 'datetime.datetime'>
 ```
@@ -55,7 +55,7 @@ print(type(result))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 from datetime import datetime
 import dateutil
@@ -74,7 +74,7 @@ print(type(result))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 <class 'datetime.datetime'>
 ```

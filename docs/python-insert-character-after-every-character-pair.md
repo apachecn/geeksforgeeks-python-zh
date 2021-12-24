@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +列表理解**
 以上方法的组合可以用来执行这个特定的任务。列表理解和切片可用于将字符串转换为列表，连接函数可用于通过在它们之间插入所需字符来重新连接它们。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Insert character after every character pair
 # Using join() + list comprehension
@@ -28,7 +28,7 @@ print("The string after inserting comma after every character pair : " + res)
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The string after inserting comma after every character pair : Ge, ek, sf, or, Ge, ek, s
 

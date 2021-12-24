@@ -21,7 +21,7 @@ Python 缩进是一种告诉 Python 解释器该组语句属于特定代码块�
 
 **示例#1:**
 
-```
+```py
 # Python program showing 
 # indentation 
 
@@ -36,7 +36,7 @@ print('All set !') 
 
 **输出:**
 
-```
+```py
 Logging on to geeksforgeeks...
 All set !
 
@@ -46,7 +46,7 @@ All set !
 
 **例 2:**
 
-```
+```py
 j = 1
 
 while(j<= 5): 
@@ -56,7 +56,7 @@ while(j<= 5): 
 
 **输出:**
 
-```
+```py
 1
 2
 3

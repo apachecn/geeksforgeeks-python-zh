@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -132,7 +132,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the approach
 import java.util.*;
 public class Main
@@ -236,7 +236,7 @@ public class Main
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 
 # Defining the string
@@ -306,7 +306,7 @@ else:
 
 ## C#
 
-```
+```py
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -411,7 +411,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Javascript implementation of the approach
 
@@ -506,6 +506,6 @@ class GFG
 
 **Output:** 
 
-```
+```py
 0
 ```

@@ -8,7 +8,7 @@ Python 编程语言提供了以下类型的循环来处理循环需求。
 
 Syntax :
 
-```
+```py
 while expression:
     statement(s)
 
@@ -16,7 +16,7 @@ while expression:
 
 在 Python 中，编程构造后缩进相同数量字符空间的所有语句都被视为单个代码块的一部分。Python 使用缩进作为其对语句进行分组的方法。
 
-```
+```py
 # prints Hello Geek 3 Times
 count = 0
 while (count < 3):    
@@ -26,7 +26,7 @@ while (count < 3):    
 
 输出:
 
-```
+```py
 Hello Geek
 Hello Geek
 Hello Geek
@@ -41,14 +41,14 @@ In Python, there is no C style for loop, i.e., for (i=0; i<n; i++). There is “
 
 语法:
 
-```
+```py
 for iterator_var in sequence:
     statements(s)
 ```
 
 它可以用来迭代迭代器和范围。
 
-```
+```py
 # Iterating over a list
 print("List Iteration")
 l = ["geeks", "for", "geeks"]
@@ -78,7 +78,7 @@ for i in d :
 
 输出:
 
-```
+```py
 List Iteration
 geeks
 for
@@ -109,7 +109,7 @@ abc  345
 Python programming language allows to use one loop inside another loop. Following section shows few examples to illustrate the concept.
 Syntax:
 
-```
+```py
 for iterator_var in sequence:
     for iterator_var in sequence:
         statements(s)
@@ -119,7 +119,7 @@ for iterator_var in sequence:
 
 Python 编程语言中嵌套 while 循环语句的语法如下:
 
-```
+```py
 while expression:
     while expression: 
         statement(s)
@@ -129,7 +129,7 @@ while expression:
 
 关于循环嵌套的最后一点是，我们可以将任何类型的循环放入任何其他类型的循环中。例如，For 循环可以在 while 循环内部，反之亦然。
 
-```
+```py
 from __future__ import print_function
 for i in range(1, 5):
     for j in range(i):
@@ -139,7 +139,7 @@ for i in range(1, 5):
 
 输出:
 
-```
+```py
 1
 2 2
 3 3 3
@@ -153,7 +153,7 @@ Loop control statements change execution from its normal sequence. When executio
 **继续语句**
 它将控制返回到循环的开始。
 
-```
+```py
 # Prints all letters except 'e' and 's'
 for letter in 'geeksforgeeks': 
     if letter == 'e' or letter == 's':
@@ -164,7 +164,7 @@ for letter in 'geeksforgeeks': 
 
 输出:
 
-```
+```py
 Current Letter : g
 Current Letter : k
 Current Letter : f
@@ -178,7 +178,7 @@ Current Letter : k
 **中断声明**
 它将控制带出循环
 
-```
+```py
 for letter in 'geeksforgeeks': 
 
     # break the loop as soon it sees 'e' 
@@ -191,14 +191,14 @@ print 'Current Letter :', letter
 
 输出:
 
-```
+```py
 Current Letter : e
 ```
 
 **Pass 语句**
 我们用 Pass 语句写空循环。Pass 也用于空的控制语句、函数和类。
 
-```
+```py
 # An empty loop
 for letter in 'geeksforgeeks':
     pass
@@ -207,7 +207,7 @@ print 'Last Letter :', letter
 
 输出:
 
-```
+```py
 Last Letter : s
 ```
 

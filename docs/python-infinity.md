@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a positive infinite integer
 positive_infinity = float('inf')
 print('Positive Infinity: ', positive_infinity)
@@ -26,7 +26,7 @@ print('Negative Infinity: ', negative_infinity)
 
 **输出:**
 
-```
+```py
 Positive Infinity:  inf
 Negative Infinity:  -inf
 ```
@@ -37,7 +37,7 @@ Python 的数学模块也可以用来表示无限整数。下面的代码显示�
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 # Defining a positive infinite integer
@@ -51,7 +51,7 @@ print('Negative Infinity: ', negative_infinity)
 
 **输出:**
 
-```
+```py
 Positive Infinity:  inf
 Negative Infinity:  -inf
 ```
@@ -65,7 +65,7 @@ Python 的十进制模块也可以用来表示无限浮点值。
 
 ## 蟒蛇 3
 
-```
+```py
 from decimal import Decimal
 
 # Defining a positive infinite integer
@@ -79,7 +79,7 @@ print('Negative Infinity: ', negative_infinity)
 
 **输出:**
 
-```
+```py
 Positive Infinity:  Infinity
 Negative Infinity:  -Infinity
 ```
@@ -90,7 +90,7 @@ Python 的 Numpy 模块也可以用来表示无穷大的值。正值用 **np.inf
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining a positive infinite integer
@@ -104,7 +104,7 @@ print('Negative Infinity: ', negative_infinity)
 
 **输出:**
 
-```
+```py
 Positive Infinity:  inf
 Negative Infinity:  -inf
 ```
@@ -114,7 +114,7 @@ Negative Infinity:  -inf
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import math
 
@@ -139,7 +139,7 @@ print(math.isinf(c))
 
 **输出:**
 
-```
+```py
 True
 True
 False
@@ -150,7 +150,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining a positive infinite integer
@@ -181,7 +181,7 @@ compare(b, d)
 
 **输出:**
 
-```
+```py
 True
 True
 True

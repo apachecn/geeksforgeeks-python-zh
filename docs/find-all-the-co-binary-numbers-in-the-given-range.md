@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: starting number : 300, last number: 315
 
 Output : 313
@@ -15,7 +15,7 @@ Output : 313
 
 **代码:Python 代码查找给定范围内的所有 co 二进制数**
 
-```
+```py
 # Python code for co-binary palindromes
 
 def convert_into_binary(number):
@@ -49,7 +49,7 @@ print(bin_pals)
 
 **输出:**
 
-```
+```py
 [313, 585, 717]
 
 ```

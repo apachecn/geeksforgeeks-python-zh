@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program imitating a clock server
 
 import socket
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Socket successfully created
 Socket is listening...
 ```
@@ -83,7 +83,7 @@ Socket is listening...
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program imitating a client process
 
 import socket
@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Time returned by server: 2018-11-07 17:56:43.302379
 Process Delay latency: 0.0005150819997652434 seconds
 Actual clock time at client side: 2018-11-07 17:56:43.302756

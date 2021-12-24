@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -58,7 +58,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # find average of subjects column
 dataframe.agg({'subject 1': 'avg'}).show()
 ```
@@ -71,7 +71,7 @@ dataframe.agg({'subject 1': 'avg'}).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # find average of multiple  column
 dataframe.agg({'subject 1': 'avg',
                'student ID': 'avg',
@@ -88,7 +88,7 @@ dataframe.agg({'subject 1': 'avg',
 
 ## 蟒蛇 3
 
-```
+```py
 # minimum value from student ID column
 dataframe.agg({'student ID': 'min'}).show()
 ```
@@ -101,7 +101,7 @@ dataframe.agg({'student ID': 'min'}).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # minimum value from multiple column
 dataframe.agg({'college': 'min',
                'student NAME': 'min',
@@ -118,7 +118,7 @@ dataframe.agg({'college': 'min',
 
 ## 蟒蛇 3
 
-```
+```py
 # maximum value from student ID column
 dataframe.agg({'student ID': 'max'}).show()
 ```
@@ -131,7 +131,7 @@ dataframe.agg({'student ID': 'max'}).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # maximum value from multiple column
 dataframe.agg({'college': 'max',
                'student NAME': 'max',

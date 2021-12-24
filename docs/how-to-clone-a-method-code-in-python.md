@@ -11,7 +11,7 @@
 **注意:**
 要运行下面给出的程序，你必须安装最新版本的 Python，即 Python 3.8.2，否则会显示如下错误。
 
-```
+```py
 AttributeError: ‘code’ object has no attribute ‘replace’.
 
 ```
@@ -19,7 +19,7 @@ AttributeError: ‘code’ object has no attribute ‘replace’.
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`methodName.__code__.replace()`方法，我们能够在该方法的帮助下克隆内置方法以及任何已定义方法的代码。
 
-```
+```py
 from statistics import median
 
 # Using methodName.__code__.replace() method
@@ -30,13 +30,13 @@ print(median([1, 2, 3]))
 
 **输出:**
 
-```
+```py
 2
 ```
 
 **例 2 :**
 
-```
+```py
 def multiply(a, b):
     return a * b
 
@@ -48,6 +48,6 @@ print(multiply(5, 6))
 
 **输出:**
 
-```
+```py
 30
 ```

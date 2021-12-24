@@ -6,7 +6,7 @@ Python3 的`fileinput`提供了许多有用的特性，可以用来做很多事�
 
 **语法:**
 
-```
+```py
 FileInput(filename, inplace=True, backup='.bak')
 
 ```
@@ -19,7 +19,7 @@ FileInput(filename, inplace=True, backup='.bak')
 
 ![fileinput-python-1](img/15de0e3644d8c30ceb2d745420fbd6dd.png)
 
-```
+```py
 # Python code to change only first line of file
 import fileinput
 
@@ -45,7 +45,7 @@ with fileinput.FileInput(filename, 
 
 ![fileinput-python-3](img/5af97f7b43d96d1715425d12a082d5b4.png)
 
-```
+```py
 # python3 code to search and 
 # replace line with other line in file
 import fileinput
@@ -73,7 +73,7 @@ with fileinput.FileInput(filename,
 
 ![fileinput-python](img/5acdd99ba62148cac857f2d3f4fe31e6.png)
 
-```
+```py
 # python3 code to search text in 
 # line and replace that line with 
 # other line in file
@@ -101,7 +101,7 @@ with fileinput.FileInput(filename,
 
 ![fileinput-python1](img/232dfca2d1579fe5b950f496d04c019a.png)
 
-```
+```py
 # python code to search
 # text and replace that text
 # in file

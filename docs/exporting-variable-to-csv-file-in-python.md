@@ -23,7 +23,7 @@ CSV 文件或逗号分隔值文件用于跨平台存储和共享数据。列由�
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # exporting a list variable into the csv file
@@ -44,7 +44,7 @@ with open('Example.csv', 'w', newline = '') as csvfile:
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # exporting a tuple variable into the csv file
@@ -65,7 +65,7 @@ with open('Example.csv', 'w', newline = '') as csvfile:
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # exporting a string variable into the csv file
@@ -89,7 +89,7 @@ with open('Example.csv', 'w', newline = '') as csvfile:
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # 2D list of variables (tabular data with rows and columns)

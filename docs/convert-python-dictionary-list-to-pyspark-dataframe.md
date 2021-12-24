@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 from pyspark.sql import SparkSession
 
@@ -76,7 +76,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType,
@@ -133,7 +133,7 @@ Python 代码将字典列表转换为 pyspark 数据帧。
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 from pyspark.sql import SparkSession, Row
 

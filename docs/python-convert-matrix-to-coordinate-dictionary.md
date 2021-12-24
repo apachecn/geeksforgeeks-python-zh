@@ -13,7 +13,7 @@
 **方法#1:使用循环+ `enumerate()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用蛮力来提取元素，并在 enumerate()的帮助下为它们分配索引。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to Coordinate Dictionary
 # Using loop + enumerate()
@@ -46,7 +46,7 @@ print("The Coordinate Dictionary : " + str(res)) 
 **方法 2:使用`setdefault()` +循环**
 这个方法的操作方式和上面类似，只是不同的是`setdefault()`减少了记忆元素值和键存在检查的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to Coordinate Dictionary
 # Using setdefault() + loop

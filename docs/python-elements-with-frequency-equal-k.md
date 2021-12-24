@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 作为蛮力方法，我们只需要对所有元素进行计数，然后只返回计数等于 k 的元素，这是面对这个问题时可以想到执行的基本方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # Elements with Frequency equal K
 # using naive method
@@ -35,7 +35,7 @@ print ("Elements with count K are : " + str(res))
 
 **Output :**
 
-```
+```py
 Original list : [9, 4, 5, 4, 4, 5, 9, 5]
 Elements with count K are : [4, 5]
 

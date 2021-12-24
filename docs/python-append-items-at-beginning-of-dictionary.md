@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append items at beginning of dictionary 
 # Using update()
@@ -41,7 +41,7 @@ print("The required dictionary : " + str(updict)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 3, 'best': 10}
 The required dictionary : {'pre1': 4, 'pre2': 8, 'Gfg': 5, 'is': 3, 'best': 10}
 
@@ -53,7 +53,7 @@ The required dictionary : {'pre1': 4, 'pre2': 8, 'Gfg': 5, 'is': 3, 'best': 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append items at beginning of dictionary 
 # Using ** operator
@@ -76,7 +76,7 @@ print("The required dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 3, 'best': 10}
 The required dictionary : {'pre1': 4, 'pre2': 8, 'Gfg': 5, 'is': 3, 'best': 10}
 

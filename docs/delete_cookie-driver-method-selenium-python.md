@@ -6,14 +6,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Selenium 中的 delete_cookie 驱动方法展开。delete_cookie 方法用于删除具有指定值的 cookie。
 **语法–**
 
-```
+```py
 driver.delete_cookie(name)
 ```
 
 **示例–**
 现在可以使用 delete_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.delete_cookie("foo")
 ```
@@ -25,7 +25,7 @@ driver.delete_cookie("foo")
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

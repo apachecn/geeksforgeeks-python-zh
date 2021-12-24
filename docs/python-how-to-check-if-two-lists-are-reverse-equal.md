@@ -13,7 +13,7 @@
 **方法#1:使用`reversed() and "==" operator`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 reversed()执行反转任务，并使用“==”运算符测试相等性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if two lists are reverse equal
 # Using reversed() + == operator
@@ -36,7 +36,7 @@ print("Are both list reverse of each other ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [5, 6, 7, 8]
 The original list 2 : [8, 7, 6, 5]
 Are both list reverse of each other ? : True
@@ -46,7 +46,7 @@ Are both list reverse of each other ? : True
 **方法 2:使用列表切片+ "= "运算符**
 这是解决这个问题的又一种方法。在这种情况下，我们使用切片技术执行列表反转任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if two lists are reverse equal
 # Using list slicing + "==" operator
@@ -69,7 +69,7 @@ print("Are both list reverse of each other ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [5, 6, 7, 8]
 The original list 2 : [8, 7, 6, 5]
 Are both list reverse of each other ? : True

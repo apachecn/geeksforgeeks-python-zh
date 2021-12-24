@@ -7,7 +7,7 @@
 **方法#1:使用`any() + isdigit() + isalpha()`**
 上述功能的组合可用于执行该任务。在本文中，我们迭代所有单词，并使用`isdigit()`和 isalpha()检查所需的组合。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Words with both alphabets and numbers
 # Using isdigit() + isalpha() + any()

@@ -8,7 +8,7 @@
 
 使用以下命令安装模块–
 
-```
+```py
 pip install youtube_dl
 
 ```
@@ -18,7 +18,7 @@ pip install youtube_dl
 
 下面是 Python 代码–
 
-```
+```py
 # importing module
 import youtube_dl
 

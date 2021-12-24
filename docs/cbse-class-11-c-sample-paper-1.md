@@ -80,7 +80,7 @@
 
 ****【B】编写以下代码的输出:2****
 
-```
+```py
 int val, n = 1000;
 cin >> val;
 res = n + val > 1500 ? 100 : 200;
@@ -123,7 +123,7 @@ cout << res;
 
 ****【B】删除语法错误后重写以下程序。2****
 
-```
+```py
 #include <iostream.h>
 Void main()
 {
@@ -137,7 +137,7 @@ Void main()
 }
 ```
 
-```
+```py
 void main()
 {
     const int MAX = 0;
@@ -151,7 +151,7 @@ void main()
 
 ****【C】用 [c++写程序打印斐波那契数列](https://www.geeksforgeeks.org/program-to-print-first-n-fibonacci-numbers/) : 0，1，1，2，3，5，8..3****
 
-```
+```py
 #include <iostream>
 using std::cout;
 void fib(int n)
@@ -182,7 +182,7 @@ int main()
 
 ****【D】用 [c++写一个程序，找出给定 no](https://www.geeksforgeeks.org/program-for-factorial-of-a-number/) 的阶乘。3****
 
-```
+```py
 #include <iostream>
 using namespace std;
 
@@ -205,7 +205,7 @@ int main()
 
 ****Q.5[A]用 c++编写一个程序，用连字符替换字符串中的每个空格。2****
 
-```
+```py
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -238,7 +238,7 @@ ii)元素总数=4*5=20
 
 ****【C】删除语法错误后重写以下程序 2****
 
-```
+```py
 #include <iostream.h>
 main()
 {
@@ -251,7 +251,7 @@ main()
 
 ****【D】找出以下程序的输出:4****
 
-```
+```py
 #include <iostream.h>
 main()
 {
@@ -267,7 +267,7 @@ cout << i << j << k << m;
 
 ****【E】用 c++写程序求矩阵的行和列和。3****
 
-```
+```py
 #include <iostream>
 using namespace std;
 #define MAX 10
@@ -311,7 +311,7 @@ iii)函数调用:最后在定义和声明一个函数后，在驱动程序/主�
 
 **【B】找到以下程序的输出:2**
 
-```
+```py
 #include <iostream.h>
 void Execute(int& x, int y = 200)
 {
@@ -336,7 +336,7 @@ main()
 **【C】用 C++写一个函数，有 2 个整数类型的参数 x 和 n，结果类型为 float，求以下级数的和:-
 1 + x/2！+ x <sup>2</sup> /3！+…………………..+x <sup>n</sup> /(n+1)！3**
 
-```
+```py
 #include <iostream>
 #include <math.h>
 
@@ -370,7 +370,7 @@ int main()
 **【D】编写程序，利用函数计算 n 个自然数之和。
 3**
 
-```
+```py
 #include <iostream>
 using namespace std;
 int sum(int n)

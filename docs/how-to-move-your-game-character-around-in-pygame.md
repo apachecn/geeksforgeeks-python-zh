@@ -44,7 +44,7 @@ blit(surface，surfacerect)函数用于在屏幕上绘制图像。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -152,7 +152,7 @@ while run:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -254,7 +254,7 @@ while run:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -367,7 +367,7 @@ while run:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *

@@ -10,7 +10,7 @@ Kolmogorov-Smirnov 统计量量化了样本的经验分布函数和参考分布�
 
 为了使用检验随机数一致性的测试，我们使用了 U[0，1]的 CDF(累积分布函数)。
 
-```
+```py
 F(x)= x for 0<=x<=1
 ```
 
@@ -22,7 +22,7 @@ F(x)= x for 0<=x<=1
 
 **算法:**
 
-```
+```py
 -> Rank the N random numbers in ascending order.
 -> Calculate D+ as max(i/N-Ri) for all i in(1, N)
 -> Calculate D- as max(Ri-((i-1)/N)) for all i in(1, N)
@@ -35,7 +35,7 @@ F(x)= x for 0<=x<=1
 
 下面是上面算法的 Python 实现:
 
-```
+```py
 import random
 
 N = int(input("Enter the size of random numbers to be produced : "))

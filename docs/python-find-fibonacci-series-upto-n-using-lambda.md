@@ -18,7 +18,7 @@
 
 **代码#1:使用λ和归约方法**
 
-```
+```py
 from functools import reduce
 
 fib = lambda n: reduce(lambda x, _: x+[x[-1]+x[-2]],
@@ -29,7 +29,7 @@ print(fib(5))
 
 **Output:**
 
-```
+```py
 [0, 1, 1, 2, 3]
 
 ```
@@ -40,7 +40,7 @@ print(fib(5))
 
 **代码#2:使用λ和映射功能**
 
-```
+```py
 def fibonacci(count):
     fib_list = [0, 1]
 
@@ -54,7 +54,7 @@ print(fibonacci(10))
 
 **Output:**
 
-```
+```py
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 ```

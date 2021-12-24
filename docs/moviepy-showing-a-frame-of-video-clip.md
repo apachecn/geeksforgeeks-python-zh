@@ -15,7 +15,7 @@ clip.show 方法允许预览一个剪辑的一个帧，而不必将其写入文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -31,7 +31,7 @@ clip.show(2)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -45,7 +45,7 @@ Moviepy - video ready __temp__.mp4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -61,7 +61,7 @@ clip.show(3)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 MoviePy - Writing audio in __temp__TEMP_MPY_wvf_snd.mp3
 

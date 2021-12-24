@@ -35,7 +35,7 @@ Biopython Entrez 配备了两种方法来执行数据库搜索操作:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import Entrez
 
@@ -63,7 +63,7 @@ print(record)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from Bio import Entrez
 

@@ -20,7 +20,7 @@ Iris 数据集是数据科学中最受欢迎的数据集之一，在大多数数
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # How to color a Scatter Plot
 # using altair
@@ -53,7 +53,7 @@ alt.Chart(iris).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # How to color a Scatter Plot
 # using altair
@@ -98,7 +98,7 @@ alt.Chart(iris).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # How to do custom mapping
 # of colors to discrete values
@@ -144,7 +144,7 @@ alt.Chart(cars).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # How to select color schemes
 # for scatter plot coloring

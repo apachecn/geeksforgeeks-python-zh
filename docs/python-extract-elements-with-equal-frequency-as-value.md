@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements with equal frequency as value
 # Using list comprehension + count()
@@ -41,7 +41,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 3, 2, 2, 3, 4, 1, 3, 2, 4, 4]
 Filtered elements : [1, 3, 4]
 
@@ -53,7 +53,7 @@ Filtered elements : [1, 3, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements with equal frequency as value
 # Using filter() + lambda + count()
@@ -75,7 +75,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 3, 2, 2, 3, 4, 1, 3, 2, 4, 4]
 Filtered elements : [1, 3, 4]
 

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 var = 1
@@ -26,7 +26,7 @@ print(sys.getsizeof(var))
 
 **输出:**
 
-```
+```py
 28
 ```
 
@@ -34,7 +34,7 @@ print(sys.getsizeof(var))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 var = 1.2
@@ -44,7 +44,7 @@ print(sys.getsizeof(var))
 
 **输出:**
 
-```
+```py
 24
 ```
 
@@ -52,7 +52,7 @@ print(sys.getsizeof(var))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # string init
@@ -68,7 +68,7 @@ print(sys.getsizeof(var3))
 
 **输出:**
 
-```
+```py
 64
 72
 96
@@ -78,7 +78,7 @@ print(sys.getsizeof(var3))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import sys
 
@@ -95,7 +95,7 @@ print(sys.getsizeof(var3))
 
 **输出:**
 
-```
+```py
 64
 72
 96
@@ -105,7 +105,7 @@ print(sys.getsizeof(var3))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # set init
@@ -119,7 +119,7 @@ print(sys.getsizeof(var2))
 
 **输出:**
 
-```
+```py
 224
 736
 ```
@@ -128,7 +128,7 @@ print(sys.getsizeof(var2))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # dic
@@ -143,7 +143,7 @@ print(sys.getsizeof(var2))
 
 **输出:**
 
-```
+```py
 240
 368
 ```
@@ -152,7 +152,7 @@ print(sys.getsizeof(var2))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 def func():
@@ -163,6 +163,6 @@ print(sys.getsizeof(var))
 
 **输出:**
 
-```
+```py
 136
 ```

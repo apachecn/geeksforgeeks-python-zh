@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import selenium module
 from selenium import webdriver
 

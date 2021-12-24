@@ -31,13 +31,13 @@ lxml:
 **与 Beautifulsoup 的区别:**
 为了突出两个解析器在工作方式和树的制作方面的区别，以便修复未完全形成的文档，我们将举同一个例子，并将其馈送给两个解析器。
 
-```
+```py
 <li></p>
 ```
 
 **`html5lib` :**
 
-```
+```py
 from bs4 import BeautifulSoup
 
 soup_html5lib = BeautifulSoup("<li></p>", "html5lib")
@@ -47,7 +47,7 @@ print(soup_html5lib)
 
 **输出:**
 
-```
+```py
 <html><head></head><body><li><p></p></li></body></html>
 ```
 
@@ -62,7 +62,7 @@ print(soup_html5lib)
 
 **`lxml` :**
 
-```
+```py
 from bs4 import BeautifulSoup
 
 soup_lxml = BeautifulSoup("<li></p>", "lxml")
@@ -72,7 +72,7 @@ print(soup_lxml)
 
 **输出:**
 
-```
+```py
 <html><body><li></li></body></html>
 ```
 

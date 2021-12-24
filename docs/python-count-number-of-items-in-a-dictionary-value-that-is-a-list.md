@@ -8,7 +8,7 @@
 
 `isinstance()`方法取两个参数:
 
-```
+```py
 object - object to be checked
 classinfo - class, type, or tuple of classes and types
 ```
@@ -19,7 +19,7 @@ classinfo - class, type, or tuple of classes and types
 
 **方法#1** 使用`in` 运算符
 
-```
+```py
 # Python program to count number of items
 # in a dictionary value that is a list.
 def main():
@@ -44,14 +44,14 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 14
 
 ```
 
 **方法 2:** 使用列表理解
 
-```
+```py
 # Python program to count number of items
 # in a dictionary value that is a list.
 def main():
@@ -71,14 +71,14 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 14
 
 ```
 
 **方法 3:** 使用 `dict.items()`
 
-```
+```py
 # Python program to count number of items
 # in a dictionary value that is a list.
 def main():
@@ -102,14 +102,14 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 14
 
 ```
 
 **方法#4:** 使用`enumerate()`
 
-```
+```py
 # Python program to count number of items
 # in a dictionary value that is a list.
 def main():
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 14
 
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing mdapp from kivymd framework
 from kivymd.app import MDApp
 

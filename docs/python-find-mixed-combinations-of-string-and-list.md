@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `enumerate() + replace()`**
 该任务可以使用上述功能的组合来执行。在这种情况下，我们只需迭代字符列表的每个元素，并使用强力方式插入每个组合。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mixed Combinations of string and list
 # using loop + enumerate() + replace()

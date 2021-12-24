@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from pygame import mixer
 from time import time

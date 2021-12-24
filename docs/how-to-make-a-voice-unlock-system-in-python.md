@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import ctypes
 import speech_recognition as speech
@@ -29,7 +29,7 @@ import speech_recognition as speech
 
 ## 蟒蛇 3
 
-```
+```py
 voice = speech.Recognizer()
 with speech.Microphone() as source:
     print("Say something!")
@@ -42,7 +42,7 @@ with speech.Microphone() as source:
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     command=voice.recognize_google(voice_command)
 
@@ -62,7 +62,7 @@ except speech.RequestError as e:
 
 ## 蟒蛇 3
 
-```
+```py
 if command == "lock my PC":
     ctypes.windll.user32.LockWorkStation()
 
@@ -84,7 +84,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import sys
 import ctypes

@@ -15,7 +15,7 @@
 
 我们将以这种方式使用前 2 位来表示四种不同的寻址模式:
 
-```
+```py
 For direct mode- 00
 For indirect mode- 01
 For immediate mode- 10
@@ -25,7 +25,7 @@ For register mode- 11
 
 接下来的 3 位用于表示操作码，所以我们最多可以使用 8 种不同的操作。我们将定义 6 个操作，另外两个以这种方式保留给将来:
 
-```
+```py
 000- Do nothing
 001- Addition
 010- Subtraction
@@ -40,7 +40,7 @@ For register mode- 11
 接下来的 3 位用于操作 1，最后 3 位用于操作 2，因此在立即模式下，操作数的值将在 0 到 7 的范围内。
 对于直接、间接和寄存器模式，我们需要定义一个内存数组和一个寄存器数组。因为我们只有 3 位来表示地址，所以这些数组中元素的最大数量是 8。
 
-```
+```py
 memory=[2,15,40,25,7,36,64,19]
 register=[17,20,43,52,None,None,None,None]
 
@@ -66,7 +66,7 @@ register=[17,20,43,52,None,None,None,None]
 
 ## 计算机编程语言
 
-```
+```py
 memory=[2,15,40,25,7,36,64,19]
 register=[17,20,43,52,None,None,None,None]
 
@@ -200,7 +200,7 @@ execute(st);
 
 **输出:**
 
-```
+```py
 Instruction mode: 00
 Opcode: 001
 operand1: 000

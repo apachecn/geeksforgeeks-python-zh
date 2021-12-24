@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # cwork.pxd
 #
 # Declarations of "external" C 
@@ -40,7 +40,7 @@ cdef extern from "work.h":
 
 **代码#2 :**
 
-```
+```py
 # work.pyx
 # Import the low-level C declarations
 
@@ -74,7 +74,7 @@ def avg(double[:] a):
 
 **代码#3 :**
 
-```
+```py
 # Destructor for cleaning up Point objects
 cdef del_Point(object obj):
     pt = <csample.Point *> PyCapsule_GetPointer(obj, "Point")
@@ -105,7 +105,7 @@ def distance(p1, p2):
 
 **代码#4:**
 
-```
+```py
 # importing libraries
 from distutils.core import setup
 from distutils.extension import Extension
@@ -123,7 +123,7 @@ setup(name = 'work extension module',
 
 **代码#5:构建用于实验的结果模块。**
 
-```
+```py
 bash % python3 setup.py build_ext --inplace
 running build_ext
 
@@ -143,7 +143,7 @@ bash %
 
 **代码#6 :**
 
-```
+```py
 import sample
 print ("GCD : ", sample.gcd(12, 8))
 
@@ -165,7 +165,7 @@ print ("\nDistance between the two points : ", 
 
 **输出:**
 
-```
+```py
 GCD : 4
 
 Division : (4, 2)

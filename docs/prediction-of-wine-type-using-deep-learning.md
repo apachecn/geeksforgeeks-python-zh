@@ -19,7 +19,7 @@
 
 **加载数据。**
 
-```
+```py
 # Import Required Libraries 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -34,7 +34,7 @@ red = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/wine
 
 **第一排‘红’。**
 
-```
+```py
 # First rows of `red`
 red.head()
 ```
@@ -44,7 +44,7 @@ red.head()
 
 **最后一排‘白色’。**
 
-```
+```py
 # Last rows of `white`
 white.tail()
 ```
@@ -54,7 +54,7 @@ white.tail()
 
 **取五排‘红’的样本。**
 
-```
+```py
 # Take a sample of five rows of `red`
 red.sample(5)
 ```
@@ -64,7 +64,7 @@ red.sample(5)
 
 **数据描述–**
 
-```
+```py
 # Describe `white`
 white.describe()
 ```
@@ -74,7 +74,7 @@ white.describe()
 
 **检查“红色”中的空值。**
 
-```
+```py
 # Double check for null values in `red`
 pd.isnull(red)
 ```
@@ -86,7 +86,7 @@ pd.isnull(red)
 
 **创建直方图。**
 
-```
+```py
 # Create Histogram
 fig, ax = plt.subplots(1, 2)
 
@@ -116,7 +116,7 @@ plt.show()
 
 **拆分数据集进行训练和验证。**
 
-```
+```py
 # Add `type` column to `red` with price one
 red['type'] = 1
 
@@ -138,7 +138,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ### 第三步:网络结构
 
-```
+```py
 # Import `Sequential` from `keras.models`
 from keras.models import Sequential
 
@@ -177,7 +177,7 @@ model.compile(loss ='binary_crossentropy', 
 
 ### 第四步:训练和预测
 
-```
+```py
 # Training Model
 model.fit(X_train, y_train, epochs = 3,
            batch_size = 1, verbose = 1)

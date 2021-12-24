@@ -8,7 +8,7 @@
 
 **PyCairo** 是一个 Python 模块，为 *cairo* 图形库提供绑定。这个库用于创建 SVG，即 python 中的矢量文件。为了安装 *pycairo* 模块，我们将使用下面给出的命令:
 
-```
+```py
 pip install pycairo
 
 ```
@@ -27,7 +27,7 @@ pip install pycairo
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

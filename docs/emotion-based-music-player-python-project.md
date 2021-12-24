@@ -36,14 +36,14 @@ Python 基础知识和 OpenCV、安卓 studio、FisherFace 算法的中高级知
 
 **要显示源输入，请使用以下代码。使用命令提示符 **:** 安装必要的库，包括 **Tkinter****
 
-```
+```py
 pip -V
 pip install tkinter
 ```
 
 ## **蟒蛇 3**
 
-```
+```py
 import tkinter as tk
 import cv2
 from PIL import Image, ImageTk

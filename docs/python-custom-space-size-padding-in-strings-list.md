@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom space size padding in Strings List
 # Using loop
@@ -51,7 +51,7 @@ print("Padded Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'Best']
 Padded Strings : ['   Gfg  ', '   is  ', '   Best  ']
 ```
@@ -62,7 +62,7 @@ Padded Strings : ['   Gfg  ', '   is  ', '   Best  ']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom space size padding in Strings List
 # Using list comprehension
@@ -86,7 +86,7 @@ print("Padded Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'Best']
 Padded Strings : ['   Gfg  ', '   is  ', '   Best  ']
 ```

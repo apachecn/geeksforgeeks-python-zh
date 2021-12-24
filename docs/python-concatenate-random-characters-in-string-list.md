@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Random characters in String List
 # Using loop + choice()
@@ -41,7 +41,7 @@ print("Concatenated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'Best', 'for', 'Geeks']
 Concatenated String : Gsere
 ```
@@ -52,7 +52,7 @@ Concatenated String : Gsere
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Random characters in String List
 # Using list comprehension + choice() + join()
@@ -73,7 +73,7 @@ print("Concatenated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'Best', 'for', 'Geeks']
 Concatenated String : Gitrk
 ```

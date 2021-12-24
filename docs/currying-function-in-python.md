@@ -7,7 +7,7 @@
 **Currying 的数学图示:**
 一般来说，函数 Currying 占用任意数量的计算和数据来生成一个返回预期输出的实函数。我们开始吧，
 
-```
+```py
 f(x, y) = (x*x*x) + (y*y*y)
 h(x) = (x*x*x)
 h(y) = (y*y*y)
@@ -20,7 +20,7 @@ Curry f = h(x)(y)
 
 **a(x) = b(c(d(x)))**
 
-```
+```py
 def change(b, c, d):
     def a(x):
         return b(c(d(x)))
@@ -29,7 +29,7 @@ def change(b, c, d):
 
 **v(a、b、c、d、e) = w(x(y(z(a、b、c、d、e))))**
 
-```
+```py
 # Currying in Python - Many to Single Argument
  def change(a):
     def w(b):
@@ -47,7 +47,7 @@ change(10)(20)(30)(40)(50)
 
 **输出:**
 
-```
+```py
 10 20 30 40 50
 ```
 
@@ -55,7 +55,7 @@ change(10)(20)(30)(40)(50)
 
 **代码#1:** 公里改米，米改厘米。
 
-```
+```py
 # Demonstrate Currying of composition of function
 def change(b, c, d):
     def a(x):
@@ -83,13 +83,13 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 1853674.5406824148
 ```
 
 **代码#2:**
 
-```
+```py
 # Demonstrate Currying of composition of function
 
 def change(b, c, d):
@@ -118,6 +118,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 864000
 ```

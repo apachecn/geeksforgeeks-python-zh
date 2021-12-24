@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Paired Rows
 # Using all() + list comprehension + count()
@@ -49,7 +49,7 @@ print("Extracted rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Paired Rows
 # Using filter() + lambda + count() + all()

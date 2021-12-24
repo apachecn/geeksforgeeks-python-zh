@@ -7,7 +7,7 @@ python 中的列表可以处理不同类型的数据类型。这种列表的操�
 **方法#1:使用列表理解+ `len() + isinstance()`**
 这个特殊的问题可以通过使用 isinstance 方法过滤我们对 len 的搜索来解决，我们可以过滤掉整数值，然后可以使用 len 函数来获得所需的长度值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Integer count in Mixed List
 # using list comprehension + len() + isinstance()
@@ -28,7 +28,7 @@ print ("The length of integers in list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 'computer', 5, 'geeks', 6, 7]
 The length of integers in list is : 4
 

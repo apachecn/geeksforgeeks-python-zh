@@ -7,7 +7,7 @@
 **方法#1:使用`map() + generator expression + join() + isdigit()`**
 该任务可以使用上述功能的组合来执行。在本文中，我们使用连接来连接数字，并构造一个字符串整数。map()用于将逻辑应用于列表中的每个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert List of String List to String List
 # using map() + generator expression + join() + isdigit()
@@ -32,7 +32,7 @@ print("List after performing conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['[1, 4]', '[5, 6]', '[7, 10]']
 List after performing conversion : ['14', '56', '710']
 

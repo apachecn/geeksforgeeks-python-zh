@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 这是可以执行这个任务的方式之一。在本文中，我们通过使用列表理解进行迭代，用空网格初始化字典键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Initialize dictionary keys with Matrix
 # Using list comprehension
@@ -25,7 +25,7 @@ print("The Initialized dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The Initialized dictionary : {'gfg': [[], [], [], []], 'best': [[], [], [], []]}
 
 ```

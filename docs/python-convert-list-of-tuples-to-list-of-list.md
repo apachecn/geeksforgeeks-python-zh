@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 使用列表理解很容易做到这一点。我们只是遍历每个列表，将元组转换为列表。
 
-```
+```py
 # Python3 code to demonstrate
 # convert list of tuples to list of list
 # using list comprehension
@@ -28,7 +28,7 @@ print("The converted list of list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list of tuples : [(1, 2), (3, 4), (5, 6)]
 The converted list of list : [[1, 2], [3, 4], [5, 6]]
 

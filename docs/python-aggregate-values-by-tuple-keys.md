@@ -7,7 +7,7 @@
 **方法#1:使用`Counter()` +生成器表达式**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们需要首先组合相似的关键元素，聚合任务由`Counter()`执行。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Aggregate values by tuple keys
 # using Counter() + generator expression
@@ -31,7 +31,7 @@ print("List after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('gfg', 50), ('is', 30), ('best', 100), ('gfg', 20), ('best', 50)]
 List after grouping : [('best', 150), ('gfg', 70), ('is', 30)]
 

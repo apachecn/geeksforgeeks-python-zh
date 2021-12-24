@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all necessary libraries
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
@@ -37,7 +37,7 @@ img_width, img_height = 224, 224
 
 ## 蟒蛇 3
 
-```
+```py
 train_data_dir = 'v_data/train'
 validation_data_dir = 'v_data/test'
 nb_train_samples =400
@@ -52,7 +52,7 @@ batch_size = 16
 
 ## 蟒蛇 3
 
-```
+```py
 if K.image_data_format() == 'channels_first':
     input_shape = (3, img_width, img_height)
 else:

@@ -8,13 +8,13 @@
 
 首先我们需要安装 *ffmpeg。* 这是一个免费的开源软件项目，由一大套用于处理视频、音频和其他多媒体文件的库和程序组成。
 
-```
+```py
 sudo apt-get install ffmpeg 
 ```
 
 所以首先让我们安装 T2。这是一个音频处理模块。Python 提供了一个名为*的模块来处理音频文件。 *pydub* 是一个只可以使用的 Python 库。wav 文件。*
 
-```
+```py
 sudo apt-get install -y python-pydub
 ```
 
@@ -22,7 +22,7 @@ sudo apt-get install -y python-pydub
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from os import path
 from pydub import AudioSegment
@@ -54,7 +54,7 @@ sound.export(output_file, format="wav")
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import subprocess
 

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是蛮力的方式解决这个问题。在这种情况下，我们需要运行一个循环来为字典的每个条目分配不同的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert dictionary items to values
 # Using loop
@@ -42,7 +42,7 @@ print("Converted Dictionary : " + str(res)) 
 **方法 2:使用列表理解**
 这是另一种可以执行该任务的方式。这以与上面类似的方式解决了问题，但是以速记的形式是一种更紧凑的方式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert dictionary items to values
 # Using list comprehension

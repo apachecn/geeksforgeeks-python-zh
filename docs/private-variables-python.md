@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate how mangling works
 class Map:
     def __init__(self, iterate):
@@ -42,7 +42,7 @@ class MapSubclass(Map):
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # how single underscore works
 def _get_errors(self):
@@ -61,7 +61,7 @@ errors = property(_get_errors)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate how double
 # underscore at the beginning works
 class Geek:
@@ -82,7 +82,7 @@ class Pyth(Geek):
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate double leading and
 # double trailing underscore works
 class Geek:

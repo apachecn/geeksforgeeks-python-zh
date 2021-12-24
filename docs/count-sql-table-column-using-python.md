@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -53,7 +53,7 @@ mydb.close()
 
 **输出；**
 
-```
+```py
 5
 ```
 
@@ -65,7 +65,7 @@ mydb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -93,6 +93,6 @@ mydb.close()
 
 **输出:**
 
-```
+```py
 2
 ```

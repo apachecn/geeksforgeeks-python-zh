@@ -8,7 +8,7 @@
 
 在初始化 pygame 库之前，我们需要安装它。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pygame
 ```
 
@@ -22,7 +22,7 @@ Pygame 包含三元组格式的颜色编码，三元组包含三个值，这些�
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 import random
 import sys

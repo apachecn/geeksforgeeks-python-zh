@@ -12,13 +12,13 @@
 
     **语法:**
 
-    ```
+    ```py
     product(iterables*, repeat=1)
     ```
 
     **示例:**
 
-    ```
+    ```py
     # import the product function from itertools module
     from itertools import product
 
@@ -36,7 +36,7 @@
 
     **输出:**
 
-    ```
+    ```py
     The cartesian product using repeat:
     [(1, 1), (1, 2), (2, 1), (2, 2)]
 
@@ -54,13 +54,13 @@
 
     **语法:**
 
-    ```
+    ```py
     permutations(iterables*, group_size=None)
     ```
 
     **示例:**
 
-    ```
+    ```py
     # import the product function from itertools module
     from itertools import permutations
 
@@ -78,7 +78,7 @@
 
     **输出:**
 
-    ```
+    ```py
     All the permutations of the given list is:
     [(1, 'geeks'), ('geeks', 1)]
 
@@ -96,13 +96,13 @@
 
     **语法:**
 
-    ```
+    ```py
     combinations(iterables*, group_size)
     ```
 
     **示例:**
 
-    ```
+    ```py
     # import combinations from itertools module
 
     from itertools import combinations
@@ -121,7 +121,7 @@
 
     **输出:**
 
-    ```
+    ```py
     All the combination of list in sorted order(without replacement) is:
     [('A', 2)]
 
@@ -139,13 +139,13 @@
 
     **语法:**
 
-    ```
+    ```py
     combinations_with_replacement(iterables*, n=None)
     ```
 
     **示例:**
 
-    ```
+    ```py
     # import combinations from itertools module
 
     from itertools import combinations_with_replacement
@@ -164,7 +164,7 @@
 
     **输出:**
 
-    ```
+    ```py
     All the combination of string in sorted order(with replacement) is:
     [('A', 'A'), ('A', 'B'), ('B', 'B')]
 

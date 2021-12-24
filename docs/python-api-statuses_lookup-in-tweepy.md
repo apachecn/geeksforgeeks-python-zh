@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`statuses_lookup()`** 方法用于获取状态标�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ for status in statuses:
 
 **输出:**
 
-```
+```py
 The status 1266978261701210112 is posted by geeksforgeeks
 This status says : 
 
@@ -83,7 +83,7 @@ What's your reaction to it?
 
 **示例 2:** 使用带有 trim_user 参数的`statuses_lookup()`方法。
 
-```
+```py
 # list of status IDs to be fetched 
 id_ = [1266978261701210112, 1266735261012111360, 1266342841648898049]
 
@@ -97,7 +97,7 @@ for status in statuses:
 
 **输出:**
 
-```
+```py
 57741058
 57741058
 57741058

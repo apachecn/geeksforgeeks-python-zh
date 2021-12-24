@@ -17,7 +17,7 @@
 该程序的目标是根据从参考帧和当前帧获得的差异来检测活动对象。我们不断地将每一帧输入给给定的函数，函数不断地寻找所有帧的平均值。然后我们计算帧之间的绝对差异。
 使用的功能是 **[cv2 .累计加权()](https://docs.opencv.org/2.4/modules/imgproc/doc/motion_analysis_and_object_tracking.html?highlight=accumulate#accumulateweighted)** 。
 
-```
+```py
 
 cv2.accumulateWeighted(src, dst, alpha)
 
@@ -32,7 +32,7 @@ cv2.accumulateWeighted(src, dst, alpha)
 
 **代码:**
 
-```
+```py
 # Python program to illustrate
 # Background subtraction using
 # concept of Running Averages
@@ -95,7 +95,7 @@ Running average 下面清晰的显示了背景，alpha 0.02 的 Running Average 
 
 或者，我们可以使用 **[cv。running gavg()](https://docs.opencv.org/2.4/modules/imgproc/doc/motion_analysis_and_object_tracking.html?highlight=running#cv.RunningAvg)**用于相同的任务，其参数与 cv2.accumulateweighted()的参数具有相同的含义。
 
-```
+```py
 
 cv.RunningAvg(image, acc, alpha)
 

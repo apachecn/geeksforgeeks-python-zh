@@ -82,7 +82,7 @@ LGBM 是一个快速、分布式、高性能的梯度提升框架，它基于一
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the basic libraries
 pip install pandas
 import time
@@ -106,7 +106,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # Checking for missing values across the 562 features of the dataset
 data.isna().sum()*100/len(data)
 
@@ -117,7 +117,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Saving the target variable(dependent variable) to target 
 # variable and dropping it from the original "data" dataframe
 target=data['activity']
@@ -205,7 +205,7 @@ y_pred_lgbm_class = [np.argmax(line) for line in ypred_lgbm]
 
 ## 蟒蛇 3
 
-```
+```py
 # Accuracy Score for the LightGBM Model
 from sklearn.metrics import accuracy_score
 accuracy_lgbm=accuracy_score(y_test,y_pred_lgbm_class)

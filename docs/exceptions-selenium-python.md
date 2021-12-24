@@ -8,7 +8,7 @@ Selenium Python 中的异常是当其中一个方法失败或发生意外事件�
 
 让我们通过尝试找到一个不存在的元素并在 geeksforgeeks.org 点击它来演示异常
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

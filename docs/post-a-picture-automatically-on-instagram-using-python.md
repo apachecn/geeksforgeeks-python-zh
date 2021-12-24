@@ -7,7 +7,7 @@ Instagram 是脸书旗下的照片和视频分享社交网络服务，Python 提
 **第一步:**
 在终端中使用下面的命令安装“ **instabot** 包。
 
-```
+```py
 pip install instabot
 ```
 
@@ -16,6 +16,6 @@ pip install instabot
 
 ## 蟒蛇 3
 
-```
+```py
 from instabot import Bot
 ```

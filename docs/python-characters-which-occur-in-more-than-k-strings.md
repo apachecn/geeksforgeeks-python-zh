@@ -7,7 +7,7 @@
 **方法#1:使用`set() + Counter() + items() + loop`**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们发现计数使用计数器和设置是用来限制字符重复。
 
-```
+```py
 # Python3 code to demonstrate 
 # Characters which Occur in More than K Strings
 # using set() + Counter() + loop + items()
@@ -38,7 +38,7 @@ print ("Filtered Characters are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg', 'ise', 'for', 'Geeks']
 Filtered Characters are : {'e', 'G', 's', 'f'}
 

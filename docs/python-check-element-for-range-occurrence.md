@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `enumerate()`**
 该任务可以使用上述功能的组合来执行。在这种情况下，我们只需要遍历列表的每个元素，并使用`enumerate()`返回元素存在的元组对的索引。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check element for range occurrence
 # Using loop + enumerate()
@@ -33,7 +33,7 @@ print("The index of tuple between which element occurs : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(45, 90), (100, 147), (150, 200)]
 The index of tuple between which element occurs : 1
 

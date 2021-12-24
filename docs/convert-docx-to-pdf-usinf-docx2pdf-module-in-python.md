@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install docx2pdf
 ```
 
@@ -18,7 +18,7 @@ pip install docx2pdf
 
 docx2pdf 命令行用法的基本结构是:
 
-```
+```py
 docx2pdf [input] [output]
 ```
 
@@ -40,7 +40,7 @@ GeeksforGeeks 文件夹包含原始的 GFG.docx 和转换后的 GFG.pdf
 
 对于批量转换，您可以指定包含所有 Docx 文件的文件夹。转换后的 pdf 将存储在同一文件夹中。
 
-```
+```py
 docx2pdf GeeksForGeeks_Folder/
 ```
 
@@ -52,7 +52,7 @@ docx2pdf GeeksForGeeks_Folder/
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to convert docx to pdf
 # using docx2pdf module
 

@@ -53,7 +53,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import random

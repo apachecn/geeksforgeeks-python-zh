@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Rear K digits from Numbers
 # Using list comprehension + % operator 
@@ -41,7 +41,7 @@ print("Rear K digits of elements ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5645, 23567, 34543, 87652, 2342]
 Rear K digits of elements ? : [645, 567, 543, 652, 342]
 
@@ -53,7 +53,7 @@ Rear K digits of elements ? : [645, 567, 543, 652, 342]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Rear K digits from Numbers
 # Using str() + slicing 
@@ -76,7 +76,7 @@ print("Rear K digits of elements ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5645, 23567, 34543, 87652, 2342]
 Rear K digits of elements ? : [645, 567, 543, 652, 342]
 

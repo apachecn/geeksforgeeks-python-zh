@@ -6,7 +6,7 @@
 
 在本文中，我们将学习如何使用 python 通过文件的扩展名来识别文件。我们将使用 [**Python 魔法库**](https://github.com/ahupp/python-magic) 为我们的程序提供这样的功能。要安装库，请在操作系统的命令解释器中执行以下命令
 
-```
+```py
 pip install python-magic
 
 ```
@@ -19,7 +19,7 @@ pip install python-magic
 
 ## 蟒蛇 3
 
-```
+```py
 import magic
 
 # printing the human readable type of the file
@@ -31,7 +31,7 @@ print(magic.from_file('apple.jpg', mime = True))
 
 **输出:**
 
-```
+```py
 HTML document, ASCII text, with CRLF line terminators
 text/html
 

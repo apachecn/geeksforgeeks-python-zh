@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Supersequence Strings
 # Using all() + list comprehension
@@ -57,7 +57,7 @@ print("Filtered strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Supersequence Strings
 # Using filter() + all()

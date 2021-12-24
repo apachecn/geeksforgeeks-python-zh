@@ -6,7 +6,7 @@
 
 这里的任务是生成一个可以清除 Tkinter Canvas 的 Python 脚本。因为将使用该模块删除功能。这个方法有一个特殊的参数 **all** ，代表画布上的所有组件。要清除此画布，请将此特殊参数赋予 delete 方法。因此，下面的行足以清除画布:
 
-```
+```py
 delete('all')
 ```
 
@@ -20,7 +20,7 @@ delete('all')
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter
 from tkinter import *
 
@@ -54,7 +54,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter
 from tkinter import *
 

@@ -16,7 +16,7 @@ Python 是一种脚本语言，具有许多扩展的库和框架。它用于计�
 
 硒执行网站自动化
 
-```
+```py
 from selenium import webdriver 
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.support.ui import WebDriverWait 
@@ -28,13 +28,13 @@ from selenium.webdriver.common.keys import Keys 
 
 通过电子邮件发送通知的 smtplib
 
-```
+```py
 import smtplib
 ```
 
 **提取两个选定日期之间的航班价格**
 
-```
+```py
 # Choose the two dates
 # in this format 
 x = "2020-03-10" 
@@ -100,7 +100,7 @@ print(low_price) 
 
 **通过使用 SMTP 的电子邮件发送有廉价航班的通知**
 
-```
+```py
 if len(data) != 0:
 
     dp = 2000
@@ -136,7 +136,7 @@ if len(data) != 0:
 
 **完整代码:**
 
-```
+```py
 from selenium import webdriver 
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.support.ui import WebDriverWait 

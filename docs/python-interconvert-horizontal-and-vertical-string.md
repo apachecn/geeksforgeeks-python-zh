@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Interconvert Horizontal and Vertical String
 # using [Horizontal to Vertical] using loop + "\n"
@@ -48,7 +48,7 @@ print("The converted string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The converted string : g
 e
@@ -72,7 +72,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Interconvert Horizontal and Vertical String
 # using [Vertical to Horizontal] using replace() + "\n"
@@ -92,7 +92,7 @@ print("The converted string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : g
 e
 e

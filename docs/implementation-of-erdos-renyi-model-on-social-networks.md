@@ -12,7 +12,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Import Required modules
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -23,7 +23,7 @@ import random*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Distribution graph for Erdos_Renyi model
 def distribution_graph(g):
     print(nx.degree(g))
@@ -46,7 +46,7 @@ def distribution_graph(g):
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Take N number of nodes as input
 print("Enter number of nodes")
 N = int(input())*
@@ -56,7 +56,7 @@ N = int(input())*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Take P probability value for edges
 print("Enter value of probability of every node")
 P = float(input())*
@@ -66,7 +66,7 @@ P = float(input())*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Create an empty graph object
 g = nx.Graph()
 
@@ -78,7 +78,7 @@ g.add_nodes_from(range(1, N + 1))*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Add edges to the graph randomly.
 for i in g.nodes():
     for j in g.nodes():
@@ -102,7 +102,7 @@ for i in g.nodes():
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Display connection between nodes    
 distribution_graph(g)*
 ```
@@ -111,7 +111,7 @@ distribution_graph(g)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Implementation of Erdos-Renyi Model on a Social Network
 
 # Import Required modules

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract ith Key's Value of K's Maximum value dictionary
 # Using max() + lambda
@@ -46,7 +46,7 @@ print("The required value : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 9, 'is': 16, 'best': 1}]
 The required value : 8
 
@@ -58,7 +58,7 @@ The required value : 8
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract ith Key's Value of K's Maximum value dictionary
 # Using max() + external function
@@ -90,7 +90,7 @@ print("The required value : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 9, 'is': 16, 'best': 1}]
 The required value : 8
 

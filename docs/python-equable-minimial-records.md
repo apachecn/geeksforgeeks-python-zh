@@ -17,7 +17,7 @@
 **方法#1:使用列表理解+ `min() + lambda`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 min()来提取最小索引值，并使用列表理解和 lambda 函数来执行元素分组任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Equable Minimial Records
 # Using min() + list comprehension + lambda
@@ -46,7 +46,7 @@ print("Equable Minimal Records : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 12, 5), ('is', 13, 6), ('best', 12, 2), ('CS', 13, 2)]
 Equable Minimal Records : [('best', 12, 2), ('CS', 13, 2)]
 
@@ -55,7 +55,7 @@ Equable Minimal Records : [('best', 12, 2), ('CS', 13, 2)]
 **方法 2:使用`groupby() + filter()`+λ**
 以上功能的组合可以解决这个问题。在本例中，我们使用 groupby()执行分组任务，filter() + lambda 用于匹配条件的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Equable Minimial Records
 # Using groupby() + filter() + lambda
@@ -87,7 +87,7 @@ print("Equable Minimal Records : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 12, 5), ('is', 13, 6), ('best', 12, 2), ('CS', 13, 2)]
 Equable Minimal Records : [('best', 12, 2), ('CS', 13, 2)]
 

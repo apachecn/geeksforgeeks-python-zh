@@ -8,14 +8,14 @@
 
 首先，从终端使用以下命令行:
 
-```
+```py
 pip install psycopg
 
 ```
 
 如果您已经将源包下载到您的计算机中，您可以按照如下方式使用 setup . py:
 
-```
+```py
 python setup.py build
 sudo python setup.py install
 ```
@@ -26,7 +26,7 @@ sudo python setup.py install
 
 其次，使用以下语句在 PostgreSQL 数据库服务器中创建一个名为 suppliers 的新数据库。
 
-```
+```py
 CREATE DATABASE suppliers;
 ```
 
@@ -38,13 +38,13 @@ connect()函数创建一个新的数据库会话，并返回连接类的一个�
 
 要调用 connect()函数，需要将 PostgreSQL 数据库参数指定为连接字符串，并将其传递给如下函数:
 
-```
+```py
 conn = psycopg2.connect("dbname=suppliers user=postgres password=postgres")
 ```
 
 或者您可以使用关键字参数列表:
 
-```
+```py
 conn = psycopg2.connect(
     host="localhost",
     database="suppliers",
@@ -68,7 +68,7 @@ conn = psycopg2.connect(
 
 下面显示了 database.ini 文件的内容:
 
-```
+```py
 [postgresql]
 host=localhost
 database=suppliers
@@ -80,13 +80,13 @@ password=SecurePas$1
 
 请注意，如果使用 git，需要将 database.ini 添加到。gitignore 文件，以避免将敏感信息提交给像 github 这样的公共 repo。那个。gitignore 文件会是这样的:
 
-```
+```py
 database.ini
 ```
 
 下面的 config()函数读取 database.ini 文件并返回连接参数。config()函数放在 config.py 文件中:
 
-```
+```py
 #!/usr/bin/python
 from configparser import ConfigParser
 
@@ -110,7 +110,7 @@ def config(filename='database.ini', section='postgresql'):
 
 下面的 connect()函数连接到供应商数据库，并打印出 PostgreSQL 数据库版本。
 
-```
+```py
 #!/usr/bin/python
 import psycopg2
 from config import config
@@ -166,13 +166,13 @@ if __name__ == '__main__':
 
 要执行 connect.py 文件，可以使用以下命令:
 
-```
+```py
 python connect.py
 ```
 
 您将看到以下输出:
 
-```
+```py
 Connecting to the PostgreSQL database...
 PostgreSQL database version:
 ('PostgreSQL 12.3, compiled by Visual C++ build 1914, 64-bit', )
@@ -185,21 +185,21 @@ Database connection closed.
 
 例如，如果您将主机更改为 localhosts，程序将输出以下消息:
 
-```
+```py
 Connecting to the PostgreSQL database...
 could not translate host name "localhosts" to address: Unknown host
 ```
 
 当您将数据库更改为不存在的数据库时，以下内容会显示错误消息，例如供应商:
 
-```
+```py
 Connecting to the PostgreSQL database...
 FATAL: database "supplier" does not exist
 ```
 
 如果您将用户更改为后进，将不会成功通过身份验证，如下所示:
 
-```
+```py
 Connecting to the PostgreSQL database...
 FATAL: password authentication failed for user "postgress"
 ```

@@ -17,7 +17,7 @@ llist 是 CPython 的扩展模块，提供了基本的链表结构。它们出�
 **class llist . dllist([iterable])**
 返回从提供的 iterable 初始化的新双链表。如果没有给定 iterables，则生成链表，但链表是空的。
 
-```
+```py
 import llist
 from llist import dllist
 
@@ -27,7 +27,7 @@ print(lst)
 
 **输出:**
 
-```
+```py
 dllist([first, second, third])
 ```
 
@@ -35,37 +35,37 @@ dllist 支持以下属性:
 
 *   **first** : read only attribute, prints the first attribute of the list and None if the list is empty
 
-    ```
+    ```py
     print(lst.first)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllistnode(first)
     ```
 
 *   **last** : read only property, returns the last element of the list(tail) and None if the list is empty.
 
-    ```
+    ```py
     print(lst.last)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllistnode(third)
     ```
 
 *   **size** : read only attribute that returns the size of the list
 
-    ```
+    ```py
     print(lst.size)
     ```
 
     **输出:**
 
-    ```
+    ```py
     3
     ```
 
@@ -73,98 +73,98 @@ dllist 还支持以下方法:
 
 *   **append(x)** : adds x to the right side of the list and returns a inserted dllist node. If x already is a dlist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.append('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second, third, fourth])
     ```
 
 *   **appendleft(x)** : adds x to the left side of the list and returns a inserted dllist node. If x already is a dllist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.appendleft('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([fourth, first, second, third])
     ```
 
 *   **appendright(x)** : adds x to the right side of the list and returns a inserted dllist node. If x already is a dllist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.appendright('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second, third, fourth])
     ```
 
 *   **clear()** : removes all nodes from the list
 
-    ```
+    ```py
     lst.clear()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist()
     ```
 
 *   **extend([iterable])** : adds elements from the iterable to the right side of the list.
 
-    ```
+    ```py
     lst.extend(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second, third, fourth, fifth])
     ```
 
 *   **extendleft([iterable])** : adds elements from the iterable to the left side of the list
 
-    ```
+    ```py
     lst.extendleft(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([fifth, fourth, first, second, third])
     ```
 
 *   **extendright([iterable])** : adds elements from the iterable to the right side of the list
 
-    ```
+    ```py
     lst.extendright(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second, third, fourth, fifth])
     ```
 
 *   **insert()** : adds provided element to the right side of the list. It is usually used to insert element at any point in the list and for that the element it should be inserted before should be provided.
 
-    ```
+    ```py
     lst.insert('fourth')
     node = lst.nodeat(2)
     lst.insert('fifth', node)
@@ -173,66 +173,66 @@ dllist 还支持以下方法:
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second, fifth, third, fourth])
     ```
 
 *   **nodeat(index)** : returns node at a the specified index. Negative addresses are allowed.
 
-    ```
+    ```py
     print(lst.nodeat(2))
     print(lst.nodeat(-2))
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllistnode(third)
     dllistnode(second)
     ```
 
 *   **pop()** : removes and returns an element’s value from the right side of the list.
 
-    ```
+    ```py
     lst.pop()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second])
     ```
 
 *   **popleft()** : removes and returns an element’s value from the left side of the list.
 
-    ```
+    ```py
     lst.popleft()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([second, third])
     ```
 
 *   **popright** : removes and returns an element’s value from the right side of the list.
 
-    ```
+    ```py
     lst.popright()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, second])
     ```
 
 *   **remove()** : removes the specified node form the list and returns the element stored in it.
 
-    ```
+    ```py
     node = lst.nodeat(1)
     lst.remove(node)
     print(lst)
@@ -240,20 +240,20 @@ dllist 还支持以下方法:
 
     **输出:**
 
-    ```
+    ```py
     dllist([first, third])
     ```
 
 *   **rotate(n)** : if n is positive rotates the list n steps to the right but if it is negative rotate it n steps to the left
 
-    ```
+    ```py
     lst.rotate(4)
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     dllist([third, first, second])
     ```
 
@@ -265,14 +265,14 @@ dllist 还支持以下方法:
 
 在双向链表中实现一个节点，如果提供了值，可以选择初始化这个节点。
 
-```
+```py
 node = llist.dllistnode('zeroth')
 print(node)
 ```
 
 **输出:**
 
-```
+```py
 dllistnode(zeroth)
 ```
 
@@ -282,7 +282,7 @@ dllistnode(zeroth)
 *   **prev** :只读属性，打印列表中的上一个节点
 *   **值**:打印列表中存储的值
 
-```
+```py
 node = lst.nodeat(1)
 print(node.next)
 print(node.prev)
@@ -291,7 +291,7 @@ print(node.value)
 
 **输出:**
 
-```
+```py
 dllistnode(third)
 dllistnode(first)
 second
@@ -301,7 +301,7 @@ second
 
 返回一个新的双向链表迭代器。这些对象不是由用户创建的，而是由 dllist 返回的。__iter__()方法来保存迭代状态。迭代 dllistiterator 接口将直接产生存储在节点中的值。
 
-```
+```py
 import llist
 from llist import dllist
 
@@ -313,7 +313,7 @@ for value in lst:
 
 **输出:**
 
-```
+```py
 first
 second
 third

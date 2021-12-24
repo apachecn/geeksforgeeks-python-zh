@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import random library
 import random
 

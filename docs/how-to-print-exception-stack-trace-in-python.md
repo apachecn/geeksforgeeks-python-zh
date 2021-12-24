@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Python27/hdg.py", line 5, in 
     value=A[5]
@@ -41,7 +41,7 @@ IndexError: list index out of range
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import traceback
 

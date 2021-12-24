@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 print("User Current Version:-", sys.version)
@@ -44,7 +44,7 @@ print("User Current Version:-", sys.version)
 
 ## 蟒蛇 3
 
-```
+```py
 from platform import python_version
 
 print("Current Python Version-", python_version())
@@ -63,7 +63,7 @@ print("Current Python Version-", python_version())
 1.  打开 cmd/终端/windows powershell
 2.  现在，在给定的代码框中编写与下面提到的相同的命令，并按 enter 键，这样它将以字符串的形式返回当前 python 解释器版本。
 
-```
+```py
  python -V
 ```
 

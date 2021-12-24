@@ -16,7 +16,7 @@ PyMongo 是一个 Python 模块，可以用来在 Mongo 数据库和 Python 应�
 
 **语法:**
 
-```
+```py
 query = { 
           '$and' : [
                { operand_query_1},
@@ -27,7 +27,7 @@ query = {
 
 **示例 1 :** 创建一个名为讲师的集合，并使用`find()`进行检索。
 
-```
+```py
 import pprint
 from pymongo import MongoClient
 
@@ -55,7 +55,7 @@ for x in lecturers.find():
 
 **查询 1 :** 显示薪资低于 5 万的讲师记录，按升序排列。
 
-```
+```py
 # lecturer records with salary less 
 # than 50000 and arrange in ascending order.
 pprint.pprint(list(lecturers.find({"salary":
@@ -68,7 +68,7 @@ pprint.pprint(list(lecturers.find({"salary":
 
 **查询 2 :** 在 department_id 1 中显示薪资大于 40000 的讲师记录，并按其薪资降序排序。
 
-```
+```py
 # lecturer records with salary greater than 40000
 # in department_id 1 and sort according to their 
 # salary in descending order.
@@ -84,7 +84,7 @@ pprint.pprint(list(lecturers.find({'$and':
 
 **示例 2 :** 创建一个名为书籍的收藏，并使用`find()`进行检索。
 
-```
+```py
 import pprint
 from pymongo import MongoClient
 import datetime
@@ -121,7 +121,7 @@ for x in books.find():
 
 **查询 1 :** 显示 2000 年以后出版的评分大于 3 的图书记录。
 
-```
+```py
 # books with ratings greater than 3 published after 2000
 pprint.pprint(list(books.find({'$and':
                                [{"ratings":
@@ -143,7 +143,7 @@ pprint.pprint(list(books.find({'$and':
 
 **查询 2 :** 显示 1999 年至 2016 年间出版的评分大于 1 的图书记录，按降序排序。
 
-```
+```py
 # between 1999-2016
 query ={'$and':
         [{"publish":

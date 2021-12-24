@@ -10,7 +10,7 @@
 
 下面是实现。
 
-```
+```py
 import random
 
 x = "y"

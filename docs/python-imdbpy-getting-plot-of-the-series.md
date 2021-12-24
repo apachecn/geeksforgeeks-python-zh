@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(plot)
 
 **输出:**
 
-```
+```py
 Sacred Games
 ['A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.', "Sartaj Singh, a Mumbai police officer, receives an anonymous phone call from a gangster who threatens to blow up the entire city. Amid the corrupt standards of Indian law enforcement begins a battle between a 'nobody' cop and ruthless gangster who perceives (sometimes) himself to be a God.::Cinema Theories", "Set in Mumbai, _Sacred Games_ (qv) delves into the city's intricate web of organized crime, corruption, politics and espionage that lie beneath India's economic renaissance. It is an epic masterwork of exceptional richness and power that interweaves the lives of the privileged, the famous, the wretched and the bloodthirsty.::ahmetkozan", 'Sartaj Singh a troubled police officer in Mumbai gets a call from gangster Ganesh Gaitonde who was missing for the last 16 years.He tells Sartaj that he has only 25 days to save Mumbai. Sartaj digs his past as to what made him a powerful gangster where he is helped by RNA officer Anjali Mathur.::alex.mjacko@gmail.com']
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(plot)
 
 **输出:**
 
-```
+```py
 Money Heist
 ['An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.']
 ```

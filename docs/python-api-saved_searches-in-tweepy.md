@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`saved_searches()`** 方法用于获取已认证�
 
 **示例 1 :** 打印查询和保存的搜索的 ID。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -46,7 +46,7 @@ for saved_search in saved_searches:
 
 **输出:**
 
-```
+```py
 The ID of this saved search is : 1269502915346980864
 The query of this saved search is : geeks
 
@@ -60,7 +60,7 @@ The query of this saved search is : computer
 
 **例 2 :** 统计保存的搜索次数。
 
-```
+```py
 # fetching the saved searches
 saved_searches = api.saved_searches()
 
@@ -70,7 +70,7 @@ print(len(saved_searches))
 
 **输出:**
 
-```
+```py
 3
 
 ```

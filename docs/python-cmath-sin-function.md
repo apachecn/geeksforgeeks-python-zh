@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -24,7 +24,7 @@ print (cmath.sin(5 + 3j))
 
 ****输出:****
 
-```
+```py
 (-9.654125476854839+2.841692295606352j) 
 ```
 
@@ -32,7 +32,7 @@ print (cmath.sin(5 + 3j))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -42,7 +42,7 @@ print (cmath.sin(1))
 
 ****输出:****
 
-```
+```py
 (0.8414709848078965+0j) 
 ```
 
@@ -50,7 +50,7 @@ print (cmath.sin(1))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -60,6 +60,6 @@ print (cmath.sin())
 
 ****输出:****
 
-```
+```py
 TypeError: sin() takes exactly one argument (0 given) 
 ```

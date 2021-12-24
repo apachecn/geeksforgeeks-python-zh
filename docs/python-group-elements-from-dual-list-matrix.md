@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表理解**
 以上方法的组合可用于执行此任务。在这种情况下，我们遍历对偶元素行，并使用来自列表的元素和对偶行矩阵的第二列的映射来计算字典。
 
-```
+```py
 # Python3 code to demonstrate 
 # Group elements from Dual List Matrix
 # using loop + list comprehension

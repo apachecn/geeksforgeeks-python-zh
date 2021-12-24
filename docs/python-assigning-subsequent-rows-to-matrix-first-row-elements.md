@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assigning Subsequent Rows to Matrix first row elements
 # Using dictionary comprehension
@@ -38,7 +38,7 @@ print("The Assigned Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 8, 9], [2, 0, 9], [5, 4, 2], [2, 3, 9]]
 The Assigned Matrix : {5: [2, 0, 9], 8: [5, 4, 2], 9: [2, 3, 9]}
 
@@ -50,7 +50,7 @@ The Assigned Matrix : {5: [2, 0, 9], 8: [5, 4, 2], 9: [2, 3, 9]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assigning Subsequent Rows to Matrix first row elements
 # Using zip() + list slicing + dict()
@@ -71,7 +71,7 @@ print("The Assigned Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 8, 9], [2, 0, 9], [5, 4, 2], [2, 3, 9]]
 The Assigned Matrix : {5: [2, 0, 9], 8: [5, 4, 2], 9: [2, 3, 9]}
 

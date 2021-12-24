@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 window_name.attributes('-fullscreen',True)
 ```
 
@@ -34,7 +34,7 @@ window_name.attributes('-fullscreen',True)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter for gui
 import tkinter as tk
 
@@ -85,7 +85,7 @@ window.mainloop()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing tkinter gui
 import tkinter as tk
 

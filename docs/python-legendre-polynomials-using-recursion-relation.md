@@ -16,7 +16,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 # Legendre polynomial
 def P(n, x): 
     if(n == 0):
@@ -38,14 +38,14 @@ print("The value of the polynomial at given point is:", P(n, X))
 
 **Output:**
 
-```
+```py
 The value of the polynomial at given point is: 305.0
 
 ```
 
 我们现在还可以使用 matplotlib 绘制勒让德多项式(比如从一阶到四阶)。
 
-```
+```py
 import matplotlib
 
 # This is for use in webbrowser, can be ignored.

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 master.minsize(height, width)
 ```
 
@@ -14,7 +14,7 @@ master.minsize(height, width)
 
 **代码#1:** 根窗口没有最小尺寸，也就是说你可以随意缩小窗口。
 
-```
+```py
 # importing only  those functions
 # which are needed
 from tkinter import * 
@@ -42,7 +42,7 @@ T3】
 
 **代码#2:** 最小尺寸的根窗口。
 
-```
+```py
 # importing only  those functions
 # which are needed
 from tkinter import * 

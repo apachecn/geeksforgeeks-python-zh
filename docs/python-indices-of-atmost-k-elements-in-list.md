@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个问题可以很容易地通过使用带有强力方法的循环来解决，在这种方法中，我们可以在迭代时检查索引，并在前进时将其附加到新列表中。
 
-```
+```py
 # Python3 code to demonstrate
 # Atmost K element indices
 # using loop
@@ -31,7 +31,7 @@ print("The list of indices at most 11 : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [12, 11, 7, 15, 8, 18]
 The list of indices at most 11 : [1, 2, 4]
 

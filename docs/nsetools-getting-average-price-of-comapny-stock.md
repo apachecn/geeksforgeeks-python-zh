@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -37,7 +37,7 @@ print("Average Price  : " + str(value))
 
 **输出:**
 
-```
+```py
 Average Price  : 280.4
 ```
 
@@ -45,7 +45,7 @@ Average Price  : 280.4
 
 ## 蟒蛇 3
 
-```
+```py
 # importing nse from nse tools
 from nsetools import Nse
 
@@ -67,6 +67,6 @@ print("Average Price  : " + str(value))
 
 **输出:**
 
-```
+```py
 Average Price  : 193.9
 ```

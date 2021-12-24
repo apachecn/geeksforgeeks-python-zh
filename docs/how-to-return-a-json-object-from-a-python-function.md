@@ -20,7 +20,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Module
 import json
 
@@ -58,7 +58,7 @@ print(geeks())**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Module
 import json
 

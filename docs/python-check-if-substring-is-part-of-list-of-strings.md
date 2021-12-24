@@ -7,7 +7,7 @@
 **方法#1:使用`join()`**
 可用于执行该特定任务的基本方法是计算所有列表字符串的连接，然后在连接的字符串中搜索该字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if substring is part of List of Strings
 # Using join()
@@ -32,7 +32,7 @@ print("Is check string part of any input list string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : ['GeeksforGeeks', 'is', 'Best']
 Is check string part of any input list string : True
 

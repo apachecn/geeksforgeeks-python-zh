@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if List is K increasing
 # Using loop
@@ -45,7 +45,7 @@ print("Is list K increasing ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 10, 13, 16, 19]
 Is list K increasing ? : True
 
@@ -57,7 +57,7 @@ Is list K increasing ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if List is K increasing
 # Using all() + generator expression
@@ -80,7 +80,7 @@ print("Is list K increasing ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 10, 13, 16, 19]
 Is list K increasing ? : True
 

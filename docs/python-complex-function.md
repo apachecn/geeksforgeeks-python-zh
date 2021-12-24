@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # numeric type
 # nothing is passed
 z = complex()
@@ -55,7 +55,7 @@ print(type(complex_num1))
 
 **Output**
 
-```
+```py
 Nothing is passed 0j
 Int: first paramter only (5+0j)
 Int: both paramters (7+2j)
@@ -69,7 +69,7 @@ Float: both paramters (3.6+8.1j)
 
 ## 蟒蛇 3
 
-```
+```py
 # string
 # only first parameter is to be passed
 z1 = complex("7")
@@ -90,7 +90,7 @@ print(z2)
 
 ## 蟒蛇 3
 
-```
+```py
 # string
 # only first parameter is passed
 z1 = complex("7+17j")

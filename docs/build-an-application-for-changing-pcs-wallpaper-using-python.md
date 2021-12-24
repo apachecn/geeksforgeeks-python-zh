@@ -10,7 +10,7 @@
 
 要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install py-wallpaper
 ```
 
@@ -20,7 +20,7 @@ pip install py-wallpaper
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from wallpaper import set_wallpaper, get_wallpaper
 ```
@@ -29,7 +29,7 @@ from wallpaper import set_wallpaper, get_wallpaper
 
 ## 蟒蛇 3
 
-```
+```py
 # get current wallpaper's path
 print(get_wallpaper())
 
@@ -39,7 +39,7 @@ set_wallpaper("location/to/image.jpg")
 
 **输出:**
 
-```
+```py
 D:\img\wallpapersden.com_money-heist_3840x2232.jpg
 ```
 
@@ -47,7 +47,7 @@ D:\img\wallpapersden.com_money-heist_3840x2232.jpg
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from tkinter import filedialog

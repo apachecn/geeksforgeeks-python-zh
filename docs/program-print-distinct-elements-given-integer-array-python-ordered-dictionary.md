@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input: arr[] = {12, 10, 9, 45, 2, 10, 10, 45}
 Output: 12, 10, 9, 45, 2
 
@@ -23,7 +23,7 @@ Output: 1
 1.  使用**ordereddct . from keys(iterable)**函数将数组转换为字典数据结构，它将任何 iterable 转换为字典，字典中的元素与它们在数组中出现的顺序相同。
 2.  现在迭代完整的字典和打印键。
 
-```
+```py
 # Python program to print All Distinct
 # Elements of a given integer array
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 12, 10, 9, 45, 2
 
 ```

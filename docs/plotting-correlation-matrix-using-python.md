@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sklearn
 import numpy as np
 import matplotlib.pyplot as plt
@@ -33,7 +33,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 y = pd.Series([1, 2, 3, 4, 3, 5, 4])
 x = pd.Series([1, 2, 3, 4, 5, 6, 7])
 correlation = y.corr(x)

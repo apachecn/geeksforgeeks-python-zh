@@ -47,19 +47,19 @@ WhatsApp 机器人是一种应用软件，能够以口头或书面方式与人�
 
 *   **要创建目录并导航到该目录**:
 
-```
+```py
 mkdir geeks-bot && cd geeks-bot
 ```
 
 *   **创建和激活 python 虚拟环境:**
 
-```
+```py
 python3 -m venv geek-bot-env && source geek-bot-env/bin/activate
 ```
 
 *   **安装 Twilio、烧瓶和请求:**
 
-```
+```py
 pip3 install twilio flask requests
 ```
 
@@ -79,7 +79,7 @@ pip3 install twilio flask requests
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, request
 import requests
 from twilio.twiml.messaging_response import MessagingResponse
@@ -89,7 +89,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import request
 
 incoming_msg = request.values.get('Body', '').lower()
@@ -99,7 +99,7 @@ incoming_msg = request.values.get('Body', '').lower()
 
 ## 蟒蛇 3
 
-```
+```py
 from twilio.twiml.messaging_response import MessagingResponse
 
 response = MessagingResponse()
@@ -111,7 +111,7 @@ msg.body('this is the response/reply  from the bot.)
 
 ## 蟒蛇 3
 
-```
+```py
 # chatbot logic
 def bot():
 
@@ -149,7 +149,7 @@ def bot():
 
 首先，使用以下命令运行上述脚本:
 
-```
+```py
 python3 main2.py
 ```
 
@@ -161,7 +161,7 @@ python3 main2.py
 
 其次，打开另一个终端窗口，运行以下命令启动 ngrok 服务器。
 
-```
+```py
 ngrok http 5000
 ```
 
@@ -183,7 +183,7 @@ Twilio 中的设置网址
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from googlesearch import search
 import requests

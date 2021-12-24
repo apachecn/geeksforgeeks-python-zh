@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -62,7 +62,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -109,7 +109,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -144,7 +144,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -187,7 +187,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -221,7 +221,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -261,7 +261,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -299,7 +299,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -337,7 +337,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -402,7 +402,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *
@@ -457,7 +457,7 @@ pygame.display.update()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pygame module
 import pygame
 from pygame.locals import *

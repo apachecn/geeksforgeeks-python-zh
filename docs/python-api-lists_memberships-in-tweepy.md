@@ -24,7 +24,7 @@ Tweepy 模块中`API`类的 **`lists_memberships()`** 方法用于获取指定�
 
 **示例 1 :** 使用无任何参数的`lists_memberships()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,14 +52,14 @@ print("The authenticated user has been added to " + str(len(list)) + " list(s)."
 
 **输出:**
 
-```
+```py
 The authenticated user has been added to 5 list(s).
 
 ```
 
 **示例 2 :** 获取另一个用户的列表。
 
-```
+```py
 # the screen name user
 screen_name = "geeksforgeeks"
 
@@ -72,7 +72,7 @@ print("The user " + screen_name + " has been added to " + str(len(list)) + " lis
 
 **输出:**
 
-```
+```py
 The user geeksforgeeks has been added to 0 list(s).
 
 ```

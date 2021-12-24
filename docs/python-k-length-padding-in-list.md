@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个问题可以使用基本的列表理解很容易地解决，在列表理解中，如果每个元素的大小小于指定的大小，我们只需要使用字符串格式来执行可选的 0 填充。
 
-```
+```py
 # Python3 code to demonstrate 
 # K length Padding in List
 # using list comprehension
@@ -32,7 +32,7 @@ print ("The list after K size element padding : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 54, 4, 100, 10]
 The list after K size element padding ['0003', '0054', '0004', '0100', '0010']
 

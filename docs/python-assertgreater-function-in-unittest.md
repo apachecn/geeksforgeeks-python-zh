@@ -20,7 +20,7 @@ Python 中的 **assertGreater()** 是一个 **unittest** 库函数，在单元�
 
 ## 蟒蛇 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # test suite
 import unittest
 

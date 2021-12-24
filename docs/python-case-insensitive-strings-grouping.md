@@ -7,7 +7,7 @@
 **方法#1:使用`next()` + lambda + loop**
 以上 3 个函数的组合就是用朴素的方法来解决这个特殊的问题。lambda 函数执行查找相似案例的任务，next 函数有助于向前迭代。
 
-```
+```py
 # Python3 code to demonstrate
 # Case Insensitive Strings Grouping
 # using next() + lambda + loop
@@ -34,7 +34,7 @@ print("The list after Categorization : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['man', 'a', 'gEek', 'for', 'GEEK', 'FoR']
 The list after Categorization : [['man'], ['a'], ['gEek', 'GEEK'], ['for', 'FoR']]
 

@@ -7,7 +7,7 @@
 1.  **Use builtin functions and libraries:** Builtin functions like map() are implemented in C code. So the interpreter doesn’t have to execute the loop, this gives a considerable speedup.
     The map() function applies a function to every member of iterable and returns the result. If there are multiple arguments, map() returns a list consisting of tuples containing the corresponding items from all iterables.
 
-    ```
+    ```py
     # Python program to illustrate library functions
     # save time while coding with the example of map()
     import time
@@ -35,7 +35,7 @@
 
     **输出:**
 
-    ```
+    ```py
     ['G', 'E', 'E', 'K', 'S']
     Time spent in function is:  0.0394747945637
     ['G', 'E', 'E', 'K', 'S']
@@ -45,7 +45,7 @@
 
     这些包是特定于平台的，这意味着我们需要适合我们正在使用的平台的包。如果我们正在进行字符串操作，可以考虑使用一个现有的模块“集合”，如 [deque](https://www.geeksforgeeks.org/deque-in-python/) ，该模块针对我们的目的进行了高度优化。
 
-    ```
+    ```py
     # Python program to illustrate
     # importing list-like container with 
     # fast appends and pops on either end
@@ -72,13 +72,13 @@
 
     **输出:**
 
-    ```
+    ```py
     deque(['h', 'g', 'e', 'e', 'k', 'y'])
     ['k', 'e', 'e', 'g']
 
     ```
 
-    ```
+    ```py
     # importing iteration tools
     import itertools
     iter = itertools.permutations([1,2,3])
@@ -87,14 +87,14 @@
 
     **输出:**
 
-    ```
+    ```py
     [(1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), (3, 2, 1)]
 
     ```
 
 2.  **Use keys for sorts:** In Python, we should use the key argument to the built-in sort instead, which is a faster way to sort.
 
-    ```
+    ```py
     # Python program to illustrate
     # using keys for sorting
     somelist = [1, -3, 6, 11, 5]
@@ -109,7 +109,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [-3, 1, 5, 6, 11]
     ['e', 'e', 'g', 'k', 's']
 
@@ -120,7 +120,7 @@
 3.  **Optimizing loops:** Write idiomatic code: This may sound counter-intuitive but writing idiomatic code will make your code faster in most cases. This is because Python was designed to have only one obvious/correct way to do a task.
     For example (String Concatenation):
 
-    ```
+    ```py
     # Python program to illustrate using
     # optimized loops for faster coding
 
@@ -162,7 +162,7 @@
 
     **输出:**
 
-    ```
+    ```py
     hellogeeks
     [0, 2, 4, 6, 8]
     geeks for geeks
@@ -174,7 +174,7 @@
 4.  **Try multiple coding approaches**: Using precisely the same coding approach every time we create an application will almost certainly result in some situations where the application runs slower than it might.
     For example (Initializing Dictionary Elements):
 
-    ```
+    ```py
     # Python program to illustrate trying
     # multiple coding approaches 
     # for getting faster result
@@ -200,7 +200,7 @@
 
     **输出:**
 
-    ```
+    ```py
     {'e': 5, 'g': 3, 'f': 1, 'k': 3, 'o': 1, 's': 2, 'r': 1}
 
     ```
@@ -210,7 +210,7 @@
 5.  **Use [xrange](https://www.geeksforgeeks.org/range-vs-xrange-python/) instead of range:**range() – This returns a list of numbers created using range() function.
     xrange() – This function returns the generator object that can be used to display numbers only by looping. Only particular range is displayed on demand and hence called “lazy evaluation”.
 
-    ```
+    ```py
     # slower
     x = [i for i in range(0,10,2)]
     print (x)
@@ -222,7 +222,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [1, 3, 5, 7, 9]
 
     ```
@@ -231,7 +231,7 @@
 
 6.  **Use Python multiple assignment to [swap variables](https://www.geeksforgeeks.org/how-to-swap-two-variables-in-one-line/):** This is elegant and faster in Python.
 
-    ```
+    ```py
     # Python program to illustrate swapping
     # of a variable in one line 
 
@@ -251,7 +251,7 @@
 
     **输出:**
 
-    ```
+    ```py
     5 2
     5 3
 
@@ -259,7 +259,7 @@
 
 7.  **Use local variable if possible:** Python is faster retrieving a local variable than retrieving a global variable. That is, avoid the “global” keyword. So if you are going to access a method often (inside a loop) consider writing it to a variable.
 
-    ```
+    ```py
     # Python program to illustrate trying
     # to use local variables to make code
     # run faster
@@ -277,7 +277,7 @@
 
     **输出:**
 
-    ```
+    ```py
     0
     2
 

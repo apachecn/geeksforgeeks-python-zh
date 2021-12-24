@@ -8,7 +8,7 @@
 
 **Reportlab:** 本模块用于处理 PDF 文件。
 
-```
+```py
 pip install reportlab
 ```
 
@@ -20,7 +20,7 @@ pip install reportlab
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont
@@ -34,7 +34,7 @@ from reportlab.lib import colors
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing variables with values
 fileName = 'sample.pdf'
 documentTitle = 'sample'
@@ -53,7 +53,7 @@ image = 'image.jpg'
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a pdf object
 pdf = canvas.Canvas(fileName)
 
@@ -67,7 +67,7 @@ pdf.setTitle(documentTitle)
 
 ## 蟒蛇 3
 
-```
+```py
 # registering a external font in python
 pdfmetrics.registerFont(
     TTFont('abc', 'SakBunderan.ttf')
@@ -85,7 +85,7 @@ pdf.drawCentredString(300, 770, title)
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the subtitle by setting it's font,
 # colour and putting it on the canvas
 pdf.setFillColorRGB(0, 0, 255)
@@ -99,7 +99,7 @@ pdf.drawCentredString(290, 720, subTitle)
 
 ## 蟒蛇 3
 
-```
+```py
 # drawing a line
 pdf.line(30, 710, 550, 710)
 
@@ -121,7 +121,7 @@ pdf.drawText(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # drawing a image at the
 # specified (x.y) position
 pdf.drawInlineImage(image, 130, 400)
@@ -134,7 +134,7 @@ pdf.save()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont

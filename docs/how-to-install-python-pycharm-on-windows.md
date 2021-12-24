@@ -15,7 +15,7 @@ PyCharm 是 JetBrains 开发的最流行的 Python-IDE 之一，用于执行 Pyt
 在开始在 Windows 中安装 PyCharm 的过程之前，必须确保他们的系统上安装了 Python。检查系统是否配备 Python，进入**命令行**(在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)。
 现在运行以下命令:*
 
-```
+```py
 *python --version* 
 ```
 

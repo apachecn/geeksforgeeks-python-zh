@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中获得图像的质心。质心(对于二进制图像)是一种有点复杂的说法“每个维度的平均值”。换句话说——取所有 x 坐标并取平均值——你就得到你的“质心”的 x 坐标，y 也是一样的。
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -21,7 +21,7 @@ mahotas.demos.load('lena')
 **注意:**输入图像应该被过滤或者应该被加载为灰色
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -29,7 +29,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 # importing required libraries
 import mahotas
@@ -64,7 +64,7 @@ print("Center of Mass : " + str(center))
 
 ![](img/c6b1b900c593c0c9142be426538389bf.png)
 
-```
+```py
 Center of Mass : [246.64854256 259.45157125]
 ```
 
@@ -72,7 +72,7 @@ Center of Mass : [246.64854256 259.45157125]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -100,6 +100,6 @@ print("Center of Mass : " + str(center))
 
 ![](img/e51142204bd21116f2da7cf4a5ce091f.png)
 
-```
+```py
 Center of Mass : [265.35619268 482.66701402]
 ```

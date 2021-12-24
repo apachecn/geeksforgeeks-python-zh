@@ -14,7 +14,7 @@ Python 是一种开源的动态类型和解释的编程语言。读写文件是�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import fileinput
 import time
@@ -52,7 +52,7 @@ input()方法返回一个迭代器，它扫描整个文件并打印每一行。
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 start = time.time()

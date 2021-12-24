@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 /* Call double avg(double *, int) */
 static PyObject *py_avg(PyObject *self, PyObject *args)
 {
@@ -55,7 +55,7 @@ static PyObject *py_avg(PyObject *self, PyObject *args)
 
 **代码#2:这个扩展功能是如何工作的**
 
-```
+```py
 import array
 
 print("Average : ", avg(array.array('d', [1, 2, 3])))
@@ -67,13 +67,13 @@ print ("Average list : \n", avg([1, 2, 3]))
 
 **输出:**
 
-```
+```py
 Average : 2.0
 
 Average numpy array : 2.0
 ```
 
-```
+```py
 Average list : 
 Traceback (most recent call last):
 File "", line 1, in 

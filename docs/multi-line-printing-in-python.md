@@ -8,7 +8,7 @@
 
 **示例#1:**
 
-```
+```py
 # basic example for multi-line printing
 print(
 '''
@@ -25,7 +25,7 @@ print(
 
 **Output:**
 
-```
+```py
 =======================================
 |                                     |
 |                                     |
@@ -38,7 +38,7 @@ print(
 
 **例 2:**
 
-```
+```py
 # basic example2 for multi-line printing
 print(
   '''list.head        second              third 
@@ -53,7 +53,7 @@ print(
 
 **Output:**
 
-```
+```py
 list.head        second              third 
          |                |                  | 
          |                |                  | 

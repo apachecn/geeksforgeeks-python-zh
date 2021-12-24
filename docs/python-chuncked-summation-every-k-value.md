@@ -7,7 +7,7 @@
 **方法#1:使用天真的方法**
 在天真的方法中，我们只需构建包含前一个的和的新列表。列表的值，直到 K，并在遇到非 K 值时重新启动程序。
 
-```
+```py
 # Python3 code to demonstrate 
 # Chuncked summation every K value
 # using naive method 
@@ -35,7 +35,7 @@ print ("The computed modified new list : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 4, 10, 4, 5, 10, 7, 8]
 The computed modified new list : [1, 4, 8, 18, 22, 27, 37, 44, 52]
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Elements in Matrix
 # Using dictionary comprehension + loop
@@ -42,7 +42,7 @@ print("The Grouped Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 8], [2, 0], [5, 4], [2, 3], [7, 9]]
 The Grouped Matrix : {5: [8, 4], 2: [0, 3], 7: [9]}
 
@@ -54,7 +54,7 @@ The Grouped Matrix : {5: [8, 4], 2: [0, 3], 7: [9]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Elements in Matrix
 # Using loop + defaultdict()
@@ -79,7 +79,7 @@ print("The Grouped Matrix : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [[5, 8], [2, 0], [5, 4], [2, 3], [7, 9]]
 The Grouped Matrix : {5: [8, 4], 2: [0, 3], 7: [9]}
 

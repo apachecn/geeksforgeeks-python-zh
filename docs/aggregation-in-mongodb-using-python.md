@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 db.collection_name.aggregate(aggregate operations)
 
 ```
@@ -23,7 +23,7 @@ db.collection_name.aggregate(aggregate operations)
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 my_client = MongoClient('localhost', 27017)
@@ -51,7 +51,7 @@ for document in cursor:
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 my_client = MongoClient('localhost', 27017)
@@ -71,6 +71,6 @@ for document in cursor:
 
 **输出:**
 
-```
+```py
 {'_id': None, 'total collections': 8}
 ```

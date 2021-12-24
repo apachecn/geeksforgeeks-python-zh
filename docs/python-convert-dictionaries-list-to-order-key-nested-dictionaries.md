@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Dictionaries List to Order Key Nested dictionaries
 # Using loop + enumerate()
@@ -40,7 +40,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 4: 9}, {'is': 8, 'Good': 2}, {'Best': 10, 'CS': 1}]
 The constructed dictionary : {0: {'Gfg': 3, 4: 9}, 1: {'is': 8, 'Good': 2}, 2: {'Best': 10, 'CS': 1}}
 
@@ -52,7 +52,7 @@ The constructed dictionary : {0: {'Gfg': 3, 4: 9}, 1: {'is': 8, 'Good': 2}, 2: {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Dictionaries List to Order Key Nested dictionaries
 # Using dictionary comprehension + enumerate() 
@@ -72,7 +72,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 4: 9}, {'is': 8, 'Good': 2}, {'Best': 10, 'CS': 1}]
 The constructed dictionary : {0: {'Gfg': 3, 4: 9}, 1: {'is': 8, 'Good': 2}, 2: {'Best': 10, 'CS': 1}}
 

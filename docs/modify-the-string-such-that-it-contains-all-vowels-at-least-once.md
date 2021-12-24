@@ -6,7 +6,7 @@
 
 **示例**:
 
-```
+```py
 Input: str = "ABCDEFGHI"
 Output: AOUDEFGHI
 There are already 3 Vowels present in the string 
@@ -23,7 +23,7 @@ Output: IMPOSSIBLE
 
 ## C++14
 
-```
+```py
 // C++14 implementation of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -102,7 +102,7 @@ int main(int argc, char const *argv[])
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the above approach
 import java.util.*;
 class GFG
@@ -205,7 +205,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the above approach
 
 s = "ABCDEFGHI"
@@ -257,7 +257,7 @@ else:
 
 ## C#
 
-```
+```py
 // C# implementation of the above approach
 using System;
 using System.Collections;
@@ -372,7 +372,7 @@ public static void Main(string []args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript implementation of the above approach
@@ -464,7 +464,7 @@ addAllVowel(str);
 
 **Output:** 
 
-```
+```py
 AOUDEFGHI
 ```
 

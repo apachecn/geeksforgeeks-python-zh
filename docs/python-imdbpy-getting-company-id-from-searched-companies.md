@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Marvel Studios : 0051941
 Marvel Entertainment : 0047120
 Marvel Family Entertainment : 0769644
@@ -66,7 +66,7 @@ Marvelous 1st Studio : 0700950
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -91,7 +91,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Pixel : 0022125
 Pixel : 0758724
 Pixel : 0445832

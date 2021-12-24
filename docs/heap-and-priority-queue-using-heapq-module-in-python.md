@@ -44,7 +44,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import heapq as hq
 
@@ -62,7 +62,7 @@ for i in list_stu:
 
 **Output**
 
-```
+```py
 The order of presentation is :
 1 : Anish
 2 : cathy
@@ -86,7 +86,7 @@ The order of presentation is :
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import heapq as hq
 

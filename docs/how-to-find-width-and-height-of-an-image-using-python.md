@@ -14,7 +14,7 @@
 
 要使用**枕库**运行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -28,7 +28,7 @@ pip install pillow
 
 ## 计算机编程语言
 
-```
+```py
 # import required module
 from PIL import Image
 
@@ -65,7 +65,7 @@ print("The width of the image is: ", width)
 
 ## 计算机编程语言
 
-```
+```py
 # import required module
 from PIL import Image
 
@@ -91,7 +91,7 @@ python 中的 *OpenCV* 是一个用于计算机视觉、图像处理等的库。
 
 要安装 **OpenCV** ，运行以下命令:
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -103,7 +103,7 @@ pip install opencv-python
 
 ## 计算机编程语言
 
-```
+```py
 # import required module
 import cv2
 

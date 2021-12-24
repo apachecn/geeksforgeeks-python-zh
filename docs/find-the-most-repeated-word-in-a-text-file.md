@@ -24,7 +24,7 @@ Python 提供了创建、写入和读取文件的内置功能。python 中可以
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the most repeated word
 # in a text file
 
@@ -71,7 +71,7 @@ file.close();
 
 **输出:**
 
-```
+```py
 Most repeated word: well
 Frequency: 3
 ```

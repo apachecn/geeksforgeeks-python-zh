@@ -5,7 +5,7 @@
 本文旨在从头实现一个深度神经网络。我们将实现一个深度神经网络，它包含一个具有四个单元和一个输出层的隐藏层。实施将从零开始，并将实施以下步骤。
 **算法:**
 
-```
+```py
 1\. Visualizing the input data
 2\. Deciding the shapes of Weight and bias matrix
 3\. Initializing matrix, function to be used
@@ -38,7 +38,7 @@ The cost function of the above model will pertain to the cost function used with
 
 **Code: Visualizing the data**
 
-```
+```py
 # Package imports
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,7 +56,7 @@ plt.scatter(X[0, :], X[1, :], c = Y, s = 40, cmap = plt.cm.Spectral);
 **代码:初始化权重和偏差矩阵**
 这里是隐藏单元的数量是 4，所以，W1 权重矩阵将是形状(4，特征数量)和偏差矩阵将是形状(4，1)，广播后将根据上述公式加到权重矩阵中。W2 也是如此。
 
-```
+```py
 # X --> input dataset of shape (input size, number of examples)
 # Y --> labels of shape (output size, number of examples)
 
@@ -70,7 +70,7 @@ b2 = np.zeros(shape =(Y.shape[0], 1))
 **代码:前向传播:**
 现在我们将使用 W1、W2 和偏置 b1、b2 执行前向传播。在此步骤中，相应的输出在定义为 forward_prop 的函数中计算。
 
-```
+```py
 def forward_prop(X, W1, W2, b1, b2):
 
     Z1 = np.dot(W1, X) + b1
@@ -90,7 +90,7 @@ def forward_prop(X, W1, W2, b1, b2):
 
 **编码:定义成本函数:**
 
-```
+```py
 # Here Y is actual output
 def compute_cost(A2, Y):
     m = Y.shape[1]
@@ -106,7 +106,7 @@ def compute_cost(A2, Y):
 **代码:最终反向传播函数:**
 这是一个非常关键的步骤，因为它涉及大量线性代数，用于实现深层神经网络的反向传播。求导数的公式可以用线性代数的一些数学概念推导出来，我们在这里不做推导。请记住，dZ、dW、db 是层的成本函数加权和、权重、偏差的导数。
 
-```
+```py
 def back_propagate(W1, b1, W2, b2, cache):
 
     # Retrieve also A1 and A2 from dictionary "cache"
@@ -133,7 +133,7 @@ def back_propagate(W1, b1, W2, b2, cache):
 
 **代码:训练定制模型**现在我们将使用上面定义的功能训练模型，可以根据处理单元的便利性和能力来放置时代。
 
-```
+```py
 # Please note that the weights and bias are global 
 # Here num_iteration is epochs
 for i in range(0, num_iterations):

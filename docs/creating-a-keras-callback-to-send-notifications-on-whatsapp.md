@@ -26,7 +26,7 @@
 
 **第四步。**用 Python 设置 Twilio 客户端，发送第一条消息。打开一个代码编辑器，将下面的代码粘贴到 python 文件中。在下面的代码片段中，`account_sid`和`auth_token`是从控制台获得的令牌，如步骤 3 所示。“Your_whatsapp_number”是您想要接收文本通知的号码。最后，“发件人号码”是您在步骤 2 中为 WhatsApp 设置 Twilio 沙盒时遇到的电话号码。注意-在数字中包括国家代码。例如，如果您的电话号码是 112233445，国家代码是+91，您必须在“您的 whatsapp_number”字段中输入+91112233445。
 
-```
+```py
 from twilio.rest import Client
 
 account_sid = '<YOUR-ACC-ID-HERE>8' # Obtained from Step-3
@@ -58,7 +58,7 @@ TensorFlow 团队在回调类中命名方法方面做得很好，这使得理解
 
 首先，我们将使用 Twilio 发送消息的代码封装在名为“send_message”的函数中。这个函数接受我们想要发送的文本作为参数。
 
-```
+```py
 # Can be obtained from Twilio Console
 account_sid = 'account_ID' 
 auth_token = 'auth_token'  
@@ -74,7 +74,7 @@ message = client.messages \
 
 接下来，我们定义回调并重载 on_train_end()函数。
 
-```
+```py
 class WhatsappCallBack(Callback): 
   def on_train_begin(self, logs = None):
     # Initializing the list of losses
@@ -102,7 +102,7 @@ class WhatsappCallBack(Callback): 
 
 **第一步。**我们使用 sklearn 库的[make _ classing 方法](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html)生成 1000 个随机样本数据点和一个非常简单的 ANN。
 
-```
+```py
 x, y = make_classification(n_samples = 1000, n_classes = 2, n_features = 20)
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
 
@@ -119,7 +119,7 @@ model = create_model()
 
 **第二步。**我们创建一个“WhatappCallBack”类的实例，并在回调参数中传递这个实例，同时拟合我们的模型。
 
-```
+```py
 cb2 = WhatsappCallBack()
  # Fitting the model
 model.fit(x_train, y_train, batch_size = 32, epochs = 20, callbacks =[cb2], verbose = 1)

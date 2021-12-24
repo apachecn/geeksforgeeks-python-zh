@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 我们需要做的第一件事是导入浮动布局–
 
-```
+```py
 from kivy.uix.floatlayout import FloatLayout
 ```
 
@@ -30,7 +30,7 @@ from kivy.uix.floatlayout import FloatLayout
 *   大小提示和位置提示只能使用 0-1 之间的值。其中 0 = 0%，1 = 100%。
 *   kivy 中的坐标系从左下角开始工作！这在放置我们的对象时非常重要。(即(0，0)是左下方)。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -48,7 +48,7 @@ Basic Approach:
 
 **main.py file**
 
-```
+```py
 ## Sample Python application demonstrating the
 ## working of FloatLayout in Kivy using .kv file
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 **[。kv 文件](https://www.geeksforgeeks.org/python-kivy-kv-file/)实施办法**–
 
-```
+```py
 #.kv file implementation of FloatLayout
 
 # creating button feature

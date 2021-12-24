@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ ax = plt.axes(projection = '3d')
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -71,7 +71,7 @@ ax.plot3D(x, y, z, 'green')
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -94,7 +94,7 @@ ax.view_init(-140, 60)
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -121,7 +121,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -148,7 +148,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

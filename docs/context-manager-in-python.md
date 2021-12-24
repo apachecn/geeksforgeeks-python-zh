@@ -4,7 +4,7 @@
 
 **管理资源:**在任何编程语言中，像文件操作或数据库连接这样的资源使用都非常普遍。但是这些资源供应有限。因此，主要问题在于确保在使用后释放这些资源。如果它们没有被释放，那么它将导致资源泄漏，并可能导致系统变慢或崩溃。如果用户有一个自动设置和删除资源的机制，这将非常有帮助。在 Python 中，它可以通过使用上下文管理器来实现，这有助于正确处理资源。执行文件操作最常见的方式是使用带有关键字的*，如下所示:*
 
-```
+```py
 # Python program showing 
 # a use of with keyword
 
@@ -14,7 +14,7 @@ with open("test.txt") as f:   
 
 让我们以文件管理为例。当文件被打开时，文件描述符被消耗，这是一个有限的资源。一个进程一次只能打开一定数量的文件。下面的程序演示了它。
 
-```
+```py
 file_descriptors = []
 for x in range(100000):
     file_descriptors.append(open('test.txt', 'w'))
@@ -22,7 +22,7 @@ for x in range(100000):
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "context.py", line 3, in 
 OSError: [Errno 24] Too many open files: 'test.txt'
@@ -41,7 +41,7 @@ OSError: [Errno 24] Too many open files: 'test.txt'
 当使用类创建上下文管理器时，用户需要确保该类具有以下方法: *__enter__()* 和 *__exit__()* 。__enter__()返回需要管理的资源，__exit__()不返回任何内容，但执行清理操作。
 首先，让我们创建一个名为 *ContextManager* 的简单类，以了解使用类创建上下文管理器的基本结构，如下所示:
 
-```
+```py
 # Python program creating a
 # context manager
 
@@ -62,7 +62,7 @@ with ContextManager() as manager:
 
 **输出:**
 
-```
+```py
 init method called
 enter method called
 with statement block
@@ -84,7 +84,7 @@ exit method called
 
 让我们应用上面的概念来创建一个有助于文件资源管理的类。文件管理器类帮助打开一个文件，写/读内容，然后关闭它。
 
-```
+```py
 # Python program showing
 # file management using 
 # context manager
@@ -111,7 +111,7 @@ print(f.closed)
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -133,7 +133,7 @@ True
 
 让我们创建一个简单的数据库连接管理系统。一次可以打开的数据库连接数也是有限的(就像文件描述符一样)。因此，上下文管理器有助于管理与数据库的连接，因为程序员可能会忘记关闭连接。
 
-```
+```py
 # Python program shows the
 # connection management 
 # for MongoDB

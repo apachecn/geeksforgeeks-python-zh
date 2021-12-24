@@ -17,7 +17,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ for index in range(5):
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 Jersey Hindi Remake
 Sachet Tandon: Bekhayali
@@ -52,7 +52,7 @@ Akhil Sachdeva & Tulsi Kumar: Tera Ban Jaunga
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -76,7 +76,7 @@ for index in range(5):
 
 **输出:**
 
-```
+```py
 Rodney Dangerfield
 Angels with Angles
 Still Standing

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import pygame
 
@@ -30,7 +30,7 @@ print('Number of modules initialized successfully:',
 
 **输出:**
 
-```
+```py
 Number of modules initialized successfully: 6
 ```
 
@@ -38,7 +38,7 @@ Number of modules initialized successfully: 6
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import pygame
 
@@ -55,6 +55,6 @@ print('Is pygame modules initialized:',
 
 **输出:**
 
-```
+```py
 Is pygame modules initialized: True
 ```

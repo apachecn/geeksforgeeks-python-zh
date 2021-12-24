@@ -9,7 +9,7 @@
 *   用于搜索引擎等综合检索系统。
 *   用于紧凑索引。
 
-```
+```py
 Examples of lemmatization :
 
 -> rocks : rock
@@ -22,7 +22,7 @@ Examples of lemmatization :
 
 ## 蟒蛇 3
 
-```
+```py
 # from textblob lib import Word method
 from textblob import Word
 
@@ -48,7 +48,7 @@ print("better :", w.lemmatize("a"))
 
 **输出:**
 
-```
+```py
 rocks : rock
 corpora : corpus
 better : good

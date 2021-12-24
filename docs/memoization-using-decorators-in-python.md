@@ -8,7 +8,7 @@
 
 让我们以计算一个数的阶乘为例。下面的简单程序使用递归来解决这个问题:
 
-```
+```py
 # Simple recursive program to find factorial
 def facto(num):
     if num == 1:
@@ -21,7 +21,7 @@ print(facto(5))
 
 以上程序可以使用[装饰器](https://www.geeksforgeeks.org/function-decorators-in-python-set-1-introduction/)进行记忆优化。
 
-```
+```py
 # Factorial program with memoization using
 # decorators.
 
@@ -53,7 +53,7 @@ print(facto(5))
 1。已经定义了一个名为 *memoize_factoria* l 的函数。它的主要目的是将中间结果存储在名为 memory 的变量中。
 2。第二个函数叫做*事实上*是计算阶乘的函数。它已经被装饰器(函数 memoize _ 阶乘)注释了。由于闭包的概念，*事实上*可以访问*内存*变量。注释相当于写作，
 
-```
+```py
 facto = memoize_factorial(facto)
 
 ```

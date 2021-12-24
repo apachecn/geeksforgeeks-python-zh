@@ -23,7 +23,7 @@ A [Max-Heap](https://www.geeksforgeeks.org/binary-heap/) 是一个完整的二�
 
 **注意:**在下面的实现中，我们从索引 1 开始做索引，以简化实现。
 
-```
+```py
 # Python3 implementation of Max Heap
 import sys
 
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 The maxHeap is 
  PARENT : 84 LEFT CHILD : 22 RIGHT CHILD : 19
  PARENT : 22 LEFT CHILD : 17 RIGHT CHILD : 10
@@ -165,7 +165,7 @@ The Max val is 84
 
 我们使用 [heapq](https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/) 类来实现 Python 中的 Heaps。默认情况下，最小堆由这个类实现。但是我们将每个值乘以-1，这样我们就可以将其用作 MaxHeap。
 
-```
+```py
 # Python3 program to demonstrate working of heapq
 
 from heapq import heappop, heappush, heapify
@@ -200,7 +200,7 @@ for i in heap:
 
 **输出:**
 
-```
+```py
 Head value of heap : 400
 The heap elements : 
 400 30 20 10 

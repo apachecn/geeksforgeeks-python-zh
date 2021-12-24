@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from datetime import date
 from dateutil.relativedelta import relativedelta
@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 name : cookies
 price : 60
 shelf life : 6 months
@@ -166,7 +166,7 @@ done till here
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import pytest
 from product import Snack, Staples, Beverage
@@ -222,14 +222,14 @@ class TestBeverage:
 
 要执行上述测试用例，在一个文件夹中创建两个单独的文件， *product.py* 和 *test_product.py* 。要执行写入以下命令:
 
-```
+```py
 pytest
 
 ```
 
 运筹学
 
-```
+```py
 pytest -v
 
 ```

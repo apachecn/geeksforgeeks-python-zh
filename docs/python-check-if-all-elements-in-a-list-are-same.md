@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: ['Geeks', 'Geeks', 'Geeks', 'Geeks', ]
 Output: Yes
 
@@ -18,7 +18,7 @@ Output: No
 
 **方法#1:** 比较各元素。
 
-```
+```py
 # Python program to check if all 
 # ments in a List are same 
 
@@ -43,7 +43,7 @@ ckeckList(lst)
 
 **输出:**
 
-```
+```py
 Equal
 ```
 
@@ -51,7 +51,7 @@ Equal
 
 **方法#2:** 使用 all()方法
 
-```
+```py
 # Python program to check if all 
 # elements in a List are same 
 res = False
@@ -73,13 +73,13 @@ chkList(lst)
 
 **输出:**
 
-```
+```py
 Equal
 ```
 
 **方法#3:** 使用 count()方法
 
-```
+```py
 # Python program to check if all 
 # elements in a List are same 
 res = False
@@ -101,14 +101,14 @@ chkList(lst)
 
 **输出:**
 
-```
+```py
 Equal
 ```
 
 **方法#4:** 使用集合数据结构
 由于我们知道集合中不能有重复的元素，所以我们可以使用这个属性来检查所有元素是否相同。
 
-```
+```py
 # Python program to check if all 
 # elements in a List are same 
 
@@ -124,6 +124,6 @@ else: print("Not Equal")
 
 **输出:**
 
-```
+```py
 Equal
 ```

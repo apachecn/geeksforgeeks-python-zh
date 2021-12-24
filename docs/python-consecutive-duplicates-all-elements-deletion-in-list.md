@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `groupby() + sum()`**
 这个任务可以使用以上功能的组合来执行。第一步是使用`groupby()`将元素分组为副本，然后如果它们出现超过 0 次，则删除它们，即只包括那些出现一次的元素。本次盘点任务由`sum()`处理
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive duplicates all elements deletion in list
 # using list comprehension + sum() + groupby()
@@ -29,7 +29,7 @@ print("List after consecutive duplicates elements deletion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 1, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 6]
 List after consecutive duplicates elements deletion : [3, 5, 7, 6]
 

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 1) breakpoint()           # in Python 3.7 
 
 2) import pdb; pdb.set_trace()   # in Python 3.6 and below
@@ -22,7 +22,7 @@
 **方法#1 :** 使用**断点()**功能
 在这个方法中，我们简单介绍一下您有疑问的断点或者您想要检查 bug 或错误的地方。
 
-```
+```py
 def debugger(a, b):
     breakpoint()
     result = a / b
@@ -39,7 +39,7 @@ print(debugger(5, 0))
 
 **调试命令:**
 
-```
+```py
 c -> continue execution
 q -> quit the debugger/execution
 n -> step to next line within the same function
@@ -50,7 +50,7 @@ s -> step to next line in this function or a called function
 **方法#2 :** 使用 **pdb 模块**
 同前所述，pdb 的意思是 Python 调试器。要在程序中使用 PDB，我们必须使用它的一种方法`set_trace()`。虽然这将导致相同的结果，但这是在 python 及以下版本中引入调试器的另一种方式。
 
-```
+```py
 def debugger(a, b):
     import pdb; pdb.set_trace()
     result = a / b
@@ -67,7 +67,7 @@ T3】
 
 **示例:**
 
-```
+```py
 def debugger(a):
     import pdb; pdb.set_trace()
     result = [a[element] for element in range(0, len(a)+5)]

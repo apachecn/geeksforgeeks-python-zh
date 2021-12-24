@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate need
 # of packing and unpacking
 
@@ -27,7 +27,7 @@ fun(my_list)
 
 **输出:**
 
-```
+```py
 TypeError: fun() takes exactly 4 arguments (1 given)
 ```
 
@@ -36,7 +36,7 @@ TypeError: fun() takes exactly 4 arguments (1 given)
 
 ## 计算机编程语言
 
-```
+```py
 # A sample function that takes 4 arguments
 # and prints the,
 def fun(a, b, c, d):
@@ -51,7 +51,7 @@ fun(*my_list)
 
 **输出:**
 
-```
+```py
 (1, 2, 3, 4)
 ```
 
@@ -59,7 +59,7 @@ fun(*my_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # Error when len(args) != no of actual arguments
 # required by the funcntion
 
@@ -74,7 +74,7 @@ func(*args)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/592a8d2a568a0c12061950aa99d6dec3.py", line 10, in <module>
     func(*args)
@@ -85,7 +85,7 @@ TypeError: func() takes 3 positional arguments but 4 were given
 
 ## 计算机编程语言
 
-```
+```py
 >>>
 >>> range(3, 6)  # normal call with separate arguments
 [3, 4, 5]
@@ -99,7 +99,7 @@ TypeError: func() takes 3 positional arguments but 4 were given
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate use
 # of packing
 
@@ -115,7 +115,7 @@ print(mySum(10, 20))
 
 **输出:**
 
-```
+```py
 15
 30
 ```
@@ -128,7 +128,7 @@ print(mySum(10, 20))
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate both packing and
 # unpacking.
 
@@ -158,7 +158,7 @@ fun2('Hello', 'beautiful', 'world!')
 
 **输出:**
 
-```
+```py
 (Geeksforgeeks, awesome, world!)
 ```
 
@@ -166,7 +166,7 @@ fun2('Hello', 'beautiful', 'world!')
 
 ## 计算机编程语言
 
-```
+```py
 # A sample program to demonstrate unpacking of
 # dictionary items using **
 def fun(a, b, c):
@@ -179,7 +179,7 @@ fun(**d)
 
 **输出:**
 
-```
+```py
 2 4 10
 ```
 
@@ -187,7 +187,7 @@ fun(**d)
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate packing of
 # dictionary items using **
 def fun(**kwargs):
@@ -205,7 +205,7 @@ fun(name="geeks", ID="101", language="Python")
 
 **输出:**
 
-```
+```py
 <class 'dict'>
 language = Python
 name = geeks

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 print("this is the first statement")
 
 exit()
@@ -22,7 +22,7 @@ print("this is the second statement")
 
 **输出:**
 
-```
+```py
 this is the first statement
 ```
 
@@ -38,7 +38,7 @@ this is the first statement
 
 ## 蟒蛇 3
 
-```
+```py
 import atexit
 
 def exit_handler():
@@ -51,7 +51,7 @@ print('GFG!')
 
 **输出:**
 
-```
+```py
 GFG
 My application is ending!
 ```
@@ -66,7 +66,7 @@ My application is ending!
 
 ## 蟒蛇 3
 
-```
+```py
 def main():
     asdfgh
     print("HELLO WORLD!")
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Gotcha!
 ```
 
@@ -95,7 +95,7 @@ Gotcha!
 
 ## 蟒蛇 3
 
-```
+```py
 print("Hello world!")
 
 exit("__PUT_ERROR_MSG_HERE__")
@@ -103,7 +103,7 @@ exit("__PUT_ERROR_MSG_HERE__")
 
 **输出:**
 
-```
+```py
 Hello world!
 __PUT_ERROR_MSG_HERE__
 ```

@@ -8,7 +8,7 @@
 
 上述功能的组合可用于完成这一特定任务。defaultdict 函数使用 lambda 函数执行分配 Ids 的主要任务，它为每个新键分配当前的键数。列表理解用于后期形成列表。
 
-```
+```py
 # Python3 code to demonstrate
 # assigning ids to values
 # using list comprehension + defaultdict + lambda
@@ -31,7 +31,7 @@ print("The ids of assigned values is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 7, 6, 5, 1]
 The ids of assigned values is : [0, 1, 2, 1, 0, 3]
 
@@ -41,7 +41,7 @@ The ids of assigned values is : [0, 1, 2, 1, 0, 3]
 
 此方法执行的任务类似于上述方法。在这种情况下，orderedDict.fromkeys 函数执行删除重复项的功能，枚举函数帮助我们获取值的索引，以便将它们映射在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # assigning ids to values using 
 # list comprehension + OrderedDict.fromkeys() + enumerate()
@@ -65,7 +65,7 @@ print("The ids of assigned values is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 7, 6, 5, 1]
 The ids of assigned values is : [0, 1, 2, 1, 0, 3]
 

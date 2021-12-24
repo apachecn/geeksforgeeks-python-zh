@@ -6,7 +6,7 @@
 
 **Python 中的 monthdatescalendar()** 方法用于获取一年中某个月的周列表作为完整周。
 
-```
+```py
 Syntax: monthdatescalendar(year, month)
 
 Parameter: 
@@ -20,7 +20,7 @@ Returns: a list of the weeks in the month.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of monthdatescalendar() method
 
@@ -46,7 +46,7 @@ print(obj.monthdatescalendar(year, month))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of monthdatescalendar() method
 

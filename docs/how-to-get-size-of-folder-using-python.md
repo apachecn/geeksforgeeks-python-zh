@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import os
 
@@ -54,7 +54,7 @@ print("Folder size: " + str(size))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import os
 
@@ -84,7 +84,7 @@ print("Folder size: " + str(size))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import os
 
@@ -111,7 +111,7 @@ print(size)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import os
 

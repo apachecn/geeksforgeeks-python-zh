@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # lists initialization
 x = [1, 2]
 y = [1, 2]
@@ -31,7 +31,7 @@ print("Location of z is ", id(z))
 
 **Output**
 
-```
+```py
 x == y :  True
 z == y :  True
 Location of x is  140169895643144
@@ -44,7 +44,7 @@ Location of z is  140169895642952
 
 ## 蟒 3
 
-```
+```py
 class Student:
     def __init__(self, name):
         self.name = name
@@ -57,7 +57,7 @@ print("divyansh == shivansh : ", (divyansh == shivansh))
 
 **输出**
 
-```
+```py
 divyansh == shivansh :  False
 
 ```
@@ -68,7 +68,7 @@ divyansh == shivansh :  False
 
 ## 蟒 3
 
-```
+```py
 class Student:
     def __init__(self, name):
         self.name = name
@@ -87,7 +87,7 @@ print("divyansh == shivansh : ", (divyansh == shivansh))
 
 **输出**
 
-```
+```py
 divyansh == shivansh :  True
 
 ```
@@ -98,7 +98,7 @@ divyansh == shivansh :  True
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
     def __init__(self, name):
         self.name = name
@@ -117,7 +117,7 @@ print("divyansh is shivansh : ", (divyansh is shivansh))
 
 **Output**
 
-```
+```py
 divyansh is shivansh :  False
 
 ```
@@ -128,7 +128,7 @@ divyansh is shivansh :  False
 
 ## 蟒 3
 
-```
+```py
 class Student:
     def __init__(self, name):
         self.name = name
@@ -147,7 +147,7 @@ print("divyansh is shivansh : ", (divyansh is shivansh))
 
 **输出**
 
-```
+```py
 divyansh is shivansh :  True
 
 ```
@@ -162,7 +162,7 @@ divyansh is shivansh :  True
 
 ## 蟒 3
 
-```
+```py
 x = [1, 2]
 y = [1, 2]
 z = y
@@ -175,7 +175,7 @@ print("Location of z is ", id(z))
 
 **输出**
 
-```
+```py
 x is y :  False
 z is y :  True
 Location of x is  139987316430856

@@ -73,7 +73,7 @@ chrome 扩展的主要任务是从谷歌会议的 DOM 元素中提取谷歌会�
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Translation Code
 '''
@@ -118,7 +118,7 @@ def translate_utility(inp_text, inp_lang, op_lang):
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 NLTK MODEL CODE
 '''

@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 Text( root, optional parameters, ... )
 ```
 
@@ -23,7 +23,7 @@ Text( root, optional parameters, ... )
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 from tkinter import ttk
 
@@ -53,7 +53,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 window = tk.Tk()
@@ -97,7 +97,7 @@ tk.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 from tkinter import ttk
 from tkinter import scrolledtext

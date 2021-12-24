@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of names and marks
 list1 = ['sravan', 98, 'harsha', 'jyothika', 
          'deepika', 78, 90, 'ramya']
@@ -38,7 +38,7 @@ for i in list1:
 
 **输出:**
 
-```
+```py
 0
 2
 3
@@ -54,7 +54,7 @@ for i in list1:
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of names and marks
 list1 = ['sravan', 98, 'harsha', 'jyothika', 
          'deepika', 78, 90, 'ramya']
@@ -71,7 +71,7 @@ print([i for i in list1 if(type(i) is str)])
 
 **输出:**
 
-```
+```py
 [0, 2, 3, 4, 7]
 ['sravan', 'harsha', 'jyothika', 'deepika', 'ramya']
 ```

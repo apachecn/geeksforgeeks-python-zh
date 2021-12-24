@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign Reversed Values in Dictionary
 # Using reversed() + loop + values()
@@ -45,7 +45,7 @@ print("Reassigned reverse values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {1: 'Gfg', 2: 'is', 3: 'Best'}
 Reassigned reverse values : {1: 'Best', 2: 'is', 3: 'Gfg'}
 
@@ -57,7 +57,7 @@ Reassigned reverse values : {1: 'Best', 2: 'is', 3: 'Gfg'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign Reversed Values in Dictionary
 # Using dictionary comprehension + reversed() + values()
@@ -81,7 +81,7 @@ print("Reassigned reverse values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {1: 'Gfg', 2: 'is', 3: 'Best'}
 Reassigned reverse values : {1: 'Best', 2: 'is', 3: 'Gfg'}
 

@@ -30,7 +30,7 @@ Flyweight 方法是一种 [**结构设计模式**](https://www.geeksforgeeks.org
 
 ## 蟒蛇 3
 
-```
+```py
 class ComplexCars(object):
 
     """Separate class for Complex Cars"""
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 ### 输出
 
-```
+```py
 id = 58598800
 ComplexPattern[Audi]
 id = 58598832

@@ -17,7 +17,7 @@ Python 是一种广泛使用的通用高级编程语言。它提供了许多功�
 
 **示例#1:** 如果`os.listdir()`返回的列表为空，则目录为空，否则不为空。下面是实现。
 
-```
+```py
 # Python program to check whether
 # the directory empty or not
 
@@ -38,14 +38,14 @@ else:
 
 **输出:**
 
-```
+```py
 Empty directory
 
 ```
 
 **示例#2:** 假设上述代码中指定的路径是文本文件的路径或无效路径，那么，在这种情况下，上述代码将引发`OSError`。为了克服这个错误，我们可以使用`[os.path.isfile](https://www.geeksforgeeks.org/python-os-path-isfile-method/)()`方法和`[os.path.exists()](http://geeksforgeeks.org/python-os-path-exists-method/)`方法。下面是实现。
 
-```
+```py
 # Python program to check whether
 # the directory is empty or not
 
@@ -76,7 +76,7 @@ isEmpty(path)
 
 **输出:**
 
-```
+```py
 The path is either for a file or not valid
 
 Not empty directory

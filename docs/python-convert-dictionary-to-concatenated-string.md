@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary to Concatenated String
 # Using an empty string + for loop
@@ -35,7 +35,7 @@ print("The dictionary after concatenation is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {'gfg': 1, 'is': 2, 'best': 3}
 The dictionary after concatenation is :  gfg1is2best3
 ```
@@ -46,7 +46,7 @@ The dictionary after concatenation is :  gfg1is2best3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary to Concatenated String
 # Using join() + items()
@@ -67,7 +67,7 @@ print("The dictionary after concatenation is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {'gfg': 1, 'best': 2, 'is': 3}
 The dictionary after concatenation is : gfg1best2is3
 ```
@@ -79,7 +79,7 @@ The dictionary after concatenation is : gfg1best2is3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Dictionary to Concatenated String
 # Using reduce() + lambda
@@ -101,7 +101,7 @@ print("The dictionary after concatenation is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {'gfg': 1, 'best': 2, 'is': 3}
 The dictionary after concatenation is : gfg1best2is3
 ```

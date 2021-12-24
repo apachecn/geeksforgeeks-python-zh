@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Inter Matrix Grouping
 # Using defaultdict() + loop
@@ -45,7 +45,7 @@ print("The Grouped Matrix : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list 1 : [[5, 8], [2, 0], [8, 4], [9, 3]]
 The original list 2 : [[8, 1], [9, 7], [2, 10], [5, 6]]
 The Grouped Matrix : {5: [8, 6], 2: [0, 10], 8: [4, 1], 9: [3, 7]}
@@ -58,7 +58,7 @@ The Grouped Matrix : {5: [8, 6], 2: [0, 10], 8: [4, 1], 9: [3, 7]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Inter Matrix Grouping
 # Using dictionary comprehension + dict()
@@ -80,7 +80,7 @@ print("The Grouped Matrix : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list 1 : [[5, 8], [2, 0], [8, 4], [9, 3]]
 The original list 2 : [[8, 1], [9, 7], [2, 10], [5, 6]]
 The Grouped Matrix : {5: [8, 6], 2: [0, 10], 8: [4, 1], 9: [3, 7]}

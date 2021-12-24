@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
  pip install primePy  
 ```
 
@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -33,7 +33,7 @@ print(primes.check(71))
 
 **输出:**
 
-```
+```py
 False
 True
 ```
@@ -44,7 +44,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -58,7 +58,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 3
 2
 ```
@@ -69,7 +69,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -83,7 +83,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [3, 151, 1709]
 [3, 5]
 ```
@@ -94,7 +94,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -108,7 +108,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [2, 3, 5, 7, 11]
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 ```
@@ -119,7 +119,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -142,7 +142,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -156,7 +156,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [5, 7, 11, 13]
 [29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73]
 ```
@@ -167,7 +167,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing primes function
 # From primePy Library
 from primePy import primes
@@ -181,7 +181,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 4
 4
 ```

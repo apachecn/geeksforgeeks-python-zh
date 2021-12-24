@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 pip install js2py
 ```
 
@@ -16,7 +16,7 @@ pip install js2py
 
 **语法:**
 
-```
+```py
 import js2py
 ```
 
@@ -34,7 +34,7 @@ import js2py
 
 ## **Python 3**
 
-```
+```py
 import js2py
 
 code_2 = "function f(x) {return x+x;}"

@@ -7,7 +7,7 @@
 **方法#1:使用`collections.Counter()`**
 这个特殊的函数可以证明对执行这个特殊的任务非常有用，因为它计算列表中字符串的频率，然后我们可以使用列表理解将它们配对。
 
-```
+```py
 # Python3 code to demonstrate
 # Identical Strings Grouping 
 # using collections.Counter()
@@ -30,7 +30,7 @@ print("The Strings after grouping are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Gfg', 'best', 'is', 'Gfg', 'is', 'best', 'Gfg', 'best']
 The Strings after grouping are : [['best', 'best', 'best'], ['Gfg', 'Gfg', 'Gfg'], ['is', 'is']]
 

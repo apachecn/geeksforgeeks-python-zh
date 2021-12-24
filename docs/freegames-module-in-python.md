@@ -8,7 +8,7 @@ Python 为您提供免费游戏，获取它们非常简单，您可以在您的�
 
 *   进入命令提示符，输入以下命令
 
-    ```
+    ```py
     python -m pip install freegames
     ```
 
@@ -19,7 +19,7 @@ Python 为您提供免费游戏，获取它们非常简单，您可以在您的�
 
 *   让我们来看看 python 免费提供了多少款游戏和哪些游戏。要检查，请键入以下命令
 
-    ```
+    ```py
     python -m freegames list
     ```
 
@@ -33,7 +33,7 @@ Python 为您提供免费游戏，获取它们非常简单，您可以在您的�
 *   免费 Python 游戏支持命令行界面(命令行界面是一种基于文本的用户界面，用于查看和管理计算机文件。命令行界面也称为命令行用户界面、控制台用户界面和角色用户界面)。
 *   To get the help for the CLI type the below command
 
-    ```
+    ```py
     python -m freegames --help
     ```
 
@@ -45,7 +45,7 @@ Python 为您提供免费游戏，获取它们非常简单，您可以在您的�
 
 *   要运行列表类型中的任何可用游戏，请键入以下命令。
 
-    ```
+    ```py
     python -m freegames.gamename"
     ```
 

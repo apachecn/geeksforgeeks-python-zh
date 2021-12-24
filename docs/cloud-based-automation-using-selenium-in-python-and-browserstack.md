@@ -12,7 +12,7 @@
 
 第一步也是最明显的一步是在您的系统上安装 Selenium，方法是在您的终端中使用以下命令:
 
-```
+```py
 sudo pip3 install selenium
 
 ```
@@ -21,7 +21,7 @@ sudo pip3 install selenium
 
 然后，您需要前往 BrowserStack 网站上的[页面](https://www.browserstack.com/automate/python)。在这里，您可以选择自己喜欢的浏览器和操作系统组合。选择首选项后，您需要创建一个新的。代码编辑器中的 py 文件。假设，您希望在 Mac OS X 卡特琳娜上的 *Chrome 84 浏览器上执行我的测试。所以你应该在你的。py 文件:*
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -45,7 +45,7 @@ driver = webdriver.Remote(
 
 之后，您需要将以下 python 代码添加到。py 文件。
 
-```
+```py
 driver.get('https://forms.gle/zX5NEumdXW4Z7SrC6')
 ```
 
@@ -63,7 +63,7 @@ driver.get('https://forms.gle/zX5NEumdXW4Z7SrC6')
 
 这适用于多选、文本和复选框字段。现在您可以将 XPath 粘贴到。py 文件的格式如下所示。您还需要*提交*按钮和*提交另一个响应*(重新提交)按钮的 XPath。重新提交按钮使自动化更加容易。
 
-```
+```py
 radioOption3 ='//*[@id ="mG61Hd"]/div[2]/div / div[2]/div[1]/div / div / div[2]/div[1]/div / span / div / div[3]/label / div / div[1]/div / div[3]'
 checkBox2 = '//*[@id ="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div[1]/div[2]/label/div/div[1]/div[2]'
 checkBox3 = '//*[@id ="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div[1]/div[3]/label/div/div[1]/div[2]'
@@ -75,7 +75,7 @@ resubmit = '/html / body / div[1]/div[2]/div[1]/div / div[4]/a'
 
 现在，剩下最后一步，实现自动化的循环。假设你想把表格填 100 遍。所以你运行一个*而*循环 100 次，每次递增变量 *i* 。在*而*循环中，您使用 *find_element_by_xpath* 和 *click()* 属性来实现您的功能，对于文本字段， *send_keys* 方法完成任务。 *time.sleep(1)* 在提交表单后等待 1 秒钟，以避免任何不必要的错误。以下代码使用*尝试*和*，除了*出于相同的目的(作为预防措施)。如果没有错误，该工具将继续在同一窗口中提交另一个响应。如果产生错误，它将关闭该窗口，并开始一个新的窗口。结尾的 *driver.quit()* 语句停止/完成自动化过程。
 
-```
+```py
 i = 0
 while i<100:
     driver.find_element_by_xpath(radioOption3).click()
@@ -97,7 +97,7 @@ driver.quit()
 
 现在你所需要做的就是转到你的终端，使用下面的命令运行程序。
 
-```
+```py
 python3 filename.py
 
 ```

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 
@@ -28,7 +28,7 @@ print(inspect.isclass(A))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -38,7 +38,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import numpy
@@ -49,7 +49,7 @@ print(inspect.ismodule(numpy))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -59,7 +59,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 
@@ -73,7 +73,7 @@ print(inspect.isfunction(fun))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -83,7 +83,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import collections
@@ -94,7 +94,7 @@ print(inspect.ismethod(collections.Counter))
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -106,7 +106,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import inspect
 
@@ -132,7 +132,7 @@ print(inspect.getmro(C))  
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import inspect
 
@@ -161,7 +161,7 @@ for i in (inspect.getclasstree(inspect.getmro(C))):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import inspect
 import math
@@ -179,7 +179,7 @@ print(inspect.getmembers(math))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import collections
@@ -190,7 +190,7 @@ print(inspect.signature(collections.Counter))
 
 **输出:**
 
-```
+```py
 (*args, **kwds)
 ```
 
@@ -198,7 +198,7 @@ print(inspect.signature(collections.Counter))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import inspect
 
@@ -224,7 +224,7 @@ print(inspect.stack())
 
 **输出:**
 
-```
+```py
 [FrameInfo(frame=<frame at 0x000002AC9BF9FD18, file ‘<ipython-input-8-3080f52ca090>’, line 22, code <module>>, filename='<ipython-input-8-3080f52ca090>’, lineno=22, function='<module>’, code_context=[‘print(inspect.stack())\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BAABA38, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, line 3331, code run_code>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, lineno=3331, function=’run_code’, code_context=[‘                    exec(code_obj, self.user_global_ns, self.user_ns)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9A94B608, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, line 3254, code run_ast_nodes>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, lineno=3254, function=’run_ast_nodes’, code_context=[‘                    if (await self.run_code(code, result,  async_=asy)):\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BA8D768, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, line 3063, code run_cell_async>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, lineno=3063, function=’run_cell_async’, code_context=[‘                       interactivity=interactivity, compiler=compiler, result=result)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C452618, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\async_helpers.py’, line 68, code _pseudo_sync_runner>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\async_helpers.py’, lineno=68, function=’_pseudo_sync_runner’, code_context=[‘        coro.send(None)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BEE1778, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, line 2886, code _run_cell>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, lineno=2886, function=’_run_cell’, code_context=[‘            return runner(coro)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BE85FC8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, line 2858, code run_cell>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\IPython\\core\\interactiveshell.py’, lineno=2858, function=’run_cell’, code_context=[‘                raw_cell, store_history, silent, shell_futures)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C464208, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\zmqshell.py’, line 536, code run_cell>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\zmqshell.py’, lineno=536, function=’run_cell’, code_context=[‘        return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BECB108, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\ipkernel.py’, line 300, code do_execute>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\ipkernel.py’, lineno=300, function=’do_execute’, code_context=[‘                res = shell.run_cell(code, store_history=store_history, silent=silent)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BF9FAF8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, line 209, code wrapper>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, lineno=209, function=’wrapper’, code_context=[‘                    yielded = next(result)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BECAEB8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, line 541, code execute_request>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, lineno=541, function=’execute_request’, code_context=[‘                user_expressions, allow_stdin,\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BF9F6B8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, line 209, code wrapper>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, lineno=209, function=’wrapper’, code_context=[‘                    yielded = next(result)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BEE1BD8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, line 268, code dispatch_shell>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, lineno=268, function=’dispatch_shell’, code_context=[‘                yield gen.maybe_future(handler(stream, idents, msg))\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BFA0378, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, line 209, code wrapper>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, lineno=209, function=’wrapper’, code_context=[‘                    yielded = next(result)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C44A848, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, line 361, code process_one>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelbase.py’, lineno=361, function=’process_one’, code_context=[‘        yield gen.maybe_future(dispatch(*args))\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BE85368, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, line 748, code run>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, lineno=748, function=’run’, code_context=[‘                        yielded = self.gen.send(value)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C456048, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, line 787, code inner>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\gen.py’, lineno=787, function=’inner’, code_context=[‘                self.run()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BE882D8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\ioloop.py’, line 743, code _run_callback>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\ioloop.py’, lineno=743, function=’_run_callback’, code_context=[‘            ret = callback()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C4519A8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\ioloop.py’, line 690, code <lambda>>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\ioloop.py’, lineno=690, function='<lambda>’, code_context=[‘                lambda f: self._run_callback(functools.partial(callback, future))\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BEE5808, file ‘D:\\Software\\Anaconda\\lib\\asyncio\\events.py’, line 88, code _run>, filename=’D:\\Software\\Anaconda\\lib\\asyncio\\events.py’, lineno=88, function=’_run’, code_context=[‘            self._context.run(self._callback, *self._args)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9BEC9798, file ‘D:\\Software\\Anaconda\\lib\\asyncio\\base_events.py’, line 1782, code _run_once>, filename=’D:\\Software\\Anaconda\\lib\\asyncio\\base_events.py’, lineno=1782, function=’_run_once’, code_context=[‘                handle._run()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C44BB88, file ‘D:\\Software\\Anaconda\\lib\\asyncio\\base_events.py’, line 538, code run_forever>, filename=’D:\\Software\\Anaconda\\lib\\asyncio\\base_events.py’, lineno=538, function=’run_forever’, code_context=[‘                self._run_once()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C44B9A8, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\platform\\asyncio.py’, line 153, code start>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\tornado\\platform\\asyncio.py’, lineno=153, function=’start’, code_context=[‘            self.asyncio_loop.run_forever()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9C335248, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelapp.py’, line 583, code start>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel\\kernelapp.py’, lineno=583, function=’start’, code_context=[‘            self.io_loop.start()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC9A980F38, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\traitlets\\config\\application.py’, line 664, code launch_instance>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\traitlets\\config\\application.py’, lineno=664, function=’launch_instance’, code_context=[‘        app.start()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC98403228, file ‘D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel_launcher.py’, line 16, code <module>>, filename=’D:\\Software\\Anaconda\\lib\\site-packages\\ipykernel_launcher.py’, lineno=16, function='<module>’, code_context=[‘    app.launch_new_instance()\n’], index=0), FrameInfo(frame=<frame at 0x000002AC985AE468, file ‘D:\\Software\\Anaconda\\lib\\runpy.py’, line 85, code _run_code>, filename=’D:\\Software\\Anaconda\\lib\\runpy.py’, lineno=85, function=’_run_code’, code_context=[‘    exec(code, run_globals)\n’], index=0), FrameInfo(frame=<frame at 0x000002AC97CE5038, file ‘D:\\Software\\Anaconda\\lib\\runpy.py’, line 193, code _run_module_as_main>, filename=’D:\\Software\\Anaconda\\lib\\runpy.py’, lineno=193, function=’_run_module_as_main’, code_context=[‘                     “__main__”, mod_spec)\n’], index=0)]
 ```
 
@@ -234,7 +234,7 @@ print(inspect.stack())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 
@@ -249,7 +249,7 @@ print(inspect.getsource(fun))
 
 **输出:**
 
-```
+```py
 def fun(a,b):
     # product of 
     # two numbers
@@ -260,7 +260,7 @@ def fun(a,b):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import collections
@@ -277,7 +277,7 @@ print(inspect.getmodule(collections))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required modules
 import inspect
 from tkinter import *

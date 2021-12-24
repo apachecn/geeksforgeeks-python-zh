@@ -7,7 +7,7 @@
 **方法一:使用`isinstance()` +列表理解**
 以上方法的组合可以用来执行此任务。在这种情况下，我们为字符串实例检查列表中的每个元素，并只使用字符串构建列表，然后返回它的长度。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check String occurrences in mixed list
 # using isinstance() + list comprehension
@@ -28,7 +28,7 @@ print("Number of strings in list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 1, True, 'is', 2, 'best']
 Number of strings in list : 3
 

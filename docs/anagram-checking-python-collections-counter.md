@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : str1 = “abcd”, str2 = “dabc”
 Output : True
 
@@ -17,7 +17,7 @@ Output : False
 
 此问题已有解决方案请参考[检查两个字符串是否为彼此的字谜](https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/)链接。我们将使用[集合在 python 中一行解决这个问题。计数器()模块](https://www.geeksforgeeks.org/count-frequencies-elements-array-python-using-collections-module/)。
 
-```
+```py
 # Python code to check if two strings are
 # anagram
 from collections import Counter
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 True
 
 ```

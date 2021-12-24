@@ -7,7 +7,7 @@
 **方法#1:使用 loop+“+”运算符**
 以上功能的组合可以让我们的任务变得更简单。但是这里的缺点是我们可能不得不连接列表，因此会消耗比期望更多的内存。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Iterating two lists at once
 # using loop + "+" operator
@@ -30,7 +30,7 @@ for ele in test_list1 + test_list2:
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 3, 6, 2]
 The original list 2 is : [7, 9, 10, 0]
 The paired list contents are : 

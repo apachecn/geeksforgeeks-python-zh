@@ -16,7 +16,7 @@ Dunder 方法是双下划线方法，用于模拟内置类型的行为。它们�
 
 **例:**
 
-```
+```py
 class bank_record:
 
     def __init__(self, name):
@@ -68,7 +68,7 @@ print("The transaction history is: "+ str(sam.getTransactions()))
 
 **输出**
 
-```
+```py
 The balance is : 100
 The new balance is : 300
 The no. of transactions are: 2

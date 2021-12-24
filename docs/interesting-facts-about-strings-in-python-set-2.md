@@ -12,7 +12,7 @@
 
 **例:**
 
-```
+```py
 # A python program to illustrate slicing in strings 
 
 x = "Geeks at work"
@@ -32,14 +32,14 @@ print (x[15]) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "8a33ebbf716678c881331d75e0b85fe6.py", line 15, in <module>
     print x[15] 
 IndexError: string index out of range
 ```
 
-```
+```py
 e
 a
 o
@@ -49,7 +49,7 @@ o
 
 要从整个字符串中提取子字符串，我们使用类似
 
-```
+```py
 string_name[beginning: end : step]
 ```
 
@@ -61,7 +61,7 @@ string_name[beginning: end : step]
 
 **例:**
 
-```
+```py
 # A python program to illustrate 
 # print substrings of a string 
 x = "Welcome to GeeksforGeeks"
@@ -79,7 +79,7 @@ print (x[-5:-3])       
 
 输出:
 
-```
+```py
 lco
 oet
 Ge

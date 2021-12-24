@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os, signal
 
 def process():

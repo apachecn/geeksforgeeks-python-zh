@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```py
 #include <iostream>
 #include <fstream>
 #include <sstream>

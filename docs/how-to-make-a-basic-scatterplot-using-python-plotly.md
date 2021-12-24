@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.offline as pyo
 import plotly.graph_objs as go
 import numpy as np

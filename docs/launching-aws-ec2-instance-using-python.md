@@ -11,7 +11,7 @@
 
 对于在 python 中安装 boto3:
 
-```
+```py
 default version : pip install boto3
 specific version : python3 -m pip install boto3 (as python3 in this case)
 
@@ -49,7 +49,7 @@ specific version : python3 -m pip install boto3 (as python3 in this case)
 
 ## 蟒蛇 3
 
-```
+```py
 #Python Program for creating a connection
 import boto3
 
@@ -81,7 +81,7 @@ print(response)
 
 ## 蟒蛇 3
 
-```
+```py
 #Python Program for creating a connection
 import boto3
 

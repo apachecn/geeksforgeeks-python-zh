@@ -5,7 +5,7 @@
 我们经常会遇到需要从用户那里获取数字/字符串作为输入的情况。在本文中，我们将看到如何从用户那里获得一个列表作为输入。
 **例:**
 
-```
+```py
 Input : n = 4,  ele = 1 2 3 4
 Output :  [1, 2, 3, 4]
 
@@ -17,7 +17,7 @@ Output : [3, 4, 1, 7, 9, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # creating an empty list
 lst = []
 
@@ -41,7 +41,7 @@ print(lst)
 
 ## 蟒蛇 3
 
-```
+```py
 # try block to handle the exception
 try:
     my_list = []
@@ -62,7 +62,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # number of elements
 n = int(input("Enter number of elements : "))
 
@@ -80,7 +80,7 @@ print("\nList is - ", a)
 
 ## 蟒蛇 3
 
-```
+```py
 lst = [ ]
 n = int(input("Enter number of elements : "))
 
@@ -99,7 +99,7 @@ print(lst)
 
 ## 蟒蛇 3
 
-```
+```py
 # For list of integers
 lst1 = [] 
 

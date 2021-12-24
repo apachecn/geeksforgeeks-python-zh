@@ -4,7 +4,7 @@
 
 Tkinter 提供了各种内置功能来开发交互式和特色图形用户界面。 **after()** 函数也是一个 Universal 函数，可以直接在根上使用，也可以和其他小部件一起使用。
 
-```
+```py
 after(parent, ms, function = None, *args)
 ```
 
@@ -18,7 +18,7 @@ after(parent, ms, function = None, *args)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing only those functions which
 # are needed
 from tkinter import Tk, mainloop, TOP
@@ -59,7 +59,7 @@ print('Destroyed after % d seconds' % (end-start))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing only those functions which
 # are needed
 from tkinter import Tk, mainloop, TOP

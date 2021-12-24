@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get id of list
 a = [1, 2, 3, 4, 5]
 print(id(a))
@@ -60,7 +60,7 @@ ctypes 是 Python 的一个外来函数库。它提供 C 兼容的数据类型�
 
 ## 蟒蛇 3
 
-```
+```py
 # import addressof and c_int modules 
 # from ctypes module
 from ctypes import c_int, addressof
@@ -90,7 +90,7 @@ print(addressof(c_int(a)))
 
 ## 蟒蛇 3
 
-```
+```py
 # get id of list in hexadecimal representation
 a = [1, 2, 3, 4, 5]
 print(hex(id(a)))

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K list Nested Dictionary Mesh
 # Using * operator
@@ -43,7 +43,7 @@ print("Created Mesh : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 6, 8, 7]
 The original list 2 : [2, 7, 9, 4]
 Created Mesh : {4: {2: [None], 7: [None], 9: [None], 4: [None]}, 6: {2: [None], 7: [None], 9: [None], 4: [None]}, 8: {2: [None], 7: [None], 9: [None], 4: [None]}, 7: {2: [None], 7: [None], 9: [None], 4: [None]}}

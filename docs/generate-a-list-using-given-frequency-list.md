@@ -6,7 +6,7 @@
 
 给定一个列表，任务是从给定列表中生成另一个包含从 *0 到 n* 的数字的列表，该列表的每个元素都是所生成列表中数字的频率。
 
-```
+```py
 Input: freq = [1, 4, 3, 5]
 Output: [0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3]
 
@@ -29,7 +29,7 @@ Input[3] = 5  Output = [0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3] (repeats 3 five t
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to generate list containing numbers from 0 to 'n'
 # having frequency of no from another list
 
@@ -52,14 +52,14 @@ print(Output) 
 
 **Output:**
 
-```
+```py
 [0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3]
 
 ```
 
 **方法 2:使用列举和列表理解**
 
-```
+```py
 # Python code to generate list containing numbers from 0 to 'n'
 # having frequency of no from another list
 
@@ -76,14 +76,14 @@ print(Output) 
 
 **Output:**
 
-```
+```py
 [0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3]
 
 ```
 
 **方法 3:使用枚举和链**
 
-```
+```py
 # Python code to generate list containing numbers from 0 to 'n'
 # having frequency of no from another list
 
@@ -103,7 +103,7 @@ print(Output) 
 
 **Output:**
 
-```
+```py
 [0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3]
 
 ```

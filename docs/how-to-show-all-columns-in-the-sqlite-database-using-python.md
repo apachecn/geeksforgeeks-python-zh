@@ -10,7 +10,7 @@
 *   创建一个**光标**对象，并使用创建的光标对象执行查询，以便创建一个表并将值插入其中。
 *   使用光标对象的**描述**关键字获取列名。description 关键字只指定二维元组中表的列，该元组不包含任何值，只包含列名。
 
-```
+```py
 data=cursor.execute('''SELECT * FROM table_name''')
 print(data.description)
 ```
@@ -19,7 +19,7 @@ print(data.description)
 
 *   使用光标对象执行以下查询，显示表格中的数据。
 
-```
+```py
 SELECT * FROM table_name
 ```
 
@@ -33,7 +33,7 @@ SELECT * FROM table_name
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -75,7 +75,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 Table Created!
 Data inserted into the table
 ```
@@ -86,7 +86,7 @@ Data inserted into the table
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 

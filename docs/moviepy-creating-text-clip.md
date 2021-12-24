@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 
@@ -36,7 +36,7 @@ clip.ipython_display() 
 
 另一个例子
 
-```
+```py
 # importing editor from movie py
 from moviepy.editor import *
 

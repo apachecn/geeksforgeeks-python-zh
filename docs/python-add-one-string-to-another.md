@@ -8,7 +8,7 @@
 
 这个操作符可以用来执行这个连接字符串的特殊任务。这比其他语言中使用的传统方法要简单得多，比如使用一个专用函数来执行这个特定的任务。
 
-```
+```py
 # Python code to demonstrate
 # Adding one string to another
 # Using += operator
@@ -35,7 +35,7 @@ print("The concatenated string is : " + test_string)
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The add string :  is best
 The concatenated string is : GFG is best
@@ -46,7 +46,7 @@ The concatenated string is : GFG is best
 
 我们也可以使用 join 函数来执行字符串连接的任务。与上面的方法相比，这个方法的优势在于我们有很多字符串要连接，而不是只有两个。
 
-```
+```py
 # Python code to demonstrate
 # Adding one string to another
 # Using join()
@@ -73,7 +73,7 @@ print("The concatenated string is : " + res)
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The add string :  is best
 The concatenated string is : GFG is best

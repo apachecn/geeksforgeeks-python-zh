@@ -10,13 +10,13 @@
 
 **suntime 模块:**该模块将返回日落日出时间计算 python 库。在您的终端中运行此命令进行安装。
 
-```
+```py
 pip install suntime
 ```
 
 **地理模块:**该模块使用第三方地理编码器和其他数据源定位全球范围内的地址、城市、国家和地标的坐标。Nominatim 是一个地理编码器，用于 OpenStreetMap 数据。在您的终端中运行此命令进行安装。
 
-```
+```py
 pip install geopy
 ```
 
@@ -31,7 +31,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import datetime
 from suntime import Sun
@@ -61,7 +61,7 @@ print("Dusk at : ",sun_dusk.strftime('%H:%M'))
 
 **输出:**
 
-```
+```py
 Sun rise at :  06:05
 Dusk at :  18:28
 ```
@@ -70,7 +70,7 @@ Dusk at :  18:28
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from geopy.geocoders import Nominatim

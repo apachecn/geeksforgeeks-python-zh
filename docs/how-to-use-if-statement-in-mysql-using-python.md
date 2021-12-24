@@ -13,7 +13,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 IF(condition, value_if_true, value_if_false)
 ```
 
@@ -27,7 +27,7 @@ IF(condition, value_if_true, value_if_false)
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -64,7 +64,7 @@ db.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 

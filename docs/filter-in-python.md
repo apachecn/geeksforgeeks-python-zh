@@ -6,7 +6,7 @@ filter()方法在测试序列中每个元素是否为真的函数的帮助下过
 
 **语法:**
 
-```
+```py
 filter(function, sequence)
 Parameters:
 function: function that tests if each element of a 
@@ -18,7 +18,7 @@ returns an iterator that is already filtered.
 
 ```
 
-```
+```py
 # function that filters vowels
 def fun(variable):
     letters = ['a', 'e', 'i', 'o', 'u']
@@ -40,7 +40,7 @@ for s in filtered:
 
 **输出:**
 
-```
+```py
 The filtered letters are:
 e
 e
@@ -50,7 +50,7 @@ e
 **应用:**
 它通常与 [Lambda 函数](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)一起使用来分离列表、元组或集合。
 
-```
+```py
 # a list contains both even and odd numbers. 
 seq = [0, 1, 2, 3, 5, 8, 13]
 
@@ -65,7 +65,7 @@ print(list(result))
 
 **输出:**
 
-```
+```py
 [1, 3, 5, 13]
 [0, 2, 8]
 

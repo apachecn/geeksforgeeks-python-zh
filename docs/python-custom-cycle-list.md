@@ -7,7 +7,7 @@
 **方法:使用`dropwhile() + cycle() + islice()`**
 该任务可以使用以上功能的组合来执行。在这种情况下，使用`dropwhile()`将元素放置到 K，然后可以使用`cycle()`和`islice()`来限制列表中元素的数量。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom Cycle list
 # using dropwhile() + cycle() + islice()
@@ -35,7 +35,7 @@ print("The cycled list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 4, 5, 7, 1]
 The cycled list is : [7, 1, 3, 4, 5, 7, 1, 3, 4, 5, 7, 1]
 

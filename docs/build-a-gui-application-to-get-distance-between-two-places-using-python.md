@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from geopy.geocoders import Nominatim
 from geopy import distance
@@ -52,7 +52,7 @@ print(distance.distance(location1, location2).km, " kms")
 
 **输出:**
 
-```
+```py
 852.5518024607962  kms
 ```
 
@@ -60,7 +60,7 @@ print(distance.distance(location1, location2).km, " kms")
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from geopy.geocoders import Nominatim

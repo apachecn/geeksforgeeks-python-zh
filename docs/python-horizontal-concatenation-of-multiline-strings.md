@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Horizontal Concatenation of Multiline Strings
 # Using zip() + split() + join() + list comprehension
@@ -63,7 +63,7 @@ print("After String Horizontal Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original string 1 is : 
 geeks 4
 geeks
@@ -82,7 +82,7 @@ geeksbest
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Horizontal Concatenation of Multiline Strings
 # Using map() + operator.add + join()
@@ -109,7 +109,7 @@ print("After String Horizontal Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original string 1 is : 
 geeks 4
 geeks

@@ -8,7 +8,7 @@
 
 这个问题可以通过使用通过希望被过滤的项目功能提取的关键字和字典功能制作所需字典的重建来执行。
 
-```
+```py
 # Python3 code to demonstrate
 # Extracting specifix keys from dictionary
 # Using dictionary comprehension + items()
@@ -30,7 +30,7 @@ print("The filtered dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'manjeet': 4, 'akshat': 3, 'akash': 2, 'nikhil': 1}
 The filtered dictionary is : {'akshat': 3, 'nikhil': 1}
 
@@ -40,7 +40,7 @@ The filtered dictionary is : {'akshat': 3, 'nikhil': 1}
 
 dict 函数可以通过将使用列表理解执行的逻辑转换为字典来执行此任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Extracting specifix keys from dictionary
 # Using dict()
@@ -62,7 +62,7 @@ print("The filtered dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'manjeet': 4, 'akshat': 3, 'akash': 2, 'nikhil': 1}
 The filtered dictionary is : {'akshat': 3, 'nikhil': 1}
 

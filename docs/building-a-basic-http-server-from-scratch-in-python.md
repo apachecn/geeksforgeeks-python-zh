@@ -8,7 +8,7 @@
 
 在终端上运行以下语句:
 
-```
+```py
 python -m http.server
 ```
 
@@ -32,7 +32,7 @@ python -m http.server
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all the functions 
 # from http.server module
 from http.server import *
@@ -71,7 +71,7 @@ port.serve_forever()
 
 在终端中使用以下命令
 
-```
+```py
 python file_name.py
 ```
 

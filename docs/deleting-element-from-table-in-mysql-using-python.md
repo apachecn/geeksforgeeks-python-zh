@@ -13,7 +13,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 DELETE FROM TABLE_NAME  WHERE Column Name = 'Value';
 ```
 
@@ -27,7 +27,7 @@ DELETE FROM TABLE_NAME  WHERE Column Name = 'Value';
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -49,7 +49,7 @@ mydb.close()
 
 **输出:**
 
-```
+```py
 1 record(s) deleted
 ```
 
@@ -63,7 +63,7 @@ mydb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -85,7 +85,7 @@ mydb.close()
 
 **输出:**
 
-```
+```py
 1 record(s) deleted
 ```
 

@@ -8,7 +8,7 @@
 
 `any()`每当给定迭代器中出现特定元素时，方法返回 true。
 
-```
+```py
 # Python code to demonstrate
 # finding whether element
 # exists in listof list
@@ -31,7 +31,7 @@ print(str(res1), "\n", str(res2))
 
 **Output:**
 
-```
+```py
 True 
  False
 

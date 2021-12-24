@@ -8,7 +8,7 @@
 
 **PDFMiner** 是 PDF 文档的文本提取工具。您可以尝试使用 pip 在系统中安装 PDFminer，如下所示:
 
-```
+```py
 pip install pdfminer
 ```
 
@@ -26,7 +26,7 @@ pip install pdfminer
 
 ![python-pdfminer-1](img/ff739136b03717779a26656f1bee83b7.png)
 
-```
+```py
 import io
 from pdfminer.converter import TextConverter
 from pdfminer.pdfinterp import PDFPageInterpreter

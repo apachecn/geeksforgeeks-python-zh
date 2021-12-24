@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function definition
 def add(num1, num2):
     print("Datatype of num1 is ", type(num1))
@@ -26,7 +26,7 @@ print(add(float(2), float(3)))
 
 **输出:**
 
-```
+```py
 Datatype of num1 is  <class 'int'>
 Datatype of num2 is  <class 'int'>
 5
@@ -40,7 +40,7 @@ Datatype of num2 is  <class 'float'>
 
 ## 蟒蛇 3
 
-```
+```py
 # function definition
 def concatenate(num1, num2):
     print("Datatype of num1 is ", type(num1))
@@ -58,7 +58,7 @@ print(concatenate(str(111), str(100)))
 
 **输出:**
 
-```
+```py
 Datatype of num1 is  <class 'int'>
 Datatype of num2 is  <class 'int'>
 211

@@ -13,7 +13,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -33,13 +33,13 @@ print(search['name'] + "  " +search['birth date'])
 
 **输出:**
 
-```
+```py
 Nawazuddin Siddiqui  1974-05-19
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -59,6 +59,6 @@ print(search['name'] + "  " +search['birth date'])
 
 **输出:**
 
-```
+```py
 Keanu Reeves  1964-09-02
 ```

@@ -8,7 +8,7 @@
 
 以上 3 个功能的组合可用于执行这一特定任务。在这种情况下，我们使用由元素、行和列坐标组成的三元组执行排序，并在第二步中返回它们。
 
-```
+```py
 # Python3 code to demonstrate
 # Indices of sorted list of list elements
 # using List comprehension + enumerate() + sort()
@@ -41,7 +41,7 @@ print("The indices of sorted order are : " + str(res))
 
 上面执行的任务可以作为排序函数的参数来执行，lambda 函数如上执行列表理解函数的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Indices of sorted list of list elements
 # using sorted() + lambda

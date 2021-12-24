@@ -8,7 +8,7 @@
 **方法#1:使用`rsplit()`**
 这种方法最初执行的是从后端拆分琴弦的任务，而不是传统的从左到右的方式。不过，为了解决这个特殊问题，这可以限制为 1。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract suffix after K
 # Using rsplit()
@@ -32,7 +32,7 @@ print("The suffix string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The suffix string is : Geeks
 

@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```py
 class GFG:
     None
 
@@ -30,7 +30,7 @@ print(g.d1() == value())
 
 **输出:**
 
-```
+```py
 Geeks
 True
 ```
@@ -41,7 +41,7 @@ True
 
 **例 2:**
 
-```
+```py
 class GFG:
 
     employee = True
@@ -65,13 +65,13 @@ print(e1.name)
 
 **输出:**
 
-```
+```py
 False
 True
 Nikhil
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fbcfcf668619b24bb8ace68e3c400bc6.py", line 19, in 
     print(e1.name)

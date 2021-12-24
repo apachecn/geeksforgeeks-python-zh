@@ -7,7 +7,7 @@
 **隐式等待**
 隐式等待告诉网络驱动程序在一定时间内轮询 DOM，试图找到任何不立即可用的元素。默认设置为 0。一旦设置，隐式等待将在 WebDriver 对象的生命周期内设置。让我们考虑一个例子–
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 
@@ -29,7 +29,7 @@ myDynamicElement = driver.find_element_by_id("myDynamicElement")
 
 定义的隐式等待将是使用驱动程序的隐式等待方法设置的。让我们在 https://www.geeksforgeeks.org/上实现它，并等待 10 秒钟再定位一个元素。
 
-```
+```py
 # import webdriver 
 from selenium import webdriver 
 

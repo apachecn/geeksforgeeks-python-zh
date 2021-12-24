@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cosh()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (10.067661995777765+0j)
 ```
 
@@ -42,7 +42,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cosh()function
 
@@ -58,6 +58,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 (2.37054853731792+1.184231684275022j)
 ```

@@ -13,13 +13,13 @@
 
 **语法:**
 
-```
+```py
 inspect.signature(callable, *, follow_wrapped=True)
 ```
 
 **例 1:**
 
-```
+```py
 from inspect import signature
 
 # declare a function gfg with some
@@ -46,7 +46,7 @@ print(t.parameters['y'].annotation)
 
 **输出**
 
-```
+```py
 (x:str, y:int)
 x:str
 <class 'int'>
@@ -58,7 +58,7 @@ x:str
 
 **示例:**
 
-```
+```py
 # Decorator to print function call 
 # details 
 def function_details(func): 

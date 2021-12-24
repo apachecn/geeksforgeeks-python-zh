@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index match element Product
 # using loop + zip()
@@ -38,7 +38,7 @@ print("Multiplication of Identical elements : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : [5, 6, 10, 4, 7, 1, 19]
 The original list 2 is : [6, 6, 10, 3, 7, 10, 19]
 Multiplication of Identical elements : 7980

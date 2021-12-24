@@ -18,7 +18,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the use of
 # Accessor and Mutator methods
 
@@ -45,7 +45,7 @@ print (arr)
 
 **Output:** 
 
-```
+```py
 4
 2
 array('i', [5, 1, 3, 4, 2, 2, 7, 19])
@@ -56,7 +56,7 @@ array('i', [5, 1, 3, 4, 2, 2, 7, 19])
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the use of
 # Accessor and Mutator methods
 
@@ -93,7 +93,7 @@ print (myCar.get_make())
 
 **Output:** 
 
-```
+```py
 Ford
 Porche
 ```

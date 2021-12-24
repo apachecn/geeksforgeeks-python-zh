@@ -8,7 +8,7 @@
 
 通过在运行时产生匹配键值对的值，这个任务可以在使用循环和生成器的强力方法中解决。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find Symmetric Pairs in dictionary
 # using generator + loop
@@ -41,7 +41,7 @@ print("The pairs of Symmetric values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dict is : {'a': 1, 1: 'a', 'c': 3, 'b': 2, 2: 'b'}
 The pairs of Symmetric values : [('a', 1), (1, 'a'), ('b', 2), (2, 'b')]
 
@@ -51,7 +51,7 @@ The pairs of Symmetric values : [('a', 1), (1, 'a'), ('b', 2), (2, 'b')]
 
 这项任务也可以作为一个单行任务来执行，使用列表理解作为执行基于循环的解决方案的一种简化方式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find Symmetric Pairs in dictionary
 # Using list comprehension
@@ -73,7 +73,7 @@ print("The pairs of Symmetric values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dict is : {'a': 1, 1: 'a', 'c': 3, 'b': 2, 2: 'b'}
 The pairs of Symmetric values : [('a', 1), (1, 'a'), ('b', 2), (2, 'b')]
 

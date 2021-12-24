@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -57,7 +57,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
@@ -86,7 +86,7 @@ plt.show()
 
 我们认为一些数据的直方图遵循正态分布。SciPy 有多种方法可以用来估计随机变量的最佳分布，也有参数可以最好地模拟这种适应性。例如，对于这个问题中的数据，最佳拟合正态分布的均值和标准差可以如下找到:
 
-```
+```py
 # Make the normal distribution fit the data: 
 mu, std = norm.fit (data) # mean and standard deviation
 ```
@@ -107,7 +107,7 @@ Matplotlib 库的 Pyplot 模块中的函数 xlim()用于获取或设置该轴的
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt

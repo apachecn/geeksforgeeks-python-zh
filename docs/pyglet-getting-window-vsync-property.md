@@ -6,7 +6,7 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
  pyglet.window.Window(width, height, title)
 
 ```
@@ -21,7 +21,7 @@
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -95,7 +95,7 @@ pyglet.app.run()
 **输出:**
 ![](img/2284a7b95a57fa5732117e0fb0d4c55f.png)
 
-```
+```py
 Window Vsync Property : 
 True
 

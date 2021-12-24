@@ -20,7 +20,7 @@ Tweepy 模块中 API 类的 **media_upload()** 方法用于将一个媒体对象
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print("The size of the file is : " + str(media.size) + " bytes")
 
 **输出:**
 
-```
+```py
 The media ID is : 1270554007983910912
 The size of the file is : 3346 bytes
 ```
@@ -61,7 +61,7 @@ The size of the file is : 3346 bytes
 
 ## 蟒蛇 3
 
-```
+```py
 # the name of the media file
 filename = "gfg.png"
 
@@ -75,7 +75,7 @@ print("The height is : " + str(media.image['h']) + " pixels.")
 
 **输出:**
 
-```
+```py
 The width is : 225 pixels.
 The height is : 225 pixels.
 ```

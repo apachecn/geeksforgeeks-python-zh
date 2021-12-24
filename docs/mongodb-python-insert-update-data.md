@@ -11,31 +11,31 @@
 
 *   **Step 1 – Establishing Connection**: Port number Default: 27017
 
-    ```
+    ```py
     conn = MongoClient(‘localhost’, port-number)
     ```
 
     如果使用默认端口号，即 27017。替代连接方法:
 
-    ```
+    ```py
     conn = MongoClient()
     ```
 
 *   **Step 2 – Create Database or Switch to Existing Database:**
 
-    ```
+    ```py
     db = conn.dabasename
     ```
 
     创建集合或切换到现有集合:
 
-    ```
+    ```py
     collection = db.collection_name
     ```
 
 *   **Step 3 – Insert :** To Insert Data create a dictionary object and insert data in database. Method used to insert data:
 
-    ```
+    ```py
      insert_one() or insert_many()
     ```
 
@@ -43,7 +43,7 @@
     注意:ObjectId 对于数据库集合中的每个条目都是不同的。
     让我们借助代码来理解数据插入:-
 
-    ```
+    ```py
     # Python code to illustrate
     # inserting data in MongoDB
     from pymongo import MongoClient
@@ -85,7 +85,7 @@
 
     输出:
 
-    ```
+    ```py
     Connected successfully!!!
     Data inserted with record ids    
     {'_id': ObjectId('5a02227b37b8552becf5ed2a'), 
@@ -105,7 +105,7 @@
 
 在 MongoDB 中插入数据后，让我们更新 id 为:24 的员工的数据
 
-```
+```py
 # Python code to illustrate
 # updating data in MongoDB
 # with Data of employee with id:24
@@ -145,7 +145,7 @@ for record in cursor:
 
 输出:
 
-```
+```py
 Connected successfully!!!
 Data updated with id 
 {'_id': ObjectId('5a02227b37b8552becf5ed2a'), 
@@ -158,7 +158,7 @@ Data updated with id
 
 要查找集合中更新的文档或条目数，请使用。
 
-```
+```py
  print(result.matched_count) 
 ```
 

@@ -7,7 +7,7 @@
 **方法:使用`groupby()` +列表理解**
 这个任务可以使用 Python 提供的内置`groupby()`轻松完成。这可以与逻辑组合和迭代的列表理解相结合。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Identical Consecutive Grouping in list
 # using groupby() + list comprehension
@@ -29,7 +29,7 @@ print("List after grouping is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 4, 5, 5, 5, 7, 7, 8, 8, 8]
 List after grouping is : [[4, 4], [5, 5, 5], [7, 7], [8, 8, 8]]
 

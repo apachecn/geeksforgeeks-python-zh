@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the atanh()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (0.34657359027997264+1.5707963267948966j)
 
 ```
@@ -43,7 +43,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the atanh()function
 
@@ -59,7 +59,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (0.06706599664866984+1.399284356584545j)
 
 ```

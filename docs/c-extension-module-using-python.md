@@ -6,7 +6,7 @@
 
 **代码#1 :**
 
-```
+```py
 #include <math.h>
 
 extern int gcd(int, int);
@@ -26,7 +26,7 @@ extern double distance(Point *p1, Point *p2);
 
 **代码#2:**
 
-```
+```py
 # include "Python.h"
 # include "sample.h"
 
@@ -57,7 +57,7 @@ static PyObject * py_divide(PyObject * self, PyObject * args)
 
 **代码#3:模块方法表及结构**
 
-```
+```py
 /* Module method table */
 static PyMethodDef SampleMethods[] =
 {
@@ -86,7 +86,7 @@ PyInit_sample(void)
 
 **代码#4:** **创建一个`**setup.py**` python 文件来构建扩展模块。**
 
-```
+```py
 # setup.py
 from distutils.core import setup, Extension
 
@@ -106,7 +106,7 @@ setup(name='sample',
 
 **代码#5:** 现在只需使用 python3 *buildlib.py* `build_ext --inplace`，构建结果库。
 
-```
+```py
 bash% python3 setup.py build_ext --inplace
 running build_ext
 building 'sample' extension
@@ -124,7 +124,7 @@ bash %
 
 **代码#6 :****
 
-```
+```py
 import sample
 
 print ("gcd = ", sample.gcd(35, 42))
@@ -134,7 +134,7 @@ print ("\ndistance : ", sample.divide(42, 8))
 
 **输出:**
 
-```
+```py
 gcd = 7
 
 distance = (5, 2)
@@ -147,7 +147,7 @@ distance = (5, 2)
 
 **代码#4 :**
 
-```
+```py
 static PyObject *py_func(PyObject *self, PyObject *args)
 {
     ...

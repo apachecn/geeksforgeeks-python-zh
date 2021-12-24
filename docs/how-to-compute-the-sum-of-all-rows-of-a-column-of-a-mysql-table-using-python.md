@@ -6,7 +6,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是，是对基�
 
 在本文中，我们将计算数据库中特定 MySQL 表中一列的所有行的总和。首先，我们将连接到一个包含 MySQL 表的数据库。将要使用的 SQL 查询是:
 
-```
+```py
 SELECT SUM(column_name) FROM table_name
 ```
 
@@ -24,7 +24,7 @@ SELECT SUM(column_name) FROM table_name
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import mysql.connector
 
@@ -62,7 +62,7 @@ db.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import mysql.connector
 

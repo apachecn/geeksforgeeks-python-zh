@@ -8,7 +8,7 @@ Python 蛇咬附带了命令行界面客户端，这是一个基于 HDFS 的客�
 
 我们也可以借助下面的命令来检查 ***属性的值。***
 
-```
+```py
 hdfs getconf -confKey fs.defaultFS      # We can also use fs.default.name but fs.defaultFS is most favourable
 
 ```
@@ -29,14 +29,14 @@ hdfs getconf -confKey fs.defaultFS      # We can also use fs.default.name but fs
 
 **语法:**
 
-```
+```py
 snakebite lshdfs://localhost:9000/<path>
 
 ```
 
 **示例:**
 
-```
+```py
 snakebite ls hdfs://localhost:9000/
 
 ```
@@ -47,14 +47,14 @@ snakebite ls hdfs://localhost:9000/
 
 **语法:**
 
-```
+```py
 snakebite rm  hdfs://localhost:9000/<file_path_with_name>
 
 ```
 
 **示例:**
 
-```
+```py
 snakebite rm  hdfs://localhost:9000/data.txt
 
 ```
@@ -65,14 +65,14 @@ snakebite rm  hdfs://localhost:9000/data.txt
 
 **语法:**
 
-```
+```py
 snakebite mkdir hdfs://localhost:9000/<path_with_directory_name>
 
 ```
 
 **示例:**
 
-```
+```py
 snakebite mkdir hdfs://localhost:9000/sample
 
 ```
@@ -81,7 +81,7 @@ snakebite mkdir hdfs://localhost:9000/sample
 
 **4。删除目录(在我的情况下，目录的名称是/示例)**
 
-```
+```py
 snakebite rmdir hdfs://localhost:9000/sample
 
 ```
@@ -94,7 +94,7 @@ snakebite rmdir hdfs://localhost:9000/sample
 
 Python 蛇咬库提供了许多与 HDFS 合作的工具。所有可供参考的开关和命令都可以通过简单的 ***【蛇咬】*** 命令列出。
 
-```
+```py
  snakebite     
 
 ```
@@ -105,7 +105,7 @@ Python 蛇咬库提供了许多与 HDFS 合作的工具。所有可供参考的�
 
 **用**检查**蛇咬版**下面的**命令**
 
-```
+```py
 snakebite --ver
 
 ```
@@ -116,7 +116,7 @@ snakebite --ver
 
 **示例:**
 
-```
+```py
 snakebite cat hdfs://localhost:9000/test.txt
 
 ```
@@ -127,14 +127,14 @@ snakebite cat hdfs://localhost:9000/test.txt
 
 **语法:**
 
-```
+```py
 snakebite copyToLocal <source> <destination>
 
 ```
 
 **示例:**
 
-```
+```py
 snakebite copyToLocal  hdfs://localhost:9000/test.txt /home/dikshant/Pictures
 
 ```
@@ -145,14 +145,14 @@ snakebite copyToLocal  hdfs://localhost:9000/test.txt /home/dikshant/Pictures
 
 **语法:**
 
-```
+```py
 snakebite touchz  hdfs://localhost:9000/<name_of_directory>
 
 ```
 
 **示例:**
 
-```
+```py
 snakebite touchz  hdfs://localhost:9000/demo_file
 
 ```
@@ -161,7 +161,7 @@ snakebite touchz  hdfs://localhost:9000/demo_file
 
 **4。du:显示磁盘使用情况统计**
 
-```
+```py
 snakebite du  hdfs://localhost:9000/    # show disk usage of root directory
 
 snakebite du  hdfs://localhost:9000/Hadoop_File   # show disk usage of /Hadoop_File directory i.e. already available
@@ -172,7 +172,7 @@ snakebite du  hdfs://localhost:9000/Hadoop_File   # show disk usage of /Hadoop_F
 
 **5。stat:它将给出目录或路径的最后修改时间。简而言之，它将给出目录或文件的统计数据**
 
-```
+```py
 snakebite stat  hdfs://localhost:9000/
 
 snakebite stat  hdfs://localhost:9000/Hadoop_File
@@ -183,7 +183,7 @@ snakebite stat  hdfs://localhost:9000/Hadoop_File
 
 **6 setrep:此命令用于更改 HDFS 文件/目录的复制因子。默认情况下****存储在 HDFS 的任何东西都是 3(在 hdfs core-site.xml 中设置)**
 
-```
+```py
 snakebite setrep 5  hdfs://localhost:9000/test.txt
 
 ```

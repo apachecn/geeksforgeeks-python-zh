@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def f():
 
     # local variable
@@ -25,7 +25,7 @@ f()
 
 **Output**
 
-```
+```py
 I love Geeksforgeeks
 ```
 
@@ -35,7 +35,7 @@ I love Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 def f():
 
     # local variable
@@ -49,7 +49,7 @@ print(s)
 
 **输出**
 
-```
+```py
 NameError: name 's' is not defined
 ```
 
@@ -61,7 +61,7 @@ NameError: name 's' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 # This function uses global variable s
 def f():
     print("Inside Function", s)
@@ -74,7 +74,7 @@ print("Outside Function", s)
 
 **Output**
 
-```
+```py
 Inside Function I love Geeksforgeeks
 Outside Function I love Geeksforgeeks
 ```
@@ -87,7 +87,7 @@ Outside Function I love Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # This function has a variable with
 # name same as s.
 def f():
@@ -102,7 +102,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 Me too.
 I love Geeksforgeeks.
 ```
@@ -115,7 +115,7 @@ I love Geeksforgeeks.
 
 ## 蟒蛇 3
 
-```
+```py
 # This function uses global variable s
 def f():
     s += 'GFG'
@@ -128,7 +128,7 @@ f()
 
 **输出**
 
-```
+```py
 UnboundLocalError: local variable 's' referenced before assignment
 ```
 
@@ -142,7 +142,7 @@ UnboundLocalError: local variable 's' referenced before assignment
 
 ## 蟒蛇 3
 
-```
+```py
 # This function modifies the global variable 's'
 def f():
     global s
@@ -159,7 +159,7 @@ print(s)
 
 **Output**
 
-```
+```py
 Python is great! GFG
 Look for Geeksforgeeks Python Section
 Look for Geeksforgeeks Python Section
@@ -171,7 +171,7 @@ Look for Geeksforgeeks Python Section
 
 ## 蟒蛇 3
 
-```
+```py
 a = 1
 
 # Uses global because there is no local 'a'
@@ -201,7 +201,7 @@ print('global : ', a)
 
 **Output**
 
-```
+```py
 global :  1
 Inside f() :  1
 global :  1

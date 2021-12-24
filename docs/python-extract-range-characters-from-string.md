@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract range  characters from String
 # Using list comprehension
@@ -41,7 +41,7 @@ print("Extracted String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best
 Extracted String : gkforgksiss
 
@@ -53,7 +53,7 @@ Extracted String : gkforgksiss
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract range  characters from String
 # Using filter() + lambda + join()
@@ -76,7 +76,7 @@ print("Extracted String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best
 Extracted String : gkforgksiss
 

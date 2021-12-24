@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Last weekday of every month in year
 # Using loop + max() + calendar.monthcalendar
@@ -62,7 +62,7 @@ print("Last weekdays of year : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Last weekday of every month in year
 # Using list comprehension

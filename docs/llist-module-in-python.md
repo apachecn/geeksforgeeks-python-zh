@@ -12,7 +12,7 @@ llist 是 CPython 的扩展模块，提供了基本的链表结构。它们明�
 
 为了利用 llist 提供的优势，它必须像任何其他 python 扩展或模块一样使用 pip 进行安装。以下命令将完成这项工作。
 
-```
+```py
 pip install llist
 ```
 
@@ -37,7 +37,7 @@ pip install llist
 下面的例子将帮助你更好地理解。他们给出了关于执行 llist 支持的两种列表的基本想法:
 **例 1:** sllist
 
-```
+```py
 # importing packages
 import llist
 from llist import sllist, sllistnode
@@ -81,7 +81,7 @@ print()
 
 **输出:**
 
-```
+```py
 sllist([first, second, third])
 sllistnode(first)
 sllistnode(third)
@@ -106,7 +106,7 @@ sllistnode(fifth)
 
 **示例 2:** dllist
 
-```
+```py
 # importing packages
 import llist
 from llist import dllist, dllistnode
@@ -154,7 +154,7 @@ print()
 
 **输出:**
 
-```
+```py
 dllist([first, second, third])
 dllistnode(first)
 dllistnode(third)

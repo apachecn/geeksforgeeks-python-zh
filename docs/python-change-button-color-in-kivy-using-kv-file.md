@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **注意:**默认情况下按钮颜色为黑色，只取 0-1 之间的值
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -37,7 +37,7 @@ Basic Approach:
 
 **.py file**
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## How to change button color in Kivy using .kv file 
 
@@ -75,7 +75,7 @@ if __name__ == "__main__": 
 
 **Btn.kv 文件实现 main.py 文件**
 
-```
+```py
 #.kv file implementation of color btn 
 
 <RelativeLayout>: 

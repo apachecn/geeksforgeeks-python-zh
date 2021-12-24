@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import inspect
 import plotly.express as px
@@ -25,7 +25,7 @@ from textwrap import fill
 
 ## 蟒蛇 3
 
-```
+```py
 # iterating over color module
 colorscale_names = []
 colors_modules = ['carto', 'colorbrewer', 'cmocean', 'cyclical',
@@ -41,7 +41,7 @@ for color_module in colors_modules:
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import inspect
 import plotly.express as px
@@ -65,7 +65,7 @@ print(fill(''.join(sorted({f'{x: <{15}}' for x in colorscale_names})), 75))
 
 **注意:**由于版本控制，部分色阶名称可能无法使用。
 
-```
+```py
 Aggrnyl        Aggrnyl_r      Agsunset       Agsunset_r     Alphabet
 Alphabet_r     Antique        Antique_r      Armyrose       Armyrose_r
 Blackbody      Blackbody_r    Bluered        Bluered_r      Blues
@@ -121,7 +121,7 @@ thermal        thermal_r      turbid         turbid_r
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 import numpy as np
 
@@ -154,7 +154,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 import numpy as np
 

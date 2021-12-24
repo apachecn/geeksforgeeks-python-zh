@@ -12,7 +12,7 @@
 
 **代码# 1:scaleb()方法示例**
 
-```
+```py
 # Python Program explaining 
 # scaleb() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with scaleb() method : ", b.scaleb(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  0
 
@@ -47,7 +47,7 @@ Decimal b with scaleb() method :  0
 
 **代码# 2:scaleb()方法示例**
 
-```
+```py
 # Python Program explaining 
 # scaleb() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with scaleb() method : ", b.scaleb(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  3
 Decimal value b :  2
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Count of matching elements among lists [ Including duplicates ]
 # Using loop
@@ -43,7 +43,7 @@ print("All matching elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [3, 5, 6, 7, 2, 3]
 The original list 2 : [5, 5, 3, 9, 8]
 All matching elements : 3
@@ -56,7 +56,7 @@ All matching elements : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Count of matching elements among lists [ Including duplicates ]
 # Using sum() + generator expression
@@ -78,7 +78,7 @@ print("All matching elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [3, 5, 6, 7, 2, 3]
 The original list 2 : [5, 5, 3, 9, 8]
 All matching elements : 3

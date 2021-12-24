@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add dictionary to tuple
 # using append() + tuple() + list comprehension
@@ -36,7 +36,7 @@ print("Tuple after addition of dictionary : " + str(test_tup))
 
 **Output : **
 
-```
+```py
 The original tuple : (4, 5, 6)
 Tuple after addition of dictionary : (4, 5, 6, {'best': 3, 'is': 2, 'gfg': 1})
 ```

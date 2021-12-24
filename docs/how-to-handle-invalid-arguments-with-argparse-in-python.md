@@ -12,7 +12,7 @@ argparse 模块有一个名为 **add_arguments()** 的函数，其中给出了�
 
 ## 计算机编程语言
 
-```
+```py
 import argparse
 
 # function to convert the input and 
@@ -46,7 +46,7 @@ find_square.py 输出
 
 ## 计算机编程语言
 
-```
+```py
 import argparse
 
 # function to check user name
@@ -105,7 +105,7 @@ pwd_check.py 输出
 
 ## 计算机编程语言
 
-```
+```py
 import argparse
 
 parser = argparse.ArgumentParser()

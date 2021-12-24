@@ -6,13 +6,13 @@
 我们可以借助下面给出的命令
 创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on 鼠标移动事件的语法，当这个事件被触发时这个方法被调用
 
-```
+```py
 @window.event       
 def on_mouse_motion(x, y, dx, dy):
     print("Mouse moved")
@@ -22,7 +22,7 @@ def on_mouse_motion(x, y, dx, dy):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -97,7 +97,7 @@ pyglet.app.run()
 
 <video class="wp-video-shortcode" id="video-481533-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200906042717/Geeksforgeeks-2020-09-06-04-26-46.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200906042717/Geeksforgeeks-2020-09-06-04-26-46.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200906042717/Geeksforgeeks-2020-09-06-04-26-46.mp4)</video>
 
-```
+```py
 Mouse position :  499 277
 Mouse position :  498 277
 Mouse position :  497 277

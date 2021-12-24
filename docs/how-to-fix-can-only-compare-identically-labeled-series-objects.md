@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -45,7 +45,7 @@ hostelCandidates1 == hostelCandidates2
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -91,7 +91,7 @@ hostelCandidates1.equals(hostelCandidates2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -127,7 +127,7 @@ hostelCandidates1.reset_index(drop=True).equals(
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 

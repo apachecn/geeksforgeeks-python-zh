@@ -6,7 +6,7 @@
 
 #### 要安装此模块，请在您的终端上运行以下命令:
 
-```
+```py
 pip install selenium
 ```
 
@@ -22,7 +22,7 @@ pip install selenium
 
 **将用户给定的电子邮件和密码分别发送到输入标签:**
 
-```
+```py
 driver.find_element_by_name('user').send_keys(email)
 driver.find_element_by_name('pass').send_keys(password)
 ```
@@ -43,7 +43,7 @@ driver.find_element_by_name('pass').send_keys(password)
 
 **从所选 css 选择器的返回列表中获取每个标签的文本:**
 
-```
+```py
 name = container[0].text
 try:
     institution = container[1].find_element_by_css_selector('a').text
@@ -54,7 +54,7 @@ email_id = container[2].text
 
 **最后打印输出:**
 
-```
+```py
 print({"Name": name, "Institution": institution, "Email ID": email})
 ```
 
@@ -62,7 +62,7 @@ print({"Name": name, "Institution": institution, "Email ID": email})
 
 单击练习选项卡，等待几秒钟以加载页面。
 
-```
+```py
 driver.find_elements_by_css_selector('a.mdl-navigation__link')[1].click()
 ```
 
@@ -78,7 +78,7 @@ driver.find_elements_by_css_selector('a.mdl-navigation__link')[1].click()
 
 迭代每个选定的网格，从中提取文本，并将其添加到输出集/列表中。
 
-```
+```py
 res = set()
 for grid in grids:
     res.add(grid.text.replace('\n',':'))
@@ -88,7 +88,7 @@ for grid in grids:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 from selenium import webdriver
 import time

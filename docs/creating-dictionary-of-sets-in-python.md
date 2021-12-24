@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create  dictionary of sets for student details
 data = {'Student Roll-no': {1, 2, 3, 4, 5},
         'Student Aadhar No': {11, 22, 33, 44, 55}}
@@ -35,7 +35,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # create  dictionary of sets for student details
 data = {'Student Roll-no': {1, 2, 3, 4, 5, 1, 2, 3, 2},
         'Student Aadhar No': {11, 22, 33, 44, 55, 22,
@@ -71,7 +71,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import defaultdict module
 from collections import defaultdict
 
@@ -113,7 +113,7 @@ setdefault()方法返回字典中某个键的值。如果没有，它会向字�
 
 ## 蟒蛇 3
 
-```
+```py
 # Dictionary with student data
 data = {'Student No': {1, 2, 3, 4, 5},
         'Student Aadhar No': {11, 22, 33, 44, 55}}

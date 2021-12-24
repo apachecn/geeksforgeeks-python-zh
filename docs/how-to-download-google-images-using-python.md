@@ -6,7 +6,7 @@ Python 是一种多用途语言，广泛用于脚本编写。我们可以编写 
 
 **如何安装需要的模块:**
 
-```
+```py
 pip install google_images_download
 ```
 
@@ -14,7 +14,7 @@ pip install google_images_download
 
 下面是 Python 代码:
 
-```
+```py
 # importing google_images_download module
 from google_images_download import google_images_download 
 

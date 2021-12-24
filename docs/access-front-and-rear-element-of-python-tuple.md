@@ -7,7 +7,7 @@
 **方法#1:使用访问括号**
 我们可以使用访问括号执行元组中前后元素的可能获取，方式类似于列表中元素的访问方式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Accessing front and rear element of tuple
 # using access brackets
@@ -28,7 +28,7 @@ print("The front and rear element of tuple are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (10, 4, 5, 6, 7)
 The front and rear element of tuple are : (10, 7)
 

@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`list_direct_messages()`** 方法用于获取认�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ for direct_message in direct_messages:
 
 **输出:**
 
-```
+```py
 1591868314610
 1591868289514
 1591868232626
@@ -62,7 +62,7 @@ for direct_message in direct_messages:
 
 **例 2 :** 统计最近 30 天的直邮数量。
 
-```
+```py
 # fetching the direct messages
 direct_messages = api.list_direct_messages()
 
@@ -71,7 +71,7 @@ print(len(direct_messages))
 
 **输出:**
 
-```
+```py
 6
 
 ```

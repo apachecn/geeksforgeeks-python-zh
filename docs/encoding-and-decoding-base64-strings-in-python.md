@@ -31,7 +31,7 @@ Base64 编码用于将包含二进制或文本数据的字节转换为 ASCII 字
 
 **示例:**
 
-```
+```py
 import base64
 
 sample_string = "GeeksForGeeks is the best"
@@ -45,7 +45,7 @@ print(f"Encoded string: {base64_string}")
 
 **输出:**
 
-```
+```py
 Encoded string: R2Vla3NGb3JHZWVrcyBpcyB0aGUgYmVzdA==
 ```
 
@@ -54,7 +54,7 @@ Encoded string: R2Vla3NGb3JHZWVrcyBpcyB0aGUgYmVzdA==
 
 **示例:**
 
-```
+```py
 import base64
 
 base64_string =" R2Vla3NGb3JHZWVrcyBpcyB0aGUgYmVzdA =="
@@ -68,6 +68,6 @@ print(f"Decoded string: {sample_string}")
 
 **输出:**
 
-```
+```py
 Decoded string: GeeksForGeeks is the best
 ```

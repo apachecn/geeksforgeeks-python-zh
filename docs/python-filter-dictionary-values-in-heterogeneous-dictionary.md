@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter dictionary values in heterogeneous dictionary
 # Using type() + dictionary comprehension
@@ -40,7 +40,7 @@ print("Values greater than K : " + str(res)) 
 
 **Output : **
 
-```
+```py
 The original dictionary : {'Gfg': 4, 'for': 'geeks', 'is': 2, 'best': 3}
 Values greater than K : {'Gfg': 4, 'for': 'geeks'}
 ```
@@ -50,7 +50,7 @@ Values greater than K : {'Gfg': 4, 'for': 'geeks'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter dictionary values in heterogeneous dictionary
 # Using isinstance() + dictionary comprehension
@@ -75,7 +75,7 @@ print("Values greater than K : " + str(res)) 
 
 **Output : **
 
-```
+```py
 The original dictionary : {'Gfg': 4, 'for': 'geeks', 'is': 2, 'best': 3}
 Values greater than K : {'Gfg': 4, 'for': 'geeks'}
 ```

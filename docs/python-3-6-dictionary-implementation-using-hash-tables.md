@@ -10,7 +10,7 @@ Python 中的 Dictionary 是数据值的集合，用于像映射一样存储数�
 
 ****示例:****
 
-```
+```py
 for the below dictionary:
 
 d = {'banana':'yellow', 'grapes':'green', 'apple':'red'}
@@ -29,7 +29,7 @@ used to store as:
 
 **相反，在新的 dict()实现中，数据现在被组织在由稀疏索引表引用的密集表中，如下所示:**
 
-```
+```py
  indices  = [None, 1, None, None, None, 0, None, 2]
  entries = [[2247849978273412954, 'banana', 'yellow']
              [-5850766811922200084, 'grapes', 'green'],
@@ -42,7 +42,7 @@ used to store as:
 
 **对于具有 n 个条目的大小为 t 的稀疏表，大小为:**
 
-```
+```py
 curr_size = 24 * t
 new_size = 24 * n + sizeof(index) * t
 ```

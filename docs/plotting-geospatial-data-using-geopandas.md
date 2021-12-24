@@ -8,7 +8,7 @@ GeoPandas 是一个开源工具，为 Pandas 对象添加地理数据支持。�
 
 我们将安装地球机器人、马特洛特利、数字机器人和熊猫。
 
-```
+```py
 pip install geopandas
 pip install matplotlib
 pip install numpy
@@ -24,7 +24,7 @@ pip install pandas
 
 我们将为数据框架数据结构导入 Pandas，为一些数学函数导入 NumPy，为支持和处理地理空间数据导入 GeoPandas，为实际绘制地图导入 Matplotlib。
 
-```
+```py
 import pandas as pd
 import geopandas as gpd
 import numpy as np
@@ -35,7 +35,7 @@ GeoPandas 为我们提供了一些默认的数据集以及它的安装。让我�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import geopandas as gpd
 import numpy as np
@@ -55,7 +55,7 @@ world.head()
 
 ## 蟒蛇 3
 
-```
+```py
 world.plot()
 ```
 
@@ -71,7 +71,7 @@ world.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 worldfiltered = world[world.continent == "Asia"]
 worldfiltered.plot(column ='gdp_md_est', cmap ='Reds')
 ```
@@ -84,7 +84,7 @@ worldfiltered.plot(column ='gdp_md_est', cmap ='Reds')
 
 ## 蟒蛇 3
 
-```
+```py
 world.plot(column ='pop_est')
 ```
 
@@ -98,7 +98,7 @@ world.plot(column ='pop_est')
 
 ## 蟒蛇 3
 
-```
+```py
 fig, ax = plt.subplots(1, figsize =(16, 8))
 world.plot(ax = ax, color ='black')
 world.plot(ax = ax, column ='pop_est', cmap ='Reds')
@@ -116,7 +116,7 @@ world.plot(ax = ax, column ='pop_est', cmap ='Reds')
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 fig, ax = plt.subplots(1, figsize =(16, 8),

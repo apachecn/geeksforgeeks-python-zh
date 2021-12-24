@@ -8,7 +8,7 @@
 
 让我们通过 pip 命令安装它们
 
-```
+```py
 pip install yfinance
 ```
 
@@ -26,7 +26,7 @@ pip install yfinance
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 
 # Here We are getting Facebook financial information
@@ -45,7 +45,7 @@ print(GetFacebookInformation.info)
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 
 GetFacebookInformation = yahooFinance.Ticker("FB")
@@ -62,7 +62,7 @@ print(" Company Beta : ", GetFacebookInformation.info['beta'])
 
 **输出:**
 
-```
+```py
 Company Sector :  Communication Services
 Price Earnings Ratio :  31.029732
  Company Beta :  1.286265
@@ -72,7 +72,7 @@ Price Earnings Ratio :  31.029732
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 GetFacebookInformation = yahooFinance.Ticker("FB")
 
@@ -89,7 +89,7 @@ for key, value in GetFacebookInformation.info.items():
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 
 GetFacebookInformation = yahooFinance.Ticker("FB")
@@ -113,7 +113,7 @@ print(GetFacebookInformation.history(period="max"))
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 
 GetFacebookInformation = yahooFinance.Ticker("FB")
@@ -131,7 +131,7 @@ print(GetFacebookInformation.history(period="6mo"))
 
 ## 蟒蛇 3
 
-```
+```py
 import yfinance as yahooFinance
 
 # in order to specify start date and

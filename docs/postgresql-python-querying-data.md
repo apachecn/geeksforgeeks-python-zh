@@ -8,13 +8,13 @@
 
 为了建立到 PostgreSQL 服务器的连接，我们将使用 python 中的 pscopg2 库。您可以使用以下命令安装 psycopg2:
 
-```
+```py
 pip install psycopg2
 ```
 
 如果上述命令导致错误，请使用以下命令:
 
-```
+```py
 pip uninstall psycopg2
 pip install psycopg2-binary
 ```
@@ -23,7 +23,7 @@ pip install psycopg2-binary
 
 ## 计算机编程语言
 
-```
+```py
 import psycopg2
 
 def get_connection():
@@ -48,7 +48,7 @@ else:
 
 **输出:**
 
-```
+```py
 Connection to the PostgreSQL established successfully.
 ```
 
@@ -70,7 +70,7 @@ Connection to the PostgreSQL established successfully.
 
 ## 计算机编程语言
 
-```
+```py
 # This program uses fetchall()
 # to query all the records from a table
 
@@ -106,7 +106,7 @@ fetchall 的输出()
 
 ## 计算机编程语言
 
-```
+```py
 # This program uses fetchone() to
 # query one by one record from a table
 
@@ -143,7 +143,7 @@ fetchone 的输出()
 
 ## 计算机编程语言
 
-```
+```py
 # This program uses fetchmany() 
 # to query specified number of records from a table
 

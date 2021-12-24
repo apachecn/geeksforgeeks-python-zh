@@ -8,7 +8,7 @@
 
 上述方法的组合可用于执行该特定任务。在这种情况下，我们只需将`keys()`提取的整个字典的键转换成一个列表，只需访问第一个键。在使用它时，你必须记住一件事，那就是它的复杂性。它将首先通过迭代每个项目将整个字典转换为列表，然后提取它的第一个元素。使用这种方法，复杂度为 0(n)。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Getting first key in dictionary
 # Using keys() + list()
@@ -29,7 +29,7 @@ print("The first key of dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'Gfg': 1, 'is': 2}
 The first key of dictionary is : best
 
@@ -38,7 +38,7 @@ The first key of dictionary is : best
 **方法 2:使用`next() + iter()`**
 这个任务也可以使用这些功能来执行。在这种情况下，我们只需使用`next()`取第一个下一个键，并使用`iter`函数来获得字典项目的可迭代转换。所以如果你只想要第一把钥匙，那么这个方法更有效。它的复杂性是 0(1)。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Getting first key in dictionary
 # Using next() + iter()
@@ -59,7 +59,7 @@ print("The first key of dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'Gfg': 1, 'is': 2}
 The first key of dictionary is : best
 

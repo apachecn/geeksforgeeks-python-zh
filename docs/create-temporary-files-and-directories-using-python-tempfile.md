@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.TemporaryFile()
@@ -24,7 +24,7 @@ print(temp.name)
 
 **输出:**
 
-```
+```py
 <_io.BufferedRandom name=7>
 7
 ```
@@ -39,7 +39,7 @@ print(temp.name)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.NamedTemporaryFile()
@@ -47,7 +47,7 @@ temp = tempfile.NamedTemporaryFile()
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.NamedTemporaryFile()
@@ -57,7 +57,7 @@ print(temp.name)
 
 **输出:**
 
-```
+```py
 <tempfile._TemporaryFileWrapper object at 0x7f77d332f6d8>
 /tmp/tmprumbbjz4
 ```
@@ -70,7 +70,7 @@ print(temp.name)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.NamedTemporaryFile(prefix='pre_', suffix='_suf')
@@ -79,7 +79,7 @@ print(temp.name)
 
 **输出:**
 
-```
+```py
 /tmp/pre_ddur6hvr_suf
 ```
 
@@ -91,7 +91,7 @@ print(temp.name)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.TemporaryFile()
@@ -104,7 +104,7 @@ temp.close()
 
 **输出:**
 
-```
+```py
 b'foo bar'
 
 ```
@@ -116,7 +116,7 @@ b'foo bar'
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 import os
 
@@ -126,7 +126,7 @@ print(temp_dir)
 
 **输出:**
 
-```
+```py
 <TemporaryDirectory '/tmp/tmpgjl5ki_5'>
 ```
 
@@ -137,7 +137,7 @@ print(temp_dir)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 secure_temp = tempfile.mkstemp(prefix="pre_",suffix="_suf")
@@ -146,7 +146,7 @@ print(secure_temp)
 
 **输出:**
 
-```
+```py
 (71, '/tmp/pre_i5us4u9j_suf')
 ```
 
@@ -156,7 +156,7 @@ print(secure_temp)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 secure_temp_dir = tempfile.mkdtemp(prefix="pre_",suffix="_suf")
@@ -165,7 +165,7 @@ print(secure_temp_dir)
 
 **输出:**
 
-```
+```py
 /tmp/pre_9xmtwh4u_suf
 ```
 
@@ -187,7 +187,7 @@ print(secure_temp_dir)
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 tempfile.tempdir = "/temp"
@@ -196,7 +196,7 @@ print(tempfile.gettempdir())
 
 **输出:**
 
-```
+```py
 /temp
 
 ```

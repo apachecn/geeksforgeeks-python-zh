@@ -12,13 +12,13 @@ Python 的`dropwhile()`函数只在`func`之后返回一个迭代器。`false`�
 
 **语法:**
 
-```
+```py
 dropwhile(func, seq):
 ```
 
 **例 1:**
 
-```
+```py
 # Python code to demonstrate the working of   
 # dropwhile() 
 
@@ -35,13 +35,13 @@ print(result) 
 
 **输出:**
 
-```
+```py
 [-8, -4, 2]
 ```
 
 **例 2:**
 
-```
+```py
 # Python code to demonstrate the working of   
 # dropwhile() 
 
@@ -57,6 +57,6 @@ print (list(itertools.dropwhile(lambda x : x % 2 == 0, li))) 
 
 **输出:**
 
-```
+```py
 The values after condition returns false : [5, 7, 8]
 ```

@@ -24,7 +24,7 @@
 
 **Pathlib** 是 Python 中的一个模块，提供了用于处理文件和目录的对象 API。
 
-```
+```py
 imageio
 pathlib
 ```
@@ -51,7 +51,7 @@ pathlib
 
 ## 蟒蛇 3
 
-```
+```py
 # importing path library from pathlib package
 from pathlib import Path
 
@@ -87,7 +87,7 @@ for file_name in images:
 
 ## 蟒蛇 3
 
-```
+```py
 imageio.mimwrite('animated_meteogram.gif', image_list)
 ```
 
@@ -97,7 +97,7 @@ imageio.mimwrite('animated_meteogram.gif', image_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import imageio packages
 # Generate GIF/animation of meteogram
 import imageio

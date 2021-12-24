@@ -10,7 +10,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install tinyhtml
 ```
 
@@ -26,7 +26,7 @@ pip install tinyhtml
 
 ## 蟒蛇 3
 
-```
+```py
 from tinyhtml import html, h
 
 # Constructing HTML using html() and h()
@@ -49,7 +49,7 @@ print(html_content)
 
 ## 蟒蛇 3
 
-```
+```py
 from tinyhtml import html, h, frag, raw
 
 # using frag() to group to h fncs.
@@ -80,7 +80,7 @@ print(raw('<h1>Printing Raw HTML</h1>
 
 ## 蟒蛇 3
 
-```
+```py
 from tinyhtml import h
 
 # using klass to initialize class
@@ -104,7 +104,7 @@ print(label_inp)
 
 ## 蟒蛇 3
 
-```
+```py
 from tinyhtml import h
 
 # initializing loop elements
@@ -129,7 +129,7 @@ print(conditional_element)
 
 ## 蟒蛇 3
 
-```
+```py
 from tinyhtml import h, html, frag
 
 # function to create layout.

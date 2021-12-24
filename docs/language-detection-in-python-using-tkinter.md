@@ -11,13 +11,13 @@
 *   **Python 中使用 Tkinter** 模块创建基于 GUI 的界面。
 *   对于语言检测，我们将使用[](https://www.geeksforgeeks.org/detect-an-unknown-language-using-python/)****模块。 **langdetect** 模块是谷歌语言检测库的一个端口，支持 55 种语言。这个模块没有 Python 的标准实用程序模块。所以，需要从外部安装。要安装此软件，请在终端中键入以下命令。****
 
-```
+```py
 **pip install langdetect**
 ```
 
 *   ****检测到的语言输出是以代码形式出现的，它不显示语言名称。这里我们将使用来自 **iso-639** 模块的**语言**类。该模块用于将语言代码转换为语言名称。要安装，请运行下面给出的命令:****
 
-```
+```py
 **pip install iso-639**
 ```
 
@@ -34,7 +34,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Module
 from tkinter import *
 from langdetect import *

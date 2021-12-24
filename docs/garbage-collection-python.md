@@ -12,7 +12,7 @@ Python 使用两种内存分配策略:
 
 ## 计算机编程语言
 
-```
+```py
 # Literal 9 is an object
 b = 9
 
@@ -26,7 +26,7 @@ b = 4
 
 ## 计算机编程语言
 
-```
+```py
 def create_cycle():
 
     # create a list x
@@ -46,7 +46,7 @@ create_cycle()
 
 ## 计算机编程语言
 
-```
+```py
 x = []
 x.append(l)
 x.append(2)
@@ -65,7 +65,7 @@ del x
 
 ## 计算机编程语言
 
-```
+```py
 # loading gc
 import gc
 
@@ -77,7 +77,7 @@ print("Garbage collection thresholds:",
 
 **输出:**
 
-```
+```py
 Garbage collection thresholds: (700, 10, 10) 
 ```
 
@@ -90,7 +90,7 @@ Garbage collection thresholds: (700, 10, 10)
 
 ## 计算机编程语言
 
-```
+```py
 # Importing gc module
 import gc
 
@@ -107,7 +107,7 @@ print("Garbage collector: collected",
 
 **输出:**
 
-```
+```py
 ('Garbage collector: collected', '0 objects.')
 ```
 
@@ -116,7 +116,7 @@ print("Garbage collector: collected",
 
 ## 计算机编程语言
 
-```
+```py
 import gc
 i = 0
 
@@ -143,7 +143,7 @@ print "Garbage collector: collected %d objects." % (collected)
 
 **输出:**
 
-```
+```py
 Garbage collector: collected 0 objects.
 Creating cycles...
 {1: {...}}

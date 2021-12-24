@@ -6,14 +6,14 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 
 ```
 
 下面是窗口停用事件的语法，当这个事件被触发时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_deactivate():
     print("Window Deactivated")
@@ -22,7 +22,7 @@ def on_deactivate():
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -93,7 +93,7 @@ pyglet.app.run()
 ![](img/461947f48974ccfc94ced0cfa89b3962.png)
 当我们切换到另一个 app 时，会触发此事件
 
-```
+```py
 Switched to another app
 
 ```

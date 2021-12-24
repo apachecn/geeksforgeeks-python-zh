@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -40,7 +40,7 @@ print(person['biography'])
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -62,6 +62,6 @@ print(person['filmography'])
 
 **输出:**
 
-```
+```py
 [{'actor': [Movie id:11261278[http] title:_Romeo (2020)_.......(2018)_]}]
 ```

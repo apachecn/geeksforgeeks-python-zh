@@ -8,7 +8,7 @@ Python 是一种非常强大的语言，在库方面也非常丰富。**电话�
 
 通过在命令提示符下键入以下命令来安装 phonenumbers 模块。
 
-```
+```py
 pip install phonenumbers
 
 ```
@@ -19,7 +19,7 @@ pip install phonenumbers
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to convert input to
 # phonenumber format
 
@@ -36,7 +36,7 @@ print(phoneNumber)
 
 **输出:**
 
-```
+```py
 Country Code: 91 National Number: 9876543210
 
 ```
@@ -45,7 +45,7 @@ Country Code: 91 National Number: 9876543210
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to get timezone a phone number
 
 import phonenumbers
@@ -63,7 +63,7 @@ print(timeZone)
 
 **输出:**
 
-```
+```py
 ('Asia/Calcutta',)
 
 ```
@@ -72,7 +72,7 @@ print(timeZone)
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to extract phone numbers from a text
 import phonenumbers
 
@@ -90,7 +90,7 @@ for number in numbers:
 
 **输出:**
 
-```
+```py
 PhoneNumberMatch [14,27) +919876543210
 
 ```
@@ -99,7 +99,7 @@ PhoneNumberMatch [14,27) +919876543210
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to find carrier and region
 # of a phone number
 import phonenumbers
@@ -121,7 +121,7 @@ print(Region)
 
 **输出:**
 
-```
+```py
 Airtel
 India
 
@@ -131,7 +131,7 @@ India
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to check whether a phone number is
 # valid or not
 import phonenumbers
@@ -152,7 +152,7 @@ print(possible)
 
 **输出:**
 
-```
+```py
 False
 True
 ```

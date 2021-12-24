@@ -19,7 +19,7 @@ fancyimpute 是一个缺失数据插补算法库。Fancyimpute 使用机器学�
 
 T2T4
 
-```
+```py
 import pandas as pd
 import numpy as np
 # importing the KNN from fancyimpute library
@@ -49,7 +49,7 @@ T5
 
 ### 输出:
 
-```
+```py
     A    B    C  D
 0  NaN  2.0  NaN  0
 1  3.0  4.0  NaN  1
@@ -73,7 +73,7 @@ MICE 使用多重插补，而不是单一插补，这导致统计不确定性。
 
 ## 
 
-```
+```py
 import pandas as pd
 import numpy as np
 # importing the MICE from fancyimpute library
@@ -101,7 +101,7 @@ print(df)
 
 #### 输出
 
-```
+```py
     A    B    C   D
 0  NaN  2.0  NaN  0
 1  3.0  4.0  NaN  1

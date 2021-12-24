@@ -6,7 +6,7 @@
 
 命令安装 **pygame** :
 
-```
+```py
 pip install pygame
 
 ```
@@ -20,7 +20,7 @@ pip install pygame
 
 下面是实现:
 
-```
+```py
 # import pygame module in this program
 import pygame
 

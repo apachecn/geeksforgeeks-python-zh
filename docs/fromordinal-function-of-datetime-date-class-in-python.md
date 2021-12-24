@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # the Gregorian date corresponding
 # to a given Gregorian ordinal.
@@ -38,7 +38,7 @@ ordinal %d is: %s"%(ordinal, date));
 
 **输出:**
 
-```
+```py
 The Gregorian date for the Gregorian ordinal 123456 is: 0339-01-05
 ```
 
@@ -46,7 +46,7 @@ The Gregorian date for the Gregorian ordinal 123456 is: 0339-01-05
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # the Gregorian date corresponding
 # to a given Gregorian ordinal.
@@ -66,6 +66,6 @@ of Gregorian calendar: %s"%date);
 
 **输出:**
 
-```
+```py
 Gregorian Date for the 1st day of Gregorian calendar: 0001-01-01
 ```

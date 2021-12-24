@@ -11,7 +11,7 @@
 3.  应该至少有一个特殊符号。
 4.  长度应该在 6 到 20 个字符之间。
 
-```
+```py
 Input :  Geek12#
 Output : Password is valid.
 
@@ -23,7 +23,7 @@ Output : Invalid Password !!
 
 **方法#1:** 朴素方法(不使用正则表达式)。
 
-```
+```py
 # Password validation in Python
 # using naive method
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 Password is valid
 
 ```
@@ -86,7 +86,7 @@ Password is valid
 
 regex 模块的`compile()`方法制作了一个 Regex 对象，使得在 *pat* 变量上执行 Regex 函数成为可能。然后我们检查由 *pat* 定义的模式后面是否跟有输入字符串 *passwd* 。如果是，搜索方法返回*真*，这将允许密码有效。
 
-```
+```py
 # importing re library
 import re
 
@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 Password is valid.
 
 ```

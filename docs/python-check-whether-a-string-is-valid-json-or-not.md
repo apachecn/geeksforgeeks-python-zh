@@ -6,7 +6,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python code to demonstrate
 # checking whether string
 # is valid json or not
@@ -28,7 +28,7 @@ except ValueError as e:
 
 **Output:**
 
-```
+```py
 initial string {'akshat' : 1, 'nikhil' : 2}
 Is valid json? false
 
@@ -36,7 +36,7 @@ Is valid json? false
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate
 # checking whether string
 # is valid json or not
@@ -63,7 +63,7 @@ except ValueError as e:
 
 **Output:**
 
-```
+```py
 initial strings given - 
  {"name":"John", "age":31, "Salary":25000} 
  { "Subjects": {"Maths":85, "Physics":90}}

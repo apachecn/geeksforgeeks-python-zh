@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Tuple to Dictionary Key
 # Using loop + join()
@@ -41,7 +41,7 @@ print("The computed Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(('gfg', 'is', 'best'), 10), (('gfg', 'good'), 1), (('gfg', 'for', 'cs'), 15)]
 The computed Dictionary : {'gfg is best': 10, 'gfg good': 1, 'gfg for cs': 15}
 
@@ -53,7 +53,7 @@ The computed Dictionary : {'gfg is best': 10, 'gfg good': 1, 'gfg for cs': 15}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Tuple to Dictionary Key
 # Using dictionary comprehension
@@ -73,7 +73,7 @@ print("The computed Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(('gfg', 'is', 'best'), 10), (('gfg', 'good'), 1), (('gfg', 'for', 'cs'), 15)]
 The computed Dictionary : {'gfg is best': 10, 'gfg good': 1, 'gfg for cs': 15}
 

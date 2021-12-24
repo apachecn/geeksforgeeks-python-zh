@@ -7,7 +7,7 @@
 **方法#1:使用`index()` 和列表切片**
 列表切片可用于从本地列表中获取子列表，索引函数可用于检查可能充当分隔符的 K 字符。这样做的缺点是，它只适用于单个拆分，即只能将一个列表拆分为两个子列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Group List on K character
 # using index() + list slicing 
@@ -32,7 +32,7 @@ print("The list of sublist after separation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Geeks', 'for', 'M', 'Geeks', 1, 2]
 The list of sublist after separation : [['Geeks', 'for'], ['Geeks', 1, 2]]
 

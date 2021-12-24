@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class Subject:
 
     """Represents what is being observed"""
@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
 ### 输出
 
-```
+```py
 DecimalViewer: Subject Data 1 has data 10
 HexViewer: Subject Data 1 has data 0xa
 OctalViewer: SubjectData 1has data 0o12

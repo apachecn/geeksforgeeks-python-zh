@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # Getting current date and time using 
 # now(). 
@@ -45,7 +45,7 @@ print (current_time) 
 
 **输出:**
 
-```
+```py
 Time now at greenwich meridian is : 2021-03-16 17:59:03.837572
 ```
 
@@ -55,7 +55,7 @@ now()函数有各种属性，可以从上面的输出中给出所需的细节。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # attributes of now() 
 
@@ -92,7 +92,7 @@ print (current_time.microsecond)
 
 **输出:**
 
-```
+```py
 The attributes of now() are : 
 Year : 2021
 Month : 3
@@ -111,7 +111,7 @@ DateTime 模块还提供了另一个名为 **today()** 的方法，只打印今�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get 
 # current date 
 
@@ -125,7 +125,7 @@ print("Today date is: ", today)
 
 **输出:**
 
-```
+```py
 Today date is:  2021-03-16
 ```
 
@@ -137,7 +137,7 @@ Today date is:  2021-03-16
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime 
 
 # Time object containing 
@@ -149,7 +149,7 @@ print("Current Time =", time)
 
 **输出:**
 
-```
+```py
 Current Time = 18:13:35.003918
 ```
 
@@ -173,7 +173,7 @@ Current Time = 18:13:35.003918
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate 
 # strftime() function 
 
@@ -202,7 +202,7 @@ print('\nExample 4:', s)
 
 ****输出:****
 
-```
+```py
 Without formatting 2021-03-16 18:28:59.055609
 
 Example 1: Tue 03 21
@@ -230,7 +230,7 @@ Example 4: 75
 
 ## **蟒蛇 3**
 
-```
+```py
 # import datetime
 from datetime import timedelta
 
@@ -248,7 +248,7 @@ print(d2)
 
 ****输出:****
 
-```
+```py
 7 days, 0:00:00
 30 days, 0:00:00
 ```
@@ -259,7 +259,7 @@ print(d2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Timedelta function demonstration 
 
 from datetime import datetime, timedelta 
@@ -283,7 +283,7 @@ print('future_date_after_2days:', str(future_date_after_2days)) 
 
 ****输出:****
 
-```
+```py
 initial_date 2021-03-16 18:47:53.103230
 future_date_after_2yrs: 2023-03-16 18:47:53.103230
 future_date_after_2days: 2021-03-18 18:47:53.103230
@@ -299,7 +299,7 @@ future_date_after_2days: 2021-03-18 18:47:53.103230
 
 ## **蟒蛇 3**
 
-```
+```py
 # import datetime
 from datetime import date
 
@@ -316,7 +316,7 @@ print("Difference: ", diff.days)
 
 ****输出:****
 
-```
+```py
 Difference:  15
 ```
 
@@ -324,7 +324,7 @@ Difference:  15
 
 ## **蟒蛇 3**
 
-```
+```py
 # import datetime
 from datetime import datetime
 
@@ -341,7 +341,7 @@ print("Difference: ", diff)
 
 ****输出:****
 
-```
+```py
 Difference:  14 days, 16:55:56
 ```
 
@@ -358,7 +358,7 @@ Difference:  14 days, 16:55:56
 
 ## **蟒蛇 3**
 
-```
+```py
 # Simple Python program to compare dates 
 
 # importing datetime module 
@@ -377,7 +377,7 @@ print("d1 is not equal to d2 : ", d1 != d2)
 
 ****输出:****
 
-```
+```py
 d1 is greater than d2 :  False
 d1 is less than d2 :  True
 d1 is not equal to d2 :  True
@@ -409,7 +409,7 @@ d1 is not equal to d2 :  True
 
 ## **蟒蛇 3**
 
-```
+```py
 import datetime as dt 
 from dateutil import tz 
 
@@ -427,7 +427,7 @@ print("Aware Object :", dt2.tzname())
 
 ****输出:****
 
-```
+```py
 datetime.now() : UTC
 Naive Object : None
 Aware Object : CET
@@ -449,7 +449,7 @@ Aware Object : CET
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime 
 from pytz import timezone 
 
@@ -466,7 +466,7 @@ print(now_asia.strftime(format))
 
 ****输出:****
 
-```
+```py
 2021-03-17 07:41:19 UTC+0000
 2021-03-17 13:11:19 IST+0530
 ```

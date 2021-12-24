@@ -44,21 +44,21 @@ Pandas 是一个快速、强大、灵活且易于使用的开源数据分析和�
 
 2.1.从网址生成 pdf:下面的脚本给了我们一个网站网址的 PDF 文件。
 
-```
+```py
 import pdfkit
 pdfkit.from_url('https://www.geeksforgeeks.org', 'Output.pdf')
 ```
 
 2.2.从文件生成 pdf:下面的脚本给我们从一个 HTML 文件生成 PDF 文件。
 
-```
+```py
 import pdfkit
 pdfkit.from_file('LocalHTMLFile.html', 'Output.pdf')
 ```
 
 2.3.从字符串生成 pdf:下面的脚本给出了一个字符串的 PDF 文件。
 
-```
+```py
 import pdfkit
 pdfkit.from_string('Geeks For Geeks', 'Output.pdf')
 ```
@@ -99,7 +99,7 @@ pdfkit.from_url("MyCSV.html "，" FinalOutput.pdf "，configuration=config)
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import pdfkit
 

@@ -31,7 +31,7 @@ Python 提供了各种库，这些库具有不同的可视化数据的功能。�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # reading the database
@@ -51,7 +51,7 @@ Matplotlib 是一个易于使用的低级数据可视化库，构建在 NumPy �
 
 要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -72,7 +72,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -102,7 +102,7 @@ plt.show()
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -137,7 +137,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -170,7 +170,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -202,7 +202,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -230,7 +230,7 @@ plt.show()**
 
 ****要安装 seaborn，请在终端中键入以下命令。****
 
-```
+```py
 **pip install seaborn**
 ```
 
@@ -244,7 +244,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -274,7 +274,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -297,7 +297,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -323,7 +323,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -344,7 +344,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -370,7 +370,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -397,7 +397,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -425,7 +425,7 @@ plt.show()**
 
 ****要安装此软件，请在终端中键入以下命令。****
 
-```
+```py
 **pip install bokeh**
 ```
 
@@ -439,7 +439,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 from bokeh.plotting import figure, output_file, show
 from bokeh.palettes import magma
@@ -472,7 +472,7 @@ show(graph)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 from bokeh.plotting import figure, output_file, show
 import pandas as pd
@@ -506,7 +506,7 @@ show(graph)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 from bokeh.plotting import figure, output_file, show
 import pandas as pd
@@ -543,7 +543,7 @@ show(graph)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 from bokeh.plotting import figure, output_file, show
 import pandas as pd
@@ -583,7 +583,7 @@ show(graph)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from bokeh.io import show
 from bokeh.models import Button, CheckboxGroup, RadioGroup, CustomJS
 
@@ -629,7 +629,7 @@ show(radio_group)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from bokeh.io import show
 from bokeh.models import CustomJS, Slider
 
@@ -660,7 +660,7 @@ show(slider)**
 
 ****要安装它，请在终端中键入以下命令。****
 
-```
+```py
 **pip install plotly**
 ```
 
@@ -674,7 +674,7 @@ show(slider)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.express as px
 import pandas as pd
 
@@ -700,7 +700,7 @@ fig.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.express as px
 import pandas as pd
 
@@ -726,7 +726,7 @@ fig.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.express as px
 import pandas as pd
 
@@ -752,7 +752,7 @@ fig.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.express as px
 import pandas as pd
 
@@ -785,7 +785,7 @@ fig.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.graph_objects as px
 import pandas as pd
 
@@ -837,7 +837,7 @@ plot.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import plotly.graph_objects as px
 import pandas as pd
 

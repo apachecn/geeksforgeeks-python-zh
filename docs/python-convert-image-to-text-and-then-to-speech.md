@@ -15,7 +15,7 @@
 
 ![](img/0aaac01f38711de91832c4219ea4f120.png)
 
-```
+```py
 
 Input : We Have an image with some text 
 
@@ -38,7 +38,7 @@ Output: THE TEXT FROM THE IMAGE IS EXTRACTED AND A VOICE WILL SPEAK THE TEXT
 
 **代码:将文字转换为语音的 Python 代码**
 
-```
+```py
 # import the following libraries
 # will convert the image to text string
 import pytesseract      

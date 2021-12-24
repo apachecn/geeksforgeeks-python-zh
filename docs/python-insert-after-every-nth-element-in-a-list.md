@@ -7,7 +7,7 @@
 **方法#1:使用`join() + enumerate()`**
 我们可以使用 join 函数将第 n 个子串中的每一个与数字 K 连接起来，并枚举可以执行列表选择性迭代的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # inserting K after every Nth number
 # using join() + enumerate()

@@ -10,7 +10,7 @@
 
 在这个任务中，我们只需使用+运算符在后面或前面添加字符串，并使用列表理解来遍历所有元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Append suffix / prefix to strings in list
 # Using list comprehension + "+" operator
@@ -35,7 +35,7 @@ print("list after suffix addition : " + str(suf_res))
 
 **输出:**
 
-```
+```py
 
 The original list : ['a', 'b', 'c', 'd']
 list after prefix addition : ['gfga', 'gfgb', 'gfgc', 'gfgd']

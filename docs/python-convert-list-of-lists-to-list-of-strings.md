@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join()`**
 上述功能的组合可用于执行该任务。在本例中，我们使用列表理解执行迭代任务，join()用于执行将字符串连接到字符串列表的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert List of lists to list of Strings
 # using list comprehension + join()
@@ -28,7 +28,7 @@ print("The String of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [['g', 'f', 'g'], ['i', 's'], ['b', 'e', 's', 't']]
 The String of list is : ['gfg', 'is', 'best']
 

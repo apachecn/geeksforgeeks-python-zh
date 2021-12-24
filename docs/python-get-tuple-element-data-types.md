@@ -7,7 +7,7 @@
 **方法一:使用`map() + type()`**
 使用这个功能是执行这个任务最常规也是最好的方式。在这种情况下，我们只允许`map()`将使用`type()`查找数据类型的逻辑扩展到元组的每个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get tuple element data types
 # Using map() + type()
@@ -28,7 +28,7 @@ print("The data types of tuple in order are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple is : ('gfg', 1, ['is', 'best'])
 The data types of tuple in order are : [<class 'str'>, <class 'int'>, <class 'list'>]
 

@@ -6,7 +6,7 @@
 
 对于本文，我们将考虑如下构建的图表:
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -30,7 +30,7 @@ nx.draw_networkx(G, with_labels = True)
 
     > **comm _ masseb(X，Y) =** |N(X) ![\cap](img/6463f39e73afb70f874d7c5e7c1d05ae.png "Rendered by QuickLaTeX.com") N(Y)|，其中 N(X)是 X 的所有邻居的集合
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -64,7 +64,7 @@ nx.draw_networkx(G, with_labels = True)
 
     **输出:**
 
-    ```
+    ```py
     The possible new edges according to Triadic closure are :
     [(2, 3), (2, 4), (3, 2), (4, 2), (1, 5), (3, 5), (5, 1), (5, 3)]
 
@@ -74,11 +74,11 @@ nx.draw_networkx(G, with_labels = True)
 
     它是通过邻居总数归一化的公共邻居数来计算的。它用于度量两个有限样本集之间的相似性，定义为交集的大小除以样本集并集的大小。
 
-    ```
+    ```py
     Jaccard Coefficient(X, Y) = 
     ```
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -97,11 +97,11 @@ nx.draw_networkx(G, with_labels = True)
 
     在许多基于相似性的方法中，研究分配指数以较低的时间复杂度来预测复杂网络中的缺失链路。它被定义为一个节点可以通过其公共邻居发送给另一个节点的资源的一部分。
 
-    ```
+    ```py
     Research Allocation Index(X, Y) = 
     ```
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -120,11 +120,11 @@ nx.draw_networkx(G, with_labels = True)
 
     这项措施是在 2003 年推出的，根据两个节点之间共享的链路数量来预测网络中缺失的链路。计算如下:
 
-    ```
+    ```py
     Adamic Adar Index(X, Y) = 
     ```
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -143,11 +143,11 @@ nx.draw_networkx(G, with_labels = True)
 
     优先连接意味着节点连接越多，接收新链接的可能性就越大(参考[这篇](https://www.geeksforgeeks.org/operations-on-graph-and-special-graphs-using-networkx-module-python/)文章参考基于优先连接概念形成的 Barabasi Albert 图)程度越高的节点得到的邻居就越多。
 
-    ```
+    ```py
     Preferential Attachment(X, Y) = |N(X)|.|N(Y)|
     ```
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -158,7 +158,7 @@ nx.draw_networkx(G, with_labels = True)
 
     **输出:**
 
-    ```
+    ```py
     [(1, 5, 3), (2, 3, 2), (2, 4, 3), (2, 5, 1), (3, 5, 2)]
 
     ```
@@ -172,7 +172,7 @@ nx.draw_networkx(G, with_labels = True)
     > **社区共同邻居(X，Y) =** |N(X) ![\cap](img/6463f39e73afb70f874d7c5e7c1d05ae.png "Rendered by QuickLaTeX.com") N(Y)| + ![\Sigma_{u \epsilon N(X) \cap N(Y)} f(u)](img/cbab29363727f109329e7b6417bf75ce.png "Rendered by QuickLaTeX.com")，
     > 其中 f(u) = 1，如果 u 在一个社区；否则为 0。
 
-    ```
+    ```py
     import networkx as nx
     import matplotlib.pyplot as plt
 
@@ -198,7 +198,7 @@ nx.draw_networkx(G, with_labels = True)
     **输出:**
     ![](img/6440d10b26079dce683ad513ae28e090.png)
 
-    ```
+    ```py
     [('I', 'A', 0),
      ('I', 'C', 0),
      ('I', 'D', 0),
@@ -233,11 +233,11 @@ nx.draw_networkx(G, with_labels = True)
 
     使用社区信息计算所有节点对的资源分配指数。
 
-    ```
+    ```py
     Community Resource Allocation(X, Y) = 
     ```
 
-    ```
+    ```py
     import networkx as nx
 
     G = nx.Graph()
@@ -261,7 +261,7 @@ nx.draw_networkx(G, with_labels = True)
 
     **输出:**
 
-    ```
+    ```py
     [('I', 'A', 0),
      ('I', 'C', 0),
      ('I', 'D', 0),

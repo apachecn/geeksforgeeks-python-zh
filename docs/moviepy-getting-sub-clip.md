@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -30,7 +30,7 @@ clip.ipython_display(width = 480)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -42,7 +42,7 @@ Moviepy - video ready __temp__.mp4
 
 另一个例子
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -58,7 +58,7 @@ clip.ipython_display()
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 MoviePy - Writing audio in __temp__TEMP_MPY_wvf_snd.mp3
 

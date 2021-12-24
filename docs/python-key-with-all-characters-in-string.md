@@ -7,7 +7,7 @@
 **方法:使用`all()` +词典理解**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 all()来执行整个字典的检查，并使用 items()来提取项目。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Key with all Characters in String
 # Using all() + dictionary comprehension

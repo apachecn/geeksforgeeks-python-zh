@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`lookup_friendships()`** 方法用于获取认证�
 
 **示例 1 :** 使用屏幕名称分析关系。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -55,7 +55,7 @@ for friendship in friendships:
 
 **输出:**
 
-```
+```py
 Is the authenticated user following SrBachchan? : False
 Is the authenticated user following akshaykumar? : True
 Is the authenticated user following imVkohli? : True
@@ -66,7 +66,7 @@ Is the authenticated user following SonuSood? : False
 
 **示例 2 :** 使用用户标识分析关系。
 
-```
+```py
 # list of user IDs
 user_ids = [813286,
             27260086,
@@ -84,7 +84,7 @@ for friendship in friendships:
 
 **输出:**
 
-```
+```py
 Is the authenticated user following BarackObama? : True
 Is the authenticated user following justinbieber? : False
 Is the authenticated user following katyperry? : False

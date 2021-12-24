@@ -7,7 +7,7 @@
 **方法#1:使用嵌套循环+ `set()`**
 以上 2 个功能可以用来解决这个特殊问题。在这种情况下，我们迭代每个嵌套元组，如果元素第一次出现，就添加到集合中，并在添加之前检查每个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unique elements in nested tuple
 # Using nested loop + set()
@@ -34,7 +34,7 @@ print("Unique elements in nested tuples are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 4, 5), (4, 5, 7), (1, 4)]
 Unique elements in nested tuples are : [3, 4, 5, 7, 1]
 

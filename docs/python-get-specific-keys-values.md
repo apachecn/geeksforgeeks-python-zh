@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 该任务可以使用列表理解来执行，列表理解被用作使用循环执行较长检查任务的较短方式。这提供了一个解决这个问题的线性方法。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get specific keys' values
 # Using list comprehension
@@ -31,7 +31,7 @@ print("Filtered value list is : " +  str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'is': 2, 'best': 3, 'gfg': 1}
 Filtered value list is : [1, 3]
 

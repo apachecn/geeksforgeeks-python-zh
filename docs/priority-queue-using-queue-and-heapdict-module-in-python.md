@@ -22,7 +22,7 @@
 
 **示例:**
 
-```
+```py
 from queue import PriorityQueue
 
 q = PriorityQueue()
@@ -51,7 +51,7 @@ print('Is queue full :', q.full())
 
 **输出:**
 
-```
+```py
 (1, 'e')
 (2, 'g')
 Items in queue : 3
@@ -76,7 +76,7 @@ Heapdict 实现了可变映射 ABC，这意味着它的工作方式非常像普�
 
 **示例:**
 
-```
+```py
 import heapdict
 
 h = heapdict.heapdict()
@@ -107,7 +107,7 @@ print(list(h.items()))
 
 **输出:**
 
-```
+```py
 list of key:value pairs in h:
  [('g', 2), ('e', 1), ('k', 3), ('s', 4)]
 pair with lowest priority:

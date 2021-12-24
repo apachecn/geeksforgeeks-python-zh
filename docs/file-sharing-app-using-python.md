@@ -15,7 +15,7 @@
 
 *   **安装第三方模块:**
 
-```
+```py
 pip install pyqrcode
 pip install pypng
 ```
@@ -36,7 +36,7 @@ pip install pypng
 
 ## **蟒蛇 3**
 
-```
+```py
 # import necessary modules
 
 # for implementing the HTTP Web servers

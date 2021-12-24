@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pygame
 
 # GLOBAL VARIABLES
@@ -64,7 +64,7 @@ class Sprite(pygame.sprite.Sprite):
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 import pygame
 

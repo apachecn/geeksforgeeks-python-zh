@@ -47,7 +47,7 @@
 
 为了评估我们的模型，我们将看到测试集的准确性分数和模型的分类报告。
 
-```
+```py
 from sklearn.datasets import load_wine
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
@@ -90,7 +90,7 @@ print(f"Classification Report : \n\n{classification_report(
 
 **输出:**
 
-```
+```py
 Test Set Accuracy : 66.66666666666666 %
 
 Classification Report : 

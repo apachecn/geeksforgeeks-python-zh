@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class AbstractHandler(object):
 
     """Parent class of all concrete handlers"""
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
 ### 输出
 
-```
+```py
 This is DefaultHandler telling you that request 'G' has no handler right now.
 This is FirstConcreteHandler handling request 'e'
 This is FirstConcreteHandler handling request 'e'

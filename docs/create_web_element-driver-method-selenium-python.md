@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.create_web_element(element_id)
 ```
 
 **示例–**
 现在可以使用 create_web_element 方法作为驱动方法，如下所示–
 
-```
+```py
 element_clone = driver.create_web_element(id)
 
 ```
@@ -26,7 +26,7 @@ element_clone = driver.create_web_element(id)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

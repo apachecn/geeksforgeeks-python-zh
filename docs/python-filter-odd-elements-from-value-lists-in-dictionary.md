@@ -7,7 +7,7 @@
 **方法一:使用列表理解+词典理解**
 这是可以执行这个任务的蛮力一衬。在本文中，我们使用字典理解来重新构建新字典，其中使用列表理解来执行值列表中的数据过滤和迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove odd elements from value lists in dictionary
 # Using list comprehension + dictionary comprehension

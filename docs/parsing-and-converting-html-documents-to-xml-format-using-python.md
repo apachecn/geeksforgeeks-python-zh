@@ -15,7 +15,7 @@
 
 **安装:**
 
-```
+```py
 pip install lxml
 ```
 
@@ -33,7 +33,7 @@ pip install lxml
 
 ## 蟒 3
 
-```
+```py
 # Import the required library
 from lxml import html, etree
 

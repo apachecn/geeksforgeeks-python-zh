@@ -72,7 +72,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 class LinearRegression:

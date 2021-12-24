@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`lookup_users()`** 方法用于获取每个请求�
 
 **示例 1 :** 使用带有 user_ids 参数的`lookup_users()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ for user in users:
 
 **输出:**
 
-```
+```py
 The id is : 57741058
 The screen name is : geeksforgeeks
 
@@ -66,7 +66,7 @@ The screen name is : GeeksQuiz
 
 **示例 2:** 使用带 screen _ names 参数的`lookup_users()`方法。
 
-```
+```py
 # list of screen_names
 screen_names = ["geeksforgeeks", "PracticeGfG", "GeeksQuiz"]
 
@@ -81,7 +81,7 @@ for user in users:
 
 **输出:**
 
-```
+```py
 The id is : 57741058
 The screen name is : geeksforgeeks
 

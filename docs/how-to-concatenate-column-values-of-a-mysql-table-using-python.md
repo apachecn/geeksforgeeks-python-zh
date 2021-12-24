@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 
@@ -55,7 +55,7 @@ for x in myresult:
 
 **输出:**
 
-```
+```py
 ('PathakAnuk',)
 ('kantKrish',)
 ```

@@ -20,7 +20,7 @@ python 中的 Functools 模块有助于实现更高阶的函数。高阶函数�
 
 **示例:**
 
-```
+```py
 from functools import total_ordering
 
 @total_ordering
@@ -57,7 +57,7 @@ print(Arjun.__ne__(Ram))
 
 **输出**
 
-```
+```py
 False
 False
 True
@@ -71,7 +71,7 @@ True
 
 **例 2:**
 
-```
+```py
 from functools import total_ordering
 
 @total_ordering
@@ -98,7 +98,7 @@ print(num(3) == num(5))
 
 **输出:**
 
-```
+```py
 True
 False
 False

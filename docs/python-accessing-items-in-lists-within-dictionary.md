@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #  Creating dictionary which contains lists
 country = {
     "India": ["Delhi", "Maharastra", "Haryana", 
@@ -53,7 +53,7 @@ print(country['Japan'][2])
 
 ## 蟒蛇 3
 
-```
+```py
 #  Creating dictionary which contains lists
 country = {
     "India": ["Delhi", "Maharastra", "Haryana", 
@@ -115,7 +115,7 @@ for key, val in country.items():
 
 ## 蟒蛇 3
 
-```
+```py
 #  Creating dictionary which contains lists
 country = {
     "India": ["Delhi", "Maharastra", "Haryana",
@@ -179,7 +179,7 @@ for i in country['United States']:
 
 ## 蟒蛇 3
 
-```
+```py
 #  Creating dictionary which contains lists
 country = {
     "India": ["Delhi", "Maharastra", "Haryana",

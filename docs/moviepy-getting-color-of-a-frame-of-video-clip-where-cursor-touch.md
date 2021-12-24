@@ -15,7 +15,7 @@ clip.show 方法允许预览一个剪辑的一个帧，而不必将其写入文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -31,7 +31,7 @@ clip.show(2, interactive = True)
 
 **输出:**
 
-```
+```py
 position, color :  (262, 174), [246 135 102]
 position, color :  (566, 131), [251 255 255]
 position, color :  (227, 269), [38 38 38]
@@ -44,7 +44,7 @@ position, color :  (419, 319), [255 255 255]
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -60,7 +60,7 @@ clip.show(3, interactive = True)
 
 **输出:**
 
-```
+```py
 position, color :  (248, 305), [239 239 239]
 position, color :  (136, 93), [239 239 239]
 position, color :  (229, 181), [ 17 147   6]

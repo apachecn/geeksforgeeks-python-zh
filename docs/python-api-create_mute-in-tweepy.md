@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`create_mute()`** 方法用于将用户静音为�
 **示例 1 :** 考虑以下用户:
 ![](img/e627ee1df16166d869599f2fe4cc99c5.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ api.create_mute(screen_name)
 
 **示例 2 :** 通过`create_mute()`方法检查用户是否静音。
 
-```
+```py
 # ID of the user
 id = 4802800777
 
@@ -74,7 +74,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the create_mute() method : 
 The user has not been muted by the authenticated user.
 

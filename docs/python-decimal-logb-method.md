@@ -4,7 +4,7 @@
 
 **Decimal#logb() : logb()** 是 Decimal 类方法，返回 Decimal 值的调整指数。
 
-```
+```py
 Syntax: 
 Decimal.logb()
 
@@ -18,7 +18,7 @@ the adjusted exponent of the Decimal value.
 
 **代码# 1:logb()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logb() method
 
@@ -42,7 +42,7 @@ print ("Decimal b with logb() method : ", b.logb())
 
 **输出:**
 
-```
+```py
 Decimal value a :  0.9932
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with logb() method :  -1
 
 **代码# 2:logb()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logb() method
 
@@ -77,7 +77,7 @@ print ("Decimal b with logb() method : ", b.logb())
 
 **输出:**
 
-```
+```py
 Decimal value a :  3.14
 Decimal value b :  3.21E+7
 

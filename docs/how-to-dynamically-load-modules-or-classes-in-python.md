@@ -10,7 +10,7 @@ Python 提供了一个创建和存储类和方法并存储它们以备将来使�
 
 **模块 py**
 
-```
+```py
 # welcome method in the module 
 def welcome(str):
     print("Hi ! % s Welcome to GfG" % str)
@@ -18,7 +18,7 @@ def welcome(str):
 
 **import_mod.py 文件**
 
-```
+```py
 # importing module.py file 
 import module as mod
 
@@ -28,7 +28,7 @@ mod.welcome("User_1") 
 
 **输出**
 
-```
+```py
 Hi! User_1 Welcome to GfG
 ```
 
@@ -40,7 +40,7 @@ Hi! User_1 Welcome to GfG
 
     **模块 py**
 
-    ```
+    ```py
     # class inside the module
     class Welcome:
         def welcome(str):
@@ -49,7 +49,7 @@ Hi! User_1 Welcome to GfG
 
     **Dynamic_import.py**
 
-    ```
+    ```py
     class Dimport:
         def __init__(self, module_name, class_name):
             #__import__ method used
@@ -67,7 +67,7 @@ Hi! User_1 Welcome to GfG
 
     **输出**
 
-    ```
+    ```py
     Hi! User_1 Welcome to GfG
     ```
 
@@ -75,7 +75,7 @@ Hi! User_1 Welcome to GfG
 
     **Dynamic_import.py**
 
-    ```
+    ```py
     import imp
     import sys
 
@@ -119,6 +119,6 @@ Hi! User_1 Welcome to GfG
 
     **输出**
 
-    ```
+    ```py
     Hi! User_1 Welcome to GfG
     ```

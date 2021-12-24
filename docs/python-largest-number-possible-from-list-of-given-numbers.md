@@ -9,7 +9,7 @@
 **方法#1:使用 `sorted() + lambda`**
 以上功能的组合可以用来执行此任务。sorted 函数执行转换为字符串的列表索引的反向排序，lambda 函数处理转换和迭代操作。
 
-```
+```py
 # Python code to demonstrate 
 # largest possible number in list
 # using sorted() + lambda
@@ -32,7 +32,7 @@ print ("The largest possible number : " + ''.join(map(str,res)))
 
 **Output:**
 
-```
+```py
 The original list is : [23, 65, 98, 3, 4]
 The largest possible number : 98654323
 
@@ -41,7 +41,7 @@ The largest possible number : 98654323
 **方法 2:使用`itertools.permutation()`+`join() + max()`**
 ITER tools . replacement 可用于获得可能的置换，max 函数根据 join 函数给出的连接输出将其转换为整数后选择其中的最大值。
 
-```
+```py
 # Python3 code to demonstrate 
 # largest possible number in list
 # using itertools.permutation() + join() + max()
@@ -64,7 +64,7 @@ print ("The largest possible number : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [23, 65, 98, 3, 4]
 The largest possible number : 98654323
 

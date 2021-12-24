@@ -29,7 +29,7 @@
 在 Python 中，[](https://docs.python.org/3/library/multiprocessing.html)**多处理模块包括一个非常简单直观的 API，用于在多个进程之间划分工作。
 让我们考虑一个使用多处理模块的简单例子:**
 
-```
+```py
 # importing the multiprocessing module
 import multiprocessing
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     print("Done!")
 ```
 
-```
+```py
 Square: 100
 Cube: 1000
 Done! 
@@ -74,7 +74,7 @@ Done!
 
 *   **要导入多处理模块，我们需要:
 
-    ```
+    ```py
     import multiprocessing
 
     ```** 
@@ -85,21 +85,21 @@ Done!
 
     注:**过程**构造器还接受许多其他参数，这些参数将在后面讨论。在上面的例子中，我们用不同的目标函数创建了两个过程:
 
-    ```
+    ```py
     p1 = multiprocessing.Process(target=print_square, args=(10, ))
     p2 = multiprocessing.Process(target=print_cube, args=(10, ))
 
     ```** 
 *   **开始一个流程，我们用**开始**流程**类的**方法。
 
-    ```
+    ```py
     p1.start()
     p2.start()
 
     ```** 
 *   **Once the processes start, the current program also keeps on executing. In order to stop execution of current program until a process is complete, we use **join** method.
 
-    ```
+    ```py
     p1.join()
     p2.join()
 
@@ -109,7 +109,7 @@ Done!
 
 **让我们考虑另一个程序来理解在同一个 python 脚本上运行的不同进程的概念。在下面的示例中，我们打印了运行目标函数的进程的标识:**
 
-```
+```py
 # importing the multiprocessing module
 import multiprocessing
 import os
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     print("Process p2 is alive: {}".format(p2.is_alive()))
 ```
 
-```
+```py
 ID of main process: 28628
 ID of process running worker1: 29305
 ID of process running worker2: 29306

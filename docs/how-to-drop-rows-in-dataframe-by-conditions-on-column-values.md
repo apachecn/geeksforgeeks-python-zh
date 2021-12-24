@@ -8,7 +8,7 @@
 
 让我们创建一个熊猫数据框。
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 **示例 1:基于列上的条件删除行。**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -71,7 +71,7 @@ df
 
 **示例 2:基于一列上的多个条件删除行。**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -106,7 +106,7 @@ df
 
 **示例 3:基于不同列上的多个条件删除行。**
 
-```
+```py
 # import pandas library
 import pandas as pd
 

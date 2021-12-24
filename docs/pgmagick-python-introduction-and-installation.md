@@ -12,14 +12,14 @@
 
 1.  **窗口:**在命令提示符下执行以下命令-
 
-    ```
+    ```py
     pip install pgmagick
 
     ```
 
 2.  **乌班图:**在终端执行以下命令-
 
-    ```
+    ```py
     ### Ubuntu11.10+ ###
     $ apt-get install python-pgmagick
 
@@ -34,7 +34,7 @@
 为了便于说明，我拍摄了以下示例图像-
 ![](img/72660985dcd8be07afbe3e5a743e83dd.png)
 
-```
+```py
 from pgmagick import Image
 
 #Include full path to the input image
@@ -50,7 +50,7 @@ img.write('output_image.jpg')
 **示例#2:** 让我们讨论一个缩放图像的代码-
 我使用了与上述示例相同的样本图像作为输入。
 
-```
+```py
 from pgmagick import Image
 
 #Include full path to the input image

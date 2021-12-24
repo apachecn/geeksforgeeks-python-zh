@@ -11,7 +11,7 @@ Python 在其定义中还允许一些有趣且有用的迭代器函数，以实�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # accumulate() and chain()
 
@@ -47,7 +47,7 @@ print (list(itertools.chain(li1,li2,li3)))
 
 输出:
 
-```
+```py
 The sum after each iteration is : [1, 5, 10, 17]
 The product after each iteration is : [1, 4, 20, 140]
 All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
@@ -58,7 +58,7 @@ All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate the working of
 # chain.from_iterable() and compress()
 
@@ -88,7 +88,7 @@ print (list(itertools.compress('GEEKSFORGEEKS',[1,0,0,0,0,1,0,0,1,0,0,0,0])))
 
 **输出:** 
 
-```
+```py
 All values in mentioned chain are : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
 The compressed values in string are : ['G', 'F', 'G']
 ```
@@ -98,7 +98,7 @@ The compressed values in string are : ['G', 'F', 'G']
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate the working of
 # dropwhile() and filterfalse()
 
@@ -119,7 +119,7 @@ print (list(itertools.filterfalse(lambda x : x%2==0,li)))
 
 **输出:** 
 
-```
+```py
 The values after condition returns false : [5, 7, 8]
 The values that return false to function are : [5, 7]
 ```

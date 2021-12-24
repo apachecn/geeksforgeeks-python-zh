@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -50,7 +50,7 @@ for i in range(len(sizes)):
 
 ![](img/e77ab204fea85d238271943607b67a6c.png)
 
-```
+```py
 Size of region 0 : 96
 Size of region 1 : 1
 Size of region 2 : 1
@@ -62,7 +62,7 @@ Size of region 4 : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -97,7 +97,7 @@ for i in range(len(sizes)):
 
 ![](img/26ff25b3a8086b6c0ada8fd91567f31a.png)
 
-```
+```py
 Size of region 0 : 75
 Size of region 1 : 9
 Size of region 2 : 16

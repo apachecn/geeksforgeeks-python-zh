@@ -31,7 +31,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -84,7 +84,7 @@ print("NAND({}, {}) = {}".format(1, 0, NAND_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 NAND(0, 1) = 1
 NAND(1, 1) = 0
 NAND(0, 0) = 1

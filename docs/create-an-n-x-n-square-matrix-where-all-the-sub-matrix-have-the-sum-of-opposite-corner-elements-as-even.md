@@ -35,7 +35,7 @@
 
 ## C++
 
-```
+```py
 // C++ program for
 // the above approach
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program for
 // the above approach
 import java.io.*;
@@ -194,7 +194,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for
 # the above approach
 import itertools
@@ -227,7 +227,7 @@ sub_mat_even(n)
 
 ## C#
 
-```
+```py
 // C# program for
 // the above approach
 using System;
@@ -304,7 +304,7 @@ class GFG {
 
 **输出:**
 
-```
+```py
 1 2 3 4
 8 7 6 5
 9 10 11 12

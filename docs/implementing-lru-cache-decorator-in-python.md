@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import deque
 
 # LRU cache implementation
@@ -147,7 +147,7 @@ print(ex_func_01(5))
 
 **输出:**
 
-```
+```py
 Function: ex_func_01
 [1]
 Computing...1

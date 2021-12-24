@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements Maximum till current index in List
 # Using loop
@@ -51,7 +51,7 @@ print("Extracted Maximum elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [3, 5, 2, 6, 7, 9, 3]
 Extracted Maximum elements : [5, 6, 7, 9]
 
@@ -63,7 +63,7 @@ Extracted Maximum elements : [5, 6, 7, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements Maximum till current index in List
 # Using max() + list comprehension + list slicing
@@ -85,7 +85,7 @@ print("Extracted Maximum elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [3, 5, 2, 6, 7, 9, 3]
 Extracted Maximum elements : [5, 6, 7, 9]
 

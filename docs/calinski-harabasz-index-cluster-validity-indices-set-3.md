@@ -31,7 +31,7 @@ CH 指数值越高，说明团簇密集，分离良好，虽然没有“可接�
 
 下面是使用 sklearn 库的上述 CH 索引的 Python 实现:
 
-```
+```py
 from sklearn import datasets
 from sklearn.cluster import KMeans
 from sklearn import metrics
@@ -52,7 +52,7 @@ print(metrics.calinski_harabasz_score(X, labels))
 
 **输出:**
 
-```
+```py
 561.62
 ```
 

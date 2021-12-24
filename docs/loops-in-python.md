@@ -9,7 +9,7 @@ Python 编程语言提供了以下类型的循环来处理循环需求。Python 
 
 **语法**:
 
-```
+```py
 while expression:
     statement(s)
 
@@ -20,7 +20,7 @@ while expression:
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # while loop
 count = 0
@@ -31,7 +31,7 @@ while (count < 3):   
 
 **输出:**
 
-```
+```py
 Hello Geek
 Hello Geek
 Hello Geek
@@ -44,7 +44,7 @@ Hello Geek
 
 ## 计算机编程语言
 
-```
+```py
 if condition:
     # execute these statements
 else:
@@ -55,7 +55,7 @@ else:
 
 ## 计算机编程语言
 
-```
+```py
 while condition:
      # execute these statements
 else:
@@ -64,7 +64,7 @@ else:
 
 ## 计算机编程语言
 
-```
+```py
 #Python program to illustrate
 # combining else with while
 count = 0
@@ -77,7 +77,7 @@ else:
 
 **输出:**
 
-```
+```py
 Hello Geek
 Hello Geek
 Hello Geek
@@ -89,7 +89,7 @@ In Else Block
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # Single statement while block
 count = 0
@@ -102,7 +102,7 @@ while (count == 0): print("Hello Geek")
 
 **语法:**
 
-```
+```py
 for iterator_var in sequence:
     statements(s)
 
@@ -112,7 +112,7 @@ for iterator_var in sequence:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Iterating over range 0 to n-1
 
@@ -123,7 +123,7 @@ for i in range(0, n):
 
 **输出:**
 
-```
+```py
 0
 1
 2
@@ -133,7 +133,7 @@ for i in range(0, n):
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # Iterating over a list
 print("List Iteration")
@@ -164,7 +164,7 @@ for i in d :
 
 **输出:**
 
-```
+```py
 List Iteration
 geeks
 for
@@ -193,7 +193,7 @@ abc  345
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # Iterating by index
 
@@ -204,7 +204,7 @@ for index in range(len(list)):
 
 **输出:**
 
-```
+```py
 geeks
 for
 geeks
@@ -216,7 +216,7 @@ geeks
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # combining else with for
 
@@ -229,7 +229,7 @@ else:
 
 **输出:**
 
-```
+```py
 geeks
 for
 geeks
@@ -242,7 +242,7 @@ Inside Else Block
 
 ## 计算机编程语言
 
-```
+```py
 for iterator_var in sequence:
     for iterator_var in sequence:
         statements(s)
@@ -253,7 +253,7 @@ Python 编程语言中嵌套 while 循环语句的语法如下:
 
 ## 计算机编程语言
 
-```
+```py
 while expression:
     while expression:
         statement(s)
@@ -264,7 +264,7 @@ while expression:
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # nested for loops in Python
 from __future__ import print_function
@@ -276,7 +276,7 @@ for i in range(1, 5):
 
 **输出:**
 
-```
+```py
 1
 2 2
 3 3 3
@@ -290,7 +290,7 @@ for i in range(1, 5):
 
 ## 计算机编程语言
 
-```
+```py
 # Prints all letters except 'e' and 's'
 for letter in 'geeksforgeeks':
     if letter == 'e' or letter == 's':
@@ -301,7 +301,7 @@ for letter in 'geeksforgeeks':
 
 **输出:**
 
-```
+```py
 Current Letter : g
 Current Letter : k
 Current Letter : f
@@ -316,7 +316,7 @@ Current Letter : k
 
 ## 计算机编程语言
 
-```
+```py
 for letter in 'geeksforgeeks':
 
     # break the loop as soon it sees 'e'
@@ -329,7 +329,7 @@ print 'Current Letter :', letter
 
 **输出:**
 
-```
+```py
 Current Letter : e
 
 ```
@@ -338,7 +338,7 @@ Current Letter : e
 
 ## 计算机编程语言
 
-```
+```py
 # An empty loop
 for letter in 'geeksforgeeks':
     pass
@@ -347,7 +347,7 @@ print 'Last Letter :', letter
 
 **输出:**
 
-```
+```py
 Last Letter : s
 
 ```
@@ -360,7 +360,7 @@ Last Letter : s
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple for loop example
 
 fruits = ["apple", "orange", "kiwi"]
@@ -372,7 +372,7 @@ for fruit in fruits:
 
 **Output**
 
-```
+```py
 apple
 orange
 kiwi
@@ -392,7 +392,7 @@ For 循环可以迭代任何可迭代对象(例如:列表、集合、字典、�
 
 ## 蟒蛇 3
 
-```
+```py
 fruits = ["apple", "orange", "kiwi"]
 
 # Creating an iterator object
@@ -415,7 +415,7 @@ while True:
 
 **Output**
 
-```
+```py
 apple
 orange
 kiwi

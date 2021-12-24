@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -31,7 +31,7 @@ for i in range(90, 100):
 
 **输出:**
 
-```
+```py
 Swept Away
 The Adventures of Pluto Nash
 Ballistic: Ecks vs. Sever

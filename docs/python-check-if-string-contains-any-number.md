@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if string contains any number
 # Using isdigit() + any()
@@ -38,7 +38,7 @@ print("Does string contain any digit ? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks
 Does string contain any digit ? : True
 
@@ -50,7 +50,7 @@ Does string contain any digit ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if string contains any number
 # Using isdigit() + next() + generator expression
@@ -70,7 +70,7 @@ print("Does string contain any digit ? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks
 Does string contain any digit ? : True
 

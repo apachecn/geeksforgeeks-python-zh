@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Rows with Range Elements
 # Using all() + list comprehension
@@ -51,7 +51,7 @@ print("Extracted rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Rows with Range Elements
 # Using filter() + lambda + all()

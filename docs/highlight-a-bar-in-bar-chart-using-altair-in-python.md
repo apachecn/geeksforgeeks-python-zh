@@ -30,7 +30,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import required module
 import altair as alt
 import pandas as pd

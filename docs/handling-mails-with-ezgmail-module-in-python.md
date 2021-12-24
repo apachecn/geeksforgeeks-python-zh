@@ -8,7 +8,7 @@
 
 该模块没有预装 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install EZGmail
 
 ```
@@ -56,7 +56,7 @@ pip install EZGmail
 
 ## 蟒蛇 3
 
-```
+```py
 import ezgmail
 
 email = 'user@email.com'
@@ -80,7 +80,7 @@ EZGmail 有 **GmailThread** 对象来表示对话线程，还有 **GmailMessage*
 
 ## 蟒蛇 3
 
-```
+```py
 import ezgmail
 
 # unread emails
@@ -123,7 +123,7 @@ print("List of recent threads: " + str(recent))
 
 ## 蟒蛇 3
 
-```
+```py
 import ezgmail
 
 # searching for specific emails
@@ -147,7 +147,7 @@ print(results[0])
 
 ## 蟒蛇 3
 
-```
+```py
 import ezgmail
 
 # searching emails

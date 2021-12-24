@@ -5,7 +5,7 @@
 让我们看看如何计算 Python 列表中唯一值的数量。
 **例:**
 
-```
+```py
 Input : 10 20 10 30 40 40
 Output : 2
 Explanation : Only 2 elements, 20 and 30 are unique in the list.
@@ -17,7 +17,7 @@ Output : 1
 
 **方法 1 :** 遍历列表，使用字典统计每个元素的频率，最后统计频率为 1 的元素。
 
-```
+```py
 # function to count the unique elements
 def count_unique(my_list):
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 2
 1
 
@@ -65,7 +65,7 @@ T3】空间复杂度: O(N)
 
 **方法 2 :** 这里我们将使用字典类的`get()`方法来统计频率。这使得程序变得更短，并演示了`get()`方法如何代替 if…else 有用。
 
-```
+```py
 # function to count the unique elements
 def count_unique(my_list):
 
@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 2
 1
 
@@ -110,7 +110,7 @@ T3】空间复杂度: O(N)
 
 **方法 3 :** 这里我们将使用列表类的`count()`方法来统计频率。
 
-```
+```py
 # function to count the unique elements
 def count_unique(my_list):
 
@@ -144,7 +144,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 2
 1
 
@@ -155,7 +155,7 @@ T3】空间复杂度: O(N)
 
 **方法 4 :** 这里我们将使用集合模块的`Counter()`方法来统计频率。
 
-```
+```py
 # importing the module
 import collections
 
@@ -188,7 +188,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 2
 1
 

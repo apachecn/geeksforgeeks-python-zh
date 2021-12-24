@@ -31,7 +31,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from datetime import datetime
 
 # Parse the default python timestamp format
@@ -47,7 +47,7 @@ print(nano_secs)
 
 **输出**
 
-```
+```py
 792554
 ```
 
@@ -69,7 +69,7 @@ print(nano_secs)
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 
 # Parse the timestamp string by
@@ -86,7 +86,7 @@ print(nano_secs)
 
 **输出:**
 
-```
+```py
 792554
 ```
 
@@ -94,7 +94,7 @@ print(nano_secs)
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 
 # Parse the timestamp string by
@@ -111,6 +111,6 @@ print(nano_secs)
 
 **输出:**
 
-```
+```py
 792554
 ```

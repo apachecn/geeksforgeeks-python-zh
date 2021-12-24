@@ -15,7 +15,7 @@
 
 为 Python 安装 SLY。SLY 是一个词汇化和解析工具，它让我们的过程变得更加容易。
 
-```
+```py
 pip install sly
 
 ```
@@ -28,7 +28,7 @@ pip install sly
 
 ## 蟒蛇 3
 
-```
+```py
 from sly import Lexer
 ```
 
@@ -38,7 +38,7 @@ from sly import Lexer
 
 ## 蟒 3
 
-```
+```py
 class BasicLexer(Lexer):
     tokens = { NAME, NUMBER, STRING }
     ignore = '\t '
@@ -76,7 +76,7 @@ class BasicLexer(Lexer):
 
 ## 蟒 3
 
-```
+```py
 from sly import Parser
 ```
 
@@ -84,7 +84,7 @@ from sly import Parser
 
 ## 蟒 3
 
-```
+```py
 class BasicParser(Parser):
     #tokens are passed from lexer to parser
     tokens = BasicLexer.tokens

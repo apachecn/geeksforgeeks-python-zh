@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片**
 这个问题可以通过使用列表理解并应用列表切片来限制分组来解决，列表绑定作为列表理解逻辑的一部分来完成。
 
-```
+```py
 # Python3 code to demonstrate 
 # group flattening of list 
 # using list comprehension + list slicing
@@ -32,7 +32,7 @@ print("The grouped flattened list :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 3], [3, 4], [6, 5], [4, 5], [7, 6], [7, 9]]
 The grouped flattened list :  [[1, 3, 3, 4, 6, 5], [4, 5, 7, 6, 7, 9]]
 

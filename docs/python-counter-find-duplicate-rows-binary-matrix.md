@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : [[1, 1, 0, 1, 0, 1],
          [0, 0, 1, 0, 0, 1],
          [1, 0, 1, 1, 0, 0],
@@ -24,7 +24,7 @@ Output : (1, 1, 0, 1, 0, 1)
 1.  使用计数器方法创建一个字典，将行作为关键字，将其频率作为值。
 2.  现在完全遍历字典，打印频率大于 1 的所有行。
 
-```
+```py
 # Function to find duplicate rows in a binary matrix
 from collections import Counter
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 (1, 1, 0, 1, 0, 1)
 (0, 0, 1, 0, 0, 1)
 

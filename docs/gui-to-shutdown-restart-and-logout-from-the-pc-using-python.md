@@ -18,7 +18,7 @@ Python 中的 **OS 模块**提供了与操作系统交互的功能。OS 是一�
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 import os

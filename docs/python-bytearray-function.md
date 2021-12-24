@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 bytearray(source, encoding, errors)
 ```
 
 **参数:**
 
-```
+```py
 source*[optional]*: Initializes the array of bytes
 encoding*[optional]*: Encoding of the string
 errors*[optional]*: Takes action when encoding fails
@@ -25,7 +25,7 @@ errors*[optional]*: Takes action when encoding fails
 
 **代码#1:** 如果字符串必须提供编码和错误参数，`**bytearray()**`使用`str.encode()`将字符串转换为字节
 
-```
+```py
 str = "Geeksforgeeks"
 
 # encoding the string with unicode 8 and 16
@@ -38,14 +38,14 @@ print(array2)
 
 **输出:**
 
-```
+```py
 bytearray(b'Geeksforgeeks')
 bytearray(b'\xff\xfeG\x00e\x00e\x00k\x00s\x00f\x00o\x00r\x00g\x00e\x00e\x00k\x00s\x00')
 ```
 
 **代码#2:** 如果是整数，创建一个该大小的数组，并用空字节初始化。
 
-```
+```py
 # size of array
 size = 3
 
@@ -58,13 +58,13 @@ print(array1)
 
 **输出:**
 
-```
+```py
 bytearray(b'\x00\x00\x00')
 ```
 
 **代码#3:** 如果一个对象，只读缓冲区将被用来初始化字节数组。
 
-```
+```py
 # Creates bytearray from byte literal
 arr1 = bytearray(b"abcd")
 
@@ -81,7 +81,7 @@ print("Count of c is:", arr2.count(b"c"))
 
 **输出:**
 
-```
+```py
 97
 98
 99
@@ -91,7 +91,7 @@ Count of c is: 4
 
 **代码# 4:**If Iterable(范围 0 < = x < 256)，用作数组的初始内容。
 
-```
+```py
 # simple list of integers
 list = [1, 2, 3, 4]
 
@@ -104,14 +104,14 @@ print("Count of bytes:", len(array))
 
 **输出:**
 
-```
+```py
 bytearray(b'\x01\x02\x03\x04')
 Count of bytes: 4
 ```
 
 **代码#5:** 如果没有源，则创建大小为 0 的数组。
 
-```
+```py
 # array of size o will be created
 
 # iterable as source
@@ -122,6 +122,6 @@ print(array)
 
 **输出:**
 
-```
+```py
 bytearray(b'')
 ```

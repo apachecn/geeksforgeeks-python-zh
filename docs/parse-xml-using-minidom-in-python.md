@@ -8,7 +8,7 @@
 
 *   导入模块
 
-```
+```py
 import xml.dom.minidom
 
 ```
@@ -19,7 +19,7 @@ import xml.dom.minidom
 
 *   使用解析函数加载和解析 XML 文件。在下面的例子中，文档存储解析函数的结果
 
-```
+```py
 docs = xml.dom.minidom.parse("test.xml")
 
 ```
@@ -28,7 +28,7 @@ docs = xml.dom.minidom.parse("test.xml")
 
 ## 蟒蛇 3
 
-```
+```py
 import xml.dom.minidom
 
 docs = xml.dom.minidom.parse("test.xml")
@@ -39,7 +39,7 @@ print(docs.firstChild.tagName)
 
 **输出:**
 
-```
+```py
 #document
 info
 ```
@@ -48,7 +48,7 @@ info
 
 ## 蟒蛇 3
 
-```
+```py
 import xml.dom.minidom
 
 docs = xml.dom.minidom.parse("test.xml")
@@ -65,7 +65,7 @@ for i in skills:
 
 **输出:**
 
-```
+```py
 #document
 info
 4 skills

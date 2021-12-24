@@ -23,7 +23,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of formatyear() method
 
 # importing calendar module
@@ -40,7 +40,7 @@ print(text_cal.formatyear(year, width))
 
 **输出:**
 
-```
+```py
 
                                                        2018
 
@@ -85,7 +85,7 @@ Mon  Tue  Wed  Thu  Fri  Sat  Sun       Mon  Tue  Wed  Thu  Fri  Sat  Sun       
 
 **代码#2:** 由于 m=2，所以一行显示的月数为 2。
 
-```
+```py
 # Python program to demonstrate working of formatyear() method
 
 # importing calendar module
@@ -101,7 +101,7 @@ print(text_cal.formatyear(2018, 5, c = 3, m = 2))
 
 **输出:**
 
-```
+```py
                                         2018
 
                  January                                     February

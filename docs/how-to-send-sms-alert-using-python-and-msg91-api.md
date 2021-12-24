@@ -6,7 +6,7 @@
 
 我们需要使用两个功能: **http 模块**和 **MSG91 API** 发送短信。
 
-```
+```py
 import http.client as ht
 
 conn = ht.HTTPSConnection("api.msg91.com")
@@ -18,7 +18,7 @@ conn = ht.HTTPSConnection("api.msg91.com")
 
 **报头:**在报头中，我们将发送我们的 MSG91 API 的认证密钥。当然，上下文文本只是上下文类型，也就是有效载荷的类型。我们以 JSON 格式发送所有有效载荷信息，因此上下文类型将是 JSON。
 
-```
+```py
 headers = {# Paste your MSG91 API Key
            'authkey' : "", 
            'content-type': "application/json"}
@@ -28,7 +28,7 @@ headers = {# Paste your MSG91 API Key
 
 **有效载荷:**大家都知道有效载荷是数据发送或接收的重要环节。在这里，我们发送发送者标识、路线、国家以及消息和接收者手机号码。其中发件人标识只是发件人姓名。它的长度必须为 6，并且应该只包含字母字符。如果您想在国际上发送短信，请使用 0 作为国家代码，否则使用 91 进行印度通信。
 
-```
+```py
 payload = '''{"sender": "MSGAPI",
               "route": "4",
               "country": "91",
@@ -51,7 +51,7 @@ payload = '''{"sender": "MSGAPI",
 
 现在我们需要发送连接请求以及这个报头和有效载荷。这里我们使用 POST 方法来建立连接。一旦请求被发送，应用编程接口将把消息发送给接收者，我们已经提到了 JSON 数组。然后，应用编程接口向我们确认状态代码为 200，消息为成功。
 
-```
+```py
 # importing the module
 import http.client as ht
 

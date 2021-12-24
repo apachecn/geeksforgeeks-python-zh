@@ -5,7 +5,7 @@
 **chr()** 方法返回一个字符串，该字符串表示 Unicode 码位为整数的字符。
 **语法:**
 
-```
+```py
 chr(num)
 num : integer value
 
@@ -18,7 +18,7 @@ num : integer value
 
 例如:假设我们想打印“通用电气公司，通用电气公司，通用电气公司”。
 
-```
+```py
 # Python program to illustrate 
 # chr() builtin function
 
@@ -34,14 +34,14 @@ chr(115))
 
 输出:
 
-```
+```py
 G e e k s   f o r   G e e k s
 
 ```
 
 另一个例子:
 
-```
+```py
 # Python program to illustrate 
 # chr() builtin function
 
@@ -56,7 +56,7 @@ for number in numbers:
 
 输出:
 
-```
+```py
 Character of ASCII value 17 is  
 Character of ASCII value 38 is  &
 Character of ASCII value 79 is  O
@@ -64,7 +64,7 @@ Character of ASCII value 79 is  O
 
 **如果我们给出超出范围的东西会发生什么？**
 
-```
+```py
 # Python program to illustrate 
 # chr() builtin function
 # if value given is 
@@ -76,14 +76,14 @@ print(chr(400))
 
 输出:
 
-```
+```py
 No Output
 
 ```
 
 我们不会得到任何输出，编译器会抛出一个错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/484c76fb455a624cc137946a244a9aa5.py", line 1, in 
     print(chr(400))

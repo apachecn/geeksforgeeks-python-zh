@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract records if Kth elements not in List
 # Using loop
@@ -54,7 +54,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(5, 3), (7, 4), (1, 3), (7, 8), (0, 6)]
 Extracted elements : [(5, 3), (1, 3), (0, 6)]
 
@@ -66,7 +66,7 @@ Extracted elements : [(5, 3), (1, 3), (0, 6)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract records if Kth elements not in List
 # Using list comprehension + set()
@@ -92,7 +92,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(5, 3), (7, 4), (1, 3), (7, 8), (0, 6)]
 Extracted elements : [(5, 3), (1, 3), (0, 6)]
 

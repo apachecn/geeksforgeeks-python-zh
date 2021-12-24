@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import time from datetime
 from datetime import time
 
@@ -29,7 +29,7 @@ print("Time:", x)
 
 **输出:**
 
-```
+```py
 Time: 05:34:07.006789
 ```
 
@@ -37,7 +37,7 @@ Time: 05:34:07.006789
 
 ## 蟒蛇 3
 
-```
+```py
 # import time from datetime
 from datetime import time
 
@@ -54,7 +54,7 @@ print("New time after changing the hour:", final)
 
 **输出:**
 
-```
+```py
 Actual Time: 05:34:07.006789
 New time after changing the hour: 10:34:07.006789
 ```
@@ -63,7 +63,7 @@ New time after changing the hour: 10:34:07.006789
 
 ## 蟒蛇 3
 
-```
+```py
 # import time from datetime
 from datetime import time
 
@@ -80,7 +80,7 @@ print("New time after changing the minute:", final)
 
 **输出:**
 
-```
+```py
 Actual Time: 05:34:07.006789
 New time after changing the minute: 05:12:07.006789
 ```
@@ -89,7 +89,7 @@ New time after changing the minute: 05:12:07.006789
 
 ## 蟒蛇 3
 
-```
+```py
 # import time from datetime
 from datetime import time
 
@@ -106,7 +106,7 @@ print("New time after changing the second:", final)
 
 **输出:**
 
-```
+```py
 Actual Time: 05:34:07.006789
 New time after changing the second: 05:34:02.006789
 ```
@@ -115,7 +115,7 @@ New time after changing the second: 05:34:02.006789
 
 ## 蟒蛇 3
 
-```
+```py
 # import time from datetime
 from datetime import time
 
@@ -136,7 +136,7 @@ print("New time :", final)
 
 **输出:**
 
-```
+```py
 Actual Time: 05:34:07.006789
 New time : 10:11:01.001234
 ```

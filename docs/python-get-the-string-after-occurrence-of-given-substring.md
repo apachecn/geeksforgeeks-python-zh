@@ -9,7 +9,7 @@
 **方法#1:使用`partition()`**
 分区函数可以用来执行这个任务，在这个任务中，我们只返回分区词之后出现的那部分分区。
 
-```
+```py
 # Python3 code to demonstrate
 # Get String after substring occurrence
 # using partition()
@@ -36,7 +36,7 @@ print("String after the substring occurrence : " + res)
 
 **Output :**
 
-```
+```py
 The original string : GeeksforGeeks is best for geeks
 The split string : best
 String after the substring occurrence :  for geeks

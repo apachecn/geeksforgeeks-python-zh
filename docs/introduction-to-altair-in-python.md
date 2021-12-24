@@ -12,14 +12,14 @@
 
 与任何其他 python 库一样，以下命令可用于安装 Altair:
 
-```
+```py
 pip install altair
 
 ```
 
 我们将使用来自 *vega_datasets* 包的数据集。要安装，应使用以下命令:
 
-```
+```py
 pip install vega_datasets
 
 ```
@@ -61,7 +61,7 @@ pip install vega_datasets
 
 Mark 属性指定数据应如何在绘图上表示。在牛郎星中有许多类型的标记方法，其格式如下:
 
-```
+```py
 mark_markname()
 
 ```
@@ -86,7 +86,7 @@ mark_markname()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing altair and pandas library
 import altair as alt
 import pandas as pd
@@ -119,7 +119,7 @@ alt.Chart(score_data).mark_bar().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing altair
 import altair as alt
 # Import data object from vega_datasets

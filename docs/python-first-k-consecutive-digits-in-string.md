@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # First K consecutive digits in String
 # Using loop
@@ -53,7 +53,7 @@ print("Required character digits : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks5geeks43isbest
 Required character digits : 43
 
@@ -65,7 +65,7 @@ Required character digits : 43
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # First K consecutive digits in String
 # Using regex()
@@ -90,7 +90,7 @@ print("Required character digits : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks5geeks43isbest
 Required character digits : 43
 

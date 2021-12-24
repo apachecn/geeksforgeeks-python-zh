@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中获取系统鼠标光标对象。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。我们可以获得一个系统鼠标光标对象，它可以和 set_mouse_cursor 一起使用，使这个方法返回的光标处于活动状态。
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
  pyglet.window.Window(width, height, title)
 ```
 
@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -85,6 +85,6 @@ print(value)
 
 ![](img/53c435228e7bd95cfd540ba6777d1940.png)
 
-```
+```py
 Cursor Object : pyglet.window.win32.Win32MouseCursor object at 0x000001CC009EA7C8
 ```

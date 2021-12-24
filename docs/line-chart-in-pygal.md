@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 line_chart = pygal.Line()
 ```
 
 **示例:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -44,13 +44,13 @@ line_chart
 
 **语法:**
 
-```
+```py
 line_chart = pygal.HorizontalLine()
 ```
 
 **示例:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

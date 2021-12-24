@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1, 2], [3, 4, 5], [6, 7, 8, 9]]
 Output : [1, 3, 6]
 
@@ -17,7 +17,7 @@ Output : ['x', 'm', 'a', 'u']
 
 **方法#1 :** 列表理解
 
-```
+```py
 # Python3 program to extract first and last 
 # element of each sublist in a list of lists
 
@@ -31,7 +31,7 @@ print(Extract(lst))
 
 **Output:**
 
-```
+```py
 [1, 3, 6]
 
 ```
@@ -40,7 +40,7 @@ print(Extract(lst))
 
 该方法使用带有*或解包运算符的 *zip* ，该运算符将“lst”中的所有项作为参数传递给 zip 函数。因此，所有第一个元素将成为压缩列表的第一个元组。因此，返回第 0 <sup>个</sup>元素将解决该目的。
 
-```
+```py
 # Python3 program to extract first and last 
 # element of each sublist in a list of lists
 
@@ -54,21 +54,21 @@ print(Extract(lst))
 
 **Output:**
 
-```
+```py
 [1, 3, 6]
 
 ```
 
 另一种使用 *zip* 的方法如下:-
 
-```
+```py
 def Extract(lst):
     return list(next(zip(*lst)))
 ```
 
 **使用`itemgetter()`接近#3 :**
 
-```
+```py
 # Python3 program to extract first and last 
 # element of each sublist in a list of lists
 from operator import itemgetter
@@ -83,7 +83,7 @@ print(Extract(lst))
 
 **Output:**
 
-```
+```py
 [1, 3, 6]
 
 ```

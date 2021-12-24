@@ -7,7 +7,7 @@
 **方法一:使用`items()` +列表切片**
 要解决这个问题，必须隐含以上功能的组合。`items`功能可以获取所有字典项，主任务通过列表切片完成，限制了字典键值对。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get first K items in dictionary
 # Using items() + list slicing

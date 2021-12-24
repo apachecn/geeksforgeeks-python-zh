@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import ipaddress
 
@@ -30,7 +30,7 @@ print(ipaddress.ip_address(42540766400282592856903984001653826561))
 
 **输出:**
 
-```
+```py
 191.255.254.40
 0.0.0.123
 2001:db7:dc75:365:220a:7c84:d796:6401
@@ -40,7 +40,7 @@ print(ipaddress.ip_address(42540766400282592856903984001653826561))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import ipaddress
 
@@ -57,7 +57,7 @@ print(int(addr3))
 
 **输出:**
 
-```
+```py
 3221225000
 123
 42540766400282592856903984001653826561

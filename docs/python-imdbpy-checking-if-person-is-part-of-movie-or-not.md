@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -50,7 +50,7 @@ else:
 
 **输出:**
 
-```
+```py
 Udta Punjab
 Shahid Kapoor
 ===============
@@ -60,7 +60,7 @@ Yes!!
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -97,7 +97,7 @@ else:
 
 **输出:**
 
-```
+```py
 3 Idiots
 Shahid Kapoor
 ===============

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate 
 # How to make a bubble plot
 # using the altair library
@@ -65,7 +65,7 @@ alt.Chart(cars).mark_point().encode( 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # how to customize a bubble plot
 

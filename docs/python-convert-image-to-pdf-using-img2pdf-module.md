@@ -6,7 +6,7 @@
 
 使用此命令安装软件包
 
-```
+```py
 pip install img2pdf
 ```
 
@@ -14,7 +14,7 @@ pip install img2pdf
 
 使用 img2pdf 模块提供的`img2pdf.convert()`功能可以将图像转换成 pdf 字节，然后以 wb 模式打开 pdf 文件，用字节写入。
 
-```
+```py
 # Python3 program to convert image to pfd
 # using img2pdf library
 
@@ -53,6 +53,6 @@ print("Successfully made pdf file")
 
 **输出:**
 
-```
+```py
 Successfully made pdf file
 ```

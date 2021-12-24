@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Grouping dictionary keys by value
 # Using sorted() + items() + defaultdict()
@@ -32,7 +32,7 @@ print("Grouped dictionary is : " + str(dict(res)))
 
 **输出:**
 
-```
+```py
 The original dictionary : {'gfg': 1, 'is': 2, 'best': 1, 'for': 3, 'CS': 2}
 Grouped dictionary is : {2: ['CS', 'is'], 1: ['best', 'gfg'], 3: ['for']}
 ```
@@ -48,7 +48,7 @@ Grouped dictionary is : {2: ['CS', 'is'], 1: ['best', 'gfg'], 3: ['for']}
 
 ## 蟒蛇 3
 
-```
+```py
 d_input = {'Input.txt': 'Randy', 'Code.py': 'Stan', 'Output.txt': 'Randy'}
 res = {}
 for i, v in d_input.items():
@@ -58,6 +58,6 @@ print(res)
 
 **输出:**
 
-```
+```py
 {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
 ```

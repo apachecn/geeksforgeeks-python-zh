@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行这个任务的方法之一。在这种情况下，我们使用列表切片遍历列表并连接元素，然后返回聚合列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Consecutive K elements join in List
 # using List comprehension

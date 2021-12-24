@@ -19,13 +19,13 @@
 
 要通过 pip 安装枕头，请在命令提示符下键入以下命令。
 
-```
+```py
 pip install Pillow
 ```
 
 现在使用这个库来创建分形图像。
 
-```
+```py
 # Python code for Julia Fractal
 from PIL import Image
 

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `groupby()`**
 这是一种速记方式，借助于它可以完成这项任务。在这种情况下，我们使用 groupby()将连续的序列组合在一起进行频率计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive characters frequency
 # Using list comprehension + groupby()
@@ -29,7 +29,7 @@ print("The Consecutive characters frequency : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geekksforgggeeks
 The Consecutive characters frequency : [1, 2, 2, 1, 1, 1, 1, 3, 2, 1, 1]
 

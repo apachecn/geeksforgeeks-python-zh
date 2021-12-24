@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 在这种情况下，小部件是动态添加的。如果要在运行时动态添加小部件，根据用户交互，它们只能在 Python 文件中添加。
 我们是用小部件，布局，随机来让它好看。
 
-```
+```py
 Now Basic Approach of the App:
 
 1) import kivy
@@ -34,7 +34,7 @@ Now Basic Approach of the App:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to explain how to create drawing App in kivy 
 
 # import kivy module    
@@ -90,7 +90,7 @@ DrawingApp().run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Drawing.kv implementation
 
 # for assigning random color to the brush

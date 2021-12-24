@@ -24,7 +24,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # importing Mongoclient from pymongo 
     from pymongo import MongoClient  
 
@@ -71,7 +71,7 @@
     **注意:【insertOne()的 Pymongo 命令是 insert_one()
     **示例:****
 
-    ```
+    ```py
     # importing Mongoclient from pymongo
     from pymongo import MongoClient 
 
@@ -122,7 +122,7 @@
     **注意:**insertmulti()的 Pymongo 命令是 insert _ multi()
     **示例:**
 
-    ```
+    ```py
     # importing Mongoclient from pymongo 
     from pymongo import MongoClient  
 

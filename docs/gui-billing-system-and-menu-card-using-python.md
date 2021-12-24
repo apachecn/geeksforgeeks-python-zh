@@ -8,7 +8,7 @@
 
 **第一步:导入 tkinter 包**
 
-```
+```py
 from tkinter import *
 ```
 
@@ -26,7 +26,7 @@ from tkinter import *
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module
 from tkinter import *
 
@@ -66,7 +66,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # main title
 label8 = Label(window, text="Saransh Restaurant",
                font="times 28 bold")
@@ -122,7 +122,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 #------billing section---------
 label9=Label(window,text="Select the items",
              font="times 18")
@@ -184,7 +184,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # function to calculate the
 # price of all the orders
 
@@ -228,7 +228,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module
 from tkinter import *
 

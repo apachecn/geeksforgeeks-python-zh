@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # name mangling
 
@@ -26,12 +26,12 @@ print(s1.__name)
 
 **输出**
 
-```
+```py
 Santhosh
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/be691046ea08cd2db075d27186ea0493.py", line 14, in 
     print(s1.__name)
@@ -45,7 +45,7 @@ AttributeError: 'Student' object has no attribute '__name'
 
 借助`dir()`方法，我们可以看到对类变量所做的名称 mangling 过程。名称篡改过程是由解释器完成的。通过传递类对象来使用`dir()`方法，它将返回属于该对象的所有有效属性。
 
-```
+```py
 # Python program to demonstrate
 # name mangling
 
@@ -67,7 +67,7 @@ print(dir(s1))
 
 名称管理过程有助于从类外部访问类变量。可以通过向类变量添加 _classname 来访问类变量。曼格林这个名字最接近于私人而不是确切的私人。
 
-```
+```py
 # Python program to demonstrate
 # name mangling
 
@@ -81,7 +81,7 @@ print(s1._Student__name)
 
 **输出**
 
-```
+```py
 Santhosh
 ```
 
@@ -94,7 +94,7 @@ Santhosh
 
 **示例:**
 
-```
+```py
 # Python code to illustrate how mangling works 
 # With method overriding
 
@@ -122,7 +122,7 @@ obj.geek()
 
 **输出:**
 
-```
+```py
 In parent class
 In Child class
 

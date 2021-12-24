@@ -33,7 +33,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **例 1:使用** [**下降()**](https://www.geeksforgeeks.org/how-to-drop-one-or-multiple-columns-in-pandas-dataframe/)
 
-```
+```py
 data.drop( labels=None, axis=0, index=None, columns=None, level=None, inplace=False,errors='raise')
 ```
 
@@ -44,7 +44,7 @@ data.drop( labels=None, axis=0, index=None, columns=None, level=None, inplace=Fa
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas with shortcut 'pd'
 import pandas as pd  
 
@@ -78,7 +78,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas with shortcut 'pd'
 import pandas as pd
 
@@ -112,7 +112,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import csv
 import csv
 

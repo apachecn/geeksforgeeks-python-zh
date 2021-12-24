@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : str = “xyyz”
 Output : Yes
 We can remove character ’y’ from above 
@@ -33,7 +33,7 @@ most one character from above string.
 2.  现在提取每个字符的频率列表，并在 python 中的 [Set()](https://www.geeksforgeeks.org/sets-in-python/) 数据结构中推送这些值。
 3.  Since set contains unique values, so if size of set is 1 that means frequencies of all characters were same, if size of set is 2 then check if value of first element is 1 or not ( if 1 then we can make same frequency by removing one character at most otherwise not possible ).
 
-    ```
+    ```py
     # Function to Check if frequency of all characters
     # can become same by one removal
     from collections import Counter
@@ -66,7 +66,7 @@ most one character from above string.
 
     输出:
 
-    ```
+    ```py
     No
 
     ```

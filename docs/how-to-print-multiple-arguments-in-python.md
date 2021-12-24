@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("Hello from ", name + ', ' + num)
 
@@ -32,7 +32,7 @@ GFG("geeks for geeks", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num="25"):
     print("Hello from", name + ', ' + num)
 
@@ -50,7 +50,7 @@ GFG("gfg", "26")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("hello from %s , %s" % (name, num))
 
@@ -65,7 +65,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("hello from %(n)s , %(s)s" % {'n': name, 's': num})
 
@@ -80,7 +80,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("hello from {0} , {1}".format(name, num))
 
@@ -95,7 +95,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("hello from {n} , {r}".format(n=name, r=num))
 
@@ -110,7 +110,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print("hello from " + str(name) + " , " + str(num))
 
@@ -125,7 +125,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(name, num):
     print(f'hello from {name} , {num}')
 
@@ -140,7 +140,7 @@ GFG("gfg", "25")
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(*args):
     for info in args:
         print(info)
@@ -158,7 +158,7 @@ GFG(["Hello from", "geeks", 25], ["Hello", "gfg", 26])
 
 ## 蟒蛇 3
 
-```
+```py
 def GFG(**kwargs):
     for key, value in kwargs.items():
         print(key, value)

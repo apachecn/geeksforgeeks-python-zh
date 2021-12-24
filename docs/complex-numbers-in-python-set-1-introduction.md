@@ -8,7 +8,7 @@
 
 一个复数用“ **x + yi** 表示。Python 使用函数**复数(x，y)** 将实数 x 和 y 转换为复数。实部可以使用功能**实部()**访问，虚部可以用 **imag()** 表示。
 
-```
+```py
 # Python code to demonstrate the working of
 # complex(), real() and imag()
 
@@ -32,7 +32,7 @@ print (z.imag)
 
 输出:
 
-```
+```py
 The real part of complex number is : 5.0
 The imaginary part of complex number is : 3.0
 
@@ -42,7 +42,7 @@ The imaginary part of complex number is : 3.0
 
 在几何学上，复数的相位是正实轴和表示复数的向量之间的**角。这也被称为复数的**论证**。相位使用**相位()**返回，以复数为自变量。相位范围从**-π到+π。**即从 **-3.14 到+3.14** 。**
 
-```
+```py
 # Python code to demonstrate the working of
 # phase()
 
@@ -63,7 +63,7 @@ print (cmath.phase(z))
 
 输出:
 
-```
+```py
 The phase of complex number is : 3.141592653589793
 
 ```
@@ -73,7 +73,7 @@ The phase of complex number is : 3.141592653589793
 转换为极坐标使用**极坐标()**完成，返回表示**模数 r** 和相位**角度 ph** 的**对(r，ph)** 。模量可以使用 **abs()** 显示，相位可以使用 **phase()** 显示。
 一个复数用 **rect(r，ph)** 转换成直角坐标，其中 **r 为模数**， **ph 为相角**。它返回一个数值，数值等于 **r *(数学. cos(ph) +数学. sin(ph)*1j)**
 
-```
+```py
 # Python code to demonstrate the working of
 # polar() and rect()
 
@@ -105,7 +105,7 @@ print (w)
 
 输出:
 
-```
+```py
 The modulus and argument of polar complex number is : (1.4142135623730951, 0.7853981633974483)
 The rectangular form of complex number is : (1.0000000000000002+1j)
 

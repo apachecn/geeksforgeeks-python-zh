@@ -18,7 +18,7 @@
 
 ****这个模块没有内置 Python。你必须从外部安装它。要安装此软件，请在终端中键入以下命令。****
 
-```
+```py
 **pip install PyMySQL** 
 ```
 
@@ -38,7 +38,7 @@
 
  ****## 蟒 3
 
-```
+```py
 import pymysql
 
 def mysqlconnect():

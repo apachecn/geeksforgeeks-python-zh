@@ -11,14 +11,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 使用网络驱动程序要做的第一件事是导航到一个链接。正常的方法是调用 get 方法:
 **语法–**
 
-```
+```py
 driver.get(url)
 
 ```
 
 **示例-**
 
-```
+```py
 driver.get("http://www.google.com")
 ```
 
@@ -28,7 +28,7 @@ WebDriver 将等到页面完全加载(也就是说，onload 事件已经触发)�
 安装完 Selenium 后，创建一个名为 run . py as–
 **Program–**的文件
 
-```
+```py
 # Python program to demonstrate
 # selenium
 

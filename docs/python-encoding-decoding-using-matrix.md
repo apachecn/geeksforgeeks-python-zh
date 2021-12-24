@@ -18,7 +18,7 @@
 
     ### **代码:Encode.py**
 
-    ```
+    ```py
     # loading libraries
     import numpy as np
 
@@ -107,7 +107,7 @@
 
     **输出:**
 
-    ```
+    ```py
     *Encoding matrix =  [[3, 4], [3, 6]]
     Encrypted form =  [63, 46, 12, 81, 48, 12]*
 
@@ -115,7 +115,7 @@
 
     ### **代码:Decode.py**
 
-    ```
+    ```py
     # importing libraries
     import numpy as np
     from numpy.linalg import inv
@@ -195,6 +195,6 @@
 
     **输出:**
 
-    ```
+    ```py
     Decoded message = india 
     ```

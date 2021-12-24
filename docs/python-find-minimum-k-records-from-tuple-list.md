@@ -7,7 +7,7 @@
 **方法#1:使用 `sorted()`+λ**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们只使用排序函数，并使用列表切片打印最低的 K 个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum K records
 # Using sorted() + lambda
@@ -31,7 +31,7 @@ print("The lowest K records are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)]
 The lowest K records are : [('Akash', 2), ('Akshat', 4)]
 

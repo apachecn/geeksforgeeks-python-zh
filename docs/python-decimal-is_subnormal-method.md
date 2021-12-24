@@ -4,7 +4,7 @@
 
 **Decimal # is _ subnormal():is _ subnormal()**是 Decimal 类方法，检查 Decimal 值是否低于正常值。
 
-```
+```py
 Syntax: 
 Decimal.is_subnormal()
 
@@ -19,7 +19,7 @@ otherwise false
 
 **代码# 1:is _ subnormal()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_subnormal() method
 
@@ -43,7 +43,7 @@ print ("Decimal b with is_subnormal() method : ", b.is_subnormal())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  -Infinity
 
@@ -54,7 +54,7 @@ Decimal b with is_subnormal() method :  False
 
 **代码# 2:is _ subnormal()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_subnormal() method
 
@@ -78,7 +78,7 @@ print ("Decimal b with is_subnormal() method : ", b.is_subnormal())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

@@ -18,7 +18,7 @@ Sanic 可以作为 Django 或 Flask 的替代品，构建高度可扩展、高�
 
 让我们创建一个名为 *sanic_demo* &的目录，在其中创建一个名为 *main.py* 的文件，代码如下–
 
-```
+```py
 from sanic import Sanic
 from sanic import response
 
@@ -51,7 +51,7 @@ Sanic 网络服务器位于我们的“本地主机”的 8000 端口上。
 
 Sanic app 对象的*配置*属性用于配置参数。应用程序配置对象可以按如下方式分配键值对:
 
-```
+```py
 from sanic import Sanic
 from sanic import response
 
@@ -69,7 +69,7 @@ Sanic 支持*路由*装饰器将处理函数映射到 HTTP 请求。我们可以
 
 让我们修改原始的 *main.py* 文件，以演示路线和蓝图的使用–
 
-```
+```py
 # this is our 'main.py' file
 from sanic import Sanic
 from sanic import response
@@ -99,7 +99,7 @@ app.run(host ="0.0.0.0", port = 8000, debug = True)
 
 让我们创建一个名为 *controller.py* 的新文件来声明我们的蓝图–
 
-```
+```py
 # this is our 'controller.py' file
 from sanic import response
 from sanic import Blueprint
@@ -125,7 +125,7 @@ Sanic 路由可以提供 html 文件、json 内容、媒体文件等。为了提
 
 让我们修改我们的主文件来演示这一点
 
-```
+```py
 # this is our 'main.py' file
 from sanic import Sanic
 from sanic import response
@@ -163,7 +163,7 @@ app.run(host ="0.0.0.0", port = 8000, debug = True)
 
 让我们创建一个样本*index.html*文件–
 
-```
+```py
 <html>
 <!DOCTYPE html>
 <html lang="en">
@@ -178,7 +178,7 @@ Gotta go fast!
 </html>
 ```
 
-```
+```py
 # this is our 'main.py' file
 from sanic import Sanic
 from sanic import response
@@ -220,7 +220,7 @@ app.run(host ="0.0.0.0", port = 8000, debug = True)
 
 可以在 Sanic 请求处理程序中显式引发异常。异常将消息作为第一个参数，还可以包含状态代码。@app.exception 装饰器可以用来处理 Sanic 异常。让我们通过调整我们的主文件来演示
 
-```
+```py
 # this is our 'main.py' file
 
 from sanic import Sanic

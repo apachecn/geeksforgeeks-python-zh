@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract sorted strings
 # Using list comprehension + sorted()
@@ -39,7 +39,7 @@ print("Sorted Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['hint', 'geeks', 'fins', 'Gfg']
 Sorted Strings : ['hint', 'fins', 'Gfg']
 
@@ -51,7 +51,7 @@ Sorted Strings : ['hint', 'fins', 'Gfg']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract sorted strings
 # Using filter() + lambda + sorted() + join()
@@ -72,7 +72,7 @@ print("Sorted Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['hint', 'geeks', 'fins', 'Gfg']
 Sorted Strings : ['hint', 'fins', 'Gfg']
 

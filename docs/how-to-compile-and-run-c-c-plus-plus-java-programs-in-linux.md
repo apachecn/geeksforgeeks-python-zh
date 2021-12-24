@@ -7,7 +7,7 @@ c 是一种过程编程语言。它最初是由丹尼斯·里奇在 1969 年至 
 
 *查看 cc 的版本信息:*
 
-```
+```py
 cc -v
 ```
 
@@ -15,7 +15,7 @@ cc -v
 
 现在考虑一个简单的名为 *Geeks.c* 的 C 程序文件，如下所示:
 
-```
+```py
 #include <stdio.h> 
 int main(void) 
 { 
@@ -26,13 +26,13 @@ int main(void) 
 
 要编译这段代码，我们可以使用:
 
-```
+```py
 cc filename.c -o executable_file_name
 ```
 
 这里， *filename.c* 是 C 程序文件，用-o 选项显示代码中的错误。如果没有发现错误，这将生成一个可执行文件作为*可执行文件名称*。
 
-```
+```py
 cc Geeks.c -o geeksoutput
 ```
 
@@ -40,7 +40,7 @@ cc Geeks.c -o geeksoutput
 
 这里 *geeksoutput* 是生成的可执行文件。所以我们可以这样执行:
 
-```
+```py
 ./geeksoutput
 ```
 
@@ -52,7 +52,7 @@ C++是一种通用编程语言，现在广泛用于竞争性编程。它具有�
 
 *查看 g++的版本信息:*
 
-```
+```py
 g++ --version
 ```
 
@@ -60,7 +60,7 @@ g++ --version
 
 现在考虑一个简单的名为 *geeks.cpp* 的 C++程序文件，如下所示:
 
-```
+```py
 #include<iostream>  
 using namespace std; 
 
@@ -78,19 +78,19 @@ int main() 
 
 要编译这段代码，我们可以使用:
 
-```
+```py
 g++ filename.cpp -o executable_file_name
 ```
 
 这里， *filename.cpp* 是 C++程序文件，使用-o 选项显示代码中的错误。如果没有发现错误，这将生成一个可执行文件作为*可执行文件名称*。
 
-```
+```py
 g++ geeks.cpp -o geeksoutput
 ```
 
 这里 *geeksoutput* 是生成的可执行文件。所以我们可以这样执行:
 
-```
+```py
 ./geeksoutput
 ```
 
@@ -102,7 +102,7 @@ Java 是最流行、应用最广泛的编程语言和平台之一。平台是一
 
 *查看 Java 的版本信息:*
 
-```
+```py
 javac -version
 ```
 
@@ -110,19 +110,19 @@ javac -version
 
 要编译代码，我们可以使用:
 
-```
+```py
 javac filename.java
 ```
 
 为了执行，我们将使用包含主方法的类名，如下所示:
 
-```
+```py
 java classname
 ```
 
 **示例:**现在考虑一个名为*HelloWorld.java*的简单 Java 程序文件，如下所示:
 
-```
+```py
 class HelloWorld 
 { 
 

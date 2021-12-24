@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_year = 1997, test_week = 27
 Output : 1997-07-07 00:00:00
 Explanation : 27th Week starts from 7 july in 1997.
@@ -22,7 +22,7 @@ Explanation : 27th Week starts from 5 july in 2021.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Start week from year and weekday
 # Using %W, %w
@@ -48,7 +48,7 @@ print("The starting date of week : " + str(res))
 
 **输出:**
 
-```
+```py
 The original year, week is : 1997 27
 The starting date of week : 1997-07-07 00:00:00
 ```
@@ -59,7 +59,7 @@ The starting date of week : 1997-07-07 00:00:00
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Start week from year and weekday
 # Using relativedelta()
@@ -89,7 +89,7 @@ print("The starting date of week : " + str(res))
 
 **输出:**
 
-```
+```py
 The original year, week is : 1997 27
 The starting date of week : 1997-07-09
 ```

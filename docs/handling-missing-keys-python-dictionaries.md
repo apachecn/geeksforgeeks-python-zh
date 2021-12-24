@@ -6,7 +6,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate Dictionary and
 # missing value error
 
@@ -20,7 +20,7 @@ print (d['c'])
 
 **错误:**
 
-```
+```py
 Traceback (most recent call last):
   File "46a9aac96614587f5b794e451a8f4f5f.py", line 9, in 
     print (d['c'])
@@ -37,7 +37,7 @@ KeyError: 'c'
 
 ## 蟒蛇 3
 
-```
+```py
 country_code = {'India' : '0091',
                 'Australia' : '0025',
                 'Nepal' : '00977'}
@@ -51,7 +51,7 @@ print(country_code.get('Japan', 'Not Found'))
 
 **输出:**
 
-```
+```py
 0091
 Not Found
 ```
@@ -64,7 +64,7 @@ Not Found
 
 ## 蟒蛇 3
 
-```
+```py
 country_code = {'India' : '0091',
                 'Australia' : '0025',
                 'Nepal' : '00977'}
@@ -81,7 +81,7 @@ print(country_code['Japan'])
 
 **输出:**
 
-```
+```py
 0091
 Not Present
 ```
@@ -97,7 +97,7 @@ Not Present
 
 ## ****计算机编程语言****
 
-```
+```py
 **# Python code to demonstrate defaultdict
 
 # importing "collections" for defaultdict
@@ -124,7 +124,7 @@ print (defd['c'])**
 
 ******输出:****** 
 
-```
+```py
 **The value associated with 'a' is : 1
 The value associated with 'c' is : Key Not found**
 ```

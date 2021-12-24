@@ -14,7 +14,7 @@
 
 **示例#1:** 列表上的线性搜索
 
-```
+```py
 # Search function with parameter list name
 # and the value to be searched
 def search(list,n):
@@ -38,7 +38,7 @@ else:
 
 **Output:**
 
-```
+```py
 Found
 
 ```
@@ -47,7 +47,7 @@ Found
 
 **示例#2:** 元组中的线性搜索
 
-```
+```py
 # Search function with parameter list name
 # and the value to be searched
 def search(Tuple, n):
@@ -71,7 +71,7 @@ else:
 
 **Output:**
 
-```
+```py
 Found
 
 ```

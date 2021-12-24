@@ -20,7 +20,7 @@ Python 中的 PDB 模块为我们引人注目的 Python 代码调试提供了巨
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -60,7 +60,7 @@ fxn(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # a simple function
 def fxn(n):
     for i in range(n):
@@ -87,7 +87,7 @@ fxn(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -117,7 +117,7 @@ rec_fxn(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -150,7 +150,7 @@ fxn(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -178,7 +178,7 @@ fxn(5)
 
 这个特性帮助我们在源代码的特定行动态创建断点。在本例中，我们使用下面给出的命令 b 创建断点:
 
-```
+```py
 b(reak) [ ([filename:]lineno | function) [, condition] ]
         Without argument, list all breaks.
 ```
@@ -189,7 +189,7 @@ b(reak) [ ([filename:]lineno | function) [, condition] ]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -215,7 +215,7 @@ fxn(5)
 
 使用 unt 像 c 一样继续执行，但是，在比当前行更值得注意的下一行停止。偶尔使用 unt 会更有帮助，使用起来也更快，这正是你所需要的。
 
-```
+```py
 unt(il) [lineno]
 ```
 
@@ -223,7 +223,7 @@ unt(il) [lineno]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -256,7 +256,7 @@ fxn(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -281,13 +281,13 @@ fxn(5)
 
 就像用 p 和 pp 打印发音一样，您可以使用 order show [expression]建议 pdb 在执行停止时显示发音的估计值，以避免发音发生变化。利用订单未显示[表达]来明确展示清晰度。
 
-```
+```py
 display [expression]
 ```
 
 每次在当前帧中停止执行时，显示表达式的值(如果已更改)。如果没有表达式，列出当前框架的所有显示表达式。
 
-```
+```py
 undisplay [expression]
 ```
 
@@ -295,7 +295,7 @@ undisplay [expression]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 
@@ -322,19 +322,19 @@ fxn(5)
 
 在这里，我们可以将每个轨迹作为一个帧来玩，也可以从一个帧移动到另一个帧。
 
-```
+```py
 w(here)
 ```
 
 打印堆栈跟踪，在底部显示最近的帧。箭头表示“当前帧”，它决定了大多数命令的上下文。“bt”是此命令的别名。
 
-```
+```py
 u(p) [count]
 ```
 
 在堆栈跟踪中将当前帧计数(默认为 1)上移一级(移至较旧的帧)。
 
-```
+```py
 d(own) [count]
 ```
 
@@ -342,7 +342,7 @@ d(own) [count]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pdb
 import pdb
 

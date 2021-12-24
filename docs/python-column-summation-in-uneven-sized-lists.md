@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + filter() + map()` +列表理解**
 以上三个函数结合列表理解可以帮助我们执行这个特定的任务，sum 函数有助于执行求和，filter 允许我们检查当前元素，所有行都使用 map 函数进行组合。仅适用于 python 2
 
-```
+```py
 # Python code to demonstrate  
 # Column summation in uneven sized lists
 # using sum() + filter() + map() + list comprehension
@@ -28,7 +28,7 @@ print ("The summation of columns is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[1, 5, 3], [4], [9, 8]]
 The summation of columns is : [14, 13, 3]
 

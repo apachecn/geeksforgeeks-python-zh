@@ -14,7 +14,7 @@
 
 ## 蟒蛇
 
-```
+```py
 # To open the first file in read mode
 f1 = open("sample file 1.txt", "r")
 

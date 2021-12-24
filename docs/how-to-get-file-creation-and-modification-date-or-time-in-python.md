@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import time
 
@@ -56,7 +56,7 @@ print(
 
 上述代码的时间戳具有以下格式限定符–
 
-```
+```py
 [Day](3) [Month](3) [day](2) [Hours:Minutes:Seconds](8) [Year](4)
 ```
 
@@ -66,7 +66,7 @@ print(
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import time
 

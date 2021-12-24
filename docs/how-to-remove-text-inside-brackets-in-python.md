@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: (hai)geeks
 Output: ()geeks
 
@@ -33,7 +33,7 @@ Output: ()for()
 
 ## python 3
 
-```
+```py
 # Importing module
 import re
 
@@ -50,7 +50,7 @@ print(string)
 
 **输出**
 
-```
+```py
 ()for()
 ```
 
@@ -72,7 +72,7 @@ print(string)
 
 ## 蟒 3
 
-```
+```py
 # Input string
 string="geeks(for)geeks"
 
@@ -107,7 +107,7 @@ print(result)
 
 **输出**
 
-```
+```py
 geeks()geeks
 ```
 

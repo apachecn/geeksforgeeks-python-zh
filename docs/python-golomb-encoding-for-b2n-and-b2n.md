@@ -14,7 +14,7 @@ Golomb 编码是参数化编码的一种形式，其中要编码的整数被存�
 
 **示例:**
 
-```
+```py
 Input  : N = 37, M = 11 
 Output : 0001100
 
@@ -22,7 +22,7 @@ Output : 0001100
 
 **代码:实现 Golomb 编码的 Python 程序**
 
-```
+```py
 # Python programming for Golomb Encoding
 import math
 
@@ -75,6 +75,6 @@ print("The golomb code encoding for x = {} and b = {} is {}".
 
 **输出:**
 
-```
+```py
 The golomb code encoding for x = 37 and b = 11 is 0001100
 ```

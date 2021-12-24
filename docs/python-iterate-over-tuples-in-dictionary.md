@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 dictionary_name[index]
 ```
 
 迭代特定索引中的整个元组值
 
-```
+```py
 for i in range(0, len(dictionary_name[index])):
     print(dictionary_name[index][i]
 ```
@@ -25,7 +25,7 @@ for i in range(0, len(dictionary_name[index])):
 
 ## 计算机编程语言
 
-```
+```py
 # Ininitalizing a dictionary
 myDict = {1: ("Apple", "Boy", "Cat"),
           2: ("Geeks", "For", "Geeks"),
@@ -55,7 +55,7 @@ for i in range(0, len(myDict[3])):
 
 **输出:**
 
-```
+```py
 Tuple mapped with the key 1 =>
 ('Apple', 'Boy', 'Cat')
 Tuple mapped with the key 2 =>
@@ -76,7 +76,7 @@ Python
 
 **语法:**
 
-```
+```py
 for i in dictionary_name.values():
   for j in i:
       print(j)
@@ -87,7 +87,7 @@ for i in dictionary_name.values():
 
 ## 蟒蛇 3
 
-```
+```py
 # Ininitalizing a dictionary
 myDict = {1: ("Apple", "Boy", "Cat"),
           2: ("Geeks", "For", "Geeks"),
@@ -103,7 +103,7 @@ for i in myDict.values():
 
 **输出:**
 
-```
+```py
 Apple
 Boy
 Cat

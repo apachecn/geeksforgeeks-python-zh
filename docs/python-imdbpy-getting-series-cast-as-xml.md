@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -42,7 +42,7 @@ print(xml_cast[100:200])
 
 **输出:**
 
-```
+```py
 Sacred Games
 --------------------------------
 <cast infoset="main"<person id="0451307"Saif Ali Khan</name<character id=""<
@@ -51,7 +51,7 @@ name Inspector Sartaj Singh</name</character<notes</notes</current-role<current-
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -78,7 +78,7 @@ print(xml_cast[:100])
 
 **输出:**
 
-```
+```py
 Money Heist
 --------------------------------
 <cast infoset="main"<person id="2216549"<nameÚrsula Corberó</name<current-role<character<name

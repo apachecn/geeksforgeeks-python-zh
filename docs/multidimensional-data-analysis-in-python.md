@@ -8,7 +8,7 @@
 
 以下代码用于从 [zoo_data.csv](https://media.geeksforgeeks.org/wp-content/uploads/zoo_data-1.csv) 中读取 2D 表格数据。
 
-```
+```py
 import pandas as pd
 
 zoo_data = pd.read_csv("zoo_data.csv", encoding = 'utf-8',
@@ -26,7 +26,7 @@ print(zoo_data.head())
 **<font size="3">聚类分析:</font>**
 由于我们拥有的数据是基于不同类型动物的特征，我们可以使用一些众所周知的聚类技术将动物分类为不同的组(聚类)或亚组，即 KMeans 聚类、DBscan、层次聚类&KNN(K-近邻)聚类。为了简单起见，在这种情况下，KMeans 集群应该是更好的选择。使用 Kmeans 聚类技术对数据进行聚类可以使用`sklearn`库的`cluster class`的`KMeans`模块来实现，如下所示:
 
-```
+```py
 # from sklearn.cluster import KMeans
 clusters = 7
 
@@ -47,7 +47,7 @@ print(kmeans.labels_)
 
 可以使用库`sklearn`的`class decomposition`的`PCA module`进行主成分分析，如下所示:
 
-```
+```py
 # from sklearn.decomposition import PCA
 
 pca = PCA(3)
@@ -67,7 +67,7 @@ print(pca_data.head())
 
 下面的代码是一个**python**代码，它生成一个颜色数组(其中颜色的数量大约等于簇的数量)，按照它们的色调、值和饱和度值排序。这里，每种颜色都与一个单独的簇相关联，并且将用于在 3D 绘图/空间(在这种情况下为散点图)中将动物表示为 3D 点。
 
-```
+```py
 from matplotlib import colors as mcolors
 import math
 
@@ -87,7 +87,7 @@ cluster_colors = colors[5 : -5 : skips]
 
 下面的代码是一个生成三维散点图的**python**代码，其中每个数据点都有一个与其对应聚类相关的颜色。
 
-```
+```py
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
@@ -113,7 +113,7 @@ plt.show()
 
 仔细分析散点图会导致假设使用初始数据形成的聚类没有足够好的解释力。为了解决这个问题，我们需要将我们的一组特征简化为一组更有用的特征，使用这些特征我们可以生成有用的聚类。产生这样一组特征的一种方法是进行相关性分析。这可以通过绘制热图和三曲面图来完成，如下所示:
 
-```
+```py
 import seaborn as sns
 
 # generating correlation heatmap
@@ -130,7 +130,7 @@ plt.show()
 
 以上解释的伪代码:
 
-```
+```py
 # PsuedoCode
 tuple -> (position_in_dataframe(feature1),
           position_in_dataframe(feature2),
@@ -139,7 +139,7 @@ tuple -> (position_in_dataframe(feature1),
 
 生成相关矩阵三曲面图的代码:
 
-```
+```py
 from matplotlib import cm
 
 # generating correlation data

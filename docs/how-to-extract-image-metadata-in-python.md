@@ -46,7 +46,7 @@ Python 有 PIL 库，通过使用几行代码，从图像中提取元数据的�
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 from PIL.ExifTags import TAGS
 

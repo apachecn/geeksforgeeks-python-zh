@@ -20,7 +20,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing the shutil module
 import shutil
 
@@ -49,7 +49,7 @@ shutil.copytree('D:/projects/base/Structure',
 
 ## 计算机编程语言
 
-```
+```py
 # importing the os module
 import os
 

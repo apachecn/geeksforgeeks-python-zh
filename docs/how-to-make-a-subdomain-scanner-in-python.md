@@ -4,7 +4,7 @@
 
 在本文中，我们将使用 Python 中的 [requests](https://www.geeksforgeeks.org/python-requests-tutorial/#:~:text=Python%20requests%20module%20has%20several,a%20client%20and%20a%20server.) 模块来扫描子域，该模块允许我们轻松地发出 HTTPS 请求以从网站获取信息。要安装请求模块，请在命令提示符下编写以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -23,7 +23,7 @@ pip install requests
 
 **使用的子域文件:**
 
-```
+```py
 mail
 mail2
 www
@@ -99,7 +99,7 @@ conc
 
 ## 计算机编程语言
 
-```
+```py
 # opening the subdomain text file in the read mode
 with open('subdomain_names.txt','r') as file:
 
@@ -134,7 +134,7 @@ with open('subdomain_names.txt','r') as file:
 
 ## 计算机编程语言
 
-```
+```py
 # importing module
 import requests
 
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import requests
 

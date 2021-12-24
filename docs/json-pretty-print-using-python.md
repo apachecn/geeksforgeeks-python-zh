@@ -23,7 +23,7 @@ Python 有一个名为 json 的内置模块，它允许处理 JSON 数据，下�
 
 **语法:**
 
-```
+```py
 json.dumps(indent,separator)
 ```
 
@@ -33,7 +33,7 @@ json.dumps(indent,separator)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import json
 
@@ -51,7 +51,7 @@ print(json_formatted_str)
 
 **输出:**
 
-```
+```py
 [
    {
        "studentid": 1,
@@ -80,7 +80,7 @@ print(json_formatted_str)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import json
 
@@ -106,7 +106,7 @@ filename.json
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import json
 
@@ -122,7 +122,7 @@ with open("filename.json", "r") as read_file:
 
 **输出:**
 
-```
+```py
 [
    {
        "studentid": 1,

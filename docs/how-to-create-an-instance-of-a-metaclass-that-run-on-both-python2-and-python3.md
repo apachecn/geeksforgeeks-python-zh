@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class MetaCls(type):
   def __new__(cls, name, bases, attrs):
     return super(MetaCls, cls).__new__(cls, name, bases, attrs)
@@ -23,7 +23,7 @@ print('Type of class C:',type(C))
 
 **Output**
 
-```
+```py
 Type of class C: <class '__main__.MetaCls'>
 
 ```

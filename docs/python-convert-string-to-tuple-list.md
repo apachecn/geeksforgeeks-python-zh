@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `split() + replace()`**
 这是一个执行这个任务的蛮力方法。在本文中，我们使用 split()和 replace()功能来执行提取和重新构建元组以在循环中列出的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to tuple list
 # using loop + replace() + split()
@@ -35,7 +35,7 @@ print("List after conversion from string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : (1, 3, 4), (5, 6, 4), (1, 3, 6)
 List after conversion from string : [(1, 3, 4), (5, 6, 4), (1, 3, 6)]
 

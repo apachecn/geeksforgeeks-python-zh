@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Data analysis and Manipulation
 import plotly.graph_objs as go
 import plotly.io as pio
@@ -66,7 +66,7 @@ pio.renderers.default = 'colab'
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Dataset1
 dataset1 = pd.read_csv("covid.csv")
 dataset1.head()  # returns first 5 rows
@@ -82,7 +82,7 @@ dataset1.head()  # returns first 5 rows
 
 ## 蟒蛇 3
 
-```
+```py
 # Returns tuple of shape (Rows, columns)
 print(dataset1.shape)
 
@@ -92,7 +92,7 @@ print(dataset1.size)
 
 **输出:**
 
-```
+```py
 (209, 17)
 3553
 ```
@@ -101,7 +101,7 @@ print(dataset1.size)
 
 ## 蟒蛇 3
 
-```
+```py
 # Information about Dataset1
 # return concise summary of dataframe
 dataset1.info()  
@@ -109,7 +109,7 @@ dataset1.info()  
 
 **输出:**
 
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 209 entries, 0 to 208
 Data columns (total 17 columns):
@@ -142,7 +142,7 @@ memory usage: 27.9+ KB
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Dataset2
 dataset2 = pd.read_csv("covid_grouped.csv")
 dataset2.head()  # return first 5 rows of dataset2
@@ -156,7 +156,7 @@ dataset2.head()  # return first 5 rows of dataset2
 
 ## 蟒蛇 3
 
-```
+```py
 # Returns tuple of shape (Rows, columns)
 print(dataset2.shape)
 
@@ -166,7 +166,7 @@ print(dataset2.size)
 
 **输出:**
 
-```
+```py
 (35156, 11)
 386716
 ```
@@ -175,14 +175,14 @@ print(dataset2.size)
 
 ## 蟒蛇 3
 
-```
+```py
 # Information about Dataset2
 dataset2.info()  # return concise summary of dataframe
 ```
 
 **输出:**
 
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 35156 entries, 0 to 35155
 Data columns (total 11 columns):
@@ -211,7 +211,7 @@ memory usage: 3.0+ MB
 
 ## 蟒蛇 3
 
-```
+```py
 # Columns labels of a Dataset1
 dataset1.columns
 ```
@@ -230,7 +230,7 @@ dataset1.columns
 
 ## 蟒蛇 3
 
-```
+```py
 # Drop NewCases, NewDeaths, NewRecovered rows from dataset1
 
 dataset1.drop(['NewCases', 'NewDeaths', 'NewRecovered'], 
@@ -250,7 +250,7 @@ dataset1.sample(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import create_table Figure Factory
 
 from plotly.figure_factory import create_table
@@ -274,7 +274,7 @@ py.iplot(table)
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'Country/Region', 
        y = 'TotalCases',color = 'TotalCases', 
        height = 500,hover_data = ['Country/Region', 'Continent'])
@@ -290,7 +290,7 @@ px.bar(dataset1.head(15), x = 'Country/Region', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
        color = 'TotalDeaths', height = 500,
        hover_data = ['Country/Region', 'Continent'])
@@ -306,7 +306,7 @@ px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
        color = 'TotalDeaths', height = 500,
        hover_data = ['Country/Region', 'Continent'])
@@ -322,7 +322,7 @@ px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
        color = 'TotalTests', height = 500, hover_data = ['Country/Region', 'Continent'])
 ```
@@ -339,7 +339,7 @@ px.bar(dataset1.head(15), x = 'Country/Region', y = 'TotalCases',
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'TotalTests', y = 'Country/Region',
        color = 'TotalTests',orientation ='h',  height = 500,
        hover_data = ['Country/Region', 'Continent'])
@@ -355,7 +355,7 @@ px.bar(dataset1.head(15), x = 'TotalTests', y = 'Country/Region',
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset1.head(15), x = 'TotalTests', y = 'Continent',
        color = 'TotalTests',orientation ='h',  height = 500,
        hover_data = ['Country/Region', 'Continent'])
@@ -375,7 +375,7 @@ px.bar(dataset1.head(15), x = 'TotalTests', y = 'Continent',
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1, x='Continent',y='TotalCases', 
            hover_data=['Country/Region', 'Continent'], 
            color='TotalCases', size='TotalCases', size_max=80)
@@ -391,7 +391,7 @@ log_y= True，直方图轴(不是返回的参数)以对数刻度表示。返回�
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(57), x='Continent',y='TotalCases', 
            hover_data=['Country/Region', 'Continent'], 
            color='TotalCases', size='TotalCases', size_max=80, log_y=True)
@@ -405,7 +405,7 @@ px.scatter(dataset1.head(57), x='Continent',y='TotalCases', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(54), x='Continent',y='TotalTests', 
            hover_data=['Country/Region', 'Continent'], 
            color='TotalTests', size='TotalTests', size_max=80)
@@ -419,7 +419,7 @@ px.scatter(dataset1.head(54), x='Continent',y='TotalTests', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(50), x='Continent',y='TotalTests', 
            hover_data=['Country/Region', 'Continent'], 
            color='TotalTests', size='TotalTests', size_max=80, log_y=True)
@@ -437,7 +437,7 @@ px.scatter(dataset1.head(50), x='Continent',y='TotalTests', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(100), x='Country/Region', y='TotalCases', 
            hover_data=['Country/Region', 'Continent'],
            color='TotalCases', size='TotalCases', size_max=80)
@@ -453,7 +453,7 @@ px.scatter(dataset1.head(100), x='Country/Region', y='TotalCases', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='Country/Region', y='TotalCases', 
            hover_data=['Country/Region', 'Continent'],
            color='Country/Region', size='TotalCases', size_max=80, log_y=True)
@@ -469,7 +469,7 @@ px.scatter(dataset1.head(30), x='Country/Region', y='TotalCases', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(10), x='Country/Region', y= 'TotalDeaths', 
            hover_data=['Country/Region', 'Continent'],
            color='Country/Region', size= 'TotalDeaths', size_max=80)
@@ -483,7 +483,7 @@ px.scatter(dataset1.head(10), x='Country/Region', y= 'TotalDeaths', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='Country/Region', y= 'Tests/1M pop', 
            hover_data=['Country/Region', 'Continent'],
            color='Country/Region', size= 'Tests/1M pop', size_max=80)
@@ -497,7 +497,7 @@ px.scatter(dataset1.head(30), x='Country/Region', y= 'Tests/1M pop', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='Country/Region', y= 'Tests/1M pop', 
            hover_data=['Country/Region', 'Continent'],
            color='Tests/1M pop', size= 'Tests/1M pop', size_max=80)
@@ -511,7 +511,7 @@ px.scatter(dataset1.head(30), x='Country/Region', y= 'Tests/1M pop', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='TotalCases', y= 'TotalDeaths', 
            hover_data=['Country/Region', 'Continent'],
            color='TotalDeaths', size= 'TotalDeaths', size_max=80)
@@ -527,7 +527,7 @@ px.scatter(dataset1.head(30), x='TotalCases', y= 'TotalDeaths', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='TotalCases', y= 'TotalDeaths', 
            hover_data=['Country/Region', 'Continent'],
            color='TotalDeaths', size= 'TotalDeaths', size_max=80, 
@@ -544,7 +544,7 @@ px.scatter(dataset1.head(30), x='TotalCases', y= 'TotalDeaths', 
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(dataset1.head(30), x='TotalTests', y= 'TotalCases', 
            hover_data=['Country/Region', 'Continent'],
            color='TotalTests', size= 'TotalTests', size_max=80, 
@@ -565,7 +565,7 @@ totaltestes vs totalcases 测试总数 VS TotalCases
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset2, x="Date", y="Confirmed", color="Confirmed", 
        hover_data=["Confirmed", "Date", "Country/Region"], height=400)
 ```
@@ -580,7 +580,7 @@ px.bar(dataset2, x="Date", y="Confirmed", color="Confirmed", 
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset2, x="Date", y="Confirmed", color="Confirmed", 
        hover_data=["Confirmed", "Date", "Country/Region"],log_y=True, height=400)
 ```
@@ -595,7 +595,7 @@ px.bar(dataset2, x="Date", y="Confirmed", color="Confirmed", 
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset2, x="Date", y="Deaths", color="Deaths", 
        hover_data=["Confirmed", "Date", "Country/Region"],
        log_y=False, height=400)
@@ -613,7 +613,7 @@ px.bar(dataset2, x="Date", y="Deaths", color="Deaths", 
 
 ## 蟒蛇 3
 
-```
+```py
 df_US= dataset2.loc[dataset2["Country/Region"]=="US"]
 ```
 
@@ -623,7 +623,7 @@ df_US= dataset2.loc[dataset2["Country/Region"]=="US"]
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(df_US, x="Date", y="Confirmed", color="Confirmed", height=400)
 ```
 
@@ -637,7 +637,7 @@ px.bar(df_US, x="Date", y="Confirmed", color="Confirmed", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(df_US,x="Date", y="Recovered", color="Recovered", height=400)
 ```
 
@@ -651,7 +651,7 @@ px.bar(df_US,x="Date", y="Recovered", color="Recovered", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.line(df_US,x="Date", y="Recovered", height=400)
 ```
 
@@ -663,7 +663,7 @@ px.line(df_US,x="Date", y="Recovered", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.line(df_US,x="Date", y="Deaths", height=400)
 ```
 
@@ -675,7 +675,7 @@ px.line(df_US,x="Date", y="Deaths", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.line(df_US,x="Date", y="Confirmed", height=400)
 ```
 
@@ -687,7 +687,7 @@ px.line(df_US,x="Date", y="Confirmed", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.line(df_US,x="Date", y="New cases", height=400)
 ```
 
@@ -701,7 +701,7 @@ px.line(df_US,x="Date", y="New cases", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(df_US,x="Date", y="New cases", height=400)
 ```
 
@@ -715,7 +715,7 @@ px.bar(df_US,x="Date", y="New cases", height=400)
 
 ## 蟒蛇 3
 
-```
+```py
 px.scatter(df_US, x="Confirmed", y="Deaths", height=400)
 ```
 
@@ -748,7 +748,7 @@ Choropleth 是地图上数据的惊人表示。地理地图提供了一种简单
 
 ## 蟒蛇 3
 
-```
+```py
 px.choropleth(dataset2,
               locations="iso_alpha",
               color="Confirmed",
@@ -767,7 +767,7 @@ px.choropleth(dataset2,
 
 ## 蟒蛇 3
 
-```
+```py
 px.choropleth(dataset2,
               locations='iso_alpha',
               color="Deaths",
@@ -788,7 +788,7 @@ px.choropleth(dataset2,
 
 ## 蟒蛇 3
 
-```
+```py
 px.choropleth(dataset2,
               locations='iso_alpha',
               color="Recovered",
@@ -808,7 +808,7 @@ px.choropleth(dataset2,
 
 ## 蟒蛇 3
 
-```
+```py
 px.bar(dataset2, x="WHO Region", y="Confirmed", color="WHO Region", 
        animation_frame="Date", hover_name="Country/Region")
 ```
@@ -833,7 +833,7 @@ px.bar(dataset2, x="WHO Region", y="Confirmed", color="WHO Region", 
 
 ## 蟒蛇 3
 
-```
+```py
 dataset3= pd.read_csv("covid+death.csv")
 dataset3.head()
 ```
@@ -846,7 +846,7 @@ dataset3.head()
 
 ## 蟒蛇 3
 
-```
+```py
 dataset3.tail()
 ```
 
@@ -858,7 +858,7 @@ dataset3.tail()
 
 ## 蟒蛇 3
 
-```
+```py
 dataset3.groupby(["Condition"]).count()
 ```
 
@@ -872,7 +872,7 @@ dataset3.groupby(["Condition"]).count()
 
 ## 蟒蛇 3
 
-```
+```py
 # import word cloud
 from wordcloud import WordCloud
 
@@ -894,7 +894,7 @@ plt.imshow(WordCloud().generate(sentences_as_a_string))
 
 ## 蟒蛇 3
 
-```
+```py
 column2_tolist= dataset3["Condition Group"].tolist()
 
 # Convert the list to one single string

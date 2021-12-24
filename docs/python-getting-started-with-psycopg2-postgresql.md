@@ -8,7 +8,7 @@
 
 **需要安装–**
 
-```
+```py
  pip install psycopg2 
 ```
 
@@ -16,7 +16,7 @@
 
 **Step #1: Connection to PostGreSQL**
 
-```
+```py
 import psycopg2
 conn = psycopg2.connect(database ="gfgdb", user = "gfguser",
                         password = "passgeeks", host = "52.33.0.1", 
@@ -29,13 +29,13 @@ print("Connection Successful to PostgreSQL")
 
 允许 Python 代码在数据库会话中执行 PostgreSQL 命令。
 
-```
+```py
 cur = conn.cursor()
 ```
 
 **第三步:编写你的 SQL 查询并执行。**
 
-```
+```py
 query = """select name, email from geeks_members;"""
 cur.execute(query)
 rows = cur.fetchall()
@@ -47,7 +47,7 @@ for x in rows:
 
 **第四步:关闭连接**
 
-```
+```py
 conn.close()
 print('Connection closed')
 ```

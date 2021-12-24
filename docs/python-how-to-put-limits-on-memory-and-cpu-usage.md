@@ -6,7 +6,7 @@
 
 **代码#1:限制 CPU 时间**
 
-```
+```py
 # importing libraries
 import signal
 import resource
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
 **代码#2:为了限制内存使用，代码对总地址空间**进行了限制
 
-```
+```py
 # using resource 
 import resource
 

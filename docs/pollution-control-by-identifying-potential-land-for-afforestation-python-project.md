@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 from PIL import Image
@@ -179,7 +179,7 @@ tot_land_area_acres, number_of_trees = afforestation_area()
 
 ## 蟒蛇 3
 
-```
+```py
 import urllib.parse
 import requests
 
@@ -214,7 +214,7 @@ def find_coordinates(query):
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -312,7 +312,7 @@ def afforestation_area():
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 from PIL import Image

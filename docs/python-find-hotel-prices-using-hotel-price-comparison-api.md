@@ -14,7 +14,7 @@
 
 **请求**
 
-```
+```py
 pip install requests
 
 ```
@@ -25,7 +25,7 @@ pip install requests
 
 下面是实现:
 
-```
+```py
 # Python program to find live hotel prices  
 # Python program to find live hotel prices
 # status using Makcorps Hotel API
@@ -71,7 +71,7 @@ else:
 
 **输出:**
 
-```
+```py
 price comparison data for a random date of city london is:
 {'comparison':
   [

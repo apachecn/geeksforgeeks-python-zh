@@ -4,7 +4,7 @@
 
 给定一个二进制值，我们的任务是创建整数变量并以二进制格式赋值。要以二进制格式给变量赋值，我们使用 0b 后缀。它告诉编译器该值(以 0b 为后缀)是一个二进制值，并将其赋给变量。
 
-```
+```py
 Input: Var = 0b1010
 Output: 10
 
@@ -18,7 +18,7 @@ Output: 25
 
 ## 蟒蛇 3
 
-```
+```py
 num = 10
 
 # print num in decimal and binary format 
@@ -28,7 +28,7 @@ print ("num (binary ) : ", bin (num))
 
 **输出:**
 
-```
+```py
 num (decimal) :  10
 num (binary ) :  0b1010
 ```
@@ -37,7 +37,7 @@ num (binary ) :  0b1010
 
 ## 蟒 3
 
-```
+```py
 # Python code to create variable 
 # by assigning binary value
 a = 0b1010
@@ -54,7 +54,7 @@ print("Value of b in binary form", bin(b))
 
 **输出:**
 
-```
+```py
 Value of a is:  10
 Value of b is:  25
 Value of a in binary form 0b1010

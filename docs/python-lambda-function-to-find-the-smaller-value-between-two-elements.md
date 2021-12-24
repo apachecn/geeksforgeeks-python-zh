@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```py
 Input : 2 5
 Output : 2
 
@@ -22,7 +22,7 @@ Output : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # lambda function to return minimum of
 # two elements a, b are the arguments and
 # min() method is the expression here.
@@ -33,7 +33,7 @@ print(get_min(5, 8))
 
 **输出:**
 
-```
+```py
 5
 ```
 
@@ -43,7 +43,7 @@ print(get_min(5, 8))
 
 ## 蟒蛇 3
 
-```
+```py
 # lambda function to return minimum of two elements
 # a, b are the arguments and ternary
 # operator is used to compare two elements
@@ -54,7 +54,7 @@ print(get_min(5, 8))
 
 **输出:**
 
-```
+```py
 5
 ```
 
@@ -64,7 +64,7 @@ print(get_min(5, 8))
 
 ## 蟒蛇 3
 
-```
+```py
 # Two lambda functions will be stored
 # in tuple such that 1st element is b
 # and 2nd element will be b.
@@ -79,7 +79,7 @@ print((lambda: b, lambda: a)[a < b]())
 
 **输出:**
 
-```
+```py
 5
 ```
 

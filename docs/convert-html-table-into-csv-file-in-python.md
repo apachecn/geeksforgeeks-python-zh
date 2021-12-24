@@ -12,7 +12,7 @@
 
 HTML 表格可以使用 Python 的 BeautifulSoup 和 Pandas 模块转换成 CSV 文件。这些模块没有内置 Python。要安装它们，请在终端中键入以下命令。
 
-```
+```py
 pip install BeautifulSoup
 pip install pandas
 
@@ -20,7 +20,7 @@ pip install pandas
 
 **Python3 将 HTML 表格转换为 CSV 文件的代码**
 
-```
+```py
 # Importing the required modules 
 import os
 import sys

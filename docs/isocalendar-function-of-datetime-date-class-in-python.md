@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a tuple of ISO Year, 
 # ISO Week Number and ISO Weekday
@@ -45,7 +45,7 @@ print(Todays_date.isocalendar())
 
 **输出:**
 
-```
+```py
 2021-07-25
 (2021, 29, 7)
 ```
@@ -54,7 +54,7 @@ print(Todays_date.isocalendar())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a tuple of ISO Year, 
 # ISO Week Number and ISO Weekday
@@ -79,7 +79,7 @@ print("Date in isocalendar is:", Date)
 
 **输出:**
 
-```
+```py
 Original date: 2020-10-11
 Date in isocalendar is: (2020, 41, 7)
 ```

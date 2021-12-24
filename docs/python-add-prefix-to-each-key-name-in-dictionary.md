@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add prefix to each key name in dictionary
 # Using loop
@@ -41,7 +41,7 @@ print("The extracted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 8, 'geeks': 11}
 The extracted dictionary : {'ProGfg': 6, 'Prois': 7, 'Probest': 9, 'Profor': 8, 'Progeeks': 11}
 
@@ -53,7 +53,7 @@ The extracted dictionary : {'ProGfg': 6, 'Prois': 7, 'Probest': 9, 'Profor': 8, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add prefix to each key name in dictionary
 # Using f strings + dictionary comprehension
@@ -77,7 +77,7 @@ print("The extracted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 8, 'geeks': 11}
 The extracted dictionary : {'ProGfg': 6, 'Prois': 7, 'Probest': 9, 'Profor': 8, 'Progeeks': 11}
 

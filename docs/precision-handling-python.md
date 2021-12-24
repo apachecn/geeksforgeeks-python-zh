@@ -10,7 +10,7 @@ Python 在其定义中允许使用不同的函数以多种方式处理浮点数�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate ceil(), trunc()
 # and floor()
 
@@ -35,7 +35,7 @@ print(math.floor(a))
 
 输出:
 
-```
+```py
 The integral value of number is : 3
 The smallest integer greater than number is : 4
 The greatest integer smaller than number is : 3
@@ -51,7 +51,7 @@ The greatest integer smaller than number is : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate precision
 # and round()
 
@@ -73,7 +73,7 @@ print (round(a,2))
 
 **输出:**
 
-```
+```py
 The value of number till 2 decimal place(using %) is : 3.45
 The value of number till 2 decimal place(using format()) is : 3.45
 The value of number till 2 decimal place(using round()) is : 3.45

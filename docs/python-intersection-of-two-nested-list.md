@@ -7,7 +7,7 @@
 **方法 1:天真的方法**
 这是完成这个任务最简单的方法，使用蛮力的方法执行一个循环，并检查一个列表是否包含与另一个列表相似的列表。
 
-```
+```py
 # Python 3 code to demonstrate 
 # find intersection of nested list
 # using naive method
@@ -33,7 +33,7 @@ print ("The intersection of two lists is : " + str(res_list))
 
 **输出:**
 
-```
+```py
 The original list 1 : [[1, 2], [3, 4], [5, 6]]
 The original list 2 : [[3, 4], [5, 7], [1, 2]]
 The intersection of two lists is : [[1, 2], [3, 4]]
@@ -43,7 +43,7 @@ The intersection of two lists is : [[1, 2], [3, 4]]
 **方法 2:使用列表理解**
 我们可以用相对较少的行数来执行如上所述的类似任务。但方法与上面类似，只是使用列表理解的方法来执行任务。
 
-```
+```py
 # Python 3 code to demonstrate 
 # find intersection of nested list
 # using list comprehension
@@ -66,7 +66,7 @@ print ("The intersection of two lists is : " + str(res_list))
 
 输出:
 
-```
+```py
 The original list 1 : [[1, 2], [3, 4], [5, 6]]
 The original list 2 : [[3, 4], [5, 7], [1, 2]]
 The intersection of two lists is : [[1, 2], [3, 4]]
@@ -76,7 +76,7 @@ The intersection of two lists is : [[1, 2], [3, 4]]
 **方法三:使用`set() + map()`和`&`**
 执行这个任务最有效率和推荐的方法就是使用`set()`和`map()`的组合来实现。首先使用 map 将内部列表转换为元组，使用&运算符将外部列表转换为集合，可以执行集合交集，从而执行此任务。此外，如果需要以列表方式进入列表，我们可以使用`map()`将外容器和内容器转换回列表。
 
-```
+```py
 # Python 3 code to demonstrate 
 # find intersection of nested list
 # using map() + set() + &
@@ -100,7 +100,7 @@ print ("The intersection of two lists is : " + str(res_list))
 
 **输出:**
 
-```
+```py
 The original list 1 : [[1, 2], [3, 4], [5, 6]]
 The original list 2 : [[3, 4], [5, 7], [1, 2]]
 The intersection of two lists is : [[1, 2], [3, 4]]

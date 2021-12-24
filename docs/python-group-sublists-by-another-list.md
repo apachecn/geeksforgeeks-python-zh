@@ -7,7 +7,7 @@
 **方法#1:使用循环+生成器(yield)**
 这是可以执行此任务的蛮力方式。在这种情况下，我们迭代列表，并使用 yield 动态分组。我们跟踪发生的元素，并在第二个列表中找到元素时重新启动列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Group Sublists by another List
 # using loop + generator(yield)
@@ -44,7 +44,7 @@ print ("The Grouped list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [8, 5, 9, 11, 3, 7]
 The original list 2 is : [9, 11]
 The Grouped list is : [[8, 5], 9, 11, [3, 7]]

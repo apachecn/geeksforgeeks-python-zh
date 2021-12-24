@@ -9,7 +9,7 @@ AttrDict 是一个麻省理工学院许可的库，它提供映射对象，允�
 
 要安装 AttrDict，请使用 pip 命令，如下所示:
 
-```
+```py
 pip install attrdict
 ```
 
@@ -19,7 +19,7 @@ pip install attrdict
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from attrdict import AttrDict
 
@@ -36,7 +36,7 @@ print(dictionary["Geeks"])
 
 **输出:**
 
-```
+```py
 forGeeks
 forGeeks
 ```
@@ -45,7 +45,7 @@ forGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from attrdict import AttrDict
 
@@ -61,7 +61,7 @@ for key in dictionary:
 
 **输出:**
 
-```
+```py
 bar
 {'beta': 'a', 'a': 'a'}
 ```
@@ -70,7 +70,7 @@ bar
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from attrdict import AttrDict
 
@@ -89,7 +89,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 <class 'attrdict.dictionary.AttrDict'>
 AttrDict({'foo': 'bar', 'lorem': 'ipsum', 'alpha': {'beta': 'a', 'bravo': 'b', 'a': 'b'}})
 ```

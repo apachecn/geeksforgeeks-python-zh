@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 import sys
 
 # sample lists
@@ -26,7 +26,7 @@ print("Size of list3: " + str(sys.getsizeof(list3)) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of list1: 96bytes
 Size of list1: 88bytes
 Size of list1: 112bytes
@@ -39,7 +39,7 @@ Size of list1: 112bytes
 Python 还有一个内置的 __sizeof__()方法来确定对象的空间分配，而没有任何额外的垃圾值。它已在下面的示例中实现。
 **例 2:**
 
-```
+```py
 # sample lists
 list1 = [1, 2, 3, 5]
 list2 = ["GeeksForGeeks", "Data Structure", "Algorithms"]
@@ -53,7 +53,7 @@ print("Size of list3: " + str(list3.__sizeof__()) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of list1: 72bytes
 Size of list1: 64bytes
 Size of list1: 88bytes

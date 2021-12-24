@@ -25,7 +25,7 @@ Excel“序列日期”格式实际上是从 1900-01-00 开始的天数，即 19
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate the conversion
 # of excel serial date to datetime
 
@@ -59,7 +59,7 @@ print(type(string_date))
 
 **输出:**
 
-```
+```py
 2020-01-01
 <class 'str'>
 ```
@@ -68,7 +68,7 @@ print(type(string_date))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate the conversion
 # of excel serial date to datetime
 
@@ -97,7 +97,7 @@ print(type(date_object))
 
 **输出:**
 
-```
+```py
 2020-01-01
 <class 'datetime.date'>
 ```

@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```py
 continue
 
 ```
@@ -29,7 +29,7 @@ continue
 
 **语法:**
 
-```
+```py
 pass
 
 ```
@@ -40,7 +40,7 @@ pass
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # difference between pass and 
 # continue statements
@@ -66,7 +66,7 @@ for i in s:
 
 **输出:**
 
-```
+```py
 g
 e
 e

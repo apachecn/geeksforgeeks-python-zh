@@ -14,7 +14,7 @@
 
 选择打第二局就有可能赢下电脑。策略是呼叫号码直到 4 的倍数，这将最终导致计算机上的 21，因此使玩家成为赢家。
 
-```
+```py
 # Python code to play 21 Number game
 
 # returns the nearest multiple to 4
@@ -163,7 +163,7 @@ while game == True:
 
 **输出:**
 
-```
+```py
 Player 2 is Computer.
 Do you want to start the game? (Yes/No)
 > Yes

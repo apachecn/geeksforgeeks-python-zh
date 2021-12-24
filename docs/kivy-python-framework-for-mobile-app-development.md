@@ -32,7 +32,7 @@ Kivy 是一个免费的开源 Python 库，用于开发带有自然用户界面�
 
     **示例 1 :** 在 Kivy App 上打印欢迎信息
 
-    ```
+    ```py
     # import the modules
     from kivy.app import App
     from kivy.uix.label import Label
@@ -56,7 +56,7 @@ Kivy 是一个免费的开源 Python 库，用于开发带有自然用户界面�
 
     **示例 2 :** 创建登录屏幕
 
-    ```
+    ```py
     # importing the modules
     from kivy.app import App
     from kivy.uix.gridlayout import GridLayout

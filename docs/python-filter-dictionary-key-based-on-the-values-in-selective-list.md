@@ -9,7 +9,7 @@
 **方法一:使用列表理解**
 列表理解可以用来解决这个特殊的问题。这只是执行它的速记方式，而不是编写循环。
 
-```
+```py
 # Python3 code to demonstrate 
 # getting selective dictionary keys
 # using list comprehension

@@ -15,7 +15,7 @@ T4【2】。学习成果:
 
 **3。标记的分布**
 
-```
+```py
 Unit No.   Unit Name                                 Marks
 1\. Programming and Computational Thinking - 1         35
 2\. Computer Systems and Organisation                  10

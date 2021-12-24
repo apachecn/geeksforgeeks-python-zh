@@ -30,7 +30,7 @@ Glob 模块根据 Unix shell 规定的规则搜索所有路径名，寻找与指
 
 ## 蟒蛇 3
 
-```
+```py
 import glob
 
 # search .py files
@@ -49,7 +49,7 @@ for py in glob.glob("*.py"):
 
 ## 蟒蛇 3
 
-```
+```py
 import glob
 
 # Using character ranges []
@@ -77,7 +77,7 @@ print(glob.glob('**/*.txt', recursive=True))
 
 ## 蟒蛇 3
 
-```
+```py
 import glob
 
 gen = glob.iglob("*.py")
@@ -96,7 +96,7 @@ for py in gen:
 
 ## 蟒蛇 3
 
-```
+```py
 import glob
 
 char_seq = "-_#"

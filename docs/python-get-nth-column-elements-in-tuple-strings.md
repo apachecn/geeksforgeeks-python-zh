@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 几乎每一个问题都可以用列表理解作为简单方法的简写来解决，这个问题也不例外。在这种情况下，我们只需遍历每个列表，只挑选第 n 个索引元素来构建结果列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Nth column in Tuple Strings
 # using list comprehension
@@ -31,7 +31,7 @@ print("The Nth index string character list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('GfG', 'for', 'Geeks')
 The Nth index string character list : ['f', 'o', 'e']
 

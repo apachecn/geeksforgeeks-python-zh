@@ -7,7 +7,7 @@
 **方法#1:使用`%` 运算符+循环**
 可以使用%运算符循环超出界限的索引值，从列表的开头开始形成循环，从而有助于循环迭代。
 
-```
+```py
 # Python3 code to demonstrate 
 # cyclic iteration in list 
 # using % operator and loop
@@ -34,7 +34,7 @@ print ("The cycled list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [5, 4, 2, 3, 7]
 The cycled list is : [3, 7, 5, 4, 2]
 
@@ -43,7 +43,7 @@ The cycled list is : [3, 7, 5, 4, 2]
 **方法 2:使用`itertools.cycle() + itertools.islice() + itertools.dropwhile()`**
 ITER tools 库内置了一些函数，可以帮助解决这个特定的问题。循环功能执行循环部分，dropwhile 功能使循环从列表开始，islice 功能指定循环大小。
 
-```
+```py
 # Python3 code to demonstrate 
 # cyclic iteration in list using itertools
 from itertools import cycle, islice, dropwhile
@@ -70,7 +70,7 @@ print ("The cycled list is : " +  str(slicing))
 
 **Output:**
 
-```
+```py
 The original list is : [5, 4, 2, 3, 7]
 The cycled list is : [3, 7, 5, 4, 2]
 

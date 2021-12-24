@@ -9,7 +9,7 @@
 
 **生成训练集**
 
-```
+```py
 # python library to generate random numbers
 from random import randint
 
@@ -46,7 +46,7 @@ for i in range(TRAIN_SET_COUNT):
 **训练模型**
 使用上述代码创建的数据用于训练模型
 
-```
+```py
 # Sk-Learn contains the linear regression model
 from sklearn.linear_model import LinearRegression
 
@@ -60,7 +60,7 @@ predictor.fit(X = TRAIN_INPUT, y = TRAIN_OUTPUT)
 **测试数据**
 测试是手动完成的。可以使用一些随机数据进行测试，并测试模型是否给出了输入数据的正确结果。
 
-```
+```py
 # Random Test data
 X_TEST = [[ 10, 20, 30 ]]
 
@@ -77,7 +77,7 @@ print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
 上面提供的测试数据的结果应该是， **10 + 20*2 + 30*3 = 140。**
 **输出**
 
-```
+```py
 Outcome : [ 140.]
 Coefficients : [ 1\. 2\. 3.]
 

@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +循环**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sum()执行求和的任务。除法的任务是在一个循环中用每个值的和进行除法来完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Values into proportions
 # Using sum() + loop

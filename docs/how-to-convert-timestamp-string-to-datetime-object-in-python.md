@@ -10,7 +10,7 @@ Python 有一个名为 [DateTime](https://www.geeksforgeeks.org/python-datetime-
 
 **语法:**
 
-```
+```py
 fromtimestamp(timestamp, tz=None)
 ```
 
@@ -18,7 +18,7 @@ fromtimestamp(timestamp, tz=None)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 timestamp = 1545730073
@@ -30,7 +30,7 @@ print("type of dt:",type(dt_obj))
 
 **输出:**
 
-```
+```py
 date_time: 2006-02-25 05:30:00
 type of dt_obj: <class 'datetime.datetime'>
 
@@ -44,7 +44,7 @@ type of dt_obj: <class 'datetime.datetime'>
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 timestamp = 1553367060
@@ -55,7 +55,7 @@ print("date:",dt_obj)
 
 **输出:**
 
-```
+```py
 date: 24-03-19
 
 ```

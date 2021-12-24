@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Keys whose Values summation equals K 
 # Using loop
@@ -50,7 +50,7 @@ print("Keys whose sum equals K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 5, 'Best': 9, 'for': 8, 'Geeks': 10}
 Keys whose sum equals K : ['is', 'Best']
 
@@ -62,7 +62,7 @@ Keys whose sum equals K : ['is', 'Best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Keys whose Values summation equals K 
 # Using list comprehension 
@@ -89,7 +89,7 @@ print("Keys whose sum equals K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 5, 'Best': 9, 'for': 8, 'Geeks': 10}
 Keys whose sum equals K : [['is', 'Best']]
 

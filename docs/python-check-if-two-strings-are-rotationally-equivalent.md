@@ -13,7 +13,7 @@
 **方法#1:使用循环+字符串切片**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们执行提取字符串以执行所有可能的旋转的任务，以检查任何旋转是否等于另一个字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if two strings are Rotationally Equivalent
 # Using loop + string slicing
@@ -40,7 +40,7 @@ print("Are two strings Rotationally equal ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string 1 is : geeks
 The original string 2 is : eksge
 Are two strings Rotationally equal ? : True
@@ -50,7 +50,7 @@ Are two strings Rotationally equal ? : True
 **方法 2:使用`any() + join() + enumerate()`**
 这是可以执行此任务的方式之一。在本文中，我们使用嵌套生成器表达式提取的 any()和 enumerate()来执行检查任何旋转等价的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if two strings are Rotationally Equivalent
 # Using any() + join() + enumerate()
@@ -75,7 +75,7 @@ print("Are two strings Rotationally equal ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string 1 is : geeks
 The original string 2 is : eksge
 Are two strings Rotationally equal ? : True

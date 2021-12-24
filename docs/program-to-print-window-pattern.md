@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 6
 Output : * * * * * *
          *   * *   * 
@@ -38,7 +38,7 @@ Output : * * * * * * *
 
 ## c++ 14
 
-```
+```py
 // C++ program to print the pattern 
 // hollow square with plus inside it
 // window pattern
@@ -111,7 +111,7 @@ int main()
 
 ## Java
 
-```
+```py
 // Java program to print the pattern 
 // hollow square with plus inside it
 // window pattern
@@ -179,7 +179,7 @@ class GFG
 
 ## python 3
 
-```
+```py
 # Python3 program to print the pattern
 # hollow square with plus inside it
 # window pattern
@@ -231,7 +231,7 @@ if __name__ == "__main__":
 
 ## c#
 
-```
+```py
 // C# program to print the pattern 
 // hollow square with plus inside it
 // window pattern
@@ -305,7 +305,7 @@ static void Main()
 
 ## Javascript
 
-```
+```py
 <script>
 
       // JavaScript program to
@@ -365,7 +365,7 @@ static void Main()
 
 **输出:**
 
-```
+```py
 * * * * * * * 
 *     *     * 
 *     *     * 

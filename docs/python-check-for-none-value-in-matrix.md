@@ -7,7 +7,7 @@ Python 支持列表作为其列表元素，因此可以形成矩阵。有时我�
 **方法#1:使用`any()` +列表理解**
 可以使用任意函数执行 if 条件的任务，并且可以使用列表理解计算嵌套列表中每个元素的检查。
 
-```
+```py
 6# Python3 code to demonstrate
 # Search in Matrix
 # using any() + list comprehension
@@ -30,7 +30,7 @@ print("Does Matrix contain None value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5, 6], [10, 2, None], [1, 11, 18]]
 Does Matrix contain None value ? : True
 

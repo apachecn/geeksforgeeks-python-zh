@@ -10,7 +10,7 @@ Python 提供了三种类型的无限迭代器–
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # infinite iterators
 
@@ -26,7 +26,7 @@ Python 提供了三种类型的无限迭代器–
 
     **输出:**
 
-    ```
+    ```py
     5 10 15 20 25 30
 
     ```
@@ -35,7 +35,7 @@ Python 提供了三种类型的无限迭代器–
 
     **示例#1:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # infinite iterators
 
@@ -54,14 +54,14 @@ Python 提供了三种类型的无限迭代器–
 
     **输出:**
 
-    ```
+    ```py
     A B A B A B A B 
 
     ```
 
     **示例#2:** 使用下一个函数。
 
-    ```
+    ```py
     # Python program to demonstrate
     # infinite iterators
 
@@ -81,7 +81,7 @@ Python 提供了三种类型的无限迭代器–
 
     **输出:**
 
-    ```
+    ```py
     Geeks for Geeks Geeks for Geeks 
 
     ```
@@ -90,7 +90,7 @@ Python 提供了三种类型的无限迭代器–
 
     **示例:**
 
-    ```
+    ```py
     # Python code to demonstrate the working of  
     # repeat() 
 
@@ -104,7 +104,7 @@ Python 提供了三种类型的无限迭代器–
 
     **输出:**
 
-    ```
+    ```py
     Printing the numbers repeatedly : 
     [25, 25, 25, 25]
 

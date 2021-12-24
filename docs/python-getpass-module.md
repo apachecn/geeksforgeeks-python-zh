@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 
 pwd = getpass.getpass(prompt = 'Enter the password')
@@ -37,7 +37,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 
 pwd = getpass.getpass()
@@ -54,7 +54,7 @@ print("You entered: ", pwd)
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 
 pwd = getpass.getpass(prompt = 'What is you last Name: ')
@@ -74,7 +74,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 import sys
 
@@ -96,7 +96,7 @@ print('Entered Password: ', pwd)
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 
 print(getpass.getuser())
@@ -112,7 +112,7 @@ print(getpass.getuser())
 
 ## 蟒蛇 3
 
-```
+```py
 import getpass
 
 user_name = getpass.getuser()

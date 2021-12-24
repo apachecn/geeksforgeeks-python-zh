@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import string and random module
 import string
 import random
@@ -24,7 +24,7 @@ print(randomLetter)
 
 **输出:**
 
-```
+```py
 w
 ```
 
@@ -36,7 +36,7 @@ w
 
 ## 蟒蛇 3
 
-```
+```py
 # Import string and random module
 import random
 
@@ -49,6 +49,6 @@ print(randomLowerLetter, randomUpperLetter)
 
 **输出:**
 
-```
+```py
 n M
 ```

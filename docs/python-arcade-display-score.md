@@ -69,7 +69,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 
@@ -219,7 +219,7 @@ arcade.run()
 
 在这个例子中，每当玩家从平台上跌落时，我们将把我们的分数重置为 0，并从起始位置重新开始游戏。为此，我们将简单地在 on_update()函数中添加下面的行。
 
-```
+```py
 if self.player_sprite.center_y < -20:
    self.score = 0
    self.setup()
@@ -231,7 +231,7 @@ if self.player_sprite.center_y < -20:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

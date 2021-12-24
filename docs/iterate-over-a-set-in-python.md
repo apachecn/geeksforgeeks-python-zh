@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -21,7 +21,7 @@ for val in test_set:
 
 **输出:**
 
-```
+```py
 k
 s
 e
@@ -33,7 +33,7 @@ E
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 0.06303901899809716
 0.06756918999963091
 0.06692574200133095
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -90,7 +90,7 @@ for id,val in enumerate(test_set):
 
 **输出:**
 
-```
+```py
 0 E
 1 e
 2 k
@@ -102,7 +102,7 @@ for id,val in enumerate(test_set):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 0.1306622320007591
 0.13657568199778325
 0.13797824799985392
@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -160,7 +160,7 @@ for id in range(len(test_list)):
 
 **输出:**
 
-```
+```py
 g
 k
 E
@@ -172,7 +172,7 @@ e
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 0.20036015100049553
 0.2557020290005312
 0.4601482660000329
@@ -219,7 +219,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -230,7 +230,7 @@ print(*com)
 
 **输出:**
 
-```
+```py
 k s e g E
 ```
 
@@ -238,7 +238,7 @@ k s e g E
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 0.1662169310002355
 0.1783527520019561
 0.21661155100082397
@@ -282,7 +282,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -292,7 +292,7 @@ com = [print(val) for val in test_set]
 
 **输出:**
 
-```
+```py
 e
 E
 g
@@ -304,7 +304,7 @@ k
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -336,7 +336,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 0.11386321299869451
 0.111869686999853
 0.1092844699996931
@@ -348,7 +348,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -380,7 +380,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 1.0756000847322866e-05
 1.310199877480045e-05
 1.269100175704807e-05
@@ -392,7 +392,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -425,7 +425,7 @@ if __name__ == '__main__':
 
 **输出** :
 
-```
+```py
 0.0676155920009478
 0.07111633900058223
 0.06994135700006154
@@ -437,7 +437,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a set using string
 test_set = set("geEks")
 
@@ -458,7 +458,7 @@ while True:
 
 **输出:**
 
-```
+```py
 E
 s
 e
@@ -470,7 +470,7 @@ g
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from timeit import default_timer as timer
 import itertools
@@ -510,7 +510,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 0.2136418699992646
 0.1952157889973023
 0.4234208280031453

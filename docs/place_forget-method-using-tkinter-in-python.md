@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports everything from tkinter
 # and ttk module
 from tkinter import *

@@ -6,7 +6,7 @@
 Python 提供了一些用于代码自省的内置函数。它们是:
 1。 **type() :** 这个函数返回一个对象的类型。
 
-```
+```py
 # Python program showing
 # a use of type function
 
@@ -31,7 +31,7 @@ print(type(rk[5]))
 
 **输出:**
 
-```
+```py
 <class 'module'>
 <class 'int'>
 <class 'str'>
@@ -43,7 +43,7 @@ print(type(rk[5]))
 
 2。 **dir() :** 这个函数返回与那个对象相关的方法和属性的列表。
 
-```
+```py
 # Python program showing
 # a use of dir() function
 
@@ -64,7 +64,7 @@ print(dir(math))
 
 **Output:**
 
-```
+```py
 ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
 ['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']
@@ -73,7 +73,7 @@ print(dir(math))
 
 3。 **str() :** 这个函数把所有的东西都转换成一个字符串。
 
-```
+```py
 # Python program showing
 # a use of str() function
 
@@ -96,7 +96,7 @@ print(type(s))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 <class 'str'>
 <class 'list'>
@@ -106,7 +106,7 @@ print(type(s))
 
 4。 **id() :** 这个函数返回一个对象的特殊 id。
 
-```
+```py
 # Python program showing
 # a use of id() function
 
@@ -128,7 +128,7 @@ print(id(math))
 
 **输出:**
 
-```
+```py
 139787756828232
 139787757942656
 139787757391432

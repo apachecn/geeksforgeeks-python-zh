@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import statsmodels.api as sm
 import pandas as pd
@@ -35,7 +35,7 @@ log_reg = sm.Logit(ytrain, Xtrain).fit()
 
 **输出:**
 
-```
+```py
 Optimization terminated successfully.
          Current function value: 0.352707
          Iterations 8
@@ -49,14 +49,14 @@ Optimization terminated successfully.
 
 ## 蟒蛇 3
 
-```
+```py
 # printing the summary table
 print(log_reg.summary())
 ```
 
 **输出:**
 
-```
+```py
                            Logit Regression Results                           
 ==============================================================================
 Dep. Variable:               admitted   No. Observations:                   30
@@ -89,7 +89,7 @@ work_experience     1.1983      0.482      2.487      0.013       0.254       2.
 
 ## 蟒蛇 3
 
-```
+```py
 # loading the testing dataset 
 df = pd.read_csv('logit_test1.csv', index_col = 0)
 
@@ -108,7 +108,7 @@ print('Predictions :', prediction)
 
 **输出:**
 
-```
+```py
 Optimization terminated successfully.
          Current function value: 0.352707
          Iterations 8
@@ -120,7 +120,7 @@ Predictions : [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.metrics import (confusion_matrix,
                            accuracy_score)
 
@@ -134,7 +134,7 @@ print('Test accuracy = ', accuracy_score(ytest, prediction))
 
 **输出:**
 
-```
+```py
 Confusion Matrix : 
  [[6 0]
  [2 2]]

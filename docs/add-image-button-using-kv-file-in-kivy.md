@@ -12,11 +12,11 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **要使用按钮，您必须导入:**
 
-```
+```py
 import kivy.uix.button as Button
 ```
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -50,7 +50,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating that  
 ## how to create button using image in kivy using .kv file
 
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 #.kv file implementation of setting position, size and functionality of btn  
 
 # create a fully styled functional button

@@ -39,7 +39,7 @@
 
 3.将这些值放入上述等式后。
 
-```
+```py
 
 y = 2.3427
 ```
@@ -75,7 +75,7 @@ y(人口)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code
 # Implementing Linear interpolation
 # Creating Function to calculate the
@@ -98,7 +98,7 @@ print("Population on year {} is".format(year_x),
 
 **Output**
 
-```
+```py
 Population on year 2020 is 8912.0
 ```
 
@@ -143,7 +143,7 @@ Population on year 2020 is 8912.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of Linear Interpolation using Python3 code
 # Importing library
 from scipy.interpolate import interp1d
@@ -162,6 +162,6 @@ print("Value of Y at x = {} is".format(interpolate_x),
 
 **输出**
 
-```
+```py
 Value of y at x = 2.5 is 2.85
 ```

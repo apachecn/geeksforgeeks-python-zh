@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of pop()
 
@@ -43,7 +43,7 @@ print("Dictionary after deletion is : " + str(test_dict))
 
 **输出:**
 
-```
+```py
 The dictionary before deletion : {'Nikhil': 7, 'Akshat': 1, 'Akash': 2}
 Value associated to poppped key is : 2
 Dictionary after deletion is : {'Nikhil': 7, 'Akshat': 1}
@@ -53,7 +53,7 @@ Dictionary after deletion is : {'Nikhil': 7, 'Akshat': 1}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of pop()
 
@@ -75,7 +75,7 @@ print("Dictionary after deletion is : " + str(test_dict))
 
 **输出:**
 
-```
+```py
 The dictionary before deletion : {'Nikhil': 7, 'Akshat': 1, 'Akash': 2}
 Value associated to poppped key is : 7
 Dictionary after deletion is : {'Akshat': 1, 'Akash': 2}
@@ -87,7 +87,7 @@ Dictionary after deletion is : {'Akshat': 1, 'Akash': 2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of pop() without key
 
@@ -116,7 +116,7 @@ print("Value associated to poppped key is : " + str(pop_ele))
 
 **输出:**
 
-```
+```py
 The dictionary before deletion : {'Nikhil': 7, 'Akshat': 1, 'Akash': 2}
 Value associated to poppped key is : 4
 Traceback (most recent call last):

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : mat = [[10, 25, 20, 40],
                [15, 45, 35, 30],
                [24, 29, 37, 48],
@@ -23,7 +23,7 @@ Output : 7th smallest element is 30
 3.  现在遍历剩余的行元素，并将它们推入创建的最小堆。
 4.  现在使用 heapq 模块的 **nsmallest(k，iterable)** 方法得到 k 的最小元素。
 
-```
+```py
 # Function to find K'th smallest element in 
 # a 2D array in Python
 import heapq
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 7th smallest element is 30
 
 ```

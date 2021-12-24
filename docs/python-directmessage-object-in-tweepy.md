@@ -17,7 +17,7 @@ Tweepy 模块中的 **`DirectMessage`** 对象包含一个地方的信息。
 
 **示例:**使用`get_direct_message()`方法获取直接消息。
 
-```
+```py
 # import the module
 import tweepy
 

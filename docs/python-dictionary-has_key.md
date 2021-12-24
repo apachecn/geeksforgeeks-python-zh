@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to show working
 # of has_key() method in Dictionary
 
@@ -36,7 +36,7 @@ print(Dictionary1.has_key('For'))
 
 **输出:**
 
-```
+```py
 Dictionary to be checked: 
 {'A': 'Geeks', 'C': 'Geeks', 'B': 'For'}
 True
@@ -47,7 +47,7 @@ False
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to show working
 # of has_key() method in Dictionary
 
@@ -66,7 +66,7 @@ print(Dictionary2.has_key('To'))
 
 **输出:**
 
-```
+```py
 Dictionary to be checked: 
 {1: 'Welcome', 2: 'To', 3: 'Geeks'}
 True
@@ -81,7 +81,7 @@ has_key()在 Python 3 中已被删除。运算符 中的 [**用于检查字典�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to search a key in Dictionary
 # Using in operator
 
@@ -104,7 +104,7 @@ else:
 
 **输出:**
 
-```
+```py
 Dictionary: {1:"Geeks",2:"For",3:"Geeks"}
 Geeks
 5 is Absent 

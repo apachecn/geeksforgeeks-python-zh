@@ -8,26 +8,26 @@
 
 **第一步:**首先导入库 Tkinter。
 
-```
+```py
 from tkinter import *
 ```
 
 **步骤 2:** 现在，使用 Tkinter 创建一个 GUI 应用程序。
 
-```
+```py
 app = Tk()
 ```
 
 **步骤 3:** 然后，创建一个带有一个参数的函数，即当点击一个按钮时要显示的文本的参数
 
-```
+```py
 def which_button(button_press):
    print (button_press)
 ```
 
 **步骤 4:** 进一步，通过调用您在步骤 3 中声明的 which _ button 函数来创建和显示第一个按钮。
 
-```
+```py
 b1 = Button(app, text="#Text you want to show in button b1",
             command=lambda m="#Text you want to show when\
             b1 is clicked": which_button(m))
@@ -37,7 +37,7 @@ b1.grid(padx=10, pady=10)
 
 **步骤 5:** 此外，通过调用您在步骤 3 中声明的 which_button 函数来创建和显示第二个按钮。
 
-```
+```py
 b2 = Button(app, text="#Text you want to show in button b2",
             command=lambda m="#Text you want to show when \
             b2 is clicked": which_button(m))
@@ -47,7 +47,7 @@ b2.grid(padx=10, pady=10)
 
 **第 6 步:**接下来，继续重复第 4 步和第 5 步 n 个按钮，将 n 替换为您希望它在应用程序上显示的按钮数量。不要忘记调用您在步骤 3 中声明的 which _ button 函数。
 
-```
+```py
 bn = Button(app, text="#Text you want to show in button bn",
             command=lambda m="#Text you want to show when \
             bn is clicked": which_button(m))
@@ -57,7 +57,7 @@ bn.grid(padx=10, pady=10)
 
 **第七步:**最后，创建一个无限循环在屏幕上显示应用。
 
-```
+```py
 app.mainloop()
 ```
 
@@ -67,7 +67,7 @@ app.mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to determine which
 # button was pressed in tkinter
 

@@ -7,7 +7,7 @@
 **方法#1:使用`max()` +生成器表达式**
 上述功能的组合可用于执行该任务。在本文中，我们使用生成器表达式提取所有列表长度，并使用 max()返回它们的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extracting length of longest string in list
 # using max() + generator expression
@@ -28,7 +28,7 @@ print("Length of maximum string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best']
 Length of maximum string is : 4
 

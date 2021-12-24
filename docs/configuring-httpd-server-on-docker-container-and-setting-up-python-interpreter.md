@@ -18,7 +18,7 @@
 
 *   首先，我们需要在您的虚拟机中安装 docker，因此首先使用以下命令进入 repo 文件夹。
 
-```
+```py
 cd /etc/yum.repos.d/
 ```
 
@@ -30,13 +30,13 @@ cd /etc/yum.repos.d/
 
 *   之后，您可以使用以下命令安装 docker:
 
-```
+```py
 yum install docker-ce  --nobest
 ```
 
 *   要检查 docker 是否已安装，请运行以下命令:
 
-```
+```py
 rpm -q docker-ce
 ```
 
@@ -44,13 +44,13 @@ rpm -q docker-ce
 
 启动码头工人服务:
 
-```
+```py
 systemctl start docker
 ```
 
 检查码头工人状态:
 
-```
+```py
 systemctl status docker
 ```
 
@@ -69,13 +69,13 @@ systemctl status docker
 
 *   现在要在 docker 上启动一个 *os /container* 我们需要一个图像你可以使用这个图像，我们正在使用 ubuntu: 20.10 图像，你可以从[https://hub.docker.com/](https://hub.docker.com/)获得它，要下载这个图像我们只需要使用一个命令
 
-```
+```py
 docker pull ubuntu:20.10
 ```
 
 *   现在你可以通过这个图像来启动容器:**docker run-I-t-name taskd Ubuntu:20.10**，从容器中出来的命令是 **exit** ，你可以通过使用以下命令来检查有多少操作系统停止并运行:
 
-```
+```py
 docker ps -a
 ```
 
@@ -85,7 +85,7 @@ docker ps -a
 
 *   要进入已退出的 docker 容器，我们有一个命令 **docker 附加任务**这里*任务*是你在启动容器时给出的名称，你可以根据需要给出任何名称。在进入容器之前，您必须首先通过以下命令启动停止的容器:
 
-```
+```py
 docker start taskd
 ```
 
@@ -107,7 +107,7 @@ apt-get 更新
 
 *   现在我们必须使用以下命令来安装 *systemctl* :
 
-```
+```py
 apt-get install systemctl
 ```
 
@@ -127,7 +127,7 @@ apt-get install systemctl
 
 *   使用以下命令安装 vim:
 
-```
+```py
 apt-get install vim
 ```
 
@@ -161,7 +161,7 @@ apt-get install vim
 
 *   查看 python3 是否安装
 
-```
+```py
 python3 -V
 ```
 

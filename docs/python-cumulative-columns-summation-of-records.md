@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Columns summation of Records
 # using list comprehension + sum() + zip()
@@ -29,7 +29,7 @@ print("The Cumulative column sum is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column sum is : [8, 15, 17]
 
@@ -40,7 +40,7 @@ The Cumulative column sum is : [8, 15, 17]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Columns summation of Records
 # using zip() + map() + sum()
@@ -61,7 +61,7 @@ print("The Cumulative column sum is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column sum is : [8, 15, 17]
 

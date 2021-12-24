@@ -6,7 +6,7 @@
 
 **方法#1:** 使用`split()`和`strip()`
 
-```
+```py
 # Python code to demonstrate converting 
 # string representation of list to list
 # using strip and split
@@ -28,7 +28,7 @@ print (type(res))
 
 **输出:**
 
-```
+```py
 initial string [1, 2, 3, 4, 5]
 <class 'str'>
 final list ['1', '2', '3', '4', '5']

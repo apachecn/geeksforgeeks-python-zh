@@ -23,7 +23,7 @@
 
 **示例:**
 
-```
+```py
 import time
 
 curr_time = time.localtime()
@@ -34,7 +34,7 @@ print(curr_clock)
 
 **输出:**
 
-```
+```py
 11:58:19
 
 ```
@@ -42,7 +42,7 @@ print(curr_clock)
 我们将获得该地区的当地当前时间和标准 UTC 时间
 **示例:**
 
-```
+```py
 from datetime import datetime
 import pytz
 
@@ -72,7 +72,7 @@ print("Date & Time in IST : ", 
       datetime_ist.strftime('%Y:%m:%d %H:%M:%S %Z %z'))
 ```
 
-```
+```py
 Output:
 UTC in Default Format :  2020-03-31 07:15:59.640418+00:00
 IST in Default Format :  2020-03-31 12:45:59.692642+05:30
@@ -84,7 +84,7 @@ Date & Time in IST :  2020:03:31 12:45:59 IST+0530
 比较不同地区时区的 UTC 和 IST 格式
 **示例:**
 
-```
+```py
 from datetime import datetime
 import pytz
 
@@ -131,7 +131,7 @@ print(utc_At.strftime('%Y-%m-%d %H:%M:%S %Z %z'),
       dt_Kl.strftime('%Y-%m-%d %H:%M:%S %Z %z'))
 ```
 
-```
+```py
 Output:
 UTC Format               IST Format
 2020-03-31 11:21:13 UTC +0000       2020-03-31 16:51:13 IST +0530

@@ -24,7 +24,7 @@ Builder Method 是一种[创建设计模式](https://www.geeksforgeeks.org/softw
 
 **注意:**以下代码是在不使用 Builder 方法的情况下编写的。
 
-```
+```py
 # concrete course
 class DSA():
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
 解决方案生成器方法
 
-```
+```py
 # Abstract course
 class Course:
 

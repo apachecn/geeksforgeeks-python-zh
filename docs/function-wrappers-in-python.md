@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 @wrapper
 def function(n):
     statements(s)
@@ -14,7 +14,7 @@ def function(n):
 
 这也类似于
 
-```
+```py
 def function(n):
     statement(s)
 
@@ -24,7 +24,7 @@ function = wrapper(function)
 让我们看看下面的例子，以便更好地理解。
 **例 1:**
 
-```
+```py
 # defining a decorator 
 def hello_decorator(func): 
 
@@ -58,7 +58,7 @@ function_to_be_used() 
 
 **输出:**
 
-```
+```py
 Hello, this is before function execution
 This is inside the function !!
 This is after function execution
@@ -66,7 +66,7 @@ This is after function execution
 
 **示例 2:** 让我们定义一个装饰器，计算函数执行所花费的时间。
 
-```
+```py
 import time
 
 def timeis(func):
@@ -93,7 +93,7 @@ countdown(1000)
 
 **输出:**
 
-```
+```py
 countdown 1.6689300537109375e-06
 countdown 5.507469177246094e-05
 ```

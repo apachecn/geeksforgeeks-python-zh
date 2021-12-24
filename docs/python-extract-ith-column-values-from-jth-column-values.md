@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们循环遍历每一行，并将 jth 列与列表元素进行比较，如果列表元素存在，则提取 ith 元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract ith column values from jth column values
 # Using loop
@@ -46,7 +46,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 6], [2, 5, 7], [9, 8, 2], [10, 2, 6]]
 The extracted elements : [6, 7, 6]
 
@@ -55,7 +55,7 @@ The extracted elements : [6, 7, 6]
 **方法 2:使用`set() + list comprehension`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们以与上述方法类似的方式执行提取元素的任务，只是使用速记。此外，对于初始数据搜索缩减，搜索列表被转换为 set()，以移除重复的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract ith column values from jth column values
 # Using set() + list comprehension
@@ -86,7 +86,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 6], [2, 5, 7], [9, 8, 2], [10, 2, 6]]
 The extracted elements : [6, 7, 6]
 

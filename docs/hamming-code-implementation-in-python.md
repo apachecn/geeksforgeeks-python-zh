@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```py
 Input: 
 1011001
 
@@ -36,7 +36,7 @@ The position of error is 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # hamming code
 
@@ -142,7 +142,7 @@ print("The position of error is " + str(correction))
 
 **输出:**
 
-```
+```py
 Data transferred is 10101001110
 Error Data is 11101001110
 The position of error is 2

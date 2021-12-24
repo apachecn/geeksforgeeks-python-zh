@@ -22,7 +22,7 @@
 
 在终端上运行以下 pip 命令进行安装:
 
-```
+```py
 pip install chatterbot
 pip install chatterbot_corpus
 ```
@@ -35,7 +35,7 @@ pip install chatterbot_corpus
 
 ## 蟒蛇 3
 
-```
+```py
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 ```
@@ -46,7 +46,7 @@ from chatterbot.trainers import ListTrainer
 
 ## 蟒蛇 3
 
-```
+```py
 bot = ChatBot('Bot')
 ```
 
@@ -61,7 +61,7 @@ bot = ChatBot('Bot')
 
 ## 蟒蛇 3
 
-```
+```py
 chatbot = ChatBot(
     'JARVIS',  
     logic_adapters=[
@@ -78,7 +78,7 @@ chatbot = ChatBot(
 
 ## 蟒蛇 3
 
-```
+```py
 from chatterbot.trainers import ListTrainer
 
 trainer = ListTrainer(bot)
@@ -101,7 +101,7 @@ trainer.train([
 
 ## 蟒蛇 3
 
-```
+```py
 response = bot.get_response("Good morning!")
 
 print(response)
@@ -109,7 +109,7 @@ print(response)
 
 **输出:**
 
-```
+```py
 Hello
 ```
 
@@ -117,7 +117,7 @@ Hello
 
 ## 蟒蛇 3
 
-```
+```py
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ListTrainer

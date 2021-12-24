@@ -22,7 +22,7 @@ ItertoolsCombinations_with_replacement()位于 itertools 的组合生成器子�
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import combinations_with_replacement
 
 a ="GEeks"
@@ -41,7 +41,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import combinations_with_replacement
 
 print ("All the combination of List in sorted order(with replacement) is:")  

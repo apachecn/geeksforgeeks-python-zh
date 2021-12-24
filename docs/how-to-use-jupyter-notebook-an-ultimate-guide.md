@@ -22,7 +22,7 @@ Jupyter 笔记本是一个开源的网络应用程序，允许您创建和共享
 
 **使用 pip 安装 Jupyter 笔记本:**
 
-```
+```py
 python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
 
@@ -32,7 +32,7 @@ python3 -m pip install jupyter
 
 要启动 jupyter 笔记本，请在终端中键入以下命令。
 
-```
+```py
 jupyter notebook
 ```
 
@@ -60,7 +60,7 @@ jupyter notebook
 
 现在，让我们添加以下代码–
 
-```
+```py
 print("Hello World")
 ```
 
@@ -190,14 +190,14 @@ Jupyter 笔记本为内核提供了多种选择。如果你想重置一些东西
 
 大多数扩展都可以使用 Python 的 pip 工具来安装。如果无法使用 pip 安装扩展，请使用以下命令安装扩展。
 
-```
+```py
 jupyter nbextension install extension_name
 
 ```
 
 上面只安装了扩展，但没有启用它。要启用它，请在终端中键入以下命令。
 
-```
+```py
 jupyter nbextension enable extension_name
 
 ```

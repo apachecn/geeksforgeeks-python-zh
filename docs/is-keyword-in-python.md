@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 a is b
 
 # Using if statement
@@ -22,7 +22,7 @@ if a is b:
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # is keyword
 
@@ -40,7 +40,7 @@ True`
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # is keyword
 
@@ -55,6 +55,6 @@ else:
 
 **输出:**
 
-```
+```py
 True
 ```

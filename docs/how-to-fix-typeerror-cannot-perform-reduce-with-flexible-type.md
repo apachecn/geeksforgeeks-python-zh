@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 

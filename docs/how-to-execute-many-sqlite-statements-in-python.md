@@ -8,7 +8,7 @@ executescript()可以连续执行一系列几个 SQL/SQLite 查询。executescri
 
 **语法:**
 
-```
+```py
 cursor_obj.executescript(""" 
     SQLite Statement/Query . . . 1
     SQLite Statement/Query . . . 2
@@ -24,7 +24,7 @@ cursor_obj.executescript("""
 
 ## python 3
 
-```
+```py
 import sqlite3 
 
 # make the database connection and cursor object

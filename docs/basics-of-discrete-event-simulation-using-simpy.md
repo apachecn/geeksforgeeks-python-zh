@@ -7,7 +7,7 @@ SimPy 是用 Python 编写的一个强大的基于流程的离散事件仿真框
 **安装:**
 要安装 SimPy，请使用以下命令–
 
-```
+```py
 pip install simpy
 ```
 
@@ -17,7 +17,7 @@ SimPy 背后的核心思想是 Python 中的生成器函数。普通函数和生
 
 如果函数有一个 return 语句，那么即使在多次函数调用中，它也会返回相同的值。对于 eg–
 
-```
+```py
 def func():
     return 1
     return 2
@@ -29,7 +29,7 @@ def func():
 
 这就是生成器函数非常有用的地方。例如，考虑以下函数
 
-```
+```py
 def func():
     while True:
         yield 1
@@ -42,7 +42,7 @@ SimPy 中的事件称为**进程**，它们由自己的生成器函数定义。�
 
 考虑一个简单的例子，包括交通灯的模拟–
 
-```
+```py
 # Python 3 code to demonstrate basics of SimPy package 
 # Simulation of a Traffic Light 
 
@@ -84,7 +84,7 @@ env.run(until = 180) 
 
 **输出:**
 
-```
+```py
 Light turns GRN at 0
 Light turns YEL at 25
 Light turns RED at 30

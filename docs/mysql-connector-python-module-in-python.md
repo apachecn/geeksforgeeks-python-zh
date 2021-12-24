@@ -24,7 +24,7 @@ MySQL Connector/Python 使 Python 程序能够使用符合 Python 数据库 API 
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install mysql-connector-python
 
 ```
@@ -35,13 +35,13 @@ pip install mysql-connector-python
 
 如果安装时出现任何问题，可以明确指定模块版本，如下所示:
 
-```
+```py
 pip install mysql-connector-python==8.0.17
 ```
 
 此外，要卸载当前的 MySQL 连接器/Python，可以使用以下命令:
 
-```
+```py
 pip uninstall mysql-connector-python
 ```
 
@@ -54,7 +54,7 @@ pip uninstall mysql-connector-python
 *   打开 Python 命令行
 *   键入以下代码
 
-```
+```py
 import mysql.connector
 
 mysql.connector.connect(host='localhost',

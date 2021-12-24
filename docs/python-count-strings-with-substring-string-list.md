@@ -7,7 +7,7 @@ python 可以很容易处理的经典问题是，如果一个字符串是另一�
 **方法#1:使用列表理解+ len()**
 列表理解是执行任何特定任务的优雅方式，因为从长远来看，它增加了可读性。这项任务可以用简单的方法完成，因此也可以简化为列表理解。len()用于计算列表的长度。
 
-```
+```py
 # Python code to demonstrate 
 # Count Strings with substring String List
 # using list comprehension + len()
@@ -31,7 +31,7 @@ print ("All strings count with given substring are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['GeeksforGeeks', 'Geeky', 'Computers', 'Algorithms']
 All strings count with given substring are : 2
 

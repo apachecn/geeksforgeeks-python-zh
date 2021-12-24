@@ -11,14 +11,14 @@
 *   **XAMPP:** 存储和显示数据的数据库/服务器。
 *   **MySQL-连接器模块:**用于连接数据库和 python 文件。使用以下命令安装此模块。
 
-```
+```py
 pip install mysql-connector
 
 ```
 
 *   **车轮模块:**一个处理车轮文件的命令行工具。使用以下命令安装此模块。
 
-```
+```py
 pip install wheel
 
 ```
@@ -59,7 +59,7 @@ pip install wheel
 
 *   在 Python 代码中导入 *mysql* 连接器模块。
 
-```
+```py
 import mysql.connector
 
 ```
@@ -72,14 +72,14 @@ import mysql.connector
 
 *   创建光标对象。
 
-```
+```py
 cur_object=conn_object,cursor()
 
 ```
 
 *   对数据库执行查询。
 
-```
+```py
 query=DDL/DML etc
 cur_obj=execute(query)
 
@@ -87,14 +87,14 @@ cur_obj=execute(query)
 
 *   关闭光标对象。
 
-```
+```py
 cur_obj.close()
 
 ```
 
 *   关闭连接对象。
 
-```
+```py
 conn_obj.close()
 
 ```
@@ -103,7 +103,7 @@ conn_obj.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import mysql.connector
 

@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 db.collection.count()
 ```
 
@@ -24,7 +24,7 @@ db.collection.count()
 
 ![python-mongodb-sample-database4](img/55336c29c412c2eb1c21dda2915b818d.png)
 
-```
+```py
 from pymongo import MongoClient
 
 Client = MongoClient()
@@ -40,7 +40,7 @@ print("The number of documents in collection : ", mydoc) 
 
 **输出:**
 
-```
+```py
 The number of documents in collection :  8
 ```
 
@@ -50,13 +50,13 @@ The number of documents in collection :  8
 
 **语法:**
 
-```
+```py
 db.collection.count_documents({query, option})
 ```
 
 **示例:**使用`count_documents()`检索集合中存在的文档和文档计数。
 
-```
+```py
 from pymongo import MongoClient
 
 Client = MongoClient()
@@ -72,6 +72,6 @@ print("Total number of documents : ", total_count)
 
 **输出:**
 
-```
+```py
 Total number of documents :  8
 ```

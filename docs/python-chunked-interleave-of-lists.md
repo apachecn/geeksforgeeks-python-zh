@@ -7,7 +7,7 @@
 **方法:使用 loop + `extend()`**
 这个任务可以使用上面的功能来执行。在这种情况下，我们计算所需的迭代次数，然后运行一个循环。我们使用 extend()和指定的变量号在列表中添加元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # Chunked interleave of Lists
 # using loop + extend()
@@ -40,7 +40,7 @@ print ("List after chunked merge : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 6, 8, 10, 11]
 The original list 2 is : [6, 7, 8, 9, 8, 12]
 List after chunked merge : [4, 5, 6, 6, 7, 8, 8, 10, 11, 9, 8, 12]

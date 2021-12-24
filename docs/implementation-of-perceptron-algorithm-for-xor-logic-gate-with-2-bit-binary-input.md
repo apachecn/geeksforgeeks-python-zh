@@ -39,7 +39,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -103,7 +103,7 @@ print("XOR({}, {}) = {}".format(1, 0, XOR_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 XOR(0, 1) = 1
 XOR(1, 1) = 0
 XOR(0, 0) = 0

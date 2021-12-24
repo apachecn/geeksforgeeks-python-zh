@@ -17,13 +17,13 @@ Python 和 Javascript 都可以用来开发一个**自动推特机器人**，它
 
 ****1。使用 pip 命令****
 
-```
+```py
 $ pip install tweepy 
 ```
 
 ****2。克隆 tweepy****
 
-```
+```py
 $ git clone https://github.com/tweepy/tweepy.git
 $ cd tweepy
 $ pip install 
@@ -46,7 +46,7 @@ $ pip install
 
 ## 蟒 3
 
-```
+```py
 import tweepy
 from time import sleep
 from credentials import * 
@@ -95,7 +95,7 @@ for tweet in tweepy.Cursor(api.search, q = QUERY).items():
 
  **## 蟒 3
 
-```
+```py
 # Edit this config.py file as you like
 
 # This is hastag which Twitter bot will
@@ -123,7 +123,7 @@ SLEEP_TIME = 300
 
  **## 蟒 3
 
-```
+```py
 # This is just a sample file. You need to
 # edit this file. You need to get these
 # details from your Twitter app settings.
@@ -138,7 +138,7 @@ access_token_secret = ''
 
 **使用此命令从命令提示符/终端运行**twitertbot _ retweet . py**文件。**
 
-```
+```py
 $ python twitterbot_retweet.py 
 ```
 

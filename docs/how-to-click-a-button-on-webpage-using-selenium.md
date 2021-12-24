@@ -11,7 +11,7 @@ Selenium 可以自动点击网页上出现的按钮。本文围绕如何在网�
 
 **语法:**
 
-```
+```py
 # finding the button using ID
 button = driver.find_element_by_id(ID)
 
@@ -23,7 +23,7 @@ button.click()
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 # importing webdriver from selenium
 from selenium import webdriver

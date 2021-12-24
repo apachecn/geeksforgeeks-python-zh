@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 在枚举函数的帮助下，列表理解可以用于执行这个特定的任务，其中我们使用元组，该元组使用枚举函数为插入增加每个替换元素的长度。
 
-```
+```py
 # Python3 code to demonstrate
 # increasing alternate element pattern
 # using list comprehension + enumerate()
@@ -30,7 +30,7 @@ print("The increasing element pattern list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 2, 3, 4, 5]
 The increasing element pattern list : [1, '*', 2, '**', 3, '***', 4, '****', 5, '*****']
 

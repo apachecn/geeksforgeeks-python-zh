@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sqlite3 module
 import sqlite3
 
@@ -81,7 +81,7 @@ print(cur.fetchall())
 
 ## 蟒蛇 3
 
-```
+```py
 # import sqlite3 module
 import sqlite3
 

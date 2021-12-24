@@ -7,7 +7,7 @@
 **方法:使用迭代器+ `all() + any()`**
 以上功能的组合可以用来执行这个特定的任务。在这种情况下，我们使用初始 all()过滤前导无值，然后使用 any()检查单个有效值子列表，然后检查所有必需的无值。如果以上任何一项返回 false。非无值不连续。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if Non-None values are contiguous
 # Using iterator + all() + any()
@@ -35,7 +35,7 @@ print("Are non-none values contiguous ? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [None, None, 'Gfg', 'is', 'Good', None, None, None]
 Are non-none values contiguous ? : True

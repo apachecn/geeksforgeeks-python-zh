@@ -17,7 +17,7 @@
 
 下面是上述方法的 Python3 实现:
 
-```
+```py
 # Python3 program to Filtering Images
 # based on Size Attributes 
 from PIL import Image

@@ -9,7 +9,7 @@
 *   **OS:**Python 中的 OS 模块提供了与操作系统交互的功能。操作系统模块附带 Python 的标准库。
 *   **send2trash :** Send2Trash 是一个小的包，它在所有平台上以本机方式将文件发送到废纸篓(或回收站)。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install send2trash
 
 ```
@@ -20,7 +20,7 @@ pip install send2trash
 
 ## 蟒 3
 
-```
+```py
 import send2trash
 
 send2trash.send2trash("/location/to/file")

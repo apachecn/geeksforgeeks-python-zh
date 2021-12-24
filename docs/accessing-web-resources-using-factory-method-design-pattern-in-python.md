@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 import http.client
 from ftplib import FTP
 

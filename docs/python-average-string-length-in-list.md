@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `sum() + len()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用列表理解计算所有字符串的长度，然后使用`len() and sum()`将总和除以列表的长度。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Average String lengths in list
 # using list comprehension + sum() + len()
@@ -29,7 +29,7 @@ print("The Average length of String in list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The Average length of String in list is : 3.4
 

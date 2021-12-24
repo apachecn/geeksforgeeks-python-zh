@@ -14,7 +14,7 @@
 因此我们可以说**装饰者是一个[可调用的](https://www.geeksforgeeks.org/callable-in-python/)接受并返回一个可调用的。**
 下面的代码显示了一个简单的装饰器，它向 my_function [docstring](https://www.geeksforgeeks.org/python-docstrings/) 添加了附加注释:
 
-```
+```py
 def decorated_docstring(function):
     function.__doc__ += '\n Hi George, I''m a simple Decorator.'
     return function
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Help on function my_function in module __main__:
 
 my_function(string1)
@@ -47,7 +47,7 @@ my_function(string1)
 
 从上面的解释中，你可以理解如何装饰一个功能。但是定义一个函数，将其分配给一个变量，然后将修饰后的函数重新分配给同一个变量，这是不可接受的。因此，Python 2.5 引入了一种装饰函数的语法，在装饰器名称前添加一个`@`字符，并在函数声明的正上方添加。下面的代码显示了如何使用语法:
 
-```
+```py
 def reverse_decorator(function):
 
     def reverse_wrapper():
@@ -69,13 +69,13 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 egroeG iH
 ```
 
 这里我们用@字符来修饰函数。
 
-```
+```py
 @reverse_decorator
 def say_hi():
     return 'Hi George'
@@ -85,7 +85,7 @@ def say_hi():
 
 在这种情况下，reverse_decorator 函数执行并创建 revserse_wrapper 的引用。让我们看看下面的例子，以便更好地理解:
 
-```
+```py
 def reverse_decorator(function):
     print('Inside reverse_decorator function')
 
@@ -102,13 +102,13 @@ def say_hi():
 
 **输出:**
 
-```
+```py
 Inside reverse_decorator function
 ```
 
 **这里 reverse_decorator 不执行函数 reverse_wrapper，而是创建引用，并在可调用调用函数时返回。**
 
-```
+```py
 def reverse_decorator(function):
     print('Inside reverse_decorator function')
 
@@ -144,7 +144,7 @@ main()
 
 现在，您已经清楚了如何使用@语法来修饰函数。另一个很酷的东西是，我们可以在一个功能上使用多个装饰器。这里需要注意的一点是**裱花师**应用的顺序很重要，就是**从下往上应用**。让我们来看看多个装饰者。
 
-```
+```py
 def reverse_decorator(function):
 
     def reverse_wrapper():
@@ -175,13 +175,13 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 EGROEG IH
 ```
 
 这里，字符串首先反转，其次转换为大写。
 
-```
+```py
 @uppercase_decorator
 @reverse_decorator
 def say_hi():
@@ -195,7 +195,7 @@ def say_hi():
 
 到目前为止，你已经看到了没有任何争论的装饰者。在某些情况下，有必要传递参数来相应地修饰方法。
 
-```
+```py
 def decorator_arguments(function):
     def wrapper_arguments(arg1, arg2):
         print("Arguments accepted are: {0}, {1}".format(arg1, arg2))
@@ -221,7 +221,7 @@ if __name__ == "__main__":
 
 在上面的例子中，装饰器不会接受任何参数，而是由可调用的传递给包装函数。下面的代码在使用引用传递参数的过程中更加清晰。
 
-```
+```py
 def decorator_arguments(function):
 
     def wrapper_arguments(arg1, arg2):
@@ -308,7 +308,7 @@ main()
 
 让我们来看看如何使用类来修饰一个函数。
 
-```
+```py
 class MyDecorator:
 
     def __init__(self, function):
@@ -331,7 +331,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Inside Function Call
 GeeksforGeeks
 
@@ -339,7 +339,7 @@ GeeksforGeeks
 
 让我们看另一个例子。在代码下面，根据实例的创建时间对其进行排序。这里我们需要三个附加属性——实例化时间戳，__lt__ 和 __gt__ 方法。
 
-```
+```py
 import functools
 import time
 
@@ -383,14 +383,14 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 [Python, Data Analysis, Machine Learning]
 
 ```
 
 `new_init`，**它的主要职责是运行包装函数，并为包装函数**添加额外的功能。`@functools.wraps(org_init)`更新包装函数，以反映包装函数的外观。查看[功能工具](https://www.geeksforgeeks.org/python-functools-wraps-function/)了解详情。
 
-```
+```py
 @functools.wraps(org_init)
 def new_init(self, *args, **kwargs):
 
@@ -411,7 +411,7 @@ cl.__init__ = new_init  
 
 有时需要修饰一个函数并返回一个类。比方说，高级案例开发人员可以在一个应用编程接口中子类化一个类。它还可以避免样板代码的增加。
 
-```
+```py
 class Addition(object):
 
     def __call__(self, *args, **kwargs):
@@ -451,7 +451,7 @@ print(func(2, 1, 4))
 
 **输出**
 
-```
+```py
 Hi George, Im here to help you with addition!
 2
 4
@@ -461,7 +461,7 @@ Hi George, Im here to help you with addition!
 
 这里装饰器创建一个加法子类，并返回子类的实例而不是引用(`return AddSubclass()`)。
 
-```
+```py
 def addition(decorated):
     class AddSubclass(Addition):
         def run(self, *args, **kwargs):

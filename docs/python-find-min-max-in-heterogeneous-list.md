@@ -9,7 +9,7 @@ Python 中的列表可以处理不同类型的数据类型。这种列表的操�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # Min / Max in heterogeneous list
 # using list comprehension + min()/max() + isinstance()
@@ -30,7 +30,7 @@ print ("The minimum value in list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 'computer', 5, 'geeks', 6, 7]
 The minimum value in list is : 3
 ```
@@ -40,7 +40,7 @@ The minimum value in list is : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate 
 # Min / Max in heterogeneous list
 # using lambda + key + max()/min() + isinstance()
@@ -61,7 +61,7 @@ print ("The maximum value in list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 'computer', 5, 'geeks', 6, 7]
 The maximum value in list is : 7
 ```

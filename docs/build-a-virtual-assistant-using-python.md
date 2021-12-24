@@ -8,25 +8,25 @@
 
 *   **pyttsx3:** pyttsx 是一个跨平台的文本到语音库，与平台无关。使用这个库进行文本到语音转换的主要优点是它可以脱机工作。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pyttsx3
 ```
 
 *   **语音识别:**它允许我们将音频转换成文本进行进一步处理。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install SpeechRecognition
 ```
 
 *   **网络浏览器:**它提供了一个高级界面，允许向用户显示基于网络的文档。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install webbrowser
 ```
 
 *   **维基百科:**用于从维基百科网站获取各种信息。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install wikipedia
 ```
 
@@ -38,7 +38,7 @@ pip install wikipedia
 
 ## 蟒蛇 3
 
-```
+```py
 def speak(audio):
 
     engine = pyttsx3.init()
@@ -64,7 +64,7 @@ def speak(audio):
 
 ## 蟒蛇 3
 
-```
+```py
 def Take_query():
 
     # calling the Hello function for 
@@ -133,7 +133,7 @@ def Take_query():
 
 ## 蟒蛇 3
 
-```
+```py
 # this method is for taking the commands
 # and recognizing the command from the
 # speech_Recognition module we will use
@@ -178,7 +178,7 @@ def takeCommand():
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 def tellTime(self):
 # This method will give the time
@@ -202,7 +202,7 @@ def tellTime(self):
 
 ## 蟒蛇 3
 
-```
+```py
 def Hello():
     # This function is for when the assistant 
     # is called it will say hello and then 
@@ -217,7 +217,7 @@ Main 方法是执行所有文件的方法，因此我们将在这里调用 Take_
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
 
     # main method for executing
@@ -229,7 +229,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import pyttsx3
 import speech_recognition as sr
 import webbrowser  

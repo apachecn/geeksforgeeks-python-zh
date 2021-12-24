@@ -5,7 +5,7 @@
 给定一个字符串，编写一个 Python 程序来检查它是否是一个有效的标识符。
 一个**标识符**必须以字母或下划线开头，它不能以数字或任何其他特殊字符开头，而且数字可以在其后。
 
-```
+```py
 gfg : valid identifier
 123 : invalid identifier
 _abc12 : valid identifier
@@ -18,7 +18,7 @@ _abc12 : valid identifier
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to identify the identifier
 
 # import re module
@@ -61,7 +61,7 @@ if __name__ == '__main__' :
 
 **输出:**
 
-```
+```py
 Valid Identifier
 Invalid Identifier
 Invalid Identifier

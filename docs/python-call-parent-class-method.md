@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # classes
 
@@ -30,7 +30,7 @@ x.print()
 
 **输出:**
 
-```
+```py
 Geeks for Geeks
 
 ```
@@ -43,7 +43,7 @@ Geeks for Geeks
 
 **示例:**
 
-```
+```py
 # Python code to demonstrate 
 # parent call method 
 
@@ -70,7 +70,7 @@ obj.show()
 
 **输出**
 
-```
+```py
 Inside Child class
 Inside Parent class
 
@@ -86,7 +86,7 @@ Inside Parent class
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # calling the parent's class method
     # inside the overridden method
@@ -112,7 +112,7 @@ Inside Parent class
 
     **输出:**
 
-    ```
+    ```py
     Inside Parent
     Inside Child
 
@@ -122,7 +122,7 @@ Inside Parent class
 
     **例 1:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # calling the parent's class method
     # inside the overridden method using
@@ -149,7 +149,7 @@ Inside Parent class
 
     **输出:**
 
-    ```
+    ```py
     Inside Parent
     Inside Child
 
@@ -157,7 +157,7 @@ Inside Parent class
 
     **例 2:**
 
-    ```
+    ```py
     # Program to define the use of super() 
     # function in multiple inheritance 
     class GFG1: 
@@ -200,7 +200,7 @@ Inside Parent class
 
     **输出:**
 
-    ```
+    ```py
     HEY !!!!!! GfG I am initialised(Class GEG3)
     HEY !!!!!! GfG I am initialised(Class GEG2)
     HEY !!!!!! GfG I am initialised(Class GEG1)

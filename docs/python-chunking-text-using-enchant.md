@@ -8,7 +8,7 @@
 
 目前唯一实现的 chunker 是 HTMLChunker。一个用于 LaTeX 文档的分块器正在开发中。
 
-```
+```py
 # import the required modules
 from enchant.tokenize import get_tokenizer
 from enchant.tokenize import HTMLChunker

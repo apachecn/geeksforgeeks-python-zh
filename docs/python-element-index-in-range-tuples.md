@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element Index in Range Tuples
 # Using loop
@@ -45,7 +45,7 @@ print("The position of element : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(0, 10), (11, 20), (21, 30), (31, 40), (41, 50)]
 The position of element : 3
 ```
@@ -55,7 +55,7 @@ The position of element : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element Index in Range Tuples
 # Using formula
@@ -79,7 +79,7 @@ print("The position of element : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(0, 10), (11, 20), (21, 30), (31, 40), (41, 50)]
 The position of element : 3
 ```

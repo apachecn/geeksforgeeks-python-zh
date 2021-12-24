@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : patterns = ['ape', 'apple', 
                   'peach', 'puppy'], 
           input = 'appel'
@@ -21,7 +21,7 @@ Output : ['apple', 'ape']
 **difflib.get_close_matches(单词，可能性，n，截止)**接受四个参数，其中 **n，截止**可选。**单词**是期望紧密匹配的序列，**可能性**是匹配单词的序列列表。可选参数 **n(默认为 3)** 是要返回的最大相近匹配数，n 必须大于 0。可选参数**截止值(默认为 0.6)** 是[0，1]范围内的一个浮点数。得分至少和单词不太相似的可能性被忽略。
 可能性中的最佳(不超过 n 个)匹配在列表中返回，按相似性得分排序，最相似的优先。
 
-```
+```py
 # Function to find all close matches of 
 # input string in given list of possible strings
 from difflib import get_close_matches
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 ['apple', 'ape']
 
 ```

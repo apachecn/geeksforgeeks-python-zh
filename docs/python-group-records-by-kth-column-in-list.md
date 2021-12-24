@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `defaultdict()`**
 以上方法的组合可以用来执行这个任务。在本文中，我们使用 defaultdict 在 Kth Column 的基础上将元组存储在不同的列表中，并使用循环进行迭代。
 
-```
+```py
 # Python3 code to demonstrate 
 # Group records by Kth column in List
 # using loop + defaultdict()
@@ -35,7 +35,7 @@ print ("The list after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 1), ('is', 2), ('Gfg', 3), ('is', 4), ('best', 5)]
 The list after grouping : [[('Gfg', 1), ('Gfg', 3)], [('is', 2), ('is', 4)], [('best', 5)]]
 

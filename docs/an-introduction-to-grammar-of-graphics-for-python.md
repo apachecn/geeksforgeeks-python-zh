@@ -30,7 +30,7 @@
 
 这个模块没有内置 Python。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install plotnine 
 ```
 
@@ -40,7 +40,7 @@ pip install plotnine
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from plotnine import *
 
@@ -65,7 +65,7 @@ dataset = pd.read_csv("dataset.csv")
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from plotnine import *
 

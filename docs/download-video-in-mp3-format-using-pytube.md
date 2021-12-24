@@ -10,7 +10,7 @@ YouTube 是世界上最常见的视频分享网站，你可以体验到一种作
 
 为了完成我们的任务，我们将使用一些库，尤其是 python 中的 pytube。为此，我们必须导入它。要导入 pytube，我们可以根据 python 版本使用命令。
 
-```
+```py
 For Python2 : pip install pytube
 For Python3 : pip3 install pytube
 For pyube3 : pip install pytube3
@@ -18,7 +18,7 @@ For pyube3 : pip install pytube3
 
 要保存音频文件，我们使用操作系统模块，并使用下面给出的命令进行导入:
 
-```
+```py
 pip install os_sys
 ```
 
@@ -34,7 +34,7 @@ pip install os_sys
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 from pytube import YouTube
 import os

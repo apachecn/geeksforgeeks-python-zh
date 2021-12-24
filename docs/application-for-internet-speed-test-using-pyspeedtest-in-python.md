@@ -4,7 +4,7 @@
 
 同时以互联网速度进行故障排除。我们需要首先检查互联网带宽速度。所以， **pyspeedtest** 模块使用 Speedtest.net 服务器测试网络带宽。因此，在开始之前，我们需要将 **pyspeedtest** 安装到您的系统中。将这些代码运行到命令行
 
-```
+```py
 pip install pyspeedtest
 ```
 
@@ -20,7 +20,7 @@ pip install pyspeedtest
 
 ## 蟒蛇 3
 
-```
+```py
 import pyspeedtest
 
 test = pyspeedtest.SpeedTest("www.youtube.com")
@@ -32,7 +32,7 @@ test.upload()
 
 **输出:**
 
-```
+```py
 253.4427046775818
 16461.88637373227
 19425388.307319913
@@ -43,7 +43,7 @@ test.upload()
 
 ## 蟒蛇 3
 
-```
+```py
 import pyspeedtest
 from tkinter import *
 

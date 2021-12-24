@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for implementation
 # of int() function
 num = 13
@@ -50,7 +50,7 @@ print("int('100') with base 16 = ", int(str, 16))
 
 **输出:**
 
-```
+```py
 int('187') + 13 =  200 
 
 int('100') with base 2 =  4
@@ -63,7 +63,7 @@ int('100') with base 16 =  256
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for implementation
 # of int() function
 
@@ -88,7 +88,7 @@ print("Decimal equivalent of octal 101 is", Octal)
 
 **输出:**
 
-```
+```py
 Decimal equivalent of binary 111 is 7
 Decimal equivalent of octal 101 is 65
 ```
@@ -97,7 +97,7 @@ Decimal equivalent of octal 101 is 65
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # error of int() function
 
@@ -114,7 +114,7 @@ print(decimal)
 
 **输出:**
 
-```
+```py
 TypeError: int() can't convert non-string with explicit base
 ```
 
@@ -122,7 +122,7 @@ TypeError: int() can't convert non-string with explicit base
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     var = "Geeks"
     print(int(var))

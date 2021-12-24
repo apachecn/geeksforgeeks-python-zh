@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract String till all occurrence of characters from other string
 # Using all() + slicing + loop
@@ -50,7 +50,7 @@ print("String till all characters occurred : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks is best for all geeks
 String till all characters occurred : geeksforgeeks is best for a
 ```
@@ -61,7 +61,7 @@ String till all characters occurred : geeksforgeeks is best for a
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract String till all occurrence of characters from other string
 # Using find() + max() + slice
@@ -84,7 +84,7 @@ print("String till all characters occurred : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks is best for all geeks
 String till all characters occurred : geeksforgeeks is best for a
 ```

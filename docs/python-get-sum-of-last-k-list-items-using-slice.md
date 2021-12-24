@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Inverse K slice Sum
 # using list slicing + sum()
@@ -34,7 +34,7 @@ print("The last K elements sum of list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The last K elements sum of list is : 33
 ```
@@ -44,7 +44,7 @@ The last K elements sum of list is : 33
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Inverse K slice Sum
 # using islice() + reversed() + sum()
@@ -71,7 +71,7 @@ print("The last K elements sum of list are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The last K elements sum of list is : 33
 ```

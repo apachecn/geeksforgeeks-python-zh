@@ -6,7 +6,7 @@
 
 装饰者的使用可以用下面的例子来解释。假设我们编写一个程序，使用另一个函数来“装饰”一个函数。代码是这样的:
 
-```
+```py
 # Code to explain Decorators
 def decorating(function):
     def item():
@@ -25,7 +25,7 @@ decorate()
 
 **输出**
 
-```
+```py
 This is my function.
 The function was decorated.
 This is my function.
@@ -36,7 +36,7 @@ This is my function.
 
 同样的事情也可以通过使用装饰者来完成。下面的代码解释了这一点。请注意，修饰语句是在要修饰的函数之上定义的。
 
-```
+```py
 # Code to implement the usage
 # of decorators
 def decorating(function):
@@ -57,7 +57,7 @@ my_function()
 
 **输出**
 
-```
+```py
 The function was decorated.
 This is my function.
 
@@ -74,7 +74,7 @@ This is my function.
 下面的例子将说明调用装饰器方法的重要性。在本例中，我们将使用一个助手函数来构建第一个“n”个数字的双精度列表。
 代码如下:
 
-```
+```py
 # Helper function to build a
 # list of numbers
 def list_of_numbers(n):
@@ -92,14 +92,14 @@ print(len(list_of_numbers),
 
 **输出**
 
-```
+```py
 6, 4
 
 ```
 
 上面的代码也可以使用 call()装饰器编写:
 
-```
+```py
 # Defining the decorator function
 def call(*argv, **kwargs):
     def call_fn(function):
@@ -121,7 +121,7 @@ print(len(list_of_numbers),
 
 **输出**
 
-```
+```py
 6, 4
 
 ```

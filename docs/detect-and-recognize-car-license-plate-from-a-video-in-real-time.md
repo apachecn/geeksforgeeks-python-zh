@@ -61,7 +61,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def clean_plate(self, plate):
 
     gray = cv2.cvtColor(plate, cv2.COLOR_BGR2GRAY)
@@ -136,7 +136,7 @@ def ratioCheck(self, area, width, height):
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 from skimage.filters import threshold_local
@@ -475,7 +475,7 @@ class PlateFinder:
 
 ## 蟒蛇 3
 
-```
+```py
 class OCR:
 
     def __init__(self):
@@ -559,7 +559,7 @@ class OCR:
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == "__main__":
 
     findPlate = PlateFinder()

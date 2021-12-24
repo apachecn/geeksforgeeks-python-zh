@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -53,7 +53,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 code: AF
 name: Africa
 concatenated_column: AFAfrica
@@ -97,7 +97,7 @@ concatenated_column: SASouth America
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2.extras
 
 conn = psycopg2.connect(
@@ -133,7 +133,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 code: AF
 name: Africa
 concatenated_column: AFAfrica

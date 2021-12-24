@@ -11,7 +11,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # nested functions
 def outerFunction(text):
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # closures
 def outerFunction(text):
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     myFunction()
 ```
 
-```
+```py
 Output:
 omkarpathak@omkarpathak-Inspiron-3542:
 ~/Documents/Python-Programs/$ python Closures.py 
@@ -67,7 +67,7 @@ Hey!
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # closures
 import logging
@@ -101,7 +101,7 @@ sub_logger(10, 5)
 sub_logger(20, 10)
 ```
 
-```
+```py
 OUTPUT:
 omkarpathak@omkarpathak-Inspiron-3542:
 ~/Documents/Python-Programs/$ python MoreOnClosures.py 

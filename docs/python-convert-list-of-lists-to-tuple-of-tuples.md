@@ -13,7 +13,7 @@
 **方法一:使用`tuple()` +列表理解**
 以上功能的组合可以解决这个问题。在本例中，我们使用 tuple()执行转换，列表理解用于将逻辑扩展到所有容器。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List of Lists to Tuple of Tuples
 # Using tuple + list comprehension
@@ -41,7 +41,7 @@ print("The converted data : " + str(res)) 
 **方法 2:使用`map() + tuple()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 map()执行使用列表理解执行的任务，以将转换逻辑扩展到每个子列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List of Lists to Tuple of Tuples
 # Using map() + tuple()

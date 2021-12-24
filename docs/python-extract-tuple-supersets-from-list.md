@@ -17,7 +17,7 @@
 **方法:使用`Counter() + list comprehension + all()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 Counter()执行计数任务。all()用于检查所有元素是否构成子集，列表理解用于将所有逻辑绑定在一个块中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract tuple supersets from List
 # Using all() + list comprehension + Counter
@@ -44,7 +44,7 @@ print("The superset tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 8), (4, 2, 7), (9, 6, 5, 6)]
 The superset tuples : [(9, 6, 5, 6)]
 

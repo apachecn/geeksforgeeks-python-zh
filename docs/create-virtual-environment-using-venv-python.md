@@ -20,7 +20,7 @@
 首先，检查 pip 是否具有与系统上相同版本的解释器，以及 python 环境当前驻留的位置:
 要检查 Python 当前驻留的位置，请在终端中键入以下命令。
 
-```
+```py
 where python
 
 where pip
@@ -35,7 +35,7 @@ where pip
 
 要创建 virtualenv，请使用以下命令:
 
-```
+```py
 python -m venv ./venv
 
 ```
@@ -44,7 +44,7 @@ python -m venv ./venv
 
 要列出文件夹中的文件，请在终端中键入以下命令:
 
-```
+```py
  dir ./venv
 
 ```
@@ -55,14 +55,14 @@ python -m venv ./venv
 `pip`命令仍然指向全局环境。我们需要显式激活创建的虚拟环境，以配置当前 shell 会话使用 virtualenv 文件夹中的 pip 命令，并且不要在全局环境中安装软件包:
 要激活 venv，首先将目录更改为 venv\Scripts。
 
-```
+```py
 cd venv\Scripts
 
 ```
 
 更改目录后，键入以下命令。
 
-```
+```py
 $ Source venv_name\Scripts> activate
 
 ```
@@ -73,14 +73,14 @@ $ Source venv_name\Scripts> activate
 
 Python 解释器也将从虚拟环境而不是全局环境运行该版本。我们可以通过以下命令来验证 Python 环境当前驻留的位置:
 
-```
+```py
 where python
 
 ```
 
 **输出:**
 
-```
+```py
 E:\distribution\venv\Scripts\python.exe
 C:\Users\GeeksforGeeks\AppData\Local\Programs\Python\Python37\python.exe
 
@@ -92,14 +92,14 @@ C:\Users\GeeksforGeeks\AppData\Local\Programs\Python\Python37\python.exe
 
 现在，您可以在这个虚拟环境中安装与项目相关的依赖项。例如，如果您将 Django 1.9 用于一个项目，您可以像安装其他软件包一样安装它。
 
-```
+```py
 (venv_name)$ pip install Django==1.9
 
 ```
 
 完成工作后，可以通过以下命令停用虚拟环境:
 
-```
+```py
 (venv_name)$ deactivate
 
 ```

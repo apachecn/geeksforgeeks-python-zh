@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : a = [1, 2, 3, 1, 2, 3]
 Output : 6
 Count the number of entries in the list a.
@@ -18,7 +18,7 @@ Output : 0
 
 想法是在 Python 中使用 [len()](https://www.geeksforgeeks.org/list-methods-in-python-set-1-in-not-in-len-min-max/)
 
-```
+```py
 # Python program to demonstrate working
 # of len()
 a = []
@@ -31,14 +31,14 @@ print("The length of list is: ", len(a))
 
 **Output:**
 
-```
+```py
 The length of list is:  4
 
 ```
 
 例 2:
 
-```
+```py
 # Python program to demonstrate working
 # of len()
 n = len([10, 20, 30])
@@ -47,7 +47,7 @@ print("The length of list is: ", n)
 
 **Output:**
 
-```
+```py
 The length of list is:  3
 
 ```

@@ -24,7 +24,7 @@ The contents of the sample file “PWL.txt” are:
 > 贾巴
 > gfg
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -57,7 +57,7 @@ else:
 
 **输出:**
 
-```
+```py
 The word gfg does not exists in the dictionary
 
 The word gfg exists in the dictionary

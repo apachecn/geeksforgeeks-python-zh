@@ -15,7 +15,7 @@
 
 下面是实现:
 
-```
+```py
 % matlab code to draw Sweden flag
 
 I = zeros(300, 600, 3);

@@ -6,13 +6,13 @@
 
 **例如**，在一个想要实现包裹内置 open()的`open()`功能的模块中，这个模块可以直接使用:
 
-```
+```py
 open(path, 'r')
 ```
 
 但是，如果有一个函数与内置函数同名，则需要显式调用这些函数:
 
-```
+```py
 def open(path):
     f = builtins.open(path, 'r')
 
@@ -22,7 +22,7 @@ def open(path):
 
 **示例:**
 
-```
+```py
 # without explicitly calling 
 # the builtins module
 print(round(3.14))
@@ -37,7 +37,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 3
 3
 ```
@@ -46,7 +46,7 @@ print(a)
 
 **示例:**
 
-```
+```py
 import builtins
 
 def pow():
@@ -107,7 +107,7 @@ main()
 
 **示例**:描述内置类型应用的简单程序
 
-```
+```py
 a =[1, 2, 3, 4]
 
 for i in a:
@@ -120,7 +120,7 @@ for i in a:
 
 **输出:**
 
-```
+```py
 not found
 not found
 found

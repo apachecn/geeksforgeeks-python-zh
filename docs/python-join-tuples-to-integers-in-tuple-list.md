@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们使用数字创建执行所有元素的连接，以数学方式计算结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Join Tuples to Integers in Tuple List
 # Using loop
@@ -41,7 +41,7 @@ print("The joined result : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (5, 6), (1, 3), (6, 9)]
 The joined result : [45, 56, 13, 69]
 
@@ -50,7 +50,7 @@ The joined result : [45, 56, 13, 69]
 **方法 2:使用`map() + join() + int()`**
 以上功能的组合可以用来解决问题。在这种情况下，我们通过字符串转换来执行连接，使用 join()和 int()的连接用于将结果转换回整数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Join Tuples to Integers in Tuple List
 # Using map() + join() + int()
@@ -71,7 +71,7 @@ print("The joined result : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (5, 6), (1, 3), (6, 9)]
 The joined result : [45, 56, 13, 69]
 

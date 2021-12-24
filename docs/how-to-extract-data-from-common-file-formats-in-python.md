@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Pandas library
 import pandas as pd
 
@@ -36,7 +36,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Read only column A, B, C of all
 # the four columns A,B,C,D in Sheet2
 df=pd.read_excel('Sample1.xlsx',

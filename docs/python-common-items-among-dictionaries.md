@@ -7,7 +7,7 @@
 **方法#1:使用字典理解**
 这个特殊的任务可以使用字典理解在一行中执行，字典理解提供了一种压缩冗长的野蛮逻辑的方法，并且只检查相等的项目和增量计数。
 
-```
+```py
 # Python3 code to demonstrate the working of
 # Equal items among dictionaries
 # Using dictionary comprehension
@@ -31,7 +31,7 @@ print("The number of common items are : " + str(len(res)))
 
 **Output :**
 
-```
+```py
 The original dictionary 1 is : {'gfg': 1, 'best': 3, 'is': 2}
 The original dictionary 2 is : {'gfg': 1, 'is': 2, 'good': 3}
 The number of common items are : 2

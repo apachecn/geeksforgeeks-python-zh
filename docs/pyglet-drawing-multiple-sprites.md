@@ -7,7 +7,7 @@
 
 借助下面给出的命令，我们可以创建一个窗口、批处理和精灵
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -22,7 +22,7 @@ pyglet.sprite.Sprite(img, x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key as key

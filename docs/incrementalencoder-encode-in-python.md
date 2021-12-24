@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`IncrementalEncoder.encode()`方法，我们能够使用该方法获得可以是二进制形式的编码字符串。
 
-```
+```py
 # import codecs and IncrementalEncoder
 import codecs
 from codecs import IncrementalEncoder
@@ -32,7 +32,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import codecs and IncrementalEncoder
 import codecs
 from codecs import IncrementalEncoder

@@ -6,7 +6,7 @@
 
 **计算阶乘的简单方法**
 
-```
+```py
 # Python code to demonstrate naive method
 # to compute factorial
 n = 23
@@ -21,7 +21,7 @@ print (fact)
 
 输出:
 
-```
+```py
 The factorial of 23 is : 25852016738884976640000
 
 ```
@@ -30,7 +30,7 @@ The factorial of 23 is : 25852016738884976640000
 
 这个方法是在 python 的**数学**模块中定义的。因为它有 C 型内部实现，所以速度快。
 
-```
+```py
 math.factorial(x)
 Parameters :
 x : The number whose factorial has to be computed.
@@ -41,7 +41,7 @@ Raises Value error if number is negative or non-integral.
 
 ```
 
-```
+```py
 # Python code to demonstrate math.factorial()
 import math
 
@@ -51,7 +51,7 @@ print (math.factorial(23))
 
 输出:
 
-```
+```py
 The factorial of 23 is : 25852016738884976640000
 
 ```
@@ -60,7 +60,7 @@ The factorial of 23 is : 25852016738884976640000
 
 *   **如果给定的数字是负数:**
 
-    ```
+    ```py
     # Python code to demonstrate math.factorial()
     # Exceptions ( negative number )
 
@@ -74,14 +74,14 @@ The factorial of 23 is : 25852016738884976640000
 
     输出:
 
-    ```
+    ```py
     The factorial of -5 is : 
 
     ```
 
     运行时错误:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/f29a45b132fac802d76b5817dfaeb137.py", line 9, in 
         print (math.factorial(-5))
@@ -91,7 +91,7 @@ The factorial of 23 is : 25852016738884976640000
 
 *   **如果给定的数字是非整数值:**
 
-    ```
+    ```py
     # Python code to demonstrate math.factorial()
     # Exceptions ( Non-Integral number )
 
@@ -105,14 +105,14 @@ The factorial of 23 is : 25852016738884976640000
 
     输出:
 
-    ```
+    ```py
     The factorial of 5.6 is : 
 
     ```
 
     运行时错误:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/3987966b8ca9cbde2904ad47dfdec124.py", line 9, in 
         print (math.factorial(5.6))

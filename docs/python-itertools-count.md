@@ -23,7 +23,7 @@
 **示例#1:创建均匀间隔的数字列表**
 `itertools.count()`可用于轻松生成无限递归序列。让我们看看
 
-```
+```py
 # Program for creating a list of
 # even and odd list of integers
 # using count()
@@ -47,7 +47,7 @@ print("Odd list:", 
 
 **输出:**
 
-```
+```py
 Even list: [0, 2, 4, 6, 8]
 Odd list: [1, 3, 5, 7, 9]
 
@@ -58,7 +58,7 @@ Odd list: [1, 3, 5, 7, 9]
 **例 2:使用`itertools.count()`**
 仿真`enumerate()`如前所述，`count()`可以和`zip()`一起使用。让我们看看如何在事先不知道列表长度的情况下，用它来模仿`enumerate()`的功能！
 
-```
+```py
 # Program to emulate enumerate() 
 # using count()
 
@@ -77,7 +77,7 @@ for i in zip(count(start = 1, 
 
 **输出:**
 
-```
+```py
 (1, 'Geeks')
 (2, 'for')
 (3, 'Geeks')
@@ -88,7 +88,7 @@ for i in zip(count(start = 1, 
 
 以下代码的功能与`while True:`相同，因此必须指定适当的终止条件。
 
-```
+```py
 for i in count(start=0, step=2): 
     print(i)
 

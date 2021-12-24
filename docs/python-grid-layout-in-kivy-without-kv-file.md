@@ -17,13 +17,13 @@ Kivy 是一个独立的平台，因为它可以在安卓、IOS、linux 和视窗
 
 要使用网格布局，我们需要做的第一件事就是导入它。
 
-```
+```py
 from kivy.uix.gridlayout import GridLayout 
 ```
 
 **创建网格布局的基本方法:**
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import button
@@ -42,7 +42,7 @@ from kivy.uix.gridlayout import GridLayout
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating 
 # How to create GridLayout in Kivy
 
@@ -110,7 +110,7 @@ root.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the App class
 class Grid_LayoutApp(App):
 
@@ -152,7 +152,7 @@ class Grid_LayoutApp(App):
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the App class
 class Grid_LayoutApp(App):
 

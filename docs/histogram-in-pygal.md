@@ -14,13 +14,13 @@
 
 **语法:**
 
-```
+```py
 hist = pygal.Histogram()
 ```
 
 **例 1:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -47,7 +47,7 @@ histogram
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

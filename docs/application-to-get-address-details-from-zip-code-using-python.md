@@ -10,7 +10,7 @@
 
 **tkinter* 模块是 Python 中的内置模块，但是我们需要安装*地质*模块:*
 
-```
+```py
 *pip install geopy* 
 ```
 
@@ -24,7 +24,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Importing required module
 from geopy.geocoders import Nominatim
 
@@ -45,7 +45,7 @@ print(location)*
 
 ***输出:***
 
-```
+```py
 *Zipcode: 800011
 Details of the Zipcode:
 Danapur, Dinapur-Cum-Khagaul, Patna, Bihar, 800011, India* 
@@ -55,7 +55,7 @@ Danapur, Dinapur-Cum-Khagaul, Patna, Bihar, 800011, India*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Importing required modules
 from geopy.geocoders import Nominatim
 from tkinter import *

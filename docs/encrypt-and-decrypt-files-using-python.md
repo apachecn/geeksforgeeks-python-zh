@@ -12,7 +12,7 @@
 
 可以使用以下命令安装*加密库*:
 
-```
+```py
 pip install cryptography
 ```
 
@@ -22,7 +22,7 @@ pip install cryptography
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from cryptography.fernet import Fernet
 ```
@@ -31,7 +31,7 @@ from cryptography.fernet import Fernet
 
 ## 蟒蛇 3
 
-```
+```py
 # key generation
 key = Fernet.generate_key()
 
@@ -54,7 +54,7 @@ with open('filekey.key', 'wb') as filekey:
 
 ## 蟒蛇 3
 
-```
+```py
 # opening the key
 with open('filekey.key', 'rb') as filekey:
     key = filekey.read()
@@ -94,7 +94,7 @@ with open('nba.csv', 'wb') as encrypted_file:
 
 ## 蟒蛇 3
 
-```
+```py
 # using the key
 fernet = Fernet(key)
 

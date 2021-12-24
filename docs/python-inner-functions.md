@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to illustrate 
 # nested functions 
 def outerFunction(text): 
@@ -37,7 +37,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 Hey!
 
 ```
@@ -47,7 +47,7 @@ Hey!
 重要的是必须调用外部函数，以便内部函数可以执行。为了证明这一点，考虑下面的例子:
 **例子:**
 
-```
+```py
 # Python program to illustrate 
 # nested functions 
 def outerFunction(text): 
@@ -61,7 +61,7 @@ def outerFunction(text): 
 
 **输出:**
 
-```
+```py
 This code will return nothing when executed.
 
 ```
@@ -71,7 +71,7 @@ This code will return nothing when executed.
 我们可以找到一个变量并在需要时访问它的位置叫做变量的作用域。
 已知如何访问函数内部的[全局变量](https://www.geeksforgeeks.org/global-local-variables-python/)，但是，访问外部函数的变量呢？让我们看一个例子:
 
-```
+```py
 # Python program to 
 # demonstrate accessing of
 # variables of nested functions
@@ -90,14 +90,14 @@ f1()
 
 **输出:**
 
-```
+```py
 I love GeeksforGeeks
 
 ```
 
 在上面的例子中，可以看到它类似于从函数访问全局变量。现在假设你想改变外部函数的变量。
 
-```
+```py
 # Python program to 
 # demonstrate accessing of
 # variables of nested functions
@@ -118,7 +118,7 @@ f1()
 
 **输出:**
 
-```
+```py
 Me too
 I love GeeksforGeeks
 
@@ -128,7 +128,7 @@ I love GeeksforGeeks
 
 *   Using an iterable –
 
-    ```
+    ```py
     # Python program to 
     # demonstrate accessing of
     # variables of nested functions
@@ -149,7 +149,7 @@ I love GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```py
     ['Me too']
     ['Me too']
 
@@ -157,7 +157,7 @@ I love GeeksforGeeks
 
 *   Using nonlocal keyword –
 
-    ```
+    ```py
     # Python program to 
     # demonstrate accessing of
     # variables of nested functions
@@ -179,7 +179,7 @@ I love GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```py
     Me too
     Me too
 
@@ -187,7 +187,7 @@ I love GeeksforGeeks
 
 *   Value can also be changed as shown in the below example.
 
-    ```
+    ```py
     # Python program to 
     # demonstrate accessing of
     # variables of nested functions
@@ -208,7 +208,7 @@ I love GeeksforGeeks
 
     **输出:**
 
-    ```
+    ```py
     Me too
     Me too
 
@@ -222,7 +222,7 @@ I love GeeksforGeeks
 *   闭包与普通函数不同，它允许函数通过闭包的值或引用副本来访问这些捕获的变量，即使函数在它们的作用域之外被调用。
     过滤器 _ 无。
 
-```
+```py
 # Python program to illustrate 
 # closures 
 def outerFunction(text): 
@@ -240,7 +240,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 Hey!
 
 ```
@@ -248,7 +248,7 @@ Hey!
 *   从上面的代码可以看出，闭包有助于调用其范围之外的函数。
 *   函数 innerFunction 的作用域只在 outerFunction 内部。但是通过使用闭包，我们可以很容易地扩展它的范围来调用它范围之外的函数。
 
-```
+```py
 # Python program to illustrate 
 # closures 
 import logging 
@@ -280,7 +280,7 @@ sub_logger(20, 10) 
 
 **输出:**
 
-```
+```py
 6
 9
 5

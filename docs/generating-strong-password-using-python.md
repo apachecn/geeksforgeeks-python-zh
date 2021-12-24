@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 import array
 
@@ -75,6 +75,6 @@ print(password)
 
 **输出:**
 
-```
+```py
 yf2byU$@zTg5
 ```

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Missing elements difference from Matrix and List
 # Using loop
@@ -76,7 +76,7 @@ print("The computed count : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Missing elements difference from Matrix and List
 # Using sum() + from_iterable()

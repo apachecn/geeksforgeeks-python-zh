@@ -7,7 +7,7 @@
 **方法#1:使用`translate()`**
 通常这个功能是用来将某个特定的字符转换成其他的字符。通过将结果删除字符转换为“无”，此功能可以执行此任务。该函数仅适用于 Python2
 
-```
+```py
 # Python code to demonstrate working of
 # Deleting all occurrences of character
 # Using translate()
@@ -31,7 +31,7 @@ print("The string after character deletion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The string after character deletion : GksforGks
 

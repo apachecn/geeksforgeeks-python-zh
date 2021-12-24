@@ -55,7 +55,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pathlib import Path
 import os
 
@@ -174,7 +174,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from Register import views as v
@@ -207,7 +207,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <!-- Register -->
 {%load static%}
 {% load crispy_forms_tags %}

@@ -6,7 +6,7 @@
 
 **使用以下命令安装:**
 
-```
+```py
 pip install easygui
 ```
 
@@ -14,7 +14,7 @@ pip install easygui
 
 **导入易居**
 
-```
+```py
 from easygui import *
 ```
 
@@ -25,7 +25,7 @@ from easygui import *
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -46,7 +46,7 @@ msgbox(msg, title, button )
 
 ![](img/3de84a2214880999056faf53c934b58e.png)
 
-```
+```py
 "Let's Go"
 ```
 
@@ -55,7 +55,7 @@ msgbox(msg, title, button )
 
 ## 蟒蛇 3
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -77,6 +77,6 @@ print(reply)
 
 ![](img/959b6fe54393a9c23468d0ede68ffef9.png)
 
-```
+```py
 You selected : Super Geek God
 ```

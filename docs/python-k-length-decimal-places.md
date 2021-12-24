@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K length decimal Places
 # Using format()
@@ -41,7 +41,7 @@ print("The resultant number : " + str(res))
 
 **Output**
 
-```
+```py
 The original number is : 76.8
 The resultant number : 76.8000000
 

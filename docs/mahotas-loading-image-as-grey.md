@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何在 mahotas 中将图像加载为灰色，mahotas 中有很多图像可用，我们使用 mahotas.demos.load 方法来加载它们，在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.load('luispedro')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -55,7 +55,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos

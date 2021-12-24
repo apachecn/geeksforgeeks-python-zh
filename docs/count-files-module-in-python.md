@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install count-files
 ```
 

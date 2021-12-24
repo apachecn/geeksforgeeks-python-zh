@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter unique valued tuples
 # Using loop + set()
@@ -43,7 +43,7 @@ print("Filtered tuples : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : [(3, 5, 6, 7), (3, 2, 4, 3), (9, 4), (2, 3, 2)]
 Filtered tuples : [(3, 5, 6, 7), (9, 4)]
 
@@ -55,7 +55,7 @@ Filtered tuples : [(3, 5, 6, 7), (9, 4)]
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter unique valued tuples
 # Using list comprehension
@@ -75,7 +75,7 @@ print("Filtered tuples : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : [(3, 5, 6, 7), (3, 2, 4, 3), (9, 4), (2, 3, 2)]
 Filtered tuples : [(3, 5, 6, 7), (9, 4)]
 

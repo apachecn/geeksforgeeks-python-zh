@@ -6,7 +6,7 @@
 id()是 Python 中的一个内置函数。
 **语法:**
 
-```
+```py
 id(object)
 ```
 
@@ -14,7 +14,7 @@ id(object)
 
 示例:
 
-```
+```py
 The output is the identity of the 
 object passed. This is random but 
 when running in the same program, 
@@ -29,7 +29,7 @@ Output : 139793848214784
 
 ```
 
-```
+```py
 # This program shows various identities
 str1 = "geek"
 print(id(str1))
@@ -51,7 +51,7 @@ print(id(list1[0])==id(list1[2]))
 
 输出:
 
-```
+```py
 140252505691448
 140252505691448
 True

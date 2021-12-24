@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 Input : Mr. Albus Severus Potter 
 Output : Valid
 
@@ -27,7 +27,7 @@ Output : Invalid
 
 下面是 Python 代码–
 
-```
+```py
 # Python program to validate name using IGNORECASE in RegEx
 
 # Importing re package
@@ -62,7 +62,7 @@ validating_name('Mr. sirius black')
 
 **输出:**
 
-```
+```py
 Valid
 Invalid
 Valid

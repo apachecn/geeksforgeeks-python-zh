@@ -12,7 +12,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **示例:**
 
-    ```
+    ```py
     # Python code to merge dict 
     # using update() method 
 
@@ -30,7 +30,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **Output:**
 
-    ```
+    ```py
     value returned by update function : None
     dict1 : {'a': 10, 'b': 8, 'c': 4, 'd': 6}
     dict2 : {'d': 6, 'c': 4, 'b': 8}
@@ -43,7 +43,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **示例:**
 
-    ```
+    ```py
     # Python code to merge dict 
     # using a single expression 
 
@@ -59,7 +59,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **Output:**
 
-    ```
+    ```py
     dict1 : {'a': 10, 'b': 5, 'c': 3}
     dict2 : {'d': 6, 'c': 4, 'b': 8}
     dict3 : {'a': 10, 'b': 8, 'c': 4, 'd': 6}
@@ -71,7 +71,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **示例:**
 
-    ```
+    ```py
     # Python code to merge dict using 
     # (|) and (|=) operators  
 
@@ -94,7 +94,7 @@ Python 3.9 仍在开发中，计划于今年 10 月发布。2 月 26 日，开�
 
     **Output:**
 
-    ```
+    ```py
     Merging dict2 to dict1 (i.e. dict1|dict2) : 
     {'a': 10, 'd': 6, 'c': 4, 'b': 8}
 

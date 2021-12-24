@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # path of this script
 directory = "D:\gfg\\"
 
@@ -50,7 +50,7 @@ with open(filepath, 'w+') as fp:
 
 **输出:**
 
-```
+```py
 Enter filename: newgfgfile.txt
 ```
 
@@ -74,7 +74,7 @@ pathlib 提供了一组处理文件系统路径的类。我们可以使用 touch
 
 ## 蟒蛇 3
 
-```
+```py
 # import pathlib module
 import pathlib
 
@@ -90,7 +90,7 @@ pathlib.Path(filepath).touch()
 
 **输出:**
 
-```
+```py
 Enter filename:gfgfile2.txt
 ```
 
@@ -118,7 +118,7 @@ Python 的操作系统模块包括与操作系统通信的功能。在这里，�
 
 ## 蟒蛇 3
 
-```
+```py
 # import os library
 import os
 
@@ -160,7 +160,7 @@ pathlib 还提供了 rename()函数来更改文件名，这或多或少与上面
 
 ## 蟒蛇 3
 
-```
+```py
 # import pathlib module
 import pathlib
 
@@ -205,7 +205,7 @@ pathlib.Path(src).rename(target)
 
 ## 计算机编程语言
 
-```
+```py
 # import os module
 import os
 
@@ -246,7 +246,7 @@ shutil 模块对文件和文件集合提供了几种高级操作。其 copyfile(
 
 ## 蟒蛇 3
 
-```
+```py
 # import shutil module
 import shutil
 

@@ -8,7 +8,7 @@
 
 在这个方法中，我们使用字典理解来执行迭代和逻辑部分，将所有列表绑定到一个字典中，并使用相关的键，这是通过 zip 函数来完成的。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary creation using list contents
 # using Dictionary comprehension + zip()
@@ -43,7 +43,7 @@ print("The dictionary after construction : " + str(res))
 
 类似的任务可以使用由 zip 功能执行的`enumerate` 功能来执行。字典理解执行类似于上面的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary creation using list contents
 # using dictionary comprehension + enumerate()

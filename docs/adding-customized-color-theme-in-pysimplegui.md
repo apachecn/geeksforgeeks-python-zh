@@ -6,7 +6,7 @@ PySimpleGUI 允许用户为其主题列表选择主题。此外，它允许用�
 
 **示例:**
 
-```
+```py
 import PySimpleGUI as sg
 
 # Add your new theme colors and settings

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the asin()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (1.5707963267948966+1.762747174039086j)
 
 ```
@@ -43,7 +43,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the asin()function
 
@@ -59,7 +59,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (0.374670804825527+2.3830308809003258j)
 
 ```

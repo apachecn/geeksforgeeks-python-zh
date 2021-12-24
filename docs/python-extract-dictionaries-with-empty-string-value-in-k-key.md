@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionaries with Empty String value in K key
 # Using list comprehension
@@ -43,7 +43,7 @@ print("The extracted dictionaries : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': '4', 'is': 'good', 'best': '1'}, {'Gfg': '', 'is': 'better', 'best': '8'}, {'Gfg': '9', 'is': 'CS', 'best': '10'}]
 The extracted dictionaries : [{'Gfg': '', 'is': 'better', 'best': '8'}]
 
@@ -55,7 +55,7 @@ The extracted dictionaries : [{'Gfg': '', 'is': 'better', 'best': '8'}]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionaries with Empty String value in K key
 # Using filter() + lambda
@@ -81,7 +81,7 @@ print("The extracted dictionaries : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': '4', 'is': 'good', 'best': '1'}, {'Gfg': '', 'is': 'better', 'best': '8'}, {'Gfg': '9', 'is': 'CS', 'best': '10'}]
 The extracted dictionaries : [{'Gfg': '', 'is': 'better', 'best': '8'}]
 

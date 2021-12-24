@@ -7,7 +7,7 @@
 **方法#1:与运算–使用`all()`**
 这个问题的解决方案非常简单，但是需要应用意识。all()执行列表的布尔“与”运算并返回结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Boolean List AND and OR operations
 # AND Operation - Using all()
@@ -28,7 +28,7 @@ print("Result after performing AND among elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [True, True, False, True, False]
 Result after performing AND among elements : False
 

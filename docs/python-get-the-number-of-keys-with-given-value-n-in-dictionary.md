@@ -6,7 +6,7 @@
 
 **简单方法–**
 
-```
+```py
 # Python3 code to Get the number of keys
 # with given value N in dictionary
 
@@ -32,7 +32,7 @@ print("Frequency of N is : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original dictionary : {'CS': 2, 'for': 2, 'is': 2, 'gfg': 1, 'best': 3}
 Frequency of N is : 3
 
@@ -40,7 +40,7 @@ Frequency of N is : 3
 
 **方法 2:** 使用 sum() +值()
 
-```
+```py
 # Python3 code to Get the number of keys
 # with given value N in dictionary
 # Using sum() + values() 
@@ -64,7 +64,7 @@ print("Frequency of K is : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original dictionary : {'is': 2, 'for': 2, 'gfg': 1, 'best': 3, 'CS': 2}
 Frequency of K is : 3
 

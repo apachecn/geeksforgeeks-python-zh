@@ -7,7 +7,7 @@
 **方法#1:使用`index()` +列表切片**
 结合这些功能可以解决这个问题。`index()`可用于查找所需元素的索引，列表切片可执行获取元素的剩余任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get elements till particular element in list
 # using index() + list slicing
@@ -32,7 +32,7 @@ print("Elements till N in list are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 6, 8, 9, 10, 7]
 Elements till N in list are : [1, 4, 6]
 

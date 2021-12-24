@@ -35,7 +35,7 @@ NumPy 数组可以通过多种方式创建，具有不同的等级。它也可�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 b = np.empty(2, dtype = int)
@@ -56,7 +56,7 @@ print("\nMatrix c : \n", c)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 b = np.zeros(2, dtype = int)
@@ -71,7 +71,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [0 0]
 
@@ -93,7 +93,7 @@ Matrix c :
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -120,7 +120,7 @@ print(add_ans)
 
 **输出:**
 
-```
+```py
 [  7  77  23 130]
 [  7  77  23 130]
 [  8  79  26 134]
@@ -131,7 +131,7 @@ print(add_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices

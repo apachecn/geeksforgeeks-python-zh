@@ -8,7 +8,7 @@ Pytube 是一个无依赖的轻量级 Python 库，用于下载 YouTube 视频**
 
 **开始之前我们需要安装这个模块:**
 
-```
+```py
 pip install pytube
 ```
 
@@ -25,7 +25,7 @@ pip install pytube
 
 ## 蟒蛇 3
 
-```
+```py
 from pytube import YouTube
 
 link = 'https://www.youtube.com/watch?v=wjTn_EkgQRg&index=1&list=PLgJ7b1NurjD2oN5ZXbKbPjuI04d_S0V1K'

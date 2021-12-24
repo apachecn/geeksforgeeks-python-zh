@@ -17,7 +17,7 @@ Python 中的`filecmp.cmp()`方法用于比较两个文件。默认情况下，�
 
 **Code:** Use of filecmp.cmp() method to compare two files
 
-```
+```py
 # Python program to demonstrate
 # filecmp.cmp() method 
 
@@ -47,7 +47,7 @@ print(comp)
 
 **Output:**
 
-```
+```py
 False
 True
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to find prime numbers in a range
 import time
 def is_prime(n):
@@ -45,7 +45,7 @@ print("Time required :", t1 - t0)
 
 **输出:**
 
-```
+```py
 Total prime numbers in range: 9592
 Time required: 60.702312707901
 ```
@@ -56,7 +56,7 @@ Time required: 60.702312707901
 
 在这个方法中，我们使用一个简单的技巧，减少我们检查的除数。我们发现有一条细线作为镜子，以相反的顺序显示线下的因式分解和线上的因式分解。将因子分成两半的线是数的平方根线。如果这个数是一个完美的正方形，我们可以把这条线移动 1，如果我们可以得到这条线的整数值。
 
-```
+```py
 36=1*36          
   =2*18
   =3*12
@@ -80,7 +80,7 @@ Time required: 60.702312707901
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to find prime numbers in a range
 import math
 import time
@@ -109,7 +109,7 @@ print("Time required :", t1 - t0)
 
 **输出:**
 
-```
+```py
 Total prime numbers in range: 9592
 Time required: 0.4116342067718506
 ```
@@ -130,7 +130,7 @@ Time required: 0.4116342067718506
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to find prime numbers in a range
 import math
 import time
@@ -163,7 +163,7 @@ print("Time required :", t1 - t0)
 
 **输出:**
 
-```
+```py
 Total prime numbers in range: 9592
 Time required: 0.23305177688598633
 ```
@@ -177,7 +177,7 @@ Time required: 0.23305177688598633
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to find prime numbers in a range
 import time
 def SieveOfEratosthenes(n):
@@ -218,7 +218,7 @@ print("Time required:", t1 - t0)
 
 **输出:**
 
-```
+```py
 Total prime numbers in range: 9592
 Time required: 0.0312497615814209
 ```

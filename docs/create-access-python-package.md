@@ -20,7 +20,7 @@
 1.  **首先我们创建一个目录，并将其命名为 Cars。**
 2.  **Then we need to create modules**. To do this we need to create a file with the name Bmw.py and create its content by putting this code into it.
 
-    ```
+    ```py
     # Python code to illustrate the Modules
     class Bmw:
         # First we create a constructor for this class
@@ -37,7 +37,7 @@
 
     然后我们创建另一个名为 Audi.py 的文件，并用不同的成员向其中添加类似类型的代码。
 
-    ```
+    ```py
     # Python code to illustrate the Module
     class Audi:
         # First we create a constructor for this class
@@ -54,7 +54,7 @@
 
     然后我们创建另一个名为 Nissan.py 的文件，并用不同的成员向其中添加类似类型的代码。
 
-    ```
+    ```py
     # Python code to illustrate the Module
     class Nissan:
         # First we create a constructor for this class
@@ -71,7 +71,7 @@
 
 3.  **Finally we create the __init__.py file.** This file will be placed inside Cars directory and can be left blank or we can put this initialisation code into it.
 
-    ```
+    ```py
     from Bmw import Bmw
     from Audi import Audi
     from Nissan import Nissan
@@ -79,7 +79,7 @@
 
     现在，让我们使用我们创建的包。为此，在 Cars 包所在的目录中创建一个示例. py 文件，并向其中添加以下代码:
 
-    ```
+    ```py
     # Import classes from your brand new package
     from Cars import Bmw
     from Cars import Audi
@@ -107,14 +107,14 @@
         假设汽车和品牌目录都是包。要使它们成为一个包，它们都必须包含 __init__。py 文件，或者是空白的，或者带有一些初始化代码。让我们假设汽车的所有模型都是模块。使用包有助于单独或整体导入任何模块。
         假设我们想买宝马 i8。其语法是:
 
-    ```
+    ```py
     'import' Cars.Bmw.x5 
     ```
 
     当导入一个包或子包或模块时，Python 搜索整个目录树来寻找特定的包，并按照点操作符的编程系统地进行。
     如果任何模块包含一个函数，并且我们想要导入该函数。例如，a8 有一个函数 get_buy(1)，我们想要导入它，语法应该是:
 
-    ```
+    ```py
     import Cars.Audi.a8
     Cars.Audi.a8.get_buy(1)
 
@@ -125,25 +125,25 @@
 4.  **‘from…import’ in Packages**
     Now, whenever we require using such function we would need to write the whole long line after importing the parent package. To get through this in a simpler way we use ‘from’ keyword. For this we first need to bring in the module using ‘from’ and ‘import’:
 
-    ```
+    ```py
     from Cars.Audi import a8
     ```
 
     现在我们可以在任何地方使用
 
-    ```
+    ```py
     a8.get_buy(1)
     ```
 
     还有另一种不太冗长的方法。我们可以直接导入函数，并在需要的地方使用它。首先使用以下命令导入它:
 
-    ```
+    ```py
     from Cars.Audi.a8 import get_buy
     ```
 
     现在从任何地方调用该函数:
 
-    ```
+    ```py
     get_buy(1)
     ```
 
@@ -151,7 +151,7 @@
     While using the **from…import** syntax, we can import anything from submodules to class or function or variable, defined in the same module. If the mentioned attribute in the import part is not defined in the package then the compiler throws an ImportError exception.
     Importing sub-modules might cause unwanted side-effects that happens while importing sub-modules explicitly. Thus we can import various modules at a single time using * syntax. The syntax is:
 
-    ```
+    ```py
     from Cars.Chevrolet import *
     ```
 

@@ -7,7 +7,7 @@
 **方法#1:使用`rfind()`**
 这通常是我们可以用来完成这个任务的黑客。使用字符串函数 rfind()从右侧获取第一个元素，即字符串中元素的最后一个索引。
 
-```
+```py
 # Python 3 code to demonstrate 
 # First character occurrence from rear String
 # using rfind()
@@ -28,7 +28,7 @@ print ("The index of last element occurrence: " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeksforgeeks
 The index of last element occurrence: 10
 

@@ -4,7 +4,7 @@
 
 在本文中，我们将使用 **PyWebIO** 模块创建一个身体质量指数计算器。这是一个 python 模块，主要用于使用 Python 编程在网络上创建简单的交互式界面。可以使用以下命令安装:
 
-```
+```py
 pip install pywebio
 ```
 
@@ -12,7 +12,7 @@ pip install pywebio
 
 **公式:**
 
-```
+```py
 BMI = Mass of person /  (height)2 
 where,
 Mass in Kilograms(Kg), height in meters(m)
@@ -26,7 +26,7 @@ Mass in Kilograms(Kg), height in meters(m)
 
 ## 计算机编程语言
 
-```
+```py
 # importing modules
 from pywebio.input import *
 from pywebio.output import *
@@ -36,7 +36,7 @@ from pywebio.output import *
 
 ## 计算机编程语言
 
-```
+```py
 # classify and compute BMI
 class calculation:
 
@@ -62,7 +62,7 @@ class calculation:
 
 ## 计算机编程语言
 
-```
+```py
 # height input
 Height = input("Please enter height in meters(m)", type=FLOAT)
 
@@ -77,7 +77,7 @@ obj.BMIcalculator(Height, Mass)
 
 ## 计算机编程语言
 
-```
+```py
 # importing modules
 from pywebio.input import *
 from pywebio.output import *

@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -23,7 +23,7 @@ pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Opens the inbuilt camera of laptop to capture video.

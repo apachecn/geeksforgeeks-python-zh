@@ -29,7 +29,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import socket
 
 # Create socket with socket class.
@@ -91,7 +91,7 @@ master.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 import socket
 import subprocess
 

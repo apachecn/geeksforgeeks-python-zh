@@ -39,7 +39,7 @@ SciPy 的 stats 包提供了一个名为`boxcox`的函数，用于执行 box-cox
 
 **示例:**
 
-```
+```py
 # Python3 code to show Box-cox Transformation 
 # of non-normal data
 

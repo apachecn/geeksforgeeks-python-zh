@@ -19,7 +19,7 @@ Python 有四种基本的内置数据结构，即列表、字典、元组和集�
 
 语法:
 
-```
+```py
 dictionary = {"key name": value}
 ```
 
@@ -28,7 +28,7 @@ dictionary = {"key name": value}
 
 **以下是常用元组列表:**
 
-```
+```py
 () An empty tuple
 t1 = (0, ) A one-item tuple (not an expression)
 t2 = (0, 1, 2, 3) A four-item tuple
@@ -41,7 +41,7 @@ len(tl) Length
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # tuple
 tup = (1, "a", "string", 1+2)
@@ -51,7 +51,7 @@ print (tup[1])
 
 **输出:**
 
-```
+```py
 (1, 'a', 'string', 3)
 a
 ```
@@ -66,7 +66,7 @@ a
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate working of
 # Set in Python
 
@@ -89,7 +89,7 @@ print("\n")
 
 **输出:**
 
-```
+```py
 ('Set1 = ', set([1, 2, 3, 4, 5]))
 ('Set2 = ', set([3, 4, 5, 6, 7]))
 ```

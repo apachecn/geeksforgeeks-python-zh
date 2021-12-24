@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 from datetime import datetime
 
@@ -49,7 +49,7 @@ print(d.strftime("%Y-%m-%d-%H:%M:%S"))
 
 **输出**
 
-```
+```py
 '2020-05-30-15:59:02'
 ```
 
@@ -57,7 +57,7 @@ print(d.strftime("%Y-%m-%d-%H:%M:%S"))
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 from datetime import datetime
 
@@ -99,7 +99,7 @@ print(d.strftime("%Y-%m-%d-%H:%M:%S"))
 
 **Output**
 
-```
+```py
 2020-05-30-15:59:02
 2021-01-04-02:45:12
 2020-05-23-15:59:02

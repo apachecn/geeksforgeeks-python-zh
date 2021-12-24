@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕如何在 Selenium 中使用 get_attribute 方法展开。get_attribute 方法用于获取元素的属性，比如获取锚点标签的 href 属性。此方法将首先尝试返回具有给定名称的属性值。如果同名属性不存在，它将返回同名属性的值。如果没有同名属性，则返回无。
 **语法–**
 
-```
+```py
 element.get_attribute("attribute name")
 ```
 
@@ -14,27 +14,27 @@ element.get_attribute("attribute name")
 
 ## 超文本标记语言
 
-```
+```py
 <a href="https://www.geeksforgeeks.org/" id="link" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如
 
-```
+```py
 element = driver.find_element_by_id("link")
 element = driver.find_element_by_xpath("//a[@id='link']")
 ```
 
 同样，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_id("link")
 ```
 
 现在可以通过
 获得该字段的属性
 
-```
+```py
 element.get_attribute('href')
 ```
 
@@ -45,7 +45,7 @@ element.get_attribute('href')
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

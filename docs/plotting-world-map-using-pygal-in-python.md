@@ -8,14 +8,14 @@
 
 ### 装置
 
-```
+```py
 pip install pygal_maps_world
 
 ```
 
 **语法:**
 
-```
+```py
 worldmap =  pygal.maps.world.World()
 
 ```
@@ -217,7 +217,7 @@ worldmap =  pygal.maps.world.World()
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygal library
 import pygal
 
@@ -256,7 +256,7 @@ print("Success")
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygal
 import pygal
 
@@ -312,7 +312,7 @@ print("Success")
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygal library
 import pygal
 

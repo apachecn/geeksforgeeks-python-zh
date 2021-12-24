@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 from queue import Queue
 from threading import Thread
 
@@ -41,7 +41,7 @@ t2.start()
 
 **代码#2 :**
 
-```
+```py
 from queue import Queue
 from threading import Thread
 
@@ -77,7 +77,7 @@ def consumer(in_q):
 
 **代码#3:构建线程安全的优先级队列**
 
-```
+```py
 import heapq
 import threading
 
@@ -104,7 +104,7 @@ class PriorityQueue:
 
 **代码#4 :**
 
-```
+```py
 from queue import Queue
 from threading import Thread
 

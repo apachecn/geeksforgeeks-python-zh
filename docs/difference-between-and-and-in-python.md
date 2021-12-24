@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate 
 # the difference between and, & 
 # operator 
@@ -22,7 +22,7 @@ print(b & a) # print_stat2
 
 **输出:**
 
-```
+```py
 14
 4
 ```
@@ -34,7 +34,7 @@ print(b & a) # print_stat2
 在 print 语句 2 中，编译器正在对语句的结果进行按位&运算。这里，语句的求值如下:
 二进制中 4 的值是 0000 0100，二进制中 14 的值是 0000 1110。按位执行时，我们得到–
 
-```
+```py
 0000 0100
    &  = 0000 0100 = 4
 0000 1110
@@ -47,7 +47,7 @@ print(b & a) # print_stat2
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # the difference between and, & 
 # operator
@@ -59,7 +59,7 @@ print(a and b)#line 2
 
 **输出:**
 
-```
+```py
 8
 10
 ```

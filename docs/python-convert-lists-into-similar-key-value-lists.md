@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Lists into Similar key value lists
 # Using loop + zip()
@@ -44,7 +44,7 @@ print("The mapped dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original list 1 is : [5, 6, 6, 4, 5, 6]
 The original list 2 is : [8, 3, 2, 9, 10, 4]
 The mapped dictionary : {5: [8, 10], 6: [3, 2, 4], 4: [9]}
@@ -57,7 +57,7 @@ The mapped dictionary : {5: [8, 10], 6: [3, 2, 4], 4: [9]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Lists into Similar key value lists
 # Using defaultdict() + list comprehension + zip()
@@ -81,7 +81,7 @@ print("The mapped dictionary : " + str(dict(res))) 
 
 **Output**
 
-```
+```py
 The original list 1 is : [5, 6, 6, 4, 5, 6]
 The original list 2 is : [8, 3, 2, 9, 10, 4]
 The mapped dictionary : {5: [8, 10], 6: [3, 2, 4], 4: [9]}

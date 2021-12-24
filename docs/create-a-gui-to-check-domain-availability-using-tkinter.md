@@ -10,7 +10,7 @@
 
 **在编写代码之前，我们需要安装 **python-whois** 模块。要安装此软件，请在终端中键入以下命令。**
 
-```
+```py
 pip install python-whois
 ```
 
@@ -20,7 +20,7 @@ pip install python-whois
 
 ## **蟒蛇 3**
 
-```
+```py
 import whois
 
 whois.whois('geeksforgeeks.com')
@@ -36,7 +36,7 @@ whois.whois('geeksforgeeks.com')
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing modules
 import whois
 import sys

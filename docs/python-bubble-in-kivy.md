@@ -29,7 +29,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 或
 > bubble.clear_widgets()
 
-```
+```py
 Basic Approach :
 1) import kivy
 2) import kivyApp
@@ -50,7 +50,7 @@ Basic Approach :
 
 **#。py 代码:**
 
-```
+```py
 # Program to Show how to create a switch 
 # import kivy module    
 import kivy  
@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 **。kv 文件:**
 
-```
+```py
 # .kv file of the bubble
 
 # Creating bubble

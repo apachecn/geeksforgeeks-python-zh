@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from tkinter module
 from tkinter import *
 
@@ -49,7 +49,7 @@ btn.place(x=65, y=100)
 root.mainloop()
 ```
 
-```
+```py
 **OUTPUT:**
 ```
 

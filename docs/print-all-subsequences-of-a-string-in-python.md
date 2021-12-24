@@ -5,7 +5,7 @@
 给定一个字符串，我们必须找出它的所有子序列。字符串是给定字符串的子序列，它是通过删除给定字符串的某些字符而不改变其顺序来生成的。
 示例:
 
-```
+```py
 Input : abc
 Output : a, b, c, ab, bc, ac, abc
 
@@ -18,7 +18,7 @@ Output : a, aa, aaa
 
 ## 蟒蛇 3
 
-```
+```py
 def printSubSequences(STR, subSTR=""):
     """
     function:
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 cba cb ca c ba b a  
 ```
 
@@ -68,7 +68,7 @@ cba cb ca c ba b a
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Implementation of the approach
 import itertools
 
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```py
 a b c ab ac bc abc
 
 ```

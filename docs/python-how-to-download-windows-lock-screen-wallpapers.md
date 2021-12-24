@@ -7,7 +7,7 @@
 
 每当我们连接到互联网时，它们都会随机变化。但有没有想过背后的工作？这些图像存储在以下路径中:
 
-```
+```py
 C:\Users\[[Your Username]]\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
 ```
 
@@ -22,7 +22,7 @@ C:\Users\[[Your Username]]\AppData\Local\Packages\Microsoft.Windows.ContentDeliv
 
 **注意:在桌面上制作一个名为壁纸的文件夹。**
 
-```
+```py
 import os
 import shutil
 
@@ -63,7 +63,7 @@ for name_of_file in os.listdir(source):
 
 下面是 Python 代码–
 
-```
+```py
 import os, sys
 
 # It oversees all the file in the folder 

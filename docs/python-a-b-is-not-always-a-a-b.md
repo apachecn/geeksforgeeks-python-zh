@@ -10,14 +10,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = 10
 print(" id of a : ", id(10) ," Value : ", a  )
 ```
 
 **输出:**
 
-```
+```py
 id of a :  11094592  Value :  10
 ```
 
@@ -27,7 +27,7 @@ id of a :  11094592  Value :  10
 
 ## 蟒蛇 3
 
-```
+```py
 a = 10  # Assigning value to variable creats new object
 print(" id of a : ", id(a) ," Value : ", a  )
 
@@ -40,7 +40,7 @@ print(" id of a : ", id(a) ," Value : ", a  )
 
 **输出:**
 
-```
+```py
 id of a :  11094592  Value :  10
 id of a :  11094912  Value :  20
 id of a :  11095232  Value :  30
@@ -52,7 +52,7 @@ id of a :  11095232  Value :  30
 
 ## 蟒蛇 3
 
-```
+```py
 a = [0, 1] # stores this array in memory and assign its reference to a
 print("id of a: ",id(a) , "Value : ", a )
 
@@ -68,7 +68,7 @@ print("id of a: ",id(a) , "Value : ", a )
 
 **输出:**
 
-```
+```py
 id of a:  140266311673864 Value :  [0, 1]
 id of a:  140266311673608 Value :  [0, 1, 2, 3]
 id of a:  140266311673608 Value :  [0, 1, 2, 3, 4, 5]  
@@ -81,7 +81,7 @@ id of a:  140266311673608 Value :  [0, 1, 2, 3, 4, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [5, 4, 3, 2, 1]
 list2 = list1
 list1 += [1, 2, 3, 4] # modifying value in current reference
@@ -93,7 +93,7 @@ print(list2) # as on line 4 it modify the value without creating new object
 
 **输出:**
 
-```
+```py
 [5, 4, 3, 2, 1, 1, 2, 3, 4]
 [5, 4, 3, 2, 1, 1, 2, 3, 4]
 ```
@@ -104,7 +104,7 @@ print(list2) # as on line 4 it modify the value without creating new object
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [5, 4, 3, 2, 1]
 list2 = list1
 list1 = list1 + [1, 2, 3, 4]
@@ -118,7 +118,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 [5, 4, 3, 2, 1, 1, 2, 3, 4]
 [5, 4, 3, 2, 1]
 ```

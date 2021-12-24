@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 n = int(input())
 print(n * 10)
 ```
@@ -21,7 +21,7 @@ print(n * 10)
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     n = int(input())
     print(n * 10)
@@ -32,6 +32,6 @@ except EOFError as e:
 
 **输出:**
 
-```
+```py
 EOF when reading a line
 ```

@@ -5,7 +5,7 @@
 给定一个字符串，编写一个 Python 程序来检查该字符串是否是数字。
 **例:**
 
-```
+```py
 Input:  28
 Output: digit
 
@@ -21,7 +21,7 @@ Output: not a digit.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to identify the Digit
 
 # import re module
@@ -67,7 +67,7 @@ if __name__ == '__main__' :
 
 **Output:** 
 
-```
+```py
 Digit
 Not a Digit
 Not a Digit
@@ -78,7 +78,7 @@ Not a Digit
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to check if string is numeric or not
 
 # checking for numeric characters
@@ -91,7 +91,7 @@ print(string.isnumeric())
 
 **Output:** 
 
-```
+```py
 False
 True
 ```

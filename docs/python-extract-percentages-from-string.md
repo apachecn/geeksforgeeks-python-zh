@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Percentages from String 
 # Using regex + findall()
@@ -39,7 +39,7 @@ print("The percentages : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is 100% way to get 200% success
 The percentages : ['100%', '200%']
 
@@ -51,7 +51,7 @@ The percentages : ['100%', '200%']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Percentages from String 
 # Using re.sub() + split()
@@ -80,7 +80,7 @@ print("The percentages : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is 100% way to get 200% success
 The percentages : ['100%', '200%']
 

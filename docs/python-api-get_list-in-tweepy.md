@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`get_list()`** 方法用于获取指定的列表�
 
 **例 1 :** 取一个列表，打印其名称和描述。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ print("The description of the list is : " + list.description)
 
 **输出:**
 
-```
+```py
 The name of the list is : Modified List
 The description of the list is : This list is to test the Twitter API.
 
@@ -61,7 +61,7 @@ The description of the list is : This list is to test the Twitter API.
 
 **示例 2 :** 获取不存在的列表时引发异常。
 
-```
+```py
 # the ID of the non-existent list
 list_id = 
 
@@ -71,7 +71,7 @@ list = api.get_list(list_id = list_id)
 
 **输出:**
 
-```
+```py
 raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 34, 'message': 'Sorry, that page does not exist.'}]
 

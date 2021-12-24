@@ -56,7 +56,7 @@ T5】注:如果不可能，打印-1。
 
 ## C++
 
-```
+```py
 // C++ implementation to find the
 // minimum number of steps to convert
 // array by subtracting the corresponding
@@ -127,7 +127,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to find the
 // minimum number of steps to convert
 // array by subtracting the corresponding
@@ -203,7 +203,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to find the
 # minimum number of steps to convert
 # array by subtracting the corresponding
@@ -251,7 +251,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# implementation to
 // find the minimum number
 // of steps to convert array
@@ -332,7 +332,7 @@ public static void Main(String[] args)
 
 **Output:** 
 
-```
+```py
 8
 ```
 

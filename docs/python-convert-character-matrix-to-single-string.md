@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +列表理解**
 上述功能的组合可用于执行该任务。在这种情况下，我们只需迭代所有列表，并使用 join()连接它们。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Character Matrix to single String
 # Using join() + list comprehension
@@ -28,7 +28,7 @@ print("The String after join : " + res) 
 
 **Output :**
 
-```
+```py
 The original list is : [['g', 'f', 'g'], ['i', 's'], ['b', 'e', 's', 't']]
 The String after join : gfgisbest
 

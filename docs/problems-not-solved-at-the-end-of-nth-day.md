@@ -5,7 +5,7 @@
 给定 3 个整数 K，P 和 n，其中，K 是每天给这个人的问题数，P 是他一天能解决的最大问题数。找出第 N 天之后没有解决的问题总数。
 **例** :
 
-```
+```py
 Input :  K = 2, P = 1, N = 3
 Output : 3
 On each day 1 problem is left so 3*1 = 3 
@@ -20,7 +20,7 @@ Output : 30
 
 ## C++
 
-```
+```py
 // C++ program to find problems not
 // solved at the end of Nth day
 
@@ -54,7 +54,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to find problems not
 // solved at the end of Nth day
 
@@ -85,7 +85,7 @@ class Gfg {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find problems not
 # solved at the end of Nth day
 
@@ -103,7 +103,7 @@ print(problemsLeft(K, P, N))
 
 ## C#
 
-```
+```py
 // C# program to find problems not
 // solved at the end of Nth day
 using System;
@@ -139,7 +139,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to find problems not
 // solved at the end of Nth day
@@ -167,7 +167,7 @@ echo problemsLeft($K, $P, $N);
 
 ## java 描述语言
 
-```
+```py
 <script>
 // JavaScript program to find problems not
 // solved at the end of Nth day
@@ -196,6 +196,6 @@ document.write(problemsLeft(K, P, N));
 
 **Output:** 
 
-```
+```py
 30
 ```

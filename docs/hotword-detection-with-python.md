@@ -8,7 +8,7 @@
 1.  带工作麦克风的 Linux 电脑(我在 Arch Linux 上测试过)。
 2.  用你的包管理器安装 python3、pyaudio、sox(也适用于 Arch Linux)。:
 
-```
+```py
 sudo apt-get update
 sudo apt-get install python3 python3-pip
 sudo apt-get install python-pyaudio python3-pyaudio sox
@@ -19,7 +19,7 @@ sudo apt-get install python-pyaudio python3-pyaudio sox
 2.  当你用一个名为 usr 的文件夹解压时。现在导航到 usr/lib/python 3.7/site-packages。
 3.  使用文件管理器或 cp -r 命令将两个文件夹(snow oy 和 snow oy-1 . 2 . 0 B1-py 3.7 . egg-info)复制到/usr/lib/python 3 . 7/site-packages。
 
-```
+```py
 cd Downloads
 tar -xf python-snowboy-1.3.0-1-x86_64.pkg.tar.xz
 cd usr/lib/python3.7/site-packages
@@ -31,6 +31,6 @@ sudo cp -r snowboy-1.2.0b1-py3.7.egg-info
 
 ## 蟒蛇 3
 
-```
+```py
 from snowboy import snowboydecode
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Kth index elements from Dictionary Value list
 # Using list comprehension + values()
@@ -41,7 +41,7 @@ print("The extracted values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [4, 7, 5], 'Best': [8, 6, 7], 'is': [9, 3, 8]}
 The extracted values : [7, 6, 3]
 
@@ -53,7 +53,7 @@ The extracted values : [7, 6, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Kth index elements from Dictionary Value list
 # Using map() + itemgetter()
@@ -78,7 +78,7 @@ print("The extracted values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [4, 7, 5], 'Best': [8, 6, 7], 'is': [9, 3, 8]}
 The extracted values : [7, 6, 3]
 

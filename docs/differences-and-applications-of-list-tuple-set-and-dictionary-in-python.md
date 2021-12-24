@@ -33,7 +33,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program for explaining
 # use of list, tuple, set and 
 # dictionary
@@ -86,7 +86,7 @@ print("Dictionary", d)
 
 ****Output**
 
-```
+```py
 Adding 5 and 10 in list [5, 10]
 Popped one element from list [5]
 

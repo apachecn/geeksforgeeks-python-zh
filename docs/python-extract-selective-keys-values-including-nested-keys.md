@@ -17,7 +17,7 @@
 **方法:使用递归+循环+产量**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用条件语句执行检查键的任务，并使用递归检查嵌套。yield 运算符用于在发生时动态返回 s signation 的密钥。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract selective keys' values [ Including Nested Keys ]
 # Using recursion + loop + yield
@@ -47,7 +47,7 @@ print("The extracted values : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': {'is': {'best': 3}}, 'for': {'all': 4}, 'geeks': 5}
 The extracted values : {'best': 3, 'geeks': 5}
 

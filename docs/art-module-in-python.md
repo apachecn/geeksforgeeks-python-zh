@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
  pip install art 
 
 ```
@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from art import *
 
@@ -42,7 +42,7 @@ print(art__0)
 
 ## 蟒蛇 3
 
-```
+```py
 from art import *
 
 print(art("random"))
@@ -58,7 +58,7 @@ print(art("random"))
 
 ## 蟒蛇 3
 
-```
+```py
 from art import *
 
 print("Buttterfly by art :  ",end=" ")
@@ -75,7 +75,7 @@ print()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from art import *
 
@@ -94,7 +94,7 @@ print(Art)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from art import *
 
@@ -113,7 +113,7 @@ tprint("GFG","rnd-xlarge")
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from art import *
 

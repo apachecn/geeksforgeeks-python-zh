@@ -21,14 +21,14 @@ FastAPI 是现代 Web 框架。它用于构建 API，非常容易学习。
 *   [根据你的操作系统安装 Python 3 和 pip/pip 3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/)
 *   现在，使用 pip 或 pip3 安装 fastapi:
 
-    ```
+    ```py
        pip install fastapi
 
     ```
 
 *   使用
 
-    ```
+    ```py
       pip install uvicorn
 
     ```
@@ -36,7 +36,7 @@ FastAPI 是现代 Web 框架。它用于构建 API，非常容易学习。
     为您的服务器安装异步网关接口
 *   现在创建一个 main.py 文件并导入 fastapi，同时创建一个服务器
 
-    ```
+    ```py
       from fastapi import FastAPI
       app = FastAPI()
 
@@ -44,7 +44,7 @@ FastAPI 是现代 Web 框架。它用于构建 API，非常容易学习。
 
 *   现在，让我们添加示例获取请求的代码，如下所示:
 
-    ```
+    ```py
      @app.get("/")
      def read_root():
         return {"Hello": "World"}
@@ -53,7 +53,7 @@ FastAPI 是现代 Web 框架。它用于构建 API，非常容易学习。
 
 *   因此，主. py 文件看起来像:
 
-    ```
+    ```py
     from fastapi import FastAPI
     app = FastAPI()
 
@@ -67,7 +67,7 @@ FastAPI 是现代 Web 框架。它用于构建 API，非常容易学习。
 
 *   现在，使用
 
-    ```
+    ```py
     uvicorn main:app --reload
 
     ```

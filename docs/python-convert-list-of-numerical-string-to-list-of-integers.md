@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个问题可以用列表理解来处理，作为一种通用循环的简写，我们需要通过迭代每个列表的每个字符串并转换成整数来运行该循环来执行这个特定的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # converting string list to integer list
 # using list comprehension
@@ -28,7 +28,7 @@ print("The list after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [['24'], ['45'], ['78'], ['40']]
 The list after conversion : [[2, 4], [4, 5], [7, 8], [4, 0]]
 

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Each word frequency percentage
 # Using sum() + Counter()+ join() + split()
@@ -70,7 +70,7 @@ print("Percentage share of each word : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Each word frequency percentage
 # Using combined one-liner 

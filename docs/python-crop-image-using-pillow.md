@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```py
 # import Image module
 from PIL import Image
 
@@ -37,7 +37,7 @@ croppedIm.show()
 
 **例 2:**
 
-```
+```py
 # import Image module
 from PIL import Image
 

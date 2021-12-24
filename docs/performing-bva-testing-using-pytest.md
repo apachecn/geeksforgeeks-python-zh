@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import math
 class Error(BaseException):
     pass
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 **注意:**函数名和测试文件名应该总是以‘test’这个词开头。
 
-```
+```py
 In the above program,
 
 n = 3
@@ -101,7 +101,7 @@ Number of test cases = 6 * 3 + 1
 
 ## 蟒蛇 3
 
-```
+```py
 import pytest
 from triangletype import triangleType
 from triangletype import OutOfRangeError
@@ -160,14 +160,14 @@ def test_bva_nominal():
 
 要执行上述测试用例，在一个文件夹中创建两个单独的文件 *triangletype.py* 和 *test_triangletype_bva.py* 。要执行写入以下命令:
 
-```
+```py
 pytest 
 
 ```
 
 运筹学
 
-```
+```py
 pytest -v
 
 ```

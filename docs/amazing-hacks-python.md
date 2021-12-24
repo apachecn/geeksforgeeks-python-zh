@@ -8,7 +8,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 2.  **Printing a list:** List are not printed according the user requirement. They are always printed in unwanted square brackets and single quotes. But there is trivial solution to print the list efficiently by using the string’s join method.
     *The join method turns the list into a string by casting each item into a string and connecting them with the string that join was called on*.
 
-    ```
+    ```py
     # Declaring the list geek
     geek = ['Geeks', 'Programming', 'Algorithm', 'Article']
 
@@ -22,7 +22,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
     print ('Direct apply the join method:',(", " .join(geek)))
     ```
 
-    ```
+    ```py
     Output: 
     Simple List: ['Geeks', 'Programming', 'Algorithm', 'Article']
     List by using join method: Geeks, Programming, Algorithm, Article
@@ -35,7 +35,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 3.  **转置一个矩阵:**你可以[读到这里](https://www.geeksforgeeks.org/transpose-matrix-single-line-python/)关于这个。
 4.  **Partition a list into N groups:** We used iter() as an iterator over a sequence.
 
-    ```
+    ```py
 
     # Declaring the list geek
     geek = ['Sun', 'Flowers', 'Peoples', 'Animals', 'Day', 'Night']
@@ -44,7 +44,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
     print (partition)
     ```
 
-    ```
+    ```py
     Output: 
     [('Sun', 'Flowers'), ('Peoples', 'Animals'), ('Day', 'Night')]
 
@@ -54,7 +54,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 
 5.  **同时打印多个列表的项目**
 
-    ```
+    ```py
     list1 = [1, 3, 5, 7]
     list2 = [2, 4, 6, 8]
 
@@ -64,7 +64,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
         print (a, b)
     ```
 
-    ```
+    ```py
     Output: 
     1 2
     3 4
@@ -75,7 +75,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 
 6.  **以字符串为输入，转换为列表:**
 
-    ```
+    ```py
     # Reads a string from input and type case them to int 
     # after splitting to white-spaces
 
@@ -83,7 +83,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
     print(formatted_list)
     ```
 
-    ```
+    ```py
     Input:
     2 4 5 6
     Output:
@@ -93,7 +93,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 
 7.  **将列表列表转换为单个列表**
 
-    ```
+    ```py
     # import the itertools 
     import itertools 
 
@@ -110,7 +110,7 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
     print(lst)
     ```
 
-    ```
+    ```py
     Output: 
     [1, 2, 3, 4, 5, 6]
 
@@ -118,14 +118,14 @@ Python 确实是最聪明、最流行的语言之一。这里有一些很酷的�
 
 8.  **打印重复字符:**任务是打印这样的图案 Geeeeekkkkss。因此，我们可以轻松打印此图案，而无需使用 for loop。
 
-    ```
+    ```py
     # + used for string concatenation
     # To repeat the character n times, just multiply n 
     # with that character  
     print ("G" + "e"*5 + "k"*4 + "s"*2)
     ```
 
-    ```
+    ```py
     Output:
     Geeeeekkkkss
 

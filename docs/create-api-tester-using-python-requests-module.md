@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # request module to
 # work with api's
 import requests

@@ -8,32 +8,32 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 element.click()
 ```
 
 **示例–**
 
-```
+```py
 <a href="https://www.geeksforgeeks.org/" id="link" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("link")
 element = driver.find_element_by_xpath("//a[@id='link']")
 ```
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_id("link")
 ```
 
 现在你可以点击这个元素
 
-```
+```py
 element.click()
 ```
 
@@ -42,7 +42,7 @@ element.click()
 让我们用 https://www.geeksforgeeks.org/在 Selenium Python 中说明这个方法。在这里，我们点击 geeksforgeeks
 **程序–**导航栏中的课程选项卡
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

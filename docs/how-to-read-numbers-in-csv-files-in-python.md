@@ -28,7 +28,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import csv
 
 # creating a nested list of roll numbers,
@@ -84,7 +84,7 @@ my_csv.csv**
 
 ## **蟒蛇 3**
 
-```
+```py
 import csv
 
 # creating a nested list of roll numbers,

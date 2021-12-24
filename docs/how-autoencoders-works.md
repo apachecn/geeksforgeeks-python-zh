@@ -41,7 +41,7 @@
 
 **Step #1:** Load the 400 64 × 64 grayscale image samples to prepare the set for training:
 
-```
+```py
 from sklearn.datasets import fetch_olivetti_faces
 
 faces = fetch_olivetti_faces(shuffle=True, random_state=1000)
@@ -52,14 +52,14 @@ X_train = faces['images']
 
 **第三步:**我们来定义主要常量。
 
-```
+```py
 -> number of epochs (nb_epochs)
 -> batch_size
 -> code_length
 -> graph
 ```
 
-```
+```py
 import tensorflow as tf
 
 nb_epochs = 600
@@ -89,7 +89,7 @@ graph = tf.Graph()
 
 损失函数基于重建图像和原始图像之间差异的 L2 范数。这里，Adam 是学习率α =0.001 的优化器。现在，让我们看看 TensorFlow DAG 的编码器部分:
 
-```
+```py
 import tensorflow as tf
 
 with graph.as_default():
@@ -130,7 +130,7 @@ with graph.as_default():
 
 以下是 DAG 的编码部分:
 
-```
+```py
 import tensorflow as tf
 
 with graph.as_default(): 
@@ -147,7 +147,7 @@ with graph.as_default(): 
 
 现在，让我们看看 DAG 解码器:
 
-```
+```py
 import tensorflow as tf
 
 with graph.as_default(): 
@@ -189,7 +189,7 @@ with graph.as_default(): 
 
 **第 7 步:**以下是如何定义损失函数和 Adam 优化器–
 
-```
+```py
 import tensorflow as tf
 
 with graph.as_default():
@@ -202,7 +202,7 @@ with graph.as_default():
 
 **步骤#8:** 现在我们已经定义了完整的 DAG，我们可以启动会话并初始化所有变量。
 
-```
+```py
 import tensorflow as tf
 
 session = tf.InteractiveSession(graph=graph)
@@ -211,7 +211,7 @@ tf.global_variables_initializer().run()
 
 **步骤#9:** 我们可以在初始化 TensorFlow 后开始训练过程:
 
-```
+```py
 import numpy as np
 
 for e in range(nb_epochs):
@@ -237,7 +237,7 @@ for e in range(nb_epochs):
 
 **输出:**
 
-```
+```py
 Epoch 1) Average loss per sample: 11.933397521972656 (Code mean: 0.5420681238174438)
 Epoch 2) Average loss per sample: 10.294102325439454 (Code mean: 0.4132006764411926)
 Epoch 3) Average loss per sample: 9.917563934326171 (Code mean: 0.38105469942092896)
@@ -269,7 +269,7 @@ Epoch 600) Average loss per sample: 0.4635812330245972 (Code mean: 0.42368677258
 
 我们将修改我们的深度卷积自动编码器，以便它可以管理有噪声的输入样本。由于 DAG 几乎相等，我们需要包括原始和有噪声的图像。
 
-```
+```py
 import tensorflow as tf
 
 with graph.as_default():
@@ -299,7 +299,7 @@ with graph.as_default():
 
 考虑到新图像，我们可以计算损失函数:
 
-```
+```py
 # Loss
 loss = tf.nn.l2_loss(convt_3 - input_images)
 
@@ -309,7 +309,7 @@ training_step = tf.train.AdamOptimizer(0.001).minimize(loss)
 
 一旦变量的标准初始化完成，我们就可以开始考虑加性噪声 ni？N(0，0.45)(也就是，？？0.2):
 
-```
+```py
 import numpy as np
 
 for e in range(nb_epochs):

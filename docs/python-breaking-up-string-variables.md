@@ -20,7 +20,7 @@ join()方法提供了一种从可迭代对象创建字符串的灵活方法。�
 
 ## 蟒蛇 3
 
-```
+```py
 a = "GeeksForGeeks"
 
 split_string = list(''.join(a))
@@ -36,7 +36,7 @@ print(split_string)
 
 ## 蟒蛇 3
 
-```
+```py
 a = "GeeksForGeeks"
 
 res = [i for ele in a for i in ele]
@@ -52,7 +52,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 
 a = "GeeksForGeeks"

@@ -12,7 +12,7 @@
 
 **加密**
 
-```
+```py
 Input : Hello World
 Output : Svool Dliow
 
@@ -28,7 +28,7 @@ Output : Svool Dliow
 
 **解密**
 
-```
+```py
 Input : Svool Dliow 
 Output : Hello World 
 
@@ -46,7 +46,7 @@ Output : Hello World
 
 **加密**
 
-```
+```py
 Input : GeeksForGeeks
 Output : TvvphUliTvvph
 
@@ -64,7 +64,7 @@ Output : TvvphUliTvvph
 
 **解密**
 
-```
+```py
 Input : TvvphUliTvvph 
 Output : GeeksForGeeks
 
@@ -84,7 +84,7 @@ Output : GeeksForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking input from user
 data = 'Welcome to GeeksForGeeks...'
 
@@ -121,7 +121,7 @@ print(converted_data)
 
 **Output**
 
-```
+```py
 Dvoxlnv gl TvvphUliTvvph...
 
 ```

@@ -9,7 +9,7 @@
 给定一个字符串，找到字符串中第一个重复的单词。
 示例:
 
-```
+```py
 Input : "Ravi had been saying that he had been there"
 Output : had
 
@@ -27,7 +27,7 @@ Output : he
 2.  现在使用[集合将单词列表转换成字典。计数器(迭代器)](https://www.geeksforgeeks.org/counters-in-python-set-1/)方法。字典以单词为关键字，以频率为值。
 3.  现在再次遍历单词列表，检查第一个单词的频率是否大于 1。
 
-```
+```py
 # Function to Find the first repeated word in a string 
 from collections import Counter 
 
@@ -55,7 +55,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 had
 
 ```

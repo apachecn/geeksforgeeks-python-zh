@@ -20,7 +20,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of formatyear() method
 
 # importing calendar module
@@ -37,7 +37,7 @@ print(text_cal.formatyear(year))
 
 **输出:**
 
-```
+```py
 <table border="0" cellpadding="0" cellspacing="0" class="year">
 <tr><th colspan="3" class="year">2018</th></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" class="month">
 <tr><th colspan="7" class="month">January</th></tr>
@@ -157,7 +157,7 @@ print(text_cal.formatyear(year))
 
 **代码#2:** 宽度给定 5
 
-```
+```py
 # Python program to demonstrate working of formatyear() method
 
 # importing calendar module
@@ -173,7 +173,7 @@ print(text_cal.formatyear(2018, 5))
 
 **输出:**
 
-```
+```py
 <table border="0" cellpadding="0" cellspacing="0" class="year">
 <tr><th colspan="5" class="year">2018</th></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" class="month">
 <tr><th colspan="7" class="month">January</th></tr>

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Values Mean
 # Using loop + len()
@@ -43,7 +43,7 @@ print("The computed mean : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 7, 'Best': 8, 'for': 6, 'Geeks': 10}
 The computed mean : 7.0
 
@@ -55,7 +55,7 @@ The computed mean : 7.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Values Mean
 # Using sum() + len() + values()
@@ -76,7 +76,7 @@ print("The computed mean : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 7, 'Best': 8, 'for': 6, 'Geeks': 10}
 The computed mean : 7.0
 

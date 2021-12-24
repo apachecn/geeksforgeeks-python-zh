@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -51,7 +51,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 Actual data in dataframe
 +----------+------------+-------+
 |student ID|student NAME|college|
@@ -69,7 +69,7 @@ Actual data in dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 # extract single value based on
 # column in the dataframe
 dataframe.first()['student ID']
@@ -77,7 +77,7 @@ dataframe.first()['student ID']
 
 **输出:**
 
-```
+```py
 '1'
 ```
 
@@ -85,7 +85,7 @@ dataframe.first()['student ID']
 
 ## 蟒蛇 3
 
-```
+```py
 # extract single value based
 # on column in the dataframe
 dataframe.head()[0]
@@ -93,7 +93,7 @@ dataframe.head()[0]
 
 **输出:**
 
-```
+```py
 '1'
 ```
 
@@ -101,7 +101,7 @@ dataframe.head()[0]
 
 ## 蟒蛇 3
 
-```
+```py
 # extract single value based
 # on column in the dataframe
 dataframe.head()[2]
@@ -109,6 +109,6 @@ dataframe.head()[2]
 
 **输出:**
 
-```
+```py
 'vignan'
 ```

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def speak():
     """Returns a neutral message"""
     return "Hi, Geeks!"
@@ -19,7 +19,7 @@ print(speak())
 
 **输出:**
 
-```
+```py
 Hi, Geeks!
 
 ```
@@ -28,7 +28,7 @@ Hi, Geeks!
 
 ## 蟒蛇 3
 
-```
+```py
 # decorator
 def make_geek_happy(func):
     def wrapper():
@@ -48,7 +48,7 @@ print(speak())
 
 **输出:**
 
-```
+```py
 Hi, Geeks! You are happy!
 
 ```
@@ -61,7 +61,7 @@ Hi, Geeks! You are happy!
 
 ## 蟒蛇 3
 
-```
+```py
 # decorator
 def make_geek_happy(func):
     def wrapper():
@@ -88,7 +88,7 @@ print(positive_message.__doc__)
 
 **输出:**
 
-```
+```py
 Hi! You are happy!
 speak
 Returns a neutral message
@@ -103,7 +103,7 @@ None
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import functools
 
@@ -131,7 +131,7 @@ print(positive_message.__doc__)
 
 **输出:**
 
-```
+```py
 Hi! You are happy!
 speak
 Returns a neutral message

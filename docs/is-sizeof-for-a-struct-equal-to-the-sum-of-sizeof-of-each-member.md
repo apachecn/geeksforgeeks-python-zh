@@ -11,7 +11,7 @@
 
 *   **Case 1:**
 
-    ```
+    ```py
     // C program to illustrate
     // size of struct
     #include <stdio.h>
@@ -41,7 +41,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Size of struct: 24
 
     ```
@@ -51,7 +51,7 @@
 
 *   **Case 2:**
 
-    ```
+    ```py
     // C program to illustrate
     // size of struct
     #include <stdio.h>
@@ -79,7 +79,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Size of struct: 16
 
     ```
@@ -90,7 +90,7 @@
 
 *   **Case 3:**
 
-    ```
+    ```py
     // C program to illustrate
     // size of struct
     #include <stdio.h>
@@ -118,7 +118,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Size of struct: 16
 
     ```

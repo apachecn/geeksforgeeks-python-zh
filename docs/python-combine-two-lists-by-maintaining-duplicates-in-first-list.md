@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 list_1 = [11, 22, 22, 15]
 list_2 = [22, 15, 77, 9]
@@ -18,7 +18,7 @@ OutList = [11, 22, 22, 15, 77, 9]
 
 **代码#1:使用扩展**
 
-```
+```py
 # Python code to combine two lists
 # and removing duplicates, without
 # removing duplicates in original list.
@@ -40,7 +40,7 @@ print(output)
 
 ****Output:**
 
-```
+```py
 [111, 222, 222, 115, 77, 19]
 
 ```** 
@@ -48,7 +48,7 @@ print(output)
  ****代码#2:使用集合和迭代**
 追加第一个列表中不在第二个列表中的元素，然后取第一个和第二个列表的并集。**
 
-```
+```py
 # Python code to combine two lists 
 # and removing duplicates, without 
 # removing duplicates in original list.
@@ -75,7 +75,7 @@ print(output) 
 
 ****Output:**
 
-```
+```py
 [11, 22, 22, 15, 9, 77]
 
 ```**

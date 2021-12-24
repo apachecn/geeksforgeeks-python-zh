@@ -19,7 +19,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 ALTER TABLE table_name ADD colunm_name datatype NOT NULL;
 insert into table_name value('Value');
 ```
@@ -30,7 +30,7 @@ insert into table_name value('Value');
 
 **第一步:**在表中增加一个非空列。
 
-```
+```py
 ALTER TABLE employee ADD mobile_number varchar(255) not null;
 ```
 
@@ -52,7 +52,7 @@ ALTER TABLE employee ADD mobile_number varchar(255) not null;
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 

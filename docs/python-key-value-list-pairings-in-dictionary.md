@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个任务可以使用这个方法来执行。在这种情况下，我们手动提取每个键，然后用它们的所有值进行迭代，以形成新的字典列表。这具有仅适用于某些键的缺点。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Key Value list pairings in Dictionary
 # Using list comprehension

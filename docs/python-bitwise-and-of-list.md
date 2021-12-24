@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of
 # Bitwise AND of List
 # Using reduce() + lambda + "&" operator
@@ -29,7 +29,7 @@ print("The Bitwise AND of list elements are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [4, 6, 2, 3, 8, 9]
 The Bitwise AND of list elements are : 0
 
@@ -40,7 +40,7 @@ The Bitwise AND of list elements are : 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of
 # Bitwise AND of List
 # Using functools.reduce() + operator.iand
@@ -62,7 +62,7 @@ print("The Bitwise AND of list elements are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [4, 6, 2, 3, 8, 9]
 The Bitwise AND of list elements are : 0
 

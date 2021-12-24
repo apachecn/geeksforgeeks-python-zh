@@ -17,7 +17,7 @@
 
 **Code: Practical Implementation :**
 
-```
+```py
 # Importing the ImageDataGenerator for pre-processing 
 from keras.preprocessing.image import ImageDataGenerator
 
@@ -45,7 +45,7 @@ test_generator = test_datagen.flow_from_directory(
 
 **输出:**
 
-```
+```py
 It yields batches of *150 × 150* RGB images of shape *(20, 150, 150, 3)* 
 and binary labels of shape *(20, )*.
 ```
@@ -55,7 +55,7 @@ and binary labels of shape *(20, )*.
 现在决定*每周期步数*参数，因为我们总共有 2000 个训练图像，并且每批图像的大小为 20，因此，每周期步数将为 2000 / 20 = 100。
 代码:
 
-```
+```py
 # Your compiled model being trained with fit_generator
 history = model.fit_generator(
              train_generator,

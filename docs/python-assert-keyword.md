@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of assert
 
@@ -43,7 +43,7 @@ print(a / b)
 
 **输出:**
 
-```
+```py
 AssertionError: 
 ```
 
@@ -51,7 +51,7 @@ AssertionError:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of assert
 
@@ -67,7 +67,7 @@ print(a / b)
 
 **输出:**
 
-```
+```py
 AssertionError: Zero Division Error
 ```
 
@@ -77,7 +77,7 @@ AssertionError: Zero Division Error
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate 
 # working of assert 
 # Application
@@ -96,7 +96,7 @@ for i in batch:
 
 **输出:**
 
-```
+```py
 40 is O.K
 26 is O.K
 39 is O.K
@@ -105,6 +105,6 @@ for i in batch:
 
 **运行时异常:**
 
-```
+```py
 AssertionError: Batch is Rejected
 ```

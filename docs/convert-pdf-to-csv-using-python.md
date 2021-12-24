@@ -12,7 +12,7 @@ Python 是一种高级、通用且非常流行的编程语言。Python 编程语
 
 **安装:**
 
-```
+```py
 Open Command Prompt and type "pip install git+https://github.com/pdftables/python-pdftables-api.git"
 ```
 
@@ -27,7 +27,7 @@ Open Command Prompt and type "pip install git+https://github.com/pdftables/pytho
 
 **语法:**
 
-```
+```py
 pdftables_api.Client('API KEY').csv(pdf_path, csv_path)
 ```
 
@@ -41,7 +41,7 @@ pdftables_api.Client('API KEY').csv(pdf_path, csv_path)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import pdftables_api
 
@@ -65,7 +65,7 @@ conversion.csv(pdf_file_path, output_file_path)
 
 **安装:**
 
-```
+```py
 pip install tabula-py
 ```
 
@@ -81,7 +81,7 @@ pip install tabula-py
 
 **语法:**
 
-```
+```py
 read_pdf(PDF File Path, pages = Number of pages, **agrs)
 ```
 
@@ -95,7 +95,7 @@ read_pdf(PDF File Path, pages = Number of pages, **agrs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module 
 import tabula
 

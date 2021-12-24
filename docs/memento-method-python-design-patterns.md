@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """Memento class for saving the data"""
 
 class Memento:

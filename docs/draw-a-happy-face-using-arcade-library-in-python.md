@@ -6,13 +6,13 @@
 
 *   导入街机库。
 
-```
+```py
 import arcade
 ```
 
 *   打开窗户。
 
-```
+```py
 arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 ```
 
@@ -20,7 +20,7 @@ arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 
 *   指定使用 open_window 定义的参数值。
 
-```
+```py
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
 SCREEN_TITLE = "Happy Face GfG "
@@ -28,19 +28,19 @@ SCREEN_TITLE = "Happy Face GfG "
 
 *   选择输出背景屏幕的颜色。
 
-```
+```py
 arcade.set_background_color(arcade.color.BLACK)
 ```
 
 *   这个命令会告诉街机库你开始画画了。
 
-```
+```py
 arcade.start_render()
 ```
 
 *   编写一个函数，使用内置函数 draw_circle_filled()函数为面的底部绘制圆。
 
-```
+```py
 x = 300
 y = 300
 radius = 200
@@ -49,7 +49,7 @@ arcade.draw_circle_filled(x, y, radius, arcade.color.YELLOW)
 
 *   同样，使用 draw_circle_filled()函数编写用于绘制脸部右眼和左眼的函数。
 
-```
+```py
 # Draw the right eye
 x = 370
 y = 350
@@ -64,7 +64,7 @@ arcade.draw_circle_filled(x, y, radius, arcade.color.BLACK)
 
 *   对于幸福的脸来说，微笑是最重要的部分。使用 draw_arc_outline()函数绘制微笑。
 
-```
+```py
 # Draw the smile
 x = 300
 y = 280
@@ -79,14 +79,14 @@ arcade.draw_arc_outline(x, y, width, height,
 
 *   这个命令会告诉街机库你已经画好了。
 
-```
+```py
 # Finish drawing
 arcade.finish_render()
 ```
 
 *   这个命令是保持窗户打开。
 
-```
+```py
 # Keep the window open until the user
 # hits the 'close' button
 arcade.run()
@@ -96,7 +96,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # specify the parameters

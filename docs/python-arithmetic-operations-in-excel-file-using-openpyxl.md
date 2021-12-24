@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -44,7 +44,7 @@ wb.save("sum.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 wb = openpyxl.Workbook()
@@ -71,7 +71,7 @@ wb.save("product.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 wb = openpyxl.Workbook()
@@ -98,7 +98,7 @@ wb.save("average.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 wb = openpyxl.Workbook()
@@ -120,7 +120,7 @@ wb.save("quotient.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 wb = openpyxl.Workbook()
@@ -142,7 +142,7 @@ wb.save("modulus.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 wb = openpyxl.Workbook()

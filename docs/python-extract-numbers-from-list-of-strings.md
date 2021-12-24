@@ -8,7 +8,7 @@
 
 这个特殊的问题可以通过使用列表理解功能来解决，该功能将逻辑扩展到所有项目，并且拆分功能执行拆分任务并获取目标所需元素。
 
-```
+```py
 # Python3 code to demonstrate
 # Extracting numbers from list of strings
 # using list comprehension + split()
@@ -29,7 +29,7 @@ print("The list after Extracting numbers : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Rs. 24', 'Rs. 18', 'Rs. 8', 'Rs. 21']
 The list after Extracting numbers : [24, 18, 8, 21]
 
@@ -39,7 +39,7 @@ The list after Extracting numbers : [24, 18, 8, 21]
 
 这种方法在没有预先定义数字将按特定方式排序的情况下是优选的，即，这种方法提供了从任何可能的位置获得数字的灵活性。
 
-```
+```py
 # Python3 code to demonstrate
 # Extracting numbers from list of strings
 # using join() + isnumeric() + list comprehension + map()
@@ -61,7 +61,7 @@ print("The list after Extracting numbers : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Rs. 24', 'Rs. 18', 'Rs. 8', 'Rs. 21']
 The list after Extracting numbers : [24, 18, 8, 21]
 

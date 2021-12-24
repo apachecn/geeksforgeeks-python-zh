@@ -4,20 +4,20 @@
 
 例如，在 C 语言中，我们可以这样做:
 
-```
+```py
 // Reads two values in one line
 scanf("%d %d", &x, &y) 
 ```
 
 一种解决方案是使用 raw_input()两次。
 
-```
+```py
 x, y = input(),  input()
 ```
 
 另一种解决方案是使用 [split()](https://www.geeksforgeeks.org/how-to-split-a-string-in-cc-python-and-java/)
 
-```
+```py
 x, y = input().split()
 ```
 
@@ -25,7 +25,7 @@ x, y = input().split()
 
 在上面的 Python 代码中需要注意的一点是，x 和 y 都是字符串。我们可以用另一行
 
-```
+```py
 x, y = [int(x), int(y)]
 
 # We can also use  list comprehension
@@ -37,13 +37,13 @@ x, y = [int(x) for x in [x, y]]
 
 下面是完整的一行代码从标准输入中读取两个整数变量使用 split 和[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
 
-```
+```py
 # Reads two numbers from input and typecasts them to int using 
 # list comprehension
 x, y = [int(x) for x in input().split()]  
 ```
 
-```
+```py
 # Reads two numbers from input and typecasts them to int using 
 # map function
 x, y = map(int, input().split())

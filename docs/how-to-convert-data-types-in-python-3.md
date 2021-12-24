@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # implicit type conversion
 
@@ -40,7 +40,7 @@ print(type(c))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 <class 'float'>
 5.0
@@ -65,7 +65,7 @@ print(type(c))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # type conversion of number to
 # string
@@ -80,7 +80,7 @@ print(type(s))
 
 **输出:**
 
-```
+```py
 10
 <class 'str'>
 ```
@@ -91,7 +91,7 @@ print(type(s))
 
 ## 蟒蛇 3
 
-```
+```py
 s = "GFG"
 n = 50
 
@@ -100,7 +100,7 @@ print("String: " + s + "\nNumber: " + str(n))
 
 **输出:**
 
-```
+```py
 String: GFG
 Number: 50
 ```
@@ -115,7 +115,7 @@ Number: 50
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # type conversion of string to
 # number
@@ -135,7 +135,7 @@ print(type(f))
 
 **输出:**
 
-```
+```py
 50
 <class 'int'>
 50.0
@@ -154,7 +154,7 @@ Python 中基本上有两种类型的数字——整数和浮点数。我们经�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # floating point to integer
 
@@ -168,7 +168,7 @@ print(type(n))
 
 **输出:**
 
-```
+```py
 10
 <class 'int'>
 ```
@@ -181,7 +181,7 @@ print(type(n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # integer to float
 
@@ -195,7 +195,7 @@ print(type(f))
 
 **输出:**
 
-```
+```py
 10.0
 <class 'float'>
 ```
@@ -208,7 +208,7 @@ print(type(f))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # type conversion between list
 # and tuples
@@ -229,7 +229,7 @@ print(type(L))
 
 **输出:**
 
-```
+```py
 (5, 6, 7, 8)
 <class 'tuple'>
 [1, 2, 3, 4]

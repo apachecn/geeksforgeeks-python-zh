@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find whether all
 # tuple have equal length
 
@@ -38,7 +38,7 @@ else:
 
 **Output:** 
 
-```
+```py
 Initial list of tuple [(11, 22, 33), (44, 55, 66)]
 All tuples have same length
 ```
@@ -47,7 +47,7 @@ All tuples have same length
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find whether all tuple
 # have equal length
 
@@ -71,7 +71,7 @@ else:
 
 **Output:** 
 
-```
+```py
 Initial list of tuple [(11, 22, 33), (44, 55, 66), (11, 23)]
 Tuples does not have same length
 ```

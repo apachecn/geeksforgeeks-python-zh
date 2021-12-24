@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [('x', 'y'), ('x', 'z'), ('w', 't')]
 
 Output: [('w', 't'), ('x', 'y', 'z')]
@@ -15,7 +15,7 @@ Output: [('w', 't'), ('x', 'y', 'z')]
 
 **方法#1:使用`extend`**
 
-```
+```py
 # Python code to find common 
 # first element in list of tuple
 
@@ -42,7 +42,7 @@ print("List showing common first element", Output)
 
 **Output:**
 
-```
+```py
 Initial list of tuple is : [('x', 'y'), ('x', 'z'), ('w', 't')]
 List showing common first element [('w', 't'), ('x', 'y', 'z')]
 
@@ -50,7 +50,7 @@ List showing common first element [('w', 't'), ('x', 'y', 'z')]
 
 **方法 2:使用`defaultdict`**
 
-```
+```py
 # Python code to find common first
 # element in list of tuple
 
@@ -78,7 +78,7 @@ print("List showing common first element", Output)
 
 **Output:**
 
-```
+```py
 Initial list of tuple is : [('p', 'q'), ('p', 'r'), ('p', 's'), ('m', 't')]
 List showing common first element [('m', 't'), ('p', 'q', 'r', 's')]
 

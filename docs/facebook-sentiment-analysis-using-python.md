@@ -29,53 +29,53 @@
 *   **NLTK:** 用于理解人类自然语言。
     安装使用 conda 命令。
 
-```
+```py
 
 conda install -c anaconda nltk
 ```
 
 *   使用画中画安装。
 
-```
+```py
 pip install nltk
 ```
 
 *   **NumPy:** 是 python 中用于科学和计算方法的 python 包。
     安装使用 conda。
 
-```
+```py
 conda install -c conda-forge numpy
 ```
 
 *   利用皮普。
 
-```
+```py
 pip install numpy
 ```
 
 *   **Pandas:** 是一个用于数据预处理和分析的 python 模块。
     使用 conda 安装
 
-```
+```py
 conda install -c anaconda pandas
 ```
 
 *   使用画中画安装。
 
-```
+```py
 pip install pandas
 ```
 
 *   **Matplotlib:** 是一个 python 模块，用于数据可视化和数据表示的 2D 绘图。
     安装使用 conda。
 
-```
+```py
 conda install -c conda-forge matplotlib
 ```
 
 *   使用画中画安装。
 
-```
+```py
 pip install matplotlib 
 ```
 
@@ -92,7 +92,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import pandas as pd
 import numpy as np
@@ -152,7 +152,7 @@ with open('kindle.txt', encoding ='ISO-8859-2') as f:
 
 **输出:**
 
-```
+```py
 here is the  sample output of the code:
 ['i', 'love', 'my', 'kindle']
 ['i love my kindle']
@@ -208,7 +208,7 @@ compound: 0.6369, neg: 0.0, neu: 0.323, pos: 0.677,
 
 *   标记标记，只选择重要的特征/标记，如形容词、副词和动词等。
 
-```
+```py
 text = nltk.word_tokenize(text)
 print(nltk.pos_tag(text)) 
 ```
@@ -234,7 +234,7 @@ print(nltk.pos_tag(text))
 
 *   让我们来了解什么是情绪代码，以及 VADER 如何处理上述代码的输出:
 
-```
+```py
  i love my kindle
 compound: 0.6369, neg: 0.0, neu: 0.323, pos: 0.677 
 ```

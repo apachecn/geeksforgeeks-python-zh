@@ -28,19 +28,19 @@ CSV 2:
 
 *   最初，指定源目录的路径，在这种情况下，使用 path 变量指定文件夹“csvfoldergfg”。
 
-```
+```py
 path = "csvfoldergfg"
 ```
 
 *   为了定位所有名称可能未知的 CSV 文件，调用 glob 模块并调用其 glob 方法。使用 [glob.glob(路径)](https://www.geeksforgeeks.org/how-to-use-glob-function-to-find-files-recursively-in-python/)为其提供路径。这将返回路径中的所有 CSV 文件列表。使用的正则表达式相当于*。csv，它匹配扩展名为. csv 的所有文件。
 
-```
+```py
 glob.glob(path, '*.csv')
 ```
 
 *   然后使用 for 循环对这些文件执行迭代，并使用 pandas 库的 [read_csv()](https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/) 方法将内容读入数据帧。使用这种方法提取的信息可以被操纵。
 
-```
+```py
 read_csv(file_contents)
 ```
 
@@ -48,7 +48,7 @@ read_csv(file_contents)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required modules
 import glob
 import pandas as pd
@@ -86,19 +86,19 @@ print(data_frame)
 
 *   最初，使用 dir_name 字符串变量指定源目录的路径，在本例中是文件夹“csvfoldergfg”。
 
-```
+```py
 dir_name = "csvfoldergfg"
 ```
 
 *   为了定位所有名称可能未知的文件，调用 os 模块，并调用其 [listdir()](https://www.geeksforgeeks.org/python-os-listdir-method/) 方法。它是使用 os.listdir(路径)提供的路径。这将返回路径中的所有文件列表。
 
-```
+```py
 os.listdir(dir_name)
 ```
 
 *   然后使用 for 循环对这些文件执行迭代，并使用 pandas 库的 read_csv()方法将内容读入数据帧。使用这种方法提取的信息可以被操纵。
 
-```
+```py
 read_csv(file_contents)
 ```
 
@@ -106,7 +106,7 @@ read_csv(file_contents)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required packaged 
 # in python
 import pandas as pd

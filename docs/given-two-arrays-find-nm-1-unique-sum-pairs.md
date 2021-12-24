@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: N = 5, M = 3
        A = [6, 5, 7, 1, 3]
        B = [2, 4, 8]
@@ -30,7 +30,7 @@ All have unique sum
 
 **代码:**
 
-```
+```py
 from collections import defaultdict as dd
 
 # Function to form unique sum pairs
@@ -62,7 +62,7 @@ unique_pairs()
 
 **输出:**
 
-```
+```py
 0 0
 0 1
 0 2
@@ -81,7 +81,7 @@ unique_pairs()
 
 **代码:**
 
-```
+```py
 from collections import defaultdict as dd
 
 # Function to form unique sum pairs
@@ -117,7 +117,7 @@ unique_pairs_sort()
 
 **输出:**
 
-```
+```py
 5 3
 2 3
 1 3

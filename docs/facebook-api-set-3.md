@@ -20,7 +20,7 @@
 
 **示例:**获取德里干诺坊附近所有地方的详细信息。康诺特广场的经纬度为–28.6304，77.2177
 
-```
+```py
 import json
 import facebook
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
 **示例#1:** 我们想找出活跃用户的好友总数。
 
-```
+```py
 import json
 import facebook
 
@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
 **示例#2:** 我们想要从一个页面获取所有帖子的列表。为此，我们将使用 get_connections，稍后，我们将演示如何使用`get_all_connections` 方法。
 
-```
+```py
 import json
 import facebook
 
@@ -94,7 +94,7 @@ if __name__ == '__main__':
 
 **示例#3:** 在本例中，我们将使用 get_connections 方法按`reverse_chronological` 顺序打印帖子的所有评论，显示包括隐藏评论在内的子评论，并显示评论的总数。
 
-```
+```py
 import json
 import facebook
 
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
 **示例#1:** 在此示例中，我使用 get_all_connections 列出了使用自日期时间参数列出的页面中的所有帖子。
 
-```
+```py
 import json
 import facebook
 from datetime import datetime

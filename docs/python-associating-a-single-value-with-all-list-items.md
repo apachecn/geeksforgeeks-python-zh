@@ -7,7 +7,7 @@
 **方法#1:使用`map()` + lambda**
 这个任务可以使用 map 函数来完成，map 函数是内置的 python 函数，通常用于关联或聚合值。Lambda 函数可以为 map 函数提供一个特定的值来执行它。
 
-```
+```py
 # Python3 code to demonstrate
 # associate value in list 
 # using map() + lambda

@@ -11,7 +11,7 @@ isinstance(object_name，class_name)
 如果 object_name 的类是 class_name else **则返回**True**False**。
 例如:
 
-```
+```py
 # Python code to demonstrate issubclass()
 
 print(isinstance(5, int))
@@ -19,7 +19,7 @@ print(isinstance(5, int))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -34,7 +34,7 @@ issubclass(childclass_name，parentclass_name)
 它将返回 **True** 如果输入的子类实际上是从输入的父类 else 派生的，它将返回 **False** 。
 例如:
 
-```
+```py
 # Python code to demonstrate issubclass()
 class A():
       def __init__(self, a):
@@ -49,7 +49,7 @@ print(issubclass(B, A))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -60,7 +60,7 @@ True
 **<u>多重继承:</u>**
 当一个类从多个父类继承时，称为多重继承。它的工作方式与单一继承相同。
 
-```
+```py
 # Python code to demonstrate multiple inheritance
 
 # first parent class
@@ -87,14 +87,14 @@ class Leader(Person, Employee):        
 
 创建类的实例时，请确保您向函数提供参数的顺序与该类的块中的顺序相关。例如，在上面的代码中，如果我们必须生成一个实例，我们将编写
 
-```
+```py
 ins = Leader('Rahul', 882016, 75000, 'Assistant Manager', 560)
 ```
 
 如果你把序列位置 75000 和“助理经理”互换，代码将把“助理经理”作为工资，75000 作为职位。
 自己看吧。
 
-```
+```py
 # first parent class
 class Person(object):                 
       def __init__(self, name, idnumber):
@@ -120,7 +120,7 @@ ins = Leader('Rahul', 882016, 'Assistant Manager', 75000, 560)
 
 **Output:**
 
-```
+```py
 Assistant Manager
 
 ```
@@ -131,7 +131,7 @@ Assistant Manager
 同样，我们不能覆盖超类的私有方法，也就是名字前有双下划线的方法。
 例如:
 
-```
+```py
 # Base Class
 class A(object):                
         def __init__(self):
@@ -154,7 +154,7 @@ b = B()
 
 **Output:**
 
-```
+```py
 method1 of class B
 method1 of class A
 
@@ -168,7 +168,7 @@ super()方法帮助我们在新的样式类中重写方法。其语法如下:
 **super(class_name，instance_)of_class)。override _ method _ name()**
 让我们假设有 3 个类 A、B 和 c，这 3 个类都有一个被称为‘method 1’的公共函数。super()的工作来了。
 
-```
+```py
 class A(object):
         def function1(self):
                 print 'function of class A'
@@ -186,7 +186,7 @@ j.function1()
 
 **Output:**
 
-```
+```py
 function of class C
 function of class B
 function of class A

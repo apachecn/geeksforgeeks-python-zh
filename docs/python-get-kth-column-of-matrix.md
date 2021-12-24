@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个问题可以通过使用列表理解来解决，在列表理解中，我们可以遍历所有行，并选择性地收集出现在第 Kth 索引处的所有元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Kth Column of Matrix
 # using list comprehension
@@ -31,7 +31,7 @@ print("The Kth column of matrix is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 6], [8, 1, 10], [7, 12, 5]]
 The Kth column of matrix is : [6, 10, 5]
 

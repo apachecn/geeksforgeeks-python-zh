@@ -26,7 +26,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -64,7 +64,7 @@ print("OR({}, {}) = {}".format(1, 0, OR_logicFunction(test4)))
 
 **Output:**
 
-```
+```py
 OR(0, 1) = 1
 OR(1, 1) = 1
 OR(0, 0) = 0

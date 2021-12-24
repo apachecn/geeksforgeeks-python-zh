@@ -8,7 +8,7 @@
 
 **请求:** Requests 可以让你极其轻松地发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -19,7 +19,7 @@ pip install requests
 *   导入模块
 *   输入城市名称和网址
 
-```
+```py
 "https://www.google.com/search?q="+"weather"+{cityname}
 ```
 
@@ -34,7 +34,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import requests
 from bs4 import BeautifulSoup
@@ -44,7 +44,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # enter city name
 city = "lucknow"
 
@@ -64,7 +64,7 @@ soup = BeautifulSoup(html, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 # get the temperature
 temp = soup.find('div', attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
 
@@ -81,7 +81,7 @@ sky = data[1]
 
 ## 蟒蛇 3
 
-```
+```py
 # list having all div tags having particular clas sname
 listdiv = soup.findAll('div', attrs={'class': 'BNeawe s3v9rd AP7Wnd'})
 
@@ -97,7 +97,7 @@ other_data = strd[pos:]
 
 ## 蟒蛇 3
 
-```
+```py
 # printing all the data
 print("Temperature is", temp)
 print("Time: ", time)
@@ -113,7 +113,7 @@ print(other_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import requests
 from bs4 import BeautifulSoup

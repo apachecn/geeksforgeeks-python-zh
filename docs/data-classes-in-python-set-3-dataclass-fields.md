@@ -15,7 +15,7 @@
 **默认值:**如果在对象创建过程中没有提供值，该参数指定属性的默认值。与函数中的参数类似，具有默认值的*字段必须位于任何没有默认值的字段之后。*
 还有一种提供默认值的替代方法——就像您使用 **=** 运算符对普通变量所做的那样。(下面代码中的第 9 行)
 
-```
+```py
 from dataclasses import dataclass, field
 
 @dataclass
@@ -33,7 +33,7 @@ print(article)
 
 **输出:**
 
-```
+```py
 GfgArticle(title='DataClass', author='vibhu4agarwal', language='Python3', upvotes=0)
 
 ```
@@ -42,7 +42,7 @@ GfgArticle(title='DataClass', author='vibhu4agarwal', language='Python3', upvote
 可调用的返回值将被设置为对象创建中属性的默认值。
 要么为默认工厂提供一个可调用的，要么为属性提供一个默认值。同时指定**默认**和**默认 _ 工厂**是错误的。
 
-```
+```py
 from dataclasses import dataclass, field
 from random import choice
 
@@ -73,7 +73,7 @@ print(article)
 
 **比较:**如果为真(默认值)，则此字段包含在生成的等式和比较方法中(__eq__()，__gt__()，等)。
 
-```
+```py
 from dataclasses import dataclass, field
 
 @dataclass
@@ -96,7 +96,7 @@ print(article1 == article2)
 
 **输出:**
 
-```
+```py
 GfgArticle(title='DataClass', language='Python3', upvotes=0)
 vibhu4agarwal
 True
@@ -110,7 +110,7 @@ True
 这个特殊的属性似乎并不是在大多数时候都在使用，但是如果您的数据类在开发过程中确实在某个地方使用，并且当第三方的工具或软件集成到项目中时，该属性的数据被第三方使用或访问，这一点很重要。
 在脚本中，可以通过查询对象的 **__dataclass_fields__** 变量来访问它的值。
 
-```
+```py
 from dataclasses import dataclass, field
 
 @dataclass
@@ -129,7 +129,7 @@ print(article.__dataclass_fields__['author'].metadata)
 
 **输出:**
 
-```
+```py
 GfgArticle(title='DataClass', author='vibhu4agarwal', language='Python3', upvotes=0)
 {'data': 'Profile Handle'}
 

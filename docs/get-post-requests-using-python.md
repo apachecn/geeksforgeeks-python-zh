@@ -22,7 +22,7 @@ HTTP 是一组协议，旨在实现客户端和服务器之间的通信。它作
 
 上面列出的库中最优雅和最简单的是请求。在本文中，我们将使用请求库。要下载并安装请求库，请使用以下命令:
 
-```
+```py
 pip install requests
 ```
 
@@ -30,7 +30,7 @@ pip install requests
 
 **发出获取请求**
 
-```
+```py
 # importing the requests library
 import requests
 
@@ -66,26 +66,26 @@ print("Latitude:%s\nLongitude:%s\nFormatted Address:%s"
 上面的示例通过向谷歌地图应用编程接口发送一个获取请求来查找给定位置的纬度、经度和格式化地址。应用编程接口(API)使您能够以有限的方式访问程序的内部功能。而且大部分情况下提供的数据都是[JSON(JavaScript Object notification)](https://en.wikipedia.org/wiki/JSON)格式(在 Python 中实现为字典对象！).
  **要点推断:**
 
-*   ```
+*   ```py
     PARAMS = {'address':location}
     ```
 
     获取请求的网址通常带有一些参数。对于请求库，参数可以定义为字典。这些参数随后被解析并添加到基本 url 或 api 端点。
     了解参数角色，创建响应对象后尝试打印 **r.url** 。你会看到这样的东西:
 
-    ```
+    ```py
     http://maps.googleapis.com/maps/api/geocode/json?address=delhi+technological+university
     ```
 
     这是发出获取请求的实际网址
 
-*   ```
+*   ```py
     r = requests.get(url = URL, params = PARAMS)
     ```
 
     这里我们创建一个响应对象“r”，它将存储请求-响应。我们使用 requests.get()方法，因为我们正在发送一个 get 请求。我们传递的两个参数是 url 和参数字典。
 
-*   ```
+*   ```py
     data = r.json()
     ```
 
@@ -93,7 +93,7 @@ print("Latitude:%s\nLongitude:%s\nFormatted Address:%s"
 
 **发出开机自检请求**
 
-```
+```py
 # importing the requests library
 import requests
 
@@ -130,7 +130,7 @@ print("The pastebin URL is:%s"%pastebin_url)
 
 **该代码的重要特征:**
 
-*   ```
+*   ```py
     data = {'api_dev_key':API_KEY,
             'api_option':'paste',
             'api_paste_code':source_code,
@@ -139,13 +139,13 @@ print("The pastebin URL is:%s"%pastebin_url)
 
     在这里，我们还需要将一些数据传递给应用编程接口服务器。我们把这些数据储存在字典里。
 
-*   ```
+*   ```py
     r = requests.post(url = API_ENDPOINT, data = data)
     ```
 
     这里我们创建一个响应对象“r”，它将存储请求-响应。我们使用 requests.post()方法，因为我们正在发送一个 post 请求。我们传递的两个参数是 url 和数据字典。
 
-*   ```
+*   ```py
     pastebin_url = r.text
     ```
 

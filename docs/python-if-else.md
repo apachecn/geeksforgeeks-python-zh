@@ -12,7 +12,7 @@ if 语句是最简单的决策语句。它用于决定是否执行某个语句�
 
 **语法**:
 
-```
+```py
 if *condition*:
    # Statements to execute if
    # condition is true
@@ -22,7 +22,7 @@ if *condition*:
 
 我们知道，python 使用缩进来识别一个块。因此，if 语句下的块将被识别，如下例所示:
 
-```
+```py
 if condition:
    statement1
 statement2
@@ -40,7 +40,7 @@ statement2
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to illustrate If statement
 
 i = 10
@@ -52,7 +52,7 @@ print("I am Not in if")
 
 **输出:**
 
-```
+```py
 I am Not in if
 ```
 
@@ -64,7 +64,7 @@ if 语句单独告诉我们，如果条件为真，它将执行一组语句，�
 
 **语法**:
 
-```
+```py
 if (condition):
     # Executes this block if
     # condition is true
@@ -81,7 +81,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to illustrate If else statement
 #!/usr/bin/python
 
@@ -97,7 +97,7 @@ print("i'm not in if and not in else Block")
 
 **输出:**
 
-```
+```py
 i is greater than 15
 i'm in else Block
 i'm not in if and not in else Block
@@ -109,7 +109,7 @@ else 语句后面的代码块在调用不在块中(没有空格)的语句后，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Explicit function
 def digitSum(n):
     dsum = 0
@@ -129,7 +129,7 @@ print(newList)
 
 **Output**
 
-```
+```py
 [16, 3, 18, 18]
 
 ```
@@ -140,7 +140,7 @@ print(newList)
 
 **语法**:
 
-```
+```py
 if (condition1):
    # Executes when condition1 is true
    if (condition2): 
@@ -157,7 +157,7 @@ if (condition1):
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to illustrate nested If statement
 #!/usr/bin/python
 i = 10
@@ -178,7 +178,7 @@ if (i == 10):
 
 **输出:**
 
-```
+```py
 i is smaller than 15
 i is smaller than 12 too
 ```
@@ -189,7 +189,7 @@ i is smaller than 12 too
 
 **语法**:
 
-```
+```py
 if (condition):
     statement
 elif (condition):
@@ -208,7 +208,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate if-elif-else ladder
 #!/usr/bin/python
 
@@ -225,7 +225,7 @@ else:
 
 **输出:**
 
-```
+```py
 i is 20
 ```
 
@@ -235,7 +235,7 @@ i is 20
 
 **语法:**
 
-```
+```py
 if condition: statement
 ```
 
@@ -243,7 +243,7 @@ if condition: statement
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate short hand if
 i = 10
 if i < 15:
@@ -252,7 +252,7 @@ if i < 15:
 
 **输出:**
 
-```
+```py
 i is less than 15
 ```
 
@@ -262,7 +262,7 @@ i is less than 15
 
 **语法:**
 
-```
+```py
 statement_when_True if condition else statement_when_False
 ```
 
@@ -270,7 +270,7 @@ statement_when_True if condition else statement_when_False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate short hand if-else
 i = 10
 print(True) if i < 15 else print(False)
@@ -278,6 +278,6 @@ print(True) if i < 15 else print(False)
 
 **输出:**
 
-```
+```py
 True
 ```

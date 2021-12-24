@@ -10,7 +10,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from random import randint
@@ -23,7 +23,7 @@ from keras.callbacks import TensorBoard
 
 **第二步:定义一个实用函数来加载数据**
 
-```
+```py
 def load_data():
     # defining the input image size 
     input_image = Input(shape =(28, 28, 1))
@@ -44,7 +44,7 @@ def load_data():
 
 **步骤 3:定义一个效用函数来构建自动编码器神经网络**
 
-```
+```py
 def build_network(input_image):
 
     # Building the encoder of the Auto-encoder
@@ -69,7 +69,7 @@ def build_network(input_image):
 
 **步骤 4:定义一个实用函数来构建和训练自动编码器网络**
 
-```
+```py
 def build_auto_encoder_model(X_train, X_test, input_image, decoded_layer):
 
     # Defining the parameters of the Auto-encoder
@@ -89,7 +89,7 @@ def build_auto_encoder_model(X_train, X_test, input_image, decoded_layer):
 
 **第五步:定义一个效用函数来可视化重建**
 
-```
+```py
 def visualize(model, X_test):
 
     # Reconstructing the encoded images
@@ -123,19 +123,19 @@ def visualize(model, X_test):
 
 a) **加载数据**
 
-```
+```py
 X_train, X_test, input_image = load_data()
 ```
 
 b) **建网**
 
-```
+```py
 decoded_layer = build_network(input_image)
 ```
 
 c) **建立和训练自动编码器**
 
-```
+```py
 auto_encoder_model = build_auto_encoder_model(X_train,
                                              X_test,
                                              input_image,
@@ -146,7 +146,7 @@ auto_encoder_model = build_auto_encoder_model(X_train,
 
 d) **可视化重建**
 
-```
+```py
 visualize(auto_encoder_model, X_test)
 ```
 

@@ -12,7 +12,7 @@ OpenWeatherMap 是一项服务，为 web 服务和移动应用的开发者提供
 
 ### **所需模块:**
 
-```
+```py
 requests
 json
 ```
@@ -21,7 +21,7 @@ json
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find current
 # weather details of any city
 # using openweathermap api
@@ -98,7 +98,7 @@ else:
 
 **输出:**
 
-```
+```py
  Enter city name : Delhi
  Temperature (in kelvin unit) = 312.15
  atmospheric pressure (in hPa unit) = 996
@@ -112,13 +112,13 @@ else:
 
 **1。**这是一个 python 中的库，用于从 HTML 和 XML 文件中提取数据，即用于网页抓取目的。它从页面源代码中生成一个解析树，可以用来以更易读和层次化的方式提取数据。要在系统中安装一个漂亮的汤库，请在终端中使用下面的代码
 
-```
+```py
 -->> pip install beautifulsoup
 ```
 
 **2。请求:**这里我们将使用 Python 的请求模块进行 HTTP 请求。要进行安装，请在终端中使用以下代码。
 
-```
+```py
 -->> pip install requests
 ```
 
@@ -134,7 +134,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 headers = {
@@ -165,13 +165,13 @@ print("Have a Nice Day:)")
 
 **样本输入:**
 
-```
+```py
 Mahoba
 ```
 
 **样本输出:**
 
-```
+```py
 Enter the Name of City ->  Mahoba
 Searching...
 

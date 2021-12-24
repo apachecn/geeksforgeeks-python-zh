@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 import functools
 
 @functools.lru_cache(maxsize = None)
@@ -29,7 +29,7 @@ def gfg():
 
 **例 1:**
 
-```
+```py
 import functools
 
 @functools.lru_cache(maxsize = None)
@@ -51,14 +51,14 @@ print(fib.cache_info())
 
 **输出:**
 
-```
+```py
 CacheInfo(hits=28, misses=31, maxsize=None, currsize=31)
 CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
 ```
 
 **示例 2:** 此外，还可以从另一个函数调用 cache_clear()
 
-```
+```py
 import functools
 
 @functools.lru_cache(maxsize = None)
@@ -83,7 +83,7 @@ print(fib.cache_info())
 
 **输出:**
 
-```
+```py
 CacheInfo(hits=28, misses=31, maxsize=None, currsize=31)
 CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
 ```
@@ -92,7 +92,7 @@ CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
 
 **示例:**
 
-```
+```py
 import gc
 import functools
 

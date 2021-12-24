@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing libraries
 import numpy as np
 import time
@@ -75,7 +75,7 @@ for _ in range(50):
 
 ## **蟒蛇 3**
 
-```
+```py
 from math import pi
 import matplotlib.pyplot as plt
 import numpy as np

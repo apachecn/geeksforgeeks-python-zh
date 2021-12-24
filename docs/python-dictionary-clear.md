@@ -6,28 +6,28 @@ clear()方法从字典中移除所有项目。
 
 **语法:**
 
-```
+```py
 dict.clear()
 
 ```
 
 **参数:**
 
-```
+```py
 The clear() method doesn't take any parameters.
 
 ```
 
 **返回:**
 
-```
+```py
 The clear() method doesn't return any value.
 
 ```
 
 **示例:**
 
-```
+```py
 Input : d = {1: "geeks", 2: "for"}
         d.clear()
 Output : d = {}
@@ -36,13 +36,13 @@ Output : d = {}
 
 **错误:**
 
-```
+```py
 As we are not passing any parameters there
 is no chance for any error.
 
 ```
 
-```
+```py
 # Python program to demonstrate working of
 # dictionary clear()
 text = {1: "geeks", 2: "for"}
@@ -53,7 +53,7 @@ print('text =', text)
 
 **输出:**
 
-```
+```py
 text = {}
 
 ```
@@ -61,7 +61,7 @@ text = {}
 **和给字典分配{}有什么不同？**
 请参考下面的代码来看看区别。当我们将{}分配给字典时，会创建一个新的空字典并将其分配给引用。但是当我们清除了一个字典引用时，实际的字典内容就被删除了，所以所有引用字典的引用都变成了空的。
 
-```
+```py
 # Python code to demonstrate difference
 # clear and {}.
 
@@ -89,7 +89,7 @@ print('text2 =', text2)
 
 输出:
 
-```
+```py
 After removing items using clear()
 text1 = {}
 text2 = {}

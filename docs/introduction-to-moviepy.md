@@ -6,7 +6,7 @@
 **安装**
 要安装电影编辑器库，打开终端，写:
 
-```
+```py
 pip install moviepy
 ```
 
@@ -16,13 +16,13 @@ pip install moviepy
 **ImageMagick**并不是严格要求的，只有用户想写文字的时候才需要。它也可以用作 gif 的后端，尽管用户可以在没有 ImageMagick 的情况下使用 MoviePy 制作 gif。以下是下载 ImageMagick
 的链接
 
-```
+```py
 https://imagemagick.org/script/download.php
 ```
 
 安装后，除了在 Windows 上，ImageMagick 将被 MoviePy 自动检测到。Windows 用户必须进入 moviepy/config_defaults.py 文件，并提供名为 Magick 的 ImageMagick 二进制文件的路径。
 
-```
+```py
 IMAGEMAGICK_BINARY = "C:\\Program Files\\ImageMagick_VERSION\\magick.exe"
 or for some older versions of ImageMagick it will be
 IMAGEMAGICK_BINARY = "C:\\Program Files\\ImageMagick_VERSION\\convert.exe"
@@ -36,7 +36,7 @@ IMAGEMAGICK_BINARY = "C:\\Program Files\\ImageMagick_VERSION\\convert.exe"
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -59,7 +59,7 @@ clip.ipython_display(width = 280)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -75,7 +75,7 @@ Moviepy - video ready __temp__.mp4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -104,7 +104,7 @@ video.ipython_display(width = 280)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -120,7 +120,7 @@ Moviepy - video ready __temp__.mp4
 
 ## 蟒蛇 3
 
-```
+```py
 import moviepy.editor as me
 
 # Our focus is on how to export video file,
@@ -170,7 +170,7 @@ print("Done")
 
 ## 蟒蛇 3
 
-```
+```py
 import moviepy.editor 
 
 '''
@@ -205,7 +205,7 @@ print("Done")
 
 ## 蟒蛇 3
 
-```
+```py
 import moviepy.editor as me
 
 # Grabbing file
@@ -216,7 +216,7 @@ print(str(vid.duration))     
 
 **输出:**
 
-```
+```py
 9.04 
 ```
 

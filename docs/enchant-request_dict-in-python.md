@@ -17,7 +17,7 @@
 
 **例 1 :**
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -29,14 +29,14 @@ tag = d.tag
 print("The dictionary tag is " + tag)
 ```
 
-```
+```py
 The dictionary tag is en_US
 
 ```
 
 **例 2 :** 当执行`enchant.request_dict()`方法时，不传递任何参数，默认取本地机器语言的代码。
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -49,14 +49,14 @@ tag = d.tag
 print("The dictionary tag is " + tag)
 ```
 
-```
+```py
 The dictionary tag is en_IN
 
 ```
 
 **示例 3 :** 如果没有合适的字典，则`enchant.request_dict()`方法可能会失败。在这种情况下，将打印以下消息:
 
-```
+```py
 enchant.request_dict()
 ```
 

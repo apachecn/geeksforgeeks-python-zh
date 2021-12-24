@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Alternate front - rear Sum
 # using loop
@@ -33,7 +33,7 @@ print ("The alternate front - rear Sum list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 4, 5, 3, 6, 7]
 The alternate front - rear Sum list is : [8, 10, 8]
 
@@ -44,7 +44,7 @@ The alternate front - rear Sum list is : [8, 10, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Alternate front - rear Sum
 # using list comprehension
@@ -65,7 +65,7 @@ print ("The alternate front - rear Sum list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 4, 5, 3, 6, 7]
 The alternate front - rear Sum list is : [8, 10, 8]
 

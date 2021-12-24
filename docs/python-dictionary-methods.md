@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of dictionary copy
 dic = {1:'geeks', 2:'for', 3:'geeks'}
@@ -38,7 +38,7 @@ print(dic.items())
 
 **Output**
 
-```
+```py
 original:  {1: 'geeks', 2: 'for', 3: 'geeks'}
 geeks
 dict_keys([1, 2, 3])

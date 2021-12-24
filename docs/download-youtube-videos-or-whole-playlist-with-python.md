@@ -18,7 +18,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 **安装:**
 
-```
+```py
 pip install python-youtube
 ```
 
@@ -42,7 +42,7 @@ pip install python-youtube
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Modules
 from tkinter import *
 

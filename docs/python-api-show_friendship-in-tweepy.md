@@ -22,7 +22,7 @@ Tweepy 模块中 API 类的**show _ friendly()**方法用于获取两个用户�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -65,7 +65,7 @@ else:
 
 **输出:**
 
-```
+```py
 Is Twitter followed by TwitterIndia? : Yes
 Is Twitter following TwitterIndia? : No
 ```
@@ -74,7 +74,7 @@ Is Twitter following TwitterIndia? : No
 
 ## 蟒蛇 3
 
-```
+```py
 # user ID of the account 1
 source_id = 14230524
 
@@ -102,7 +102,7 @@ else:
 
 **输出:**
 
-```
+```py
 The screen name of user 1 is : ladygaga
 The screen name of user 2 is : ArianaGrande
 Is ladygaga followed by ArianaGrande? : Yes

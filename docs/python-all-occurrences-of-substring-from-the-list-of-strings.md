@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strings with all Substring Matches
 # Using loop + in operator
@@ -71,7 +71,7 @@ print("The extracted values : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strings with all Substring Matches
 # Using all() + list comprehension

@@ -5,7 +5,7 @@
 **VPython** 可以轻松创建可导航的 3D 显示和动画，即使对于编程经验有限的用户也是如此。因为它基于 Python，所以它也可以为有经验的程序员和研究人员提供很多东西。VPython 允许用户在 3D 空间中创建球体和圆锥体等对象，并在窗口中显示这些对象。这使得创建简单的可视化变得容易，允许程序员将更多的精力放在程序的计算方面。VPython 的简单性使其成为简单物理的说明工具，尤其是在教育环境中。
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -42,7 +42,7 @@ pip install vpython
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 from vpython import * text(text = "text")
 ```
@@ -55,7 +55,7 @@ from vpython import * text(text = "text")
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 from vpython import * text(text = "text",
      color = vector(0, 0, 1),
@@ -72,7 +72,7 @@ from vpython import * text(text = "text",
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -97,7 +97,7 @@ text(text = "text object 2",
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 from vpython import * text(text = "text",
      color = vector(1, 0.5, 0),

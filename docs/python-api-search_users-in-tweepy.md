@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`search_users()`** 方法用于基于查询运行�
 
 **示例 1 :** 默认情况下`search_users()`检索 20 个用户。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -50,7 +50,7 @@ for user in users:
 
 **输出:**
 
-```
+```py
 GeeksOUT
 GWOBorg
 GeeksOfColor
@@ -76,7 +76,7 @@ GeeksRoom
 
 **示例 2:** 使用 count 参数检索不到 20 个用户。
 
-```
+```py
 # the query to be searched
 q = "geeksforgeeks"
 
@@ -93,7 +93,7 @@ for user in users:
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 gfgvideos
 gfg_reader

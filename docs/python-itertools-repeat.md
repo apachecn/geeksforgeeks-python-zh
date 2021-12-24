@@ -18,7 +18,7 @@ Python 的 Itertool 是一个模块，它提供了各种在迭代器上工作的
 
 **例 1:**
 
-```
+```py
 # Python code to demonstrate the working of    
 # repeat()   
 
@@ -31,7 +31,7 @@ print (list(itertools.repeat(25, 4)))
 
 **输出:**
 
-```
+```py
 Printing the numbers repeatedly : 
 [25, 25, 25, 25]
 
@@ -39,7 +39,7 @@ Printing the numbers repeatedly :
 
 **例 2:**
 
-```
+```py
 # Python code to demonstrate the working of    
 # repeat()
 
@@ -52,7 +52,7 @@ print(list(map(str.upper, 
 
 **输出:**
 
-```
+```py
 ['GEEKSFORGEEKS', 'GEEKSFORGEEKS', 'GEEKSFORGEEKS']
 
 ```

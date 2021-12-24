@@ -19,7 +19,7 @@
 输入图像:
 ![](img/22f77a5ba61b501be20ba522ef407e64.png)
 
-```
+```py
 # Python program to transform an image using
 # threshold.
 import numpy as np
@@ -46,7 +46,7 @@ cv2.imshow('image', thresh)
 
 让我们看看代码:
 
-```
+```py
 # Noise removal using Morphological
 # closing operation
 kernel = np.ones((3, 3), np.uint8)

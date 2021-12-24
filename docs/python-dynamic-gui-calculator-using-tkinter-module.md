@@ -21,7 +21,7 @@ Python 为开发图形用户界面提供了许多选项，如 Kivy、PyQT、WxPy
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 from tkinter import *
 import tkinter.font as font

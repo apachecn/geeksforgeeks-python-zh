@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`API.retweets()`** 方法用于返回推文的转�
 **示例 1 :** 转发以下推文的用户列表:
 ![](img/0a3eeae6a3b0d11063cb3eb292b110ea.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ for retweet in retweets_list:
 
 **输出:**
 
-```
+```py
 harshitabambure
 codedailybot
 UVahalkar
@@ -67,7 +67,7 @@ AaronCuddeback
 strong >示例 2:使用带 count 参数的`retweets()`方法只获取一定数量的转发。只打印以下推文的 3 个转发者的网名:
 ![](img/3c7dd012a6d2b59fbe82577fc536abc9.png)
 
-```
+```py
 # the ID of the tweet
 ID = 1263387365051183107
 
@@ -84,7 +84,7 @@ for retweet in retweets_list:
 
 **输出:**
 
-```
+```py
 murali_ch
 sushmitaraj13
 rgsharma_me

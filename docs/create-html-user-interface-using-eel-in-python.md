@@ -8,7 +8,7 @@ Eel 是一个 Python 库，用于制作简单的离线 HTML/JS GUI 应用程序�
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install eel
 ```
 
@@ -42,7 +42,7 @@ pip install eel
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,7 +80,7 @@ pip install eel
 
 ## java 描述语言
 
-```
+```py
 // Onclick of the button
 document.querySelector("button").onclick = function () {  
   // Call python's random_python function
@@ -95,7 +95,7 @@ document.querySelector("button").onclick = function () {  
 
 ## 蟒蛇 3
 
-```
+```py
 import eel
 from random import randint
 

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime
@@ -41,7 +41,7 @@ print(date)
 
 **输出:**
 
-```
+```py
 datetime string : 24AUG2001101010
 2001-08-24 10:10:10
 2001-08-24
@@ -53,7 +53,7 @@ datetime string : 24AUG2001101010
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 import datetime
 from datetime import datetime
@@ -80,7 +80,7 @@ print(date)
 
 **输出**:
 
-```
+```py
 datetime string : 100201095407
 2001-02-10 09:54:07
 2001-02-10
@@ -92,7 +92,7 @@ datetime string : 100201095407
 
 ## 蟒蛇 3
 
-```
+```py
 # import important module
 from datetime import datetime
 
@@ -110,7 +110,7 @@ print(date) 
 
 **输出:**
 
-```
+```py
 2021-08-07 06:30:20.227879
 2021-08-07
 ```

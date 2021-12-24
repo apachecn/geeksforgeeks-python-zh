@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pynput import keyboard
 
 cmb = [{keyboard.Key.shift, keyboard.Key(char='a')},{keyboard.Key.shift, keyboard.Key(char='A')}]
@@ -59,7 +59,7 @@ Python 提供了一个名为 keyboard 的库，用来促进对键盘的完全控
 
 ## 蟒蛇 3
 
-```
+```py
 # Keyboard module in Python 
 import keyboard 
 
@@ -71,6 +71,6 @@ keyboard.wait('esc') 
 
 **输出:**
 
-```
+```py
 Hotkey Detected
 ```

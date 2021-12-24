@@ -11,7 +11,7 @@ sklearn 没有让我们直接设置决策阈值，但是它给了我们访问决
 
 **代码:构建高精度 ML 模型的 Python 代码**
 
-```
+```py
 # Import required modules.
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ data_frame.head(7)
 
 **代码:训练模型**
 
-```
+```py
 # Train Test Split.
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 42)
 
@@ -59,7 +59,7 @@ decision_function = clf.decision_function(x_test)
 
 **获得的实际分数:**
 
-```
+```py
 # Actual obtained results without any manual setting of Decision Threshold.
 predict_actual = clf.predict(x_test)       # Predict using classifier.
 accuracy_actual = clf.score(x_test, y_test)
@@ -74,7 +74,7 @@ print(predict_actual, accuracy_actual, classification_report_actual, sep ='\n')
 
 **代码:**
 
-```
+```py
 # Plot Precision-Recall curve using sklearn.
 from sklearn.metrics import precision_recall_curve
 precision, recall, treshold = precision_recall_curve(y_test, decision_function)
@@ -96,7 +96,7 @@ plt.title('Precision-Recall Curve')
 
 **代码:**
 
-```
+```py
 # Implementing main logic.
 
 # Based on analysis of the Precision-Recall curve.
@@ -125,7 +125,7 @@ for i in df:
 
 **代码:新旧精度值对比。**
 
-```
+```py
 # Comparison
 
 # Old Precision Value
@@ -136,7 +136,7 @@ print("new precision value:", precision_score(y_test, desired_predict))
 
 **输出:**
 
-```
+```py
 old precision value: 0.922077922077922
 new precision value: 0.9714285714285714
 

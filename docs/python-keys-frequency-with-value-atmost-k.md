@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个问题可以使用循环的天真方法来解决。在这种情况下，我们只需遍历字典中的每个键，当找到匹配项时，计数器就会增加。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Keys Frequency with Value atmost K
 # Using loop
@@ -34,7 +34,7 @@ print("Frequency of keys with values till K is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'CS': 5, 'is': 2, 'gfg': 1, 'best': 3, 'for': 4}
 Frequency of keys with values till K is : 3
 

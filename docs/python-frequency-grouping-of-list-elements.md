@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一个蛮力方法来执行这个特定的任务。在这种情况下，我们迭代每个元素，在其他列表中检查它的存在，如果是，那么增加它的计数并放入元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Frequency grouping of list elements
 # using loop
@@ -36,7 +36,7 @@ print("Frequency of list elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 3, 3, 1, 4, 4]
 Frequency of list elements : [(1, 2), (3, 2), (4, 2)]
 

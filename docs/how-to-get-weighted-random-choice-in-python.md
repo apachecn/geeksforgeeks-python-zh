@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 sampleList = [100, 200, 300, 400, 500]
@@ -36,7 +36,7 @@ print(randomList)
 
 **输出:**
 
-```
+```py
 [200, 300, 300, 300, 400]
 
 ```
@@ -45,7 +45,7 @@ print(randomList)
 
 ![cum weight = weight of previous element + its own weight](img/30a3b8c1dd1039b77d324183237d6025.png "Rendered by QuickLaTeX.com")
 
-```
+```py
 let the relative weight of 5 elements are [5,10,20,30,35]
 
 than there cum_weight will be [5,15,35,65,100]
@@ -55,7 +55,7 @@ than there cum_weight will be [5,15,35,65,100]
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 sampleList = [100, 200, 300, 400, 500]
@@ -67,7 +67,7 @@ print(randomList)
 
 **输出:**
 
-```
+```py
 [500, 500, 400, 300, 400]
 ```
 
@@ -89,7 +89,7 @@ print(randomList)
 
 ## 计算机编程语言
 
-```
+```py
 from numpy.random import choice
 
 sampleList = [100, 200, 300, 400, 500]
@@ -101,6 +101,6 @@ print(randomNumberList)
 
 **输出:**
 
-```
+```py
 [200 400 400 200 400]
 ```

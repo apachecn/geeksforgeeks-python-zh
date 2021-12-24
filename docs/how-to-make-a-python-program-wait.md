@@ -22,7 +22,7 @@ Python 有一个名为*时间**的模块。*** 这个模块给出了几个有用
 
 ## 蟒蛇 3
 
-```
+```py
 # First import time module.
 import time
 
@@ -47,7 +47,7 @@ print("GFG printed after 5.5 secs.")
 
 ## 蟒蛇 3
 
-```
+```py
 # import threading and time module.
 import threading
 import time

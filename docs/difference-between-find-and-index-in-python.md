@@ -10,7 +10,7 @@ index()方法返回字符串中的子字符串或字符的索引(如果找到的
 
 **语法:**
 
-```
+```py
 string.index(<substring>)
 ```
 
@@ -18,7 +18,7 @@ string.index(<substring>)
 
 ## 蟒蛇 3
 
-```
+```py
 string = 'geeks for geeks'
 
 # returns index value
@@ -45,7 +45,7 @@ find()方法返回子字符串或字符(如果找到)的第一个匹配项的索
 
 **语法:**
 
-```
+```py
 string.find(<substring>)
 ```
 
@@ -53,7 +53,7 @@ string.find(<substring>)
 
 ## 蟒蛇 3
 
-```
+```py
 string = 'geeks for geeks'
 
 # returns index value

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -65,7 +65,7 @@ update _ multi()方法更新所有查询值。
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")

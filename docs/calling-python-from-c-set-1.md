@@ -8,7 +8,7 @@
 
 **代码# 1:[第 1 步和第 2 步]拥有 GIL 并验证该函数是可正确调用的**
 
-```
+```py
 #include <Python.h>
 
 /* Execute func(x, y) in the Python interpreter. The
@@ -37,7 +37,7 @@ double call_func(PyObject *func, double x, double y)
 
 创建返回值，恢复以前的 GIL 状态并返回。
 
-```
+```py
     // Step3
     args = Py_BuildValue("(dd)", x, y);
     kwargs = NULL;
@@ -81,7 +81,7 @@ double call_func(PyObject *func, double x, double y)
 
 **代码#3:从模块**加载符号
 
-```
+```py
 #include <Python.h>
 /* Definition of call_func() same as above */
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Even elements span in list
 # Using list comprehension
@@ -44,7 +44,7 @@ print("Even elements span : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 3, 7, 4, 7, 2, 9, 1, 10, 11]
 Even elements span : 5
 ```
@@ -55,7 +55,7 @@ Even elements span : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Even elements span in list
 # Using filter() + lambda
@@ -79,7 +79,7 @@ print("Even elements span : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 3, 7, 4, 7, 2, 9, 1, 10, 11]
 Even elements span : 5
 ```

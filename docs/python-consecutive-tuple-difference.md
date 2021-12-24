@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Tuple difference
 # Using list comprehension
@@ -40,7 +40,7 @@ print("The extracted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(6, 3), (1, 4), (8, 5), (3, 5)]
 The extracted list : [(5, 1), (7, 1), (5, 0)]
 
@@ -52,7 +52,7 @@ The extracted list : [(5, 1), (7, 1), (5, 0)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Tuple difference
 # Using tuple() + map() + sub
@@ -76,7 +76,7 @@ print("The extracted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(6, 3), (1, 4), (8, 5), (3, 5)]
 The extracted list : [(-5, 1), (7, 1), (-5, 0)]
 

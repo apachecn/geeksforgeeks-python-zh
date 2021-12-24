@@ -8,7 +8,7 @@
 
 确保您的计算机中安装了 Python 3。安装将用于制作数据动画的 Plotly。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install plotly
 
 ```
@@ -19,7 +19,7 @@ pip install plotly
 
 我们需要从 Gapminder 导入 Plotly Express 和世界数据。
 
-```
+```py
 import plotly.express as px
 
 gapminder = px.data.gapminder()
@@ -29,7 +29,7 @@ gapminder = px.data.gapminder()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 gapminder = px.data.gapminder()
@@ -52,7 +52,7 @@ gapminder.head(15)
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 gapminder = px.data.gapminder()

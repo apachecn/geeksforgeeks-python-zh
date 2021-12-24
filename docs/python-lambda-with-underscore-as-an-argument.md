@@ -14,13 +14,13 @@
 
 可以使用`lambda`关键字创建 Lambda 函数。我们使用给定的语法来声明 lambda 函数:
 
-```
+```py
 lambda argument(s) : expression
 ```
 
 **例:**
 
-```
+```py
 remainder = lambda num: num % 2
 
 print(remainder(5))
@@ -28,7 +28,7 @@ print(remainder(5))
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -38,7 +38,7 @@ print(remainder(5))
 
 **例:**
 
-```
+```py
 l = lambda _: True
 
 l(1)
@@ -46,7 +46,7 @@ l(1)
 
 **输出:**
 
-```
+```py
 True
 ```
 

@@ -5,7 +5,7 @@
 将**浮点**值转换为 **int** 是通过 [**类型转换**](https://www.geeksforgeeks.org/type-conversion-python/) 完成的，这是将操作数转换为特定类型的显式方法。然而，要注意的是，这种类型的转换可能倾向于有损转换(数据丢失)。将像 **2** 这样的 int 值转换为浮点将导致 **2.0** ，这种类型的转换是安全的，因为不会丢失数据，但是将 **3.4** 转换为 int 值将导致 **3** 有损转换。
 **示例:**
 
-```
+```py
 Input: 3.3 
 Output: 3 
 
@@ -26,7 +26,7 @@ Output: 5
 
 ## 蟒蛇 3
 
-```
+```py
 # conversion from float to int
 
 num = 9.3
@@ -45,7 +45,7 @@ print('converted value:', num, 
 
 **输出:**
 
-```
+```py
 type: float
 converted value: 9 , type: int
 ```
@@ -54,7 +54,7 @@ converted value: 9 , type: int
 
 ## 蟒蛇 3
 
-```
+```py
 # example of unpredictable 
 # behaviour of int()
 
@@ -69,7 +69,7 @@ print(num1, num2, sep = '\n')
 
 **输出:**
 
-```
+```py
 5
 6
 ```
@@ -98,7 +98,7 @@ print(num1, num2, sep = '\n')
 
 ## 蟒蛇 3
 
-```
+```py
 # conversion using floor and ceil .
 
 # importing math module
@@ -121,7 +121,7 @@ print("the result using ceil()  : ",
 
 **输出:**
 
-```
+```py
 the result using floor() :  5 , type :  int
 the result using ceil()  :  6 , type:  int
 ```

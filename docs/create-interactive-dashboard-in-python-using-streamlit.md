@@ -14,13 +14,13 @@
 
 在实际实现之前，我们需要安装 Streamlit web 框架。只需在命令提示符下运行以下命令。
 
-```
+```py
 pip install streamlit
 ```
 
 一旦我们成功安装了 streamlit。现在，让我们在继续之前检查一下，让我们检查一下 streamlit 是否安装成功。只需在下面写下这个命令，
 
-```
+```py
 streamlit --version
 ```
 
@@ -30,7 +30,7 @@ streamlit --version
 
 我们已经完成了基本的安装步骤。现在，让我们使用这个预定义的命令运行我们的第一个程序，
 
-```
+```py
 streamlit hello
 ```
 
@@ -87,7 +87,7 @@ streamlit hello
 
 **第三步:**使用熊猫库，我们需要阅读我们的。用于创建数据框的 csv 文件。您可以使用这个[数据集](https://drive.google.com/file/d/1F67Ezf9H1rI-sCmjRYvnRwpc0UmaaDtY/view)进行演示。
 
-```
+```py
 data = pd.read_csv("<Path_for_.csv_file>")
 ```
 
@@ -97,7 +97,7 @@ data = pd.read_csv("<Path_for_.csv_file>")
 
 **第 5 步:**与选择框类似，我们有另一种创建复选框的方法。
 
-```
+```py
 st.sidebar.checkbox("Show Analysis by Smoking Status", True, key=1)
 ```
 
@@ -111,7 +111,7 @@ st.sidebar.checkbox("Show Analysis by Smoking Status", True, key=1)
 
 **第九步:**使用 go。散开()，走。Bar()方法，我们将创建信息图表，通过这些图表，研究人员可以轻松了解数据集的输出。首先，去吧。散点图()在我们的程序中采用四个参数，第一个作为 x 轴值，第二个作为 y 轴值，第三个作为图形的模式，第四个作为新创建的图形的名称。
 
-```
+```py
 fig.add_trace(go.Scatter(x=data.Country, y=data.formerly_smoked,
                                  mode='lines',
                                  name='Formerly_Smoked'))
@@ -119,7 +119,7 @@ fig.add_trace(go.Scatter(x=data.Country, y=data.formerly_smoked,
 
 **第十步:**第二，走。Bar()方法在我们的程序中采用三个参数，第一个作为 x 轴值，第二个作为 y 轴值，第三个作为新创建的图形的名称。
 
-```
+```py
 fig.add_trace(go.Bar(x=data.Country, y=data.Unknown,
                              name="Unknown"))
 ```
@@ -128,7 +128,7 @@ fig.add_trace(go.Bar(x=data.Country, y=data.Unknown,
 
 ## 蟒蛇 3
 
-```
+```py
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -215,7 +215,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 为了运行上面的程序，我们将在命令提示符下运行一个简单的命令。
 
-```
+```py
 streamlit run file_name.py
 ```
 

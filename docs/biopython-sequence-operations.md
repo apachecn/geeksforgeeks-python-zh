@@ -12,7 +12,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Libraries
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
@@ -31,7 +31,7 @@ rev_comp
 
 ****输出:****
 
-```
+```py
 Seq('GACTGACTTCGA', IUPACAmbiguousDNA()) 
 Seq('TCGAAGTCAGTC', IUPACAmbiguousDNA())
 ```
@@ -42,7 +42,7 @@ Seq('TCGAAGTCAGTC', IUPACAmbiguousDNA())
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import libraries
 from Bio.Data import IUPACData
 import pprint
@@ -53,7 +53,7 @@ pprint.pprint(IUPACData.ambiguous_dna_complement)
 
 ****输出:****
 
-```
+```py
 {
    'A': 'T',
    'B': 'V',
@@ -81,7 +81,7 @@ pprint.pprint(IUPACData.ambiguous_dna_complement)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Libraries
 from Bio.Seq import Seq
 from Bio.SeqUtils import GC
@@ -96,7 +96,7 @@ print(GC(seq))
 
 ****输出:****
 
-```
+```py
 50.00
 ```
 
@@ -108,7 +108,7 @@ print(GC(seq))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Libraries
 from Bio.Seq import Seq
 from Bio.Seq import transcribe
@@ -127,7 +127,7 @@ print(rna_seq.back_transcribe())
 
 ****输出:-****
 
-```
+```py
 Seq('CUGACUGAAGCU', IUPACUnambiguousRNA())
 Seq('CTGACTGAAGCT', IUPACUnambiguousDNA())
 ```
@@ -141,7 +141,7 @@ Seq('CTGACTGAAGCT', IUPACUnambiguousDNA())
 
 ## **蟒蛇 3**
 
-```
+```py
 # import libraries
 from Bio.Data import CodonTable
 
@@ -154,7 +154,7 @@ print(table)
 
 ****输出:****
 
-```
+```py
 Table 1 Standard, SGC0
 
   |  T      |  C      |  A      |  G      |
@@ -185,7 +185,7 @@ G | GTG V   | GCG A   | GAG E   | GGG G   | G
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Libraries
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
@@ -203,7 +203,7 @@ print(rna.translate(to_stop = True))
 
 ****输出:****
 
-```
+```py
 Seq('UACCGGAUUGUUUUCCCGGGCUGAUCCUGUGCCCGA', IUPACUnambiguousRNA())
 Seq('YRIVFPG*SCAR', HasStopCodon(IUPACProtein(), '*'))
 Seq('YRIVFPG', IUPACProtein())

@@ -14,7 +14,7 @@ IMDb 数据库中有这个人的所有信息，例如获得什么奖项的人，
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -31,7 +31,7 @@ for element in info:
 
 **输出:**
 
-```
+```py
 awards
 biography
 filmography

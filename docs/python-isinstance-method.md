@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of isinstance()
 # with native types
@@ -43,7 +43,7 @@ print("Is test_int integer or list or string? : "
 
 **输出:**
 
-```
+```py
 Is test_int integer? : True
 Is test_int string? : False
 Is test_list integer? : False
@@ -55,7 +55,7 @@ Is test_int integer or list or string? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of isinstance()
 # with objects
@@ -84,7 +84,7 @@ print("Is obj2 instance of gfg1? : " + str(isinstance(obj2, gfg1)))
 
 **输出:**
 
-```
+```py
 Is obj1 instance of gfg1? : True
 Is obj2 instance of gfg2? : True
 Is obj1 instance of gfg2? : False
@@ -95,14 +95,14 @@ Is obj2 instance of gfg1? : True
 
 ## 蟒蛇 3
 
-```
+```py
 test_list = [1, 2, 3]
 print ("Is test_list list? : " + str(isinstance(test_list, list)))
 ```
 
 **输出:**
 
-```
+```py
 Is test_list list? : True
 ```
 
@@ -110,14 +110,14 @@ Is test_list list? : True
 
 ## 蟒蛇 3
 
-```
+```py
 test_str = "GeeksforGeeks"
 print ("Is test_str string? : " + str(isinstance(test_str, str)))
 ```
 
 **输出:**
 
-```
+```py
 Is test_str string? : True
 ```
 
@@ -125,14 +125,14 @@ Is test_str string? : True
 
 ## 蟒蛇 3
 
-```
+```py
 test_dict = {"apple" : 1, "Ball" : 2 }
 print ("Is test_str dictionary? : " + str(isinstance(test_dict, dict)))
 ```
 
 **输出:**
 
-```
+```py
 Is test_str dictionary? : True
 ```
 
@@ -140,7 +140,7 @@ Is test_str dictionary? : True
 
 ## 计算机编程语言
 
-```
+```py
 class geeks:
     course = 'DSA'
 
@@ -153,6 +153,6 @@ str(isinstance(geeks.purchase(), str ))
 
 **输出:**
 
-```
+```py
 True
 ```

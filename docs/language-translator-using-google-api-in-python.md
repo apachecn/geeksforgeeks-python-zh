@@ -12,7 +12,7 @@
 
 现在要检查它支持什么语言，我们必须使用谷歌翻译库。我们可以用 pip 来安装它。
 
-```
+```py
 pip install googletrans
 ```
 
@@ -20,7 +20,7 @@ pip install googletrans
 
 ## 蟒蛇 3
 
-```
+```py
 # To Print all the languages that google
 # translator supports
 import googletrans
@@ -34,7 +34,7 @@ print(googletrans.LANGUAGES)
 
 现在让我们开始构建语言翻译器。从编码部分开始，我们需要安装一些依赖项。安装 Pyaudio 时，您可能会遇到 portaudio 错误。pyaudio [安装详情点击此处](https://people.csail.mit.edu/hubert/pyaudio/)。
 
-```
+```py
 pip install pyaudio
 pip install SpeechRecognition
 pip install gtts
@@ -44,7 +44,7 @@ pip install gtts
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary modules required
 import speech_recognition as spr
 from googletrans import Translator
@@ -140,7 +140,7 @@ if 'hello' in MyText:
 
 **输出:**
 
-```
+```py
 Speak 'hello' to initiate the Translation !
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Speak a stentence...

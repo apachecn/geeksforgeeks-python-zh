@@ -8,14 +8,14 @@
 
 **所需模块:**
 
-```
+```py
 import requests
 import json
 ```
 
 下面是实现:
 
-```
+```py
 # importing required libraries
 import requests, json
 
@@ -49,7 +49,7 @@ print(x)
 
 **输出:**
 
-```
+```py
 dehradun
 haridwar
 
@@ -67,11 +67,11 @@ haridwar
 
 命令安装*谷歌地图*模块:
 
-```
+```py
 pip install googlemaps
 ```
 
-```
+```py
 # importing googlemaps module
 import googlemaps
 
@@ -87,7 +87,7 @@ print(my_dist)
 
 **输出:**
 
-```
+```py
 {'distance': {'text': '1,415 km', 'value': 1415380}, 'duration': {'text': '23 hours 42 mins', 'value': 85306}, 'status': 'OK'}
 ```
 

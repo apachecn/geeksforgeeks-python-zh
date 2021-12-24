@@ -19,7 +19,7 @@ EDA 是数据分析下的一种现象，用于更好地理解数据方面，如:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 Df = pd.read_csv("https://vincentarelbundock.github.io / Rdatasets / csv / car / Child.csv")
 ```

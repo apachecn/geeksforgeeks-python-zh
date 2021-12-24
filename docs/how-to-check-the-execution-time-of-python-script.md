@@ -16,7 +16,7 @@ python 中有很多类似[](https://www.geeksforgeeks.org/time-functions-in-pyth
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# program to compute the time
 # of execution of any python code
 import time
@@ -46,7 +46,7 @@ print("The time of execution of above program is :", end-start)**
 
 ******输出:******
 
-```
+```py
 **The time of execution of above program is : 0.001995563507080078**
 ```
 
@@ -56,7 +56,7 @@ print("The time of execution of above program is :", end-start)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# program to compute the time
 # of execution of any python code
 # for different number of computations
@@ -97,7 +97,7 @@ for j in range(100, 1100, 100):
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# program to compute the time of
 # execution of any python code
 from datetime import datetime
@@ -128,7 +128,7 @@ print("The time of execution of above program is :",
 
 ******输出:******
 
-```
+```py
 **The time of execution of above program is : 00.001996**
 ```
 
@@ -143,7 +143,7 @@ print("The time of execution of above program is :",
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# program to compute the time of
 # execution of any python code using timit
 
@@ -171,6 +171,6 @@ print ("The time of execution of above program is :",
 
 ******输出:******
 
-```
+```py
 **The time of execution of above program is : 0.0023286999994525104**
 ```

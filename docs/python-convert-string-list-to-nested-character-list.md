@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `split()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用列表理解来遍历列表，并可以使用 split()来执行拆分。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String List to Nested Character List
 # using split() + list comprehension

@@ -12,7 +12,7 @@
 
 让我们创建一个字符串列表，并将其命名为颜色。我们可以使用 for 循环来迭代列表，如下所示:
 
-```
+```py
 colors = ['red', 'orange', 'yellow', 'green']
 
 # Iterating List
@@ -22,7 +22,7 @@ for each in colors:
 
 **Output:**
 
-```
+```py
 red
 orange
 yellow
@@ -36,7 +36,7 @@ green
 
 使用前必须导入 **itertools** 模块。我们还必须导入**操作员**模块，因为我们想与操作员一起工作。
 
-```
+```py
 import itertools
 import operator ## only needed if want to play with operators
 ```
@@ -61,7 +61,7 @@ import operator ## only needed if want to play with operators
 
 **代码:1**
 
-```
+```py
 # import the itertool module 
 # to work with it
 import itertools
@@ -84,7 +84,7 @@ for each in result:
 
 **Output:**
 
-```
+```py
 1
 2
 6
@@ -97,7 +97,7 @@ for each in result:
 
 运算符. mul 取两个数字并相乘。
 
-```
+```py
 operator.mul(1, 2)
 2
 operator.mul(2, 3)
@@ -113,7 +113,7 @@ operator.mul(24, 5)
 
 **代码 2:**
 
-```
+```py
 # import the itertool module 
 # to work with it
 import itertools
@@ -139,7 +139,7 @@ for each in result:
 
 **Output:**
 
-```
+```py
 5
 5
 6
@@ -152,7 +152,7 @@ for each in result:
 
 **说明:**
 
-```
+```py
 5
 max(5, 3)
 5
@@ -175,7 +175,7 @@ max(9, 1)
 
 **代码解释**
 
-```
+```py
 # import the itertool module to
 # work with it
 import itertools
@@ -199,7 +199,7 @@ for each in result:
 
 **Output:**
 
-```
+```py
 0
 4
 11

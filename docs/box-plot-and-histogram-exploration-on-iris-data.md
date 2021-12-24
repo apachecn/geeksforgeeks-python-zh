@@ -4,7 +4,7 @@
 
 **数据集的属性信息:**
 
-```
+```py
 Attribute Information:
    -> sepal length in cm
    -> sepal width in cm
@@ -32,7 +32,7 @@ Class Distribution: 33.3% for each of 3 classes.
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 
 **加载数据**
 
-```
+```py
 data = pd.read_csv("Iris.csv")
 
 print (data.head(10))
@@ -51,7 +51,7 @@ print (data.head(10))
 
 **描述**
 
-```
+```py
 data.describe()
 ```
 
@@ -60,7 +60,7 @@ data.describe()
 
 **信息**
 
-```
+```py
 data.info()
 ```
 
@@ -69,7 +69,7 @@ data.info()
 
 **代码#1:** 萼片长度直方图
 
-```
+```py
 plt.figure(figsize = (10, 7))
 x = data["SepalLengthCm"]
 
@@ -84,7 +84,7 @@ plt.ylabel("Count")
 
 **代码#2:** 萼片宽度直方图
 
-```
+```py
 plt.figure(figsize = (10, 7))
 x = data.SepalWidthCm
 
@@ -101,7 +101,7 @@ plt.show()
 
 **代码#3:** 花瓣长度直方图
 
-```
+```py
 plt.figure(figsize = (10, 7))
 x = data.PetalLengthCm
 
@@ -118,7 +118,7 @@ plt.show()
 
 **代码#4:** 花瓣宽度直方图
 
-```
+```py
 plt.figure(figsize = (10, 7))
 x = data.PetalWidthCm
 
@@ -135,7 +135,7 @@ plt.show()
 
 **代码#5:** 箱线图的数据准备
 
-```
+```py
 # removing Id column
 new_data = data[["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]]
 print(new_data.head())
@@ -146,7 +146,7 @@ print(new_data.head())
 
 **代码#6:** 虹膜数据的方框图
 
-```
+```py
 plt.figure(figsize = (10, 7))
 new_data.boxplot()
 ```

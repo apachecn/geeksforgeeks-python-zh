@@ -28,7 +28,7 @@ ASCII 艺术是一种图形设计技术，使用计算机进行演示，由 95 �
 
 作为创建程序的第一步，定义用于将亮度值转换为 ASCII 字符的两个灰度级别作为全局值。
 
-```
+```py
 >>>gscale1 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~i!lI;:,\"^`". "    #70 levels of gray
 >>>gscale2 = "@%#*+=-:. "         #10 levels of gray
 ```
@@ -36,7 +36,7 @@ ASCII 艺术是一种图形设计技术，使用计算机进行演示，由 95 �
 u 处的 gscale1 值是 70 级灰度斜坡，v 处的 gscale2 值是更简单的 10 级灰度斜坡。这两个值都存储为字符串，字符范围从最暗到最亮。
 现在您已经有了灰度渐变，可以设置图像了。以下代码打开图像并将其分割成网格:
 
-```
+```py
     # open image and convert to grayscale
 >>>    image = Image.open(fileName).convert('L')
     # store dimensions
@@ -52,7 +52,7 @@ u 处的 gscale1 值是 70 级灰度斜坡，v 处的 gscale2 值是更简单的
 **计算平均亮度**
 接下来，计算灰度图像中一个图块的平均亮度。函数 getAverageL()可以完成这项工作。
 
-```
+```py
 #Given PIL Image, return average value of grayscale value
 >>>def getAverageL(image):
     # get image as numpy array
@@ -67,7 +67,7 @@ u 处的 gscale1 值是 70 级灰度斜坡，v 处的 gscale2 值是更简单的
 
 **从图像生成 ASCII 内容**
 
-```
+```py
     # ascii image is a list of character strings
 >>>    aimg = []
     # generate list of dimensions
@@ -104,7 +104,7 @@ u 处的 gscale1 值是 70 级灰度斜坡，v 处的 gscale2 值是更简单的
 要添加命令行界面，请使用 python 内置模块 [argparse](https://docs.python.org/3/howto/argparse.html) 。
 现在最后，获取生成的 ASCII 字符串列表，并将这些字符串写入文本文件。
 
-```
+```py
 # open a new text file
 >>> f = open(outFile, 'w')
 # write each string in the list to the new file
@@ -118,7 +118,7 @@ u 处的 gscale1 值是 70 级灰度斜坡，v 处的 gscale2 值是更简单的
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to convert an image to ASCII image.
 import sys, random, argparse
 import numpy as np
@@ -277,7 +277,7 @@ if __name__ == '__main__':
 
 输入:
 
-```
+```py
 $python "ASCII_IMAGE_GENERATOR.py" --file data/11.jpg --cols 120
 ```
 

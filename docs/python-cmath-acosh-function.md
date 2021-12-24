@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the acosh()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (1.762747174039086+0j)
 ```
 
@@ -42,7 +42,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the acosh()function
 
@@ -58,6 +58,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 (2.3830308809003258+1.1961255219693696j)
 ```

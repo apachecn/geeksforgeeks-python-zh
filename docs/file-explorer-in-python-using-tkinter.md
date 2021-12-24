@@ -33,7 +33,7 @@ Python 提供了各种模块来创建图形程序。其中，Tkinter 提供了�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create
 # a file explorer in Tkinter
 

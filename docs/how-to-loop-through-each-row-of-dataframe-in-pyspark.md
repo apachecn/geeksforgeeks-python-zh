@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # importing necessary libraries
 import pyspark
 from pyspark.sql import SparkSession

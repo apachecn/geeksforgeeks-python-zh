@@ -43,7 +43,7 @@ Python3 为我们提供了像整型和浮点型这样的数据类型，以及各
 
 ## 蟒蛇 3
 
-```
+```py
 a = 2.202
 b = -2.202
 
@@ -77,7 +77,7 @@ print("Invert operator value 2:", c)
 
 **输出:**
 
-```
+```py
 Minus operator value 1: -2.202
 Minus operator value 2: 2.202
 Plus operator value 1: 2.202
@@ -90,7 +90,7 @@ Invert operator value 2: 1
 
 ## 蟒蛇 3
 
-```
+```py
 a = 4
 b = -5
 
@@ -111,7 +111,7 @@ print("Addition value 2:", d)
 
 **输出:**
 
-```
+```py
 Addition value 1: -1
 Addition value 2: [7, 9, 11, 13, 15]
 ```
@@ -120,7 +120,7 @@ Addition value 2: [7, 9, 11, 13, 15]
 
 ## 蟒蛇 3
 
-```
+```py
 a = 4
 b = -5
 
@@ -139,7 +139,7 @@ for i in range(len(a)) :
 
 **输出:**
 
-```
+```py
 Subtraction value 1: 9
 Subtraction values:
 0
@@ -151,7 +151,7 @@ Subtraction values:
 
 ## 蟒蛇 3
 
-```
+```py
 a = 4
 b = -5
 c = 5.02
@@ -168,7 +168,7 @@ print("Multiplication value 2:", d)
 
 **Output**
 
-```
+```py
 Multiplication value 1: -20
 Multiplication value 2: 20.08
 ```
@@ -177,7 +177,7 @@ Multiplication value 2: 20.08
 
 ## 蟒蛇 3
 
-```
+```py
 a = 20
 b = -5
 c = 5.02
@@ -194,7 +194,7 @@ print("Division value 2:", d)
 
 **输出:**
 
-```
+```py
 Division value 1: -4.0
 Division value 2: 3.9840637450199208
 ```
@@ -203,7 +203,7 @@ Division value 2: 3.9840637450199208
 
 ## 蟒蛇 3
 
-```
+```py
 a = 20
 b = -5
 c = 5.02
@@ -220,7 +220,7 @@ print("Floor Division value 2:", d)
 
 **输出:**
 
-```
+```py
 Floor Division value 1: -4
 Floor Division value 2: 3.0
 ```
@@ -229,7 +229,7 @@ Floor Division value 2: 3.0
 
 ## 蟒蛇 3
 
-```
+```py
 a = 5
 b = 3
 c = -3
@@ -246,7 +246,7 @@ print("Exponent value 2:", d)
 
 **输出:**
 
-```
+```py
 Exponent value 1: 125
 Exponent value 2: 0.008
 ```
@@ -255,7 +255,7 @@ Exponent value 2: 0.008
 
 ## 蟒蛇 3
 
-```
+```py
 a = 12 
 b = 5
 c = 3
@@ -272,7 +272,7 @@ print("Modulous value 2:", d)
 
 **输出:**
 
-```
+```py
 Modulous value 1: 2
 Modulous value 2: 3
 ```

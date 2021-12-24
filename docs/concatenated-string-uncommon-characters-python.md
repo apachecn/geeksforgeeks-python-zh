@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : S1 = "aacdb"
         S2 = "gafd"
 Output : "cbgf"
@@ -22,7 +22,7 @@ Output : "bsxz"
 1.  Convert both strings into a collection so that they can only have unique characters. Now take the intersection of the two sets and get the common characters of the two strings.
 2.  Now separate out the uncommon characters in each string and connect them.
 
-```
+```py
 # Function to concatenated string with uncommon 
 # characters of two strings 
 
@@ -53,7 +53,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 cbgf
 
 ```

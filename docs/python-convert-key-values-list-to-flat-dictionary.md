@@ -7,7 +7,7 @@
 **方法:`zip() + dict()`**
 以上功能的组合可以用来实现所需的任务。在本例中，我们使用 zip()执行配对，dict()用于将 zip()返回的元组数据转换为字典格式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert key-values list to flat dictionary
 # Using dict() + zip()

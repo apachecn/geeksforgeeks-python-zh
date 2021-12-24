@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Binary tuple to Integer
 # Using join() + list comprehension + int()
@@ -38,7 +38,7 @@ print("Decimal number is : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : (1, 1, 0, 1, 0, 0, 1)
 Decimal number is : 105
 
@@ -50,7 +50,7 @@ Decimal number is : 105
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Binary tuple to Integer
 # Using bit shift and | operator
@@ -74,7 +74,7 @@ print("Decimal number is : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : (1, 1, 0, 1, 0, 0, 1)
 Decimal number is : 105
 

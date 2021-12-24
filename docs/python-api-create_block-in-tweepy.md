@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`create_block()`** 方法用于阻止用户成为�
 **示例 1 :** 考虑以下用户:
 ![](img/e627ee1df16166d869599f2fe4cc99c5.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ api.create_block(screen_name)
 
 **示例 2 :** 检查用户是否被`create_block()`方法阻止。
 
-```
+```py
 # ID of the user
 id = 4802800777
 
@@ -74,7 +74,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the create_block() method : 
 The user has not been blocked by the authenticated user.
 

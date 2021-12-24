@@ -10,7 +10,7 @@ ZIP 是一种支持无损数据压缩的归档文件格式。无损压缩是指�
 
 ****pyminizip**模块可以使用以下命令安装:**
 
-```
+```py
 pip install pyminizip
 ```
 
@@ -40,7 +40,7 @@ pip install pyminizip
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 import pyminizip
 

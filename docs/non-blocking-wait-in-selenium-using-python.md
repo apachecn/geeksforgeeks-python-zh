@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 time.sleep(in_seconds)
 ```
 
@@ -26,7 +26,7 @@ time.sleep(in_seconds)
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 
 options = webdriver.ChromeOptions()
@@ -54,7 +54,7 @@ chrome.get(login_uri)
 
 ## 蟒蛇 3
 
-```
+```py
 # return True if element is visible within 30 seconds, otherwise False
 def is_visible(locator, timeout = 30):
     try:
@@ -77,7 +77,7 @@ def is_visible(locator, timeout = 30):
 
 ## 蟒蛇 3
 
-```
+```py
 if not is_visible(username_xpath): raise RuntimeError("Something went wrong with the username field :(")
 username_field = chrome.find_element_by_xpath(username_xpath)
 username_field.send_keys(username)

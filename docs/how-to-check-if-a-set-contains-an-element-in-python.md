@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 element in set
 ```
 
@@ -23,7 +23,7 @@ element in set
 
 ## 蟒蛇 3
 
-```
+```py
 # import random module
 import random
 
@@ -42,7 +42,7 @@ print(7071 in data)
 
 **输出:**
 
-```
+```py
 True
 True
 False
@@ -54,7 +54,7 @@ False
 
 **语法**:
 
-```
+```py
 element not in set
 ```
 
@@ -67,7 +67,7 @@ element not in set
 
 ## 蟒蛇 3
 
-```
+```py
 # import random module
 import random
 
@@ -86,7 +86,7 @@ print(7071 not in data)
 
 **输出:**
 
-```
+```py
 False
 False
 True

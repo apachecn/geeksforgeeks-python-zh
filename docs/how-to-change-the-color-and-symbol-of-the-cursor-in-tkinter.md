@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import library
 import tkinter as tk
 
@@ -58,7 +58,7 @@ frame.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import library
 import tkinter as tk
 

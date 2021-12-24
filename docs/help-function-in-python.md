@@ -6,13 +6,13 @@
 
 ### 帮助函数具有以下语法:
 
-```
+```py
 help([object])
 ```
 
 ### Python help()函数参数
 
-```
+```py
 object: Call help of the given object.
 ```
 
@@ -24,13 +24,13 @@ object: Call help of the given object.
 
 ## 蟒蛇 3
 
-```
+```py
 help(print)
 ```
 
 **输出:**
 
-```
+```py
 Help on built-in function print in module builtins:
 
 print(...)
@@ -50,7 +50,7 @@ print(...)
 
 ## 蟒蛇 3
 
-```
+```py
 class Helper:
     def __init__(self):
         '''The helper class is initialized'''
@@ -65,7 +65,7 @@ help(Helper.print_help)
 
 在运行上述程序时，我们得到如下所示的第一个帮助函数的输出:
 
-```
+```py
 Help on class Helper in module __main__:
 
 class Helper(builtins.object)
@@ -100,7 +100,7 @@ print_help(self)
 
 ## 蟒蛇 3
 
-```
+```py
 def my_function():
     '''Demonstrates triple double quotes
     docstrings and does nothing really.'''
@@ -116,7 +116,7 @@ help(my_function)
 
 **输出:**
 
-```
+```py
 Using __doc__:
 Demonstrates triple double quotes
     docstrings and does nothing really.

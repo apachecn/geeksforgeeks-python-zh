@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # open the sample file used
 file = open('test.txt')
 
@@ -48,7 +48,7 @@ linecache 包可以用 Python 导入，然后用 Python 提取和访问特定的
 
 **语法:**
 
-```
+```py
 getLine(txt-file, line_number)
 ```
 
@@ -56,7 +56,7 @@ getLine(txt-file, line_number)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required package
 import linecache
 
@@ -69,7 +69,7 @@ print(particular_line)
 
 **输出:**
 
-```
+```py
 This is line 5.
 ```
 
@@ -81,7 +81,7 @@ enumerate()方法用于将字符串或列表对象转换为由数字索引的数
 
 ## 蟒蛇 3
 
-```
+```py
 # open a file
 file = open("test.txt")
 
@@ -98,7 +98,7 @@ for pos, l_num in enumerate(file):
 
 **输出**
 
-```
+```py
 This is line 1.
 This is line 8.
 This is line 12.

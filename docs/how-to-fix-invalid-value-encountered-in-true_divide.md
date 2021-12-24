@@ -12,7 +12,7 @@ NumPy 数组之间的除法运算可以使用 NumPy 包中的 **divide()** 来�
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -49,7 +49,7 @@ np.divide(Array1, Array2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -67,6 +67,6 @@ np.divide(Array1, Array2)
 
 **输出:**
 
-```
+```py
 array([ 2.,  1., nan])
 ```

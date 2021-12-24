@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Leaf and Non-Leaf Nodes Dictionary
 # Using recursion + isinstance() + loop
@@ -48,7 +48,7 @@ print("The leaf and Non-Leaf nodes : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary : {'a': {'b': 1, 'c': {'d': {'e': 2, 'f': 1}}, 'g': {'h': {'i': 2, 'j': 1}}}}
 The leaf and Non-Leaf nodes : {'non-leaf': 5, 'leaf': 5}
 ```

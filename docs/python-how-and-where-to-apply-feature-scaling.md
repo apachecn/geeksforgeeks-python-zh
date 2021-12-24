@@ -6,13 +6,13 @@
 
 **使用的包装:**
 
-```
+```py
 sklearn.preprocessing
 ```
 
 **进口:**
 
-```
+```py
  from sklearn.preprocessing import StandardScaler
 ```
 
@@ -23,14 +23,14 @@ sklearn.preprocessing
 
 大多数情况下，**拟合**方法用于特征缩放
 
-```
+```py
 fit(X, y = None)
 Computes the mean and std to be used for later scaling.
 ```
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 

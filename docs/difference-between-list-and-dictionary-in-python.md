@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Lists
 
@@ -27,7 +27,7 @@ print(List)
 
 **输出:**
 
-```
+```py
 List containing multiple values: 
 Geeks
 Geeks
@@ -41,7 +41,7 @@ Multi-Dimensional List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # dictionary
 
@@ -60,7 +60,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Dictionary with the use of Integer Keys: 
 {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
@@ -90,7 +90,7 @@ Dictionary with the use of Mixed Keys:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to demonstrate
 # space-time trade-off between
 # dictionary and list
@@ -127,7 +127,7 @@ print("\nTime taken by dictionary:", y-x)
 
 **输出:**
 
-```
+```py
 Accessing dictionary elements:
 1 2 
 Time taken by dictionary: 1.0013580322265625e-05
@@ -141,7 +141,7 @@ Time taken by dictionary: 3.5762786865234375e-06
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to fetch particular
 # elements of structure
 
@@ -166,7 +166,7 @@ print("\nTime taken by list:", y-x)
 
 **输出:**
 
-```
+```py
 Time taken by dictionary: 9.5367431640625e-07
 
 Time taken by list: 4.76837158203125e-07

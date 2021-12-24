@@ -16,7 +16,7 @@ Python 中图像处理需要的最重要的库是 **OpenCV。**确保您已经�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # read the image file

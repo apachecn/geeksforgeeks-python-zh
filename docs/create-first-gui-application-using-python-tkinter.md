@@ -16,7 +16,7 @@ T3】2。创建根窗口。给根窗口一个标题(使用**标题()**)和尺寸
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Module
 from tkinter import *
 
@@ -45,7 +45,7 @@ root.mainloop()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Module
 from tkinter import *
 

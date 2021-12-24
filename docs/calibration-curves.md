@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 
 from sklearn.datasets import load_breast_cancer

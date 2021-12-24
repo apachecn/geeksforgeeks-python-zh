@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `isintance() + enumerate()`**
 使用上述功能可以解决这个问题。在这种情况下，我们只需使用`enumerate()`循环遍历元素以获取其索引计数，并使用`isinstance()`检查类型。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements till first tuple
 # using isinstance() + enumerate() + loop
@@ -30,7 +30,7 @@ print("Elements till the first tuple : " + str(count))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, (4, 6), 10)
 Elements till the first tuple : 3
 

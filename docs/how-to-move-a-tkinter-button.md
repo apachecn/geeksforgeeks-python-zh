@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装此模块，请在终端中键入以下 pip 命令。
 
-```
+```py
 pip install tkintertable
 ```
 
@@ -41,7 +41,7 @@ Tkinter 模块中的按钮可以通过两种方式放置或移动到任意位置
 
 T5
 
-```
+```py
 # Importing tkinter module
 from tkinter import *       
 

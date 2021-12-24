@@ -7,7 +7,7 @@
 **方法#1:使用字典理解**
 这是最受欢迎的初始化方法。在这种方法中，我们创建所需的键数，然后在继续创建键的同时初始化 customlist，以便于之后的追加操作而不会出错。
 
-```
+```py
 # Python3 code to demonstrate 
 # Custom list dictionary initialization
 # using dictionary comprehension
@@ -24,7 +24,7 @@ print ("New dictionary with custom list as keys : " + str(new_dict))
 
 **Output :**
 
-```
+```py
 New dictionary with custom list as keys : {0: [4, 6], 1: [4, 6], 2: [4, 6], 3: [4, 6]}
 
 ```

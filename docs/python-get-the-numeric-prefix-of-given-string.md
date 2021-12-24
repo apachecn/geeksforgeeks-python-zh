@@ -6,7 +6,7 @@
 
 **方法#1:使用天真法**
 
-```
+```py
 # Python code to demonstrate
 # to get numeric prefix in string
 # if present
@@ -29,7 +29,7 @@ print ("second string result: ", str(res2))
 
 **输出:**
 
-```
+```py
 initial string :  123abcjw abceddfgh
 first string result:  123
 second string result:

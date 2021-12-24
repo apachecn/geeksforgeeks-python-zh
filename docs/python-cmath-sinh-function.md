@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -24,7 +24,7 @@ print (cmath.sinh(5 + 3j))
 
 ****输出:****
 
-```
+```py
 (-73.46062169567368+10.472508533940392j) 
 ```
 
@@ -32,7 +32,7 @@ print (cmath.sinh(5 + 3j))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -42,7 +42,7 @@ print (cmath.sinh(1))
 
 ****输出:****
 
-```
+```py
 (1.1752011936438014+0j) 
 ```
 
@@ -50,7 +50,7 @@ print (cmath.sinh(1))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -60,6 +60,6 @@ print (cmath.sinh())
 
 ****输出:****
 
-```
+```py
 TypeError: sinh() takes exactly one argument (0 given) 
 ```

@@ -6,7 +6,7 @@
 
 我们将使用 pyspark 中的 createDataFrame()方法来创建数据帧。为此，我们将使用嵌套字典的列表，并提取该对作为键和值。通过从嵌套字典中提及 items()函数来选择键、值对
 
-```
+```py
 [Row(**{'': k, **v}) for k,v in data.items()]
 ```
 
@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -55,7 +55,7 @@ final.show()
 
 **输出:**
 
-```
+```py
 +----------+--------+-----+--------+
 |student id| country|state|district|
 +----------+--------+-----+--------+
@@ -68,7 +68,7 @@ final.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -107,7 +107,7 @@ final.show()
 
 **输出:**
 
-```
+```py
 +----------+--------+-----+
 |student id| country|state|
 +----------+--------+-----+

@@ -10,7 +10,7 @@ ActionChains 是在 action chain 对象的帮助下实现的，该对象将操�
 
 要创建 ACtion chain 对象，请从文档中导入 Action Chain 类，并将驱动程序作为关键参数传递。之后，可以使用这个对象来执行动作链的所有操作。
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 
@@ -29,7 +29,7 @@ action = ActionChains(driver)
 
 创建动作链对象后，打开网页，使用以下语法和示例执行各种其他方法。动作链可用于如下的链模式–
 
-```
+```py
 menu = driver.find_element_by_css_selector(".nav")
 hidden_submenu = driver.find_element_by_css_selector(".nav # submenu1")
 
@@ -38,7 +38,7 @@ ActionChains(driver).move_to_element(menu).click(hidden_submenu).perform()
 
 或者动作可以一个接一个地排队，然后执行。：
 
-```
+```py
 menu = driver.find_element_by_css_selector(".nav")
 hidden_submenu = driver.find_element_by_css_selector(".nav # submenu1")
 
@@ -52,7 +52,7 @@ actions.perform()
 
 让我们尝试使用 https://www.geeksforgeeks.org/实现动作链，并使用 Selenium Python 的各种方法来玩。
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

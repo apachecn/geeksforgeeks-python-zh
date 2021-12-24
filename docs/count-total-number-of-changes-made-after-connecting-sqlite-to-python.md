@@ -14,7 +14,7 @@
 
 **表定义:**
 
-```
+```py
 CREATE TABLE person(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 name TEXT NOT NULL,
@@ -27,7 +27,7 @@ age INTEGER NOT NULL);
 
 ## 蟒蛇 3
 
-```
+```py
 # Complete python program to get 
 # the total no. of change since the
 # beginning of the database connection.

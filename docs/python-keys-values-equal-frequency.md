@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Keys Values equal frequency
 # Using loop
@@ -42,7 +42,7 @@ print("The required frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 5, 8: 9, 7: 7, 1: 2, 10: 10, 4: 8}
 The required frequency : 3
 
@@ -54,7 +54,7 @@ The required frequency : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Keys Values equal frequency
 # Using sum() + list comprehension
@@ -74,7 +74,7 @@ print("The required frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 5, 8: 9, 7: 7, 1: 2, 10: 10, 4: 8}
 The required frequency : 3
 

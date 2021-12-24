@@ -15,7 +15,7 @@ Python 中的字典是*键-值*对的集合，其中键总是唯一的，通常�
 
 **方法一:**使用 **`json.loads()`** :
 
-```
+```py
 # importing the module
 import json
 
@@ -34,7 +34,7 @@ print(js)
 
 **输出:**
 
-```
+```py
 Data type before reconstruction :  <class 'str'>
 Data type after reconstruction :  <class 'dict'>
 {'Name': 'John', 'Age': 21, 'Id': 28}
@@ -43,7 +43,7 @@ Data type after reconstruction :  <class 'dict'>
 
 **方法二:**使用 **`ast.literal_eval()`** :
 
-```
+```py
 # importing the module
 import ast
 
@@ -62,7 +62,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 Data type before reconstruction :  <class 'str'>
 Data type after reconstruction :  <class 'dict'>
 {'Name': 'John', 'Age': 21, 'Id': 28}
@@ -71,7 +71,7 @@ Data type after reconstruction :  <class 'dict'>
 
 **方法 3 :** 我们可以出于同样的目的使用 Pickle 模块，但是这个方法只有在文件被序列化为字符流而不是文本格式时才会起作用。想了解更多关于蟒蛇皮腌制的知识[点击这里](https://www.geeksforgeeks.org/understanding-python-pickling-example/)
 
-```
+```py
 # importing the module
 import pickle
 
@@ -103,7 +103,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 Data type before reconstruction :  <class 'bytes'>
 Data type after reconstruction :  <class 'dict'>
 {'Name': 'John', 'Age': 21, 'Id': 28}

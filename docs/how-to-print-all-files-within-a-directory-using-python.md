@@ -50,7 +50,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import libraries
 import os
 import time

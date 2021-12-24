@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `count()`**
 这是执行这个任务的蛮法。在这种情况下，我们可以计算一个元素在其他列表中的出现次数，如果我们找到它，那么我们就把它的索引添加到结果列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Indices list of matching element from other list
 # Using loop + count()
@@ -35,7 +35,7 @@ print("The matching element Indices list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [5, 7, 8, 9, 10, 11]
 The original list 2 is : [8, 10, 11]
 The matching element Indices list : [2, 4, 5]

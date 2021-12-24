@@ -6,7 +6,7 @@
 
 我们可以通过使用列表向字典添加值，输入列表将是以下结构:
 
-```
+```py
 [('key',value),...........,('key',value)]
 ```
 
@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import defaultdict module
 from collections import defaultdict
 
@@ -57,7 +57,7 @@ print(data.items())
 
 ## 蟒蛇 3
 
-```
+```py
 # import defaultdict module
 from collections import defaultdict
 
@@ -77,6 +77,6 @@ print(data.items())
 
 **输出:**
 
-```
+```py
 dict_items([('bhanu', [10]), ('uma', [12]), ('suma', [11])])
 ```

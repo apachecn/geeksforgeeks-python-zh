@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 input_string = "EVN"
 
 # CONVERT string data to binary string data
@@ -24,14 +24,14 @@ print (data)
 
 **Output**
 
-```
+```py
 100010110101101001110
 ```
 
 CRC 密钥:1001
 代码:CRC 密钥长度-1 - > 000 附加在数据末尾。
 
-```
+```py
 New data: 100010110101101001110000
 Key:1001
 ```
@@ -49,7 +49,7 @@ Key:1001
 
 ## 蟒蛇 3
 
-```
+```py
 # Import socket module
 import socket           
 
@@ -164,7 +164,7 @@ s.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # First of all import the socket library
 import socket
 

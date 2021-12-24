@@ -13,7 +13,7 @@
 
 打开命令提示符，使用以下命令安装 PIL 软件包:
 
-```
+```py
 pip install Pillow
 ```
 
@@ -25,7 +25,7 @@ pip install Pillow
 
 ## 蟒蛇 3
 
-```
+```py
 import PIL
 
 IL.__version__
@@ -39,7 +39,7 @@ IL.__version__
 
 Conda 用户可以打开 Anaconda 电源外壳，并使用以下命令安装 PIL:
 
-```
+```py
 conda install -c anaconda Pillow
 ```
 
@@ -51,7 +51,7 @@ conda install -c anaconda Pillow
 
 ## 蟒蛇 3
 
-```
+```py
 import PIL
 IL.__version__
 ```

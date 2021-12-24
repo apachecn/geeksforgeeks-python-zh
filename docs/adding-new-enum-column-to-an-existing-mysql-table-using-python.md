@@ -19,7 +19,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 ALTER TABLE table_name ADD colunm_name  ENUM('field1','field2',...)
 ```
 
@@ -29,7 +29,7 @@ ALTER TABLE table_name ADD colunm_name  ENUM('field1','field2',...)
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 

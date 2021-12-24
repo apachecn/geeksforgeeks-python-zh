@@ -7,7 +7,7 @@
 **方法#1:使用`collections.Counter()`**
 计数器方法可用于获取列表中元素的确切出现次数，因此可以选择性地减去，而不是使用集合并完全忽略元素的计数。然后可以执行减法来获得实际的发生。
 
-```
+```py
 # Python3 code to demonstrate
 # Difference of list including duplicates
 # Using collections.Counter()
@@ -31,7 +31,7 @@ print("The list after performing the subtraction : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [1, 3, 4, 5, 1, 3, 3]
 The original list 2 : [1, 3, 5]
 The list after performing the subtraction : [1, 3, 3, 4]

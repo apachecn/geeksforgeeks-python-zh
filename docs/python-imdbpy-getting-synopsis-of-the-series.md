@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -43,7 +43,7 @@ print(synopsis)
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -68,6 +68,6 @@ print(synopsis)
 
 **输出:**
 
-```
+```py
 ['Season 1A struggling high school chemistry teacher.......search the compound.']
 ```

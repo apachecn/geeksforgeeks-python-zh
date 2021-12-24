@@ -7,7 +7,7 @@
 **方法#1:使用`all() + zip()`**
 `all()`通常会检查输入到其中的所有元素。zip()的任务是从头开始链接列表，从第一个元素开始链接列表，这样就可以对所有元素执行检查。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check for strictly increasing list
 # using zip() + all()
@@ -28,7 +28,7 @@ print ("Is list strictly increasing ? : " + str(res))
 
 **Output:**
 
-```
+```py
 Original list : [1, 4, 5, 7, 8, 10]
 Is list strictly increasing ? : True
 

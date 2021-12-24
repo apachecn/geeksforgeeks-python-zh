@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of dictionaries
 languages = [
     {
@@ -68,7 +68,7 @@ print(languages[3])
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of dictionaries
 languages = [
     {
@@ -108,7 +108,7 @@ for key, val in languages[0].items():
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of dictionaries
 languages = [
     {
@@ -179,7 +179,7 @@ for i in languages:
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of dictionaries
 languages = [
     {

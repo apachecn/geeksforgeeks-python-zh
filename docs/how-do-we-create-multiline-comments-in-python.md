@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 # This is a single line comment
 ```
 
@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def my_fun():
 
     # prints Geeksforgeeks on the console
@@ -30,7 +30,7 @@ my_fun()
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 ```
 
@@ -42,7 +42,7 @@ Python 中的块注释通常引用它们后面的代码，并且旨在与该代�
 
 **语法:**
 
-```
+```py
 # This is a block comment 
 # Each line of a block comment is intended to the same level
 ```
@@ -51,7 +51,7 @@ Python 中的块注释通常引用它们后面的代码，并且旨在与该代�
 
 ## 蟒蛇 3
 
-```
+```py
 def my_fun(i):
 
     # prints GFG on the console until i
@@ -68,7 +68,7 @@ my_fun(5)
 
 **输出:**
 
-```
+```py
 GFG
 GFG
 GFG
@@ -84,13 +84,13 @@ GFG
 
 **语法:**
 
-```
+```py
 """This is a one-line docstring."""
 ```
 
 或者
 
-```
+```py
 '''This is one-line docstring.'''
 ```
 
@@ -98,7 +98,7 @@ GFG
 
 ## 蟒蛇 3
 
-```
+```py
 def my_fun():
     """Greets the user."""
     print("Hello Geek!")
@@ -112,7 +112,7 @@ help(my_fun)
 
 **输出:**
 
-```
+```py
 Hello Geek!
 Help on function my_fun in module __main__:
 
@@ -126,7 +126,7 @@ my_fun()
 
 **语法:**
 
-```
+```py
 """This is a multi-line docstring.
 
 The first line of a multi-line doscstring consist of a summary.
@@ -138,7 +138,7 @@ It is followed by one or more elaborate description.
 
 ## 蟒蛇 3
 
-```
+```py
 def my_fun(user):
     """Greets the user
 
@@ -156,7 +156,7 @@ help(my_fun)
 
 **输出:**
 
-```
+```py
 Hello Geek!
 Help on function my_fun in module __main__:
 

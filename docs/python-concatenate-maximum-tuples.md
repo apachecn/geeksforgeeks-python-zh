@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Maximum Tuples
 # Using max() + itemgetter() + list comprehension + join()
@@ -59,7 +59,7 @@ print("The maximum concatenated strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Maximum Tuples
 # Using filter() + max() + itemgetter()

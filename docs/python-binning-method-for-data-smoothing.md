@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```py
 Sorted data for price (in dollars): 4, 8, 9, 15, 21, 21, 24, 25, 26, 28, 29, 34
 
 Smoothing by bin means:
@@ -42,7 +42,7 @@ Smoothing by bin median:
 
 以下是上述算法的 Python 实现–
 
-```
+```py
 import numpy as np  
 import math
 from sklearn.datasets import load_iris

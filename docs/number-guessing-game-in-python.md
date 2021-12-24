@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 import math
 # Taking Inputs
@@ -87,7 +87,7 @@ if count >= math.log(upper - lower + 1, 2):
 
 ## C
 
-```
+```py
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>

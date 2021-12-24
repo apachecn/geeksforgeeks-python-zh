@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 from threading import *    
 
@@ -34,7 +34,7 @@ for i in range(10):            
   print('Main Thread')
 ```
 
-```
+```py
 Child Thread
 Child Thread
 Child Thread
@@ -68,7 +68,7 @@ Main Thread
 
 ## 蟒 3
 
-```
+```py
 # Import required module
 from threading import *
 
@@ -93,7 +93,7 @@ for i in range(10):
     print('Main Thread')
 ```
 
-```
+```py
 Child Thread
 Child Thread
 Child Thread
@@ -125,7 +125,7 @@ Main Thread
 
 ## 蟒 3
 
-```
+```py
 # Import required modules
 from threading import *
 
@@ -154,7 +154,7 @@ for i in range(10):
     print('Main Thread')
 ```
 
-```
+```py
 Child Thread
 Child Thread
 Child Thread

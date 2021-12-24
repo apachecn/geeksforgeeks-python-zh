@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 
 list1 = [25, 18, 9, 41, 26, 31]
 list2 = [25, 45, 3, 32, 15, 20]
@@ -24,7 +24,7 @@ Output :
 
 Python 中的**加号运算符“+”**帮助我们合并两个列表，无论是字符串列表还是整数列表，或者两者的混合。最后，我们使用 **sort()** 函数对列表进行排序。
 
-```
+```py
 # Python program to merge and sort two list
 def Merge(list1, list2):
     final_list = list1 + list2
@@ -39,7 +39,7 @@ print(Merge(list1, list2))
 
 输出:
 
-```
+```py
 [3, 9, 15, 18, 20, 25, 25, 26, 31, 32, 41, 45]
 
 ```

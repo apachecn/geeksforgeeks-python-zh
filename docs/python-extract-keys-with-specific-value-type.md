@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Keys with specific Value Type
 # Using loop + isinstance()
@@ -54,7 +54,7 @@ print("The extracted keys : " + str(res))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Keys with specific Value Type
 # Using list comprehension + isinstance()

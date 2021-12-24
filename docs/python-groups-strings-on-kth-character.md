@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行该任务的一种方式。在这种情况下，我们使用暴力方法执行分组任务。我们迭代每个字符串，并在条件检查后使用条件语句对字典进行分组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Groups Strings on Kth character
 # Using loop

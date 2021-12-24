@@ -8,7 +8,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install rotate-screen
 ```
 
@@ -18,7 +18,7 @@ pip install rotate-screen
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import rotatescreen
 ```
@@ -27,7 +27,7 @@ import rotatescreen
 
 ## 蟒蛇 3
 
-```
+```py
 # Accessing the main screen
 rotate_screen = rotatescreen.get_primary_display()
 ```
@@ -41,7 +41,7 @@ rotate_screen = rotatescreen.get_primary_display()
 
 ## 蟒蛇 3
 
-```
+```py
 # Methods to change orientation
 
 # for landscape
@@ -61,7 +61,7 @@ rotate_screen.set_portrait()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 from tkinter import *
 import rotatescreen

@@ -18,7 +18,7 @@ Python 提供了许多用于创建和开发图形用户界面的库和框架。�
 
 **语法:**
 
-```
+```py
 Toplevel widget
 toplevel = Toplevel(root, bg, fg, bd, height,....)
 
@@ -38,7 +38,7 @@ toplevel.geometry("dimension")
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 def messagebox():
@@ -81,7 +81,7 @@ root.mainloop()
 
 **语法:**
 
-```
+```py
 toplevel.geometry(f"dimension+{root.winfo_x()}+{root.winfo_y()}")
 
 ```
@@ -91,7 +91,7 @@ toplevel.geometry(f"dimension+{root.winfo_x()}+{root.winfo_y()}")
 
 **或**
 
-```
+```py
 x_position = value
 y_position = value
 
@@ -103,7 +103,7 @@ toplevel.geometry(f"dimension+{x_position}+{y_position}")
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 def messagebox():
@@ -148,7 +148,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 def messagebox():

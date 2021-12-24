@@ -8,13 +8,13 @@
 
 *   **bs4** :美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   **请求** : Requests 可以让你极其轻松的发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -31,7 +31,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 ```
@@ -40,7 +40,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 def getdata(url):
     r = requests.get(url)
     return r.text
@@ -50,7 +50,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 htmldata = getdata("https://covid-19tracker.milkeninstitute.org/")
 soup = BeautifulSoup(htmldata, 'html.parser')
 res = soup.find_all("div", class_="is_h5-2 is_developer w-richtext")
@@ -67,7 +67,7 @@ print(str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 

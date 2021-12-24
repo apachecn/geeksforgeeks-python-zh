@@ -11,7 +11,7 @@ Python 中的列表可以通过将序列放在方括号`[]`中来创建。要声
 
 **示例:**
 
-```
+```py
 # Python program to declare
 # empty list
 
@@ -25,7 +25,7 @@ print("Size of a:", len(a))     
 
 **输出:**
 
-```
+```py
 Values of a: []
 Type of a: <class 'list'>
 Size of a: 0
@@ -47,7 +47,7 @@ Size of a: 0
 
 **示例:**
 
-```
+```py
 # Python program to create
 # empty list
 
@@ -61,7 +61,7 @@ print("Size of a:", len(a))     
 
 **输出:**
 
-```
+```py
 Values of a: []
 Type of a: <class 'list'>
 Size of a: 0

@@ -14,7 +14,7 @@
 它可以在复域中进行离散傅里叶变换。
 由于**基数-2 快速傅立叶变换**要求样本点数为 2 的幂，因此序列会自动向右填充零。对于短序列，仅将此方法与默认参数一起使用，因为序列的大小会增加表达式的复杂性。
 
-```
+```py
 
 Parameters : 
 -> seq : [iterable] sequence on which DFT is to be applied.
@@ -27,7 +27,7 @@ Fast Fourier Transform
 
 **例 1 :**
 
-```
+```py
 # import sympy 
 from sympy import fft
 
@@ -41,13 +41,13 @@ print (transform)
 
 **输出:**
 
-```
+```py
 FFT : [93, 2 - 23*I, -37, 2 + 23*I]
 ```
 
  **例 2 :**
 
-```
+```py
 # import sympy 
 from sympy import fft
 
@@ -63,7 +63,7 @@ print ("FFT : ", transform)
 
 **输出:**
 
-```
+```py
 FFT :  [93, 2.0 - 23.0*I, -37, 2.0 + 23.0*I]
 
 ```

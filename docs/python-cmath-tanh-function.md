@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -24,7 +24,7 @@ print (cmath.tanh(1 + 5j))
 
 ****输出:****
 
-```
+```py
 (1.2407479829240697-0.18610947764730415j) 
 ```
 
@@ -32,7 +32,7 @@ print (cmath.tanh(1 + 5j))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -42,7 +42,7 @@ print (cmath.tanh(1))
 
 ****输出:****
 
-```
+```py
 (0.7615941559557649+0j) 
 ```
 
@@ -50,7 +50,7 @@ print (cmath.tanh(1))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -60,6 +60,6 @@ print (cmath.tanh())
 
 ****输出:****
 
-```
+```py
 TypeError: tanh() takes exactly one argument (0 given) 
 ```

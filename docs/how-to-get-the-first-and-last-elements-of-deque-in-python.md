@@ -10,7 +10,7 @@ collections 模块中的 deque 数据结构没有 peek 方法，但是通过获�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from collections import deque  
 
@@ -29,7 +29,7 @@ print(dq[-1])
 
 **输出:**
 
-```
+```py
 deque(['Geeks', 'for', 'Geeks', 'is', 'good'])
 Geeks
 good
@@ -42,7 +42,7 @@ popleft()方法用于从队列左侧弹出第一个元素或元素，pop()方法
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from collections import deque  
 
@@ -64,7 +64,7 @@ print(dq)
 
 **输出:**
 
-```
+```py
 deque(['Geeks', 'for', 'Geeks', 'is', 'good'])
 Geeks
 good

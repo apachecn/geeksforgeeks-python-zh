@@ -55,7 +55,7 @@ Deepwalk 流程分几步运行:
 
 ## 蟒蛇 3
 
-```
+```py
 # Install karateclub API
 ! pip install karateclub
 # imports
@@ -104,7 +104,7 @@ plot_nodes(nodes)
 
 **输出:**
 
-```
+```py
 node_1    node_2
 0    0    1972
 1    0    5111

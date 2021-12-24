@@ -15,13 +15,13 @@
 
 **第一步:**声明一个布尔变量为真，这个变量将用于检查我们的玩家是否想继续玩我们的游戏。
 
-```
+```py
 keepGameRunning=true
 ```
 
 **第二步:**创建一个 while 循环，检查我们上面的布尔变量是否为真。如果为真，保持循环运行，这意味着保持我们的游戏循环运行。在这个 while 循环中，检查事件，如果事件退出，那么将上面的变量设置为 false，以退出我们的游戏循环并结束我们的 pygame 窗口。
 
-```
+```py
 while keepGameRunning:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:  
@@ -34,7 +34,7 @@ while keepGameRunning:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame package
 import pygame
 
@@ -74,7 +74,7 @@ while running:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame package
 import pygame
 

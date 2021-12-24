@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Tuples with all Numeric Strings
 # Using all() + list comprehension + isdigit()
@@ -38,7 +38,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('45', '86'), ('Gfg', '1'), ('98', '10'), ('Gfg', 'Best')]
 Filtered Tuples : [('45', '86'), ('98', '10')]
 
@@ -50,7 +50,7 @@ Filtered Tuples : [('45', '86'), ('98', '10')]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Tuples with all Numeric Strings
 # Using lambda + filter() + isdigit()
@@ -70,7 +70,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('45', '86'), ('Gfg', '1'), ('98', '10'), ('Gfg', 'Best')]
 Filtered Tuples : [('45', '86'), ('98', '10')]
 

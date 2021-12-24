@@ -28,7 +28,7 @@ shutil.rmtree()用于删除整个目录树，路径必须指向一个目录(但�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 
@@ -56,7 +56,7 @@ shutil.rmtree(path)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 
@@ -102,7 +102,7 @@ shutil.rmtree(path, ignore_errors = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # shutil.rmtree()
 

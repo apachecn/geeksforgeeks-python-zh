@@ -12,7 +12,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -39,7 +39,7 @@ print(xml_file[:150])
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 --------------------------------
 <?xml version="1.0"?
@@ -50,7 +50,7 @@ Shahid Kapoor
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -77,7 +77,7 @@ print(xml_file[:250])
 
 **输出:**
 
-```
+```py
 Pankaj Tripathi
 --------------------------------
 <?xml version="1.0"?

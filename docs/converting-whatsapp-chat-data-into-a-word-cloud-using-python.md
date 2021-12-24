@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 df = df.drop(0)
 df.columns = ['Date', 'Convo']
 ```
@@ -19,7 +19,7 @@ df.columns = ['Date', 'Convo']
 
 ## 蟒蛇 3
 
-```
+```py
 Chat = df["Convo"].str.split("-", n = 1, 
                              expand = True)
 df['Time'] = Chat[0]
@@ -30,7 +30,7 @@ df['Content'] = Chat[1]
 
 ## 蟒蛇 3
 
-```
+```py
 Chat1 = df["Content"].str.split(":", n = 1, 
                                 expand = True)
 df['User'] = Chat1[0]
@@ -41,7 +41,7 @@ df['Message'] = Chat1[1]
 
 ## 蟒蛇 3
 
-```
+```py
 df = df.drop(columns = ['Convo'])
 df[['Message'] = df['Message'].str.lower()
 df['Message'] = df['Message'].str.replace('<media omitted>', 
@@ -54,7 +54,7 @@ df['Message'] = df['Message'].str.replace('this message was deleted', 
 
 ## 蟒蛇 3
 
-```
+```py
 df.to_csv("new_csv.csv", index = False)
 ```
 
@@ -62,7 +62,7 @@ df.to_csv("new_csv.csv", index = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import matplotlib.plyplot as mpl
 from worcloud import WordCloud,STOPWORDS
@@ -87,7 +87,7 @@ wordcloud = WordCloud(stopwords = stopwords, 
 
 ## 蟒蛇 3
 
-```
+```py
 def random_color_func(word = None, 
                       font_size = None, 
                       position = None,  
@@ -103,7 +103,7 @@ def random_color_func(word = None, 
 
 ## 蟒蛇 3
 
-```
+```py
 mpl.figure(figsize = (8, 8), facecolor = None)
 mpl.imshow(wordcloud, interpolation = "bilinear")
 mpl.axis("off")
@@ -117,7 +117,7 @@ mpl.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.plyplot as mpl
 from worcloud import WordCloud, STOPWORDS

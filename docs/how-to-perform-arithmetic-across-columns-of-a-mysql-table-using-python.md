@@ -31,7 +31,7 @@ Python 是一种动态语言，Python 应用程序可以与数据库服务器集
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -78,7 +78,7 @@ mydb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -123,7 +123,7 @@ mydb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import mysql.connector
 

@@ -8,13 +8,13 @@
 
 在本文中，我们将讨论如何使用 Python 中的 matploltlib 可视化 MySQL 数据库中的数据。为了执行这个任务，我们只需要安装一个模块名 mysqlconnector，它可以通过使用
 
-```
+```py
 pip install mysqlconnector
 ```
 
 现在要在 python 中使用 matplotlib 库，我们还需要安装它。我们可以通过以下方式安装:
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -24,13 +24,13 @@ pip install matplotlib
 
 现在要使用已安装的模块，我们必须用 Python 导入它们。这可以通过以下方式实现:
 
-```
+```py
 import numpy as np 
 ```
 
 这里 np 只是 numpy 的别名。代替 np，我们可以取任何我们想要的名字。它被用来代替 numpy 写 np。
 
-```
+```py
 import matplotlib.pyplot as plt  
 ```
 
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 
 *   我们需要做的第一件事是导入我们之前安装的 mysqlconnector，这可以通过编写:
 
-```
+```py
 import mysql.connector
 ```
 
@@ -56,7 +56,7 @@ import mysql.connector
 
 至此，我们完成了 MySQL 数据库与 Python 的连接。现在我们的目的是从数据库中获取信息，所以我们创建了一个变量，比如 mycursor，它将存储当前数据库的游标。游标允许您迭代查询返回的一组行，并处理每一行以获得所需的信息。
 
-```
+```py
 mycursor=mydb.cursor()
 ```
 
@@ -70,7 +70,7 @@ mycursor=mydb.cursor()
 
 ## 蟒蛇 3
 
-```
+```py
 mycursor.execute("select Name, Marks from student_marks")
 result = mycursor.fetchall
 ```
@@ -79,7 +79,7 @@ result = mycursor.fetchall
 
 ## 蟒蛇 3
 
-```
+```py
 Names = []
 Marks = []
 
@@ -95,7 +95,7 @@ print("Marks of Students = ", Marks)
 
 ## 蟒蛇 3
 
-```
+```py
 # plt.bar to plot a bar graph 
 # with given values
 plt.bar(Names, Marks)
@@ -121,7 +121,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Connecting to mysql database
 import mysql.connector
 import numpy as np

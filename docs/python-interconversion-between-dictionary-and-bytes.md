@@ -7,7 +7,7 @@
 **方法:使用`encode() + dumps() + decode() + loads()`**
 编码和转储功能一起执行将字典转换为字符串，然后转换为相应字节值的任务。这可以使用解码和加载函数进行相互转换，该函数从字节返回字符串，并再次将其转换为字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Interconversion between Dictionary and Bytes
 # Using encode() + dumps() + decode() + loads()
@@ -36,7 +36,7 @@ print("The value after conversion to dict is : " + str(res_dict))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'best': 3, 'is': 2}
 The type after conversion to bytes is : <class 'bytes'>
 The value after conversion to bytes is : b'{"Gfg": 1, "best": 3, "is": 2}'

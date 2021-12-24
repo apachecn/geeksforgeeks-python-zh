@@ -15,7 +15,7 @@ Python 中的 [**OS 模块**](https://www.geeksforgeeks.org/os-module-python-exa
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to change the
 # current working directory
 
@@ -41,7 +41,7 @@ current_path()
 
 **输出:**
 
-```
+```py
 Current working directory before
 C:\Users\Nikhil Aggarwal\Desktop\gfg
 
@@ -53,7 +53,7 @@ C:\Users\Nikhil Aggarwal\Desktop
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to change the
 # current working directory
 

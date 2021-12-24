@@ -29,7 +29,7 @@ AccordionItem 更具可配置性，您可以在项目折叠或打开时设置自
 > item = AccordionItem(background _ normal = ' image _ when _ collapsed . png '，
 > background _ selected = ' image _ when _ selected . png ')
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -44,7 +44,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # How to use Accordion in kivy using .kv file
 
 # Program to Show how to create a switch

@@ -20,7 +20,7 @@
 
 **注:**下面是我们程序的结构，这将在所有六个部分中通用。在提到的地方`# YOUR CODE SNIPPET HERE`，边走边用各部分的代码片段替换。
 
-```
+```py
 import time, os
 from threading import Thread, current_thread
 from multiprocessing import Process, current_process
@@ -66,7 +66,7 @@ if __name__=="__main__":
 
 **第 1 部分:运行 IO 绑定任务两次，一个接一个……**
 
-```
+```py
 # Code snippet for Part 1
 io_bound(SLEEP)
 io_bound(SLEEP)
@@ -78,7 +78,7 @@ io_bound(SLEEP)
 
 **第 2 部分:使用线程运行 IO 绑定的任务……**
 
-```
+```py
 # Code snippet for Part 2
 t1 = Thread(target = io_bound, args =(SLEEP, ))
 t2 = Thread(target = io_bound, args =(SLEEP, ))
@@ -94,7 +94,7 @@ t2.join()
 
 **第 3 部分:运行两次受 CPU 限制的任务，一个接一个……**
 
-```
+```py
 # Code snippet for Part 3
 cpu_bound(COUNT)
 cpu_bound(COUNT)
@@ -106,7 +106,7 @@ cpu_bound(COUNT)
 
 **第 4 部分:线程化能加速我们的 CPU 限制任务吗？**
 
-```
+```py
 # Code snippet for Part 4
 t1 = Thread(target = cpu_bound, args =(COUNT, ))
 t2 = Thread(target = cpu_bound, args =(COUNT, ))
@@ -122,7 +122,7 @@ t2.join()
 
 **第 5 部分:那么，将任务拆分为单独的流程是否可行？**
 
-```
+```py
 # Code snippet for Part 5
 p1 = Process(target = cpu_bound, args =(COUNT, ))
 p2 = Process(target = cpu_bound, args =(COUNT, ))
@@ -140,7 +140,7 @@ p2.join()
 
 **第 6 部分:嘿，让我们使用多处理来处理我们的 IO 限制任务……**
 
-```
+```py
 # Code snippet for Part 6
 p1 = Process(target = io_bound, args =(SLEEP, ))
 p2 = Process(target = io_bound, args =(SLEEP, ))

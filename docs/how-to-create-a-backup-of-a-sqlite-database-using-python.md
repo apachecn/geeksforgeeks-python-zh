@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 import sqlite3
 import io
 from sqlite3 import Error

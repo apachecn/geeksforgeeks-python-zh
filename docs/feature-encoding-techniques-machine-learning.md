@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # data preprocessing
 import pandas as pd  
 # for linear calculations
@@ -47,7 +47,7 @@ df.head(10)   
 
 ## 蟒蛇 3
 
-```
+```py
 # you can always use simple mapping on binary features.
 df['bin_1'] = df['bin_1'].apply(lambda x: 1 if x =='T' else (0 if x =='F' else None)) 
 df['bin_2'] = df['bin_2'].apply(lambda x: 1 if x =='Y' else (0 if x =='N' else None))
@@ -70,7 +70,7 @@ sns.countplot(df['bin_2'])
 
 ## 蟒蛇 3
 
-```
+```py
 # labelEncoder present in scikitlearn library
 from sklearn.preprocessing import LabelEncoder  
 le = LabelEncoder()
@@ -96,7 +96,7 @@ sns.countplot(df['ord_2'])
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.preprocessing import OneHotEncoder
 enc = OneHotEncoder()
 # transforming the column after fitting
@@ -120,7 +120,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.get_dummies(df, prefix = ['nom_0'], columns = ['nom_0'])
 df.head(10)
 ```
@@ -138,7 +138,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # grouping by frequency
 fq = df.groupby('nom_0').size()/len(df)   
 # mapping values to dataframe
@@ -164,7 +164,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.preprocessing import OrdinalEncoder
 ord1 = OrdinalEncoder()
 # fitting encoder
@@ -185,7 +185,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a dictionary
 temp_dict ={'Cold':1, 'Warm':2, 'Hot':3} 
 # mapping values in column from dictionary
@@ -206,7 +206,7 @@ df = df.drop(['ord_2'], axis = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 from category_encoders import BinaryEncoder 
 encoder = BinaryEncoder(cols =['ord_2']) 
 # transforming the column after fitting
@@ -230,7 +230,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.feature_extraction import FeatureHasher
 # n_features contains the number of bits you want in your hash value.
 h = FeatureHasher(n_features = 3, input_type ='string') 
@@ -253,7 +253,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # inserting Target column in the dataset since it needs a target
 df.insert(5, "Target", [0, 1, 1, 0, 0, 1, 0, 0, 0, 1], True) 
 # importing TargetEncoder

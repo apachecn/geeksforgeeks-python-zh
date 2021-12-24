@@ -24,7 +24,7 @@
 
 **Python 实现:**
 
-```
+```py
 # importing Python library
 import numpy as np
 
@@ -58,7 +58,7 @@ print("NOT({}) = {}".format(0, NOT_logicFunction(test2)))
 
 **Output:**
 
-```
+```py
 NOT(1) = 0
 NOT(0) = 1
 

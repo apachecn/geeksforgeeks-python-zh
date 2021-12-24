@@ -18,14 +18,14 @@ Python 中的 Break 语句用于在某些外部条件被触发时将控件带出
 
 **语法:**
 
-```
+```py
 break
 
 ```
 
 **示例:**
 
-```
+```py
 # Python program to
 # demonstrate break statement
 
@@ -59,7 +59,7 @@ print("Out of while loop")
 
 **输出:**
 
-```
+```py
 g
 e
 Out of for loop

@@ -21,7 +21,7 @@
 > 贾巴
 > gfg
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -39,13 +39,13 @@ print(pwl.check("gfg"))
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例 2:** 使用`add()`向 PWL 词典添加新单词。
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -91,7 +91,7 @@ else:
 
 **输出:**
 
-```
+```py
 File contents:
 qwerty
 jabba

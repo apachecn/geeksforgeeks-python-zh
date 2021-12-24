@@ -12,7 +12,7 @@ Excel 是一个非常有用的工具，我们可以将数据以行和列的格�
 
 要安装这些软件包，请在终端中键入以下命令。
 
-```
+```py
 # for writing into excel
 pip install xlwt
 
@@ -31,7 +31,7 @@ pip install xlrd
 
 ## 蟒蛇 3
 
-```
+```py
 import xlwt
 import xlrd
 
@@ -83,7 +83,7 @@ newWorkbookForTextReplacement.save('sampleexcelwithreplacedtext.xls')
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install openpyxl
 
 ```
@@ -98,7 +98,7 @@ openpyxl 包的优点是可以用来读写 xlsx/xlsm/xltx/xltm 文件。下面�
 
 ## 蟒蛇 3
 
-```
+```py
 # Reading and writing in excel can be done by single module
 import openpyxl
 from openpyxl.utils.cell import get_column_letter

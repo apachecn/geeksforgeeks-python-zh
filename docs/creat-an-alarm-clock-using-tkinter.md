@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 import datetime
@@ -63,7 +63,7 @@ import winsound
 
 ## 蟒蛇 3
 
-```
+```py
 def alarm():
     # Infinite Loop
     while True:
@@ -93,7 +93,7 @@ def alarm():
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 from tkinter import *
 import datetime

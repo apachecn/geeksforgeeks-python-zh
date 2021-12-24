@@ -10,7 +10,7 @@ HTTP 协议中来自客户端的请求到达服务器并获取一些数据，假
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 import requests
 

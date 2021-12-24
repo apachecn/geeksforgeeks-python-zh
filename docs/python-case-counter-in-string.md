@@ -7,7 +7,7 @@
 **方法#1:使用`map() + sum() + isupper() + islower()`**
 上述功能的组合可用于执行该任务。在本文中，我们分别使用 sum()和 map()以及各自的内置函数来提取计数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Case Counter in String
 # using map() + sum() + isupper + islower
@@ -30,7 +30,7 @@ print("The count of Lower case characters : " + str(res_lower))
 
 **Output :**
 
-```
+```py
 The original string is : GFG is For GeeKs
 The count of Upper case characters : 6
 The count of Lower case characters : 7

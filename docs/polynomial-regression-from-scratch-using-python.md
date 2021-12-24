@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 
 import numpy as np
@@ -75,7 +75,7 @@ if __name__ == "__main__" :
 
 如输出可视化所示，线性回归甚至未能很好地拟合训练数据(或者未能解码 Y 方向相对于 X 方向的模式)。因为它的假设函数本质上是线性的，而 Y 是数据中 X 的非线性函数。
 
-```
+```py
 For univariate linear regression : 
 
 h( x ) = w * x
@@ -86,7 +86,7 @@ and w is the weight vector.
 
 这个问题也被称为**下拟合**。为了克服欠拟合，我们引入了新的特征向量，只需在原始特征向量上加幂即可。
 
-```
+```py
 For univariate polynomial regression : 
 
 h( x ) = w<sub>1x + w2x<sup>2  + .... + wnxn</sup></sub> 
@@ -99,7 +99,7 @@ where x2 is the derived feature from x.
 
 ## 计算机编程语言
 
-```
+```py
 # Importing libraries
 
 import numpy as np

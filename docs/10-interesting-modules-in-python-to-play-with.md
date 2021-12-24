@@ -18,7 +18,7 @@ Python 是一种高级、解释和通用的动态编程语言，侧重于代码�
 
 Pyperclip 没有附带 Python。安装时，按照[安装第三方模块](https://docs.python.org/3/installing/index.html)的说明进行。安装模块后，在集成开发环境中输入以下内容:
 
-```
+```py
 # Python program to
 # demonstrate pyperclip module
 
@@ -41,19 +41,19 @@ pyperclip.paste()
 
 在终点站。使用:
 
-```
+```py
 pip install emoji 
 
 ```
 
 升级到最新的表情包。这是如何做到的:
 
-```
+```py
 pip install emoji --upgrade
 
 ```
 
-```
+```py
 from emoji import emojize
 print(emojize(":thumbs_up:"))
 ```
@@ -61,7 +61,7 @@ print(emojize(":thumbs_up:"))
 使用[表情小抄](https://www.webfx.com/tools/emoji-cheat-sheet/)找到你最喜欢的表情。
 或者，可以从表情模块使用 `encode()`功能将 Unicode 转换为表情:
 
-```
+```py
 import emojis
 emojified = emojis.encode("There is a :snake: in my boot !")
 print(emojified)
@@ -75,28 +75,28 @@ print(emojified)
 
 通过以下方式安装 howdoi 模块:
 
-```
+```py
 pip install howdoi
 
 ```
 
 或者通过以下方式从 Python 安装:
 
-```
+```py
 python setup.py install
 
 ```
 
 无论你有什么问题，它都会尽力回答。
 
-```
+```py
 howdoi make trees in Python
 howdoi commit in git
 ```
 
 从现在开始，你不需要打开这些浏览器进行快速搜索，就能获得大量的广告和干扰。你好！
 
-```
+```py
 howdoi use Howdoi in Python
 ```
 
@@ -105,14 +105,14 @@ howdoi use Howdoi in Python
 好像 howdoi 还不够，我们现在可以导入整个维基百科了！是的，我们现在可以使用`Wikipedia` 模块导入 Python 中的维基百科。用 Python 源源不断的知识满足日常需求。
 安装方式:
 
-```
+```py
 pip install wikipedia
 
 ```
 
 并将其用作:
 
-```
+```py
 import wikipedia
 result = wikipedia.page("GeeksforGeeks")
 print(result.summary)
@@ -120,7 +120,7 @@ print(result.summary)
 
 如果您希望从摘要中获得特定数量的句子，只需将其作为参数传递给`summary()`函数:
 
-```
+```py
 import wikipedia
 print(wikipedia.summary("Debugging", sentences = 2))
 ```
@@ -129,7 +129,7 @@ print(wikipedia.summary("Debugging", sentences = 2))
 
 这可以以完全动态的方式创建新类型。这和创建一个类是一样的，但是你可以向你的朋友展示一些新的东西。
 
-```
+```py
 # Python program to
 # create new type object
 
@@ -146,7 +146,7 @@ print(New.attr)
 
 **输出:**
 
-```
+```py
 <class '__main__.NewType'>
 hello newtype
 
@@ -154,7 +154,7 @@ hello newtype
 
 上述代码与以下代码相同:
 
-```
+```py
 # Creates a class
 class NewType:
     attr = "hello newtype"
@@ -171,7 +171,7 @@ print(New.attr)
 
 **输出:**
 
-```
+```py
 <class '__main__.NewType'>
 hello newtype
 
@@ -183,7 +183,7 @@ hello newtype
 
 有没有想过蟒蛇在引擎盖下做什么？使用标准库模块 dis，您可以轻松地查看。
 
-```
+```py
 # This will import
 # dis module
 import dis
@@ -205,7 +205,7 @@ dis.dis(newFunc)
 
 **输出:**
 
-```
+```py
 Result:
   8           0 LOAD_GLOBAL              0 (str)
               3 LOAD_FAST                0 (number)
@@ -234,14 +234,14 @@ Result:
 
 安装时请使用:
 
-```
+```py
 pip install antigravity
 
 ```
 
 然后在集成开发环境中键入这个，看看它的神奇之处:
 
-```
+```py
 import antigravity
 ```
 
@@ -251,7 +251,7 @@ import antigravity
 
 您可能以前使用过 sys 模块，但是您知道您可以使用它提前退出程序吗？我们可以通过调用`sys.exit()`函数使程序终止。由于该功能在`sys`模块中，首先需要导入`sys` 模块。这不是第三方模块，内置 Python，所以不需要安装。
 
-```
+```py
 # This will import 
 # sys module
 import sys
@@ -267,7 +267,7 @@ while True:
 
 如果输入是:
 
-```
+```py
 "Geeky"
 "GeeksforGeeks"
 "exit"
@@ -276,7 +276,7 @@ while True:
 
 输出将是:
 
-```
+```py
 Type 'exit' to exit
 You typed Geeky
 
@@ -299,7 +299,7 @@ Urllib 是一个包，它收集了几个用于处理 URL 的模块，例如:
 *   引发的异常的 urllib.error
 *   用于解析 robot.txt 文件的 urllib.robotparser
 
-```
+```py
 # This will import urlopen
 # class from urllib module
 from urllib.request import urlopen
@@ -310,7 +310,7 @@ print(page.headers)
 
 输出将是:
 
-```
+```py
 Server: Apache
 Strict-Transport-Security: max-age=3600; includeSubDomains
 Access-Control-Allow-Credentials: true
@@ -331,7 +331,7 @@ Server-Timing: edge; dur=1
 
 也可以使用`read()`功能查看网站的编码:
 
-```
+```py
 # This will import urlopen
 # class from urllib module
 
@@ -352,7 +352,7 @@ print(content)
 
 是的，乌龟可以进口。别担心，它不慢。海龟是一个 Python 模块来绘制的。它的应用非常广泛，有很多方法可以在[这里](https://docs.python.org/2/library/turtle.html)了解。但是只需要一些基本的东西，就可以完成非常酷的事情。这个模块内置了 Python，所以不需要安装。
 
-```
+```py
 # This will import turtle module
 import turtle
 

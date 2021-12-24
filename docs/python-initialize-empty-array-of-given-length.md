@@ -12,13 +12,13 @@
 
 **语法:**
 
-```
+```py
 list1 = [0] * size
 list2 = [None] * size
 
 ```
 
-```
+```py
 # initializes all the 10 spaces with 0’s
 a = [0] * 10 
 
@@ -36,7 +36,7 @@ print (a, "\n", b, "\n", c, "\n", d);
 
 **Output:**
 
-```
+```py
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
 [None, None, None, None, None, None, None, None, None, None] 
 ['A', 'A', 'A', 'A', 'A'] 
@@ -48,12 +48,12 @@ print (a, "\n", b, "\n", c, "\n", d);
 
 **语法:**
 
-```
+```py
 a = [0 for x in range(size)] #using loops
 
 ```
 
-```
+```py
 a = []
 b = []
 
@@ -71,7 +71,7 @@ print(b)
 
 **Output:**
 
-```
+```py
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 [[None, None], [None, None]]
@@ -80,7 +80,7 @@ print(b)
 
 **方法 3–**使用 Numpy 创建空数组。
 
-```
+```py
 import numpy
 
 # create a simple array with numpy empty()
@@ -94,7 +94,7 @@ print(matrix)
 
 **输出:**
 
-```
+```py
 [None None None None None]
 
 [[None None None None None]

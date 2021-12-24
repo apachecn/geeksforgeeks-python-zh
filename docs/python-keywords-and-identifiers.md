@@ -66,7 +66,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 print("example of True, False, and, or not keywords")
 
 #  compare two operands using and operator
@@ -81,7 +81,7 @@ print(not False)
 
 **输出:**
 
-```
+```py
 example of True, False, and, or not keywords
 True
 True
@@ -92,7 +92,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # execute for loop
 for i in range(1, 11):
 
@@ -111,7 +111,7 @@ for i in range(1, 11):
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -123,7 +123,7 @@ for i in range(1, 11):
 
 ## 计算机编程语言
 
-```
+```py
 # run for loop
 for t in range(1, 5):
   # print one of t ==1
@@ -138,7 +138,7 @@ for t in range(1, 5):
 
 **输出:**
 
-```
+```py
 One
 Two
 else block execute
@@ -149,7 +149,7 @@ else block execute
 
 ## 计算机编程语言
 
-```
+```py
 # define GFG() function using def keyword
 def GFG():
     i=20
@@ -166,7 +166,7 @@ GFG()
 
 **输出:**
 
-```
+```py
 given number is even
 ```
 
@@ -174,7 +174,7 @@ given number is even
 
 ## 计算机编程语言
 
-```
+```py
 def fun(num):
     try:
         r = 1/num
@@ -189,7 +189,7 @@ print(fun(0))
 
 **输出:**
 
-```
+```py
 0.1
 Exception raies
 None
@@ -199,7 +199,7 @@ None
 
 ## 计算机编程语言
 
-```
+```py
 # define a anonymous using lambda keyword
 # this lambda function increment the value of b
 a = lambda b: b+1
@@ -211,7 +211,7 @@ for i in range(1, 6):
 
 **输出:**
 
-```
+```py
 2
 3
 4
@@ -223,7 +223,7 @@ for i in range(1, 6):
 
 ## 计算机编程语言
 
-```
+```py
 # define a function
 def fun():
   # declare a variable
@@ -239,7 +239,7 @@ print(t)
 
 **输出:**
 
-```
+```py
 5
 ```
 
@@ -247,7 +247,7 @@ print(t)
 
 ## 计算机编程语言
 
-```
+```py
 # create a list
 l = ['a', 'b', 'c', 'd', 'e']
 
@@ -262,7 +262,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['a', 'b', 'c', 'd', 'e']
 ['a', 'b', 'd', 'e']
 ```
@@ -271,7 +271,7 @@ print(l)
 
 ## 计算机编程语言
 
-```
+```py
 # declare a variable
 gvar = 10
 
@@ -295,7 +295,7 @@ fun2()
 
 **输出:**
 
-```
+```py
 10
 ```
 
@@ -303,7 +303,7 @@ fun2()
 
 ## 计算机编程语言
 
-```
+```py
 def Generator():
     for i in range(6):
         yield i+1
@@ -315,7 +315,7 @@ for i in t:
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -328,7 +328,7 @@ for i in t:
 
 ## 蟒蛇 3
 
-```
+```py
 def sumOfMoney(money):
     assert len(money) != 0,"List is empty."
     return sum(money)
@@ -339,6 +339,6 @@ print("sum of money:",sumOfMoney(money))
 
 **输出:**
 
-```
+```py
 AssertionError: List is empty.
 ```

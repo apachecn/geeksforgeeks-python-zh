@@ -12,7 +12,7 @@
 
 **3。divide() :-** 此功能用于执行**元素矩阵划分**。
 
-```
+```py
 # Python code to demonstrate matrix operations
 # add(), subtract() and divide()
 
@@ -38,7 +38,7 @@ print (numpy.divide(x,y))
 
 输出:
 
-```
+```py
 The element wise addition of matrix is : 
 [[ 8 10]
  [13 15]]
@@ -55,7 +55,7 @@ The element wise division of matrix is :
 
 **5。dot() :-** 该函数用于计算**矩阵乘法，而不是元素乘法**。
 
-```
+```py
 # Python code to demonstrate matrix operations
 # multiply() and dot()
 
@@ -77,7 +77,7 @@ print (numpy.dot(x,y))
 
 输出:
 
-```
+```py
 The element wise multiplication of matrix is : 
 [[ 7 16]
  [36 50]]
@@ -93,7 +93,7 @@ The product of matrices is :
 
 **8。“T”:-**此参数用于**转置**指定的矩阵。
 
-```
+```py
 # Python code to demonstrate matrix operations
 # sqrt(), sum() and "T"
 
@@ -127,7 +127,7 @@ print (x.T)
 
 输出:
 
-```
+```py
 The element wise square root is : 
 [[ 1\.          1.41421356]
  [ 2\.          2.23606798]]

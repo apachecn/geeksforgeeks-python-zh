@@ -10,7 +10,7 @@
 
 ### 创建表 SQL 命令:
 
-```
+```py
 '''CREATE TABLE DETAILS(employee_id int NOT NULL, employee_name char(20),
          employee_email varchar(30), employee_salary float);'''
 ```
@@ -23,7 +23,7 @@
 
 我们遍历字典值，并将它们插入到表中。每次插入都会执行下面的 SQL 语句。
 
-```
+```py
 '''insert into DETAILS(employee_id , employee_name ,
          employee_email , employee_salary) VALUES{};'''
 ```
@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # connection establishment
@@ -77,7 +77,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 (187643, 'sarah               ', 'sarahpaul@gmail.com', 65000.0)
 (187644, 'rahul               ', 'rahul101@gmail.com', 75000.0)
 (187645, 'arjun               ', 'arjun234@gmail.com', 70000.0)

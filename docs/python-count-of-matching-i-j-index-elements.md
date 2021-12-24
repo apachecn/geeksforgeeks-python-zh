@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，迭代列表的每个元素，检查每个字符串的 ith 和 jth 字符，并增加计数器，以防我们发现匹配。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Count of Matching i, j index elements
 # Using loop
@@ -37,7 +37,7 @@ print("Total Strings with similar ith and jth elements : " + str(count))
 
 **Output :**
 
-```
+```py
 The original list : ['geeks', 'beke', 'treat', 'neke']
 Total Strings with similar ith and jth elements : 2
 

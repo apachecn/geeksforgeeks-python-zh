@@ -8,7 +8,7 @@ python 中的 *beeply* 模块将帮助您使用计算机特有的哔哔声来制
 
 **安装:**
 
-```
+```py
 pip install beeply
 ```
 
@@ -30,7 +30,7 @@ pip install beeply
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from beeply.notes import *
 
@@ -59,7 +59,7 @@ a.hear("A")
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from beeply.notes import *
 

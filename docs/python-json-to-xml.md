@@ -39,20 +39,20 @@ JSON 和 XML 文件格式都用于在客户机和服务器之间传输数据。
 
 步骤 1:导入 json 模块
 
-```
+```py
 import json as JS
 ```
 
 步骤 2:导入 xml.etree.ElementTree 模块
 
-```
+```py
 import xml.etree.ElementTree as ET
 ```
 
 第三步:读取 json 文件
 这里，**“数据”**是我们加载 JSON 数据的变量。
 
-```
+```py
 with open("quiz.json", "r") as json_file:
     data = JS.load(json_file);
 
@@ -61,7 +61,7 @@ with open("quiz.json", "r") as json_file:
 步骤 4:构建根元素
 每个 xml 文件必须只有一个根元素
 
-```
+```py
 root = ET.Element("quiz")
 ```
 
@@ -71,19 +71,19 @@ root = ET.Element("quiz")
 *   **root-** 是存储根元素的变量的名称。
 *   **子元素 _ 名称:**是子元素的名称。示例:
 
-```
+```py
 Maths = ET.SubElement(root, "maths")
 ```
 
 步骤 6:建立 xml 文档的树
 
-```
+```py
 tree = ET.ElementTree(root)
 ```
 
 第七步:将 xml 编写成测试文件
 
-```
+```py
 tree.write("quiz.xml")
 ```
 
@@ -95,7 +95,7 @@ tree.write("quiz.xml")
 
 ![python-json-to-xml](img/7c455096ed7fdd7fff4cef72d720b585.png)
 
-```
+```py
 # Program to read JSON file 
 # and generate its XML file
 

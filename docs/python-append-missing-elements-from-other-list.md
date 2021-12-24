@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Missing elements from other List
 # Using list comprehension
@@ -43,7 +43,7 @@ print("The modified list 2 : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [5, 6, 4, 8, 9, 1]
 The original list 2 is : [9, 8, 7]
 The modified list 2 : [5, 6, 4, 1, 9, 8, 7]
@@ -56,7 +56,7 @@ The modified list 2 : [5, 6, 4, 1, 9, 8, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Append Missing elements from other List
 # Using set() + "-" operator + extend()
@@ -84,7 +84,7 @@ print("The modified list 2 : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [5, 6, 4, 8, 9, 1]
 The original list 2 is : [9, 8, 7]
 The modified list 2 : [5, 6, 4, 1, 9, 8, 7]

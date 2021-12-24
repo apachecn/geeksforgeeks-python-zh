@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -46,7 +46,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 +-----------+-------------+------------+
 |Employee ID|Employee NAME|Company Name|
 +-----------+-------------+------------+
@@ -70,7 +70,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # delete single column
 dataframe = dataframe.drop('Employee ID')
 dataframe.show()
@@ -78,7 +78,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 +-------------+------------+
 |Employee NAME|Company Name|
 +-------------+------------+
@@ -102,7 +102,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # delete two columns
 dataframe = dataframe.drop(*('Employee NAME',
                              'Employee ID'))
@@ -111,7 +111,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 +------------+
 |Company Name|
 +------------+
@@ -131,7 +131,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 list = ['Employee ID','Employee NAME','Company Name']
 
 # delete two columns
@@ -141,7 +141,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 ++
 ||
 ++

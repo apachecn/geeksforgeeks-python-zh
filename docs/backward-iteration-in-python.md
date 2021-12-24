@@ -7,7 +7,7 @@
 **方法#1:使用`reversed()`**
 最简单的方法是对`for`循环使用反向函数，迭代将从后面开始，而不是传统的计数。
 
-```
+```py
 # Python3 code to demonstrate 
 # backward iteration
 # using reversed()
@@ -24,7 +24,7 @@ for num in reversed(range(N + 1)) :
 
 **Output :**
 
-```
+```py
 The reversed numbers are : 6 5 4 3 2 1 0 
 
 ```

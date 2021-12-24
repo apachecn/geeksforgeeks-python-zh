@@ -21,7 +21,7 @@ Pygal 是一个 Python 模块，主要用于构建 SVG(标量矢量图形)图形
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -53,7 +53,7 @@ Radar_Chart.render_to_png('aa.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

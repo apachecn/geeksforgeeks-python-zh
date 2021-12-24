@@ -17,7 +17,7 @@
 
 要安装 cherrypy，请在终端中运行以下命令:
 
-```
+```py
 pip install cherrypy
 
 ```
@@ -31,7 +31,7 @@ pip install cherrypy
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 <head>
 
@@ -57,7 +57,7 @@ pip install cherrypy
 
 ## 蟒蛇 3
 
-```
+```py
 import cherrypy
 
 class Root(object):
@@ -121,7 +121,7 @@ if __name__=="__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import cherrypy
 
 class Root(object):

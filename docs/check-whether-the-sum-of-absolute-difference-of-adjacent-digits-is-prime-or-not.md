@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: N = 142 
 Output: Prime
 Sum = |1-4| + |4-2| = 5 i.e. prime.
@@ -20,7 +20,7 @@ Output: Not prime
 
 ## C++
 
-```
+```py
 // C++ implementation of the above approach
 #include<bits/stdc++.h>
 
@@ -70,7 +70,7 @@ return 0;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the above approach
 import java.util.*;
 
@@ -120,7 +120,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the above approach
 import math as mt
 
@@ -164,7 +164,7 @@ else:
 
 ## C#
 
-```
+```py
 // C# implementation of the above approach
 using System;
 
@@ -212,7 +212,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript implementation of the above approach
@@ -260,7 +260,7 @@ else
 
 **Output:** 
 
-```
+```py
 Prime
 ```
 

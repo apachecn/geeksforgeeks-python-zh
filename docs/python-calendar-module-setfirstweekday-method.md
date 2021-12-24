@@ -9,7 +9,7 @@
 **`setfirstweekday()`** 方法将工作日(0 为周一，6 为周日)设置为每周开始。为方便起见，提供了值“星期一”、“星期二”、“星期三”、“星期四”、“星期五”、“星期六”和“星期日”。
 例如，将第一个工作日设置为周日。
 
-```
+```py
 Syntax: setfirstweekday()
 Parameter: no parameter
 Returns: None
@@ -17,7 +17,7 @@ Returns: None
 
 **代码#1:**
 
-```
+```py
 # Python program to explain working of setfirstweekday() method
 
 # importing calendar module
@@ -32,13 +32,13 @@ print(val)
 
 **输出:**
 
-```
+```py
 None
 ```
 
 **代码#2:** 用`prmonth()`方法解释`setfirstweekday()`方法的工作
 
-```
+```py
 # Python code to demonstrate the working of 
 # setfirstweekday() with prmonth() method
 
@@ -61,7 +61,7 @@ print (calendar.firstweekday()) 
 
 **输出:**
 
-```
+```py
 The 4th month of 1997 is : 
      April 1997
 Mo Tu We Th Fr Sa Su

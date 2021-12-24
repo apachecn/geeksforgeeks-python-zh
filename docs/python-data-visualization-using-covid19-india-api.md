@@ -15,7 +15,7 @@
 
 **安装模块的命令:**
 
-```
+```py
 pip install matplotlib
 pip install requests
 pip install pandas
@@ -34,7 +34,7 @@ pip install pandas
 
 ## 蟒蛇 3
 
-```
+```py
 #importing modules
 import json
 import requests
@@ -46,7 +46,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 #storing the url in the form of string
 url="https://api.covid19india.org/state_district_wise.json"
 
@@ -61,7 +61,7 @@ def casesData():
 
 ## 蟒蛇 3
 
-```
+```py
 # getting statewise data
 for state in states:
         f = (data[state]['districtData'])
@@ -111,7 +111,7 @@ for state in states:
 
 ## 蟒蛇 3
 
-```
+```py
 # getting statewise data
 for state in states:
     f = (data[state]['districtData'])
@@ -143,7 +143,7 @@ for state in states:
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a dataframe
 df = pd.DataFrame(tc, dis, parameters)
 print('COVID - 19', state, 'District Wise Data')
@@ -154,7 +154,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting of data
 plt.bar(dis, df['Active'], width=0.5, align='center')
 fig = plt.gcf()
@@ -168,7 +168,7 @@ print('*'*100)
 
 ## 蟒蛇 3
 
-```
+```py
 # function to get data from api
 def casesData():
     # getting the json data by calling api
@@ -223,7 +223,7 @@ def casesData():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import json
 import requests

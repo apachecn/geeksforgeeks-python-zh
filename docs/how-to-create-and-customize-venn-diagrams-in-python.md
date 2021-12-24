@@ -12,7 +12,7 @@
 
 在你的电脑中安装 **matplotlib-venn** 库(这里我们使用了工具 **Pycharm** )前往终端并使用以下命令。
 
-```
+```py
 pip install matplotlib-venn
 ```
 
@@ -20,7 +20,7 @@ pip install matplotlib-venn
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from matplotlib_venn import venn2 
 from matplotlib import pyplot as plt
@@ -54,7 +54,7 @@ plt.show()
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import modules
 from matplotlib_venn import venn2_unweighted 
 from matplotlib import pyplot as plt
@@ -78,7 +78,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import modules
 from matplotlib_venn import venn2,venn2_circles
 from matplotlib import pyplot as plt
@@ -105,7 +105,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import modules
 from matplotlib_venn import venn2, venn2_circles
 from matplotlib import pyplot as plt
@@ -132,7 +132,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import modules
 from matplotlib_venn import venn2, venn2_circles
 from matplotlib import pyplot as plt
@@ -162,7 +162,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import module
 from matplotlib_venn import venn3, venn3_circles
 from matplotlib import pyplot as plt
@@ -191,7 +191,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#import module
 from matplotlib_venn import venn3, venn3_circles
 from matplotlib import pyplot as plt

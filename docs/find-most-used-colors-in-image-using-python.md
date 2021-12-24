@@ -12,26 +12,26 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 读取 PIL 的图像，我们使用**图像**方法。
 
-```
+```py
 # Read an Image
 img = Image.open('File Name')
 ```
 
 **2。**转换为 RGB 图像
 
-```
+```py
 img.convert('RGB')
 ```
 
 **3。**获取图像的宽度和高度
 
-```
+```py
 width, height = img.size
 ```
 
 **4。**迭代图像的所有像素，并从该像素获得 **R，G，B** 值
 
-```
+```py
 for x in range(0, width):
     for y in range(0, height):
         r, g, b = img.getpixel((x,y))
@@ -50,7 +50,7 @@ for x in range(0, width):
 
 遍历所有像素，并将每种颜色添加到不同的初始化变量中。
 
-```
+```py
 r_total = 0
 g_total = 0
 b_total = 0
@@ -66,7 +66,7 @@ print(r_total, g_total, b_total)
 
 **输出:**
 
-```
+```py
 (29821623, 32659007, 33290689)
 ```
 
@@ -76,7 +76,7 @@ print(r_total, g_total, b_total)
 
 计数= 0
 
-```
+```py
 Divide total color value by count
 ```
 
@@ -88,7 +88,7 @@ Divide total color value by count
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from PIL import Image
 
@@ -131,7 +131,7 @@ print(common_color)
 
 **输出:**
 
-```
+```py
 # Most Used color is Blue
 (179.6483313253012, 196.74100602409638, 200.54631927710844)
 ```

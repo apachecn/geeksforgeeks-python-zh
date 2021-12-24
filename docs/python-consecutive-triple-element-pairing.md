@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以很容易地用来执行这个特殊的任务，但是要连续制作第 I 个、(i+1)个和(i+2)个元素对。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive Triple element pairing
 # using list comprehension
@@ -28,7 +28,7 @@ print("The consecutive element triple paired list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 4, 1, 3, 2]
 The consecutive element triple paired list is : [[5, 4, 1], [4, 1, 3], [1, 3, 2]]
 

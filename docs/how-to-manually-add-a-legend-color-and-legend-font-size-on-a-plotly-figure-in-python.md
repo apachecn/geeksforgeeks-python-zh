@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import plotly.express as px
 
@@ -40,7 +40,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import plotly.express as px
 

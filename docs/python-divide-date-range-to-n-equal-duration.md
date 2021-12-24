@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert date range to N equal durations
 # Using loop
@@ -72,7 +72,7 @@ print("N equal duration dates : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert date range to N equal durations
 # Using generator function

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们使用循环来迭代元组中的每个值，并测试它的 K，如果我们发现任何元素是非 K，则返回 False。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if tuple list has all K
 # Using loop
@@ -41,7 +41,7 @@ print("Are all elements K ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 4), (4, 4, 4), (4, 4), (4, 4, 4, 4), (4, )]
 Are all elements K ? : True
 
@@ -50,7 +50,7 @@ Are all elements K ? : True
 **方法 2:使用`all() + any()`**
 这是回答这个问题的又一种方式。在本例中，我们使用 all()检查所有元素是否为 K，并使用 outer any()检查它们中是否有任何元素不遵循此行为。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if tuple list has all K
 # Using all() + any()
@@ -74,7 +74,7 @@ print("Are all elements K ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 4), (4, 4, 4), (4, 4), (4, 4, 4, 4), (4, )]
 Are all elements K ? : True
 

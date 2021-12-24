@@ -12,7 +12,7 @@
 
 **2。更新(dic)** :-该功能用于**更新字典添加其他字典键**。
 
-```
+```py
 # Python code to demonstrate working of
 # fromkeys() and update()
 
@@ -42,7 +42,7 @@ print (str(dict))
 
 输出:
 
-```
+```py
 The updated dictionary is : 
 {'Age': 19, 'Name': 'Nandini', 'ID': 2541997}
 The new dictionary values are : 
@@ -54,7 +54,7 @@ The new dictionary values are :
 
 **4。get(key，def_val)** :-该函数返回与参数中提到的键关联的**键值。如果键不存在，则返回默认值。**
 
-```
+```py
 # Python code to demonstrate working of
 # has_key() and get()
 
@@ -77,7 +77,7 @@ print (str(dict))
 
 输出:
 
-```
+```py
 Name is a key
 The value associated with ID is : 
 Not Present
@@ -88,7 +88,7 @@ The dictionary values are :
 
 **5。setdefault(key，def_value)** :-该功能还会**搜索一个 key** 并像 get()一样显示其值，但是如果 key 不存在，它会**用 def_value** 创建一个新的 key。
 
-```
+```py
 # Python code to demonstrate working of
 # setdefault()
 
@@ -106,7 +106,7 @@ print (str(dict))
 
 输出:
 
-```
+```py
 The value associated with Age is : No ID
 The dictionary values are : 
 {'Name': 'Nandini', 'Age': 19, 'ID': 'No ID'}

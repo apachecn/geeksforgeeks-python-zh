@@ -7,7 +7,7 @@
 **方法#1:使用`extend()`**
 这可以使用扩展函数来解决，在扩展函数中，可以使用范围函数在后端插入数字范围。
 
-```
+```py
 # Python3 code to demonstrate
 # Assigning range of elements to List
 # using extend()
@@ -28,7 +28,7 @@ print("The list after adding range elements : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [3, 5, 6, 8]
 The list after adding range elements : [3, 5, 6, 8, 0, 1, 2, 3, 4, 5]
 

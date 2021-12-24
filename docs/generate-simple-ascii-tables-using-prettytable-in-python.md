@@ -9,7 +9,7 @@ Prettytable 是一个 Python 库，用于以吸引人的形式打印 ASCII 表�
 为了能够使用可修改的库，我们首先需要使用画中画工具命令
 安装它:
 
-```
+```py
 pip install prettytable
 
 ```
@@ -25,7 +25,7 @@ pip install prettytable
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 
@@ -58,7 +58,7 @@ print(x)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 
@@ -100,7 +100,7 @@ print(x)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 
@@ -144,7 +144,7 @@ print(x)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 
@@ -192,7 +192,7 @@ print(x)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 
@@ -230,7 +230,7 @@ print(x.get_string(fields=["First name", "Salary", "City"]))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing required library
 from prettytable import PrettyTable
 

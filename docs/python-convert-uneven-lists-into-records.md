@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `enumerate()` +列表切片**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用字典理解进行迭代，并通过切片提取记录值来枚举和形成期望的结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Uneven Lists into Records
 # Using dictionary comprehension + enumerate() + list slicing

@@ -23,7 +23,7 @@ Elias gamma 码是一种通用码，用于对正整数序列进行编码。它�
 
     下面是上述方法的实现。
 
-    ```
+    ```py
     # Python3 implementation
     from math import log
 
@@ -52,6 +52,6 @@ Elias gamma 码是一种通用码，用于对正整数序列进行编码。它�
 
     **输出:**
 
-    ```
+    ```py
     0001010
     ```

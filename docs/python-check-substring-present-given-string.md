@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : s1 = geeks s2=geeks for geeks
 Output : yes
 
@@ -19,7 +19,7 @@ Output : yes
 find()函数返回-1 如果没有找到，否则返回第一个出现的，所以使用这个函数这个问题可以解决。
 **方法一:使用自定义函数。**
 
-```
+```py
 # function to check if small string is 
 # there in big string
 def check(string, sub_str):
@@ -36,14 +36,14 @@ check(string, sub_str)
 
 **输出:**
 
-```
+```py
 YES          
 
 ```
 
 **方法二:使用“count()”方法:-**
 
-```
+```py
 def check(s2, s1): 
     if (s2.count(s1)>0):     
         print("YES") 
@@ -57,7 +57,7 @@ check(s2, s1) 
 
 **输出:**
 
-```
+```py
 YES          
 
 ```
@@ -65,7 +65,7 @@ YES
 **方法 3:使用正则表达式**
 正则表达式可以用来检查字符串是否包含指定的搜索模式。Python 有一个名为 **re** 的内置包，可以用来处理正则表达式。
 
-```
+```py
 # When you have imported the re module, you can start using regular expressions.
 import re
 
@@ -82,6 +82,6 @@ else:
 
 **输出:**
 
-```
+```py
 YES,string 'geek' is present in string 'A geek in need is a geek indeed' 
 ```

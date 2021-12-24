@@ -10,13 +10,13 @@
 
 为了做到这一点，我们需要导入`platform`模块。
 
-```
+```py
 import platform
 ```
 
 下面是 Python 实现–
 
-```
+```py
 # importing module
 import platform
 
@@ -54,7 +54,7 @@ for i, j in info.items():
 
 **输出:**
 
-```
+```py
 platform details  -  Windows-10-10.0.17134-SP0
 system name  -  Windows
 processor name  -  Intel64 Family 6 Model 158 Stepping 10, GenuineIntel

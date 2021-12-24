@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import altair as alt
 import pandas as pd
@@ -63,7 +63,7 @@ alt.Chart(df).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import altair as alt
 from vega_datasets import data
@@ -90,7 +90,7 @@ alt.Chart(iris).mark_point().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import altair as alt
 from vega_datasets import data

@@ -36,7 +36,7 @@
 
 示例:
 
-```
+```py
 # empty set, avoid using {} in creating set or dictionary is created
 x = set() 
 

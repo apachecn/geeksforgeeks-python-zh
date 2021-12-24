@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Joint Float string to Numbers
 # Using loop + float()
@@ -31,7 +31,7 @@ print("The float list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 45.6778.4524.45
 The float list is : [45.67, 78.45, 24.45]
 ```
@@ -41,7 +41,7 @@ The float list is : [45.67, 78.45, 24.45]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Joint Float string to Numbers
 # Using list comprehension + float()
@@ -62,7 +62,7 @@ print("The float list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : 45.6778.4524.45
 The float list is : [45.67, 78.45, 24.45]
 ```

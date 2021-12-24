@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: num = 10, start = 100, end = 200
 Output: [102, 118, 124, 131, 140, 148, 161, 166, 176, 180]
 
@@ -19,7 +19,7 @@ Output: [37, 49, 64, 84, 95]
 
 **语法:**
 
-```
+```py
 randint(start, end)
 
 ```
@@ -28,7 +28,7 @@ randint(start, end)
 
 下面是实现。
 
-```
+```py
 # Python program to create 
 # a sorted list of unique random 
 # numbers
@@ -60,7 +60,7 @@ print(createRandomSortedList(5)))
 
 **输出:**
 
-```
+```py
 [102, 118, 124, 131, 140, 148, 161, 166, 176, 180]
 [37, 49, 64, 84, 95]
 

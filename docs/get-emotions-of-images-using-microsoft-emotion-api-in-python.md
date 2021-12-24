@@ -7,7 +7,7 @@
 它使用起来非常简单，可以通过终端或 Python 或 PHP 等任何语言通过 API 调用。微软提供 30 天的免费订阅，总共发出 30，000 个请求。
 端点和参数的详细信息可以在[文档中找到。](https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/quickstarts/python)
 
-```
+```py
 # Python script to analyze
 # emotion of image
 import http.client, urllib.request

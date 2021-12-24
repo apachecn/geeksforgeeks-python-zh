@@ -21,7 +21,7 @@
 
 **以下是上述问题的实现–**
 
-```
+```py
 from math import ceil, sqrt
 
 # function to count the factors of an array
@@ -61,7 +61,7 @@ print(Totalcount(arr, x))
 
 **Output:**
 
-```
+```py
 2
 
 ```

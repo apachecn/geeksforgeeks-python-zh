@@ -13,7 +13,7 @@ POST 是万维网使用的 HTTP 支持的一种请求方法。根据设计，POS
 Python 的请求模块提供了一个名为 **post()** 的内置方法，用于向指定的 URI 发出 post 请求。
 **语法–**
 
-```
+```py
 requests.post(url, params={key: value}, args)
 ```
 
@@ -22,7 +22,7 @@ requests.post(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a POST request
@@ -38,7 +38,7 @@ print(r.json())
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 

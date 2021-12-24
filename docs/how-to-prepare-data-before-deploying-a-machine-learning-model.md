@@ -26,7 +26,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 
 ## 计算机编程语言
 
-```
+```py
 data = pd.read_csv('dataset.csv')
 ```
 
@@ -52,7 +52,7 @@ data = pd.read_csv('dataset.csv')
 
 ## 计算机编程语言
 
-```
+```py
 x = data.iloc[:,:-1].values
 ```
 
@@ -64,7 +64,7 @@ x = data.iloc[:,:-1].values
 
 ## 计算机编程语言
 
-```
+```py
 y = data.iloc[:,-1].values
 ```
 
@@ -72,6 +72,6 @@ y = data.iloc[:,-1].values
 
 ## 计算机编程语言
 
-```
+```py
 y = data['Survived']
 ```

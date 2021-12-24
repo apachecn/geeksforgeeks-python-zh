@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -55,7 +55,7 @@ print(get_id)
 
 **输出:**
 
-```
+```py
 Money Heist
 =========
 bound method Movie.getID of <Movie id:6807344[http] title:_"Money Heist (TV Series 2017– ) - IMDb" Efectuar lo acordado (2017)_
@@ -65,7 +65,7 @@ bound method Movie.getID of <Movie id:6807344[http] title:_"Money Heist (TV Seri
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -103,7 +103,7 @@ print(get_id)
 
 **输出:**
 
-```
+```py
 Sacred Games
 =========
 bound method Movie.getID of Movie id:8058636[http] title:_"Sacred Games (TV Series 2018– ) - IMDb" Ashwathama (2018)_

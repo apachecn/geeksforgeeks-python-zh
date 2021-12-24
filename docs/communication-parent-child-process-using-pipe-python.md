@@ -8,7 +8,7 @@
 **使用的库–**
 [Python 中的操作系统模块:](https://www.geeksforgeeks.org/os-module-python-examples/)Python 中的操作系统模块提供了一种使用操作系统相关功能的方式。操作系统模块提供的功能允许您与运行 Python 的底层操作系统进行交互；无论是视窗、苹果还是 Linux。它可以作为–
 
-```
+```py
 import os
 
 ```
@@ -18,14 +18,14 @@ import os
 
 **语法–**以下是 pipe()方法的语法–
 
-```
+```py
 os.pipe()
 
 ```
 
 **注意–**管道只是单向通信，即我们可以使用管道，这样一个进程向管道写入，另一个进程从管道读取。
 
-```
+```py
 # Python code to demonstrate communication
 # between parent and child process using 
 # python.
@@ -64,7 +64,7 @@ communication(child_writes)
 
 **输出:**
 
-```
+```py
 Child writing
 Child writes =  Hello geeks
 Parent reading

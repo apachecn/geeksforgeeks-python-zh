@@ -7,7 +7,7 @@
 **方法#1:使用 zip() + loop**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 zip()将列表元素与字典相结合，并使用循环来结合迭代逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign list items to Dictionary
 # Using zip() + loop

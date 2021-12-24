@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import image class of matplotlib
 import matplotlib.image as img
 
@@ -46,7 +46,7 @@ print(batman_image.shape)
 
 **输出:**
 
-```
+```py
 (187, 295, 4)
 ```
 
@@ -56,7 +56,7 @@ print(batman_image.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import pandas as pd
 from scipy.cluster.vq import whiten
@@ -90,7 +90,7 @@ batman_df['scaled_color_green'] = whiten(batman_df['green'])
 
 **输出:**
 
-```
+```py
 55165
 55165
 55165
@@ -104,7 +104,7 @@ batman_df['scaled_color_green'] = whiten(batman_df['green'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Preparing data to construct elbow plot.
 distortions = []
 num_clusters = range(1, 7)  #range of cluster sizes
@@ -138,7 +138,7 @@ plt.show()
 
 **步骤 4 :** 得到的聚类中心为**标准化 RGB 值**。
 
-```
+```py
 Standardized value = Actual value / Standard Deviation
 ```
 
@@ -146,7 +146,7 @@ Standardized value = Actual value / Standard Deviation
 
 ## 蟒蛇 3
 
-```
+```py
 cluster_centers, _ = kmeans(batman_df[['scaled_color_red',
                                        'scaled_color_blue',
                                        'scaled_color_green']], 3)
@@ -187,7 +187,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.image as img
 import matplotlib.pyplot as plt
 from scipy.cluster.vq import whiten

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `len()`**
 上述功能的组合可用于执行该任务。在本例中，我们对所有字符串进行迭代，只返回使用 len()检查的阈值以上的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter above Threshold size Strings
 # using list comprehension + len()
@@ -31,7 +31,7 @@ print("The above Threshold size strings are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The above Threshold size strings are : ['best', 'geeks']
 

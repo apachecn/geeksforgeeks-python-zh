@@ -7,7 +7,7 @@
 **方法#1:使用`zip() + generator expression + tuple()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用生成器表达式来提供串联逻辑，同时的元素配对由 zip()完成。使用元组()将结果转换为元组形式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive element concatenation in Tuple
 # using zip() + generator expression + tuple
@@ -28,7 +28,7 @@ print("Resultant tuple after consecutive concatenation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ('GFG ', 'IS ', 'BEST ', 'FOR ', 'ALL ', 'GEEKS')
 Resultant tuple after consecutive concatenation : ('GFG IS ', 'IS BEST ', 'BEST FOR ', 'FOR ALL ', 'ALL GEEKS')
 

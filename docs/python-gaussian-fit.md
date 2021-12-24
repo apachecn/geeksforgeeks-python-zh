@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import scipy as sp
 from scipy import stats
@@ -48,7 +48,7 @@ x 轴上的点是观测值，y 轴是每个观测值的可能性。
 
 ## 蟒蛇 3
 
-```
+```py
 #Define the Gaussian function
 def gauss(x, H, A, x0, sigma):
     return H + A * np.exp(-(x - x0) ** 2 / (2 * sigma ** 2))
@@ -62,7 +62,7 @@ def gauss(x, H, A, x0, sigma):
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -96,7 +96,7 @@ plt.legend()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as mpl

@@ -6,7 +6,7 @@
 
 如果没有特定类型的注册实现，则使用其方法解析顺序来查找更通用的实现。用 **@singledispatch** 修饰的原始函数是为基对象类型注册的，这意味着如果找不到更好的实现就使用它。
 
-```
+```py
 from functools import singledispatch
 
 @singledispatch
@@ -28,7 +28,7 @@ fun(['g', 'e', 'e', 'k', 's'])
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 20
 0 g
@@ -41,7 +41,7 @@ GeeksforGeeks
 
 singledispatch 装饰器还支持装饰器堆叠。这允许我们创建一个可以处理多种类型的重载函数。示例–
 
-```
+```py
 from functools import singledispatch
 from decimal import Decimal
 
@@ -60,7 +60,7 @@ fun(Decimal(4.897))
 
 **输出:**
 
-```
+```py
 2.34
 4.90
 
@@ -68,14 +68,14 @@ fun(Decimal(4.897))
 
 **调度()–**检查泛型函数将为给定类型选择哪种实现。
 
-```
+```py
 print(fun.dispatch(dict))
 print(fun.dispatch(list))
 ```
 
 **输出:**
 
-```
+```py
 <function fun at 0x0000022CFE62C7B8>
 <function _2 at 0x0000022CFE77BA60>
 
@@ -83,7 +83,7 @@ print(fun.dispatch(list))
 
 **registry()–**只读属性，访问所有注册的实现。
 
-```
+```py
 print(fun.registry.keys())
 print(fun.registry[int])
 print(fun.registry[object])
@@ -91,7 +91,7 @@ print(fun.registry[object])
 
 **输出:**
 
-```
+```py
 dict_keys([<class 'object'>, <class 'int'>, <class 'list'>])
 <function _1 at 0x0000018E5480B9D8>
 <function fun at 0x0000018E546BC7B8>

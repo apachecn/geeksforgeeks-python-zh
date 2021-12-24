@@ -14,13 +14,13 @@
 
 **所需模块:**
 
-```
+```py
 import random
 ```
 
 下面是实现:
 
-```
+```py
 # Python program to implement Hangman game
 
 # Importing random module
@@ -119,7 +119,7 @@ game()
 
 **输出:**
 
-```
+```py
 * * * * * 
 Word has 5 letters
 Total turns:  11

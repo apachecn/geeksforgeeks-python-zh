@@ -18,7 +18,7 @@ SVG 代表可缩放矢量图形。它基本上以 XML 格式定义基于矢量�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

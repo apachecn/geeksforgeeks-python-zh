@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of 
 # setitem(), delitem() and getitem()
 
@@ -61,7 +61,7 @@ print (operator.getitem(li,3))
 
 输出:
 
-```
+```py
 The original list is : 1 5 6 7 8 
 The modified list after setitem() is : 1 5 6 3 8 
 The modified list after delitem() is : 1 6 3 8 
@@ -79,7 +79,7 @@ The 4th element of list is : 8
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of 
 # setitem(), delitem() and getitem()
 
@@ -123,7 +123,7 @@ print (operator.getitem(li,slice(0,2)))
 
 输出:
 
-```
+```py
 The original list is : 1 5 6 7 8 
 The modified list after setitem() is : 1 2 3 4 8 
 The modified list after delitem() is : 1 2 8 
@@ -138,7 +138,7 @@ The 1st and 2nd element of list is : [1, 2]
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of 
 # concat() and contains()
 
@@ -163,7 +163,7 @@ else : print ("geeksfor does not contain geeks")
 
 输出:
 
-```
+```py
 The concatenated string is : geeksforgeeks
 geeksfor contains geeks
 ```
@@ -182,7 +182,7 @@ geeksfor contains geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of 
 # and_(), or_(), xor(), invert()
 
@@ -217,7 +217,7 @@ print (operator.invert(a))
 
 **输出:**
 
-```
+```py
 The bitwise and of a and b is : 0
 The bitwise or of a and b is : 1
 The bitwise xor of a and b is : 1

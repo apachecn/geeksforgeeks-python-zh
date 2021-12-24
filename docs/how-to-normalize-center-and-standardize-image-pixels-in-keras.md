@@ -60,7 +60,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from keras.datasets import mnist
 from keras.utils import to_categorical
@@ -150,7 +150,7 @@ print('Test Accuracy: %.3f' % (acc * 100))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from keras.datasets import mnist
 from keras.utils import to_categorical
@@ -238,7 +238,7 @@ print('Test Accuracy: %.3f' % (acc * 100))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from keras.datasets import mnist
 from keras.utils import to_categorical

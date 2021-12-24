@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Equidistant consecutive characters Strings
 # Using list comprehension + all()
@@ -39,7 +39,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['abcd', 'egil', 'mpsv', 'abd']
 Filtered Strings : ['abcd', 'mpsv']
 
@@ -51,7 +51,7 @@ Filtered Strings : ['abcd', 'mpsv']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Equidistant consecutive characters Strings
 # Using list comprehension + all()
@@ -71,7 +71,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['abcd', 'egil', 'mpsv', 'abd']
 Filtered Strings : ['abcd', 'mpsv']
 

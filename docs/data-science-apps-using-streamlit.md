@@ -31,11 +31,11 @@
 
 *   首先，我们需要将 streamlit 安装到我们的环境中，我们可以通过使用 pip install 来实现。对于这个帖子，我们将使用英国事故数据，可以从[这里](https://data.gov.uk/dataset/053a6529-6c8c-42ac-ae1e-455b2708e535/road-traffic-accidents)下载
 
-```
+```py
 pip install streamlit
 ```
 
-```
+```py
 Building wheels for collected packages: blinker, validators, watchdog, pathtools, toolz, pyrsistent, pandocfilters
   Building wheel for blinker (setup.py) ... done
   Created wheel for blinker: filename=blinker-1.4-py3-none-any.whl size=13455 sha256=c16fdce1fa132ddc8aa6bb1551c299f64b0be90e1535383a52e3b3239e77d69c
@@ -72,7 +72,7 @@ validators-0.16.0 watchdog-0.10.3 wcwidth-0.2.5 webencodings-0.5.1 widgetsnbexte
 
 **代码:**
 
-```
+```py
 # import the required modules
 import streamlit as st
 import pandas as pd

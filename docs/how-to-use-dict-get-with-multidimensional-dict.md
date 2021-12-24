@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # single dimension dictionary
 d = {'jhon': 22, 'sanie': 34, 'munk': 19}
 
@@ -22,7 +22,7 @@ print(d.get('sanie', 'Not found'))
 
 **输出:**
 
-```
+```py
 34
 ```
 
@@ -32,7 +32,7 @@ print(d.get('sanie', 'Not found'))
 
 T2T4
 
-```
+```py
 # Example of dict.get() with multidimensional dict
 dict = {'India': {'captain': 'Virat', 'Batsman': 'Rohit', 
                   'Bolwer': 'Bumrah'},
@@ -55,7 +55,7 @@ T5
 
 **输出:**
 
-```
+```py
 Rohit
 ```
 
@@ -65,7 +65,7 @@ Rohit
 
 T2T4
 
-```
+```py
 # Example of dict.get() with multidimensional dict
 dict = {'India': {'captain': 'Virat', 'Batsman': 'Rohit', 
                   'Bolwer': 'Bumrah'},
@@ -88,7 +88,7 @@ T5
 
 **输出:**
 
-```
+```py
 Not Found
 ```
 
@@ -98,7 +98,7 @@ Not Found
 
 T2T4
 
-```
+```py
 # Example of dict.get() with multidimensional dict
 dict = {'India': {'captain': 'Virat', 'Batsman': 'Rohit',
                   'Bolwer': 'Bumrah'},
@@ -122,7 +122,7 @@ T5
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/4deb2392dee0ab15dec836bca68a69e2.py", line 12, in <module>
     print(dict.get('new zealand').get('Batsman', 'Not Found'))
@@ -133,7 +133,7 @@ AttributeError: 'NoneType' object has no attribute 'get'
 
 T2T4
 
-```
+```py
 # Example of dict.get() with multidimensional dict
 dict = {'India': {'captain': 'Virat', 'Batsman': 'Rohit', 
                   'Bolwer': 'Bumrah'},
@@ -156,7 +156,7 @@ T5
 
 **输出:**
 
-```
+```py
 Not Found
 ```
 
@@ -164,7 +164,7 @@ Not Found
 
 T2T4
 
-```
+```py
 # use of dict.get() in multidimensional dictionary
 
 dict = {'emp1': {'Name': {'First Name': 'Joe', 
@@ -188,7 +188,7 @@ T5
 
 **输出:**
 
-```
+```py
 Adam
 ```
 

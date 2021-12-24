@@ -40,7 +40,7 @@ color=[“红色”、“蓝色”、“蓝色”、“绿色”、“红色”�
 
 **语法:**
 
-```
+```py
 *category_encoders.cat_boost.CatBoostEncoder(verbose=0,* 
 *cols=None, drop_invariant=False, return_df=True,* 
 *handle_unknown='value', handle_missing='value',* 
@@ -64,7 +64,7 @@ color=[“红色”、“蓝色”、“蓝色”、“绿色”、“红色”�
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import category_encoders as ce
 import pandas as pd

@@ -17,7 +17,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanmax() method 
 
@@ -35,7 +35,7 @@ print("nanmax of arr : ", np.nanmax(arr))
 
 **输出:**
 
-```
+```py
 arr :  [1, 2, 7, 0, nan]
 max of arr :  nan
 nanmax of arr :  7.0
@@ -44,7 +44,7 @@ nanmax of arr :  7.0
 
 **代码#2 :**
 
-```
+```py
 import numpy as np
 
 # 2D array 
@@ -66,7 +66,7 @@ print("max of arr, axis = 1 : ", np.nanmax(arr, axis = 1)) 
 
 **输出:**
 
-```
+```py
 arr : 
  [[nan, 17, 12, 33, 44], [15, 6, 27, 8, 19]]
 
@@ -78,7 +78,7 @@ max of arr, axis = 1 :  [44\. 27.]
 
 **代码#3 :**
 
-```
+```py
 import numpy as np
 
 arr1 = np.arange(5) 
@@ -92,7 +92,7 @@ print("Changed arr1(having results) : ", arr1)  
 
 **输出:**
 
-```
+```py
 Initial arr1 :  [0 1 2 3 4]
 Changed arr1(having results) :  [15 17 27 33 44]
 

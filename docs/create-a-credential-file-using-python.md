@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #CreateCred.py
 #Creates a credential file.
 from cryptography.fernet import Fernet
@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 #Retrieve credentials.
 
 from cryptography.fernet import Fernet
@@ -187,7 +187,7 @@ T1
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import time
 

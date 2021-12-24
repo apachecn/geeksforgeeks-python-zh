@@ -24,7 +24,7 @@
 
 **语法:**
 
-```
+```py
 object_name.join()
 OR
 object_name.join(timeout) 
@@ -36,7 +36,7 @@ where timeout argument is the timeout value.
 
 ## 蟒蛇 3
 
-```
+```py
 from threading import Thread
 from threading import Event
 import time

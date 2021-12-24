@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 列表理解是解决这个问题最简单的方法。我们可以只迭代所有索引中的特定索引值，并将其存储在列表中，然后打印出来。
 
-```
+```py
 # Python3 code to demonstrate 
 # get nth tuple element from list
 # using list comprehension 
@@ -27,7 +27,7 @@ print ("List with only nth tuple element (i.e names) : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(1, 'Rash', 21), (2, 'Varsha', 20), (3, 'Kil', 19)]
 List with only nth tuple element (i.e names) : ['Rash', 'Varsha', 'Kil']
 
@@ -36,7 +36,7 @@ List with only nth tuple element (i.e names) : ['Rash', 'Varsha', 'Kil']
 **方法 2:使用`map() + itemgetter()`**
 `map()`再配合`itemgetter()`可以用更简单的方式执行这个任务。 `map()`使用`itemgetter()`映射我们访问的所有元素，并返回结果。
 
-```
+```py
 # Python3 code to demonstrate 
 # get nth tuple element from list
 # using map() + itergetter()
@@ -57,7 +57,7 @@ print ("List with only nth tuple element (i.e names) : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(1, 'Rash', 21), (2, 'Varsha', 20), (3, 'Kil', 19)]
 List with only nth tuple element (i.e names) : ['Rash', 'Varsha', 'Kil']
 
@@ -66,7 +66,7 @@ List with only nth tuple element (i.e names) : ['Rash', 'Varsha', 'Kil']
 **方法#3:使用`zip()`**
 执行这一特定任务的最常规和最精确的方法是使用该功能。这将所有第 n 个元组元素收集到一个容器中，并返回结果。这仅适用于 Python 2。
 
-```
+```py
 # Python code to demonstrate 
 # get nth tuple element from list
 # using zip()
@@ -86,7 +86,7 @@ print ("List with only nth tuple element (i.e names) : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(1, 'Rash', 21), (2, 'Varsha', 20), (3, 'Kil', 19)]
 List with only nth tuple element (i.e names) : ['Rash', 'Varsha', 'Kil']
 

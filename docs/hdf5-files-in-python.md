@@ -5,19 +5,19 @@
 HDF5 文件代表分层数据格式 5。这是一个开源文件，可以方便地存储大量数据。顾名思义，它在单个文件中以分层结构存储数据。因此，如果我们想快速访问文件的特定部分，而不是整个文件，我们可以使用 HDF5 轻松实现。这种功能在普通文本文件中是看不到的，因此 HDF5 看似流行，实际上是一个新概念。要使用 HDF5，需要导入 numpy。一个重要的特性是，它可以将 metaset 附加到文件中的每个数据，从而提供强大的搜索和访问。让我们开始将 HDF5 安装到计算机上。
 要安装 HDF5，请在您的终端中键入:
 
-```
+```py
 pip install h5py
 ```
 
 我们将使用一个名为 HDF5 Viewer 的特殊工具以图形方式查看这些文件并对其进行处理。要安装 HDF5 查看器，请键入以下代码:
 
-```
+```py
 pip install h5pyViewer
 ```
 
 由于 HDF5 在 numpy 上工作，我们也需要 numpy 安装在我们的机器上。
 
-```
+```py
 python -m pip install numpy
 ```
 
@@ -27,7 +27,7 @@ python -m pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # HDF5 file
 
@@ -52,7 +52,7 @@ with h5py.File('test.hdf5', 'w') as f:
 
 ## 蟒蛇 3
 
-```
+```py
 # open the file as 'f'
 with h5py.File('test.hdf5', 'r') as f:
     data = f['default']
@@ -79,7 +79,7 @@ with h5py.File('test.hdf5', 'r') as f:
 
 当使用下面的线时
 
-```
+```py
 data = f['default']
 ```
 
@@ -87,7 +87,7 @@ data = f['default']
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import h5py
 
@@ -103,7 +103,7 @@ with h5py.File('test_read.hdf5', 'w') as f:
 
 ## 蟒蛇 3
 
-```
+```py
 with h5py.File('test_read.hdf5', 'r') as f:
     d1 = f['array_1']
     d2 = f['array_2']

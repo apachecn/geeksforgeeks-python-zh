@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `eval()`**
 以上方法的组合可以用来解决这个任务。在这种情况下，我们在对 eval 函数的输入进行处理以转换为 Tuple 列表后，重新构建字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String Records to Tuples Lists
 # Using loop + eval()
@@ -39,7 +39,7 @@ print("The list of Tuples is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : [(gfg, ), (is, ), (best, )]
 The list of Tuples is : [('gfg', ), ('is', ), ('best', )]
 

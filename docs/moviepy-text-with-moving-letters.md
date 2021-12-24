@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy
 import numpy as np
 
@@ -93,7 +93,7 @@ final_clip.ipython_display()
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 
@@ -107,7 +107,7 @@ Moviepy - video ready __temp__.mp4
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy
 import numpy as np
 
@@ -181,7 +181,7 @@ final_clip.ipython_display()
 
 **输出:**
 
-```
+```py
 Moviepy - Building video __temp__.mp4.
 Moviepy - Writing video __temp__.mp4
 

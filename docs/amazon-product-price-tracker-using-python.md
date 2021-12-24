@@ -8,7 +8,7 @@
 
 下面是代码:
 
-```
+```py
 # Amazon product price tracker using Python
 
 # importing libraries
@@ -86,7 +86,7 @@ while True:
 
 **输出:**
 
-```
+```py
 Tracking....
 Load finished
 Price is high please wait for the best deal

@@ -8,7 +8,7 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 
 *   **Immutable Objects :** These are of in-built types like **int, float, bool, string, unicode, tuple**. In simple words, an immutable object can’t be changed after it is created.
 
-    ```
+    ```py
     # Python code to test that 
     # tuples are immutable 
 
@@ -19,14 +19,14 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 
     错误:
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "e0eaddff843a8695575daec34506f126.py", line 3, in 
         tuple1[0]=4
     TypeError: 'tuple' object does not support item assignment
     ```
 
-    ```
+    ```py
     # Python code to test that 
     # strings are immutable 
 
@@ -37,7 +37,7 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 
     **错误:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/ff856d3c5411909530c4d328eeca165b.py", line 3, in 
         message[0] = 'p'
@@ -46,7 +46,7 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 
 *   **Mutable Objects :** These are of type **[list](https://www.geeksforgeeks.org/python-list/), [dict](https://www.geeksforgeeks.org/python-dictionary/), [set](https://www.geeksforgeeks.org/sets-in-python/)** . Custom classes are generally mutable.
 
-    ```
+    ```py
     # Python code to test that 
     # lists are mutable 
     color = ["red", "blue", "green"]
@@ -59,7 +59,7 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 
     输出:
 
-    ```
+    ```py
     ['red', 'blue', 'green']
     ['pink', 'blue', 'orange']
     ```
@@ -72,7 +72,7 @@ python 中的每个变量都保存一个对象的实例。python 中有两种类
 3.  **Exception :** However, there is an exception in immutability as well. We know that tuple in python is immutable. But the tuple consists of a sequence of names with unchangeable bindings to objects.
     Consider a tuple
 
-    ```
+    ```py
      tup = ([3, 4, 5], 'myname') 
     ```
 

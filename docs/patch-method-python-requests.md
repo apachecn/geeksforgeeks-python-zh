@@ -13,7 +13,7 @@ PATCH 是万维网使用的 HTTP 支持的请求方法。它用于修改功能�
 Python 的请求模块提供了名为 **patch()** 的内置方法，用于向指定的 URI 发出 patch 请求。
 **语法–**
 
-```
+```py
 requests.patch(url, params={key: value}, args)
 ```
 
@@ -22,7 +22,7 @@ requests.patch(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a PATCH request
@@ -38,7 +38,7 @@ print(r.content)
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 

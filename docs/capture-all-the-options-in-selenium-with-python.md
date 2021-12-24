@@ -16,13 +16,13 @@
 
 导入*选择*类:
 
-```
+```py
 from selenium.webdriver.support.ui import Select
 ```
 
 查找选项长度:
 
-```
+```py
 drop=Select(driver.find_element_by_id(' ')
 
 print(len(drop.options))
@@ -34,7 +34,7 @@ print(len(drop.options))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from selenium import webdriver
 ```
@@ -43,7 +43,7 @@ from selenium import webdriver
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Select class
 from selenium.webdriver.support.ui import Select
 ```
@@ -59,7 +59,7 @@ from selenium.webdriver.support.ui import Select
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import time
 from selenium import webdriver

@@ -5,7 +5,7 @@
 在这个程序中，我们需要计算一个字符串中存在的元音数量，并显示这些元音。这可以使用各种方法来完成。在本文中，我们将通过一些流行的方法来有效地做到这一点。
 示例:
 
-```
+```py
 In a simple way
 Input : Geeks for Geeks
 Output :
@@ -23,7 +23,7 @@ Output : {'u': 0, 'o': 1, 'e': 4, 'a': 0, 'i': 0}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to count and display number of vowels
 # Simply using for and comparing it with a
 # string containing all vowels
@@ -40,7 +40,7 @@ Check_Vow(string, vowels);
 
 输出:
 
-```
+```py
 5
 ['e', 'e', 'o', 'e', 'e']
 ```
@@ -51,7 +51,7 @@ Check_Vow(string, vowels);
 
 ## 蟒蛇 3
 
-```
+```py
 # Count vowels in a different way
 # Using dictionary
 def Check_Vow(string, vowels):
@@ -77,6 +77,6 @@ print (Check_Vow(string, vowels))
 
 输出:
 
-```
+```py
 {'u': 0, 'o': 1, 'e': 4, 'a': 0, 'i': 0}
 ```

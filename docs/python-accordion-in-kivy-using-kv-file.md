@@ -16,7 +16,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 1.  标题栏的一个容器(由 kv 模板制成)
 2.  一个内容物容器
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -35,7 +35,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # How to use Accordion in kivy using .kv file
 
 # Program to Show how to create a switch
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file of the Accordion App file 
 
 # Allow style to image

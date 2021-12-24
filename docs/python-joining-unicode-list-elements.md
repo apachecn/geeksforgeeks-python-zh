@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +列表理解**
 在该方法中，我们首先将字符串的 unicode 元素转换为字符串元素，然后执行连接操作，从 unicode 元素列表中获取连接的结果字符串。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate
 # Joining unicode list elements
 # using join() + list comprehension
@@ -29,7 +29,7 @@ print ("The joined string is : " + res)
 
 **Output :**
 
-```
+```py
 The original list is : ['We', 'love', 'Geeksforgeeks']
 The joined string is : We:love:Geeksforgeeks
 

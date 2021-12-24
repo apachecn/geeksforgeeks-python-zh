@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # program to understand dictionary in python
 
 # creating an empty dictionary
@@ -25,7 +25,7 @@ print(mydictionary)
 
 **输出:**
 
-```
+```py
   {'address': 'Allahabad', 'name': 'Ankit', 'college': 'MNNIT'}
 ```
 
@@ -35,7 +35,7 @@ print(mydictionary)
 
 ## 蟒蛇 3
 
-```
+```py
 # program to understand dictionary in python
 
 # creating an empty dictionary
@@ -54,7 +54,7 @@ print(mydictionary['thanks'])
 
 **输出:**
 
-```
+```py
 Hello
 how are you
 thanks visit again
@@ -66,7 +66,7 @@ thanks visit again
 
 ## 蟒蛇 3
 
-```
+```py
 # program to understand dictionary in python
 
 # creating an empty dictionary
@@ -91,7 +91,7 @@ print(mydictionary['college'])
 
 **输出:**
 
-```
+```py
 Hello
 how are you
 thanks visit again
@@ -100,7 +100,7 @@ None
 
 **运行时错误**
 
-```
+```py
  Traceback (most recent call last):
   File "/home/ce65dd34285f0cb0781de2a068e658fa.py", line 14, in 
     print(mydictionary['college'])
@@ -115,7 +115,7 @@ KeyError: 'college'
 
 ## 蟒蛇 3
 
-```
+```py
 # program to understand dictionary in python
 
 # creating an empty dictionary
@@ -138,7 +138,7 @@ print(m)
 
 **输出:**
 
-```
+```py
 Hello
 how are you
 thanks visit again

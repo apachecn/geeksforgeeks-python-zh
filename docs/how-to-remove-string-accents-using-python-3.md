@@ -26,7 +26,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import unidecode
 
@@ -45,7 +45,7 @@ print('\nNew String:', outputString)*
 
 ***输出:***
 
-```
+```py
 *Original String: orčpžsíáýd
 
 New String: orcpzsiayd*
@@ -55,7 +55,7 @@ New String: orcpzsiayd*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import unidecode
 
@@ -74,7 +74,7 @@ print('\nNew String:', outputString)*
 
 ***输出:***
 
-```
+```py
 *Original String: stävänger
 
 New String: stavanger*
@@ -84,7 +84,7 @@ New String: stavanger*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import unidecode
 
@@ -104,7 +104,7 @@ print('\nNew List of Strings:\n', stringList)*
 
 ***输出:***
 
-```
+```py
 *Original List of Strings:
  ['hell°', 'tromsø', 'stävänger', 'ölut']
 

@@ -21,7 +21,7 @@ Python 中的**统计**模块允许三个选项来处理数据集中的中值/�
 
 **代码#1 :** 工作
 
-```
+```py
 # Python code to demonstrate the 
 # working of median_low()
 
@@ -41,14 +41,14 @@ print("Low median of the data-set is % s " 
 
 **输出:**
 
-```
+```py
 Low median of the data-set is 3 
 
 ```
 
 **代码#2 :** 工作的中值 _ 低()和中值来区分它们。
 
-```
+```py
 # Python code to demonstrate the
 # working of median_low()
 
@@ -72,7 +72,7 @@ print("Low Median of the set is % s " 
 
 **输出:**
 
-```
+```py
 Median of the set is 3.5
 Low Median of the set is 3 
 
@@ -80,7 +80,7 @@ Low Median of the set is 3
 
 **代码#3 :** 在不同范围的数据集上使用中值 _ 低()
 
-```
+```py
 # Python code to demonstrate the
 # working of median_low()
 
@@ -117,7 +117,7 @@ print("Low Median of data-set 5 is % s" % (median_low(data5)))
 
 **输出:**
 
-```
+```py
 Low Median of data-set 1 is 5
 Low Median of data-set 2 is 5.1
 Low Median of data-set 3 is 2/3
@@ -128,7 +128,7 @@ Low Median of data-set 5 is -1
 
 **代码#4 :** 提高统计错误
 
-```
+```py
 # Python code to demonstrate
 # StatisticsError of median_low()
 
@@ -144,7 +144,7 @@ print(median_low(empty))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/5f3e758236f872d014f9d741743c30a4.py", line 10, in 
     print(median_low(empty))

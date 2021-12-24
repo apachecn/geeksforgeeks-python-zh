@@ -10,7 +10,7 @@
 
 这个方法将在字典上创建一个新的键:值对，方法是给这个键赋值。
 
-```
+```py
 # Python program to add a key:value pair to dictionary
 
 dict = {'key1':'geeks', 'key2':'for'} 
@@ -33,7 +33,7 @@ print("Updated Dict is: ", dict)
 
 **代码#2:** 使用 update()方法
 
-```
+```py
 dict = {'key1':'geeks', 'key2':'for'} 
 print("Current Dict is: ", dict) 
 
@@ -53,7 +53,7 @@ print(dict) 
 
 **代码#3:** 以键:值为输入
 
-```
+```py
 # Let's add key:value to a dictionary, the functional way 
 
 # Create your dictionary class 
@@ -82,6 +82,6 @@ print(dict_obj) 
 
 **输出:**
 
-```
+```py
  {'1': 'Geeks', 2: 'forGeeks'}
 ```

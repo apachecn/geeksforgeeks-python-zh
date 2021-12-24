@@ -8,7 +8,7 @@
 
 **`firstweekday()`** 方法用于**获取当前设置为每周工作日开始。**
 
-```
+```py
 Syntax: firstweekday()
 Parameter: no parameter
 Returns: None
@@ -16,7 +16,7 @@ Returns: None
 
 **代码#1:**
 
-```
+```py
 # Python program to explain working of firstweekday() method
 
 # importing calendar module
@@ -34,14 +34,14 @@ print("First weekday after modification is - ", calendar.firstweekday())
 
 **输出:**
 
-```
+```py
 Default First weekday is -  6
 First weekday after modification is -  2
 ```
 
 **代码#2:** 用 prmonth()方法解释第一个工作日()方法的工作
 
-```
+```py
 # Python code to demonstrate the working of 
 # firstweekday() with help of prmonth() method
 
@@ -61,7 +61,7 @@ print("First weekday after modification is - ",
 
 **输出:**
 
-```
+```py
 The 4th month of 1997 is : 
      April 1997
 Mo Tu We Th Fr Sa Su

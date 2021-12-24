@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String to unicode characters
 # using re.sub() + ord() + lambda
@@ -39,7 +39,7 @@ print("The unicode converted String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The unicode converted String : \u0067\u0065\u0065\u006B\u0073\u0066\u006F\u0072\u0067\u0065\u0065\u006B\u0073
 
@@ -51,7 +51,7 @@ The unicode converted String : \u0067\u0065\u0065\u006B\u0073\u0066\u006F\u0072\
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String to unicode characters
 # using join() + format() + ord()
@@ -72,7 +72,7 @@ print("The unicode converted String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The unicode converted String : \u0067\u0065\u0065\u006B\u0073\u0066\u006F\u0072\u0067\u0065\u0065\u006B\u0073
 

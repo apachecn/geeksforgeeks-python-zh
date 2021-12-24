@@ -15,7 +15,7 @@
 
 *   打开蟒蛇提示并键入
 
-```
+```py
 pip install qiskit
 
 ```
@@ -24,7 +24,7 @@ pip install qiskit
 *   接下来，打开 Jupyter 笔记本。
 *   使用以下命令导入 qiskit。
 
-```
+```py
 import qiskit
 
 ```
@@ -36,7 +36,7 @@ import qiskit
 3.  点击**复制令牌**将令牌复制到剪贴板(令牌代表访问 IBM Quantum 设备的 API)。
 4.  运行以下命令(Jupyter Notebook)将您的 API 令牌存储在本地，以便以后在名为 ***qiskitrc*** 的配置文件中使用。将 ***MY_API_TOKEN*** 替换为 API token。
 
-```
+```py
 from qiskit import IBMQ
 IBMQ.save_account('MY_API_TOKEN')
 
@@ -85,7 +85,7 @@ IBMQ.save_account('MY_API_TOKEN')
 
 Qiskit 提供[多种可视化](https://quantum-computing.ibm.com/docs/qiskit/apidoc/qiskit-terra/visualization)，包括功能***plot _ 直方图*** ，查看你的结果。
 
-```
+```py
 plot_histogram(counts)
 
 ```
@@ -96,7 +96,7 @@ plot_histogram(counts)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to create a simple Quantum circuit
 
 %matplotlib inline
@@ -149,7 +149,7 @@ circuit.draw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Plot a histogram
 plot_histogram(counts)
 ```

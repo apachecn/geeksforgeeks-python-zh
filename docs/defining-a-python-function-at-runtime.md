@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from types import FunctionType
 
@@ -22,7 +22,7 @@ print(f_func())
 
 **输出:**
 
-```
+```py
 GEEKSFORGEEKS
 
 ```
@@ -31,7 +31,7 @@ GEEKSFORGEEKS
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from types import FunctionType
 
@@ -48,6 +48,6 @@ print(f_func(val1, val2))
 
 **输出:**
 
-```
+```py
 8998
 ```

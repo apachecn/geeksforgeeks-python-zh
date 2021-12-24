@@ -5,14 +5,14 @@
 [Tkinter](https://www.geeksforgeeks.org/python-creating-a-button-in-tkinter/) 提供了一个**消息框**类，可以显示各种消息，用户可以根据这些消息进行响应。消息，如确认消息、错误消息、警告消息等。
 要使用该类，必须导入该类，如下所示:
 
-```
+```py
 # import all the functions and constants of this class.
 from tkinter.messagebox import *
 ```
 
 **该类不同功能的语法和用法–**
 
-```
+```py
 # Ask if operation should proceed; 
 # return true if the answer is ok.
 
@@ -38,7 +38,7 @@ from tkinter.messagebox import *
 
 ## 蟒蛇 3
 
-```
+```py
 # importing messagebox class
 from tkinter.messagebox import *
 

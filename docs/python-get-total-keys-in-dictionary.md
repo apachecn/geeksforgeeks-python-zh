@@ -7,7 +7,7 @@
 **方法#1:使用递归+ `items() + sum() + len()`**
 这个任务可以使用上述函数的组合来执行。在这种情况下，我们检查一个嵌套是否是一个非字典，然后使用`items()`提取它的键，然后使用各自的函数对它的长度求和。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get total keys in dictionary
 # Using recursion + items() + sum() + len()

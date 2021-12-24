@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the datetime module
 import datetime
 
@@ -42,7 +42,7 @@ print(datetime.date())
 
 **Output**
 
-```
+```py
 2021-05-25
 
 ```
@@ -51,7 +51,7 @@ print(datetime.date())
 
 ## 蟒蛇 3
 
-```
+```py
 # import the datetime module
 import datetime
 
@@ -69,7 +69,7 @@ for i in input:
 
 **Output**
 
-```
+```py
 2021-05-25
 2020-05-25
 2019-02-15

@@ -7,7 +7,7 @@
 **方法:使用循环+递归**
 这是执行这个任务的方式。在这种情况下，当我们遇到分隔符事件时，我们重复字典的嵌套。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String to Nested Dictionaries
 # Using loop
@@ -37,7 +37,7 @@ print("The nested dictionary is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg_is_best_for_geeks
 The nested dictionary is : {'gfg': {'is': {'best': {'for': 'geeks'}}}}
 

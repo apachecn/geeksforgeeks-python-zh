@@ -6,7 +6,7 @@
 
 亮度水平在 0 到 1 范围内的数字图像直方图是一个离散函数–
 
-```
+```py
 h(rk) = nk
 where rk = kth intensity value
 and no = number of pixels in the image with rk intensity value.
@@ -14,13 +14,13 @@ and no = number of pixels in the image with rk intensity value.
 
 如果图像有 M 行 N 列，那么图像中的像素总数为 MN。归一化直方图如下获得:
 
-```
+```py
 p(rk) = nk/MN
 ```
 
 有时，如果图像是暗的、亮的或低对比度的，则该图像的直方图可能没有分别具有最小强度(0)或最大强度(255)或两者的像素。在这种情况下，可以通过应用以下变换来拉伸该图像的直方图。
 
-```
+```py
 Let a= maximum intensity level in the image
 Let b= minimum intensity level in the image
 Let rk= pixel value in the original image
@@ -55,7 +55,7 @@ sk= constant*rk
 
 ![food1](img/2e4f32ec4359dea5e8e699fbda56e9d5.png)
 
-```
+```py
 # import cv2, numpy, matplotlib
 import cv2
 import numpy as np

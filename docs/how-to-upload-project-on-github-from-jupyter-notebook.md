@@ -60,7 +60,7 @@ Jupyter 笔记本既不是简单的文本编辑器，也不是功能齐全的 ID
 
 然后，在 GitHub 中创建新的存储库。并在命令提示符下使用以下命令:
 
-```
+```py
 1\. git init
 2\. git add README.md  
 3\. git add GeeksForGeeks.ipynb

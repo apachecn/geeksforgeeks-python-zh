@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K length consecutive characters
 # Using loop
@@ -52,7 +52,7 @@ print("The K length similar characters : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeekssss is bbbbest forrrrrrr geeks
 The K length similar characters : ['ssss', 'bbbb', 'rrrr']
 
@@ -64,7 +64,7 @@ The K length similar characters : ['ssss', 'bbbb', 'rrrr']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K length consecutive characters
 # Using split() + enumerate()
@@ -94,7 +94,7 @@ print("The K length similar characters : " + str(list(set(res)))) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeekssss is bbbbest forrrrrrr geeks
 The K length similar characters : ['bbbb', 'ssss', 'rrrr']
 

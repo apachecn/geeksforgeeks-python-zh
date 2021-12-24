@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate 
 # method overriding
 
@@ -48,7 +48,7 @@ obj2.show()
 
 **输出:**
 
-```
+```py
 Inside Parent
 Inside Child
 
@@ -60,7 +60,7 @@ Inside Child
 
     **示例:**让我们考虑一个示例，在该示例中，我们希望只重写一个父类的方法。下面是实现。
 
-    ```
+    ```py
     # Python program to demonstrate
     # overriding in multiple inheritance
 
@@ -94,7 +94,7 @@ Inside Child
 
     **输出:**
 
-    ```
+    ```py
     Inside Child
     Inside Parent2
 
@@ -104,7 +104,7 @@ Inside Child
 
     **示例:**让我们考虑一个例子，在这个例子中，我们只想要覆盖它的一个父类的一个方法。下面是实现。
 
-    ```
+    ```py
     # Python program to demonstrate
     # overriding in multilevel inheritance 
 
@@ -139,7 +139,7 @@ Inside Child
 
     **输出:**
 
-    ```
+    ```py
     Inside GrandChild
     Inside Parent
 
@@ -153,7 +153,7 @@ Inside Child
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # calling the parent's class method
     # inside the overridden method
@@ -179,7 +179,7 @@ Inside Child
 
     **输出:**
 
-    ```
+    ```py
     Inside Parent
     Inside Child
 
@@ -189,7 +189,7 @@ Inside Child
 
     **例 1:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # calling the parent's class method
     # inside the overridden method using
@@ -216,7 +216,7 @@ Inside Child
 
     **输出:**
 
-    ```
+    ```py
     Inside Parent
     Inside Child
 
@@ -224,7 +224,7 @@ Inside Child
 
     **例 2:**
 
-    ```
+    ```py
     # Program to define the use of super() 
     # function in multiple inheritance 
     class GFG1: 
@@ -267,7 +267,7 @@ Inside Child
 
     **输出:**
 
-    ```
+    ```py
     HEY !!!!!! GfG I am initialised(Class GEG3)
     HEY !!!!!! GfG I am initialised(Class GEG2)
     HEY !!!!!! GfG I am initialised(Class GEG1)

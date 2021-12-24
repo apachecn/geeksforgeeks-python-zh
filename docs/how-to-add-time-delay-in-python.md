@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```py
 time.sleep(value)
 ```
 
@@ -30,7 +30,7 @@ time.sleep(value)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import time
 
@@ -52,7 +52,7 @@ for i in range(0,5):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time module
 import time
 
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import time
 
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing
 import time
 from threading import Thread

@@ -5,7 +5,7 @@
 [Requests](http://docs.python-requests.org/en/master/) 是 python 中的一个多功能 HTTP 库，有多种应用。它的一个应用是使用文件网址从网上下载一个文件。
 **安装:**首先，你需要下载请求库。通过键入以下命令，您可以使用 pip 直接安装它:
 
-```
+```py
 pip install requests
 ```
 
@@ -13,7 +13,7 @@ pip install requests
 
 **下载文件**
 
-```
+```py
 # imported the requests library
 import requests
 image_url = "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
@@ -43,7 +43,7 @@ HTTP 响应内容( **r.content** )只不过是一个存储文件数据的字符�
 
 *   Since all file data can’t be stored by a single string, we use **r.iter_content** method to load data in chunks, specifying the chunk size.
 
-    ```
+    ```py
      r = requests.get(URL, stream = True)
     ```
 
@@ -51,7 +51,7 @@ HTTP 响应内容( **r.content** )只不过是一个存储文件数据的字符�
 
     这里有一个例子:
 
-    ```
+    ```py
     import requests
     file_url = "http://codex.cs.yale.edu/avi/db-book/db4/slide-dir/ch1-2.pdf"
 
@@ -69,7 +69,7 @@ HTTP 响应内容( **r.content** )只不过是一个存储文件数据的字符�
 
     在这个例子中，我们有兴趣下载这个[网页](http://www.py4inf.com/)上的所有视频讲座。本次讲座的所有档案都可以在[这里](http://www-personal.umich.edu/~csev/books/py4inf/media/)获得。所以，我们先刮网页提取所有的视频链接，然后逐一下载视频。
 
-    ```
+    ```py
     import requests 
     from bs4 import BeautifulSoup 
 

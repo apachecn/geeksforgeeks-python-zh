@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function
 def test_sum_numbers():
     assert sum([100, 200, 300,400]) == 1000, "Result should be 1000"
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
  File "....../test_example.py", line 9, in <module>
    test_sum_tuple_values()
@@ -75,7 +75,7 @@ Python 中有不同的测试运行器。受欢迎的有
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import unittest
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 ======================================================================
 .F
 FAIL: test_xxxxxxx (__main__.TestXXXXX)
@@ -113,7 +113,7 @@ FAILED (failures=1)
 
 **nose 或 nose2:** 这是一个开源应用程序，仅与 unittest 类似。它与使用 unittest 框架编写的多种测试兼容。nose2 是最新版本，它们是通过使用。
 
-```
+```py
 pip install nose2 
 ```
 
@@ -121,7 +121,7 @@ pip install nose2
 
 ## 蟒蛇 3
 
-```
+```py
 def test_sum_numbers_using_pytest():
     assert sum([700, 900]) == 1600, "Resultant should be 1600"
 

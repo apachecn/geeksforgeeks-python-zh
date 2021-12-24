@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input: arr[] = {1, 2, 3, 4, 5, 6}
        k = 4
 
@@ -16,7 +16,7 @@ Output:  arr[] = {4, 3, 2, 1, 5, 6}
 
 此问题已有解决方案，请参考[将数组反转到给定位置](https://www.geeksforgeeks.org/reverse-an-array-upto-a-given-position/)链接。我们将在 Python 中快速解决这个问题。
 
-```
+```py
 # Program to Reverse an array 
 # upto a given position 
 
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [4, 3, 2, 1, 5, 6]
 
 ```

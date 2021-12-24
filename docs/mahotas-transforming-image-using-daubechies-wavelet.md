@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中使用 daubechies 小波变换图像。一般来说，对于给定的支撑宽度 2A，多贝希小波被选择为具有最高数量的消失矩(这并不意味着最佳平滑度)。有两种命名方案在使用，DN 使用抽头的长度或数量，dbA 指消失矩的数量。所以 D4 和 db2 是相同的小波变换。
 在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -22,7 +22,7 @@ mahotas.demos.load('luispedro')
 **注意:**输入图像应该被过滤或者应该被加载为灰色
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并借助索引对其进行过滤，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -30,7 +30,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various libraries
 import numpy as np
 import mahotas
@@ -67,7 +67,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate cases in String
 # Using upper() + lower() + loop
@@ -34,7 +34,7 @@ print("The alternate case string is : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The alternate case string is : GeEkSfOrGeEkS
 
@@ -45,7 +45,7 @@ The alternate case string is : GeEkSfOrGeEkS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate cases in String
 # Using list comprehension
@@ -67,7 +67,7 @@ print("The alternate case string is : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The alternate case string is : GeEkSfOrGeEkS
 

@@ -7,7 +7,7 @@
 **方法#1:使用正则表达式**
 这个问题可以使用正则表达式解决。如果需要，搜索和分组功能可以执行搜索后缀字符串和打印数字的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check Numeric Suffix in String 
 # Using regex
@@ -29,7 +29,7 @@ print("Does string contain suffix number ? : " + str(bool(res)))
 
 **Output :**
 
-```
+```py
 The original string is : Geeks4321
 Does string contain suffix number ? : True
 

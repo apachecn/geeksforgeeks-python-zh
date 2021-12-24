@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Count if dictionary position equals key or value
 # Using loop
@@ -43,7 +43,7 @@ print("The required frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 3, 1: 3, 10: 4, 7: 3, 8: 1, 9: 5}
 The required frequency : 3
 
@@ -55,7 +55,7 @@ The required frequency : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Count if dictionary position equals key or value
 # Using sum() + list comprehension
@@ -78,7 +78,7 @@ print("The required frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 3, 1: 3, 10: 4, 7: 3, 8: 1, 9: 5}
 The required frequency : 3
 

@@ -14,7 +14,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 from threading import *
 import time
@@ -38,7 +38,7 @@ print('main Thread execution')
 
 ****输出:****
 
-```
+```py
 this is non-daemon thread
 this is non-daemon thread
 this is non-daemon thread
@@ -55,7 +55,7 @@ this is non-daemon thread
 
 ## **蟒蛇 3**
 
-```
+```py
 # import modules
 from threading import *
 import time
@@ -80,7 +80,7 @@ print('this is Main Thread') 
 
 ****输出:****
 
-```
+```py
 this is thread T
 this is thread T
 this is Main Thread
@@ -99,7 +99,7 @@ this is Main Thread
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 from threading import *
 
@@ -110,7 +110,7 @@ print(current_thread().daemon)
 
 ****输出:****
 
-```
+```py
 False
 False
 ```
@@ -121,7 +121,7 @@ False
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 from threading import *
 
@@ -136,7 +136,7 @@ print(thread_1.daemon)
 
 ****输出:****
 
-```
+```py
 False
 GFG
 False
@@ -161,7 +161,7 @@ False
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 from threading import *
 
@@ -183,7 +183,7 @@ T.start()
 
 ****输出:****
 
-```
+```py
 GFG
 False
 True
@@ -202,7 +202,7 @@ Geeks For Geeks
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 from threading import *
 
@@ -211,6 +211,6 @@ print(current_thread().setDaemon(True))
 
 ****输出:****
 
-```
+```py
 RuntimeError: cannot set daemon status of active thread
 ```

@@ -12,7 +12,7 @@ Unix 时间戳是一个每秒增加 1 的单符号整数，允许计算机存储
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 import datetime
 import time
@@ -30,7 +30,7 @@ print("unix_timestamp => ",
 
 **输出:**
 
-```
+```py
 date_time => 2021-07-26 21:20:00
 unix_timestamp =>  1627314600.0
 ```
@@ -49,7 +49,7 @@ datetime.date 对象的 timetuple()方法返回一个 time 对象. struct time�
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import datetime
 
@@ -60,7 +60,7 @@ print(unix_timestamp)
 
 **输出:**
 
-```
+```py
 1628497724509.293
 ```
 
@@ -72,7 +72,7 @@ print(unix_timestamp)
 
 ## 蟒蛇 3
 
-```
+```py
 import calendar
 import datetime
 
@@ -83,7 +83,7 @@ print(utc_time)
 
 **输出:**
 
-```
+```py
 1628497783
 ```
 
@@ -95,7 +95,7 @@ datetime.now()函数用于获取当前时间。mktime 方法是一种时间方�
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import time
 
@@ -105,7 +105,7 @@ print(time.mktime(ms.timetuple()) * 1000)
 
 **输出:**
 
-```
+```py
 1628497823000.0
 ```
 
@@ -117,7 +117,7 @@ time.date()是一个只接受日期的函数。在这种情况下，2021 年是�
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import time
 
@@ -128,7 +128,7 @@ print("Unix_Time: ",
 
 **输出:**
 
-```
+```py
 Unix_Time:  1628188200.0
 ```
 
@@ -140,7 +140,7 @@ Unix_Time:  1628188200.0
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 
 date_example = "8/6/2021, 05:54:8"
@@ -152,7 +152,7 @@ print(unix_time)
 
 **输出:**
 
-```
+```py
 1628209448.0
 ```
 
@@ -168,7 +168,7 @@ strftime()函数是 datetime 模块中的另一个函数。该函数有助于以
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 import datetime
 
@@ -188,7 +188,7 @@ print("Date & Time =>" ,
 
 **输出:**
 
-```
+```py
 Unix_Time => 1627334400
 Date & Time => 2021-07-27 02:50:00
 ```

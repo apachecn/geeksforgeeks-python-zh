@@ -7,7 +7,7 @@
 **方法#1:使用朴素方法**
 在该方法中，我们首先使用逆映射将字典值转换为关键字，然后找到重复的关键字
 
-```
+```py
 # Python code to demonstrate 
 # finding duplicate values from a dictionary
 
@@ -34,7 +34,7 @@ print("duplicate values", str(result))
 
 **Output:**
 
-```
+```py
 initial_dictionary {'c': 3, 'b': 2, 'd': 2, 'a': 1}
 duplicate values [2]
 

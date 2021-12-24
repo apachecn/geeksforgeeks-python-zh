@@ -7,7 +7,7 @@
 要在 Python 中生成华夫饼图，需要的模块是–**[【熊猫】](http://geeksforgeeks.org/pandas-tutorial/)** 和**华夫饼**。
 要安装这些软件包，请运行以下命令:
 
-```
+```py
 pip install matplotlib
 pip install pandas
 pip install pywaffle
@@ -16,7 +16,7 @@ pip install pywaffle
 
 下面是实现:
 
-```
+```py
 # python program to generate Waffle Chart
 
 # importing all necessary requirements

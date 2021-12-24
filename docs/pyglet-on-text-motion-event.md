@@ -6,14 +6,14 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 
 ```
 
 下面是 on text motion 的语法，当触发此事件时会调用此方法
 
-```
+```py
 @window.event       
 def on_text_motion(motion):
     print("Arrow Key pressed")
@@ -39,7 +39,7 @@ def on_text_motion(motion):
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -114,7 +114,7 @@ pyglet.app.run()
 
 当我们按下箭头键时，这条信息将被打印出来
 
-```
+```py
 65362
 65362
 65362

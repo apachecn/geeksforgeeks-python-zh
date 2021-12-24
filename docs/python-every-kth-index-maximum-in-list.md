@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `enumerate() + max()`**
 获取列表每第 k 个数的功能可以借助列表理解来完成，枚举功能有助于整个列表的迭代。max()有助于找到 max。
 
-```
+```py
 # Python3 code to demonstrate
 # Every Kth index Maximum in List
 # using list comprehension + enumerate() + max()
@@ -32,7 +32,7 @@ print ("The max of every kth element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The max of every kth element : 9
 

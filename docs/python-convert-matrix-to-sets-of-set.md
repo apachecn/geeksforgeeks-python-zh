@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to Sets of Set
 # Using set() + frozenset() + generator expression
@@ -54,7 +54,7 @@ print("Converted set Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to Sets of Set
 # Using map() + frozenset() + set()

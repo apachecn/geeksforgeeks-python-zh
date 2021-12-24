@@ -16,7 +16,7 @@
 **示例:**
 在这里我们将创建一个带有可编辑文本的文本框，并将根据修改后的文本在屏幕上显示具体的文本，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -44,7 +44,7 @@ print(output)
 
 <video class="wp-video-shortcode" id="video-481836-1" width="665" height="644" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200905012707/Window-Title-GfG-2020-09-05-01-24-30.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200905012707/Window-Title-GfG-2020-09-05-01-24-30.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200905012707/Window-Title-GfG-2020-09-05-01-24-30.mp4)</video>
 
-```
+```py
 Alterted Text 
 ================
 EasyGUI is a module for very simple, very easy GUI programming in Python. EasyGUI is different from otherGUI generators in that EasyGUI is NOT event-driven. geeksforgeeks
@@ -54,7 +54,7 @@ EasyGUI is a module for very simple, very easy GUI programming in Python. EasyGU
 **另一个例子:**
 在这里我们将创建一个没有任何可编辑文本的文本框，并将根据修改后的文本在屏幕上显示具体的文本，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -77,7 +77,7 @@ print(output)
 
 <video class="wp-video-shortcode" id="video-481836-2" width="665" height="644" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200905012901/Window-Title-GfG-2020-09-05-01-27-50.mp4?_=2">[https://media.geeksforgeeks.org/wp-content/uploads/20200905012901/Window-Title-GfG-2020-09-05-01-27-50.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200905012901/Window-Title-GfG-2020-09-05-01-27-50.mp4)</video>
 
-```
+```py
 Alterted Text 
 ================
 Welcome to geeksforgeeks ajkbkjbajxblcblc;c

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program for converting bytes 
 # to string using decode()
 
@@ -34,7 +34,7 @@ print(type(output))
 
 **输出:**
 
-```
+```py
 Input:
 b'GeeksForGeeks'
 <class 'bytes'>
@@ -50,7 +50,7 @@ Python 的 *str()* 函数返回对象的字符串版本。
 
 ## 蟒蛇 3
 
-```
+```py
 # Program for converting bytes to string using decode()
 data = b'GeeksForGeeks'
 
@@ -70,7 +70,7 @@ print(type(output))
 
 **输出:**
 
-```
+```py
 Input:
 b'GeeksForGeeks'
 <class 'bytes'>
@@ -86,7 +86,7 @@ GeeksForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Program for converting bytes to string using decode()
 
 # import required module
@@ -110,7 +110,7 @@ print(type(output))
 
 **输出:**
 
-```
+```py
 Input:
 b'GeeksForGeeks'
 <class 'bytes'>

@@ -8,7 +8,7 @@ Keras 提供了 numpy 实用程序库，它提供了在 numpy 数组上执行操
 
 **参数:**
 
-```
+```py
 y (input vector): A vector which has integers representing various classes in the data.
 
 num_classes: Total number of classes. If nothing is mentioned, it considers the largest number of the input vector and adds 1, to get the number of classes.
@@ -25,7 +25,7 @@ By default, it's value is 'float32'.
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the dataset
 
 from keras.datasets import cifar10
@@ -57,7 +57,7 @@ print(test_labels.shape)
 
 **输出:**
 
-```
+```py
 ***#Labels before applying the function***
 #Training set labels
 array([[6],
@@ -113,7 +113,7 @@ array([[3],
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing Input vector
 class_vector =[2, 5, 6, 1, 4, 2, 3, 2]
 print(class_vector)
@@ -127,7 +127,7 @@ print(output_matrix)
 
 **输出:**
 
-```
+```py
 [[0 0 1 0 0 0 0]
  [0 0 0 0 0 1 0]
  [0 0 0 0 0 0 1]

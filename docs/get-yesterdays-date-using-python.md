@@ -10,14 +10,14 @@
 *   **日期类:**当这个类的一个对象被实例化时，它表示一个格式为 YYYY-MM-DD 的日期。使用 date 类的 today()函数返回当前的本地日期。today()函数带有几个属性(年、月和日)。这些可以单独打印。
     **语法:**
 
-```
+```py
 date.today()
 ```
 
 *   **Timedelta 类:** Python [timedelta()](https://www.geeksforgeeks.org/python-datetime-module-with-examples/#timedelta) 函数存在于 datetime 库下，datetime 库一般是**用来计算日期差异**的，也可以用于 Python 中的日期操作。这是执行日期操作最简单的方法之一。
     **语法:**
 
-```
+```py
 datetime.timedelta(days=0, seconds=0, microseconds=0,
                 milliseconds=0, minutes=0, hours=0, weeks=0)
 
@@ -28,7 +28,7 @@ Returns: Date
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get
 # Yesterday's date
 
@@ -48,7 +48,7 @@ print("Yesterday was: ", yesterday)
 
 **输出:**
 
-```
+```py
 Today is:  2019-12-11
 Yesterday was:  2019-12-10
 ```
@@ -59,7 +59,7 @@ Yesterday was:  2019-12-10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get
 # Yesterday's date
 
@@ -79,7 +79,7 @@ print("Day before yesterday was: ", yesterday)
 
 **输出:**
 
-```
+```py
 Today is:  2019-12-11
 Day before yesterday was:  2019-12-09
 ```

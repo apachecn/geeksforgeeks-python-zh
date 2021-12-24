@@ -16,7 +16,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install plotly
 ```
 
@@ -28,7 +28,7 @@ pip install plotly
 
 ## 蟒蛇 3
 
-```
+```py
 # import all required libraries
 import numpy as np
 import plotly
@@ -60,7 +60,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all required libraries
 import numpy as np
 import plotly
@@ -94,7 +94,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all required libraries
 import numpy as np
 import plotly
@@ -133,7 +133,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all required libraries
 import numpy as np
 import plotly
@@ -163,7 +163,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all required libraries
 import numpy as np
 import plotly

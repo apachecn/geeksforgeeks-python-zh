@@ -10,13 +10,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 画布是小部件用于绘制的根对象。画布不是你画画的地方。我在画布开始时遇到的主要问题是由于它的名字。尤其是考虑到所有关于 HTML5 画布的讨论。我最初认为画布是颜料，但画布基本上是一个说明的容器。
 要使用画布，您必须导入:
 
-```
+```py
 from kivy.graphics import Rectangle, Color
 ```
 
 **注意:**默认情况下，Kivy 中的每个 Widget 都已经有一个 Canvas。创建小部件时，可以创建绘图所需的所有说明。如果自我是你当前的小部件。“颜色”和“矩形”指令会自动添加到画布对象中，并在绘制窗口时使用。
 
-```
+```py
 Basic Approach 
 -> import kivy
 -> import kivy App
@@ -34,7 +34,7 @@ Basic Approach
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -102,7 +102,7 @@ CanvasApp().run()
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 

@@ -6,7 +6,7 @@
 
 **方法#1:** 使用`any()`
 
-```
+```py
 # Python code to check if two lists
 # have any element in common
 
@@ -26,14 +26,14 @@ else :
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 **方法 2:** 使用 中的 ***运算符。***
 
-```
+```py
 # Python code to check if two lists
 # have any element in common
 
@@ -58,7 +58,7 @@ else :
 
 **Output:**
 
-```
+```py
 False
 
 ```

@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -51,13 +51,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/755c339cae753fa0af858c372c9ee330.png)
 
-```
+```py
 Image after hit miss transform
 ```
 
@@ -65,7 +65,7 @@ Image after hit miss transform
 
 另一个例子
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -101,13 +101,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/75ededf8d0e0c555c19ea8ad3cd22ba7.png)
 
-```
+```py
 Image after hit miss transform
 ```
 

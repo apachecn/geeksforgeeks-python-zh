@@ -10,7 +10,7 @@
 
 缩放操作增加/减小图像的大小。
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -40,7 +40,7 @@ except IOError:
 **旋转图像:-**
 图像可以顺时针或逆时针旋转任意角度。我们只需要定义旋转矩阵，列出旋转点、旋转度和比例因子。
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -69,7 +69,7 @@ except IOError:
 **翻译图像:-**
 翻译图像意味着在给定的参照系内移动图像。
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -104,7 +104,7 @@ except IOError:
 **图像中的边缘检测:-**
 图像检测的过程包括检测图像中的尖锐边缘。这种边缘检测在图像识别或[物体定位/检测](https://en.wikipedia.org/wiki/Object_detection)的环境中是必不可少的。由于其广泛的适用性，有多种边缘检测算法。我们将使用一种称为 [Canny 边缘检测](https://en.wikipedia.org/wiki/Canny_edge_detector)的算法。
 
-```
+```py
 import cv2
 import numpy as np
 

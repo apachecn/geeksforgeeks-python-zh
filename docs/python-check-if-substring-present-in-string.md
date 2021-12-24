@@ -7,7 +7,7 @@
 **方法 1:使用`in`运算符**
 `in`运算符是检查一个子串最通用、最快的方法，python 中`in`运算符的威力是众所周知的，它被用于整个语言的许多操作中。
 
-```
+```py
 # Python 3 code to demonstrate 
 # checking substring in string
 # using in operator
@@ -26,7 +26,7 @@ else : 
 
 **输出:**
 
-```
+```py
 Does for exists in GeeksforGeeks ? : 
 Yes, String found
 
@@ -35,7 +35,7 @@ Yes, String found
 **方法 2:使用`str.find()`**
 **str.find()** 方法一般用于获取字符串出现的最低索引，但如果字符串不存在，也返回-1，因此如果有任何值返回> = 0，则字符串存在，否则不存在。
 
-```
+```py
 # Python 3 code to demonstrate 
 # checking substring in string
 # using str.find()
@@ -54,7 +54,7 @@ else :
 
 **输出:**
 
-```
+```py
 for is present in GeeksforGeeks
 
 ```
@@ -62,7 +62,7 @@ for is present in GeeksforGeeks
 **方法 3:使用`str.index()`**
 这个方法可以用来执行类似的任务，但是和 str.find()一样，它不返回值，但是如果字符串不存在，它会返回一个 ValueError，因此捕捉异常是检查子字符串中字符串的方法。
 
-```
+```py
 # Python 3 code to demonstrate 
 # checking substring in string
 # using str.index()
@@ -81,7 +81,7 @@ except :
 
 **输出:**
 
-```
+```py
 forg does not exists in GeeksforGeeks
 
 ```
@@ -89,7 +89,7 @@ forg does not exists in GeeksforGeeks
 **方法 4:使用`operator.contains()`**
 这是一种不太为人所知的检查字符串中的子字符串的方法，这种方法在完成检查字符串中的字符串的任务时也是有效的。
 
-```
+```py
 # Python 3 code to demonstrate 
 # checking substring in string
 # using operator.contains()
@@ -108,7 +108,7 @@ else :
 
 **输出:**
 
-```
+```py
 for is present in GeeksforGeeks
 
 ```

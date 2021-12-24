@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Consecutive character repetition in String
 # Using loop
@@ -45,7 +45,7 @@ print("The filtered string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : Geeks4Geeks
 The filtered string : GGGeeeekkkkksss4444GGGeeeekkkkksss
 
@@ -57,7 +57,7 @@ The filtered string : GGGeeeekkkkksss4444GGGeeeekkkkksss
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Consecutive character repetition in String
 # Using list comprehension + join()
@@ -80,7 +80,7 @@ print("The filtered string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : Geeks4Geeks
 The filtered string : GGGeeeekkkkksss4444GGGeeeekkkkksss
 

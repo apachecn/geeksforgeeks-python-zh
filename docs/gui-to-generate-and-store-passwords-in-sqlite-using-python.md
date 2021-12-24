@@ -47,7 +47,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import random
 import webbrowser
 from tkinter import *
@@ -296,7 +296,7 @@ if __name__ == '__main__':
 
 ## **蟒蛇 3**
 
-```
+```py
 import sqlite3 as sq
 
 db = 'secure.db'

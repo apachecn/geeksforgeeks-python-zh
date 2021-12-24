@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate accessing of
 # Counter elements
 from collections import Counter
@@ -28,7 +28,7 @@ for color in col:
 
 **输出:** 
 
-```
+```py
 Counter({'blue': 3, 'red': 2, 'yellow': 1})
 blue 3
 red 2
@@ -43,7 +43,7 @@ elements()方法返回一个迭代器，该迭代器产生计数器已知的所�
 
 **示例:**
 
-```
+```py
 # Python example to demonstrate elements() on
 # Counter (gives back list)
 from collections import Counter
@@ -56,7 +56,7 @@ print(list(coun.elements()))
 
 **输出:**
 
-```
+```py
 Counter({'c': 3, 'b': 2, 'a': 1})
 ['a', 'b', 'b', 'c', 'c', 'c']
 
@@ -65,7 +65,7 @@ Counter({'c': 3, 'b': 2, 'a': 1})
 **most _ common():**
 most _ common()用于生成 n 个最常遇到的输入值及其各自计数的序列。
 
-```
+```py
 # Python example to demonstrate most_elements() on
 # Counter
 from collections import Counter
@@ -79,7 +79,7 @@ for letter, count in coun.most_common(3):
 
  **输出:**
 
-```
+```py
 f: 219
 d: 120
 c: 3

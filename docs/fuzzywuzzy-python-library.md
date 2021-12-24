@@ -19,7 +19,7 @@ FuzzyWuzzy 是一个 Python 库，用于字符串匹配。模糊字符串匹配�
 
 **通过 pip 安装:**
 
-```
+```py
 pip install fuzzywuzzy
 pip install python-Levenshtein
 
@@ -29,14 +29,14 @@ pip install python-Levenshtein
 
 首先导入这些模块，
 
-```
+```py
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 ```
 
 简单比率用法:
 
-```
+```py
 fuzz.ratio('geeksforgeeks', 'geeksgeeks')
 87
 
@@ -48,7 +48,7 @@ fuzz.ratio('geeks for geeks', 'Geeks For Geeks ') 
 80
 ```
 
-```
+```py
 fuzz.partial_ratio("geeks for geeks", "geeks for geeks!")
 100
 # Exclamation mark in second string, 
@@ -62,7 +62,7 @@ token in the middle middle of the string.
 
 现在，令牌集比率和令牌排序比率:
 
-```
+```py
 # Token Sort Ratio
 fuzz.token_sort_ratio("geeks for geeks", "for geeks geeks")
 100
@@ -80,7 +80,7 @@ considers duplicate words as a single word.
 
 现在假设我们有一个选项列表，我们想要找到最接近的匹配，我们可以使用**处理**模块
 
-```
+```py
 query = 'geeks for geeks'
 choices = ['geek for geek', 'geek geek', 'g. for geeks'] 
 
@@ -95,7 +95,7 @@ process.extractOne(query, choices)
 
 还有一个常用的比率叫做 **WRatio** ，有时候用 WRatio 代替简单的比率会更好，因为 WRatio 也处理上下限和其他一些参数。
 
-```
+```py
 fuzz.WRatio('geeks for geeks', 'Geeks For Geeks')
 100
 fuzz.WRatio('geeks for geeks!!!','geeks for geeks')
@@ -107,7 +107,7 @@ fuzz.ratio('geeks for geeks!!!','geeks for geeks')
 
 **全代码**
 
-```
+```py
 # Python code showing all the ratios together, 
 # make sure you have installed fuzzywuzzy module
 
@@ -132,7 +132,7 @@ print "Best among the above list: ",process.extractOne(query, choices)
 
 输出:
 
-```
+```py
 FuzzyWuzzy Ratio:  84
 FuzzyWuzzy PartialRatio:  85
 FuzzyWuzzy TokenSortRatio:  84

@@ -20,7 +20,7 @@ Python 是目前最简单的编程语言之一。事实上，开发它的唯一�
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 print("Welcome to GeeksForGeeks!")
 ```
@@ -32,7 +32,7 @@ print("Welcome to GeeksForGeeks!")
 
 *   **步骤 5:** 现在从 *cmd* 调用 python 解释器，运行 *gfg* 应用程序，如下所示:
 
-```
+```py
 python gfg.py
 ```
 
@@ -46,7 +46,7 @@ python gfg.py
 
 *   **步骤 1:** 我们将需要一个变量来存储我们要给它测试的数字。让我们声明一个变量(比如 num)，如下所示:
 
-```
+```py
 num = int(input())
 ```
 
@@ -54,7 +54,7 @@ num = int(input())
 
 *   **第二步:**当 *num* 变量接收到数字时，我们将使用条件语句来检查 *num* 变量中的数字是否能被 2 整除。为此，请使用下面的代码片段:
 
-```
+```py
 if num%2 == 0:
     print("It's an Even number!")
 else:
@@ -67,7 +67,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 num = int(input())
 
 if num%2 == 0:
@@ -88,25 +88,25 @@ else:
 
 *   **步骤 1:** 由于 **psycopg2 模块**为 Python 提供了与数据库交互的应用编程接口，因此使用以下命令安装相同的应用编程接口:
 
-```
+```py
 pip install psycopg2
 ```
 
 *   **步骤 2:** 现在打开 **psql shell** 填写您的凭据，并使用以下语句创建一个数据库(比如 test_db):
 
-```
+```py
 CREATE DATABASE test_db;
 ```
 
 *   **步骤 3:** 要建立与数据库的连接，请使用以下代码:
 
-```
+```py
 db_conn = psycopg2.connect("dbname=test_db user=postgres password=postgres")
 ```
 
 *   **第 4 步:**所有的都设置好了，但是我们还需要一个表(比如 test_name)，使用下面的语句:
 
-```
+```py
 CREATE TABLE department_employee(
     test_names CHAR(50)
 );
@@ -116,7 +116,7 @@ CREATE TABLE department_employee(
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/python
 import psycopg2 
 
@@ -135,13 +135,13 @@ db_conn.commit()
 
 *   **步骤 6:** 现在执行上面的 gfg.py，对数据库进行如下更改:
 
-```
+```py
 python gfg.py
 ```
 
 *   **步骤 7:** 现在在 psql shell 中使用下面的命令验证更改:
 
-```
+```py
 SELECT * FROM test_names;
 ```
 

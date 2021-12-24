@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是一种蛮力方式，可以执行这个任务。在这种情况下，我们使用条件语句来查找每个字符串中匹配关键字的字符串，并从字符串列表中提取关键字。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract dictionary keys in Strings List
 # Using list comprehension
@@ -32,7 +32,7 @@ print("The matching keys list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['GeeksforGeeks is best for geeks', 'I love GeeksforGeeks']
 The matching keys list : [['best', 'Geeks'], ['love', 'Geeks']]
 

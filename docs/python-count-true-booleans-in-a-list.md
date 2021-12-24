@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [True, False, True, True, False]
 Output : 3
 
@@ -19,7 +19,7 @@ Output : 2
 
 计算列表中真布尔的一个简单方法是使用列表理解。
 
-```
+```py
 # Python3 program to count True booleans in a list
 
 def count(lst):
@@ -33,14 +33,14 @@ print(count(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 **方法 2 :** 使用`sum()`
 
-```
+```py
 # Python3 program to count True booleans in a list
 
 def count(lst):
@@ -54,14 +54,14 @@ print(count(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 下面给出了使用*求和*的一个更加健壮和透明的方法。
 
-```
+```py
 def count(lst):
 
     return sum(1 for x in lst if x)
@@ -69,7 +69,7 @@ def count(lst):
 
 **法#3 :** `count()`法
 
-```
+```py
 # Python3 program to count True booleans in a list
 
 def count(lst):
@@ -83,14 +83,14 @@ print(count(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 **方法#4 :** `filter()`
 
-```
+```py
 # Python3 program to count True booleans in a list
 
 def count(lst):
@@ -104,7 +104,7 @@ print(count(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```

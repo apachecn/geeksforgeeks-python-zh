@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 # this will return a tuple of root and extension
@@ -29,7 +29,7 @@ print("File Extension: ", file_extension)
 
 **输出:**
 
-```
+```py
 ('my_file', '.txt')
 File Name:  my_file
 File Extension:  .txt
@@ -43,7 +43,7 @@ pathlib。路径()。Pathlib 模块的后缀方法可以用来提取文件路径
 
 ## 蟒蛇 3
 
-```
+```py
 import pathlib
 
 # function to return the file extension
@@ -53,6 +53,6 @@ print("File Extension: ", file_extension)
 
 **输出:**
 
-```
+```py
 File Extension:  .txt
 ```

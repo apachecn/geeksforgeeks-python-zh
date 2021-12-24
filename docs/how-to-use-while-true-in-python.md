@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # while loop with True
 
@@ -26,7 +26,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # while loop with True
 
@@ -48,7 +48,7 @@ print(f"Sum of First 10 Numbers is {Sum}")
 
 **Output**
 
-```
+```py
 Sum of First 10 Numbers is 55
 ```
 

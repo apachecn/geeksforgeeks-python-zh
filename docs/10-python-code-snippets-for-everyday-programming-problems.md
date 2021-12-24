@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 my_list = ['Multiple of 6' if i % 6 == 0 
            else 'Multiple of 2' if i % 2 == 0 
            else 'Multiple of 3' if i % 3 == 0 
@@ -32,7 +32,7 @@ print(my_list)
 
 ## 蟒蛇 3
 
-```
+```py
 my_dict1 = {'a' : 1, 'b' : 2, 'c' : 3}
 my_dict2 = {'d' : 4, 'e' : 5, 'f' : 6}
 
@@ -64,7 +64,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # Open a file
 f = open('filename.txt')
 
@@ -91,7 +91,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 start_time = time.time()
@@ -118,7 +118,7 @@ print("\nTime: ", time_taken)
 
 ## 蟒蛇 3
 
-```
+```py
 person = [
   {
     'name' : 'alice',
@@ -158,7 +158,7 @@ print(person)
 
 ## 蟒蛇 3
 
-```
+```py
 my_list = [8,4,8,2,2,5,8,0,3,5,2,5,8,9,3,8]
 print("Most frequent item:", max(set(my_list), key=my_list.count))
 ```
@@ -173,7 +173,7 @@ print("Most frequent item:", max(set(my_list), key=my_list.count))
 
 ## 蟒蛇 3
 
-```
+```py
 num1, num2 = 2,0
 try:
     print(num1 / num2)
@@ -195,7 +195,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 records = [
   "Vani Gupta, University of Hyderabad",
   "Elon Musk, Tesla",
@@ -228,7 +228,7 @@ for record in records:
 
 ## 蟒蛇 3
 
-```
+```py
 language = "Python"
 
 # Method 1
@@ -260,7 +260,7 @@ print("I like the {} programming language.".format(language))
 
 ## 蟒蛇 3
 
-```
+```py
 ugly_list = [10,12,36,[41,59,63],[77],81,93]
 flat = []
 for i in ugly_list:

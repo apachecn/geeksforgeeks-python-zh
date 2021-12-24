@@ -21,7 +21,7 @@
 
 下面是实现。
 
-```
+```py
 from turtle import *
 
 # loop for number of squares

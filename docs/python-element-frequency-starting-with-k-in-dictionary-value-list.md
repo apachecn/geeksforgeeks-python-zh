@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `startswith()`**
 这是可以执行该任务的一种方式。在本文中，我们使用强力嵌套循环检查字典列表中的每个元素，并增加计数器。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Element Frequency starting with K in dictionary value List
 # using loop + startswith()
@@ -35,7 +35,7 @@ print("The element frequency starting with K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {1: ['Gfg', 'is', 'for', 'Geeks'], 2: ['Gfg', 'is', 'CS', 'God'], 3: ['Gfg', 'best']}
 The element frequency starting with K : 5
 

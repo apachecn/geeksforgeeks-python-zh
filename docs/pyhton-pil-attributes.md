@@ -15,14 +15,14 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 
 **PIL。Image.filename:** 源文件的文件名或路径。只有在工厂功能打开的情况下创建的图像才有文件名属性。如果输入是类似文件的对象，filename 属性将设置为空字符串。
 
-```
+```py
 Syntax: PIL.Image.filename
 
 Type: py:class: string
 
 ```
 
-```
+```py
 from PIL import Image
 im1 = Image.open(r"C:\Users\sadow984\Desktop\i3.PNG")
 
@@ -32,20 +32,20 @@ print(im2)
 
 **输出:**
 
-```
+```py
 C:\Users\sadow984\Desktop\r1.PNG
 ```
 
 **PIL。**源文件的文件格式。对于由库本身创建的图像(通过工厂函数，或通过在现有图像上运行方法)，此属性设置为无。
 
-```
+```py
 Syntax: PIL.Image.format
 
 Type: string or None
 
 ```
 
-```
+```py
 from PIL import Image
 im1 = Image.open(r"C:\Users\sadow984\Desktop\i3.PNG")
 
@@ -55,20 +55,20 @@ print(im2)
 
 **输出:**
 
-```
+```py
 PNG
 ```
 
 **PIL。**图像模式。这是一个字符串，指定图像使用的像素格式。典型值为“1”、“L”、“RGB”或“CMYK”有关完整列表，请参见模式。
 
-```
+```py
 Syntax: PIL.Image.mode
 
 Type: string 
 
 ```
 
-```
+```py
 from PIL import Image
 im1 = Image.open(r"C:\Users\sadow984\Desktop\i3.PNG")
 
@@ -78,20 +78,20 @@ print(im2)
 
 **输出:**
 
-```
+```py
 P
 ```
 
 **PIL。**图像尺寸，以像素为单位。尺寸以二元组(宽度、高度)给出。
 
-```
+```py
 Syntax: PIL.Image.size
 
 Type: (width, height) 
 
 ```
 
-```
+```py
 from PIL import Image
 im1 = Image.open(r"C:\Users\sadow984\Desktop\i3.PNG")
 
@@ -101,6 +101,6 @@ print(im2)
 
 **输出:**
 
-```
+```py
 (225, 225)
 ```

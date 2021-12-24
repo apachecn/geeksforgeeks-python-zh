@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4]
 ```
 
@@ -23,7 +23,7 @@ list1 = [1, 2, 3, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4]
 
 # for printing only one item from a list
@@ -45,7 +45,7 @@ print(list1[-1])
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning elements to list
 list1 =[]
 for i in range(0, 11):
@@ -62,7 +62,7 @@ for i in range(0, 11):
 
 ## 蟒蛇 3
 
-```
+```py
 list1 =[1, 2, 3, 4]
 
 # updating
@@ -88,7 +88,7 @@ print(list1)
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4, 5]
 print(list1)
 

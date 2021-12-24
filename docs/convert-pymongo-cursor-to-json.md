@@ -10,7 +10,7 @@
 
 1.  **Importing Required Modules:** Import the required module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
     from bson.json_util import dumps
     ```
@@ -19,25 +19,25 @@
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **访问数据库:**由于与 MongoDB 服务器的连接已经建立。我们现在可以创建或使用现有的数据库。
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
 4.  **访问集合:**我们现在使用以下语法从数据库中选择集合:
 
-    ```
+    ```py
     collection_name = mydatabase.name_of_collection
     ```
 
 5.  **获取文档:**使用 find()方法从集合中获取所有文档。它返回光标的实例。
 
-    ```
+    ```py
     cursor = collection_name.find()
 
     ```
@@ -45,13 +45,13 @@
 6.  **Converting the Cursor to JSON:** Converting the Cursor to the JSON.
     First, we will convert the Cursor to the list of dictionary.
 
-    ```
+    ```py
     list_cur = list(cursor)
     ```
 
     现在，使用来自 bson.json_util 的方法 dumps()将 list_cur 转换为 JSON
 
-    ```
+    ```py
     json_data = dumps(list_cur)
 
     ```
@@ -60,7 +60,7 @@
 
 下面是实现。
 
-```
+```py
 # Python Program for
 # demonstrating the 
 # PyMongo Cursor to JSON

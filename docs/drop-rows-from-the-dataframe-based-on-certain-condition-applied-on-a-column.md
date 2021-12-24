@@ -12,7 +12,7 @@ Pandas 提供了丰富的函数集合来执行 Python 中的数据分析。在�
 
 **解决方案#1 :** 我们将使用矢量化从数据集中过滤出满足应用条件的行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(df.shape)
 
 在这个数据框中，目前我们有 458 行 9 列。让我们使用矢量化操作来过滤掉所有满足给定条件的行。
 
-```
+```py
 # Filter all rows for which the player's
 # age is greater than or equal to 25
 df_filtered = df[df['Age'] >= 25]
@@ -52,7 +52,7 @@ print(df_filtered.shape)
 
 **解决方案#2 :** 我们可以使用`DataFrame.drop()`函数删除不满足给定条件的行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code for object
 # oriented concepts without
 # using the Abstract factory
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code for object
 # oriented concepts using
 # the abstract factory

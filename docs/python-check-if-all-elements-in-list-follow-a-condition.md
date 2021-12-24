@@ -7,7 +7,7 @@
 **方法一:使用`all()`**
 我们可以使用`all()`，来执行这个特定的任务。在这种情况下，我们输入条件，所有元素的验证由`all()`内部检查。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if all elements in list follow a condition
 # Using all()
@@ -28,7 +28,7 @@ print("Are all elements greater than 3 ? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [4, 5, 8, 9, 10]
 Are all elements greater than 3 ? : True

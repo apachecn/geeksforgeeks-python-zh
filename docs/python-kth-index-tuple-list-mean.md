@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Kth Index Tuple List Mean
 # Using mean() + generator expression
@@ -41,7 +41,7 @@ print("The computed mean : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [('Gfg', 4), ('is', 18), ('best', 2), ('for', 5), ('geeks', 1)]
 The computed mean : 6
 ```
@@ -51,7 +51,7 @@ The computed mean : 6
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Kth Index Tuple List Mean
 # Using sum() + len() + generator expression
@@ -76,7 +76,7 @@ print("The computed mean : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [('Gfg', 4), ('is', 18), ('best', 2), ('for', 5), ('geeks', 1)]
 The computed mean : 6.0
 ```

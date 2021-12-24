@@ -7,7 +7,7 @@
 **方法一:使用`choice()` +列表理解**
 以上功能的组合可以用来执行此任务。在这种情况下，我们首先使用列表理解过滤掉除 K 之外的数字，然后将该列表馈送给 choice()以生成随机数。
 
-```
+```py
 # Python3 code to demonstrate 
 # Generate random number except K in list
 # using choice() + list comprehension
@@ -32,7 +32,7 @@ print ("The random number except K is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 7, 8, 4, 6, 10]
 The random number except K is : 8
 

@@ -20,7 +20,7 @@
 
     *   **构建卷积神经网络**
 
-    ```
+    ```py
     import pandas as pd
     import numpy as np
     import pickle
@@ -42,7 +42,7 @@
     from keras.models import model_from_json
     ```
 
-    ```
+    ```py
     model = Sequential()
     model.add(Conv2D(30, (5, 5), input_shape =(1, 28, 28), activation ='relu'))
     model.add(MaxPooling2D(pool_size =(2, 2)))
@@ -60,12 +60,12 @@
 
     *   **Fitting Model to Data**
 
-    ```
+    ```py
     model.fit(np.array(l), cat, epochs = 10, batch_size = 200, 
               shuffle = True, verbose = 1)
     ```
 
-    ```
+    ```py
     model_json = model.to_json()
     with open("model_final.json", "w") as json_file:
         json_file.write(model_json)
@@ -75,7 +75,7 @@
 
     **测试我们的模型或使用它求解方程**
 
-    ```
+    ```py
     json_file = open('model_final.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()

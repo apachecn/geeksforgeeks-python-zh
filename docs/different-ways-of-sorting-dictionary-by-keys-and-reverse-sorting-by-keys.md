@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 my_dict = {'c':3, 'a':1, 'd':4, 'b':2}
 
@@ -26,7 +26,7 @@ d: 4
 
 ## 蟒 3
 
-```
+```py
 # Initialising a dictionary
 my_dict = {'c':3, 'a':1, 'd':4, 'b':2}
 
@@ -42,7 +42,7 @@ for key in sorted_dict:
 
 **输出**
 
-```
+```py
 Sorted dictionary using sorted() and keys() is : 
 a : 1
 b : 2
@@ -57,7 +57,7 @@ d : 4
 
 **示例:**
 
-```
+```py
 Input:
 my_dict = {2:'three', 1:'two', 4:'five', 3:'four'}
 
@@ -71,7 +71,7 @@ Output:
 
 ## 蟒 3
 
-```
+```py
 # Initialising dictionary
 my_dict = {2: 'three', 1: 'two', 4: 'five', 3: 'four'}
 
@@ -86,7 +86,7 @@ for k, v in sorted_dict:
 
 **输出**
 
-```
+```py
 Sorted dictionary using sorted() and items() is :
 1 two
 2 three
@@ -101,7 +101,7 @@ Sorted dictionary using sorted() and items() is :
 
 **例:**
 
-```
+```py
 Input:
 my_dict = {'c':3, 'a':1, 'd':4, 'b':2}
 
@@ -112,7 +112,7 @@ Sorted dictionary is :  ['a','b','c','d']
 
 ## 蟒 3
 
-```
+```py
 # Initialising a dictionary
 my_dict = {'c': 3, 'a': 1, 'd': 4, 'b': 2}
 # Sorting dictionary
@@ -124,7 +124,7 @@ print("Sorted dictionary is : ", sorted_dict)
 
 **输出**
 
-```
+```py
 Sorted dictionary is :  ['a', 'b', 'c', 'd']
 
 ```

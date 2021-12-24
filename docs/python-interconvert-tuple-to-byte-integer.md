@@ -13,7 +13,7 @@
 **方法#1 : Tuple - >字节整数:使用`int.from_bytes()`**
 以上函数的组合可以用来解决这个问题。在本例中，我们使用内部函数 from_bytes()执行转换任务，并获得所需的整数值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Interconvert Tuple to Byte Integer
 # Tuple -> Byte Integer : Using int.from_bytes()
@@ -34,7 +34,7 @@ print("Tuple after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (6, 8, 3, 2)
 Tuple after conversion : 101188354
 
@@ -43,7 +43,7 @@ Tuple after conversion : 101188354
 **方法#2:字节整数- >元组:使用`tuple.to_bytes()`**
 以上函数的组合可以用来解决这个问题。在本例中，我们使用内部方法 to_bytes()执行转换任务，以获得所需的结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Interconvert Tuple to Byte Integer
 # Using Byte Integer -> Tuple : Using tuple.to_bytes()
@@ -64,7 +64,7 @@ print("Integer after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original integer : 101188354
 Integer after conversion : (6, 8, 3, 2)
 

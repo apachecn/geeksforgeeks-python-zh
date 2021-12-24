@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论仅在一侧向 this 小部件添加填充的过程。这里，我们创建一个小部件，并使用 tkinter 中的 widget.grid()方法填充小部件的内容。例如，让我们创建一个标签并使用 label.grid()方法。下面给出了语法:
 
-```
+```py
 label1 = Widget_Name(app, text="text_to_be_written_in_label")
 label1.grid(
     padx=(padding_from_left_side, padding_from_right_side), 
@@ -15,44 +15,44 @@ label1.grid(
 
 *   首先，导入库 tkinter
 
-```
+```py
 from tkinter import *
 ```
 
 *   现在，使用 tkinter 创建一个 GUI 应用程序
 
-```
+```py
 app= Tk()
 ```
 
 *   接下来，给这个应用一个标题。
 
-```
+```py
 app.title(“Name of GUI app”)
 ```
 
 *   然后，通过将**#小部件名称**替换为小部件的名称(如标签、按钮等)来创建小部件。).
 
-```
+```py
 l1 =Widget_Name(app, text="Text we want to give in widget")
 ```
 
 *   此外，把填料放在我们想放的地方。
 
-```
+```py
 l1.grid(padx=(padding from left side, padding from right side),
     pady=(padding from top, padding from bottom))
 ```
 
 *   例如，如果我们只想从顶部填充，那么在指定的位置输入填充值，剩下的部分为零。它将仅从一侧(即顶部)向小部件提供填充。
 
-```
+```py
 l1.grid(padx=(0, 0), pady=(200, 0))
 ```
 
 *   最后，循环在屏幕上显示图形用户界面应用程序。
 
-```
+```py
 app.mainloop( )
 ```
 
@@ -64,7 +64,7 @@ app.mainloop( )
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to add padding
 # to a widget only on left-side
 
@@ -100,7 +100,7 @@ app.mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to add padding
 # to a widget only from top
 

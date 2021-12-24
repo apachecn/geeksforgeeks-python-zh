@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign Frequency to Tuples
 # Using Counter() + items() + * operator + list comprehension
@@ -40,7 +40,7 @@ print("Frequency Tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5, 8), (2, 7), (6, 5, 8), (6, 5, 8), (9, ), (2, 7)]
 Frequency Tuple list : [(6, 5, 8, 3), (2, 7, 2), (9, 1)]
 
@@ -52,7 +52,7 @@ Frequency Tuple list : [(6, 5, 8, 3), (2, 7, 2), (9, 1)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign Frequency to Tuples
 # Using most_common() + Counter() + * operator + list comprehension
@@ -74,7 +74,7 @@ print("Frequency Tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5, 8), (2, 7), (6, 5, 8), (6, 5, 8), (9, ), (2, 7)]
 Frequency Tuple list : [(6, 5, 8, 3), (2, 7, 2), (9, 1)]
 

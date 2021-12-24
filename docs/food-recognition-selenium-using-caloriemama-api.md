@@ -8,14 +8,14 @@
 
 在进入代码之前，我们需要为 Python 安装 selenium。
 
-```
+```py
 pip install selenium
 ```
 
 **网络驱动程序**
 Selenium 需要一个网络驱动程序来与所选的浏览器交互。Web 驱动程序是一个与 web 浏览器交互的包。它通过通用的有线协议与网络浏览器或远程网络服务器进行交互。您可以签出并安装您选择的网络驱动程序。
 
-```
+```py
 Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
 Firefox: https://github.com/mozilla/geckodriver/releases
 Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
@@ -30,7 +30,7 @@ Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
     ![food](img/b1a057bdeb82315d328c17371b4f8c7e.png)
 
-    ```
+    ```py
     # food recognition using caloriemama API
     # selenium example
     from selenium import webdriver
@@ -71,6 +71,6 @@ Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
     **输出:**
 
-    ```
+    ```py
     Pizza
     ```

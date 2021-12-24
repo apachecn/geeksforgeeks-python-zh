@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # defining object file1 to
 # open GeeksforGeeks file in 
 # read mode
@@ -75,7 +75,7 @@ file1.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing regex module
 import re
 
@@ -114,7 +114,7 @@ file2.close()
 
 **输出:**
 
-```
+```py
 forGeeksGeeks
 
 ```

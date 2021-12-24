@@ -18,7 +18,7 @@ Python 中的类有三种类型的访问修饰符:
 
 ## 蟒蛇 3
 
-```
+```py
 # program to illustrate public access modifier in a class
 
 class Geek:
@@ -48,7 +48,7 @@ obj.displayAge()
 
 **Output:** 
 
-```
+```py
 Name:  R2J
 Age:  20
 ```
@@ -61,7 +61,7 @@ Age:  20
 
 ## 蟒蛇 3
 
-```
+```py
 # program to illustrate protected access modifier in a class
 
 # super class
@@ -110,7 +110,7 @@ obj.displayDetails()
 
 **Output:** 
 
-```
+```py
 Name:  R2J
 Roll:  1706256
 Branch:  Information Technology
@@ -124,7 +124,7 @@ Branch:  Information Technology
 
 ## 蟒蛇 3
 
-```
+```py
 # program to illustrate private access modifier in a class
 
 class Geek:
@@ -163,7 +163,7 @@ obj.accessPrivateFunction()
 
 **Output:** 
 
-```
+```py
 Name:  R2J
 Roll:  1706256
 Branch:  Information Technology
@@ -175,7 +175,7 @@ Branch:  Information Technology
 
 ## 蟒蛇 3
 
-```
+```py
 # program to illustrate access modifiers of a class
 
 # super class
@@ -250,7 +250,7 @@ print("Object is accessing protected member:", obj._var2)
 
 **Output:** 
 
-```
+```py
 Public Data Member:  Geeks
 Protected Data Member:  4
 Private Data Member:  Geeks !

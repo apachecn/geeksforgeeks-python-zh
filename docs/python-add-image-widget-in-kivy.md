@@ -10,7 +10,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 图像小部件用于显示图像。要使用图像小部件，您必须导入:
 
-```
+```py
 from kivy.uix.image import Image, AsyncImage
 ```
 
@@ -27,7 +27,7 @@ from kivy.uix.image import Image, AsyncImage
 
 **注意:**默认情况下，图像居中并适合小部件边界框。如果您不想这样，您可以将*允许拉伸*设置为真，将*保持比例*设置为假。
 
-```
+```py
 Basic Approach to create multiple layout in one file:
 1) import kivy
 2) import kivyApp
@@ -43,7 +43,7 @@ Basic Approach to create multiple layout in one file:
 **代码#1:**
 来自系统的简单图像(必须在。保存 py 文件)
 
-```
+```py
 # Program to explain how to add image in kivy
 
 # import kivy module   
@@ -83,7 +83,7 @@ MyApp().run()
 
 我们如何从网络服务器(外部)添加图像
 
-```
+```py
 # Simple program to show how we add AsyncImage in kivy App
 
 # import kivy module   
@@ -123,7 +123,7 @@ MyApp().run()
 
 **代码#3:**
 
-```
+```py
 # Program to Show how to use images in kivy
 
 # import kivy module   

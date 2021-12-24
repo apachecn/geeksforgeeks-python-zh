@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > equalize()
 > ```
 > 
@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import  Geometry, Color
@@ -44,7 +44,7 @@ img.write('2_a.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import  Geometry, Color

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple Matrix to Tuple List
 # Using list comprehension + zip()
@@ -41,7 +41,7 @@ print("The converted tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[(4, 5), (7, 8)], [(10, 13), (18, 17)], [(0, 4), (10, 1)]]
 The converted tuple list : [(4, 7, 10, 18, 0, 10), (5, 8, 13, 17, 4, 1)]
 
@@ -53,7 +53,7 @@ The converted tuple list : [(4, 7, 10, 18, 0, 10), (5, 8, 13, 17, 4, 1)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Tuple Matrix to Tuple List
 # Using chain.from_iterable() + zip()
@@ -74,7 +74,7 @@ print("The converted tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[(4, 5), (7, 8)], [(10, 13), (18, 17)], [(0, 4), (10, 1)]]
 The converted tuple list : [(4, 7, 10, 18, 0, 10), (5, 8, 13, 17, 4, 1)]
 

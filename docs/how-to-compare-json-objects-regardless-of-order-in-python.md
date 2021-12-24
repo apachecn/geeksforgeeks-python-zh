@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # JSON string
@@ -38,7 +38,7 @@ print(sorted(json_dict1.items()) == sorted(json_dict2.items()))
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -46,7 +46,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # JSON string
@@ -78,7 +78,7 @@ print(sorted(json2_dict.items()))
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # JSON string
@@ -103,6 +103,6 @@ print(sorting(json1_dict) == sorting(json2_dict))
 
 **输出:**
 
-```
+```py
 True
 ```

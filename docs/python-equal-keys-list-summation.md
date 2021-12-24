@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `items() + sum()`**
 这个问题可以通过使用列表理解和 sum()来解决，sum()可以用来对列表内容进行求和，items 方法也可以用来获取字典键和值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Equal Keys List Summation
 # Using items() + list comprehension + sum()
@@ -30,7 +30,7 @@ print("The summation of dictionary values is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary 1 is : {'CS': [7, 8], 'for': [2, 4], 'Gfg': [1, 2, 3]}
 The original dictionary 2 is : {'CS': [0, 18], 'for': [5], 'Gfg': [10, 11]}
 The summation of dictionary values is : {'CS': 33, 'for': 11, 'Gfg': 27}

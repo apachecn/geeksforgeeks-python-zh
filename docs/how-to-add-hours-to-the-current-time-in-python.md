@@ -30,7 +30,7 @@
 
 ## 蟒 3
 
-```
+```py
 #importing datetime module for now()  
 from datetime import datetime, timedelta  
 

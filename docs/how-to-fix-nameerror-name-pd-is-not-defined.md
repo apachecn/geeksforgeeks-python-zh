@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas
 
@@ -49,7 +49,7 @@ data
 
 **语法**:
 
-```
+```py
 import pandas as pd
 ```
 
@@ -57,7 +57,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -70,7 +70,7 @@ data
 
 **输出:**
 
-```
+```py
     a    b
 0    1    3
 1    2    4
@@ -82,7 +82,7 @@ data
 
 **语法**:
 
-```
+```py
 import pandas
 ```
 
@@ -90,7 +90,7 @@ import pandas
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas
 
@@ -103,7 +103,7 @@ data
 
 **输出:**
 
-```
+```py
     a    b
 0    1    3
 1    2    4

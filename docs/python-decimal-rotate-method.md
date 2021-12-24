@@ -4,7 +4,7 @@
 
 **Decimal # rotate():rotate()**是一个 Decimal 类方法，返回 x，y 次的旋转副本
 
-```
+```py
 Syntax:  Decimal.rotate()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  the rotated copy of x, y times
 
 **代码# 1:`rotate()`方法示例**
 
-```
+```py
 # Python Program explaining 
 # rotate() method
 
@@ -39,7 +39,7 @@ print ("Decimal b with rotate() method : ", b.rotate(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  2
 
@@ -50,7 +50,7 @@ Decimal b with rotate() method :  200
 
 **代码#2:旋转()方法示例**
 
-```
+```py
 # Python Program explaining 
 # rotate() method
 
@@ -74,7 +74,7 @@ print ("Decimal b with rotate() method : ", b.rotate(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  300
 Decimal value b :  15
 

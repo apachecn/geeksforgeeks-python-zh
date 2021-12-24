@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -29,7 +29,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -53,7 +53,7 @@ ages.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 

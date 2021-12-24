@@ -19,7 +19,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # In this program we are demonstrating how different
 # Data-type can cause value erro
 
@@ -49,7 +49,7 @@ print(np_array)
 
 **语法:**
 
-```
+```py
 numpy.array( Array ,dtype = ***Common_DataType*** );
 ```
 
@@ -57,7 +57,7 @@ numpy.array( Array ,dtype = ***Common_DataType*** );
 
 ## 计算机编程语言
 
-```
+```py
 # In this program we fix problem by different data-type
 
 import numpy
@@ -76,7 +76,7 @@ print(np_array)
 
 **输出:**
 
-```
+```py
 [1 2 4 list([5, [6, 7]])]
 ```
 
@@ -86,7 +86,7 @@ print(np_array)
 
 ## 计算机编程语言
 
-```
+```py
 # In this program we are demonstrating how mismatch
 # of data-type can cause value erro
 
@@ -116,7 +116,7 @@ print(np_array)
 
 **语法:**
 
-```
+```py
 if np_array.dtype == type( Variable ):
       expression;
 ```
@@ -125,7 +125,7 @@ if np_array.dtype == type( Variable ):
 
 ## 计算机编程语言
 
-```
+```py
 # In this program we fix error by mismatch
 # of data-type
 
@@ -151,7 +151,7 @@ print(np_array)
 
 **输出:**
 
-```
+```py
 Variable value is not the type of numpy array
 ['Geeks' 'For']
 ```

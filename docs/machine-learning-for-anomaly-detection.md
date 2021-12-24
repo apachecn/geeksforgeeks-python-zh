@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
@@ -32,7 +32,7 @@ from pyod.utils.data import generate_data, get_outliers_inliers
 
 ## 蟒蛇 3
 
-```
+```py
 # generating a random dataset with two features
 X_train, y_train = generate_data(n_train = 300, train_only = True,
                                                    n_features = 2)
@@ -54,7 +54,7 @@ f2 = X_train[:, [1]].reshape(-1, 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Visualising the dataset
 # create a meshgrid
 xx, yy = np.meshgrid(np.linspace(-10, 10, 200),
@@ -72,7 +72,7 @@ plt.ylabel('Feature 2')
 
 ## 蟒蛇 3
 
-```
+```py
 # Training the classifier
 clf = KNN(contamination = outlier_fraction)
 clf.fit(X_train, y_train)
@@ -93,7 +93,7 @@ print('The number of prediction errors are ' + str(n_errors))
 
 ## 蟒蛇 3
 
-```
+```py
 # threshold value to consider a
 # datapoint inlier or outlier
 threshold = stats.scoreatpercentile(scores_pred, 100 * outlier_fraction)

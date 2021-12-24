@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to distribute integer N
 // among A, B, C such that they become equal
 #include<bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to distribute integer N
 // among A, B, C such that they become equal
 class GFG{
@@ -107,7 +107,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to Distribute integer N
 # among A, B, C such that they become equal
 
@@ -139,7 +139,7 @@ distributeN(A, B, C, n)
 
 ## C#
 
-```
+```py
 // C# program to distribute integer N
 // among A, B, C such that they become equal
 using System;
@@ -182,7 +182,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript program to distribute integer N
@@ -220,7 +220,7 @@ function distributeN(A, B, C, n)
 
 **Output:** 
 
-```
+```py
 No
 ```
 

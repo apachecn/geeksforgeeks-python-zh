@@ -6,13 +6,13 @@
 
 [检查按钮](https://www.geeksforgeeks.org/python-tkinter-ttk-checkbutton-and-comparison-with-simple-checkbutton/)可以如下创建:
 
-```
+```py
 chkbtn = ttk.Checkbutton(parent, value = options, ...)
 ```
 
 **代码#1:**
 
-```
+```py
 # This will import tkinter and ttk
 from tkinter import * from tkinter import ttk
 
@@ -53,7 +53,7 @@ root.mainloop()
 
 **代码#2:** 命令可以与[检查按钮](https://www.geeksforgeeks.org/python-tkinter-ttk-checkbutton-and-comparison-with-simple-checkbutton/)集成，当根据条件选择或取消选择检查按钮时，可以执行该命令。
 
-```
+```py
 # Importing tkinter, ttk and
 # _show method to display
 # pop-up message window

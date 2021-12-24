@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```py
 # program to demonstrate __getslice__ method
 
 class MyClass:
@@ -45,13 +45,13 @@ if __name__ == '__main__': 
 
 **输出**
 
-```
+```py
 ['Hello', 'World']
 ```
 
 **例 2:**
 
-```
+```py
 # program to demonstrate __getslice__ method
 
 class MyClass:
@@ -84,6 +84,6 @@ if __name__ == '__main__': 
 
 **输出**
 
-```
+```py
 []
 ```

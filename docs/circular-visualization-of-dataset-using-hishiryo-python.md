@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install hishiryo
 ```
 
@@ -35,7 +35,7 @@ pip install hishiryo
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from hishiryo import Hishiryo
 
@@ -73,7 +73,7 @@ HishiryoConverter.convertCSVToRadialBitmap(input_path, 
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from hishiryo import Hishiryo
 

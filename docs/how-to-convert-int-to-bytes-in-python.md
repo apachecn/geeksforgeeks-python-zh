@@ -24,7 +24,7 @@ int 对象可以用来以字节的格式表示相同的值。整数代表一个�
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring an integer value
 integer_val = 5
 
@@ -38,13 +38,13 @@ print(bytes_val)
 
 **Output**
 
-```
+```py
 b'\x00\x05'
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring an integer value
 integer_val = 10
 
@@ -59,7 +59,7 @@ print(bytes_val)
 
 **Output**
 
-```
+```py
 b'\n\x00\x00\x00\x00'
 ```
 
@@ -72,7 +72,7 @@ b'\n\x00\x00\x00\x00'
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring an integer value
 int_val = 5
 
@@ -86,6 +86,6 @@ print(byte_val)
 
 **Output**
 
-```
+```py
 b'5'
 ```

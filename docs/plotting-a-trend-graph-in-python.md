@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import all the libraries
 import numpy as np
 import pandas as pd
@@ -36,7 +36,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
    medals  Time_Period
 0     100         2010
 1      98         2011
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all the libraries
 import numpy as np
 import pandas as pd
@@ -95,7 +95,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import the library
 import matplotlib.pyplot as plt
 

@@ -7,7 +7,7 @@
 **方法:使用`accumulate() + sum() + lambda + map() + tuple() + zip()`**
 以上功能的组合可以用来解决这个任务。在本例中，我们使用`zip()`对元素进行配对，然后计算它们的总和，并使用`map()`将其扩展到所有元素。求和是通过累加来实现的。所有逻辑的绑定都是由 lambda 函数完成的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Accumulative index summation in tuple list
 # Using accumulate() + sum() + lambda + map() + tuple() + zip()
@@ -29,7 +29,7 @@ print("Accumulative index summation of tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 4, 5), (4, 5, 7), (1, 4, 10)]
 Accumulative index summation of tuple list : [(3, 4, 5), (7, 9, 12), (8, 13, 22)]
 

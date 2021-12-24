@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # basename function
 import os
 out = os.path.basename("/baz/foo")
@@ -17,7 +17,7 @@ print(out)
 
 输出:
 
-```
+```py
 'foo'
 ```
 
@@ -25,7 +25,7 @@ print(out)
 
 ## 蟒蛇 3
 
-```
+```py
 # dirname function
 import os
 out = os.path.dirname("/baz/foo")
@@ -34,7 +34,7 @@ print(out)
 
 输出:
 
-```
+```py
 '/baz'
 ```
 
@@ -42,7 +42,7 @@ print(out)
 
 ## 计算机编程语言
 
-```
+```py
 # isabs function
 import os
 out = os.path.isabs("/baz/foo")
@@ -51,7 +51,7 @@ print(out)
 
 输出:
 
-```
+```py
 True
 ```
 
@@ -59,7 +59,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # isdir function
 import os
 out = os.path.isdir("C:\\Users")
@@ -68,7 +68,7 @@ print(out)
 
 输出:
 
-```
+```py
 True
 ```
 
@@ -76,7 +76,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # isfile function
 import os
 out = os.path.isfile("C:\\Users\foo.csv")
@@ -85,7 +85,7 @@ print(out)
 
 输出:
 
-```
+```py
 True
 ```
 
@@ -93,7 +93,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # normcase function in windows
 import os
 out = os.path.normcase("/BAz")
@@ -102,7 +102,7 @@ print(out)
 
 输出:
 
-```
+```py
 '\\baz'
 ```
 
@@ -110,7 +110,7 @@ print(out)
 
 ## 计算机编程语言
 
-```
+```py
 # normpath function in Unix
 import os
 out = os.path.normpath("foo/./bar")
@@ -119,7 +119,7 @@ print(out)
 
 输出:
 
-```
+```py
 'foo/bar'
 ```
 

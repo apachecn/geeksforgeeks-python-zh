@@ -10,13 +10,13 @@ Scrapy 是一个快速的高级网页抓取和网页抓取框架，用于抓取�
 
 在我们开始编码之前，我们需要安装 Scrapy 包
 
-```
+```py
 pip install scrapy
 ```
 
 **步骤 2:** 创建项目
 
-```
+```py
 # scrapyProject is the name we chose for 
 # the folder that will contain the project
 mkdir scrapyProject
@@ -45,7 +45,7 @@ Scrapy 附带了 4 个蜘蛛模板，即:
 
 **查看 scrapy 中可用的蜘蛛模板:**
 
-```
+```py
 scrapy genspider -l
 ```
 
@@ -57,7 +57,7 @@ scrapy 中 4 个可用的蜘蛛模板
 
 **要更改您的目录** *:*
 
-```
+```py
 # the project name we had decided was 
 # downFiles in step2
 cd downFiles 
@@ -83,7 +83,7 @@ cd downFiles
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
@@ -111,7 +111,7 @@ class NirsoftSpider(CrawlSpider):
 
 ## 蟒蛇 3
 
-```
+```py
 rules = (
     Rule(LinkExtractor(allow = r'Items/'),
          callback = 'parse_item',
@@ -121,7 +121,7 @@ rules = (
 
 上面这段代码是用来处理蜘蛛将要抓取的链接的。几个命令可以用来制定规则，但在本教程中，我们将只使用少数几个常见的命令。我们将尝试下载一些由[nirsoft.net](https://nirsoft.net)提供的工具。所有的工具，或者更确切地说，实用程序都在它们的实用程序下，所以所有相关的链接都遵循给定的模式:
 
-```
+```py
 https://www.nirsoft.net/utils/...
 ```
 
@@ -137,7 +137,7 @@ https://www.nirsoft.net/utils/...
 
 ## 蟒蛇 3
 
-```
+```py
 rules = (
     Rule(LinkExtractor(allow=r'utils/'),
          callback='parse_item', follow = True),
@@ -160,7 +160,7 @@ a.downloadline 显示所有的下载链接都是类名“downloadline”下的�
 
 ## 蟒蛇 3
 
-```
+```py
 def parse_item(self, response):
     file_url = response.css('.downloadline::attr(href)').get()
     file_url = response.urljoin(file_url)
@@ -169,7 +169,7 @@ def parse_item(self, response):
 
 如果我们在这种状态下运行爬虫，我们将获得 nirsoft 中所有可用实用程序的链接。
 
-```
+```py
 scrapy crawl nirsoft
 ```
 
@@ -185,7 +185,7 @@ scrapy crawl nirsoft
 
 最后，我们都在等待的时刻，下载文件。然而，在此之前，我们需要编辑最初创建蜘蛛时创建的项目类。该文件可以在以下位置找到:
 
-```
+```py
 ...\scrapyProject\downFiles\downFiles\items.py
 ```
 
@@ -199,7 +199,7 @@ scrapy crawl nirsoft
 
 ## 蟒蛇 3
 
-```
+```py
 class DownfilesItem(scrapy.Item):
 
     # define the fields for your item here like:
@@ -211,7 +211,7 @@ class DownfilesItem(scrapy.Item):
 
 ## 蟒蛇 3
 
-```
+```py
 def parse_item(self, response):
     file_url = response.css('.downloadline::attr(href)').get()
     file_url = response.urljoin(file_url)
@@ -224,7 +224,7 @@ def parse_item(self, response):
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
@@ -235,7 +235,7 @@ from downFiles.items import DownfilesItem
 
 1.启用文件下载:
 
-```
+```py
 ITEM_PIPELINES = {
   'scrapy.pipelines.files.FilesPipeline': 1,
 }
@@ -243,7 +243,7 @@ ITEM_PIPELINES = {
 
 2.在“设置”中指定下载的目标文件夹。复制:
 
-```
+```py
 FILES_STORE = r"D:\scrapyProject\nirsoft\downloads"
 ```
 
@@ -253,7 +253,7 @@ FILES_STORE = r"D:\scrapyProject\nirsoft\downloads"
 
 如果我们逃跑
 
-```
+```py
 scrapy crawl nirsoft
 ```
 
@@ -267,7 +267,7 @@ scrapy crawl nirsoft
 
 ## 蟒蛇 3
 
-```
+```py
 def parse_item(self, response):
     file_url = response.css('.downloadline::attr(href)').get()
     file_url = response.urljoin(file_url)
@@ -284,7 +284,7 @@ def parse_item(self, response):
 
 ## 蟒蛇 3
 
-```
+```py
 class DownfilesItem(scrapy.Item):
     # define the fields for your item here like:
     file_urls = scrapy.Field()
@@ -294,7 +294,7 @@ class DownfilesItem(scrapy.Item):
 
 保存所有更改并运行，
 
-```
+```py
 scrapy crawl nirsoft
 ```
 
@@ -312,7 +312,7 @@ scrapy crawl nirsoft
 
 ## 蟒蛇 3
 
-```
+```py
 from scrapy.pipelines.files import FilesPipeline
 
 class DownfilesPipeline(FilesPipeline):
@@ -327,7 +327,7 @@ class DownfilesPipeline(FilesPipeline):
 
 接下来，我们更新我们的 settings.py 文件以使用我们的自定义管道，而不是默认管道。
 
-```
+```py
 ITEM_PIPELINES = {
   'downFiles.pipelines.DownfilesPipeline': 1,
 }
@@ -335,7 +335,7 @@ ITEM_PIPELINES = {
 
 最后，我们跑
 
-```
+```py
 scrapy crawl nirsoft
 ```
 

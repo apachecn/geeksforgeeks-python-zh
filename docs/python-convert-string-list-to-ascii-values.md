@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `ord()`**
 使用上述功能可以解决这个问题。在本例中，我们迭代列表，并使用`ord()`将每个字符转换为其 ascii 数字。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String list to ascii values
 # using loop + ord()
@@ -30,7 +30,7 @@ print("The ascii list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best']
 The ascii list is : [103, 102, 103, 105, 115, 98, 101, 115, 116]
 

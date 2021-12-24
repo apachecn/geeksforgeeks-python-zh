@@ -22,7 +22,7 @@ str()方法可用于在 Python 中将小数转换为字符串。
 
 ## 蟒蛇 3
 
-```
+```py
 from decimal import Decimal
 
 dec = Decimal(10)
@@ -35,7 +35,7 @@ print(dec, type(dec))
 
 **输出:**
 
-```
+```py
 10 <class 'decimal.Decimal'>
 10 <class 'str'>
 ```
@@ -44,7 +44,7 @@ print(dec, type(dec))
 
 ## 蟒蛇 3
 
-```
+```py
 from decimal import Decimal
 
 dec = Decimal("0.01")
@@ -57,7 +57,7 @@ print(s, type(dec))
 
 **输出:**
 
-```
+```py
 0.01 <class 'decimal.Decimal'>
 0.01 <class 'decimal.Decimal'>
 ```

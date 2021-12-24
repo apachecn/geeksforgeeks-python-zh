@@ -12,7 +12,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ print(actor)
 
 **输出:**
 
-```
+```py
 3 Idiots
 ===============
 Ajay Chodanker
@@ -50,7 +50,7 @@ Ajay Chodanker
 
 另一个例子:
 
-```
+```py
 # importing the module
 import imdb
 
@@ -77,7 +77,7 @@ print(cast[0])
 
 **输出:**
 
-```
+```py
 Udta Punjab
 ===============
 Pallavi Pethkar

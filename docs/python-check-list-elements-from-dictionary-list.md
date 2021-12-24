@@ -15,7 +15,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们将迭代列表中每个值的所有字典，并与所需的键进行比较，对于拥有它的记录，返回真。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check List elements from Dictionary List
 # Using loop
@@ -60,7 +60,7 @@ print("The Association list in Order : " + str(res)) 
 **方法 2:使用`any()` +生成器表达式**
 使用任意()并与生成器表达式集成可以解决这个问题。在本文中，我们通过减少内部循环、使用 any()进行测试来减少代码行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check List elements from Dictionary List
 # Using any() + generator expression

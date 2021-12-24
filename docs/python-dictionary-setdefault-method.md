@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of setdefault() method in Dictionary
 
@@ -33,7 +33,7 @@ print("Third_value:", Third_value)
 
 **输出:**
 
-```
+```py
 Dictionary: {'A': 'Geeks', 'C': 'Geeks', 'B': 'For'}
 Third_value: Geeks
 
@@ -43,7 +43,7 @@ Third_value: Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of setdefault() method in Dictionary
 
@@ -66,7 +66,7 @@ print("Fourth_value:", Fourth_value)
 
 **输出:**
 
-```
+```py
 Dictionary: {'A': 'Geeks', 'B': 'For', 'C': None}
 Third_value: None
 Dictionary: {'A': 'Geeks', 'B': 'For', 'C': None, 'D': 'Geeks'}

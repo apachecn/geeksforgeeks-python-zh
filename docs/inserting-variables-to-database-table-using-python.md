@@ -5,7 +5,7 @@
 在本文中，我们将看到如何使用变量插入用户数据。
 在这里，我们使用 ***sqlite 模块*** 来处理数据库，但在此之前，我们需要导入该包。
 
-```
+```py
 import sqlite3
 ```
 
@@ -16,7 +16,7 @@ import sqlite3
 
 ## 蟒蛇 3
 
-```
+```py
 conn = sqlite3.connect('pythonDB.db')
 c = conn.cursor()
 ```

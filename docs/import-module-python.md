@@ -9,14 +9,14 @@ python 中的导入类似于 C/C++中的#include header_file。Python 模块可�
 
 ## 大蟒
 
-```
+```py
 import math
 print(math.pi)
 ```
 
 输出:
 
-```
+```py
 3.141592653589793
 ```
 
@@ -27,7 +27,7 @@ pi 作为一个整体可以导入到我们的初始代码中，而不是导入�
 
 ## 大蟒
 
-```
+```py
 from math import pi
 
 # Note that in the above example,
@@ -38,7 +38,7 @@ print(pi)
 
 输出:
 
-```
+```py
 3.141592653589793
 ```
 
@@ -48,7 +48,7 @@ print(pi)
 
 ## 大蟒
 
-```
+```py
 from math import *
 print(pi)
 print(factorial(6))
@@ -56,7 +56,7 @@ print(factorial(6))
 
 输出:
 
-```
+```py
 3.141592653589793
 720
 ```
@@ -65,14 +65,14 @@ print(factorial(6))
 
 ## 大蟒
 
-```
+```py
 import mathematics
 print(mathematics.pi)
 ```
 
 输出:
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Users/GFG/Tuples/xxx.py", line 1, in 
     import mathematics

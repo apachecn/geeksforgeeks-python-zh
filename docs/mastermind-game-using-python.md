@@ -23,7 +23,7 @@
 例如:
 **输入:**
 
-```
+```py
 Player 1, set the number: 5672
 Player 2, guess the number: 1472
 
@@ -31,7 +31,7 @@ Player 2, guess the number: 1472
 
 **输出:**
 
-```
+```py
 Not quite the number. You did get 2 digits correct.
 X X 7 2
 
@@ -43,7 +43,7 @@ Enter your next choice of numbers:
 
 以下是上述想法的实现。
 
-```
+```py
 import random
 
 # the .randrange() function generates a
@@ -118,7 +118,7 @@ else:
 
 **输出:**
 
-```
+```py
 Guess the 4 digit number: 1564
 
 Great! You guessed the number in just 1 try! You're a Mastermind!
@@ -129,7 +129,7 @@ Great! You guessed the number in just 1 try! You're a Mastermind!
 
 **输出:**
 
-```
+```py
 Guess the 4 digit number: 2164    
 
 Not quite the number. But you did get 2 digit(s) correct!
@@ -150,7 +150,7 @@ It took you only 3 tries.
 您可以通过增加输入的位数或不透露输入中哪些数字被正确放置来增加游戏难度。
 这已经在下面的代码中解释过了。
 
-```
+```py
 import random
 
 #the .randrange() function generates
@@ -226,7 +226,7 @@ else:
 
 **输出:**
 
-```
+```py
 Guess the 5 digit number: 38476
 
 Not quite the number. But you did get 2 digit(s) correct! 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个任务的蛮力方法。在这种情况下，我们通过分配基键来构造新的字典，然后使用嵌套循环来执行内部键元素的展平。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flatten Nested Keys
 # Using loop

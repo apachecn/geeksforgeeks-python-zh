@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing re module for creating
 # regex expression
 import re
@@ -53,7 +53,7 @@ print(patn)
 
 **输出:**
 
-```
+```py
 Welcome to geeks for geeks GFG A computer science portal
 ```
 
@@ -69,7 +69,7 @@ Welcome to geeks for geeks GFG A computer science portal
 
 ## 蟒蛇 3
 
-```
+```py
 # importing re module for creating
 # regex expression
 import re

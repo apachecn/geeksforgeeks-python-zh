@@ -7,7 +7,7 @@
 **方法#1:使用`+ operator`和列表切片**
 这些操作符可以用来执行这个特定的任务。追加操作可以在+运算符的帮助下完成，后置的移除可以使用传统的列表切片来完成。
 
-```
+```py
 # Python3 code to demonstrate
 # append from front and remove from rear
 # using + operator and list slicing
@@ -28,7 +28,7 @@ print("The list after append and removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, 7, 3, 10]
 The list after append and removal : [13, 4, 5, 7, 3]
 

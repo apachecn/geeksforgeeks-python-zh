@@ -40,7 +40,7 @@ Datetime 模块由以下类组成:
 
 ## 蟒蛇 3
 
-```
+```py
 # MANIPULATING DATETIME
 from datetime import date, timedelta
 
@@ -55,7 +55,7 @@ print("AFTER 5 DAYS DATE WILL BE : ", today_date + td)
 
 **输出:**
 
-```
+```py
 CURRENT DAY :  2020-12-27
 AFTER 5 DAYS DATE WILL BE :  2021-01-01
 ```
@@ -64,7 +64,7 @@ AFTER 5 DAYS DATE WILL BE :  2021-01-01
 
 ## 蟒蛇 3
 
-```
+```py
 # MANIPULATING DATETIME
 from datetime import date, timedelta
 
@@ -77,7 +77,7 @@ print("OLD Date : ",current_date - timedelta(17))
 
 **输出:**
 
-```
+```py
 CURRENT DAY :  2020-12-27
 OLD Date :  2020-12-10
 ```
@@ -92,7 +92,7 @@ OLD Date :  2020-12-10
 
 ## 蟒蛇 3
 
-```
+```py
 # Manipulate DATETIME
 from datetime import datetime, timedelta
 current = datetime.now()
@@ -109,7 +109,7 @@ print("Yesterday's date and time :- ", current + yesterday)
 
 **输出:**
 
-```
+```py
 This is the current date and time :-  2020-12-27 13:50:14.229336
 Tomorrow's date and time :-  2020-12-28 13:50:14.229336
 Yesterday's date and time :-  2020-12-26 13:50:14.229336
@@ -119,7 +119,7 @@ Yesterday's date and time :-  2020-12-26 13:50:14.229336
 
 ## 蟒蛇 3
 
-```
+```py
 # MANIPULATING DATETIME
 from datetime import datetime, timedelta
 
@@ -137,7 +137,7 @@ print("New Date and time :- ", curr + new_datetime)
 
 **输出:**
 
-```
+```py
 Current Date and time :-  2020-12-27 13:58:42.178211
 New Date and time :-  2021-03-03 18:09:22.238221
 ```

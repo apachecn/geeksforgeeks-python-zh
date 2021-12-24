@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 class dict(**kwarg)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # passing keyword arguments to dict() method
 myDict = dict(a=1, b=2, c=3, d=4)
 
@@ -25,7 +25,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 ```
 
@@ -35,13 +35,13 @@ print(myDict)
 
 **语法:**
 
-```
+```py
 class dict(mapping, **kwarg)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # passing key-values pairs mapped by colon to dict function
 myDict = dict({'a': 1, 'b': 2, 'c': 3})
 
@@ -50,7 +50,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3}
 ```
 
@@ -60,13 +60,13 @@ print(myDict)
 
 **语法:**
 
-```
+```py
 class dict(iterable, **kwarg)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # A list of key value pairs is passesd and
 # keyword argument is also passed
 myDict = dict([('a', 1), ('b', 2), ('c', 3)], d=4)
@@ -76,6 +76,6 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 ```

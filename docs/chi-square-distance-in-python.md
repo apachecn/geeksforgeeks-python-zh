@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy as np
 
@@ -33,7 +33,7 @@ if __name__== "__main__":
     print("The Chi-square distance is :", result)
 ```
 
-```
+```py
 Input : a = [1, 2, 13, 5, 45, 23]
         b = [67, 90, 18, 79, 24, 98] 
 Output : The Chi-square distance is : 133.55428601494035
@@ -58,7 +58,7 @@ Output :  The Chi-square distance is : 814.776999405035
 
 ## 蟒蛇 3
 
-```
+```py
 # importing scipy
 from scipy.stats import chisquare
 
@@ -68,6 +68,6 @@ print(chisquare(k))
 
 **输出:**
 
-```
+```py
 Power_divergenceResult(statistic=8.516129032258064, pvalue=0.20267440425509237)
 ```

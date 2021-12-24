@@ -10,7 +10,7 @@ Elias gamma 码是一种通用码，用于对正整数序列进行编码。它�
 
 **示例**:我们考虑一个要解码 0001001 的示例，
 
-```
+```py
 Apply Step 1:
 Count the number of '0's from MSB until you reach the first '1' and store the count in K.
 In our example(0001001) K=3 
@@ -29,7 +29,7 @@ Decimal(1001)=9
 
 ## 蟒蛇 3
 
-```
+```py
 # define the function
 def Elias_Gamma_Decoding(x):
 
@@ -53,7 +53,7 @@ def Elias_Gamma_Decoding(x):
 
 ## 蟒蛇 3
 
-```
+```py
 x = x[K:2*K+1]  # Reading K more bits from '1'
 ```
 
@@ -61,7 +61,7 @@ x = x[K:2*K+1]  # Reading K more bits from '1'
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting binary to integer
 for i in range(len(x)):
     if x[i] == '1':
@@ -73,7 +73,7 @@ return int(n)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the math module
 import math
 
@@ -107,6 +107,6 @@ print(Elias_Gamma_Decoding(x))
 
 **输出:**
 
-```
+```py
 9
 ```

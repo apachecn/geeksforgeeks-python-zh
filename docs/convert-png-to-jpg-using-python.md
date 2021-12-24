@@ -8,13 +8,13 @@ PNG 和 JPG 格式用于图像插图。这两种格式都被用来为某些类�
 
 Python 使用 PIL 包(Python 图像库)为图像处理提供支持。该库提供了广泛的文件格式支持，也就是说，它可以用于将图像从一种格式转换为另一种格式。可以使用以下命令将此包安装到环境中:
 
-```
+```py
 pip install Pillow
 ```
 
 这个包提供了一个名为 Image 的模块，用于创建新的映像并将其加载到环境中。它还允许处理图像格式及其相关方向。它用于表示 PIL 图像。相关的语法是:
 
-```
+```py
 from PIL import Image
 ```
 
@@ -22,7 +22,7 @@ from PIL import Image
 
 **Image.open():** 打开并识别图像文件。除非显式执行 load()操作，否则它不会加载文件。它只是打开图像，而没有实际分析图像内容。
 
-```
+```py
 PIL.Image.open(fp, mode='r', formats=None)
 ```
 
@@ -40,7 +40,7 @@ PIL.Image.open(fp, mode='r', formats=None)
 
 **Image.save():** 用指定的文件名保存图像。如果没有指定扩展名，则从指定的文件名分析扩展名。
 
-```
+```py
 Image.save(fp, format=None, **params)
 ```
 
@@ -60,7 +60,7 @@ Image.save(fp, format=None, **params)
 
 ## 蟒蛇 3
 
-```
+```py
 #importing the required package
 from PIL import Image
 
@@ -85,19 +85,19 @@ img_png.save('C:\gfg\modified_img.jpg')
 
 OpenCV(开源计算机视觉)库是一个图像处理库，使用 MATLAB 语法执行数值运算。可以使用以下命令将其整合到我们的环境中:
 
-```
+```py
 pip install opencv-python
 ```
 
 下载后，可以使用命令将库导入 python 程序
 
-```
+```py
 import cv2
 ```
 
 它为我们提供了各种操作图像的函数，例如，imread()函数将本地机器的图像名称作为参数，imwrite()函数用于执行图像的操作和修改。该方法具有以下签名:
 
-```
+```py
 imwrite ( path, image)
 ```
 
@@ -113,7 +113,7 @@ imwrite ( path, image)
 
 ## 蟒蛇 3
 
-```
+```py
 #importing required packages and library
 import cv2
 

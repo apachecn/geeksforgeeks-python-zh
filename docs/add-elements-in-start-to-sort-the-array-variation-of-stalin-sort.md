@@ -34,7 +34,7 @@
 
 ## C++
 
-```
+```py
 // C++ implementation to sort the
 // array by using the variation
 // of the Stalin sort
@@ -93,7 +93,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to sort the
 // array by using the variation
 // of the Stalin sort
@@ -154,7 +154,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to sort
 # the array by using the variation
 # of the Stalin sort
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# implementation to sort the
 // array by using the variation
 // of the Stalin sort
@@ -248,7 +248,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript implementation to sort the
@@ -309,7 +309,7 @@ variationStalinsort(arr1);
 
 **Output:** 
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 

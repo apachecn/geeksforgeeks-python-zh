@@ -10,7 +10,7 @@ RSS 意味着丰富的网站摘要，并使用标准的网络格式来发布经�
 
 我们将使用 Feedparser python 库来解析博客的 RSS 提要。这是一个非常受欢迎的解析博客提要的库。
 
-```
+```py
 pip install feedparser
 ```
 
@@ -22,7 +22,7 @@ pip install feedparser
 
 ## 蟒蛇 3
 
-```
+```py
 # url of blog feed
 feed_url = "https://vaibhavkumar.hashnode.dev/rss.xml"
 
@@ -33,7 +33,7 @@ blog_feed = feedparser.parse(feed_url)
 
 ## 蟒蛇 3
 
-```
+```py
 # returns title of the blog site
 blog_feed.feed.title 
 
@@ -58,7 +58,7 @@ authors= [author.name for author in blog_feed.entries[0].authors]
 
 ## 蟒蛇 3
 
-```
+```py
 def get_posts_details(rss=None):
 
     """

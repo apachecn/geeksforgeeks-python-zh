@@ -32,7 +32,7 @@
 
 以下代码是使用装饰器方法编写的:
 
-```
+```py
 class WrittenText:
 
     """Represents a Written text """

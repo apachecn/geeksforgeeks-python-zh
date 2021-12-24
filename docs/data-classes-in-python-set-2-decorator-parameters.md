@@ -14,12 +14,12 @@
 
 **init:** 此参数指定是否应该有默认构造函数。
 
-```
+```py
 True (default): There will be a default Constructor.
 False         : There won't be a default Constructor.
 ```
 
-```
+```py
 from dataclasses import dataclass
 
 @dataclass(init = False)
@@ -36,14 +36,14 @@ article = GfgArticle("DataClasses",
                      "Python", 0)
 ```
 
-```
+```py
 TypeError: object() takes no parameters
 
 ```
 
 **repr :** 该参数指定了 [__repr__()](https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-2-data-hiding-and-object-printing/) 函数的行为。**假**值对应内存中对象的哈希值表示。**真**值对应于对象的数据类表示。
 
-```
+```py
 from dataclasses import dataclass
 
 @dataclass(repr = False)
@@ -63,13 +63,13 @@ print(article)
 
 **输出:**
 
-```
+```py
 __main__.GfgArticle object at 0x7f391b7ddbe0
 ```
 
 **eq :** 此参数用于指定使用 **==** 或**比较两个数据类是否相等时进行的比较操作！=** 操作员。 *eq* 采用布尔值。
 
-```
+```py
 from dataclasses import dataclass
 
 @dataclass(repr = False, eq = False)
@@ -95,7 +95,7 @@ print('Classes Equal:', equal)
 
 **输出:**
 
-```
+```py
 __main__.GfgArticle object at 0x7ff501c63c18
 __main__.GfgArticle object at 0x7ff501c63ba8
 Classes Equal: False
@@ -107,7 +107,7 @@ Classes Equal: False
 **顺序:**两个 DataClasses 之间的比较不仅仅限于相等，在参数中设置**顺序=True** 时，还支持**>****>=****<**和 **< =** 运算符。
 对象之间的比较是基于它们对应属性之间的比较，从第一个开始逐一进行。
 
-```
+```py
 from dataclasses import dataclass 
 
 @dataclass(order = True)
@@ -128,7 +128,7 @@ print(obj1 >= obj4)
 
 **输出:**
 
-```
+```py
 False
 True
 False
@@ -137,7 +137,7 @@ False
 
 **冻结:**这将 DataClass 中的所有变量设置为一次性可初始化的，一旦初始化，就不能为其重新分配新值。C++用户可以将其与 **const** 联系起来，Java 用户可以将其与 **final** 关键字联系起来。
 
-```
+```py
 from dataclasses import dataclass 
 
 @dataclass(frozen = True)
@@ -167,7 +167,7 @@ print(dClassArticle)
 **unsafe_hash :** 一般来说，python 中的可变对象是*不可变的*。这意味着不能使用 Python 的[哈希()](https://www.geeksforgeeks.org/python-hash-method/)函数生成它们的哈希。
 由于包括数据类对象的值在内的任何类对象都可以改变，因此它们是可变的。因此，他们不应该能够产生任何哈希值。
 
-```
+```py
 from dataclasses import dataclass 
 
 @dataclass
@@ -193,7 +193,7 @@ print(hash(dClassArticle))
 
 然而**冻结=真**设置变量一次性可初始化，因此使对象不可变。这可以安全地为数据类对象生成一个哈希。
 
-```
+```py
 from dataclasses import dataclass 
 
 @dataclass(frozen = True)
@@ -220,7 +220,7 @@ print(hash(dClassArticle))
 
 当逻辑上，我们知道一旦初始化，我们就不会改变 Dataclass 属性值时，这种情况就开始使用了。但归根结底是*能不能改的问题？*或者换句话说，*DataClass 是不是没有冻结？*在使用 *unsafe_hash* 的时候，如果 DataClass 没有被冻结，那么 DataClass 会生成一个 *unsafe* hash，假设这个类被冻结了，那么程序员就要非常小心地进一步使用这个。
 
-```
+```py
 from dataclasses import dataclass 
 
 @dataclass(unsafe_hash = True)

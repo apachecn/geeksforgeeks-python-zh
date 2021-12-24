@@ -8,7 +8,7 @@
 
 这个任务可以通过这些功能的组合来实现。`map` 函数可用于将逻辑链接到每个字符串，`split` 函数用于将列表的内部内容拆分到不同的元组属性，元组函数执行形成元组的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # convert list of strings to list of tuples
 # Using map() + split() + tuple()
@@ -29,7 +29,7 @@ print("The list after conversion to tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['4, 1', '3, 2', '5, 3']
 The list after conversion to tuple list : [(4, 1), (3, 2), (5, 3)]
 
@@ -38,7 +38,7 @@ The list after conversion to tuple list : [(4, 1), (3, 2), (5, 3)]
 **方法 2:使用`map()` + eval**
 这是执行这个特殊任务最优雅的方式。其中 map 函数用于将函数逻辑扩展到整个列表，eval 函数在内部执行相互转换和拆分。
 
-```
+```py
 # Python3 code to demonstrate
 # convert list of strings to list of tuples
 # Using map() + eval
@@ -59,7 +59,7 @@ print("The list after conversion to tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['4, 1', '3, 2', '5, 3']
 The list after conversion to tuple list : [(4, 1), (3, 2), (5, 3)]
 

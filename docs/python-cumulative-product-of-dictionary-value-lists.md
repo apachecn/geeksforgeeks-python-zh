@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative product of dictionary value lists
 # using loop + list comprehension
@@ -35,7 +35,7 @@ print("Product of dictionary list values are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'best': [19, 31, 22], 'gfg': [5, 6, 7], 'is': [10, 11]}
 Product of dictionary list values are : 13278
 ```
@@ -45,7 +45,7 @@ Product of dictionary list values are : 13278
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative product of dictionary value lists
 # using loop + map()
@@ -72,7 +72,7 @@ print("Product of dictionary list values are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary is : {'best': [19, 31, 22], 'gfg': [5, 6, 7], 'is': [10, 11]}
 Product of dictionary list values are : 13278
 ```

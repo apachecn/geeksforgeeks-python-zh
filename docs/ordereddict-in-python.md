@@ -8,7 +8,7 @@ OrderedDict **保留插入键的顺序**。常规字典不跟踪插入顺序，�
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate working of OrderedDict
 from collections import OrderedDict
 
@@ -35,7 +35,7 @@ for key, value in od.items():
 
 输出:
 
-```
+```py
 This is a Dict:
 ('a', 1)
 ('c', 3)
@@ -55,7 +55,7 @@ This is an Ordered Dict:
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate working of key
 # value change in OrderedDict
 from collections import OrderedDict
@@ -77,7 +77,7 @@ for key, value in od.items():
 
 输出:
 
-```
+```py
 Before:
 
 ('a', 1)
@@ -97,7 +97,7 @@ After:
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate working of deletion
 # re-insertion in OrderedDict
 from collections import OrderedDict
@@ -125,7 +125,7 @@ for key, value in od.items():
 
 输出:
 
-```
+```py
 Before deleting:
 
 ('a', 1)

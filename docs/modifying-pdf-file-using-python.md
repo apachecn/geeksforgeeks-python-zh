@@ -6,7 +6,7 @@
 
 可以使用 pip 命令下载 pylovepdf 模块:
 
-```
+```py
 pip install pylovepdf
 ```
 
@@ -29,7 +29,7 @@ iLovePDF 应用编程接口，即“pylovepdf”模块是围绕 REST 组织的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the ilovepdf api
 from pylovepdf.ilovepdf import ILovePdf
 
@@ -75,7 +75,7 @@ task.delete_current_task()
 
 ## 计算机编程语言
 
-```
+```py
 # public key
 from pylovepdf.ilovepdf import ILovePdf
 public_key = 'paste your code here'

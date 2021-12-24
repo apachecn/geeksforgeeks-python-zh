@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # AttributeError
 
@@ -24,7 +24,7 @@ X.append(6)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/46576cfdd7cb1db75480a8653e2115cc.py", line 5, in 
     X.append(6)
@@ -35,7 +35,7 @@ AttributeError: 'int' object has no attribute 'append'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # AttributeError
 
@@ -47,7 +47,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/2078367df38257e2ec3aead22841c153.py", line 3, in 
     string = "The famous website is { }".fst("geeksforgeeks")
@@ -58,7 +58,7 @@ AttributeError: 'str' object has no attribute 'fst'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # AttributeError
 
@@ -79,13 +79,13 @@ print(obj.b)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 ```
 
 **错误:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/373989a62f52a8b91cb2d3300f411083.py", line 17, in 
     print(obj.b)
@@ -100,7 +100,7 @@ Python 中的错误和异常可以使用[异常处理](https://www.geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # AttributeError
 
@@ -129,7 +129,7 @@ except AttributeError:
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 There is no such attribute
 ```

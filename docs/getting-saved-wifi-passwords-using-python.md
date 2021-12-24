@@ -20,7 +20,7 @@ Python 中的**子流程**模块(2.x 和 3.x)用于通过创建新流程，通�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing subprocess
 import subprocess
 
@@ -91,7 +91,7 @@ for i in profiles:
 
 **输出:**
 
-```
+```py
 Wi-Fi Name                    | Password
 -----------------------------------------------
 Engineer                      | ayush123

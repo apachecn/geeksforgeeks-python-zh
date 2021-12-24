@@ -30,7 +30,7 @@ Java 是一种强大的语言，Python 是一种简单易行的语言，这是�
 
 要在 Linux 中安装 Jython，请在终端中键入以下命令。
 
-```
+```py
 sudo apt install jython
 ```
 

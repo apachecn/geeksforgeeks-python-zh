@@ -7,7 +7,7 @@
 **方法:使用列表理解**
 解决这个问题的一种方法是使用列表理解，通过迭代列表并将范围元素乘以元素的索引，可以更容易地解决这个问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Decimal step range in list
 # using list comprehension
@@ -28,7 +28,7 @@ print("The list after decimal range value initialization : " + str(test_list))
 
 **Output :**
 
-```
+```py
 
 The list after decimal range value initialization : [5.0, 5.4, 5.8, 6.2, 6.6]
 

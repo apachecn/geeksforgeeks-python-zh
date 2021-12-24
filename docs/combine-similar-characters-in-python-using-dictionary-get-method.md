@@ -34,7 +34,7 @@
 
 **例 1 :**
 
-```
+```py
 # declaring the list of characters
 mylist = ['g', 'e', 'e', 'k', 's', 'f', 
           'o', 'r', 'g', 'e', 'e', 'k', 's'] 
@@ -64,13 +64,13 @@ print(result)
 
 **输出:**
 
-```
+```py
 ['gg', 'eeee', 'kk', 'ss', 'f', 'o', 'r']
 ```
 
 **例 2 :**
 
-```
+```py
 # declaring the list of characters
 mylist = ['p', 'y', 't', 'h', 'o', 'n', 't', 
           'u', 't', 'o', 'r', 'i', 'a', 'l']
@@ -100,6 +100,6 @@ print(result)
 
 **输出:**
 
-```
+```py
 ['a', 'h', 'i', 'l', 'n', 'oo', 'p', 'r', 'ttt', 'u', 'y']
 ```

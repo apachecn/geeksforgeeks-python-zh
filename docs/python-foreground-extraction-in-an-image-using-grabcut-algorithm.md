@@ -35,7 +35,7 @@
 
 下面是实现:
 
-```
+```py
 # Python program to illustrate 
 # foreground extraction using
 # GrabCut algorithm

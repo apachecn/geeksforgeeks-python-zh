@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(certificate)
 
 **输出:**
 
-```
+```py
 Money Heist
 ['Argentina:16', 'Australia:MA15+::(Netflix self-rating)', 'Brazil:16', 'Canada:TV-MA::(self-applied)', 'France:16', 'Germany:16', 'India:16+::(self-applied)', 'Italy:VM14', 'Japan:R18+::(self-applied)', 'Mexico:TV-MA::(self-applied)', 'Netherlands:12::(season 1)', 'Netherlands:16::(seasons 2-4)', 'Singapore:M18', 'South Korea:18', 'Spain:16', 'Turkey:15+', 'United Kingdom:15', 'United Kingdom:18::(season 4)', 'United States:TV-MA', 'Vietnam:C18']
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 

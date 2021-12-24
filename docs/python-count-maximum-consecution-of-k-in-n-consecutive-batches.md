@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum consecution of K in N consecutive batches
 # Using groupby() + max() + list comprehension + slicing

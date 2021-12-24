@@ -6,7 +6,7 @@ PyGame 是突破 Python 应用程序语言的模块集合。这些模块旨在�
 
 首先，打开位于应用程序->实用程序->终端的终端，确保系统中安装了 Python3。如果没有安装，请键入以下命令。
 
-```
+```py
 brew install python3
 ```
 
@@ -14,7 +14,7 @@ brew install python3
 
 **XCode:**PyGame 的第一步是安装苹果的 XCode 程序。在终端应用程序中，输入并运行以下命令来安装 XCode。
 
-```
+```py
 xcode-select --install
 ```
 
@@ -24,7 +24,7 @@ xcode-select --install
 
 我们现在可以安装最新版本的 PyGame 了。在终端中键入以下命令，然后按回车键。
 
-```
+```py
 pip3 install pygame
 ```
 

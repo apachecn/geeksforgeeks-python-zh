@@ -40,7 +40,7 @@ photo masic 是分割成矩形网格的图像，每个矩形网格由与目标�
 
 ## 蟒蛇 3
 
-```
+```py
 #Importing the required libraries
 import os, random, argparse
 from PIL import Image
@@ -304,7 +304,7 @@ if __name__ == '__main__':
   main()
 ```
 
-```
+```py
 python test.py --target-image test-data/a.jpg --input-folder test-data/set1/ --grid-size 128 128
 ```
 

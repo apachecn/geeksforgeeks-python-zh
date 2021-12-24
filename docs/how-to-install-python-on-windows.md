@@ -16,7 +16,7 @@ Python 更容易编码和学习。Python 程序可以写在任何纯文本编辑
 *要检查您的设备是否预装了 Python，只需进入**命令行**(在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)。
 现在运行以下命令:**
 
-```
+```py
 **python --version** 
 ```
 
@@ -43,7 +43,7 @@ T3】**
 
 **要验证安装，请在终端中输入以下命令。**
 
-```
+```py
 **python** 
 ```
 
@@ -51,7 +51,7 @@ T3】**
 
 **让我们考虑一个简单的 Hello World 程序。**
 
-```
+```py
 **# Python program to print
 # Hello World
 

@@ -6,7 +6,7 @@ Python 包含一个名为“ **ChainMap** ”的容器，它将许多[词典](ht
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate  
 # ChainMap  
 
@@ -24,7 +24,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
 ```
@@ -35,7 +35,7 @@ ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
 *   **keys() :- This function is used to display all the **keys** of all the dictionaries in ChainMap.***   ****values() :- This function is used to display **values** of all the dictionaries in ChainMap.*****   ******maps() :- This function is used to display **keys with corresponding values** of all the dictionaries in ChainMap.
 
-    ```
+    ```py
     # Please select Python 3 for running this code in IDE
     # Python code to demonstrate ChainMap and
     # keys(), values() and maps
@@ -65,7 +65,7 @@ ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
     **输出:**
 
-    ```
+    ```py
     All the ChainMap contents are : 
     [{'b': 2, 'a': 1}, {'c': 4, 'b': 3}]
     All keys of ChainMap are : 
@@ -79,7 +79,7 @@ ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
     ## 操作操作****** *   ******new_child() :- This function adds a new dictionary in the beginning of the ChainMap.*******   ******reversed() :- This function reverses the relative ordering of dictionaries in the ChainMap.
 
-    ```
+    ```py
     # Please select Python 3 for running this code in IDE
     # Python code to demonstrate ChainMap and
     # reversed() and new_child()
@@ -120,7 +120,7 @@ ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
     **输出:**
 
-    ```
+    ```py
     All the ChainMap contents are : 
     [{'b': 2, 'a': 1}, {'b': 3, 'c': 4}]
     Displaying new ChainMap : 

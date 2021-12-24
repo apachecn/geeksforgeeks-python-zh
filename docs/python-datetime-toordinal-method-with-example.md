@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting Ordinal value using
 # toordinal().
@@ -40,7 +40,7 @@ print(f"Ordinal of date {dateToday} is {toOrdinal}")
 
 **Output**
 
-```
+```py
 Ordinal of date 2021-08-03 is 738005
 ```
 
@@ -50,7 +50,7 @@ Ordinal of date 2021-08-03 is 738005
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime class
 from datetime import datetime
 
@@ -76,7 +76,7 @@ print(f"Ordinal value of Earliest Datetime {dateIs} is {toOrdinal}")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime class
 from datetime import datetime
 

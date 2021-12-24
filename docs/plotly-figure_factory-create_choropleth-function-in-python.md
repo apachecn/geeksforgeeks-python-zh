@@ -26,7 +26,7 @@ Python 的 Plotly 库对于数据可视化和简单容易地理解数据非常�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 fips = ['06021', '06023', '06027',

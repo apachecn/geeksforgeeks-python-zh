@@ -4,13 +4,13 @@
 
 Python 有一套内置的方法，`__call__`就是其中之一。`__call__` 方法使 Python 程序员能够编写类，其中实例的行为类似于函数，并且可以像函数一样被调用。当实例作为函数调用时；如果定义了这个方法，`x(arg1, arg2, ...)`是`x.__call__(arg1, arg2, ...)`的简写。
 
-```
+```py
 object() is shorthand for object.__call__()
 ```
 
 **例 1:**
 
-```
+```py
 class Example:
     def __init__(self):
         print("Instance Created")
@@ -28,7 +28,7 @@ e()
 
 **输出:**
 
-```
+```py
 Instance Created
 Instance is called via special method
 
@@ -36,7 +36,7 @@ Instance is called via special method
 
 **例 2:**
 
-```
+```py
 class Product:
     def __init__(self):
         print("Instance Created")
@@ -54,7 +54,7 @@ ans(10, 20)
 
 **输出:**
 
-```
+```py
 Instance Created
 200
 

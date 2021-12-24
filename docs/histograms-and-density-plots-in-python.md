@@ -27,7 +27,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing seaborn library
 import seaborn as sns
 
@@ -46,7 +46,7 @@ df
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -92,7 +92,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -116,7 +116,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -141,7 +141,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -170,7 +170,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt

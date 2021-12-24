@@ -14,25 +14,25 @@
 
 *   导入 sqlite3 模块。此语句将导入 SQLite 模块，import 关键字用于导入 python 中的一个模块。
 
-```
+```py
 import sqlite3
 ```
 
 *   创建到数据库的连接。这将通过连接数据库来创建一个新的数据库，这里我们必须指定数据库名称，并使用**光标对象连接到它。**
 
-```
+```py
 connection_object = sqlite3.connect('database_name.db')
 ```
 
 *   执行查询连接对象。这里我们需要通过指定 SQL 语句来执行连接对象。
 
-```
+```py
 connection_object.execute("sql statement");
 ```
 
 *   最后使用 close()方法终止连接。
 
-```
+```py
 connection_object.close();
 ```
 
@@ -44,7 +44,7 @@ connection_object.close();
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite3 module
 import sqlite3
 
@@ -77,7 +77,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite3 module
 import sqlite3
 

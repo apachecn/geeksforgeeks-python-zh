@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该任务。在这种情况下，我们使用`itemgetter()`访问值，并且使用`groupby()`和列表理解来执行分组逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group tuple into list based on value
 # using itemgetter() + list comprehension + groupby()
@@ -32,7 +32,7 @@ print("The list after grouping by value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 4), (2, 4), (6, 7), (5, 1), (6, 1), (8, 1)]
 The list after grouping by value : [[1, 2], [6], [5, 6, 8]]
 
@@ -42,7 +42,7 @@ The list after grouping by value : [[1, 2], [6], [5, 6, 8]]
 
 这个方法类似于上面的方法，唯一的区别是我们选择了 map 来形成关键字，作为嵌套列表来形成新的结果列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group tuple into list based on value
 # using map() + itemgetter() + groupby() + list comprehension
@@ -66,7 +66,7 @@ print("The list after grouping by value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 4), (2, 4), (6, 7), (5, 1), (6, 1), (8, 1)]
 The list after grouping by value : [[1, 2], [6], [5, 6, 8]]
 

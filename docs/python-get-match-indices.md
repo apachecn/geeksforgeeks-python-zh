@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `index()`**
 这个问题可以通过使用 python 的索引函数来获得想要的索引来潜在地解决，并且列表理解可以用来将其扩展到整个字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Get match indices
 # using list comprehension and index()
@@ -30,7 +30,7 @@ print("The Match indices list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [5, 4, 1, 3, 2]
 The original list 2 : [1, 2]
 The Match indices list is : [2, 4]

@@ -10,19 +10,19 @@
 
 *   [**熊猫**](https://www.geeksforgeeks.org/python-pandas-dataframe/) **:** 熊猫是建立在 NumPy 库之上的开源库。它是一个 Python 包，提供了各种数据结构和操作来操作数字数据和时间序列。
 
-```
+```py
 pip install pandas
 ```
 
 *   **推送工具:**可以给[安卓](https://play.google.com/store/apps/details?id=com.pushbullet.android)和 [iOS](https://itunes.apple.com/us/app/pushbullet/id810352052) 设备发送推送通知。
 
-```
+```py
 pip install pushbullet.py == 0.9.1
 ```
 
 *   [**openpyxl**](https://www.geeksforgeeks.org/python-reading-excel-file-using-openpyxl-module/) **:这是一个 Python 库，可以对 excel 文件进行读、写、算术运算、绘图等多种操作。让我们看看如何使用 openpyxl 执行不同的算术运算。**
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -87,7 +87,7 @@ pip install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 # Import following modules
 import urllib.request
 import pandas as pd 

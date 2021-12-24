@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for calculating Mean Absolute Error
 
 # consider a list of integers for actual
@@ -47,7 +47,7 @@ print("Mean absolute error : " + str(error))
 
 **Output**
 
-```
+```py
 Mean absolute error : 1.8
 ```
 
@@ -57,7 +57,7 @@ python 的 sklearn.metrics 模块包含用于计算不同用途的错误的函�
 
 **语法**:
 
-```
+```py
 mean_absolute_error(actual,calculated)
 ```
 
@@ -72,7 +72,7 @@ mean_absolute_error(actual,calculated)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for calculating Mean Absolute
 # Error using sklearn
 
@@ -92,6 +92,6 @@ print("Mean absolute error : " + str(error))
 
 **输出**
 
-```
+```py
 Mean absolute error : 1.8
 ```

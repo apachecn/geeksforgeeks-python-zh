@@ -27,7 +27,7 @@ border_radius 参数仅添加到 PyGame 版本 2.0.0.dev8 中。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -55,7 +55,7 @@ pygame.display.flip()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pygame
 
@@ -83,7 +83,7 @@ pygame.display.flip()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pygame
 

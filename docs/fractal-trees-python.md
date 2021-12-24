@@ -12,7 +12,7 @@
 
 要安装 pygame
 
-```
+```py
 pip install pygame
 ```
 
@@ -20,7 +20,7 @@ pip install pygame
 
 首先创建一个主干，然后开始为每个主干创建分支，取大小等于 0.9*(主干长度)的分支大小，然后再次将分支视为主干，如此重复该过程。
 
-```
+```py
 # Importing the python libraries
 import pygame, math
 
@@ -86,7 +86,7 @@ pygame.quit()
 
 输出:
 
-```
+```py
 
 <video class="wp-video-shortcode" id="video-167844-1" width="665" height="374" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/2017-12-18-at-18-40-42.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/2017-12-18-at-18-40-42.mp4](https://media.geeksforgeeks.org/wp-content/uploads/2017-12-18-at-18-40-42.mp4)</video>
 

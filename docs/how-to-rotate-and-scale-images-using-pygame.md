@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pygame
 import pygame
 
@@ -76,7 +76,7 @@ while not running:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pygame
 import pygame
 

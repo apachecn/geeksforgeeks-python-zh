@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -30,7 +30,7 @@ print(video)
 
 **输出:**
 
-```
+```py
 Title: DSA Self Paced Course | GeeksforGeeks
 Author: GeeksforGeeks
 ID: vG2PNdI8axo
@@ -42,7 +42,7 @@ Thumbnail: http://i.ytimg.com/vi/vG2PNdI8axo/default.jpg
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -57,7 +57,7 @@ print(video)
 
 **输出:**
 
-```
+```py
 Title: DSA Self Paced Course | GeeksforGeeks
 Author: GeeksforGeeks
 ID: vG2PNdI8axo

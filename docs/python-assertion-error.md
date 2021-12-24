@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # AssertionError with error_message.
 x = 1
 y = 0
@@ -26,7 +26,7 @@ print(x / y)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/bafc2f900d9791144fbf59f477cd4059.py", line 4, in 
     assert y!=0, "Invalid Operation" # denominator can't be 0
@@ -45,7 +45,7 @@ python 中的默认异常处理程序将打印程序员编写的 error_message�
 
 ## 蟒蛇 3
 
-```
+```py
 # Handling it manually
 try:
     x = 1
@@ -60,7 +60,7 @@ except AssertionError as msg:
 
 **输出:**
 
-```
+```py
 Invalid Operation
 ```
 
@@ -69,7 +69,7 @@ Invalid Operation
 
 ## 蟒蛇 3
 
-```
+```py
 # Roots of a quadratic equation
 import math
 def ShridharAcharya(a, b, c):
@@ -89,7 +89,7 @@ ShridharAcharya(2, 12, 18)
 
 **输出:**
 
-```
+```py
 Roots of the quadratic equation are : 2.0  3.0
 Roots are imaginary
 Roots of the quadratic equation are : -3.0  -3.0

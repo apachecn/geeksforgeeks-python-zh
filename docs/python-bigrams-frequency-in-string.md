@@ -7,7 +7,7 @@
 **方法#1:使用`Counter()` +生成器表达式**
 以上功能的组合可以解决这个问题。在本文中，我们使用 Counter()计算频率，使用生成器表达式和字符串切片计算二元模型。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Bigrams Frequency in String
 # Using Counter() + generator expression

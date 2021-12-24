@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 
 # Open the window. Set the window title and
@@ -73,7 +73,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # import arcade module
 import arcade
 

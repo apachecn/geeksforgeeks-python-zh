@@ -17,7 +17,7 @@ Python 有一个名为 **attrs** 的库，这使得以面向对象模式编写�
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import attr
 
@@ -39,7 +39,7 @@ print(attr.asdict(Coordinates(x=1, y=2)))
 
 **输出:**
 
-```
+```py
 {'x': 1, 'y': 2}
 ```
 
@@ -49,7 +49,7 @@ print(attr.asdict(Coordinates(x=1, y=2)))
 
 ## 蟒蛇 3
 
-```
+```py
 import attr
 
 @attr.s
@@ -69,7 +69,7 @@ attr.asdict(UserInfo([User("lee@har.invalid", "Lee"),
 
 **输出:**
 
-```
+```py
 {'users': [{'name': 'Lee'}, {'name': 'Rachel'}]}
 ```
 
@@ -79,7 +79,7 @@ attr.asdict(UserInfo([User("lee@har.invalid", "Lee"),
 
 ## 蟒蛇 3
 
-```
+```py
 import attr
 
 @attr.s
@@ -106,7 +106,7 @@ print(attr.asdict(Coordinates(20, "5", 3),
 
 **输出:**
 
-```
+```py
 {'name': 'Marco'}
 {'x': 20, 'z': 3}
 ```

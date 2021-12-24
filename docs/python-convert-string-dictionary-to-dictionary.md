@@ -8,7 +8,7 @@
 
 这个任务可以很容易地使用 python json 库的内置函数来执行，该函数将有效字典的字符串转换成 JSON 形式，Python 中的字典。
 
-```
+```py
 # Python3 code to demonstrate
 # convert dictionary string to dictionary
 # using json.loads()
@@ -30,7 +30,7 @@ print("The converted dictionary : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : {"Nikhil" : 1, "Akshat" : 2, "Akash" : 3}
 The converted dictionary : {'Nikhil': 1, 'Akshat': 2, 'Akash': 3}
 
@@ -40,7 +40,7 @@ The converted dictionary : {'Nikhil': 1, 'Akshat': 2, 'Akash': 3}
 
 上述方法也可用于执行类似的转换。函数比 eval 函数更安全，也可用于字典以外的所有数据类型的相互转换。
 
-```
+```py
 # Python3 code to demonstrate
 # convert dictionary string to dictionary
 # using ast.literal_eval()
@@ -62,7 +62,7 @@ print("The converted dictionary : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : {"Nikhil" : 1, "Akshat" : 2, "Akash" : 3}
 The converted dictionary : {'Nikhil': 1, 'Akshat': 2, 'Akash': 3}
 

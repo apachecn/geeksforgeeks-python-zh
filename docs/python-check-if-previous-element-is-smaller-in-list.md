@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if previous element is smaller in List
 # Using loop
@@ -40,7 +40,7 @@ print("List after filtering : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [6, 3, 7, 3, 6, 7, 8, 3]
 List after filtering : [False, True, False, True, True, True, False]
 ```
@@ -50,7 +50,7 @@ List after filtering : [False, True, False, True, True, True, False]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if previous element is smaller in List
 # Using zip() + list comprehension
@@ -71,7 +71,7 @@ print("List after filtering : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [6, 3, 7, 3, 6, 7, 8, 3]
 List after filtering : [False, True, False, True, True, True, False]
 ```

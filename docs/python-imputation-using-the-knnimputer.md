@@ -14,7 +14,7 @@
 
 **代码:Python 代码说明 KNNimputor 类**
 
-```
+```py
 # import necessary libraries
 import numpy as np
 import pandas as pd
@@ -42,7 +42,7 @@ print("\n\nAfter performing imputation\n",After_imputation)
 
 **输出:**
 
-```
+```py
 Data Before performing imputation
     Maths  Chemistry  Physics  Biology
 0   80.0       60.0      NaN     78.0

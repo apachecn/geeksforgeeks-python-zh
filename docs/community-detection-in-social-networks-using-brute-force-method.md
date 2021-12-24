@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import networkx as nx
 import itertools
 
@@ -76,6 +76,6 @@ communities_using_brute(gfg)
 
 ****输出:****
 
-```
+```py
 [ [0,1,2,3,4] ] , [ [8,9,5,6,7] ] 
 ```

@@ -27,7 +27,7 @@
 
 您可以替换用户名和密码，以便帐户成功登录。这里的代码仅供演示。
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time

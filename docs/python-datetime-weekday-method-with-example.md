@@ -43,7 +43,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime class
 from datetime import datetime
 
@@ -67,7 +67,7 @@ print("Date is :", x.date())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime class
 from datetime import datetime
 
@@ -117,7 +117,7 @@ print("weekday is :", x.weekday())
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of weekdays
 from datetime import datetime
 

@@ -22,7 +22,7 @@ haarcascades 的应用，来源–Opencv 文档
 现在计算的特征中，大部分特征都是虚假的，无关紧要的。现在，应用于图像区域的窗口可能会看到一个不同的区域，该区域看起来与窗口具有相同的特征，但实际上并非如此。因此，有必要去除由 **AdaBoost** 所做的虚假特征，该功能有助于从 160000 多个特征中选择最佳特征。Adaboost 的简称自适应 Boosting 是一种机器学习算法，用于这个唯一的任务。
 **算法:**
 
-```
+```py
 The frame is captured and converted to grayscale.
 Bilateral Filtering is applied to remove impurities.
 Face is detected with the haarcascade.
@@ -37,7 +37,7 @@ Else the program is marked to be eye blinked and restarted.
 
 ## 蟒蛇 3
 
-```
+```py
 #All the imports go here
 import numpy as np
 import cv2

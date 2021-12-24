@@ -6,7 +6,7 @@
 
 如果您的控制台没有该模块，您可以使用以下命令进行安装:
 
-```
+```py
 pip install ipywidgets
 ```
 
@@ -20,7 +20,7 @@ pip install ipywidgets
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import ipywidgets as widgets
 
@@ -43,7 +43,7 @@ widgets.Button(description = 'My Button')
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as widgets
 from ipywidgets import interact, interact_manual, fixed
 

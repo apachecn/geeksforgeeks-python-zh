@@ -15,13 +15,13 @@
 
 **第一步:导入库。**
 
-```
+```py
 from PIL import Image
 ```
 
 步骤 2: JPG 至 GIF
 
-```
+```py
 To convert the image From BMP to GIF : {Syntax}
 img = Image.open("Image.bmp")
 img.save("Image.gif")
@@ -29,7 +29,7 @@ img.save("Image.gif")
 
 步骤 3: GIF 至 JPG
 
-```
+```py
 To convert the Image From GIF to PNG
 img = Image.open("Image.gif")
 img.save("Image.bmp")
@@ -47,7 +47,7 @@ img.save("Image.bmp")
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from tkinter import filedialog as fd
 import os

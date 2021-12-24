@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Avoid Last occurrence of delimitter
 # Using map() + join() + str()
@@ -47,7 +47,7 @@ print("The joined string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 8, 3, 2, 1, 9]
 The joined string : 4$7$8$3$2$1$9
 
@@ -59,7 +59,7 @@ The joined string : 4$7$8$3$2$1$9
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Avoid Last occurrence of delimitter
 # Using map() + join() + str()
@@ -82,7 +82,7 @@ print("The joined string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 8, 3, 2, 1, 9]
 The joined string : 4$7$8$3$2$1$9
 

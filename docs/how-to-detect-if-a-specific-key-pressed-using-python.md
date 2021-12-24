@@ -18,7 +18,7 @@
 
 安装时，将此代码运行到您的终端中。
 
-```
+```py
 pip install pynput
 ```
 
@@ -26,7 +26,7 @@ pip install pynput
 
 ## 蟒蛇 3
 
-```
+```py
 from pynput.keyboard import Key, Listener
 
 def show(key):
@@ -50,7 +50,7 @@ with Listener(on_press = show) as listener:   
 
 ## 蟒蛇 3
 
-```
+```py
 from pynput.keyboard import Key, Listener
 
 def show(key):

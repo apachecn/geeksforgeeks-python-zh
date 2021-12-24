@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking input from the user
 string = input()
 
@@ -28,7 +28,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 
 ```
@@ -37,7 +37,7 @@ geeksforgeeks
 
 ## 计算机编程语言
 
-```
+```py
 # Taking input from the user
 name = input("Enter your name")
 

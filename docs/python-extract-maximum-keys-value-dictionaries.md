@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Maximum Keys' value dictionaries
 # Using max() + filter() + lambda
@@ -47,7 +47,7 @@ print("The extracted maximum key values dictionaries : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2, 'Best': 9}, {'Gfg': 5, 'is': 4, 'Best': 10}, {'Gfg': 3, 'is': 6, 'Best': 8}]
 The extracted maximum key values dictionaries : [[{'Gfg': 9, 'is': 2, 'Best': 9}], [{'Gfg': 3, 'is': 7, 'Best': 8}], [{'Gfg': 5, 'is': 4, 'Best': 10}]]
 

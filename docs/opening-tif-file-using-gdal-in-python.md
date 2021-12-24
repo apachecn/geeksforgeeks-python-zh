@@ -8,6 +8,6 @@
 
 ## 蟒 3
 
-```
+```py
 from osgeo import gdal, ogr
 ```

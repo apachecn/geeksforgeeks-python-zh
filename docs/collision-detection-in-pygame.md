@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import pygame
 import random
@@ -59,7 +59,7 @@ backgroundImg = pygame.image.load("wallBackground.jpg")
 
 ## 蟒蛇 3
 
-```
+```py
 # load the image
 playerImage = pygame.image.load("player.png")
 
@@ -129,7 +129,7 @@ def block(x, y):
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function for
 # collision detection
 def crash():
@@ -163,7 +163,7 @@ def crash():
 
 ## 蟒蛇 3
 
-```
+```py
 running = True
 
 while running:
@@ -202,7 +202,7 @@ while running:
 
 ## 蟒蛇 3
 
-```
+```py
 # Boundaries to the Player
 
 # if it comes at right end,
@@ -224,7 +224,7 @@ if playerXPosition <= 0:
 
 ## 蟒蛇 3
 
-```
+```py
 # Multiple Blocks Movement after each other
 # and condition used because of game over function
 if (blockYPosition >= height - 0 and
@@ -242,7 +242,7 @@ if (blockYPosition >= height - 0 and
 
 ## 蟒蛇 3
 
-```
+```py
 # movement of Player
 playerXPosition += playerXPositionChange
 

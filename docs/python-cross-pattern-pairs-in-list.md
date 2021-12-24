@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross Pattern Pairs in List
 # Using loop
@@ -64,7 +64,7 @@ print("Paired List elements : ", crossPair(input_list1, input_list2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cross Pattern Pairs in List
 # Using list comprehension

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Iterative Pair Pattern
 # Using loop
@@ -34,7 +34,7 @@ print("The constructed pattern is : " + str(res))
 
 **Output : **
 
-```
+```py
 The constructed pattern is : G*G**G***G****
 
 ```
@@ -44,7 +44,7 @@ The constructed pattern is : G*G**G***G****
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Iterative Pair Pattern
 # Using join() + generator expression
@@ -68,7 +68,7 @@ print("The constructed pattern is : " + str(res))
 
 **Output : **
 
-```
+```py
 The constructed pattern is : G*G**G***G****
 
 ```

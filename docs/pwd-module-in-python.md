@@ -37,7 +37,7 @@ Python 中的`***pwd.getpwnam()***`方法用于获取指定用户 id 的密码�
 
 **代码:**使用 pwd.getpwuid()方法
 
-```
+```py
 # Python program to explain pwd.getpwuid() method
 
 # importing pwd module 
@@ -72,7 +72,7 @@ print(entry)
 
 **Output:**
 
-```
+```py
 Password database entry for user id : 1000
 pwd.struct_passwd(pw_name='ihritik', pw_passwd='x', pw_uid=1000, pw_gid=1000,
 pw_gecos='Hritik,,, ', pw_dir='/home/ihritik', pw_shell='/bin/bash')
@@ -96,7 +96,7 @@ Python 中的`***pwd.getpwnam()***`方法用于获取指定用户名的密码数
 
 **代码:**使用 pwd.getpwnam()方法
 
-```
+```py
 # Python program to explain pwd.getpwnam() method
 
 # importing pwd module 
@@ -131,7 +131,7 @@ print(entry)
 
 **Output:**
 
-```
+```py
 Password database entry for 'ihritik':
 pwd.struct_passwd(pw_name='ihritik', pw_passwd='x', pw_uid=1000, pw_gid=1000,
 pw_gecos='Hritik,,, ', pw_dir='/home/ihritik', pw_shell='/bin/bash')
@@ -154,7 +154,7 @@ pw_dir='/root', pw_shell='/bin/bash')
 
 `**代码:**使用 pwd.getpwall()方法`
 
-```
+```py
 # Python program to explain pwd.getpwall() method
 
 # importing pwd module 
@@ -174,7 +174,7 @@ for row in entries:
 
 `**Output:**
 
-```
+```py
 Password database entries:
 pwd.struct_passwd(pw_name=’root’, pw_passwd=’x’, pw_uid=0, pw_gid=0, pw_gecos=’root’, pw_dir=’/root’, pw_shell=’/bin/bash’)
 pwd.struct_passwd(pw_name=’daemon’, pw_passwd=’x’, pw_uid=1, pw_gid=1, pw_gecos=’daemon’, pw_dir=’/usr/sbin’, pw_shell=’/usr/sbin/nologin’)

@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to find the number
 //of operations required to make
 //all array elements Equal
@@ -91,7 +91,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to find the number
 //of operations required to make
 //all array elements Equal
@@ -147,7 +147,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the number
 # of operations required to make
 # all array elements Equal
@@ -187,7 +187,7 @@ print (find_n(a))
 
 ## C#
 
-```
+```py
 // C# program to find the number
 // of operations required to make
 // all array elements Equal
@@ -256,7 +256,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to find the number of
 // operations required to make all
@@ -316,7 +316,7 @@ echo(find_n($a));
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // javascript program to find the number
@@ -376,7 +376,7 @@ document.write(find_n(a,n));
 
 **Output:** 
 
-```
+```py
 4
 ```
 

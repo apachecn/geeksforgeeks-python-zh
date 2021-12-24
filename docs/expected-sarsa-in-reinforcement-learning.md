@@ -19,7 +19,7 @@ SARSA 和强化学习中的 Q-Learning 技术是使用时间差异(TD)更新来�
 
 ## 蟒蛇 3
 
-```
+```py
 # Agent.py
 
 import numpy as np
@@ -43,7 +43,7 @@ class Agent:
 
 ## 蟒蛇 3
 
-```
+```py
 # SarsaAgent.py
 
 import numpy as np
@@ -94,7 +94,7 @@ class SarsaAgent(Agent):
 
 ## 蟒蛇 3
 
-```
+```py
 # QLearningAgent.py
 
 import numpy as np
@@ -142,7 +142,7 @@ class QLearningAgent(Agent):
 
 ## 蟒蛇 3
 
-```
+```py
 # ExpectedSarsaAgent.py
 
 import numpy as np
@@ -206,7 +206,7 @@ class ExpectedSarsaAgent(Agent):
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py
 
 import gym

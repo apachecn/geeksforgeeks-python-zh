@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们只需将相同的元素再次添加到该索引元素中，列表的所有内容都会添加到自身中，即增加一倍。
 
-```
+```py
 # Python3 code to demonstrate 
 # Double List
 # using loop
@@ -30,7 +30,7 @@ print ("Double List is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [12, 67, 98, 34, 43]
 Double List is : [24, 134, 196, 68, 86]
 

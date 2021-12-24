@@ -12,7 +12,7 @@ Python 支持一个[字典](https://www.geeksforgeeks.org/python-dictionary/)，
 
 **语法:**
 
-```
+```py
 collections.UserDict([initialdata])
 ```
 
@@ -20,7 +20,7 @@ collections.UserDict([initialdata])
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # userdict
 
@@ -41,7 +41,7 @@ print(userD.data)
 
 **输出:**
 
-```
+```py
 {'a': 1, 'b': 2, 'c': 3}
 {}
 ```
@@ -50,7 +50,7 @@ print(userD.data)
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # userdict
 
@@ -88,12 +88,12 @@ d.pop(1)
 
 **输出:**
 
-```
+```py
 Original Dictionary
 {'a': 1, 'c': 3, 'b': 2}
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/3ce2f334f5d25a3e24d10d567c705ce6.py", line 35, in 
     d.pop(1)

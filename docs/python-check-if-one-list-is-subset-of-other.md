@@ -8,7 +8,7 @@ all()用于只检查一行中容器的所有元素。检查一个列表中的所
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if list is subset of other
 # using all()
@@ -36,7 +36,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 8, 10]
 Original sub list : [10, 5, 4]
 Yes, list is subset of other.
@@ -47,7 +47,7 @@ Yes, list is subset of other.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if list is subset of other
 # using issubset()
@@ -75,7 +75,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 8, 10]
 Original sub list : [10, 5]
 Yes, list is subset of other.
@@ -86,7 +86,7 @@ Yes, list is subset of other.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if list is subset of other
 # using intersection()
@@ -114,7 +114,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 8, 10]
 Original sub list : [10, 5]
 Yes, list is subset of other.
@@ -125,7 +125,7 @@ Yes, list is subset of other.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if list is subset of other
 
@@ -166,7 +166,7 @@ else :
 
 **输出:**
 
-```
+```py
 Original list : [1, 2, 4, 5]
 Original sub list : [1, 2, 3]
 No, list is not subset of other.
@@ -176,7 +176,7 @@ No, list is not subset of other.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if list is subset of other
 
@@ -207,7 +207,7 @@ else:
 
 **输出:**
 
-```
+```py
 Original list : [1, 2, 3, 4, 5]
 Original sub list : [1, 2]
 Yes, list is subset of other.

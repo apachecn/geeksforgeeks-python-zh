@@ -15,7 +15,7 @@
 
 我们可以用下面的命令通过 pip 和 conda 安装这个模块。
 
-```
+```py
 # installing via pip
 pip install python-telegram-bot
 
@@ -49,7 +49,7 @@ conda install -c conda-forge python-telegram-bot
 
 ## 蟒蛇 3
 
-```
+```py
 from telegram.ext.updater import Updater
 from telegram.update import Update
 from telegram.ext.callbackcontext import CallbackContext
@@ -73,7 +73,7 @@ from telegram.ext.filters import Filters
 
 ## 蟒蛇 3
 
-```
+```py
 updater = Updater("your_own_API_Token got from BotFather",
                   use_context=True)
 
@@ -88,7 +88,7 @@ def start(update: Update, context: CallbackContext):
 
 ## 蟒蛇 3
 
-```
+```py
 def help(update: Update, context: CallbackContext):
     update.message.reply_text("Your Message")
 ```
@@ -97,7 +97,7 @@ def help(update: Update, context: CallbackContext):
 
 ## 蟒蛇 3
 
-```
+```py
 def gmail_url(update: Update, context: CallbackContext):
     update.message.reply_text("gmail link here")
 

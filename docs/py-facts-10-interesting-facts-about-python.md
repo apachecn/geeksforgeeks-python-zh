@@ -9,14 +9,14 @@ Python 是当今最流行的编程语言之一，因为它的代码可读性和�
 
 ## 计算机编程语言
 
-```
+```py
 # Try to guess the result before you actually run it
 import this
 ```
 
 输出:
 
-```
+```py
 The Zen of Python, by Tim Peters
 Beautiful is better than ugly.
 
@@ -61,7 +61,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## 计算机编程语言
 
-```
+```py
 # Multiple Return Values in Python!
 def func():
    return 1, 2, 3, 4, 5
@@ -73,7 +73,7 @@ print(one, two, three, four, five)
 
 输出:
 
-```
+```py
 (1, 2, 3, 4, 5)
 ```
 
@@ -81,7 +81,7 @@ print(one, two, three, four, five)
 
 ## 计算机编程语言
 
-```
+```py
 def func(array):
      for num in array:
         if num%2==0:
@@ -100,7 +100,7 @@ func(a)
 
 输出:
 
-```
+```py
 1st Case:
 
 2
@@ -116,7 +116,7 @@ No call for Break. Else is executed
 
 ## 计算机编程语言
 
-```
+```py
 def point(x, y):
     print(x,y)
 
@@ -129,7 +129,7 @@ point(**bar_dict) # Unpacking Dictionaries
 
 输出:
 
-```
+```py
 3 4
 
 2 3
@@ -139,7 +139,7 @@ point(**bar_dict) # Unpacking Dictionaries
 
 ## 计算机编程语言
 
-```
+```py
 # Know the index faster
 vowels=['a','e','i','o','u']
 for i, letter in enumerate(vowels):
@@ -148,7 +148,7 @@ for i, letter in enumerate(vowels):
 
 输出:
 
-```
+```py
 (0, 'a')
 
 (1, 'e')
@@ -164,7 +164,7 @@ for i, letter in enumerate(vowels):
 
 ## 计算机编程语言
 
-```
+```py
 # Chaining Comparison Operators
 i = 5;
 
@@ -180,7 +180,7 @@ print(ans)
 
 输出:
 
-```
+```py
 True
 
 True
@@ -192,7 +192,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # Positive Infinity
 p_infinity = float('Inf')
 
@@ -211,7 +211,7 @@ else:
 
 输出:
 
-```
+```py
 Infinity is greatest
 
 Negative Infinity is least
@@ -221,7 +221,7 @@ Negative Infinity is least
 
 ## 计算机编程语言
 
-```
+```py
 # Simple List Append
 a = []
 for x in range(0,10):
@@ -234,7 +234,7 @@ print([x for x in a])
 
 输出:
 
-```
+```py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -244,7 +244,7 @@ print([x for x in a])
 
 ## 计算机编程语言
 
-```
+```py
 # Slice Operator
 a = [1,2,3,4,5]
 
@@ -261,7 +261,7 @@ print(a[::-2]) # Skip by -2 from the back
 
 输出:
 
-```
+```py
 [1, 2]
 
 [1, 2, 3, 4]

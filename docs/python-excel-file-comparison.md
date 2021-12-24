@@ -4,7 +4,7 @@
 
 给定两个 Excel 文件，我们希望在对值进行排序后逐行比较每列的值，并打印更改的列名和行号以及值的更改。
 
-```
+```py
 Input : 
 Two Excel files
 
@@ -17,7 +17,7 @@ Column name : 'date' and Row Number     : 1
 
 **代码:比较两个 excel 文件的 Python 代码**
 
-```
+```py
 # Write Python3 code here
 # importing Pandas
 

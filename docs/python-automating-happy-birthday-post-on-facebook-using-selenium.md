@@ -10,7 +10,7 @@ Selenium 可以帮助我们自动完成任何经常在笔记本电脑上完成�
 
 *   转到命令提示符，并输入:
 
-```
+```py
 pip install selenium
 ```
 
@@ -38,7 +38,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary classes
 # from different modules
 from selenium import webdriver

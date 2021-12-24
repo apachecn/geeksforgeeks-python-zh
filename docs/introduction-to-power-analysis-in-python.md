@@ -34,7 +34,7 @@ Python 中 **statsmodels** 包的**stats.power** 模块包含对最常用的统�
 
 ## 计算机编程语言
 
-```
+```py
 # import required modules
 from math import sqrt
 from statsmodels.stats.power import TTestIndPower
@@ -72,7 +72,7 @@ print('Sample size/Number needed in each group: {:.3f}'.format(n))
 
 **输出:**
 
-```
+```py
 Effect size: 1.0
 Sample size/Number needed in each group: 16.715
 ```
@@ -87,7 +87,7 @@ Sample size/Number needed in each group: 16.715
 
 ## 计算机编程语言
 
-```
+```py
 from statsmodels.stats.power import TTestPower
 
 power = TTestPower()
@@ -98,7 +98,7 @@ print('Power: {:.3f}'.format(n_test))
 
 **输出:**
 
-```
+```py
 Power: 0.869
 ```
 
@@ -114,7 +114,7 @@ Power: 0.869
 
 ## 计算机编程语言
 
-```
+```py
 # import required libraries
 import numpy as np
 import matplotlib.pyplot as plt

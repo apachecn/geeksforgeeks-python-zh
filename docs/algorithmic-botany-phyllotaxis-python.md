@@ -35,7 +35,7 @@
 
 要对叶序模式进行编码，我们需要遵循以下等式:
 
-```
+```py
 x = r*cos(θ)
 y = r*sin(θ)
 
@@ -49,7 +49,7 @@ r = c*sqrt(n)
 
 ![](img/1d3be17e0f81d424c34205a2f53468f6.png)
 
-```
+```py
 Reduces the problem to optimal packing on a disc, so
     r = c*sqrt(n) is from the area of the circle
         Area = πr² and n fills the Area in some units
@@ -60,7 +60,7 @@ So, r = some constant c * sqrt(n)
 
 **伪代码:叶序模式**
 
-```
+```py
 IMPORT MODULES ( MATH, TURTLE )
 
 FUNCTION - DrawPhyllotaxisPattern( turtle, t length, petalstart, angle = 137.508, size, cspread)
@@ -93,7 +93,7 @@ END
 
 ## Python 模式 A
 
-```
+```py
 import math       
 import turtle
 
@@ -154,7 +154,7 @@ gfg.forward(1000)
 
 ## python 模式
 
-```
+```py
 import math       
 import turtle
 

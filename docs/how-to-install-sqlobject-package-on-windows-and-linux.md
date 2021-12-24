@@ -15,7 +15,7 @@
 
 **命令:**
 
-```
+```py
 python3 --version
 
 ```
@@ -32,7 +32,7 @@ Python SQLObject 可以通过多种方式安装在 Linux 上，使用 pip 的**�
 
 **命令:**
 
-```
+```py
 pip install SQLObject
 
 ```
@@ -45,7 +45,7 @@ pip install SQLObject
 
 **命令:**
 
-```
+```py
 pip list
 
 ```
@@ -62,7 +62,7 @@ pip list
 
 **命令:**
 
-```
+```py
 pip install SQLObject
 
 ```

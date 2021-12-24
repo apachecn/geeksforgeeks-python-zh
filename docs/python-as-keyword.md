@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'as' keyword
 
@@ -41,7 +41,7 @@ Geek_Func()
 
 **输出:**
 
-```
+```py
 9
 1
 ```
@@ -52,7 +52,7 @@ Geek_Func()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'as' keyword
 
@@ -73,7 +73,7 @@ geek_Func()
 
 **输出:**
 
-```
+```py
 Text read with alias:
 ﻿Hello Geeks For Geeks
 ```
@@ -84,7 +84,7 @@ Text read with alias:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'as' keyword
 
@@ -116,7 +116,7 @@ geek_Func()
 
 **输出:**
 
-```
+```py
 No module named 'maths'
 No file found
 ```

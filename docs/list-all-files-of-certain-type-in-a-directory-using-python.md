@@ -28,7 +28,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import os
 # traverse whole directory
 for root, dirs, files in os.walk(r'D:\GFG'):
@@ -58,7 +58,7 @@ Os 还有另一种方法可以帮助我们找到特定路径上的文件，称�
 
 ## 计算机编程语言
 
-```
+```py
 import os
 # return all files as a list
 for file in os.listdir(r'D:\GFG'):
@@ -86,7 +86,7 @@ os.listdir()函数的输出
 
 ## 计算机编程语言
 
-```
+```py
 import glob
 import os
 # glob.glob() return a list of file name with specified pathname

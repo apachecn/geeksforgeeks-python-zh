@@ -15,7 +15,7 @@
 
 **文件 1.json**
 
-```
+```py
 {
     "ID":{
         "0":23,
@@ -55,7 +55,7 @@
 
 **文件 2.json**
 
-```
+```py
 {
     "ID":{
         "0":90,
@@ -99,7 +99,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -133,7 +133,7 @@ print(result)
 
 **输出:**
 
-```
+```py
    ID    Name  Marks Grade
 0  23     Ram     89     B
 1  43    Deep     97     A
@@ -183,7 +183,7 @@ print(result)
 
 **文件 3.json**
 
-```
+```py
 {
     "ID":{
         "0":23,
@@ -215,7 +215,7 @@ print(result)
 
 **文件 4.json**
 
-```
+```py
 {
     "ID":{
         "0":23,
@@ -254,7 +254,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -301,7 +301,7 @@ print(result_right)
 
 **输出:**
 
-```
+```py
    ID    Name  Marks
 0  23     Ram     89
 1  43    Deep     97
@@ -355,7 +355,7 @@ print(result_right)
 
 **文件 5.json**
 
-```
+```py
 {
   "tickets":[
     {
@@ -408,7 +408,7 @@ print(result_right)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import json

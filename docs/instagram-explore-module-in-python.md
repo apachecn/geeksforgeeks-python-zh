@@ -8,7 +8,7 @@
 
 运行以下 pip 命令:
 
-```
+```py
 pip install instagram-explore
 
 ```
@@ -26,7 +26,7 @@ pip install instagram-explore
 
 **示例 1 :** 要获取用户的信息，我们将使用 user()方法。
 
-```
+```py
 ie.user("username", max_id = None)
 
 ```
@@ -35,7 +35,7 @@ ie.user("username", max_id = None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import instagram_explore as ie
 import json
@@ -70,7 +70,7 @@ print(parsed_data[15:400])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import instagram_explore as ie
 import json
@@ -94,14 +94,14 @@ print(parsed_data)
 
 通过 tag()函数，我们将获得关于搜索到的标签的信息
 
-```
+```py
 variable = ie.tag("Name_of_tag", max_id = None)
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import instagram_explore as ie
 import json
@@ -124,7 +124,7 @@ print(parsed_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import instagram_explore as ie
 import json

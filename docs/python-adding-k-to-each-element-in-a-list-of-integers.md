@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解只是执行我们使用天真方法执行的任务的简单方法。这主要有助于节省时间，在代码可读性方面也是最好的。
 
-```
+```py
 # Python3 code to demonstrate 
 # adding K to each element
 # using list comprehension
@@ -31,7 +31,7 @@ print ("The list after adding K to each element : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after adding K to each element : [8, 9, 10, 7, 13]
 
@@ -40,7 +40,7 @@ The list after adding K to each element : [8, 9, 10, 7, 13]
 **方法 2:使用`map()` + lambda**
 映射函数可以将每个元素与 lambda 函数配对，lambda 函数执行将 *K* 添加到列表中每个元素的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # adding K to each element
 # using map() + lambda
@@ -64,7 +64,7 @@ print ("The list after adding K to each element : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after adding K to each element : [8, 9, 10, 7, 13]
 
@@ -73,7 +73,7 @@ The list after adding K to each element : [8, 9, 10, 7, 13]
 **方法 3:使用`map() + operator.add`**
 这与上面的函数类似，但是使用 `operator.add`将每个元素添加到在应用地图函数之前形成的 *K* 的其他列表中的其他元素。它添加了列表中相似的索引元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # adding K to each element
 # using map() + operator.add
@@ -98,7 +98,7 @@ print ("The list after adding K to each element : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after adding K to each element : [8, 9, 10, 7, 13]
 

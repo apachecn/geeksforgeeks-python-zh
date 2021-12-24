@@ -14,14 +14,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 List = [1, 2, 3, "GFG", 2.3]
 print(List)
 ```
 
 **Output**
 
-```
+```py
 [1, 2, 3, 'GFG', 2.3]
 ```
 
@@ -33,7 +33,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a List with
 # the use of multiple values
 List = ["Geeks", "For", "Geeks"]
@@ -65,7 +65,7 @@ print(List[-3])
 
 **Output**
 
-```
+```py
 List containing multiple values: 
 ['Geeks', 'For', 'Geeks']
 
@@ -91,7 +91,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Tuple with
 # the use of Strings
 Tuple = ('Geeks', 'For')
@@ -119,7 +119,7 @@ print(Tuple[-3])
 
 **Output**
 
-```
+```py
 Tuple with the use of String: 
 ('Geeks', 'For')
 
@@ -152,7 +152,7 @@ Third last element of tuple
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Set with
 # a mixed type of values
 # (Having numbers and strings)
@@ -174,7 +174,7 @@ print("Geeks" in Set)
 
 **Output**
 
-```
+```py
 Set with the use of Mixed Values
 {1, 2, 4, 6, 'For', 'Geeks'}
 
@@ -191,7 +191,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Same as {"a", "b","c"}
 normal_set = set(["a", "b","c"])
 
@@ -211,7 +211,7 @@ print(frozen_set)
 
 **Output**
 
-```
+```py
 Normal Set
 {'a', 'b', 'c'}
 
@@ -231,7 +231,7 @@ frozenset({'f', 'g', 'e'})
 
 ## 蟒蛇 3
 
-```
+```py
 String = "Welcome to GeeksForGeeks"
 print("Creating String: ")
 print(String)
@@ -247,7 +247,7 @@ print(String[-1])
 
 **Output**
 
-```
+```py
 Creating String: 
 Welcome to GeeksForGeeks
 
@@ -266,7 +266,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Dictionary
 Dict = {'Name': 'Geeks', 1: [1, 2, 3, 4]}
 print("Creating Dictionary: ")
@@ -288,7 +288,7 @@ print(myDict)
 
 **Output**
 
-```
+```py
 Creating Dictionary: 
 {'Name': 'Geeks', 1: [1, 2, 3, 4]}
 Accessing a element using key:
@@ -306,7 +306,7 @@ Accessing a element using get:
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 a = np.array([[1,2,3,4],[4,55,1,2],
@@ -332,7 +332,7 @@ print(m)
 
 **输出**
 
-```
+```py
 [[ 1  2  3  4]
  [ 4 55  1  2]
  [ 8  3 20 19]
@@ -364,7 +364,7 @@ Python Bytearray 给出了范围为 0 <= x < 256 的可变整数序列。
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating bytearray
 a = bytearray((12, 8, 25, 2))
 print("Creating Bytearray:")
@@ -386,7 +386,7 @@ print(a)
 
 **Output**
 
-```
+```py
 Creating Bytearray:
 bytearray(b'\x0c\x08\x19\x02')
 
@@ -414,7 +414,7 @@ bytearray(b'\x0c\x03\x19\x02\x1e')
 
 ## 蟒蛇 3
 
-```
+```py
 # Node class
 class Node:
 
@@ -437,7 +437,7 @@ class LinkedList:
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python program to introduce a linked list
 
 # Node class
@@ -513,7 +513,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python program for traversal of a linked list
 
 # Node class
@@ -557,7 +557,7 @@ if __name__=='__main__':
 
 **Output**
 
-```
+```py
 1
 2
 3
@@ -591,7 +591,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 stack = []
 
 # append() function to push
@@ -621,7 +621,7 @@ print(stack)
 
 **Output**
 
-```
+```py
 Initial stack
 ['g', 'f', 'g']
 
@@ -661,7 +661,7 @@ Stack after elements are popped:
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing a queue
 queue = []
 
@@ -689,7 +689,7 @@ print(queue)
 
 **Output**
 
-```
+```py
 Initial queue
 ['g', 'f', 'g']
 
@@ -717,7 +717,7 @@ Queue after removing elements
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple implementation of Priority Queue
 # using Queue.
 class PriorityQueue(object):
@@ -762,7 +762,7 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 12 1 14 7
 14
 12
@@ -783,7 +783,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # importing "heapq" to implement heap queue
 import heapq
 
@@ -812,7 +812,7 @@ print (heapq.heappop(li))
 
 **Output**
 
-```
+```py
 The created heap is : [1, 3, 9, 7, 5]
 The modified heap after push is : [1, 3, 4, 7, 5, 9]
 The popped and smallest element is : 1
@@ -833,7 +833,7 @@ The popped and smallest element is : 1
 
 树是一种分层数据结构，如下图所示–
 
-```
+```py
      tree
     ----
      j    <-- root
@@ -855,7 +855,7 @@ A [二叉树](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/)是�
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python class that represents an individual node
 # in a Binary Tree
 class Node:
@@ -867,7 +867,7 @@ class Node:
 
 现在让我们用 Python 创建一个包含 4 个节点的树。让我们假设树形结构如下所示–
 
-```
+```py
      tree
     ----
      1    <-- root
@@ -881,7 +881,7 @@ class Node:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to introduce Binary Tree
 
 # A class that represents an individual node in a
@@ -924,7 +924,7 @@ None None'''
 
 [树木可以通过不同的方式穿越](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)。以下是遍历树的常用方法。让我们考虑下面的树–
 
-```
+```py
      tree
     ----
      1    <-- root
@@ -960,7 +960,7 @@ None None'''
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to for tree traversals
 
 # A class that represents an individual node in a
@@ -1031,7 +1031,7 @@ printPostorder(root)
 
 **Output**
 
-```
+```py
 Preorder traversal of binary tree is
 1
 2
@@ -1071,7 +1071,7 @@ Postorder traversal of binary tree is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print level
 # order traversal using Queue
 
@@ -1127,7 +1127,7 @@ printLevelOrder(root)
 
 **Output**
 
-```
+```py
 Level Order Traversal of binary tree is -
 1
 2
@@ -1169,7 +1169,7 @@ Level Order Traversal of binary tree is -
 
 ## 蟒蛇 3
 
-```
+```py
 # A utility function to search a given key in BST
 def search(root,key):
 
@@ -1193,7 +1193,7 @@ def search(root,key):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # insert operation in binary search tree
 
@@ -1248,7 +1248,7 @@ inorder(r)
 
 **Output**
 
-```
+```py
 20
 30
 40
@@ -1285,7 +1285,7 @@ A [图](https://www.geeksforgeeks.org/graph-and-its-representations/)是由节�
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple representation of graph using Adjacency Matrix
 class Graph:
     def __init__(self,numvertex):
@@ -1367,7 +1367,7 @@ print(G.get_matrix())
 
 ## 蟒蛇 3
 
-```
+```py
 # A class to represent the adjacency list of the node
 class AdjNode:
     def __init__(self, data):
@@ -1424,7 +1424,7 @@ if __name__ == "__main__":
 
 **Output**
 
-```
+```py
 Adjacency list of vertex 0
  head -> 4 -> 1 
 
@@ -1453,7 +1453,7 @@ Adjacency list of vertex 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to print BFS traversal
 # from a given source vertex. BFS(int s)
 # traverses vertices reachable from s.
@@ -1522,7 +1522,7 @@ g.BFS(2)
 
 **Output**
 
-```
+```py
 Following is Breadth First Traversal (starting from vertex 2)
 2 0 3 1 
 ```
@@ -1541,7 +1541,7 @@ Following is Breadth First Traversal (starting from vertex 2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to print DFS traversal
 # from a given given graph
 from collections import defaultdict
@@ -1603,7 +1603,7 @@ g.DFS(2)
 
 **Output**
 
-```
+```py
 Following is DFS from (starting from vertex 2)
 2 0 1 3 
 ```
@@ -1626,7 +1626,7 @@ Following is DFS from (starting from vertex 2)
 
 在递归程序中，给出了基本情况的解，大问题的解用小问题表示。
 
-```
+```py
 def fact(n):
 
     # base case
@@ -1646,7 +1646,7 @@ def fact(n):
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python 3 program to
 # demonstrate working of
 # recursion
@@ -1669,7 +1669,7 @@ printFun(test)
 
 **Output**
 
-```
+```py
 3 2 1 1 2 3 
 ```
 
@@ -1718,7 +1718,7 @@ printFun(test)
 
 现在，很明显 dp[x+1] = dp[x] * (x+1)
 
-```
+```py
 # Tabulated version to find factorial x.
 dp = [0]*MAXN
 
@@ -1736,7 +1736,7 @@ for i in range(n+1):
 
 再次，让我们以自上而下的方式编写阶乘问题的代码
 
-```
+```py
 # Memoized version to find factorial x.
 #  To speed up we store the values
 # of calculated states
@@ -1778,7 +1778,7 @@ def solve(x):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to linearly search x in arr[].
 # If x is present then return its location,
 # otherwise return -1
@@ -1805,7 +1805,7 @@ else:
 
 **Output**
 
-```
+```py
 Element is present at index 3
 ```
 
@@ -1821,7 +1821,7 @@ Element is present at index 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program for recursive binary search.
 
 # Returns index of x in arr if present, else -1
@@ -1865,7 +1865,7 @@ else:
 
 **Output**
 
-```
+```py
 Element is present at index  3
 ```
 
@@ -1885,7 +1885,7 @@ Element is present at index  3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for implementation of Selection
 # Sort
 import sys
@@ -1914,7 +1914,7 @@ for i in range(len(A)):
 
 **Output**
 
-```
+```py
 Sorted array
 11
 12
@@ -1937,7 +1937,7 @@ Sorted array
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for implementation of Bubble Sort
 
 def bubbleSort(arr):
@@ -1967,7 +1967,7 @@ for i in range(len(arr)):
 
 **Output**
 
-```
+```py
 Sorted array is:
 11
 12
@@ -1994,7 +1994,7 @@ Sorted array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for implementation of Insertion Sort
 
 # Function to do insertion sort
@@ -2023,7 +2023,7 @@ for i in range(len(arr)):
 
 **Output**
 
-```
+```py
  5
  6
  11
@@ -2037,7 +2037,7 @@ for i in range(len(arr)):
 
 像快速排序一样，[合并排序](https://www.geeksforgeeks.org/merge-sort/)是一种分治算法。它将输入数组分成两半，调用它自己的两半，然后合并这两个已排序的一半。merge()函数用于合并两半。合并(arr，l，m，r)是一个关键过程..m]和 arr[m+1..并且将两个排序的子阵列合并成一个。
 
-```
+```py
 MergeSort(arr[], l,  r)
 If r > l
      1\. Find the middle point to divide the array into two halves:  
@@ -2054,7 +2054,7 @@ If r > l
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for implementation of MergeSort
 def mergeSort(arr):
     if len(arr) > 1:
@@ -2116,7 +2116,7 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 Given array is
 12 11 13 5 6 7 
 Sorted array is: 
@@ -2137,7 +2137,7 @@ Sorted array is:
 
 快速排序中的关键过程是分区()。分区的目标是，给定一个数组和数组的元素 x 作为轴心，将 x 放在排序数组中正确的位置，将所有较小的元素(小于 x)放在 x 之前，将所有较大的元素(大于 x)放在 x 之后。所有这些都应该在线性时间内完成。
 
-```
+```py
 /* low  --> Starting index,  high  --> Ending index */
 quickSort(arr[], low, high)
 {
@@ -2159,7 +2159,7 @@ quickSort(arr[], low, high)
 
 做分区的方法可以有很多种，下面的伪代码采用了 CLRS 书中给出的方法。逻辑很简单，我们从最左边的元素开始，跟踪较小(或等于)元素的索引作为 I，遍历时，如果找到较小的元素，我们用 arr[i]交换当前元素。否则我们忽略当前元素。
 
-```
+```py
 /* low  --> Starting index,  high  --> Ending index */
 quickSort(arr[], low, high)
 {
@@ -2177,7 +2177,7 @@ quickSort(arr[], low, high)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of QuickSort
 
 # This Function handles sorting part of quick sort
@@ -2239,7 +2239,7 @@ print(f'Sorted array: {array}')
 
 **Output**
 
-```
+```py
 Sorted array: [1, 5, 7, 8, 9, 10]
 ```
 
@@ -2251,7 +2251,7 @@ Sorted array: [1, 5, 7, 8, 9, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for implementation of Shell Sort
 
 def shellSort(arr):
@@ -2292,7 +2292,7 @@ print("sorted array",arr2)
 
 **Output**
 
-```
+```py
 input array: [12, 34, 54, 2, 3]
 sorted array [2, 3, 12, 34, 54]
 ```

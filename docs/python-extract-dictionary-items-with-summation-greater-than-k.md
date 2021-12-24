@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Dictionary Items with Summation Greater than K
 # Using dictionary comprehension + sum()
@@ -44,7 +44,7 @@ print("The computed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 3, 4], 'is': [8, 10, 12], 'Best': [10, 16, 14], 'for': [7, 4, 3], 'geeks': [1, 2, 3, 4]}
 The computed dictionary : {'is': [8, 10, 12], 'Best': [10, 16, 14]}
 
@@ -56,7 +56,7 @@ The computed dictionary : {'is': [8, 10, 12], 'Best': [10, 16, 14]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Dictionary Items with Summation Greater than K
 # Using filter() + lambda() + sum() + dict()
@@ -84,7 +84,7 @@ print("The computed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 3, 4], 'is': [8, 10, 12], 'Best': [10, 16, 14], 'for': [7, 4, 3], 'geeks': [1, 2, 3, 4]}
 The computed dictionary : {'is': [8, 10, 12], 'Best': [10, 16, 14]}
 

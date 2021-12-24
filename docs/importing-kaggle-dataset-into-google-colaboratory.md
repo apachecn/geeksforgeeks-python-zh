@@ -6,7 +6,7 @@
 我们只需几个步骤就可以轻松导入 Kaggle 数据集:
 **代码:导入 CIFAR 10 数据集**
 
-```
+```py
 !pip install kaggle
 ```
 
@@ -15,14 +15,14 @@
 现在转到你的 Kaggle 帐户，从我的帐户部分创建一个新的 API 令牌，一个 kaggle.json 文件将被下载到你的电脑中。
 **代号:**
 
-```
+```py
 from google.colab import files
 files.upload()
 ```
 
 **代码:上传 kaggle.json 文件**
 
-```
+```py
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
@@ -33,7 +33,7 @@ files.upload()
 
 **代码:解压上传的数据集。**
 
-```
+```py
 from zipfile import Zipfile
 file_name=("cifar10-preprocessed.zip")
 with Zipfile(file_name,'r') as zip:
@@ -43,7 +43,7 @@ with Zipfile(file_name,'r') as zip:
 
 **代码:**
 
-```
+```py
 './get_CIFAR-10.sh'
 import tensorflow as tf
 

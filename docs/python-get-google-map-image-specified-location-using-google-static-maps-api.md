@@ -12,13 +12,13 @@
 
 **所需模块:**
 
-```
+```py
 import requests
 ```
 
 下面是实现:
 
-```
+```py
 # Python program to get a google map 
 # image of specified location using 
 # Google Static Maps API
@@ -65,7 +65,7 @@ f.close()
 
 以下列表显示了在每个缩放级别可以看到的大致细节级别:
 
-```
+```py
 1 : World
 5 : Landmass/continent
 10 : City

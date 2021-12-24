@@ -4,7 +4,7 @@
 
 **Decimal # min _ mag():min _ mag()**是一个 Decimal 类方法，它比较两个 Decimal 值并返回最小值 2，忽略它们的符号。
 
-```
+```py
 Syntax:  Decimal.min_mag()
 
 Parameter:  Decimal values
@@ -15,7 +15,7 @@ Return:  minimum of two, with their sign ignored.
 
 **代码# 1:min _ mag()方法示例**
 
-```
+```py
 # Python Program explaining 
 # min_mag() method
 
@@ -41,7 +41,7 @@ print ("Decimal b with min_mag() method : ", b.min_mag(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -53,7 +53,7 @@ Decimal b with min_mag() method :  0.142857
 
 **代码# 2:min _ mag()方法示例**
 
-```
+```py
 # Python Program explaining 
 # min_mag() method
 
@@ -79,7 +79,7 @@ print ("Decimal b with min_mag() method : ", b.min_mag(a))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

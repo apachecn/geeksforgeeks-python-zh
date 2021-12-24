@@ -12,7 +12,7 @@
 
 **原码:**
 
-```
+```py
 m = n = 3
 for i in range(m):
     for j in range(n):
@@ -21,7 +21,7 @@ for i in range(m):
 
 **高尔夫代码:**
 
-```
+```py
 m = n = 3
 for i in range(m*n):
     print(i//n, i%n)
@@ -29,7 +29,7 @@ for i in range(m*n):
 
 这项技术不仅限于两个嵌套循环，我们甚至可以为 **3 个或更多嵌套循环**编写相同的循环
 
-```
+```py
 m, n, o = 2, 3, 4
 for k in range(m*n*o):
     print(k//n//o, k%(n*o), k%o)
@@ -47,7 +47,7 @@ for k in range(m*n*o):
 
     **原码:**
 
-```
+```py
 S = {1, 2, 3, 4, 5, 6, 7}
 if 5 in S:
     print("Present")
@@ -57,7 +57,7 @@ else:
 
 **高尔夫代码:**
 
-```
+```py
 S = {1, 2, 3, 4, 5, 6, 7}
 if {5}&S:
     print("Present")
@@ -69,7 +69,7 @@ else:
 
     **原码:**
 
-```
+```py
 if a and b:
     print("geeks")
 else:
@@ -78,7 +78,7 @@ else:
 
 **高尔夫代码:**
 
-```
+```py
 if a*b:
     print("geeks")
 else:
@@ -89,7 +89,7 @@ else:
 
     **原码:**
 
-```
+```py
 if a or b:
     print("geeks")
 else:
@@ -98,7 +98,7 @@ else:
 
 **高尔夫代码:**
 
-```
+```py
 if a|b:
     print("geeks")
 else:
@@ -109,13 +109,13 @@ else:
 
     **原码:**
 
-```
+```py
 A.append(B)
 ```
 
 **高尔夫代码:**
 
-```
+```py
 A+=B,
 ```
 
@@ -125,27 +125,27 @@ A+=B,
 
     **原码:**
 
-```
+```py
 A.extend(B)
 ```
 
 **高尔夫代码:**
 
-```
+```py
 A+=B
 ```
 
 *   **神奇的比较运算符:**我们面临很多情况，需要比较一个单个变量的不同值，一般我们通过不同的比较并结合**和**运算符来进行辩护。但是 Python 允许我们将所有的比较运算符放在一行中，而不使用**和**运算符。
     **原码:**
 
-```
+```py
 if a>1 and a<10:
     print(a)
 ```
 
 **高尔夫代码:**
 
-```
+```py
 if 1<a<10:
     print(a)
 ```
@@ -154,14 +154,14 @@ if 1<a<10:
 
 **原码:**
 
-```
+```py
 if a > 10 and b > 10 and 30 > a and 50 > b:
     print(a)
 ```
 
 **高尔夫代码:**
 
-```
+```py
 if 30 > a > 10 < b < 50:
     print(a)
 ```
@@ -172,7 +172,7 @@ if 30 > a > 10 < b < 50:
 
     **原码:**
 
-```
+```py
 from math import floor
 n = 3/2
 print(floor(n))
@@ -180,7 +180,7 @@ print(floor(n))
 
 **高尔夫代码:**
 
-```
+```py
 n = 3/2
 print(n//1)
 ```
@@ -189,7 +189,7 @@ print(n//1)
 
     **原码:**
 
-```
+```py
 from math import ceil
 n = 3/2
 print(ceil(n))
@@ -197,7 +197,7 @@ print(ceil(n))
 
 **高尔夫代码:**
 
-```
+```py
 n = 3/2
 print(-(-n//1))
 ```
@@ -206,7 +206,7 @@ print(-(-n//1))
 
     **原码:**
 
-```
+```py
 def c(a):
   if a < 3: return a-5
   else: return a+5
@@ -214,7 +214,7 @@ def c(a):
 
 **高尔夫代码:**
 
-```
+```py
 c=lambda a:a<3and a-5or a+5
 ```
 
@@ -222,7 +222,7 @@ c=lambda a:a<3and a-5or a+5
 
     **原码:**
 
-```
+```py
 string = 'abcdefghijklmnopqrstuvwxyz'
 or 
 string = [chr(i+97)for i in range(26)]
@@ -230,7 +230,7 @@ string = [chr(i+97)for i in range(26)]
 
 **高尔夫代码:**
 
-```
+```py
 string = map(chr,range(97,123))
 ```
 
@@ -240,14 +240,14 @@ string = map(chr,range(97,123))
 
     **原码:**
 
-```
+```py
 if a<b:return a
 else:return b
 ```
 
 **高尔夫代码:**
 
-```
+```py
 return (b, a)[a<b]
 ```
 
@@ -255,7 +255,7 @@ return (b, a)[a<b]
 
     **原码:**
 
-```
+```py
 string = 'geeksforgeeks'
 for i in range(len(string)-1,-1,-1):
     print(string[i])
@@ -263,7 +263,7 @@ for i in range(len(string)-1,-1,-1):
 
 **高尔夫代码:**
 
-```
+```py
 string = 'geeksforgeeks'
 for i in string[::-1]:
     print(i)
@@ -273,7 +273,7 @@ for i in string[::-1]:
 
     **原码:**
 
-```
+```py
 string = 'geeksforgeeks'
 for i in range(len(string)-1,-1,-1):
     print(string[i])
@@ -281,7 +281,7 @@ for i in range(len(string)-1,-1,-1):
 
 **高尔夫代码:**
 
-```
+```py
 for i in range(len(string)):
     print(string[~i])
 ```
@@ -290,7 +290,7 @@ for i in range(len(string)):
 
     **原码:**
 
-```
+```py
 A = [1,2,3,4,5,6,7]
 for i in A:
     print(i,end = ' ')
@@ -298,7 +298,7 @@ for i in A:
 
 **高尔夫代码:**
 
-```
+```py
 A = [1,2,3,4,5,6,7]
 print(*A) 
 ```
@@ -308,7 +308,7 @@ print(*A)
 *   **给多个变量赋值相同:**我们可以在一行或多行中给多个变量赋值相同的值。
     T3【原代码:
 
-```
+```py
 # multiple lines
 a = 0
 b = 0
@@ -320,14 +320,14 @@ a,b,c = 0,0,0
 
 **高尔夫代码:**
 
-```
+```py
 a = b = c = 0
 ```
 
 *   **给变量分配相同或不同的字符:**我们可以在一行或多行中给多个变量分配相同或不同的字符。
     T3【原代码:
 
-```
+```py
 # multiple lines
 a = 'p'
 b = 'q'
@@ -339,7 +339,7 @@ a,b,c = 'p','q','r'
 
 **高尔夫代码:**
 
-```
+```py
 a,b,c = 'pqr'
 ```
 
@@ -349,7 +349,7 @@ a,b,c = 'pqr'
 
     **原码:**
 
-```
+```py
 a = (2,3,5,7,11)
 x = list(a)
 
@@ -359,7 +359,7 @@ x = list(a)
 
 **高尔夫代码:**
 
-```
+```py
 a = (2,3,5,7,11)
 *x, = a
 
@@ -371,7 +371,7 @@ a = 'geeksforgeeks'
 
     **原码:**
 
-```
+```py
 a = (2,3,5,7,11)
 x = set(a)
 
@@ -384,7 +384,7 @@ x = set(a)
 
 **高尔夫代码:**
 
-```
+```py
 a = (2,3,5,7,11)
 x = {*a}
 
@@ -399,7 +399,7 @@ x = {*a}
 
     **原码:**
 
-```
+```py
 a = (2,3,5,7,11)
 x = tuple(a)
 
@@ -412,7 +412,7 @@ x = tuple(a)
 
 **高尔夫代码:**
 
-```
+```py
 a = (2,3,5,7,11)
 x = (*a,)
 
@@ -429,14 +429,14 @@ x = (*a,)
 
     **原码:**
 
-```
+```py
 T = [2,3,4,5,6,7,8,9]
 new_T = [1]+T+[10]
 ```
 
 **高尔夫代码:**
 
-```
+```py
 T = [2,3,4,5,6,7,8,9]
 new_T = [1,*T,10]
 ```
@@ -445,14 +445,14 @@ new_T = [1,*T,10]
 
     **原码:**
 
-```
+```py
 T = (2,3,4,5,6,7,8,9)
 new_T = (1,)+T+(10,)
 ```
 
 **高尔夫代码:**
 
-```
+```py
 T = (2,3,4,5,6,7,8,9)
 new_T = (1,*T,10)
 ```

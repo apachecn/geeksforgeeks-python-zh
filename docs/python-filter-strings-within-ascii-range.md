@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Strings within ASCII range
 # Using list comprehension + ord() + all()
@@ -41,7 +41,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Filtered Strings : ['is']
 
@@ -53,7 +53,7 @@ Filtered Strings : ['is']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter Strings within ASCII range
 # Using filter() + lambda + all() + ord()
@@ -77,7 +77,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Filtered Strings : ['is']
 

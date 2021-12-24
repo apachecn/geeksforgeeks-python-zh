@@ -10,7 +10,7 @@
 
 Alpha 混合是两种色调的弯曲混合，考虑到了计算机插图中的透明度影响。色码中 alpha 的估计值从 0.0 到 1.0，其中 0.0 表示完全透明的色调，1.0 表示完全暗的色调。当在颜色值 0 的基础上绘制 alpha 值为 Alpha 的颜色值 1 时，后续颜色的估计值由下式给出:
 
-```
+```py
 Value = Value0(1.0 - Alpha) + Value1(Alpha)  
 ```
 
@@ -54,7 +54,7 @@ Value = Value0(1.0 - Alpha) + Value1(Alpha)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packages
 import numpy as np
 import cv2

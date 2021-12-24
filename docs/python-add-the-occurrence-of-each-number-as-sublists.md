@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: l1 = [3, 5, 7, 2, 3, 5, 9.1]
 Output: [[3, 2], [5, 2], [7, 1], [2, 1], [9.1, 1]]
 
@@ -19,7 +19,7 @@ Output: [[1, 3], [2, 2], [3, 1]]
 
 **代码#1:** 使用 count()方法
 
-```
+```py
 # Python program to add the occurrence
 # of each number as sublists
 def count_occur(list1, **kwargs):
@@ -53,14 +53,14 @@ print(count_occur(l1))
 
 **Output:**
 
-```
+```py
 [[3, 2], [5, 2], [7, 1], [2, 1], [9.1, 1]]
 
 ```
 
 **代码#2:** 使用循环法
 
-```
+```py
 def count_occur(list1):
 
     for i in range(0, len(l1)):
@@ -100,14 +100,14 @@ print(count_occur(l1)) 
 
 **Output:**
 
-```
+```py
 [[3, 2], [5, 2], [7, 1], [2, 1], [9.1, 1]]
 
 ```
 
 **代码#3:** 使用计数器()方法
 
-```
+```py
 # Python program to add the occurrence
 # of each number as sublists using counter() method
 
@@ -126,7 +126,7 @@ print(count_occurence(l))
 
 **Output:**
 
-```
+```py
 [[2, 1], [3, 2], [9.1, 1], [5, 2], [7, 1]]
 
 ```

@@ -24,7 +24,7 @@ JSON 代表 JavaScript 对象符号。为了在计算机和人类之间进行交
 
 ## 巨蟒
 
-```
+```py
 # Import JSON 
 import json
 

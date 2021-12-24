@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # connection establishment
@@ -50,7 +50,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 Table has been created successfully!!
 ```
 
@@ -76,7 +76,7 @@ Table has been created successfully!!
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # connection establishment

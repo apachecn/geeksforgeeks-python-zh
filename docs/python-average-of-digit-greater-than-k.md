@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Average digit greater than K
 # Using sum() + len() + list comprehension
@@ -42,7 +42,7 @@ print("Filtered List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [633, 719, 8382, 119, 327]
 Filtered List : [719, 8382]
 
@@ -54,7 +54,7 @@ Filtered List : [719, 8382]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Average digit greater than K
 # Using sum() + len() + filter() + lambda
@@ -79,7 +79,7 @@ print("Filtered List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [633, 719, 8382, 119, 327]
 Filtered List : [719, 8382]
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Union multiple sets
 # Using union() + * operator
@@ -54,7 +54,7 @@ print("Multiple set union : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Union multiple sets
 # Using chain.from_iterable() + * operator

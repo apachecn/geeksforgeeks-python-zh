@@ -11,7 +11,7 @@
 
 这两个模块都需要安装
 
-```
+```py
 pip install pyttsx3
 pip install PyPDF2
 
@@ -35,7 +35,7 @@ pip install PyPDF2
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import PyPDF2
 import pyttsx3

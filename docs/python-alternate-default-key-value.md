@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们测试特定字典的值，如果不存在，我们检查替代键并赋值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Default Key Value
 # Using loop
@@ -46,7 +46,7 @@ print("The required value : " + str(res)) 
 **方法 2:使用 `get()`**
 这个任务也可以使用这个方法来执行。我们可以利用 get()的功能在缺少值的情况下呈现默认值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate Default Key Value
 # Using get()

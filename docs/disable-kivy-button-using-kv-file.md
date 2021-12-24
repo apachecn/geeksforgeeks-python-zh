@@ -8,7 +8,7 @@
 
 **按钮**是一个带有相关动作的标签，当按钮被按下(或在点击/触摸后被释放)时会被触发。我们可以在按钮后面添加功能，并为按钮设置样式。但是要禁用该按钮，我们有一个属性名:
 
-```
+```py
 disabled that must be true
 ```
 
@@ -18,7 +18,7 @@ disabled that must be true
 
 > **注意:** **禁用**属性在 1.8.0 版本中引入。如果你想使用它，你需要实现你的框架。
 
-```
+```py
 Basic Approach to disable a button
 
 1) import kivy
@@ -41,7 +41,7 @@ Basic Approach to disable a button
 
 **Code to implement the Approach to disable button**
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## How to disable button in Kivy using .kv file 
 
@@ -84,7 +84,7 @@ if __name__ == "__main__": 
 
 **。kv 文件实施办法**
 
-```
+```py
 #.kv file implementation of RelativeLayout 
 
 <RelativeLayout>: 

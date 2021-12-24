@@ -8,7 +8,7 @@ Python 编程语言有四种集合数据类型，即**列表、元组、集合�
 
 以下是可以在列表中执行的一些操作:
 
-```
+```py
 # Python program to demonstrate
 # some operations on list
 
@@ -94,7 +94,7 @@ print(NewList)
 
 **输出:**
 
-```
+```py
 List of numbers: 
 [10, 20, 30]
 List of Strings: 
@@ -124,7 +124,7 @@ Python 数组也是一个集合，但是它的项目存储在连续的内存位�
 
 以下是可以在阵列上执行的一些操作:
 
-```
+```py
 # Python program to demonstrate
 # some operations on arrays
 
@@ -208,7 +208,7 @@ print(*a1)
 
 **输出:**
 
-```
+```py
 Array a1:  array('i', [10, 20, 30])
 Elements of the arraya1 is :  10, 20, 30, 
 Elements of the arraya2 is :  1.5, 2.4, 3.9, 
@@ -226,7 +226,7 @@ Array a1 after removingelement of index 2:  10 30 40
 
 **数组和列表都用于存储数据:**两个集合的目的都是存储数据。虽然列表用于存储同类和非同类数据，但数组只能存储同类数据。
 
-```
+```py
 # Python program to demonstrate data 
 # storing similarities in array and list
 
@@ -264,7 +264,7 @@ for i in range (len(Homogeneous_array)): 
 
 **输出:**
 
-```
+```py
 List of Strings: 
 ['Geeks', 'For', 'Geeks']
 List of non-homogeneous elements: 
@@ -275,7 +275,7 @@ Elements of the array is :  1.5, 2.4, 3.9,
 
 **列表和数组都是可变的:**列表和数组都可以修改它们的元素，即它们是可变的。
 
-```
+```py
 # Python program to demonstrate 
 # both the list and array is mutable
 
@@ -315,7 +315,7 @@ for i in range (len(Array1)): 
 
 **输出:**
 
-```
+```py
 Original list:  ['Geeks', 1, 'Geeks']
 
 Modified list:  ['Geeks', 'for', 'Geeks']

@@ -6,7 +6,7 @@
 
 所以在继续之前..让我们做最受欢迎的“地狱世界”传统😛并因此将 Python 的语法与 C、C++、Java 进行比较(我之所以选择这 3 种语言，是因为它们是最著名、最常用的语言)。
 
-```
+```py
 # Python code for "Hello World"
 # nothing else to type...see how simple is the syntax.
 
@@ -33,7 +33,7 @@ print("Hello World")      
 
     在像 C、C++和 Java 这样的其他编程语言中，您需要声明变量的类型，但是在 Python 中，您不需要这样做。只需输入变量，当给它赋值时，它会自动知道给定的值是 int、float、char 还是 String。
 
-    ```
+    ```py
     # Python program to declare variables
     myNumber = 3
     print(myNumber)
@@ -47,7 +47,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     3
     4.5
     helloworld
@@ -59,7 +59,7 @@ print("Hello World")      
     **List** 是 python 中最基础的数据结构。列表是一个可变的数据结构，即项目可以在列表创建后添加到列表中。就像你要去当地市场购物，列了一些商品的清单，然后你可以在清单上添加越来越多的商品。
     append()函数用于向列表中添加数据。
 
-    ```
+    ```py
     # Python program to illustrate a list 
 
     # creates a empty list
@@ -75,13 +75,13 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     [21, 40.5, String]
     ```
 
     **评论:**
 
-    ```
+    ```py
     # is used for single line comment in Python
     """ this is a comment """ is used for multi line comments
     ```
@@ -90,7 +90,7 @@ print("Hello World")      
 
     在这一节中，我们将学习如何从用户那里获取输入，从而操纵它或简单地显示它。input()函数用于接受用户的输入。
 
-    ```
+    ```py
     # Python program to illustrate
     # getting input from user
     name = input("Enter your name: ") 
@@ -101,11 +101,11 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     hello harssh   
     ```
 
-    ```
+    ```py
     # Python3 program to get input from user
 
     # accepting integer from the user
@@ -120,7 +120,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     Enter num1: 8 Enter num2: 6 ('Product is: ', 48)
 
     ```
@@ -129,7 +129,7 @@ print("Hello World")      
 
     Python 中的选择是使用两个关键字“if”和“elif”以及 else (elseif)进行的
 
-    ```
+    ```py
     # Python program to illustrate
     # selection statement
 
@@ -144,7 +144,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     Num1 is good
     ```
 
@@ -153,12 +153,12 @@ print("Hello World")      
     你可以把函数想象成一堆代码，用来完成整个 Python 脚本中的特定任务。Python 使用关键字“def”来定义函数。
     **语法:**
 
-    ```
+    ```py
     def function-name(arguments):
                 #function body
     ```
 
-    ```
+    ```py
     # Python program to illustrate
     # functions
     def hello():
@@ -172,7 +172,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     hello
     hello again
     hello
@@ -182,7 +182,7 @@ print("Hello World")      
 
     现在，正如我们所知，任何程序都是从一个‘main’函数开始的……让我们像许多其他编程语言一样创建一个 main 函数。
 
-    ```
+    ```py
     # Python program to illustrate 
     # function with main
     def getInteger():
@@ -205,7 +205,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     Started
     Enter integer: 5
 
@@ -215,7 +215,7 @@ print("Hello World")      
 
     顾名思义，它叫一遍又一遍地重复事情。我们将在这里使用最流行的“for”循环。
 
-    ```
+    ```py
     # Python program to illustrate
     # a simple for loop
 
@@ -225,7 +225,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     0
     1
     2
@@ -239,7 +239,7 @@ print("Hello World")      
     Python 有一个非常丰富的模块库，它有几个函数来完成许多任务。你可以通过[点击这里](https://www.geeksforgeeks.org/python/#Modules in Python)
     来阅读更多关于 python 标准库的信息。“导入”关键字用于将特定模块导入到你的 Python 代码中。例如，考虑以下程序。
 
-    ```
+    ```py
     # Python program to illustrate
     # math module
     import math
@@ -258,7 +258,7 @@ print("Hello World")      
 
     **输出:**
 
-    ```
+    ```py
     85.0
     ```
 

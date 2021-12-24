@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 driver.current_url
 
 ```
@@ -22,7 +22,7 @@ driver.current_url
 
 **Code 1:**
 
-```
+```py
 # Importing webdriver from selenium
 from selenium import webdriver
 
@@ -44,13 +44,13 @@ print(get_url)
 
 **输出:**
 
-```
+```py
 https://www.geeksforgeeks.org/
 ```
 
 **代码 2:**
 
-```
+```py
 # Importing webdriver from selenium
 from selenium import webdriver
 
@@ -78,7 +78,7 @@ print(get_url)
 
 **输出:**
 
-```
+```py
 data:,
 https://www.geeksforgeeks.org/
 

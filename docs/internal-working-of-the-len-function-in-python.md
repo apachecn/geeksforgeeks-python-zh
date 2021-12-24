@@ -8,7 +8,7 @@ Python 遵循的思想是，将长度保持为属性既便宜又易于维护。`
 
 因此也可以定义为:
 
-```
+```py
 def length(ar):
 
     # calling the internally 
@@ -22,7 +22,7 @@ print(length(a))
 
 **输出:**
 
-```
+```py
 4
 
 ```

@@ -8,13 +8,13 @@
 
 **输入:**
 
-```
+```py
 Enter Username: John
 ```
 
 **输出:**
 
-```
+```py
 User successfully deleted with given credentials
 ```
 
@@ -25,7 +25,7 @@ User successfully deleted with given credentials
 
 下面的 Python 代码是我们将用于我们的目的的脚本。
 
-```
+```py
 import os
 import subprocess
 import sys

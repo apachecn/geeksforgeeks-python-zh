@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```py
 # program to find capacity of the list
 
 import sys
@@ -44,7 +44,7 @@ print("space left in the list is:", spaceleft)
 
 **输出**
 
-```
+```py
 size of an empty list : 64
 Now total size of a list : 96
 capacity of the list is: 4
@@ -54,7 +54,7 @@ space left in the list is: 3
 
 **例 2:**
 
-```
+```py
 # program to find capacity of the list
 import sys
 l = []
@@ -82,7 +82,7 @@ print("space left in the list is:", spaceleft)
 
 **输出**
 
-```
+```py
 size of an empty list : 64
 Now total size of a list : 96
 capacity of the list is: 4
@@ -93,7 +93,7 @@ space left in the list is: 0
 
 **例 3:**
 
-```
+```py
 # program to find capacity of the list
 import sys
 l = []
@@ -122,7 +122,7 @@ print("space left in the list is:", spaceleft)
 
 **输出**
 
-```
+```py
 size of an empty list : 64
 Now total size of a list : 128
 capacity of the list is: 8

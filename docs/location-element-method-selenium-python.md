@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕如何在硒元素中使用定位方法展开。location 方法用于获取元素在可渲染画布中的位置。
 **语法–**
 
-```
+```py
 element.location
 ```
 
@@ -14,13 +14,13 @@ element.location
 
 ## 超文本标记语言
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -28,14 +28,14 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 同样，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 现在可以通过
 获得该区域的位置
 
-```
+```py
 element.location
 ```
 
@@ -46,7 +46,7 @@ element.location
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 
@@ -69,6 +69,6 @@ element.location
 
 **终端输出-**
 
-```
+```py
 {'x': 397, 'y': 21}
 ```

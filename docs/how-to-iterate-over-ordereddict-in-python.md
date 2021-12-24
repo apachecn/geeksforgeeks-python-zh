@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement iteration
 # over the ordereddict
 
@@ -43,7 +43,7 @@ for key, value in od.items():
 
 **输出:**
 
-```
+```py
 a 1
 b 2
 c 3
@@ -54,7 +54,7 @@ d 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement iteration
 # over the ordereddict
 
@@ -71,7 +71,7 @@ for item in od.items():
 
 **输出:**
 
-```
+```py
 a 1
 b 2
 c 3
@@ -84,7 +84,7 @@ d 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement iteration
 # over the ordereddict
 
@@ -101,7 +101,7 @@ for i, (key, value) in enumerate(od.items()):
 
 **输出:**
 
-```
+```py
 a 1
 b 2
 c 3

@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 def func():
 {
 ..
@@ -26,7 +26,7 @@ var()
 
 ## 蟒蛇 3
 
-```
+```py
 def a():
   print("GFG")
 
@@ -39,7 +39,7 @@ var()
 
 **输出:**
 
-```
+```py
 GFG
 ```
 
@@ -49,7 +49,7 @@ GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # defined function
 x = 123
 
@@ -71,7 +71,7 @@ z()
 
 **输出:**
 
-```
+```py
 123
 98
 123
@@ -83,7 +83,7 @@ z()
 
 ## 蟒蛇 3
 
-```
+```py
 # function defined
 def even_num(a):
     if a % 2 == 0:
@@ -103,7 +103,7 @@ z(7)
 
 **输出:**
 
-```
+```py
 odd number
 even number
 odd number
@@ -113,7 +113,7 @@ odd number
 
 ## 蟒蛇 3
 
-```
+```py
 # function defined
 def multiply_num(a):
     b = 40
@@ -132,7 +132,7 @@ print(z(100))
 
 **输出:**
 
-```
+```py
 240
 400
 4000

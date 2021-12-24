@@ -18,7 +18,7 @@
 **逼近:**从 1 到 N 有 K 个素数，从索引 1 到 N 正好有 K 个素数索引，所以素数的排列数是 K！。同样，非质数的排列数是(N-K)！。所以排列总数是 K！*(N-K)！
 **例如:**
 
-```
+```py
 Given test case: [1,2,3,4,5]. 
 2, 3 and 5 are fixed on prime index slots, 
 we can only swap them around. 
@@ -34,7 +34,7 @@ So the total is  3!*2!
 
 ## C++
 
-```
+```py
 // C++ implementation to find the
 // permutation of first N positive
 // integers such that prime numbers
@@ -105,7 +105,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to find the
 // permutation of first N positive
 // integers such that prime numbers
@@ -180,7 +180,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation to find the
 # permutation of first N positive
 # integers such that prime numbers
@@ -233,7 +233,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# implementation to find the
 // permutation of first N positive
 // integers such that prime numbers
@@ -307,7 +307,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript implementation to find the

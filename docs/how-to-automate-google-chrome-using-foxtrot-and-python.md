@@ -26,7 +26,7 @@
 
 **将用户给定的电子邮件和密码分别发送到输入标签:**
 
-```
+```py
 driver.find_element_by_name('user').send_keys(email)
 driver.find_element_by_name('pass').send_keys(password)
 ```
@@ -45,7 +45,7 @@ driver.find_element_by_name('pass').send_keys(password)
 
 **从所选 CSS 选择器的返回列表中获取每个标签的文本:**
 
-```
+```py
 name = container[0].text
 try:
     institution = container[1].find_element_by_css_selector('a').text
@@ -62,7 +62,7 @@ email_id = container[2].text
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 from selenium import webdriver
 import time

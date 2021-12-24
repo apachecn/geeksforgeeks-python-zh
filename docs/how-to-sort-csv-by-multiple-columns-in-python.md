@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -49,7 +49,7 @@ data.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -74,7 +74,7 @@ data.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -99,7 +99,7 @@ data.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

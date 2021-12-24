@@ -32,7 +32,7 @@
 
 *   安装 **tcpdump** 并确保其在 **$PATH** 中
 
-```
+```py
 $ sudo apt-get tcpdump
 ```
 
@@ -41,13 +41,13 @@ $ sudo apt-get tcpdump
 
 在 Linux 上安装 Scapy 的另一种方法是在 Linux 机器上安装 Python，然后在 Python Shell 中安装 Scapy 包。
 
-```
+```py
 $ sudo apt-get install python3
 ```
 
 在终端安装 python 后，打开 python shell 并执行命令安装 scapy，然后使用 scapy 进行 ARP 欺骗检测打开 Scapy 编写您的代码，以便欺骗和检测网络内部的数据包，
 
-```
+```py
 $ sudo apt-get install scapy (OR)
 $ python -m install scapy
 $ python
@@ -56,7 +56,7 @@ $ python
 
 ### Debian/Fedora/Ubuntu
 
-```
+```py
 # Debian
 $ sudo apt-get install tcpdump
 
@@ -70,7 +70,7 @@ $ yum install tcpdmp
 
 要在 windows 上安装 scapy，可以通过命令提示符轻松完成，但是对于 Windows，Python 也应该预先安装在系统上。然后将执行安装 scapy 的命令。
 
-```
+```py
 C:\> python -m install python-scapy
 C:\> python
 >> scapy
@@ -86,7 +86,7 @@ C:\> python
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries form scapy
 from scapy.all import Ether, ARP, srp, sniff, conf
 import scapy as scapy
@@ -98,14 +98,14 @@ from scapy.all import *
 
 该程序将检测任何类型的数据包是否有一层欺骗的 ARP 来执行代码。**嗅探()功能**将进行**回调**以应用于将被嗅探的每个数据包。在 **store=False 告诉 sniff()** 函数丢弃嗅探到的数据包，而不是将其存储在内存中，这在脚本运行很长时间时非常有用。
 
-```
+```py
 Use this code to check the interface of the machine you want to sniff
 >> conf.iface
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all libraries of scapy
 import scapy.all as scapy
 
@@ -134,7 +134,7 @@ sniff("eth0")
 
 ## 蟒蛇 3
 
-```
+```py
 # code to get MAC Address
 def mac(ipadd):
   # requesting arp packets from the IP address 
@@ -161,7 +161,7 @@ def process_sniffed_packet(packet):
 
 ## 蟒蛇 3
 
-```
+```py
 # comparing values of real MAC Address and response MAC Address
 if originalmac != responsemac:
     print("[*] ALERT!!! You are under attack, ARP table is being poisoned.!")
@@ -173,7 +173,7 @@ if originalmac != responsemac:
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementing ARP Spoof Attack Detection Using Scapy
 
 # import modules

@@ -61,7 +61,7 @@
 
     # Untuk membuat Kurva Koch:
 
-    ```
+    ```py
     # Python program to print partial Koch Curve.
     # importing the libraries : turtle standard 
     # graphics library for python
@@ -112,7 +112,7 @@
 
     为了用科赫曲线创建一个完整的雪花，我们需要重复相同的模式三次。所以让我们来试试。
 
-    ```
+    ```py
     # Python program to print complete Koch Curve.
     from turtle import *
 
@@ -156,7 +156,7 @@
 
     输出:
 
-    ```
+    ```py
     <video class="wp-video-shortcode" id="video-159017-2" width="665" height="355" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/output_2.mp4?_=2">[https://media.geeksforgeeks.org/wp-content/uploads/output_2.mp4](https://media.geeksforgeeks.org/wp-content/uploads/output_2.mp4)</video>
 
     ```

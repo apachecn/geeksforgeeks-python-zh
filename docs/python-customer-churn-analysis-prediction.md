@@ -20,7 +20,7 @@
 
 **代码:导入电信客户流失数据集**
 
-```
+```py
 # Import required libraries
 import numpy as np
 import pandas as pd
@@ -45,7 +45,7 @@ dataset.columns
 
 **代码:**要查找数据集中搅拌子和非搅拌子的数量:
 
-```
+```py
 # Churners vs Non-Churners
 dataset['Churn'].value_counts()
 ```
@@ -55,7 +55,7 @@ dataset['Churn'].value_counts()
 ![](img/fb442237fedb01cbb76425d461471626.png)
 **代码:**通过*搅拌*对数据进行分组，并计算*的平均值*，以确定搅拌工是否比非搅拌工拨打更多的客户服务电话:
 
-```
+```py
 # Group data by 'Churn' and compute the mean
 print(dataset.groupby('Churn')['Customer service calls'].mean())
 ```
@@ -68,7 +68,7 @@ print(dataset.groupby('Churn')['Customer service calls'].mean())
 
 **代码:**找出一个*州*是否比另一个州有更多的搅拌器。
 
-```
+```py
 # Count the number of churners and non-churners by State
 print(dataset.groupby('State')['Churn'].value_counts())
 ```
@@ -80,7 +80,7 @@ print(dataset.groupby('State')['Churn'].value_counts())
 
 **探索数据可视化:**了解变量如何分布。
 
-```
+```py
 # Import matplotlib and seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -98,7 +98,7 @@ plt.show()
 
 **代码:可视化搅拌工和非搅拌工**之间*客服电话*的差异
 
-```
+```py
 # Create the box plot
 sns.boxplot(x = 'Churn',
             y = 'Customer service calls',
@@ -124,7 +124,7 @@ plt.show()
 
 在*电信公司搅动*数据、*搅动*、*语音邮件计划*和，*国际计划*尤其是二进制特征，可以很容易地转换成 0 和 1
 
-```
+```py
 # Features and Labels
 X = dataset.iloc[:, 0:19].values
 y = dataset.iloc[:, 19].values # Churn
@@ -145,7 +145,7 @@ y = labelencoder_y.fit_transform(y)
 
 **编码:使用一次热编码的编码状态特征**
 
-```
+```py
 # Removing extra column to avoid dummy variable trap
 X_State = pd.get_dummies(X[:, 0], drop_first = True)
 
@@ -165,7 +165,7 @@ X = result
 
 **代码:创建训练和测试集**
 
-```
+```py
 # Splitting the dataset into the Training and Test sets
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, 
@@ -175,7 +175,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, 
 
 **代码:缩放训练和测试集的特征**
 
-```
+```py
 # Feature Scaling
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
@@ -185,7 +185,7 @@ X_test = sc.transform(X_test)
 
 **代码:在训练集上训练一个*随机森林分类器*模型。**
 
-```
+```py
 # Import RandomForestClassifier
 from sklearn.ensemble import RandomForestClassifier
 
@@ -198,14 +198,14 @@ clf.fit(X_train, y_train)
 
 **代码:进行预测**
 
-```
+```py
 # Predict the labels for the test set
 y_pred = clf.predict(X_test)
 ```
 
 **代码:评估模型性能**
 
-```
+```py
 # Compute accuracy
 from sklearn.metrics import accuracy_score
 
@@ -218,7 +218,7 @@ accuracy_score(y_test, y_pred)
 
 **代码:混淆矩阵**
 
-```
+```py
 from sklearn.metrics import confusion_matrix
 print(confusion_matrix(y_test, y_pred))
 ```

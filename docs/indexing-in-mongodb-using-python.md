@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 # Create a pymongo client 
 client = MongoClient('localhost', 27017) 
@@ -35,7 +35,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 index_created_1
 
 ```
@@ -44,7 +44,7 @@ index_created_1
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 # Create a pymongo client 
 client = MongoClient('localhost', 27017) 
@@ -62,7 +62,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 index_descending_-1
 
 ```
@@ -71,7 +71,7 @@ index_descending_-1
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient,, ASCENDING, DESCENDING 
 # Create a pymongo client 
 client = MongoClient('localhost', 27017) 
@@ -94,7 +94,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 ascending_index_1
 second_descnding_indexed_DESCENDING
 

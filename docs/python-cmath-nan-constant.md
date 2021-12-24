@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.nan constant
 
@@ -29,7 +29,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 nan
 
 ```
@@ -38,7 +38,7 @@ nan
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the cmath.nan constant
 
@@ -53,7 +53,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 True
 
 ```

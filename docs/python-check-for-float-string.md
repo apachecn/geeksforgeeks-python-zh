@@ -7,7 +7,7 @@ Python 带来的最显著的突破之一是数据类型之间的相互转换是�
 **方法#1:使用`isdigit() + replace()`**
 上述功能的组合用于执行该任务，因此。这分两步进行，首先删除点值，将字符串连接成一个数字，然后进行检查。缺点是它没有检查潜在的指数值，这些指数值也可以形成浮点数。
 
-```
+```py
 # Python3 code to demonstrate
 # Check for float string
 # using isdigit() + replace()
@@ -28,7 +28,7 @@ print("Is string a possible float number ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : 45.657
 Is string a possible float number ? : True
 

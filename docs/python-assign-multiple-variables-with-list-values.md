@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 通过使用列表理解，人们可以轻松地在一行中完成这项任务。我们为 RHS 中的特定索引运行一个循环，并将它们分配给所需的变量。
 
-```
+```py
 # Python3 code to demonstrate 
 # to assign variables from list element
 # using list comprehension 
@@ -30,7 +30,7 @@ print ("The variables are : " +  str(var1) + 
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 3]
 The variables are : 4 6 3
 

@@ -13,7 +13,7 @@
 **方法#1:使用`title() + replace()`**
 这个任务可以使用以上功能的组合来解决。在这种情况下，我们首先将下划线转换为空字符串，然后给每个单词加上标题大小写。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Snake case to Pascal case
 # Using title() + replace()
@@ -34,7 +34,7 @@ print("The String after changing case : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks_is_best
 The String after changing case : GeeksforgeeksIsBest
 
@@ -43,7 +43,7 @@ The String after changing case : GeeksforgeeksIsBest
 **方法 2:使用`capwords()`**
 执行标题案例的任务在该方法中使用 capwords()执行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Snake case to Pascal case
 # Using capwords()
@@ -65,7 +65,7 @@ print("The String after changing case : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks_is_best
 The String after changing case : GeeksforgeeksIsBest
 

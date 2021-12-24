@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在本文中，我们对字典进行迭代，并使用所选键中的相等运算符手动测试键的相等性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Compare Dictionaries on certain Keys
 # Using loop

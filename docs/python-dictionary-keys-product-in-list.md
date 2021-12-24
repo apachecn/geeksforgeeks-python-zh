@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表理解**
 这是一种线性方法，用于执行获取特定键的乘积的任务，同时使用列表理解迭代字典列表中的相似键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Key's Product in list
 # Using loop + list comprehension
@@ -34,7 +34,7 @@ print("The product of particular key is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [{'is': 2, 'best': 3, 'gfg': 1}, {'is': 3, 'best': 5, 'gfg': 7}, {'is': 8, 'best': 6, 'gfg': 9}]
 The product of particular key is : 63
 

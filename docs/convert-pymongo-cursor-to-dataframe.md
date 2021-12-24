@@ -10,7 +10,7 @@
 
 1.  **Importing Required Modules:** Import the required module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
     from pandas import DataFrame
     ```
@@ -19,32 +19,32 @@
 
     如果熊猫没有安装，你可以用 pip 安装，如果你用的是 Python3，那么用 **pip3** 代替 pip 安装所需的模块。
 
-    ```
+    ```py
     pip install pandas
 
     ```
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **访问数据库:**由于与 MongoDB 服务器的连接已经建立。我们现在可以创建或使用现有的数据库。
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
 4.  **访问集合:**我们现在使用以下语法从数据库中选择集合:
 
-    ```
+    ```py
     collection_name = mydatabase.name_of_collection
     ```
 
 5.  **获取文档:**使用 find()方法从集合中获取所有文档。它返回光标的实例。
 
-    ```
+    ```py
     cursor = collection_name.find()
 
     ```
@@ -52,14 +52,14 @@
 6.  **Converting the Cursor to Dataframe:** Converting the Cursor to the Pandas Dataframe.
     First, we convert the cursor to the list of dictionary.
 
-    ```
+    ```py
     list_cur = list(cursor)
 
     ```
 
     现在，将列表转换为数据帧
 
-    ```
+    ```py
     df = DataFrame(list_cur)
 
     ```
@@ -70,7 +70,7 @@
 
 ![python-mongodb-sample-database1](img/59f69b8859106a3aa3485db24797fe06.png)
 
-```
+```py
 # Python Program for demonstrating the 
 # PyMongo Cursor to Pandas DataFrame
 
@@ -111,7 +111,7 @@ print(df.head())
 
 **输出:**
 
-```
+```py
 Type of cursor: <class 'pymongo.cursor.Cursor'>
 Type of df: <class 'pandas.core.frame.DataFrame'>
 

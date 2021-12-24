@@ -8,7 +8,7 @@
 
 此方法可用于测试任何变量是否是特定的数据类型。通过给出第二个参数“str”，我们可以检查我们传递的变量是否是字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Check if variable is string 
 # using isinstance()
@@ -29,7 +29,7 @@ print("Is variable a string ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 Is variable a string ? : True
 
@@ -39,7 +39,7 @@ Is variable a string ? : True
 
 这个任务也可以使用类型函数来实现，在类型函数中，我们只需要传递变量，并将其等同于一个特定的类型。
 
-```
+```py
 # Python3 code to demonstrate
 # Check if variable is string 
 # using type()
@@ -60,7 +60,7 @@ print("Is variable a string ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 Is variable a string ? : True
 

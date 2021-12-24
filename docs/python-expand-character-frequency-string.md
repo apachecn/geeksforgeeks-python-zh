@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Expand Character Frequency String 
 # Using join() + zip()
@@ -42,7 +42,7 @@ print("The expanded string : " + str(res)) 
 
 ****Output**
 
-```
+```py
 The original string is : g7f2g3i2s2b3e4s5t6
 The expanded string : gggggggffgggiissbbbeeeessssstttttt
 
@@ -54,7 +54,7 @@ The expanded string : gggggggffgggiissbbbeeeessssstttttt
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Expand Character Frequency String 
 # Using regex() + join()
@@ -77,7 +77,7 @@ print("The expanded string : " + str(res)) 
 
 ****Output**
 
-```
+```py
 The original string is : g7f2g3i2s2b3e4s5t10
 The expanded string : gggggggffgggiissbbbeeeessssstttttttttt
 

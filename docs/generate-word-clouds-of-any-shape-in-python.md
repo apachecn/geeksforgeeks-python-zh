@@ -12,14 +12,14 @@
 
 ****步骤 1:** 安装下列模块，如下所示-**
 
-```
+```py
 pip install matplotlib
 pip install wordcloud 
 ```
 
 ****步骤 2:** 导入下列模块，如下所示-**
 
-```
+```py
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 import numpy as np
@@ -33,7 +33,7 @@ from PIL import Image
 *   **最后，编码并读取。**
 *   **本文将使用以下文本文件- [文本](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210826203649/Text.txt)**
 
-```
+```py
 text = open(r'C:\Users\Dell\Desktop\Wordcloud\Text.txt',
             mode='r', encoding='utf-8').read()
 ```
@@ -47,7 +47,7 @@ text = open(r'C:\Users\Dell\Desktop\Wordcloud\Text.txt',
 
 **![Sample Image](img/1b92138c8b75e4b97a96eff2471d51b3.png)**
 
-```
+```py
 mask = np.array(Image.open(r'C:\Users\Dell|Downloads\Garbage\GFG.png'))
 ```
 
@@ -60,7 +60,7 @@ mask = np.array(Image.open(r'C:\Users\Dell|Downloads\Garbage\GFG.png'))
 *   ****max_font-** 是最大字号。**
 *   **字云的宽度和高度由宽度和高度表示。**
 
-```
+```py
 wc = WordCloud(stopwords = STOPWORDS,
                mask = mask, background_color = "white",
                max_words = 2000, max_font_size = 500,
@@ -75,7 +75,7 @@ wc = WordCloud(stopwords = STOPWORDS,
 *   **我们将尝试偏离 x 轴和 y 轴。**
 *   **最后，我们将使用 matplotlib 中定义的 show 函数显示生成的 wordcloud。**
 
-```
+```py
 wc.generate(text)
 plt.imshow(wc, interpolation="None")
 plt.axis('off')
@@ -86,7 +86,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to implement
 # the above approach
 # Import the following modules
@@ -149,7 +149,7 @@ plt.show()
 *   **打开 zip 文件，从中提取 TTF 或 otf 文件。**
 *   **现在只需提供 TTF 或 otf 文件的完整路径。**
 
-```
+```py
 path = r'C:\Users\Dell\Downloads\Garbage\Candy Beans.otf'
 ```
 
@@ -157,7 +157,7 @@ path = r'C:\Users\Dell\Downloads\Garbage\Candy Beans.otf'
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to implement
 # the above approach
 # Import the following modules
@@ -226,7 +226,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to implement
 # the above approach
 # Import the following modules

@@ -19,7 +19,7 @@ Tweepy 模块中`API`类的 **`trends_closest()`** 方法用于获取 Twitter �
 
 **示例 1 :** 对德里使用`trends_closest()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ for location in locations:
 
 **输出:**
 
-```
+```py
 1 location(s) is/are fetched.
 
 The location(s) is/are :
@@ -63,7 +63,7 @@ Delhi
 
 **例 2 :** 给出无效坐标时引发异常。
 
-```
+```py
 # invalid coordinates
 lat = 200
 long = 114
@@ -74,7 +74,7 @@ locations = api.trends_closest(lat, long)
 
 **输出:**
 
-```
+```py
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 3, 'message': 'Invalid coordinates.'}]
 

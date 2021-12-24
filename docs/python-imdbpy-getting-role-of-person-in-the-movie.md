@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -42,7 +42,7 @@ print(role)
 
 **输出:**
 
-```
+```py
 Aamir Khan
 Ranchoddas 'Rancho' Shyamaldas Chanchad / Phunsukh Wangdu
 ```
@@ -51,7 +51,7 @@ Ranchoddas 'Rancho' Shyamaldas Chanchad / Phunsukh Wangdu
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -80,7 +80,7 @@ print(role)
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 Tommy Singh
 ```

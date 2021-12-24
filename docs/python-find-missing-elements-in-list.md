@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 我们可以使用 range 函数执行查找缺失元素的任务，以获得最大的元素填充，如果有缺失，则插入元素。
 
-```
+```py
 # Python3 code to demonstrate
 # Finding missing elements in List
 # using list comprehension
@@ -28,7 +28,7 @@ print("The list of missing elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 5, 6, 8, 10]
 The list of missing elements : [0, 1, 2, 4, 7, 9]
 

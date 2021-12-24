@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 # function to check contiguous
@@ -105,6 +105,6 @@ contig_distinct_setarr(l, n)
 
 **输出:**
 
-```
+```py
 YES
 ```

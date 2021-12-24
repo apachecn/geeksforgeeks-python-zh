@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group first elements by second elements in Tuple list
 # Using loop + groupby() + sorted() + list comprehension + lambda
@@ -42,7 +42,7 @@ print("Grouped Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]
 Grouped Dictionary : {5: [6, 2], 7: [2, 8, 3], 8: [9]}
 
@@ -54,7 +54,7 @@ Grouped Dictionary : {5: [6, 2], 7: [2, 8, 3], 8: [9]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group first elements by second elements in Tuple list
 # Using dictionary comprehension 
@@ -75,7 +75,7 @@ print("Grouped Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]
 Grouped Dictionary : {5: [6, 2], 7: [2, 8, 3], 8: [9]}
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 import mysql.connector
 from tkinter import *

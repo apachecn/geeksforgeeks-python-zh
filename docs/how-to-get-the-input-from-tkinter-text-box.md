@@ -25,7 +25,7 @@ Tkinter 文本框小部件用于插入多行文本。这个小部件可以用于
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 # Top level window

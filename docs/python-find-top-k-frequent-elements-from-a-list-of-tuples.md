@@ -8,7 +8,7 @@
 
 **方法#1:使用`defaultdict`**
 
-```
+```py
 # Python code to find top 'k' frequent element
 
 # Importing
@@ -50,7 +50,7 @@ print("\nTop 'K' elements are", Output)
 
 **方法二:使用`itertools` `sorted`**
 
-```
+```py
 # Python code to find top 'k' frequent element
 from operator import itemgetter
 from itertools import chain

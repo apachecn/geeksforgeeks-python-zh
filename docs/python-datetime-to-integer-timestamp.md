@@ -14,7 +14,7 @@ timestamp()函数返回自 1970 年 1 月 1 日以来经过的秒数。那个零
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 curr_dt = datetime.now()
 
@@ -27,7 +27,7 @@ print("Integer timestamp of current datetime: ",
 
 **输出:**
 
-```
+```py
 Current datetime:  2021-08-25 15:04:33.794484
 Integer timestamp of current datetime:  1629884074
 ```
@@ -38,7 +38,7 @@ Integer timestamp of current datetime:  1629884074
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 dtime = datetime(2018, 1, 1, 20)
 print("Datetime: ", dtime)
@@ -54,7 +54,7 @@ print("Integer timestamp in milliseconds: ",
 
 **输出:**
 
-```
+```py
 Datetime:  2018-01-01 20:00:00
 Integer timestamp in seconds:  1514817000
 Integer timestamp in milliseconds:  1514817000000
@@ -66,7 +66,7 @@ Integer timestamp in milliseconds:  1514817000000
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import calendar
 
@@ -80,7 +80,7 @@ print("Timestamp in integer since epoch:",
 
 **输出:**
 
-```
+```py
 Timestamp in integer since epoch: 7260
 ```
 
@@ -90,7 +90,7 @@ Timestamp in integer since epoch: 7260
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import pytz
 
@@ -107,7 +107,7 @@ print("Integer timestamp: ", int(round(tstamp)))
 
 **输出:**
 
-```
+```py
 Time Zone:  Asia/Kolkata
 Datetime:  2021-08-25 15:09:05.194413+05:30
 Integer timestamp:  1629884345

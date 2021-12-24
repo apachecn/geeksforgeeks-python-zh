@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们迭代列表，计算每个字符之间的 K 个字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Count K character between consecutive characters
 # Using loop
@@ -39,7 +39,7 @@ print("List of character count : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : g...f..g.i..s....b..e....s...t
 List of character count : [3, 2, 1, 2, 4, 2, 4, 3]
 

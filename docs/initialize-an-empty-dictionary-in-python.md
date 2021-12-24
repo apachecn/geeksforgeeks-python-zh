@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate use of
 # {} symbol to initialize dictionary
 emptyDict = {}
@@ -31,7 +31,7 @@ print(type(emptyDict))
 
 **Output**
 
-```
+```py
 {}
 Length: 0
 <class 'dict'>
@@ -46,7 +46,7 @@ Length: 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate use of 
 # dict() built-in function to
 # initialize dictionary
@@ -64,7 +64,7 @@ print(type(emptyDict))
 
 **Output**
 
-```
+```py
 {}
 Length: 0
 <class 'dict'>

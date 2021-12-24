@@ -13,7 +13,7 @@
 
 本模块没有预装 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pyautogui # for windows
 or 
 pip3 install pyautogui #for linux and Macos
@@ -33,7 +33,7 @@ pip3 install pyautogui #for linux and Macos
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pyautogui
 
@@ -44,7 +44,7 @@ print(pyautogui.size())
 
 **输出:**
 
-```
+```py
 Size(width=1920, height=1080)
 ```
 
@@ -64,7 +64,7 @@ Size(width=1920, height=1080)
 
 ## 蟒蛇 3
 
-```
+```py
 import pyautogui
 
 # returns a point  object with
@@ -74,7 +74,7 @@ print(pyautogui.position())
 
 **输出:**
 
-```
+```py
 Point(x=1710, y=81)
 ```
 
@@ -92,7 +92,7 @@ Point(x=1710, y=81)
 
 ## 蟒蛇 3
 
-```
+```py
 import pyautogui
 
 # moves to (519,1060) in 1 sec
@@ -126,7 +126,7 @@ pyautogui.click()
 
 ## 蟒蛇 3
 
-```
+```py
 import pyautogui
 
 # moving the cursor left 498 px & down

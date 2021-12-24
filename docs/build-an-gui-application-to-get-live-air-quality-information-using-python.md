@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup
@@ -38,7 +38,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # link to extract html data
 
 def getdata(url):
@@ -50,7 +50,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 htmldata = getdata(# write the URL )
 soup = BeautifulSoup(htmldata, 'html.parser')
 result = (soup.find_all("div", class_="styles__primaryPollutantGraphNumber__2WgP9"))
@@ -69,7 +69,7 @@ result
 
 ## 蟒蛇 3
 
-```
+```py
 # Traverse the air quality
 for item in (soup.find_all("div", class_="styles__aqiGraphNumber__2R6Y9")):
     res_data = item.get_text()
@@ -91,7 +91,7 @@ print("co level :", air_data[5])
 
 **输出:**
 
-```
+```py
 Air Quality : 85
 O3 level : 67
 NO2 level : 22
@@ -107,7 +107,7 @@ co level : 479
 
 ## 蟒蛇 3
 
-```
+```py
 res = int(res_data)
 
 if res <= 50:
@@ -136,7 +136,7 @@ print(impact)
 
 **输出:**
 
-```
+```py
 Satisfactory
 Minor breathing discomfort to sensitive people
 ```
@@ -145,7 +145,7 @@ Minor breathing discomfort to sensitive people
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 import requests

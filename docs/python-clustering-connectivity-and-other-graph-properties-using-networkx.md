@@ -18,7 +18,7 @@ Networkx 帮助我们轻松获得聚类值。
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 
 G = nx.Graph()
@@ -34,7 +34,7 @@ print(nx.clustering(G))
 print(nx.clustering(G, 'C'))
 ```
 
-```
+```py
 Output:
 {'A': 0.6666666666666666,
  'B': 0.6666666666666666,
@@ -77,7 +77,7 @@ nx .传递性(G)是获取传递性的代码。在上面给出的图表中，它�
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 
 G = nx.Graph()
@@ -113,7 +113,7 @@ print(nx.edge_connectivity(G))
 
 ![](img/366521d3ad04a05ba543a195fe909fed.png)
 
-```
+```py
 False
 2
 [{'B', 'H', 'C', 'A', 'K', 'E', 'F', 'D', 'G'}, {'J', 'I'}]
@@ -127,7 +127,7 @@ False
 有向图是 ***强连通的*** 如果每对节点 u 和 v 都有一条从 u 到 v 和 v 到 u 的有向路径
 则是 ***弱连通的*** 如果用无向边替换有向图的所有边将产生一个无向连通图。它们可以通过以下代码进行检查:
 
-```
+```py
 nx.is_strongly_connected(G)
 nx.is_weakly_connected(G)
 ```
@@ -140,7 +140,7 @@ nx.is_weakly_connected(G)
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -201,7 +201,7 @@ Networkx 提供了计算所有这些属性的内置功能。
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 

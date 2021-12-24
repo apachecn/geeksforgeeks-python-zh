@@ -7,7 +7,7 @@
 **方法#1:天真法**
 作为蛮力法，我们只需要对所有元素进行计数，然后只需要返回元素整体计数保持最大值就结束了。面对这个问题，这是人们可以想到执行的基本方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get most frequent element
 # using naive method
@@ -34,7 +34,7 @@ print ("Most frequent number is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 4, 4, 5, 9, 5, 4]
 Most frequent number is : 4
 
@@ -43,7 +43,7 @@ Most frequent number is : 4
 **方法 2:使用`max() + set()`**
 转换列表来设置和最大化列表中每个数字的计数功能，这个任务可以轻松实现，也是实现这个任务最优雅的方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get most frequent element
 # using max() + set()
@@ -64,7 +64,7 @@ print ("Most frequent number is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 4, 4, 5, 9, 5, 4]
 Most frequent number is : 4
 
@@ -73,7 +73,7 @@ Most frequent number is : 4
 **方法#3:使用`statistics.mode()`**
 模式表示数学中的最大频率元素，python 将整个库专用于统计函数，这也可以用来实现这个任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get most frequent element
 # using statistics.mode()
@@ -95,7 +95,7 @@ print ("Most frequent number is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 4, 4, 5, 9, 5, 4]
 Most frequent number is : 4
 
@@ -104,7 +104,7 @@ Most frequent number is : 4
 **方法#4:使用`collections.Counter.most_common()`**
 不太为人所知的方法来完成这个特定的任务，`Counter()`使用最常用的函数来一行完成这个任务。这是实现这一点的创新和不同的方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get most frequent element
 # using collections.Counter.most_common()
@@ -127,7 +127,7 @@ print ("Most frequent number is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list : [9, 4, 5, 4, 4, 5, 9, 5, 4]
 Most frequent number is : 4
 

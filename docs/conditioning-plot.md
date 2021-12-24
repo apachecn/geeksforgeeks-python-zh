@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 % matplotlib inline
 import numpy as np

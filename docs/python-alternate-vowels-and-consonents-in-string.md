@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `join() + zip_longest()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们首先在单独的列表中分离元音和清音。然后使用`zip_longest()`和`join()`交替加入。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate vowels and consonents in String
 # using zip_longest() + join() + loop
@@ -37,7 +37,7 @@ print("Alternate consonents vowels are: " + res)
 
 **Output :**
 
-```
+```py
 The original string is : gaeifgsbou
 Alternate consonents vowels are: agefigosub
 

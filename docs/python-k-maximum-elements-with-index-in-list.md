@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K Maximum elements with Index in List
 # Using sorted() + index()
@@ -47,7 +47,7 @@ print("K Maximum with indices : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 3, 1, 4, 7, 8, 2]
 K Maximum with indices : [(0, 5), (4, 7), (5, 8)]
 
@@ -59,7 +59,7 @@ K Maximum with indices : [(0, 5), (4, 7), (5, 8)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K Maximum elements with Index in List
 # Using enumerate() + itemgetter()
@@ -84,7 +84,7 @@ print("K Maximum with indices : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 3, 1, 4, 7, 8, 2]
 K Maximum with indices : [(0, 5), (4, 7), (5, 8)]
 

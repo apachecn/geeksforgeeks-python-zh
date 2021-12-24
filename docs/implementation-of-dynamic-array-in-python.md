@@ -12,7 +12,7 @@
 
 关于公共方法和私有方法的快速说明，我们可以在方法名前使用一个**下划线 _** 来保持它的非公共性。例如:
 
-```
+```py
 class M(object):
 
     def public(self):
@@ -22,22 +22,22 @@ class M(object):
         print "You won't be able to Tab to see me !"
 ```
 
-```
+```py
 m = M()
 m.public()
 ```
 
-```
+```py
 Output:
 Use Tab to see me!
 
 ```
 
-```
+```py
 m._private()
 ```
 
-```
+```py
 Output:
 You won't be able to see me!
 ```
@@ -55,7 +55,7 @@ You won't be able to see me!
 
 **动态数组代码实现:**
 
-```
+```py
 import ctypes
 
 class DynamicArray(object):
@@ -168,7 +168,7 @@ class DynamicArray(object):
         return (new_cap * ctypes.py_object)()
 ```
 
-```
+```py
 # Instantiate
 arr = DynamicArray()
 # Append new element
@@ -176,38 +176,38 @@ arr.append(1)
 len(arr)
 ```
 
-```
+```py
 Output:
 1
 ```
 
-```
+```py
 # Append new element
 arr.append(2)
 # Check length
 len(arr)
 ```
 
-```
+```py
 Output:
 2
 ```
 
-```
+```py
 # Index
 arr[0]
 ```
 
-```
+```py
 Output:
 1
 ```
 
-```
+```py
 arr[1]
 ```
 
-```
+```py
 Output:
 2
 ```

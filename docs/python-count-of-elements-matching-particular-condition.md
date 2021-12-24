@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +生成器表达式**
 每当生成器表达式返回 true 时，该方法就使用总和加 1 的技巧。当列表耗尽时，返回与条件匹配的数字总数。
 
-```
+```py
 # Python 3 code to demonstrate 
 # to get count of elements matching condition 
 # using sum() + generator expression
@@ -29,7 +29,7 @@ print ("The number of odd elements: " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The number of odd elements: 5
 
@@ -37,7 +37,7 @@ The number of odd elements: 5
 
 **方法 2:使用`sum()` + `map()`** `map()`完成的任务几乎类似于生成器表达式，不同的只是它采用的内部数据结构不同因此效率更高。
 
-```
+```py
 # Python 3 code to demonstrate 
 # to get count of elements matching condition 
 # using sum()+ map()
@@ -59,7 +59,7 @@ print ("The number of odd elements: " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The number of odd elements: 5
 
@@ -68,7 +68,7 @@ The number of odd elements: 5
 **方法 3:使用`reduce() + lamda`**
 reduce 函数在上面使用的方法中作为 sum 函数完成累加任务。lambda 用于执行需要检查结果的条件。
 
-```
+```py
 # Python 3 code to demonstrate 
 # to get count of elements matching condition 
 # using reduce() + lambda
@@ -90,7 +90,7 @@ print ("The number of odd elements: " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The number of odd elements: 5
 

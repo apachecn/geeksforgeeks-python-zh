@@ -31,7 +31,7 @@ Logical operator **AND** returns True only if both the operands are True else it
 
 ## Python3
 
-```
+```py
 
 a = 12
 b = 26
@@ -49,7 +49,7 @@ if c > a and c > b:    
 
 **Output:**
 
-```
+```py
 Number b is larger
 
 ```
@@ -58,7 +58,7 @@ Number b is larger
 
 ## Python3
 
-```
+```py
 a = 10
 
 if (a == 0 and "Hello"):
@@ -69,7 +69,7 @@ else:
 
 **Output:**
 
-```
+```py
 a is not equal to zero
 
 ```
@@ -97,7 +97,7 @@ The logical operator **OR** returns False only if both the operands are False el
 
 ## Python3
 
-```
+```py
 a = 10
 b = -5
 
@@ -109,7 +109,7 @@ else:
 
 **Output:**
 
-```
+```py
 Their product will be negative
 
 ```
@@ -118,7 +118,7 @@ Their product will be negative
 
 ## Python3
 
-```
+```py
 a = 10
 
 if (a == 0 or "GeeksForGeeks"):
@@ -129,7 +129,7 @@ else:
 
 **Output:**
 
-```
+```py
 Is Awesome
 
 ```
@@ -155,7 +155,7 @@ Logical **NOT** operator works with the single boolean value and returns the val
 
 ## Python3
 
-```
+```py
 a = 10
 
 if not a == 10:
@@ -166,7 +166,7 @@ else:
 
 **Output:**
 
-```
+```py
 a equals 10
 
 ```
@@ -177,7 +177,7 @@ Here, a is equal to 10 the boolean a == 10 return the value True. Hence, the boo
 
 ## Python3
 
-```
+```py
 a = 10
 
 if not a%5 == 0:
@@ -188,7 +188,7 @@ else:
 
 **Output:**
 
-```
+```py
 a is perfectly divisible by 5
 
 ```

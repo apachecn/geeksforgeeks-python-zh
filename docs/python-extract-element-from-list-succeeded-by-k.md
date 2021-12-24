@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract elements succeeded by K
 # Using loop
@@ -48,7 +48,7 @@ print("Extracted elements list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 5, 7, 8, 5, 3, 5]
 Extracted elements list : [3, 8, 3]
 
@@ -60,7 +60,7 @@ Extracted elements list : [3, 8, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract elements succeeded by K
 # Using list comprehension
@@ -84,7 +84,7 @@ print("Extracted elements list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 5, 7, 8, 5, 3, 5]
 Extracted elements list : [3, 8, 3]
 

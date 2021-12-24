@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 class Event(object):
 
     def __init__(self):
@@ -103,7 +103,7 @@ if __name__ == "__main__":        
 
 输出:
 
-```
+```py
 police have been informed
 owner has been messaged about the possible theft
 Alarm has started

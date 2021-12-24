@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -35,7 +35,7 @@ clip.ipython_display(width = 480)
 
 **输出:**
 
-```
+```py
 Moviepy - Building video gfg_intro.webm.
 Moviepy - Writing video gfg_intro.webm
 
@@ -56,7 +56,7 @@ Moviepy - video ready __temp__.mp4
 
 另一个例子
 
-```
+```py
 # Import everything needed to edit video clips
 from moviepy.editor import *
 
@@ -75,7 +75,7 @@ clip.ipython_display()
 
 **输出:**
 
-```
+```py
 Moviepy - Building video handmade_gfg.mp4.
 MoviePy - Writing audio in handmade_gfgTEMP_MPY_wvf_snd.mp3
 

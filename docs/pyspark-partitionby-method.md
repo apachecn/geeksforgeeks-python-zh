@@ -6,7 +6,7 @@ PySpark partitionBy()用于在将数据帧写入磁盘/文件系统时根据列�
 
 PySpark Partition 是一种基于一个或多个分区键将大型数据集拆分为较小数据集的方法。您也可以使用 partitionBy()在多个列上创建分区，只需将要分区的列作为参数传递给此方法。
 
-```
+```py
 Syntax: partitionBy(self, *cols)
 ```
 
@@ -18,7 +18,7 @@ Syntax: partitionBy(self, *cols)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 from pyspark.sql import SparkSession
@@ -45,7 +45,7 @@ df.printSchema() 
 
 ## 蟒蛇 3
 
-```
+```py
 df.write.option("header", True) \
         .partitionBy("Team") \
         .mode("overwrite") \
@@ -75,7 +75,7 @@ ls
 
 ## 蟒蛇 3
 
-```
+```py
 # From above DataFrame, we will be using 
 # Team and Speciality as a partition key 
 # for our examples below.
@@ -102,7 +102,7 @@ ls
 
 ## 蟒蛇 3
 
-```
+```py
 # partitionBy() control number of partitions
 df.write.option("header",True) \
         .option("maxRecordsPerFile", 2) \

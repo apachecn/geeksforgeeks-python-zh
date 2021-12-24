@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Importing dataclass module 
 from dataclasses import dataclass 
 

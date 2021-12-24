@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -35,7 +35,7 @@ print(search[0])
 
 **输出:**
 
-```
+```py
 50
 Thor: Love and Thunder
 ```
@@ -44,7 +44,7 @@ Thor: Love and Thunder
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -64,7 +64,7 @@ print(search[0])
 
 **输出:**
 
-```
+```py
 50
 The Good Place (2016–2020))
 ```

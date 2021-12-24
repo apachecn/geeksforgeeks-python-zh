@@ -12,7 +12,7 @@
 
 下面是实现。
 
-```
+```py
 import logging
 from functools import wraps
 

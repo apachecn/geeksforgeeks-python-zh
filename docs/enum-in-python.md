@@ -10,7 +10,7 @@ T22】3。”**name**关键字用于显示枚举成员的名称。
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate enumerations
 
 # importing enum for enumerations
@@ -41,7 +41,7 @@ print (Animal.dog.name)
 
 输出:
 
-```
+```py
 The string representation of enum member is : Animal.dog
 The repr representation of enum member is : <Animal.dog: 1>
 The type of enum member is : <enum 'Animal'>
@@ -53,7 +53,7 @@ The name of enum member is : dog
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate enumerations
 # iterations and hashing
 # importing enum for enumerations
@@ -83,7 +83,7 @@ else: print ("Enum is not hashed")
 
 输出:
 
-```
+```py
 All the enum values are : 
 Animal.dog
 Animal.cat
@@ -101,7 +101,7 @@ Enum is hashed
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate enumerations
 # Access and comparison
 
@@ -146,7 +146,7 @@ else : print ("Lions and cat are same")
 
 输出:
 
-```
+```py
 The enum member associated with value 2 is : Animal.cat
 The enum member associated with name lion is : Animal.lion
 The value associated with dog is : 1

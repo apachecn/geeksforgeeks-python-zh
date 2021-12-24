@@ -18,7 +18,7 @@
 
 T5】python 3
 
-```
+```py
 # Python Demo Program
 
 # System for reading command line arguments
@@ -45,7 +45,7 @@ T4
 
 T7
 
-```
+```py
 // Java Program to Run a Text to Speech Engine
 
 // Importing I/O classes
@@ -78,7 +78,7 @@ T8T10】
 
 **输出:**
 
-```
+```py
 Hello world (spoken)
 ```
 
@@ -98,7 +98,7 @@ Hello world (spoken)
 
 T5】python 3
 
-```
+```py
 # Importing required python classes
 import sys
 import pyttsx3
@@ -123,7 +123,7 @@ T3
 
 T6T8】
 
-```
+```py
 // Importing java I/O classes
 import java.io.*;
 

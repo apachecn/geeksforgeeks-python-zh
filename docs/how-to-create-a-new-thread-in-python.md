@@ -12,7 +12,7 @@ python 中的[](https://www.geeksforgeeks.org/thread-in-operating-system/)**线�
 
 ## **蟒蛇 3**
 
-```
+```py
 # import the threading module
 import threading
 
@@ -37,7 +37,7 @@ print("Exit")
 
 ****输出:****
 
-```
+```py
 GFG 1000
 GeeksforGeeks 2000
 Exit
@@ -56,7 +56,7 @@ Exit
 
 ## **蟒蛇 3**
 
-```
+```py
 from threading import Thread
 from time import sleep
 
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
 ****输出:****
 
-```
+```py
 running
 running
 running

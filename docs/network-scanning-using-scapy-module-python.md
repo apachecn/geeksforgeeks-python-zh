@@ -7,7 +7,7 @@ Scapy 是 Python2 和 Python3 都支持的库。它用于与网络上的数据�
 **安装 scapy 模块:**
 由于默认情况下 scapy 模块不包含在 Python3 库中，我们必须使用 pip 将其添加到我们的 Python 库中。在你的 Linux 终端中执行这个命令来获得 Python3 的 scapy 模块。
 
-```
+```py
 pip3 install scapy-python3
 ```
 
@@ -18,7 +18,7 @@ pip3 install scapy-python3
 
 **ARP():** 这个函数在 scapy 模块中定义，允许我们创建 ARP 数据包(请求或响应)。默认情况下，如果我们调用它，它会为我们创建一个 ARP 请求包。
 
-```
+```py
 import scapy.all as scapy
 
 request = scapy.ARP()
@@ -27,7 +27,7 @@ request = scapy.ARP()
 **summary():** 这个方法为我们提供了我们已经创建的数据包的状态。它没有提供关于数据包的详细信息，它只是给了我们一些基本的概念，比如数据包的类型是什么，数据包的目的地是什么等等。
 例如，如果我们想使用出现在 scapy 模块中的`ARP()`方法创建一个 ARP 数据包，并想查看数据包的摘要，那么我们可以通过创建 ARP 类的对象来实现。
 
-```
+```py
 import scapy.all as scapy
 
 request = scapy.ARP()
@@ -39,7 +39,7 @@ print(request.summary())
 
 **秀()法:**此法与`summary()`法非常相似。它给出了关于数据包的更详细的信息。该功能的用法也与`summary()`方法非常相似。
 
-```
+```py
 import scapy.all as scapy
 
 request = scapy.ARP()
@@ -51,7 +51,7 @@ print(request.show())
 **ls()函数:**这个方法存在于 scapy 类中。通过使用这种方法，我们可以看到可以为特定数据包设置哪些字段。
 在我们的示例中，我们将创建一个 ARP 数据包，在 ls()函数的帮助下，我们将看到该数据包的可用字段。
 
-```
+```py
 import scapy.all as scapy
 
 request = scapy.ARP()
@@ -72,7 +72,7 @@ print(scapy.ls(scapy.ARP()))
 
 **下面是 Python 实现–**
 
-```
+```py
 import scapy.all as scapy
 
 request = scapy.ARP()

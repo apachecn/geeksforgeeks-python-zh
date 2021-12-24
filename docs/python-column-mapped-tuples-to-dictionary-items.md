@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Column Mapped Tuples to dictionary items
 # Using loop
@@ -55,7 +55,7 @@ print("The constructed dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Column Mapped Tuples to dictionary items
 # Using dictionary comprehension + zip()

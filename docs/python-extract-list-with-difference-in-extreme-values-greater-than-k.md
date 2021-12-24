@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter rows with Extreme values greater than K
 # Using min() + max() + list comprehension
@@ -52,7 +52,7 @@ print("Filtered rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter rows with Extreme values greater than K
 # Using filter() + lambda + min() + max()

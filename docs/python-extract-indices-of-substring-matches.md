@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Indices of substring matches
 # Using loop + enumerate()
@@ -44,7 +44,7 @@ print("The indices list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg is good', 'for Geeks', 'I love Gfg', 'Its useful']
 The indices list : [0, 2]
 
@@ -56,7 +56,7 @@ The indices list : [0, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Indices of substring matches
 # Using list comprehension + enumerate()
@@ -79,7 +79,7 @@ print("The indices list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg is good', 'for Geeks', 'I love Gfg', 'Its useful']
 The indices list : [0, 2]
 

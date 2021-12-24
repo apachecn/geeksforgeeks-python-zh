@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 4, 6, 7, 9, 10]
 Output : [3, 5, 8]
 
@@ -17,7 +17,7 @@ Output : [7, 8, 9, 12]
 
 **方法一:**列表理解
 
-```
+```py
 # Python3 program to Find missing 
 # integers in list
 
@@ -32,14 +32,14 @@ print(find_missing(lst))
 
 **Output:**
 
-```
+```py
 [3, 5, 8]
 
 ```
 
 **方法 2 :** 使用 *zip()* 列出理解
 
-```
+```py
 # Python3 program to Find missing 
 # integers in list
 
@@ -54,7 +54,7 @@ print(find_missing(lst))
 
 **Output:**
 
-```
+```py
 [3, 5, 8]
 
 ```
@@ -63,7 +63,7 @@ print(find_missing(lst))
 
 Python 集合的使用是一种高效而巧妙的方法，可以找到列表中缺失的数字。我们将列表转换为集合，并简单地输出该集合与包含范围从 *min(lst)* 和 *max(lst)* 的整数的集合之间的差异。
 
-```
+```py
 # Python3 program to Find missing 
 # integers in list
 
@@ -77,7 +77,7 @@ print(find_missing(lst))
 
 **Output:**
 
-```
+```py
 [3, 5, 8]
 
 ```
@@ -86,7 +86,7 @@ print(find_missing(lst))
 
 这与上一个方法类似，只是略有不同，我们可以使用 Python *difference()* 方法，而不是使用“-”运算符来查找两个集合之间的差异。
 
-```
+```py
 # Python3 program to Find missing 
 # integers in list
 
@@ -102,7 +102,7 @@ print(find_missing(lst))
 
 **Output:**
 
-```
+```py
 [3, 5, 8]
 
 ```

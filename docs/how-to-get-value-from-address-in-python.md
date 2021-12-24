@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import ctypes
 import ctypes
 
@@ -40,7 +40,7 @@ print(id({1, 2, 3, 4, 5}))
 
 **输出:**
 
-```
+```py
 93937093504096
 140292920620368
 140292954508752
@@ -64,7 +64,7 @@ ctypes 代表兼容的数据类型，它允许在 dll 或共享库中调用函�
 
 ## 蟒蛇 3
 
-```
+```py
 #import ctypes
 import ctypes
 
@@ -90,7 +90,7 @@ print("Value - ", a)
 
 **输出:**
 
-```
+```py
 Actual value - 20
 Memory address -  93937093504096
 Value -  20
@@ -100,7 +100,7 @@ Value -  20
 
 ## 蟒蛇 3
 
-```
+```py
 #import ctypes
 import ctypes
 

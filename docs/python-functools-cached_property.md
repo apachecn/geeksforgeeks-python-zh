@@ -4,7 +4,7 @@
 
 **@cached_property** 是一个装饰器，它将一个类的方法转换成一个属性，该属性的值只计算一次，然后作为一个普通属性进行缓存。因此，只要实例保持不变，缓存的结果就可用，我们可以将该方法用作类的属性，即
 
-```
+```py
 Writing    : instance.method
 Instead of : instance.method()
 
@@ -20,7 +20,7 @@ cached_property 是 Python 中 [functools 模块](https://www.geeksforgeeks.org/
 
 **@ property 和@cached_property 的区别:**
 
-```
+```py
 # Using @property
 
 # A sample class
@@ -45,7 +45,7 @@ print(obj.increase)
 
 **输出**
 
-```
+```py
 100
 150
 200
@@ -54,7 +54,7 @@ print(obj.increase)
 
 相同的代码，但是现在我们使用@cached_property 代替@property
 
-```
+```py
 # Using @cached_property
 
 from functools import cached_property
@@ -81,7 +81,7 @@ print(obj.increase)
 
 **输出**
 
-```
+```py
 100
 100
 100
@@ -93,7 +93,7 @@ print(obj.increase)
 **但是如何减少执行时间，让程序更快呢？**
 考虑以下例子:
 
-```
+```py
 # Without using @cached_property
 
 # A sample class
@@ -118,7 +118,7 @@ print(obj.find_sum())
 
 **输出**
 
-```
+```py
 55
 55
 55
@@ -129,7 +129,7 @@ print(obj.find_sum())
 
 **示例:**
 
-```
+```py
 # With using @cached_property
 
 from functools import cached_property
@@ -154,7 +154,7 @@ print(obj.find_sum)
 
 **输出**
 
-```
+```py
 55
 55
 55

@@ -22,7 +22,7 @@
 
 出于本文的目的，我们将使用 Python 库 **numpy 和 scipy 中的一些内置函数。**可以使用 pip 包管理器进行安装。
 
-```
+```py
 pip install scipy numpy
 ```
 
@@ -45,7 +45,7 @@ pip install scipy numpy
 
 ## 计算机编程语言
 
-```
+```py
 from scipy import signal
 
 a = [1, 2, 3]
@@ -57,7 +57,7 @@ print('The convoluted sequence is ', y)
 
 **输出**
 
-```
+```py
 The convoluted sequence is  [ 4\. 13\. 28\. 27\. 18.]
 ```
 
@@ -70,7 +70,7 @@ The convoluted sequence is  [ 4\. 13\. 28\. 27\. 18.]
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 from scipy import signal
 
@@ -86,7 +86,7 @@ print('Time required for FFT convolution:')
 
 **输出:**
 
-```
+```py
 Time required for normal discrete convolution:
 1.1 s ± 245 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 Time required for FFT convolution:

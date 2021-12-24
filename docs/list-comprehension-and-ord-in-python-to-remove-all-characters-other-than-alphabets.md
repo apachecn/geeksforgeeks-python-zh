@@ -5,7 +5,7 @@
 给定一个由字母和其他字符组成的字符串，删除除字母以外的所有字符，并打印如此形成的字符串。
 示例:
 
-```
+```py
 Input : str = "$Gee*k;s..fo, r'Ge^eks?"
 Output : GeeksforGeeks
 
@@ -15,7 +15,7 @@ Output : GeeksforGeeks
 我们将使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)在 python 中快速解决这个问题。
 **进场:**为
 
-```
+```py
 1\. Traverse string 
 2\. Select characters which lie in range of [a-z] or [A-Z]
 3\. Print them together
@@ -25,12 +25,12 @@ Output : GeeksforGeeks
 
 *   **order()**方法返回一个整数，代表给定 Unicode 字符的 Unicode 代码点。**例如
 
-    ```
+    ```py
      ord('5') = 53 and ord('A') = 65 and ord('{content}apos;) = 36
     ```** 
 *   **范围(a，b，步长)**函数生成一个元素列表，其范围从 a(含)到 b(不含)，给定步长递增/递减。
 
-```
+```py
 # Python code to remove all characters 
 # other than alphabets from string 
 
@@ -54,7 +54,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 GeeksforGeeks
 
 ```

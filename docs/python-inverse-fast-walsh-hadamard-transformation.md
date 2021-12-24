@@ -10,7 +10,7 @@
 
 它可以执行**逆沃尔什哈达玛变换(WHT)** 。该方法基于哈达玛序列排序。序列会自动向右填充零，因为基数-2 FWHT 要求采样点数为 2 的幂。
 
-```
+```py
 
 Syntax: 
 sympy.discrete.transforms.ifwht()
@@ -25,7 +25,7 @@ Coefficient of Inverse Fast Walsh Hadamard Transform Transform
 
 **示例#1 :**
 
-```
+```py
 # import sympy 
 from sympy import ifwht
 
@@ -39,13 +39,13 @@ print ("Transform  : ", transform)
 
 **输出:**
 
-```
+```py
 Transform  :  [93/4, -37/4, -21/4, 25/4]
 ```
 
 **例 2 :**
 
-```
+```py
 # import sympy 
 from sympy import ifwht
 
@@ -62,7 +62,7 @@ print ("Transform  : ", transform)
 
 **输出:**
 
-```
+```py
 Transform  :  [323/2, -144, -122, 255/2]
 
 ```

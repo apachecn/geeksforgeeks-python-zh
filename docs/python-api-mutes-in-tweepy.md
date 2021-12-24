@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`mutes()`** 方法用于获取被认证用户静�
 
 **示例 1 :** 使用`mutes()`方法查找认证用户静音的用户数量。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -44,13 +44,13 @@ print(len(muted_users))
 
 **输出:**
 
-```
+```py
 2
 ```
 
 **示例 2 :** 使用`mutes()`方法查找被认证用户静音的所有用户的屏幕名称。
 
-```
+```py
 # getting the blocked users
 muted_users = api.mutes()
 
@@ -61,7 +61,7 @@ for user in muted_users:
 
 **输出:**
 
-```
+```py
 PracticeGfG
 JohnOberg
 

@@ -12,7 +12,7 @@
 
 `**代码#1:创建倒伽马连续随机变量**`
 
-```
+```py
 from scipy.stats import invgamma  
 
 numargs = invgamma.numargs
@@ -29,7 +29,7 @@ print ("RV : \n", rv) 
 
  `**代码#2:逆伽马连续变量和概率分布**`
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -44,7 +44,7 @@ print ("\nProbability Distribution : \n", R)
 
 `**输出:**`
 
-```
+```py
 Random Variates : 
  [4.18816252e+00 2.02807957e+03 8.37914946e+01 1.94368997e+00
  3.78345091e+00 1.00496176e+06 3.42396458e+03 3.45520522e+00
@@ -57,7 +57,7 @@ Probability Distribution :
 
  `**代码#3:图形表示。**`
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -69,7 +69,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
  `**输出:**`
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -86,7 +86,7 @@ Distribution :
 
 `**代码#4:变化的位置参数**`
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

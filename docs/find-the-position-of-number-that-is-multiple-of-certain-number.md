@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.argwhere(array)
 
 ```
@@ -17,7 +17,7 @@ numpy.argwhere(array)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Pandas and Numpy libraries
 import pandas as pd
 import numpy as np
@@ -43,7 +43,7 @@ print(res_index)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Pandas and Numpy libraries
 import pandas as pd
 import numpy as np

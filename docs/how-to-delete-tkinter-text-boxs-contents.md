@@ -21,7 +21,7 @@ Python 为开发图形用户界面提供了多种选择，其中 Tkinter 是最�
 
 **语法:**
 
-```
+```py
 Text(Object Name, **attr)
 ```
 
@@ -29,7 +29,7 @@ Text(Object Name, **attr)
 
 **语法:**
 
-```
+```py
 Object_name.delete(first=number, last=number)
 ```
 
@@ -37,7 +37,7 @@ Object_name.delete(first=number, last=number)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 

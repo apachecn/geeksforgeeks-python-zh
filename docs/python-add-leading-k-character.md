@@ -7,7 +7,7 @@
 **方法#1:使用`rjust()`**
 rjust 函数提供了一种执行该特定任务的单线方式。因此可以很容易地应用于任何需要填充的字符串。我们可以指定所需的填充量。
 
-```
+```py
 # Python3 code to demonstrate 
 # Add leading K character
 # using rjust() 
@@ -34,7 +34,7 @@ print("The string after adding leading K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding leading K : MMMMGFG
 

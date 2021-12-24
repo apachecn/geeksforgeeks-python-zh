@@ -18,7 +18,7 @@ Python 提供了各种图形用户界面，如 PyQt、Tkinter、Kivy 等。其�
 
 ## 蟒蛇 3
 
-```
+```py
 # This will import all the widgets
 # and modules which are available in
 # tkinter and ttk module
@@ -76,7 +76,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # This will import all the widgets
 # and modules which are available in
 # tkinter and ttk module

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : list1 = [1, 2, 3, 4, 5, 6] 
         list2 = [4, 5, 6, 7, 8] 
 Output : Missing values in list1 = [8, 7] 
@@ -25,7 +25,7 @@ Explanation:
 
 先决条件: [Python 集差](https://www.geeksforgeeks.org/python-set-difference/)
 
-```
+```py
 # Python program to find the missing 
 # and additional elements 
 
@@ -44,7 +44,7 @@ print("Additional values in first list:", (set(list1).difference(list2)))
 
 输出:
 
-```
+```py
 Missing values in second list: {1, 2, 3}
 Additional values in second list: {7, 8}
 Missing values in first list: {7, 8}

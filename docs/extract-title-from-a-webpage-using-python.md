@@ -8,13 +8,13 @@
 
 ******方法一:bs4** 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。****
 
-```
+```py
 **pip install bs4** 
 ```
 
 ******请求**模块让你可以极其轻松的发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。****
 
-```
+```py
 **pip install requests** 
 ```
 
@@ -29,7 +29,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 import requests
 from bs4 import BeautifulSoup
@@ -51,7 +51,7 @@ for title in soup.find_all('title'):
 
 ******输出:******
 
-```
+```py
 **Title of the website is : 
 GeeksforGeeks | A computer science portal for geeks** 
 ```
@@ -60,7 +60,7 @@ GeeksforGeeks | A computer science portal for geeks**
 
 ****安装:****
 
-```
+```py
 **pip install urllib** 
 ```
 
@@ -74,7 +74,7 @@ GeeksforGeeks | A computer science portal for geeks**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the modules
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -92,7 +92,7 @@ print (soup.title.get_text())**
 
 ******输出:******
 
-```
+```py
 **Title of the website is : 
 GeeksforGeeks | A computer science portal for geeks** 
 ```
@@ -101,7 +101,7 @@ GeeksforGeeks | A computer science portal for geeks**
 
 ******安装:******
 
-```
+```py
 **pip install mechanize** 
 ```
 
@@ -116,7 +116,7 @@ GeeksforGeeks | A computer science portal for geeks**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the module
 from mechanize import Browser
 
@@ -134,7 +134,7 @@ print( br.title())**
 
 ******输出:******
 
-```
+```py
 **Title of the website is : 
 GeeksforGeeks | A computer science portal for geeks** 
 ```

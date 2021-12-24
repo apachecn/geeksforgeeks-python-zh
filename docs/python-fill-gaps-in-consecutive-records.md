@@ -17,7 +17,7 @@
 **方法#1:使用循环**
 这是解决这个问题的一种方法。在这种情况下，我们在每次迭代中检查元素是否存在，如果不存在，则用所需的值填充它，如果存在，则保留原始值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill gaps in consecutive Records
 # Using loop
@@ -54,7 +54,7 @@ print("The list after filling gaps : " + str(res)) 
 **方法二:使用`min() + max() + dict()` +列表理解**
 这是解决这个问题的又一种方法。在这种情况下，我们使用 min()和 max()检查范围，并使用字典作为获取需要填写的值的容器。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill gaps in consecutive Records
 # Using min() + max() + dict() + list comprehension

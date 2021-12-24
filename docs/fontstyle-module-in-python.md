@@ -6,7 +6,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install fontstyle
 
 ```
@@ -37,7 +37,7 @@ pip install fontstyle
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import fontstyle
 
@@ -58,7 +58,7 @@ print(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import fontstyle
 
@@ -80,7 +80,7 @@ print(fontstyle.apply('GEEKSFORGEEKS', 
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import fontstyle
 
@@ -107,7 +107,7 @@ print(fontstyle.preserve(text))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import fontstyle
 

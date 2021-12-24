@@ -8,7 +8,7 @@
 
 [**【科罗廷】**](https://www.geeksforgeeks.org/coroutine-in-python/) **:** 科罗廷是一种通用的控制结构，流量控制在两个不同的例程之间协作传递，而不返回。在 asyncio 中，可以通过在 def 之前使用 async 关键字来创建 Coroutine。
 
-```
+```py
 async def speak_async():
    for i in range(100):
        print("Hello I'm Abhishek, writer on GFG")
@@ -28,7 +28,7 @@ async def speak_async():
 
 ## 蟒蛇 3
 
-```
+```py
 import asyncio
 
 async def function_asyc():
@@ -52,7 +52,7 @@ print("HELLO WORLD")
 
 **Output**
 
-```
+```py
 Hello, I'm Abhishek
 GFG is Great
 Hello, I'm Abhishek
@@ -73,7 +73,7 @@ HELLO WORLD
 
 ## 蟒蛇 3
 
-```
+```py
 import asyncio
 
 async def function_asyc():
@@ -105,7 +105,7 @@ loop.close()
 
 **Output**
 
-```
+```py
 Hello, I'm Abhishek
 GFG is Great
 Hello, I'm Abhishek
@@ -124,7 +124,7 @@ GFG is Great
 
 ## 蟒蛇 3
 
-```
+```py
 import asyncio
 
 async def function_asyc():
@@ -160,7 +160,7 @@ loop.close()
 
 **Output**
 
-```
+```py
 Hello, I'm Abhishek
 GFG is Great
 
@@ -178,7 +178,7 @@ GFG is Great
 
 ## 蟒蛇 3
 
-```
+```py
 import asyncio
 
 async def function_asyc():
@@ -211,7 +211,7 @@ loop.close()
 
 **输出:**
 
-```
+```py
 Hello, I'm Abhishek
 GFG is Great
 
@@ -243,7 +243,7 @@ GFG is Great
 
 ## 蟒蛇 3
 
-```
+```py
 import asyncio
 
 async def function_asyc():
@@ -269,7 +269,7 @@ loop.run_forever()
 
 **输出:**
 
-```
+```py
 Hello, I'm Abhishek
 GFG is Great
 Hello, I'm Abhishek

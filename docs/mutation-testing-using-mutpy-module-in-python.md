@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install mutpy
 
 ```
@@ -23,7 +23,7 @@ pip install mutpy
 
 ## python 3
 
-```
+```py
 # define a function 
 def isPrime(num):
 
@@ -59,7 +59,7 @@ T5】python 3T0T9
 
 为了执行这些测试用例，我们需要在单个文件夹中创建两个单独的文件 *isPrime.py* 和 *test_isPrime.py* ，并在命令提示符下运行以下命令:
 
-```
+```py
 mut.py --target isPrime --unit-test test_isPrime -m --runner pytest
 
 ```
@@ -72,7 +72,7 @@ mut.py --target isPrime --unit-test test_isPrime -m --runner pytest
 
 输出将是一组突变体以及细节，如突变分数、被杀死的突变数量、存活下来的突变数量等。
 
-```
+```py
 [*] Start mutation process:
    - targets: isPrime
    - tests: test_isPrime

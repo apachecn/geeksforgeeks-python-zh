@@ -10,7 +10,7 @@
 
 **安装:**
 
-```
+```py
 pip install fitness-tools
 
 ```
@@ -45,7 +45,7 @@ pip install fitness-tools
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import required modules
 from fitness_tools.meals.meal_maker import MakeMeal
 
@@ -65,7 +65,7 @@ obj.daily_requirements()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import required module
 from fitness_tools.meals.meal_maker import MakeMeal
 
@@ -95,7 +95,7 @@ print(obj.make_meal(4))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import required module
 from fitness_tools.meals.meal_maker import MakeMeal
 

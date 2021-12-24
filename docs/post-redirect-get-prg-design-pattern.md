@@ -37,12 +37,12 @@
 
 *   在项目根目录下创建一个名为 *app.py* 的文件，并在其中写入下面的代码。然后用-
 
-    ```
+    ```py
     $pip install flask
 
     ```
 
-    ```
+    ```py
     from flask import Flask, render_template, redirect, request, url_for
 
     # Initiate flask app
@@ -63,7 +63,7 @@
 
 *   在项目根目录下创建一个文件夹*模板*，在模板目录下创建一个文件*home.html*，并在里面写下下面的代码。
 
-    ```
+    ```py
     <!-- Create a form -->
     <form action="" method="post">
         <!-- Create a input box -->
@@ -75,7 +75,7 @@
 
 *   **在控制台中运行网络服务器类型:**
 
-    ```
+    ```py
     $python app.py
     Output:
     Running on http://127.0.0.1:5000/

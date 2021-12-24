@@ -6,13 +6,13 @@
 
 要安装 Pygorithm 模块:
 
-```
+```py
 pip3 install pygorithm
 ```
 
 示例:
 
-```
+```py
 # import the required data structure
 from pygorithm.data_structures import stack
 
@@ -41,7 +41,7 @@ print(myStack.size())
 
 **输出:**
 
-```
+```py
 2 5 9 10
 2 5 9
 9
@@ -51,14 +51,14 @@ print(myStack.size())
 
 要查看一个模块中所有可用的功能，只需以模块名称作为参数键入 **`help()`** 。
 
-```
+```py
 # Help on package pygorithm.data_structures
 help(data_structures)
 ```
 
 **输出:**
 
-```
+```py
 NAME
     pygorithm.data_structures - Collection of data structure examples
 
@@ -79,7 +79,7 @@ DATA
 
 使用 get_code()获取这些数据结构的代码。
 
-```
+```py
 # to get code for BinarySearchTree
 BStree = tree.BinarySearchTree.get_code()
 
@@ -88,7 +88,7 @@ print(BStree)
 
 **输出:**
 
-```
+```py
 class BinarySearchTree(object):
 
     def __init__(self):
@@ -148,14 +148,14 @@ class BinarySearchTree(object):
 
 获取以下脚本的复杂性:
 
-```
+```py
 # create a stack with default stack size 10
 Bsort = sorting.bubble_sort.time_complexities()
 ```
 
 **输出:**
 
-```
+```py
 Best Case: O(n), Average Case: O(n ^ 2), Worst Case: O(n ^ 2).
 
 For Improved Bubble Sort:

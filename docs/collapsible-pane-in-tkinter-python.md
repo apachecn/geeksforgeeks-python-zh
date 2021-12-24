@@ -6,7 +6,7 @@
 在 Tkinter 中，可折叠窗格是一个带有嵌入式按钮状控件的容器，用于展开或折叠该容器。
 **先决条件:**
 
-```
+```py
 Frame Class
 Checkbutton Class
 Styling in widgets
@@ -30,7 +30,7 @@ configure() method
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of Collapsible Pane container
 
 # importing tkinter and ttk modules
@@ -112,7 +112,7 @@ class CollapsiblePane(ttk.Frame):
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing tkinter and ttk modules
 from tkinter import * from tkinter.ttk import *
 

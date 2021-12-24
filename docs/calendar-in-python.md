@@ -5,7 +5,7 @@
 Python 有一个内置的功能，日历来处理日期相关的任务。在本例中，您将学习显示给定日期的日历。
 示例:
 
-```
+```py
 Input 1 : 
 yy = 2017
 mm = 11
@@ -66,7 +66,7 @@ Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to display calendar of
 # given month of the year
 
@@ -82,7 +82,7 @@ print(calendar.month(yy, mm))
 
 输出:
 
-```
+```py
     November 2017
 Mo Tu We Th Fr Sa Su
        1  2  3  4  5
@@ -97,7 +97,7 @@ Mo Tu We Th Fr Sa Su
 从命令行(windows 中的 CMD 或 Linux 中的 TERMINAL)显示一年中的某个月
 例如:
 
-```
+```py
 C:\Users\chatu\Desktop>python -m calendar 2019 7
      July 2019
 Mo Tu We Th Fr Sa Su
@@ -113,7 +113,7 @@ Mo Tu We Th Fr Sa Su
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to display calendar of
 # given year
 
@@ -128,7 +128,7 @@ print(calendar.calendar(yy))
 
 输出:
 
-```
+```py
                                   2017
 
       January                   February                   March

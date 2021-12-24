@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 @dataclass
 class user_defined_class:
 
@@ -20,7 +20,7 @@ class user_defined_class:
 
 仔细查看以下代码:
 
-```
+```py
 @dataclass
 class A:
     a: int
@@ -34,7 +34,7 @@ class B:
 
 从 A 类开始，它被一个数据类修饰。然后这个类被嵌套在类 B 中，作为 B 的一个字段，这个字段也被一个数据类对象修饰。到目前为止，这段代码只是展示了 dataclass 对象的嵌套，接下来我们将讨论如何使用这样的实现。
 
-```
+```py
 # importing module
 from dataclasses import dataclass
 
@@ -65,7 +65,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 B(c='hello', d={'a': 4, 'b': 'bye'})
 B(c='hello', d=A(a=4, b='bye'))
 ```
@@ -76,7 +76,7 @@ B(c='hello', d=A(a=4, b='bye'))
 
 这意味着什么如下所示:
 
-```
+```py
 from dataclasses import dataclass, is_dataclass
 
 # decorator to wrap original __init__
@@ -122,7 +122,7 @@ print (b)
 
 **输出:**
 
-```
+```py
 B(c='hello', d=A(a=4, b='bye'))
 ```
 

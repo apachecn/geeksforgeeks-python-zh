@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 mahotas 中为图像设置阈值。为此，我们将使用来自核分割基准的荧光显微图像。我们可以借助下面给出的命令
 获得图像
 
-```
+```py
 mahotas.demos.nuclear_image()
 ```
 
@@ -16,7 +16,7 @@ mahotas.demos.nuclear_image()
 
 为了给图像设置阈值，我们将取 numpy.ndarray 的图像对象，用阈值分割数组，这里的阈值是平均值，下面是这样做的命令
 
-```
+```py
 img = (img < img.mean())]
 ```
 
@@ -24,7 +24,7 @@ img = (img < img.mean())]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import mahotas.demos
@@ -59,7 +59,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas

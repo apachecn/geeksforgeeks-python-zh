@@ -9,7 +9,7 @@ Python 在其定义中提供了某些方法来使用模块“decimal”执行更
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # sqrt() and exp()
 
@@ -33,7 +33,7 @@ print (b)
 
 输出:
 
-```
+```py
 The exponent of decimal number is : 90.01713130052181355011545675
 The square root of decimal number is : 2.121320343559642573202533086
 ```
@@ -43,7 +43,7 @@ The square root of decimal number is : 2.121320343559642573202533086
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # ln() and log10()
 
@@ -67,7 +67,7 @@ print (b)
 
 输出:
 
-```
+```py
 The natural logarithm of decimal number is : 1.504077396776274073373258352
 The log(base 10) of decimal number is : 0.6532125137753436793763169118
 ```
@@ -76,13 +76,13 @@ The log(base 10) of decimal number is : 0.6532125137753436793763169118
 **6。fma(a，b)** :-这个“fma”代表**融合乘加**。它根据参数中的数字计算 **(num*a)+b** 。**此功能中不发生(num*a)** 的舍入。
 **例:**
 
-```
+```py
 decimal.Decimal(5).fma(2,3) --> (5*2)+3 = 13
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # as_tuple() and fma()
 
@@ -106,7 +106,7 @@ print (b)
 
 输出:
 
-```
+```py
 The tuple form of decimal number is : DecimalTuple(sign=1, digits=(4, 5), exponent=-1)
 The fused multiply and addition of decimal number is : 13
 ```
@@ -115,7 +115,7 @@ The fused multiply and addition of decimal number is : 13
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # compare() and compare_total_mag()
 
@@ -139,7 +139,7 @@ print (a.compare_total_mag(b))
 
 输出:
 
-```
+```py
 The result of comparison using compare() is : 1
 The result of comparison using compare_total_mag() is : -1
 ```
@@ -150,7 +150,7 @@ The result of comparison using compare_total_mag() is : -1
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # copy_abs(),copy_sign() and copy_negate()
 
@@ -178,7 +178,7 @@ print (a.copy_sign(b))
 
 输出:
 
-```
+```py
 The absolute value using copy_abs() is : 9.5600000000000004973799150320701301097869873046875
 The negated value using copy_negate() is : 9.5600000000000004973799150320701301097869873046875
 The sign effected value using copy_sign() is : -9.5299999999999993605115378159098327159881591796875
@@ -189,7 +189,7 @@ The sign effected value using copy_sign() is : -9.529999999999999360511537815909
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # min() and max()
 
@@ -213,7 +213,7 @@ print (a.max(b))
 
 输出:
 
-```
+```py
 The minimum of two numbers is : 7.429999999999999715782905696
 The maximum of two numbers is : 9.529999999999999360511537816
 ```

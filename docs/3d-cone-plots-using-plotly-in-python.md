@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure(data=go.Cone(x=[3],
@@ -56,7 +56,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure(data=go.Cone(x=[1,3], 
@@ -77,7 +77,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure(data=go.Cone(x=[11,31, 12], 

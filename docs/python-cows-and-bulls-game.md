@@ -13,7 +13,7 @@
 
 为了更好地理解，让我们看一个示例运行。
 
-```
+```py
 Secret Code: 3768
 
 Guess: 1234
@@ -43,7 +43,7 @@ You guessed right!
 
 ## 计算机编程语言
 
-```
+```py
 # Import required module
 import random 
 

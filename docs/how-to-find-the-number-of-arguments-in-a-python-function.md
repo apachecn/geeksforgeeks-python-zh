@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def no_of_argu(*args):
 
     # using len() method in args to count
@@ -25,7 +25,7 @@ print(" The number of arguments are: ", n)
 
 **输出:**
 
-```
+```py
 The number of arguments passed are: 4
 ```
 
@@ -33,7 +33,7 @@ The number of arguments passed are: 4
 
 ## 蟒蛇 3
 
-```
+```py
 def no_of_argu(*args):
 
     # using len() method in args to count
@@ -47,7 +47,7 @@ print(no_of_argu(1))
 
 **输出:**
 
-```
+```py
 3
 6
 7

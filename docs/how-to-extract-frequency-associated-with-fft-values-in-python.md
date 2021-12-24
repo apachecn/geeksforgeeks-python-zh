@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 ```
@@ -43,7 +43,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # assign data
 x = np.array([1,2,1,0,1,2,1,0])
 ```

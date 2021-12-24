@@ -26,7 +26,7 @@ Python 中的 **[操作系统模块](https://www.geeksforgeeks.org/os-module-pyt
 
 我们想打印出所有的空目录。由于该方法返回子目录和文件的元组，我们将检查每个元组的大小，如果大小为零，则目录将为空。下面是实现。
 
-```
+```py
 # Python program to list out
 # all the empty directories
 
@@ -52,7 +52,7 @@ print(empty)
 
 **输出:**
 
-```
+```py
 Empty Directories:
 ['Test\\A\\A2', 'Test\\B', 'Test\\D\\E']
 
@@ -60,7 +60,7 @@ Empty Directories:
 
 以上代码可以使用 **[【列表理解】](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)** 来缩短，这是一种比较皮通的方式。下面是实现。
 
-```
+```py
 # Python program to list out
 # all the empty directories
 
@@ -78,7 +78,7 @@ print(empty)
 
 **输出:**
 
-```
+```py
 Empty Directories:
 ['Test\\A\\A2', 'Test\\B', 'Test\\D\\E']
 

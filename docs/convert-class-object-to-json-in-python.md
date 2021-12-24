@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required packages
 import json
 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 {"roll_no": "85", "name": "Swapnil", "batch": "IMT"}
 {"roll_no": "124", "name": "Akash", "batch": "IMT"}
 {"brand": "Honda", "name": "city", "batch": "2005"}

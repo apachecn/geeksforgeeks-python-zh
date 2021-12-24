@@ -18,7 +18,7 @@ WithColumns 用于更改值、转换现有列的数据类型、创建新列等�
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a spark session
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName('SparkExamples').getOrCreate()
@@ -55,7 +55,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 new_df = df.withColumn('After_discount',
                        df.Course_Fees - df.Discount).withColumn('Before_discount',
                                                                 df.Course_Fees)
@@ -74,7 +74,7 @@ new_df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas to read json file
 import pandas as pd
 
@@ -106,7 +106,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 new_df = df.withColumn(
     'Hundred_run', df.Hundreds*100).withColumn(
     'Avg_run', df.Runs / df.Matches)

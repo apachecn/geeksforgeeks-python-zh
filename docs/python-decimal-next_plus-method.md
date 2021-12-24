@@ -12,7 +12,7 @@
 
 **代码# 1:next _ plus()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_plus() method
 
@@ -38,7 +38,7 @@ print ("Decimal b with next_plus() method : ", b.next_plus())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -50,7 +50,7 @@ Decimal b with next_plus() method :  0.1428570000000000000000000001
 
 **代码# 2:next _ plus()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_plus() method
 
@@ -76,7 +76,7 @@ print ("Decimal b with next_plus() method : ", b.next_plus())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

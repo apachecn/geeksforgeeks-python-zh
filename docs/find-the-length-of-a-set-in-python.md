@@ -5,7 +5,7 @@
 在 [Python](https://www.geeksforgeeks.org/python-programming-language/) 中，[集合](https://www.geeksforgeeks.org/python-sets/)是一种无序且可变的集合数据类型。集合不能有重复的元素。这里的任务是找出集合中存在的元素数量。见下面的例子。
 **例:**
 
-```
+```py
 Input: a = {1, 2, 3, 4, 5, 6}
 Output: 6
 
@@ -21,7 +21,7 @@ Output: 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the length
 # of set
 
@@ -37,7 +37,7 @@ print("The length of set is:", len(set1))
 
 **输出:**
 
-```
+```py
 The length of set is: 3
 ```
 
@@ -45,7 +45,7 @@ The length of set is: 3
 
 ## 蟒蛇 3
 
-```
+```py
 n = len({1, 2, 3, 4, 5})
 
 print("The length of set is:", n)
@@ -53,7 +53,7 @@ print("The length of set is:", n)
 
 **输出:**
 
-```
+```py
 The length of set is: 5
 ```
 

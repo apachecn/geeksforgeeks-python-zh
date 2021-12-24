@@ -6,7 +6,7 @@ A **Python** 是一种面向对象的编程语言，Python 中的一切都与对
 
 **类示例–**
 
-```
+```py
 # create a Geeksforgeeks class
 class Geeksforgeeks :
    gfg = 10
@@ -16,7 +16,7 @@ class Geeksforgeeks :
 
 **带有 __init__()方法的类示例–**
 
-```
+```py
 # create a Geeksforgeeks class
 class Geeksforgeeks:
 
@@ -43,7 +43,7 @@ outer.show()
 
 **输出:**
 
-```
+```py
  Course : Campus Preparation
 Duration : As per your schedule 
 ```
@@ -60,7 +60,7 @@ Duration : As per your schedule
 
 在创建一个类之后，我们将在该类中创建另一个类，另一个类中的类将被称为内部类。
 
-```
+```py
 # create a Color class
 class Color:
 
@@ -99,7 +99,7 @@ g.display()
 
 **输出:**
 
-```
+```py
  Green
 Name:Green
 
@@ -122,7 +122,7 @@ Code: 023gfd
 
 **语法:**
 
-```
+```py
 # create NameOfOuterClass class
 class NameOfOuterClass:
 
@@ -156,7 +156,7 @@ outer = NameOfOuterClass()
 
 **多个内部类示例–**
 
-```
+```py
 # create outer class
 class Doctors:  
   def __init__(self):
@@ -206,7 +206,7 @@ d2.display()
 
 **输出:**
 
-```
+```py
 In outer class
 Name: Doctor
 
@@ -225,7 +225,7 @@ Degree: DM
 
 **多级内部类示例–**
 
-```
+```py
 # create a outer class
 class Geeksforgeeks:  
 

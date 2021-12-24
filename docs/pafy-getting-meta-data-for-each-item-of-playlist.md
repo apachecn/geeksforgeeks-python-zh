@@ -6,7 +6,7 @@
 
 借助`get_playlist`方法，我们可以在 pafy 中从 youtube 获取播放列表，下面是这样做的命令
 
-```
+```py
  pafy.get_playlist(url)
 ```
 
@@ -22,7 +22,7 @@
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -50,13 +50,13 @@ print(metadata)
 
 **输出:**
 
-```
+```py
 {'added': '06/01/2016', 'is_cc': False, 'is_hd': True, 'likes': 1111, 'title': 'Write a program to print all permutations of a given string | GeeksforGeeks', 'views': '334, 905', 'rating': 4.0, 'author': 'GeeksforGeeks', 'user_id': '0RhatS1pyxInC00YKjjBqQ', 'privacy': 'public', 'start': 0.0, 'dislikes': 227, 'duration': '11:52', 'comments': '116', 'keywords': '', 'thumbnail': 'https://i.ytimg.com/vi/AfxHGNRtFac/default.jpg', 'cc_license': False, 'category_id': 22, 'description': 'Explanation for the Article: https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/\n\nThis video is contributed by Sephiri.\n#geeksforgeeks', 'encrypted_id': 'AfxHGNRtFac', 'time_created': 1490874673, 'time_updated': None, 'length_seconds': 712, 'end': 712}
 ```
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -81,7 +81,7 @@ print(metadata)
 
 **输出:**
 
-```
+```py
 {'added': '27/09/2017', 'is_cc': True, 'is_hd': True, 'likes': 192, 'title': 'Find subarray with given sum | Set 1 (Non-negative Numbers) | GeeksforGeeks', 'views': '32, 716', 'rating': 3.0, 'author': 'GeeksforGeeks', 'user_id': '0RhatS1pyxInC00YKjjBqQ', 'privacy': 'public', 'start': 0.0, 'dislikes': 78, 'duration': '2:50', 'comments': '24', 'keywords': 'GeeksforGeeks Programming Algorithms "Data Structures" Coding Tutorial array "non-negative numbers"', 'thumbnail': 'https://i.ytimg.com/vi/GY-KULykGaw/default.jpg', 'cc_license': False, 'category_id': 27, 'description': "Find Complete Code at GeeksforGeeks Article: https://www.geeksforgeeks.org/find-subarray-with-given-sum/\n\nPractice Problem Online Judge: http://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0\n\nThis video is contributed by Shubham Kumar\n\nPlease Like, Comment and Share the Video among your friends.\n\nAlso, Subscribe if you haven't already! :)", 'encrypted_id': 'GY-KULykGaw', 'time_created': 1506577926, 'time_updated': None, 'length_seconds': 170, 'end': 170}
 
 ```

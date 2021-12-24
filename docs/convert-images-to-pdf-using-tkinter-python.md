@@ -10,7 +10,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 **安装时，在您的终端中运行以下命令:**
 
-```
+```py
 pip install img2pdf
 ```
 
@@ -20,7 +20,7 @@ pip install img2pdf
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 
@@ -56,7 +56,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 def select_file():
     global file_names
     file_names = askopenfilenames(initialdir = "/",title = "Select File")
@@ -77,7 +77,7 @@ def images_to_pdf():
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from tkinter.filedialog import askopenfilenames

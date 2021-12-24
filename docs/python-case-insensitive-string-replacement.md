@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Case insensitive Replace
 # Using re.IGNORECASE + re.escape() + re.sub()
@@ -53,7 +53,7 @@ print("Replaced String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg is BeSt
 Replaced String : gfg is good
 ```
@@ -64,7 +64,7 @@ Replaced String : gfg is good
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Case insensitive Replace
 # Using sub() + lambda + escape() 
@@ -91,7 +91,7 @@ print("Replaced String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg is BeSt
 Replaced String : gfg is good
 ```

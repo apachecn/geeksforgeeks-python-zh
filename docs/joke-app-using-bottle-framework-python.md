@@ -8,11 +8,11 @@ python 中有很多框架可以让你创建像瓶子、瓶子、django 这样的
 
 首先，我们必须安装必要的模块
 
-```
+```py
 pip install bottle
 ```
 
-```
+```py
 pip install pyjokes
 ```
 
@@ -56,7 +56,7 @@ py chambers 中有两种方法 get _ jokes()和 get _ jokes()。
 
 ## 蟒蛇 3
 
-```
+```py
 from bottle import route, run, template
 import pyjokes
 
@@ -74,7 +74,7 @@ run(host='localhost', port=8080,debug=True)
 
 ## 超文本标记语言
 
-```
+```py
 <html>
     <head>
         <title>GFG</title>
@@ -87,7 +87,7 @@ run(host='localhost', port=8080,debug=True)
 
 要运行应用程序，请打开终端或 cmd
 
-```
+```py
 python app.py
 ```
 

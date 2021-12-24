@@ -12,7 +12,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate 
 # List 
 
@@ -36,7 +36,7 @@ print(List[2])
 
 ****输出:****
 
-```
+```py
 Blank List: 
 []
 
@@ -59,7 +59,7 @@ Geeks
 
 ## **蟒蛇 3**
 
-```
+```py
 # Creating an empty Tuple
 Tuple1 = ()
 print("Initial empty Tuple: ")
@@ -80,7 +80,7 @@ print(Tuple1)
 
 ****输出:****
 
-```
+```py
 Initial empty Tuple: 
 ()
 
@@ -102,7 +102,7 @@ Tuple with the use of function:
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate 
 # Set in Python
 
@@ -128,7 +128,7 @@ print(set1)
 
 ****输出:****
 
-```
+```py
 Initial blank Set: 
 set()
 

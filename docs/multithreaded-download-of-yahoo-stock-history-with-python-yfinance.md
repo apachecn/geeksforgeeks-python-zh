@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install yfinance
 ```
 
@@ -20,7 +20,7 @@ pip install yfinance
 
 ## python 3
 
-```
+```py
 import yfinance as yf
 ```
 
@@ -28,7 +28,7 @@ import yfinance as yf
 
 ## 巨蟒
 
-```
+```py
 # Get the stocks info
 import yfinance as yf
 

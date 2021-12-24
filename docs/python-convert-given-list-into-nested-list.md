@@ -6,7 +6,7 @@
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to convert list 
 # of string into list of list
 

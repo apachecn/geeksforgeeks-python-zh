@@ -8,7 +8,7 @@
 
 将此代码运行到您的终端中:
 
-```
+```py
 pip install English to Hindi
 ```
 
@@ -22,7 +22,7 @@ pip install English to Hindi
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from english to hindi.englishtohindi import EngtoHindi
 
@@ -38,7 +38,7 @@ print(res.convert)
 
 **输出:**
 
-```
+```py
 हां, मैं गीक्स हूं
 ```
 
@@ -46,7 +46,7 @@ print(res.convert)
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from englishtohindi.englishtohindi import EngtoHindi

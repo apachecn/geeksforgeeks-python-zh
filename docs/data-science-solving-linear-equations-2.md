@@ -18,7 +18,7 @@
 
 **预赛**
 
-```
+```py
 Generalized linear equations are represented as below:
 
 m and n are the number of equations and variables respectively
@@ -46,7 +46,7 @@ b is the general RHS commonly used
 ![](img/0e935056f8a384fa0b33869a8425ec36.png)
 **例 1.1:**
 
-```
+```py
 Consider the given matrix equation:
  (1)   ![ \begin{equation*} \begin{bmatrix} 1&3\\ 2&4\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ \end{bmatrix} = \begin{bmatrix} 7\\ 10\\ \end{bmatrix} \end{equation*} ](img/ff76f8af20d6b719efbcc9428f9055e5.png "Rendered by QuickLaTeX.com")
 
@@ -61,7 +61,7 @@ Therefore, the solution for the given example is
 
 **Python 中求矩阵秩和逆、解矩阵方程的程序:**
 
-```
+```py
 # First, import
 # matrix_rank from numpy.linalg
 from numpy.linalg import matrix_rank, inv, solve
@@ -83,7 +83,7 @@ print("Solution of linear equations:", solve(A, b))
 
 **输出:**
 
-```
+```py
 Rank of the matrix is: 2
 
 Inverse of A:
@@ -97,7 +97,7 @@ Solution of linear equation: [ 1\.  2.]
 可以参考 [Numpy |线性代数](https://www.geeksforgeeks.org/numpy-linear-algebra/)一文，了解矩阵的各种运算，以及 Python 中解线性方程的方法。
 T3】例 1.2:
 
-```
+```py
 Consider the given matrix equation:
  (2)   ![ \begin{equation*} \begin{bmatrix} 1&2\\ 2&4\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ \end{bmatrix} = \begin{bmatrix} 5\\ 10\\ \end{bmatrix} \end{equation*} ](img/eda28d79507de26397a3d8c53bdc048b.png "Rendered by QuickLaTeX.com")
 |A| is not equal to zero
@@ -117,7 +117,7 @@ one linearly independent equation and two variables
 
 **例 1.3:**
 
-```
+```py
 Consider the given matrix equation:
  (3)   ![ \begin{equation*} \begin{bmatrix} 1&2\\ 2&4\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ \end{bmatrix} = \begin{bmatrix} 5\\ 9\\ \end{bmatrix} \end{equation*} ](img/5f9856e9b614d2d488c9aaf007734987.png "Rendered by QuickLaTeX.com")
 |A| is not equal to zero
@@ -141,7 +141,7 @@ We cannot find the solution to ()
 
 **优化视角**
 
-```
+```py
 - Rather than finding a solution to , we can find an  such that () 
   is minimized
 - Here,  is a vector
@@ -170,7 +170,7 @@ We cannot find the solution to ()
 
 **例 2.1:**
 
-```
+```py
 Consider the given matrix equation:
  (4)   ![ \begin{equation*} \begin{bmatrix} 1&0\\ 2&0\\ 3&1\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ \end{bmatrix} = \begin{bmatrix} 1\\ -0.5\\ 5\\ \end{bmatrix} \end{equation*} ](img/dd00c603d3b3cde1b497a78db881dae6.png "Rendered by QuickLaTeX.com")
 m = 3, n = 2
@@ -183,7 +183,7 @@ Substituting in the equation shows
 
 **例 2.2:**
 
-```
+```py
 Consider the given matrix equation:
  (5)   ![ \begin{equation*} \begin{bmatrix} 1&0\\ 2&0\\ 3&1\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ \end{bmatrix} = \begin{bmatrix} 1\\ 2\\ 5\\ \end{bmatrix} \end{equation*} ](img/cdff86a0844a9dd4096452554c4d0676.png "Rendered by QuickLaTeX.com")
 m = 3, n = 2
@@ -220,7 +220,7 @@ Substituting in the equation shows
 
     **例 3.1:**
 
-    ```
+    ```py
     Consider the given matrix equation:
      (6)   ![ \begin{equation*} \begin{bmatrix} 1&2&3\\ 0&0&1\\ \end{bmatrix} % \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix} = \begin{bmatrix} 2\\ 1\\ \end{bmatrix} \end{equation*} ](img/4539b6848395eaff71ebb3ac895b2cb3.png "Rendered by QuickLaTeX.com")
     m = 2, n = 3

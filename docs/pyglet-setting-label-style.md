@@ -6,7 +6,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个窗口和标签
 
-```
+```py
 # creating window
 window = pyglet.window.Window(width, height, title)
 
@@ -25,7 +25,7 @@ label = pyglet.text.Label(text, font_name, font_size, x, y)
 
 下面是实现
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key

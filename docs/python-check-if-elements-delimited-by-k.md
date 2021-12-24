@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Elements delimited by K
 # Using isdigit() + isalpha() + loop
@@ -52,7 +52,7 @@ print("Are all delimited by K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 72@45@geeks@best
 Are all delimited by K : True
 

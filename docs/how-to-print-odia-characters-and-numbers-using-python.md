@@ -16,7 +16,7 @@
 
 在打印字符和数字之前，必须安装`**odia**`库。可以使用`pip`命令安装`odia`库。
 
-```
+```py
 pip install odia
 ```
 
@@ -25,7 +25,7 @@ pip install odia
 使用`**odia.vowels()**`可以打印 odia 元音，使用`**odia.consonants()**`可以打印 odia 辅音。
 **例**:
 
-```
+```py
 # Python program to print odia characters
 
 # Import odia library
@@ -47,7 +47,7 @@ print(odia.consonants)
 可以使用`**odia.numbers()**`打印 odia 数字。
 **例**:
 
-```
+```py
 # Python program to print odia numbers
 
 # Import odia library

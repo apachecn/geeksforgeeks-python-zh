@@ -7,7 +7,7 @@
 **方法一:使用`join()` +列表理解**
 这两个功能的结合可以帮助完成这个特定的任务。在此方法中，首先将整个列表转换为字符串，然后将类型转换为 int，然后获得二进制数。
 
-```
+```py
 # Python3 code to demonstrate 
 # converting binary list to integer 
 # using join() + list comprehension
@@ -28,7 +28,7 @@ print ("The converted integer value is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 0, 0, 1, 1, 0]
 The converted integer value is : 38
 
@@ -37,7 +37,7 @@ The converted integer value is : 38
 **方法#2:使用位移位+ `| operator`**
 这个特殊的任务可以通过移位位并对每个被处理的位取|来执行。这是另一种优雅的执行方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # converting binary list to integer 
 # using bit shift + | operator
@@ -60,7 +60,7 @@ print ("The converted integer value is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 0, 0, 1, 1, 0]
 The converted integer value is : 38
 

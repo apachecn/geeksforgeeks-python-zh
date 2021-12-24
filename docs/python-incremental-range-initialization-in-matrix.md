@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们遍历列表，用指定的范围增加元素的值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Incremental Range Initialization in Matrix
 # using loop
@@ -39,7 +39,7 @@ print ("Matrix after Initialization : " + str(res))
 
 **Output :**
 
-```
+```py
 Matrix after Initialization : [[0, 5, 10], [15, 20, 25], [30, 35, 40], [45, 50, 55]]
 
 ```

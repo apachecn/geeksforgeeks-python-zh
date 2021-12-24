@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们首先将字符串拆分成单词，然后执行迭代以获得奇数长度的单词。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract odd length words in String
 # Using loop
@@ -31,7 +31,7 @@ print("The odd length strings are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg is best of geeks
 The odd length strings are : ['gfg', 'geeks']
 

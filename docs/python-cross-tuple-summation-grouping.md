@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们检查相似的第二元素，并执行求和，直到那时，并执行累积分组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross tuple summation grouping
 # Using loop
@@ -37,7 +37,7 @@ print("The grouped records are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (7, 5), (8, 6), (10, 6), (10, 4), (6, 7), (3, 7)]
 The grouped records are : [(10, 4), (11, 5), (18, 6), (9, 7)]
 
@@ -46,7 +46,7 @@ The grouped records are : [(10, 4), (11, 5), (18, 6), (9, 7)]
 **方法二:使用`groupby() + sum() + zip()` +列表理解**
 以上功能的组合可以解决这个问题。在本文中，我们使用 sum()执行求和的任务。分组任务由 groupby()完成。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cross tuple summation grouping
 # Using groupby() + sum() + zip() + list comprehension
@@ -69,7 +69,7 @@ print("The grouped records are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (7, 5), (8, 6), (10, 6), (10, 4), (6, 7), (3, 7)]
 The grouped records are : [(10, 4), (11, 5), (18, 6), (9, 7)]
 

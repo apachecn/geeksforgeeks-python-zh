@@ -11,7 +11,7 @@
 **1。创建一个传入的套接字**
 我们在服务器类的 __init__ 方法中创建一个套接字服务器套接字。这为传入连接创建了一个套接字。然后我们绑定套接字，然后等待客户端连接。
 
-```
+```py
 def __init__(self, config):
     # Shutdown on Ctrl+C
     signal.signal(signal.SIGINT, self.shutdown) 
@@ -33,7 +33,7 @@ def __init__(self, config):
 **2。接受客户并处理**
 这是所有步骤中最简单也是最重要的。我们等待客户端的连接请求，一旦连接成功，我们就在一个单独的线程中发送请求，让我们自己可以处理下一个请求。这使我们能够同时处理多个请求，从而将服务器的性能提升了数倍。
 
-```
+```py
 while True:
 
     # Establish the connection
@@ -51,7 +51,7 @@ while True:
 
 *   首先，我们从接收到的请求数据中提取网址。
 
-```
+```py
 # get the request from browser
 request = conn.recv(config['MAX_REQUEST_LEN']) 
 
@@ -64,7 +64,7 @@ url = first_line.split(' ')[1]
 
 *   然后，我们找到请求的目的地址。地址是**(目的地 _ ip _ 地址，目的地 _ 端口号)**的元组。我们将从这个地址接收数据。
 
-```
+```py
 http_pos = url.find("://") # find pos of ://
 if (http_pos==-1):
     temp = url
@@ -94,7 +94,7 @@ else: # specific port
 
 *   现在，我们建立到目标服务器(或远程服务器)的新连接，然后向服务器发送原始请求的副本。然后，服务器将做出响应。所有响应消息使用 **RFC 822** 的通用消息格式。
 
-```
+```py
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 s.settimeout(config['CONNECTION_TIMEOUT'])
 s.connect((webserver, port))
@@ -104,7 +104,7 @@ s.sendall(request)
 
 *   然后，我们将服务器的响应重定向到客户端。conn 是客户端的原始连接。响应可能比我们在一次调用中收到的 MAX_REQUEST_LEN 更大，因此，空响应标志着响应的结束。
 
-```
+```py
 while 1:
     # receive data from web server
     data = s.recv(config['MAX_REQUEST_LEN'])

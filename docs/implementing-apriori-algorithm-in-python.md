@@ -12,7 +12,7 @@ Apriori 算法是一种机器学习算法，用于洞察所涉及的不同项目
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
@@ -22,7 +22,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 
 ## 蟒蛇 3
 
-```
+```py
 # Changing the working location to the location of the file
 cd C:\Users\Dev\Desktop\Kaggle\Apriori Algorithm
 
@@ -35,7 +35,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Exploring the columns of the data
 data.columns
 ```
@@ -44,7 +44,7 @@ data.columns
 
 ## 蟒蛇 3
 
-```
+```py
 # Exploring the different regions of transactions
 data.Country.unique()
 ```
@@ -55,7 +55,7 @@ data.Country.unique()
 
 ## 蟒蛇 3
 
-```
+```py
 # Stripping extra spaces in the description
 data['Description'] = data['Description'].str.strip()
 
@@ -71,7 +71,7 @@ data = data[~data['InvoiceNo'].str.contains('C')]
 
 ## 蟒蛇 3
 
-```
+```py
 # Transactions done in France
 basket_France = (data[data['Country'] =="France"]
           .groupby(['InvoiceNo', 'Description'])['Quantity']
@@ -100,7 +100,7 @@ basket_Sweden = (data[data['Country'] =="Sweden"]
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining the hot encoding function to make the data suitable
 # for the concerned libraries
 def hot_encode(x):
@@ -127,7 +127,7 @@ basket_Sweden = basket_encoded
 
 ## 蟒蛇 3
 
-```
+```py
 # Building the model
 frq_items = apriori(basket_France, min_support = 0.05, use_colnames = True)
 
@@ -144,7 +144,7 @@ b) **英国:**
 
 ## 蟒蛇 3
 
-```
+```py
 frq_items = apriori(basket_UK, min_support = 0.01, use_colnames = True)
 rules = association_rules(frq_items, metric ="lift", min_threshold = 1)
 rules = rules.sort_values(['confidence', 'lift'], ascending =[False, False])
@@ -158,7 +158,7 @@ c) **葡萄牙:**
 
 ## 蟒蛇 3
 
-```
+```py
 frq_items = apriori(basket_Por, min_support = 0.05, use_colnames = True)
 rules = association_rules(frq_items, metric ="lift", min_threshold = 1)
 rules = rules.sort_values(['confidence', 'lift'], ascending =[False, False])
@@ -172,7 +172,7 @@ d) **瑞典:**
 
 ## 蟒蛇 3
 
-```
+```py
 frq_items = apriori(basket_Sweden, min_support = 0.05, use_colnames = True)
 rules = association_rules(frq_items, metric ="lift", min_threshold = 1)
 rules = rules.sort_values(['confidence', 'lift'], ascending =[False, False])

@@ -8,7 +8,7 @@
 
 **方法#1** :通过遍历列表
 
-```
+```py
 # Python code to initialize a dictionary
 # with only keys from a list
 
@@ -27,14 +27,14 @@ print(d)
 
 **Output:**
 
-```
+```py
 {'Cyware': None, 'Paras': None, 'Jain': None}
 
 ```
 
 **方法 2 :** 使用字典理解
 
-```
+```py
 # Python code to initialize a dictionary
 # with only keys from a list
 
@@ -48,14 +48,14 @@ print(myDict)
 
 **Output:**
 
-```
+```py
 {'Paras': None, 'Jain': None, 'Cyware': None}
 
 ```
 
 **方法#3 :** 使用 zip()函数
 
-```
+```py
 # Python code to initialize a dictionary
 # with only keys from a list
 
@@ -72,14 +72,14 @@ print(dct)
 
 **Output:**
 
-```
+```py
 {'Cyware': None, 'Paras': None, 'Jain': None}
 
 ```
 
 **方法#4 :** 使用 fromkeys()方法
 
-```
+```py
 # Python code to initialize a dictionary
 # with only keys from a list
 
@@ -95,7 +95,7 @@ print(StudentDict)
 
 **Output:**
 
-```
+```py
 {'Cyware': None, 'Jain': None, 'Paras': None}
 
 ```

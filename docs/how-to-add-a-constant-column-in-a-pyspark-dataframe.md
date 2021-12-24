@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a spark session
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import lit
@@ -54,7 +54,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 df.withColumn('Status', lit(0)).show()
 ```
 
@@ -66,7 +66,7 @@ df.withColumn('Status', lit(0)).show()
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.functions import when, lit, col
 
 df.withColumn(
@@ -86,7 +86,7 @@ df.withColumn(
 
 ## 蟒蛇 3
 
-```
+```py
 df.registerTempTable('table')
 newDF = spark.sql('select *, 1 as newCol from table')
 newDF.show()

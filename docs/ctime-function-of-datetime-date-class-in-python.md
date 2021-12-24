@@ -15,13 +15,13 @@
 *   字符串长度为 24 个字符。
 *   周被打印为三个字母的单词。
 
-```
+```py
 Sun, Mo, Tue, Wed, Thu, Fri, Sat
 ```
 
 *   月份用三位数的字母表示
 
-```
+```py
 Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
 ```
 
@@ -33,7 +33,7 @@ Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a string containing
 # the date and time
@@ -62,7 +62,7 @@ print("Today's date: %s"%date_From_CurrentTime.ctime());
 
 **输出:**
 
-```
+```py
 1627282355.0111642
 Date for Timestamp used is: 2021-07-26
 Today's date: Mon Jul 26 00:00:00 2021
@@ -72,7 +72,7 @@ Today's date: Mon Jul 26 00:00:00 2021
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting a string containing
 # the date and time
@@ -91,6 +91,6 @@ print("The date: %s"%Date.ctime());
 
 **输出:**
 
-```
+```py
 The date: Sun Feb 10 00:00:00 2013
 ```

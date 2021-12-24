@@ -14,7 +14,7 @@
 
 要使用这个库，您可以直接从 GitHub 下载源代码，或者使用 pip 获取源代码，在本教程中，为了简单起见，我们将使用第二个选项，为此，只需在您的终端上复制并粘贴以下代码行(我们假设您已经安装了 pip，要了解有关 pip 的更多信息，请访问他们的 [安装页面](https://pip.pypa.io/en/stable/installing/) )。
 
-```
+```py
 pip install CodeMonitor
 ```
 
@@ -28,7 +28,7 @@ pip install CodeMonitor
 
 现在一切都在 Telegram 端设置好了，所以我们可以回到电脑上，从 python 发送我们的第一条消息！在 python 方面，我们有两个类负责前面讨论的功能，让我们导入它们。
 
-```
+```py
 from CodeMonitor.telegram import Messenger, FitMonitor
 ```
 
@@ -38,13 +38,13 @@ from CodeMonitor.telegram import Messenger, FitMonitor
 
 这个类允许你发送任何你想要的字符串到 Telegram 聊天，只需要 Telegram 端部分提到的聊天 id。
 
-```
+```py
 messenger = Messenger("123456789")
 ```
 
 当类被实例化时，它发送消息“一切就绪！”，发送您的消息要使用功能*发送 _ 消息*。
 
-```
+```py
 messenger.send_message("your awesome message!")
 ```
 
@@ -52,7 +52,7 @@ messenger.send_message("your awesome message!")
 
 如上所述，该课程允许您根据培训中生成的日志发送报告，因为在第一节课中，您必须提供聊天 id 来识别您的聊天。要简单地发送训练中生成的所有日志，只需将 FitMonitor 类添加到回调列表中，如下所示。
 
-```
+```py
 model.fit(X_train, Y_train,          
           epochs = 10,
           validation_data = (X_test, Y_test), 
@@ -61,7 +61,7 @@ model.fit(X_train, Y_train,
 
 要指定您想要发送的日志，您可以使用 *log_keys* 参数设置您想要包含在消息中的日志列表，如代码片段所示，该代码片段指定只有丢失才应该包含在消息中。
 
-```
+```py
 model.fit(X_train, Y_train,          
           epochs = 10,
           validation_data = (X_test, Y_test), 

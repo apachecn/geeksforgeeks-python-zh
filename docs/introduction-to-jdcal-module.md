@@ -15,7 +15,7 @@ jdcal 中主要有四个功能:
 
 要安装，请在您的终端中运行以下命令
 
-```
+```py
 pip install jdcal
 
 ```
@@ -26,7 +26,7 @@ pip install jdcal
 
 ## 蟒 3
 
-```
+```py
 # import module
 import jdcal as j
 
@@ -43,7 +43,7 @@ print(a) 
 
 ## 蟒 3
 
-```
+```py
 # import module
 import jdcal as j
 

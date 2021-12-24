@@ -19,7 +19,7 @@
 
 这些都是 python 包，可以通过运行以下命令以简单的步骤安装:
 
-```
+```py
 pip3 install scapy-fakeap
 ```
 
@@ -30,7 +30,7 @@ pip3 install scapy-fakeap
 
 为了更好地监控我们的系统，我们使用了一些实用程序，例如 *aircrack-ng* 。可以使用以下命令安装:
 
-```
+```py
 apt-get install aircrack-ng
 ```
 
@@ -39,13 +39,13 @@ apt-get install aircrack-ng
 *   使用 *airmon-ng* 命令启用监控模式
 *   首先，使用以下命令终止系统的所有进程:
 
-```
+```py
 airmon-ng check kill
 ```
 
 *   为此启用您的无线局域网，运行命令 *ifconfig* 检查系统中的活动网络，然后运行以下命令:
 
-```
+```py
 airmon-ng start (your WLAN name)
 ```
 
@@ -65,7 +65,7 @@ airmon-ng start (your WLAN name)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from scapy.all import *
 

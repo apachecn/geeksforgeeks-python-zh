@@ -7,7 +7,7 @@
 
 **数据分布探索相关术语**
 
-```
+```py
 -> Boxplot
 -> Frequency Table
 -> Histogram 
@@ -22,7 +22,7 @@
 
 **代码#1 :** 加载库
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 **代码#2:** 加载数据
 
-```
+```py
 data = pd.read_csv("../data/state.csv")
 
 # Adding a new column with derived data 
@@ -45,7 +45,7 @@ print (data.head(10))
 
 **代码 3 :** 拳击图
 
-```
+```py
 # BoxPlot Population In Millions
 fig, ax1 = plt.subplots()
 fig.set_size_inches(9,  15)
@@ -62,7 +62,7 @@ ax1.set_title("Population - BoxPlot", fontsize = 20)
 
     **代码#1:** 添加一列执行交叉表和分组功能。
 
-    ```
+    ```py
     # Perform the binning action, the bins have been
     # chosen to accentuate the output for the Frequency Table
 
@@ -77,7 +77,7 @@ ax1.set_title("Population - BoxPlot", fontsize = 20)
 
     **代码#2:** 交叉标签–一种频率表
 
-    ```
+    ```py
     # Cross Tab - a type of Frequency Table
 
     pd.crosstab(data.PopulationInMillionsBins, data.Abbreviation, margins = True)
@@ -88,7 +88,7 @@ ax1.set_title("Population - BoxPlot", fontsize = 20)
 
     **代码# 3:**group by–一种频率表
 
-    ```
+    ```py
     # Groupby - a type of Frequency Table
 
     data.groupby(data.PopulationInMillionsBins)['Abbreviation'].apply(', '.join)

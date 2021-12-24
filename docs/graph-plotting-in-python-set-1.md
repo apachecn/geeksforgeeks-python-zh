@@ -6,7 +6,7 @@
 **安装**
 安装 matplotlib 最简单的方法就是使用 pip。在终端输入以下命令:
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -16,7 +16,7 @@ pip install matplotlib
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required module
 import matplotlib.pyplot as plt
 
@@ -56,7 +56,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # line 1 points
@@ -98,7 +98,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # x axis values
@@ -140,7 +140,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # x-coordinates of left sides of bars
@@ -179,7 +179,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # frequencies
@@ -218,7 +218,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # x-axis values
@@ -255,7 +255,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # defining labels
@@ -296,7 +296,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required modules
 import matplotlib.pyplot as plt
 import numpy as np

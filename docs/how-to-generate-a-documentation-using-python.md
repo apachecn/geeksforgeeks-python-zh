@@ -6,7 +6,7 @@
 
 **安装:**在终端上运行以下 pip 命令。
 
-```
+```py
 pip3 install pdoc3
 
 ```
@@ -15,7 +15,7 @@ pip3 install pdoc3
 
 ## 蟒蛇 3
 
-```
+```py
 class Numbers :
 
         """
@@ -52,7 +52,7 @@ class Numbers :
 
 导航到保存代码(Numbers.py)的文件夹(通过命令行)后。我们必须在终端中键入以下命令:
 
-```
+```py
  pdoc --html Numbers.py
 
 ```

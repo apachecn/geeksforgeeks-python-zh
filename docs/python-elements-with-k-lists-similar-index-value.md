@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们迭代压缩列表中的循环，并与特定索引中的元素进行相似性比较。
 
-```
+```py
 # Python3 code to demonstrate 
 # Elements with K lists similar index value
 # using zip() + loop
@@ -43,7 +43,7 @@ print ("The list after checking on 2 lists : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 3, 5, 7]
 The original list 2 is : [1, 4, 8, 9]
 The original list 3 is : [3, 7, 5, 10]

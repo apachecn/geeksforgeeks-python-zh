@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: dict1 = {'a': 12, 'for': 25, 'c': 9}
        dict2 = {'Geeks': 100, 'geek': 200, 'for': 300}
 
@@ -18,7 +18,7 @@ Output: {'for': 325, 'Geeks': 100, 'geek': 200}
 
 **法#1:** 天真法
 
-```
+```py
 # Python program to combine two dictionary
 # adding values for common keys
 # initializing two dictionaries
@@ -37,14 +37,14 @@ print(dict2)
 
 T5】输出:
 
-```
+```py
 {'for': 325, 'Geeks': 100, 'geek': 200}
 
 ```
 
 **方法 2:** 使用`**collections.Counter()**`
 
-```
+```py
 # Python program to combine two dictionary
 # adding values for common keys
 from collections import Counter
@@ -61,14 +61,14 @@ print(Cdict)
 
 **输出:**
 
-```
+```py
 Counter({'for': 325, 'geek': 200, 'Geeks': 100, 'a': 12, 'c': 9})
 
 ```
 
 **方法三:**使用`**itertools.chain()**`
 
-```
+```py
 # Python program to combine two dictionary
 # adding values for common keys
 import itertools 
@@ -90,7 +90,7 @@ print(dict(Cdict))
 
 **输出:**
 
-```
+```py
 {'for': 325, 'a': 12, 'geek': 200, 'Geeks': 100, 'c': 9}
 
 ```

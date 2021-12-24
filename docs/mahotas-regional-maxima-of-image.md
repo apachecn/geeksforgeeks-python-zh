@@ -6,7 +6,7 @@
 
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -23,7 +23,7 @@ mahotas.demos.load('lena')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -31,7 +31,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -61,14 +61,14 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 
 ```
 
 ![](img/7e2a2e3e4e2c7d3717764f78ddb13263.png)
 
-```
+```py
 Regional Maxima
 ```
 
@@ -78,7 +78,7 @@ Regional Maxima
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -109,13 +109,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/69c070b367f54d4895c9b3e679a941a7.png)
 
-```
+```py
 Regional Maxima
 ```
 

@@ -8,7 +8,7 @@ Python3 应该安装在您的系统中。如果没有安装，从这个[链接](
 我制作了一个文本文件，其中单词及其含义以 python 的字典格式
 **存储，示例:**
 
-```
+```py
 data = {"geek" : "engage in or discuss computer-related tasks 
 obsessively or with great attention to technical detail."}
 
@@ -18,7 +18,7 @@ obsessively or with great attention to technical detail."}
 
 这个 python 程序允许你获取这个文本文件的数据并给出含义。
 
-```
+```py
 # Python3 Code for implementing
 # dictionary
 

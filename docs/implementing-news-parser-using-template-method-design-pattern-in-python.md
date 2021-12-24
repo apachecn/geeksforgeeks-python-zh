@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 import urllib.request
 from xml.dom.minidom import parseString

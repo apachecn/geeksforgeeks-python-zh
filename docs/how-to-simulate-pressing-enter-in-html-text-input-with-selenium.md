@@ -14,7 +14,7 @@
 
 用户应该已经在他们的系统中安装了 python 3.7+来使用 selenium。要安装 selenium，请在终端上运行以下命令。
 
-```
+```py
 pip install selenium
 ```
 
@@ -22,7 +22,7 @@ pip install selenium
 
 为了模拟按 enter 键，用户可以在 python 自动化脚本代码中添加下面一行。
 
-```
+```py
 HTML_ELEMENT.send_keys(Keys.ENTER)
 ```
 
@@ -41,7 +41,7 @@ HTML_ELEMENT.send_keys(Keys.ENTER)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to search automatically
 # on wikipedia using selenium
 
@@ -97,7 +97,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to login to the Geeksforgeeks
 # using selenium
 

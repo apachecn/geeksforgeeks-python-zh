@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # use of __call__() method
 
@@ -35,7 +35,7 @@ function()
 
 **Output:** 
 
-```
+```py
 GeeksforGeeks
 ```
 
@@ -44,7 +44,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # class decorator with *args
 # and **kwargs
@@ -73,7 +73,7 @@ function("geeks_for_geeks", "hello")
 
 **Output:** 
 
-```
+```py
 hello, geeks_for_geeks
 ```
 
@@ -82,7 +82,7 @@ hello, geeks_for_geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # class decorator with
 # return statement
@@ -111,7 +111,7 @@ print("Square of number is:", get_square(195))
 
 **Output:** 
 
-```
+```py
 given number is: 195
 Square of number is: 38025
 ```
@@ -121,7 +121,7 @@ Square of number is: 38025
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to execute
 # time of a program
 
@@ -153,7 +153,7 @@ some_function(3)
 
 **Output:** 
 
-```
+```py
 Execution took 3.003122091293335 seconds
 ```
 
@@ -162,7 +162,7 @@ Execution took 3.003122091293335 seconds
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program checking
 # error parameter using
 # class decorator
@@ -191,7 +191,7 @@ print(add_numbers(1, '2', 3)) 
 
 **输出:**
 
-```
+```py
 6
 TypeError: parameter cannot be a string !!
 ```

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate comments
 
 # sample comment
@@ -22,7 +22,7 @@ print(name)
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```
 
@@ -47,14 +47,14 @@ Python 单行注释以没有白色空格的 hashtag 符号(#)开始，一直持�
 
 ## 蟒蛇 3
 
-```
+```py
 # Print “GeeksforGeeks !” to console
 print("GeeksforGeeks")
 ```
 
 **Output**
 
-```
+```py
 GeeksforGeeks
 
 ```
@@ -71,7 +71,7 @@ Python 不提供[多行注释](https://www.geeksforgeeks.org/multiline-comments-
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # multiline comments
 print("Multiline comments")
@@ -79,7 +79,7 @@ print("Multiline comments")
 
 **Output**
 
-```
+```py
 Multiline comments
 
 ```
@@ -92,7 +92,7 @@ Python 忽略了没有赋给变量的字符串文字，所以我们可以将这�
 
 ## 蟒蛇 3
 
-```
+```py
 'This will be ignored by Python'
 ```
 
@@ -102,7 +102,7 @@ Python 忽略了没有赋给变量的字符串文字，所以我们可以将这�
 
 ## 蟒蛇 3
 
-```
+```py
 """ Python program to demonstrate
  multiline comments"""
 print("Multiline comments")
@@ -110,7 +110,7 @@ print("Multiline comments")
 
 **Output**
 
-```
+```py
 Multiline comments
 
 ```
@@ -123,7 +123,7 @@ Multiline comments
 
 ## 蟒蛇 3
 
-```
+```py
 def multiply(a, b):
     """Multiplies the value of a and b"""
     return a*b
@@ -134,6 +134,6 @@ print(multiply.__doc__)
 
 **输出:**
 
-```
+```py
 Multiplies the value of a and b
 ```

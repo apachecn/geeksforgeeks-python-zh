@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples with All Even Elements
 # Using loop
@@ -47,7 +47,7 @@ print("Filtered Tuples : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 4, 2, 8), (5, 6, 7, 6), (8, 0, 2), (7, )]
 Filtered Tuples : [(6, 4, 2, 8), (8, 0, 2)]
 
@@ -59,7 +59,7 @@ Filtered Tuples : [(6, 4, 2, 8), (8, 0, 2)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples with All Even Elements
 # Using all() + list comprehension
@@ -79,7 +79,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 4, 2, 8), (5, 6, 7, 6), (8, 0, 2), (7, )]
 Filtered Tuples : [(6, 4, 2, 8), (8, 0, 2)]
 

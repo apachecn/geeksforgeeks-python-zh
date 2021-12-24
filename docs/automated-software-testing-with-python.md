@@ -8,7 +8,7 @@
 
 让我们编写一个简单的应用程序来执行所有的测试。
 
-```
+```py
 class Square:
     def __init__(self, side):
         """ creates a square having the given side
@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 现在我们已经准备好了我们的软件，让我们看看我们的项目文件夹的目录结构，然后，我们将开始测试我们的软件。
 
-```
+```py
 ---Software_Testing
    |--- __init__.py (to initialize the directory as python package)
    |--- app.py (our software)
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
 **安装:** `unittest`可在 PyPI 获得，可通过以下命令安装–
 
-```
+```py
 pip install unittest
 ```
 
@@ -82,7 +82,7 @@ pip install unittest
 4.  创建如下所示的测试方法。
     **规则 2:** 每种测试方法的名称都应该以“test”开头，否则会被测试运行人员跳过。
 
-```
+```py
 def test_area(self):
     # testing the method Square.area().
 
@@ -101,7 +101,7 @@ def test_area(self):
 
 10.  为了运行我们刚刚定义的测试，我们需要调用方法`unittest.main()`，在“tests.py”模块中添加以下几行。
 
-    ```
+    ```py
     if __name__ == '__main__':
         unittest.main()
     ```
@@ -112,7 +112,7 @@ def test_area(self):
 
 最后，“tests.py”模块应该类似于下面给出的代码。
 
-```
+```py
 import unittest
 from .. import app
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 写完测试用例后，现在让我们测试应用程序是否有任何错误。要测试您的应用程序，您只需要使用命令提示符或您选择的任何 IDE 执行测试文件“tests.py”。输出应该是这样的。
 
-```
+```py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
@@ -143,7 +143,7 @@ OK
 
 让我们在“tests.py”中添加一些测试，然后重新测试我们的应用程序。
 
-```
+```py
 import unittest
 from .. import app
 
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-```
+```py
 .F.F
 ======================================================================
 FAIL: test_area_negative (__main__.TestSum)
@@ -211,13 +211,13 @@ FAILED (failures=2)
 
 **安装:** `nose2`可以使用命令从 PyPI 安装，
 
-```
+```py
 pip install nose2
 ```
 
 **使用:** `nose2`没有任何测试框架，只是一个与`unittest`测试框架兼容的测试运行器。因此，我们将使用`nose2`运行上面写的相同测试(针对`unittest`)。为了运行测试，我们在项目源目录中使用以下命令(在我们的例子中是“Software_Testing”)，
 
-```
+```py
 nose2
 ```
 
@@ -234,7 +234,7 @@ nose2
 1.  **Changing the search directory –**
     If we want to change the directory in which `nose2` searchs for test files, we can do that using the command line arguments `-s` or `--start-dir` as,
 
-    ```
+    ```py
     nose2 -s DIR_ADD DIR_NAME
     ```
 
@@ -244,7 +244,7 @@ nose2
 2.  **Running specific test cases –**
     Using `nose2` we can also run a specific test at a time by using the command line arguments `-s` and `--start-dir` as,
 
-    ```
+    ```py
     nose2 -s DIR_ADD DIR_NAME.TEST_FILE.TEST_CLASS.TEST_NAME
     ```
 
@@ -267,13 +267,13 @@ nose2
 
 **安装:**可以使用命令从 PyPI 安装`pytest`，
 
-```
+```py
 pip install pytest
 ```
 
 **使用:**在项目源中使用以下命令调用`pytest`测试运行程序，
 
-```
+```py
 py.test
 ```
 
@@ -282,7 +282,7 @@ py.test
 **创建测试方法:**
 `pytest`支持在`unittest`框架中编写的测试方法，但是`pytest`框架提供了更简单的语法来编写测试。参见下面的代码，了解`pytest`框架的测试方法语法。
 
-```
+```py
 from .. import app
 
 def test_file1_area():
@@ -302,13 +302,13 @@ def test_file1_perimeter():
 
 注意，现在“tests”文件夹包含两个文件，即“tests.py”(写在`unittest`框架中)和“test_file1.py”(写在`pytest`框架中)。现在让我们运行`pytest`测试运行程序。
 
-```
+```py
 py.test
 ```
 
 你会得到一个类似于使用`unittest`得到的报告。
 
-```
+```py
 ============================= test session starts ==============================
 platform linux -- Python 3.6.7, pytest-4.4.1, py-1.8.0, pluggy-0.9.0
 rootdir: /home/manthan/articles/Software_testing_in_Python
@@ -326,13 +326,13 @@ tests/test_file2.py .F.F [100%]
 
 1.  **运行特定的测试文件:**要只运行特定的测试文件，请使用命令，
 
-    ```
+    ```py
     py.test <filename>
     ```
 
 2.  **Substring matching:** Suppose we want to test only the `area()` method of our `Square` class, we can do this using substring matching as follows,
 
-    ```
+    ```py
     py.test -k "area"
     ```
 
@@ -340,7 +340,7 @@ tests/test_file2.py .F.F [100%]
 
 3.  **Marking:** As a substitute to substring matching, marking is another method using which we can run a specific set of tests. In this method we put a mark on the tests we want to run. Observe the code example given below,
 
-    ```
+    ```py
     # @pytest.mark.<tag_name>
     @pytest.mark.area     
 
@@ -352,19 +352,19 @@ tests/test_file2.py .F.F [100%]
 
     在上面的代码示例中`test_file1_area()`被标记为“区域”。所有标记有标签的测试方法都可以通过使用命令来执行，
 
-    ```
+    ```py
     py.test -m <tag_name>
     ```
 
 4.  **Parallel Processing:** If you have a large number of tests then `pytest` can be customised to run these test methods in parallel. For that you need to install [`pytest-xdist`](https://pypi.org/project/pytest-xdist/) which can be installed using the command,
 
-    ```
+    ```py
     pip install pytest-xdist
     ```
 
     现在，您可以使用以下命令来使用多处理更快地执行测试，
 
-    ```
+    ```py
     py.test -n 4
     ```
 
@@ -372,6 +372,6 @@ tests/test_file2.py .F.F [100%]
 
     如果你的测试是线程安全的，你也可以使用[多线程](https://www.geeksforgeeks.org/operating-system-difference-multitasking-multithreading-multiprocessing/)来加速测试过程。为此您需要安装 [`pytest-parallel`](https://pypi.org/project/pytest-parallel/) (使用画中画)。要在多线程中运行测试，请使用命令，
 
-    ```
+    ```py
     pytest --workers 4
     ```

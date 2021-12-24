@@ -6,7 +6,7 @@
 
 **使用 Python 中的 yeardayscalendar()** 方法获取指定年份的数据。周列表中的条目是日数。本月以外的天数为零。
 
-```
+```py
 Syntax: yeardayscalendar(year, width)
 
 Parameter: 
@@ -20,7 +20,7 @@ Returns: list of day numbers.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of yeardayscalendar() method
 
@@ -45,7 +45,7 @@ print(obj.yeardayscalendar(year))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working
 # of yeardayscalendar() method
 

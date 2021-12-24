@@ -10,7 +10,7 @@
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib as plt
@@ -18,7 +18,7 @@ import matplotlib as plt
 
 **加载数据**
 
-```
+```py
 data = pd.read_csv("loan_status.csv")
 
 print (data.head(10))
@@ -29,7 +29,7 @@ print (data.head(10))
 
 **描述数据**
 
-```
+```py
 data.describe()
 ```
 
@@ -38,7 +38,7 @@ data.describe()
 
 **数据信息**
 
-```
+```py
 data.info()
 ```
 
@@ -47,7 +47,7 @@ data.info()
 
 **数据类型**
 
-```
+```py
 # data types of feature/attributes 
 # in the data
 data.dtypes
@@ -58,7 +58,7 @@ data.dtypes
 
 **代码#1:** 列联表，显示等级和贷款状态之间的相关性。
 
-```
+```py
 data_crosstab = pd.crosstab(data['grade'],
                             data['loan_status'], 
                                margins = False)
@@ -70,7 +70,7 @@ print(data_crosstab)
 
 **代码#2:** 列联表，显示目的和贷款状态之间的相关性。
 
-```
+```py
 data_crosstab = pd.crosstab(data['purpose'], 
                             data['loan_status'],
                                 margins = False)
@@ -82,7 +82,7 @@ print(data_crosstab)
 
 **代码#3:** 列联表，显示等级+目的与贷款状态之间的相关性。
 
-```
+```py
 data_crosstab = pd.crosstab([data.grade, data.purpose], 
                              data.loan_status, margins = False)
 print(data_crosstab)

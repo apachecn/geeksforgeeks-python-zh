@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Value repetition in List
 # Using list comprehension + enumerate()
@@ -39,7 +39,7 @@ print("Constructed List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 0, 4, 2]
 Constructed List : [0, 0, 0, 2, 2, 2, 2, 3, 3]
 ```
@@ -50,7 +50,7 @@ Constructed List : [0, 0, 0, 2, 2, 2, 2, 3, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Value repetition in List
 # Using chain.from_iterable() + list comprehension
@@ -74,7 +74,7 @@ print("Constructed List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 0, 4, 2]
 Constructed List : [0, 0, 0, 2, 2, 2, 2, 3, 3]
 ```

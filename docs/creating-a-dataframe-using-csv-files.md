@@ -10,7 +10,7 @@
 
 **例**:
 
-```
+```py
 # Python program to illustrate
 # creating a data frame using CSV files
 
@@ -30,7 +30,7 @@ print(df.head())
 
 **例**:
 
-```
+```py
 # Python program to illustrate
 # creating a data frame using CSV files
 
@@ -50,7 +50,7 @@ print(df.head())
 
 **例**:
 
-```
+```py
 # Python program to illustrate
 # creating a data frame using CSV files
 
@@ -73,7 +73,7 @@ for val in list(df[1]):
 
 **输出**:
 
-```
+```py
 ['TM195', '18', 'Male', '14', 'Single', '3', '4', '29562', '112']
 
 ```

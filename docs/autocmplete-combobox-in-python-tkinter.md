@@ -19,7 +19,7 @@
 
 下面是方法。
 
-```
+```py
 from tkinter import *
 
 # Function for checking the

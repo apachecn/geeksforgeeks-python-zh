@@ -11,7 +11,7 @@
 
 为了清楚起见，请看下面给出的例子:
 
-```
+```py
 Original Word ---> Root Word (lemma)      Feature
 
    meeting    --->   meet                (core-word extraction)
@@ -55,7 +55,7 @@ Wordnet 是一个公开的词汇数据库，包含 200 多种语言，提供单�
 
 ## 蟒蛇 3
 
-```
+```py
 import nltk
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
@@ -84,7 +84,7 @@ for words in list1:
 
 ## 蟒蛇 3
 
-```
+```py
 # sentence lemmatization examples
 string = 'the cat is sitting with the bats on the striped mat under many flying geese'
 
@@ -112,7 +112,7 @@ print(lemmatized_string)  
 
 ## 蟒蛇 3
 
-```
+```py
 # WORDNET LEMMATIZER (with appropriate pos tags)
 
 import nltk
@@ -180,7 +180,7 @@ pip 安装 TextBlob
 
 ## 蟒蛇 3
 
-```
+```py
 from textblob import TextBlob, Word
 
 my_word = 'cats'
@@ -207,7 +207,7 @@ print(lemmatized_sentence)
 
 ## 蟒蛇 3
 
-```
+```py
 from textblob import TextBlob
 
 # Define function to lemmatize each word with its POS tag
@@ -237,7 +237,7 @@ print(lemmatized_sentence)
 **5。spaCy**
 spaCy 是一个开源的 python 库，可以解析和“理解”大量的文本。针对特定语言(英语、法语、德语等)提供单独的型号。).
 
-```
+```py
 Download spaCy package :(a) Open anaconda prompt or terminal as administrator and run the command:
 
             (b) Now, open anaconda prompt or terminal normally and run the command:
@@ -255,7 +255,7 @@ You can now load the model via
 
 ## 蟒蛇 3
 
-```
+```py
 import spacy
 nlp = spacy.load('en_core_web_sm')
 
@@ -298,7 +298,7 @@ TreeTagger 是一个用词性和引理信息标注文本的工具。TreeTagger �
 
 </figure>
 
-```
+```py
 How to use: 
 1\. Download TreeTagger package : In your anaconda prompt or terminal, type:
 
@@ -310,7 +310,7 @@ How to use:
 
 ## 蟒蛇 3
 
-```
+```py
 # 6\. TREETAGGER LEMMATIZER
 import pandas as pd
 import treetaggerwrapper as tt
@@ -350,7 +350,7 @@ print(Results)
 **7。模式**
 模式是一个 Python 包，常用于网页挖掘、自然语言处理、机器学习和网络分析。它有许多有用的 NLP 功能。它还包含一个我们将在下面讨论的特殊功能。
 
-```
+```py
 How to use: 
 Download Pattern package: In your anaconda prompt or terminal, type:
 
@@ -360,7 +360,7 @@ Download Pattern package: In your anaconda prompt or terminal, type:
 
 ## 蟒蛇 3
 
-```
+```py
 # PATTERN LEMMATIZER
 import pattern
 from pattern.en import lemma, lexeme
@@ -403,13 +403,13 @@ Gensim 旨在使用数据流处理大型文本集合。它的旅鼠化设施是�
 *   默认只考虑**名词**、**动词**、**形容词**、**副词**(其他所有引理均弃用)。
 *   例如
 
-```
+```py
 Word          --->  Lemmatized Word 
 are/is/being  --->  be
 saw           --->  see
 ```
 
-```
+```py
 How to use: 
 1\. Download Pattern package: In your anaconda prompt or terminal, type:
 
@@ -423,7 +423,7 @@ How to use:
 
 ## 蟒蛇 3
 
-```
+```py
 from gensim.utils import lemmatize
 
 sentence = "the bats saw the cats with best stripes hanging upside down by their feet"
@@ -445,7 +445,7 @@ CoreNLP 使用户能够导出文本的语言注释，包括标记和句子边界
 *   ****CoreNLP 是您在 Java 中进行自然语言处理的一站式商店！****
 *   ****CoreNLP 目前支持 6 种语言，包括阿拉伯语、汉语、英语、法语、德语和西班牙语。****
 
-```
+```py
 ****How to use:** 
 **1\. Get JAVA 8 :** Download [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) (as per your OS) and install it.
 
@@ -467,7 +467,7 @@ CoreNLP 使用户能够导出文本的语言注释，包括标记和句子边界
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from stanfordcorenlp import StanfordCoreNLP
 import json
 
@@ -646,7 +646,7 @@ print(parsed_str)
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# To get the lemmatized sentence as output
 
 # ** RUN THE ABOVE SCRIPT FIRST **

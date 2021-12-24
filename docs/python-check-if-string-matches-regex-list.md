@@ -7,7 +7,7 @@
 **方法:使用 join regex + loop + `re.match()`**
 该任务可以使用以上功能的组合来执行。在本例中，我们通过连接所有正则表达式列表来创建一个新的正则表达式字符串，然后使用 match()将该字符串与正则表达式列表中的任何元素进行匹配，以检查匹配情况。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if string matches regex list
 # Using join regex + loop + re.match()
@@ -35,7 +35,7 @@ print("Does string match any of regex in list ? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : ['gee*', 'gf*', 'df.*', 're']
 Does string match any of regex in list ? : True

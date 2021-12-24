@@ -18,7 +18,7 @@ Q-Learning 的过程为工作代理创建了一个精确的矩阵，它可以“
 
 **伪码:**
 
-```
+```py
 Initialize  for all pairs (s,a)
 s = initial state
 k = 0

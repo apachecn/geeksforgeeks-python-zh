@@ -6,7 +6,7 @@
 
 #### 安装:
 
-```
+```py
 pip install chess
 ```
 
@@ -16,7 +16,7 @@ pip install chess
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import chess
 
@@ -35,7 +35,7 @@ print(board)
 
 ## 蟒蛇 3
 
-```
+```py
 # legal moves
 board.legal_moves
 ```
@@ -50,7 +50,7 @@ board.legal_moves
 
 ## 蟒蛇 3
 
-```
+```py
 # moving players
 board.push_san("e4")
 # It means moving the particular piece at
@@ -70,7 +70,7 @@ print(board)
 
 ## 蟒蛇 3
 
-```
+```py
 # Verifying check mate
 board.is_checkmate()
 ```
@@ -85,14 +85,14 @@ board.is_checkmate()
 
 ## 蟒蛇 3
 
-```
+```py
 # Verifying stalemate
 board.is_stalemate()
 ```
 
 **输出:**
 
-```
+```py
 It will return a boolean value a TRUE or FALSE.
 ```
 
@@ -100,14 +100,14 @@ It will return a boolean value a TRUE or FALSE.
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 board.is_check()
 ```
 
 **输出:**
 
-```
+```py
 It will return a boolean value a TRUE or FALSE.
 ```
 
@@ -115,7 +115,7 @@ It will return a boolean value a TRUE or FALSE.
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 board.is_fivefold_repetition()
 board.is_seventyfive_moves()
@@ -123,6 +123,6 @@ board.is_seventyfive_moves()
 
 **输出:**
 
-```
+```py
 Both of it will return a boolean value a TRUE or FALSE.
 ```

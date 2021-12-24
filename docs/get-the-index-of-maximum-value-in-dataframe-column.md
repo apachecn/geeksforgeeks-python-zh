@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -24,7 +24,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -43,7 +43,7 @@ df[['Weight']].idxmax()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -62,7 +62,7 @@ df.iloc[400:410]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -86,7 +86,7 @@ df.head(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # Returns index of minimum salary
 df[['Salary']].idxmax()
 ```

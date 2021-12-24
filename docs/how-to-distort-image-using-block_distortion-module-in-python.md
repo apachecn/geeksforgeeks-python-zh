@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from skimage import img_as_ubyte
 from skimage.io import imread, imsave
 from block_distortion import distort_image
@@ -71,7 +71,7 @@ animate_image()方法用于执行所需的 gif 变形。
 
 ## 蟒蛇 3
 
-```
+```py
 from skimage.io import imread
 from block_distortion import animate_image, write_frames_to_gif
 

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Records Product
 # using loop + generator expression
@@ -36,7 +36,7 @@ print("The Cumulative product of list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The Cumulative product of list is : 5644800
 
@@ -47,7 +47,7 @@ The Cumulative product of list is : 5644800
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Records Product
 # using product + map() + chain.from_iterable()
@@ -76,7 +76,7 @@ print("The cumulative product of list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The cumulative product of list is : 5644800
 

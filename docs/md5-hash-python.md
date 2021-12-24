@@ -19,7 +19,7 @@ python 中的“ **hashlib** 库中定义了很多哈希函数。
 
 下面的代码演示了 MD5 哈希接受字节并作为字节输出的工作方式。
 
-```
+```py
 # Python 3 code to demonstrate the 
 # working of MD5 (byte - byte)
 
@@ -36,7 +36,7 @@ print(result.digest())
 
 输出:
 
-```
+```py
 The byte equivalent of hash is : b'\xf1\xe0ix~\xcetS\x1d\x11%Y\x94\\hq'
 
 ```
@@ -45,7 +45,7 @@ The byte equivalent of hash is : b'\xf1\xe0ix~\xcetS\x1d\x11%Y\x94\\hq'
 
 下面的代码演示了如何将字符串作为输入并输出十六进制等价的编码值。
 
-```
+```py
 # Python 3 code to demonstrate the 
 # working of MD5 (string - hexadecimal)
 
@@ -65,7 +65,7 @@ print(result.hexdigest())
 
 输出:
 
-```
+```py
 The hexadecimal equivalent of hash is : f1e069787ece74531d112559945c6871
 
 ```

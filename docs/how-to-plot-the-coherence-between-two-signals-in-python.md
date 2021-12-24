@@ -39,7 +39,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -73,7 +73,7 @@ plt.show()
 
 **示例 2:** 正弦和余弦信号之间的相干性
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

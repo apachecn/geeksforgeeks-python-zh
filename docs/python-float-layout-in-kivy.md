@@ -14,11 +14,11 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用 FloatLayout，我们需要做的第一件事就是导入它。
 
-```
+```py
 from kivy.uix.floatlayout import FloatLayout
 ```
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -33,13 +33,13 @@ Basic Approach:
 
 例如，创建大小为(300，300)的浮动布局:
 
-```
+```py
 layout = FloatLayout(size=(300, 300))
 ```
 
 默认情况下，所有小部件都有其`size_hint = (1, 1)`，因此下面的按钮将采用与布局相同的大小:
 
-```
+```py
 button = Button(text='Hello world')
 layout.add_widget(button)
 ```
@@ -50,7 +50,7 @@ layout.add_widget(button)
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating the
 # working of FloatLayout in Kivy
 
@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating the
 # working of Dynamic placement in FloatLayout in Kivy
 

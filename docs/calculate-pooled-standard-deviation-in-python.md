@@ -12,7 +12,7 @@
 
 这是**科恩的备选公式**这里供参考:
 
-```
+```py
  **SD<sub>pooled</sub> = √((n<sub>1</sub>-1).SD<sub>1</sub><sup>2</sup> + (n<sub>2</sub>-1).SD<sub>2</sub><sup>2</sup>)/(n<sub>1</sub>+n<sub>2</sub>-2)**
 
 ```
@@ -26,7 +26,7 @@
 
 对于同等大小的样本，它简单地变成，
 
-```
+```py
 **SD<sub>pooled</sub> = √(SD<sub>1</sub><sup>2</sup> + SD<sub>2</sub><sup>2</sup>)/2**
 
 ```
@@ -39,7 +39,7 @@
 4.  计算样品的标准偏差(例如。sample1，使用 statistics.stdev(sample1))
 5.  最后，使用公式计算样本的合并标准偏差。
 
-```
+```py
 Pooled standard deviation = √ (n1-1)sample12 +  (n2-1)sample22 / (n1+n2-2)
 ```
 
@@ -52,7 +52,7 @@ Pooled standard deviation = √ (n1-1)sample12 +  (n2-1)sample22 / (n1+n2-2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 import math
 import statistics
@@ -70,7 +70,7 @@ print("Standard Deviation for 2nd sample = ", SD2)
 
 ****输出:****
 
-```
+```py
 Standard Deviation for 1st sample =  1.0
 Standard Deviation for 2nd sample =  3.7416573867739413
 ```
@@ -79,7 +79,7 @@ Standard Deviation for 2nd sample =  3.7416573867739413
 
 ## **蟒蛇 3**
 
-```
+```py
 import math
 import statistics
 sample1 = [4, 5, 6]
@@ -103,7 +103,7 @@ print("sample2 : length = ", n2, " | S.D. = ", SD2)
 
 ****输出:****
 
-```
+```py
 sample1 : length =  3  | S.D. =  1.0
 sample2 : length =  6  | S.D. =  3.7416573867739413
 ```
@@ -112,7 +112,7 @@ sample2 : length =  6  | S.D. =  3.7416573867739413
 
 ## **蟒蛇 3**
 
-```
+```py
 import math
 import statistics
 sample1 = [4, 5, 6]
@@ -140,6 +140,6 @@ print("Pooled Standard Deviation = ",
 
 ****输出:****
 
-```
+```py
 Pooled Standard Deviation =  3.2071349029490928 
 ```

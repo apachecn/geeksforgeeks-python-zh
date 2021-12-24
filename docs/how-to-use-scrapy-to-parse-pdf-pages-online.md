@@ -16,7 +16,7 @@ Scrapy spider 抓取网页，在线找到要报废的 pdf 文件，然后从另�
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 import PyPDF2
 import urllib.request
@@ -60,7 +60,7 @@ class ParserspiderSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 import PyPDF2
 import urllib.request

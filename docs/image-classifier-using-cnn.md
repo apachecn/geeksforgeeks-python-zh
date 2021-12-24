@@ -15,7 +15,7 @@
 
 现在，在获得数据集之后，我们需要对数据进行一点预处理，并为训练数据集期间给定的每个图像提供标签。为此，我们可以看到训练数据集的每个图像的名称都以“猫”或“狗”开头，因此我们将利用这一点，然后我们使用机器的一个热编码器来理解标签(猫[1，0]或狗[0，1])。
 
-```
+```py
 def label_img(img):
     word_label = img.split('.')[-3]
 
@@ -39,7 +39,7 @@ TRAIN_DIR 和 TEST_DIR 应根据用户方便程度进行设置，玩转历元、
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create
 # Image Classifier using CNN
 
@@ -211,7 +211,7 @@ plt.show()
 输出图像将不是很清晰，因为所有图像都减少到 50X50，以便机器在速度和损失之间进行权衡后快速处理。
 要访问张量板，请在您的 cmd(Windows 用户)中使用以下命令。
 
-```
+```py
 tensorboard --logdir=foo:C:\Users\knapseck\Desktop\Dev\Cov_Net\log
 ```
 

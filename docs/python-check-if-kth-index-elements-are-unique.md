@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Kth index elements are unique
 # Using loop
@@ -49,7 +49,7 @@ print("Is Kth index all unique : " + str(flag))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'best', 'for', 'geeks']
 Is Kth index all unique : True
 
@@ -61,7 +61,7 @@ Is Kth index all unique : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if Kth index elements are unique
 # Using Counter() + all()
@@ -88,7 +88,7 @@ print("Is Kth index all unique : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'best', 'for', 'geeks']
 Is Kth index all unique : True
 

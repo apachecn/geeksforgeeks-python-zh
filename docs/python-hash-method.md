@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of hash()
 
@@ -42,7 +42,7 @@ print("The float hash value is : " + str(hash(flt_val)))
 
 **输出:**
 
-```
+```py
 The integer hash value is : 4
 The string hash value is : -5570917502994512005
 The float hash value is : 1291272085159665688
@@ -52,7 +52,7 @@ The float hash value is : 1291272085159665688
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # property of hash()
 
@@ -72,13 +72,13 @@ print("The list hash value is : " + str(hash(list_val)))
 
 **输出:**
 
-```
+```py
 The tuple hash value is : 8315274433719620810
 ```
 
 **异常:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/eb7e39084e3d151114ce5ed3e43babb8.py", line 15, in 
     print ("The list hash value is : " + str(hash(list_val)))
@@ -89,7 +89,7 @@ TypeError: unhashable type: 'list'
 
 ## 蟒蛇 3
 
-```
+```py
 # hash() for immutable tuple object
 var = ('G','E','E','K')
 
@@ -98,7 +98,7 @@ print(hash(var))
 
 **输出:**
 
-```
+```py
 5434435027328283763
 ```
 
@@ -108,14 +108,14 @@ print(hash(var))
 
 ## 蟒蛇 3
 
-```
+```py
 l = [1, 2, 3, 4]
 print(hash(l))
 ```
 
 **输出:**
 
-```
+```py
 TypeError: unhashable type: 'list'
 ```
 
@@ -125,7 +125,7 @@ TypeError: unhashable type: 'list'
 
 ## 蟒蛇 3
 
-```
+```py
 class Emp:
     def __init__(self, emp_name, id):
         self.emp_name = emp_name
@@ -152,7 +152,7 @@ print("The hash is: %d" % hash(emp_copy))
 
 **输出:**
 
-```
+```py
 The hash is: -674930604243231063
 The hash is: -674930604243231063
 ```

@@ -16,13 +16,13 @@
 
 我们所需要做的就是，通过在你的终端中键入这一行来安装`tqdm`包，并开始编写代码。
 
-```
+```py
 ->pip install tqdm
 ```
 
 然后在编辑器中键入这段代码。
 
-```
+```py
 from tqdm import tqdm
 
 for i in tqdm (range (100), desc="Loading..."):
@@ -35,7 +35,7 @@ for i in tqdm (range (100), desc="Loading..."):
 
 这给出了一个非常快的加载条，因为循环中没有任何东西。，您可以用您想在 for 循环中做的任何工作来替换 pass 关键字。
 
-```
+```py
 from tqdm import tqdm
 import time
 
@@ -57,7 +57,7 @@ print("Complete.")
 
 对于命令行界面
 
-```
+```py
 pip install progressbar 
 (or)
 pip install progressbar2
@@ -69,7 +69,7 @@ pip install progressbar2
 
 然而，进度条和进度条 2 包比 tqdm 包有很多额外的、有用的方法。例如，我们可以制作一个动画加载条。
 
-```
+```py
 import progressbar
 import time
 
@@ -95,7 +95,7 @@ animated_marker()
 
 下面是另一个使用 ProgressBar 类中一些常用小部件的例子。
 
-```
+```py
 import time
 import progressbar
 

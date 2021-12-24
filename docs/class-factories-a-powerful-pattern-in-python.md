@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def apple_function():
     """Return an Apple class, built using the 
     class keyword"""
@@ -34,7 +34,7 @@ print(appleObj.getColor())
 
 **Output**
 
-```
+```py
 red
 
 ```
@@ -45,7 +45,7 @@ red
 
 T3】蟒 3T5
 
-```
+```py
 def init(self, color):
     self.color = color
 
@@ -67,7 +67,7 @@ T6T8**输出**T1
 
 T3】蟒 3T5
 
-```
+```py
 def create_apple_class():
     def init(self, color):
         self.color = color
@@ -99,7 +99,7 @@ T6T8**输出**T1
 
 ## 蟒蛇 3
 
-```
+```py
 def credentials_cls(need_proxy=False, tfa=False):
     # need proxy for openId services
     if need_proxy:
@@ -136,7 +136,7 @@ crdOpenID = OpenIDCheck(service_name='sname', email_address='email@gmail.com')
 
 **Output**
 
-```
+```py
 Traditional Login
 Open Id Service
 
@@ -148,7 +148,7 @@ Open Id Service
 
 T3】蟒 3T5
 
-```
+```py
 class Apple(object):
     color = 'red'
 
@@ -177,7 +177,7 @@ T6T8**输出**T1
 
 ## 蟒 3
 
-```
+```py
 class Apple(object):
     color = 'red'
 
@@ -199,7 +199,7 @@ print("Apple Color: ", sappleGreen.classapple())
 
 **输出**
 
-```
+```py
 Apple Color:  Yellow
 Apple Color:  Green
 

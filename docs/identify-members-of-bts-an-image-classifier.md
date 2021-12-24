@@ -16,7 +16,7 @@ BTS 是一个著名的 K-Pop 乐队，由 7 名成员组成。本文研究一个
 
 ## 蟒蛇 3
 
-```
+```py
 # Import fastbook
 from fastbook import *
 from fastai.vision.widgets import *
@@ -37,7 +37,7 @@ class DataLoaders(GetAttr):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required function to download from the Simple Image Download library.
 from simple_image_download import simple_image_download as simp
 # Create a response instance.
@@ -58,7 +58,7 @@ response.download('BTS Jungkook', 150)
 
 ## 蟒蛇 3
 
-```
+```py
 bts = bts.new(
     item_tfms=RandomResizedCrop(224, min_scale=0.5),
     batch_tfms=aug_transforms())
@@ -73,7 +73,7 @@ dls = bts.dataloaders(path)
 
 ## 蟒蛇 3
 
-```
+```py
 learn = cnn_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(8)
 ```
@@ -84,7 +84,7 @@ learn.fine_tune(8)
 
 ## 蟒蛇 3
 
-```
+```py
 interp = ClassificationInterpretation.from_learner(learn)
 interp.plot_confusion_matrix()
 ```
@@ -98,7 +98,7 @@ interp.plot_confusion_matrix()
 
 ## 蟒蛇 3
 
-```
+```py
 interp.plot_top_losses(5, nrows=5)
 ```
 
@@ -110,7 +110,7 @@ interp.plot_top_losses(5, nrows=5)
 
 ## 蟒蛇 3
 
-```
+```py
 learn.export()
 path = Path()
 path.ls(file_exts='.pkl')

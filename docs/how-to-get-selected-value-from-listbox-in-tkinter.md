@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to get selected
 # value(s) from tkinter listbox
 

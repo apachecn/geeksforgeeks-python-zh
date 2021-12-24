@@ -10,13 +10,13 @@ PyCaret 是一个开源的机器学习库，简单易用。它帮助您从数据
 
 #### 装置
 
-```
+```py
 pip install pycaret
 ```
 
 如果你用的是 Azure 笔记本或者谷歌可乐
 
-```
+```py
 !pip install pycaret
 ```
 
@@ -26,7 +26,7 @@ pip install pycaret
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 # for reading and manipulating data
 import numpy as np
@@ -37,7 +37,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # reading the data from csv file
 iris_classification = pd.read_csv('Iris.csv')
 

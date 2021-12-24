@@ -15,7 +15,7 @@
 
 ## python 3
 
-```
+```py
 from collections import Counter
 
 def count_in_list(l, word):
@@ -27,7 +27,7 @@ def count_in_list(l, word):
 
 ## 蟒 3
 
-```
+```py
 from test_package import count_in_list
 
 l = ["gfg", "dsa", "gfg"]

@@ -21,7 +21,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to pick a random
 # word from a text file
 import random
@@ -47,7 +47,7 @@ with open("MyFile.txt", "r") as file:
 
 ## 计算机编程语言
 
-```
+```py
 # import required module
 import random
 
@@ -67,7 +67,7 @@ print(random.choice(open("myFile.txt","r").readline().split()))
 
 ## **计算机编程语言**
 
-```
+```py
 # using randint()
 import random
 

@@ -14,7 +14,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 要使用动画，您必须从 kivy 导入:
 > 动画导入动画
 
-```
+```py
 Basic Approaches: 
 
 1) import runTouchApp
@@ -40,7 +40,7 @@ Basic Approaches:
 
 ## 蟒蛇 3
 
-```
+```py
 # work same as kivy.App used to run the App
 from kivy.base import runTouchApp
 

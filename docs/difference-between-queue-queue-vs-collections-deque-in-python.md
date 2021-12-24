@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import threading, queue
 
@@ -43,7 +43,7 @@ print("all tasks completed")
 
 **输出:**
 
-```
+```py
 all tasks sent
 task 0 started
 task 0 finished
@@ -63,7 +63,7 @@ all tasks completed
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from collections import deque
 

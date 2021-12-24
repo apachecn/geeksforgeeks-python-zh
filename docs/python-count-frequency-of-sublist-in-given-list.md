@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sublist Frequency
 # Using list comprehension + slicing 
@@ -41,7 +41,7 @@ print("The sublist count : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 3, 5, 7, 8, 3, 5, 7, 2, 7, 3, 2]
 The sublist count : 2
 
@@ -53,7 +53,7 @@ The sublist count : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sublist Frequency
 # Using zip_longest() + islice() + all() + loop 
@@ -93,7 +93,7 @@ print("The sublist count : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 3, 5, 7, 8, 3, 5, 7, 2, 7, 3, 2]
 The sublist count : 2
 

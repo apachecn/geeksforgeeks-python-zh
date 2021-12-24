@@ -10,7 +10,7 @@
 
 pip 使用 PyPI 作为包及其依赖项的默认来源。所以无论何时你输入:
 
-```
+```py
 pip install package_name
 ```
 
@@ -20,7 +20,7 @@ pip 将在 PyPI 上查找该包，如果找到，它将在您本地系统上下�
 
 通过以下命令，可以在 Linux 中使用终端下载和安装 pip:
 
-```
+```py
 sudo apt-get install python3-pip python-dev
 ```
 
@@ -41,7 +41,7 @@ sudo apt-get install python3-pip python-dev
 
 通过对 pip 执行版本检查，可以轻松验证 pip 是否已正确安装。只需转到命令行并执行以下命令:
 
-```
+```py
 pip3 --version
 ```
 

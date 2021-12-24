@@ -27,11 +27,11 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用此小部件，您必须导入:
 
-```
+```py
 from kivy.uix.carousel import Carousel
 ```
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivy App
@@ -46,7 +46,7 @@ Basic Approach:
 
 **实施方法:**
 
-```
+```py
 # Program to explain how to add carousel in kivy 
 
 # import kivy module    

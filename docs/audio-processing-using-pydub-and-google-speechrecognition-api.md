@@ -10,7 +10,7 @@
 
 **所需安装:**
 
-```
+```py
 pip3 install pydub
 pip3 install audioread
 pip3 install SpeechRecognition
@@ -20,7 +20,7 @@ pip3 install SpeechRecognition
 
 **步骤#1:** 它处理将音频文件分割成固定间隔的小块。切片可以重叠，也可以不重叠。重叠意味着创建的下一个块将从一个恒定的时间向后开始，因此在切片期间，如果任何音频/单词被剪切，它可以被这个重叠覆盖。例如，如果音频文件是 22 秒，并且重叠是 1.5 秒，则这些组块的定时将是:
 
-```
+```py
   chunk1 : 0 - 5 seconds
   chunk2 : 3.5 - 8.5 seconds
   chunk3 : 7 - 12 seconds
@@ -37,7 +37,7 @@ pip3 install SpeechRecognition
 
 **示例:**
 
-```
+```py
 Input :  [Geek.wav](https://media.geeksforgeeks.org/wp-content/uploads/1.wav)
 
 Output : 
@@ -49,7 +49,7 @@ Text File: recognized
 
 下面是实现:
 
-```
+```py
 # Import necessary libraries
 from pydub import AudioSegment
 import speech_recognition as sr

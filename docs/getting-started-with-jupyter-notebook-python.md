@@ -12,14 +12,14 @@ Jupyter 支持 40 多种不同的编程语言，Python 就是其中之一。Pyth
 
 **使用 PIP 安装 Jupyter 笔记本:**
 
-```
+```py
 python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
 ```
 
 **运行 Jupyter 笔记本的命令:**
 
-```
+```py
 jupyter notebook
 ```
 
@@ -37,25 +37,25 @@ jupyter notebook
 
 *   命令在当前运行的笔记本服务器中打开笔记本。
 
-    ```
+    ```py
     jupyter notebook notebook_name.ipynb
     ```
 
 *   默认情况下，笔记本服务器从端口 8888 启动。如果端口 8888 不可用或正在使用，笔记本服务器将搜索下一个可用端口。您也可以手动指定端口。在本例中，我们将服务器的端口设置为 9999:
 
-    ```
+    ```py
     jupyter notebook --port 9999
     ```
 
 *   无需打开网页浏览器即可启动笔记本服务器的命令:
 
-    ```
+    ```py
     jupyter notebook --no-browser
     ```
 
 *   The notebook server provides help messages for other command line arguments using the –help flag:
 
-    ```
+    ```py
     jupyter notebook --help
     ```
 
@@ -72,35 +72,35 @@ jupyter notebook
 
     *   要更改模式(编辑，命令):
 
-        ```
+        ```py
         Esc - Change mode to command mode
         Enter - Change mode to edit mode
         ```
 
     *   更改内容类型(代码或降价)[在命令模式下]
 
-        ```
+        ```py
         m - Change to markdown
         y - Change to code
         ```
 
     *   执行代码或降价[任何模式]
 
-        ```
+        ```py
         Shift + Enter - Execute and go to next cell
         Ctrl + Enter  - Execute and be in the same cell
         ```
 
     *   要插入单元格[在命令模式下]
 
-        ```
+        ```py
         a - Create cell in above to the cell
         b - Create cell in below to the cell
         ```
 
     *   [在命令模式下]剪切复制粘贴
 
-        ```
+        ```py
         x - Cut the cell that can be paste anywhere any number of times
         c - Copy the cell that can be paste anywhere and any number of times
         v - Paste the cell

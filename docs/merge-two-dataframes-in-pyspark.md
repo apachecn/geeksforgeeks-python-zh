@@ -19,7 +19,7 @@ spark(Apache 开源大数据处理引擎)是一个集群计算系统。与其他
 
 ## 蟒蛇 3
 
-```
+```py
 from functools import reduce  # For Python 3.x
 from pyspark.sql import DataFrame
 
@@ -39,7 +39,7 @@ unionAll(td2, td3, td4, td5, td6, td7, td8, td9, td10)
 
 ## 蟒蛇 3
 
-```
+```py
 import functools
 
 def unionAll(dfs):
@@ -56,7 +56,7 @@ def unionAll(dfs):
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from pyspark.sql import SparkSession
 import functools
@@ -86,7 +86,7 @@ unioned_df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from functools import reduce  
 from pyspark.sql import DataFrame

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 print(random.uniform(0, 1))
@@ -22,7 +22,7 @@ print(random.uniform(0, 1))
 
 **输出:**
 
-```
+```py
 0.0023922878433915162
 ```
 
@@ -34,7 +34,7 @@ print(random.uniform(0, 1))
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 print(random.random())
@@ -42,7 +42,7 @@ print(random.random())
 
 **输出:**
 
-```
+```py
 0.7769332461684861
 ```
 
@@ -54,7 +54,7 @@ print(random.random())
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 x=np.random.random(1)[0]
@@ -63,7 +63,7 @@ print(x)
 
 **输出:**
 
-```
+```py
 0.03394418147881839
 ```
 
@@ -77,7 +77,7 @@ print(x)
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 print(random.randint(0, 10**5)/ 10**5)
@@ -85,6 +85,6 @@ print(random.randint(0, 10**5)/ 10**5)
 
 **输出:**
 
-```
+```py
 0.59882
 ```

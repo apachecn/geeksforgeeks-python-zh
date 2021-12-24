@@ -4,7 +4,7 @@
 
 给定一个字符串列表，编写一个 Python 程序将所有字符串从小写/大写转换为大写/小写。
 
-```
+```py
 Input : ['GeEk', 'FOR', 'gEEKS']
 Output: ['geeks', 'for', 'geeks']
 
@@ -14,7 +14,7 @@ Output: ['FUN', 'FOO', 'BAR']
 
 **方法#1 :** 使用`map` 功能将大写转换为小写
 
-```
+```py
 # Python code to convert all string
 # from uppercase to lowercase.
 
@@ -30,14 +30,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 ['geek', 'for', 'geeks']
 
 ```
 
 **方法 2:** 使用列表理解将小写转换为大写
 
-```
+```py
 # Python code to convert all string
 # from uppercase to lowercase.
 
@@ -53,7 +53,7 @@ print(lst)
 
 **Output:**
 
-```
+```py
 ['FUN', 'FOO', 'BAR']
 
 ```

@@ -9,13 +9,13 @@
 
 *   **硒**–硒没有内置 python。要安装 selenium，请在终端中键入以下命令。
 
-```
+```py
 pip install selenium
 ```
 
 *   **Pyautogui**–Pyautogui 也没有内置 python。要安装 pyautogui，请在终端中键入以下命令。
 
-```
+```py
 pip install pyautogui
 ```
 
@@ -24,7 +24,7 @@ pip install pyautogui
 下面是实现。
 首先，让我们导入所有重要的东西。
 
-```
+```py
 # connect python with webbrowser-chrome
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -33,7 +33,7 @@ import pyautogui as pag
 
 现在，让我们编写主函数-
 
-```
+```py
 def main():
     # url of LinkedIn
     url = “http://linkedin.com/"  
@@ -50,7 +50,7 @@ if __name__ == __main__:
 
 我们需要转到认证页面，然后我们需要登录。这里是代码-
 
-```
+```py
 def login():
     # Getting the login element
     username = driver.find_element_by_id(“login-email”)  
@@ -67,7 +67,7 @@ def login():
 find_element_by_id 用于查找 HTML 标记‘登录-电子邮件’和‘登录-密码’，然后我们发送了这些的密钥。
 接下来，我们转到网络部分-
 
-```
+```py
 def goto_network():
     driver.find_element_by_id(“mynetwork-tab-icon”).click()
 ```
@@ -75,7 +75,7 @@ def goto_network():
 现在，LinkedIn 试图防止刮擦，所以找到连接按钮可能有点棘手。所以你需要努力找到连接按钮的位置(你可以使用一些技术，比如 Xpath)。
 发送请求的代码-
 
-```
+```py
 def send_requests():
     # Number of requests you want to send
     n = input(“Number of requests: ”)   
@@ -92,7 +92,7 @@ def send_requests():
 
 ## 蟒蛇 3
 
-```
+```py
 # connect python with webbrowser-chrome
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -55,7 +55,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 move_to 340.000000 60.000000
 line_to 339.800781 63.953125
 line_to 339.218750 67.839844

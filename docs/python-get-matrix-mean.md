@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Mean
 # Using list comprehension + sum() + len() + zip()
@@ -43,7 +43,7 @@ print("Matrix Mean : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 6, 3], [8, 3, 1], [9, 10, 4], [8, 4, 2]]
 Matrix Mean : 5.25
 
@@ -55,7 +55,7 @@ Matrix Mean : 5.25
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Mean
 # Using mean() + zip() + list comprehension
@@ -81,7 +81,7 @@ print("Matrix Mean : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[5, 6, 3], [8, 3, 1], [9, 10, 4], [8, 4, 2]]
 Matrix Mean : 5.25
 

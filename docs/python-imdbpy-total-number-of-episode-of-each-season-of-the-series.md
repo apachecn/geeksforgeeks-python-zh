@@ -15,7 +15,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -50,7 +50,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Sacred Games
 Total Episodes in Season 2 : 8
 Total Episodes in Season 1 : 8
@@ -58,7 +58,7 @@ Total Episodes in Season 1 : 8
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -93,7 +93,7 @@ for i in episodes.keys():
 
 **输出:**
 
-```
+```py
 Money Heist
 Total Episodes in Season 4 : 8
 Total Episodes in Season 1 : 9

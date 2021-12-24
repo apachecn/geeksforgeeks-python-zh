@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 name_of_dir = 'dir_path'
@@ -49,7 +49,7 @@ for name_of_file in list_of_files:
 
 **输出:**
 
-```
+```py
 366  --> descript.ion
 1688  --> readme.txt
 3990  --> License.txt
@@ -76,7 +76,7 @@ for name_of_file in list_of_files:
 
 ## 蟒蛇 3
 
-```
+```py
 import glob
 import os
 
@@ -100,7 +100,7 @@ for path_of_file in list_of_files:
 
 **输出:**
 
-```
+```py
 366  --> C:/Program Files/7-Zip\descript.ion
 1688  --> C:/Program Files/7-Zip\readme.txt
 3990  --> C:/Program Files/7-Zip\License.txt

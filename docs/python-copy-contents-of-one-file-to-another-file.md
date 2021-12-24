@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # open both files
 with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
 
@@ -39,7 +39,7 @@ with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
 
 ## 蟒蛇 3
 
-```
+```py
 # open both files
 with open('first.txt','r') as firstfile, open('second.txt','w') as secondfile:
 
@@ -62,7 +62,7 @@ Python 中的 *shutil.copy()* 方法用于将源文件的内容复制到目标�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import shutil
 

@@ -41,7 +41,7 @@ k 均值聚类是最常用的聚类算法之一。这里， **k** 代表簇的�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
@@ -65,7 +65,7 @@ plt.imshow(image)
 
 ## 蟒蛇 3
 
-```
+```py
 # Reshaping the image into a 2D array of pixels and 3 color values (RGB)
 pixel_vals = image.reshape((-1,3))
 
@@ -79,7 +79,7 @@ pixel_vals = np.float32(pixel_vals)
 
 ## 蟒蛇 3
 
-```
+```py
 #the below line of code defines the criteria for the algorithm to stop running,
 #which will happen is 100 iterations are run or the epsilon (which is the required accuracy)
 #becomes 85%

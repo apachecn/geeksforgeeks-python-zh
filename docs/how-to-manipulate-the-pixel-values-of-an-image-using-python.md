@@ -16,13 +16,13 @@
 
 ****将图像转换为灰度图像的平均公式:****
 
-```
+```py
 **G = (R+G+B) / 3**
 ```
 
 ****上述公式在理论上是正确的，但一个更改进的公式(加权法，也称为光度法，根据红色、绿色和蓝色的波长对它们进行加权)如下:****
 
-```
+```py
 **G = (0.299R + 0.587G + 0.114B)**
 ```
 
@@ -34,7 +34,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from PIL import Image
 
 # Import an image from directory:
@@ -86,7 +86,7 @@ input_image.save("grayscale", format="png")
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from PIL import Image
 
 # Create an image as input:

@@ -10,13 +10,13 @@ Pygal 是一个 Python 模块，主要用于构建 SVG(标量矢量图形)图形
 
 **语法:**
 
-```
+```py
 pyramid_chart = pygal.Pyramid()
 ```
 
 **例 1:**
 
-```
+```py
 import pygal
 import random
 
@@ -44,7 +44,7 @@ pyramid_chart
 
 **例 2:**
 
-```
+```py
 import pygal
 import random
 

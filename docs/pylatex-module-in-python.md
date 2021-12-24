@@ -6,7 +6,7 @@
 
 Latex 发音为“Lay-tech”，是一个高质量文档的文档制作系统。它主要用于技术或科学文件的准备，但它可以用于几乎所有形式的出版。Latex 不像 MS Word 或 LibreOffice Writer 那样是文字处理器。相反，Latex 鼓励作者不要担心文档的外观，而是专注于获得正确的内容。例如，考虑以下文档:
 
-```
+```py
 This article explains the use of pylatex module
 GeeksforGeeks
 October 2018
@@ -15,7 +15,7 @@ October 2018
 
 为了在大多数文字处理器中实现这一点，作者必须决定使用什么布局，因此会选择(假设)`18pt Helvetica`作为标题，`12pt Times Roman`作为名称，依此类推。这导致作者浪费时间设计文档。Latex 基于让作者继续编写文档并将文档的设计留给文档设计者的想法。因此，在 Latex 中，您可以将上述文档输入为:
 
-```
+```py
 \documentclass{article}
 \title{This article explains use of pylatex module}
 \author{GeeksforGeeks}
@@ -52,7 +52,7 @@ October 2018
 **一个 latex 文档的例子:**
 **例子 1:** 在这个例子中我们形成了一个简单的 latex 为了从 latex 中，我们使用了简单的输入格式就像我们在 LaTeX 中使用的一样。
 
-```
+```py
 \documentclass{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
@@ -91,7 +91,7 @@ Also some crazy symbols: \$\&\#\{\}%
 
 **例 2:** 在本例中我们使用了，标签，分段的顺序来形成乳胶。
 
-```
+```py
 \documentclass{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
@@ -163,21 +163,21 @@ pylatex 的一些特点是:
 *   Install MikTeX and pylatex module in your system and import it into python code.
     For installing MikTeX on your system, go to :
 
-    ```
+    ```py
     https://miktex.org/download
 
     ```
 
     要在基于 windows 的操作系统上安装 pylatex，请在命令提示符下输入以下命令:
 
-    ```
+    ```py
     python -m pip install pylatex
 
     ```
 
 *   从 pylatex 模块创建文档导入文档类。乳胶中有不同的文件类型:文章、报告、信件等。要创建文章类型的文档，请创建 latex 的 document 类的对象，并将“文章”
 
-    ```
+    ```py
     doc=Document(documentclass='article')
 
     ```
@@ -185,7 +185,7 @@ pylatex 的一些特点是:
     作为参数传递
 *   要在文档中添加必要的更改，如样式或格式，请从 pylatex 导入 python 代码中所需的类。使用 pylatex 在 latex 文档中添加不同的实用程序，以下方法是可行的
 
-    ```
+    ```py
     from pylatex import Document, Section, Subsection
     from pylatex.utils import italic, bold
 
@@ -193,7 +193,7 @@ pylatex 的一些特点是:
 
 *   要生成文档的 pdf 文件，使用 document 类的对象调用 Document 类的 generate_pdf 方法，并确保以这种方式在其参数中传递 PDF 文档的名称
 
-    ```
+    ```py
     doc.generate_pdf("Demo_article")
 
     ```
@@ -201,7 +201,7 @@ pylatex 的一些特点是:
 **皮拉泰示例:**
 **代码 1:**
 
-```
+```py
 # Python program creating a
 # small document using pylatex
 
@@ -245,7 +245,7 @@ if __name__ == '__main__':
 
 **代码 2:**
 
-```
+```py
 import numpy as np
 
 from pylatex import Document, Section, Subsection, Tabular

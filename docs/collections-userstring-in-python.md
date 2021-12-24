@@ -7,7 +7,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string
 
@@ -26,7 +26,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 String with the use of Single Quotes: 
 Welcome to the Geeks World
 
@@ -41,7 +41,7 @@ I'm a Geek
 Python 支持一个[字符串](http://geeksforgeeks.org/python-strings/)，就像集合模块中的一个名为**用户字符串**的容器。这个类充当字符串对象的包装类。当一个人想要创建一个自己的带有一些修改的功能或一些新功能的字符串时，这个类是有用的。它可以被认为是为字符串添加新行为的一种方式。这个类接受任何可以转换成字符串的参数，并模拟一个内容保存在常规字符串中的字符串。该字符串可由该类的数据属性访问。
 **语法:**
 
-```
+```py
 collections.UserString(seq)
 ```
 
@@ -49,7 +49,7 @@ collections.UserString(seq)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # userstring
 
@@ -68,7 +68,7 @@ print(userS.data)
 
 **输出:**
 
-```
+```py
 12344
 ```
 
@@ -76,7 +76,7 @@ print(userS.data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # userstring
 
@@ -110,7 +110,7 @@ print("String after Removing:", s1.data)
 
 **输出:**
 
-```
+```py
 Original String: Geeks
 String After Appending: Geekss
 String after Removing: Gkss

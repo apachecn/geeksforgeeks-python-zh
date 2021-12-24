@@ -4,7 +4,7 @@
 
 PySide2 是 python 中最著名的构建 GUI 应用程序的库之一。在本文中，我们将使用 PySide2 库构建一个空窗口。
 
-```
+```py
 Steps to create empty window :
 
 1\. Import PySide2 in your code
@@ -16,7 +16,7 @@ Steps to create empty window :
 
 ## 蟒蛇 3
 
-```
+```py
 # import system module
 import sys
 

@@ -24,7 +24,7 @@ Tweepy 模块中`API`类的 **`update_list()`** 方法用于更新列表。
 
 **示例 1 :** 更改列表名称。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -62,7 +62,7 @@ print("The name of the list is : " + api.get_list(list_id = list_id).name)
 
 **输出:**
 
-```
+```py
 Before using update_list() method
 The name of the list is : Sample List
 After using update_list() method
@@ -72,7 +72,7 @@ The name of the list is : Modified List
 
 **示例 2 :** 更新列表的描述。
 
-```
+```py
 # the screen name of the owner of the list
 owner_screen_name =
 
@@ -92,7 +92,7 @@ print("The description of the list is : " + api.get_list(list_id = list_id).desc
 
 **输出:**
 
-```
+```py
 Before using update_list() method
 The description of the list is : 
 After using update_list() method

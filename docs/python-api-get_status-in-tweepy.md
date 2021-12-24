@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`API.get_status()`** 方法用于获取状态/推�
 **示例 1 :** 考虑以下推文:
 ![](img/3ced6a85c7d0b81b2033dbe58a523fc8.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -51,7 +51,7 @@ print("The text of the status is : " + status.text)
 
 **输出:**
 
-```
+```py
 The text of the tweet is : This is a tweet.
 ```
 
@@ -59,7 +59,7 @@ The text of the tweet is : This is a tweet.
 ![](img/8dbee9eb8e96767186941174843985e1.png)
 获取上述推文的网名、回复数、转发数。
 
-```
+```py
 # the ID of the status
 ID = 1265569813281280006
 
@@ -81,7 +81,7 @@ print("The status has been retweeted " + str(status.retweet_count) + " number of
 
 **输出:**
 
-```
+```py
 The text of the status is : 
 
 Apart from coding, what GEEKS are doing in quarantine?

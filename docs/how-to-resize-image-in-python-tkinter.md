@@ -17,7 +17,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from PIL import Image, ImageTk
@@ -27,13 +27,13 @@ from PIL import Image, ImageTk
 
 **语法:**
 
-```
+```py
 Image.open("Enter Image File Path", mode='r', **attr)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Read the Image
 image = Image.open("Image File Path")
 ```
@@ -42,13 +42,13 @@ image = Image.open("Image File Path")
 
 **语法:**
 
-```
+```py
 Image.resize((width,height) , resample=3, **attr)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Resize the image using resize() method
 resize_image = image.resize((width, height))
 ```
@@ -57,7 +57,7 @@ resize_image = image.resize((width, height))
 
 ## 蟒蛇 3
 
-```
+```py
 img = ImageTk.PhotoImage(resize_image)
 
 # create label and add resize image
@@ -70,7 +70,7 @@ label1.pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 from PIL import Image, ImageTk

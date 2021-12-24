@@ -4,7 +4,7 @@
 
 **Cachetools** 是一个 Python 模块，提供各种记忆集合和装饰器。它还包括 functools 的@lru_cache 装饰器的变体。要使用它，首先，我们需要使用 pip 安装它。
 
-```
+```py
 pip install cachetools
 ```
 
@@ -24,7 +24,7 @@ pip install cachetools
 
 **语法:**
 
-```
+```py
 @cached(cache = {})
 def some_fun():
     pass
@@ -33,7 +33,7 @@ def some_fun():
 
 **示例:**我们用一个例子来看看。我们将使用时间模块来查看我们模块的效率。
 
-```
+```py
 from cachetools import cached
 import time
 
@@ -59,7 +59,7 @@ print("Time Taken(cached): ", time.time() - s)
 
 **输出:**
 
-```
+```py
 9227465
 Time Taken:  4.553245782852173
 9227465
@@ -73,7 +73,7 @@ Time Taken(cached):  0.0003821849822998047
 
 **语法:**
 
-```
+```py
 @cached(cache= LRUCache(maxsize= 3))
 def some_fun():
     pass
@@ -82,7 +82,7 @@ def some_fun():
 
 **示例:**
 
-```
+```py
 from cachetools import cached, LRUCache
 import time
 
@@ -122,7 +122,7 @@ print(myfun(3))
 
 **输出:**
 
-```
+```py
 Time Taken:  3.0030977725982666
 I am executed: 3
 I am executed: 3
@@ -143,7 +143,7 @@ I am executed: 3
 
 **注意:** **LRUCache** 也可以从标准 Python 包——functools 调用。它可以被导入为
 
-```
+```py
 from functools import lru_cache
 @lru_cache
 def myfunc():
@@ -156,7 +156,7 @@ def myfunc():
 
 **语法:**
 
-```
+```py
 @cached(cache= TTLCache(maxsize= 33, ttl = 600))
 def some_fun():
     pass
@@ -165,7 +165,7 @@ def some_fun():
 
 **示例:**
 
-```
+```py
 from cachetools import cached, TTLCache
 import time
 
@@ -188,7 +188,7 @@ print(myfun(3))
 
 **输出:**
 
-```
+```py
 Time Taken:  3.0031025409698486
 I am executed: 3
 I am executed: 3
@@ -203,7 +203,7 @@ I am executed: 3
 
 **语法:**
 
-```
+```py
 @cached(cache= LFUCache(maxsize= 33))
 def some_fun():
     pass
@@ -212,7 +212,7 @@ def some_fun():
 
 **示例:**
 
-```
+```py
 from cachetools import cached, LFUCache
 import time
 
@@ -241,7 +241,7 @@ print(myfun(4))
 
 **输出:**
 
-```
+```py
 
 Time Taken:  3.002413272857666
 I am executed: 3
@@ -268,7 +268,7 @@ I am executed: 4
 
 **语法:**
 
-```
+```py
 @cached(cache= RRCache(maxsize= 33))
 def some_fun():
     pass
@@ -277,7 +277,7 @@ def some_fun():
 
 **示例:**
 
-```
+```py
 from cachetools import cached, RRCache
 import time
 
@@ -306,7 +306,7 @@ print(myfun(3))
 
 **输出:**
 
-```
+```py
 Time Taken:  3.003124713897705
 I am executed: 3
 I am executed: 3

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List to Index and Value dictionary
 # Using loop + enumerate()
@@ -44,7 +44,7 @@ print("Constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 5, 7, 8, 2, 4, 9]
 Constructed dictionary : {'indx': [0, 1, 2, 3, 4, 5, 6], 'vals': [3, 5, 7, 8, 2, 4, 9]}
 

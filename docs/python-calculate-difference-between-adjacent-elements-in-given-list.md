@@ -6,7 +6,7 @@
 
 **方法一:使用`zip()`**
 
-```
+```py
 # Python code to demonstrate
 # to calculate difference
 # between adjacent elements in list
@@ -29,7 +29,7 @@ print ("difference list: ", str(diff_list))
 
 **输出:**
 
-```
+```py
 intial_list [5, 4, 89, 12, 32, 45]
 difference list:  [-1, 85, -77, 20, 13]
 

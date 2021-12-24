@@ -13,14 +13,14 @@ Pepperstone offers free historical tick data for specific pairs of currencies. T
 **Steps in Python:**
 As you can see there is no header to the data. We’ll include the header and programmatically accomplish the necessary mission.**Code: Importing pandas package.**
 
-```
+```py
 # importing libraries
 import pandas as pd
 ```
 
 **代码:加载数据。**
 
-```
+```py
 data_frame = pd.read_csv(
     'AUDJPY-2016-01.csv', names=['Symbol', 'Date_Time', 'Bid', 'Ask'],
                                        index_col=1, parse_dates=True)
@@ -30,14 +30,14 @@ data_frame.head()
 数据以' AUDJPY-2016-01.csv '的名称存储在工作目录中。正如我们前面看到的，数据没有头。然后，我们将在导入数据时为其添加一个标题。因此，导入和添加标题发生在同一行代码中。
 使用熊猫数据帧的重采样属性。重采样功能允许重新检查标准时间序列数据。在 15 分钟内，我们必须对数据进行重新采样，并将其划分为 OHLC 格式。如果要对更小的时间帧(毫秒/微秒/秒)重新采样，则使用 L 表示毫秒，U 表示微秒，S 表示秒，等等。
 
-```
+```py
 data_ask = data_frame['Ask'].resample('15Min').ohlc()
 data_bid = data_frame['Bid'].resample('15Min').ohlc()
 ```
 
 **代码:“询问”数据框**
 
-```
+```py
 data_ask.head()
 ```
 
@@ -45,7 +45,7 @@ data_ask.head()
 
 **Code: ‘Bid’ Dataframe**
 
-```
+```py
 data_bid.head()
 ```
 
@@ -53,7 +53,7 @@ data_bid.head()
 
 **代码:合并“要价”和“出价”数据框**
 
-```
+```py
 data_ask_bid = pd.concat(
     [data_ask, data_bid], axis=1, 
     keys=['Ask', 'Bid'])

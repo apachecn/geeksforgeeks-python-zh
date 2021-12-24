@@ -8,13 +8,13 @@
 
 对于窗口终端:
 
-```
+```py
 pip install graphviz
 ```
 
 对于蟒蛇码头:
 
-```
+```py
 conda install -c anaconda graphviz
 ```
 
@@ -31,7 +31,7 @@ conda install -c anaconda graphviz
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from graphviz import Digraph
 
@@ -56,7 +56,7 @@ dot.render('Graph', view = True) 
 
 **输出:**
 
-```
+```py
 Graph.png
 ```
 
@@ -66,6 +66,6 @@ Graph.png
 
 ## 蟒蛇 3
 
-```
+```py
 print(dot.source)
 ```

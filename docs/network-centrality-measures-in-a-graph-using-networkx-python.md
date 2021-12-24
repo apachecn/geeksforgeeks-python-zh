@@ -12,7 +12,7 @@
 
 首先，我们需要考虑 1977 年出版的著名社交图，叫做扎卡里空手道俱乐部图。这是一个内置的网络图。所有的中心性度量都将使用该图进行演示。
 
-```
+```py
 import matplotlib.pyplot as plt
 import networkx as nx
 
@@ -35,7 +35,7 @@ nx.draw_networkx(g, with_labels = True)
 
 网络中
 
-```
+```py
 deg_centrality = nx.degree_centrality(G)
 
 # G is the Karate Club Graph
@@ -44,7 +44,7 @@ print(deg_centrality)
 
 **输出:**
 
-```
+```py
 {0: 0.48484848484848486,
  1: 0.2727272727272727,
  2: 0.30303030303030304,
@@ -84,7 +84,7 @@ print(deg_centrality)
 
 返回一个字典，其大小等于图 G 中的节点数，其中 ith 元素是 ith 节点的度中心性度量。对于有向图，度和度的度量是不同的。计算方法如下:
 
-```
+```py
 in_deg_centrality = nx.in_degree_centrality(G)
 out_deg_centrality = nx.out_degree_centrality(G)
 ```
@@ -96,7 +96,7 @@ out_deg_centrality = nx.out_degree_centrality(G)
 这是基于重要节点靠近其他节点的假设。它被计算为从给定节点到所有其他节点的路径长度的总和。但是对于一个不能到达所有其他节点的节点，用下面的公式来衡量贴近度中心度:
 ![Centrality_{closeness}(v) = (|R(v)|/|N|-1) * (|R(v)|/\Sigma_{u \epsilon R(v)}d(v, u))](img/514f9bb84fee8c0141a13babeada4a52.png "Rendered by QuickLaTeX.com")其中，R(v)是 v 能到达的所有节点的集合。
 
-```
+```py
 close_centrality = nx.closeness_centrality(G)
 
 # G is the Karate Social Graph
@@ -105,7 +105,7 @@ print(close_centrality)
 
 **输出:**
 
-```
+```py
 {0: 0.5689655172413793,
  1: 0.4852941176470588,
  2: 0.559322033898305,
@@ -151,7 +151,7 @@ print(close_centrality)
 
 对于具有大量节点的图，介数中心度的值非常高。因此，我们可以通过除以节点对的数量(不包括当前节点)来归一化该值。对于有向图，节点对的数量为`(|N|-1)*(|N|-2)`，而对于无向图，节点对的数量为`(1/2)*(|N|-1)*(|N|-2)`。
 
-```
+```py
 bet_centrality = nx.betweenness_centrality(G, normalized = True, 
                                               endpoints = False)
 
@@ -163,7 +163,7 @@ print(bet_centrality)
 
 **输出:**
 
-```
+```py
 {0: 0.43763528138528146,
  1: 0.053936688311688304,
  2: 0.14365680615680618,
@@ -205,7 +205,7 @@ print(bet_centrality)
 
 页面排名算法是由谷歌创始人开发的，用于从超链接网络结构中衡量网页的重要性。页面排名为每个节点分配一个重要性分数。重要节点是那些具有来自重要页面的许多内联的节点。它主要用于定向网络。
 
-```
+```py
 n -> Number of nodes
 k -> Number of steps
 
@@ -219,7 +219,7 @@ Repeat k times :
 为了理解页面排名，我们将考虑以下图表:
 ![](img/2a6b42fa524b69ce51d43940ed5fcfdf.png)
 
-```
+```py
 Let k = 2
 
 Initially,
@@ -253,7 +253,7 @@ B > C > D > A > E
 ![](img/635b579f38e9381e068c211a89615a3a.png)
 对于 *k* 趋于无穷大的随机游走，最终会去 F 或者 G，会卡在那里。因此，对于 F = 1/2，G = 1/2 的页面等级，其余节点的页面等级将为 0。这通过引入“阻尼参数”![\alpha](img/da2f298cb7c1dd3024c0cfda151c6997.png "Rendered by QuickLaTeX.com")来解决。
 
-```
+```py
 Each node has a Page Rank of 1/n
 Start on a Random Node
 Repeat k times:
@@ -264,7 +264,7 @@ Repeat k times:
 
 alpha 的值通常设置在 0.8 到 0.9 之间。
 
-```
+```py
 pr = nx.pagerank(G, alpha = 0.8)
 
 # G is the Karate Social Graph
@@ -273,7 +273,7 @@ print(pr)
 
 **输出:**
 
-```
+```py
 {0: 0.09456117898156402,
  1: 0.05152334607950815,
  2: 0.05510962827358582,

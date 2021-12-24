@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pygame 
 import sys 
 

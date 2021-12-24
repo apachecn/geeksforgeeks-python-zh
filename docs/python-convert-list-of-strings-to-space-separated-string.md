@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ['geeks', 'for', 'geeks']
 Output : geeks for geeks
 
@@ -19,7 +19,7 @@ Output : Python Language
 
 string translate()方法返回一个字符串，其中每个字符都映射到翻译表中相应的字符。这种方法的局限性是不适用于 Python 3 及以上版本。
 
-```
+```py
 # Python3 program to Convert a list of 
 # strings to space-separated string
 
@@ -34,7 +34,7 @@ print(convert(lst))
 
 **Output:**
 
-```
+```py
 geeks for geeks
 
 ```
@@ -42,7 +42,7 @@ geeks for geeks
 **方法#2 :** *join()* 函数
 join()方法是一个字符串方法，返回一个字符串，其中序列的元素已经通过字符串分隔符连接在一起。在这种方法中，空间是分隔符。
 
-```
+```py
 # Python3 program to Convert list of 
 # strings to space separated string
 
@@ -57,7 +57,7 @@ print(convert(lst))
 
 **Output:**
 
-```
+```py
 geeks for geeks
 
 ```

@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `zip() + intersection()`**
 列表理解完成相似指标元素的相交任务。zip 函数的任务是将结果字符串连接成单个列表和返回列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Like Index Common characters
 # using list comprehension + zip() + intersection()
@@ -30,7 +30,7 @@ print ("The list after element intersection is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['Geeksfor', 'is', 'be']
 The original list 2 is : ['Geeks', 'sb', 'ste']
 The list after element intersection is : ['sGek', 's', 'e']

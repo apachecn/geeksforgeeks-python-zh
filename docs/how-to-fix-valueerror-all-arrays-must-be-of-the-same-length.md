@@ -6,7 +6,7 @@
 
 **错误:**
 
-```
+```py
 ValueError: All arrays must be of the same length
 ```
 
@@ -14,7 +14,7 @@ ValueError: All arrays must be of the same length
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 ValueError: arrays must all be same length
 ```
 
@@ -40,7 +40,7 @@ ValueError: arrays must all be same length
 
 将成为列的列表 sepal_length 的长度不等于列表 sepal _ witdth 列的长度。
 
-```
+```py
 len(sepal_length)!= len(sepal_width)
 ```
 
@@ -52,7 +52,7 @@ len(sepal_length)!= len(sepal_width)
 
 考虑两个列表列表 1 和列表 2:
 
-```
+```py
 if (len(list1) > len(list2)):
        list2 += (len(list1)-len(list2)) * [any_suitable_value]
 elif (len(list1) < len(list2)):
@@ -65,7 +65,7 @@ elif (len(list1) < len(list2)):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing statistics

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # forget to import numpy
 
 # using numpy
@@ -38,7 +38,7 @@ print(array)
 
 为了开始安装过程，我们需要在我们的设备上安装 python，然后我们需要打开命令提示符，并在提示符中编写以下命令来安装“pyforest”模块，该模块为我们提供了 lazy_module()的功能。
 
-```
+```py
 Installation: 
 pip install pyforest
 
@@ -54,7 +54,7 @@ pip install --upgrade pyforest
 
 ## 蟒蛇 3
 
-```
+```py
 import pyforest
 
 print(lazy_imports())
@@ -72,7 +72,7 @@ print(lazy_imports())
 
 ## 蟒蛇 3
 
-```
+```py
 # forget to import numpy
 # nut importing pyforest
 import pyforest
@@ -86,7 +86,7 @@ print(active_imports())
 
 **输出:**
 
-```
+```py
 [1 2 3]
 import numpy as np
 ['import numpy as np']
@@ -96,7 +96,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # forget to import numpy, matplotlib
 # but importing pyforest
 import pyforest

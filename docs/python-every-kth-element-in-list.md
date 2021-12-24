@@ -7,7 +7,7 @@
 **方法:使用列表切片**
 这个任务可以使用列表切片功能来执行。这里的技巧是使用 list 的跳过功能来获取 list 的每个 Kth 元素。定义的 k 可以用作跳过元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Kth element list
 # Using list slicing 
@@ -31,7 +31,7 @@ print("Kth element list is : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [6, 4, 8, 9, 10, 5, 8, 9, 10, 2, 34, 5]
 Kth element list is : [6, 9, 8, 2]

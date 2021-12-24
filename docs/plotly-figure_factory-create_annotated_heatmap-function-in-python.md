@@ -30,7 +30,7 @@ Python 的 Plotly 库对于数据可视化和简单容易地理解数据非常�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 z = [[0.300000, 0.00000, 0.65, 0.300000],
@@ -49,7 +49,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.figure_factory as ff
 
 z = [[.1, .3, .5, .7],

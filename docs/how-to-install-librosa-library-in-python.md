@@ -12,7 +12,7 @@ Librosa 是一个用于音乐和音频分析的 Python 包。Librosa 基本上�
 
     打开系统上的命令提示符，并编写其中任何一个命令。
 
-    ```
+    ```py
     pip install librosa 
     sudo pip install librosa
     pip install -u librosa
@@ -24,7 +24,7 @@ Librosa 是一个用于音乐和音频分析的 Python 包。Librosa 基本上�
 
     如果使用 conda/Anaconda 环境，可以从 conda-forge 通道安装 librosa。打开 Anaconda 提示符并写道:
 
-    ```
+    ```py
     conda install -c conda-forge librosa
     ```
 
@@ -33,6 +33,6 @@ Librosa 是一个用于音乐和音频分析的 Python 包。Librosa 基本上�
 
     **注意:**如果在 conda 中使用 Python 3.5 环境，可能会遇到 numba 依赖的问题。这可以通过在安装 librosa 之前从 numba conda 通道安装来避免:
 
-    ```
+    ```py
     conda install -c numba numba
     ```

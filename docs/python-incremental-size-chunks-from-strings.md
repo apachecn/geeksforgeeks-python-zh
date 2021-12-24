@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Incremental Size Chunks from Strings
 # Using loop + slicing
@@ -48,7 +48,7 @@ print("The Incremental sized Chunks : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Incremental sized Chunks : ['g', 'ee', 'kfo', 'rgee', 'ks is', ' best ', 'for gee', 'ks']
 
@@ -60,7 +60,7 @@ The Incremental sized Chunks : ['g', 'ee', 'kfo', 'rgee', 'ks is', ' best ', 'fo
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Incremental Size Chunks from Strings
 # Using generator + slicing 
@@ -91,7 +91,7 @@ print("The Incremental sized Chunks : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Incremental sized Chunks : ['g', 'ee', 'kfo', 'rgee', 'ks is', ' best ', 'for gee', 'ks']
 

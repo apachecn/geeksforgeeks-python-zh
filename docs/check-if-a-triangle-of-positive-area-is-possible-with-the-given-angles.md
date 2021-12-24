@@ -5,7 +5,7 @@
 给定三个角度。任务是检查是否有可能用这些角度形成一个正面积的三角形。如果可能，打印“是”，否则打印“否”。
 **例** :
 
-```
+```py
 Input : ang1 = 50, ang2 = 60, ang3 = 70 
 Output : YES
 
@@ -23,7 +23,7 @@ Output : NO
 
 ## C++
 
-```
+```py
 // C++ program to check if a triangle
 // of positive area is possible with
 // the given angles
@@ -57,7 +57,7 @@ return 0;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to check if a triangle
 // of positive area is possible with
 // the given angles
@@ -91,7 +91,7 @@ System.out.println(isTriangleExists(a, b, c));
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to check if a triangle
 # of positive area is possible with
 # the given angles
@@ -118,7 +118,7 @@ print(isTriangleExists(50, 60, 70))
 
 ## C#
 
-```
+```py
 // C# program to check if a triangle
 // of positive area is possible with
 // the given angles
@@ -159,7 +159,7 @@ static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to check if a triangle
 // of positive area is possible with
@@ -197,7 +197,7 @@ echo isTriangleExists($a, $b, $c);
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to check if a triangle
 // of positive area is possible with
@@ -230,6 +230,6 @@ function isTriangleExists(a , b , c)
 
 **Output:** 
 
-```
+```py
 YES
 ```

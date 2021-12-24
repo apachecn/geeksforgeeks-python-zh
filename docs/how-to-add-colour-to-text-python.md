@@ -26,7 +26,7 @@ ANSI 转义序列是一个 ASCII 字符序列，前两个是 ASCII“转义”�
 
 ## 蟒蛇 3
 
-```
+```py
 class ANSI():
     def background(code):
         return "\33[{code}m".format(code=code)
@@ -74,7 +74,7 @@ Ansi 转义码示例
 
 ## 蟒蛇 3
 
-```
+```py
 from termcolor import colored
 
 text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
@@ -111,7 +111,7 @@ print(text)
 
 ## 计算机编程语言
 
-```
+```py
 from colorama import Fore, Back, Style
 
 print(Fore.RED + 'some red text')

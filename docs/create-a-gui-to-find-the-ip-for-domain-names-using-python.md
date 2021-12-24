@@ -8,7 +8,7 @@
 
 将此代码运行到您的终端中进行安装。
 
-```
+```py
 pip install iplookup
 ```
 
@@ -23,7 +23,7 @@ pip install iplookup
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from iplookup import iplookup
 
@@ -45,7 +45,7 @@ print("Ip : ",result)
 
 **输出:**
 
-```
+```py
 Domain name :  geeksforgeeks.org
 Ip :  ['34.218.62.116']
 ```
@@ -54,7 +54,7 @@ Ip :  ['34.218.62.116']
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from tkinter import messagebox

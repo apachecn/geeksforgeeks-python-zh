@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3, 5, 6]
 Output : [[1, 2, 3], [5, 6]]
 
@@ -19,7 +19,7 @@ Output : [[8, 9, 10], [7, 8], [1, 2, 3]]
 
 这是一种使用额外输入列表空间的幼稚方法。它使用 for 循环，并且在每次迭代中，它检查下一个元素是否从前一个元素递增 1。如果是，将其附加到当前子列表，否则，创建另一个子列表。
 
-```
+```py
 # Python3 program to Find groups 
 # of strictly increasing numbers within 
 
@@ -41,7 +41,7 @@ print(groupSequence(l))
 
 **Output:**
 
-```
+```py
 [[8, 9, 10], [7, 8], [1, 2, 3]]
 
 ```
@@ -50,7 +50,7 @@ print(groupSequence(l))
 
 这是上述天真方法的替代方案。这个方法相当简单直接。它构造了一个*开始 _ 界限*列表和一个*结束 _ 界限*列表，其中包含递增整数的开始和结束序列的位置。因此只需使用 for 循环返回边界。
 
-```
+```py
 # Python3 program to Find groups 
 # of strictly increasing numbers within 
 
@@ -73,7 +73,7 @@ print(list(groupSequence(l)))
 
 **Output:**
 
-```
+```py
 [[8, 9, 10], [7, 8], [1, 2, 3]]
 
 ```
@@ -81,7 +81,7 @@ print(list(groupSequence(l)))
 **方法#3 :** 使用可迭代并产生
 这种方法使用另一个列表“res”和一个可迭代的“it”。变量“prev”用于保存前一个整数的记录，start 用于获取递增序列的起始位置。使用循环，在每次迭代中，我们检查 start 元素是否是 prev 的后继元素。如果是，我们将其附加到 res，否则，我们只需将 res + [prev]作为 list 元素。
 
-```
+```py
 # Python3 program to Find groups 
 # of strictly increasing numbers within 
 
@@ -106,7 +106,7 @@ print(list(groupSequence(l)))
 
 **Output:**
 
-```
+```py
 [[8, 9, 10], [7, 8], [1, 2, 3]]
 
 ```
@@ -114,7 +114,7 @@ print(list(groupSequence(l)))
 **方法#4 :** 使用 itertools
 Python itertools 提供了循环和 groupby 等操作，这些操作在该方法中使用。首先，我们使用循环形成另一个列表“*临时列表*”。循环生成一系列无限重复的值。然后我们使用 groupby 操作对 *temp_list* 进行相应的分组，最终得到所需的输出。
 
-```
+```py
 # Python3 program to Find groups 
 # of strictly increasing numbers within 
 from itertools import groupby, cycle
@@ -135,7 +135,7 @@ print(list(groupSequence(l)))
 
 **Output:**
 
-```
+```py
 [(8, 9, 10), (7, 8), (1, 2, 3)]
 
 ```

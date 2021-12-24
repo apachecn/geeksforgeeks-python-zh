@@ -8,7 +8,7 @@
 
 1.  **class fractions.Fraction(numerator=0, denominator=1) :** This requires that numerator and denominator are instances of **numbers. Rational** and a fraction instance with value = (numerator/denominator) is returned. A zerodivision error is raised if denominator = 0.
 
-    ```
+    ```py
     from fractions import Fraction
 
     print (Fraction(11, 35))
@@ -23,7 +23,7 @@
 
     **输出:**
 
-    ```
+    ```py
     11/35
     5/9
     0
@@ -33,7 +33,7 @@
 2.  **类分数。分数(其他分数):**这要求其他分数是**数的实例。Rational** 并返回一个具有相同值的分数实例。
 3.  **class fractions.Fraction(float) :** This requires the **float** instance and a fraction instance with same value is returned.
 
-    ```
+    ```py
     from fractions import Fraction
 
     print (Fraction(1.13))
@@ -42,14 +42,14 @@
 
     **输出:**
 
-    ```
+    ```py
     1272266894732165/1125899906842624
 
     ```
 
 4.  **class fractions.Fraction(decimal) :** This requires the **decimal** instance and a fraction instance with same value is returned.
 
-    ```
+    ```py
     from fractions import Fraction
 
     print (Fraction('1.13'))
@@ -58,7 +58,7 @@
 
     **输出:**
 
-    ```
+    ```py
     113/100
 
     ```
@@ -68,7 +68,7 @@
     **此实例的形式:**【符号】分子['/'分母]
     这里，符号表示'+'或'-'，分子和分母是一位数的字符串。
 
-    ```
+    ```py
     from fractions import Fraction
 
     print (Fraction('8/25'))
@@ -86,7 +86,7 @@
 
     **输出:**
 
-    ```
+    ```py
     8/25
     113/100
     3/7
@@ -99,7 +99,7 @@
     *   该模块查找并返回最接近自身的分数，该分数的分母最多为 max _ 分母。
     *   该模块还可以通过使用**分子**属性返回最低项中给定分数的分子，通过使用**分母**属性返回分母。
 
-    ```
+    ```py
     from fractions import Fraction
 
     print (Fraction('3.14159265358979323846'))
@@ -123,7 +123,7 @@
 
     **输出:**
 
-    ```
+    ```py
     157079632679489661923/50000000000000000000
     355/113
     311/99
@@ -135,7 +135,7 @@
 
 **对分数进行数学运算**
 
-```
+```py
 from fractions import Fraction
 
 print (Fraction(113, 100) + Fraction(25, 18))
@@ -156,7 +156,7 @@ print (Fraction(12, 5) ** Fraction(12, 10))
 
 **输出:**
 
-```
+```py
 2267/900
 2
 288/95
@@ -167,7 +167,7 @@ print (Fraction(12, 5) ** Fraction(12, 10))
 
 **使用数学模块的各种功能进行基于分数的计算**
 
-```
+```py
 import math
 from fractions import Fraction
 
@@ -189,7 +189,7 @@ print (Fraction(math.sin(math.pi/3)).limit_denominator(10))
 
 **输出:**
 
-```
+```py
 2.5
 3.0550504633
 2.0

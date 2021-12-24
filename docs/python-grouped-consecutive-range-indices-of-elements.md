@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Grouped Consecutive Range Indices of Elements
 # Using groupby() + defaultdict() + len() + loop
@@ -48,7 +48,7 @@ print("The grouped dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [1, 1, 5, 6, 5, 5, 6, 6, 6, 1, 5, 5]
 The grouped dictionary : {1: [(0, 1), (9, 9)], 5: [(2, 2), (4, 5), (10, 11)], 6: [(3, 3), (6, 8)]}
 

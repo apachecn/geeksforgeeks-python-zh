@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : ABC'+A'BC+ABC+AB'C 
 Output : (A+B+C).(A+B+C').(A+B'+C).(A'+B+C)
 
@@ -32,7 +32,7 @@ Output : (A+B).(A'+B')
 
 **Python 代码**
 
-```
+```py
 # Python code to convert standard SOP form 
 # to standard POS form 
 
@@ -194,7 +194,7 @@ if __name__=="__main__": 
 
 **Output:**
 
-```
+```py
 Standard POS form of ABC'+A'BC + ABC + AB'C  ==>  (A+B+C).(A+B+C').(A+B'+C).(A+B'+C').(A'+B+C).(A'+B+C')
 Standard POS form of A'B + AB'  ==>  (A+B).(A+B').(A'+B)
 Standard POS form of xyz'+x'y'z'+xy'z  ==>  (x+y+z').(x+y'+z).(x+y'+z').(x'+y+z).(x'+y'+z')

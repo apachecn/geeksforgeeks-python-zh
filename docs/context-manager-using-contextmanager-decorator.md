@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 @decorator
 def function(args):
     statements(s)
@@ -16,7 +16,7 @@ def function(args):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # decorators
 
@@ -38,7 +38,7 @@ print_name("Pooventhiran")
 
 **Output:** 
 
-```
+```py
 A decorated line: Pooventhiran
 ```
 
@@ -53,7 +53,7 @@ A decorated line: Pooventhiran
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Context Manager
 
@@ -65,7 +65,7 @@ with open('testfile.txt') as in_file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program creating a
 # context manager
 
@@ -88,7 +88,7 @@ with ContextManager() as manager:
 
 **输出:**
 
-```
+```py
 init method called
 enter method called
 with statement block
@@ -105,7 +105,7 @@ exit method called
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for creating a
 # context manager using @contextmanager
 # decorator
@@ -128,7 +128,7 @@ with ContextManager() as manager:
 
 **输出:**
 
-```
+```py
 Enter method called
 with statement block
 Exit method called 

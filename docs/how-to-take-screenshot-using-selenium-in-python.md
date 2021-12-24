@@ -6,7 +6,7 @@ Selenium 提供了很多功能，其中一个重要且有用的功能就是截�
 
 **语法:**
 
-```
+```py
 driver.save_screenshot("image.png")
 ```
 
@@ -20,7 +20,7 @@ driver.save_screenshot("image.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing webdriver from selenium
 from selenium import webdriver
 

@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `float()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 float()执行转换任务，并使用列表理解来执行迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Float String List to Float Values
 # Using float() + list comprehension
@@ -34,7 +34,7 @@ print("List after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['87.6', '454.6', '9.34', '23', '12.3']
 List after conversion : [87.6, 454.6, 9.34, 23.0, 12.3]
 
@@ -43,7 +43,7 @@ List after conversion : [87.6, 454.6, 9.34, 23.0, 12.3]
 **方法 2:使用`map() + float()`**
 以上功能的组合也可以用来解决这个问题。在本文中，我们使用 float 执行转换任务，并使用 map()扩展转换逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Float String List to Float Values
 # Using map() + float()
@@ -64,7 +64,7 @@ print("List after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['87.6', '454.6', '9.34', '23', '12.3']
 List after conversion : [87.6, 454.6, 9.34, 23.0, 12.3]
 

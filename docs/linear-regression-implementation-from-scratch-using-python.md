@@ -4,7 +4,7 @@
 
 线性回归是一种监督学习算法，它既是一种统计学习算法，也是一种机器学习算法。用于根据给定的输入值 x 预测实值输出 y，描述因变量 y 与自变量 x <sub>i</sub> 之间的关系(或特征)。用于预测的假设函数用 h( x)表示。
 
-```
+```py
   h( x ) = w * x + b  
 
   here, b is the bias.
@@ -19,7 +19,7 @@
 
 <center>![\frac{1}{m} \sum_{i=1}^{m}\left(y^{(i)}-h\left(x^{(i)}\right)\right)^{2}](img/42cb2491022feb853c581a489908ccd0.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Here, m is the total number of training examples in the dataset.
 y(i) represents the value of target variable for ith training example.
 
@@ -36,7 +36,7 @@ y(i) represents the value of target variable for ith training example.
 
 算法:
 
-```
+```py
 repeat until convergence  {
        tmpi = wi - alpha * dwi 
        wi = tmpi              
@@ -53,7 +53,7 @@ where alpha is the learning rate.
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 
 import numpy as np
@@ -182,7 +182,7 @@ if __name__ == "__main__" : 
 
 #### 输出:
 
-```
+```py
 Predicted values  [ 40594.69 123305.18  65031.88]
 Real values       [ 37731 122391  57081]
 Trained W         9398.92

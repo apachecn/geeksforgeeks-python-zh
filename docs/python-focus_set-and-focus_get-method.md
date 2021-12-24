@@ -11,14 +11,14 @@ Tkinter 有许多小部件可以在任何图形用户界面中提供功能。它
 
 **语法:**
 
-```
+```py
 widget.focus_set()
 
 ```
 
 下面是 Python 程序——
 
-```
+```py
 # Importing tkinter module
 # and all functions
 from tkinter import * 
@@ -57,7 +57,7 @@ mainloop()
 
 **语法:**
 
-```
+```py
 master.focus_get()
 
 ```
@@ -66,7 +66,7 @@ master.focus_get()
 
 下面是 Python 程序–
 
-```
+```py
 # Importing tkinter module
 # and all functions
 from tkinter import * 
@@ -106,7 +106,7 @@ mainloop()
 
 **输出:**每次点击任意一个小部件或者如果点击鼠标按键-1 以上程序都会打印出有焦点的小部件的名称。为了更好地理解复制和运行上述程序。
 
-```
+```py
 .!radiobutton has focus
 .!entry has focus
 .!button has focus

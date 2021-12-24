@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```py
 // A C++ program to find first
 // non-repeating character
 // from a stream of characters
@@ -146,7 +146,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // A Java program to find first non-repeating character
 // from a stream of characters
 
@@ -215,7 +215,7 @@ public class NonReapeatingC {
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to find first non-repeating character from
 # a stream of characters
 MAX_CHAR = 256
@@ -262,7 +262,7 @@ findFirstNonRepeating()
 
 ## C#
 
-```
+```py
 // A C# program to find first non-repeating character
 // from a stream of characters
 using System;
@@ -325,7 +325,7 @@ public class NonReapeatingC {
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // A Javascript program to find first
@@ -405,7 +405,7 @@ findFirstNonRepeating();
 
 **输出:**
 
-```
+```py
 Reading g from stream
 First non-repeating character so far is g
 Reading e from stream

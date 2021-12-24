@@ -41,7 +41,7 @@
 
 **安装加密包:**
 
-```
+```py
 pip install cryptography
 ```
 
@@ -50,7 +50,7 @@ pip install cryptography
 
 ## 蟒蛇 3
 
-```
+```py
 # import Fernet and MultiFernet modules
 from cryptography.fernet import Fernet, MultiFernet
 
@@ -86,7 +86,7 @@ print(d.decode())
 
 ## 蟒蛇 3
 
-```
+```py
 # import Fernet and MultiFernet modules
 from cryptography.fernet import Fernet, MultiFernet
 

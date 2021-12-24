@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join()`**
 列表理解执行迭代整个元组列表的任务，连接函数执行将元组的元素聚合成一个列表的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # conversion of list of tuple to list of list 
 # using list comprehension + join()
@@ -35,7 +35,7 @@ print ("The list after conversion to list of string : " + str(res))
 **方法 2:使用`map() + join()`**
 列表理解执行的任务可以通过映射函数来执行，映射函数可以将一个元组的逻辑扩展到列表中的所有元组。
 
-```
+```py
 # Python3 code to demonstrate
 # conversion of list of tuple to list of list 
 # using map() + join()

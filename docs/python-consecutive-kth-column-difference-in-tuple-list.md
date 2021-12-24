@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Kth column Difference in Tuple List
 # Using loop
@@ -55,7 +55,7 @@ print("Resultant tuple list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Kth column Difference in Tuple List
 # Using zip() + list comprehension

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的方法之一。在这种情况下，我们迭代元组列表，并为新构造的字典的每个键分配所需的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Records List to Segregated Dictionary
 # Using loop

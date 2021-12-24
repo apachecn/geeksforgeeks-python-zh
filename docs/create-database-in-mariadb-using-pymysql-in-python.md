@@ -6,7 +6,7 @@
 
 在本文中，我们将研究使用 *pymysql* 创建数据库的过程。要创建数据库，请使用以下语法:
 
-```
+```py
 Syntax:CREATE DATABASE databaseName;
 
 ```
@@ -17,7 +17,7 @@ Syntax:CREATE DATABASE databaseName;
 
 ## 计算机编程语言
 
-```
+```py
 # import the mysql client for python
 
 import pymysql
@@ -61,7 +61,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 conn = pymysql.connect('localhost','user','password','GFG')

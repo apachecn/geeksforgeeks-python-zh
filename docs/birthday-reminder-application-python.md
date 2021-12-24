@@ -4,7 +4,7 @@
 
 这个应用有助于提醒生日和通知你朋友的生日。这个应用程序使用 Python 和 Ubuntu 通知在系统每次启动时通知用户。
 
-```
+```py
 # Python program For
 # Birthday Reminder Application
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
 1.  首先，我们必须为我们的提醒创建一个可执行文件
 2.  这可以通过在终端
 
-    ```
+    ```py
     sudo chmod +x reminder.py, where reminder.py is our script file name 
     ```
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 3.  现在我们必须将该文件传输到 Linux 搜索其默认文件的路径:
     在终端键入以下命令:
 
-```
+```py
  sudo cp /path/to/our/reminder.py /usr/bin
 ```
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of keys in Dictionary
 
@@ -33,7 +33,7 @@ print(empty_Dict1.keys())
 
 **输出:**
 
-```
+```py
 dict_keys(['A', 'B', 'C'])
 dict_keys([])
 ```
@@ -44,7 +44,7 @@ dict_keys([])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show updation
 # of keys in Dictionary
 
@@ -65,7 +65,7 @@ print(keys)
 
 **输出:**
 
-```
+```py
 Keys before Dictionary Updation:
 dict_keys(['B', 'A'])
 
@@ -81,7 +81,7 @@ dict_keys(['B', 'A', 'C'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # working of keys()
 
@@ -102,7 +102,7 @@ print ('2nd key using keys() : ' + test_dict.keys()[1])
 
 **输出:**
 
-```
+```py
 2nd key using loop : for
 TypeError: 'dict_keys' object does not support indexing 
 ```

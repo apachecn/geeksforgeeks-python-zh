@@ -11,7 +11,7 @@
 *   阅读文件中的所有行，并将它们存储在列表中。
 *   声明 IP 地址的模式。正则表达式模式是:
 
-```
+```py
 r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'
 ```
 
@@ -26,7 +26,7 @@ test.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import re
 
@@ -79,7 +79,7 @@ test2.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import re
 

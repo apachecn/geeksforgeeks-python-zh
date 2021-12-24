@@ -5,7 +5,7 @@
 给定一个字典，任务是找到具有最大值的键。
 **例:**
 
-```
+```py
 Input : {'Audi':100, 'BMW':1292, 'Jaguar': 210000, 'Hyundai' : 88}
 Output : Jaguar
 
@@ -17,7 +17,7 @@ Output:  Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find key with Maximum value in Dictionary
 
 # Dictionary Initialization
@@ -29,6 +29,6 @@ print(Keymax)
 
 **Output:** 
 
-```
+```py
 GameOfThrones
 ```

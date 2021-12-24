@@ -45,7 +45,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import sympy as sy
@@ -59,7 +59,7 @@ print(sy.integrate(f(x), (x, 0, 2)))
 
 **输出:**
 
-```
+```py
 8/3
 ```
 
@@ -67,7 +67,7 @@ print(sy.integrate(f(x), (x, 0, 2)))
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -91,7 +91,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import sympy as sy
@@ -108,7 +108,7 @@ print(sy.integrate(f(x)-g(x), (x, 0, 2)))
 
 **输出:**
 
-```
+```py
 0.781048583502540
 ```
 
@@ -116,7 +116,7 @@ print(sy.integrate(f(x)-g(x), (x, 0, 2)))
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

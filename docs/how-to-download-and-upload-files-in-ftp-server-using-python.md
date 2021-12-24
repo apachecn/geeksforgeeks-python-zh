@@ -26,7 +26,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Module
 import ftplib
 
@@ -42,7 +42,7 @@ PASSWORD = "eUj8GeW55SvYaswqUyDSm5v6N"
 
 ## **蟒蛇 3**
 
-```
+```py
 # Connect FTP Server
 ftp_server = ftplib.FTP(HOSTNAME, USERNAME, PASSWORD)
 

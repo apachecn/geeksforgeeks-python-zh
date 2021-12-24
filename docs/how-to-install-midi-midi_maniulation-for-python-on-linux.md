@@ -8,7 +8,7 @@
 
 **步骤 1:** 通过运行以下命令安装智能包管理器:
 
-```
+```py
 sudo apt install aptitude -y
 ```
 
@@ -18,7 +18,7 @@ sudo apt install aptitude -y
 
 **步骤 2:** 要安装 midi，前往 midi GitHub 存储库，并将其克隆到桌面上。
 
-```
+```py
 git clone https://github.com/vishnubob/python-midi.git
 ```
 
@@ -28,7 +28,7 @@ git clone https://github.com/vishnubob/python-midi.git
 
 *   安装 python
 
-```
+```py
 sudo aptitude install python
 ```
 
@@ -38,7 +38,7 @@ sudo aptitude install python
 
 *   安装安装工具来构建包。
 
-```
+```py
 sudo aptitude install python-setuptools
 ```
 
@@ -48,7 +48,7 @@ sudo aptitude install python-setuptools
 
 **步骤 3:** 通过运行 setup.py 文件安装 midi。
 
-```
+```py
 cd python-midi
 sudo python setup.py install
 ```
@@ -59,7 +59,7 @@ midi 已安装
 
 **步骤 4:** 要验证安装，请在您的终端中运行以下命令:
 
-```
+```py
 python
 import midi
 print(midi)

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 json.load(file_object)
 ```
 
@@ -26,7 +26,7 @@ json.load(file_object)
 
 我们想阅读这个文件的内容。下面是实现。
 
-```
+```py
 # Python program to read
 # json file
 

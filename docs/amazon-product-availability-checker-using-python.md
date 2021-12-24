@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python script for Amazon product availability checker
 # importing libraries
 from lxml import html
@@ -111,7 +111,7 @@ while True:
 
 **输出:**
 
-```
+```py
 Tracking....
 Processing: http://www.amazon.in/dp/B077PWK5BT
 Only 1 left in stock.

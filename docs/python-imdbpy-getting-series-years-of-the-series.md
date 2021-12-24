@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(years)
 
 **输出:**
 
-```
+```py
 Breaking Bad
 2008-2013
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(years)
 
 **输出:**
 
-```
+```py
 Money Heist
 2017-
 ```

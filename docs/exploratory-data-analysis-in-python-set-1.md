@@ -8,7 +8,7 @@
 
 **加载库:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -19,7 +19,7 @@ from scipy.stats import trim_mean
 
 **加载数据:**
 
-```
+```py
 data = pd.read_csv("state.csv")
 
 # Check the type of data
@@ -34,7 +34,7 @@ print ("\n\n Tail -- \n", data.tail(10))
 
 **输出:**
 
-```
+```py
 Type : class 'pandas.core.frame.DataFrame'
 
 Head -- 
@@ -67,7 +67,7 @@ Head --
 
 **代码#1 :** 向数据框添加列
 
-```
+```py
 # Adding a new column with derived data 
 
 data['PopulationInMillions'] = data['Population']/1000000
@@ -78,7 +78,7 @@ print (data.head(5))
 
 **输出:**
 
-```
+```py
         State  Population  Murder.Rate Abbreviation  PopulationInMillions
 0     Alabama     4779736          5.7           AL              4.779736
 1      Alaska      710231          5.6           AK              0.710231
@@ -90,7 +90,7 @@ print (data.head(5))
 
 **代码#2 :** 数据描述
 
-```
+```py
 data.describe()
 ```
 
@@ -99,13 +99,13 @@ data.describe()
 
 **代码#3 :** 数据信息
 
-```
+```py
 data.info()
 ```
 
 **输出:**
 
-```
+```py
 
 RangeIndex: 50 entries, 0 to 49
 Data columns (total 4 columns):
@@ -120,7 +120,7 @@ memory usage: 1.6+ KB
 
 **代码#4 :** 重命名列标题
 
-```
+```py
 # Rename column heading as it 
 # has '.' in it which will create
 # problems when dealing functions 
@@ -133,14 +133,14 @@ list(data)
 
 **输出:**
 
-```
+```py
 ['State', 'Population', 'MurderRate', 'Abbreviation']
 
 ```
 
 **代码#5 :** 计算平均值
 
-```
+```py
 Population_mean = data.Population.mean()
 print ("Population Mean : ", Population_mean)
 
@@ -150,7 +150,7 @@ print ("\nMurderRate Mean : ", MurderRate_mean)
 
 **输出:**
 
-```
+```py
 Population Mean :  6162876.3
 
 MurderRate Mean :  4.066
@@ -159,7 +159,7 @@ MurderRate Mean :  4.066
 
 **代码#6 :** 修剪平均值
 
-```
+```py
 # Mean after discarding top and 
 # bottom 10 % values eliminating outliers
 
@@ -172,7 +172,7 @@ print ("\nMurderRate trimmed mean: ", murder_TM)
 
 **输出:**
 
-```
+```py
 Population trimmed mean:  4783697.125
 
 MurderRate trimmed mean:  3.9450000000000003
@@ -181,7 +181,7 @@ MurderRate trimmed mean:  3.9450000000000003
 
 **代码#7 :** 加权平均值
 
-```
+```py
 # here murder rate is weighed as per 
 # the state population
 
@@ -191,14 +191,14 @@ print ("Weighted MurderRate Mean: ", murderRate_WM)
 
 **输出:**
 
-```
+```py
 Weighted MurderRate Mean:  4.445833981123393
 
 ```
 
 **代码#8 :** 中间值
 
-```
+```py
 Population_median = data.Population.median()
 print ("Population median : ", Population_median)
 
@@ -208,7 +208,7 @@ print ("\nMurderRate median : ", MurderRate_median)
 
 **输出:**
 
-```
+```py
 Population median :  4436369.5
 
 MurderRate median :  4.0

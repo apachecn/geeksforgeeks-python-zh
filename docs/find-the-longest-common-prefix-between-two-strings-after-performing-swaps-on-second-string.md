@@ -5,7 +5,7 @@
 给定两根弦![a  ](img/c30e654d88f33e45c5463a428b007bce.png "Rendered by QuickLaTeX.com")和![b  ](img/5a3a9480cd4e66896d3cc12d182fefab.png "Rendered by QuickLaTeX.com")。在对字符串![b  ](img/5a3a9480cd4e66896d3cc12d182fefab.png "Rendered by QuickLaTeX.com")执行零个或多个操作后，找到它们之间最长的公共前缀。在每个操作中，您可以交换任意两个字母。
 T4【示例】T5:
 
-```
+```py
 Input : a = "here", b = "there"
 Output : 4
 The 2nd string can be made "heret" by just 
@@ -21,7 +21,7 @@ Output : 0
 
 ## C++
 
-```
+```py
 // C++ program to find the longest
 // common prefix between two strings
 // after performing swaps on the second string
@@ -74,7 +74,7 @@ return 0;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to find the longest
 // common prefix between two strings
 // after performing swaps on the second string
@@ -128,7 +128,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the longest
 # common prefix between two strings
 # after performing swaps on the second string
@@ -168,7 +168,7 @@ LengthLCP(x, y)
 
 ## C#
 
-```
+```py
 // C# program to find the longest
 // common prefix between two strings
 // after performing swaps on the
@@ -228,7 +228,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to find the longest
 // common prefix between two strings
@@ -283,7 +283,7 @@ return 0;
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // JavaScript program to find the long
@@ -337,6 +337,6 @@ return 0;
 
 **Output:** 
 
-```
+```py
 4
 ```

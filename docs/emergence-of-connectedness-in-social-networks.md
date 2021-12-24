@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
@@ -100,7 +100,7 @@ plot_connectivity()
 
 **输出:**
 
-```
+```py
 10
 20
 30

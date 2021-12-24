@@ -18,7 +18,7 @@ Tweepy 是应该使用 pip 安装的库之一。现在，为了授权我们的�
 
 **代码(附说明):**
 
-```
+```py
 import tweepy
 
 # Fill the X's with the credentials obtained by 

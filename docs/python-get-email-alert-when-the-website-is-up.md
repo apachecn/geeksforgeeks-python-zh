@@ -7,7 +7,7 @@
 **安装:**
 转到命令提示符，写下此命令:
 
-```
+```py
 pip install requests, smtplib
 
 ```
@@ -27,7 +27,7 @@ pip install requests, smtplib
 
 ## 蟒蛇 3
 
-```
+```py
 import smtplib, requests, time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart

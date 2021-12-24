@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : binary number = 101010101111
             k = 4 
 Output : yes
@@ -24,7 +24,7 @@ Explanation: There is a maximum of 3 consecutive
 
 *下面是上面方法的 Python 实现:*
 
-```
+```py
 # Python program to check if there 
 # is k consecutive 1's in a binary number 
 
@@ -49,7 +49,7 @@ check(s, k)
 
 输出:
 
-```
+```py
 yes
 
 ```

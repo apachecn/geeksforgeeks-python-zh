@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to K characters row Matrix
 # Using list comprehension + slicing
@@ -60,7 +60,7 @@ convertToMatrix(input_str, K)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to K characters row Matrix
 # Using list comprehension + map() + slicing

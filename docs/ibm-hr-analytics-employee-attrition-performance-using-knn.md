@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # performing linear algebra
 import numpy as np
 
@@ -29,7 +29,7 @@ import seaborn as sns % matplotlib inline
 
 ## 蟒蛇 3
 
-```
+```py
 dataset = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 print (dataset.head)
 ```
@@ -42,13 +42,13 @@ print (dataset.head)
 
 ## 蟒蛇 3
 
-```
+```py
 df.info()
 ```
 
 **输出:**
 
-```
+```py
 RangeIndex: 1470 entries, 0 to 1469
 Data columns (total 35 columns):
 Age                         1470 non-null int64
@@ -94,7 +94,7 @@ memory usage: 402.0+ KB
 
 ## 蟒蛇 3
 
-```
+```py
 # heatmap to check the missing value
 plt.figure(figsize =(10, 4))
 sns.heatmap(dataset.isnull(), yticklabels = False, cbar = False, cmap ='viridis')
@@ -109,7 +109,7 @@ sns.heatmap(dataset.isnull(), yticklabels = False, cbar = False, cmap ='viridis'
 
 ## 蟒蛇 3
 
-```
+```py
 sns.set_style('darkgrid')
 sns.countplot(x ='Attrition', data = dataset)
 ```
@@ -122,7 +122,7 @@ sns.countplot(x ='Attrition', data = dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.lmplot(x = 'Age', y = 'DailyRate', hue = 'Attrition', data = dataset)
 ```
 
@@ -134,7 +134,7 @@ sns.lmplot(x = 'Age', y = 'DailyRate', hue = 'Attrition', data = dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize =(10, 6))
 sns.boxplot(y ='MonthlyIncome', x ='Attrition', data = dataset)
 ```
@@ -149,7 +149,7 @@ T4【代码:
 
 ## 蟒蛇 3
 
-```
+```py
 dataset.drop('EmployeeCount', axis = 1, inplace = True)
 dataset.drop('StandardHours', axis = 1, inplace = True)
 dataset.drop('EmployeeNumber', axis = 1, inplace = True)
@@ -159,7 +159,7 @@ print(dataset.shape)
 
 **输出:**
 
-```
+```py
 (1470, 31)
 ```
 
@@ -168,7 +168,7 @@ print(dataset.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 y = dataset.iloc[:, 1]
 X = dataset
 X.drop('Attrition', axis = 1, inplace = True)
@@ -178,7 +178,7 @@ X.drop('Attrition', axis = 1, inplace = True)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.preprocessing import LabelEncoder
 lb = LabelEncoder()
 y = lb.fit_transform(y)
@@ -189,7 +189,7 @@ y = lb.fit_transform(y)
 
 ## 蟒蛇 3
 
-```
+```py
 dum_BusinessTravel = pd.get_dummies(dataset['BusinessTravel'],
                                     prefix ='BusinessTravel')
 dum_Department = pd.get_dummies(dataset['Department'],
@@ -219,7 +219,7 @@ print(y.shape)
 
 **输出:**
 
-```
+```py
 (1470, 49)
 (1470, )
 ```
@@ -228,7 +228,7 @@ print(y.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size = 0.25, random_state = 40)
@@ -239,7 +239,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.neighbors import KNeighborsClassifier
 neighbors = []
 cv_scores = []
@@ -269,7 +269,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 The optimal number of neighbors is  7  
 ```
 
@@ -279,7 +279,7 @@ The optimal number of neighbors is  7
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.model_selection import cross_val_predict, cross_val_score
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.metrics import confusion_matrix
@@ -320,7 +320,7 @@ print_score(knn, X_train, y_train, X_test, y_test, train = False)
 
 **输出:**
 
-```
+```py
 Train Result:
 ------------
 Classification Report: 

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas
@@ -45,7 +45,7 @@ print("Mean Value for 0 channel : " + str(mean))
 
 ![](img/283858b33dd24f8e86f4e3d65a3d049a.png)
 
-```
+```py
 Mean Value for 0 channel : 129.05525723083971
 ```
 
@@ -53,7 +53,7 @@ Mean Value for 0 channel : 129.05525723083971
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import mahotas.demos
@@ -82,7 +82,7 @@ print("Mean Value for 0 channel : " + str(mean))
 
 ![](img/b8dff1168d4fc6a2f7d1ffb8dac9156b.png)
 
-```
+```py
 Mean Value for 0 channel : 27.490094866071427
 ```
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Conditional Prefix in List
 # Using loop
@@ -50,7 +50,7 @@ print("The prefixed elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [45, 53, 76, 86, 3, 49]
 The prefixed elements : ['LOW-45', 'HIGH-53', 'HIGH-76', 'HIGH-86', 'LOW-3', 'LOW-49']
 
@@ -62,7 +62,7 @@ The prefixed elements : ['LOW-45', 'HIGH-53', 'HIGH-76', 'HIGH-86', 'LOW-3', 'LO
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Conditional Prefix in List
 # Using list comprehension
@@ -88,7 +88,7 @@ print("The prefixed elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [45, 53, 76, 86, 3, 49]
 The prefixed elements : ['LOW-45', 'HIGH-53', 'HIGH-76', 'HIGH-86', 'LOW-3', 'LOW-49']
 

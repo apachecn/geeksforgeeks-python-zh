@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the list
 li = [1, 4, 93, 2, 3, 5]
 
@@ -44,7 +44,7 @@ print("Output :", li)
 
 **Output**
 
-```
+```py
 Swaps :
 2<--->4
 4<--->93
@@ -85,7 +85,7 @@ Output : [1, 2, 3, 4, 5, 93]
 
 ## 蟒蛇 3
 
-```
+```py
 # string
 st = "This is a string"
 print("String is %s" % (st))
@@ -126,7 +126,7 @@ print("The exponential form of %.2f is %10.3g" % (float3, float3))
 
 **Output**
 
-```
+```py
 String is This is a string
 Single character is a
 The number is 45
@@ -162,7 +162,7 @@ The exponential form of 3.14 is       3.14
 
 ## 蟒蛇 3
 
-```
+```py
 # complex number
 c = complex(5+9j)
 
@@ -175,7 +175,7 @@ print("With format() - Imaginary : {} Real : {}".format(c.imag, c.real))
 
 **Output**
 
-```
+```py
 Without format() - Imaginary : 9.0  Real : 5.0
 With format() - Imaginary : 9.0 Real : 5.0
 
@@ -185,7 +185,7 @@ With format() - Imaginary : 9.0 Real : 5.0
 
 ## 蟒蛇 3
 
-```
+```py
 # class for holding person's details
 class person:
 
@@ -214,7 +214,7 @@ print("{:des}".format(p))
 
 **Output**
 
-```
+```py
 I am nisha, My age is 23
 I work as manager
 
@@ -232,7 +232,7 @@ I work as manager
 
 ## 蟒蛇 3
 
-```
+```py
 name = "Rinku"
 age = 20
 
@@ -241,7 +241,7 @@ print(f"Hi! my name is {name} and my age is {age}")
 
 **Output**
 
-```
+```py
 Hi! my name is Rinku and my age is 20
 
 ```
@@ -252,7 +252,7 @@ Hi! my name is Rinku and my age is 20
 
 ## 蟒蛇 3
 
-```
+```py
 a = 5
 b = 6
 
@@ -265,7 +265,7 @@ print(F"Division with roundoff : {round(a/b,3)}")
 
 **Output**
 
-```
+```py
 Addition : 11
 Subtraction : -1
 Multiplication : 30
@@ -280,7 +280,7 @@ Division with roundoff : 0.833
 
 ## 蟒蛇 3
 
-```
+```py
 # f function to evaluate expression
 def exp_eval(a, b):
     ans = (a*a)+(3*(b*b))+(a*b)
@@ -296,7 +296,7 @@ print(f"The expression a**2+3b**2+(a*b) = {exp_eval(a,b)}")
 
 **Output**
 
-```
+```py
 The expression a**2+3b**2+(a*b) = 60
 
 ```

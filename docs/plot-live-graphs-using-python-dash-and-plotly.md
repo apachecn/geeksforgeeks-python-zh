@@ -8,7 +8,7 @@
 
 安装仪表板模块和绘图模块。
 
-```
+```py
 pip install dash
 pip install plotly
 
@@ -16,7 +16,7 @@ pip install plotly
 
 首先，让我们导入所有必需的模块和依赖项。导入*输出*和*输入*进行回调， *dash_core_components* 进行图形和 dash 提供的其他基本组件。导入 *dash_html_components* 提供基本的 html 组件。另外，导入*破折号*和*绘制*。从图形中导入 *graph_objs* 以获得图形特征。从*集合*导入*队列*(双端队列)。
 
-```
+```py
 import dash
 from dash.dependencies import Output, Input
 import dash_core_components as dcc
@@ -29,7 +29,7 @@ from collections import deque
 
 让我们为图的 X 和 Y 分量初始化两个去量化器。向它追加单个数据，这将是我们在图上的第一个点。
 
-```
+```py
 X = deque(maxlen = 20)
 X.append(1)
 
@@ -39,13 +39,13 @@ Y.append(1)
 
 初始化 dash 应用程序。
 
-```
+```py
 app = dash.Dash(__name__)
 ```
 
 现在让我们指定我们想要构建的仪表板的布局。需要注意的是，不需要为布局编写 HTML 页面，我们可以使用 dash 的 HTML 组件来制作简单的布局。让我们用一个图形组件构建一个简单的布局。在下面的代码中，让我们将*动画*设置为真，这将很容易处理图形的滚动动画，这看起来比更新后值的突然变化更好。让我们给图形组件分配一个 *id* 。我们有另一个名为*区间*的组件，它有类似 *id* 的属性，为这个组件指定一个唯一的 id。属性*间隔*指定两次数据更新之间经过的时间。 *n_interval* 是指从服务器启动开始完成的间隔数。
 
-```
+```py
 app.layout = html.Div(
     [    
         dcc.Graph(id = 'live-graph',
@@ -61,7 +61,7 @@ app.layout = html.Div(
 
 现在让我们调用回调装饰器
 
-```
+```py
 @app.callback(
     Output('live-graph', 'figure'),
     [ Input('graph-update', 'n_intervals') ]
@@ -70,7 +70,7 @@ app.layout = html.Div(
 
 现在让我们使用 *update_graph* 方法，该方法以 *n_intervals* 为参数。让我们按顺序更新 X 值，即从 1 到 2 到 3，以此类推。让我们将 Y 值更新为随机值。现在让我们创建一个新的*数据*变量，并将其分配给一个图表。默认情况下，绘图需要用列表设置 X 和 Y 值。让我们指定*模式*到*“线条+标记”*，本质上就是 Plotly 先要绘制标记，然后再给它画线。
 
-```
+```py
 def update_graph_scatter(n):
     X.append(X[-1]+1)
     Y.append(Y[-1]+Y[-1] * random.uniform(-0.1,0.1))
@@ -91,7 +91,7 @@ def update_graph_scatter(n):
 
 最后，运行服务器。
 
-```
+```py
 if __name__ == '__main__':
     app.run_server()
 ```
@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import dash
 from dash.dependencies import Output, Input
 import dash_core_components as dcc
@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
 打开浏览器，在本地主机和端口 8050 上运行应用程序
 
-```
+```py
 http://localhost:8050/
 ```
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Converting binary to string
 # Using BinarytoDecimal(binary)+chr()
@@ -64,7 +64,7 @@ print("The Binary value after string conversion is:",
 
 **输出:**
 
-```
+```py
 The binary value is: 10001111100101110010111010111110011
 The Binary value after string conversion is:  Geeks
 ```
@@ -74,7 +74,7 @@ The Binary value after string conversion is:  Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Converting binary to string
 # Using BinarytoDecimal(binary)+chr()
@@ -125,7 +125,7 @@ print("The Binary value after string conversion is:",
 
 **输出:**
 
-```
+```py
 The binary value is: 10001111100101110010111010111110011
 The Binary value after string conversion is:  Geeks
 ```

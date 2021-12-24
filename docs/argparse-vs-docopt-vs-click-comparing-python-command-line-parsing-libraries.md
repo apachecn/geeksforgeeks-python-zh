@@ -14,13 +14,13 @@ Argparse 是一个用户友好的命令行界面。*参数解析*模块解析命
 
 安装 argparse 模块的方法有很多，简单的方法是使用 *pip*
 
-```
+```py
 $ pip install argparse
 ```
 
 **初始化参数**
 
-```
+```py
 import argparse
 parser=argparse.ArgumentParser(description="Program description")
 ```
@@ -35,7 +35,7 @@ parser=argparse.ArgumentParser(description="Program description")
 
 **命令行用法**
 
-```
+```py
 $ python [file].py [command] [options] name
 ```
 
@@ -43,7 +43,7 @@ $ python [file].py [command] [options] name
 
 ## 蟒蛇 3
 
-```
+```py
 # argparse_example.py
 
 import argparse

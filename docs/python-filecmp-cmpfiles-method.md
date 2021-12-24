@@ -24,7 +24,7 @@ Python 中的`**filecmp.cmpfiles()**`方法用于比较两个目录中的文件�
 
 ****Example:** Use of filecmp.cmpfiles() method to compare files in two directories.
 
-```
+```py
 # Python program to explain filecmp.cmpfiles() method 
 
 # importing filecmp module 
@@ -66,7 +66,7 @@ print("Errors :", errors)
 
 **Output:**
 
-```
+```py
 Shallow comparison:
 Match : ['file1.txt', 'file2.txt', 'file3.txt']
 Mismatch : []

@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(cast[0])
 
 **输出:**
 
-```
+```py
 Breaking Bad
 Bryan Cranston
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -71,7 +71,7 @@ for i in range(3):
 
 **输出:**
 
-```
+```py
 Sacred Games
 Saif Ali Khan
 Nawazuddin Siddiqui

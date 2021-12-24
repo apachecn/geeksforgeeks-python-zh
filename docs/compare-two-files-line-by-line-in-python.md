@@ -42,7 +42,7 @@ Python 有一个模块，专门用于比较文件之间的差异。为了使用 
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing difflib
 import difflib
 
@@ -107,7 +107,7 @@ for line in difflib.unified_diff(
 
 ## 蟒蛇 3
 
-```
+```py
 from difflib import Differ
 
 with open('file1.txt') as file_1, open('file2.txt') as file_2:
@@ -147,7 +147,7 @@ with open('file1.txt') as file_1, open('file2.txt') as file_2:
 
 ## 蟒蛇 3
 
-```
+```py
 # Open File in Read Mode
 file_1 = open('file1.txt', 'r')
 file_2 = open('file2.txt', 'r')

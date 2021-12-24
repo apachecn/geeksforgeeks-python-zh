@@ -29,7 +29,7 @@ Python 的 [sorted()](https://www.geeksforgeeks.org/sorted-function-python/) 函
 
 ## 蟒蛇 3
 
-```
+```py
 import functools
 
 def mycmp(a, b):
@@ -46,7 +46,7 @@ print(sorted([1, 2, 4, 2], key=functools.cmp_to_key(mycmp)))
 
 **输出:**
 
-```
+```py
 comparing  2  and  1
 comparing  4  and  2
 comparing  2  and  4
@@ -60,7 +60,7 @@ comparing  2  and  4
 
 ## 蟒蛇 3
 
-```
+```py
 import functools
 
 def mycmp(a, b):
@@ -78,7 +78,7 @@ print(max([45, 78, 813], key=functools.cmp_to_key(mycmp)))
 
 **输出:**
 
-```
+```py
 comparing  78  and  45
 comparing  813  and  45
 45

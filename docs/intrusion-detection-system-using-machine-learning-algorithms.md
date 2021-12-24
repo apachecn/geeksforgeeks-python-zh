@@ -94,7 +94,7 @@ Attacks fall into four main categories:
 **步骤 1–数据预处理:**
  **代码:从‘kddcup . names’文件导入库和读取特征列表。**
 
-```
+```py
 import os
 import pandas as pd
 import numpy as np
@@ -109,7 +109,7 @@ with open("..\\kddcup.names", 'r') as f:
 
 **代码:向数据集追加列，并向数据集添加新的列名“target”。**
 
-```
+```py
 
 cols ="""duration,
 protocol_type,
@@ -164,13 +164,13 @@ print(len(columns))
 
 **输出:**
 
-```
+```py
 42
 ```
 
 **代码:读取‘攻击类型’文件。**
 
-```
+```py
 
 with open("..\\training_attack_types", 'r') as f:
     print(f.read())
@@ -178,7 +178,7 @@ with open("..\\training_attack_types", 'r') as f:
 
 **输出:**
 
-```
+```py
 back dos
 buffer_overflow u2r
 ftp_write r2l
@@ -205,7 +205,7 @@ warezmaster r2l
 
 **代码:创建攻击类型字典**
 
-```
+```py
 
 attacks_types = {
     'normal': 'normal',
@@ -236,7 +236,7 @@ attacks_types = {
 
 **代码:**读取数据集(' kddcup.data_10_percent.gz ')并在训练数据集中添加攻击类型特征，其中攻击类型特征有 5 个不同的值，即 dos、normal、probe、r2l、u2r。
 
-```
+```py
 path = "..\\kddcup.data_10_percent.gz"
 df = pd.read_csv(path, names = columns)
 
@@ -248,26 +248,26 @@ df.head()
 
 **编码:数据框的形状，获取各特征的数据类型**
 
-```
+```py
 
 df.shape
 ```
 
 **输出:**
 
-```
+```py
  (494021, 43)
 ```
 
 **代码:查找所有特征的缺失值。**
 
-```
+```py
 df.isnull().sum()
 ```
 
 **输出:**
 
-```
+```py
 duration                       0
 protocol_type                  0
 service                        0
@@ -318,7 +318,7 @@ dtype: int64
 
 **代码:寻找分类特征**
 
-```
+```py
 # Finding categorical features
 num_cols = df._get_numeric_data().columns
 
@@ -332,7 +332,7 @@ cate_cols
 
 **输出:**
 
-```
+```py
  ['service', 'flag', 'protocol_type']
 ```
 
@@ -359,7 +359,7 @@ log in _ in(如果成功登录，则为 1；否则为 0):我们注意到只有 7
 
 **代码:数据相关性–使用热图找到高度相关的变量，忽略它们进行分析。**
 
-```
+```py
 
 df = df.dropna('columns')# drop columns with NaN
 
@@ -380,7 +380,7 @@ plt.show()
 
 **代码:**
 
-```
+```py
 
 # This variable is highly correlated with num_compromised and should be ignored for analysis.
 #(Correlation = 0.9938277978738366)
@@ -420,7 +420,7 @@ df.drop('dst_host_same_srv_rate', axis = 1, inplace = True)
 
 **代码:特征映射–对特征应用特征映射，例如:“protocol _ type”&“flag”。**
 
-```
+```py
 
 # protocol_type feature mapping
 pmap = {'icmp':0, 'tcp':1, 'udp':2}
@@ -429,7 +429,7 @@ df['protocol_type'] = df['protocol_type'].map(pmap)
 
 **代码:**
 
-```
+```py
 
 # flag feature mapping
 fmap = {'SF':0, 'S0':1, 'REJ':2, 'RSTR':3, 'RSTO':4, 'SH':5, 'S1':6, 'S2':7, 'RSTOS0':8, 'S3':9, 'OTH':10}
@@ -441,7 +441,7 @@ df['flag'] = df['flag'].map(fmap)
 
 **编码:建模前去除‘服务’等无关特征**
 
-```
+```py
 
 df.drop('service', axis = 1, inplace = True)
 ```
@@ -450,7 +450,7 @@ df.drop('service', axis = 1, inplace = True)
 
 **代码:导入库并拆分数据集**
 
-```
+```py
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
@@ -459,7 +459,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 **代码:**
 
-```
+```py
 
 # Splitting the dataset
 df = df.drop(['target', ], axis = 1)
@@ -481,7 +481,7 @@ print(y_train.shape, y_test.shape)
 
 **输出:**
 
-```
+```py
 (494021, 31)
 (330994, 30) (163027, 30)
 (330994, 1) (163027, 1)
@@ -491,7 +491,7 @@ print(y_train.shape, y_test.shape)
 
 **代码:高斯朴素贝叶斯的 Python 实现**
 
-```
+```py
 
 # Gaussian Naive Bayes
 from sklearn.naive_bayes import GaussianNB
@@ -507,13 +507,13 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Training time:  1.1145250797271729
 ```
 
 **代码:**
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfg.predict(X_train)
@@ -524,13 +524,13 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  1.543299674987793
 ```
 
 **代码:**
 
-```
+```py
 
 print("Train score is:", clfg.score(X_train, y_train))
 print("Test score is:", clfg.score(X_test, y_test))
@@ -539,14 +539,14 @@ print("Test score is:", clfg.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.8795114110829804
 Test score is: 0.8790384414851528
 ```
 
 **代码:决策树的 Python 实现**
 
-```
+```py
 
 # Decision Tree 
 from sklearn.tree import DecisionTreeClassifier
@@ -561,11 +561,11 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
  Training time:  2.4408750534057617
 ```
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfd.predict(X_train)
@@ -576,11 +576,11 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  0.1487727165222168
 ```
 
-```
+```py
 
 print("Train score is:", clfd.score(X_train, y_train))
 print("Test score is:", clfd.score(X_test, y_test))
@@ -589,14 +589,14 @@ print("Test score is:", clfd.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.9905829108684749
 Test score is: 0.9905230421954646
 ```
 
 **代码:随机森林的 Python 代码实现**
 
-```
+```py
 
 from sklearn.ensemble import RandomForestClassifier
 
@@ -610,11 +610,11 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
  Training time:  17.084914684295654
 ```
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfr.predict(X_train)
@@ -625,11 +625,11 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  0.1487727165222168
 ```
 
-```
+```py
 
 print("Train score is:", clfr.score(X_train, y_train))
 print("Test score is:", clfr.score(X_test, y_test))
@@ -638,14 +638,14 @@ print("Test score is:", clfr.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.99997583037759
 Test score is: 0.9996933023364228
 ```
 
 **代码:支持向量分类器的 Python 实现**
 
-```
+```py
 
 from sklearn.svm import SVC
 
@@ -659,13 +659,13 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Training time:  218.26840996742249
 ```
 
 **代码:**
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfs.predict(X_train)
@@ -676,13 +676,13 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  126.5087513923645
 ```
 
 **代码:**
 
-```
+```py
 
 print("Train score is:", clfs.score(X_train, y_train))
 print("Test score is:", clfs.score(X_test, y_test))
@@ -691,14 +691,14 @@ print("Test score is:", clfs.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.9987552644458811
 Test score is: 0.9987916112055059
 ```
 
 **代码:逻辑回归的 Python 实现**
 
-```
+```py
 
 from sklearn.linear_model import LogisticRegression
 
@@ -712,13 +712,13 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Training time:  92.94222283363342
 ```
 
 **代码:**
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfl.predict(X_train)
@@ -729,13 +729,13 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  0.09605908393859863
 ```
 
 **代码:**
 
-```
+```py
 
 print("Train score is:", clfl.score(X_train, y_train))
 print("Test score is:", clfl.score(X_test, y_test))
@@ -744,14 +744,14 @@ print("Test score is:", clfl.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.9935285835997028
 Test score is: 0.9935286792985211
 ```
 
 **代码:梯度下降的 Python 实现**
 
-```
+```py
 
 from sklearn.ensemble import GradientBoostingClassifier
 
@@ -765,11 +765,11 @@ print("Training time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Training time:  633.2290260791779
 ```
 
-```
+```py
 
 start_time = time.time()
 y_test_pred = clfg.predict(X_train)
@@ -780,11 +780,11 @@ print("Testing time: ", end_time-start_time)
 
 **输出:**
 
-```
+```py
 Testing time:  2.9503915309906006
 ```
 
-```
+```py
 
 print("Train score is:", clfg.score(X_train, y_train))
 print("Test score is:", clfg.score(X_test, y_test))
@@ -793,14 +793,14 @@ print("Test score is:", clfg.score(X_test, y_test))
 
 **输出:**
 
-```
+```py
 Train score is: 0.9979304760811374
 Test score is: 0.9977181693829856
 ```
 
 **代码:分析各模型的训练和测试精度。**
 
-```
+```py
 
 names = ['NB', 'DT', 'RF', 'SVM', 'LR', 'GB']
 values = [87.951, 99.058, 99.997, 99.875, 99.352, 99.793]
@@ -814,7 +814,7 @@ plt.bar(names, values)
 
 **代码:**
 
-```
+```py
 
 names = ['NB', 'DT', 'RF', 'SVM', 'LR', 'GB']
 values = [87.903, 99.052, 99.969, 99.879, 99.352, 99.771]
@@ -829,7 +829,7 @@ plt.bar(names, values)
 
 **代码:分析每个模型的训练和测试时间。**
 
-```
+```py
 
 names = ['NB', 'DT', 'RF', 'SVM', 'LR', 'GB']
 values = [1.11452, 2.44087, 17.08491, 218.26840, 92.94222, 633.229]
@@ -844,7 +844,7 @@ plt.bar(names, values)
 
 **代码:**
 
-```
+```py
 
 names = ['NB', 'DT', 'RF', 'SVM', 'LR', 'GB']
 values = [1.54329, 0.14877, 0.199471, 126.50875, 0.09605, 2.95039]

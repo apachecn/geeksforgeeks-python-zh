@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 import sqlite3
 
 # Connecting to sqlite

@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import socket library
 import socket
 
@@ -119,7 +119,7 @@ startChat()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all the required  modules
 import socket
 import threading

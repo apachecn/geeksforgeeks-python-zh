@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Inverse Dictionary Values List
 # Using 
@@ -44,7 +44,7 @@ print("The required result : " + str(dict(res))) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {1: [2, 3], 2: [3], 3: [1], 4: [2, 1]}
 The required result : {2: [1, 4], 3: [1, 2], 1: [3, 4]}
 

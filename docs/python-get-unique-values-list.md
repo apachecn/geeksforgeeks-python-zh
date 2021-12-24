@@ -5,7 +5,7 @@
 给定一个列表，以任何顺序打印所有唯一的数字。
 **例:**
 
-```
+```py
 Input : 10 20 10 30 40 40
 Output : 10 20 30 40 
 
@@ -19,7 +19,7 @@ Output : 1 2 3 4 5
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to check if two
 # to get unique values from list
 # using traversal
@@ -51,7 +51,7 @@ unique(list2)
 
 **输出:**
 
-```
+```py
 the unique values from 1st list is
 10 20 30 40 
 the unique values from 2nd list is
@@ -64,7 +64,7 @@ the unique values from 2nd list is
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to check if two
 # to get unique values from list
 # using set
@@ -91,7 +91,7 @@ unique(list2)
 
 **输出:**
 
-```
+```py
 the unique values from 1st list is
 40 10 20 30 
 the unique values from 2nd list is
@@ -104,7 +104,7 @@ the unique values from 2nd list is
 
 ## 蟒蛇 3
 
-```
+```py
 #Ppython program to check if two
 # to get unique values from list
 # using numpy.unique
@@ -127,7 +127,7 @@ unique(list2)
 
 **输出**T2】
 
-```
+```py
 the unique values from 1st list is
 [10 20 30 40]
 
@@ -143,7 +143,7 @@ the unique values from 2nd list is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check if two
 # to get unique values from list
 # importing counter from collections
@@ -169,7 +169,7 @@ unique(list2)
 
 **输出:**
 
-```
+```py
 the unique values from 1st list is
 10 20 30 40
 

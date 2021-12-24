@@ -14,7 +14,7 @@
 
 我们使用递归是因为嵌套的层次不能预先确定。
 
-```
+```py
 # Python code to flat a nested list with
 # multiple levels of nesting allowed.
 
@@ -41,7 +41,7 @@ print ('The list after removing nesting: ', output)
 
 **Output:**
 
-```
+```py
 The original list:  [1, 2, [3, 4, [5, 6]], 7, 8, [9, [10]]]
 The list after removing nesting:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 

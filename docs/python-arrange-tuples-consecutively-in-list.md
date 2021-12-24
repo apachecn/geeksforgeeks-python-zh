@@ -7,7 +7,7 @@
 **方法:使用 loop + `dict()`**
 通过将元组容器列表转换为字典，然后很容易访问一个键的值，并相应地排列它们，以一个元组元素以另一个元素的结尾开始的方式进行排序，可以很容易地解决这个任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Arranging Tuples consecutively in list
 # using loop + dict()
@@ -33,7 +33,7 @@ print("The arranged list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6), (11, 8), (6, 11), (8, 9)]
 The arranged list is : [(5, 6), (6, 11), (11, 8), (8, 9)]
 

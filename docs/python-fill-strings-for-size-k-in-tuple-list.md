@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `len()`**
 这个功能是可以应用于解决这个问题的蛮力方法的简写。在本例中，我们使用 len()执行检查 K 大小的任务，并通过字符执行所需的填充。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill Strings for size K in Tuple List
 # Using list comprehension + len()
@@ -40,7 +40,7 @@ print("The modified list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 'is'), ('best', 'for'), ('CS', 'Geeks')]
 The modified list : [('Gfg*****', 'is******'), ('best****', 'for*****'), ('CS******', 'Geeks***')]
 
@@ -49,7 +49,7 @@ The modified list : [('Gfg*****', 'is******'), ('best****', 'for*****'), ('CS***
 **方法 2:使用列表理解+ `ljust()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 ljust()执行填充尾随字符的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Fill Strings for size K in Tuple List
 # Using list comprehension + ljust()
@@ -76,7 +76,7 @@ print("The modified list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 'is'), ('best', 'for'), ('CS', 'Geeks')]
 The modified list : [('Gfg*****', 'is******'), ('best****', 'for*****'), ('CS******', 'Geeks***')]
 

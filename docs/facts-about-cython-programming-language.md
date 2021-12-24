@@ -17,7 +17,7 @@ Cython 的目标是成为 Python 编程语言的超集。它的设计使得它�
 
 ## 蟒蛇 3
 
-```
+```py
 def f(x):
     return x**2-x
 
@@ -33,7 +33,7 @@ def integrate_f(a, b, N):
 
 ## 蟒蛇 3
 
-```
+```py
 cdef double f(double x):
     return x**2-x
 def integrate_f(double a, double b, int N):

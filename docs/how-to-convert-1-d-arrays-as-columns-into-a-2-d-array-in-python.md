@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -39,7 +39,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 [['Geeks' 'my']
  ['for' 'name']
  ['geeks' 'sachin']]
@@ -49,7 +49,7 @@ print(c)
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -68,7 +68,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 [[1 5]
 [2 6]
 [3 7]

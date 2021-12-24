@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 class class_name:
     def __new__(cls, *args, **kwargs):
         statements
@@ -31,7 +31,7 @@ class class_name:
 
 **示例:**
 
-```
+```py
 # Python program to 
 # demonstrate __new__
 
@@ -49,7 +49,7 @@ A()
 
 **输出:**
 
-```
+```py
 Creating instance
 Init is called
 
@@ -59,7 +59,7 @@ Init is called
 
 这意味着如果 __new__ 方法省略了 super，则 __init__ 方法将不会被执行。让我们看看情况是否如此。
 
-```
+```py
 # Python program to
 # demonstrate __new__
 
@@ -76,7 +76,7 @@ print(A())
 
 **输出:**
 
-```
+```py
 Creating instance
 None
 
@@ -84,7 +84,7 @@ None
 
 在上面的例子中，可以看到 **__init__** 方法没有被调用，实例化被评估为`None` ，因为构造函数没有返回任何东西。让我们看看如果 __new__ 和 __init__ 方法都返回一些东西会发生什么。
 
-```
+```py
 # Python program to
 # demonstrate __new__
 
@@ -106,14 +106,14 @@ print(B())
 
 **输出:**
 
-```
+```py
 Creating instance
 GeeksforGeeks
 Initializing instance
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/62216eb30d3856048eff916fb8d4c32d.py", line 17, in print(B())
 TypeError: __init__() should return None, not 'str' 
@@ -124,7 +124,7 @@ TypeError: __init__() should return None, not 'str'
 让我们尝试一个例子，其中 __new__ 方法返回一个不同类的实例。
 **例:**
 
-```
+```py
 # Python program to
 # demonstrate __new__ method
 
@@ -148,7 +148,7 @@ print(Geek())
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 
 ```

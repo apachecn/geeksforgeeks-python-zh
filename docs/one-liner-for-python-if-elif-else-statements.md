@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 if test expression:
     Body of if
 
@@ -33,7 +33,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 x = 87
 
 result = {x > 190: "First condition satisfied!", 
@@ -45,7 +45,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Second condition satisfied!
 ```
 
@@ -53,7 +53,7 @@ Second condition satisfied!
 
 ## 蟒蛇 3
 
-```
+```py
 x = 87
 
 {x > 190: print("First condition satisfied!"),
@@ -63,7 +63,7 @@ x = 87
 
 **输出:**
 
-```
+```py
 First condition satisfied!
 Second condition satisfied!
 Third condition satisfied!

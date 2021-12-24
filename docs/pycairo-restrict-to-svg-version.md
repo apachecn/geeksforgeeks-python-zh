@@ -18,7 +18,7 @@ SVG 规范在 2011 年更新为 1.1 版。有两种“移动 SVG 配置文件”
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -53,7 +53,7 @@ print("SVG version")
 
 **输出:**
 
-```
+```py
  SVG version
 ```
 

@@ -7,7 +7,7 @@
 **方法#1:使用`sorted() + set comprehension + values()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用 values()提取所有值，并使用集合理解来获取列表中编译的唯一值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Unique values dictionary values
 # Using set comprehension + values() + sorted()

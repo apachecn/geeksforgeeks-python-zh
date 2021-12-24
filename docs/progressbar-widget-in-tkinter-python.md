@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```py
 widget_object = Progressbar(parent, **options)
 
 ```
 
 **代码#1** 在**确定**模式下
 
-```
+```py
 # importing tkinter module
 from tkinter import * from tkinter.ttk import *
 
@@ -67,7 +67,7 @@ mainloop()
 
 **Code #2:** In **indeterminate** mode
 
-```
+```py
 # importing tkinter module
 from tkinter import * from tkinter.ttk import *
 

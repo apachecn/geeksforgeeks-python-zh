@@ -57,7 +57,7 @@
 
 ![](img/47e60d6f538267370c91c4546f29e777.png)
 
-```
+```py
  Input: Photograph 
  Output: Complete textual description.
 
@@ -77,7 +77,7 @@
 
 ![](img/c064370b349d4eb664444cda6bf85f91.png)
 
-```
+```py
  Input 1: Image 
  Input 2: Previously generated word or start of sequence token. 
  Output:  Next word in sequence.
@@ -138,7 +138,7 @@ T3】2。递归神经网络(RNN)，用于通过模型训练和生成字幕文本
 
 ### 先决条件-
 
-```
+```py
 Anaconda
 Pytorch
 MSCOCO Dataset    
@@ -149,7 +149,7 @@ MSCOCO Dataset
 
 **数据集**
 
-```
+```py
 git clone https://github.com/pdollar/coco.git
 cd coco/PythonAPI/
 make
@@ -169,7 +169,7 @@ pip install -r requirements.txt
 
 **现在模型准备好了，可以使用**来预测字幕
 
-```
+```py
 $ python sample.py --image='/example.png'
 ```
 
@@ -177,7 +177,7 @@ $ python sample.py --image='/example.png'
 
 导入所有库，并确保笔记本位于存储库的根文件夹中:
 
-```
+```py
 import torch
 import matplotlib.pyplot as plt
 import numpy as np 
@@ -195,7 +195,7 @@ from model import EncoderCNN, DecoderRNN
 
 **硬编码模型不能修改:**
 
-```
+```py
 # Model path 
 
 # make sure path must correct 
@@ -211,7 +211,7 @@ NUM_LAYERS = 1
 
 **要加载 _image，添加此配置代码:**
 
-```
+```py
 # Device configuration snippet
 device = torch.cuda.device(0) # 0 represent default device
 
@@ -226,7 +226,7 @@ def load_image(image_path, transform=None): 
 
 **现在，让我们编写一个 PyTorch 函数，它使用预处理的数据文件来预测输出:**
 
-```
+```py
 def PretrainedResNet(image_path, encoder_path=ENCODER_PATH, 
                      decoder_path=DECODER_PATH,
                      vocab_path=VOCAB_PATH,
@@ -287,7 +287,7 @@ def PretrainedResNet(image_path, encoder_path=ENCODER_PATH, 
 
 **使用以下代码预测标签:**
 
-```
+```py
 plt.figure(figsize=(24,24))
 predicted_label, image = PretrainedResNet(image_path='IMAGE_PATH')
 plt.imshow(image)
@@ -302,7 +302,7 @@ print(predicted_label)
 ![](img/bebb43364d569e0998ffa198440e92cc.png)
 *现在你怎么看这个形象？在脑海中保留一个标题，不要向下滚动。*
 
-```
+```py
 plt.figure(figsize=(17,19))
 predicted_label, img = PretrainedResNet(image_path='./image/AVENGERENDGAME1.png')
 plt.imshow(img)
@@ -312,7 +312,7 @@ print(predicted_label)
 **输出:**
 ![](img/4015a14bcb633c6b2202403517507d96.png)
 
-```
+```py
 Thor 
 ```
 
@@ -321,7 +321,7 @@ Thor
 
 *现在你怎么看这张图片？在脑海中保留一个标题，不要向下滚动。*
 
-```
+```py
 plt.figure(figsize=(22,22))
 predicted_label, img = PretrainedResNet(image_path='./image/AVENGERENDGAME2.png')
 plt.imshow(img)
@@ -331,7 +331,7 @@ print(predicted_label)
 **输出:**
 ![](img/22fe56325ade2888db6708301950c860.png)
 
-```
+```py
 (tony and doctor strange)
 ```
 
@@ -340,7 +340,7 @@ print(predicted_label)
 
 *现在你怎么看这张图片？在脑海中保留一个标题，不要向下滚动。*
 
-```
+```py
 plt.figure(figsize=(42,49))
 predicted_label, img = PretrainedResNet(image_path='./image/AVENGERENDGAME3.png')
 plt.imshow(img)
@@ -350,7 +350,7 @@ print(predicted_label)
 **输出:**
 ![](img/43e9147b8f37818c3a59c48323fda76a.png)
 
-```
+```py
 (thanos and Hulk)
 ```
 

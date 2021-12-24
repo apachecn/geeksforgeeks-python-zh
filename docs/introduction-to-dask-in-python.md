@@ -15,7 +15,7 @@ Dask 是一个支持 python 并行计算的库。它提供了如下功能-
 
 要安装该模块，请在终端中键入以下命令–
 
-```
+```py
 python -m pip install "dask[complete]" 
 ```
 
@@ -25,7 +25,7 @@ python -m pip install "dask[complete]"
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 %time temp = pd.read_csv('dataset.csv',
@@ -42,7 +42,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 import dask.dataframe as dd
 
 %time df = dd.read_csv("dataset.csv", 

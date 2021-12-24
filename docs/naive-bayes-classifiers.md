@@ -74,7 +74,7 @@
 
 为了清楚起见，特征向量和相应的类变量的例子可以是:(参考数据集的第一行)
 
-```
+```py
 X = (Rainy, Hot, High, False)
 y = No 
 ```
@@ -87,7 +87,7 @@ y = No
 
 现在，如果任意两个事件 A 和 B 是独立的，那么，
 
-```
+```py
 P(A,B) = P(A)P(B) 
 ```
 
@@ -127,7 +127,7 @@ P(A,B) = P(A)P(B)
 
 让我们用一组新的特性来测试它(今天就叫它):
 
-```
+```py
 today = (Sunny, Hot, Normal, False) 
 ```
 
@@ -181,7 +181,7 @@ today = (Sunny, Hot, Normal, False)
 
 现在，我们来看一个使用 scikit-learn 的高斯朴素贝叶斯分类器的实现。
 
-```
+```py
 # load the iris dataset
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -209,7 +209,7 @@ print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_tes
 
 输出:
 
-```
+```py
 Gaussian Naive Bayes model accuracy(in %): 95.0
 ```
 

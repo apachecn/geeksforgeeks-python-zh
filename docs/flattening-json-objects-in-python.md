@@ -28,7 +28,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # for a array value of a key
     unflat_json = {'user' :
                    {'Rachel':
@@ -80,13 +80,13 @@
 
     为了使用 flatten _ json 库，我们需要安装这个库。可以通过在终端中运行以下命令来安装 flatten _ json。
 
-    ```
+    ```py
     pip install json-flatten
     ```
 
     **示例:**
 
-    ```
+    ```py
     from flatten_json import flatten
 
     unflat_json = {'user' :

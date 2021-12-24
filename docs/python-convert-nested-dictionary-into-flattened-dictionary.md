@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # conversion of nested dictionary
 # into flattened dictionary
@@ -41,7 +41,7 @@ print ("final_dictionary", str(flatten_dict(ini_dict)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # conversion of nested dictionary
 # into flattened dictionary
@@ -79,7 +79,7 @@ print ("final_dictionary", str(convert_flatten(ini_dict)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # conversion of nested dictionary
 # into flattened dictionary

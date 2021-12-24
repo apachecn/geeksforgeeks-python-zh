@@ -13,7 +13,7 @@
 
 平台模块的安装可以使用以下命令完成:
 
-```
+```py
 pip install platform
 
 ```
@@ -22,7 +22,7 @@ pip install platform
 
 ## 蟒蛇 3
 
-```
+```py
 import platform
 
 my_system = platform.uname()
@@ -37,7 +37,7 @@ print(f"Processor: {my_system.processor}")
 
 **输出:**
 
-```
+```py
 System: Windows
 Node Name: LAPTOP-PRKUI1Q9
 Release: 10
@@ -51,7 +51,7 @@ Processor: Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 WMI 模块可用于获取 windows 机器的系统信息，并可使用以下命令安装:
 
-```
+```py
 pip install wmi
 
 ```
@@ -60,7 +60,7 @@ pip install wmi
 
 ## 蟒蛇 3
 
-```
+```py
 import wmi
 
 c = wmi.WMI()   
@@ -76,7 +76,7 @@ print(f"SystemFamily: {my_system.SystemFamily}")
 
 **输出:**
 
-```
+```py
 Manufacturer: LENOVO
 Model: 80XH
 Name: LAPTOP-PRKUI1Q9
@@ -92,7 +92,7 @@ SystemFamily: ideapad 320-15ISK
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 print(os.uname())
@@ -107,7 +107,7 @@ print(os.uname())
 这主要用于获取系统上的运行时进程信息。
 psutil 模块的安装可以使用以下命令完成:
 
-```
+```py
 pip install psutil
 
 ```
@@ -116,7 +116,7 @@ pip install psutil
 
 ## 蟒蛇 3
 
-```
+```py
 import psutil
 
 print(f"Memory :{psutil.virtual_memory()}")
@@ -147,7 +147,7 @@ print(f"Memory :{psutil.virtual_memory()}")
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import subprocess
 

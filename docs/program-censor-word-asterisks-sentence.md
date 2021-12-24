@@ -13,7 +13,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to censor a word
 // with asterisks in a sentence
 #include<bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to censor a word
 // with asterisks in a sentence
 class GFG
@@ -141,7 +141,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to censor a word
 # with asterisks in a sentence
 
@@ -192,7 +192,7 @@ if __name__== '__main__':
 
 ## C#
 
-```
+```py
 // C# program to censor a word
 // with asterisks in a sentence
 using System;
@@ -256,7 +256,7 @@ public static void Main(String[] args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP Program to censor a word
 // with asterisks in a sentence
@@ -315,7 +315,7 @@ echo censor($extract, $cen);
 
 ## java 描述语言
 
-```
+```py
 <script>
 
       // JavaScript program to censor a word
@@ -369,7 +369,7 @@ echo censor($extract, $cen);
 
 **输出:**
 
-```
+```py
 GeeksforGeeks is a ******** science portal for geeks.
 I am pursuing my major in ******** science.
 ```

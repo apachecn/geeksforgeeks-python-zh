@@ -24,7 +24,7 @@
 对于不等于零的数组的所有元素的乘积，那么数组的每个元素都应该是非零的，并且要得到不等于零的数组和，如果数组和为零，则将任何元素递增 1。
 **例如:**
 
-```
+```py
 N = 4, arr[] = {0, 1, 2, 3}
 
 Iterate over the array to find,
@@ -47,7 +47,7 @@ is zero then increment any element by 1\.
 
 ## C++
 
-```
+```py
 // C++ implementation to find the
 // minimum steps to make the array sum
 // and the product not equal to zero
@@ -107,7 +107,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation to find the
 // minimum steps to make the array sum
 // and the product not equal to zero
@@ -166,7 +166,7 @@ public static void main(String []args) {
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation to find the
 # minimum steps to make the array sum
 # and the product not equal to zero
@@ -205,7 +205,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 // C# implementation to find the
 // minimum steps to make the array sum
 // and the product not equal to zero
@@ -266,7 +266,7 @@ public static void Main(String []args) {
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript implementation to find the
@@ -323,7 +323,7 @@ function sum(arr)
 
 **Output:** 
 
-```
+```py
 3
 ```
 

@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何在 mahotas 中过滤区域。为此，我们将使用来自核分割基准的荧光显微图像。我们可以在下面给出的命令的帮助下获得图像–
 
-```
+```py
 mhotas.demos.nuclear_image()
 ```
 
@@ -13,13 +13,13 @@ mhotas.demos.nuclear_image()
 
 为了过滤这个图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下对其进行过滤，下面是这样做的命令
 
-```
+```py
 nuclear = nuclear[:, :, 0]
 ```
 
 **例 1 :**
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import mahotas.demos
@@ -48,7 +48,7 @@ show()
 
 **例 2 :**
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import mahotas.demos

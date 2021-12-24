@@ -6,7 +6,7 @@
 
 **代码#1:使用`warnings.warn()`功能**
 
-```
+```py
 import warnings
 
 def func(x, y, logfile = None, debug = False):
@@ -18,7 +18,7 @@ def func(x, y, logfile = None, debug = False):
 `warn()`的参数是一个警告消息和一个警告类，它通常是以下之一:用户警告、折旧警告、语法警告、运行时警告、资源警告或未来警告。
 警告的处理取决于解释器的执行方式和其他配置。如果运行带有`-W all` 选项的 Python，将获得以下输出:
 
-```
+```py
 bash % python3 -W all example.py
 example.py:5: DeprecationWarning: logfile argument is deprecated
  warnings.warn('logfile argument is deprecated', DeprecationWarning) 
@@ -28,7 +28,7 @@ example.py:5: DeprecationWarning: logfile argument is deprecated
 
 **代码#2 :**
 
-```
+```py
 bash % python3 -W error example.py
 
 Traceback (most recent call last):
@@ -44,7 +44,7 @@ bash %</module>
 
 **代码#3:销毁文件而不关闭文件产生的警告消息。**
 
-```
+```py
 import warnings
 
 warnings.simplefilter('always')
@@ -55,7 +55,7 @@ del f
 
 **输出:**
 
-```
+```py
 __main__:1: ResourceWarning: unclosed file 
 <_io.TextIOWrapper name='/etc/passwd' mode='r' encoding='UTF-8'> 
 ```

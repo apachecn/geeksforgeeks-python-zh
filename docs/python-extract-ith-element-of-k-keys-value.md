@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract ith element of K key's value
 # Using get()
@@ -50,7 +50,7 @@ print("The extracted value : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 7, 3, 1], 'is': [9, 1, 4], 'best': [10, 7, 4]}
 The extracted value : 3
 ```

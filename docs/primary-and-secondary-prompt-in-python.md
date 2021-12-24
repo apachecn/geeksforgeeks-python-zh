@@ -4,7 +4,7 @@
 
 在 Python 的交互外壳上看到的`">>>"`标志称为提示。Python 的交互式 shell 在终端上激发命令“python3”(如果我们正在处理 python 版本 3)后出现，它有两个这样的提示。
 
-```
+```py
 ">>>" - Primary prompt
 "..." - Secondary prompt
 ```

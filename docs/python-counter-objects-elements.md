@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import counter class from collections module
 from collections import Counter
 
@@ -33,7 +33,7 @@ for i in x.elements():
 
 ****输出:****
 
-```
+```py
 g g e e e e k k s s f o r 
 ```
 
@@ -41,7 +41,7 @@ g g e e e e k k s s f o r
 
 ## **蟒蛇 3**
 
-```
+```py
 # import counter class from collections module
 from collections import Counter
 
@@ -80,7 +80,7 @@ for i in d.elements():
 
 ****输出:****
 
-```
+```py
 g g e e e e k k s s f o r 
 geeks geeks geeks geeks for gfg gfg python python python 
 1 2 2 21 21 12 44 5 5 5 13 15 19 
@@ -91,7 +91,7 @@ a a b b b c c c c c c d e e e e e
 
 ## **蟒蛇 3**
 
-```
+```py
 # import Counter from collections
 from collections import Counter
 
@@ -106,7 +106,7 @@ print(x.elements())
 
 ****输出:****
 
-```
+```py
 itertools.chain object at 0x037209F0
 ```
 
@@ -114,7 +114,7 @@ itertools.chain object at 0x037209F0
 
 ## **蟒蛇 3**
 
-```
+```py
 # import Counter from collections
 from collections import Counter
 
@@ -128,7 +128,7 @@ for i in x.elements():
 
 ****输出:****
 
-```
+```py
 a : 2
 a : 2
 x : 3

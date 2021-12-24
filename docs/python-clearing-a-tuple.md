@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Clearing a tuple
 # using list() + tuple() + clear()
@@ -31,7 +31,7 @@ print("The tuple after clearing values : " + str(test_tup))
 
 **Output : **
 
-```
+```py
 The original tuple : (1, 5, 3, 6, 8)
 The tuple after clearing values : ()
 ```
@@ -41,7 +41,7 @@ The tuple after clearing values : ()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Clearing a tuple
 # using Reinitialization + tuple()
@@ -62,7 +62,7 @@ print("The tuple after clearing values : " + str(test_tup))
 
 **Output : **
 
-```
+```py
 The original tuple : (1, 5, 3, 6, 8)
 The tuple after clearing values : ()
 ```

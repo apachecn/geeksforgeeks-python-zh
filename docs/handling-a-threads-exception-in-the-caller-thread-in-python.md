@@ -10,7 +10,7 @@ Python 中的多线程可以通过使用线程库来实现。为了调用线程�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import threading
 import sys
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Hello World
 ```
 
@@ -47,7 +47,7 @@ Hello World
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import threading
 import sys

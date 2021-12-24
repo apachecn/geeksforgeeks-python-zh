@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `split()`**
 字典理解可用于字典的构造，拆分功能可用于在列表中执行必要的拆分，以获得字典的有效键值对。
 
-```
+```py
 # Python3 code to demonstrate
 # Converting list string to dictionary 
 # Using dictionary comprehsion + split()
@@ -28,7 +28,7 @@ print("The dictionary after extraction is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : [Nikhil:1, Akshat:2, Akash:3]
 The dictionary after extraction is : {'Nikhil': '1', 'Akash': '3', 'Akshat': '2'}
 

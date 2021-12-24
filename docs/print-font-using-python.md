@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```py
 Input : ROOT
 
 Output :
@@ -42,7 +42,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to print input in your own font
 
 name = "GEEK"
@@ -171,7 +171,7 @@ for x in range(0, length):
 
 **输出:**
 
-```
+```py
 ..######..
 ..#.......
 ..#.####..

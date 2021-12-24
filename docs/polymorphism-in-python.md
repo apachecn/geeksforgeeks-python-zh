@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate in-built poly-
 # morphic functions
 
@@ -20,7 +20,7 @@ print(len([10, 20, 30]))
 
 **Output:** 
 
-```
+```py
 5
 3
 ```
@@ -29,7 +29,7 @@ print(len([10, 20, 30]))
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python function to demonstrate
 # Polymorphism
 
@@ -43,7 +43,7 @@ print(add(2, 3, 4))
 
 **Output:** 
 
-```
+```py
 5
 9
 ```
@@ -53,7 +53,7 @@ print(add(2, 3, 4))
 
 ## 蟒蛇 3
 
-```
+```py
 class India():
     def capital(self):
         print("New Delhi is the capital of India.")
@@ -84,7 +84,7 @@ for country in (obj_ind, obj_usa):
 
 **Output:** 
 
-```
+```py
 New Delhi is the capital of India.
 Hindi is the most widely spoken language of India.
 India is a developing country.
@@ -98,7 +98,7 @@ USA is a developed country.
 
 ## 蟒蛇 3
 
-```
+```py
 class Bird:
   def intro(self):
     print("There are many types of birds.")
@@ -130,7 +130,7 @@ obj_ost.flight()
 
 **Output:** 
 
-```
+```py
 There are many types of birds.
 Most of the birds can fly but some cannot.
 There are many types of birds.
@@ -144,7 +144,7 @@ Ostriches cannot fly.
 
 ## 蟒蛇 3
 
-```
+```py
 def func(obj):
     obj.capital()
     obj.language()
@@ -162,7 +162,7 @@ func(obj_usa)
 
 ## 蟒蛇 3
 
-```
+```py
 class India():
     def capital(self):
         print("New Delhi is the capital of India.")
@@ -197,7 +197,7 @@ func(obj_usa)
 
 **Output:** 
 
-```
+```py
 New Delhi is the capital of India.
 Hindi is the most widely spoken language of India.
 India is a developing country.

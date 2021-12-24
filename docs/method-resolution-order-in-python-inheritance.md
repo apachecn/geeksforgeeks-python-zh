@@ -5,7 +5,7 @@
 **方法解析顺序:**
 方法解析顺序(MRO)它表示编程语言解析方法或属性的方式。Python 支持从其他类继承的类。被继承的类称为父类或超类，而继承的类称为子类或子类。在 python 中，方法解析顺序定义了执行方法时搜索基类的顺序。首先，在类中搜索方法或属性，然后它遵循我们在继承时指定的顺序。这个顺序也被称为类的线性化，一组规则被称为 MRO(方法解析顺序)。当从另一个类继承时，解释器需要一种方法来解析通过实例调用的方法。因此，我们需要方法解析顺序。例如
 
-```
+```py
 # Python program showing
 # how MRO works
 
@@ -22,7 +22,7 @@ r.rk()
 
 **输出:**
 
-```
+```py
  In class B
 
 ```
@@ -31,7 +31,7 @@ r.rk()
 上面代码中的顺序是- `class B - > class A`
 在多个继承中，方法是根据继承类时指定的顺序执行的。对于支持单继承的语言来说，方法解析顺序并不有趣，但是支持多继承方法解析顺序的语言起着非常关键的作用。让我们看另一个例子来深入理解方法解析顺序:
 
-```
+```py
 # Python program showing
 # how MRO works
 
@@ -55,7 +55,7 @@ r.rk()
 
 **输出:**
 
-```
+```py
  In class B
 
 ```
@@ -69,7 +69,7 @@ Python 遵循深度优先顺序解析方法和属性。所以在上面的例子�
 **新旧风格顺序:**
 在 Python 的旧版本(2.1)中，我们必然会使用旧风格的类，但是在 Python(3 . x)&2.2 中，我们必然只会使用新的类。新样式类的第一个父类继承自 Python 根“对象”类。
 
-```
+```py
 # Old style class
 class OldStyleClass: 
     pass
@@ -84,7 +84,7 @@ class NewStyleClass(object): 
 **DLR 算法**
 在实现多个继承的过程中，Python 会构建一个类列表进行搜索，因为它需要解决当实例调用一个方法时必须调用哪个方法。顾名思义，方法解析顺序将首先搜索深度，然后从左到右。例如
 
-```
+```py
 class A: 
     pass
 
@@ -118,7 +118,7 @@ C3 线性化算法基于三个规则:
 **类的方法解析顺序方法(MRO):**
 要获取类的方法解析顺序，我们可以使用 __mro__ 属性或`mro()`方法。通过使用这些方法，我们可以显示方法被解析的顺序。例如
 
-```
+```py
 # Python program to show the order
 # in which methods are resolved
 
@@ -143,7 +143,7 @@ print(C.mro())
 
 **输出:**
 
-```
+```py
 Constructor C
 (<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>)
 [<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>]

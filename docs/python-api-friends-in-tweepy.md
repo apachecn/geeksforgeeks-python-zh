@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`friends()`** 方法用于获取指定用户的好
 
 **示例 1:**friends()方法返回最近的 20 个朋友。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -49,7 +49,7 @@ for friend in api.friends(screen_name):
 
 **输出:**
 
-```
+```py
 misskaul
 rajyasabhatv
 DDNewslive
@@ -75,7 +75,7 @@ DipaKarmakar
 
 **例 2:** 使用`Cursor()`方法可以访问 20 多个好友。
 
-```
+```py
 # the screen_name of the targeted user
 screen_name = "TwitterIndia"
 
@@ -86,7 +86,7 @@ for friend in tweepy.Cursor(api.friends, screen_name).items(30):
 
 **输出:**
 
-```
+```py
 misskaul
 rajyasabhatv
 DDNewslive
@@ -122,7 +122,7 @@ DrRPNishank
 
 **例 3:** 统计跟随者数量。
 
-```
+```py
 # the screen_name of the targeted user
 screen_name = "geeksforgeeks"
 
@@ -138,6 +138,6 @@ print(screen_name + " has " + str(count) + " friends.")
 
 **输出:**
 
-```
+```py
 geeksforgeeks has 8 friends.
 ```

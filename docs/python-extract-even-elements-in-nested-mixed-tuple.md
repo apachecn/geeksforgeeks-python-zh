@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Even elements in Nested Mixed Tuple
 # Using recursion + isinstance() + loop
@@ -46,7 +46,7 @@ print("Even elements of tuple : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (4, 5, (7, 6, (2, 4)), 6, 8)
 Even elements of tuple : (4, (6, (2, 4)), 6, 8)
 ```
@@ -56,7 +56,7 @@ Even elements of tuple : (4, (6, (2, 4)), 6, 8)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Even elements in Nested Mixed Tuple
 # Using recursion + isinstance() + generator expression
@@ -82,7 +82,7 @@ print("Even elements of tuple : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (4, 5, (7, 6, (2, 4)), 6, 8)
 Even elements of tuple : (4, (6, (2, 4)), 6, 8)
 ```

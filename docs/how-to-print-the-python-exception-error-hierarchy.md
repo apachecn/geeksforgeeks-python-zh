@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import inspect module
 import inspect
 
@@ -46,7 +46,7 @@ treeClass(BaseException)
 
 **输出:**
 
-```
+```py
 Hierarchy for Built-in exceptions is : 
  BaseException
 --- Exception

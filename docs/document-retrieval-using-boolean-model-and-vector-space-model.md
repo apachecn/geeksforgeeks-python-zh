@@ -74,7 +74,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pandas
 # module to read the contents of the file from a csv file
 
@@ -316,7 +316,7 @@ main()
 
 ## 计算机编程语言
 
-```
+```py
 # implementation of vector space model for document retrieval
 
 import pandas

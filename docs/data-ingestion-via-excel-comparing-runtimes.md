@@ -12,7 +12,7 @@
 
 使用`xlrd`模块，可以从电子表格中检索信息。例如，读取、写入或修改数据可以在 Python 中完成。此外，用户可能需要浏览各种表单，根据某些标准检索数据，或者修改一些行和列，并做大量工作。
 
-```
+```py
 import xlrd
 import time
 
@@ -45,7 +45,7 @@ print(t2-t1)
 
 Python 数据分析库是数据科学家使用的强大工具。它有助于数据摄取和数据探索。
 
-```
+```py
 import pandas as pd 
 import time
 
@@ -69,7 +69,7 @@ print(t2-t1)
 
 Dask 数据帧是一个大型并行数据帧，由许多较小的熊猫数据帧组成，沿索引分割。
 
-```
+```py
 import dask
 import dask.dataframe as dd
 import pandas as pd 

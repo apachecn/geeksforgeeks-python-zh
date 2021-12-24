@@ -17,13 +17,13 @@ Python 更容易编码和学习。Python 程序可以写在任何纯文本编辑
 
 *现在为蟒蛇 2 运行以下命令:* 
 
-```
+```py
 ***python --version*** 
 ```
 
 *****为蟒 3.x*****
 
-```
+```py
 ***python3.x --version*** 
 ```
 
@@ -42,7 +42,7 @@ T3】***
 
 ***几乎对于每个 Linux 系统，下面的命令都可以用来直接安装 Python:***
 
-```
+```py
 ***$ sudo apt-get install python3.8*** 
 ```
 
@@ -59,7 +59,7 @@ T3】***
 
 ***要验证安装，请在终端中输入以下命令。***
 
-```
+```py
 ***python3.8*** 
 ```
 
@@ -67,7 +67,7 @@ T3】***
 
 ***让我们考虑一个简单的 Hello World 程序。***
 
-```
+```py
 ***# Python program to print
 # Hello World
 

@@ -17,7 +17,7 @@
 
 **Example 1:** When `enchant.dict_exists()` returns True.
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -35,13 +35,13 @@ else:
 
 **输出:**
 
-```
+```py
 The dictionary for en_US exists.
 ```
 
 **例 2:** 当`enchant.dict_exists()`返回假时。
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -59,6 +59,6 @@ else:
 
 **输出:**
 
-```
+```py
 The dictionary for hi_IN does not exists.
 ```

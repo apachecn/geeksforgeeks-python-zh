@@ -6,7 +6,7 @@
 
 **方法一:利用词典理解**
 
-```
+```py
 # Python3 code to demonstrate 
 # converting comma separated string
 # into dictionary

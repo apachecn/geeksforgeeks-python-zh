@@ -9,7 +9,7 @@
 *   **XAMPP 服务器:**是一个跨平台的 web 服务器，用于在本地服务器上开发和测试程序。它由 Apache Friends 开发和管理，是开源的。它有一个 Apache HTTP 服务器、MariaDB 和 11 种不同编程语言(如 Perl 和 PHP)的解释器。XAMPP 代表跨平台、Apache、MySQL、PHP 和 Perl。可以从[这里](https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/)轻松安装。
 *   **MySQL 连接器:**Python 的 MySQL 连接器模块用于连接 MySQL 数据库和 Python 程序，它使用 Python 数据库应用编程接口规范 v2.0 (PEP 249)来实现。它使用 Python 标准库，没有依赖关系。可以使用以下命令安装:
 
-```
+```py
 pip install mysql.connector
 ```
 
@@ -39,7 +39,7 @@ XML 结构:
 
 ## 可扩展标记语言
 
-```
+```py
 <?xml version="1.0"?>
 <studentdata>
     <student>
@@ -81,7 +81,7 @@ XML 结构:
 
 ## 计算机编程语言
 
-```
+```py
 # import xml element tree
 import xml.etree.ElementTree as ET
 

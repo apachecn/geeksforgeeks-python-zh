@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+循环**
 可以使用列表理解来执行这个特定的任务，以过滤出连续的组，并且可以使用乘积显式函数来获得过滤后的解的乘积。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive chunks Product
 # using list comprehension + loop
@@ -35,7 +35,7 @@ print("The chunked product list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 7, 8, 10, 12, 15, 13, 17, 14]
 The chunked product list is : [224, 1800, 3094]
 

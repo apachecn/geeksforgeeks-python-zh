@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 new_list=[variable_name  <for loop>  <if-condition>]
 ```
 
@@ -24,7 +24,7 @@ new_list=[variable_name  <for loop>  <if-condition>]
 
 考虑两个包含整数的列表(列表 1、列表 2)。现在需要通过将 list1 元素除以 list2 元素来形成一个新的列表(list3)。它可以用下面给出的公式表示。
 
-```
+```py
 list3 [i] = list1 [i] / list2 [i]
 ```
 
@@ -32,7 +32,7 @@ list3 [i] = list1 [i] / list2 [i]
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [2, 6, 41, 1, 58, 33, -7, 90]
 list2 = [1, 3, 2, 0, 6, 3, 7, 0]
 
@@ -49,7 +49,7 @@ print(list3)
 
 **输出:**
 
-```
+```py
 Division by zero not permitted!!!
 Division by zero not permitted!!!
 [2.0, 2.0, 20.5, None, 9.667, 11.0, -1.0, None]
@@ -63,7 +63,7 @@ Division by zero not permitted!!!
 
 ## 蟒蛇 3
 
-```
+```py
 li = ['10', '11', 7, 'abc', 'cats', 3, '5']
 
 # helper function
@@ -81,7 +81,7 @@ print(new_li)
 
 **输出:**
 
-```
+```py
 [100, 121, 49, None, None, 9, 25]
 ```
 
@@ -95,7 +95,7 @@ print(new_li)
 
 ## 蟒蛇 3
 
-```
+```py
 # class for user-defined exception handling
 class error(Exception):
     def __init__(self, a):
@@ -133,7 +133,7 @@ print("\nThe new list has :", new_li)
 
 ## 蟒蛇 3
 
-```
+```py
 # class for user-defined exception handling
 class error(Exception):
     def __init__(self, a):
@@ -161,7 +161,7 @@ print("\nThe new list has :", new_li)
 
 **输出:**
 
-```
+```py
 The number 43 is not in range!!!
 The number 89 is not in range!!!
 The number 1 is not in range!!!

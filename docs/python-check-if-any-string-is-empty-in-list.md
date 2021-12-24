@@ -7,7 +7,7 @@
 **方法#1:使用`any() + len()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用 any()检查字符串中的任何元素，len()用于获取任何字符串的长度是否为 0。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if any String is empty in list
 # using len() + any()
@@ -28,7 +28,7 @@ print("Is any string empty in list? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', '', 'for', 'geeks']
 Is any string empty in list? : True
 

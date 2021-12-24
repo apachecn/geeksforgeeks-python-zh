@@ -7,7 +7,7 @@
 
 考虑两个独立的文件文件 1 和文件 2。
 
-```
+```py
 # File1.py 
 
 print ("File1 __name__ = %s" %__name__) 
@@ -18,7 +18,7 @@ else: 
     print ("File1 is being imported")
 ```
 
-```
+```py
 # File2.py 
 
 import File1 
@@ -31,7 +31,7 @@ else: 
     print ("File2 is being imported")
 ```
 
-```
+```py
 Now the interpreter is given the command to run File1.py.
 python File1.py
 Output :

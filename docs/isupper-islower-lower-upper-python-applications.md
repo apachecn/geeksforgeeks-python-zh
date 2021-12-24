@@ -14,13 +14,13 @@
 在 Python 中，isupper()是一种用于字符串处理的内置方法。如果字符串中的所有字符都是大写的，该方法返回 **True** ，否则返回“False”。
 此函数用于检查参数是否包含任何大写字符，例如:
 
-```
+```py
 ABCDEFGHIJKLMNOPQRSTUVWXYZ 
 ```
 
 **语法:**
 
-```
+```py
 string.isupper()
 
 Parameters: 
@@ -35,7 +35,7 @@ Returns :
 
 示例:
 
-```
+```py
 Input : string = 'GEEKSFORGEEKS'
 Output : True
 
@@ -50,7 +50,7 @@ Output : False
 2.  它不接受任何参数，因此，如果传递参数，它将返回一个错误。
 3.  数字和符号返回“真”，但如果字符串只包含数字和数字，则返回“假”
 
-```
+```py
 # Python code for implementation of isupper()
 
 # checking for uppercase characters
@@ -63,7 +63,7 @@ print(string.isupper())
 
 **输出:**
 
-```
+```py
 True
 False
 
@@ -74,13 +74,13 @@ False
 在 Python 中，islower()是一种用于字符串处理的内置方法。如果字符串中的所有字符都是小写的，islower()方法返回 **True** ，否则返回“False”。
 此函数用于检查参数是否包含任何小写字符，例如:
 
-```
+```py
 abcdefghijklmnopqrstuvwxyz 
 ```
 
 **语法:**
 
-```
+```py
 string.islower()
 
 Parameters:
@@ -94,7 +94,7 @@ Returns :
 
 示例:
 
-```
+```py
 Input : string = 'geeksforgeeks'
 Output : True
 
@@ -109,7 +109,7 @@ Output : False
 2.  它不接受任何参数，因此，如果传递参数，它将返回一个错误。
 3.  数字和符号返回“真”，但如果字符串只包含数字和数字，则返回“假”。
 
-```
+```py
 # Python code for implementation of isupper()
 
 # checking for lowercase characters
@@ -122,7 +122,7 @@ print(string.islower())
 
 **输出:**
 
-```
+```py
 True
 False
 
@@ -134,7 +134,7 @@ False
 
 **语法:**
 
-```
+```py
 string.lower()
 
 Parameters:
@@ -147,7 +147,7 @@ It converts the given string in into lowercase and returns the string.
 
 示例:
 
-```
+```py
 Input : string = 'GEEKSFORGEEKS'
 Output : geeksforgeeks
 
@@ -161,7 +161,7 @@ Output : geeksforgeeks
 1.  它不接受任何参数，因此，如果传递参数，它将返回一个错误。
 2.  返回的数字和符号按原样返回，转换为小写后只返回大写字母。
 
-```
+```py
 # Python code for implementation of lower()
 
 # Checking for lowercase characters
@@ -174,7 +174,7 @@ print(string.lower())
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 geeksforgeeks
 
@@ -186,7 +186,7 @@ geeksforgeeks
 
 **语法:**
 
-```
+```py
 string.upper()
 
 Parameters:
@@ -199,7 +199,7 @@ It converts the given string in into uppercase and returns the string.
 
 示例:
 
-```
+```py
 Input : string = 'geeksforgeeks'
 Output : GEEKSFORGEEKS
 
@@ -213,7 +213,7 @@ Output : MY NAME IS AYUSH
 1.  它不接受任何参数，因此，如果传递参数，它将返回一个错误。
 2.  返回的数字和符号按原样返回，转换为大写后只返回小写字母。
 
-```
+```py
 # Python code for implementation of upper()
 
 # checking for uppercase characters
@@ -226,7 +226,7 @@ print(string.upper())
 
 **输出:**
 
-```
+```py
 GEEKSFORGEEKS
 MY NAME IS AYUSH
 
@@ -236,7 +236,7 @@ MY NAME IS AYUSH
 
 **示例:**
 
-```
+```py
 Input : string = 'GeeksforGeeks is a computer Science portal for Geeks'
 Output : Uppercase - 4
          Lowercase - 41
@@ -260,7 +260,7 @@ Output : Uppercase - 2
 
 下面是实现。
 
-```
+```py
 # Python code for implementation of upper() 
 # Given string and new string 
 
@@ -301,7 +301,7 @@ print(newstring) 
 
 **输出:**
 
-```
+```py
 In original String : 
 Uppercase - 4
 Lowercase - 41

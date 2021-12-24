@@ -5,7 +5,7 @@
 用户输入两个文件名后，任务是将第二个文件的内容附加到第一个文件的内容上。
 **例**
 
-```
+```py
 Input :
 file1.txt
 file2.txt
@@ -40,7 +40,7 @@ Content of second file (after appending) - geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # entering the file names
 firstfile = input("Enter the name of first file ")
 secondfile = input("Enter the name of second file ")

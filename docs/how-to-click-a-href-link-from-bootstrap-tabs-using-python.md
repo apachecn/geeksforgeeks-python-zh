@@ -9,14 +9,14 @@
 **1.1 Python 中的 Selenium 绑定**
 Selenium Python 绑定提供了一个方便的 API 来访问像 Firefox、Chrome 等 Selenium Web Driver。
 
-```
+```py
 Pip install Selenium 
 ```
 
 **1.2 网络驱动程序**
 Selenium 需要一个网络驱动程序来与所选的浏览器交互。Web 驱动程序是一个与 web 浏览器交互的包。它通过通用的有线协议与网络浏览器或远程网络服务器进行交互。您可以签出并安装您选择的网络驱动程序。
 
-```
+```py
 Chrome:    https://sites.google.com/a/chromium.org/chromedriver/downloads
 Firefox: https://github.com/mozilla/geckodriver/releases
 Safari:    https://webkit.org/blog/6900/webdriver-support-in-safari-10/
@@ -26,7 +26,7 @@ Safari:    https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the webdriver from selenium library
 from selenium import webdriver
 

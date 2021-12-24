@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
          12, 13, 14, 15, 16, 17, 18, 19, 20]
 
@@ -22,7 +22,7 @@ and so on.....
 
 **方法#1:** 使用列表理解
 
-```
+```py
 # Python code to find average of each consecutive segment
 
 # List initialisation
@@ -46,7 +46,7 @@ print(Output)
 
 **方法 2:** 使用`mean` 功能
 
-```
+```py
 # Python code to find average of each consecutive segment
 
 # Importing

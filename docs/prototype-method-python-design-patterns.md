@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # concrete course
 class DSA():
     """Class for Data Structures and Algorithms"""
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required modules
 
 from abc import ABCMeta, abstractmethod

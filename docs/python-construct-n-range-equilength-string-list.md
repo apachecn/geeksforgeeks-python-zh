@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zfill()`**
 上述功能的组合可用于执行该任务。在本文中，我们使用列表理解来执行添加数字的任务，zfill()负责每个字符串所需的长度。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct N Range Equilength String list
 # using list comprehension + zfill()
@@ -31,7 +31,7 @@ print("K Length range strings list : " + str(res))
 
 **Output :**
 
-```
+```py
 Number of elements required : 6
 K Length range strings list : ['000', '001', '002', '003', '004', '005']
 

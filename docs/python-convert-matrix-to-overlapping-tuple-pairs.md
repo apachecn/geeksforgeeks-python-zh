@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们迭代每个列表，提取连续的元素，并将它们作为对添加到结果列表中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to overlapping Tuple Pairs
 # Using loop
@@ -37,7 +37,7 @@ print("Filtered tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6, 7], [8, 6, 5], [2, 5, 7]]
 Filtered tuples : [(5, 6), (6, 7), (8, 6), (6, 5), (2, 5), (5, 7)]
 
@@ -46,7 +46,7 @@ Filtered tuples : [(5, 6), (6, 7), (8, 6), (6, 5), (2, 5), (5, 7)]
 **方法 2:使用循环+列表切片**
 以上功能的组合可以用来解决这个问题。这提供了将逻辑扩展到更多定制元组大小(也超过 2)的灵活性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Matrix to overlapping Tuple Pairs
 # Using loop + list slicing
@@ -70,7 +70,7 @@ print("Filtered tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6, 7], [8, 6, 5], [2, 5, 7]]
 Filtered tuples : [(5, 6), (6, 7), (8, 6), (6, 5), (2, 5), (5, 7)]
 

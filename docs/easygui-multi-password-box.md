@@ -16,7 +16,7 @@
 **示例:**
 在这里我们将创建一个带有默认文本的多密码框，并根据输入的文本在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -50,7 +50,7 @@ for i in range(len(fields)):
 
 <video class="wp-video-shortcode" id="video-481834-1" width="665" height="277" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200905010547/Window-Title-GfG-2020-09-05-01-05-24.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200905010547/Window-Title-GfG-2020-09-05-01-05-24.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200905010547/Window-Title-GfG-2020-09-05-01-05-24.mp4)</video>
 
-```
+```py
 Details entered by user
 ==================================
 Email ID : email@asd.ccc
@@ -62,7 +62,7 @@ Password : password
 **另一个例子:**
 在这里我们会创建一个没有默认文本的多密码框，并且会根据输入的文本在屏幕上显示具体的消息，下面是实现
 
-```
+```py
 # importing easygui module
 from easygui import *
 
@@ -93,7 +93,7 @@ for i in range(len(fields)):
 
 <video class="wp-video-shortcode" id="video-481834-2" width="665" height="277" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200905010647/Window-Title-GfG-2020-09-05-01-06-23.mp4?_=2">[https://media.geeksforgeeks.org/wp-content/uploads/20200905010647/Window-Title-GfG-2020-09-05-01-06-23.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200905010647/Window-Title-GfG-2020-09-05-01-06-23.mp4)</video>
 
-```
+```py
 Details entered by user
 ==================================
 Email ID : aaa

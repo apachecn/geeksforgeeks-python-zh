@@ -8,7 +8,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install reportlab
 ```
 
@@ -24,7 +24,7 @@ pip install reportlab
 
 ## 蟒蛇 3
 
-```
+```py
 # imports module
 from reportlab.platypus import SimpleDocTemplate, Table, Paragraph, TableStyle
 from reportlab.lib import colors

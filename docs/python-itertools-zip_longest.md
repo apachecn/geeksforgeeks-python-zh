@@ -14,13 +14,13 @@ Python 中的迭代器是一个可以像**序列数据类型**一样进行迭代
 
 **语法:**
 
-```
+```py
 zip_longest( iterable1, iterable2, fillval)
 ```
 
 **例 1:**
 
-```
+```py
 # Python code to demonstrate the working of   
 # zip_longest()  
 
@@ -33,14 +33,14 @@ print (*(itertools.zip_longest('GesoGes', 'ekfrek', fillvalue ='_' )))  
 
 **输出:**
 
-```
+```py
 The combined values of iterables is  : 
 ('G', 'e') ('e', 'k') ('s', 'f') ('o', 'r') ('G', 'e') ('e', 'k') ('s', '_')
 ```
 
 **例 2:**
 
-```
+```py
 from itertools import zip_longest
 
 x =[1, 2, 3, 4, 5, 6, 7]
@@ -51,6 +51,6 @@ print(z)
 
 **输出:**
 
-```
+```py
 [(1, 8), (2, 9), (3, 10), (4, None), (5, None), (6, None), (7, None)]
 ```

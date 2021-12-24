@@ -6,7 +6,7 @@
 
 ****示例:****
 
-```
+```py
 # defining a decorator 
 def hello_decorator(func): 
 
@@ -40,7 +40,7 @@ function_to_be_used() 
 
 ****输出:****
 
-```
+```py
 Hello, this is before function execution
 This is inside the function !!
 This is after function execution 
@@ -52,7 +52,7 @@ This is after function execution
 
 ****示例:****
 
-```
+```py
 # Python program to demonstrate
 # dispatch decorator
 
@@ -73,7 +73,7 @@ print(func(2.0))
 
 ****输出:****
 
-```
+```py
 4
 1.0
 ```
@@ -90,7 +90,7 @@ print(func(2.0))
 
 ****示例:****
 
-```
+```py
 from multipledispatch import dispatch
 
 nsp = {}
@@ -111,7 +111,7 @@ print(nsp)
 
 ****输出:****
 
-```
+```py
 4
 1.0
 {'func': <dispatched func>}

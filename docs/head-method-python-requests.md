@@ -14,7 +14,7 @@ Python 的请求模块提供了一个名为 **head()** 的内置方法，用于�
 
 **语法–**
 
-```
+```py
 requests.head(url, params={key: value}, args)
 
 ```
@@ -25,7 +25,7 @@ requests.head(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a HEAD request
@@ -44,7 +44,7 @@ print(r.content)
 
 save this file as request.py and through terminal run,
 
-```
+```py
 python request.py
 ```
 

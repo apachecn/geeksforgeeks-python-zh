@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Row
 from pyspark.sql import Row
 
@@ -45,7 +45,7 @@ print(row)
 
 ## 蟒蛇 3
 
-```
+```py
 # import Row
 from pyspark.sql import Row
 

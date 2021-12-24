@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `keys()`**
 实现这个任务想到的第一个方法是使用循环访问每个过滤后的键的值，并将其追加到列表中并返回。这可以是执行该任务的方法之一。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract filtered Dictionary Values
 # Using loop + keys()
@@ -34,7 +34,7 @@ print("The list of filtered values is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'gfg': 1, 'is': 2}
 The list of filtered values is : [3, 2]
 

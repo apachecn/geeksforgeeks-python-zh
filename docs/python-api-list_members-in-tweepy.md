@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`list_members()`** 方法用于从指定列表中�
 
 **示例 1 :** 打印列表中所有成员的屏幕名称。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ for member in members:
 
 **输出:**
 
-```
+```py
 PracticeGfG
 GeeksQuiz
 geeksforgeeks
@@ -62,7 +62,7 @@ geeksforgeeks
 
 **例 2 :** 统计列表中成员的数量。
 
-```
+```py
 # the ID of the list
 list_id = 
 
@@ -75,7 +75,7 @@ print(len(members))
 
 **输出:**
 
-```
+```py
 3
 
 ```

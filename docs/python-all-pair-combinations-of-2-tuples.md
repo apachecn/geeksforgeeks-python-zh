@@ -13,7 +13,7 @@
 **方法#1:使用列表理解**
 这是执行这个任务的方法之一。在这种情况下，我们执行的任务是在一个过程中形成一个索引组合，在另一个过程中更改索引，并添加到初始结果列表中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All pair combinations of 2 tuples
 # Using list comprehension
@@ -37,7 +37,7 @@ print("The filtered tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (4, 5)
 The original tuple 2 : (7, 8)
 The filtered tuple : [(4, 7), (4, 8), (5, 7), (5, 8), (7, 4), (7, 5), (8, 4), (8, 5)]
@@ -47,7 +47,7 @@ The filtered tuple : [(4, 7), (4, 8), (5, 7), (5, 8), (7, 4), (7, 5), (8, 4), (8
 **方法 2:使用`chain() + product()`**
 上述功能的组合提供了解决这个问题的另一种方法。在本例中，我们使用 product()执行配对创建任务，chain()用于将两次使用的 product()的结果相加。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All pair combinations of 2 tuples
 # Using chain() + product()
@@ -71,7 +71,7 @@ print("The filtered tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (4, 5)
 The original tuple 2 : (7, 8)
 The filtered tuple : [(4, 7), (4, 8), (5, 7), (5, 8), (7, 4), (7, 5), (8, 4), (8, 5)]

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a string variable
 str = "Geeks for Geeks"
 
@@ -41,7 +41,7 @@ print(str.ljust(20, '0'))
 
 **输出:**
 
-```
+```py
 Geeks for Geeks00000
 ```
 
@@ -62,7 +62,7 @@ Geeks for Geeks00000
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a string variable
 str = "Geeks for Geeks"
 
@@ -72,7 +72,7 @@ print(str.rjust(20, "O"))
 
 **输出:**
 
-```
+```py
 OOOOOGeeks for Geeks
 ```
 
@@ -94,7 +94,7 @@ OOOOOGeeks for Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a string variable
 str = "Geeks for Geeks"
 
@@ -104,7 +104,7 @@ print("Center String: ", str.center(20))
 
 **输出:**
 
-```
+```py
 Center String:    Geeks for Geeks
 ```
 
@@ -120,7 +120,7 @@ Center String:    Geeks for Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating string variables
 v1 = "Geeks"
 v2 = "for"
@@ -134,7 +134,7 @@ print(v3.zfill(10))
 
 **输出:**
 
-```
+```py
 00000Geeks
 0000000for
 00000Geeks
@@ -154,7 +154,7 @@ print(v3.zfill(10))
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating string variable
 str = "Cost of mask: {price:.2f} Rupees."
 
@@ -164,6 +164,6 @@ print(str.format(price=20))
 
 **输出:**
 
-```
+```py
 Cost of mask: 20.00 Rupees.
 ```

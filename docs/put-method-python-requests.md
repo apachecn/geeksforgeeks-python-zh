@@ -13,7 +13,7 @@ PUT 是万维网使用的 HTTP 支持的请求方法。PUT 方法要求将封闭
 Python 的请求模块提供了一个名为 **put()** 的内置方法，用于向指定的 URI 发出 put 请求。
 **语法–**
 
-```
+```py
 requests.put(url, params={key: value}, args)
 ```
 
@@ -22,7 +22,7 @@ requests.put(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a PUT request
@@ -38,7 +38,7 @@ print(r.content)
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 
@@ -55,7 +55,7 @@ python request.py
 | 向特定资源发出 PUT 请求。如果请求-URI 引用了一个已经存在的资源，将会发生更新操作，否则如果请求-URI 是一个有效的资源 URI(假设允许客户端确定资源标识符)，将会发生创建操作。
 **示例–**
 
-```
+```py
 PUT /article/{article-id}
 ```
 
@@ -63,7 +63,7 @@ PUT /article/{article-id}
 请求中的实体，将其作为请求行中由请求-URI 标识的资源的新从属。它本质上意味着 POST 请求-URI 应该是 URI 的集合。
 **示例–**
 
-```
+```py
 POST /articles
 ```
 

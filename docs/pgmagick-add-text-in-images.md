@@ -6,7 +6,7 @@
 
 在本文中，我们将创建一个带有绿色背景文本“GeeksforGeeks”的图像，并在其上操作文本。
 
-```
+```py
 # importing library
 from pgmagick.api import Image
 
@@ -21,7 +21,7 @@ img.write('GeeksforGeeks.jpg')
 
 现在，我们将文本旋转到 45 度。
 
-```
+```py
 # importing library
 from pgmagick.api import Image
 
@@ -36,7 +36,7 @@ img.write('geeksforgeeks.png')
 
 现在我们将改变字体以及文本的大小。
 
-```
+```py
 # importing library
 from pgmagick.api import Image
 

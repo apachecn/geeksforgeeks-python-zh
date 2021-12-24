@@ -7,7 +7,7 @@
 **方法一:使用`len()`**
 使用`len()`查找列表长度，可以轻松执行此任务。我们可以检查所需的索引是否小于长度，这将证明它的存在。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for Nth index existence in list
 # Using len()
@@ -31,7 +31,7 @@ print("Is Nth index available? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 7, 10]
 Is Nth index available? : False
 

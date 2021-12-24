@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating youtube resource object
 youtube = build('youtube','v3',
                 developerKey="Enter API Key")
@@ -41,7 +41,7 @@ video_response=youtube.commentThreads().list(
 
 ## 蟒蛇 3
 
-```
+```py
 from googleapiclient.discovery import build
 
 api_key = 'API KEY'

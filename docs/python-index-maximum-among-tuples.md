@@ -7,7 +7,7 @@
 **方法一:使用`map() + lambda + max()`**
 结合以上功能可以为我们解决问题。在本文中，我们使用 lambda 函数和 max()计算最大值，并使用 map()将逻辑扩展到键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Maximum among Tuples
 # using map() + lambda + max()
@@ -30,7 +30,7 @@ print("Resultant tuple after maximization : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5)
 The original tuple 2 : (2, 5, 18)
 Resultant tuple after maximization : (10, 5, 18)

@@ -6,7 +6,7 @@
 
 **我们的目录树如下:**
 
-```
+```py
 D :\projects\base
 |__main.py   
 |__app:
@@ -24,7 +24,7 @@ D :\projects\base
 
 ## 计算机编程语言
 
-```
+```py
 # defining a function hello()
 def hello():
 
@@ -40,7 +40,7 @@ def hello():
 
 ## 计算机编程语言
 
-```
+```py
 # importing the sys module
 import sys         
 
@@ -57,7 +57,7 @@ mod.hello()
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```
 
@@ -67,7 +67,7 @@ hello geeks!
 
 ## 计算机编程语言
 
-```
+```py
 # importing the sys module
 import sys        
 
@@ -84,7 +84,7 @@ mod.hello()
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```
 
@@ -92,7 +92,7 @@ hello geeks!
 
 我们也可以通过首先将存在的目录转换为 [python 包](https://www.geeksforgeeks.org/create-access-python-package/)来导入模块。要将目录转换成 python 包，我们必须包含一个文件 __init__。可以留空目录中的 py。当我们添加文件 __init__ 时。py 我们告诉 python，目录是一个包。所以在创建 __init__ 之后。py 目录树如下所示:
 
-```
+```py
 D :\projects\base
 |__main.py 
 |__app:
@@ -108,7 +108,7 @@ D :\projects\base
 
 ## 计算机编程语言
 
-```
+```py
 # importing the module
 import app.modules.mod         
 
@@ -118,7 +118,7 @@ app.modules.mod.hello()
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```
 
@@ -128,7 +128,7 @@ hello geeks!
 
 ## 计算机编程语言
 
-```
+```py
 # importing the importlib.util module
 import importlib.util        
 
@@ -146,6 +146,6 @@ foo.hello()
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```

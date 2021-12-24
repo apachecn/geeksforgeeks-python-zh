@@ -7,7 +7,7 @@
 **方法#1:使用`any() + map() + lambda`**
 结合以上功能可以执行此任务。在本例中，我们使用 any()检查任何元素，逻辑的扩展由 map()和 lambda 完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if tuple has any None value
 # using any() + map() + lambda
@@ -28,7 +28,7 @@ print("Does tuple contain any None value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (10, 4, 5, 6, None)
 Does tuple contain any None value ? : True
 

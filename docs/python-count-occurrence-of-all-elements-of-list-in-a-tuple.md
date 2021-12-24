@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : tuple = ('a', 'a', 'c', 'b', 'd')
         list = ['a', 'b']
 Output : 3 
@@ -21,7 +21,7 @@ Output : 6
 
 第一种方法是幼稚的方法。使用 for 循环遍历给定的列表，并计算列表中每个元组的出现次数。最后，返回计数。
 
-```
+```py
 # Python3 Program to count occurrence 
 # of all elements of list in a tuple
 from collections import Counter
@@ -42,7 +42,7 @@ print(countOccurrence(tup, lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
@@ -50,7 +50,7 @@ print(countOccurrence(tup, lst))
 **方法 2 :** 从 Python Collections 模块中使用计数器
 ，导入计数器来解决给定的问题。计数器是一个容器，用于记录等值被添加的次数。将结果保存在“计数”中后，我们使用 for 循环，计算列表中的每个项目在“计数”中出现的次数，并对其求和以给出最终输出。
 
-```
+```py
 # Python3 Program to count occurrence 
 # of all elements of list in a tuple
 from collections import Counter
@@ -67,7 +67,7 @@ print(countOccurrence(tup, lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
@@ -75,7 +75,7 @@ print(countOccurrence(tup, lst))
 **方法#3 :** 使用集合
 解决给定问题的另一种方法是使用集合数据结构。只需将给定的列表转换成一个集合，这样就可以删除所有重复的列表。现在，对于列表中的每一项，计算它在元组中的出现次数，并将它们相加。
 
-```
+```py
 # Python3 Program to count occurrence 
 # of all elements of list in a tuple
 
@@ -91,7 +91,7 @@ print(countOccurrence(tup, lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
@@ -99,7 +99,7 @@ print(countOccurrence(tup, lst))
 **方法#4 :** 使用 Python 字典
 在 Python 字典中获取元组的每一项及其出现频率作为关键字:值对，然后使用 for 循环，对于列表的每一项，统计其在元组中的出现次数并求和。
 
-```
+```py
 # Python3 Program to count occurrence 
 # of all elements of list in a tuple
 
@@ -119,7 +119,7 @@ print(countOccurrence(tup, lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
@@ -127,7 +127,7 @@ print(countOccurrence(tup, lst))
 **进场# 5:**Python`numpy.in1d()`
 Python numpy 给了我们一个直接找到给定问题解决方案的方法，那就是`numpy.in1d()`。这个方法测试一维数组的每个元素是否也存在于第二个数组中。由于 list 也是一维数组，所以这里可以应用这个方法。
 
-```
+```py
 # Python3 Program to count occurrence 
 # of all elements of list in a tuple
 import numpy as np
@@ -143,7 +143,7 @@ print(countOccurrence(tup, lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```

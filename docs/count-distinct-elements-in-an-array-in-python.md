@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : arr[] = {10, 20, 20, 10, 30, 10} 
 Output : 3
 
@@ -17,7 +17,7 @@ Output : 2
 
 对于这篇文章，我们已经有了解决方案。我们可以使用[计数器](https://www.geeksforgeeks.org/counters-in-python-set-2-accessing-counters/)方法在 Python3 中解决这个问题。
 
-```
+```py
 from collections import Counter
 
 def countDistinct(arr):

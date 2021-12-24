@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pyfiglet
 import sys
 import socket

@@ -106,7 +106,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # install pyldavis
 !pip install pyldavis
 # imports
@@ -227,7 +227,7 @@ print('Coherence: ', coherence_lda)
 pyLDAvis.sklearn.prepare(lda_tf, dtm_tf, tf_vectorizer)
 ```
 
-```
+```py
 Total reviews
 10000
 Unique Business

@@ -7,7 +7,7 @@
 **方法:使用列表理解**
 这个任务可以用蛮力的方式来完成，但是使用列表理解实现的时间越短越好。在这种情况下，我们分两步执行任务，首先我们制作一个帮助列表来形成一个添加因子列表，然后使用原始列表累积结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Incremental List Extension
 # Using list comprehension
@@ -36,7 +36,7 @@ print("List after extension and addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [7, 8, 9]
 List after extension and addition : [7, 8, 9, 10, 11, 12, 16, 17, 18, 34, 35, 36]
 

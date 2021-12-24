@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 import cv2
@@ -50,7 +50,7 @@ print(f'u.shape:{u.shape},s.shape:{s.shape},v.shape:{v.shape}')
 
 **输出:**
 
-```
+```py
 u.shape:(3648, 3648),s.shape:(3648,),v.shape:(3648, 5472)
 ```
 
@@ -62,7 +62,7 @@ u.shape:(3648, 3648),s.shape:(3648,),v.shape:(3648, 5472)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 
@@ -93,7 +93,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # plot images with different number of components
 comps = [3648, 1, 5, 10, 15, 20]
 plt.figure(figsize=(12, 6))

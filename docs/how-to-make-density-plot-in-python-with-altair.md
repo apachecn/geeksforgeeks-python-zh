@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as p  # loading pandas library
 import altair as a  # loading altair library
 ```
@@ -28,7 +28,7 @@ import altair as a  # loading altair library
 
 ## 蟒蛇 3
 
-```
+```py
 data_set = 'insurance.csv'  # dataset name
 d = p.read_csv(data_set)  # reading the datasaet
 d.head()  # printing the first 5 data entries
@@ -42,7 +42,7 @@ d.head()  # printing the first 5 data entries
 
 ## 蟒蛇 3
 
-```
+```py
 # loading a single column into
 # the data frame object
 d = d[["charges"]]
@@ -65,7 +65,7 @@ a.Chart(d).transform_density('charges', as_=['CHARGES', 'DENSITY'],
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as p  # loading pandas library
 import altair as a  # loading altair library
 

@@ -9,14 +9,14 @@
 
 *   Python 中使用了以下正则表达式来匹配由三个数字、一个连字符、三个数字、另一个连字符和四个数字组成的字符串。
 
-    ```
+    ```py
     Any other string would not match the pattern.
     \d\d\d-\d\d\d-\d\d\d\d
     ```
 
 *   Regular expressions can be much more sophisticated. For example, adding a 3 in curly brackets ({3}) after a pattern is like saying, “ Match this pattern three times.” So the slightly shorter regex
 
-    ```
+    ```py
     \d{3}-\d{3}-\d{4}
     ```
 
@@ -26,13 +26,13 @@
 
 Python 中的所有正则表达式函数都在 re 模块中
 
-```
+```py
 import re
 ```
 
 要创建与电话号码模式匹配的 Regex 对象，请在交互式外壳中输入以下内容。
 
-```
+```py
 phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 ```
 
@@ -42,7 +42,7 @@ phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 
 regex 对象的 search()方法在传递给它的字符串中搜索与 Regex 匹配的任何内容。Match 对象有一个 group()方法，该方法将从搜索到的字符串中返回实际匹配的文本。
 
-```
+```py
 # Python program to illustrate
 # Matching regex objects
 import re
@@ -53,7 +53,7 @@ print('Phone number found: ' + mo.group())
 
 输出:
 
-```
+```py
 Phone number found: 415-555-4242
 ```
 
@@ -70,7 +70,7 @@ Phone number found: 415-555-4242
 
     1.  **Matching objects:**Say you want to separate the area code from the rest of the phone number. Adding parentheses will create groups in the regex: (\d\d\d)-(\d\d\d-\d\d\d\d). Then you can use the group() match object method to grab the matching text from just one group.
 
-        ```
+        ```py
         # Python program to illustrate
         # Matching regex objects
         # with grouping 
@@ -82,14 +82,14 @@ Phone number found: 415-555-4242
 
         输出:
 
-        ```
+        ```py
         '415'
 
         ```
 
     2.  **Retrieve all the groups at once :** If you would like to retrieve all the groups at once, use the groups(), method—note the plural form for the name.
 
-        ```
+        ```py
         # Python program to illustrate
         # Matching regex objects
         # with groups 
@@ -101,13 +101,13 @@ Phone number found: 415-555-4242
 
         输出:
 
-        ```
+        ```py
         ('415', '555-4242')
         ```
 
     3.  **Using mo.groups :** mo.groups() will return a tuple of multiple values, you can use the multiple-assignment trick to assign each value to a separate variable, as in the following areaCode, mainNumber = mo.groups() line.
 
-        ```
+        ```py
         # Python program to illustrate
         # Matching regex objects
         # with mo.groups() 
@@ -120,13 +120,13 @@ Phone number found: 415-555-4242
 
         输出:
 
-        ```
+        ```py
         '555-4242'
         ```
 
     4.  **Match a parenthesis :** Parentheses have a special meaning in regular expressions, but what do you do if you need to match a parenthesis in your text. For instance, maybe the phone numbers you are trying to match have the area code set in parentheses. In this case, you need to escape the ( and ) characters with a backslash. Enter the following into the interactive shell:
 
-        ```
+        ```py
         # Python program to illustrate
         # Matching regex objects
         # with grouping 
@@ -138,7 +138,7 @@ Phone number found: 415-555-4242
 
         输出:
 
-        ```
+        ```py
         '(415)'
         ```
 
@@ -150,7 +150,7 @@ Phone number found: 415-555-4242
 
 当搜索到的字符串中同时出现蝙蝠侠和蒂娜·菲时，第一个匹配文本将作为匹配对象返回。在交互式外壳中输入以下内容:
 
-```
+```py
 # Python program to illustrate
 # Matching regex objects
 # with multiple Groups with the Pipe
@@ -162,7 +162,7 @@ print(mo1.group())
 
 输出:
 
-```
+```py
 'Batman'
 ```
 
@@ -174,21 +174,21 @@ print(mo1.group())
 
 您也可以省略花括号中的第一个或第二个数字，使最小或最大值不受限制。例如，(Ha){3，}将匹配(Ha)组的三个或更多实例，而(Ha){，5}将匹配零到五个实例。花括号有助于缩短正则表达式。这两个正则表达式匹配相同的模式:
 
-```
+```py
 (Ha){3}
 (Ha)(Ha)(Ha)
 ```
 
 这两个正则表达式也匹配相同的模式:
 
-```
+```py
 (Ha){3, 5}
 ((Ha)(Ha)(Ha))|((Ha)(Ha)(Ha)(Ha))|((Ha)(Ha)(Ha)(Ha)(Ha))
 ```
 
 在交互式外壳中输入以下内容:
 
-```
+```py
 # Python program to illustrate
 # Matching Specific Repetitions 
 # with Curly Brackets
@@ -200,11 +200,11 @@ print(mo1.group())
 
 输出:
 
-```
+```py
 'HaHaHa'
 ```
 
-```
+```py
 # Python program to illustrate
 # Matching Specific Repetitions 
 # with Curly Brackets
@@ -216,7 +216,7 @@ print(mo2)
 
 输出:
 
-```
+```py
 True
 
 ```
@@ -227,7 +227,7 @@ True
 
 有时有一种模式，你想匹配只是可选的。也就是说，正则表达式应该找到一个匹配，不管那一段文本是否存在。**那个？**字符将它前面的组标记为模式的可选部分。例如，在交互式外壳中输入以下内容:
 
-```
+```py
 # Python program to illustrate
 # optional matching
 # with question mark(?)
@@ -239,11 +239,11 @@ print(mo1.group())
 
 输出:
 
-```
+```py
 'Batman'
 ```
 
-```
+```py
 # Python program to illustrate
 # optional matching
 # with question mark(?)
@@ -255,7 +255,7 @@ print(mo2.group())
 
 输出:
 
-```
+```py
 'Batwoman'
 ```
 
@@ -267,7 +267,7 @@ print(mo2.group())
 
 *(称为星号或星号)表示“匹配零个或多个”——星号前面的组可以在文本中出现任意多次。它可以完全不存在，也可以反复出现。我们再来看看蝙蝠侠的例子。
 
-```
+```py
 # Python program to illustrate
 # matching a regular expression
 # with asterisk(*)
@@ -279,11 +279,11 @@ print(mo1.group())
 
 输出:
 
-```
+```py
 'Batman'
 ```
 
-```
+```py
 #python program to illustrate
 #matching a regular expression
 #with asterisk(*)
@@ -295,11 +295,11 @@ print(mo2.group())
 
 输出:
 
-```
+```py
 'Batwoman'
 ```
 
-```
+```py
 # Python program to illustrate
 # matching a regular expression
 # with asterisk(*)
@@ -311,7 +311,7 @@ print(mo3.group())
 
 输出:
 
-```
+```py
 'Batwowowowoman'
 ```
 
@@ -323,7 +323,7 @@ print(mo3.group())
 
 而*表示“匹配零个或多个”，则+(或加号)表示**“匹配一个或多个”**与不要求其组出现在匹配字符串中的星号不同，加号前的组必须至少出现一次。它不是可选的。在交互式 shell 中输入以下内容，并将其与上一节中的 star regexes 进行比较:
 
-```
+```py
 # Python program to illustrate
 # matching a regular expression
 # with plus(+)
@@ -335,11 +335,11 @@ print(mo1.group())
 
 输出:
 
-```
+```py
 'Batwoman'
 ```
 
-```
+```py
 # Python program to illustrate
 # matching a regular expression
 # with plus(+)
@@ -351,13 +351,13 @@ print(mo2.group())
 
 输出:
 
-```
+```py
 'Batwowowowoman'
 ```
 
 batRegex = re . compile(r ' Bat(wo)+man ')
 
-```
+```py
 # Python program to illustrate
 # matching a regular expression
 # with plus(+)
@@ -369,7 +369,7 @@ print(mo3)
 
 输出:
 
-```
+```py
 True
 ```
 

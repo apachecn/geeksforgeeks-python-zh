@@ -9,7 +9,7 @@
 **方法#1:使用`join() + rfind()`**
 这通常是我们可以用来完成这个任务的黑客。连接整个列表，然后使用字符串函数`rfind()`从右侧获取第一个元素，即列表中元素的最后一个索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get last element occurrence
 # using join() + rfind()
@@ -28,7 +28,7 @@ print ("The index of last element occurrence: " + str(res))
 
 **Output:**
 
-```
+```py
 The index of last element occurrence: 10
 
 ```
@@ -36,7 +36,7 @@ The index of last element occurrence: 10
 **方法 2:使用列表切片+ `index()`**
 使用列表切片我们反转列表，使用常规索引方法获取元素第一次出现的索引。由于反向列表，返回最后一个匹配项，而不是列表的第一个索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get last element occurrence
 # using List Slice + index()
@@ -55,7 +55,7 @@ print ("The index of last element occurrence: " + str(res))
 
 **Output:**
 
-```
+```py
 The index of last element occurrence: 10
 
 ```
@@ -63,7 +63,7 @@ The index of last element occurrence: 10
 **方法 3:使用`max() + enumerate()`**
 我们使用枚举函数获得具有特定元素的所有元素的列表，然后使用`max()`获得最大值，即列表的最后一个索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get last element occurrence
 # using max() + enumerate()
@@ -83,7 +83,7 @@ print ("The index of last element occurrence: " + str(res))
 
 **Output:**
 
-```
+```py
 The index of last element occurrence: 10
 
 ```

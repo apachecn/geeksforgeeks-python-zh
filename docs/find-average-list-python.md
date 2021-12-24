@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : [4, 5, 1, 2, 9, 7, 10, 8]
 Output : Average of the list = 5.75
 Explanation:
@@ -32,7 +32,7 @@ So average is 46 / 8 = 35.75
 *   **sum ()** : We can get the sum of the list by using the sum () function.
 *   **len ()** : The len () function is used to obtain the length or number of elements in the list.
 
-```
+```py
 # Python program to get average of a list
 def Average(lst):
     return sum(lst) / len(lst)
@@ -47,7 +47,7 @@ print("Average of the list =", round(average, 2))
 
 输出:
 
-```
+```py
 Average of the list = 35.75
 
 ```
@@ -56,7 +56,7 @@ Average of the list = 35.75
 
 我们可以使用 reduce()来减少循环，并通过使用 lambda 函数来计算列表的总和。如上所述，我们使用 len()来计算长度。
 
-```
+```py
 # Python program to get average of a list
 # Using reduce() and lambda 
 
@@ -76,7 +76,7 @@ print("Average of the list =", round(average, 2))
 
 输出:
 
-```
+```py
 Average of the list = 35.75
 
 ```
@@ -85,7 +85,7 @@ Average of the list = 35.75
 
 内置函数 mean()可用于计算列表的平均值。
 
-```
+```py
 # Python program to get average of a list
 # Using mean()
 
@@ -105,7 +105,7 @@ print("Average of the list =", round(average, 2))
 
 输出:
 
-```
+```py
 Average of the list = 35.75
 
 ```

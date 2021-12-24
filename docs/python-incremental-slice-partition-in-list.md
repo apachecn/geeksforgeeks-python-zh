@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。我们只是手动计数，并随着切片和字典键创建的每次迭代增加计数器。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Incremental slice partition in list
 # Using loop

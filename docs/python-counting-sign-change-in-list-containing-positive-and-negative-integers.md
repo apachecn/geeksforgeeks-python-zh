@@ -4,7 +4,7 @@
 
 给定一个包含正整数和负整数的列表，我们必须找出列表中符号(正或负)变化的次数。
 
-```
+```py
 Input: [-1, 2, 3, -4, 5, -6, 7, 8, -9, 10, -11, 12] 
 Output:9
 Explanation : 
@@ -34,7 +34,7 @@ Sign change from -11 to 12, ans = 5
 **方法#1:使用迭代**
 使用迭代在列表中查找时间符号变化的次数。
 
-```
+```py
 # Python Code to find number of 
 # time sign changes in the list.
 
@@ -62,14 +62,14 @@ print(ans)
 
 **输出:**
 
-```
+```py
 9
 ```
 
 **方法 2:使用 Itertools 和 groupby**
 这是使用 itertools 执行这一特定任务的另一种方式。
 
-```
+```py
 # Python Code to find number of 
 # time sign changes in the list.
 
@@ -90,14 +90,14 @@ print(Output)
 
 **输出:**
 
-```
+```py
 9
 ```
 
 **方法三:使用 Zip**
 在列表中查找时间标志变化次数最简洁易读的方法是使用 Zip。
 
-```
+```py
 # Python Code to find number of 
 # time sign changes in the list.
 
@@ -120,6 +120,6 @@ print(Output)
 
 **输出:**
 
-```
+```py
 9
 ```

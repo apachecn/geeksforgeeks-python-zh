@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String to List of dictionaries
 # Using json.loads + replace()
@@ -40,7 +40,7 @@ print("Converted list of dictionaries : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : ["[{'Gfg' : 3, 'Best' : 8}, {'Gfg' : 4, 'Best' : 9}]"]
 Converted list of dictionaries : [[{'Gfg': 3, 'Best': 8}, {'Gfg': 4, 'Best': 9}]]
 
@@ -52,7 +52,7 @@ Converted list of dictionaries : [[{'Gfg': 3, 'Best': 8}, {'Gfg': 4, 'Best': 9}]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String to List of dictionaries
 # Using json.loads + replace()
@@ -72,7 +72,7 @@ print("Converted list of dictionaries : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : [{'Gfg' : 3, 'Best' : 8}, {'Gfg' : 9, 'Best' : 9}]
 Converted list of dictionaries : [{'Gfg': 3, 'Best': 8}, {'Gfg': 9, 'Best': 9}]
 

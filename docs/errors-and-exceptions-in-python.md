@@ -15,7 +15,7 @@ python 中出现两种类型的错误。
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 amount = 10000
 
@@ -39,7 +39,7 @@ if(amount>2999)
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 marks = 10000
 
@@ -57,7 +57,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 if(a<3):
 print("gfg")
 ```
@@ -95,7 +95,7 @@ print("gfg")
 
 ## 蟒蛇 3
 
-```
+```py
 # put unsafe operation in try block
 try:
      print("code start")
@@ -114,7 +114,7 @@ finally:
 
 *   **输出:**
 
-```
+```py
 code start
 an error occurs
 GeeksForGeeks
@@ -126,7 +126,7 @@ GeeksForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # try for unsafe code
 try:
     amount = 1999
@@ -144,6 +144,6 @@ except ValueError as e:
 
 *   **输出:**
 
-```
+```py
 please add money in your account
 ```

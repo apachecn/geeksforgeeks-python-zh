@@ -6,7 +6,7 @@
 
 **哈希函数:**
 
-```
+```py
 f(x) = floor( (x/maximum) * SIZE )
 where maximum => maximum value in the array,
       SIZE => size of the address table (10 in our case),
@@ -18,7 +18,7 @@ where maximum => maximum value in the array,
 
 **示例:**
 
-```
+```py
 Input : arr = [29, 23, 14, 5, 15, 10, 3, 18, 1] 
 Output:
 After inserting all the values in the address table, the address table looks like this:
@@ -44,7 +44,7 @@ ADDRESS 9: 29
 
 下面是上述方法的实现
 
-```
+```py
 # Python3 code for implementation of 
 # Address Calculation Sorting using Hashing
 
@@ -156,7 +156,7 @@ print("\nSorted array: " + " ".join([str(x) for x in arr]))
 
 **Output:**
 
-```
+```py
 Input array: 29 23 14 5 15 10 3 18 1
 
 ADDRESS 0: 1 3 

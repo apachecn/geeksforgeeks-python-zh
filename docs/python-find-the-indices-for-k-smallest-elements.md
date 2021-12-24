@@ -8,7 +8,7 @@
 
 可以使用上述功能的组合来执行该任务。在这种情况下， `sorted()`可用于获取容器，需要在前端获取 K 个最小元素，然后使用列表切片计算索引。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Smallest K elements indices
 # using sorted() + lambda + list slicing
@@ -32,7 +32,7 @@ print("Indices list of min K elements is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 6, 10, 4, 7, 1, 19]
 Indices list of min K elements is : [5, 3, 0]
 

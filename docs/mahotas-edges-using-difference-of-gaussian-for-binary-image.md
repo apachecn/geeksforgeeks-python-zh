@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -47,19 +47,19 @@ show()
 
 **输出:**
 
-```
+```py
 Binary Image
 ```
 
 ![](img/124f193e5815ac47f8c9c2bc2659b197.png)
 
-```
+```py
 Edges using DoG algo
 ```
 
 另一个例子
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -93,13 +93,13 @@ show()
 
 **输出:**
 
-```
+```py
 Binary Image
 ```
 
 ![](img/ac77512fbfba18901f962dd614a4ad8f.png)
 
-```
+```py
 Edges using DoG algo
 ```
 

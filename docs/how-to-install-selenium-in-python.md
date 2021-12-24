@@ -25,7 +25,7 @@ Python 应该已经安装了。可以是 2。*或 3。*版本。
 
 打开终端/Cmd 并写下如下命令
 
-```
+```py
 python -m pip install selenium
 ```
 
@@ -33,7 +33,7 @@ python -m pip install selenium
 
 或者，您可以在这里下载源代码分发[，将其取消归档，并运行以下命令:](https://pypi.python.org/pypi/selenium)
 
-```
+```py
 python setup.py install
 ```
 
@@ -52,28 +52,28 @@ python setup.py install
 
 例如:
 
-```
+```py
 wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
 
 ```
 
 2.使用以下命令提取文件:
 
-```
+```py
 tar -xvzf geckodriver*
 
 ```
 
 3.使其可执行:
 
-```
+```py
 chmod +x geckodriver
 
 ```
 
 4.将文件移动到 usr/local/bin
 
-```
+```py
 sudo mv geckodriver /usr/local/bin/
 
 ```
@@ -86,21 +86,21 @@ sudo mv geckodriver /usr/local/bin/
 
 3.使用命令提示符将其添加到路径中
 
-```
+```py
 setx path "%path%;GeckoDriver Path"
 
 ```
 
 例如:-
 
-```
+```py
 setx path "%path%;c:/user/eliote/Desktop/geckodriver-v0.26.0-win64/geckodriver.exe"
 
 ```
 
 #### 创建简单代码
 
-```
+```py
 # Python program to demonstrate
 # selenium
 

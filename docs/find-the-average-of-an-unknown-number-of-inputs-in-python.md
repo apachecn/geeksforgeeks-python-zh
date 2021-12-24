@@ -6,7 +6,7 @@
 Python 中函数定义中的特殊语法*args 用于向函数传递可变数量的参数。它用于传递非关键字、可变长度的参数列表。语法是使用符号*接受可变数量的参数；按照惯例，它经常与 args 一词连用。在本文中，任务是找到未知输入数的平均值。
 **例:**
 
-```
+```py
 Input : 1, 2, 3
 Output : 2.00
 
@@ -18,7 +18,7 @@ Output: 5.00
 
 ## 蟒蛇 3
 
-```
+```py
 # function that takes arbitrary
 # number of inputs
 def avgfun(*n):
@@ -41,7 +41,7 @@ print(round(result2, 2))
 
 **输出:**
 
-```
+```py
 2.0
 5.0
 ```

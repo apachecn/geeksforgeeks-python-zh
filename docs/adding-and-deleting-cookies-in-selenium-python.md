@@ -11,14 +11,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 add_cookie(cookie_dict)
 ```
 
 **示例–**
 现在可以使用 add_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’})
 
 ```
@@ -30,14 +30,14 @@ driver.add_cookie({‘name’ : ‘foo’, ‘value’ : ‘bar’})
 `get_cookie`方法用于获取指定名称的 cookie。如果找到，它返回 cookie，如果没有，则返回无。
 **语法–**
 
-```
+```py
 driver.get_cookie(name)
 ```
 
 **示例–**
 现在可以使用 get_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.get_cookie("foo")
 
@@ -50,14 +50,14 @@ driver.get_cookie("foo")
 `delete_cookie`方法用于删除指定值的 cookie。
 **语法–**
 
-```
+```py
 driver.delete_cookie(name)
 ```
 
 **示例–**
 现在可以使用 delete_cookie 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.delete_cookie("foo")
 
@@ -71,14 +71,14 @@ driver.delete_cookie("foo")
 
 **语法–**
 
-```
+```py
 driver.get_cookies()
 ```
 
 **示例–**
 现在可以使用 get_cookies 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.get_cookies()
 
@@ -92,7 +92,7 @@ driver.get_cookies()
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

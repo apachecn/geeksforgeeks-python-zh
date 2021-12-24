@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # decision making
 
@@ -22,7 +22,7 @@ print ("i'm not in if and not in else Block") 
 
 **输出:**
 
-```
+```py
 i is greater than 15
 i'm in else Block
 i'm not in if and not in else Block
@@ -34,7 +34,7 @@ i'm not in if and not in else Block
 
 **语法:**
 
-```
+```py
 if (condition1):
    # Executes when condition1 is true
    if (condition2): 
@@ -49,7 +49,7 @@ if (condition1):
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # nested if statement
 
@@ -65,14 +65,14 @@ else:
 
 **输出:**
 
-```
+```py
 Positive number
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # nested if statement
 
@@ -94,7 +94,7 @@ if (i == 13): 
 
 **输出:**
 
-```
+```py
 i is smaller than 15
 i is greater than 12 and smaller than 15
 

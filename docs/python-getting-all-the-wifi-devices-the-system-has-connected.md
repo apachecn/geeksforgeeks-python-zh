@@ -6,7 +6,7 @@
 为此，我们将使用子流程模块。Python 中存在的子进程模块(2.x 和 3.x)用于通过创建新的进程，通过 Python 代码运行新的应用程序或程序。它还有助于获得输入/输出/错误管道以及各种命令的退出代码。
 为了获得 wifi 设备系统连接的信息，我们将使用下面给出的命令
 
-```
+```py
 subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'])
 ```
 
@@ -15,7 +15,7 @@ subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing subprocess
 import subprocess
 
@@ -62,7 +62,7 @@ for name in names:
 
 **输出:**
 
-```
+```py
 All wifi that system has connected to are 
 -----------------------------------------
 Engineer_5GHz

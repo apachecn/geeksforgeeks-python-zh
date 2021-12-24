@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `keys()`**
 以上两者的结合可以用来执行这个特定的任务。这只是较长循环方法的简写，可以用来在一行中执行此任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Values Division
 # Using dictionary comprehension + keys()
@@ -31,7 +31,7 @@ print("The divided dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary 1 : {'is': 24, 'best': 100, 'gfg': 20}
 The original dictionary 2 : {'is': 6, 'best': 10, 'gfg': 10}
 The divided dictionary is : {'is': 4, 'best': 10, 'gfg': 2}

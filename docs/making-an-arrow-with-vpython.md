@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -35,7 +35,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的箭头，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * arrow()
 ```
@@ -45,7 +45,7 @@ from vpython import * arrow()
 
 **示例 2 :** 使用颜色、不透明度、光泽和发射率参数的箭头。
 
-```
+```py
 # import the module
 from vpython import * arrow(color = vector(0, 1, 0), 
       opacity = 0.5, 
@@ -58,7 +58,7 @@ from vpython import * arrow(color = vector(0, 1, 0), 
 
 **示例 3 :** 显示两个箭头，以可视化位置、轴向、头向和头向属性。
 
-```
+```py
 # import the module
 from vpython import *
 
@@ -79,7 +79,7 @@ arrow(pos = vector(0, -1, 0),
 
 **示例 4 :** 使用参数轴和向上的箭头。
 
-```
+```py
 # import the module
 from vpython import * arrow(pos = vector(-2, 0, 0),
       color = vector(1, 0, 1),

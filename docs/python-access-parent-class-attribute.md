@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # classes and objects
 
@@ -41,7 +41,7 @@ print(Student.stream)
 
 **输出:**
 
-```
+```py
 COE
 COE
 SHIVAM
@@ -60,7 +60,7 @@ COE
 
 **示例:**
 
-```
+```py
 # Python code to demonstrate 
 # how parent constructors are called. 
 
@@ -101,7 +101,7 @@ a.show() 
 
 **输出:**
 
-```
+```py
 Rahul
 886012
 30000000
@@ -125,7 +125,7 @@ Rahul
 
 **示例:**
 
-```
+```py
 class Electronics:
     def __init__(self):
         print('SINGLA ELECTRONICS')
@@ -150,7 +150,7 @@ ele.mobile.operation()
 
 **输出:**
 
-```
+```py
 SINGLA ELECTRONICS
 DELL Inspiron 15
 Redmi Note 5
@@ -163,7 +163,7 @@ Redmi Note 5
 
 **示例:**
 
-```
+```py
 class Vehicle:
 
     def __init__(self):
@@ -212,7 +212,7 @@ innerinner.inner_display("Just Print It!")
 
 **输出:**
 
-```
+```py
 This is in Outer class that is Vehicle
 This is in Inner class that is Car
 This is in multilevel InnerInner class that is Maruti

@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -42,7 +42,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的标签，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * label()
 ```
@@ -52,7 +52,7 @@ from vpython import * label()
 
 **示例 2 :** 使用参数颜色、文本、线宽、线条颜色和边框的标签。
 
-```
+```py
 # import the module
 from vpython import * label(text = "The <b>mass <i>M</i></b><sub>sys</sub> = 10<sup>3</sup> kg.",
       color = vector(1, 0, 0),
@@ -66,7 +66,7 @@ from vpython import * label(text = "The <b>mass <i>M</i></b><sub>sys</sub> = 10<
 
 **示例 3 :** 对象的标签。
 
-```
+```py
 # import the module
 from vpython import *
 

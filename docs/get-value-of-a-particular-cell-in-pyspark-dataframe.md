@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -50,7 +50,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe using collect()
 dataframe.collect()
 ```
@@ -75,7 +75,7 @@ dataframe.collect()
 
 ## 蟒蛇 3
 
-```
+```py
 # display dataframe using collect()
 print("First row :",dataframe.collect()[0])
 
@@ -100,7 +100,7 @@ print("Third row :",dataframe.collect()[2])
 
 ## 蟒蛇 3
 
-```
+```py
 # first row - second column
 print("first row - second column  :",
       dataframe.collect()[0][1])
@@ -116,7 +116,7 @@ print("Third  row - Third column  :",
 
 **输出:**
 
-```
+```py
 first row - second column  : sravan
 Third  row - Third column  : bobby
 Third  row - Third column  : company 3

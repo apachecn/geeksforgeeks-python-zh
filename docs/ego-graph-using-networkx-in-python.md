@@ -24,7 +24,7 @@
 
 ****包装安装:****
 
-```
+```py
 pip install networkx
 ```
 
@@ -49,7 +49,7 @@ pip install networkx
 
 ## **蟒蛇 3**
 
-```
+```py
 # import networkx for graph generation
 import networkx as nx
 
@@ -91,7 +91,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # create ego network
 hub_ego = nx.ego_graph(G, ego)
 

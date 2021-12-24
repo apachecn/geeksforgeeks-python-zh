@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter
 import tkinter as tk
 
@@ -51,7 +51,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 from functools import partial
 import tkinter as tk

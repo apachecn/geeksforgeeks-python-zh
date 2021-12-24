@@ -22,7 +22,7 @@ Tweepy 模块中的 API 类的 **unsubscribe_list()** 方法用于作为认证�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -58,7 +58,7 @@ print("The number of subscribers after unsubscribe_list() method : " +
 
 **输出:**
 
-```
+```py
 The number of subscribers before unsubscribe_list() method : 1
 The number of subscribers after unsubscribe_list() method : 0
 ```
@@ -67,7 +67,7 @@ The number of subscribers after unsubscribe_list() method : 0
 
 ## 蟒蛇 3
 
-```
+```py
 # the ID of the list
 list_id = 4343
 
@@ -91,7 +91,7 @@ print("The number of subscribers after unsubscribe_list() method : " +
 
 **输出:**
 
-```
+```py
 The number of subscribers before unsubscribe_list() method : 4065
 The number of subscribers after unsubscribe_list() method : 4064
 ```

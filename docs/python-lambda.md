@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 lambda arguments : expression 
 ```
 
@@ -19,7 +19,7 @@ lambda arguments : expression
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lambda functions
 
@@ -31,7 +31,7 @@ print(lambda string : string)
 
 **输出:**
 
-```
+```py
 <function <lambda> at 0x7f268eb16f28>
 ```
 
@@ -41,7 +41,7 @@ print(lambda string : string)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lambda functions
 
@@ -53,7 +53,7 @@ x ="GeeksforGeeks"
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 ```
 
@@ -61,7 +61,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate cube of a number  
 # showing difference between def() and lambda().
 
@@ -76,7 +76,7 @@ print(cube(5))
 
 **输出:**
 
-```
+```py
 343
 125
 ```
@@ -85,7 +85,7 @@ print(cube(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lmabda functions
 
@@ -114,7 +114,7 @@ print("8 powerof 5 = ", base(8))
 
 **输出:**
 
-```
+```py
 Now power is set to 2
 8 powerof 2 =  64
 Now power is set to 5
@@ -126,7 +126,7 @@ Now power is set to 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # lambda functions inside map()
 # and filter()
@@ -148,7 +148,7 @@ print(list(maped))
 
 **输出:**
 
-```
+```py
 [100, 2, 8, 60, 4, 10]
 [True, True, True, True, False, True, False, False, True, False]
 ```

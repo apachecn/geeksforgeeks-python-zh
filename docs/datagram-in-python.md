@@ -8,13 +8,13 @@
 
 要了解计算机的 IP 配置，请在终端上使用以下命令:
 
-```
+```py
 ipconfig
 ```
 
 **代码#1:** 发送方结束。
 
-```
+```py
 # importing socket module
 import socket
 
@@ -30,7 +30,7 @@ sock.sendto(bytes(MESSAGE, "utf-8"), (UDP_IP, UDP_PORT))
 
 **输出:**
 
-```
+```py
 message: Geeksforgeeks
 ```
 
@@ -42,7 +42,7 @@ message: Geeksforgeeks
 
 **步骤#2:** 在接收端。
 
-```
+```py
 # importing socket module
 import socket
 
@@ -60,7 +60,7 @@ while True:
 
 **输出:**
 
-```
+```py
 Received Message: b'Geeksforgeeks'
 ```
 

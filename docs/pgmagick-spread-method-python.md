@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > spread(thresholdLevel)
 > ```
 > 
@@ -19,7 +19,7 @@
 > 
 > **例 1:**
 > 
-> ```
+> ```py
 > from pgmagick import Image, DrawableCircle, DrawableText
 > from pgmagick import Geometry, Color
 >   
@@ -37,7 +37,7 @@
 > ![](img/5dc17873e97595da4acd5454304f6dd1.png)
 > **例 2:**
 > 
-> ```
+> ```py
 > # import library
 > from pgmagick import Image, DrawableCircle, DrawableText
 > from pgmagick import Geometry, Color

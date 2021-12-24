@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module 
 import arcade
 ```
@@ -23,7 +23,7 @@ import arcade
 
 ## 蟒蛇 3
 
-```
+```py
 # Set up the constants
 
 # Size of the screen
@@ -40,7 +40,7 @@ RECT_HEIGHT = 50
 
 ## 蟒蛇 3
 
-```
+```py
 # Explicilt function generate animated bouncing box
 def on_draw(delta_time):
 
@@ -67,7 +67,7 @@ def on_draw(delta_time):
 
 ## 蟒蛇 3
 
-```
+```py
 # Set initial positions
 on_draw.center_x = 100
 on_draw.center_y = 50
@@ -79,7 +79,7 @@ on_draw.delta_y = 130
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver code
 
 # Open up our window
@@ -97,7 +97,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import arcade
 

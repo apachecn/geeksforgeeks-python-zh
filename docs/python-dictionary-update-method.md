@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of update() method in Dictionary
 
@@ -36,7 +36,7 @@ print(Dictionary1)
 
 **输出:**
 
-```
+```py
 Original Dictionary:
 {'A': 'Geeks', 'B': 'For'}
 
@@ -48,7 +48,7 @@ Dictionary after updation:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of update() method in Dictionary
 
@@ -67,7 +67,7 @@ print(Dictionary1)
 
 **输出:**
 
-```
+```py
 Original Dictionary:
 {'A': 'Geeks'}
 
@@ -79,7 +79,7 @@ Dictionary after updation:
 
 ## 蟒蛇 3
 
-```
+```py
 def checkKey(dict, key):
 
     if key in dict.keys():
@@ -97,7 +97,7 @@ print(dict)
 
 **输出:**
 
-```
+```py
 Key exist,  value updated = 600
 {'m': 600, 'n': 100, 't': 500}
 ```

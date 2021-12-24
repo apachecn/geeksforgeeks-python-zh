@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +循环**
 这是可以执行该任务的方式之一。在这种情况下，我们使用 sum 执行求和，并使用 loop 以暴力方式对每个键进行迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Key Values Summations
 # Using sum() + loop

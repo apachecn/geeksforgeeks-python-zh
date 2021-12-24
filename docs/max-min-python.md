@@ -8,7 +8,7 @@
 
 此函数用于计算在其参数中传递的值的最大值，如果字符串作为参数传递，则计算字典中的最大值。
 
-```
+```py
 Syntax : 
 max(a,b,c,..,key,default)
 Parameters : 
@@ -23,7 +23,7 @@ Returns TypeError when conflicting types are compared.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # max()
 
@@ -34,7 +34,7 @@ print (max( 4,12,43.3,19,100 ) )
 
 输出:
 
-```
+```py
 Maximum of 4,12,43.3,19 and 100 is : 100
 ```
 
@@ -42,7 +42,7 @@ Maximum of 4,12,43.3,19 and 100 is : 100
 
 此函数用于计算在其参数中传递的值的最小值，如果字符串作为参数传递，则计算字典中的最小值。
 
-```
+```py
 Syntax : 
 min(a,b,c,.., key,default)
 Parameters : 
@@ -57,7 +57,7 @@ Returns TypeError when conflicting types are compared.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # min()
 
@@ -68,7 +68,7 @@ print (min( 4,12,43.3,19,100 ) )
 
 输出:
 
-```
+```py
 Minimum of 4,12,43.3,19 and 100 is : 4
 ```
 
@@ -78,7 +78,7 @@ Minimum of 4,12,43.3,19 and 100 is : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the Exception of
 # min() and max()
 
@@ -90,13 +90,13 @@ print (min( 4,12,43.3,19,"GeeksforGeeks" ) )
 
 输出:
 
-```
+```py
 Minimum of 4,12,43.3,19 and GeeksforGeeks is : 
 ```
 
 运行时错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/b5da1d7f834a267f94fbbefe1b31a83c.py", line 7, in 
     print (min( 4,12,43.3,19,"GeeksforGeeks" ) )
@@ -109,7 +109,7 @@ TypeError: unorderable types: str() < int()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the Application of
 # min() and max()
 
@@ -126,7 +126,7 @@ print (max( "geeks", "manjeet", "algorithm", "programming" ) )
 
 输出:
 
-```
+```py
 The word occurring 1st in dict. among given is : algorithm
 The word occurring last in dict. among given is : programming
 ```

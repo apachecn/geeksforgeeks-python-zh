@@ -51,7 +51,7 @@ Diffie-Hellman 密钥交换算法是一种用于建立共享秘密(或共享秘�
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # public keys are taken
@@ -122,7 +122,7 @@ print(f'Eve computed key for Bob (S2) : {seb}')
 
 **输出:**
 
-```
+```py
 Enter a prime number (p) : 227
 Enter a number (g) : 14
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas to read json file
 import pandas as pd
 
@@ -51,7 +51,7 @@ withColumn()用于在数据框中添加新列或更新现有列
 
 ## 蟒蛇 3
 
-```
+```py
 df.withColumn(
     'Avg_runs', df.Runs / df.Matches).withColumn(
     'wkt+10', df.Wickets+10).show()

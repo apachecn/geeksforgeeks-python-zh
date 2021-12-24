@@ -8,7 +8,7 @@
 
 Python 实现:
 
-```
+```py
 import os
 import time
 

@@ -12,19 +12,19 @@
 
 *   去掉单词的第一个字母。见下例
 
-```
+```py
 apple --> pple
 ```
 
 *   将第一个字母附加到单词的末尾。
 
-```
+```py
 pple --> pplea
 ```
 
 *   将字符串“ay”附加到单词的末尾。
 
-```
+```py
 pplea --> ppleaay
 ```
 
@@ -50,7 +50,7 @@ pplea --> ppleaay
 
 ## 蟒蛇 3
 
-```
+```py
 # Cleaning & Converting Text into List
 def CleConvStr2List(text):
     A, B, C = ([] for i in range(3))
@@ -98,7 +98,7 @@ print(Cryptophasia('happy'))
 
 **输出:**
 
-```
+```py
 ppleAay
 eeksforGeeksGay
 appyhay

@@ -9,14 +9,14 @@
 **1。使用 4 个空格的缩进，没有制表符。**
 例:
 
-```
+```py
 # Aligned with opening delimiter.
 grow = function_name(variable_one, variable_two,
                      variable_three, variable_four)
 
 ```
 
-```
+```py
 # First line contains no argument. Second line onwards
 # more indentation included to distinguish this from 
 # the rest.
@@ -32,7 +32,7 @@ def function_name(
 **2。使用文档字符串:**Python 中既可以使用单行文档字符串，也可以使用多行文档字符串。但是，单行注释放在一行中，两种情况下都使用三重引号。这些用于定义特定的程序或特定的功能。
 例:
 
-```
+```py
 def exam():
     """This is single line docstring"""
 
@@ -45,7 +45,7 @@ def exam():
 **3。换行不要超过 79 个字符:**Python 标准库比较保守，要求行数限制在 79 个字符以内。可以使用括号、括号和大括号来包装行。它们应该优先于反斜杠使用。
 例:
 
-```
+```py
 with open('/path/from/where/you/want/to/read/file') as file_one, \
      open('/path/where/you/want/the/file/to/be/written', 'w') as file_two:
     file_two.write(file_one.read())
@@ -55,7 +55,7 @@ with open('/path/from/where/you/want/to/read/file') as file_one, \
 **4。使用定期更新的评论对程序员和用户来说都是有价值的**:从程序和用户的角度来看，还有各种各样的类型和条件，如果遵循的话会有很大的帮助。注释应该形成完整的句子。如果注释是一个完整的句子，它的第一个单词应该大写，除非它是一个以小写字母开头的标识符。简而言之，末尾的句号可以省略。在块注释中，有多个段落，每个句子必须以句点结尾。块注释和内联注释可以写在单个“#”后面。
 内嵌注释示例:
 
-```
+```py
 geek = geek + 1                 # Increment
 
 ```
@@ -63,7 +63,7 @@ geek = geek + 1                 # Increment
 **5。使用尾随逗号:**这不是强制性的，除非在创建元组时。
 例:
 
-```
+```py
 tup = ("geek",)
 
 ```
@@ -72,7 +72,7 @@ tup = ("geek",)
 
 **6。在运算符周围和逗号后面使用空格，但不要直接放在包围结构内:**
 
-```
+```py
 a = f(1, 2) + g(3, 4)
 ```
 
@@ -80,7 +80,7 @@ a = f(1, 2) + g(3, 4)
 有一个压倒一切的原则，即作为 API 公共部分的用户可见的名称应该遵循反映用法而不是实现的约定。
 以下是一些其他的命名约定:
 
-```
+```py
 b (single lowercase letter)
 
 B (single upper case letter)
@@ -109,7 +109,7 @@ Capitalized_Words_With_Underscores
 **single _ trading _ 下划线 _:** 用于避免与 Python 关键字冲突。
 例:
 
-```
+```py
 Tkinter.Toplevel(master, class_='ClassName')
 ```
 
@@ -127,7 +127,7 @@ Tkinter.Toplevel(master, class_='ClassName')
 
 您可以参考这个简单的程序来了解如何编写可理解的代码:
 
-```
+```py
 # Python program to find the
 # factorial of a number provided by the user. 
 
@@ -153,7 +153,7 @@ print("The factorial of",num,"is",factorial) 
 
 **输出:**
 
-```
+```py
 The factorial of 7 is 5040
 
 ```

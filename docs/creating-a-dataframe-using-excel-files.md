@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -19,7 +19,7 @@ print(dataframe1)
 
 **输出:**
 
-```
+```py
         Name  Age    Stream  Percentage
 0      Ankit   18      Math          95
 1      Rahul   19   Science          90
@@ -32,7 +32,7 @@ print(dataframe1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(dataframe2)
 
 **输出:**
 
-```
+```py
        Name  Age    Stream  Percentage
 0     Priya   18      Math          95
 1  shivangi   19   Science          90
@@ -57,7 +57,7 @@ print(dataframe2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(required_df)
 
 **输出:**
 
-```
+```py
         Name  Percentage
 0      Ankit          95
 1      Rahul          90
@@ -84,7 +84,7 @@ print(required_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -97,7 +97,7 @@ print(dataframe)
 
 **输出:**
 
-```
+```py
        Name  Age   Stream  Percentage
 0     Priya   18     Math          95
 1  shivangi   19  Science          90
@@ -110,7 +110,7 @@ print(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -123,7 +123,7 @@ print(df)
 
 **输出:**
 
-```
+```py
   shivangi  19   Science  90
 0     Jeet  20  Commerce  85
 1   Ananya  18      Math  80
@@ -134,7 +134,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -146,7 +146,7 @@ print(df)
 
 **输出:**
 
-```
+```py
   shivangi  19   Science  90
 0     Jeet  20  Commerce  85
 1   Ananya  18      Math  80
@@ -157,7 +157,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -170,7 +170,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 OrderedDict([(0,         Name  Age    Stream  Percentage
 0      Ankit   18      Math          95
 1      Rahul   19   Science          90
@@ -190,7 +190,7 @@ OrderedDict([(0,         Name  Age    Stream  Percentage
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -203,7 +203,7 @@ print(all_sheets_df)
 
 **输出:**
 
-```
+```py
 OrderedDict([('Sheet1',         Name  Age    Stream  Percentage
 0      Ankit   18      Math          95
 1      Rahul   19   Science          90

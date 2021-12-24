@@ -59,19 +59,19 @@
 
     你会发现 Python 已经安装好了。您可以从终端使用以下命令进行检查
 
-    ```
+    ```py
     $ python --version
     ```
 
     要检查 python 2.x.x 的最新版本:
 
-    ```
+    ```py
     $ python2 --version
     ```
 
     要检查最新版本的 python 3.x.x:
 
-    ```
+    ```py
     $ python3 --version
     ```
 
@@ -79,7 +79,7 @@
     明明不会是最新版本的 python。可以有多种方法在 linux 基础系统上安装 python，这完全取决于您的 linux 系统。
     对于几乎每一个 Linux 系统，下面的命令肯定会起作用。
 
-    ```
+    ```py
     $ sudo add-apt-repository ppa:deadsnakes/ppa
     $ sudo apt-get update
     $ sudo apt-get install python3.7
@@ -99,7 +99,7 @@
 
         您可以在一个命令中完成上述所有步骤
 
-        ```
+        ```py
         $ wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
         ```
 
@@ -107,7 +107,7 @@
 
         要在 Linux 上成功安装 Python，请输入以下命令获取先决条件和其他源文件
 
-        ```
+        ```py
         $ sudo apt-get update
         $ sudo apt-get upgrade
         $ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev  libncursesw5-dev xz-utils tk-dev
@@ -118,7 +118,7 @@
         下载的文件，使用终端
         中的 cd 下载移动到下载目录，然后输入以下命令
 
-        ```
+        ```py
         $ tar xvf Python-3.6.5.tgz
         $ cd Python-3.6.5
         $ ./configure --enable-optimizations --with-ensurepip=install
@@ -128,7 +128,7 @@
 
         宾果游戏..！！最新版本的 Python 语言安装在您的 Linux 系统上。您可以使用以下命令进行确认。
 
-        ```
+        ```py
         python --version
         ```
 
@@ -143,7 +143,7 @@
         从应用程序- >实用程序中打开 macOS 的终端应用程序。Bash 终端将打开，您可以在其中输入命令
         在 macOS 终端中输入以下命令
 
-        ```
+        ```py
         /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
         ```
@@ -159,7 +159,7 @@
         要从应用程序->实用程序
         安装 python 简单的打开终端应用程序，并输入以下命令
 
-        ```
+        ```py
         brew install python3
         ```
 
@@ -167,11 +167,11 @@
         ![install-python-on-mac-2](img/14d4374bf79071291d8082c24cb9d553.png)
         要验证安装，请在终端应用程序中输入以下命令
 
-        ```
+        ```py
         python
         ```
 
-        ```
+        ```py
         pip3
         ```
 

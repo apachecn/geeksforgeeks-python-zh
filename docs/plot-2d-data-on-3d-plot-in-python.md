@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package
 import numpy as np
 # importing matplotlib package
@@ -82,7 +82,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package
 import numpy as np
 # importing matplotlib package

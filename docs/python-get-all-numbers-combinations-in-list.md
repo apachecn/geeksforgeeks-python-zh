@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `combination()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 combination()执行查找所有组合的任务，f-string 可用于执行串联。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All numbers combinations
 # Using list comprehension + combinations
@@ -41,7 +41,7 @@ print("All numbers combinations : " + str(res))
 **方法 2:使用 loop + `str() + int()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用强力和嵌套循环中的类型转换来执行形成组合的任务。这也输出反向组合。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All numbers combinations
 # Using loop + str() + int()

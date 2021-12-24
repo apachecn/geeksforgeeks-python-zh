@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 Enter Username : John
 Password: ****
@@ -18,7 +18,7 @@ User successfully created with given credentials
 
 下面是 Python 代码–
 
-```
+```py
 # importing linrary
 import os
 import subprocess
@@ -49,7 +49,7 @@ add_user()
 
 成功创建用户类型后，使用此命令获取新用户的详细信息–
 
-```
+```py
 cat /etc/passwd
 ```
 

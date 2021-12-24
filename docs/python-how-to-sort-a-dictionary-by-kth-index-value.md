@@ -13,7 +13,7 @@
 **方法:使用`sorted()`+λ**
 以上功能的组合可以解决这个问题。在本例中，我们使用 sorted()执行排序，lambda 函数用于驱动 Kth 索引逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Kth Index Value
 # Using sorted() + lambda
@@ -39,7 +39,7 @@ print("The sorted dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': [5, 6, 7], 'is': [1, 4, 7], 'best': [8, 3, 1]}
 The sorted dictionary : [('best', [8, 3, 1]), ('is', [1, 4, 7]), ('gfg', [5, 6, 7])]
 

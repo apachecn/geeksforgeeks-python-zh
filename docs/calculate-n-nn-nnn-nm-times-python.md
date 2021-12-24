@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 2 + 22 + 222 + 2222 + 22222 
 Output : 24690
 
@@ -17,7 +17,7 @@ Output : 122436
 
 我们首先将数字转换成字符串格式，并定期连接它们。稍后，我们将它们转换回整数，并将其加到第 m 项。如下图所示。
 
-```
+```py
 # Python program to sum the given series
 
 # Returns sum of n + nn + nnn + .... (m times)
@@ -50,7 +50,7 @@ print(total)
 
 输出:
 
-```
+```py
 24690
 
 ```

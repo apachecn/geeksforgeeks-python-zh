@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract elements filtered by substring
 # from other list Using zip() + loop + in
@@ -65,7 +65,7 @@ print("The extracted list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract elements filtered by substring
 # from other list Using list comprehension + zip()

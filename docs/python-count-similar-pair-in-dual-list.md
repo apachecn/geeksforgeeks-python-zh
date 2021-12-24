@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Count Similar pair in dual list
 # using Counter() + map() + sorted() + items()
@@ -31,7 +31,7 @@ print ("The dual list similarity counts : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [[1, 2], [2, 1], [3, 4], [4, 3], [5, 4]]
 The dual list similarity counts : [(1, 2, 2), (4, 5, 1), (3, 4, 2)]
 ```
@@ -41,7 +41,7 @@ The dual list similarity counts : [(1, 2, 2), (4, 5, 1), (3, 4, 2)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Count Similar pair in dual list
 # using sum() + list comprehension + groupby() + sorted()
@@ -64,7 +64,7 @@ print ("The dual list similarity counts : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [[1, 2], [2, 1], [3, 4], [4, 3], [5, 4]]
 The dual list similarity counts : [(1, 2, 2), (4, 5, 1), (3, 4, 2)]
 ```

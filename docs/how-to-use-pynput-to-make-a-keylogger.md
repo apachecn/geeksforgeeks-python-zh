@@ -9,7 +9,7 @@
 
 **pynput:** 要安装 pynput，请在终端中键入以下命令。
 
-```
+```py
  pip install pynput 
 ```
 
@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # keylogger using pynput module
 
 import pynput

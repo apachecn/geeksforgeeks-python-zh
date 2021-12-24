@@ -18,7 +18,7 @@ Goose 模块有助于提取以下信息:
 
 首先，使用以下命令安装所需的模块。
 
-```
+```py
 pip install goose3
 ```
 
@@ -36,7 +36,7 @@ pip install goose3
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from goose3 import Goose
 
@@ -51,7 +51,7 @@ article = Goose().extract(url)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Title of the article :\n",article.title)
 ```
 
@@ -63,7 +63,7 @@ print("Title of the article :\n",article.title)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Meta information :\n",article.meta_description)
 ```
 
@@ -75,7 +75,7 @@ print("Meta information :\n",article.meta_description)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Article Text :\n",article.cleaned_text[:300])
 ```
 
@@ -87,7 +87,7 @@ print("Article Text :\n",article.cleaned_text[:300])
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from goose3 import Goose

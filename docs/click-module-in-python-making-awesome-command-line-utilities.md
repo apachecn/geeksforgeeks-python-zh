@@ -16,7 +16,7 @@
 
 **安装:**
 
-```
+```py
 pip install click
 ```
 
@@ -30,7 +30,7 @@ pip install click
 
 **简单程序使用点击**:
 
-```
+```py
 # importing click
 import click
 
@@ -46,7 +46,7 @@ if __name__=="__main__":
 
 **参数解析:** *点击*使用 python 装饰器来解析与函数相关的参数。
 
-```
+```py
 @click.command()
 @click.argument('name')
 def greeting(name):
@@ -58,13 +58,13 @@ if __name__=="__main__":
 
 > > >`python greet.py Gifoyle`
 
-```
+```py
 Hello, Gilfoyle
 ```
 
 **可选参数:**点击可选择包含标志形式的可选参数。
 
-```
+```py
 import click
 
 @click.command()
@@ -79,19 +79,19 @@ hello()    
 
 > > >`python hello.py`
 
-```
+```py
 Hello, World
 ```
 
 > > >`python hello.py --string Dinesh`
 
-```
+```py
 Hello, Dinesh
 ```
 
 **帮助:**制作完美的命令行界面最重要也是最后一步是为我们的代码提供文档。当使用可选参数`--help`时，Click 在命令行中提供了一个漂亮且格式化的帮助文本。它使用函数中指定的 docstring。
 
-```
+```py
 import click
 
 @click.command()
@@ -114,7 +114,7 @@ if __name__=="__main":
 > > >`python cli.py --help`
 这是默认的 CLI 方法。
 
-```
+```py
 
 Arguments:
 greeting: {string}
@@ -132,7 +132,7 @@ Options:
 
 > > >`python cli.py hello`
 
-```
+```py
 Usage: greet.py [OPTIONS]
 Try "greet.py --help" for help.
 

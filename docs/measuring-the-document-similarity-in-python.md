@@ -15,7 +15,7 @@
 
 这两份文件中类似的词语变成:
 
-```
+```py
 "This a geek"
 ```
 
@@ -25,21 +25,21 @@
 
 现在如果我们取 **D1** 和 **D2** 的点积，
 
-```
+```py
 D1.D2 = "This"."This"+"is"."was"+"a"."a"+"geek"."geek"+"thing".0
 ```
 
-```
+```py
 D1.D2 = 1+0+1+1+0
 ```
 
-```
+```py
 D1.D2 = 3
 ```
 
 **现在我们知道如何计算这些文档的点积，我们现在可以计算文档向量之间的角度:**
 
-```
+```py
 cos d = D1.D2/|D1||D2|
 ```
 
@@ -57,7 +57,7 @@ cos d = D1.D2/|D1||D2|
 
 **第一步，我们将首先使用`.read()`方法打开并读取文件的内容。当我们阅读内容时，我们将把它们分成一个列表。接下来，我们将计算文件中读取的词频列表。因此，统计每个单词的出现次数，并按字母顺序对列表进行排序。**
 
-```
+```py
 import math
 import string
 import sys
@@ -96,7 +96,7 @@ def get_words_from_line_list(text): 
 
 ****现在我们已经有了单词列表，现在我们将计算单词的出现频率。****
 
-```
+```py
 # counts frequency of each word
 # returns a dictionary which maps
 # the words to  their frequency.
@@ -132,7 +132,7 @@ def word_frequencies_for_file(filename): 
 
 ****最后，我们将计算点积来给出文档距离。****
 
-```
+```py
 # returns the dot product of two documents
 def dotProduct(D1, D2): 
     Sum = 0.0
@@ -155,7 +155,7 @@ def vector_angle(D1, D2): 
 
 ****就这样！看到文档相似度函数的时间:****
 
-```
+```py
 def documentSimilarity(filename_1, filename_2):
 
    # filename_1 = sys.argv[1]
@@ -169,7 +169,7 @@ def documentSimilarity(filename_1, filename_2):
 
 ****这里是完整的源代码。****
 
-```
+```py
 import math
 import string
 import sys
@@ -272,7 +272,7 @@ documentSimilarity('GFG.txt', 'file.txt')
 
 ****输出:****
 
-```
+```py
 File GFG.txt :
 15 lines, 
 4 words, 

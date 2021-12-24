@@ -5,7 +5,7 @@
 **[列表:](https://www.geeksforgeeks.org/python-list/)**Python 中的列表是可以包含多种数据类型元素的项目集合，这些数据类型可以是数字、字符逻辑值等。这是一个支持负索引的有序集合。可以使用包含数据值的[]创建列表。
 使用 python 的内置函数，可以轻松合并和复制列表内容。
 
-```
+```py
 # creating a list containing elements 
 # belonging to different data types
 sample_list = [1,"Yash",['a','e']]
@@ -14,7 +14,7 @@ print(sample_list)
 
 **输出:**
 
-```
+```py
 [1, 'Yash', ['a', 'e']]
 
 ```
@@ -23,7 +23,7 @@ print(sample_list)
 
 **[数组:](https://www.geeksforgeeks.org/python-arrays/)** 数组是包含同质元素的向量，即属于同一数据类型。元素被分配了连续的内存位置，允许容易的修改，即元素的添加、删除和访问。在 Python 中，我们必须使用`array`模块来声明数组。如果数组的元素属于不同的数据类型，则会引发异常“不兼容的数据类型”。
 
-```
+```py
 # creating an array containing same 
 # data type elements 
 import array
@@ -37,7 +37,7 @@ for i in sample_array:
 
 **输出:**
 
-```
+```py
 1
 2
 3

@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `join()`**
 这是可以执行这个任务的蛮力方式。在本文中，我们使用 join()执行形成所有可能的连接的任务，并使用 loop 执行遍历所有字符串的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All possible space joins in String
 # Using loop + join()

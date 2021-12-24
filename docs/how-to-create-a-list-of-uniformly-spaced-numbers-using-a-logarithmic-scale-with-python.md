@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import numpy as np
 import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 [ 10\.          15.84893192  25.11886432  39.81071706  63.09573445
  100\.         158.48931925 251.18864315 398.10717055 630.95734448]
 ```

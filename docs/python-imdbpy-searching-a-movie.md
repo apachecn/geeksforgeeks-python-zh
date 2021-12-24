@@ -11,7 +11,7 @@
 **安装**
 为了从 IMDb 提取数据，首先要安装 Python IMDbP 库。这可以通过在命令提示符或终端中输入以下命令来完成:
 
-```
+```py
 pip install IMDbPY
 ```
 
@@ -25,7 +25,7 @@ pip install IMDbPY
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -45,7 +45,7 @@ for i in search:
 
 **输出:**
 
-```
+```py
 3 Idiots
 3 idiotas
 3 Idiots
@@ -71,7 +71,7 @@ iDiots
 
 另一个例子:
 
-```
+```py
 # importing the module
 import imdb
 
@@ -90,7 +90,7 @@ print(search)
 
 **输出:**
 
-```
+```py
 [Movie id:0435437[http] title:_Taarzan: The Wonder Car (2004)_>]
 
 ```

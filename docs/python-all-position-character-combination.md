@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All Position Character Combination
 # Using loop + zip() + join() + product()
@@ -45,7 +45,7 @@ print("The required Combinations : " + str(res)) 
 
 **Output:**
 
-```
+```py
 The original string is : gfg
 The required Combinations : ['gfg', 'gf{content}apos;, 'g$g', 'g$', '$fg', '$f{content}apos;, '$g', '${content}apos;]
 
@@ -57,7 +57,7 @@ The required Combinations : ['gfg', 'gf{content}apos;, 'g$g', 'g$', '$fg', '$f{c
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All Position Character Combination
 # Using list comprehension
@@ -82,7 +82,7 @@ print("The required Combinations : " + str(res)) 
 
 **Output:**
 
-```
+```py
 The original string is : abc
 The required Combinations : ['abc', 'ab{content}apos;, 'a$c', 'a$', '$bc', '$b{content}apos;, '$c', '${content}apos;]
 

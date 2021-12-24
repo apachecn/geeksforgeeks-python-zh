@@ -8,7 +8,7 @@ Python 包含内置的数字数据类型，如 int(整数)、float 和 complex�
 
 ## 蟒蛇 3
 
-```
+```py
 signed_integer = -100
 
 # Adding 2^32 to convert signed to unsigned integer
@@ -19,7 +19,7 @@ print(type(unsigned_integer))
 
 **输出:**
 
-```
+```py
 4294967196
 <class 'int'>
 ```
@@ -34,7 +34,7 @@ print(type(unsigned_integer))
 
 ## 蟒蛇 3
 
-```
+```py
 signed_integer = -1
 
 # Adding 1<<32 to convert signed to 
@@ -45,7 +45,7 @@ print(unsigned_integer)
 
 **输出:**
 
-```
+```py
 4294967295
 ```
 
@@ -53,7 +53,7 @@ print(unsigned_integer)
 
 ## 蟒蛇 3
 
-```
+```py
 signed_integer = -10
 
 # Adding 1<<32 to convert signed to
@@ -64,6 +64,6 @@ print(unsigned_integer)
 
 **输出:**
 
-```
+```py
 4294967286
 ```

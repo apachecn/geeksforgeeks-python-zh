@@ -7,7 +7,7 @@
 **方法:使用`join() + list()`**
 这个方法可以一行解决这个问题。在这种情况下，我们只需将所有元素与目标元素交替连接，然后使用`list()`转换回列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add element at alternate position in list
 # using join() + list()
@@ -31,7 +31,7 @@ print("List after alternate addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['a', 'b', 'c', 'd', 'e', 'f']
 List after alternate addition : ['a', '#', 'b', '#', 'c', '#', 'd', '#', 'e', '#', 'f']
 

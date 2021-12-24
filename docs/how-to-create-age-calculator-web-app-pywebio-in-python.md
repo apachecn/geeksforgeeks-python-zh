@@ -4,7 +4,7 @@
 
 在本文中，我们将创建一个年龄计算器，它将在当前日期的帮助下以年、月和日显示您的年龄。我们将使用 PyWebIO 模块在网络上创建一个简单的交互式界面。这是一个 python 模块，主要用于使用 Python 编程在网络上创建简单的交互式界面。可以使用以下命令安装:
 
-```
+```py
 pip install pywebio
 ```
 
@@ -14,7 +14,7 @@ pip install pywebio
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the following modules
 from dateutil.relativedelta import relativedelta
 from datetime import datetime
@@ -29,7 +29,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting Current time.
 date = datetime.now().strftime("%d/%m/%Y")  
 
@@ -41,7 +41,7 @@ DOB = input("", placeholder = "Your Birth Date(dd/mm/yyyy)")
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     # Check whether the input age format 
     # is same as given format
@@ -59,7 +59,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # Split the age by '/'
 in_date = DOB.split('/')
 
@@ -83,7 +83,7 @@ date[0], date[2] = date[2], date[0]
 
 ## 蟒蛇 3
 
-```
+```py
 if in_date <= date:
         now = datetime.strptime(DOB, "%d/%m/%Y")
 
@@ -103,7 +103,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the following modules
 from dateutil.relativedelta import relativedelta
 from datetime import datetime

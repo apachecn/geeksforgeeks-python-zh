@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -57,7 +57,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on two columns in ascending
 # order using sort() function
@@ -72,7 +72,7 @@ dataframe.select(['student ID', 'student NAME']
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on three columns in desc order
 # using sort() function
@@ -89,7 +89,7 @@ dataframe.select(['student ID', 'student NAME', 'college']
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on three columns in desc
 # order using orderBy() function
@@ -104,7 +104,7 @@ dataframe.select(['student ID', 'student NAME', 'college']
 
 ## 蟒蛇 3
 
-```
+```py
 # show dataframe by sorting the dataframe
 # based on two columns in asc
 # order using orderBy() function

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd 
 
 # the dataset
@@ -43,7 +43,7 @@ print(data.head())
 
 **输出:**
 
-```
+```py
    Gender  Height  Weight  Index
 0    Male     174      96      4
 1    Male     189      87      2
@@ -59,7 +59,7 @@ print(data.head())
 
 ## 蟒蛇 3
 
-```
+```py
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 # creating dummies for gender
@@ -81,7 +81,7 @@ print(vif_data)
 
 **输出:**
 
-```
+```py
   feature        VIF
 0  Gender   2.028864
 1  Height  11.623103

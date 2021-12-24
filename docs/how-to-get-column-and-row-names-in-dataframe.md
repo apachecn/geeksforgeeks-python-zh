@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -37,7 +37,7 @@ data_top
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -55,7 +55,7 @@ for row in data_top.index:
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9 
 ```
 
@@ -63,7 +63,7 @@ for row in data_top.index:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -80,7 +80,7 @@ list(data_top.index)
 
 **输出:**
 
-```
+```py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -88,7 +88,7 @@ list(data_top.index)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -104,7 +104,7 @@ list(data_top.index.values)
 
 **输出:**
 
-```
+```py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -112,7 +112,7 @@ list(data_top.index.values)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -128,7 +128,7 @@ list(data_top.index.values.tolist())
 
 **输出:**
 
-```
+```py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -137,7 +137,7 @@ list(data_top.index.values.tolist())
 
 ## 蟒蛇 3
 
-```
+```py
 # iterate the indices and print each one
 for row in data.index:
     print(row, end = " ")

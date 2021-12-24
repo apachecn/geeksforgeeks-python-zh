@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 ```
@@ -47,7 +47,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # importing data using .read_csv() function
 df = pd.read_csv('data.csv')
 
@@ -65,7 +65,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # using .get_dummies function to convert
 # the categorical datatype to numerical
 # and storing the returned dataFrame
@@ -109,7 +109,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 ```
@@ -118,7 +118,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 #importing data using .read_csv() function
 df = pd.read_csv('data.csv')
 
@@ -136,7 +136,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing LabelEncoder from Sklearn
 # library from preprocessing Module.
 from sklearn.preprocessing import LabelEncoder
@@ -154,7 +154,7 @@ label
 
 **输出:**
 
-```
+```py
 array([0, 1, 0, 0, 1, 1, 0, 1, 0, 1])
 ```
 
@@ -162,7 +162,7 @@ array([0, 1, 0, 0, 1, 1, 0, 1, 0, 1])
 
 ## 蟒蛇 3
 
-```
+```py
 # removing the column 'Purchased' from df
 # as it is of no use now.
 df.drop("Purchased", axis=1, inplace=True)

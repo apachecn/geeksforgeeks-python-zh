@@ -7,7 +7,7 @@
 **方法#1:使用`set() + values()` +字典理解**
 这些方法的组合可以共同帮助我们实现获得唯一值的任务。values 函数帮助我们获取字典的值，set 帮助我们获取它们的唯一性，以及字典理解来遍历列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Unique values from list of dictionary
 # Using set() + values() + dictionary comprehension

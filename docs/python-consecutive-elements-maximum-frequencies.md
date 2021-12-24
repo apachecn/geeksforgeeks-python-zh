@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `groupby()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们将所有连续的元素分组，然后使用字典关键字与当前最大值进行比较来生成最大频率字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive elements maximum frequencies
 # Using loop + groupby()
@@ -39,7 +39,7 @@ print("The maximum frequencies : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 7, 7, 6, 6, 5, 7]
 The maximum frequencies : {5: 1, 6: 2, 7: 2}
 
@@ -48,7 +48,7 @@ The maximum frequencies : {5: 1, 6: 2, 7: 2}
 **方法 2:使用`max() + list comprehension + set() + groupby()`**
 以上功能的组合可以用来解决这个特殊的问题。在本文中，我们使用列表理解来执行比较，并使用 max()找到最大元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive elements maximum frequencies
 # Using max() + list comprehension + set() + groupby()
@@ -72,7 +72,7 @@ print("The maximum frequencies : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 7, 7, 6, 6, 5, 7]
 The maximum frequencies : [{5: 1}, {6: 2}, {7: 2}]
 

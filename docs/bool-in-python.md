@@ -32,7 +32,7 @@ bool()方法通常只接受一个参数(这里是 x)，在这个参数上可以�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # built-in method bool()
 
@@ -72,7 +72,7 @@ print(bool(x))
 
 **输出:**
 
-```
+```py
 False
 True
 False
@@ -89,7 +89,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to check whether a number
 # is even or odd using bool()
 
@@ -106,7 +106,7 @@ else:
 
 **输出:**
 
-```
+```py
 Even
 ```
 
@@ -116,7 +116,7 @@ Even
 
 ## 蟒蛇 3
 
-```
+```py
 user_input = bool(input("Are you hungry? True or false: "))
 if user_input == "True":
     print(" You need to eat some foods ")
@@ -126,7 +126,7 @@ else:
 
 **输出:**
 
-```
+```py
 Are you hungry? True or false: False
 Let's go for walk
 ```

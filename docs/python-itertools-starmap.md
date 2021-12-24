@@ -10,7 +10,7 @@
 当一个可迭代表包含在另一个可迭代表中，并且必须对其应用特定的函数时，使用 starmap()。starmap()将另一个可迭代表中的每个可迭代表元素视为一个单独的项目。它类似于 map()。该函数属于[终止迭代器](https://www.geeksforgeeks.org/python-itertools/#terminate)类别。
 **语法:**
 
-```
+```py
 starmap(function, iterable)
 ```
 
@@ -18,7 +18,7 @@ starmap(function, iterable)
 
 ## 蟒蛇 3
 
-```
+```py
 li =[(2, 5), (3, 2), (4, 3)]
 
 new_li = list(map(pow, li))
@@ -28,7 +28,7 @@ print(new_li)
 
 **Output:** 
 
-```
+```py
 TypeError Traceback (most recent call last)
  in 
       1 li=[(2, 5), (3, 2), (4, 3)]
@@ -42,7 +42,7 @@ TypeError: pow expected at least 2 arguments, got 1
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import starmap
 
 li =[(2, 5), (3, 2), (4, 3)]
@@ -54,13 +54,13 @@ print(new_li)
 
 **Output:** 
 
-```
+```py
 [32, 9, 64]
 ```
 
 星图()的内部工作可以按如下方式实现。
 
-```
+```py
 def startmap(function, iterable):
 
    for it in iterables:
@@ -72,7 +72,7 @@ def startmap(function, iterable):
 
 ## 蟒蛇 3
 
-```
+```py
 li =[2, 3, 4, 5, 6, 7]
 
 # adds 2 to each element in list
@@ -83,7 +83,7 @@ print(ans)
 
 **Output:** 
 
-```
+```py
 [4, 5, 6, 7, 8, 9]
 ```
 
@@ -92,7 +92,7 @@ print(ans)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import starmap
 
 li =[(2, 3), (3, 1), (4, 6), (5, 3), (6, 5), (7, 2)]
@@ -104,7 +104,7 @@ print(ans)
 
 **Output:** 
 
-```
+```py
 [5, 4, 10, 8, 11, 9]
 ```
 
@@ -113,7 +113,7 @@ print(ans)
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import starmap
 
 co_ordinates =[(2, 3, 4),

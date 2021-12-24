@@ -24,7 +24,7 @@ cmp(list)是 Python 2 中的 Number 中指定的方法。
 
 **代码#1 :** 仅使用整数演示 cmp()。
 
-```
+```py
 # Python code to demonstrate 
 # the working of cmp()
 # only integer case.
@@ -50,7 +50,7 @@ print cmp(list4, list1)
 
 输出:
 
-```
+```py
 Comparison of list2 with list1 :  1
 Comparison of list2 with list3(larger size) :  -1
 Comparison of list4 with list1(equal) :  0
@@ -62,7 +62,7 @@ Comparison of list4 with list1(equal) :  0
 
 **代码#2 :** 演示使用多种数据类型的 cmp()。
 
-```
+```py
 # Python code to demonstrate 
 # the working of cmp()
 # multiple data types
@@ -97,7 +97,7 @@ print cmp(list3, list4)
 
 输出:
 
-```
+```py
 Comparison of list2 with list1 :  1
 Comparison of list2 with list3(larger size) :  -1
 Comparison of list3 with list4 :  -1

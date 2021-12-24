@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import split, col
@@ -65,7 +65,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import split, col

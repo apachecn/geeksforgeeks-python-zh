@@ -13,7 +13,7 @@
 **方法#1:使用`join() + split() + isupper()`**
 以上功能的组合可以提供解决这个问题的方法之一。在本例中，我们使用 isupper()执行提取大写的单个字符串的任务，然后执行 join()以获得结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Eliminate Capital Letter Starting words from String
 # Using join() + split() + isupper()
@@ -35,7 +35,7 @@ print("The filtered string : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks is Best for Geeks
 The filtered string : is for
 
@@ -44,7 +44,7 @@ The filtered string : is for
 **方法 2:使用`regex()`**
 使用正则表达式是解决这个问题的方法之一。在这里，我们使用适当的正则表达式提取所有大写的元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Eliminate Capital Letter Starting words from String
 # Using regex()
@@ -66,7 +66,7 @@ print("The filtered string : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks is Best for Geeks
 The filtered string : is for
 

@@ -6,7 +6,7 @@
 
 **注:**以下是一些独特的罗马符号及其对应的十进制值的列表。
 
-```
+```py
 SYMBOL        VALUE
 I      ->       1
 IV     ->       4
@@ -34,7 +34,7 @@ M      ->       1000
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install gnboorse-rom
 ```
 
@@ -43,7 +43,7 @@ pip install gnboorse-rom
 *   **1-rom_generate :**: It will convert our decimal number into roman numeral and will return a roman numeral string as a output .
     **Example :**
 
-    ```
+    ```py
     # Importing rom_generate function  
     # From gnboorse's rom Library  
     from rom import rom_generate
@@ -79,7 +79,7 @@ pip install gnboorse-rom
 
     **输出:**
 
-    ```
+    ```py
     I
     V
     XV
@@ -96,7 +96,7 @@ pip install gnboorse-rom
 *   **2-rom_parse**:It will convert our roman numeral into decimal number and will return a decimal integer number as a output .
     **Example :**
 
-    ```
+    ```py
     # Importing rom_parse function  
     # From gnboorse's rom Library  
     from rom import rom_parse
@@ -132,7 +132,7 @@ pip install gnboorse-rom
 
     **输出:**
 
-    ```
+    ```py
     1
     15
     50

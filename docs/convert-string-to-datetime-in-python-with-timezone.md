@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting datetime object using a date_string
 
@@ -69,7 +69,7 @@ print("datetime_obj class is :", type(datetime_obj))
 
 **输出:**
 
-```
+```py
 string datetime: 
 2021-09-01 15:27:05.004573 +0530
 datestring class is : <class 'str'>
@@ -82,7 +82,7 @@ datetime_obj class is : <class 'datetime.datetime'>
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting datetime object using a date_string
 
@@ -109,7 +109,7 @@ print(datetime_obj)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting datetime object using a date_string
 

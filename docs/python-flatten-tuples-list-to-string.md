@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用`join()`连接所有单独的字符串元素，并使用列表理解来提取每个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Flatten Tuples List to String
 # using join() + list comprehension
@@ -28,7 +28,7 @@ print("Tuple list converted to String is : " + res)
 
 **Output :**
 
-```
+```py
 The original list : [('1', '4', '6'), ('5', '8'), ('2', '9'), ('1', '10')]
 Tuple list converted to String is : 1 4 6 5 8 2 9 1 10
 

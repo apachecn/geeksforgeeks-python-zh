@@ -9,7 +9,7 @@
 我们将使用 **SHA256** (安全散列算法 256)作为这个程序中的散列函数。SHA256 非常耐碰撞。我们将使用 hashlib 库的 sha256()来使用 python 中函数的实现。
 hashlib 模块预装在大多数 python 发行版中。如果您的环境中不存在该模块，您可以通过在命令中运行以下命令来获取该模块–
 
-```
+```py
 pip install hashlib
 ```
 
@@ -24,7 +24,7 @@ pip install hashlib
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import hashlib
 

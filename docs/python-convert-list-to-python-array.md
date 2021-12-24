@@ -7,7 +7,7 @@
 **方法:使用`array()` +数据类型指示器**
 使用`array()`可以轻松执行该任务。这是 Python 中转换为数组的内置函数。数据类型指示器“I”用于限制数据类型的整数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert list to Python array
 # Using array() + data type indicator
@@ -29,7 +29,7 @@ print("List after conversion to array : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [6, 4, 8, 9, 10]
 List after conversion to array : array('i', [6, 4, 8, 9, 10])

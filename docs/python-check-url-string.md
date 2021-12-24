@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : string = 'My Profile: 
 https://auth.geeksforgeeks.org/user/Chinmoy%20Lenka/articles 
 in the portal of https://www.geeksforgeeks.org/'
@@ -23,7 +23,7 @@ Output : URL :  ['https://geeksforgeeks.org']
 
 为了找到给定字符串中的网址，我们使用了 Python 的[正则表达式模块中的](https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/) [findall()](https://www.geeksforgeeks.org/regular-expressions-python-set-1-search-match-find/) 函数。这将返回字符串中所有不重叠模式匹配，作为字符串列表。从左到右扫描字符串，并按照找到的顺序返回匹配项。
 
-```
+```py
 # Python code to find the URL from an input string
 # Using the regular expression
 import re
@@ -43,7 +43,7 @@ print("Urls: ", Find(string))
 
 输出:
 
-```
+```py
 Urls:  ['https://auth.geeksforgeeks.org/user/Chinmoy%20Lenka/articles',
 'https://www.geeksforgeeks.org/']
 

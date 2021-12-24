@@ -37,7 +37,7 @@ NumPy 有一个名为**直方图()**的函数，以图形方式表示特定集�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -92,7 +92,7 @@ plt.ylabel('Cumulative Frequency')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt

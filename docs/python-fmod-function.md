@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python3 program to demonstrate fmod() function
 
 import math
@@ -46,7 +46,7 @@ print(math.fmod(Lis[0], -15))
 
 **输出:**
 
-```
+```py
 4.0
 3.0
 -2.0
@@ -68,7 +68,7 @@ Modulus of list items:
 *   如果 y 参数(第二个参数)为零，fmod()函数将返回输出为**值错误**。
 *   如果 x 值或 y 值不是数字，fmod()函数将返回**类型错误**。
 
-```
+```py
 # Python3 program to demonstrate 
 # errors in fmod() function
 
@@ -84,7 +84,7 @@ print(math.fmod('2', 3))
 
 **输出:**
 
-```
+```py
 ValueError: math domain error
 ValueError: math domain error
 TypeError: a float is required

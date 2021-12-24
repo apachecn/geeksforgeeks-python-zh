@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 print(np.exp(789))
@@ -36,7 +36,7 @@ print(np.exp(789))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 x = 789
@@ -56,7 +56,7 @@ print(np.exp(x))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 cc = np.array([789, 0.34, -1234.1])
@@ -73,7 +73,7 @@ print(np.exp(cc))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 cc = np.array([789, 0.34, -1234.1], dtype=np.float128)
@@ -104,7 +104,7 @@ filterwarnings()函数可用于控制程序中警告的行为。警告过滤器�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import warnings
 

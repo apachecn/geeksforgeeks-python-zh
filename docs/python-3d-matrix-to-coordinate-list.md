@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # 3D Matrix to Coordinate List
 # Using loop + zip()
@@ -42,7 +42,7 @@ print("Constructed Pairs : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[[5, 6, 7], [2, 4, 6]], [[9, 2], [10, 3]], [[13, 6], [19, 7]]]
 Constructed Pairs : [(5, 2), (6, 4), (7, 6), (9, 10), (2, 3), (13, 19), (6, 7)]
 
@@ -54,7 +54,7 @@ Constructed Pairs : [(5, 2), (6, 4), (7, 6), (9, 10), (2, 3), (13, 19), (6, 7)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # 3D Matrix to Coordinate List
 # Using loop + zip()
@@ -74,7 +74,7 @@ print("Constructed Pairs : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[[5, 6, 7], [2, 4, 6]], [[9, 2], [10, 3]], [[13, 6], [19, 7]]]
 Constructed Pairs : [(5, 2), (6, 4), (7, 6), (9, 10), (2, 3), (13, 19), (6, 7)]
 

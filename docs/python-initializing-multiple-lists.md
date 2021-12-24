@@ -7,7 +7,7 @@
 **方法#1:使用*运算符**
 我们可以将所有需要的列表用逗号分隔，然后用一个空列表初始化它们，并使用*运算符将该空列表乘以指定的列表数。
 
-```
+```py
 # Python3 code to demonstrate 
 # to initialize multiple lists
 # using * operator
@@ -26,7 +26,7 @@ print ("List 4 : " + str(list4))
 
 **Output:**
 
-```
+```py
 The initialized lists are : 
 List 1 : []
 List 2 : []

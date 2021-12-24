@@ -26,25 +26,25 @@ n =观测总数
 
 *   **statsmodels :** 为许多不同的统计模型的估计提供类和函数。
 
-    ```
+    ```py
     pip install statsmodels
     ```
 
 *   **熊猫:**用于数据处理和分析的库。
 
-    ```
+    ```py
     pip install pandas
     ```
 
 *   **NumPy :** 阵列计算核心库。
 
-    ```
+    ```py
     pip install numpy
     ```
 
 *   **Matplotlib :** 一个用于创建静态和交互式图形和可视化的综合库。
 
-    ```
+    ```py
     pip install matplotlib
     ```
 
@@ -63,7 +63,7 @@ n =观测总数
 
 **代码:**
 
-```
+```py
 import statsmodels.api as sm
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(result.summary())
 
 **输出:**
 
-```
+```py
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                      y   R-squared:                       0.989
@@ -128,7 +128,7 @@ Warnings:
 从结果表中，我们注意到了 x 的系数和常数项。这些值在原始方程中被替换，回归线使用 *matplotlib* 绘制。
 **代码:**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

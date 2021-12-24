@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy module
 import numpy as np
 
@@ -70,7 +70,7 @@ print("The element present at 0 th  index - element",
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy module
 import numpy as np
 

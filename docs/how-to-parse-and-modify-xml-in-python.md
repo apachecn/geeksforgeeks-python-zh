@@ -14,7 +14,7 @@
 
 让我们将上面的 XML 文件保存为**“test . XML”**。在继续之前，你应该知道**在 XML 中，我们没有像在 HTML 中那样的预定义标签**。在编写 XML 时，**作者必须定义他/她自己的标签以及文档结构**。现在我们需要解析这个文件，并使用 Python 对其进行修改。我们将使用 **Python 3** 的**【minidom】**库来完成上述任务。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install minidom
 ```
 
@@ -23,7 +23,7 @@ pip install minidom
 首先我们将阅读 XML 文件的内容，然后我们将学习如何修改 XML 文件。
 **例**
 
-```
+```py
 import xml.dom.minidom as md
 
 def main():
@@ -74,7 +74,7 @@ if __name__=="__main__":
 
 **输出**:
 
-```
+```py
 #document
 note
 Name: Jack
@@ -93,7 +93,7 @@ Mbappe
 
 **蟒蛇**
 
-```
+```py
 import xml.dom.minidom as md
 
 def main():
@@ -111,7 +111,7 @@ if __name__=="__main__":
 
 **输出**
 
-```
+```py
 Jack
 John
 Harry
@@ -133,7 +133,7 @@ T3】XML 文件:
 让我们**删除****【爱好】**标签。也让我们**修改**把**年龄**改为 **29** 。
 **Python 代码:(修改 XML)**
 
-```
+```py
 import xml.dom.minidom as md
 
 def main():
@@ -189,7 +189,7 @@ if __name__=="__main__":
 
 Python 代码的最后 3 行使用 **toxml()** 方法将**“文件”**对象转换为 XML，并将其写入**“test . XML”**文件。如果您不想编辑原始文件，只想打印修改后的 XML，那么**将这 3 行替换为**:
 
-```
+```py
 print(file.toxml())
 
 ```

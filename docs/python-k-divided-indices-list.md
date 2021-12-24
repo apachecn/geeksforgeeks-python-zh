@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们检查列表中的% K 元素，并相应地附加其索引。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K Divident Indices List
 # using loop 
@@ -34,7 +34,7 @@ print("Indices list modulo K elements is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 10, 4, 7, 1, 19]
 Indices list modulo K elements is : [0, 2]
 

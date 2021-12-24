@@ -7,7 +7,7 @@
 **方法一:使用`split()` +列表理解**
 这种操作可以使用拆分功能和列表理解进行。不省略字符的主要区别在于，我们特别在每个元素之后添加了我们在过程中可能省略的字符。
 
-```
+```py
 # Python3 code to demonstrate
 # K Character Split String
 # using list comprehension + split()
@@ -31,7 +31,7 @@ print("The list without omitting Character : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG_is_Best
 The list without omitting Character : ['GfG', '_', 'is', '_', 'Best']
 

@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +生成器表达式**
 以上功能的组合可用于执行该任务。在这种情况下，我们使用生成器表达式执行 AND 任务，每个元组的映射索引由 zip()完成。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elementwise AND in tuples
 # using zip() + generator expression 
@@ -30,7 +30,7 @@ print("The AND tuple : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 6, 9)
 The original tuple 2 : (5, 2, 3, 3)
 The AND tuple : (0, 0, 2, 1)

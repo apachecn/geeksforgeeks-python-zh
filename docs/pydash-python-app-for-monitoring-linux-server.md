@@ -10,7 +10,7 @@ Python 和带有 Chart.js 的 Django 组成了 pydash，一个轻量级的基于
 
 首先，我们需要安装 pip3 和 git，如果您已经安装了，您可以跳过这一步:
 
-```
+```py
 $ sudo apt-get install python-pip
 ```
 
@@ -20,7 +20,7 @@ $ sudo apt-get install python-pip
 
 **现在使用以下命令安装 git:**
 
-```
+```py
 $ sudo apt-get install git
 ```
 
@@ -32,7 +32,7 @@ $ sudo apt-get install git
 
 Virtualenv:当涉及到处理 Python 项目中的依赖关系时，virtualenv 是可以使用的工具。
 
-```
+```py
 $ pip install virtualenv
 ```
 
@@ -42,7 +42,7 @@ $ pip install virtualenv
 
 **现在使用 git 命令克隆 pydash 目录:**
 
-```
+```py
 $ git clone https://gitlab.com/k3oni/pydash
 ```
 
@@ -58,7 +58,7 @@ $ git clone https://gitlab.com/k3oni/pydash
 
 **下一步是使用 virtualenv 命令为我们的项目创建一个虚拟环境:**
 
-```
+```py
 $ virtualenv pydashenv
 ```
 
@@ -68,7 +68,7 @@ $ virtualenv pydashenv
 
 **现在我们需要使用下面的命令激活我们的虚拟环境:**
 
-```
+```py
 $ source /home/ubuntu/paydash/pydashenv/bin/activate
 ```
 
@@ -78,7 +78,7 @@ $ source /home/ubuntu/paydash/pydashenv/bin/activate
 
 现在，使用以下命令安装项目的规范。它将在您的项目中搜索一个名为 requirements.txt 的文件。在这个文件中，创建者指定了项目运行必须安装的包。
 
-```
+```py
 $ pip install -r requirements.txt
 ```
 
@@ -88,7 +88,7 @@ $ pip install -r requirements.txt
 
 **现在我们需要将 SECRET_KEY 更改为自定义值，导航到包含 settings.py 的 pydash 目录，或者简单地运行下面的命令打开这个文件:**
 
-```
+```py
 $ nano pydash/pydash/settings.py
 ```
 
@@ -104,7 +104,7 @@ $ nano pydash/pydash/settings.py
 
 **使用以下命令运行 Django 命令:**
 
-```
+```py
 $ python manage.py syncdb
 ```
 
@@ -116,7 +116,7 @@ $ python manage.py syncdb
 
 现在一切都准备好了，运行以下命令来启动 Django 开发服务器:
 
-```
+```py
 $ python manage.py runserver
 ```
 

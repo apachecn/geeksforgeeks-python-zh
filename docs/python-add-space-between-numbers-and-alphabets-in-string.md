@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add space between Numbers and Alphabets in String
 # using regex + sub() + lambda
@@ -39,7 +39,7 @@ print("The space added string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks is1for10geeks
 The space added string :  geeks 4 geeks   is 1 for 10 geeks 
 
@@ -51,7 +51,7 @@ The space added string :  geeks 4 geeks   is 1 for 10 geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add space between Numbers and Alphabets in String
 # using regex + sub()
@@ -72,7 +72,7 @@ print("The space added string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks is1for10geeks
 The space added string : geeks 4 geeks is 1 for 10 geeks
 

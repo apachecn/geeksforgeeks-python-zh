@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`destroy_mute()`** 方法用于将静音用户作�
 **示例 1 :** 考虑以下用户:
 ![](img/23fae3af0ca2ec4fa57d43db47e117b4.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ api.destroy_mute(screen_name)
 
 **示例 2 :** 通过`destroy_mute()`方法检查用户是否已取消静音。
 
-```
+```py
 # ID of the user
 id = 4802800777
 
@@ -74,7 +74,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the destroy_mute() method : 
 The user has been muted by the authenticated user.
 

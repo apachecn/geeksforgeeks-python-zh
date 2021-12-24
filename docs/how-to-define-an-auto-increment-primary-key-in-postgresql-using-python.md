@@ -10,7 +10,7 @@ Python 有各种 PostgreSQL 的数据库驱动程序。目前使用最多的版�
 
 可以使用以下命令像下载任何其他模块一样下载 psycopg2:
 
-```
+```py
 pip install psycopg2
 ```
 
@@ -44,7 +44,7 @@ PostgreSQL 使用自动增量功能创建主键的方式:
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 def create_table():
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 try:
     connection = psycopg2.connect(user="postgres",

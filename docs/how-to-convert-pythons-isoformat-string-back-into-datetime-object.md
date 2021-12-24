@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 current_time = datetime.now()
@@ -30,7 +30,7 @@ print(current_time)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 current_time = datetime.now().isoformat()
@@ -39,7 +39,7 @@ print(current_time)
 
 **Output**
 
-```
+```py
 2021-07-26T11:36:17.090181
 
 ```
@@ -52,7 +52,7 @@ print(current_time)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 current_time = datetime.now().isoformat()
@@ -62,6 +62,6 @@ print(datetime.fromisoformat(current_time))
 
 **输出:**
 
-```
+```py
 2021-07-26 17:06:51.149731
 ```

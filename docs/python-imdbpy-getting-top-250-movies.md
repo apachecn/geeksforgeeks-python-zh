@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -31,7 +31,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 The Shawshank Redemption
 The Godfather
 The Godfather: Part II

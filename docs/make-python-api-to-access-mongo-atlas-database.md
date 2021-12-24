@@ -21,7 +21,7 @@ RESTful APIs 是管理应用程序后端的非常有用的工具。它可以用�
 *   **第三步:**现在，点击**【连接】**。它将打开一个对话框。按照所示说明进行操作。将您的 IP 地址添加到白名单中。这是可以访问数据库的 IP 地址列表。接下来，创建用于访问数据库的用户名和密码。现在，点击**【选择连接方式】**。
 *   **第四步:**现在，在出现的新对话框中点击**【连接你的应用】**。在驱动程序下拉列表中选择**“Python”**，在版本下拉列表中选择**“3.6 或更高版本”**。复制下一行的链接。它看起来像:
 
-```
+```py
 mongodb+srv://admin:<password>@cluster0-pm5vp.mongodb.net/test?retryWrites=true&w=majority
 ```
 
@@ -35,7 +35,7 @@ mongodb+srv://admin:<password>@cluster0-pm5vp.mongodb.net/test?retryWrites=true&
 
 **注意:**请安装以下库来运行 flask API : **flask、pymongo、dnspython、flask_cors**
 
-```
+```py
 from flask import Flask
 from flask_cors import CORS
 import pymongo
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 *   **update_one(对象):**用于更新数据库中某个对象的值，该对象与某些传递的键值相匹配。
 
-```
+```py
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pymongo

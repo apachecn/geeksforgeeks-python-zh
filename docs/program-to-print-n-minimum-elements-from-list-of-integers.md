@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: {23, 1, 6, 2, 90}
 Output: {1, 2}
 
@@ -25,7 +25,7 @@ Output: {-1, 21}
 
 ## C++
 
-```
+```py
 // C++ program to find N
 // minimum elements
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to find N
 // minimum elements
 import java.io.*;
@@ -120,7 +120,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find N minimum elements
 def Nminelements(list1, N):
     final_list =[];
@@ -147,7 +147,7 @@ Nminelements(list1, N)
 
 ## C#
 
-```
+```py
 // C# program to find N
 // minimum elements
 using System;
@@ -195,7 +195,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
 // Javascript program to find N
 // minimum elements
@@ -237,6 +237,6 @@ Nminelements(list1, N);
 
 **Output:** 
 
-```
+```py
 4 8
 ```

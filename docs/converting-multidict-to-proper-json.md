@@ -47,7 +47,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import multidict module
 from multidict import MultiDict
 # import json module

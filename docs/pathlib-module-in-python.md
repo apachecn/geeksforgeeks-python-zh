@@ -15,7 +15,7 @@ Python 中的 ***Pathlib 模块*** 提供了各种表示文件系统路径的类
 **类 pathlib。pure path(* path segments)–**
 这是一个代表系统路径风格的通用类。在实例化这个类时，将创建 ***路径库。purepispath***或 ***pathlib。*PureWindowSpath**
 
-```
+```py
 # Import PurePath class
 # from pathlib module
 from pathlib import PurePath
@@ -29,7 +29,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 PurePosixPath('foo/baar')
 
 ```
@@ -37,7 +37,7 @@ PurePosixPath('foo/baar')
 **类路径库。purepispath(* path segments)–**
 这是*purepispath*类的子类。它代表非 Windows 文件系统路径。
 
-```
+```py
 # Import PurePosixPath class
 # from pathlib module
 from pathlib import PurePosixPath
@@ -51,7 +51,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 PurePosixPath('foo/baar')
 
 ```
@@ -59,7 +59,7 @@ PurePosixPath('foo/baar')
 **类路径库。purewortspath(* path segments)–**
 这也是 *patlib 的一个子类。PurePath* 类。它表示 Windows 文件系统路径。
 
-```
+```py
 # Import PureWindowsPath class
 # from pathlib module
 from pathlib import PureWindowsPath
@@ -73,7 +73,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 PureWindowsPath('foo/baar')
 
 ```
@@ -83,7 +83,7 @@ PureWindowsPath('foo/baar')
 **PurePath.is_absolute()方法–**
 这个方法是用来检查路径是否是绝对的。如果路径是绝对的，此方法返回真，否则返回假。
 
-```
+```py
 # Python program to explain PurePath.is_absolute() method
 
 # Import PurePath class from pathlib module
@@ -104,7 +104,7 @@ print(isAbs)
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -113,7 +113,7 @@ True
 
 此纯路径属性返回排除驱动器和根组件(如果有)后的最终路径组件。
 
-```
+```py
 # Python program to explain PurePath.name property
 
 # Import PurePath class from pathlib module
@@ -133,7 +133,7 @@ print(comp)
 
 **Output:**
 
-```
+```py
 file.txt
 
 ```
@@ -147,7 +147,7 @@ file.txt
 **类 pathlib。路径(*路径段)–**
 这是`pathlib.PurePath`类的子类。它代表了系统路径风格的具体路径。实例化后，这个类将创建`pathlib.PosixPath`或`pathlib.WindowsPath`。
 
-```
+```py
 # Import the Path class
 from pathlib import Path
 
@@ -159,7 +159,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 PosixPath('/usr/local/bin')
 
 ```
@@ -169,7 +169,7 @@ PosixPath('/usr/local/bin')
 
 **注意:**不能实例化*路径库。Windows 操作系统上的 posxpath*类。
 
-```
+```py
 # Import PosixPath class
 # from pathlib module
 from pathlib import PosixPath
@@ -183,7 +183,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 PosixPath('/usr/local/bin')
 
 ```
@@ -192,7 +192,7 @@ PosixPath('/usr/local/bin')
 
 这个类是 *pathlib 的子类。路径*和*路径库。pureworspath*。这个类表示具体的窗口文件系统路径。
 
-```
+```py
 # Import WindowsPath class
 # from pathlib module
 from pathlib import WindowsPath
@@ -206,7 +206,7 @@ print(obj)
 
 **Output:**
 
-```
+```py
 WindowsPath('c:/Program Files/')
 
 ```
@@ -214,7 +214,7 @@ WindowsPath('c:/Program Files/')
 下面是 *Path* 类提供的几个方法:
 `***Path.cwd() method***`:这个方法返回一个新的 Path 对象，代表当前的工作目录。
 
-```
+```py
 # Import Path class
 from pathlib import Path
 
@@ -226,14 +226,14 @@ print(cur_dir)
 
 **Output:**
 
-```
+```py
 /home/ihritik
 
 ```
 
 `***Path.exists() method***`:该方法用于检查给定路径是否指向已有文件或目录。
 
-```
+```py
 # Import Path class
 from pathlib import Path
 
@@ -250,14 +250,14 @@ print(obj.exists())
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 `***Path.is_dir() method***`:该方法用于检查给定路径是否为目录。
 
-```
+```py
 # Import Path class
 from pathlib import Path
 
@@ -274,7 +274,7 @@ print(obj.is_dir())
 
 **Output:**
 
-```
+```py
 True
 
 ```

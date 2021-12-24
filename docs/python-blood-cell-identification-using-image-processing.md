@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -125,7 +125,7 @@ cv2.imwrite('edgeM.png', edgeM)
 
 ## 蟒蛇 3
 
-```
+```py
 # read enhanced image
 img = cv2.imread('cell.png', 0)
 

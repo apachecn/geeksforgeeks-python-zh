@@ -14,14 +14,14 @@ Tkinter 是 python 中的 GUI 库，易于阅读和理解。在 Tkinter 中，�
 
 **语法:**
 
-```
+```py
 list_box = Listbox(root, options, ....)
 
 ```
 
 **示例 1:** 在列表框中显示有限项目的 Python 程序。
 
-```
+```py
 # Python program demonstrating
 # Multiple selection in Listbox widget
 
@@ -63,7 +63,7 @@ window.mainloop()
 
 **示例 2:** Python 程序显示带有滚动条的列表框。
 
-```
+```py
 # Python program demonstrating Multiple selection
 # in Listbox widget with a scrollbar
 

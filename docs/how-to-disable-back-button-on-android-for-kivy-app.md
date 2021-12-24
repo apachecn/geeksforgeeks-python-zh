@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing kivy App
 from kivy.app import App
 
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
 这是可视屏幕的主要设计:
 
-```
+```py
 <MainWindow>:
     BoxLayout:
     BoxLayout:

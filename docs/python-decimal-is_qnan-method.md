@@ -12,7 +12,7 @@
 
 **代码# 1:is _ qnan()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_qnan() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with is_qnan() method : ", b.is_qnan())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  NaN
 
@@ -47,7 +47,7 @@ Decimal b with is_qnan() method :  True
 
 **代码# 2:is _ qnan()方法示例**
 
-```
+```py
 # Python Program explaining 
 # is_qnan() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with is_qnan() method : ", b.is_qnan())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

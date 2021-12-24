@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -57,7 +57,7 @@ print("SVG unit= " + str(value))
 
 **输出:**
 
-```
+```py
 SVG unit= 7
 
 ```

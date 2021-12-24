@@ -7,7 +7,7 @@
 **方法#1:使用生成器表达式+ join()**
 这是实现解决这个任务最基本的方法。在本文中，我们使用生成器表达式迭代整个嵌套列表，并使用 join()获得串联的元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate All Records
 # using join() + generator expression
@@ -28,7 +28,7 @@ print("The Concatenated elements of list is : " + res)
 
 **Output :**
 
-```
+```py
 The original list : [('geeksforgeeks ', 'is'), (' best', ' for'), (' all', ' geeks')]
 The Concatenated elements of list is : geeksforgeeks is best for all geeks
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import dependencies
 from subprocess import Popen, PIPE
 import requests

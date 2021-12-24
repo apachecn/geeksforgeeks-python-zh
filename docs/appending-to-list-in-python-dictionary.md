@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 Details = {"Destination": "China", 
            "Nstionality": "Italian", "Age": []}
 Details["Age"] += [20, "Twenty"]
@@ -19,7 +19,7 @@ print(Details)
 
 **输出:**
 
-```
+```py
 {'Destination': 'China', 'Nstionality': 'Italian', 'Age': [20, 'Twenty']}
 ```
 
@@ -31,7 +31,7 @@ print(Details)
 
 ## 蟒蛇 3
 
-```
+```py
 Details = {}
 Details["Age"] = [20]
 print(Details)
@@ -43,7 +43,7 @@ if "Age" in Details:
 
 **输出:**
 
-```
+```py
 {'Age': [20]}
 {'Age': [20, 'Twenty']}
 ```
@@ -54,7 +54,7 @@ if "Age" in Details:
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import defaultdict
 
 Details = defaultdict(list)
@@ -64,7 +64,7 @@ print(Details)
 
 **输出:**
 
-```
+```py
 defaultdict(<class 'list'>, {'Country': ['India']})
 ```
 
@@ -72,7 +72,7 @@ defaultdict(<class 'list'>, {'Country': ['India']})
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import defaultdict
 
 Details = defaultdict(list)
@@ -83,7 +83,7 @@ print(Details)
 
 **输出:**
 
-```
+```py
 defaultdict(<class 'list'>, {'Country': ['India', 'Pakistan']})
 ```
 
@@ -93,7 +93,7 @@ defaultdict(<class 'list'>, {'Country': ['India', 'Pakistan']})
 
 ## 蟒蛇 3
 
-```
+```py
 Details = {}
 Details["Age"] = []
 Details.update({"Age": [18, 20, 25, 29, 30]})
@@ -102,7 +102,7 @@ print(Details)
 
 **输出:**
 
-```
+```py
 {'Age': [18, 20, 25, 29, 30]}
 ```
 
@@ -112,7 +112,7 @@ print(Details)
 
 ## 蟒蛇 3
 
-```
+```py
 Values = [18, 20, 25, 29, 30]
 Details = dict({"Age": Values})
 print(Details)
@@ -120,6 +120,6 @@ print(Details)
 
 **输出:**
 
-```
+```py
 {'Age': [18, 20, 25, 29, 30]}
 ```

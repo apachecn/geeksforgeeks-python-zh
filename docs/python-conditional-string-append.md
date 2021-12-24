@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是用蛮力的方式来执行这个任务。在这种情况下，我们运行一个循环，检查条件，并根据条件将字符串追加到原始字符串中。
 
-```
+```py
 # Python3 code to demonstrate 
 # Conditional String Append
 # using loop
@@ -37,7 +37,7 @@ print ("The filtered strings are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Manjeet Singh', 'Harsimran Kaur', 'Sarbjeet Kaur']
 The filtered strings are : ['Manjeet Singh Boy', 'Harsimran Kaur Girl', 'Sarbjeet Kaur Girl']
 

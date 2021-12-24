@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # List elements and dictionary values intersection
 # Using list comprehension + values()
@@ -40,7 +40,7 @@ print("Intersection elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'For', 'Geeks']
 Intersection elements : ['Gfg', 'Geeks']
 ```
@@ -51,7 +51,7 @@ Intersection elements : ['Gfg', 'Geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Common list elements and dictionary values
 # Using set() and intersection()
@@ -75,7 +75,7 @@ print("Intersection elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best', 'For', 'Geeks']
 Intersection elements : ['Geeks', 'Gfg']
 ```

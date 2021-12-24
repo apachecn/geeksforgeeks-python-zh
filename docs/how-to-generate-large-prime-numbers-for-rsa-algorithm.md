@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def nBitRandom(n):
 
     # Returns a random number
@@ -41,7 +41,7 @@ def nBitRandom(n):
 
 ## 蟒蛇 3
 
-```
+```py
 def getLowLevelPrime(n):
     '''Generate a prime candidate divisible
       by first primes'''
@@ -71,7 +71,7 @@ def getLowLevelPrime(n):
 
 ## 蟒蛇 3
 
-```
+```py
 def isMillerRabinPassed(miller_rabin_candidate):
     '''Run 20 iterations of Rabin Miller Primality test'''
 
@@ -116,7 +116,7 @@ def isMillerRabinPassed(miller_rabin_candidate):
 
 ## **蟒蛇 3**
 
-```
+```py
 **# Large Prime Generation for RSA
 import random
 
@@ -193,7 +193,7 @@ if __name__ == '__main__':
 
 ## **蟒蛇 3**
 
-```
+```py
 **from Crypto.Util import number
 number.getPrime(n)**
 ```

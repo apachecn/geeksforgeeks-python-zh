@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```py
 # Write Python3 code here
 
 import json
@@ -34,7 +34,7 @@ print(json.dumps(json_object, indent = 3))
 
 **输出:**
 
-```
+```py
 [
  {
   "Employee ID": 1,
@@ -68,7 +68,7 @@ print(json.dumps(json_object, indent = 3))
 
 ![pretty-print-json](img/cbca5363b53c5a8e6279a516501c2410.png)
 
-```
+```py
 import json 
 
 # Opening JSON file 
@@ -86,7 +86,7 @@ f.close() 
 
 **输出:**
 
-```
+```py
 {
  "emp1": {
   "name": "Lisa",

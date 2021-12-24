@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -49,7 +49,7 @@ pd.concat([data1, data2], axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -78,7 +78,7 @@ pd.concat([data1, data2], axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 

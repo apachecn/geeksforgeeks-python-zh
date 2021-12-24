@@ -19,7 +19,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 dic = {"A": 1, "B": 2}
 print(dic.get("A"))
 print(dic.get("C"))
@@ -28,7 +28,7 @@ print(dic.get("C", "Not Found ! "))
 
 **输出:**
 
-```
+```py
 1
 None
 Not Found !
@@ -40,7 +40,7 @@ get()在没有值的情况下进行检查和赋值，以完成此特定任务。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Safe access nested dictionary key
 # Using nested get()
@@ -61,7 +61,7 @@ print("The nested safely accessed value is :  " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {'Gfg': {'is': 'best'}}
 The nested safely accessed value is :  best
 ```

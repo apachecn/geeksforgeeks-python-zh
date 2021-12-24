@@ -32,7 +32,7 @@ Processing 是用于电子艺术和视觉设计社区的开源软件。我们可
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to set up size of output window
 # and colour mode.
 def setup():

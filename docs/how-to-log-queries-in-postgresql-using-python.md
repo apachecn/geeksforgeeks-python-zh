@@ -8,13 +8,13 @@ Python 对 [PostgreSQL 有各种各样的数据库驱动。](https://www.geeksfo
 
 安装 psycopg2 模块:
 
-```
+```py
 pip install psycopg2
 ```
 
 为了记录关于命令的信息，我们需要安装 logtopg:
 
-```
+```py
 pip install logtopg
 ```
 
@@ -62,7 +62,7 @@ pip install logtopg
 
 ## 蟒蛇 3
 
-```
+```py
 import logging
 
 # This will be printed only in file
@@ -88,7 +88,7 @@ logging.critical('This is a critical message')
 
 ## 蟒蛇 3
 
-```
+```py
 import logging
 
 # The getLogger() returns a logger with the specified name.
@@ -119,7 +119,7 @@ getLogger 和 setLevel
 
 ## 蟒蛇 3
 
-```
+```py
 #Let this program name be mylib.py
 import logging
 
@@ -133,7 +133,7 @@ def from_mylib():
 
 ## 蟒蛇 3
 
-```
+```py
 #logging module is required to log information
 import logging
 

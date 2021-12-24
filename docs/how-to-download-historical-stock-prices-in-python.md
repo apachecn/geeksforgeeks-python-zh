@@ -29,7 +29,7 @@
 
 我们可以使用 yfinance 模块中提供的 **yfinance.download()** 函数来获取股票，该模块是雅虎财务 API 的一个模块。我们可以使用以下命令下载该模块。
 
-```
+```py
 pip install yfinance
 ```
 
@@ -43,7 +43,7 @@ pip install yfinance
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from datetime import datetime
 import yfinance as yf
@@ -73,7 +73,7 @@ plt.show()
 
 获取历史股票数据的另一种方法是使用 [pandas_datareader](https://www.geeksforgeeks.org/python-stock-data-visualisation/) 库。它还使用雅虎的财务应用编程接口加载数据。我们可以使用以下命令下载该模块。
 
-```
+```py
 pip install pandas_datareader
 ```
 
@@ -87,7 +87,7 @@ pip install pandas_datareader
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from pandas_datareader import data as pdr
 import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ plt.show()
 
 Quandl 拥有数百个免费和付费数据源，涵盖股票、固定收入、大宗商品、汇率等。为了获得访问权限，我们需要在 [Quandl](https://www.quandl.com/tools/api) 上创建一个账户，并获得一个 API Key 来免费访问数据。之后，我们需要使用以下命令下载 python 的 API 支持 quandl 库。
 
-```
+```py
 pip install quandl
 ```
 
@@ -130,7 +130,7 @@ pip install quandl
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import quandl
 from datetime import datetime

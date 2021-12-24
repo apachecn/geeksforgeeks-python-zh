@@ -13,7 +13,7 @@ copyreg 模块定义了在酸洗或复制时酸洗特定对象所使用的功能
 
 **示例:**
 
-```
+```py
 # Python 3 program to illustrate 
 # use of copyreg module 
 import copyreg, copy, pickle 
@@ -37,7 +37,7 @@ print (r) 
 
 **输出:**
 
-```
+```py
 pickling a C instance...
 
 pickling a C instance...

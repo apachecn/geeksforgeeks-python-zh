@@ -15,19 +15,19 @@ Python 是一种广泛使用的通用高级编程语言。本文将作为如何�
 
 你会发现 Python 已经安装好了。您可以从终端使用以下命令进行检查
 
-```
+```py
 $ python --version
 ```
 
 要检查 python 2.x.x 的最新版本:
 
-```
+```py
 $ python2 --version
 ```
 
 要检查最新版本的 python 3.x.x:
 
-```
+```py
 $ python3 --version
 ```
 
@@ -35,7 +35,7 @@ $ python3 --version
 明明不会是最新版本的 python。可以有多种方法在 linux 基础系统上安装 python，这完全取决于您的 linux 系统。
 对于几乎每一个 Linux 系统，下面的命令肯定会起作用。
 
-```
+```py
 $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt-get update
 $ sudo apt-get install python3.7
@@ -55,7 +55,7 @@ $ sudo apt-get install python3.7
 
     您可以在一个命令中完成上述所有步骤
 
-    ```
+    ```py
     $ wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
     ```
 
@@ -63,7 +63,7 @@ $ sudo apt-get install python3.7
 
     要在 Linux 上成功安装 Python，请输入以下命令获取先决条件和其他源文件
 
-    ```
+    ```py
     $ sudo apt-get update
     $ sudo apt-get upgrade
     $ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev  libncursesw5-dev xz-utils tk-dev
@@ -74,7 +74,7 @@ $ sudo apt-get install python3.7
     下载的文件，使用终端
     中的 cd 下载移动到下载目录，然后输入以下命令
 
-    ```
+    ```py
     $ tar xvf Python-3.6.5.tgz
     $ cd Python-3.6.5
     $ ./configure --enable-optimizations --with-ensurepip=install
@@ -84,7 +84,7 @@ $ sudo apt-get install python3.7
 
     宾果游戏..！！最新版本的 Python 语言安装在您的 Linux 系统上。您可以使用以下命令进行确认。
 
-    ```
+    ```py
     python --version
     ```
 
@@ -93,7 +93,7 @@ $ sudo apt-get install python3.7
     人们可以在他们的 Linux 系统中使用上面提到的各种技术轻松安装 python。但是怎么设置为默认呢？这样每当你在终端的任何地方输入`Python`时，它总是执行`python3`。下面是一个简单的命令，您可以通过它将 Python3 设置为默认版本。
     打开终端进入，
 
-    ```
+    ```py
     sudo alias python = python3
     ```
 

@@ -9,7 +9,7 @@
 为了绑定双击和列表框，我们使用 Python 中的[绑定函数](https://www.geeksforgeeks.org/python-binding-function-in-tkinter/)，然后根据列表框中选择的项目执行所需的操作。
 以下是执行情况:
 
-```
+```py
 from tkinter import *
 
 def go(event):

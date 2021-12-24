@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple minimum difference in pair
 # Using list comprehension + min()
@@ -30,7 +30,7 @@ print("Minimum difference among pairs : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Minimum difference among pairs : 1
 ```
@@ -40,7 +40,7 @@ Minimum difference among pairs : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple minimum difference in pair
 # Using lambda + min()
@@ -61,7 +61,7 @@ print("Minimum difference among pairs : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Minimum difference among pairs : (1, 2)
 ```

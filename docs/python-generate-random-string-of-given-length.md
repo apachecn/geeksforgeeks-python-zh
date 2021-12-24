@@ -8,7 +8,7 @@
 
 随机模块的这一功能可以帮助我们实现这一任务，并为这一特定任务可能需要的整个循环提供一个线性替代。适用于 Python > v3.6。
 
-```
+```py
 # Python3 code to demonstrate
 # generating random strings 
 # using random.choices()
@@ -29,7 +29,7 @@ print("The generated random string : " + str(res))
 
 **Output :**
 
-```
+```py
 The generated random string : 0D5YE91
 
 ```
@@ -38,7 +38,7 @@ The generated random string : 0D5YE91
 
 对于密码上更安全的随机数，可以使用秘密模块的这个功能，因为它的内部算法是以生成不太可预测的随机数的方式构建的。适用于 Python > v3.6。
 
-```
+```py
 # Python3 code to demonstrate
 # generating random strings 
 # using secrets.choice()
@@ -59,7 +59,7 @@ print("The generated random string : " + str(res))
 
 **Output :**
 
-```
+```py
 The generated random string : T7HPKVR
 
 ```

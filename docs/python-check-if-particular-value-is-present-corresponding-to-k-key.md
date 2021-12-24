@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if particular value is present corresponding to K key
 # Using list comprehension
@@ -47,7 +47,7 @@ print("Is key-val pair present?  : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': '4', 'is': 'good', 'best': '1'}, {'Gfg': 'find', 'is': 'better', 'best': '8'}, {'Gfg': '9', 'is': 'CS', 'best': '10'}]
 Is key-val pair present?  : True
 ```
@@ -58,7 +58,7 @@ Is key-val pair present?  : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if particular value is present corresponding to K key
 # Using map() + in operator
@@ -87,7 +87,7 @@ print("Is key-val pair present?  : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': '4', 'is': 'good', 'best': '1'}, {'Gfg': 'find', 'is': 'better', 'best': '8'}, {'Gfg': '9', 'is': 'CS', 'best': '10'}]
 Is key-val pair present?  : True
 ```

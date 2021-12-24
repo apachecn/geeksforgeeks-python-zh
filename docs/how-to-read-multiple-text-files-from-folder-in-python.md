@@ -46,7 +46,7 @@ Python 是一种很强的语言，即使在文件处理方面也非常强大。�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import os
 

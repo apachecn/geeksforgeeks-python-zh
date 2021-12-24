@@ -8,7 +8,7 @@
 
 **2。prcal(year，w，l，c)** :-该功能也**打印特定年份的日历**但不需要“打印”操作来执行。
 
-```
+```py
 # Python code to demonstrate the working of
 # monthrange() and prcal()
 
@@ -27,7 +27,7 @@ calendar.prcal(1997, 2,1,6)
 
 输出:
 
-```
+```py
 The start week number and no. of days of month : (4, 29)
 The calendar of 1997 is : 
                                   1997
@@ -72,7 +72,7 @@ Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
 
 **4。setfirstweekday(num)** :-该功能设置一周中的**日起始数**。
 
-```
+```py
 # Python code to demonstrate the working of
 # prmonth() and setfirstweekday()
 
@@ -95,7 +95,7 @@ print (calendar.firstweekday())
 
 输出:
 
-```
+```py
 The 4th month of 1997 is : 
      April 1997
 Mo Tu We Th Fr Sa Su
@@ -111,7 +111,7 @@ The new week day number is : 4
 
 **5。weekday(年、月、日)** :-该函数返回参数中指定日期的**星期几** (0 是星期一)。
 
-```
+```py
 # Python code to demonstrate the working of
 # weekday()
 
@@ -125,7 +125,7 @@ print (calendar.weekday(1997,4,25))
 
 输出:
 
-```
+```py
 The day number of 25 April 1997 is : 4
 
 ```

@@ -40,7 +40,7 @@ Python 是一种解释的通用编程语言。它是一种面向对象和过程�
 
 ## 蟒蛇 3
 
-```
+```py
 import hashlib
 from difflib import SequenceMatcher
 

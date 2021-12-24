@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.io import loadmat
 import numpy as np
 from Model import neural_network
@@ -121,7 +121,7 @@ np.savetxt('Theta2.txt', Theta2, delimiter=' ')
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 def initialise(a, b):
@@ -143,7 +143,7 @@ def initialise(a, b):
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 def neural_network(nn_params, input_layer_size, hidden_layer_size, num_labels, X, y, lamb):
@@ -197,7 +197,7 @@ def neural_network(nn_params, input_layer_size, hidden_layer_size, num_labels, X
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 def predict(Theta1, Theta2, X):
@@ -220,7 +220,7 @@ def predict(Theta1, Theta2, X):
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 import numpy as np
 from PIL import ImageGrab

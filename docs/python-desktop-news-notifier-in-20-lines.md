@@ -5,13 +5,13 @@
 要开始使用桌面新闻通知程序，我们需要两个库:feedparser 和 notify2。
 发出以下命令安装 feedparser:
 
-```
+```py
 sudo pip3 install feedparser
 ```
 
 要在您的终端中安装 notify2:
 
-```
+```py
 sudo pip3 install notify2
 ```
 
@@ -19,7 +19,7 @@ Feedparser 将解析我们将从 URL 获得的提要。我们将使用 notify2 �
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # desktop news notifier
 import feedparser
@@ -50,25 +50,25 @@ if __name__ == '__main__':
 
 **代码分步说明:**
 
-```
+```py
 f = feedparser.parse("http://feeds.bbci.co.uk/news/rss.xml")
 ```
 
 *   这里 feedparser 将从提要 URL 解析新闻数据。解析后的数据将采用字典的形式。
 
-```
+```py
 ICON_PATH = os.getcwd() + "/icon.ico"
 ```
 
 *   如果您想在通知中设置任何图标，那么我们在这里设置图标路径。这是可选的。
 
-```
+```py
 notify2.init('News Notify')
 ```
 
 *   这里我们使用 notify2 的 init 方法初始化 notify2。初始化数据总线连接。必须在发送任何通知或检索服务器信息或功能之前调用。
 
-```
+```py
  for newsitem in f['items']: 
         n = notify2.Notification(newsitem['title'], 
                                  newsitem['summary'], 
@@ -78,25 +78,25 @@ notify2.init('News Notify')
 
 *   使用 notify2 lib 的 notification 方法，循环解析数据以获取相关信息，如新闻标题、简短摘要和设置通知图标。
 
-```
+```py
 n.set_urgency(notify2.URGENCY_NORMAL)
 ```
 
 *   将紧急级别设置为紧急低、紧急正常或紧急严重之一
 
-```
+```py
 n.show()
 ```
 
 *   此方法将在桌面上显示通知
 
-```
+```py
 n.set_timeout(15000)
 ```
 
 *   设置通知保留在桌面上的时间(毫秒)。我把这里设定为 15 秒。
 
-```
+```py
 time.sleep(1200)
 ```
 

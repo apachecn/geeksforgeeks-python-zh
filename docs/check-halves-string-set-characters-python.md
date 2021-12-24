@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : abbaab
 Output : NO
 The two halves contain the same characters
@@ -25,7 +25,7 @@ Output : YES
 1.  将字符串分成两部分，使用[计数器(迭代器)](https://www.geeksforgeeks.org/counters-in-python-set-1/)方法将两部分转换成字典，每个字典包含其字符作为键，频率作为值。
 2.  现在比较一下这两本词典。在 python 中，我们可以使用 **==** 运算符来比较两个，它首先检查两个字典的键是否相同，然后检查每个键的值。如果一切都相等，那就意味着两本词典是一样的。
 
-```
+```py
 # Function to Check if both halves of 
 # the string have same set of characters 
 from collections import Counter 
@@ -56,7 +56,7 @@ if __name__ == "__main__": 
 
 **输出:**
 
-```
+```py
 NO
 
 ```

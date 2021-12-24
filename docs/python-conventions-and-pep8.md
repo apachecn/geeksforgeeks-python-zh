@@ -14,7 +14,7 @@ PEP-8 是 Python 增强协议 8 的首字母缩略词，该协议是为 Python �
 
 **违反 PEP-8**
 
-```
+```py
 L = [1, 2, 3, 4, 2, 4, 1, 2]
 from collections import defaultdict
 # Helper Function
@@ -29,7 +29,7 @@ print(ltd(L))
 
 **Output:**
 
-```
+```py
 defaultdict(, {1: 2, 2: 3, 3: 1, 4: 2})
 
 ```
@@ -38,7 +38,7 @@ defaultdict(, {1: 2, 2: 3, 3: 1, 4: 2})
 
 **跟随 PEP-8**
 
-```
+```py
 # Import needed package
 from collections import defaultdict
 
@@ -59,7 +59,7 @@ print(ltd(list_data))
 
 **Output:**
 
-```
+```py
 defaultdict(, {1: 2, 2: 3, 3: 1, 4: 2})
 
 ```
@@ -77,7 +77,7 @@ defaultdict(, {1: 2, 2: 3, 3: 1, 4: 2})
 *   Using ***pycodestyle*** package, it can check code in multiple files at once, and it outputs descriptions of the violations along with the information of where you need to go to fix the issue.
     **Step 1:** Install *pycodestyle* using pip install, type the below command in the terminal.
 
-    ```
+    ```py
     pip install pycodestyle
     ```
 

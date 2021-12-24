@@ -9,7 +9,7 @@
 **方法#1:使用列表理解+ startswith()**
 在这个方法中，我们使用列表理解进行遍历逻辑，使用 startswith 方法过滤掉所有以特定字母开头的字符串。剩余的字符串可用于制作不同的列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Prefix Separation
 # Using list comprehension + startswith()
@@ -35,7 +35,7 @@ print("The list with prefix s : " + str(with_s))
 
 **Output :**
 
-```
+```py
 The original list : ['sapple', 'orange', 'smango', 'grape']
 The list without prefix s : ['orange', 'grape']
 The list with prefix s : ['sapple', 'smango']

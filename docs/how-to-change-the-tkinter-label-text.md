@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing everything from tkinter
 from tkinter import *
 
@@ -85,7 +85,7 @@ Main_window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing everything from tkinter
 from tkinter import *
 

@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```py
 Input: N = 3
 Output:
 *
@@ -47,14 +47,14 @@ Output:
 
 *   **上半部分:**图案的上半部分包含星**' ***按递增顺序排列，其中 i <sup>第</sup>行包含以下数量的星:
 
-    ```
+    ```py
     Number of '*' in ith line = 
 
     ```
 
 *   **Lower Half:** The lower half of the pattern contains star **‘*’** in decreasing order where i<sup>th</sup> line contains following number of star:
 
-    ```
+    ```py
     Number of '*' in ith line = 
 
     ```
@@ -63,7 +63,7 @@ Output:
 
     ## C++
 
-    ```
+    ```py
     // C++ implementation to print the
     // half diamond star pattern
 
@@ -106,7 +106,7 @@ Output:
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```py
     // Java implementation to print the
     // half diamond star pattern
     import java.util.*;
@@ -153,7 +153,7 @@ Output:
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # Python3 implementation to print the 
     # half diamond star pattern 
 
@@ -188,7 +188,7 @@ Output:
 
     ## C#
 
-    ```
+    ```py
     // C# implementation to print the
     // half diamond star pattern
     using System;
@@ -235,7 +235,7 @@ Output:
 
     **Output:**
 
-    ```
+    ```py
     *
     **
     ***

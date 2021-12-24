@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 break
 
 ```
@@ -27,7 +27,7 @@ break
 
 下面是实现。
 
-```
+```py
 # Python program to demonstrate
 # break statement
 
@@ -64,7 +64,7 @@ print("Out of while loop")
 
 **输出:**
 
-```
+```py
 g
 e
 Out of for loop
@@ -82,7 +82,7 @@ Out of while loop
 
 **语法:**
 
-```
+```py
 continue
 
 ```
@@ -95,7 +95,7 @@ continue
 
 下面是上述想法的实现:
 
-```
+```py
 # Python program to 
 # demonstrate continue 
 # statement 
@@ -116,7 +116,7 @@ for i in range(1, 11): 
 
 **输出:**
 
-```
+```py
 1 2 3 4 5 7 8 9 10 
 
 ```
@@ -127,14 +127,14 @@ for i in range(1, 11): 
 
 **语法:**
 
-```
+```py
 pass
 
 ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # pass statement
 
@@ -162,7 +162,7 @@ for i in s:
 
 **输出:**
 
-```
+```py
 g
 e
 e

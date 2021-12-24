@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,7 +41,7 @@ print(info)
 
 **输出:**
 
-```
+```py
 3 Idiots
 ('main', 'plot')
 
@@ -49,7 +49,7 @@ print(info)
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -74,7 +74,7 @@ print(info)
 
 **输出:**
 
-```
+```py
 Udta Punjab
 ('main', 'plot')
 

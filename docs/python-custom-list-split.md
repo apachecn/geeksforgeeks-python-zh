@@ -8,7 +8,7 @@
 
 把列表理解的力量和`zip()`耦合起来，就可以完成这个任务。在这种情况下，我们压缩列表的开头和结尾，然后在列表到达时继续对其进行切片，并从中剪切出新的列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform custom list split
 # using list comprehension + zip()
@@ -36,7 +36,7 @@ print ("The splitted lists are : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 3, 5, 9, 2, 4]
 The original split index list : [2, 5, 7]
 The splitted lists are : [[1, 4], [5, 6, 7], [3, 5], [9, 2, 4]]
@@ -47,7 +47,7 @@ The splitted lists are : [[1, 4], [5, 6, 7], [3, 5], [9, 2, 4]]
 
 获得分割组块的列表理解功能所执行的任务也可以使用链功能来完成。当我们希望处理更大的列表时，这更有用，因为这种方法更有效。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform custom list split
 # using itertools.chain() + zip()
@@ -76,7 +76,7 @@ print ("The splitted lists are : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 3, 5, 9, 2, 4]
 The original split index list : [2, 5, 7]
 The splitted lists are : [[1, 4], [5, 6, 7], [3, 5], [9, 2, 4]]

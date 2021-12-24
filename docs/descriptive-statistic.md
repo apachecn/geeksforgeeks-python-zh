@@ -29,7 +29,7 @@
     其中，n =术语数量
     **Python 代码在 Python 中查找平均值**
 
-    ```
+    ```py
     import numpy as np
 
     # Sample Data
@@ -42,7 +42,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Mean =  7.333333333333333
 
     ```
@@ -52,7 +52,7 @@
 
 **python 中查找模式的代码**
 
-```
+```py
 from scipy import stats
 
 # sample Data
@@ -65,7 +65,7 @@ print("Mode = ", mode)
 
 **输出:**
 
-```
+```py
 Mode =  ModeResult(mode=array([2]), count=array([2]))
 ```
 
@@ -77,7 +77,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
     其中，n =术语数量
     **Python 代码查找中位数**
 
-    ```
+    ```py
     import numpy as np
 
     # sample Data
@@ -91,7 +91,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
 
     **输出:**
 
-    ```
+    ```py
     Median =  2.5
 
     ```
@@ -113,7 +113,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
 
             **Python 代码查找范围**
 
-            ```
+            ```py
             import numpy as np
 
             # Sample Data
@@ -132,7 +132,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
 
             **输出:**
 
-            ```
+            ```py
             Maximum = 5, Minimum = 1 and Range = 4
             ```
 
@@ -145,7 +145,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
             u =平均值
             **Python 代码求方差**
 
-            ```
+            ```py
             import statistics 
 
             # sample data 
@@ -156,7 +156,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
 
             **输出:**
 
-            ```
+            ```py
             Var =  2.5
             ```
 
@@ -169,7 +169,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
             u =平均值
             **执行标准差的 Python 代码:**
 
-            ```
+            ```py
             import statistics 
 
             # sample data 
@@ -180,7 +180,7 @@ Mode =  ModeResult(mode=array([2]), count=array([2]))
 
             **输出:**
 
-            ```
+            ```py
             Std = 1.5811388300841898
             ```
 

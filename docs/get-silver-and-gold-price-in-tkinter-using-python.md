@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required library
 from bs4 import BeautifulSoup
 import requests
@@ -36,7 +36,7 @@ from tkinter import ttk
 
 ## 蟒蛇 3
 
-```
+```py
 # method to get the price of silver
 def silver_price():
 
@@ -78,7 +78,7 @@ def gold_price():
 
 ## 蟒蛇 3
 
-```
+```py
 # Extract Integer or Float from String
 def get_number_from_string(string):
     return float(''.join([x for x in string if x.isdigit() or x == '.']))
@@ -90,7 +90,7 @@ def get_number_from_string(string):
 
 ## 蟒蛇 3
 
-```
+```py
 # Get price for a particular weight
 def change_price(weight_value):
 
@@ -105,7 +105,7 @@ def change_price(weight_value):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required library
 from bs4 import BeautifulSoup
 import requests

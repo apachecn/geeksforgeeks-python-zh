@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们对每一行进行迭代，计算最大值，并在每次迭代时存储差异较大的行。
 
-```
+```py
 # Python3 code to demonstrate 
 # Dual Element row with Maximum difference
 # using loop
@@ -33,7 +33,7 @@ print ("The maximum difference row is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 10], [1, 3], [4, 11], [1, 2]]
 The maximum difference row is : [4, 11]
 

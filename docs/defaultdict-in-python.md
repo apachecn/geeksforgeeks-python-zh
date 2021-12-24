@@ -7,7 +7,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # dictionary
 
@@ -23,13 +23,13 @@ print(Dict[1])
 
 **输出:**
 
-```
+```py
 Dictionary:
 {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 Geeks
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1ca83108cc81344dc7137900693ced08.py", line 11, in 
     print(Dict[4])
@@ -52,7 +52,7 @@ KeyError: 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -76,7 +76,7 @@ print(d["c"])
 
 **输出:**
 
-```
+```py
 1
 2
 Not Present 
@@ -91,7 +91,7 @@ Defaultdict 除了标准的字典操作之外，还添加了一个可写的实�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # default_factory argument of
 # defaultdict
@@ -111,7 +111,7 @@ print(d["c"])
 
 **输出:**
 
-```
+```py
 1
 2
 Not Present
@@ -122,7 +122,7 @@ Not Present
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -141,7 +141,7 @@ print(d.__missing__('d'))
 
 **输出:**
 
-```
+```py
 Not Present
 Not Present 
 ```
@@ -153,7 +153,7 @@ Not Present
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -171,7 +171,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 Dictionary with values as list:
 defaultdict(<class 'list'>, {0: [0], 1: [1], 2: [2], 3: [3], 4: [4]})
 ```
@@ -183,7 +183,7 @@ defaultdict(<class 'list'>, {0: [0], 1: [1], 2: [2], 3: [3], 4: [4]})
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -208,6 +208,6 @@ print(d)
 
 **输出:**
 
-```
+```py
 defaultdict(<class 'int'>, {1: 2, 2: 3, 3: 1, 4: 2})
 ```

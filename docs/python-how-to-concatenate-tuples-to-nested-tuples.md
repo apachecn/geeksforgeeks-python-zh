@@ -7,7 +7,7 @@
 **方法#1:在初始化**
 时使用`+ operator` + `", " operator` 在这个方法中，我们执行元组元素的通常添加，但是在初始化元组时，我们在元组后添加逗号，这样它们在添加时不会变平。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenating tuples to nested tuples
 # using + operator + ", " operator during initialization
@@ -30,7 +30,7 @@ print("Tuples after Concatenating : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : ((3, 4), )
 The original tuple 2 : ((5, 6), )
 Tuples after Concatenating : ((3, 4), (5, 6))

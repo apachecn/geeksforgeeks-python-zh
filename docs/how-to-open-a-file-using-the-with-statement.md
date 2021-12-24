@@ -22,7 +22,7 @@ Python 中带有 关键字的 ***被用作[上下文管理器](https://www.geeks
 
 ## 蟒蛇 3
 
-```
+```py
 with open("geeksforgeeks.txt","r") as gfg_file:
    lines = gfg_file.readlines()
    print(lines)
@@ -30,7 +30,7 @@ with open("geeksforgeeks.txt","r") as gfg_file:
 
 **输出:**
 
-```
+```py
 ['Geeksforgeeks is best for DSA']
 ```
 
@@ -38,7 +38,7 @@ with open("geeksforgeeks.txt","r") as gfg_file:
 
 ## 蟒蛇 3
 
-```
+```py
 # appending string to file
 with open("geeksforgeeks.txt","a") as gfg_file:
    gfg_file.write("Hello Geeks!")
@@ -52,6 +52,6 @@ with open("geeksforgeeks.txt","r") as gfg_file:
 
 **输出:**
 
-```
+```py
 ['Geeksforgeeks is best for DSAHello Geeks!']
 ```

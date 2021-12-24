@@ -12,7 +12,7 @@
 
 使用 cmd 上的 **pip** 运行以下命令，在 Windows 上安装 **Paramiko** 。
 
-```
+```py
 pip install paramiko
 
 ```
@@ -23,7 +23,7 @@ pip install paramiko
 
 要检查已安装的**参数**，运行以下程序:
 
-```
+```py
 pip list
 
 ```
@@ -34,7 +34,7 @@ pip list
 
 使用**安装**帕拉米科**。线文件。下载。https://pypi.org/project/paramiko/#files 档案**
 
-```
+```py
 pip install paramiko-2.7.2-py2.py3-none-any.whl
 
 ```
@@ -47,7 +47,7 @@ pip install paramiko-2.7.2-py2.py3-none-any.whl
 
 Python **paramiko** 可以多种方式安装在 Linux 上，**使用 pip** 就是其中之一。
 
-```
+```py
 pip install paramiko
 
 ```
@@ -58,7 +58,7 @@ pip install paramiko
 
 检查已安装的**参数**:
 
-```
+```py
 pip list --format=json
 
 ```

@@ -11,7 +11,7 @@ Python 有一种不同的方式来表示函数参数的语法和默认值。默�
 
 ## 蟒蛇 3
 
-```
+```py
 def student(firstname, lastname ='Mark', standard ='Fifth'):
 
      print(firstname, lastname, 'studies in', standard, 'Standard')

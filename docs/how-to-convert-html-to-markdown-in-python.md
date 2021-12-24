@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install markdownify
 ```
 
@@ -23,7 +23,7 @@ pip install markdownify
 
 ## 蟒蛇 3
 
-```
+```py
 # import markdownify
 import markdownify
 
@@ -46,7 +46,7 @@ print(h)
 
 **输出:**
 
-```
+```py
          <h1> <strong>Geeks</strong>
         for<br>
         Geeks
@@ -61,7 +61,7 @@ Geeks
 
 ## 计算机编程语言
 
-```
+```py
 # import markdownify
 import markdownify
 
@@ -87,7 +87,7 @@ print(h)
 
 **输出:**
 
-```
+```py
 <h1>Fruits</h1>
          <ul>
              <li>  apple  </li>

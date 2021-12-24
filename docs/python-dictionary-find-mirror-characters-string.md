@@ -5,7 +5,7 @@
 给定一个字符串和一个数字 N，我们需要按照字母顺序将字符从第 N 个位置镜像到字符串的长度。在镜像操作中，我们将“a”改为“z”，“b”改为“y”等等。
 示例:
 
-```
+```py
 Input : N = 3
         paradox
 Output : paizwlc
@@ -20,7 +20,7 @@ Output : pneumlmrz
 
 ## 蟒蛇 3
 
-```
+```py
 # function to mirror characters of a string
 
 def mirrorChars(input,k):
@@ -52,6 +52,6 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 paizwlc
 ```

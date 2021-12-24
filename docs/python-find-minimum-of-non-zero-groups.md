@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以使用循环使用蛮力的方式来执行。我们只是遍历列表中的每个元素，测试它的后续元素是否为非零值，并在找到下一个零值后执行最小值，然后将其附加到结果列表中。
 
-```
+```py
 # Python3 code to demonstrate
 # Natural Numbers Minimum
 # Using loops
@@ -36,7 +36,7 @@ print("The non-zero group Minimum of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 9, 0, 0, 3, 4, 5, 0, 0, 4, 0]
 The non-zero group Minimum of list is : [4, 3, 4]
 

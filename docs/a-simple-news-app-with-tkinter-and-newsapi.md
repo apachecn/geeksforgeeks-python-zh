@@ -19,7 +19,7 @@ Tkinter 是一个非常著名的 python 库，用于为基于 windows 和 UNIX �
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from tkinter import messagebox
 import requests
@@ -109,7 +109,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from tkinter import messagebox
 import requests

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate elements Similarity
 # Using loop
@@ -46,7 +46,7 @@ print("Are all alternate elements equal to K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 3, 5, 2, 5, 8, 5]
 Are all alternate elements equal to K : True
 
@@ -58,7 +58,7 @@ Are all alternate elements equal to K : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate elements Similarity
 # Using all() + generator expression
@@ -81,7 +81,7 @@ print("Are all alternate elements equal to K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 3, 5, 2, 5, 8, 5]
 Are all alternate elements equal to K : True
 

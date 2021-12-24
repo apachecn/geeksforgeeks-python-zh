@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # python3 code to
 # illustrate the
 # difference between
@@ -41,7 +41,7 @@ else:   
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -55,7 +55,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = []
 list2 = []
 
@@ -65,7 +65,7 @@ print(id(list2))
 
 **输出:**
 
-```
+```py
 139877155242696
 139877155253640
 ```

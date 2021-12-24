@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -119,7 +119,7 @@ ax.voxels(data, facecolors=colors, edgecolors='grey')
 
 ## 蟒蛇 3
 
-```
+```py
 #Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -154,7 +154,7 @@ plt.axis('off')
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import numpy as np
 import matplotlib.pyplot as plt

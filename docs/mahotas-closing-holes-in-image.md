@@ -6,7 +6,7 @@
 
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -26,7 +26,7 @@ mahotas.demos.load('lena')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
@@ -34,7 +34,7 @@ image = image[:, :, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -71,7 +71,7 @@ show()
 
 **输出:**
 
-```
+```py
 Image threshold using Otsu Method
 ```
 
@@ -79,7 +79,7 @@ Image threshold using Otsu Method
 
 莉娜·大津
 
-```
+```py
 Closed Hole Image
 ```
 
@@ -91,7 +91,7 @@ Closed Hole Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -128,13 +128,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image threshold using Otsu Method
 ```
 
 ![](img/dd185d10a0b4d43f222c707ecfc5174f.png)
 
-```
+```py
 Closed Hole Image
 ```
 

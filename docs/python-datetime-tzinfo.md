@@ -33,7 +33,7 @@ tzinfo 基类中可实现的方法有:
 
 它占用 datetime 对象的时间，并返回 datetime 对象中的时间与 UTC 中同一时间点的时间之差。它返回世界协调时以东**分钟的偏移量。如果当地时间在世界协调时以西，则为负值。一般实施形式如下:**
 
-```
+```py
 *For fixed offset :*
 
  def utcoff(self, dt):
@@ -53,7 +53,7 @@ def utcoffset(self, dt):
 
 编写私有函数是为了根据这 9 个元素返回 0、1 或-1。在此基础上确定`dst(self, dt)`的值。函数写在定义`dst()`的类中。其内容如下:
 
-```
+```py
 def _isdst(self, dt):
 
         tt = (dt.year, dt.month, dt.day,
@@ -74,7 +74,7 @@ def _isdst(self, dt):
 
 将该代码添加到类中后，`dst()`可以根据条件定义如下。
 
-```
+```py
 *For fixed offset class :*
 
  def dst(self, dt):
@@ -96,7 +96,7 @@ def _isdst(self, dt):
 
 **示例:**
 
-```
+```py
 import datetime as dt
 from dateutil import tz
 
@@ -114,7 +114,7 @@ print("Aware Object :", dt2.tzname())
 
 **Output:**
 
-```
+```py
 datetime.now() : UTC
 Naive Object : None
 Aware Object : CET
@@ -129,7 +129,7 @@ Aware Object : CET
 
 下面给出了一般实现:
 
-```
+```py
 def fromutc(self, dt):
     dt_offset = dt.utcoffset()
     dt_dst = dt.dst()

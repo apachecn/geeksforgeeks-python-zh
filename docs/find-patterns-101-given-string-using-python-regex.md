@@ -10,7 +10,7 @@
 
 示例:
 
-```
+```py
 Input : 1101001
 Output : 2
 
@@ -27,7 +27,7 @@ Output : 2
 2.  **substr = re.search(regex，string)** 如果在原始字符串中没有找到给定的 regex 作为子字符串，则返回 **None** ，否则返回遵循“10+1”模式的第一个匹配的子字符串。 **substr.start()** 给出匹配正则表达式的起始索引， **substr.end()** 给出匹配正则表达式的结束索引。
 3.  每当我们发现正则表达式是子串时，就将计数增加 1，并从前一个子串的结束索引开始再次搜索给定的正则表达式。
 
-```
+```py
 # Python program to Find all the patterns 
 # of “1(0+)1” in a given string using Python Regex
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 2
 
 ```

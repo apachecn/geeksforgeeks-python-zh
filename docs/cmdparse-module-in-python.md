@@ -20,7 +20,7 @@
 *   **参数:**只需`do_xxx`方法多取一个参数，对应用户在命令名称后输入的字符串部分。
 *   **错误:**解释器使用以下格式发出错误信号:
 
-    ```
+    ```py
     *** : 
     ```
 
@@ -28,7 +28,7 @@
 
     **示例:**
 
-    ```
+    ```py
     def add(self, d):
         k = d.split()
         if len(k)!= 2:
@@ -54,7 +54,7 @@ cmdparser 包包含两个用于编写文本命令解析器的模块。
 
 我们可以从 PyPI 安装 cmdparse 包。例如
 
-```
+```py
 pip install cmdparse
 
 ```
@@ -63,7 +63,7 @@ pip install cmdparse
 
 Cmd 模块允许从文本命令规范创建解析树，如下所示
 
-```
+```py
 chips( spam | ham [eggs] | beans [eggs [...]] )
 
 ```
@@ -72,7 +72,7 @@ chips( spam | ham [eggs] | beans [eggs [...]] )
 
 **示例:**
 
-```
+```py
 from cmdparser import cmdparser
 
 parse_tree = cmdparser.parse_spec("abc (def|ghi) <jkl> [mno]")
@@ -95,7 +95,7 @@ parse_tree.get_completions(("abc", ))
 
 可以设置动态令牌，其中接受的字符串列表可以随时间变化，或者在处理固定令牌字符串时可以接受任意字符串或字符串列表。查看模块的文档字符串，了解可用类的细节，例如:
 
-```
+```py
 from cmdparser import cmdparser
 
 class fruitToken(cmdparser.Token):
@@ -154,7 +154,7 @@ parse_tree.get_completions(("take", "5"))
     装饰器用于从`cmd.Cmd`派生的命令处理程序，它允许从文档字符串帮助文本中自动提取命令字符串，并允许将命令解析和完成添加到类的命令处理方法中。
     实现了 do_XXX()形式的各种方法来实现 cmd。Cmd 类。
 
-    ```
+    ```py
     from cmdparser import cmdparser
 
     @cmdparser.CmdClassDecorator()
@@ -179,7 +179,7 @@ parse_tree.get_completions(("take", "5"))
     Datetimeparse 模块添加了特定的令牌类型来解析人类可读的日期和时间规范。指定了绝对和相对两种类型的日期，并根据需要将其转换为其他实例。
     一些例子是
 
-    ```
+    ```py
     1:35 on friday last week
     11 feb 2019
 

@@ -6,14 +6,14 @@ GeoPy 是一个 Python 库，让用户更容易进行地理计算。在本文中
 
 **如何安装 GeoPy？**
 
-```
+```py
 pip install geopy
 ```
 
 **测地线距离:**
 是**任意曲面**上两点间最短路径的长度。在我们的例子中，表面是地球。下面的程序说明了如何根据经纬度数据计算测地线距离。
 
-```
+```py
 # Importing the geodesic module from the library
 from geopy.distance import geodesic
 
@@ -27,14 +27,14 @@ print(geodesic(kolkata, delhi).km)
 
 **输出:**
 
-```
+```py
 1318.13891581683
 ```
 
 **大圆距离:**
 是**球体**上两点间最短路径的长度。在这种情况下，地球被认为是一个完美的球体。下面的程序说明了如何从经纬度数据计算大圆距离。
 
-```
+```py
 # Importing the great_circle module from the library
 from geopy.distance import great_circle
 
@@ -48,7 +48,7 @@ print(great_circle(kolkata, delhi).km)
 
 **输出:**
 
-```
+```py
 1317.7554645657162
 ```
 

@@ -12,7 +12,7 @@ EAFP 是 Python 社区中的一条宝贵建议，其他社区的程序员可能�
 
 **“许可”代码:**
 
-```
+```py
 import os
 
 # Race condition
@@ -29,7 +29,7 @@ else:
 
 **“原谅”代码:**你应该做的是继续流程并请求原谅，即使用异常处理捕捉错误。
 
-```
+```py
 # No Race condition
 File_name ="test.txt"
 

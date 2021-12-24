@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter rows with required elements
 # Using list comprehension + all()
@@ -50,7 +50,7 @@ print("Filtered rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter rows with required elements
 # Using filter() + lambda + all()

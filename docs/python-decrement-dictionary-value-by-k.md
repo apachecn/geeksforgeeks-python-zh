@@ -7,7 +7,7 @@
 **方法#1:使用 `get()`**
 get 函数可以用 0 初始化一个不存在的键，然后减量是可能的。这样可以避免密钥不存在的问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Decrement Dictionary value by K
 # Using get()

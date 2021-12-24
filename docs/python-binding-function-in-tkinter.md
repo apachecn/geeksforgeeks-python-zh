@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import all files from
 # tkinter and overwrite
 # all the tkinter files
@@ -52,7 +52,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import all files from
 # tkinter and overwrite
 # all the tkinter files
@@ -97,7 +97,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import all files from
 # tkinter and overwrite
 # all the tkinter files

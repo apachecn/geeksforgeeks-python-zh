@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `set() + count()`**
 可以应用的初始方法是我们可以迭代每个元组，并使用`count()`检查它在列表中的计数，如果大于 1，我们可以添加到列表中。要删除多个添加，我们可以使用`set()`将结果转换为集合。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get duplicate tuples from list
 # Using list comprehension + set() + count()
@@ -30,7 +30,7 @@ print("All the duplicates from list are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 4), (4, 5), (3, 4), (3, 4), (4, 5), (6, 7)]
 All the duplicates from list are : [(4, 5), (3, 4)]
 

@@ -32,7 +32,7 @@ RSA 签名方案中的**全域散列** (FDH)方案通过将消息散列到 RSA �
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # repeated hashing with
 # concatenation
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # the SHA-3 algorithm
 

@@ -8,14 +8,14 @@
 
 *   [**bs4:**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/) 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 
 ```
 
 *   [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 请求让你发送 HTTP/1.1 请求极其轻松。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 
 ```
@@ -26,7 +26,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 import requests
@@ -37,7 +37,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒蛇 3
 
-```
+```py
 # user define function
 # Scrape the data
 def getdata(url):
@@ -49,7 +49,7 @@ def getdata(url):
 
 ## 蟒蛇 3
 
-```
+```py
 # link for extract html data
 htmldata = getdata("https://www.goodreturns.in/petrol-price.html")
 soup = BeautifulSoup(htmldata, 'html.parser')
@@ -88,7 +88,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # Declare string var
 # Declare list
 mydatastr = ''
@@ -117,7 +117,7 @@ result
 
 ## 蟒蛇 3
 
-```
+```py
 # Calling DataFrame constructor on list
 df = pd.DataFrame(result[:-8])
 df
@@ -127,7 +127,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 import pandas as pd

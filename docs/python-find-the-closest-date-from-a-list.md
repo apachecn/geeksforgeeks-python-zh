@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nearest date in List
 # Using min() + dictionary comprehension + abs()
@@ -65,7 +65,7 @@ print("Nearest date from list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nearest date in List
 # Using min() + abs() + lambda

@@ -12,13 +12,13 @@
 
 要安装 matplotlib 库，请在命令提示符下编写以下命令。
 
-```
+```py
 pip install matplotlib
 ```
 
 借助于一些函数，我们可以绘制如下带有负轴和正轴的散点图:
 
-```
+```py
  plt.scatter(x, y, c, cmap)
  plt.axvline(x, ymin, ymax, c, ls)
  plt.axhline(y, xmin, xmax, c, ls)
@@ -49,7 +49,7 @@ pip install matplotlib
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -81,7 +81,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -116,7 +116,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -164,7 +164,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np

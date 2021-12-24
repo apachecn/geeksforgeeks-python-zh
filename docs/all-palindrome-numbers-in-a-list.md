@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 10 121 133 155 141 252
 Output: 121 141 252
 Total palindrome nos. are 3
@@ -23,7 +23,7 @@ T3】2。现在，在一个临时变量中得到它的反向值。
 **4。**继续此程序，直到列表变空。
 **5。**现在，打印计数器值，即给定列表中回文数字的总数。
 
-```
+```py
 # Python program to count and 
 # print all palindrome numbers in a list. 
 
@@ -65,7 +65,7 @@ if __name__=="__main__": 
 
 **Output:**
 
-```
+```py
 121
 141
 252

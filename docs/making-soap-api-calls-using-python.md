@@ -22,7 +22,7 @@ SOAP 代表[简单对象访问协议](https://www.geeksforgeeks.org/basics-of-so
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 # SOAP request URL
 url = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"
@@ -50,7 +50,7 @@ print(response)
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
@@ -66,7 +66,7 @@ print(response)
 
 现在我们已经看到了如何用请求进行 SOAP 调用，我们将看到通过 Zeep 进行调用是多么容易。首先需要安装 *zeep* 。
 
-```
+```py
 pip3 install zeep
 ```
 
@@ -82,7 +82,7 @@ pip3 install zeep
 
 ## 蟒蛇 3
 
-```
+```py
 import zeep
 
 # set the WSDL URL
@@ -141,7 +141,7 @@ print(response)
 
 **输出:**
 
-```
+```py
 Phone Code for IN is 91
 Phone Code for US is 1
 <Response [200]>

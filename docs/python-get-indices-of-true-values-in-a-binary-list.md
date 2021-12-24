@@ -8,7 +8,7 @@
 
 `enumerate()`可以用它的值做散列索引的任务，加上列表理解可以让我们检查真实值。
 
-```
+```py
 # Python3 code to demonstrate 
 # to return true value indices.
 # using enumerate() + list comprehension
@@ -29,7 +29,7 @@ print ("The list indices having True values are : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [True, False, True, False, True, True, False]
 The list indices having True values are : [0, 2, 4, 5]
 
@@ -39,7 +39,7 @@ The list indices having True values are : [0, 2, 4, 5]
 
 `filter()`与 lambda 耦合的函数可以借助 range 函数执行该任务。`range()`功能用于遍历整个列表并过滤检查真实值。
 
-```
+```py
 # Python3 code to demonstrate 
 # to return true value indices.
 # using lambda + filter() + range()
@@ -60,7 +60,7 @@ print ("The list indices having True values are : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [True, False, True, False, True, True, False]
 The list indices having True values are :  [0, 2, 4, 5]
 
@@ -70,7 +70,7 @@ The list indices having True values are :  [0, 2, 4, 5]
 
 `compress` 函数检查列表中的所有元素，并返回具有真值的索引列表。这是完成这一特殊任务的最简洁、最优雅的方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # to return true value indices.
 # using itertools.compress()
@@ -92,7 +92,7 @@ print ("The list indices having True values are : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [True, False, True, False, True, True, False]
 The list indices having True values are : [0, 2, 4, 5]
 

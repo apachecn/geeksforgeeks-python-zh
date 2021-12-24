@@ -16,7 +16,7 @@
 
 **例 1:** 假设 JSON 字符串是这样的。
 
-```
+```py
 x = """{
     "Name": "Jennifer Smith",
     "Contact Number": 7867567898,
@@ -28,7 +28,7 @@ x = """{
 
 为了读取该字符串的内容，需要执行以下实现:
 
-```
+```py
 import json
 
 # JSON string:
@@ -55,7 +55,7 @@ print(y)
 
 **例 2:**
 
-```
+```py
 import json 
 
 # JSON string 
@@ -70,7 +70,7 @@ print(employee_dict['name']) 
 
 **输出:**
 
-```
+```py
 {'id': '09', 'department': 'Finance', 'name': 'Nitin'}
 Nitin
 ```

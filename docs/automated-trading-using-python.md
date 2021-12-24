@@ -16,7 +16,7 @@
 
 Quandl 将帮助我们检索股票的历史数据。要安装 quandl，请在终端中键入以下命令–
 
-```
+```py
 pip install quandl
 ```
 
@@ -26,7 +26,7 @@ pip install quandl
 
 一旦安装了 Quandl，下一步就是导入包。我们将在本教程中严格使用熊猫，因为回溯测试需要大量的数据操作。
 
-```
+```py
 import pandas as pd
 import quandl as qd
 
@@ -34,7 +34,7 @@ import quandl as qd
 
 导入包后，我们将使用 API 键从 Quandl 中提取数据。
 
-```
+```py
 qd.ApiConfig.api_key = "<API key>”
 
 ```
@@ -43,7 +43,7 @@ qd.ApiConfig.api_key = "<API key>”
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import quandl as qd
 
@@ -73,7 +73,7 @@ msft_data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy package
 import numpy as np
 
@@ -91,7 +91,7 @@ print(daily_return)
 
 **输出:**
 
-```
+```py
             Adj_Close
 Date                 
 2013-09-03   0.000000
@@ -117,7 +117,7 @@ Date
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning adjusted closing prices 
 # to adj_prices
 adj_price = msft_data['Adj_Close']
@@ -129,7 +129,7 @@ mav = adj_price.rolling(window=50).mean()
 print(mav[-10:])
 ```
 
-```
+```py
 Date
 2017-12-14    78.769754
 2017-12-15    78.987478
@@ -151,7 +151,7 @@ Name: Adj_Close, dtype: float64
 
 ## 蟒蛇 3
 
-```
+```py
 # import the matplotlib package 
 # to see the plot
 import matplotlib.pyplot as plt
@@ -167,7 +167,7 @@ adj_price.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 mav.plot()
 ```
 
@@ -179,7 +179,7 @@ mav.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 # import the matplotlib package 
 # to see the plot
 import matplotlib.pyplot as plt

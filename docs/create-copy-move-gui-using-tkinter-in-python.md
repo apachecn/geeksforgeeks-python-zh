@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary packages
 import shutil
 import tkinter as tk

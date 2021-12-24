@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # for get the pdf files or url
 import requests
 
@@ -30,7 +30,7 @@ from PyPDF2 import PdfFileReader
 
 ## 蟒蛇 3
 
-```
+```py
 # website to scrap
 url = "https://www.geeksforgeeks.org/how-to-extract-pdf-tables-in-python/"
 
@@ -55,7 +55,7 @@ soup = BeautifulSoup(html_content, "html.parser")
 
 ## 蟒蛇 3
 
-```
+```py
 # created an empty list for putting the pdfs
 list_of_pdf = set()
 
@@ -97,7 +97,7 @@ for link in p:
 
 ## 蟒蛇 3
 
-```
+```py
 def info(pdf_path):
 
     # used get method to get the pdf file
@@ -139,7 +139,7 @@ def info(pdf_path):
 
 ## 蟒蛇 3
 
-```
+```py
 # print all the content of pdf in the console
 for i in list_of_pdf:
     info(i)
@@ -149,7 +149,7 @@ for i in list_of_pdf:
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 import io

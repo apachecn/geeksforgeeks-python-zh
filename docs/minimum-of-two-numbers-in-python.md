@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: a = 2, b = 4
 Output: 2
 
@@ -19,7 +19,7 @@ Output: -4
 
 **示例:**
 
-```
+```py
 # Python program to find the
 # minimum of two numbers
 
@@ -38,7 +38,7 @@ print(minimum(a, b))
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -48,7 +48,7 @@ print(minimum(a, b))
 
 **示例:**
 
-```
+```py
 # Python program to find the
 # minimum of two numbers
 
@@ -61,6 +61,6 @@ print(minimum)
 
 **输出:**
 
-```
+```py
 2
 ```

@@ -14,7 +14,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()
@@ -31,13 +31,13 @@ root.mainloop()
 
 **语法:**
 
-```
+```py
 Listbox(root, bg, fg, bd, height, width, font, ..) 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 
@@ -77,7 +77,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from tkinter import *
 

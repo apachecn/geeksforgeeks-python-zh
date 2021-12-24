@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 pafy 中生成给定 youtube 视频流的文件名。Pafy 是一个 python 库，用于下载 YouTube 内容和检索元数据。Pafy 对象是包含给定视频所有信息的对象。流基本上是可用的分辨率的视频是可以在 youtube 上获得的。文件名是流文件的标题。
 我们可以借助新方法获得 pafy 对象，借助 allstreams 属性我们可以获得视频可用的所有流，下面是获取给定视频的 pafy 对象的命令
 
-```
+```py
 video = pafy.new(url)
 streams = video.allstreams
 ```
@@ -21,7 +21,7 @@ streams = video.allstreams
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -46,7 +46,7 @@ print("Generated File Name : " + str(value))
 
 **输出:**
 
-```
+```py
 Generated File Name : DSA Self Paced Course _ GeeksforGeeks.webm
 ```
 
@@ -54,7 +54,7 @@ Generated File Name : DSA Self Paced Course _ GeeksforGeeks.webm
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pafy
 import pafy
 
@@ -78,6 +78,6 @@ print("Generated File Name : " + str(value))
 
 **输出:**
 
-```
+```py
 Generated File Name : COVID CASE IN OUR BUILDING - VLOG 32.webm
 ```

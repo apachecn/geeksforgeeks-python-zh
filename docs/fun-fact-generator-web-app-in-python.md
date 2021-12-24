@@ -8,7 +8,7 @@ PyWebIO 包含在浏览器上获取用户输入输出，将浏览器变成“富
 
 可以使用以下命令安装:
 
-```
+```py
 pip install pywebio
 ```
 
@@ -26,7 +26,7 @@ pip install pywebio
 
 ## 蟒蛇 3
 
-```
+```py
 # import the following modules
 import json
 import requests

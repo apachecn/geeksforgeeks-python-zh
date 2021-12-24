@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing modules
 import requests
 from lxml import etree

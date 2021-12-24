@@ -4,7 +4,7 @@
 
 我们如何用 Python 执行任何脚本？
 
-```
+```py
 $ python do_something.py
 $ python do_something_with_args.py gfg vibhu
 
@@ -15,7 +15,7 @@ $ python do_something_with_args.py gfg vibhu
 
 让我们让你更容易。
 
-```
+```py
 $ do_something
 $ do_something_with_args gfg vibhu
 
@@ -37,7 +37,7 @@ $ do_something_with_args gfg vibhu
 **第一步:制作你的命令行脚本**
 - > *gfg.py*
 
-```
+```py
 import argparse
 
 def main():
@@ -76,7 +76,7 @@ Setuptools 允许模块注册入口点(`entry_points`)，其他包可以挂接�
 这允许 Python *函数*(不是脚本！)直接注册为命令行可访问工具！
 - > *setup.py*
 
-```
+```py
 from setuptools import setup, find_packages
 
 with open('requirements.txt') as f:
@@ -116,7 +116,7 @@ setup(
 测试:将目录更改为你的包的顶层，与`setup.py`文件相同。
 通过键入以下命令安装您想要的软件包。
 
-```
+```py
 $ python3 setup.py install
 ```
 
@@ -125,7 +125,7 @@ $ python3 setup.py install
 
 **构建:**确保您已经升级了 pip 版本以及最新的`setuptools`和`wheel`。现在使用这个命令来构建包的发行版。
 
-```
+```py
 $ python3 setup.py sdist bdist_wheel
 
 ```
@@ -133,7 +133,7 @@ $ python3 setup.py sdist bdist_wheel
 **第五步:发布包**
 `twine`是一个帮助你上传包分发到 pypi 的库。执行以下命令前，确保您在 [PyPI](https://pypi.org/) 上有账户
 
-```
+```py
 $ twine upload dist/*
 
 ```
@@ -143,14 +143,14 @@ $ twine upload dist/*
 **第六步:安装软件包**
 现在使用`pip`安装你新发布的软件包。
 
-```
+```py
 $ pip install vibhu4gfg
 
 ```
 
 玩吧。
 
-```
+```py
 $ gfg
 usage: gfg [-h] [-greet] [--sum] N [N ...]
 gfg: error: the following arguments are required: N

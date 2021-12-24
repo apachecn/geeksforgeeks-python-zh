@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [['Paras', 90], ['Jain', 32], ['Geeks', 120],
                         ['for', 338], ['Labs', 532]]
 Output :['Labs', 532]
@@ -20,7 +20,7 @@ Output: ['Geeks', 120]
 
 **方法#1:使用λ**
 
-```
+```py
 # Python code to find maximum value 
 # in second column of list of list
 
@@ -42,7 +42,7 @@ print("Output list is : ", Output)
 
 **方法 2:使用 itemgetter**
 
-```
+```py
 # Python code to find maximum value 
 # in second column of list of list
 

@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Keys Mean in Dictionary List
 # Using loop + mean()
@@ -74,7 +74,7 @@ print("The Extracted average : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Cumulative Keys Mean in Dictionary List
 # Using defaultdict() + mean()

@@ -26,7 +26,7 @@
 
 下面的代码是在谷歌 colab 上测试的。在终端中运行代码以安装必要的库之前，运行这些命令。
 
-```
+```py
 pip install "tensorflow>=2.0.0"
 pip install --upgrade tensorflow-hub
 ```
@@ -35,7 +35,7 @@ pip install --upgrade tensorflow-hub
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 import tensorflow_hub as hub
 import tensorflow.compat.v1 as tf
@@ -65,7 +65,7 @@ print(sess.run(embeddings[1][5]))
 
 **输出:**
 
-```
+```py
 Word embeddings for word WATCH in first sentence
 [ 0.14079645 -0.15788531 -0.00950466 ...  0.4300597  -0.52887094
   0.06327899]

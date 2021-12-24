@@ -28,7 +28,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 """ helper method for iterator"""
 
 def alphabets_upto(letter):
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
 ## **蟒蛇 3**
 
-```
+```py
 """utility function"""
 def inBuilt_Iterator1():
 

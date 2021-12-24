@@ -10,7 +10,7 @@ index()方法返回列表中相应值的索引。下面是一个如何使用 ind
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a new dictionary
 my_dict ={"java":100, "python":112, "c":11}
 
@@ -32,7 +32,7 @@ print(list(my_dict.keys())[list(my_dict.values()).index(112)])
 
 **Output:** 
 
-```
+```py
 java
 python
 python
@@ -46,7 +46,7 @@ python
 
 ## 蟒蛇 3
 
-```
+```py
 # function to return key for any value
 def get_key(val):
     for key, value in my_dict.items():
@@ -65,7 +65,7 @@ print(get_key(11))
 
 **Output:** 
 
-```
+```py
 java
 c
 ```

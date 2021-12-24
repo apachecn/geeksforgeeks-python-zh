@@ -17,7 +17,7 @@
 
 ![](img/58cfbfd414b60ef6c1109ab94fecbdca.png)
 
-```
+```py
 -> θ<sub>j     :</sub> Weights of the hypothesis.
 -> h<sub>θ(xi) :</sub> predicted y value for ith input.
 -> j     : Feature index number (can be 0, 1, 2, ......, n).
@@ -49,7 +49,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of gradient descent in linear regression
 import numpy as np
 import matplotlib.pyplot as plt

@@ -35,7 +35,7 @@
 
 现在要将其转换为 JSON 文件，可以使用下面的代码:
 
-```
+```py
 # Python program to convert text
 # file to JSON
 
@@ -75,7 +75,7 @@ out_file.close()
 
 请注意下面的代码行:
 
-```
+```py
 command, description = line.strip().split(None, 1)
 ```
 
@@ -88,7 +88,7 @@ command, description = line.strip().split(None, 1)
 
 这个想法是将每个员工的详细信息转换成一个中间字典，并将其附加到一个主结果字典中。对于每个中间字典，创建一个唯一的 id，并用作密钥。因此，在这里，雇员 id 和中间字典构成了要转储的结果字典的键值对。
 
-```
+```py
 # Python program to convert text
 # file to JSON
 
@@ -142,7 +142,7 @@ out_file.close()
 
 与每列相关联的属性存储在一个名为**“字段”**的单独列表中。在上面的代码中，每一行都是基于空间分割的，并转换成字典。每次执行**打印(属性)**一行时，如下所示。
 
-```
+```py
 ['Lisa', 'programmer', '34', '54000']
 ['Elis', 'Trainee', '24', '40000']
 ['Rickson', 'HR', '30', '47000']

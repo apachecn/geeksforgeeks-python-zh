@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import sqlite3
 
@@ -66,7 +66,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import sqlite3
 

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Equivalent codes in Python 3.0
 # (Produces same output)
 
@@ -21,7 +21,7 @@ print((1))
 
 **输出:**
 
-```
+```py
 1 
 1
 ```
@@ -30,7 +30,7 @@ print((1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Code 1:
 print(1, 2)
 
@@ -47,7 +47,7 @@ print(2)
 
 **输出:**
 
-```
+```py
 1 2
 (1, 2)
 ```

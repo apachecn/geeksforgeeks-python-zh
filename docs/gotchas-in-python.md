@@ -16,14 +16,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # results in False
 print(5>2 == True) 
 ```
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -32,14 +32,14 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # results in True
 print((5>2) == True)
 ```
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -48,14 +48,14 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # results in False
 print(5 is (not None)) 
 ```
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -63,14 +63,14 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # results in True
 print(5 is not None)
 ```
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -79,7 +79,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # results in True
     print(1 == True)
 
@@ -89,7 +89,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     True
     False
 
@@ -99,7 +99,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # results in True
     print(1 != False) 
 
@@ -109,7 +109,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     True
     True
 
@@ -120,7 +120,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     def appendNew(appendTo =[]):      
         appendTo.append(1)   
         return appendTo
@@ -132,7 +132,7 @@ True
 
     预计每次我们调用`appendNew()`，都会创建一个新的列表，其中包含 1。但事实是这样的:
 
-    ```
+    ```py
     [1]
     [1, 1]
 
@@ -142,7 +142,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     def appendNew(appendTo = None):  
         if appendTo == None:
             appendTo =[]    
@@ -156,7 +156,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     [1]
     [1]
 
@@ -169,7 +169,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     list1 = [1, 2, 3]
     def baz1():
 
@@ -189,12 +189,12 @@ True
 
     **输出:**
 
-    ```
+    ```py
     [1, 2, 3, 4]
 
     ```
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/ba0dfa25407638b061076b45ce165ce5.py", line 15, in 
         print(baz2())
@@ -206,7 +206,7 @@ True
 
     发生这种情况是因为
 
-    ```
+    ```py
     list1 += [5]
     ```
 
@@ -217,7 +217,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     def create_multipliers():
 
         # lambda function creates an iterable
@@ -230,7 +230,7 @@ True
 
     预期的结果当然是:
 
-    ```
+    ```py
     0
     3
     6
@@ -242,7 +242,7 @@ True
 
     但是我们得到的是:
 
-    ```
+    ```py
     15
     15
     15
@@ -257,7 +257,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     def create_multipliers():
         return [lambda x, i = i : i * x for i in range(6)]
 
@@ -267,7 +267,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     0
     3
     6
@@ -282,7 +282,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # buggy program to print a list 
     # of odd numbers from 1 to 10
 
@@ -296,7 +296,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "/home/92eed8bfd8c92fca3cf85f22e8cfd9ea.py", line 9, in 
         if not even(numbers[i]):
@@ -308,7 +308,7 @@ True
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # working program to print a 
     # list of odd numbers from 1 to 10
 
@@ -321,7 +321,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     [1, 3, 5, 7, 9]
 
     ```******

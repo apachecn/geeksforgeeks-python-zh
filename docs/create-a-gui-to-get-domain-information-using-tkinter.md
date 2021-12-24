@@ -12,7 +12,7 @@
 
 在编写代码之前，我们需要安装 [**python-whois**](https://pypi.org/project/python-whois/) 模块。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install python-whois
 ```
 
@@ -22,7 +22,7 @@ pip install python-whois
 
 ## 蟒蛇 3
 
-```
+```py
 import whois
 ```
 
@@ -30,7 +30,7 @@ import whois
 
 ## 蟒蛇 3
 
-```
+```py
 whois.whois('geeksforgeeks.com')
 ```
 
@@ -42,7 +42,7 @@ whois.whois('geeksforgeeks.com')
 
 ## 蟒蛇 3
 
-```
+```py
 domain = whois.whois('geeksforgeeks.com')
 print("Expration Date :",domain.expiration_date)
 print("Email :", domain.emails)
@@ -51,7 +51,7 @@ print("Server name : ",domain.name_servers)
 
 **输出:**
 
-```
+```py
 Expration Date : 2025-06-06 18:16:43
 Email : abuse@uniregistry.com
 Server name :  ['NS1.PARKINGCREW.NET', 'NS2.PARKINGCREW.NET']
@@ -63,7 +63,7 @@ Server name :  ['NS1.PARKINGCREW.NET', 'NS2.PARKINGCREW.NET']
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 import whois

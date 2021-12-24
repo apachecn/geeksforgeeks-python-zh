@@ -7,7 +7,7 @@
 **方法一:使用`zip()` +列表理解**
 以上功能的组合可以共同完成这个特定的任务。在这种情况下，我们使用 zip()将相似的索引元素组合成列，并将所有元组绑定到一个列表中，字典列表的迭代是通过列表理解来执行的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Lists to column tuples
 # using zip() + list comprehension

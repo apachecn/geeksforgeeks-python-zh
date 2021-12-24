@@ -11,7 +11,7 @@ appJar 库主要用于学校，因此不需要特殊安装。
 
 它还支持使用以下命令进行安装:
 
-```
+```py
 pip install appjar
 
 ```
@@ -23,7 +23,7 @@ pip install appjar
 1.  从 appJar 库中导入 gui 并创建 gui 变量。
     为此，在源代码文件
 
-    ```
+    ```py
     # import the library
     from appJar import gui
 
@@ -36,7 +36,7 @@ pip install appjar
 2.  使用 app 变量，配置每个小部件的应用外观和逻辑。
     例如，这里我们使用应用程序变量创建了一个显示“Hello World”的窗口。
 
-    ```
+    ```py
     app.addLabel("title", " Hello World! ")
 
     app.setLabelBg("title", "blue")
@@ -45,14 +45,14 @@ pip install appjar
 
 3.  最后，通过在代码中添加以下命令来运行应用程序:
 
-    ```
+    ```py
     app.go()
 
     ```
 
 **完整代码:**
 
-```
+```py
 # Python program to demonstrate
 # hello world in appjar
 
@@ -93,25 +93,25 @@ app.go()
 
     **语法:**
 
-    ```
+    ```py
     app.addEntry("entryTitle")
     ```
 
     您可以使用以下命令为条目设置默认值:
 
-    ```
+    ```py
      app.setEntryDefault("entryTitle", "defaultText")
     ```
 
     要获取特定条目的值，请使用:
 
-    ```
+    ```py
      app.getEntry("entryTitle") 
     ```
 
     若要获取所有条目的值，请使用。
 
-    ```
+    ```py
      app.getAllEntries()
     ```
 
@@ -119,7 +119,7 @@ app.go()
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # entry widget appjar
 
@@ -145,13 +145,13 @@ app.go()
 
     **语法:**
 
-    ```
+    ```py
     app.addTextArea("textAreaTitle", text=None)
     ```
 
     您可以使用以下方法将文本添加到指定的文本区域:
 
-    ```
+    ```py
      app.setTextArea("textAreaTitle", 
                           "someText", 
                           end = True, 
@@ -163,13 +163,13 @@ app.go()
 
     要获取特定文本区域的值，请使用:
 
-    ```
+    ```py
     app.getTextArea("textAreaTitle")
     ```
 
     要获取所有文本区域的内容，请使用。
 
-    ```
+    ```py
     app.getAllTextAreas()
     ```
 
@@ -177,7 +177,7 @@ app.go()
 
     **例**
 
-    ```
+    ```py
     # Python program to demonstrate
     # textarea widget appjar
 
@@ -204,7 +204,7 @@ app.go()
 
     **语法:**
 
-    ```
+    ```py
      app.addButton("buttonTitle", functionName ) 
     ```
 
@@ -212,13 +212,13 @@ app.go()
 
     您可以更改按钮的名称，但不能更改作为参数传递的值，方法是使用:
 
-    ```
+    ```py
      app.setButton("buttonTitle", "someText")
     ```
 
     您也可以在按钮上放置图像，而不是文本，方法是:
 
-    ```
+    ```py
      app.setButtonImage("buttonTitle", "imagePath", align=None)
     ```
 
@@ -226,7 +226,7 @@ app.go()
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # button widget of appjar
 
@@ -264,7 +264,7 @@ app.go()
 
     **语法:**
 
-    ```
+    ```py
     app.addLabel("labelTitle", text="someText")
     ```
 
@@ -272,19 +272,19 @@ app.go()
 
     您可以使用以下命令更改标签的内容:
 
-    ```
+    ```py
     app.setLabel("labelTitle", "someText")
     ```
 
     您可以使用以下方法获取标签的内容:
 
-    ```
+    ```py
     app.getLabel("labelTitle")
     ```
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # label widget of appjar
 
@@ -307,7 +307,7 @@ app.go()
 
     **语法:**
 
-    ```
+    ```py
     app.addMessage("messageTitle", text="someText")
     ```
 
@@ -315,19 +315,19 @@ app.go()
 
     您可以使用以下方法更改邮件内容:
 
-    ```
+    ```py
     app.setMessage("messageTitle", "someText")
     ```
 
     您可以使用以下方法清除指定消息小部件的内容:
 
-    ```
+    ```py
     app.clearMessage("messageTitle")
     ```
 
     **例**
 
-    ```
+    ```py
     # Python program to demonstrate
     # message widget of appjar
 

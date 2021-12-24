@@ -16,7 +16,7 @@
 
 ****语法:****
 
-```
+```py
 popitem(last = True) 
 ```
 
@@ -28,7 +28,7 @@ popitem(last = True)
 
 ## **蟒蛇 3**
 
-```
+```py
 from collections import OrderedDict
 
 ord_dict = OrderedDict().fromkeys('GeeksForGeeks')
@@ -61,7 +61,7 @@ print(ord_dict)
 
 ****语法:****
 
-```
+```py
 move_to_end(key, last = True)
 ```
 
@@ -71,7 +71,7 @@ move_to_end(key, last = True)
 
 ## **蟒蛇 3**
 
-```
+```py
 from collections import OrderedDict
 
 ord_dict = OrderedDict().fromkeys('GeeksForGeeks')

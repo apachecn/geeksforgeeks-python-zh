@@ -15,7 +15,7 @@ Python 提供了一个内置模块 **datetime** ，允许轻松操作和修改�
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 from datetime import timedelta
 
@@ -40,7 +40,7 @@ print(Enddate)
 
 **输出:**
 
-```
+```py
 Beginning date
 2020-10-11 00:00:00
 Ending date
@@ -51,7 +51,7 @@ Ending date
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 from datetime import timedelta
 from datetime import date
@@ -75,7 +75,7 @@ print(Enddate)
 
 **输出:**
 
-```
+```py
 Beginning date
 2020-12-05
 Ending date

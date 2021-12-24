@@ -7,7 +7,7 @@
 **方法#1:使用`min() + operator.itemgetter()`**
 我们可以使用提供的 key itemgetter 索引从一个列表中获取对应元组索引的最小值，然后在最后使用 index 规范提到所需的索引信息。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Index minimum value Record
 # using min() + itemgetter()
@@ -29,7 +29,7 @@ print ("The name with minimum score is : " + res)
 
 **Output :**
 
-```
+```py
 Original list : [('Rash', 143), ('Manjeet', 200), ('Varsha', 100)]
 The name with minimum score is : Varsha
 

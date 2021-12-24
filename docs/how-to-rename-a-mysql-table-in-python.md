@@ -10,7 +10,7 @@ ALTER 和 RENAME 语句用于重命名表。重命名表时，必须记住其他
 
 **RENAME 语句的语法:**
 
-```
+```py
 RENAME TABLE table_name to new_table_name
 ```
 
@@ -18,7 +18,7 @@ RENAME TABLE table_name to new_table_name
 
 **ALTER 语句语法:**
 
-```
+```py
 ALTER TABLE table_name
 RENAME to new_table_name
 ```
@@ -44,7 +44,7 @@ RENAME to new_table_name
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import mysql.connector
 
@@ -84,7 +84,7 @@ mydb.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import mysql.connector
 

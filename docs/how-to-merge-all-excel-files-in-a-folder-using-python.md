@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas libraries and 
 # glob module
 import pandas as pd
@@ -34,7 +34,7 @@ import glob
 
 ## 蟒蛇 3
 
-```
+```py
 # path of the folder
 path = r'test'
 ```
@@ -43,7 +43,7 @@ path = r'test'
 
 ## 蟒蛇 3
 
-```
+```py
 # reading all the excel files
 filenames = glob.glob(path + "\*.xlsx")
 print('File names:', filenames)
@@ -53,7 +53,7 @@ print('File names:', filenames)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing empty data frame
 finalexcelsheet = pd.DataFrame()
 ```
@@ -62,7 +62,7 @@ finalexcelsheet = pd.DataFrame()
 
 ## 蟒蛇 3
 
-```
+```py
 # to iterate excel file one by one 
 # inside the folder
 for file in filenames:
@@ -81,7 +81,7 @@ for file in filenames:
 
 ## 蟒蛇 3
 
-```
+```py
 # to print the combined data
 print('Final Sheet:')
 display(finalexcelsheet)
@@ -91,7 +91,7 @@ display(finalexcelsheet)
 
 ## 蟒蛇 3
 
-```
+```py
 # save combined data
 finalexcelsheet.to_excel(r'Final.xlsx',index=False)
 ```
@@ -100,7 +100,7 @@ finalexcelsheet.to_excel(r'Final.xlsx',index=False)
 
 ## 蟒蛇 3
 
-```
+```py
 #import modules
 import pandas as pd
 import glob

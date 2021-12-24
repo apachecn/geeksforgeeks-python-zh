@@ -6,13 +6,13 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是 on resize 事件的语法，当此事件被触发时会调用此方法
 
-```
+```py
 @window.event       
 def on_resize(width, height):
     print("Window Resized")
@@ -22,7 +22,7 @@ def on_resize(width, height):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -101,7 +101,7 @@ pyglet.app.run()
 
 ![](img/ba3dceb23091a01296cb5ada881be631.png)
 
-```
+```py
 Window Resized
 New Size : 300 400
 ```

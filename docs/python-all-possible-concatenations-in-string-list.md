@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All possible concatenations in String List
 # Using permutations() + loop
@@ -44,7 +44,7 @@ print("All String combinations : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best']
 All String combinations : ['Gfg', 'is', 'Best', 'Gfgis', 'GfgBest', 'isGfg', 'isBest', 'BestGfg', 'Bestis', 'GfgisBest', 'GfgBestis', 'isGfgBest', 'isBestGfg', 'BestGfgis', 'BestisGfg']
 ```

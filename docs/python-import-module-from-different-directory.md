@@ -12,7 +12,7 @@
 
 **目录结构**
 
-```
+```py
  - Folder_1
     - main.py
  - Folder_2
@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a simple add function
 def add(a, b):
     return a+b
@@ -45,7 +45,7 @@ def odd_even(n):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module1 from another folder
 import Folder_2
 
@@ -67,7 +67,7 @@ module1.odd_even(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sys
 import sys
 
@@ -109,7 +109,7 @@ print("Addition of two number is :", add(2, 2))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the add and odd_even function
 from module1 import odd_even, add
 

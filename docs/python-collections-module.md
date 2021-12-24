@@ -24,7 +24,7 @@ A [计数器](https://www.geeksforgeeks.org/counters-in-python-set-1/)是字典�
 
 **语法:**
 
-```
+```py
 class collections.Counter([iterable-or-mapping])
 ```
 
@@ -40,7 +40,7 @@ class collections.Counter([iterable-or-mapping])
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to show different
 # ways to create Counter
 from collections import Counter
@@ -58,7 +58,7 @@ print(Counter(A=3, B=5, C=2))
 
 **输出:**
 
-```
+```py
 Counter({'B': 5, 'A': 3, 'C': 2})
 Counter({'B': 5, 'A': 3, 'C': 2})
 Counter({'B': 5, 'A': 3, 'C': 2})
@@ -72,7 +72,7 @@ Counter({'B': 5, 'A': 3, 'C': 2})
 
 **语法:**
 
-```
+```py
 class collections.OrderDict()
 ```
 
@@ -80,7 +80,7 @@ class collections.OrderDict()
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working
 # of OrderedDict
 
@@ -109,7 +109,7 @@ for key, value in od.items():
 
 **输出:**
 
-```
+```py
 This is a Dict:
 
 a 1
@@ -131,7 +131,7 @@ d 4
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working
 # of OrderedDict
 
@@ -160,7 +160,7 @@ for key, value in od.items():
 
 **输出:**
 
-```
+```py
 Before Deleting
 a 1
 b 2
@@ -182,7 +182,7 @@ A [DefaultDict](https://www.geeksforgeeks.org/defaultdict-in-python/) 也是字�
 
 **语法:**
 
-```
+```py
 class collections.defaultdict(default_factory)
 ```
 
@@ -196,7 +196,7 @@ default_factory 是一个为创建的字典提供默认值的函数。如果此�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -221,7 +221,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 defaultdict(<class 'int'>, {1: 2, 2: 3, 3: 1, 4: 2})
 ```
 
@@ -229,7 +229,7 @@ defaultdict(<class 'int'>, {1: 2, 2: 3, 3: 1, 4: 2})
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # defaultdict
 
@@ -258,7 +258,7 @@ A [ChainMap](https://www.geeksforgeeks.org/chainmap-in-python/) 将许多词典�
 
 **语法:**
 
-```
+```py
 class collections.ChainMap(dict1, dict2)
 ```
 
@@ -266,7 +266,7 @@ class collections.ChainMap(dict1, dict2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # ChainMap
 
@@ -284,7 +284,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 ```
 
@@ -296,7 +296,7 @@ ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6})
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # ChainMap
 
@@ -335,7 +335,7 @@ print(c.keys())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate ChainMap and
 # new_child()
 
@@ -363,7 +363,7 @@ print (chain1)
 
 **输出:**
 
-```
+```py
 All the ChainMap contents are : 
 ChainMap({'a': 1, 'b': 2}, {'b': 3, 'c': 4})
 Displaying new ChainMap : 
@@ -378,7 +378,7 @@ ChainMap({'f': 5}, {'a': 1, 'b': 2}, {'b': 3, 'c': 4})
 
 **语法:**
 
-```
+```py
 class collections.namedtuple(typename, field_names)
 ```
 
@@ -386,7 +386,7 @@ class collections.namedtuple(typename, field_names)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate namedtuple()
 
 from collections import namedtuple
@@ -408,7 +408,7 @@ print (S.name)
 
 **输出:**
 
-```
+```py
 The Student age using index is : 19
 The Student name using keyname is : Nandini
 ```
@@ -423,7 +423,7 @@ The Student name using keyname is : Nandini
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate namedtuple() and
 # _make(), _asdict()
 
@@ -452,7 +452,7 @@ print (S._asdict())
 
 ****输出:****
 
-```
+```py
 The namedtuple instance using iterable is  : 
 Student(name='Manjeet', age='19', DOB='411997')
 The OrderedDict instance using namedtuple is  : 
@@ -467,7 +467,7 @@ OrderedDict([('name', 'Nandini'), ('age', '19'), ('DOB', '2541997')])
 
 ****语法:****
 
-```
+```py
 class collections.deque(list)
 ```
 
@@ -477,7 +477,7 @@ class collections.deque(list)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate deque
 
 from collections import deque
@@ -490,7 +490,7 @@ print(queue)
 
 ****输出:****
 
-```
+```py
 deque(['name', 'age', 'DOB'])
 ```
 
@@ -502,7 +502,7 @@ deque(['name', 'age', 'DOB'])
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of 
 # append(), appendleft()
 
@@ -530,7 +530,7 @@ print (de)
 
 ****输出:****
 
-```
+```py
 The deque after appending at right is : 
 deque([1, 2, 3, 4])
 The deque after appending at left is : 
@@ -545,7 +545,7 @@ deque([6, 1, 2, 3, 4])
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of 
 # pop(), and popleft()
 
@@ -573,7 +573,7 @@ print (de)
 
 ****输出:****
 
-```
+```py
 The deque after deleting from right is : 
 deque([6, 1, 2, 3])
 The deque after deleting from left is : 
@@ -588,7 +588,7 @@ deque([1, 2, 3])
 
 ****语法:****
 
-```
+```py
 class collections.UserDict([initialdata])
 ```
 
@@ -596,7 +596,7 @@ class collections.UserDict([initialdata])
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate
 # userdict
 
@@ -631,7 +631,7 @@ d.pop(1)
 
 ****输出:****
 
-```
+```py
 Traceback (most recent call last):
   File "/home/f8db849e4cf1e58177983b2b6023c1a3.py", line 32, in <module>
     d.pop(1) 
@@ -652,7 +652,7 @@ RuntimeError: Deletion not allowed
 
 ****语法:****
 
-```
+```py
 class collections.UserList([list])
 ```
 
@@ -660,7 +660,7 @@ class collections.UserList([list])
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate
 # userlist
 
@@ -696,13 +696,13 @@ L.remove()
 
 ****输出:****
 
-```
+```py
 Original List
 After Insertion
 [1, 2, 3, 4, 5]
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/c90487eefa7474c0566435269f50a52a.py", line 33, in <module>
     L.remove() 
@@ -719,7 +719,7 @@ RuntimeError: Deletion not allowed
 
 ****语法:****
 
-```
+```py
 class collections.UserString(seq)
 ```
 
@@ -727,7 +727,7 @@ class collections.UserString(seq)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate
 # userstring
 
@@ -761,7 +761,7 @@ print("String after Removing:", s1.data)
 
 ****输出:****
 
-```
+```py
 Original String: Geeks
 String After Appending: Geekss
 String after Removing: Gkss

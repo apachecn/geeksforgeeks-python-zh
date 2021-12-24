@@ -14,7 +14,7 @@ GridSearchCV 是一种从给定的参数网格集中搜索最佳参数值的技�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries needed
 pip install pandas
 import pandas as pd
@@ -74,7 +74,7 @@ GridSearchCV 是一个针对 python 的机器学习库。我们对估计量的�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries which are required:
 import pandas as pd
 import numpy as np

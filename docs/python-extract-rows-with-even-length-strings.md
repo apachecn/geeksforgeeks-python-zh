@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract rows with Even length strings
 # Using all() + list comprehension + len()
@@ -46,7 +46,7 @@ print("Rows with even length : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract rows with Even length strings
 # Using filter() + lambda + len()

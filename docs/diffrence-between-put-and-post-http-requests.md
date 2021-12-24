@@ -12,7 +12,7 @@ PUT 是万维网使用的 HTTP 支持的请求方法。PUT 方法要求将封闭
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a PUT request

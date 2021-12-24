@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # Python code to demonstrate
 # converting list into dictionary with none values
 # using zip() and dictionary
@@ -28,7 +28,7 @@ print ("final dictionary", str(res))
 
 **输出:**
 
-```
+```py
 initial list [1, 2, 3, 4, 5]
 final dictionary {1: None, 2: None, 3: None, 4: None, 5: None}
 ```

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
  self.enemy = None
 ```
 
@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```py
 self.enemy_move = velocity
 ```
 
@@ -28,7 +28,7 @@ self.enemy_move = velocity
 
 **语法:**
 
-```
+```py
 self.enemy = arcade.Sprite("path",1)
 ```
 
@@ -36,7 +36,7 @@ self.enemy = arcade.Sprite("path",1)
 
 **语法:**
 
-```
+```py
 self.enemy.center_x = value
 self.enemy.center_y = value
 ```
@@ -45,7 +45,7 @@ self.enemy.center_y = value
 
 **语法:**
 
-```
+```py
 self.scene.add_sprite("Enemy", self.enemy)
 ```
 
@@ -53,7 +53,7 @@ self.scene.add_sprite("Enemy", self.enemy)
 
 **语法:**
 
-```
+```py
 self.enemy.center_x += self.enemy_move
 ```
 
@@ -161,7 +161,7 @@ self.enemy.center_x += self.enemy_move
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 
@@ -364,7 +364,7 @@ arcade.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing arcade module
 import arcade
 

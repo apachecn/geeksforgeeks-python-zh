@@ -7,7 +7,7 @@
 *   **Step 1:** Invert the input: "elppa"
 *   **Step 2:** Replace all vowels with the following chart:
 
-```
+```py
 a => 0
 e => 1
 i => 2
@@ -18,13 +18,13 @@ Resultant string - "1lpp0"
 
 *   **Step 3:** Add "ACA" at the end of the word.
 
-```
+```py
 Resultant String: "1lpp0aca"
 ```
 
 **例:**
 
-```
+```py
 Input: banana
 Output: 0n0n0baca"
 
@@ -45,7 +45,7 @@ Output: k0r3baca
 
 T2T4
 
-```
+```py
 # Create an input field
 encrypt = "banana"
 
@@ -70,7 +70,7 @@ T5
 
 **输出:**
 
-```
+```py
 0n0n0baca
 ```
 

@@ -5,13 +5,13 @@
 汇集操作包括在特征图的每个通道上滑动二维过滤器，并汇总过滤器覆盖区域内的特征。
 对于尺寸为**n<sub>h</sub>x n<sub>w</sub>x n<sub>c</sub>T8】的要素图，汇集图层后得到的输出尺寸为** 
 
-```
+```py
 (n<sub>h - f + 1) / s x (nw - f + 1)/s x nc</sub>
 ```
 
 哪里，
 
-```
+```py
 -> n<sub>h -</sub> height of feature map
 -> n<sub>w -</sub> width of feature map
 -> n<sub>c -</sub> number of channels in the feature map
@@ -39,7 +39,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from keras.models import Sequential
 from keras.layers import MaxPooling2D
@@ -65,7 +65,7 @@ print(output)
 
 1.  **输出:**
 
-```
+```py
 [[9\. 7.]
 [8\. 6.]]
 ```
@@ -80,7 +80,7 @@ print(output)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from keras.models import Sequential
 from keras.layers import AveragePooling2D
@@ -106,7 +106,7 @@ print(output)
 
 1.  **输出:**
 
-```
+```py
 
 [[4.25 4.25]
 [4.25 3.5 ]]
@@ -120,7 +120,7 @@ print(output)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from keras.models import Sequential
 from keras.layers import GlobalMaxPooling2D
@@ -154,7 +154,7 @@ print("ga_output: ", ga_output)
 
 1.  **输出:**
 
-```
+```py
 
 gm_output:  9.0
 ga_output:  4.0625 

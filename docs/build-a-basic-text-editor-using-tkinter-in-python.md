@@ -16,7 +16,7 @@ Tkinter 是一个用于创建图形用户界面应用程序的 Python 包。Pyth
 
 ## 蟒蛇 3
 
-```
+```py
 # import all things from tkinter
 from tkinter import *
 
@@ -48,7 +48,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # root
@@ -75,7 +75,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # create root window
@@ -100,7 +100,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()
@@ -127,7 +127,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()

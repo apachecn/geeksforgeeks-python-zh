@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to print getter and setter methods
 # for variables according to Java
 def print_getter_setter(variables, datatypes):
@@ -64,7 +64,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 public int getAbc() {
     return abc;
 }

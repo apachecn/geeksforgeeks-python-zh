@@ -9,7 +9,7 @@ Following are important facts about functions in Python that are useful to under
 1.  在 Python 中，我们可以在另一个函数中定义一个函数。
 2.  在 Python 中，一个函数可以作为参数传递给另一个函数(一个函数也可以返回另一个函数)。
 
-```
+```py
 # A Python program to demonstrate that a function
 # can be defined inside another function and a
 # function can be passed as parameter.
@@ -34,7 +34,7 @@ print messageWithWelcome(site("GeeksforGeeks"))
 
 输出:
 
-```
+```py
 Welcome to GeeksforGeeks
 ```
 
@@ -44,7 +44,7 @@ A decorator is a function that takes a function as its only parameter and return
 
 我们使用@func_name 来指定要应用于另一个函数的装饰器。
 
-```
+```py
 # Adds a welcome message to the string
 # returned by fun(). Takes fun() as
 # parameter and returns welcome().
@@ -71,13 +71,13 @@ print site("GeeksforGeeks")
 
 输出:
 
-```
+```py
 Welcome to GeeksforGeeks
 ```
 
 装饰者也可以将数据(或添加属性)附加到函数中。
 
-```
+```py
 # A Python example to demonstrate that
 # decorators can be useful attach data
 
@@ -102,7 +102,7 @@ print(add.data)
 
 输出:
 
-```
+```py
 5
 3
 ```

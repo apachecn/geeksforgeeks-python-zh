@@ -12,7 +12,7 @@
 
 **代码# 1:next _ 减()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_minus() method
 
@@ -38,7 +38,7 @@ print ("Decimal b with next_minus() method : ", b.next_minus())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -50,7 +50,7 @@ Decimal b with next_minus() method :  0.1428569999999999999999999999
 
 **代码# 2:next _ 减()方法示例**
 
-```
+```py
 # Python Program explaining 
 # next_minus() method
 
@@ -76,7 +76,7 @@ print ("Decimal b with next_minus() method : ", b.next_minus())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

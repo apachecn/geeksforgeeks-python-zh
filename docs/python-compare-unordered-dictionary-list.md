@@ -7,7 +7,7 @@
 **方法#1:使用`"=="`运算符(仅键无序)**
 对于只有字典的键无序，列表中的排序方式正确的情况，可以使用“==”运算符进行测试。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Compare Unordered Dictionary List
 # Using "==" operator

@@ -14,7 +14,7 @@
 
 让我们看下面的例子来理解锁的使用:
 
-```
+```py
 # program to illustrate the use of Locks
 
 import threading
@@ -55,7 +55,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 3
 ```
 
@@ -67,7 +67,7 @@ print(geek)
 
 让我们看下面的例子来理解 RLocks 的使用:
 
-```
+```py
 import threading
 
 # initializing the shared resource
@@ -94,7 +94,7 @@ print(geek)
 
 然而，程序中的上述问题可以通过使用 RLock 来解决。
 
-```
+```py
 # program to illustrate the use of RLocks
 
 # importing the module
@@ -125,7 +125,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 3
 ```
 

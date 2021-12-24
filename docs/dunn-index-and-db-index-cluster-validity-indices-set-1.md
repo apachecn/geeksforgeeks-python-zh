@@ -49,7 +49,7 @@
 
 **下面是使用 *jqmcvi* 库的上述 Dunn 索引的 Python 实现:**
 
-```
+```py
 import pandas as pd
 from sklearn import datasets
 from jqmcvi import base
@@ -82,7 +82,7 @@ print(base.dunn(cluster_list))
 
 ****输出:****
 
-```
+```py
 0.67328051 
 ```
 
@@ -99,7 +99,7 @@ DB 指标值越低，聚类越好。它也有一个缺点。通过这种方法�
 
 **下面是使用 sklearn 库的上述数据库索引的 Python 实现:**
 
-```
+```py
 from sklearn import datasets
 from sklearn.cluster import KMeans
 from sklearn.metrics import davies_bouldin_score
@@ -120,7 +120,7 @@ print(davies_bouldin_score(X, labels))
 
 ****输出:****
 
-```
+```py
 0.36628770 
 ```
 

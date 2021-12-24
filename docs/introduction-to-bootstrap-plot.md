@@ -34,7 +34,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 

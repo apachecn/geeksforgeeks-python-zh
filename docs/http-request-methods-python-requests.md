@@ -21,7 +21,7 @@ Python 请求模块有几个内置的方法，可以使用 GET、POST、PUT、PA
 GET 方法用于使用给定的 URI 从给定的服务器检索信息。GET 方法发送附加到页面请求的编码用户信息。页面和编码信息用“？”分隔性格。
 例如:
 
-```
+```py
 https://www.google.com/search?q=hello
 ```
 
@@ -30,7 +30,7 @@ https://www.google.com/search?q=hello
 Python 的 requests 模块提供了一个名为 **get()** 的内置方法，用于向指定的 URI 发出 get 请求。
 **语法–**
 
-```
+```py
 requests.get(url, params={key: value}, args)
 ```
 
@@ -39,7 +39,7 @@ requests.get(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a GET request
@@ -55,7 +55,7 @@ print(r.content)
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 
@@ -74,7 +74,7 @@ POST 是万维网使用的 HTTP 支持的一种请求方法。根据设计，POS
 Python 的请求模块提供了一个名为 **post()** 的内置方法，用于向指定的 URI 发出 post 请求。
 **语法–**
 
-```
+```py
 requests.post(url, params={key: value}, args)
 ```
 
@@ -83,7 +83,7 @@ requests.post(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a POST request
@@ -99,7 +99,7 @@ print(r.json())
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 
@@ -118,7 +118,7 @@ PUT 是万维网使用的 HTTP 支持的请求方法。PUT 方法要求将封闭
 Python 的请求模块提供了一个名为 **put()** 的内置方法，用于向指定的 URI 发出 put 请求。
 **语法–**
 
-```
+```py
 requests.put(url, params={key: value}, args)
 ```
 
@@ -127,7 +127,7 @@ requests.put(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a PUT request
@@ -143,7 +143,7 @@ print(r.content)
 
 将此文件保存为 request.py 并通过终端运行，
 
-```
+```py
 python request.py
 ```
 
@@ -158,7 +158,7 @@ python request.py
 DELETE 是万维网使用的 HTTP 支持的请求方法。DELETE 方法删除指定的资源。与 PUT 请求一样，您需要为此操作指定一个特定的资源。如果响应包括描述状态的实体，则成功响应应为 200(确定)，如果动作尚未实施，则为 202(已接受)，如果动作已实施，但响应不包括实体，则为 204(无内容)。
 删除操作的 URI 示例
 
-```
+```py
 http://www.example.com/articles/12345
 ```
 
@@ -167,7 +167,7 @@ http://www.example.com/articles/12345
 Python 的 requests 模块提供了一个名为 **delete()** 的内置方法，用于向指定的 URI 发出 delete 请求。
 **语法–**
 
-```
+```py
 requests.delete(url, params={key: value}, args)
 ```
 
@@ -176,7 +176,7 @@ requests.delete(url, params={key: value}, args)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a DELETE request

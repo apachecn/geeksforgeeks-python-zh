@@ -8,7 +8,7 @@
 
 **2。星图。，元组列表)** :-这个迭代器以一个**函数和元组列表**为参数，根据函数从列表的每个元组中返回**值。**
 
-```
+```py
 # Python code to demonstrate the working of 
 # islice() and starmap()
 
@@ -34,7 +34,7 @@ print (list(itertools.starmap(min,li1)))
 
 输出:
 
-```
+```py
 The sliced list values are : [4, 7, 10]
 The values acc. to function are : [1, 1, 4, 1]
 
@@ -44,7 +44,7 @@ The values acc. to function are : [1, 1, 4, 1]
 
 **4。tee(迭代器，计数)** :-这个迭代器**将容器拆分成参数中提到的多个迭代器**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # takewhile() and tee()
 
@@ -73,7 +73,7 @@ for i in range (0,3):
 
 输出:
 
-```
+```py
 The list values till 1st false value are : [2, 4, 6]
 The iterators are : 
 [2, 4, 6, 7, 8, 10, 20]
@@ -84,7 +84,7 @@ The iterators are :
 
 **5。zip _ long(iterable 1，iterable2，fillval。)** :-这个迭代器按顺序交替打印可迭代的**值**。如果其中一个项目被完全打印，则**剩余值由分配给 fillvalue** 的值填充。
 
-```
+```py
 # Python code to demonstrate the working of 
 # zip_longest()
 
@@ -98,7 +98,7 @@ print (*(itertools.zip_longest('GesoGes','ekfrek',fillvalue='_' )))
 
 输出:
 
-```
+```py
 The combined values of iterables is  : 
 ('G', 'e') ('e', 'k') ('s', 'f') ('o', 'r') ('G', 'e') ('e', 'k') ('s', '_')
 
@@ -110,7 +110,7 @@ The combined values of iterables is  :
 
 **2。置换(iter，group_size)** :-这个迭代器打印可迭代的所有元素的所有**可能的置换**。每个置换组的**大小**是由 group_size 参数决定的**。**
 
-```
+```py
 # Python code to demonstrate the working of 
 # product() and permutations()
 
@@ -128,7 +128,7 @@ print (list(itertools.permutations('GfG',2)))
 
 输出:
 
-```
+```py
 The cartesian product of the containers is : 
 [('A', '1'), ('A', '2'), ('B', '1'), ('B', '2')]
 All the permutations of the given container is : 
@@ -140,7 +140,7 @@ All the permutations of the given container is :
 
 **4。combinations _ with _ replacement(iterable，group_size)** :-这个迭代器按照**的排序顺序打印**指定的组大小**中传递的容器的所有可能组合(with replacement)** 。
 
-```
+```py
 # Python code to demonstrate the working of 
 # combination() and combination_with_replacement()
 
@@ -160,7 +160,7 @@ print (list(itertools.combinations_with_replacement('GfG',2)))
 
 输出:
 
-```
+```py
 All the combination of container in sorted order(without replacement) is : 
 [('1', '2'), ('1', '3'), ('1', '4'), ('2', '3'), ('2', '4'), ('3', '4')]
 All the combination of container in sorted order(with replacement) is : 
@@ -174,7 +174,7 @@ All the combination of container in sorted order(with replacement) is :
 
 示例:
 
-```
+```py
 iterator.count(5,2) prints -- 5,7,9,11...infinitely
 
 ```
@@ -183,14 +183,14 @@ iterator.count(5,2) prints -- 5,7,9,11...infinitely
 
 示例:
 
-```
+```py
 iterator.cycle([1,2,3,4]) prints -- 1,2,3,4,1,2,3,4,1...infinitely
 
 ```
 
 **3。repeat(val，num)** :-这个迭代器**重复打印**传递的值无限多次。如果 num。提到他们，直到那个数字。
 
-```
+```py
 # Python code to demonstrate the working of 
 # repeat()
 
@@ -204,7 +204,7 @@ print (list(itertools.repeat(25,4)))
 
 输出:
 
-```
+```py
 Printing the numbers repeatedly : 
 [25, 25, 25, 25]
 

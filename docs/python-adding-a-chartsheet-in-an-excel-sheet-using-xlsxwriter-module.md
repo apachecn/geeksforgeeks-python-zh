@@ -13,7 +13,7 @@
 **代码:**在 excel 表格中添加图表。
 为了创建只保存图表的工作表，我们使用了工作簿对象的 **`add_chartsheet()`** 方法。
 
-```
+```py
 # Python3 program for adding a chartsheet 
 # in an excel sheet using xlsxwriter
 

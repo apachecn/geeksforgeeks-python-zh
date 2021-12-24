@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Chunk Tuples to N
 # using list comprehension
@@ -32,7 +32,7 @@ print("The tuples after chunking are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (10, 4, 5, 6, 7, 6, 8, 3, 4)
 The tuples after chunking are : [(10, 4, 5), (6, 7, 6), (8, 3, 4)]
 ```
@@ -42,7 +42,7 @@ The tuples after chunking are : [(10, 4, 5), (6, 7, 6), (8, 3, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Chunk Tuples to N
 # using zip() + iter()
@@ -67,7 +67,7 @@ print("The tuples after chunking are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (10, 4, 5, 6, 7, 6, 8, 3, 4)
 The tuples after chunking are : [(10, 4, 5), (6, 7, 6), (8, 3, 4)]
 ```

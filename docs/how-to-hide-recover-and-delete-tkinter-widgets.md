@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 widget.forget_pack()
 ```
 
@@ -22,7 +22,7 @@ widget.forget_pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports tkinter
 from tkinter import *
 
@@ -63,7 +63,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports tkinter
 from tkinter import *
 
@@ -107,7 +107,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # toplevel window

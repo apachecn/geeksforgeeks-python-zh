@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -41,14 +41,14 @@ print(info)
 
 **输出:**
 
-```
+```py
 Pankaj Tripathi
 ('main', 'filmography', 'biography')
 ```
 
 另一个例子
 
-```
+```py
 # importing movie
 from imdb.Person import Person
 
@@ -61,6 +61,6 @@ print(info)
 
 **输出:**
 
-```
+```py
 ('main', 'filmography', 'biography')
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [2, 1, 2, 2, 1, 3]
 Output : 2
 
@@ -19,7 +19,7 @@ Output : Dog
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to find most frequent
 # element in a list
 
@@ -41,7 +41,7 @@ print(most_frequent(List))
 
 **Output:** 
 
-```
+```py
 2
 ```
 
@@ -50,7 +50,7 @@ print(most_frequent(List))
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to find most frequent
 # element in a list
 def most_frequent(List):
@@ -62,7 +62,7 @@ print(most_frequent(List))
 
 **Output:** 
 
-```
+```py
 2
 ```
 
@@ -71,7 +71,7 @@ print(most_frequent(List))
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to find most frequent
 # element in a list
 
@@ -87,7 +87,7 @@ print(most_frequent(List))
 
 **Output:** 
 
-```
+```py
 2
 ```
 
@@ -96,7 +96,7 @@ print(most_frequent(List))
 
 ## 蟒蛇 3
 
-```
+```py
 import statistics
 from statistics import mode
 
@@ -109,7 +109,7 @@ print(most_common(List))
 
 **Output:** 
 
-```
+```py
 2
 ```
 
@@ -118,7 +118,7 @@ print(most_common(List))
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to find most frequent
 # element in a list
 
@@ -137,7 +137,7 @@ print(most_frequent(List))
 
 **Output:** 
 
-```
+```py
 2
 ```
 
@@ -146,7 +146,7 @@ print(most_frequent(List))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 List = [2, 1, 2, 2, 1, 3, 1]
 
@@ -169,6 +169,6 @@ list(df1[df1['Number']==df1.Number.max()]['Count'])
 
 **Output:** 
 
-```
+```py
 [2,1]
 ```

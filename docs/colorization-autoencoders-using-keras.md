@@ -14,7 +14,7 @@
 
 To keep things simple, we are going to use **CIFAR100 dataset**, which is readily available in [Keras datasets](https://keras.io/datasets/)The dataset contains **50k colour** images of shape **32 * 32 * 3** for training, and **10k colour** images of the same shape for testing purpose.**Code: Import all the libraries**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import os
@@ -29,14 +29,14 @@ from keras import backend as K
 由于数据集只包含彩色图像，因此出于我们任务的目的，我们需要将其更改为灰度。因此，我们为此定义了一个函数。
 **代码:将 RGB 图像转换为灰度的功能**
 
-```
+```py
 def rgb_2_gray(image):
     return np.dot(image[..., :3], [0.299, 0.587, 0.114])
 ```
 
 **代码:加载数据集**
 
-```
+```py
 (x_train, _), (x_test, _) = cifar100.load_data()
 ```
 
@@ -44,7 +44,7 @@ def rgb_2_gray(image):
 
 **编码:数据归一化**
 
-```
+```py
 x_train = x_train.astype('float32') / 255.
 x_test = x_test.astype('float32') / 255.
 
@@ -55,7 +55,7 @@ x_test_gray = x_test_gray.astype('float32') / 255.
 深度学习模型的性能在很大程度上依赖于超参数集(包括层数、每层过滤器的数量、批次大小等)。).因此，选择好超参数是一项基本技能。为了获得最好的结果，我们需要尝试一套不同的方法。在这里，我们使用这些超参数集，
 **代码:超参数**
 
-```
+```py
 input_shape = (rows, cols, 1)
 batch_size = 32
 kernel_size = 3
@@ -68,7 +68,7 @@ layer_filters = [64, 128, 256]
 
 **代码:编码器**
 
-```
+```py
 inputs = Input(shape = input_shape)
 x = inputs
 for filters in layer_filters:
@@ -89,7 +89,7 @@ encoder = Model(inputs, latent, name ='encoder')
 
 **代码:解码器**
 
-```
+```py
 latent_inputs = Input(shape =(latent_dim, ), name ='decoder_input')
 x = Dense(shape[1]*shape[2]*shape[3])(latent_inputs)
 x = Reshape((shape[1], shape[2], shape[3]))(x)
@@ -111,7 +111,7 @@ decoder = Model(latent_inputs, outputs, name ='decoder')
 
 最后，我们定义了一个名为 autoencoder 的模型，它接受一个输入，然后将其传递给编码器，再通过解码器。
 
-```
+```py
 autoencoder = Model(inputs, decoder(encoder(inputs)),
                     name ='autoencoder')
 ```
@@ -120,7 +120,7 @@ autoencoder = Model(inputs, decoder(encoder(inputs)),
 一般来说，对于分类任务，我们将图像作为输入馈送给模型，并且它们各自的类作为标签给出。在训练过程中，我们通过测量模型如何将图像分类到作为标签给出的各自类别来比较模型的性能。但是，对于这个任务，我们提供彩色图像作为标签，因为我们希望当我们向模型提供灰度图像时，模型提供 RGB 图像作为输出。
 如果验证损失没有减少很多，我们也使用了回调来降低学习率。
 
-```
+```py
 autoencoder.fit(x_train_gray,
                 x_train,
                 validation_data =(x_test_gray, x_test),

@@ -6,7 +6,7 @@
 **注意:**不允许重复字符。
 示例:
 
-```
+```py
 Input : Dict = ["go","bat","me","eat","goal","boy", "run"]
         arr = ['e','o','b', 'a','m','g', 'l']
 Output : go, me, goal. 
@@ -18,7 +18,7 @@ Output : go, me, goal.
 1.  使用**集合**模块的[计数器(输入)](https://www.geeksforgeeks.org/counters-in-python-set-1/)方法，逐个遍历给定字符串列表，并将其转换为字典。
 2.  检查任何字符串的所有键是否都在给定的字符集内，这意味着这个单词是可以创建的。
 
-```
+```py
 # Function to print words which can be created
 # using given set of characters
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 go 
 me
 goal

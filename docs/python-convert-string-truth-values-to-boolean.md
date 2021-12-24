@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String Truth values to Boolean
 # Using list comprehension
@@ -38,7 +38,7 @@ print("The converted Boolean values : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['True', 'False', 'True', 'True', 'False']
 The converted Boolean values : [True, False, True, True, False]
 
@@ -50,7 +50,7 @@ The converted Boolean values : [True, False, True, True, False]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String Truth values to Boolean
 # Using map() + lambda
@@ -70,7 +70,7 @@ print("The converted Boolean values : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['True', 'False', 'True', 'True', 'False']
 The converted Boolean values : [True, False, True, True, False]
 

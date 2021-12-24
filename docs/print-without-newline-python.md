@@ -8,14 +8,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 print("geeks")
 print("geeksforgeeks")
 ```
 
 会导致这样的结果:
 
-```
+```py
 geeks
 geeksforgeeks
 ```
@@ -24,7 +24,7 @@ geeksforgeeks
 
 **例如:**
 
-```
+```py
 Input : print("geeks") print("geeksforgeeks")
 Output : geeks geeksforgeeks
 
@@ -38,7 +38,7 @@ Output : 1 2 3 4
 
 ## 大蟒
 
-```
+```py
 # Python 2 code for printing
 # on the same line printing
 # geeks and geeksforgeeks
@@ -58,7 +58,7 @@ for i in range(4):
 
 **输出:**
 
-```
+```py
 geeks geeksforgeeks
 1 2 3 4
 ```
@@ -67,7 +67,7 @@ geeks geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code for printing
 # on the same line printing
 # geeks and geeksforgeeks
@@ -87,7 +87,7 @@ for i in range(4):
 
 **输出:**
 
-```
+```py
 geeks geeksforgeeks
 1 2 3 4
 ```
@@ -96,7 +96,7 @@ geeks geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Print without newline in Python 3.x without using for loop
 
 l=[1,2,3,4,5,6]
@@ -110,6 +110,6 @@ print(*l)
 
 **输出:**
 
-```
+```py
 1 2 3 4 5 6
 ```

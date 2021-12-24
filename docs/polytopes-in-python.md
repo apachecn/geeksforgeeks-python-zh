@@ -8,7 +8,7 @@
 
 n 维多面体通常表示为**n-多面体**。例如，二维多面体将表示为二维多面体，三维多面体表示为三维多面体，等等。使用半空间表示法或 [H 表示法](https://en.wikipedia.org/wiki/Convex_polytope#Intersection_of_half-spaces)将多面体存储在 Python 中。这意味着多面体表示为两个矩阵和一个向量的向量矩阵乘法:
 
-```
+```py
 Ax <= B
 ```
 
@@ -16,19 +16,19 @@ Ax <= B
 
 多面体是第三方模块，所以我们需要在机器上安装它，然后才能使用它。要安装该模块，只需在终端中键入以下内容:
 
-```
+```py
 pip install polytope
 ```
 
 安装后，我们将模块导入到我们的 IDE 中，如下所示:
 
-```
+```py
 import polytope as pc
 ```
 
 我们现在将使用多面体模块创建一个多面体:
 
-```
+```py
 # Python program to demonstrate
 # polytopes
 
@@ -66,7 +66,7 @@ print(p)
 
 我们还可以使用以下方法检查元素是否在多面体中:
 
-```
+```py
 [4.0, 5.0] in p1
 ```
 
@@ -78,7 +78,7 @@ print(p)
 
 **例如:**
 
-```
+```py
 # Python program to demonstrate
 # polytopes
 
@@ -114,7 +114,7 @@ p1.diff(p2)
 
 我们可以迭代一个多面体区域。一个区域可以理解为包含两个多面体的容器，其中一个是起点，另一个是终点。考虑下面的代码。
 
-```
+```py
 # Python program to demonstrate
 # polytopes
 
@@ -143,7 +143,7 @@ r = pc.Region([p1, p2])
 
 上面的代码将创建一个由两个多面体组成的区域。这可以用作迭代器:
 
-```
+```py
 for polytope in r:
     print(polytope)
 ```

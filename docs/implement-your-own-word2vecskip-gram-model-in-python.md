@@ -11,7 +11,7 @@
 
 ![](img/df47bf5a0554166f2bd39a6a59859935.png)
 
-```
+```py
 Let's define some variables :
 
 V    Number of unique words in our corpus of text ( Vocabulary )
@@ -74,7 +74,7 @@ y<sub>j</sub>表示 w <sub>j</sub> 是上下文词的概率
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import string
 from nltk.corpus import stopwords
@@ -157,7 +157,7 @@ class word2vec(object):
 
 ## 蟒蛇 3
 
-```
+```py
 def preprocessing(corpus):
     stop_words = set(stopwords.words('english'))   
     training_data = []
@@ -204,7 +204,7 @@ def prepare_data_for_training(sentences,w2v):
 
 ## 蟒蛇 3
 
-```
+```py
 corpus = ""
 corpus += "The earth revolves around the sun. The moon revolves around the earth"
 epochs = 1000

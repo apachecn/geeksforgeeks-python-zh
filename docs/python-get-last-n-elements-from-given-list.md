@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Get last N elements from list
 # using list slicing
@@ -32,7 +32,7 @@ print("The last N elements of list are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The last N elements of list are : [2, 6, 7, 8, 10]
 ```
@@ -42,7 +42,7 @@ The last N elements of list are : [2, 6, 7, 8, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Get last N elements from list
 # using islice() + reversed()
@@ -68,7 +68,7 @@ print("The last N elements of list are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The last N elements of list are : [2, 6, 7, 8, 10]
 ```

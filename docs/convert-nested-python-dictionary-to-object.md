@@ -6,7 +6,7 @@
 
 **方法 1 :** 使用 **`json`** 模块。我们可以通过导入 json 模块并在`json.loads()`方法中使用自定义对象钩子来解决这个特殊问题。
 
-```
+```py
 # importing the module
 import json
 
@@ -41,7 +41,7 @@ print(obj1.G)
 
 **输出**
 
-```
+```py
 1
 2
 E

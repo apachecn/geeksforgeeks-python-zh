@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # how to check whether string contains
 # only numbers or not
@@ -33,7 +33,7 @@ else:
 
 **Output:** 
 
-```
+```py
 Initial Strings :  1234556 ab123bc
 String1 contains all numbers
 String2 doesn't contains all numbers
@@ -43,7 +43,7 @@ String2 doesn't contains all numbers
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # how to check whether string contains
 # only numbers or not
@@ -70,7 +70,7 @@ else:
 
 **Output:** 
 
-```
+```py
 Initial Strings :  1234556 ab123bc
 String1 contains all numbers
 String2 doesn't contains all numbers
@@ -80,7 +80,7 @@ String2 doesn't contains all numbers
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # how to check whether string contains
 # only numbers or not
@@ -109,7 +109,7 @@ except:
 
 **Output:** 
 
-```
+```py
 Initial Strings :  1234556 abc123
 String1 contains only digits
 String2 doesn't contains only digits

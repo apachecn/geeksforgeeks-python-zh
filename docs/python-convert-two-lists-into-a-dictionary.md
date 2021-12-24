@@ -7,7 +7,7 @@
 **方法#1 :** 天真法
 可以应用于执行此任务的基本方法是实现此目的的蛮力法。为此，只需声明一个字典，然后对这两个列表运行嵌套循环，并将键和值对从列表值分配给字典。
 
-```
+```py
 # Python3 code to demonstrate 
 # conversion of lists to dictionary
 # using naive method
@@ -35,7 +35,7 @@ print ("Resultant dictionary is : " +  str(res))
 
 **Output:**
 
-```
+```py
 Original key list is : ['Rash', 'Kil', 'Varsha']
 Original value list is : [1, 4, 5]
 Resultant dictionary is : {'Varsha': 5, 'Rash': 1, 'Kil': 4}

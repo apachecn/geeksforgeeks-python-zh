@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 使用列表理解是相当直接的方法来执行这个特定的任务。在这种情况下，我们只需在字典列表中迭代所需的值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get values of particular key in list of dictionaries
 # Using list comprehension

@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install vpython
 ```
 
@@ -34,7 +34,7 @@ pip install vpython
 
 **例 1 :** 一个没有参数的环，所有参数都会有默认值。
 
-```
+```py
 # import the module
 from vpython import * ring()
 ```
@@ -44,7 +44,7 @@ from vpython import * ring()
 
 **示例 2 :** 一个使用纹理、轴和向上参数的环。
 
-```
+```py
 # import the module
 from vpython import * ring(texture = textures.wood,
      axis = vector(0, 0, 1),
@@ -56,7 +56,7 @@ from vpython import * ring(texture = textures.wood,
 
 **示例 3 :** 显示 2 个环来可视化属性位置、半径和厚度。
 
-```
+```py
 # import the module
 from vpython import *
 

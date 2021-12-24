@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮力方法。在这种情况下，我们使用 not 运算符来测试主字符串中的元素是否存在，如果元素不存在于 K 字符串中，则提取它。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract characters except of K string
 # Using loop
@@ -34,7 +34,7 @@ print("String after removal of substring elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string 1 is : geeksforgeeks is best
 The original string 2 is : fes
 String after removal of substring elements : gkorgk i bt

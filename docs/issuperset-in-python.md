@@ -6,14 +6,14 @@
 
 ### **Python** issuperset() **语法:**
 
-```
+```py
 A.issuperset(B)
 checks whether A is a superset of B or not.
 ```
 
 ### **Python**issuperset()**Returns:**
 
-```
+```py
 True if A is a superset of B; otherwise false.
 ```
 
@@ -25,7 +25,7 @@ True if A is a superset of B; otherwise false.
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate working of
 # issuperset().
 
@@ -40,7 +40,7 @@ print("B.issuperset(A) : ", B.issuperset(A))
 
 **输出:**
 
-```
+```py
 A.issuperset(B) :  False
 B.issuperset(A) :  True
 ```
@@ -49,7 +49,7 @@ B.issuperset(A) :  True
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate working
 # of issuperset().
 
@@ -65,7 +65,7 @@ print("C.issuperset(B) : ", C.issuperset(B))
 
 **输出:**
 
-```
+```py
 A.issuperset(B) :  False
 B.issuperset(A) :  True
 A.issuperset(C) :  False

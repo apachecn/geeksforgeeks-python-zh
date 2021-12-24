@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Ranged Values in String list
 # Using loop
@@ -44,7 +44,7 @@ print("The Concatenated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['abGFGcs', 'cdforef', 'asalloi']
 The Concatenated String : GFGforall
 
@@ -56,7 +56,7 @@ The Concatenated String : GFGforall
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Ranged Values in String list
 # Using list comprehension + string slicing
@@ -79,7 +79,7 @@ print("The Concatenated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['abGFGcs', 'cdforef', 'asalloi']
 The Concatenated String : GFGforall
 

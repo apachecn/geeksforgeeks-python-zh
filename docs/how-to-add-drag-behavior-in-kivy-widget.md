@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from kivy.app import App
 from kivy.uix.label import Label
 

@@ -8,7 +8,7 @@
 
 为此，我们将 sigmoid 激活函数应用于线性回归的假设函数。逻辑回归的假设函数如下:
 
-```
+```py
 h( x ) = sigmoid( wx + b )
 
 Here, w is the weight vector.
@@ -25,7 +25,7 @@ sigmoid( z ) = 1 / ( 1 + e( - z ) )
 
 所以，我们使用的简化成本函数:
 
-```
+```py
 J = - ylog( h(x) ) - ( 1 - y )log( 1 - h(x) )
 
 here, y is the real target value
@@ -46,7 +46,7 @@ J = - log( h(x) )
 
 **梯度下降计算:**
 
-```
+```py
 repeat until convergence  {
        tmpi = wi - alpha * dwi
        wi = tmpi         
@@ -61,7 +61,7 @@ where alpha is the learning rate.
 
 dw 的链规则
 
-```
+```py
 here, a = sigmoid( z ) and z = wx + b.
 
 ```
@@ -72,7 +72,7 @@ here, a = sigmoid( z ) and z = wx + b.
 
 它有 8 个特征栏，如“*年龄*”、“*葡萄糖*”心电图，以及 108 名患者的目标变量“结果”。因此，在本文中，我们将训练一个逻辑回归分类器模型来预测有这种信息的患者是否存在糖尿病。
 
-```
+```py
 # Importing libraries
 import numpy as np
 import pandas as pd
@@ -179,7 +179,7 @@ if __name__ == "__main__" :     
 
 #### 输出:
 
-```
+```py
 Accuracy on test set by our model       :   58.333333333333336
 Accuracy on test set by sklearn model   :   61.111111111111114
 

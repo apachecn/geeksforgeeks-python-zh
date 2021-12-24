@@ -27,7 +27,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **示例:**
 
-    ```
+    ```py
     import json
 
     # python object(dictionary) to be dumped
@@ -62,7 +62,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **示例:**
 
-    ```
+    ```py
     import json
 
     # python object(dictionary) to be dumped
@@ -92,7 +92,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **例 1:**
 
-    ```
+    ```py
     # dictionary to be dumped
     d ={'lang':'??? ????'}
 
@@ -106,7 +106,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **例 2:** 如果设置为真，那么 json 文件的内容为:
 
-    ```
+    ```py
     import json
 
     # dictionary to be dumped
@@ -124,7 +124,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **例 1:**
 
-    ```
+    ```py
     import json
 
     # dictionary to be dumped
@@ -143,7 +143,7 @@ Python 模块中的`json`模块提供了一个名为`dump()`的方法，将 Pyth
 
     **例 2:** 如果设置为真，则不会产生错误。json 文件中的内容将是:
 
-    ```
+    ```py
     import json
 
     # dictionary to be dumped

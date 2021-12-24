@@ -25,7 +25,7 @@ ZIP 文件格式是一种常见的归档和压缩标准。它用于压缩文件�
 
 ## 蟒蛇 3
 
-```
+```py
 import zipfile
 
 def crack_password(password_list, obj):

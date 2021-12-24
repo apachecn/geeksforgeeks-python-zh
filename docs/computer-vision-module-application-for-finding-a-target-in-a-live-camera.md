@@ -10,7 +10,7 @@
 
 下载 Python 2.7，确保你有 cv2 模块(请注意 cv 模块是旧的，已经被 cv2 取代)和 argparse 模块。为此:
 
-```
+```py
 import cv2 as cv
 import argparse
 ```
@@ -33,7 +33,7 @@ import argparse
 
 直接代码链接:【https://ide . geeksforgeeks . org/xfuette 4】
 
-```
+```py
 import argparse
 import cv2
 

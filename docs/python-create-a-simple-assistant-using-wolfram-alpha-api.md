@@ -4,7 +4,7 @@
 
 `Wolfram|Alpha Webservice API`提供了一个基于网络的应用编程接口，允许 Wolfram|Alpha 的计算和呈现能力集成到网络、移动、桌面和企业应用程序中。`Wolfram Alpha`是一个可以使用 Wolfram 的算法、知识库和 AI 技术计算专家级答案的 API。沃尔夫拉姆语使之成为可能。本文讲述了如何用 Python 创建一个简单的助手应用程序，它可以回答下面列出的简单问题。
 
-```
+```py
 Input : What is the capital of India? 
 Output : New Delhi
 
@@ -33,14 +33,14 @@ Output : 0.5
 
 确保预先安装了`wolframalpha` python 包。可以通过在终端或 cmd 中运行以下命令来完成
 
-```
+```py
 pip install wolframalpha
 
 ```
 
 下面是实现
 
-```
+```py
 # Python program to 
 # demonstrate creation of an
 # assistant using wolf ram API

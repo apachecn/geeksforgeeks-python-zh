@@ -12,7 +12,7 @@
 
 **代码# 1:ln()方法示例**
 
-```
+```py
 # Python Program explaining 
 # ln() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with ln() method : ", b.ln())
 
 **输出:**
 
-```
+```py
 Decimal value a :  0.9932
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with ln() method :  -1.945911149055813305438686327
 
 **代码# 2:ln()方法示例**
 
-```
+```py
 # Python Program explaining 
 # ln() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with ln() method : ", b.ln())
 
 **输出:**
 
-```
+```py
 Decimal value a :  3.14
 Decimal value b :  3.21E+7
 

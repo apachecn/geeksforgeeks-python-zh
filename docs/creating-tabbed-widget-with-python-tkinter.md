@@ -7,7 +7,7 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 1.  **Import tkinter module**
 
-    ```
+    ```py
     import tkinter as tk
     from tkinter import *
     ```
@@ -16,21 +16,21 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 2.  **导入包含笔记本小部件**
 
-    ```
+    ```py
     from tkinter import ttk
     ```
 
     的 tkinter ttk 模块
 3.  **Create the parent window (root).**
 
-    ```
+    ```py
     root = tk.Tk()
 
     ```
 
     **语法:**
 
-    ```
+    ```py
     Tk()
     ```
 
@@ -39,13 +39,13 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 4.  **Add title to the parent window (root).**
 
-    ```
+    ```py
     root.title("Tab Widget")
     ```
 
     **语法:**
 
-    ```
+    ```py
     title(name)
     ```
 
@@ -54,13 +54,13 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 5.  **Creating Tab Control**
 
-    ```
+    ```py
     tabControl = ttk.Notebook(root)
     ```
 
     **语法:**
 
-    ```
+    ```py
     Notebook(master=None, **options)
     ```
 
@@ -70,14 +70,14 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
     *   **选项:**Notebook()方法接受的选项是高度、填充和宽度。该程序中不使用选项。
 6.  **Creating the tabs**
 
-    ```
+    ```py
     tab1 = ttk.Frame(tabControl)
     tab2 = ttk.Frame(tabControl)
     ```
 
     **语法:**
 
-    ```
+    ```py
     Frame(master=None, **options)
     ```
 
@@ -91,14 +91,14 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 7.  **Adding the tab**
 
-    ```
+    ```py
     tabControl.add(tab1, text='Tab 1')
     tabControl.add(tab2, text='Tab 2')
     ```
 
     **语法:**
 
-    ```
+    ```py
     add(child, **options)
     ```
 
@@ -112,13 +112,13 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 8.  **Packing the tab control to make the tabs visible**
 
-    ```
+    ```py
     tabControl.pack(expand=1, fill="both")
     ```
 
     **语法:**
 
-    ```
+    ```py
     pack(**options)
     ```
 
@@ -137,7 +137,7 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
     **语法:**
 
-    ```
+    ```py
     Label(master, **options)
     ```
 
@@ -151,7 +151,7 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
     **语法:**
 
-    ```
+    ```py
     grid(**options)
     ```
 
@@ -164,7 +164,7 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
 10.  **Run the application**
 
-    ```
+    ```py
     root.mainloop() 
     ```
 
@@ -174,7 +174,7 @@ Python 提供了一系列图形用户界面框架，可用于开发 Python 中�
 
     **完整程序如下:**
 
-    ```
+    ```py
     import tkinter as tk                    
     from tkinter import ttk
 

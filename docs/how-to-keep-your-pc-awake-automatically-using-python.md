@@ -6,7 +6,7 @@
 
 这里我们将使用一个 python 包 *PyAutoGUI* (跨平台 GUI 自动化 Python 模块用来编程控制鼠标&键盘。)这将使您的电脑永远保持清醒，直到您关闭程序。使用以下命令安装该模块:
 
-```
+```py
 pip install pyautogui
 ```
 
@@ -14,7 +14,7 @@ pip install pyautogui
 
 ## python 3
 
-```
+```py
 # Import required modules
 import pyautogui
 import time

@@ -15,7 +15,7 @@
 
 *   安装硒。
 
-```
+```py
 pip install selenium
 ```
 
@@ -51,7 +51,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # Social Bot Version 1 Codes:
 
 from selenium import webdriver

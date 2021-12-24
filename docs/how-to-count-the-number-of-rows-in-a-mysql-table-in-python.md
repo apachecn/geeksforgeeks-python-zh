@@ -6,7 +6,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于网�
 
 在本文中，我们将获取数据库中特定 MySQL 表的行数。首先，我们将连接到一个包含 MySQL 表的数据库。将要使用的 SQL 查询是:
 
-```
+```py
 *SELECT * FROM table-name*
 
 ```
@@ -25,7 +25,7 @@ MySQL 服务器是一个开源的关系数据库管理系统，是对基于网�
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 pymysql.install_as_MySQLdb()
@@ -60,7 +60,7 @@ print(number_of_rows)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 pymysql.install_as_MySQLdb()

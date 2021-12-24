@@ -14,7 +14,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 
 **语法:**
 
-```
+```py
 root.after(time in millisecond, function name)
 ```
 
@@ -22,7 +22,7 @@ root.after(time in millisecond, function name)
 
 ****语法:****
 
-```
+```py
 root.destroy()
 ```
 
@@ -30,7 +30,7 @@ root.destroy()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -78,7 +78,7 @@ mainloop()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 from tkinter import *
 

@@ -21,7 +21,7 @@ sys 模块提供了用于操作 Python 运行时环境不同部分的函数和�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # command line arguments
 
@@ -66,7 +66,7 @@ Python **getopt 模块**类似于 c 的 [getopt()](https://www.geeksforgeeks.org
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # command line arguments
 
@@ -117,7 +117,7 @@ except getopt.error as err:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # command line arguments
 
@@ -136,7 +136,7 @@ parser.parse_args()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # command line arguments
 
@@ -157,7 +157,7 @@ parser.parse_args()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # command line arguments
 

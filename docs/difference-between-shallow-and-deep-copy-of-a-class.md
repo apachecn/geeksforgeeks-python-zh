@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of the Deep
 # copy and Shallow Copy
 from copy import copy, deepcopy
@@ -55,7 +55,7 @@ print(copy_honda.colors, \
 
 **Output:** 
 
-```
+```py
 ['Red', 'Blue', 'Green'] ['Red', 'Blue']
 ['Red', 'Blue', 'Green'] ['Red', 'Blue', 'Green']
 

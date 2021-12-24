@@ -7,7 +7,7 @@
 **方法一:使用列表理解+`isdigit()`+`split()`+**
 这个问题可以通过使用 split 函数将字符串转换为 list，然后使用 list 理解来解决，List 理解可以帮助我们遍历列表，isdigit 函数有助于从字符串中获取数字。
 
-```
+```py
 # Python3 code to demonstrate
 # getting numbers from string 
 # using List comprehension + isdigit() +split()
@@ -28,7 +28,7 @@ print("The numbers list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : There are 2 apples for 4 persons
 The numbers list is : [2, 4]
 

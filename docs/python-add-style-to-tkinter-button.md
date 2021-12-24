@@ -8,7 +8,7 @@ Tkinter 是一个 Python 标准库，用于创建 GUI(图形用户界面)应用�
 
 我们可以创建 ttk。通过使用以下步骤按钮:
 
-```
+```py
 btn = ttk.Button(master, option = value, ...)
 ```
 
@@ -21,7 +21,7 @@ btn = ttk.Button(master, option = value, ...)
 
 在 ttk 上添加样式。按钮我们不能直接在选项中传递值。首先，我们必须创建一个样式对象，它可以创建如下:
 
-```
+```py
  style = ttk.Style()
 ```
 
@@ -30,7 +30,7 @@ btn = ttk.Button(master, option = value, ...)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 from tkinter import *
 from tkinter.ttk import *
@@ -79,7 +79,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 from tkinter import *
 from tkinter.ttk import *

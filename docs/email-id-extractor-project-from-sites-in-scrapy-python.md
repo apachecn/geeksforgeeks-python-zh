@@ -12,14 +12,14 @@ Scrapy 是用 Python 编写的开源网页抓取框架，用于网页抓取，�
 
 1.**包装安装**–从终端运行以下命令
 
-```
+```py
 pip install scrapy 
 pip install scrapy-selenium
 ```
 
 2.**创建项目–**
 
-```
+```py
 scrapy startproject projectname (Here projectname is geeksemailtrack) 
 cd projectname 
 scrapy genspider spidername (Here spidername is emails)
@@ -27,7 +27,7 @@ scrapy genspider spidername (Here spidername is emails)
 
 3)在 settings.py 文件中添加代码以使用 scrapy-selenium
 
-```
+```py
 from shutil import which 
 SELENIUM_DRIVER_NAME = 'chrome' 
 SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver') 
@@ -49,7 +49,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 ## 蟒蛇 3
 
-```
+```py
 # web scraping framework
 import scrapy
 
@@ -67,7 +67,7 @@ from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
 
 ## 蟒蛇 3
 
-```
+```py
 def start_requests(self):
     yield SeleniumRequest(
         url="https://www.geeksforgeeks.org/",
@@ -82,7 +82,7 @@ def start_requests(self):
 
 ## 蟒蛇 3
 
-```
+```py
 def parse(self, response):
         # this helps to get all links from source code
         links = LxmlLinkExtractor(allow=()).extract_links(response)
@@ -121,7 +121,7 @@ def parse(self, response):
 
 *   以下几行中的所有链接都是从 https://www.geeksforgeeks.org/的回复中提取的。
 
-```
+```py
 links = LxmlLinkExtractor(allow=()).extract_links(response) 
 Finallinks = [str(link.url) for link in links] 
 ```
@@ -129,7 +129,7 @@ Finallinks = [str(link.url) for link in links]
 *   Finallinks 是包含所有链接的列表。
 *   为了避免不必要的链接，我们把过滤器，如果链接属于联系和关于页面，那么只有我们刮从那个页面的细节。
 
-```
+```py
 for link in Finallinks: 
 if ('Contact' in link or 'contact' in link or 'About' in link or 'about' in link or 
 or 'CONTACT' in link or 'ABOUT' in 
@@ -144,7 +144,7 @@ links.append(link)
 
 ## 蟒蛇 3
 
-```
+```py
 def parse_link(self, response):
     # response.meta['links'] this helps to get links list
     links = response.meta['links']
@@ -202,7 +202,7 @@ def parse_link(self, response):
 
 ## 蟒蛇 3
 
-```
+```py
 def parsed(self, response):
     # emails list of uniqueemail set
     emails = list(self.uniqueemail)
@@ -226,7 +226,7 @@ def parsed(self, response):
 
 使用以下命令运行蜘蛛–
 
-```
+```py
 scrape crawl spidername (spidername is name of spider)
 ```
 
@@ -240,7 +240,7 @@ scrape crawl spidername (spidername is name of spider)
 
 ## 计算机编程语言
 
-```
+```py
 # web scraping framework
 import scrapy
 

@@ -19,7 +19,7 @@ uuid 模块定义了以下用于 uuid3()或 uuid5()的命名空间标识符:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working
 # of uuid3() and uuid5()
 import uuid
@@ -40,7 +40,7 @@ print ("The MD5 hash value generated ID is : ",
 
 **Output:** 
 
-```
+```py
 The SHA1 hash value generated ID is :  e13a319e-16d9-3ff5-a83c-96564007998e
 The MD5 hash value generated ID is :  dbe3178d-4b83-5024-9b26-9b8e1b280514
 ```
@@ -49,7 +49,7 @@ The MD5 hash value generated ID is :  dbe3178d-4b83-5024-9b26-9b8e1b280514
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working 
 # of uuid3() and uuid5()
 import uuid
@@ -70,7 +70,7 @@ print ("The MD5 hash value generated ID is : ",
 
 **Output:** 
 
-```
+```py
 The SHA1 hash value generated ID is :  adbed9f7-bbe3-376f-b88d-2018b8f6db07
 The MD5 hash value generated ID is :  f72cdf8a-b361-50b2-9451-37a997f8675d
 ```

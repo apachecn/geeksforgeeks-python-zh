@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 #include "pythonsample.h"
 /* An extension function that uses the exported API */
 static PyObject *print_point(PyObject *self, PyObject *args)
@@ -52,7 +52,7 @@ static struct PyModuleDef ptexamplemodule =
 
 **代码#2:模块初始化功能**
 
-```
+```py
 PyMODINIT_FUNC
 PyInit_ptexample(void)
 {
@@ -77,7 +77,7 @@ PyInit_ptexample(void)
 
 **代码#3 :**
 
-```
+```py
 # setup.py
 from distutils.core import setup, Extension
 
@@ -91,7 +91,7 @@ setup(name ='ptexample', 
 
 **代码#4:使用其他模块**中定义的 CPI API 函数
 
-```
+```py
 import ptexample
 import work
 
@@ -103,7 +103,7 @@ print ("\n", ptexample.print_point(p1))
 
 **输出:**
 
-```
+```py
 Point_1 : 
 
 2.000000 3.000000

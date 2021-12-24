@@ -7,7 +7,7 @@
 **方法#1:使用 issubset()**
 我们可以使用元组到集合的类型转换来解决这个问题，然后使用 issubset()检查一个元组是否是其他元组的子集。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if one tuple is subset of other
 # using issubset()
@@ -30,7 +30,7 @@ print("Is 2nd tuple subset of 1st ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5, 6)
 The original tuple 2 : (5, 10)
 Is 2nd tuple subset of 1st ? : True

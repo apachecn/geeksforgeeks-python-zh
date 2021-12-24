@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,7 +38,7 @@ print(outline)
 
 **输出:**
 
-```
+```py
 Sacred Games
 Sartaj Singh, a Mumbai police officer, receives an anonymous phone call from a gangster who threatens to blow up the entire city. Amid the corrupt standards of Indian law enforcement begins a battle between a 'nobody' cop and ruthless gangster who perceives (sometimes) himself to be a God.
 
@@ -46,7 +46,7 @@ Sartaj Singh, a Mumbai police officer, receives an anonymous phone call from a g
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 

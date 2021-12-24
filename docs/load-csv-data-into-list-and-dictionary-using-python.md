@@ -15,7 +15,7 @@ CSV 原始数据是不可利用的，为了在我们的 Python 程序中使用�
 
 ![python-load-csv](img/0ce2abb93de7b92ff385ef8cbd17ea5b.png)
 
-```
+```py
 # importing module 
 import csv
 
@@ -40,7 +40,7 @@ with open(filename,'r') as data:
 
 **示例 2:** 将 CSV 加载到字典
 
-```
+```py
 import csv
 
 filename ="Geeks.csv"

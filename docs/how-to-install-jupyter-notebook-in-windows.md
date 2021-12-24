@@ -42,7 +42,7 @@ pip 使用 PyPI 作为包及其依赖项的默认来源。
 
 要使用 pip 安装 Jupyter，我们需要首先检查 pip 是否在我们的系统中更新。使用以下命令更新 pip:
 
-```
+```py
 python -m pip install --upgrade pip
 ```
 
@@ -52,7 +52,7 @@ python -m pip install --upgrade pip
 
 *   **命令安装 Jupyter:**
 
-    ```
+    ```py
     python -m pip install jupyter
 
     ```
@@ -69,7 +69,7 @@ python -m pip install --upgrade pip
     **启动 Jupyter:**
     使用以下命令使用命令行启动 Jupyter:
 
-    ```
+    ```py
     jupyter notebook
     ```
 

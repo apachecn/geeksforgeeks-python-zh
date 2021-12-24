@@ -4,7 +4,7 @@
 
 给定两个整数列表，任务是找到两个列表元素不匹配的索引。
 
-```
+```py
 Input:
 Input1 = [1, 2, 3, 4]
 Input2 = [1, 5, 3, 6]
@@ -20,7 +20,7 @@ we have 4 and 6 which mismatches.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find the index at which the
 # element of two list doesn't match.
 
@@ -46,6 +46,6 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 [1, 3]
 ```

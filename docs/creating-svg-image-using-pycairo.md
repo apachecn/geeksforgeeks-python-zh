@@ -10,7 +10,7 @@
 
 **安装:**
 
-```
+```py
 pip install pycairo
 
 ```
@@ -28,7 +28,7 @@ pip install pycairo
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

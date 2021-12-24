@@ -8,7 +8,7 @@
 
 首先，您需要安装 Python3 和 PyMuPDF。要安装 PyMuPDF，只需打开您的终端并在其中键入以下内容
 
-```
+```py
 pip3 install PyMuPDF
 ```
 
@@ -32,7 +32,7 @@ pip3 install PyMuPDF
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import fitz
 import re

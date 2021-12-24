@@ -10,7 +10,7 @@
 
 这个模块不是用 Python 内置的。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install fitness-tools
 ```
 
@@ -18,7 +18,7 @@ pip install fitness-tools
 
 考虑一名 25 岁女性，其皮褶测量值以毫米为单位为:
 
-```
+```py
 triceps = 5
 biceps = 7
 thigh = 8
@@ -36,7 +36,7 @@ suprailliac = 12
 
 ## 蟒 3
 
-```
+```py
 from fitness_tools.composition.bodyfat import DurninWomersley
 
 data = DurninWomersley(25, 'female', (5, 7, 8, 12))
@@ -45,7 +45,7 @@ data.body_density()
 
 **输出:**
 
-```
+```py
 1.0519807465544626
 ```
 
@@ -53,7 +53,7 @@ data.body_density()
 
 ## 蟒 3
 
-```
+```py
 # pass the body density value to a
 # bodyfat equation inherited from
 # GenericCalculator

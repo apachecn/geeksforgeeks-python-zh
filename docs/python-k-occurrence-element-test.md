@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +列表理解**
 列表理解可以用求和函数来实现这个特定的任务。求和函数做求和部分，返回真的逻辑情况在列表理解部分处理。
 
-```
+```py
 # Python3 code to demonstrate 
 # K occurrence element Test
 # using sum() + list comprehension
@@ -39,7 +39,7 @@ print ("Does N occur K times ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 5, 5, 4, 5]
 Does N occur K times ? : True
 

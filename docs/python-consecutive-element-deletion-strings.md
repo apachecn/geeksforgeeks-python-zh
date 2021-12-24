@@ -7,7 +7,7 @@
 **方法一:使用列表理解+列表切片**
 这是可以执行这个任务的方式之一。在这种情况下，我们迭代列表的元素，并继续使用连续列表切片创建新的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive element deletion strings
 # Using list comprehension + list slicing

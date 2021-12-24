@@ -10,7 +10,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import keras
@@ -24,7 +24,7 @@ from keras.optimizers import Adam,SGD
 
 **第二步:加载数据**
 
-```
+```py
 #Loading the CIFAR10 data
 (X, y), (_, _) = keras.datasets.cifar10.load_data()
 
@@ -36,7 +36,7 @@ X = X[y.flatten() == 8]
 
 **第三步:定义用于后续流程的参数**
 
-```
+```py
 #Defining the Input shape
 image_shape = (32, 32, 3)
 
@@ -45,7 +45,7 @@ latent_dimensions = 100
 
 **第 4 步:定义一个实用函数来构建生成器**
 
-```
+```py
 def build_generator():
 
         model = Sequential()
@@ -79,7 +79,7 @@ def build_generator():
 
 **步骤 5:定义一个实用函数来构建鉴别器**
 
-```
+```py
 def build_discriminator():
 
         #Building the convolutional layers
@@ -119,7 +119,7 @@ def build_discriminator():
 
 **第 6 步:定义一个实用函数来显示生成的图像**
 
-```
+```py
 def display_images():
         r, c = 4,4
         noise = np.random.normal(0, 1, (r * c,latent_dimensions))
@@ -141,7 +141,7 @@ def display_images():
 
 **第七步:构建生成性对抗网络**
 
-```
+```py
 # Building and compiling the discriminator
 discriminator = build_discriminator()
 discriminator.compile(loss='binary_crossentropy',
@@ -171,7 +171,7 @@ combined_network.compile(loss='binary_crossentropy',
 
 **第八步:训练网络**
 
-```
+```py
 num_epochs=15000
 batch_size=32
 display_interval=2500
@@ -249,7 +249,7 @@ for epoch in range(num_epochs):
 
 a) **绘制原始图像**
 
-```
+```py
 #Plotting some of the original images 
 s=X[:40]
 s = 0.5 * s + 0.5
@@ -265,7 +265,7 @@ plt.show()
 
 b) **绘制上一个纪元**生成的图像
 
-```
+```py
 #Plotting some of the last batch of generated images
 noise = np.random.normal(size=(40, latent_dimensions))
 generated_images = generator.predict(noise)

@@ -10,7 +10,7 @@
 
     它也通过使用“ping 命令”而为人所知。ICMP 数据包使用 IP 地址发送到主机，如果收到 ICMP 回应，这意味着主机在线并正在接收信号。为此，需要获取您希望测试主机是否已连接的所有 IP 地址。该方法基于网络设备启用了 ICMP 的假设。
 
-    ```
+    ```py
     import subprocess
 
     for ping in range(1,10):
@@ -49,7 +49,7 @@
 
     这个过程完成后，连接就创建好了，主机和服务器就可以通信了。
 
-    ```
+    ```py
     #importing socket module
     import socket
 

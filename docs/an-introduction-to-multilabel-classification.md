@@ -23,7 +23,7 @@ The first thing we need to do is importing the required libraries, all the of th
 
 **代码:导入库**
 
-```
+```py
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -35,7 +35,7 @@ from sklearn.metrics import hamming_loss, accuracy_score
 在这之后，我们必须导入文本并对其进行适当的分割以训练模型，然而，原始文本本身对机器学习算法没有太大意义，因此，我们必须以不同的方式表示它们，有许多不同的形式来表示文本，这里我们将使用一种简单但非常强大的技术，称为 TF-IDF，它代表术语频率–反向文档频率，简而言之， 它用来表示一个文本语料库内部每个单词的重要性，你可能会在这篇 [不可思议的文章](https://www.geeksforgeeks.org/sklearn-feature-extraction-with-tf-idf/) 上找到更多关于 TF-IDF 的细节。 在下面的代码中，我们将文本集分配给 X，将每个文本中包含的方面分配给 y，将数据从行文本转换为 TF-IDF 我们将创建类 TfidfVectorizer 的一个实例，使用函数 *fit* 为其提供完整的文本集，这样以后我们就可以使用这个类来转换分割集，最后， 我们将在 train 和 test 数据之间分割数据，使用 70%的数据进行训练，剩下的用于测试最终模型，并使用我们之前创建的 TfidfVectorizer 实例中的函数 *transform* 转换这些集合中的每一个。
 **代码:**
 
-```
+```py
 aspects_df = pd.read_csv('semeval2014.csv')
 X = aspects_df["text"]
 y = np.asarray(aspects_df[aspects_df.columns[1:]])
@@ -56,7 +56,7 @@ X_test_tfidf = vetorizar.transform(X_test)
 现在一切都设置好了，所以我们可以实例化模型并训练它！可以使用几种方法来执行多标签分类，这里使用的方法将是 MLKnn，它是著名的 Knn 算法的改编，就像它的前身 MLKnn 基于目标和来自训练基地的数据之间的距离来推断目标的类别，但是假设它可能不属于任何类别或者属于所有类别。
 **代号:**
 
-```
+```py
 # using Multi-label kNN classifier
 mlknn_classifier = MLkNN()
 mlknn_classifier.fit(X_train_tfidf, y_train)
@@ -66,7 +66,7 @@ mlknn_classifier.fit(X_train_tfidf, y_train)
 
 **代码:**
 
-```
+```py
 new_sentences = ["I like the food but I hate the place"]
 new_sentence_tfidf = vetorizar.transform(new_sentences)
 
@@ -89,7 +89,7 @@ print(predicted_sentences.toarray())
 
 ****代码:****
 
-```
+```py
 predicted = mlknn_classifier.predict(X_test_tfidf)
 
 print(accuracy_score(y_test, predicted))

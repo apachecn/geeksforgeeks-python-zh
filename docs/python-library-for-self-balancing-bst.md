@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # The bisect module ensures the automatic sort after insertion
 import bisect
 

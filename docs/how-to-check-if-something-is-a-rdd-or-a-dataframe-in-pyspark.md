@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 import pyspark
 
@@ -55,7 +55,7 @@ print(isinstance(dataframe, DataFrame))
 
 ****输出:****
 
-```
+```py
 True
 ```
 
@@ -74,7 +74,7 @@ True
 
 ## **蟒蛇 3**
 
-```
+```py
 # import DataFrame
 from pyspark.sql import DataFrame
 
@@ -101,7 +101,7 @@ print(isinstance(data, RDD))
 
 ****输出:****
 
-```
+```py
 True
 ```
 
@@ -111,7 +111,7 @@ True
 
 ## **蟒蛇 3**
 
-```
+```py
 # import DataFrame
 from pyspark.sql import DataFrame
 
@@ -166,7 +166,7 @@ data.collect()
 
 ## **蟒蛇 3**
 
-```
+```py
 # need to import for session creation
 from pyspark.sql import SparkSession
 
@@ -183,7 +183,7 @@ print(type(rdd))
 
 ****输出:****
 
-```
+```py
 <class 'pyspark.rdd.RDD'>
 ```
 
@@ -191,7 +191,7 @@ print(type(rdd))
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 import pyspark
 
@@ -222,7 +222,7 @@ print(type(dataframe))
 
 ****输出:****
 
-```
+```py
 <class 'pyspark.sql.dataframe.DataFrame'>
 ```
 
@@ -234,7 +234,7 @@ print(type(dataframe))
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 from pyspark.rdd import RDD
 from pyspark.sql import DataFrame
@@ -288,7 +288,7 @@ print(check(sc.parallelize([("1", "sravan", "vignan", 67, 89)])))
 
 ****输出:****
 
-```
+```py
 RDD
 ```
 
@@ -296,7 +296,7 @@ RDD
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 from pyspark.rdd import RDD
 from pyspark.sql import DataFrame
@@ -346,6 +346,6 @@ print(check(spark.createDataFrame([("1", "sravan",
 
 ****输出:****
 
-```
+```py
 DataFrame
 ```

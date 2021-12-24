@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 @decor1
 @decor
 def num():
@@ -21,7 +21,7 @@ def num():
 
 ## 蟒蛇 3
 
-```
+```py
 # code for testing decorator chaining
 def decor1(func):
     def inner():
@@ -45,6 +45,6 @@ print(num())
 
 **输出:**
 
-```
+```py
 400
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libraries
 import pandas as pd
 import seaborn as sns
@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # import the dataset
 data = pd.read_csv( "https://raw.githubusercontent.com/jbrownlee/ \
                    Datasets/master/daily-total-female-births.csv")
@@ -46,7 +46,7 @@ display( data.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # set figure size
 plt.figure( figsize = ( 12, 5))
 
@@ -84,7 +84,7 @@ plt.ylabel('Female Births')
 
 ## 蟒蛇 3
 
-```
+```py
 # computing a 7 day rolling average
 data[ '7day_rolling_avg' ] = data.Births.rolling( 7).mean()
 
@@ -102,7 +102,7 @@ Display(data.head(10))
 
 ## 蟒蛇 3
 
-```
+```py
 # set figure size
 plt.figure( figsize = ( 12, 5))
 

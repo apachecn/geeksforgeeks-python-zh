@@ -23,7 +23,7 @@ pdb 支持-
 
 ## 蟒蛇 3
 
-```
+```py
 import pdb
 
 def addition(a, b):
@@ -71,7 +71,7 @@ print(sum)
 
 ## 蟒蛇 3
 
-```
+```py
 def addition(a, b):
     answer = a + b
     return answer
@@ -94,7 +94,7 @@ print(sum)
 
 ## 蟒蛇 3
 
-```
+```py
 def multiply(a, b):
     answer = a * b
     return answer

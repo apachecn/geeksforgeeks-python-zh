@@ -31,7 +31,7 @@
 
 **好的，让我们从一个非常基本的程序开始，了解 argparse 是做什么的。**
 
-```
+```py
 # importing required modules
 import argparse
 
@@ -75,7 +75,7 @@ if len(args.add) != 0:
 
 **所以，这是一个基本的例子，这样您就可以熟悉 argparse 和 CLI 的概念。现在，让我们继续我们的**“文本文件管理器”**程序。**
 
-```
+```py
 # importing the required modules
 import os
 import argparse

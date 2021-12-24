@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`API.unretweet()`** 方法用于取消转发已转
 **示例 1 :** 取消转发自己转发的 tween。取消发布以下推文:
 ![](img/d2d977262cd83510f71c13f6dee35878.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -55,7 +55,7 @@ api.unretweet(ID)
 
 获取上述推文的网名、回复数和转发数。
 
-```
+```py
 # the ID of the tweet to be un-retweeted
 ID = 1263493041769394178
 

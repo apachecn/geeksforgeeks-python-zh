@@ -14,7 +14,7 @@
 3.  当该单词中的一个字母被猜对时，该单词中该字母的位置就会变得可见。这样，在所有的机会结束之前，这个单词的所有字母都将被猜到。
 4.  为了方便起见，我们给了字数+ 2 的机会。例如，要猜测的单词是芒果，那么用户得到 5 + 2 = 7 的机会，因为芒果是一个五个字母的单词。
 
-```
+```py
 # Python Program to illustrate 
 # Hangman Game
 import random
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 **注意:**请在你的终端上运行程序。
 
-```
+```py
 omkarpathak@omkarpathak-Inspiron-3542:~/Documents/
 Python-Programs$ python P37_HangmanGame.py 
 Guess the word! HINT: word is a name of a fruit

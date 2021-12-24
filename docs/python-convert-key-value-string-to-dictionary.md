@@ -7,7 +7,7 @@
 **方法#1:使用`map() + split()` +循环**
 上述功能的组合可用于执行该任务。在本文中，我们使用 map 执行键值对到字典的转换，并使用 split()完成键值对的拆分。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert key-value String to dictionary
 # Using map() + split() + loop
@@ -32,7 +32,7 @@ print("The converted dictionary is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg:1, is:2, best:3
 The converted dictionary is : {'gfg': '1', 'is': '2', 'best': '3'}
 

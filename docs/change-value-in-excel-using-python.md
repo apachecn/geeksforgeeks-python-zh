@@ -8,7 +8,7 @@
 
 openpyxl 是一个可以读写 Excel xlsx/xlsm/xltx/xltm 文件的 Python 库。它诞生于缺乏一个现有的库来从 Python 中读取/写入本地的办公开放 XML 格式。openpyxl 是以下任务所需的库。您可以使用 Python 中的以下命令安装 **openpyxl** 模块。
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -33,7 +33,7 @@ pip install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 from openpyxl import load_workbook
 
 #load excel file
@@ -57,7 +57,7 @@ workbook.save(filename="csv/output.xlsx")
 
 此包提供了一组用于处理 Excel 文件的实用程序。因为这些实用程序可能需要 xlrd 和 xlwt 包中的一个或两个，所以它们在这里一起收集，与任何一个包分开。您可以使用 Python 中的以下命令来安装 xlwt/xlrd/xlutils 模块
 
-```
+```py
 pip install xlwt
 pip install xlrd
 pip install xlutils
@@ -88,7 +88,7 @@ pip install xlutils
 
 ## 蟒蛇 3
 
-```
+```py
 import xlwt
 import xlrd
 from xlutils.copy import copy

@@ -14,7 +14,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 
 **注意:**本模块仅适用于 Windows 和 Mac OS。
 
-```
+```py
 # Importing Image and ImageGrab module from PIL package 
 from PIL import Image, ImageGrab
 
@@ -29,7 +29,7 @@ im.show()
 
 **更改剪贴板上的图像后**
 
-```
+```py
 # Importing Image and ImageGrab module from PIL package 
 from PIL import Image, ImageGrab
 

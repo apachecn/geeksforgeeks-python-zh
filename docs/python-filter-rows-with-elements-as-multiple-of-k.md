@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Access element at Kth index in String
 # Using list comprehension + all()
@@ -49,7 +49,7 @@ print("Rows with K multiples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Access element at Kth index in String
 # Using filter() + lambda + all()

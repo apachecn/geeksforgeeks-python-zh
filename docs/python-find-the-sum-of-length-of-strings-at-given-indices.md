@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Length sum of custom indices Strings
 # Using len() + loop
@@ -47,7 +47,7 @@ print("Computed Strings lengths sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Computed Strings lengths sum : 10
 ```
@@ -58,7 +58,7 @@ Computed Strings lengths sum : 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Length sum of custom indices Strings
 # Using sum() + len() + list comprehension
@@ -82,7 +82,7 @@ print("Computed Strings lengths sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Computed Strings lengths sum : 10
 ```

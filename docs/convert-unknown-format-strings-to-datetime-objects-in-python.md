@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # "unknown format" strings to DateTime objects
 
@@ -35,7 +35,7 @@ print(date_time)
 
 **输出:**
 
-```
+```py
 1975-05-03 08:01:20
 ```
 
@@ -45,7 +45,7 @@ print(date_time)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # "unknown format" strings to DateTime objects
 
@@ -70,7 +70,7 @@ print(parser.parse(now.isoformat()))
 
 **输出:**
 
-```
+```py
 2021-08-20T13:35:23.829488
 2021-08-20 13:35:23.829488
 ```
@@ -83,7 +83,7 @@ print(parser.parse(now.isoformat()))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate the conversion of
 # "unknown format" strings to DateTime objects
 
@@ -100,6 +100,6 @@ print(B)
 
 **输出:**
 
-```
+```py
 2021-09-10 00:00:00
 ```

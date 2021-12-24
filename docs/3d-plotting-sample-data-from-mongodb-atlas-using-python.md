@@ -34,7 +34,7 @@
 
 下面是实现。
 
-```
+```py
 # Using PyMongo to create plots 
 import pymongo
 from mpl_toolkits.mplot3d import Axes3D

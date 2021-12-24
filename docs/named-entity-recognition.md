@@ -46,7 +46,7 @@ NER 最重要的建筑类别包括:
 
 ## 蟒蛇 3
 
-```
+```py
 # command to run before code
 ! pip install spacy
 ! pip install nltk
@@ -81,7 +81,7 @@ print(ents)
 displacy.render(doc, style='ent', jupyter=True)
 ```
 
-```
+```py
 [Python is an interpreted, high-level and general-purpose programming language.,
  Pythons design philosophy emphasizes code readability with its notable use of significant indentation.,
  Its language constructs and object-oriented approachaim to help programmers write clear, logical code for small and large-scale projects]
@@ -158,7 +158,7 @@ projects
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules and download packages
 import nltk
 nltk.download('words')

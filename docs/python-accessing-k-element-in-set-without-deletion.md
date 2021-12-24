@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_set = {6, 4, 2, 7, 9}, K = 7
 Output : 3
 Explanation : 7 occurs in 3rd index in set.
@@ -22,7 +22,7 @@ Explanation : 9 occurs in 4th index in set.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Accessing K element in set without deletion
 # Using loop
@@ -50,7 +50,7 @@ print("Position of K in set : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Position of K in set : 3
 ```
@@ -61,7 +61,7 @@ Position of K in set : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Accessing K element in set without deletion
 # Using next() + iter()
@@ -89,7 +89,7 @@ print("Position of K in set : " + str(idx))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Position of K in set : 3
 ```

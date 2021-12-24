@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这可以用简单的方法轻松完成，因此，也可以用列表理解转换成紧凑版本。这是执行此任务的最基本方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform boolean list initializing 
 # using list comprehension 
@@ -22,7 +22,7 @@ print ("The True initialized list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The True initialized list is : [True, True, True, True, True, True]
 
 ```

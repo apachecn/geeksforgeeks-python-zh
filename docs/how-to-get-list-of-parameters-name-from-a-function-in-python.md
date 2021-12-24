@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import collections
@@ -23,7 +23,7 @@ print(inspect.signature(collections.Counter))
 
 **输出:**
 
-```
+```py
 (*args, **kwds)
 ```
 
@@ -31,7 +31,7 @@ print(inspect.signature(collections.Counter))
 
 ## 蟒蛇 3
 
-```
+```py
 # explicit function
 def fun(a, b):
     return a**b
@@ -45,7 +45,7 @@ print(inspect.signature(fun)) 
 
 **输出:**
 
-```
+```py
 (a, b)
 ```
 
@@ -53,7 +53,7 @@ print(inspect.signature(fun)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules 
 import inspect 
 
@@ -63,7 +63,7 @@ print(inspect.signature(len))
 
 **输出:**
 
-```
+```py
 (obj, /)
 ```
 
@@ -75,7 +75,7 @@ print(inspect.signature(len))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import inspect
 import collections
@@ -92,7 +92,7 @@ print(inspect.getargspec(collections.Counter))
 
 ## 蟒蛇 3
 
-```
+```py
 # explicit function
 def fun(a, b):
     return a**b
@@ -112,7 +112,7 @@ print(inspect.getargspec(fun)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules 
 import inspect 
 

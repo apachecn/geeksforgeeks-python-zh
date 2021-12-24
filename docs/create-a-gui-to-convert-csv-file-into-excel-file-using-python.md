@@ -10,19 +10,19 @@
 
 *   **Pandas:** Python 是一种很好的数据分析语言，主要是因为以数据为中心的 Python 包的奇妙生态系统。要安装此模块，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install pandas
     ```
 
 *   **pandastable:** 这个库为 Tkinter 提供了一个带有绘图和数据操作功能的表格小部件。要安装该模块，在终端中输入以下命令
 
-    ```
+    ```py
     pip install pandastable
     ```
 
 *   **tkintertable:** 该库用于向 Tkinter 应用程序添加表。要安装此库，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install tkintertable
     ```
 
@@ -32,7 +32,7 @@
 
 ![gui-to-convert-csv-to-excel](img/5e32afebf0bd872cdc90d3c10c9899f0.png)
 
-```
+```py
 import pandas as pd
 from tkinter import *
 from tkinter import filedialog

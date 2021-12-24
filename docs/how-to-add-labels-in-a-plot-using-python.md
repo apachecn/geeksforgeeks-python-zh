@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # python program to plot graph without labels
 import matplotlib
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # python program for plots with label
 import matplotlib
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ plt.show()  # for display
 
 如果你想让它更容易理解，在剧情中加入一个**标题**，只需加入一行代码。
 
-```
+```py
 plt.title("Survey Of Colony")
 ```
 
@@ -77,7 +77,7 @@ plt.title("Survey Of Colony")
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for plots with label
 import matplotlib
 import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ plt.show()  # for display
 
 ## 计算机编程语言
 
-```
+```py
 # Adding font properties to labels and titles
 import matplotlib
 import matplotlib.pyplot as plt

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements from Ranges in List
 # Using loop + list slicing 
@@ -44,7 +44,7 @@ print("Ranges elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 4, 6, 7, 5, 4, 5, 4, 6, 4, 6, 9, 8]
 Ranges elements : [4, 6, 7, 5, 4, 4, 6, 9]
 
@@ -56,7 +56,7 @@ Ranges elements : [4, 6, 7, 5, 4, 4, 6, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract elements from Ranges in List
 # Using list comprehension
@@ -80,7 +80,7 @@ print("Ranges elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 4, 6, 7, 5, 4, 5, 4, 6, 4, 6, 9, 8]
 Ranges elements : [4, 6, 7, 5, 4, 4, 6, 9]
 

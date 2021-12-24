@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing geopy library
 from geopy.geocoders import Nominatim
 
@@ -76,7 +76,7 @@ print("Longitude = ", location.longitude)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from geopy.geocoders import Nominatim
 

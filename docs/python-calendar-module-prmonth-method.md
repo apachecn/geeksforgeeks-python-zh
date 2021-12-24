@@ -20,7 +20,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of prmonth() method
 
 # importing calendar module
@@ -39,7 +39,7 @@ print(text_cal.prmonth(year, month))
 
 **输出:**
 
-```
+```py
    September 2018
 Mo Tu We Th Fr Sa Su
                 1  2
@@ -53,7 +53,7 @@ Mo Tu We Th Fr Sa Su
 
 **代码#2:** 带参数宽度
 
-```
+```py
 # Python program to demonstrate working of prmonth() method
 
 # importing calendar module
@@ -69,7 +69,7 @@ print(text_cal.prmonth(2018, 10, w = 5))
 
 **输出:**
 
-```
+```py
                October 2018
  Mon   Tue   Wed   Thu   Fri   Sat   Sun
    1     2     3     4     5     6     7
@@ -82,7 +82,7 @@ print(text_cal.prmonth(2018, 10, w = 5))
 
 **代码#3:**
 
-```
+```py
 # Python program to demonstrate working of prmonth() method
 
 # importing calendar module
@@ -98,7 +98,7 @@ print(text_cal.prmonth(2018, 10, 6, 2))
 
 **输出:**
 
-```
+```py
                   October 2018
 
  Mon    Tue    Wed    Thu    Fri    Sat    Sun

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Escape reserved characters in Strings List
 # Using list comprehension + join()
@@ -44,7 +44,7 @@ print("The resultant escaped String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gf-g', 'is*', 'be)s(t']
 The resultant escaped String : ['Gf\\-g', 'is\\*', 'be\\)s\\(t']
 ```
@@ -55,7 +55,7 @@ The resultant escaped String : ['Gf\\-g', 'is\\*', 'be\\)s\\(t']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Escape reserved characters in Strings List
 # Using maketrans() + translate() + zip()
@@ -82,7 +82,7 @@ print("The resultant escaped String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gf-g', 'is*', 'be)s(t']
 The resultant escaped String : ['Gf\\-g', 'is\\*', 'be\\)s\\(t']
 ```

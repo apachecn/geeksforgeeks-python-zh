@@ -25,7 +25,7 @@ Tweepy 模块中`API`类的 **`remove_list_member()`** 方法用于从指定列�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -62,7 +62,7 @@ print("Number of members after remove_list_member() is used : " +
 
 **输出:**
 
-```
+```py
 Number of members after remove_list_member() is used : 1
 Number of members after remove_list_member() is used : 0
 
@@ -70,7 +70,7 @@ Number of members after remove_list_member() is used : 0
 
 **示例 2 :** 从列表中删除多个用户。
 
-```
+```py
 # the ID of the non-existent list
 list_id = 
 
@@ -91,7 +91,7 @@ print("Number of members after remove_list_member() is used : " +
 
 **输出:**
 
-```
+```py
 Number of members before remove_list_member() is used : 5
 Number of members after remove_list_member() is used : 1
 

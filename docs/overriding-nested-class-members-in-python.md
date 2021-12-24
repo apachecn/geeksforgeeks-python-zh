@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```py
 # Genes are like messages in human 
 # body which transfers from parent to 
 # child. Same thing we have used here
@@ -38,7 +38,7 @@ print(child.Trait.disease)
 
 **输出:**
 
-```
+```py
 ('Diabetes', 'Migraine', 'TB')
 ('Typhoid', 'Diabetes', 'Migraine', 'TB')>
 

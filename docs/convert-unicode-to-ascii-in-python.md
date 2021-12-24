@@ -10,7 +10,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install anyascii
 ```
 
@@ -20,7 +20,7 @@ pip install anyascii
 
 ## 蟒 3
 
-```
+```py
 from anyascii import anyascii
 
 # checking for Hindi script
@@ -38,7 +38,7 @@ print("The translation from Punjabi Script : "
 
 **输出:**
 
-```
+```py
 The translation from hindi Script : nmste vidyarthi
 The translation from Punjabi Script : sti sri akal
 ```
@@ -61,7 +61,7 @@ sym_uni = anyascii('➕ ☆ ℳ')
 
 print("The ASCII from Symbols : "
       + str(sym_uni))
-```
+```py
 
 **输出:**
 

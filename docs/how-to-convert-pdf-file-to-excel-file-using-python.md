@@ -10,7 +10,7 @@
 
 **安装:**
 
-```
+```py
 pip install git+https://github.com/pdftables/python-pdftables-api.git
 ```
 
@@ -20,7 +20,7 @@ pip install git+https://github.com/pdftables/python-pdftables-api.git
 
 ****语法:****
 
-```
+```py
 xml(pdf_path, xml_path)
 ```
 
@@ -34,7 +34,7 @@ xml(pdf_path, xml_path)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Module
 import pdftables_api
 
@@ -58,7 +58,7 @@ conversion.xlsx("pdf_file_path", "output_file_path")
 
 ****安装:****
 
-```
+```py
 pip install tabula-py
 ```
 
@@ -74,7 +74,7 @@ pip install tabula-py
 
 ****语法:****
 
-```
+```py
 read_pdf(PDF File Path, pages = Number of pages, **agrs)
 ```
 
@@ -88,7 +88,7 @@ read_pdf(PDF File Path, pages = Number of pages, **agrs)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Module 
 import tabula
 

@@ -12,7 +12,7 @@
 
 **代码#1:逻辑 _or()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_or() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with logical_or() method : ", b.logical_or(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  0
 Decimal value b :  1
 
@@ -47,7 +47,7 @@ Decimal b with logical_or() method :  1
 
 **代码#2:逻辑 _or()方法示例**
 
-```
+```py
 # Python Program explaining 
 # logical_or() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with logical_or() method : ", a.logical_or(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  1
 Decimal value b :  0
 

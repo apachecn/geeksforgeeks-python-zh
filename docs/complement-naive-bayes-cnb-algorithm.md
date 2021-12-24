@@ -88,7 +88,7 @@
 
 **代码:**
 
-```
+```py
 # Import required modules
 from sklearn.datasets import load_wine
 from sklearn.model_selection import train_test_split
@@ -118,7 +118,7 @@ print(f"Classifier Report : \n\n {classification_report(y_test, prediction)}")
 
 **输出**
 
-```
+```py
 Training Set Accuracy : 65.56291390728477 %
 
 Test Set Accuracy : 66.66666666666666 % 

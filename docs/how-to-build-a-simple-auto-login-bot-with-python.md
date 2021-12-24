@@ -12,7 +12,7 @@
 
 首先，我们必须使用下面的命令安装 selenium:
 
-```
+```py
 pip install selenium
 ```
 
@@ -33,7 +33,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # Used to import the webdriver from selenium
 from selenium import webdriver 
 import os

@@ -11,7 +11,7 @@ python 中有很多框架允许你创建一个像瓶子、瓶子、django 这样
 
 为了使用瓶子创建应用程序，我们必须先安装它
 
-```
+```py
 pip install bottle
 ```
 
@@ -21,7 +21,7 @@ pip install bottle
 
 ## 蟒蛇 3
 
-```
+```py
 from bottle import route, run
 
 @route('/')
@@ -33,7 +33,7 @@ run(host='localhost', port=8000,debug=True)
 
 要运行此应用程序，请打开命令提示符并运行
 
-```
+```py
 python app.py
 ```
 
@@ -49,7 +49,7 @@ python app.py
 
 ## 蟒蛇 3
 
-```
+```py
 from bottle import route, run, template
 
 @route('/hello/<name>')

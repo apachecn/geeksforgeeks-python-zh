@@ -18,7 +18,7 @@ Python 使用不同的图形用户界面应用程序，这些应用程序在与�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the usage
 # of hierarchical treeview in python GUI
 # application using tkinter

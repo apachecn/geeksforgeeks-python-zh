@@ -6,7 +6,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Python Selenium 中动作链的 key_down 方法展开。key_down 方法用于发送按键，而不释放它。这种方法用于想要按下 ctrl+c 或 ctrl+v 的情况。为此，需要先按住 ctrl 键，然后按下 c。这种方法使这项工作自动化。它只能与修饰键(控制、Alt 和 Shift)一起使用。
 **语法–**
 
-```
+```py
 key_down(value, element=None)
 ```
 
@@ -19,7 +19,7 @@ key_down(value, element=None)
 可以使用 key_down 方法作为动作链，如下所示。本示例打开网页
 后点击 Ctrl+C
 
-```
+```py
 ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).perform()
 ```
 
@@ -30,7 +30,7 @@ ActionChains(driver).key_down(Keys.CONTROL).send_keys('c').key_up(Keys.CONTROL).
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

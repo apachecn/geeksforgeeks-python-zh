@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`destroy_direct_message()`** 方法用于删除直
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -56,7 +56,7 @@ except:
 
 **输出:**
 
-```
+```py
 Before using the destroy_direct_message() object
 This direct message exists.
 
@@ -67,7 +67,7 @@ This direct message no longer exists.
 
 **示例 2 :** 试图删除不存在的直接消息会引发异常。
 
-```
+```py
 # invalid direct message ID
 id = 12345
 
@@ -77,7 +77,7 @@ api.destroy_direct_message(id)
 
 **输出:**
 
-```
+```py
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 34, 'message': 'Sorry, that page does not exist.'}]
 

@@ -12,7 +12,7 @@
 
 以下方法用下面给出的例子来解释:
 
-```
+```py
 # Python code for accessing attributes of class 
 class emp: 
     name='Harsh'
@@ -39,7 +39,7 @@ delattr(emp,'salary') 
 
 输出:
 
-```
+```py
 Harsh
 True
 152
@@ -47,7 +47,7 @@ True
 
 **静态方法:**静态方法是完全不使用自变量 self 的方法[成员函数]。若要声明静态方法，请使用语句“@staticmethod”继续。
 
-```
+```py
 # Python code for accessing methods using static method 
 class test: 
     @staticmethod
@@ -74,7 +74,7 @@ print (t1.result) 
 
 输出:
 
-```
+```py
 4
 9
 9
@@ -85,7 +85,7 @@ print (t1.result) 
 通过将一个类的对象传递给另一个类来访问另一个类的属性和方法。
 用下面给出的例子解释:
 
-```
+```py
 # Python code for Accessing attributes and methods 
 # of one class in another class 
 
@@ -120,7 +120,7 @@ print (object2.var2) 
 
 输出:
 
-```
+```py
 3
 3
 2

@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 python 的 PYGLET 模块中从格式化文档中获取指定位置的字体。Pyglet 是一个易于使用但功能强大的库，用于开发视觉上丰富的图形用户界面应用程序，如游戏、多媒体等。窗口是占用操作系统资源的“重量级”对象。窗口可能显示为浮动区域，或者可以设置为充满整个屏幕(全屏)。格式化文档的布局通常是通过添加结构来增强其可读性，例如标题、缩进、字体变化和其他转换纯文本(未格式化)的设备，以便它们具有与已发布作品相似的外观。在金属排版技术中，字体是一种字体的特定大小、重量和样式。每种字体都是一组匹配的字体，每个字形一个，一种字体由一系列共享整体设计的字体组成。
 我们可以借助下面给出的命令创建一个窗口和格式化文档
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -22,7 +22,7 @@ document = pyglet.text.document.FormattedDocument(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -108,7 +108,7 @@ pyglet.app.run()
 
 ![](img/e0c70fd05bd331bfe3ab3f67957a776c.png)
 
-```
+```py
 Document font :  pyglet.font.win32.GDIPlusFont object at 0x000001E9695350C8
 ​
 ```

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Library
 from selenium import webdriver
 ```
@@ -21,7 +21,7 @@ from selenium import webdriver
 
 ## 蟒蛇 3
 
-```
+```py
 # Chrome Path
 driver = webdriver.Chrome('Enter Chrome Path')
 
@@ -33,13 +33,13 @@ driver.get('Enter Web URL')
 
 **语法:**
 
-```
+```py
 Object Name.find_element_by_tag_name(Tag Name)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Get Text
 print (element.text)
 
@@ -51,7 +51,7 @@ driver.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Library
 from selenium import webdriver
 

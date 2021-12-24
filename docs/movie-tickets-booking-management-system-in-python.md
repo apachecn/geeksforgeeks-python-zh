@@ -19,7 +19,7 @@
 
 **1。t_movie:** 此方法用于选择电影名称。
 
-```
+```py
 #this t_movie function is used to select movie name 
 def t_movie():
     global f
@@ -43,7 +43,7 @@ def t_movie():
 
 **2。theater():** 此方法用于选择屏幕。
 
-```
+```py
 # this theater function used to select screen 
 def theater():
     print("which screen do you want to watch movie: ")
@@ -57,7 +57,7 @@ def theater():
 
 **3。定时(a):** 此方法用于选择电影的定时。
 
-```
+```py
 # this timing function used to select timing for movie 
 def timing(a):
     time1 = {
@@ -101,7 +101,7 @@ def timing(a):
 
 **4。电影(剧场):**此方法用于根据剧场选择电影。
 
-```
+```py
 def movie(theater):
     if theater == 1:
         t_movie()
@@ -117,7 +117,7 @@ def movie(theater):
 
 **5。center():** 此方法用于选择剧场。
 
-```
+```py
 def center():
     print("which theater do you wish to see movie? ")
     print("1,Inox")
@@ -131,7 +131,7 @@ def center():
 
 **6。city():** 此方法用于选择城市。
 
-```
+```py
 # this function is used to select city 
 def city():
     print("hi welcome to movie ticket booking: ")
@@ -154,7 +154,7 @@ def city():
 
 ## 蟒蛇 3
 
-```
+```py
 global f
 f = 0
 

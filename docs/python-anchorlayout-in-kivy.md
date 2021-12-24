@@ -10,13 +10,13 @@
 
 锚定布局将其子元素与边框(顶部、底部、左侧、右侧)或中心对齐。下面给出的类用于实现锚点布局。
 
-```
+```py
 kivy.uix.anchorlayout.AnchorLayout
 ```
 
 锚定布局可以用参数初始化:
 
-```
+```py
 anchor_x
 Parameters can be passed: “left”, “right” and “center”.
 
@@ -33,7 +33,7 @@ Parameters can be passed:“top”,  “bottom” and “center”.
 
 **注意:**记得给一个锚点布局添加多个小部件，只把小部件放在同一个位置。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -49,7 +49,7 @@ Basic Approach:
 
 **1) anchor_x= '右'，anchor_y= '底':**
 
-```
+```py
 # Sample Python application demonstrating
 # the working of AnchorLayout in Kivy
 
@@ -99,7 +99,7 @@ root.run()
 
 **2) anchor_x= '右'，anchor_y= '上':**
 
-```
+```py
 # A Kivy app demonstrating the working of anchor layout
 class AnchorLayoutApp(App):
 

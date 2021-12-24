@@ -31,7 +31,7 @@ r 是一个缩放参数，不影响肺活量图的结构。
 
 所以，现在让我们试着用代码实现它。
 
-```
+```py
 #importing the required libraries
 import random, argparse
 import math
@@ -281,7 +281,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 
 <video class="wp-video-shortcode" id="video-163481-1" width="665" height="374" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/2017-11-01-at-17-28-59.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/2017-11-01-at-17-28-59.mp4](https://media.geeksforgeeks.org/wp-content/uploads/2017-11-01-at-17-28-59.mp4)</video>
 

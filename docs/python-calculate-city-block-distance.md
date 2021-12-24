@@ -22,7 +22,7 @@
 
 **代码:Python scratch 代码使用上面的公式计算距离。**
 
-```
+```py
 import numpy as np
 
 def cityblock_distance(A, B):
@@ -42,7 +42,7 @@ if __name__== "__main__":
 
 **输出:**
 
-```
+```py
 The CityBlock distance between 2 arrays is: 36
 
 ```
@@ -51,7 +51,7 @@ The CityBlock distance between 2 arrays is: 36
 
 **代码:Python 代码使用预定义的方法使用上面的公式计算距离。**
 
-```
+```py
 # Import necessary package
 import scipy.spatial.distance as d
 
@@ -72,7 +72,7 @@ if __name__== "__main__":
 
 **输出:**
 
-```
+```py
 [[ 36\.  17.]
  [ 27\.  16.]]
 

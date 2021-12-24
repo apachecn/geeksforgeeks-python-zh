@@ -40,7 +40,7 @@ ThreadPoolExecutor 类公开了三种异步执行线程的方法。下面给出�
 
 ## 蟒蛇 3
 
-```
+```py
 from concurrent.futures import ThreadPoolExecutor
 from time import sleep
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Output: 
 Cube of 2:8
 Cube of 3:27
@@ -80,7 +80,7 @@ Cube of 6:216
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 import time
 import concurrent.futures
@@ -122,7 +122,7 @@ print(f'MultiThreaded Code Took:{t2 - t1} seconds')
 
 **输出:**
 
-```
+```py
 Downloading..
 Downloading..
 Downloading..

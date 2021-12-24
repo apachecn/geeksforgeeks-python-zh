@@ -8,7 +8,7 @@
 
 上述 3 个函数的组合被用来通过朴素方法解决这个特殊问题。lambda 函数执行寻找相似长度的任务，next 函数有助于向前迭代。
 
-```
+```py
 # Python3 code to demonstrate
 # Categorize by string size 
 # using next() + lambda + loop
@@ -35,7 +35,7 @@ print("The list after Categorization : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['man', 'a', 'geek', 'for', 'b', 'free']
 The list after Categorization : [['man', 'for'], ['a', 'b'], ['geek', 'free']]
 
@@ -45,7 +45,7 @@ The list after Categorization : [['man', 'for'], ['a', 'b'], ['geek', 'free']]
 
 这个特殊的任务也可以使用 groupby 函数来解决，该函数提供了一种解决这个问题的方便方法。sorted 函数按大小对元素进行排序，以馈送到相关分组的 groupby。
 
-```
+```py
 # Python3 code to demonstrate
 # Categorize by string size 
 # using sorted() + groupby()
@@ -69,7 +69,7 @@ print("The list after Categorization : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['man', 'a', 'geek', 'for', 'b', 'free']
 The list after Categorization : [['a', 'b'], ['man', 'for'], ['geek', 'free']]
 

@@ -7,7 +7,7 @@
 **方法#1:使用 `if`**
 这个任务可以简单的使用条件运算符`"if"`来解决。`if`语句自动检查任何语句的真实性，从而检查键的值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if key has Non-None value in dictionary
 # Using if

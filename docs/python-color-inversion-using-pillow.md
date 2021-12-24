@@ -5,7 +5,7 @@
 颜色反转(图像负片)是反转图像像素值的方法。图像反转不依赖于图像的颜色模式，即反转工作在通道级别。当在多色图像(RGB、CMYK 等)上使用反转时，每个通道被单独处理，最终结果通过调用所有通道的结果形成。
 我们将使用枕头(PIL)库来获取图像的底片。要安装库，请在命令行中执行以下命令:-
 
-```
+```py
 pip install pillow
 ```
 
@@ -20,7 +20,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing imagechops for using the invert() method
 from PIL import Image, ImageChops
 
@@ -56,7 +56,7 @@ inv_img.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # numpy for performing batch processing and elementwise

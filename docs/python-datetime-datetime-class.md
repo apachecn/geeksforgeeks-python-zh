@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate datetime object
 
@@ -43,7 +43,7 @@ print(a)
 
 **Output**
 
-```
+```py
 2022-10-22 00:00:00
 2022-10-22 06:02:32.005456
 ```
@@ -75,7 +75,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Getting min datetime
@@ -89,7 +89,7 @@ print("Max DateTime supported", maxdatetime)
 
 **Output**
 
-```
+```py
 Min DateTime supported 0001-01-01 00:00:00
 Max DateTime supported 9999-12-31 23:59:59.999999
 ```
@@ -98,7 +98,7 @@ Max DateTime supported 9999-12-31 23:59:59.999999
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Getting Today's Datetime
@@ -115,7 +115,7 @@ print("Second: ", today.second)
 
 **Output**
 
-```
+```py
 Day:  26
 Month:  7
 Year:  2021
@@ -165,7 +165,7 @@ DateTime 类提供了各种函数来处理 DateTime 对象，比如我们可以�
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Getting Today's Datetime
@@ -186,7 +186,7 @@ print("Today's date using today() method:", today)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # Getting Datetime from timestamp
@@ -200,7 +200,7 @@ print("Datetime from ordinal:", date_time)
 
 **Output**
 
-```
+```py
 Datetime from timestamp: 2029-10-25 16:17:48
 Datetime from ordinal: 2021-07-23 00:00:00
 ```

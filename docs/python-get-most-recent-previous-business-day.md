@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Last business day
 # using timedelta() + conditional statements + weekday()
@@ -54,7 +54,7 @@ print("Last business day : " + str(res))
 
 **输出:**
 
-```
+```py
 The original date is : 2020-01-31 00:00:00
 Last business day : 2020-01-30 00:00:00
 ```
@@ -65,7 +65,7 @@ Last business day : 2020-01-30 00:00:00
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Last business day
 # using max() + % operator + timedelta() 
@@ -90,7 +90,7 @@ print("Last business day : " + str(res))
 
 ****输出:****
 
-```
+```py
 The original date is : 2020-01-31 00:00:00
 Last business day : 2020-01-30 00:00:00
 ```
@@ -101,7 +101,7 @@ Last business day : 2020-01-30 00:00:00
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Last business day
 # using pd.tseries.offsets.BusinessDay(n)
@@ -129,7 +129,7 @@ print("Last business day : " + str(res))
 
 ****输出:****
 
-```
+```py
 The original date is : 2020-02-03 00:00:00
 Last business day : 2020-01-31 00:00:00
 ```

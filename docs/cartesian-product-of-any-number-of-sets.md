@@ -5,7 +5,7 @@
 给定 N 个集合。任务是编写一个程序，以给定的顺序执行所有集合的笛卡尔乘积。
 **例** :
 
-```
+```py
 Input:
 1st set: 1 2
 2nd set: A 
@@ -35,7 +35,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for cartesian
 # product of N-sets
 
@@ -90,7 +90,7 @@ Cartesian(list_a, n)
 
 **Output:** 
 
-```
+```py
 [[1, 'A', 'x'],
  [1, 'A', 'y'],
  [1, 'A', 'z'], 

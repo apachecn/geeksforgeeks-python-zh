@@ -18,7 +18,7 @@
 
 **例:**
 
-```
+```py
 # Python program to illustrate functions 
 # can be treated as objects 
 def shout(text): 
@@ -34,7 +34,7 @@ print(yell('Hello'))
 
 **输出:**
 
-```
+```py
 HELLO
 HELLO
 
@@ -48,7 +48,7 @@ HELLO
 
 **例:**
 
-```
+```py
 # Python program to illustrate functions 
 # can be passed as arguments to other functions 
 def shout(text): 
@@ -69,7 +69,7 @@ greet(whisper)
 
 **输出:**
 
-```
+```py
 HI, I AM CREATED BY A FUNCTION PASSED AS AN ARGUMENT.
 hi, i am created by a function passed as an argument.
 
@@ -81,7 +81,7 @@ hi, i am created by a function passed as an argument.
 
 **示例:**
 
-```
+```py
 # Python program to illustrate functions 
 # Functions can return another function 
 
@@ -98,7 +98,7 @@ print(add_15(10))
 
 **输出:**
 
-```
+```py
 25
 
 ```
@@ -109,7 +109,7 @@ print(add_15(10))
 
 **语法:**
 
-```
+```py
 @gfg_decorator
 def hello_decorator(): 
     .
@@ -120,7 +120,7 @@ def hello_decorator():
 
 以上代码相当于–
 
-```
+```py
 
 def hello_decorator(): 
     .
@@ -135,7 +135,7 @@ hello_decorator = gfg_decorator(hello_decorator)
 
 **例:**
 
-```
+```py
 # defining a decorator 
 def hello_decorator(func): 
 
@@ -169,7 +169,7 @@ function_to_be_used() 
 
 **输出:**
 
-```
+```py
 Hello, this is before function execution
 This is inside the function !!
 This is after function execution

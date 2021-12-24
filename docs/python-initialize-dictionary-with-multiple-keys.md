@@ -7,7 +7,7 @@
 **方法#1:使用`loop`**
 我们可以有一个执行这个特定任务的循环。但这只是部分解决了我们的多重加法问题，但字典必须事先声明。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize dictionary with multiple keys
 # Using loop

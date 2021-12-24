@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter dictionaries with ordered values
 # Using sorted() + values() + list comprehension
@@ -53,7 +53,7 @@ print("The filtered Dictionaries : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter dictionaries with ordered values
 # Using filter() + lambda + sorted()

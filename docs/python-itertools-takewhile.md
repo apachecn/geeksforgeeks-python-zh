@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 takewhile(predicate, iterable)
 ```
 
@@ -20,7 +20,7 @@ takewhile(predicate, iterable)
 
 下面给出了使用简单 if-else 的这个函数的一般实现。
 
-```
+```py
 def takewhile(predicate, iterable):
    for i in iterable:
        if predicate(i):
@@ -34,7 +34,7 @@ def takewhile(predicate, iterable):
 **示例 1:list 和 takewhile()**
 考虑一个整数列表。我们只需要输出中的偶数。看看下面的代码，看看如果我们使用`takewhile()`会发生什么。
 
-```
+```py
 from itertools import takewhile
 
 # function to check whether 
@@ -53,7 +53,7 @@ print(new_li)
 
 **Output:**
 
-```
+```py
 [0, 2, 4, 8, 22, 34, 6]
 
 ```
@@ -61,7 +61,7 @@ print(new_li)
 **示例 2: Strings and takewhile()**
 考虑一个字母数字字符串。现在我们需要取元素，只要它们是数字。
 
-```
+```py
 from itertools import takewhile
 
 # function to test the elements
@@ -79,7 +79,7 @@ for i in takewhile(test_func, "11234erdg456"):
 
 **输出:**
 
-```
+```py
 Testing: 1
 Output : 1
 
@@ -104,7 +104,7 @@ Testing: e
 **示例 3:take while()**
 中的 lambda 函数考虑输入字符串的元素，直到遇到“s”。
 
-```
+```py
 from itertools import takewhile
 
 # input string
@@ -119,7 +119,7 @@ print(li)
 
 **输出:**
 
-```
+```py
 ['G', 'e', 'e', 'k']
 
 ```
@@ -127,7 +127,7 @@ print(li)
 **示例 4:**
 按照随机顺序列出字母，并考虑元素，直到遇到“e”或“I”或“u”。
 
-```
+```py
 import random
 from itertools import takewhile
 

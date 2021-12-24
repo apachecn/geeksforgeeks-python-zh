@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strings Frequency (Case Insensitive)
 # Using defaultdict() + lower()
@@ -42,7 +42,7 @@ print("Strings Frequency : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg', 'Best', 'best', 'gfg', 'GFG', 'is', 'IS', 'BEST']
 Strings Frequency : {'gfg': 3, 'best': 3, 'is': 2}
 

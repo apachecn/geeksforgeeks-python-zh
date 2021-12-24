@@ -18,7 +18,7 @@ SVG 规范在 2011 年更新为 1.1 版。有两种“移动 SVG 配置文件”
 
 ## 计算机编程语言
 
-```
+```py
 # importing pycairo
 import cairo
 

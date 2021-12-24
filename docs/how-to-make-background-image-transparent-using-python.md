@@ -8,7 +8,7 @@
 
 在继续之前，首先在您的 Python 应用程序上安装**枕头**库。Python 图像库是一个免费的开源 Python 编程语言附加库，增加了对打开、操作和保存许多图像文件格式的支持。**枕库**对于这个提到的程序是必要的。您可以使用代码在 Python 中安装枕头库
 
-```
+```py
 pip install pillow
 ```
 
@@ -25,7 +25,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 def convertImage():

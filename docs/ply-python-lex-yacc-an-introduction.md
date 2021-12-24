@@ -21,13 +21,13 @@
 
 当它通过 ply.py 传递时，会生成以下标记
 
-```
+```py
 'y','=', 'a', '+', '2', '*', 'b'
 ```
 
 这些生成的令牌通常与令牌名称一起使用，而令牌名称总是必需的。
 
-```
+```py
 #Token list of above tokens will be
 tokens = ('ID','EQUAL','ID', 'PLUS', 'NUMBER', 'TIMES','ID' )
 
@@ -40,7 +40,7 @@ tokens = ('ID','EQUAL','ID', 'PLUS', 'NUMBER', 'TIMES','ID' )
 
 更具体地，这些可以表示为令牌类型和令牌的元组
 
-```
+```py
 ('ID', 'y'), ('EQUALS', '='), ('ID', 'a'), ('PLUS', '+'), 
 ('NUMBER', '2'), ('TIMES', '*'), ('NUMBER', '3')
 ```
@@ -68,7 +68,7 @@ Python 实现 yacc.py 不涉及代码生成过程，而是使用**反射**来制
 要从您的 lex 文件中导入令牌，请使用 lex_file_name_here 中的**导入令牌**，其中令牌是 lex 文件中指定的令牌列表。
 为了指定语法规则，我们必须在 yacc 文件中定义函数。其语法如下:
 
-```
+```py
 def function_name_here(symbol):
     expression = expression token_name term
 ```

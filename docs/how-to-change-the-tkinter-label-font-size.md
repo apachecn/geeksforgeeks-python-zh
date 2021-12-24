@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module and Widgets
 from tkinter import Tk
 from tkinter.ttk import Label
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module and Widgets
 from tkinter import Tk
 from tkinter.ttk import Label, Style
@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module and Widgets
 from tkinter import Tk
 from tkinter.ttk import Label, Style
@@ -207,7 +207,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module and Widgets
 from tkinter import Tk
 from tkinter.font import BOLD, Font

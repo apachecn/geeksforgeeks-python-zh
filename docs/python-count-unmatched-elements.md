@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate 
 # Count unmatched elements
 # using loop
@@ -34,7 +34,7 @@ print ("The number of non-odd elements: " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The number of non-odd elements: 1
 ```
@@ -44,7 +44,7 @@ The number of non-odd elements: 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate 
 # Count unmatched elements
 # using len() + generator expression
@@ -66,7 +66,7 @@ print ("The number of non-odd elements: " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The number of non-odd elements: 1
 ```

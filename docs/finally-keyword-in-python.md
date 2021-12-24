@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```py
 try:
        # Some Code.... 
 
@@ -30,7 +30,7 @@ finally:
 
 **示例#1:**
 
-```
+```py
 # Python program to demonstrate finally
 
 # No exception Exception raised in try block
@@ -50,14 +50,14 @@ finally:
 
 **输出:**
 
-```
+```py
 Can't divide by zero
 This is always executed
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate finally
 
 try:
@@ -76,7 +76,7 @@ finally:
 
 **输出:**
 
-```
+```py
 5
 This is always executed
 
@@ -84,7 +84,7 @@ This is always executed
 
 **例 3:**
 
-```
+```py
 # Python program to demonstrate finally
 
 # Exception is not handled
@@ -100,14 +100,14 @@ finally:
 
 **输出:**
 
-```
+```py
 This is always executed
 
 ```
 
 **运行时错误–**
 
-```
+```py
 *Unhandled Exception* 
     k=5//0 #No exception raised
 ZeroDivisionError: integer division or modulo by zero

@@ -6,35 +6,35 @@
 
 *   **步骤 1** :使用 psycopg2 模块的 ***connect()方法连接到 PostgreSQL 数据库。***
 
-```
+```py
 conn = psycopg2.connect(dsn)
 
 ```
 
 *   **步骤 2:** 通过调用 ***光标()方法*** 创建一个新的光标对象
 
-```
+```py
 cur = conn.cursor()
 
 ```
 
 *   **步骤 3:** 现在通过运行 ***execute()方法*** 来执行 INSERT 语句
 
-```
+```py
 cur.execute(sql, (value1,value2))
 
 ```
 
 *   **第 4 步:**插入数据后调用 ***commit()方法*** 使更改永久化。
 
-```
+```py
 conn.commit()
 
 ```
 
 *   **步骤 5:** 现在终止光标和与数据库的连接。
 
-```
+```py
 cur.close()
 conn.close()
 
@@ -48,7 +48,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/python
 
 import psycopg2
@@ -86,7 +86,7 @@ def insert_student(student_name):
 
 现在在 *psql* 外壳中使用以下命令来验证插入:
 
-```
+```py
 SELECT * FROM student;
 
 ```

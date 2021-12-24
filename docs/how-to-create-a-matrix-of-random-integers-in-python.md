@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy as np  
 
@@ -43,7 +43,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # 1st argument --> numbers ranging from 0 to 9, 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group single item dictionaries into List values
 # Using setdefault() + loop
@@ -46,7 +46,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3}, {'is': 8}, {'Best': 10}, {'Gfg': 18}, {'Best': 33}]
 The constructed dictionary : {'Gfg': [3, 18], 'is': [8], 'Best': [10, 33]}
 
@@ -58,7 +58,7 @@ The constructed dictionary : {'Gfg': [3, 18], 'is': [8], 'Best': [10, 33]}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group single item dictionaries into List values
 # Using defaultdict() + * operator + loop
@@ -84,7 +84,7 @@ print("The constructed dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3}, {'is': 8}, {'Best': 10}, {'Gfg': 18}, {'Best': 33}]
 The constructed dictionary : {'Gfg': [3, 18], 'is': [8], 'Best': [10, 33]}
 

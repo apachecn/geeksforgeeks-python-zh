@@ -41,7 +41,7 @@
 
 **Example :**
 
-```
+```py
 import gi
 # Since a system can have multiple versions
 # of GTK + installed, we want to make 

@@ -7,7 +7,7 @@
 **方法#1:使用 loop + regex**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用循环来循环字符串，正则表达式用于过滤字符中的字母。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # First alphabet index
 # Using loop + regex
@@ -32,7 +32,7 @@ print("Index of first character : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : 34#$g67fg
 Index of first character : 4
 

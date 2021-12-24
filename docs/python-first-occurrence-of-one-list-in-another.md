@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # First occurrence of one list in another
 # Using next() + set()
@@ -49,7 +49,7 @@ print("First element in list 1 from 2 : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [1, 6, 3, 7, 8, 9, 2]
 The original list 2 is : [4, 10, 8, 2, 0, 11]
 First element in list 1 from 2 : 8

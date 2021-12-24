@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 解决这个问题最常见的方法是使用一个循环，并将元素的出现次数相乘，直到给定的数字为 k
 
-```
+```py
 # Python 3 code to demonstrate 
 # Elements Product till K value
 # using naive method 
@@ -34,7 +34,7 @@ print ("The product till K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The product till K : 90
 

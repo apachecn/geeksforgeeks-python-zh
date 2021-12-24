@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = True
 type(a)
 
@@ -22,7 +22,7 @@ type(b)
 
 **输出:**
 
-```
+```py
 <class 'bool'>
 <class 'bool'>
 ```
@@ -33,7 +33,7 @@ type(b)
 
 **语法:**
 
-```
+```py
 bool([x])
 ```
 
@@ -41,7 +41,7 @@ bool([x])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # built-in method bool()
 
@@ -73,7 +73,7 @@ print(bool(x))
 
 **Output**
 
-```
+```py
 False
 False
 False
@@ -88,7 +88,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Declaring variables
 a = 10
 b = 20
@@ -99,7 +99,7 @@ print(a == b)
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -109,7 +109,7 @@ False
 
 ## 蟒 3
 
-```
+```py
 var1 = 0
 print(bool(var1))
 
@@ -122,7 +122,7 @@ print(bool(var3))
 
 **输出:**
 
-```
+```py
 False
 True
 True
@@ -157,7 +157,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # or operator
 
@@ -176,7 +176,7 @@ if a or b or c:
 
 **Output**
 
-```
+```py
 True
 Atleast one number has boolean value as True
 ```
@@ -202,7 +202,7 @@ Atleast one number has boolean value as True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # and operator
 
@@ -223,7 +223,7 @@ else:
 
 **Output**
 
-```
+```py
 False
 Atleast one number has boolean value as False
 ```
@@ -245,7 +245,7 @@ Atleast one number has boolean value as False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # not operator
 
@@ -257,7 +257,7 @@ if not a:
 
 **Output**
 
-```
+```py
 Boolean value of a is False
 ```
 
@@ -269,7 +269,7 @@ Boolean value of a is False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # equivalent an not equivalent
 # operator
@@ -289,7 +289,7 @@ if a != b:
 
 **Output**
 
-```
+```py
 True
 True
 ```
@@ -302,7 +302,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # is keyword
 
@@ -322,7 +322,7 @@ print(x is y)
 
 **Output**
 
-```
+```py
 True
 False
 ```
@@ -335,7 +335,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # in keyword
 
@@ -349,6 +349,6 @@ if "lion" in animals:
 
 **Output**
 
-```
+```py
 True
 ```

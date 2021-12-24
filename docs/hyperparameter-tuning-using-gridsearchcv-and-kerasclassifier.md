@@ -22,7 +22,7 @@
 
 **Code:**
 
-```
+```py
 # import the libraries 
 import tensorflow as tf
 import pandas as pd
@@ -39,7 +39,7 @@ from sklearn.preprocessing import StandardScaler
 
 **代码:**
 
-```
+```py
 # The last column is a binary value
 dataset = pd.read_csv('Churn_Modelling.csv')
 X = dataset.iloc[:, 3:-1].values
@@ -48,7 +48,7 @@ y = dataset.iloc[:, -1].values
 
 **编码:数据预处理**
 
-```
+```py
 le = LabelEncoder()
 X[:, 2] = le.fit_transform(X[:, 2])
 #perform one hot encoding 
@@ -63,7 +63,7 @@ X = sc.fit_transform(X)
 
 **代码:**
 
-```
+```py
 def build_clf(unit):
   # creating the layers of the NN
   ann = tf.keras.models.Sequential()
@@ -76,7 +76,7 @@ def build_clf(unit):
 
 **代码:创建 KerasClassifier 类的对象**
 
-```
+```py
 model=KerasClassifier(build_fn=build_clf)
 ```
 
@@ -84,7 +84,7 @@ model=KerasClassifier(build_fn=build_clf)
 
 **代码:**
 
-```
+```py
 params={'batch_size':[100, 20, 50, 25, 32], 
         'nb_epoch':[200, 100, 300, 400],
         'unit':[5,6, 10, 11, 12, 15],
@@ -99,7 +99,7 @@ gs = gs.fit(X, y)
 
 **代码:**
 
-```
+```py
 best_params=gs.best_params_
 accuracy=gs.best_score_
 ```

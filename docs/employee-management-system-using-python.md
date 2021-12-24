@@ -17,7 +17,7 @@
 
 为了建立连接，我们需要安装[**【MySQL connector】**](https://www.geeksforgeeks.org/mysql-connector-python-module-in-python/)，这可以通过在 Windows 上的命令提示符下编写以下命令来完成。
 
-```
+```py
 pip install mysqlconnector
 ```
 
@@ -25,7 +25,7 @@ pip install mysqlconnector
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 con = mysql.connector.connect(
@@ -50,7 +50,7 @@ check employee 函数将雇员 id 作为参数，并检查在雇员详细信息�
 
 ## 蟒蛇 3
 
-```
+```py
 # Function To Check if Employee with
 # given Id Exist or Not
 
@@ -86,7 +86,7 @@ def check_employee(employee_id):
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to mAdd_Employee
 
 def Add_Employ():
@@ -127,7 +127,7 @@ def Add_Employ():
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to Remove Employee with given Id
 def Remove_Employ():
     Id = input("Enter Employee Id : ")
@@ -163,7 +163,7 @@ def Remove_Employ():
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to Promote Employee
 def Promote_Employee():
     Id = int(input("Enter Employ's Id"))

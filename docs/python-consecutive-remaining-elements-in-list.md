@@ -7,7 +7,7 @@
 **方法:使用`range() + from_iterable() + groupby() + list comprehension`**
 结合以上功能即可执行并求解该任务。在这种情况下，我们首先使用 groupby 函数来形成组，并使用 `range()`将其转换为反向范围。所有这些都被转换为生成器，以避免创建嵌套列表，然后使用`from_iterable()`获得最终列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Consecutive remaining elements in list
 # using range() + from_iterable() + groupby() + list comprehension
@@ -30,7 +30,7 @@ print("Consecutive remaining elements list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 4, 5, 5, 5, 1, 1, 2, 4]
 Consecutive remaining elements list : [2, 1, 3, 2, 1, 2, 1, 1, 1]
 

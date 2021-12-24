@@ -21,7 +21,7 @@ Selenium 是通过程序控制网络浏览器和执行浏览器自动化的强�
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 from selenium import webdriver
 from selenium.webdriver.common.by import By

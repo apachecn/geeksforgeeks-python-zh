@@ -12,7 +12,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 from functools import wraps
 
@@ -44,7 +44,7 @@ print(countdown.__annotations__)
 
 **输出:**
 
-```
+```py
 countdown 0.00827932357788086
 countdown
 Counts down
@@ -55,7 +55,7 @@ Counts down
 
 *   复制装饰器元数据是编写装饰器的一个重要部分。如果忘记使用**@ wrapps**，会发现修饰后的功能失去了各种有用的信息。例如，如果省略，最后一个示例的输出将如下所示:
 
-```
+```py
 countdown 0.030733823776245117
 wrapper
 None
@@ -64,7 +64,7 @@ None
 
 *   **@ wrapped**装饰器的一个重要特性是，它在 **__wrapped__** 属性中为您提供了 wrapped 功能。例如，如果您想直接访问包装函数，您可以这样做:
 
-```
+```py
 countdown.__wrapped__(100000)
 ```
 
@@ -72,7 +72,7 @@ countdown.__wrapped__(100000)
 
 ## 蟒蛇 3
 
-```
+```py
 from inspect import signature
 
 print(signature(countdown))
@@ -80,6 +80,6 @@ print(signature(countdown))
 
 *   **输出:**
 
-```
+```py
 (n:int)
 ```

@@ -8,7 +8,7 @@
 
 **Code #1 :**
 
-```
+```py
 from queue import Queue
 from threading import Thread, Event
 
@@ -43,7 +43,7 @@ def producer(out_q):
 
 **代码#2 :**
 
-```
+```py
 from queue import Queue
 from threading import Thread
 import copy
@@ -74,7 +74,7 @@ def consumer(in_q):
 
 **代码#3 : `get()`和`put()`支持非阻塞和超时的方法。**
 
-```
+```py
 import queue
 q = queue.Queue()
 
@@ -97,7 +97,7 @@ except queue.Empty:
 
 **代码# 4:发出日志消息并丢弃**
 
-```
+```py
 def producer(q):
     ...
     try:
@@ -110,7 +110,7 @@ def producer(q):
 
 **代码#5:使用超时**
 
-```
+```py
 _running = True
 
 def consumer(q):

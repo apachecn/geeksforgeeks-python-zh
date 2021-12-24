@@ -20,7 +20,7 @@ matplotlib 库中 pyplot 模块中的[**暂停()**](https://www.geeksforgeeks.or
 
 ## 计算机编程语言
 
-```
+```py
 from matplotlib import pyplot as plt
 
 x = []
@@ -61,7 +61,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
@@ -103,7 +103,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation, writers
 import numpy as np
@@ -149,7 +149,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 import random
@@ -188,7 +188,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker

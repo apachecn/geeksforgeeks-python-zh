@@ -7,7 +7,7 @@
 **方法#1:使用`type()`**
 这个内置的功能可以作为执行这个任务的简写。它检查变量的类型，也可以用来检查元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if variable is tuple
 # using type()
@@ -28,7 +28,7 @@ print("Is variable tuple ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (4, 5, 6)
 Is variable tuple ? : True
 

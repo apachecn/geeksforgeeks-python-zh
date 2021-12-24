@@ -18,7 +18,7 @@ UUID，通用唯一标识符，是一个 python 库，它帮助生成 128 位的
 
 uuid1()在 uuid 库中定义，有助于使用 **MAC 地址和时间组件**生成随机 id。
 
-```
+```py
 # Python3 code to generate the
 # random id using uuid1()
 
@@ -31,7 +31,7 @@ print (uuid.uuid1())
 
 输出:
 
-```
+```py
 The random id using uuid1() is : 67460e74-02e3-11e8-b443-00163e990bdb
 
 ```
@@ -58,7 +58,7 @@ The random id using uuid1() is : 67460e74-02e3-11e8-b443-00163e990bdb
 *   **时间:**id 的时间成分字段。
 *   **clock_seq :** 14 位序列号。
 
-```
+```py
 # Python3 code to demonstrate
 # components, representations 
 # and variants of uuid1()
@@ -105,7 +105,7 @@ print (id.node)
 
 输出:
 
-```
+```py
 The Representations of uuid1() are : 
 byte Representation : b'k\x10\xa1n\x02\xe7\x11\xe8\xaeY\x00\x16>\x99\x0b\xdb'
 int Representation : 142313746482664936587190810281013480411
@@ -129,7 +129,7 @@ Time component  : 95539497947
 **方法二:使用 uuid4()**
 此功能保证随机号，不妥协隐私。
 
-```
+```py
 # Python3 code to generate
 # id using uuid4()
 
@@ -144,7 +144,7 @@ print (id)
 
 输出:
 
-```
+```py
 The id generated using uuid4() : fbd204a7-318e-4dd3-86e0-e6d524fc3f98
 
 ```

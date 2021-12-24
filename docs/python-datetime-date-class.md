@@ -6,7 +6,7 @@ Date 类的对象表示根据当前公历包含年、月和日期的初始日期
 
 **语法:**
 
-```
+```py
 class datetime.date(year, month, day)
 ```
 
@@ -22,7 +22,7 @@ class datetime.date(year, month, day)
 
 ## 蟒 3
 
-```
+```py
 # Python program to
 # demonstrate date class
 
@@ -47,7 +47,7 @@ print("Date passed as argument is", my_date)
 
 **输出**
 
-```
+```py
 Date passed as argument is 2020-12-11
 ```
 
@@ -71,7 +71,7 @@ Date passed as argument is 2020-12-11
 
 T5】python 3T7
 
-```
+```py
 from datetime import date
 
 # Getting min date
@@ -89,7 +89,7 @@ T8T10**输出**T1
 
 ## 中访问年、月、日属性【python 3
 
-```
+```py
 from datetime import date
 
 # creating the date object
@@ -103,7 +103,7 @@ print("Day:", Date.day)
 
 **输出**
 
-```
+```py
 Year: 2020
 Month: 12
 Day: 11

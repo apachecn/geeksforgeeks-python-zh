@@ -15,7 +15,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **注意:**以上两点都提供了滚动、选择和基本的用户交互。
 
-```
+```py
 Basic Approach 
 1) import kivy
 2) import kivyApp
@@ -33,7 +33,7 @@ Basic Approach
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to explain how to use File chooser in kivy 
 
 # import kivy module    
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 #, kv file implementation
 
 <Filechooser>:

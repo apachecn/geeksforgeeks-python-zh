@@ -16,7 +16,7 @@ Tweepy 模块中`API`类的 **`trends_available()`** 方法用于获取 Twitter 
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -43,14 +43,14 @@ print("The number of locations available are : " + str(len(trends)))
 
 **输出:**
 
-```
+```py
 The number of locations available are : 467
 
 ```
 
 **例 2 :**
 
-```
+```py
 # fetching the trends
 trends = api.trends_available()
 
@@ -62,7 +62,7 @@ for i in range(0, 200, 20):
 
 **输出:**
 
-```
+```py
 Some of the locations are : 
 Place : Worldwide, Country : 
 Place : Leeds, Country : United Kingdom

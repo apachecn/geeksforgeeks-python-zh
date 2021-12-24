@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import abc
 import time
 import datetime

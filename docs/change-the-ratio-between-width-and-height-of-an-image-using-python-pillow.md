@@ -6,7 +6,7 @@
 
 [**Python 图像库(PIL 的扩展)**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/#:~:text=Python%20Imaging%20Library%20(expansion%20of,editing%2C%20creating%20and%20saving%20images.) 是 Python 语言事实上的图像处理包。它集成了轻量级图像处理工具，有助于编辑、创建和保存图像。本模块未预装 Python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -32,7 +32,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to change the ratio of height and
 # width of an image 
 from PIL import Image
@@ -63,7 +63,7 @@ img.save('Resized Image.png')
 
 **输出:**
 
-```
+```py
 Ratio before conversion: 1.0
 Ratio after conversion: 1.25
 ```

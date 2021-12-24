@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 我们可以使用`%%time`命令来检查特定细胞的运行时间。例如，让我们看看执行下面提到的代码所花费的时间。
 
-```
+```py
 # For capturing the execution time
 %%time 
 

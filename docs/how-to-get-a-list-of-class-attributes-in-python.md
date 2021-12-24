@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # classes
 
@@ -37,7 +37,7 @@ print(Student.stream) 
 
 **输出:**
 
-```
+```py
 COE
 COE
 Shivam
@@ -56,7 +56,7 @@ COE
 
 **示例:**
 
-```
+```py
 class Number :
 
     # Class Attributes
@@ -97,7 +97,7 @@ print(dir(Number))
 
 **例 1:**
 
-```
+```py
 import inspect
 
 class Number :
@@ -133,7 +133,7 @@ for i in inspect.getmembers(n):
 
 **输出:**
 
-```
+```py
 first second third 2
 ('attr', 2)
 ('one', 'first')
@@ -146,7 +146,7 @@ first second third 2
 
 **示例:**
 
-```
+```py
 class Number :
 
     # Class Attributes
@@ -177,7 +177,7 @@ print(n.__dict__.values())
 
 **输出:**
 
-```
+```py
 first second third 2
 {'attr': 2}
 dict_keys(['attr'])

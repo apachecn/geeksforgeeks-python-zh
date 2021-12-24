@@ -20,7 +20,7 @@ FaceNet 在其架构中采用端到端学习。它使用 ZF 网络或初始作�
 
 我们要确保主播形象 *(*
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:
@@ -30,7 +30,7 @@ Error: Nothing to show, formula is empty
 
 *)* 一个人更接近正面形象 *(*
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:
@@ -40,7 +40,7 @@ Error: Nothing to show, formula is empty
 
 *)* (同一个人的图像)与负面图像 *(*
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:

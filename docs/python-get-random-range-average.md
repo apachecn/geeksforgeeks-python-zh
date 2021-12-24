@@ -15,7 +15,7 @@
 **方法#1:使用 loop + `uniform()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 uniform()执行提取数字的任务，循环用于执行数字相加。平均值在最后通过除以大小来计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random Range Average
 # Using loop + uniform()
@@ -46,7 +46,7 @@ print("The average value : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The average value : 42.980287235196116
 
 ```
@@ -54,7 +54,7 @@ The average value : 42.980287235196116
 **方法 2:使用`sum() + uniform()` +生成器表达式**
 以上功能的组合可以解决这个问题。在本文中，我们使用 sum()来计算 sum()来执行求平均值的任务，并且使用生成器表达式将整个逻辑封装在一行中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random Range Average
 # Using sum() + uniform() + generator expression
@@ -79,7 +79,7 @@ print("The average value : " + str(res))
 
 **Output :**
 
-```
+```py
 The average value : 42.980287235196116
 
 ```

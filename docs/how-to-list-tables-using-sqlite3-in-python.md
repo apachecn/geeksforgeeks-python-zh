@@ -14,32 +14,32 @@
 
 1.使用 connect()方法创建连接对象，
 
-```
+```py
 sqliteConnection = sqlite3.connect('SQLite_Retrieving_data.db')
 ```
 
 2.创建了一个 SQL 查询，我们将使用它来搜索 sqlite3 数据库中存在的所有表的列表。
 
-```
+```py
 sql_query = """SELECT name FROM sqlite_master  
   WHERE type='table';"""
 ```
 
 3.使用连接对象，我们正在创建一个光标对象。
 
-```
+```py
 cursor = sqliteConnection.cursor()
 ```
 
 4.使用 execute()方法，我们将执行上面的 SQL 查询。
 
-```
+```py
 cursor.execute(sql_query)
 ```
 
 5.最后，我们将打印 sqlite3 数据库中存在的所有表的列表。
 
-```
+```py
 print(cursor.fetchall())
 ```
 
@@ -47,7 +47,7 @@ print(cursor.fetchall())
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Sqlite3 Module
 import sqlite3
 

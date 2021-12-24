@@ -8,7 +8,7 @@ Arrow 是一个用于处理日期和时间的 Python 模块。它为创建、操
 
 箭头模块通过以下命令安装:
 
-```
+```py
 pip install arrow
 ```
 
@@ -28,7 +28,7 @@ pip install arrow
 
 ## 蟒蛇 3
 
-```
+```py
 # importing arrow module
 import arrow
 
@@ -41,7 +41,7 @@ print('Current UTC Time is =', utc_time)
 
 **输出:**
 
-```
+```py
 Current UTC Time is = 2020-02-28T18:06:39.228924+00:00
 ```
 
@@ -51,7 +51,7 @@ Current UTC Time is = 2020-02-28T18:06:39.228924+00:00
 
 ## 蟒蛇 3
 
-```
+```py
 # importing arrow module
 import arrow
 
@@ -64,7 +64,7 @@ print('Current India Time =', ind_time)
 
 **输出:**
 
-```
+```py
 Current India Time = 2020-02-28T23:40:07.112695+05:30
 ```
 
@@ -74,7 +74,7 @@ Current India Time = 2020-02-28T23:40:07.112695+05:30
 
 ## 蟒蛇 3
 
-```
+```py
 # importing arrow module
 import arrow
 
@@ -90,7 +90,7 @@ print(date)
 
 **输出:**
 
-```
+```py
 2020-02-02T12:30:45+00:00
 ```
 
@@ -104,7 +104,7 @@ Unix 时间是描述时间点的系统。它是自 Unix 纪元以来经过的秒
 
 ## 蟒蛇 3
 
-```
+```py
 # importing arrow module
 import arrow
 
@@ -129,7 +129,7 @@ print(date)
 
 **输出:**
 
-```
+```py
 2020-03-04T13:33:15.041536+00:00
 1583328795
 2020-03-04T19:03:15+05:30
@@ -141,7 +141,7 @@ print(date)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing arrow module
 import arrow
 
@@ -163,7 +163,7 @@ print(arrow_dt)
 
 **输出:**
 
-```
+```py
 2020-03-04 19:16:04.317690
 2020-03-04T00:00:00+00:00
 ```
@@ -174,7 +174,7 @@ print(arrow_dt)
 
 ## 蟒蛇 3
 
-```
+```py
 #import arrow module
 import arrow
 
@@ -189,7 +189,7 @@ print(a.year)
 
 **输出:**
 
-```
+```py
 datetime.time(19, 16, 04, 317690)
 datetime.date(2020, 3, 4)
 2020
@@ -201,7 +201,7 @@ datetime.date(2020, 3, 4)
 
 ## 蟒蛇 3
 
-```
+```py
 #import arrow module
 import arrow
 
@@ -226,7 +226,7 @@ print("with timezone replaced: ",d)
 
 **输出:**
 
-```
+```py
 without alteration: 2020-03-04T13:33:15.041536+00:00
 with hours and minutes replaced: 2020-03-04T05:30:15.041536+00:00
 with weeks shifted 3 forward: 2020-03-25T13:33:15.041536+00:00
@@ -239,7 +239,7 @@ with timezone replaced: 2020-03-04T13:33:15.041536-07:00
 
 ## 蟒蛇 3
 
-```
+```py
 #import arrow module
 import arrow
 
@@ -260,7 +260,7 @@ print(afuture.humanize(present, granularity=["hour", "minute"]))
 
 **输出:**
 
-```
+```py
 'an hour ago'
 'in 3 hours'
 'in 73 minutes'

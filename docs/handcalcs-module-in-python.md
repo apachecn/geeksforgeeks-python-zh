@@ -8,7 +8,7 @@
 
 在终端上运行以下 pip 命令。
 
-```
+```py
 pip install handcalcs
 
 ```
@@ -20,7 +20,7 @@ Python 中的手动计算器库旨在作为一种细胞魔法用于 Jupyter 笔�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import handcalcs.render
 
@@ -40,7 +40,7 @@ z = x + y
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import handcalcs.render
 from math import tan
@@ -62,7 +62,7 @@ t = tan(p ** r + r / s) * r
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import handcalcs.render
 from math import sqrt
@@ -92,7 +92,7 @@ r = (-b + sqrt(b ** 2 - 4 * a * c)) / (2 * a)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import handcalcs.render
 

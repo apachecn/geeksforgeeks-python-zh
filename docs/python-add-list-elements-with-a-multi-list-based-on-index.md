@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 List = [1, 2, 3, 4, 5, 6]
 List of list = [[0], [0, 1, 2], [0, 1], [0, 1], [0, 1, 2], [0]]
@@ -28,7 +28,7 @@ Explanation:
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to add list elements 
 # with a multi-list based on index 
 
@@ -53,7 +53,7 @@ print("Output is", Output)
 
 **Output:**
 
-```
+```py
 Initial list is: [1, 2, 3, 4, 5, 6]
 Initial list of list is : [[0], [0, 1, 2], [0, 1], [0, 1], [0, 1, 2], [0]]
 Output is [[1], [2, 3, 4], [3, 4], [4, 5], [5, 6, 7], [6]]
@@ -62,7 +62,7 @@ Output is [[1], [2, 3, 4], [3, 4], [4, 5], [5, 6, 7], [6]]
 
 **方法 2:使用 enumerate()**
 
-```
+```py
 # Python code to add list elements 
 # with a multi-list based on index
 
@@ -83,7 +83,7 @@ print("Output is", Output)
 
 **Output:**
 
-```
+```py
 Initial list is: [1, 2, 3, 4, 5, 6]
 Initial list of list is : [[0], [0, 1, 2], [0, 1], [0, 1], [0, 1, 2], [0]]
 Output is [[1], [2, 3, 4], [3, 4], [4, 5], [5, 6, 7], [6]]
@@ -92,7 +92,7 @@ Output is [[1], [2, 3, 4], [3, 4], [4, 5], [5, 6, 7], [6]]
 
 **方法三:使用`Zip()`**
 
-```
+```py
 # Python code to add list elements 
 # with a multi-list based on index
 
@@ -113,7 +113,7 @@ print("Output is", Output)
 
 **Output:**
 
-```
+```py
 Initial list is: [1, 2, 3, 4, 5, 6]
 Initial list of list is : [[0], [0, 1, 2], [0, 1], [0, 1], [0, 1, 2], [0]]
 Output is [[1], [2, 3, 4], [3, 4], [4, 5], [5, 6, 7], [6]]

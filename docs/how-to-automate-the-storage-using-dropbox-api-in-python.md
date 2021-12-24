@@ -20,7 +20,7 @@
 
 *   **通过上述步骤生成的令牌密钥，我们可以使用该令牌连接到收存箱并执行存储自动化。您可以使用以下命令安装 python 库:**
 
-```
+```py
 pip install dropbox 
 ```
 
@@ -34,7 +34,7 @@ pip install dropbox
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing necessary libraries
 import dropbox
 
@@ -58,7 +58,7 @@ dbx = connect_to_dropbox()
 
 ****输出:****
 
-```
+```py
 Connected to Dropbox successfully
 ```
 
@@ -70,7 +70,7 @@ Connected to Dropbox successfully
 
 ## **蟒蛇 3**
 
-```
+```py
 # explicit function to list files
 def list_files_in_folder():
 

@@ -8,7 +8,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 execute_async_script(script, *args)
 ```
 
@@ -20,7 +20,7 @@ args–
 **示例–**
 现在可以使用 execute_async_script 方法作为驱动程序方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.execute_async_script("alert("alert via selenium")")
 
@@ -32,7 +32,7 @@ driver.execute_async_script("alert("alert via selenium")")
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -17,7 +17,7 @@ Python 中的[字典由键值对的集合组成。每个键值对将键映射到
 **方法#1** 使用比较运算符:
 这是一种常见的方法，我们创建一个包含用于比较的键的集合，并使用比较运算符检查该键是否存在于我们的字典中。
 
-```
+```py
 # Python3 code to check multiple key existence
 # using comparison operator
 
@@ -31,7 +31,7 @@ print(sports.keys() >= {"contribute", "ide"})
 
 **Output:**
 
-```
+```py
 True
 False
 
@@ -40,7 +40,7 @@ False
 **方法 2** 使用 issubset() :
 在这个方法中，我们将检查我们要比较的键是否是字典中键的`subset()`。
 
-```
+```py
 # Python3 code heck multiple key existence
 # using issubset
 
@@ -57,7 +57,7 @@ print(s2.issubset(sports.keys()))
 
 **Output:**
 
-```
+```py
 True
 False
 
@@ -66,7 +66,7 @@ False
 **方法#3** 使用 if 和 all 语句:
 在这个方法中，我们将检查我们想要比较的所有关键元素是否都存在于我们的字典中。
 
-```
+```py
 # Python3 code check multiple key existence
 # using if and all
 
@@ -88,7 +88,7 @@ else:
 
 **Output:**
 
-```
+```py
 keys are present
 keys are not present
 

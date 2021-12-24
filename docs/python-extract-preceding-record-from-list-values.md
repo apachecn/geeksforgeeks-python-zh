@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Preceding Record
 # Using zip() + enumerate() + loop
@@ -39,7 +39,7 @@ print("The Preceding record : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('Gfg', 3), ('is', 4), ('best', 1), ('for', 10), ('geeks', 11)]
 The Preceding record : ('best', 1)
 
@@ -50,7 +50,7 @@ The Preceding record : ('best', 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Preceding Record
 # Using list comprehension + enumerate()
@@ -75,7 +75,7 @@ print("The Preceding record : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('Gfg', 3), ('is', 4), ('best', 1), ('for', 10), ('geeks', 11)]
 The Preceding record : [('best', 1)]
 

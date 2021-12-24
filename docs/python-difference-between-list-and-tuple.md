@@ -6,14 +6,14 @@ Python 中的 List 和 Tuple 是数据结构的类。列表是动态的，而元
 [**列表**](https://www.geeksforgeeks.org/python-list/) 就像数组一样，用其他语言声明。列表不必总是同质的，这使得它成为 Python 中最强大的工具。在 Python 中，列表是数据结构中的一种容器，用于同时存储多个数据。列表是保存数据序列并对其进行进一步迭代的有用工具。
 **语法:**
 
-```
+```py
 list_data = ['an', 'example', 'of', 'a', 'list']
 ```
 
 [Tuple](https://www.geeksforgeeks.org/tuples-in-python/) 也是一个序列数据类型，可以包含不同数据类型的元素，但这些本质上是不可变的。换句话说，元组是由逗号分隔的 Python 对象的集合。元组比列表快，因为本质上是静态的。
 **语法:**
 
-```
+```py
 tuple_data = ('this', 'is', 'an', 'example', 'of', 'tuple')
 ```
 

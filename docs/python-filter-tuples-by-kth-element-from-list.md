@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples by Kth element from List
 # Using list comprehension
@@ -47,7 +47,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('GFg', 5, 9), ('is', 4, 3), ('best', 10, 29)]
 The filtered tuples : [('is', 4, 3), ('best', 10, 29)]
 
@@ -59,7 +59,7 @@ The filtered tuples : [('is', 4, 3), ('best', 10, 29)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter Tuples by Kth element from List
 # Using filter() + lambda
@@ -86,7 +86,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('GFg', 5, 9), ('is', 4, 3), ('best', 10, 29)]
 The filtered tuples : [('is', 4, 3), ('best', 10, 29)]
 

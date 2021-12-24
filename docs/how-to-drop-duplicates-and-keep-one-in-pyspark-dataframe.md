@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -60,7 +60,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # drop duplicates
 df.dropDuplicates(['Roll Number']).show()
 
@@ -78,7 +78,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 # drop duplicates
 df.dropDuplicates(['Roll Number',"Name"]).show()
 

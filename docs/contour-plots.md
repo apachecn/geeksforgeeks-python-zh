@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #  imports
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,7 +60,7 @@ plt.contour(X, Y, Z, cmap='gist_rainbow_r');
 
 ## 蟒蛇 3
 
-```
+```py
 # generate r and theta arrays
 rad_arr = np.radians(np.linspace(0, 360, 20))
 r_arr = np.arange(0, 1, .1)
@@ -90,7 +90,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # install & import plotly
 ! pip install plotly
 import plotly.figure_factory as ff

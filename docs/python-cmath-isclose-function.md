@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isclose()function
 
@@ -39,7 +39,7 @@ print(val1)
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -48,7 +48,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isclose()function
 
@@ -66,7 +66,7 @@ print(val1)
 
 **输出:**
 
-```
+```py
 True
 True
 

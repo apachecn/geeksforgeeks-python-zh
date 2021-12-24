@@ -4,14 +4,14 @@
 
 PIL is the Python Imaging Library which provides the python interpreter with image editingcapabilities. **PIL.Image.getbands()** method returns a tuple containing the name of each band in the image.For example, getbands on an RGB image returns (“R”, “G”, “B”).
 
-```
+```py
 Syntax: PIL.Image.getbands()
 Parameters: no arguments
 Returns: A tuple containing band names.
 
 ```
 
-```
+```py
 # Importing Image module from PIL package 
 from PIL import Image
 
@@ -31,7 +31,7 @@ print(im2)
 上面使用的图像是:
 ![](img/c8d4a0e91e024d3d7c73c60e72b6a907.png)
 
-```
+```py
 # Importing Image module from PIL package 
 from PIL import Image
 

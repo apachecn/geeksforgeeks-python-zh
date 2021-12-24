@@ -8,7 +8,7 @@
 
 使用以下命令安装名称工具库:
 
-```
+```py
 pip install name_tools
 ```
 
@@ -18,7 +18,7 @@ split()用于将姓名分为 4 个部分，即前缀(Mr、Dr 等)、名字、中
 
 ## 蟒蛇 3
 
-```
+```py
 import name_tools
 
 # examples to split name
@@ -36,7 +36,7 @@ print(name3)
 
 **输出:**
 
-```
+```py
 ('Mr.', 'Sandeep', 'Jain', 'Sr.')
 ('Mr.', 'Manjeet', 'Singh', '')
 ('Dr.', 'Robert', 'D', 'III')
@@ -48,7 +48,7 @@ print(name3)
 
 ## 蟒蛇 3
 
-```
+```py
 import name_tools
 
 print("Demonstrating Canonicalize : ")
@@ -70,7 +70,7 @@ print(name3)
 
 **输出:**
 
-```
+```py
 Mr. Sandeep Jain, Sr.
 Mr. Manjeet Singh
 Dr. Robert D 3
@@ -82,7 +82,7 @@ Dr. Robert D 3
 
 ## 蟒蛇 3
 
-```
+```py
 import name_tools
 
 print("Demonstrating Matching names : ")
@@ -101,7 +101,7 @@ print(match3)
 
 **输出:**
 
-```
+```py
 0.95
 0.8999999999999999
 0.0

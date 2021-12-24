@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -42,7 +42,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 Actual data in dataframe
 +----------+------------+-------+
 |student ID|student NAME|college|
@@ -62,7 +62,7 @@ Actual data in dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 # delete single column
 dataframe=dataframe.drop('student ID')
 dataframe.show()
@@ -70,7 +70,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 +------------+-------+
 |student NAME|college|
 +------------+-------+
@@ -89,7 +89,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # delete two columns
 dataframe=dataframe.drop(*('student NAME',
                            'student ID'))
@@ -98,7 +98,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 +-------+
 |college|
 +-------+
@@ -117,7 +117,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # delete two columns
 dataframe=dataframe.drop(*('student NAME',
                            'student ID',
@@ -127,7 +127,7 @@ dataframe.show()
 
 **输出:**
 
-```
+```py
 ++
 ||
 ++

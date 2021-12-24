@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + len() + “+” operato` r**
 通过 python 的常规 sum()和 len 函数可以确定平均值，使用“+”运算符可以处理一到两个列表的扩展。
 
-```
+```py
 # Python3 code to demonstrate
 # Average of two lists
 # using sum() + len() + "+" operator
@@ -30,7 +30,7 @@ print ("The Average of both lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 3, 4, 5, 2, 6]
 The original list 2 is : [3, 4, 8, 3, 10, 1]
 The Average of both lists is : 4.166666666666667

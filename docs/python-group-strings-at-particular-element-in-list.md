@@ -7,7 +7,7 @@
 **方法:使用`groupby()` +列表理解+ lambda**
 该任务可以使用以上功能的组合来执行。在这种情况下，我们使用 groupby()对元素进行分组，分组元素逻辑的决定以 lambda 函数的形式完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group strings at particular element in list
 # using groupby() + list comprehension + lambda
@@ -32,7 +32,7 @@ print("Resultant list after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'and', 'is', 'popular']
 Resultant list after grouping : [['gfg'], ['best', 'and'], ['popular']]
 

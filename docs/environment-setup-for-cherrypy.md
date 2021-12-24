@@ -21,19 +21,19 @@
 
 1.使用简易安装:
 
-```
+```py
 $ easy_install cherrypy
 ```
 
 2.使用 pip:
 
-```
+```py
 $ pip install cherrypy
 ```
 
 3.使用 Github:
 
-```
+```py
 $ git clone https://github.com/cherrypy/cherrypy
 $ cd cherrypy
 $ python setup.py install
@@ -45,7 +45,7 @@ $ python setup.py install
 
 一旦您部署了 CherryPy 包，您可以通过执行 CherryPy 提供的简单教程来测试您的安装。一个这样的教程是简单的 Hello World。执行以下代码:
 
-```
+```py
 python -m cherrypy.tutorial.tut01_helloworld
 ```
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to iterate over a list
 list = [1, 3, 5, 7, 9]
 
@@ -21,7 +21,7 @@ for i in list:
 
 **输出:**
 
-```
+```py
 1
 3
 5
@@ -34,7 +34,7 @@ for i in list:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to iterate over a list
 list = [1, 3, 5, 7, 9]
 
@@ -49,7 +49,7 @@ for i in range(length):
 
 **输出:**
 
-```
+```py
 1
 3
 5
@@ -63,7 +63,7 @@ for i in range(length):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to iterate over a list
 list = [1, 3, 5, 7, 9]
 
@@ -79,7 +79,7 @@ while i < length:
 
 **输出:**
 
-```
+```py
 1
 3
 5
@@ -91,7 +91,7 @@ while i < length:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to iterate over a list
 list = [1, 3, 5, 7, 9]
 
@@ -101,7 +101,7 @@ list = [1, 3, 5, 7, 9]
 
 **输出:**
 
-```
+```py
 1
 3
 5
@@ -114,7 +114,7 @@ list = [1, 3, 5, 7, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to iterate over a list
 list = [1, 3, 5, 7, 9]
 
@@ -125,7 +125,7 @@ for i, val in enumerate(list):
 
 **输出:**
 
-```
+```py
 0 , 1
 1 , 3
 2 , 5
@@ -140,7 +140,7 @@ for i, val in enumerate(list):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for
 # iterating over array
 import numpy as geek
@@ -160,7 +160,7 @@ for x in geek.nditer(a):
 
 **输出:**
 
-```
+```py
 0
 1
 2

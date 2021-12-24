@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract String after Nth occurrence of K character 
 # Using split()
@@ -45,7 +45,7 @@ print("The extracted string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks
 The extracted string : eks
 
@@ -57,7 +57,7 @@ The extracted string : eks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract String after Nth occurrence of K character 
 # Using re.split()
@@ -85,7 +85,7 @@ print("The extracted string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks
 The extracted string : eks
 

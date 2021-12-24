@@ -6,7 +6,7 @@
 
 **第一步:导入需要的库**
 
-```
+```py
 # linear algebra
 import numpy as np  
 # data processing, CSV file I / O (e.g. pd.read_csv)
@@ -28,7 +28,7 @@ import cv2
 **第二步:加载描述**
 我们文件的格式是图像和标题用换行符(" \n ")隔开，即它由图像名称后跟空格和 CSV 格式的图像描述组成。这里，我们需要通过将图像存储在字典中来将图像映射到其描述。
 
-```
+```py
 def load_description(text):
     mapping = dict()
     for line in text.split("\n"):
@@ -50,7 +50,7 @@ print(descriptions['1000268201_693b08cb0e'])
 
 **输出:**
 
-```
+```py
 ['A child in a pink dress is climbing up a set of stairs in an entry way .', 
 
 'A girl going into a wooden building .', 
@@ -66,7 +66,7 @@ print(descriptions['1000268201_693b08cb0e'])
 **第三步:清洗文字**
 NLP 的主要步骤之一就是去除噪音，这样机器就可以轻松检测出文字中的图案。噪声将以特殊字符的形式出现，如标签、标点和数字。如果它们出现在文本中，所有这些对计算机来说都很难理解。所以我们需要去掉这些来获得更好的结果。此外，您还可以使用 NLTK 库删除停止词并执行**词干化**和**引理化**。
 
-```
+```py
 def clean_description(desc):
     for key, des_list in desc.items():
         for i in range(len(des_list)):
@@ -86,7 +86,7 @@ descriptions['1000268201_693b08cb0e']
 
 词汇是存在于我们的文本语料库中的一组独特的词。当处理自然语言处理的原始文本时，一切都是围绕词汇进行的。
 
-```
+```py
 def to_vocab(desc):
     words = set()
     for key in desc.keys():
@@ -100,7 +100,7 @@ vocab = to_vocab(descriptions)
 
 这里，我们需要将训练集中的图像映射到它们在我们的描述变量中出现的相应描述。创建所有训练图像的名称列表，然后创建一个空字典，使用图像名称作为关键字，使用描述列表作为值，将图像映射到它们的描述。在映射描述时，在开头和结尾添加唯一的单词来标识句子的开头和结尾。
 
-```
+```py
 import glob
 images = '/kaggle / input / flickr8k / flickr_data / Flickr_Data / Images/'
 # Create a list of all image names in the directory
@@ -131,7 +131,7 @@ print(train_descriptions['1000268201_693b08cb0e'])
 
 **输出:**
 
-```
+```py
 ['startseq child in pink dress is climbing up set of stairs in an entry way endseq', 
 
 'startseq girl going into wooden building endseq', 
@@ -150,7 +150,7 @@ print(train_descriptions['1000268201_693b08cb0e'])
 
 **我们需要移除最后一个分类层，以从 InceptionV3 模型中获得(2048)维特征向量。**
 
-```
+```py
 from keras.preprocessing.image import load_img, img_to_array
 def preprocess_img(img_path):
     # inception v3 excepts img in 299 * 299 * 3
@@ -179,7 +179,7 @@ for img in train_img:
 
 **在这一步中，我们需要标记词汇中的所有单词。或者，我们可以使用 Keras 中的 tokenizer 来完成此任务。**
 
-```
+```py
 # list of all training captions
 all_train_captions = []
 for key, val in train_descriptions.items():
@@ -217,7 +217,7 @@ max_length
 
 **此外，我们将使用嵌入矩阵来存储词汇中单词之间的关系。嵌入矩阵是原始空间到实值空间的线性映射，其中实体将具有有意义的关系。**
 
-```
+```py
 X1, X2, y = list(), list(), list()
 for key, des_list in train_descriptions.items():
     pic = train_features[key + '.jpg']
@@ -262,7 +262,7 @@ emb_matrix.shape
 *   **从图像中提取特征向量**
 *   **通过连接以上两层对输出进行解码**
 
-```
+```py
 # define the model
 ip1 = Input(shape = (2048, ))
 fe1 = Dropout(0.2)(ip1)
@@ -287,7 +287,7 @@ model = Model(inputs = [ip1, ip2], outputs = outputs)
 
 **为了训练我们的模型，我使用亚当的优化器和损失函数作为分类交叉熵。我正在为 50 个时代训练模型，这将足以预测产量。如果你有更多的计算能力(图形处理器的数量)，你可以通过减少批量和增加时期的数量来训练它。**
 
-```
+```py
 model.layers[2].set_weights([emb_matrix])
 model.layers[2].trainable = False
 model.compile(loss = 'categorical_crossentropy', optimizer = 'adam')
@@ -297,7 +297,7 @@ model.fit([X1, X2], y, epochs = 50, batch_size = 256)
 
 ****输出:****
 
-```
+```py
 Epoch 1/1
 
 292328/292328 [==============================] - 55s 189us/step - loss: 3.8895
@@ -321,7 +321,7 @@ Epoch 1/1
 
 ****步骤 11:预测输出****
 
-```
+```py
 def greedy_search(pic):
     start = 'startseq'
     for i in range(max_length):

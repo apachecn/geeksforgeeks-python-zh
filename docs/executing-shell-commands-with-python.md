@@ -14,7 +14,7 @@ Python 中的操作系统模块包括与操作系统通信的功能。操作系�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required module
 import os
 
@@ -31,7 +31,7 @@ os.system('echo "Geeks 4 Geeks"')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required module
 import os
 
@@ -48,7 +48,7 @@ os.system('pwd')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required module
 import os
 
@@ -65,7 +65,7 @@ os.system('ls')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required module
 import os
 
@@ -82,7 +82,7 @@ os.system('cat')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required module
 import os
 

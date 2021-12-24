@@ -16,7 +16,7 @@ Python 提供了三个不同的模块，允许我们序列化和反序列化对�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import marshal 
 
@@ -43,7 +43,7 @@ print('After deserialization : ', new_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importinig the module
 import pickle
 

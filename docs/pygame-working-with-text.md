@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pygame
 ```
 
@@ -24,7 +24,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame
 import pygame
 
@@ -99,7 +99,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame module
 import pygame
 
@@ -175,7 +175,7 @@ pygame.quit()
 
 ## 蟒蛇 3
 
-```
+```py
 # import pygame module
 import pygame
 

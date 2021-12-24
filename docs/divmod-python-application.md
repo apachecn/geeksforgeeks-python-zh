@@ -6,7 +6,7 @@ python 中的 divmod()方法接受两个数字，并返回一对由它们的商�
 
 **语法:**
 
-```
+```py
 divmod(x, y)
 x and y : x is numerator and y is denominator
 x and y must be non complex
@@ -14,7 +14,7 @@ x and y must be non complex
 
 **示例:**
 
-```
+```py
 Input : x = 9, y = 3
 Output :(3, 0)
 
@@ -26,19 +26,19 @@ Output :(2, 2)
 
 *   如果 x 和 y 是整数，返回值为
 
-```
+```py
 (x // y, x % y)
 ```
 
 *   如果 x 或 y 是浮点数，结果是
 
-```
+```py
 (q, x % y), *where q is the whole part of the quotient.*
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to illustrate divmod()
 # divmod() with int
 print('(5, 4) = ', divmod(5, 4))
@@ -55,7 +55,7 @@ print('(2.6, 10.7) = ', divmod(2.6, 0.5))
 
 **输出:**
 
-```
+```py
 (5, 4) =  (1, 1)
 (10, 16) =  (0, 10)
 (11, 11) =  (1, 0)
@@ -76,7 +76,7 @@ print('(2.6, 10.7) = ', divmod(2.6, 0.5))
 
 **示例:**
 
-```
+```py
 Input : n = 7
 Output :Prime
 
@@ -94,7 +94,7 @@ Output :Not Prime
 
 ## PYTHON3
 
-```
+```py
 # Python code to find if a number is
 # prime or not using divmod()
 
@@ -117,7 +117,7 @@ else:
 
 **输出:**
 
-```
+```py
 Not Prime
 ```
 
@@ -127,7 +127,7 @@ Not Prime
 
 ## 蟒蛇 3
 
-```
+```py
 # Sum of digits of a number using divmod
 num = 86
 sums = 0
@@ -141,7 +141,7 @@ print(sums)
 
 **输出:**
 
-```
+```py
 14
 ```
 
@@ -149,7 +149,7 @@ print(sums)
 
 ## 蟒蛇 3
 
-```
+```py
 # reversing a number using divmod
 num = 132
 pal = 0
@@ -163,6 +163,6 @@ print(pal)
 
 **输出:**
 
-```
+```py
 231 
 ```

@@ -46,7 +46,7 @@
 
 **例 1:**
 
-```
+```py
 
 Input: continued_fraction((10/7))
 Output: [1, 2, 3]
@@ -63,7 +63,7 @@ Explanation:
 
 **例 2:**
 
-```
+```py
 Input:  list(continued_fraction_convergents([0, 2, 1, 2]))
 Output: [0, 1/2, 1/3, 3/8]
 Explanation:
@@ -78,7 +78,7 @@ Explanation:
 
 **例 3:**
 
-```
+```py
 
 Input: continued_fraction_reduce([1, 2, 3, 4, 5]) 
 Output: 225/157
@@ -95,7 +95,7 @@ Explanation:
 **Implementation:**
 **Code: To convert a fraction into Continued Fraction representation**
 
-```
+```py
 #using sympy module
 from sympy.ntheory.continued_fraction import continued_fraction
 from sympy import sqrt
@@ -105,14 +105,14 @@ continued_fraction(10/7)
 
 **输出:**
 
-```
+```py
 [1, 2, 3]
 
 ```
 
 **代码 2:将连分数转换为分数。**
 
-```
+```py
 #using sympy module
 from sympy.ntheory.continued_fraction import continued_fraction_reduce 
 
@@ -122,14 +122,14 @@ continued_fraction_reduce([1, 2, 3, 4, 5])
 
 **输出:**
 
-```
+```py
 225/157
 
 ```
 
 **代码 3:从一个连分式中获取一个转换子列表。**
 
-```
+```py
 # using sympy module
 from sympy.core import Rational, pi
 from sympy import S
@@ -141,7 +141,7 @@ list(continued_fraction_convergents([0, 2, 1, 2]))
 
 **输出:**
 
-```
+```py
 [0, 1/2, 1/3, 3/8]
 
 ```

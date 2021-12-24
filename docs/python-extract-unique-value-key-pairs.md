@@ -13,7 +13,7 @@
 **方法#1:使用列表理解**
 使用上述功能可以解决这个问题。在这种情况下，我们使用条件句和“In”运算符来执行匹配。使用列表理解编译整个逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Unique value key pairs
 # Using list comprehension
@@ -46,7 +46,7 @@ print("The required values : " + str(res)) 
 **方法 2:使用`map() + zip() + itemgetter()`**
 上述功能的组合可用于执行该任务。在本例中，我们使用 itemgetter 提取值，使用 zip()组合值，使用 map()将组合结果转换为 set。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Unique value key pairs
 # Using map() + zip() + itemgetter()

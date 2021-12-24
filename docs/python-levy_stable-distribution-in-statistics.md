@@ -17,7 +17,7 @@
 
 **代码#1:创建征税稳定的征税连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import levy_stable  
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D6803648
 
@@ -39,7 +39,7 @@ RV :
 
  **代码#2:利维稳定连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.03, 2, 0.21) 
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 1.20654126 -0.56381774 -1.31527459 -0.90027222  0.52535969  0.03076316
  -4.69310302  0.61194358  1.31207992 -0.84552083]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -77,7 +77,7 @@ print("Distribution : \n", distribution)  
 
 **输出:**
 
-```
+```py
 Distribution : 
  [-4.92358285 -4.8368521  -4.75012136 -4.66339061 -4.57665986 -4.48992912
  -4.40319837 -4.31646762 -4.22973687 -4.14300613 -4.05627538 -3.96954463

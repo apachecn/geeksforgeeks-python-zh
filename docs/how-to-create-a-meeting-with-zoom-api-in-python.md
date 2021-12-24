@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import jwt
 import requests
 import json

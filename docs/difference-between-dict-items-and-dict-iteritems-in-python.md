@@ -11,7 +11,7 @@
 
 **示例-1**
 
-```
+```py
 # Python2 code to demonstrate
 # d.iteritems()
 
@@ -27,7 +27,7 @@ print d.iteritems()
 
 **输出:**
 
-```
+```py
 <dictionary-itemiterator object at 0x7f04628d5890>
 
 ```
@@ -35,7 +35,7 @@ print d.iteritems()
 要打印字典项目，使用`for()`循环分割对象并打印它们
 **示例-2**
 
-```
+```py
 # Python2 code to demonstrate
 # d.iteritems()
 
@@ -53,7 +53,7 @@ for i in d.iteritems():
 
 **输出:**
 
-```
+```py
 ('romance', 'me before you')
 ('fantasy', 'harrypotter')
 ('fiction', 'divergent')
@@ -64,7 +64,7 @@ for i in d.iteritems():
 
 **示例-3**
 
-```
+```py
 # Python2 code to demonstrate
 # d.items()
 
@@ -90,7 +90,7 @@ print(d.iteritems())
 
 **示例-1**
 
-```
+```py
 # Python3 code to demonstrate
 # d.items()
 
@@ -113,7 +113,7 @@ print(d.items())
 
 **示例-2**
 
-```
+```py
 # Python3 code to demonstrate
 # d.iteritems()
 
@@ -139,7 +139,7 @@ for i in d.iteritems():
 
 **输出:**
 
-```
+```py
 d.items() in (v3.6.2) = 
 ('fiction', 'divergent')
 ('fantasy', 'harrypotter')
@@ -149,7 +149,7 @@ d.iteritems() in (v3.6.2)=
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/33cecec06331126ebf113f154753a9a0.py", line 19, in 
     for i in d.iteritems():

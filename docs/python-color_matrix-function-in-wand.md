@@ -7,7 +7,7 @@ T3】
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.color_matrix(matrix)
 > 
 > ```
@@ -23,7 +23,7 @@ T3】
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

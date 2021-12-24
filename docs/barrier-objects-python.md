@@ -12,13 +12,13 @@ python 中的 Barrier 对象用于等待固定数量的线程完成执行，然�
 
 **语法:**
 
-```
+```py
 barrier = threading.Barrier(number_of_threads, action = None, timeout = None)
 ```
 
 为线程数创建一个屏障对象。如果提供了操作，则该操作是一个可调用的，当线程被释放时，将由其中一个线程调用。如果没有为 wait()方法指定超时值，则 timeout 是默认超时值。
 
-```
+```py
 import threading
 
 barrier = threading.Barrier(3)
@@ -43,7 +43,7 @@ print("Exit\n")
 
 **输出:**
 
-```
+```py
 100
 101
 Exit
@@ -55,14 +55,14 @@ Exit
     broken: A boolean that is True if the barrier is in the broken state.
     **Syntax:**
 
-    ```
+    ```py
     barrier.broken
     ```
 
 2.  **方**:通过障碍所需的线程数。
     **语法:**
 
-```
+```py
 barrier.parties
 ```
 
@@ -72,7 +72,7 @@ barrier.parties
     屏障上的异常终止函数调用通常需要在程序执行期间跳过死锁条件。
     **语法:**
 
-    ```
+    ```py
     barrier.abort()
     ```
 
@@ -81,7 +81,7 @@ barrier.parties
 
     **语法:**
 
-    ```
+    ```py
     barrier.reset()
     ```
 
@@ -91,14 +91,14 @@ barrier.parties
 
     **语法:**
 
-    ```
+    ```py
     barrier.wait(timeout = None)
     ```
 
 9.  **n_waiting** :当前在屏障中等待的线程数。
     **语法:**
 
-    ```
+    ```py
     barrier.n_waiting
     ```
 
@@ -106,7 +106,7 @@ barrier.parties
 
 **这里有一个示例程序来显示屏障在 python 中是如何使用的**
 
-```
+```py
 # program to demonstrate
 # barriers in python
 
@@ -141,7 +141,7 @@ print("End")
 
 **输出:**
 
-```
+```py
 100
 101
 Parties = 3

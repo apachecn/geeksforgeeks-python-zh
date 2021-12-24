@@ -6,7 +6,7 @@
 
 我们可以在下面命令的帮助下创建一个窗口
 
-```
+```py
  pyglet.window.Window(width, height, title) 
 ```
 
@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -94,7 +94,7 @@ pyglet.app.run()
 
 ![](img/7cad2076a1ec3a848795d52f7f17b617.png)
 
-```
+```py
 Is Window Fullscreen : 
 False
 ```

@@ -20,7 +20,7 @@ Tweepy 模块中`API`类的 **`verify_credentials()`** 方法用于验证提供�
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -47,14 +47,14 @@ else:
 
 **输出:**
 
-```
+```py
 The user credentials are valid.
 
 ```
 
 **示例 2 :** 获取验证用户。
 
-```
+```py
 # fetching the verified user
 user = api.verify_credentials()
 
@@ -65,7 +65,7 @@ print("The user has " + str(user.friends_count) + " friends.")
 
 **输出:**
 
-```
+```py
 The user has 44 followers.
 The user has 1016 friends.
 

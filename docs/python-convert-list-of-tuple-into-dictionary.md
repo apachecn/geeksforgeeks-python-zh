@@ -6,7 +6,7 @@
 这类问题在编码竞赛中经常遇到。
 下面是一些实现上述任务的方法。
 
-```
+```py
 Input:
 indices = ['x','y','z','w','t','r']
 relation =[('x', 'y'), ('x', 'z'), ('x', 'w'), ('y', 'z'), ('y', 'w'), ('z', 'w')]
@@ -18,7 +18,7 @@ Output:
 
 **方法#1:使用迭代**是解决任何任务最简单的方法
 
-```
+```py
 #Python code to convert list of tuple into dictionary showing 
 #relation of every element from first list to every other element in the list.
 
@@ -48,7 +48,7 @@ print("Converted dictionary of list :")
 print(Output)
 ```
 
-```
+```py
 Output :
 Initial list of tuple is :
 [('x', 'y'), ('x', 'z'), ('x', 'w'), ('y', 'z'), ('y', 'w'), ('z', 'w')]
@@ -61,7 +61,7 @@ Converted dictionary of list :
 **方法 2:使用 networkx** 是将元组列表转换为字典的最简单、最短的
 方法
 
-```
+```py
 #Python code to convert list of tuple into dictionary showing 
 #relation of every element from first list to every other element in the list.
 
@@ -87,7 +87,7 @@ print("Converted dictionary of list :")
 print(Output)
 ```
 
-```
+```py
 Output :
 Initial list of tuple is :
 [('x', 'y'), ('x', 'z'), ('x', 'w'), ('y', 'z'), ('y', 'w'), ('z', 'w')]
@@ -99,7 +99,7 @@ Converted dictionary of list :
 
 **方法 3:使用 itertools 和 groupby** 是将元组列表转换为字典的另一种方法。
 
-```
+```py
 #Python code to convert list of tuple into dictionary showing 
 #relation of every element from first list to every other element in the list.
 
@@ -131,7 +131,7 @@ print("Converted dictionary of list :")
 print(Output)
 ```
 
-```
+```py
 Output :
 Initial list of tuple is :
 [('x', 'y'), ('x', 'z'), ('x', 'w'), ('y', 'z'), ('y', 'w'), ('z', 'w')]

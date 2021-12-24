@@ -8,7 +8,7 @@
 
 *   **安装所需的库，然后导入它们。要安装，请使用以下命令:**
 
-```
+```py
 pip install pillow
 ```
 
@@ -33,7 +33,7 @@ pip install pillow
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing modules
 import urllib.request
 from PIL import Image

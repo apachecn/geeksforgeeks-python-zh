@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract rows with Complex data types
 # Using list comprehension + isinstance() + any()
@@ -51,7 +51,7 @@ print("Filtered Rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract rows with Complex data types
 # Using filter() + lambda + isinstance()

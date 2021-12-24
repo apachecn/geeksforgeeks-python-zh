@@ -63,7 +63,7 @@ dbm 包中有三种类型的子模块:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the dbm package
 import dbm
 
@@ -125,7 +125,7 @@ db.close()
 
 **输出:**
 
-```
+```py
 b'GeeksforGeeks'
 
 b'GeeksforGeeks'

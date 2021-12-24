@@ -6,7 +6,7 @@ Python3 中的 **print()** 函数支持一个“*文件*参数，该参数指定
 
 它有两个基本目的:
 
-```
+```py
 Print to STDERR
 Print to external file
 ```
@@ -17,7 +17,7 @@ Print to external file
 
 将文件参数指定为 sys.stderr，而不是默认值。这在调试小程序时非常有用(在其他情况下最好使用调试器)。
 
-```
+```py
 # Code for printing to STDERR
 import sys
 
@@ -26,7 +26,7 @@ print('GeeksForGeeks', file = sys.stderr)
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 
 ```
@@ -35,7 +35,7 @@ GeeksForGeeks
 
 用所需文件的名称指定文件参数，而不是默认值。如果文件不存在，将创建一个同名的新文件并写入其中。
 
-```
+```py
 # Code for printing to a file
 sample = open('samplefile.txt', 'w')
 
@@ -45,7 +45,7 @@ sample.close()
 
 **输出*(在“samplefile.txt”中)* :**
 
-```
+```py
 GeeksForGeeks
 
 ```

@@ -25,7 +25,7 @@ Tweepy 模块中`API`类的 **`show_list_subscriber()`** 方法用于检查用�
 
 **示例 1 :** 当用户已经订阅列表时。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -60,14 +60,14 @@ print("The user " + screen_name + " is subscribed to the list " +
 
 **输出:**
 
-```
+```py
 The user LiptakCarl is subscribed to the list Thought Leaders
 
 ```
 
 **示例 2 :** 当用户未订阅列表时，将引发异常。
 
-```
+```py
 # the ID of the list
 list_id = 4343
 
@@ -84,7 +84,7 @@ print("The user " + screen_name + " is subscribed to the list " +
 
 **输出:**
 
-```
+```py
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 109, 'message': 'The specified user is not a subscriber of this list.'}]
 

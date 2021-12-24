@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > resize('widthxheight')
 > ```
 > 
@@ -19,7 +19,7 @@
 
 **Example 1:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import  Geometry, Color
@@ -39,7 +39,7 @@ img.write('2_a.png')
 
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import  Geometry, Color

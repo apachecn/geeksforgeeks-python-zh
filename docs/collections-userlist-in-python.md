@@ -10,7 +10,7 @@ Python **列表**是类似数组的数据结构，但不像它可以是同构的
 Python 支持一个[列表](https://www.geeksforgeeks.org/python-list/)，就像一个名为**用户列表**的容器，存在于**集合**模块中。这个类充当列表对象的包装类。当一个人想要创建一个他们自己的带有一些修改的功能或带有一些新功能的列表时，这个类是有用的。它可以被认为是为列表添加新行为的一种方式。这个类将一个列表实例作为参数，并模拟一个保存在常规列表中的列表。该列表可由该类的数据属性访问。
 **语法:**
 
-```
+```py
 collections.UserList([list])
 ```
 
@@ -18,7 +18,7 @@ collections.UserList([list])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # userlist
 
@@ -37,7 +37,7 @@ print(userL.data)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4]
 []
 ```
@@ -46,7 +46,7 @@ print(userL.data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # userlist
 
@@ -82,13 +82,13 @@ L.remove()
 
 **输出:**
 
-```
+```py
 Original List
 After Insertion
 [1, 2, 3, 4, 5]
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/9399c9e865a7493dce58e88571472d23.py", line 33, in 
     L.remove()

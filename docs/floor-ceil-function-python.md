@@ -6,7 +6,7 @@
 
 Python 中的 floor()方法返回 x 的 floor，即不大于 x 的最大整数。
 
-```
+```py
 Syntax:
 import math
 math.floor(x)
@@ -22,7 +22,7 @@ largest integer not greater than x.
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the use of floor() method
 
 # This will import math module
@@ -36,7 +36,7 @@ print "math.floor(300.72) : ", math.floor(300.72)
 
 **输出:**
 
-```
+```py
 math.floor(-23.11) :  -24.0
 math.floor(300.16) :  300.0
 math.floor(300.72) :  300.0
@@ -46,7 +46,7 @@ math.floor(300.72) :  300.0
 
 Python 中的天花板(x)方法返回 x 的天花板值，即大于或等于 x 的最小整数。
 
-```
+```py
 Syntax: 
 import math
 math.ceil(x)
@@ -62,7 +62,7 @@ Smallest integer not less than x.
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the use of ceil() method
 
 # This will import math module
@@ -76,7 +76,7 @@ print "math.ceil(300.72) : ", math.ceil(300.72)
 
 **输出:**
 
-```
+```py
 math.ceil(-23.11) :  -23.0
 math.ceil(300.16) :  301.0
 math.ceil(300.72) :  301.0

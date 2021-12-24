@@ -7,7 +7,7 @@
 **方法#1:使用循环+条件**
 这是可以执行该任务的方法之一。在这种情况下，我们迭代字典键，并检查每个键的匹配值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract target key from other key values
 # Using loop + condition

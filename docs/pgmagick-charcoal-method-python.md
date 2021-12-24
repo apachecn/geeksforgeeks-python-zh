@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > charcoal(factor)
 > ```
 > 
@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -39,7 +39,7 @@ img.write('2_a.png')
 ![](img/11736ab92093c8eb1a3326f96e359e7a.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

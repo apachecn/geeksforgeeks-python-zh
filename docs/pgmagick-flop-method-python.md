@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > flip()
 > ```
 > 
@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -36,7 +36,7 @@ img.write('2_a.png')
 ![](img/582cc4cd4e33b68d1f428a1f06da3891.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

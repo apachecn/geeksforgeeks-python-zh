@@ -7,7 +7,7 @@
 **方法#1:使用`next() + enumerate()`**
 下一个函数可以用来遍历列表，并与其一起枚举，检查列表中的数字是否为非零元素，并返回真值(即非零值)之前的 0 数。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding first True value 
 # using next() and enumerate()
@@ -28,7 +28,7 @@ print ("The values till first True value : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [0, 0, 5, 6, 0]
 The values till first True value : 2
 
@@ -37,7 +37,7 @@ The values till first True value : 2
 **方法 2:使用`filter() + lamda + index()`**
 使用上述功能的组合，可以轻松执行该特定任务。`filter` 函数可用于筛选出由 lambda 函数处理的真值，索引函数返回第一次出现的真值。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding first True value 
 # using filter() + lamda + index()
@@ -58,7 +58,7 @@ print ("The values till first True value : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [0, 0, 5, 6, 0]
 The values till first True value : 2
 

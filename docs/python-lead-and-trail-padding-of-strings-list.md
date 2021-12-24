@@ -8,7 +8,7 @@
 
 这个任务可以通过理解列表来完成。在这种情况下，我们迭代每个字符串元素，并在每个字符串的后面和前面添加所需的字符串后重建一个新的字符串列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Trail and lead padding of strings list
 # using list comprehension
@@ -32,7 +32,7 @@ print("The String list after padding : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['a', 'b', 'c']
 The String list after padding : ['gfgagfg', 'gfgbgfg', 'gfgcgfg']
 
@@ -42,7 +42,7 @@ The String list after padding : ['gfgagfg', 'gfgbgfg', 'gfgcgfg']
 
 该任务也可以使用上述功能的组合来执行。在本文中，我们使用带格式的字符串 than +运算符来执行填充任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Trail and lead padding of strings list
 # using list comprehension + string formatting
@@ -67,7 +67,7 @@ print("The String list after padding : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['a', 'b', 'c']
 The String list after padding : ['gfgagfg', 'gfgbgfg', 'gfgcgfg']
 

@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -61,7 +61,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -99,7 +99,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -136,7 +136,7 @@ df.index[ ]将索引号作为从 1 开始的参数，而在 python 中，索引�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -178,7 +178,7 @@ print(df_s)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
@@ -210,7 +210,7 @@ print(df_s1)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"

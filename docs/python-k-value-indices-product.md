@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 我们可以通过遍历列表并检查该值来实现这个任务，只需在新列表中添加值索引并打印它。这是完成这个任务的基本蛮力方法。执行产品的任务是通过循环完成的。
 
-```
+```py
 # Python code to demonstrate 
 # K Value Indices Product
 # using naive method 
@@ -34,7 +34,7 @@ print ("K Value indices product is : " + str(res))
 
 **Output :**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7, 3]
 K Value indices product is : 18
 

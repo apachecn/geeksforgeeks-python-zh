@@ -8,7 +8,7 @@
 使用的字典的键是我们的图的节点，对应的值是每个节点的列表，通过一条边连接。
 这个简单的图有六个节点(a-f)和五个弧:
 
-```
+```py
 a -> c
 b -> c
 b -> e
@@ -24,7 +24,7 @@ e -> b
 
 它可以用下面的 Python 数据结构来表示。这是一本字典，它的关键字是图的节点。对于每个键，对应的值是一个列表，其中包含从该节点通过直接弧线连接的节点。
 
-```
+```py
 graph = { "a" : ["c"],
           "b" : ["c", "e"],
           "c" : ["a", "b", "d", "e"],
@@ -42,7 +42,7 @@ graph = { "a" : ["c"],
 [defaultdict](https://docs.python.org/2/library/collections.html#collections.defaultdict) :通常情况下，如果你试图获取一个当前不在字典中的项，Python 字典会抛出一个 KeyError。defaultdict 允许如果在字典中找不到一个键，则创建一个新的条目，而不是抛出一个 KeyError。这个新条目的类型由 defaultdict 参数给出。
 **Python 函数生成图:**
 
-```
+```py
 # definition of function
 def generate_edges(graph):
     edges = []
@@ -60,7 +60,7 @@ def generate_edges(graph):
 
 ## 计算机编程语言
 
-```
+```py
 # Python program for 
 # validation of a graph
 
@@ -105,7 +105,7 @@ print(generate_edges(graph)) 
 
 输出:
 
-```
+```py
 [('a', 'c'), ('c', 'd'), ('c', 'e'), ('c', 'a'), ('c', 'b'), 
 ('b', 'c'), ('b', 'e'), ('e', 'b'), ('e', 'c'), ('d', 'c')]
 
@@ -120,7 +120,7 @@ print(generate_edges(graph)) 
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to generate the first
 # path of the graph from the nodes provided
 
@@ -150,7 +150,7 @@ print(find_path(graph, 'd', 'c'))
 
 1.  输出:
 
-```
+```py
 ['d', 'a', 'c']
 
 ```
@@ -160,7 +160,7 @@ print(find_path(graph, 'd', 'c'))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to generate the all possible
 # path of the graph from the nodes provided
 graph ={
@@ -191,7 +191,7 @@ print(find_all_paths(graph, 'd', 'c'))
 
 1.  输出:
 
-```
+```py
 [['d', 'a', 'c'], ['d', 'a', 'c']]
 
 ```
@@ -201,7 +201,7 @@ print(find_all_paths(graph, 'd', 'c'))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to generate shortest path
 
 graph ={
@@ -233,7 +233,7 @@ print(find_shortest_path(graph, 'd', 'c'))
 
 1.  输出:
 
-```
+```py
 ['d', 'a', 'c']
 
 ```

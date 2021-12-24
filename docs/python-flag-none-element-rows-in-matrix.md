@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flag None Element Rows in Matrix
 # Using list comprehension
@@ -39,7 +39,7 @@ print("None Flagged List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[2, 4, None, 3], [3, 4, 1, None], [2, 4, 7, 4], [2, 8]]
 None Flagged List : [True, True, False, False]
 
@@ -51,7 +51,7 @@ None Flagged List : [True, True, False, False]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Flag None Element Rows in Matrix
 # Using all() + list comprehension
@@ -71,7 +71,7 @@ print("None Flagged List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[2, 4, None, 3], [3, 4, 1, None], [2, 4, 7, 4], [2, 8]]
 None Flagged List : [True, True, False, False]
 

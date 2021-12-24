@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : [4, 5, 6, 10, (1, 2, 3), 11, 2, 4]
 Output : 4
 
@@ -17,7 +17,7 @@ Output : 1
 
 在本程序中，我们将使用 *isinstance()* 的概念来验证我们在计数路径中是否遇到元组。有关 isinstance()的详细指南，请访问 Python 中的[is instance](https://www.geeksforgeeks.org/type-isinstance-python/)。
 
-```
+```py
 # Python program to count the items
 # until a list is encountered
 def Count(li):
@@ -35,7 +35,7 @@ print(Count(li))
 
 输出:
 
-```
+```py
 4
 
 ```

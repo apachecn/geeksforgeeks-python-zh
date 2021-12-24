@@ -28,7 +28,7 @@ JSON 的完整形式是 JavaScript 对象符号。这意味着由编程语言中
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to update
 # JSON
 
@@ -64,7 +64,7 @@ print(json.dumps(z))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to update
 # JSON
 

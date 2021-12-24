@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # approach 1
 # using getsize function os.path module
 import os
@@ -23,7 +23,7 @@ print("File Size is :", file_size, "bytes")
 
 **输出:**
 
-```
+```py
 File Size is : 218 bytes
 ```
 
@@ -35,7 +35,7 @@ File Size is : 218 bytes
 
 ## 蟒蛇 3
 
-```
+```py
 # approach 2
 # using stat function of os module
 import os
@@ -46,7 +46,7 @@ print("Size of file :", file_size.st_size, "bytes")
 
 **输出:**
 
-```
+```py
 Size of file : 218 bytes
 ```
 
@@ -62,7 +62,7 @@ Size of file : 218 bytes
 
 ## 蟒蛇 3
 
-```
+```py
 # approach 3
 # using file object
 
@@ -79,7 +79,7 @@ print("Size of file is :", file.tell(), "bytes")
 
 **输出:**
 
-```
+```py
 Size of file is : 218 bytes
 ```
 
@@ -91,7 +91,7 @@ Path 对象的 stat()方法返回 st_mode、st_dev 等。文件的属性。stat 
 
 ## 蟒蛇 3
 
-```
+```py
 # approach 4
 # using pathlib module
 from pathlib import Path
@@ -110,6 +110,6 @@ print("Size of file is :", file, "bytes")
 
 **输出:**
 
-```
+```py
 Size of file is : 218 bytes
 ```

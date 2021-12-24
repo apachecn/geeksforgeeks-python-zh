@@ -8,7 +8,7 @@
 
 `defaultdict`可以使用默认为每个新键分配公共键的函数进行初始化。这是执行此任务的最推荐方式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize common value to keys
 # Using defaultdict()
@@ -31,7 +31,7 @@ print("The value of key is :  " + str(res_demo))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {}
 The value of key is :  4
 
@@ -41,7 +41,7 @@ The value of key is :  4
 
 这个方法只是执行这个任务的一个显示黑客。它并不创建实际的列表，而只是打印传递给`get`函数的默认值以及结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initialize common value to keys
 # Using get() + default value
@@ -62,7 +62,7 @@ print("The value of key is :  " + str(res_demo))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {}
 The value of key is :  4
 

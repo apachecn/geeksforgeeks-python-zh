@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 num = 23
 print("Type of num is:", type(num))
 
@@ -29,7 +29,7 @@ print("Type of name is:", type(name))
 
 输出:
 
-```
+```py
 Type of num is: <class 'int'>
 Type of lst is: <class 'list'>
 Type of name is: <class 'str'>
@@ -39,7 +39,7 @@ Type of name is: <class 'str'>
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
     pass
 stu_obj = Student()
@@ -50,7 +50,7 @@ print("Type of stu_obj is:", type(stu_obj))
 
 输出:
 
-```
+```py
 Type of stu_obj is: <class '__main__.Student'>
 ```
 
@@ -58,7 +58,7 @@ Type of stu_obj is: <class '__main__.Student'>
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
     pass
 
@@ -68,7 +68,7 @@ print("Type of Student class is:", type(Student))
 
 输出:
 
-```
+```py
 Type of Student class is: <class 'type'>
 ```
 
@@ -76,7 +76,7 @@ Type of Student class is: <class 'type'>
 
 ## 蟒蛇 3
 
-```
+```py
 # Defined class without any
 # class methods and variables
 class test:pass
@@ -96,7 +96,7 @@ myobj.foo()
 
 输出:
 
-```
+```py
 45
 Hello
 ```
@@ -127,7 +127,7 @@ Hello
 
 ## 蟒蛇 3
 
-```
+```py
 def test_method(self):
     print("This is Test class method!")
 
@@ -159,7 +159,7 @@ print(test_obj.x)
 
 输出:
 
-```
+```py
 Type of Test class:  <class 'type'>
 Type of test_obj:  <class '__main__.Test'>
 This is inherited method!
@@ -171,7 +171,7 @@ atul
 
 ## 蟒蛇 3
 
-```
+```py
 # our metaclass
 class MultiBases(type):
     # overriding __new__ method
@@ -206,7 +206,7 @@ class C(A, B):
 
 输出:
 
-```
+```py
 Traceback (most recent call last):
   File "<stdin>", line 2, in <module>
   File "<stdin>", line 8, in __new__
@@ -222,7 +222,7 @@ TypeError: Inherited multiple base classes!!!
 
 ## 蟒蛇 3
 
-```
+```py
 from functools import wraps
 
 def debug(func):
@@ -262,7 +262,7 @@ print(mycal.mul(5, 2))
 
 输出:
 
-```
+```py
 Full name of this method: Calc.add
 5
 Full name of this method: Calc.mul
@@ -275,7 +275,7 @@ Full name of this method: Calc.mul
 
 ## 蟒蛇 3
 
-```
+```py
 from functools import wraps
 
 def debug(func):
@@ -329,7 +329,7 @@ print(mycal.mul(2, 3))
 
 输出:
 
-```
+```py
 Full name of this method: Calc_adv.mul
 6
 ```

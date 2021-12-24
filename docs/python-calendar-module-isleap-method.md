@@ -8,7 +8,7 @@
 
 **`isleap()`** 法是用来取值 True 的**如果年份是闰年，否则给出 False。**
 
-```
+```py
 Syntax: isleap()
 Parameter: 
 year: Year to be tested leap or not.
@@ -18,7 +18,7 @@ Returns: Returns True if the year is a leap year, otherwise False.
 
 **代码#1:**
 
-```
+```py
 # Python program to explain working of isleap() method
 
 # importing calendar module
@@ -31,7 +31,7 @@ print(calendar.isleap(2001))
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -40,7 +40,7 @@ False
 
 下面的代码打印第 4 个月的日历，如果给定的年份是年，否则通知年份不是闰年。
 
-```
+```py
 # Python code to demonstrate the working of isleap() 
 
 # importing calendar module for calendar operations 
@@ -64,6 +64,6 @@ else:
 
 **输出:**
 
-```
+```py
 2017 is not a leap year
 ```

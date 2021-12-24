@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program introducing f-string
 val = 'Geeks'
 print(f"{val}for{val} is a portal for {val}.")
@@ -21,7 +21,7 @@ print(f"Hello, My name is {name} and I'm {age} years old.")
 
 **输出:**
 
-```
+```py
 GeeksforGeeks is a portal for Geeks.
 Hello, My name is Tushar and I'm 23 years old.
 ```
@@ -30,7 +30,7 @@ Hello, My name is Tushar and I'm 23 years old.
 
 ## 蟒蛇 3
 
-```
+```py
 # Prints today's date with help
 # of datetime library
 import datetime
@@ -41,7 +41,7 @@ print(f"{today:%B %d, %Y}")
 
 **输出:**
 
-```
+```py
 April 04, 2018
 ```
 
@@ -52,7 +52,7 @@ April 04, 2018
 
 ## 蟒蛇 3
 
-```
+```py
 answer = 456
 f"Your answer is "{answer}""
 ```
@@ -61,13 +61,13 @@ f"Your answer is "{answer}""
 
 ## 蟒蛇 3
 
-```
+```py
 f"newline: {ord('\n')}"
 ```
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   Python Shell, prompt 29, line 1
 Syntax Error: f-string expression part cannot include a backslash: , line 1, pos 0
@@ -77,7 +77,7 @@ Syntax Error: f-string expression part cannot include a backslash: , line 1, pos
 
 ## 蟒蛇 3
 
-```
+```py
 newline = ord('\n')
 
 f"newline: {newline}"
@@ -85,7 +85,7 @@ f"newline: {newline}"
 
 **输出:**
 
-```
+```py
 newline: 10
 ```
 

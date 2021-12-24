@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the datetime module
 import datetime
 
@@ -43,7 +43,7 @@ else:
 
 **输出:**
 
-```
+```py
 Unaware
 ```
 
@@ -62,7 +62,7 @@ Unaware
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the datetime module
 import datetime
 
@@ -86,7 +86,7 @@ print(current_date)
 
 **输出:**
 
-```
+```py
 2021-08-30T09:45:43.291212+00:00
 ```
 
@@ -94,7 +94,7 @@ print(current_date)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the datetime module
 import datetime
 
@@ -130,7 +130,7 @@ print(current_date)
 
 **输出:**
 
-```
+```py
 Aware
 2021-08-30T09:55:15.111556+00:00
 ```
@@ -143,7 +143,7 @@ Aware
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the datetime module
 import datetime
 import pytz
@@ -160,7 +160,7 @@ print(current_date)
 
 **输出:**
 
-```
+```py
 2021-08-30 04:35:37.036990+00:00
 ```
 
@@ -168,7 +168,7 @@ print(current_date)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the datetime module
 import datetime
 import pytz
@@ -197,7 +197,7 @@ print(current_date)
 
 **输出:**
 
-```
+```py
 Aware
 2021-08-30 04:46:40.670455+00:00
 ```

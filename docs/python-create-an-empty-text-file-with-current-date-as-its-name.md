@@ -8,7 +8,7 @@ datetime 模块提供了以简单和复杂的方式操作日期和时间的类�
 
 让我们看一个代码示例，并尝试更好地理解它。
 
-```
+```py
 # Python script to create an empty file
 # with current date as name.
 
@@ -32,6 +32,6 @@ create_file()
 
 **输出:**
 
-```
+```py
 01 August 2019.txt
 ```

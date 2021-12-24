@@ -6,7 +6,7 @@
 
 对于使用 excel 文件，我们需要`**openpyxl**`，这是一个 Python 库，用于读取、写入和修改 excel(扩展名为 xlsx/xlsm/xltx/xltm)文件。可以使用以下命令安装它:
 
-```
+```py
 Sudo pip3 install openpyxl
 ```
 
@@ -25,7 +25,7 @@ Sudo pip3 install openpyxl
 > 6)使用两个 for 循环(一个用于迭代 excel 文件的行，另一个用于迭代 excel 文件的列)将源文件中的单元格值读取到变量，然后从该变量将其写入目标文件中的单元格。
 > 7)保存目标文件。
 
-```
+```py
 # importing openpyxl module
 import openpyxl as xl;
 

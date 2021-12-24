@@ -8,7 +8,7 @@
 
 在初始化 pygame 库之前，我们需要安装它。这个库可以使用 Python 为其库安装提供的 *pip* 工具安装到系统中。Pygame 可以通过将这些行写入终端来安装。
 
-```
+```py
 pip install pygame
 ```
 
@@ -20,7 +20,7 @@ pip install pygame
 
 下面是实现。
 
-```
+```py
 import pygame
 import sys
 

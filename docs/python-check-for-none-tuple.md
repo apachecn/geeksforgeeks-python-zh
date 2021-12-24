@@ -7,7 +7,7 @@
 **方法#1:使用`all()` +生成器表达式**
 上述功能的组合可用于执行该特定任务。在本文中，我们使用生成器表达式来提供无的逻辑，并且每个元素的检查由`all()`来处理。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for None Tuple
 # using all() + generator expression
@@ -28,7 +28,7 @@ print("Does tuple contain all None elements ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (None, None, None, None, None)
 Does tuple contain all None elements ? : True
 

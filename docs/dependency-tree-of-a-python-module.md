@@ -10,14 +10,14 @@
 
 在命令提示符下键入以下命令:
 
-```
+```py
 $pip freeze
 
 ```
 
 **输出:**
 
-```
+```py
 altair==4.1.0
 attrs==19.3.0
 docutils==0.15.2
@@ -44,7 +44,7 @@ urllib3==1.25.9
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 $pip install pipdeptree
 
 ```
@@ -55,14 +55,14 @@ $pip install pipdeptree
 
 **命令:**
 
-```
+```py
 $pipdeptree
 
 ```
 
 **输出:**
 
-```
+```py
 $pipdeptree
 altair==4.1.0
  - entrypoints [required: Any, installed: 0.3]
@@ -97,14 +97,14 @@ urllib3==1.25.9
 
 **命令:**
 
-```
+```py
 $pipdeptree --freeze
 
 ```
 
 **输出:**
 
-```
+```py
 altair==4.1.0
   entrypoints==0.3
   Jinja2==2.11.2
@@ -150,14 +150,14 @@ urllib3==1.25.9
 
 **命令:**
 
-```
+```py
 $pipdeptree
 
 ```
 
 **输出:**
 
-```
+```py
 Warning!!! Possibly conflicting dependencies found:
 * impacket==0.9.20
  - ldap3 [required: ==2.5.1, installed: ?]
@@ -203,14 +203,14 @@ pip [还没有真正的依赖解析。](https://github.com/pypa/pip/issues/988)�
 
 **命令:**
 
-```
+```py
 $pipdeptree
 
 ```
 
 **输出:**
 
-```
+```py
 Warning!!! Cyclic dependencies found:
 - CircularDependencyA => CircularDependencyB => CircularDependencyA
 - CircularDependencyB => CircularDependencyA => CircularDependencyB
@@ -230,14 +230,14 @@ argparse==1.2.1
 
 **命令**:
 
-```
+```py
 $pipdeptree --reverse --packages MarkupSafe,numpy
 
 ```
 
 **输出:**
 
-```
+```py
 MarkupSafe==1.1.1
   - Jinja2==2.11.2 [requires: MarkupSafe>=0.23]
     - altair==4.1.0 [requires: jinja2]
@@ -257,14 +257,14 @@ numpy==1.18.4
 
 **命令:**
 
-```
+```py
 $pipdeptree | grep -P '^\w+'
 
 ```
 
 **输出:**
 
-```
+```py
 Lookupy==0.1
 wsgiref==0.1.2
 argparse==1.2.1
@@ -281,13 +281,13 @@ redis==2.9.1
 
 ****命令:****
 
-```
+```py
 $pipdeptree -f --warn silence | grep -P '^[\w0-9\-=.]+' 
 ```
 
 ****输出:****
 
-```
+```py
 -e git+git@github.com:naiquevin/lookupy.git@cdbe30c160e1c29802df75e145ea4ad903c05386#egg=Lookupy-master
 wsgiref==0.1.2
 argparse==1.2.1
@@ -301,7 +301,7 @@ redis==2.9.1
 
 ****命令:****
 
-```
+```py
 $ pipdeptree -f --warn silence | grep -P '^[\w0-9\-=.]+' > requirements.txt 
 ```
 
@@ -313,13 +313,13 @@ $ pipdeptree -f --warn silence | grep -P '^[\w0-9\-=.]+' > requirements.txt
 
 ****命令:****
 
-```
+```py
 $pipdeptree --json 
 ```
 
 ****输出:****
 
-```
+```py
 [
     {
         "package": {
@@ -399,13 +399,13 @@ $pipdeptree --json
 
 ****命令:****
 
-```
+```py
 $pipdeptree --json-tree 
 ```
 
 ****输出:****
 
-```
+```py
  [
     {
         "key": "altair",

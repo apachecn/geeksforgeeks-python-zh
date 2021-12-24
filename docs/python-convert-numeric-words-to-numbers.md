@@ -7,7 +7,7 @@
 **方法#1:使用`loop + join() + split()`**
 解决这个问题的方法之一是使用映射，可以将数字与单词映射，然后使用映射到数字来拆分字符串并重新加入。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert numeric words to numbers
 # Using join() + split()
@@ -41,7 +41,7 @@ print("The string after performing replace : " + res) 
 
 **Output :**
 
-```
+```py
 The original string is : zero four zero one
 The string after performing replace : 0401
 

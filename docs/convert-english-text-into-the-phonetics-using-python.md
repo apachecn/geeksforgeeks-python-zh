@@ -6,7 +6,7 @@
 
 **安装:**将此代码运行到您的终端中。
 
-```
+```py
 pip install eng-to-ipa 
 
 ```
@@ -25,7 +25,7 @@ pip install eng-to-ipa
 
 ## 蟒蛇 3
 
-```
+```py
 import eng_to_ipa as p
 
 p.convert("Hello Geeks")
@@ -33,7 +33,7 @@ p.convert("Hello Geeks")
 
 **输出:**
 
-```
+```py
 'hɛˈloʊ giks'
 
 ```
@@ -50,7 +50,7 @@ p.convert("Hello Geeks")
 
 ## 蟒蛇 3
 
-```
+```py
 p.ipa_list("Yes i am geeks, How are you")
 ```
 
@@ -70,13 +70,13 @@ p.ipa_list("Yes i am geeks, How are you")
 
 ## **蟒蛇 3**
 
-```
+```py
 p.get_rhymes("Geeks")
 ```
 
 ****输出:****
 
-```
+```py
 ['antiques',
  'batiks',
  'beeks',

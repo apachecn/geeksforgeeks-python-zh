@@ -6,7 +6,7 @@
 
 在开始之前，我们需要安装 GeoPy 模块，所以让我们在您的终端上运行这个命令。
 
-```
+```py
 pip install geopy
 ```
 
@@ -26,7 +26,7 @@ pip install geopy
 
 ## 蟒蛇 3
 
-```
+```py
 from geopy.geocoders import Nominatim
 
 geolocator = Nominatim(user_agent = "geoapiExercises")
@@ -42,7 +42,7 @@ print("Country Name: ", location)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from geopy.geocoders import Nominatim
 from tkinter import *

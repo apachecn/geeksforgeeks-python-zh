@@ -8,13 +8,13 @@
 
 让我用一个简单的例子来演示，看看下面的代码片段-
 
-```
+```py
 alphabets = ['a', 'b', 'c']
 for item in alphabets:
     len(item) 
 ```
 
-```
+```py
 alphabets = ['a', 'b', 'c']
 fn = len
 for item in alphabets:
@@ -24,7 +24,7 @@ for item in alphabets:
 你可能会认为我给函数“len”分配了一个别名，这可能没什么区别。
 所以我写了一个性能测试函数如下。
 
-```
+```py
 import datetime
 alphabets = [str(x)for x in range(10000000)]
 a = datetime.datetime.now() # store initial time
@@ -54,7 +54,7 @@ Itertools
 如果你去过 codeforces，你现在知道很多编程挑战都涉及到回溯。所以今天我将告诉你一个库，它使用一个内置的库包来生成所有的排列和组合，速度非常快。Itertools 如果你想用 python 解决算法难题，那么 itertools 是你必须探索的库。
 生成所有排列–
 
-```
+```py
 from itertools import permutations
 perm = permutations([1, 2, 3], 2)
 for i in list(perm):

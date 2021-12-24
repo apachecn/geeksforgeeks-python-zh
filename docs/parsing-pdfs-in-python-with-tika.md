@@ -8,7 +8,7 @@ Apache Tika 是一个库，用于文档类型检测和从各种文件格式中�
 
 要安装 Tika，请在终端中键入以下命令。
 
-```
+```py
 pip install tika
 
 ```
@@ -34,7 +34,7 @@ pip install tika
 
 ## 蟒 3
 
-```
+```py
 # import parser object from tike
 from tika import parser  
 

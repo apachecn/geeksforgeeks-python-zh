@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 def function_name: 
     function definition statements...
 ```
@@ -24,7 +24,7 @@ def function_name:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # def keyword
 
@@ -45,7 +45,7 @@ print("subtraction of ", a, " and ", b, " is = ", result)
 
 **输出:**
 
-```
+```py
 subtraction of  90  and  50  is =  40
 ```
 
@@ -53,7 +53,7 @@ subtraction of  90  and  50  is =  40
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print first 10
 # prime numbers
 
@@ -81,7 +81,7 @@ prime(n)
 
 **输出:**
 
-```
+```py
 First 10 prime numbers are:  
 1
 2
@@ -99,7 +99,7 @@ First 10 prime numbers are:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # factorial of a number
 
@@ -124,6 +124,6 @@ else:
 
 **输出:**
 
-```
+```py
 The factorial of 6 is 720
 ```

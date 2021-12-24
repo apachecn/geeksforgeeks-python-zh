@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -31,7 +31,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -54,7 +54,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -74,7 +74,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 x_data = [1, 2, 3, 4]
 y_data = [3, 5, 2, 6]
@@ -100,7 +100,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np

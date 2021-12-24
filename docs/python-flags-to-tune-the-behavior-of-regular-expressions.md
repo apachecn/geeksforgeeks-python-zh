@@ -16,7 +16,7 @@ Python 提供了一些标志来修改正则表达式引擎的行为。下面我�
 
 ## 蟒 3
 
-```
+```py
 import re
 
 match = re.search(r'geeksforgeeks', 'GeeksforGeeks',re.IGNORECASE)
@@ -25,7 +25,7 @@ print(match)
 
 **输出**
 
-```
+```py
 <_sre.SRE_Match object; span=(0, 13), match='GeeksforGeeks'>
 
 ```

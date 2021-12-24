@@ -6,7 +6,7 @@
 
 在本文中，我们将讨论 Python 平台的脸书应用编程接口的实现细节。让我们从下载 Python 的脸书客户端开始。使用以下 python 命令下载脸书客户端-
 
-```
+```py
 pip install facebook-sdk 
 ```
 
@@ -30,7 +30,7 @@ pip install facebook-sdk
 
 Get details about the user (In this case, we are using ‘me’ parameter to display details from my account only).
 
-```
+```py
 import json
 import facebook
 
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
 现在转到 Python 代码，找出页面的细节。
 
-```
+```py
 import json
 import facebook
 
@@ -96,13 +96,13 @@ if __name__ == '__main__':
 2.  打开记事本，按 Ctrl+V 或右键，选择粘贴选项。
 3.  将粘贴一个网址。在“referrer_profile_id”后面的末尾提到了用户 ID。
 
-    ```
+    ```py
     https://www.facebook.com/photo.php?fbid=913492355516001&set=a.187231114642052&type=3&source=11&referrer_profile_id=100000677755756
     ```
 
 查找帖子详细信息的代码。
 
-```
+```py
 import json
 import facebook
 
@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
 **示例#1:** 获取两个不同帖子的创建时间。
 
-```
+```py
 import json
 import facebook
 
@@ -159,7 +159,7 @@ if __name__ == '__main__':
 3.  在网址的“photo.php”部分后面查找“fbid”后跟一个数字。
 4.  出现在“fbid”标签和“&”符号之间的数字是照片 id 号。
 
-```
+```py
 import json
 import facebook
 

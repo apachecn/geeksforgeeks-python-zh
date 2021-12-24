@@ -7,7 +7,7 @@
 **方法一:使用 `==` 操作符**
 这是执行这个任务最简单优雅的方式。它还检查元组索引彼此是否相等。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if two list of tuples are identical
 # using == operator
@@ -30,7 +30,7 @@ print("Are tuple lists identical ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [(10, 4), (2, 5)]
 The original list 2 : [(10, 4), (2, 5)]
 Are tuple lists identical ? : True

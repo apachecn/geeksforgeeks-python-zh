@@ -14,7 +14,7 @@ all()函数是 Python 中的一个内置函数，如果给定表(列表、字典
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of list are true
 l = [4, 5, 1]
 print(all(l))
@@ -35,7 +35,7 @@ print(all(l))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -46,7 +46,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of tuple are true
 t = (2, 4, 6)
 print(all(t))
@@ -67,7 +67,7 @@ print(all(t))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -78,7 +78,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of set are true
 s = {1, 1, 3}
 print(all(s))
@@ -99,7 +99,7 @@ print(all(s))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -112,7 +112,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of dictionary are true
 d = {1: "Hello", 2: "Hi"}
 print(all(d))
@@ -133,7 +133,7 @@ print(all(d))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -144,7 +144,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Non-Empty String
 s = "Hi There!"
 print(all(s))
@@ -160,7 +160,7 @@ print(all(s))
 
 **输出:**
 
-```
+```py
 True
 True
 True

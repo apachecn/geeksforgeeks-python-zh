@@ -8,7 +8,7 @@
 
 ## Python
 
-```
+```py
 # function
 def calculate_square(num):
     return num * num
@@ -20,7 +20,7 @@ print(result)
 
 **输出**
 
-```
+```py
 100
 
 ```

@@ -13,7 +13,7 @@
 
 **例:**
 
-```
+```py
 The generated random phone numbers would looklike:
 9980231467
 8726189362
@@ -23,7 +23,7 @@ The generated random phone numbers would looklike:
 
 ## 蟒 3
 
-```
+```py
 # import module
 import random as r
 
@@ -44,6 +44,6 @@ for i in ph_no:
 
 **输出:**
 
-```
+```py
 8349603502
 ```

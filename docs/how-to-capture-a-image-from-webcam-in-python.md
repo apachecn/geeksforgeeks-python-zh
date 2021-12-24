@@ -10,7 +10,7 @@
 
 OpenCV 库兼容 Linux 和 windows 两种操作系统。用户需要使用下面的命令在本地计算机上安装 OpenCV 库，然后才能继续。
 
-```
+```py
 Install command - pip install opencv-python
 ```
 
@@ -24,7 +24,7 @@ Install command - pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 cam = VideoCapture(0)
 ```
 
@@ -34,7 +34,7 @@ cam = VideoCapture(0)
 
 ## 蟒蛇 3
 
-```
+```py
 result, image = cam.read()
 ```
 
@@ -42,7 +42,7 @@ result, image = cam.read()
 
 **语法**:
 
-```
+```py
 If result:
 
     # show the image
@@ -59,7 +59,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # program to capture single image from webcam in python
 
 # importing OpenCV library
@@ -112,7 +112,7 @@ PyGame.camera()相机初始化器仅支持 Linux 操作系统，目前与 Window
 
 ## 蟒蛇 3
 
-```
+```py
 pygame.camera.init()
 ```
 
@@ -120,7 +120,7 @@ pygame.camera.init()
 
 ## 蟒蛇 3
 
-```
+```py
 camlist = pygame.camera.list_cameras()
 ```
 
@@ -128,7 +128,7 @@ camlist = pygame.camera.list_cameras()
 
 **语法:**
 
-```
+```py
 if camlist:
 
     # Initialize and start camera  
@@ -149,7 +149,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to capture a single image
 # using pygame library
 

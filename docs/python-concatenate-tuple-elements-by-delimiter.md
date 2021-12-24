@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Tuple elements by delimiter
 # Using list comprehension
@@ -47,7 +47,7 @@ print("Concatenated Tuple : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : ('Gfg', 'is', 4, 'Best')
 Concatenated Tuple : Gfg-is-4-Best
 
@@ -59,7 +59,7 @@ Concatenated Tuple : Gfg-is-4-Best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Tuple elements by delimiter
 # Using join() + map()
@@ -82,7 +82,7 @@ print("Concatenated Tuple : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : ('Gfg', 'is', 4, 'Best')
 Concatenated Tuple : Gfg-is-4-Best
 

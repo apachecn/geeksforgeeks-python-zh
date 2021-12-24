@@ -8,14 +8,14 @@
 虽然普通函数是使用 def 关键字定义的，但是在 Python 中匿名函数是使用 lambda 关键字定义的。因此，匿名函数也被称为 lambda 函数。
 **语法:**
 
-```
+```py
 lambda arguments: expression
 ```
 
 Lambda 函数可以有任意数量的参数，但只能有一个表达式。表达式被求值并返回
 **示例:**
 
-```
+```py
 Input : ('The total terms is:', 10)
 
 Output :
@@ -32,7 +32,7 @@ Output :
 
 ```
 
-```
+```py
 # Python Program to display the powers 
 # of 2 using anonymous function
 
@@ -53,7 +53,7 @@ for i in range(terms):
 
 输出:
 
-```
+```py
 ('The total terms is:', 10)
 ('2 raised to power', 0, 'is', 1)
 ('2 raised to power', 1, 'is', 2)

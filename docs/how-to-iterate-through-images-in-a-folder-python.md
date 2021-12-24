@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import os
 from os import listdir
@@ -39,7 +39,7 @@ for images in os.listdir(folder_dir):
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import os
 from os import listdir
@@ -66,7 +66,7 @@ for images in os.listdir(folder_dir):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from pathlib import Path
 
@@ -92,7 +92,7 @@ for image in images:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import glob
 

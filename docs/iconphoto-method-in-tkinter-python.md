@@ -5,13 +5,13 @@
 **iconphoto()** 方法用于设置任意 tkinter/toplevel 窗口的标题栏图标。但是要将任何图像设置为标题栏的图标，图像应该是**摄影图像**类的对象。
 **语法:**
 
-```
+```py
 iconphoto(self, default = False, *args)
 ```
 
 **设置图标图像的步骤–**
 
-```
+```py
 from tkinter import Tk
 master = Tk()
 
@@ -24,7 +24,7 @@ master.iconphoto(False, photo)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Tkinter module
 from tkinter import *
 from tkinter.ttk import *
@@ -59,7 +59,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Tkinter module
 from tkinter import *
 from tkinter.ttk import *
@@ -82,7 +82,7 @@ mainloop()
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:\Users\Admin\Documents\GUI_python\geeks.py", line 14, in 
     master.iconphoto(False, 'info.png')

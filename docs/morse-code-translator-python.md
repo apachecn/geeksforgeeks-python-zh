@@ -30,7 +30,7 @@ Python 提供了一种称为[字典](https://www.geeksforgeeks.org/python-set-4-
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to implement Morse Code Translator
 
 '''
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 --. . . -.- ... -....- ..-. --- .-. -....- --. . . -.- ... 
 GEEKS-FOR-GEEKS
 ```

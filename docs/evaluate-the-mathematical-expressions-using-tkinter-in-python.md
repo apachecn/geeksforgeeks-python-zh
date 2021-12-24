@@ -19,7 +19,7 @@
 
 ## 大蟒
 
-```
+```py
 # Importing tkinter module as tk
 import tkinter as tk
 

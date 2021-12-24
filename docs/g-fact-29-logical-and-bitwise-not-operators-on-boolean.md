@@ -7,7 +7,7 @@
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-0">C/C++</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="C"></gfg-panel>
 
-```
+```py
  // A C/C++ program that uses Logical Not or ! on boolean
 #include <stdio.h>
 #include <stdbool.h>
@@ -26,7 +26,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // A Java program that uses Logical Not or ! on boolean
 import java.io.*;
 

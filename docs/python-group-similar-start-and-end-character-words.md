@@ -7,7 +7,7 @@
 **方法#1:使用`defaultdict()` +循环**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用字符串切片符号检查前面和最后一个元素，并存储在 dict 中。以第一个和最后一个字符作为关键字。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Similar Start and End character words
 # Using defaultdict() + loop

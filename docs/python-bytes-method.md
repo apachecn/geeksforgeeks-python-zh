@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # python code demobstrating
 # int to bytes
 str = "Welcome to Geeksforgeeks"
@@ -39,7 +39,7 @@ print(arr)
 
 **输出:**
 
-```
+```py
 b'Welcome to Geeksforgeeks'
 ```
 
@@ -49,7 +49,7 @@ b'Welcome to Geeksforgeeks'
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate
 # int to bytes
 
@@ -61,7 +61,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
 ```
 
@@ -71,13 +71,13 @@ b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
 
 ## 蟒蛇 3
 
-```
+```py
 print(bytes())
 ```
 
 **输出:**
 
-```
+```py
 b''
 ```
 
@@ -85,7 +85,7 @@ b''
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate the
 # working of bytes() on int, iterables, none
 
@@ -103,7 +103,7 @@ print ("The iterable conversion results in : "  + str(bytes(lis1)))
 
 输出:
 
-```
+```py
 Byte conversion with no arguments : b''
 The integer conversion results in : b'\x00\x00\x00\x00'
 The iterable conversion results in : b'\x01\x02\x03\x04\x05'
@@ -123,7 +123,7 @@ The iterable conversion results in : b'\x01\x02\x03\x04\x05'
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python 3 code to demonstrate the
 # working of bytes() on string
 
@@ -146,7 +146,7 @@ print("Byte conversion with strict error : " +
 
 ****输出:****
 
-```
+```py
 Byte conversion with ignore error : b'GeeksfrGeeks'
 Byte conversion with replace error : b'Geeksf?rGeeks'
 ```

@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `max()`**
 这是一种通用的蛮力方法，用于获取公共 y 轴的最大 x 轴点，使用列表理解制作为 1 个直线。`max()`用来求 x 轴元素的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Farthest point on horizontal lines in 2D plane
 # Using list comprehension + max()
@@ -32,7 +32,7 @@ print("The list after filtering just maximum points on lines : " +  str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 6), (4, 6), (2, 6), (6, 8), (1, 8), (2, 9)]
 The list after filtering just maximum points on lines : [(4, 6), (6, 8), (2, 9)]
 

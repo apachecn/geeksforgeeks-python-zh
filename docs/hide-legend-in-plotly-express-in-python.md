@@ -14,7 +14,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import libraries
 import plotly.express as px
 import pandas as pd
@@ -42,7 +42,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import plotly.express as px
 import pandas as pd

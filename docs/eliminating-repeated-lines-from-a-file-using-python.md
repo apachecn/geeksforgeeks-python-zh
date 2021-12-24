@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the output file
 outputFile = open('C:/Users/user/Desktop/Lorem_output.txt', "w")
 

@@ -12,7 +12,7 @@
 
 考虑由 A 和 B 表示的 2 个模糊集，然后让我们考虑 Y 是它们的并集，那么对于 A 和 B 的每个成员，Y 将是:
 
-```
+```py
  degree_of_membership(Y)= max(degree_of_membership(A), degree_of_membership(B)) 
 
 ```
@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Example to Demonstrate the 
 # Union of Two Fuzzy Sets
 A = dict()
@@ -48,7 +48,7 @@ print('Fuzzy Set Union is :', Y)
 
 **Output**
 
-```
+```py
 The First Fuzzy Set is : {'a': 0.2, 'b': 0.3, 'c': 0.6, 'd': 0.6}
 The Second Fuzzy Set is : {'a': 0.9, 'b': 0.9, 'c': 0.4, 'd': 0.5}
 Fuzzy Set Union is : {'a': 0.9, 'b': 0.9, 'c': 0.6, 'd': 0.6}
@@ -59,7 +59,7 @@ Fuzzy Set Union is : {'a': 0.9, 'b': 0.9, 'c': 0.6, 'd': 0.6}
 
 考虑由 A 和 B 表示的 2 个模糊集，然后让我们考虑 Y 是它们的交集，那么对于 A 和 B 的每个成员，Y 将是:
 
-```
+```py
 degree_of_membership(Y)= min(degree_of_membership(A), degree_of_membership(B)) 
 
 ```
@@ -68,7 +68,7 @@ degree_of_membership(Y)= min(degree_of_membership(A), degree_of_membership(B))
 
 ## 蟒蛇 3
 
-```
+```py
 # Example to Demonstrate
 # Intersection of Two Fuzzy Sets
 A = dict()
@@ -94,7 +94,7 @@ print('Fuzzy Set Intersection is :', Y)
 
 **Output**
 
-```
+```py
 The First Fuzzy Set is : {'a': 0.2, 'b': 0.3, 'c': 0.6, 'd': 0.6}
 The Second Fuzzy Set is : {'a': 0.9, 'b': 0.9, 'c': 0.4, 'd': 0.5}
 Fuzzy Set Intersection is : {'a': 0.2, 'b': 0.3, 'c': 0.4, 'd': 0.5}

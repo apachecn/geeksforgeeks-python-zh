@@ -6,7 +6,7 @@
 
 在本文中，我们将使用 Python 语言创建一个程序，用一个基本的 GUI 应用程序测试用户的打字速度。这里像 **Tkinter** 和 **Timeit** 这样的 Python 库分别用于速度测试的 GUI 和时间计算。此外，**随机**功能用于获取速度测试计算的随机字。以下命令用于安装上述库:
 
-```
+```py
 pip install tkintertable
 pip install pytest-timeit
 ```
@@ -17,7 +17,7 @@ pip install pytest-timeit
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all libraries
 from tkinter import *
 from timeit import default_timer as timer

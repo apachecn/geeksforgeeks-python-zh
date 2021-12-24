@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({"Name": ["sachin", "sujay", "Amara", "shivam",
@@ -50,7 +50,7 @@ print(df.to_string(index=False))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame(["Geeks", "for", "geek"],

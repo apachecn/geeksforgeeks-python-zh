@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Incremental Slice concatenation in String list
 # Using loop + slicing
@@ -43,7 +43,7 @@ print("Incremental sliced concatenated string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'for', 'all', 'geeks']
 Incremental sliced concatenated string : gfoallgeek
 
@@ -55,7 +55,7 @@ Incremental sliced concatenated string : gfoallgeek
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Incremental Slice concatenation in String list
 # Using join() + list comprehension
@@ -75,7 +75,7 @@ print("Incremental sliced concatenated string : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'for', 'all', 'geeks']
 Incremental sliced concatenated string : gfoallgeek
 

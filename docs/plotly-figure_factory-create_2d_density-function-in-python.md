@@ -34,7 +34,7 @@ Python 的 Plotly 库对于数据可视化和简单容易地理解数据非常�
 
 ## 蟒蛇 3
 
-```
+```py
 from plotly.figure_factory import create_2d_density
 import numpy as np
 
@@ -56,7 +56,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from plotly.figure_factory import create_2d_density
 import numpy as np
 

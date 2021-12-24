@@ -29,7 +29,7 @@ Tweepy 模块中`API`类的 **`API.media_upload()`** 方法用于通过媒体或
 **例 1 :** 发布一条推文，文件如下:
 ![](img/82950c201c2d981b37b6fbed0f843420.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -64,7 +64,7 @@ api.update_with_media(filename, status)
 **示例 2 :** 使用带 in_reply_to_status_id 参数的`media_upload()`方法回复之前的推文，使用以下媒体:
 ![](img/faf013d6aaf62d0340f0acfa7d1c5a09.png)
 
-```
+```py
 # the text to be tweeted
 status = "This is a tweet is a reply."
 

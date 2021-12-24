@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -51,7 +51,7 @@ for i in range(len(l_array)):
 
 ![](img/9e5e2ac122e2f5ffdd9b4084faa15c54.png)
 
-```
+```py
 Labeled Max array :
 Region 0 : 0.9980513142322492
 Region 1 : 0.624390200202312
@@ -62,7 +62,7 @@ Region 2 : 0.9210927640926101
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas
@@ -104,7 +104,7 @@ for i in range(len(l_array)):
 
 ![](img/addef6d9f28ce5c870ee8e365a269906.png)
 
-```
+```py
 Labeled Max array :
 Region 0 : 0.9999995478951564
 Region 1 : 0.9999944289534851

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values Frequency grouping of K in dictionaries
 # Using groupby() + dictionary comprehension
@@ -55,7 +55,7 @@ print("The Values Frequency : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values Frequency grouping of K in dictionaries
 # Using Counter()

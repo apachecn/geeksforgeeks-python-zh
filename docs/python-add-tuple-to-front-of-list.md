@@ -7,7 +7,7 @@
 **方法#1:使用`insert()`**
 这是可以将元素一字排开添加到前面的方法之一。它用于在列表前面添加任何元素。元组的行为也一样。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adding tuple to front of list
 # using insert()
@@ -31,7 +31,7 @@ print("The tuple after adding is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [('is', 2), ('best', 3)]
 The tuple after adding is : [('gfg', 1), ('is', 2), ('best', 3)]
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import PIL
 from PIL import Image
@@ -36,7 +36,7 @@ print(str(wid) + "x" + str(hgt))
 
 **输出:**
 
-```
+```py
 600x135
 
 ```
@@ -47,7 +47,7 @@ print(str(wid) + "x" + str(hgt))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import cv2
 
@@ -64,7 +64,7 @@ print(str(wid) + "x" + str(hgt))
 
 **输出:**
 
-```
+```py
 600x135
 
 ```

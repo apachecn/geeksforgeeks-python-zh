@@ -18,7 +18,7 @@ Python dict 对象可以或者应该作为 JSON 数据类型存储在数据库�
 
 ## 计算机编程语言
 
-```
+```py
 import json
 import psycopg2
 
@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
 运行上述 python 文件后，我们可以前往 pgAdmin，在公共模式下的 ***json_table*** 表中查看以下输出。您可以在查询工具中运行以下 SQL 脚本–
 
-```
+```py
 $ SELECT * FROM json_table;
 ```
 
@@ -109,7 +109,7 @@ $ SELECT * FROM json_table;
 
 ## 计算机编程语言
 
-```
+```py
 import psycopg2
 from psycopg2.extras import Json
 

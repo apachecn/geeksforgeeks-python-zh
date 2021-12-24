@@ -9,7 +9,7 @@
 **方法#1:使用`filter() + startswith()`**
 以上功能的组合可以帮助执行这个特定的任务。filter 方法用于检查每个单词，并从目标列表中前缀逻辑的方法测试开始。
 
-```
+```py
 # Python3 code to demonstrate
 # Prefix tests in Strings
 # using filter() + startswith()
@@ -33,7 +33,7 @@ print("Does string start with any prefix list sublist ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG is best
 Does string start with any prefix list sublist ? : True
 

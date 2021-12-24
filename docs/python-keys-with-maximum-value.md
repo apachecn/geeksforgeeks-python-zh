@@ -7,7 +7,7 @@
 **方法#1:使用`max() + list comprehension + values()`**
 上述功能的组合可用于执行该特定任务。在这种情况下，使用 max 函数提取最大值，而使用 values()提取字典的值。列表理解用于迭代字典以匹配具有最大值的关键字。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Keys with Maximum value
 # Using max() + list comprehension + values()
@@ -29,7 +29,7 @@ print("Keys with maximum values are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'CS': 2, 'Gfg': 2, 'for': 1}
 Keys with maximum values are : ['CS', 'Gfg']
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extend consecutive tuples
 # Using loop
@@ -41,7 +41,7 @@ print("Joined tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 5, 6, 7), (3, 2, 4, 3), (9, 4), (2, 3, 2), (3, ), (3, 6)]
 Joined tuples : [(3, 5, 6, 7, 3, 2, 4, 3), (3, 2, 4, 3, 9, 4), (9, 4, 2, 3, 2), (2, 3, 2, 3), (3, 3, 6)]
 
@@ -53,7 +53,7 @@ Joined tuples : [(3, 5, 6, 7, 3, 2, 4, 3), (3, 2, 4, 3, 9, 4), (9, 4, 2, 3, 2), 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extend consecutive tuples
 # Using zip() + list comprehension
@@ -73,7 +73,7 @@ print("Joined tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 5, 6, 7), (3, 2, 4, 3), (9, 4), (2, 3, 2), (3, ), (3, 6)]
 Joined tuples : [(3, 5, 6, 7, 3, 2, 4, 3), (3, 2, 4, 3, 9, 4), (9, 4, 2, 3, 2), (2, 3, 2, 3), (3, 3, 6)]
 

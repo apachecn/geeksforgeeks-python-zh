@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # object printing
 
@@ -41,7 +41,7 @@ print([t])
 
 **输出:**
 
-```
+```py
 From str method of Test: a is 1234, b is 5678
 [Test a:1234 b:5678]
 
@@ -53,7 +53,7 @@ From str method of Test: a is 1234, b is 5678
 
     **示例:**
 
-    ```
+    ```py
     class Test: 
         def __init__(self, a, b): 
             self.a = a 
@@ -69,7 +69,7 @@ From str method of Test: a is 1234, b is 5678
 
     **输出:**
 
-    ```
+    ```py
     Test a:1234 b:5678
 
     ```
@@ -78,7 +78,7 @@ From str method of Test: a is 1234, b is 5678
 
     **示例:**
 
-    ```
+    ```py
     class Test: 
         def __init__(self, a, b): 
             self.a = a 
@@ -91,7 +91,7 @@ From str method of Test: a is 1234, b is 5678
 
     **输出:**
 
-    ```
+    ```py
     <__main__.Test object at 0x7f9b5738c550>
 
     ```

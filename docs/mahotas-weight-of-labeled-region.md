@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -51,7 +51,7 @@ for i in range(len(sums)):
 **输出:**
 ![](img/26ff25b3a8086b6c0ada8fd91567f31a.png)
 
-```
+```py
 Sum of region 0 : 38.81707025816505
 Sum of region 1 : 5.627375253802732
 Sum of region 2 : 8.224633573583985
@@ -60,7 +60,7 @@ Sum of region 2 : 8.224633573583985
 
 **例 2:**
 
-```
+```py
 # importing required libraries
 import mahotas as mh
 import numpy as np
@@ -96,7 +96,7 @@ for i in range(len(sums)):
 
 **输出:**
 
-```
+```py
 Sum of region 0 : 47.05475409838963
 Sum of region 1 : 0.07129110100184632
 Sum of region 2 : 0.9333006775043519

@@ -20,7 +20,7 @@
 > *   margins_name : str，默认为“全部”，当 margins 为 True 时，将包含总计的行/列的名称。
 > *   dropna : bool，默认为 True，不包括条目全部为 NaN 的列。
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:
@@ -34,7 +34,7 @@ Error: Nothing to show, formula is empty
 
 ## 蟒蛇 3
 
-```
+```py
 raw_data = {'Digimon': ['Kuramon', 'Pabumon', 'Punimon',
                         'Botamon', 'Poyomon', 'Koromon', 
                         'Tanemon', 'Tsunomon', 'Tsumemon', 
@@ -63,7 +63,7 @@ print(raw_data)
 
 > {'Digimon': ['Kuramon '，' Pabumon '，'布尼兽'，'黑球兽'，' Poyomon '，' Koromon '，' Tanemon '，' Tsumemon '，' Tokomon']，' Stage': ['Baby '，' Baby '，' Baby '，' Baby '，' Baby '，' Baby '，' In-Training '，' In-Training']，' Type': ['Free '，' Free '，' Free '，' Free '，' Free '，' Free '，' Free '，' Attribute '[' neural '，' neural '，' neura Lv50 SP': [86，75，64，43，86，64，344，24，24，12]，' Lv50 Atk': [86，74，6335，421，23，36436，65，75，86，52]}
 > 
-> ```
+> ```py
 > *** QuickLaTeX cannot compile formula:
 >  
 > 
@@ -76,7 +76,7 @@ print(raw_data)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 raw_data_df = pd.DataFrame(raw_data,columns= ['Digimon','Stage',
                                             'Type', 'Attribute',
@@ -94,7 +94,7 @@ print(raw_data_df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 raw_data_df=pd.DataFrame(raw_data,columns= ['Digimon','Stage',
                                             'Type',
@@ -113,7 +113,7 @@ print(raw_data_df)
 
 ## 蟒蛇 3
 
-```
+```py
 raw_data_fd = pd.crosstab(
     [raw_data_df['Attribute'], raw_data_df['Memory']],
   raw_data_df['Digimon'], margins=True)

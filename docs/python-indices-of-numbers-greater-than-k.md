@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个问题可以很容易地通过使用带有强力方法的循环来解决，在这种方法中，我们可以在迭代时检查索引，并在前进时将其附加到新列表中。
 
-```
+```py
 # Python3 code to demonstrate
 # index of matching element using loop
 
@@ -30,7 +30,7 @@ print("The list of indices greater than 10 : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [12, 10, 18, 15, 8, 18]
 The list of indices greater than 10 : [0, 2, 3, 5]
 

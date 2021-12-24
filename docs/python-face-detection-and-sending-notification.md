@@ -56,7 +56,7 @@ Python 最大的优势是拥有大量标准库，可用于以下目的:
 
 ## 蟒蛇 3
 
-```
+```py
 # OpenCV program to detect face in real time
 # import libraries of python OpenCV
 # where its functionality resides

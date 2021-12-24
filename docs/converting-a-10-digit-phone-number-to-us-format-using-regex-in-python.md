@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re 
 
 def convert_phone_number(phone):
@@ -31,6 +31,6 @@ print(convert_phone_number("Call geek 321-963-0612"))
 
 **输出:**
 
-```
+```py
 Call geek (321) 963-0612
 ```

@@ -9,7 +9,7 @@
 
 让我们以一条推文为例:
 
-```
+```py
 I enjoyd the event which took place yesteday &amp; I luvd it ! The link to the show is 
 http://t.co/4ftYom0i It's awesome you'll luv it #HadFun #Enjoyed BFN GN
 ```
@@ -29,7 +29,7 @@ http://t.co/4ftYom0i It's awesome you'll luv it #HadFun #Enjoyed BFN GN
 
 ## 蟒蛇 3
 
-```
+```py
 #Escaping out HTML characters
 from html.parser import HTMLParser
 
@@ -50,7 +50,7 @@ print("After removing HTML characters the tweet is:-\n{}".format(tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 #Encode from UTF-8 to ascii
 encode_tweet =tweet.encode('ascii','ignore')
 print("encode_tweet = \n{}".format(encode_tweet))
@@ -70,7 +70,7 @@ print("decode_tweet = \n{}".format(decode_tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 #library for regular expressions
 import re   
 
@@ -93,7 +93,7 @@ print("After removing Hashtags,URLs and Styles the tweet is:-\n{}".format(tweet)
 
 **4)收缩替换:**文本数据可能包含用于收缩的撇号。例- **“没”为“没”**等。这可以改变单词或句子的意思。因此，我们需要用标准词汇替换这些撇号。要做到这一点，我们可以有一个字典，其中包含了需要替换的单词的值，并使用它。
 
-```
+```py
 Few of the contractions used are:-
 n't --> not        'll --> will
 's  --> is        'd  --> would
@@ -105,7 +105,7 @@ n't --> not        'll --> will
 
 ## 蟒蛇 3
 
-```
+```py
 #dictionary consisting of the contraction and the actual value
 Apos_dict={"'s":" is","n't":" not","'m":" am","'ll":" will",
            "'d":" would","'ve":" have","'re":" are"}
@@ -128,7 +128,7 @@ print("After Contraction replacement the tweet is:-\n{}".format(tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 #separate the words
 tweet = " ".join([s for s in re.split("([A-Z][a-z]+[^A-Z]*)",tweet) if s])
@@ -145,7 +145,7 @@ print("After splitting attached words the tweet is:-\n{}".format(tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 #convert to lower case
 tweet=tweet.lower()
 print("After converting to lower case the tweet is:-\n{}".format(tweet))
@@ -157,7 +157,7 @@ print("After converting to lower case the tweet is:-\n{}".format(tweet))
 
 **7)俚语查找:**现在使用的俚语词很多，可以在文本数据中找到。所以我们需要用它们的意义来代替它们。我们可以像使用缩略替换一样使用俚语词典，或者我们可以创建一个由俚语组成的文件。俚语的例子有:-
 
-```
+```py
 asap --> as soon as possible
 b4   --> before
 lol  --> laugh out loud
@@ -171,7 +171,7 @@ wtg  --> way to go
 
 ## 蟒蛇 3
 
-```
+```py
 #open the file slang.txt
 file=open("slang.txt","r")
 slang=file.read()
@@ -205,7 +205,7 @@ print("After slang replacement the tweet is:-\n{}".format(tweet))
 
 **8)标准化和拼写检查:**文本中可能存在拼写错误或格式不正确。例如–**“驾驶”表示“驾驶”**或**“我错过了”表示“我错过了”。**我们可以通过使用 python 的 ***【自动更正】*** **库**来更正这些。还有其他可用的库，您也可以使用。首先，您必须使用以下命令安装库
 
-```
+```py
 #install autocorrect library
  pip install autocorrect
 ```
@@ -214,7 +214,7 @@ print("After slang replacement the tweet is:-\n{}".format(tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 import itertools
 #One letter in a word should not be present more than twice in continuation
 tweet = ''.join(''.join(s)[:2] for _, s in itertools.groupby(tweet))
@@ -235,7 +235,7 @@ print("After Spell check the tweet is:-\n{}".format(tweet))
 
 首先，确保安装了 *nltk* 库。如果没有，那么使用命令下载它-
 
-```
+```py
 #install nltk library
  pip install nltk
 ```
@@ -244,7 +244,7 @@ print("After Spell check the tweet is:-\n{}".format(tweet))
 
 ## 蟒蛇 3
 
-```
+```py
 import nltk
 #download the stopwords from nltk using
 nltk.download('stopwords')
@@ -274,7 +274,7 @@ print("tweet_list = {}".format(tweet_list))
 
 ## 蟒蛇 3
 
-```
+```py
 #for string operations
 import string         
 clean_tweet=[]

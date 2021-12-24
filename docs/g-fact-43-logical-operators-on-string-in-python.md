@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 str1 = ''
 str2 = 'geeks'
 
@@ -53,7 +53,7 @@ print(repr(not str1))         
 
 **输出:**
 
-```
+```py
 ''
 ''
 'geeks'

@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表理解+ `zip()`**
 需要结合以上方法来解决这个特定的问题。显式产品函数用于获取所需的产品值，zip 函数提供相似索引的组合，然后使用列表理解创建列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Column Product in List of lists
 # using loop + list comprehension + zip()
@@ -35,7 +35,7 @@ print("The Product of each index list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
 The Product of each index list is : [27, 63, 60]
 

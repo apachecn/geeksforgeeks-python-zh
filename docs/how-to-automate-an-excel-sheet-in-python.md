@@ -40,7 +40,7 @@
 
 为了处理这张 Excel 表格，我们将使用一个库 **openpyxl。**在你的目录中创建一个文件夹，给它一个名称，并通过在你的终端中执行以下命令来安装 **openpyxl** 包。
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -48,7 +48,7 @@ pip install openpyxl
 
 ## 计算机编程语言
 
-```
+```py
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
@@ -75,28 +75,28 @@ wb.save('python-spreadsheet2.xlsx')
 
 **第一步。**为了处理我们的电子表格导入 **openpyxl** 包(我们使用了 xl 别名来使我们的代码更简洁)。此外，为了给我们的电子表格添加图表，我们需要导入两个类:条形图和引用。
 
-```
+```py
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 ```
 
 **第二步。**现在我们需要加载 Excel 工作簿**python-spreadhssheet . xlsx .**写下下面给出的代码。wb 返回该对象，使用该对象，我们可以从工作簿中访问 **Sheet1** 。
 
-```
+```py
 wb = xl.load_workbook('python-spreadsheet.xlsx')
 sheet = wb['Sheet1']
 ```
 
 **第三步。**要访问第三列第 2 行到第 4 行的条目(价格列的条目)，我们需要在其中添加一个 for 循环。我们将此条目保存在可变单元格中。
 
-```
+```py
 for row in range(2, sheet.max_row + 1):
     cell = sheet.cell(row, 3)
 ```
 
 **第四步。**现在我们需要计算修正后的价格。因此，我们将保存在**单元**变量中的值乘以 **0.9** 。一旦计算完成，我们需要在一个新的列(第 4 列)中添加所有的修正价格。要添加新列，我们将在给定行的第四列中获取对单元格的引用。一旦创建了单元格，我们就需要在这个单元格(第四列)中设置正确的价格值。
 
-```
+```py
 corrected_price = float(cell.value.replace('{content}apos;,'')) * 0.9
 corrected_price_cell = sheet.cell(row, 4)
 corrected_price_cell.value = corrected_price
@@ -108,13 +108,13 @@ corrected_price_cell.value = corrected_price
 
 我们需要使用引用类来选择一个值范围。我们将向这个构造函数添加五个参数。第一个论点是我们正在做的表格。接下来的两个参数 min_row = 2，max_row= sheet.max_row 将选择第 2 行到第 4 行的单元格。要仅从第四列中选择条目，我们需要传递另外两个参数 min_col=4 和 max_col=4。将结果存储在变量“值”中。
 
-```
+```py
 values = Reference(sheet, min_row=2, max_row=sheet.max_row, min_col=4, max_col=4)
 ```
 
 **第六步。**现在我们准备创建一个图表。我们将为类条形图创建一个实例“图表”。创建后，在此图表中添加值。之后，将该图表添加到工作表的第 2 行和第 5 列(e2)。
 
-```
+```py
 chart = BarChart()
 chart.add_data(values)
 sheet.add_chart(chart, 'e2')
@@ -132,7 +132,7 @@ sheet.add_chart(chart, 'e2')
 
 ## 计算机编程语言
 
-```
+```py
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 

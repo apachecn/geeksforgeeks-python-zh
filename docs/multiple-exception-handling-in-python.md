@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 try:
     client_obj.get_url(url)
 except (URLError, ValueError, SocketTimeout):
@@ -19,7 +19,7 @@ except (URLError, ValueError, SocketTimeout):
 
 **代码#2 :**
 
-```
+```py
 try:
     client_obj.get_url(url)
 except (URLError, ValueError):
@@ -32,7 +32,7 @@ except SocketTimeout:
 
 **代码#3 :**
 
-```
+```py
 try:
     f = open(filename)
 except (FileNotFoundError, PermissionError):
@@ -43,7 +43,7 @@ except (FileNotFoundError, PermissionError):
 
 **代码#4 :**
 
-```
+```py
 try:
     f = open(filename)
 except OSError:
@@ -54,7 +54,7 @@ except OSError:
 
 **代码#5 :**
 
-```
+```py
 try:
     f = open(filename)
 
@@ -71,7 +71,7 @@ except OSError as e:
 
 **代码#6:创建多个除子句可能匹配**
 
-```
+```py
 f = open('missing')
 ```
 
@@ -79,14 +79,14 @@ f = open('missing')
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
 File "", line 1, in 
 FileNotFoundError: [Errno 2] No such file or directory: 'miss
 
 ```
 
-```
+```py
 try:
     f = open('missing')
     except OSError:
@@ -97,7 +97,7 @@ try:
 
 **输出:**
 
-```
+```py
 Failed
 
 ```

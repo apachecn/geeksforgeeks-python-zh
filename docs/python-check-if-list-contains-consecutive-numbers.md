@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [2, 3, 1, 4, 5]
 Output : True
 
@@ -21,7 +21,7 @@ Output : False
 
 这种方法使用 Python 的`[sorted()](https://www.geeksforgeeks.org/sorted-function-python/)`函数。我们将排序后的列表与列表的最小和最大整数范围列表进行比较并返回。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 
@@ -35,7 +35,7 @@ print(checkConsecutive(lst))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -44,7 +44,7 @@ True
 
 Numpy 模块提供了一个函数`diff()`，用于计算沿给定轴的第 n 个离散差值。我们找到排序列表的迭代差，并检查它是否等于 1。
 
-```
+```py
 # Python3 Program to Create list 
 # with integers within given range 
 import numpy as np
@@ -60,7 +60,7 @@ print(checkConsecutive(lst))
 
 **Output:**
 
-```
+```py
 True
 
 ```

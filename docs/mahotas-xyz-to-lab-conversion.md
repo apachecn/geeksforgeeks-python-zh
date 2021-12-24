@@ -6,7 +6,7 @@
 
 在本教程中我们将使用“lena”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('lena')
 ```
 
@@ -24,7 +24,7 @@ mahotas.demos.load('lena')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import mahotas.demos
@@ -53,13 +53,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image
 ```
 
 ![](img/7cf201311981e4f8833b39b2801fb8f2.png)
 
-```
+```py
 New Image
 ```
 
@@ -69,7 +69,7 @@ New Image
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np
@@ -101,13 +101,13 @@ show()
 
 **输出:**
 
-```
+```py
 Image 
 ```
 
 ![](img/cd18498249beb046ad0843904234da00.png)
 
-```
+```py
 New Image
 ```
 

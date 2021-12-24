@@ -16,7 +16,7 @@ Python 中的错误有两种类型，即[语法错误和异常](https://www.geek
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 amount = 10000
 
@@ -36,7 +36,7 @@ print("You are eligible to purchase Dsa Self Paced")
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 marks = 10000
 
@@ -61,7 +61,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to handle simple runtime error
 #Python 3
 
@@ -78,7 +78,7 @@ except:
 
 **Output**
 
-```
+```py
 Second element = 2
 An error occurred
 ```
@@ -89,7 +89,7 @@ An error occurred
 
 try 语句可以有多个 except 子句，以便为不同的异常指定处理程序。请注意，最多将执行一个处理程序。例如，我们可以在上面的代码中添加 IndexError。添加特定异常的一般语法是–
 
-```
+```py
 try:
     # statement(s)
 except IndexError:
@@ -102,7 +102,7 @@ except ValueError:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to handle multiple errors with one
 # except statement
 # Python 3
@@ -130,13 +130,13 @@ except NameError:
 
 **Output**
 
-```
+```py
 ZeroDivisionError Occurred and Handled
 ```
 
 如果你评论一下 fun(3)这一行，输出会是
 
-```
+```py
 NameError Occurred and Handled
 ```
 
@@ -150,7 +150,7 @@ NameError Occurred and Handled
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to depict else clause with try-except
 # Python 3
 # Function which returns a/b
@@ -169,7 +169,7 @@ AbyB(3.0, 3.0)
 
 **输出:**
 
-```
+```py
 -5.0
 a/b result in 0 
 ```
@@ -180,7 +180,7 @@ Python 最后提供了一个关键字，总是在 try 和 except 块之后执行
 
 **语法:**
 
-```
+```py
 try:
     # Some Code.... 
 
@@ -199,7 +199,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate finally
 
 # No exception Exception raised in try block
@@ -219,7 +219,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Can't divide by zero
 This is always executed
 ```
@@ -230,7 +230,7 @@ This is always executed
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to depict Raising Exception
 
 try:
@@ -242,7 +242,7 @@ except NameError:
 
 上面代码的输出将被简单地打印为“异常”，但是由于最后一行中的 raise 语句，最后一行中也会出现运行时错误。因此，命令行上的输出如下所示
 
-```
+```py
 Traceback (most recent call last):
   File "/home/d6ec14ca595b97bff8d8034bbf212a9f.py", line 5, in <module>
     raise NameError("Hi there")  # Raise Error

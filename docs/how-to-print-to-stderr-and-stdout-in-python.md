@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 def print_to_stderr(*a):
@@ -27,7 +27,7 @@ print_to_stderr("Hello World")
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 def print_to_stdout(*a):

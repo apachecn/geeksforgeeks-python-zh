@@ -7,7 +7,7 @@ A [Min-Heap](https://www.geeksforgeeks.org/binary-heap/) 是一个完整的二�
 
 **最小堆示例:**
 
-```
+```py
             5                      13
          /      \               /       \  
        10        15           16         31 
@@ -32,7 +32,7 @@ A [Min-Heap](https://www.geeksforgeeks.org/binary-heap/) 是一个完整的二�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 implementation of Min Heap
 
 import sys
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 The Min Heap is 
  PARENT : 3 LEFT CHILD : 5 RIGHT CHILD :6
  PARENT : 5 LEFT CHILD : 9 RIGHT CHILD :84
@@ -170,7 +170,7 @@ The Min val is 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate working of heapq
 
 from heapq import heapify, heappush, heappop
@@ -204,7 +204,7 @@ for i in heap:
 
 **输出:**
 
-```
+```py
 Head value of heap : 10
 The heap elements : 
 10 30 20 400 

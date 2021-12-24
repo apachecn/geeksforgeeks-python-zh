@@ -13,7 +13,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 > 要使用此小部件，您必须从 kivy.uix.dropdown 导入下拉菜单中导入:
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -34,7 +34,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Code of How to use drop-down list with.kv file
 '''
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 <CustomDropDown>:
     Button:
         text: 'College Name'

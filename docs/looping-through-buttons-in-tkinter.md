@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import package and it's modules
 from tkinter import *
 
@@ -35,7 +35,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import package and it's modules
 from tkinter import *
 
@@ -64,7 +64,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import package and it's modules
 from tkinter import *
 

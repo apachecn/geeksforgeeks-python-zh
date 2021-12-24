@@ -6,7 +6,7 @@
 
 借助`get_playlist`方法，我们可以在 pafy 中从 youtube 获取播放列表，下面是这样做的命令
 
-```
+```py
  pafy.get_playlist(url)
 ```
 
@@ -20,7 +20,7 @@
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -38,13 +38,13 @@ print(i_d)
 
 **输出:**
 
-```
+```py
 PLqM7alHXFySGqCvcwfqqMrteqWukz9ZoE
 ```
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -62,6 +62,6 @@ print(i_d)
 
 **输出:**
 
-```
+```py
 PLqM7alHXFySE71A2bQdYp37vYr0aReknt
 ```

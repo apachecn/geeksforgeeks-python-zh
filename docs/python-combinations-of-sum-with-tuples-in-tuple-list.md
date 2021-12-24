@@ -7,7 +7,7 @@
 **方法一:使用`combinations()` +列表理解**
 这个问题可以通过以上功能的组合来解决。在这种情况下，我们使用组合()来生成元组之间所有可能的组合，并使用列表理解来馈送加法逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation combination in tuple lists
 # Using list comprehension + combinations
@@ -29,7 +29,7 @@ print("The Summation combinations are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10)]
 The Summation combinations are : [(8, 11), (7, 5), (8, 14), (11, 8), (12, 17), (11, 11)]
 

@@ -7,7 +7,7 @@
 **方法#1:使用正则表达式**
 解决这个问题的一种方法是使用正则表达式。在这种情况下，我们使用合适的正则表达式并执行提取所需元素的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract substrings between brackets
 # Using regex
@@ -29,7 +29,7 @@ print("The element between brackets : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeks(for)geeks is (best)
 The element between brackets : ['(for)', '(best)']
 

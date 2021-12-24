@@ -18,7 +18,7 @@
 
 下面提到的 Python 程序说明了循环函数的功能。它以字符串类型作为参数，并产生无限序列。
 
-```
+```py
 import itertools
 
 # String for sequence generation
@@ -58,7 +58,7 @@ for output in StringBuffer:
 
 **输出:**
 
-```
+```py
 Sequence  1
 G e e k s 
 
@@ -72,7 +72,7 @@ G e e k s
 
 itertools.cycle 函数也适用于 Python 列表。下面提到的 Python 程序说明了它的功能。它以 Python 列表为参数，生成无限序列。
 
-```
+```py
 import itertools
 
 # List for sequence generation
@@ -112,7 +112,7 @@ for output in ListBuffer:
 
 **输出:**
 
-```
+```py
 Sequence  1
 1 2 3 
 

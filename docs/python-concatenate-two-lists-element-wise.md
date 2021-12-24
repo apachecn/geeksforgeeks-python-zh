@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 列表理解完成连接相似索引元素的任务。zip 函数的任务是将结果字符串连接成单个列表和返回列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # interlist element concatenation
 # using list comprehension + zip()
@@ -30,7 +30,7 @@ print ("The list after element concatenation is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : ['Geeksfor', 'i', 'be']
 The original list 2 is : ['Geeks', 's', 'st']
 The list after element concatenation is : ['GeeksforGeeks', 'is', 'best']
@@ -40,7 +40,7 @@ The list after element concatenation is : ['GeeksforGeeks', 'is', 'best']
 **方法 2:使用`map() + lambda + zip()`**
 在该方法中，每个索引元素之间的映射任务由 map 函数执行，加法功能由 lambda 函数执行。这个方法只在 Python2 中有效。
 
-```
+```py
 # Python code to demonstrate 
 # interlist element concatenation
 # using map() + lambda + zip()
@@ -63,7 +63,7 @@ print ("The list after element concatenation is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list 1 is : ['Geeksfor', 'i', 'be']
 The original list 2 is : ['Geeks', 's', 'st']
 The list after element concatenation is : ['GeeksforGeeks', 'is', 'best']

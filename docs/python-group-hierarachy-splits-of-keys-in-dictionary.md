@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group Hierarachy Splits of keys in Dictionary
 # Using loop + split()
@@ -55,7 +55,7 @@ print("The splitted dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'1-3': 2, '8-7': 0, '1-8': 10, '8-6': 15}
 The splitted dictionary : {'1': {'3': 2, '8': 10}, '8': {'7': 0, '6': 15}}
 ```
@@ -66,7 +66,7 @@ The splitted dictionary : {'1': {'3': 2, '8': 10}, '8': {'7': 0, '6': 15}}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group Hierarachy Splits of keys in Dictionary
 # Using defaultdict() 
@@ -94,7 +94,7 @@ print("The splitted dictionary : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'1-3': 2, '8-7': 0, '1-8': 10, '8-6': 15}
 The splitted dictionary : {'1': {'3': 2, '8': 10}, '8': {'7': 0, '6': 15}}
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from random import *
 from turtle import *

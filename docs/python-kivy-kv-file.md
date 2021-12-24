@@ -14,7 +14,7 @@ KV 语言允许我们以声明的方式创建自己的小部件树，并以自�
     在编写代码时我们将制作 App 类。对于此方法，文件和应用程序类的名称是相同的，并使用 appclassname.kv 保存 kv 文件。
     Kivy 查找与您的应用程序类同名的小写 kv 文件，如果以“app”结尾，则减去“App”，例如:
 
-```
+```py
 classnameApp ---> classname.kv
 ```
 
@@ -23,7 +23,7 @@ classnameApp ---> classname.kv
 
 ## 蟒蛇 3
 
-```
+```py
 # code how to use .kv file in kivy
 
 # import kivy module
@@ -54,7 +54,7 @@ kv.run()
 
 ## 蟒蛇 3
 
-```
+```py
 Label:
     text:
         ('[b]Hello[/b] [color = ff0099]World[/color]\n'
@@ -71,25 +71,25 @@ Label:
 *   **Builder 方法-**
     要使用此方法，首先必须通过编写导入 Builder
 
-```
+```py
 from kivy.lang import builder
 ```
 
 现在，通过构建器，您可以直接将整个文件作为字符串或文件加载。这样做是为了装载。kv 文件作为文件:
 
-```
+```py
 Builder.load_file('.kv/file/path')
 ```
 
 或者，对于加载，kv 文件为字符串:
 
-```
+```py
 Builder.load_string(kv_string)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # code to use the .kv file as a string in the main file
 # code how to use .kv file in kivy
 

@@ -8,7 +8,7 @@
 类方法接收类作为隐式的第一个参数，就像实例方法接收实例
 **语法:**
 
-```
+```py
 class C(object):
  @classmethod
  def fun(cls, arg1, arg2, ...):
@@ -27,7 +27,7 @@ returns: a class method for function.
 
 **语法:**
 
-```
+```py
 class C(object):
  @staticmethod
  def fun(arg1, arg2, ...):
@@ -61,7 +61,7 @@ returns: a static method for function fun.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # use of class method and static method.
 from datetime import date
@@ -93,7 +93,7 @@ print (Person.isAdult(22))
 
 **输出:**
 
-```
+```py
 21
 25
 True

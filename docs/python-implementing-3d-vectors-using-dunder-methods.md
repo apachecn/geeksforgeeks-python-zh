@@ -24,7 +24,7 @@ Python 中的 [Dunder 方法](https://www.geeksforgeeks.org/dunder-magic-methods
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to implement 3-D Vectors.
 from math import sqrt
 
@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
 **Output**
 
-```
+```py
 Magnitude of vector1: 3.0
 String representation of vector1: 1i + 2j + 2k
 Addition of vector1 and vector2: 4i + 3j + 4k

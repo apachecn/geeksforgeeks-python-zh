@@ -26,7 +26,7 @@
 
 **示例:**
 
-```
+```py
 Input : 1403
 Output : Prime factors of 1403 are 61 23.
 Explanation : n = 1403, a = 2, i = 2
@@ -60,7 +60,7 @@ Output : Prime factors of 2993 are 41 73.
 
 下面是实现。
 
-```
+```py
 # Python code for Pollard p-1 
 # factorization Method
 
@@ -145,6 +145,6 @@ print("Prime factors of", n, "are", *ans)
 
 **输出:**
 
-```
+```py
 Prime factors of 1403 are 61 23
 ```

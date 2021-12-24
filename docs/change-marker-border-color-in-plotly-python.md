@@ -10,7 +10,7 @@
 
 可以使用以下命令安装该模块:
 
-```
+```py
 pip install plotly
 ```
 
@@ -27,7 +27,7 @@ pip install plotly
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import plotly.express as px
 
@@ -46,7 +46,7 @@ df
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import plotly.express as px
 
@@ -72,7 +72,7 @@ fig.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import plotly.express as px
 
@@ -106,7 +106,7 @@ fig.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import plotly.express as px
 
@@ -134,7 +134,7 @@ fig.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import plotly.express as px
 

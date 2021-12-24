@@ -15,7 +15,7 @@ tkinter 模块已导入。根小部件被创建，这必须在创建任何其他
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 root = tk.Tk()
@@ -39,7 +39,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 root = tk.Tk()

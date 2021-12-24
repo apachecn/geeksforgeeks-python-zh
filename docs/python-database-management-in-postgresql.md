@@ -17,7 +17,7 @@
 
 **安装:**
 
-```
+```py
 sudo pip3 install psycopg2 
 ```
 
@@ -31,7 +31,7 @@ sudo pip3 install psycopg2
 
 1.  Log in to PostgreSQL:
 
-    ```
+    ```py
     sudo -u postgres psql
     ```
 
@@ -39,7 +39,7 @@ sudo pip3 install psycopg2
 
 2.  Configure the password:
 
-    ```
+    ```py
     \password
     ```
 
@@ -48,7 +48,7 @@ sudo pip3 install psycopg2
 
 3.  Create a database called “test”. we will connect to this database.
 
-    ```
+    ```py
     CREATE DATABASE test; 
     ```
 
@@ -66,7 +66,7 @@ sudo pip3 install psycopg2
     4.  **主机**:主机，默认设置为 localhost
     5.  **端口**:默认为 5432 的端口号
 
-    ```
+    ```py
     conn = psycopg2.connect(
                 database="test", 
                 user = "adith", 
@@ -79,7 +79,7 @@ sudo pip3 install psycopg2
 
     **光标**对象用于执行 sql 查询。我们可以使用连接对象(conn)创建一个光标对象
 
-    ```
+    ```py
      cur = conn.cursor()  
     ```
 
@@ -87,7 +87,7 @@ sudo pip3 install psycopg2
 
     执行完所有查询后，我们需要断开连接。不断开连接不会导致任何错误，但断开连接通常被认为是一种好的做法。
 
-    ```
+    ```py
      conn.close() 
     ```
 
@@ -95,7 +95,7 @@ sudo pip3 install psycopg2
 
     **execute()** 方法接受一个参数，即要执行的 SQL 查询。SQL 查询采用包含 SQL 语句的字符串形式。
 
-    ```
+    ```py
      cur.execute("SELECT * FROM emp") 
     ```
 
@@ -103,7 +103,7 @@ sudo pip3 install psycopg2
 
     一旦执行了查询，就可以使用 **fetchall()** 方法获得查询结果。此方法不接受任何参数，并返回选择查询的结果。
 
-    ```
+    ```py
      res = cur.fetchall() 
     ```
 
@@ -114,7 +114,7 @@ sudo pip3 install psycopg2
     一旦我们用 PostgreSQL 创建了数据库，我们就可以用 python 访问该数据库。我们首先在数据库中用模式创建一个名为 test 的 emp 表:(id INTEGER PRIMARY KEY，name VARCHAR(10)，salary INT，dept INT)。一旦创建的表没有任何错误，我们就向表中插入值。
     一旦插入值，我们就可以查询表来选择所有的行，并使用`fetchall()`功能向用户显示它们。
 
-    ```
+    ```py
     # importing libraries
     import psycopg2
 

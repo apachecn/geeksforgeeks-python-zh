@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : {[]{()}}
 Output : Balanced
 
@@ -19,7 +19,7 @@ Output : Unbalanced
 
 检查平衡括号的一种方法是使用堆栈。每次遇到开括号时，将它推入堆栈，遇到闭括号时，将其与堆栈顶部匹配并弹出。如果堆栈末尾为空，则返回“平衡”，否则返回“不平衡”。
 
-```
+```py
 # Python3 code to Check for 
 # balanced parentheses in an expression
 open_list = ["[","{","("]
@@ -56,7 +56,7 @@ print(string,"-",check(string))
 
 **Output:**
 
-```
+```py
 {[]{()}} - Balanced
 [{}{})(] - Unbalanced
 ((() - Unbalanced
@@ -67,7 +67,7 @@ print(string,"-",check(string))
 
 首先将左括号映射到相应的右括号。使用“I”迭代给定的表达式，如果“I”是开括号，则在队列中追加，如果“I”是闭括号，则检查队列是空的还是“I”是队列的顶部元素，如果是，则返回“不平衡”，否则返回“平衡”。
 
-```
+```py
 # Python3 code to Check for 
 # balanced parentheses in an expression
 def check(expression):
@@ -98,7 +98,7 @@ print(string,"-",check(string))
 
 **Output:**
 
-```
+```py
 {[]{()}} - Balanced
 ((() - Unbalanced
 
@@ -107,7 +107,7 @@ print(string,"-",check(string))
 **方法#3 :** 基于淘汰的
 在每次迭代中，最里面的括号被淘汰(替换为空字符串)。如果我们以一个空字符串结束，我们的初始字符串是平衡的；否则，不会。
 
-```
+```py
 # Python3 code to Check for 
 # balanced parentheses in an expression
 def check(my_string):
@@ -125,7 +125,7 @@ print(string, "-", "Balanced" 
 
 **Output:**
 
-```
+```py
 {[]{()}} - Balanced
 
 ```

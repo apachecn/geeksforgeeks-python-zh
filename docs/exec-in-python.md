@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 exec(object[, globals[, locals]])
 ```
 
@@ -22,7 +22,7 @@ exec(object[, globals[, locals]])
 
 ## 蟒蛇 3
 
-```
+```py
 prog = 'print("The sum of 5 and 10 is", (5+10))'
 exec(prog)
 ```
@@ -38,7 +38,7 @@ exec(prog)
 
 ## 蟒蛇 3
 
-```
+```py
 # The math class is used to include all the
 # math functions
 from math import *
@@ -47,7 +47,7 @@ exec("print(dir())")
 
 输出:
 
-```
+```py
 ['__builtins__', '__cached__', '__doc__', '__file__',
  '__loader__', '__name__', '__package__', '__spec__', 
 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 
@@ -68,7 +68,7 @@ Python 允许我们通过使用可能不需要的全局和局部参数来限制�
 
 ## 蟒蛇 3
 
-```
+```py
 # Here we have passed an empty dictionary
 from math import *
 exec("print(dir())", {})
@@ -76,7 +76,7 @@ exec("print(dir())", {})
 
 输出:
 
-```
+```py
 ['__builtins__']
 ```
 
@@ -86,7 +86,7 @@ exec("print(dir())", {})
 
 ## 蟒蛇 3
 
-```
+```py
 # An exception will be raised
 from math import *
 exec("print(factorial(5))", {})
@@ -94,7 +94,7 @@ exec("print(factorial(5))", {})
 
 输出:
 
-```
+```py
 No Output
 ```
 
@@ -105,7 +105,7 @@ No Output
 
 ## 蟒蛇 3
 
-```
+```py
 # factorial() will be executed
 from math import *
 exec("print(factorial(5))", {"factorial":factorial})
@@ -113,7 +113,7 @@ exec("print(factorial(5))", {"factorial":factorial})
 
 输出:
 
-```
+```py
 120
 ```
 
@@ -123,7 +123,7 @@ exec("print(factorial(5))", {"factorial":factorial})
 
 ## 蟒蛇 3
 
-```
+```py
 # factorial() renamed as fact
 from math import *
 exec('print(fact(5))', {'fact': factorial})
@@ -131,7 +131,7 @@ exec('print(fact(5))', {'fact': factorial})
 
 输出:
 
-```
+```py
 120
 ```
 
@@ -141,14 +141,14 @@ exec('print(fact(5))', {'fact': factorial})
 
 ## 蟒蛇 3
 
-```
+```py
 from math import *
 exec("print(dir())", {"built" : __builtins__}, {"sum": sum, "iter": iter})
 ```
 
 输出:
 
-```
+```py
 ['dir', 'print', 'sum']
 ```
 
@@ -158,7 +158,7 @@ exec("print(dir())", {"built" : __builtins__}, {"sum": sum, "iter": iter})
 
 ## 蟒蛇 3
 
-```
+```py
 #__builtins__ has been restricted using None
 from math import *
 exec("print(dir())", {"__builtins__" : None}, {"sum": sum, "print": print, "dir": dir})
@@ -166,7 +166,7 @@ exec("print(dir())", {"__builtins__" : None}, {"sum": sum, "print": print, "dir"
 
 输出:
 
-```
+```py
 ['dir', 'print', 'sum']
 ```
 

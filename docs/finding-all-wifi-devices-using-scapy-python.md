@@ -40,7 +40,7 @@ Scapy 是 Python2 和 Python3 都支持的库。它用于与网络上的数据�
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 from scapy.all import *
 
@@ -66,7 +66,7 @@ sniff(iface=IFACE_NAME, count=1, prn=PacketHandler)
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 from scapy.all import *
 

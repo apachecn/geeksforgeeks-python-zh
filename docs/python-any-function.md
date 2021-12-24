@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of list are true
 l = [ 4, 5, 1]
 print(any( l ))
@@ -35,7 +35,7 @@ print(any( l ))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -46,7 +46,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of tuple are true
 t = (2, 4, 6)
 print(any(t))
@@ -67,7 +67,7 @@ print(any(t))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -78,7 +78,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of set are true
 s = { 1, 1, 3}
 print(any( s ))
@@ -98,7 +98,7 @@ print(any( s ))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -111,7 +111,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # All elements of dictionary are true
 d = {1: "Hello", 2: "Hi"}
 print(any(d))
@@ -132,7 +132,7 @@ print(any(d))
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -143,7 +143,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Non-Empty String
 s = "Hi There!"
 print(any(s))
@@ -159,7 +159,7 @@ print(any(s))
 
 **输出:**
 
-```
+```py
 True
 True
 False
@@ -171,7 +171,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check if any element in list satisfies a condition
 # Using any()
@@ -192,7 +192,7 @@ print("Does any element satisfy specified condition ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list : [4, 5, 8, 9, 10, 17]
 Does any element satisfy specified condition ? : True
 ```
@@ -201,7 +201,7 @@ Does any element satisfy specified condition ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 def any(list_x):
     for item in list_x:
         if item:
@@ -214,6 +214,6 @@ print(any(x))
 
 **输出:**
 
-```
+```py
 True
 ```

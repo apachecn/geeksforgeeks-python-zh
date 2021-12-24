@@ -12,14 +12,14 @@ Python 中有几个标准的例外，NameError 就是其中之一。**名称错�
 
 ## 蟒蛇 3
 
-```
+```py
 geek = input()
 prit(geek)
 ```
 
 **输出:**
 
-```
+```py
 NameError: name 'prit' is not defined
 ```
 
@@ -29,14 +29,14 @@ NameError: name 'prit' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 geeky = input()
 print(geek)
 ```
 
 **输出:**
 
-```
+```py
 NameError: name 'geek' is not defined
 ```
 
@@ -46,14 +46,14 @@ NameError: name 'geek' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 print(geek)
 geek = "GeeksforGeeks"
 ```
 
 **输出:**
 
-```
+```py
 NameError: name 'geek' is not defined
 ```
 
@@ -63,7 +63,7 @@ NameError: name 'geek' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 def assign():
     geek = "GeeksforGeeks"
 
@@ -73,7 +73,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 NameError: name 'geek' is not defined
 ```
 
@@ -83,7 +83,7 @@ NameError: name 'geek' is not defined
 
 ## 蟒蛇 3
 
-```
+```py
 def geek_message():
     try:
         geek = "GeeksforGeeks"
@@ -96,6 +96,6 @@ print(geek_message())
 
 **输出:**
 
-```
+```py
 NameError occurred. Some variable isn't defined.
 ```

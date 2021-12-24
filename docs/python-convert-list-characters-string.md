@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : ['g', 'e', 'e', 'k', 's', 'f', 'o', 
              'r', 'g', 'e', 'e', 'k', 's']
 Output : geeksforgeeks 
@@ -21,7 +21,7 @@ Output : programming
 
 在开头初始化一个空字符串。遍历字符列表，为每个索引在初始字符串中添加字符。完成遍历后，打印添加了每个字符的字符串。
 
-```
+```py
 # Python program to convert a list
 # of character
 
@@ -44,7 +44,7 @@ print(convert(s))
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 
 ```
@@ -53,7 +53,7 @@ geeksforgeeks
 
 使用 python 中的 [join()](https://www.geeksforgeeks.org/python-string-methods-set-2-len-count-center-ljust-rjust-isalpha-isalnum-isspace-join/) 函数，可以连接列表中的所有字符。语法是:
 
-```
+```py
 str = ""
 str1 = ( "geeks", "for", "geeks" )
 str.join(str1) 
@@ -61,7 +61,7 @@ str.join(str1)
 
 可以通过初始化 str= "来轻松地连接字符列表，以便其间没有空格。
 
-```
+```py
 # Python program to convert a list
 # of character
 
@@ -81,7 +81,7 @@ print(convert(s))
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 
 ```

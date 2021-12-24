@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Character repetition string combinations
 # Using join() + nested loop + list comprehension + * operator
@@ -57,7 +57,7 @@ print("All repetition combinations strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Character repetition string combinations
 # Using product() + join() + loop

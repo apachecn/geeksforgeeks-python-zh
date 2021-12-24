@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cost computation using Frequency and Price dictionary
 # Using loop
@@ -44,7 +44,7 @@ print("The extracted summation : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Apple': 5, 'Mango': 8, 'Grapes': 10}
 The extracted summation : 107
 
@@ -56,7 +56,7 @@ The extracted summation : 107
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Cost computation using Frequency and Price dictionary
 # Using sum() + list comprehension
@@ -79,7 +79,7 @@ print("The extracted summation : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Apple': 5, 'Mango': 8, 'Grapes': 10}
 The extracted summation : 107
 

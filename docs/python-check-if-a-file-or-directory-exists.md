@@ -25,7 +25,7 @@ Python 中的 os.path.exists()方法用于检查指定路径是否存在。这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.exists() method 
 
 # importing os module 
@@ -50,7 +50,7 @@ print(isExist)
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -68,7 +68,7 @@ Python 中的 os.path.isfile()方法用于检查指定路径是否为现有的�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.isfile() method
 
 # importing os module 
@@ -95,7 +95,7 @@ print(isFile)
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -113,7 +113,7 @@ Python 中的 os.path.isdir()方法用于检查指定路径是否为现有目录
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.isdir() method 
 
 # importing os.path module 
@@ -140,7 +140,7 @@ print(isdir)
 
 **输出:**
 
-```
+```py
 False
 True
 ```
@@ -149,7 +149,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.isdir() method 
 
 # importing os.path module 
@@ -185,7 +185,7 @@ print(isdir)
 
 **输出:**
 
-```
+```py
 True
 True
 ```
@@ -205,7 +205,7 @@ pathlib。Path.exists()方法用于检查给定路径是否指向现有文件或
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Path class
 from pathlib import Path
 
@@ -222,6 +222,6 @@ print(obj.exists())
 
 **输出:**
 
-```
+```py
 True
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用正则表达式+ any()**
 这种问题可以使用 python 提供的正则表达式实用程序来解决。通过在 search()中输入适当的正则表达式字符串，我们可以检查字符串中是否存在空格，并使用 any()遍历整个列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for Whitespace in List
 # Using regex and any()
@@ -29,7 +29,7 @@ print("Does any string contain spaces ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Geeks forGeeks', 'is', 'best']
 Does any string contain spaces ? True
 

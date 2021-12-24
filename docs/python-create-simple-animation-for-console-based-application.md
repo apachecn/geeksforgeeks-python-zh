@@ -9,7 +9,7 @@
 
 我们将使用以下模块–
 
-```
+```py
 sys module
 os module
 time module 
@@ -17,7 +17,7 @@ time module
 
 下面是 Python 实现:
 
-```
+```py
 # importing the necessary packages
 import time
 import sys

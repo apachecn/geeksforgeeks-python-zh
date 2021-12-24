@@ -24,7 +24,7 @@
 
 ## **C++**
 
-```
+```py
 // Function to return the number of
 // sequences that get back to Bob
 #include <bits/stdc++.h>
@@ -48,7 +48,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```py
 // Function to return the number of
 // sequences that get back to Bob
 import java.util.*;
@@ -75,7 +75,7 @@ public static void main(String[] args)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Function to return the number of
 # sequences that get back to Bob
 def numSeq(n):
@@ -88,7 +88,7 @@ print(numSeq(N))
 
 ## **C#**
 
-```
+```py
 // C# implementation of the above approach
 using System;
 
@@ -116,7 +116,7 @@ class GFG
 
 ## **java 描述语言**
 
-```
+```py
 <script>
 
 // Function to return the number of
@@ -138,6 +138,6 @@ function numSeq(n)
 
 ****Output:** 
 
-```
+```py
 14763
 ```**

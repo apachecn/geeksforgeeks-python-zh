@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 input_str = '21/01/24 11:04:19'
@@ -42,7 +42,7 @@ strptime()方法也允许您将“单词”中的时间戳转换为日期时间�
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 time_str = 'May 17 2019  11:33PM'
@@ -54,7 +54,7 @@ print(dt_object)
 
 **输出:**
 
-```
+```py
 2019-05-17 23:33:00
 ```
 
@@ -64,7 +64,7 @@ print(dt_object)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 time_str = '201123101455'
@@ -86,7 +86,7 @@ print ("2nd interpretation of date from same string is", dt_obj2)
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 time_str = '220917 114519'

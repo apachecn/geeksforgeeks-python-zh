@@ -12,7 +12,7 @@ Selenium 是通过程序控制网络浏览器和执行浏览器自动化的强�
 
 使用以下命令可以安装*硒*模块:
 
-```
+```py
 pip install selenium
 ```
 
@@ -22,7 +22,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -33,7 +33,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 # creating chrome instance
 opt = Options()
 opt.add_argument('--disable-blink-features=AutomationControlled')
@@ -52,7 +52,7 @@ driver = webdriver.Chrome(options=opt)
 
 ## 蟒蛇 3
 
-```
+```py
 # go to google meet
 driver.get('https://meet.google.com/xby-zehb-ncf')
 ```
@@ -61,7 +61,7 @@ driver.get('https://meet.google.com/xby-zehb-ncf')
 
 ## 蟒蛇 3
 
-```
+```py
 # explicit function to turn off mic and cam
 def turnOffMicCam():
 
@@ -82,7 +82,7 @@ def turnOffMicCam():
 
 ## 蟒蛇 3
 
-```
+```py
 def AskToJoin():
     # Ask to Join meet
     time.sleep(5)
@@ -96,7 +96,7 @@ def AskToJoin():
 
 ## 蟒蛇 3
 
-```
+```py
 def Glogin(mail_address, password):
     # Login Page
     driver.get(
@@ -123,7 +123,7 @@ def Glogin(mail_address, password):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

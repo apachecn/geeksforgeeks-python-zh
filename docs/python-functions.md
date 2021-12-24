@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 def function_name(parameters):
     """docstring"""
     statement(s)
@@ -23,7 +23,7 @@ def function_name(parameters):
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python function
 
 def fun():
@@ -38,7 +38,7 @@ def fun():
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python function
 
 def fun():
@@ -50,7 +50,7 @@ fun()
 
 **Output**
 
-```
+```py
 Welcome to GFG
 ```
 
@@ -64,7 +64,7 @@ Welcome to GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python function to check
 # whether x is even or odd
 
@@ -81,7 +81,7 @@ evenOdd(3)
 
 **Output**
 
-```
+```py
 even
 odd
 ```
@@ -96,7 +96,7 @@ Python 支持各种类型的参数，这些参数可以在函数调用时传递�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # default arguments
 
@@ -111,7 +111,7 @@ myFun(10)
 
 **Output**
 
-```
+```py
 ('x: ', 10)
 ('y: ', 50)
 ```
@@ -124,7 +124,7 @@ myFun(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate Keyword Arguments
 def student(firstname, lastname):
     print(firstname, lastname)
@@ -136,7 +136,7 @@ student(lastname='Practice', firstname='Geeks')
 
 **Output**
 
-```
+```py
 ('Geeks', 'Practice')
 ('Geeks', 'Practice')
 ```
@@ -152,7 +152,7 @@ student(lastname='Practice', firstname='Geeks')
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # *args for variable number of arguments
 
@@ -165,7 +165,7 @@ myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 **Output**
 
-```
+```py
 Hello
 Welcome
 to
@@ -176,7 +176,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # *kwargs for variable number of keyword arguments
 
@@ -190,7 +190,7 @@ myFun(first='Geeks', mid='for', last='Geeks')
 
 **Output**
 
-```
+```py
 first == Geeks
 mid == for
 last == Geeks
@@ -202,7 +202,7 @@ last == Geeks
 
 以下语法可用于打印出函数的文档字符串:
 
-```
+```py
 Syntax: print(function_name.__doc__)
 ```
 
@@ -210,7 +210,7 @@ Syntax: print(function_name.__doc__)
 
 ## 蟒蛇 3
 
-```
+```py
 # A simple Python function to check
 # whether x is even or odd
 
@@ -228,7 +228,7 @@ print(evenOdd.__doc__)
 
 **Output**
 
-```
+```py
 Function to check if the number is even or odd
 ```
 
@@ -236,7 +236,7 @@ Function to check if the number is even or odd
 
 函数 return 语句用于退出函数并返回函数调用方，并将指定的值或数据项返回给调用方。
 
-```
+```py
 Syntax: return [expression_list]
 ```
 
@@ -246,7 +246,7 @@ return 语句可以由变量、表达式或常量组成，这些变量、表达�
 
 ## 蟒蛇 3
 
-```
+```py
 def square_value(num):
     """This function returns the square
     value of the entered number"""
@@ -258,7 +258,7 @@ print(square_value(-4))
 
 **输出:**
 
-```
+```py
 4
 16
 ```
@@ -271,7 +271,7 @@ print(square_value(-4))
 
 ## 蟒蛇 3
 
-```
+```py
 # Here x is a new reference to same list lst
 def myFun(x):
     x[0] = 20
@@ -285,7 +285,7 @@ print(lst)
 
 **Output**
 
-```
+```py
 [20, 11, 12, 13, 14, 15]
 ```
 
@@ -293,7 +293,7 @@ print(lst)
 
 ## 蟒蛇 3
 
-```
+```py
 def myFun(x):
 
     # After below line link of x with previous
@@ -310,7 +310,7 @@ print(lst)
 
 **Output**
 
-```
+```py
 [10, 11, 12, 13, 14, 15]
 ```
 
@@ -318,7 +318,7 @@ print(lst)
 
 ## 蟒蛇 3
 
-```
+```py
 def myFun(x):
 
     # After below line link of x with previous
@@ -335,7 +335,7 @@ print(x)
 
 **Output**
 
-```
+```py
 10
 ```
 
@@ -343,7 +343,7 @@ print(x)
 
 ## 蟒蛇 3
 
-```
+```py
 def swap(x, y):
     temp = x
     x = y
@@ -359,7 +359,7 @@ print(y)
 
 **Output**
 
-```
+```py
 2
 3
 ```
@@ -370,7 +370,7 @@ print(y)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate the cube of a number
 # using lambda function
 
@@ -384,7 +384,7 @@ print(cube_v2(7))
 
 **Output**
 
-```
+```py
 343
 ```
 
@@ -394,7 +394,7 @@ print(cube_v2(7))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate accessing of
 # variables of nested functions
@@ -413,7 +413,7 @@ f1()
 
 **Output**
 
-```
+```py
 I love GeeksforGeeks
 ```
 

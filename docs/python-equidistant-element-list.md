@@ -7,7 +7,7 @@
 **方法:使用列表理解**
 这个任务可以使用列表理解来执行，简写为循环版本的逻辑。在这种情况下，我们只需使用除法运算计算范围，并将其扩展到增加列表形成等距列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Equidistant element list
 # using list comprehension
@@ -31,7 +31,7 @@ print("The Equidistant list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 
 The Equidistant list is : [5.0, 5.625, 6.25, 6.875, 7.5, 8.125, 8.75, 9.375]
 

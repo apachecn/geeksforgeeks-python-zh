@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -53,7 +53,7 @@ chart.render_to_png('aa.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

@@ -67,7 +67,7 @@ Scrapy 有，一个高效的命令行工具，也叫‘Scrapy 工具’。命令
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -109,7 +109,7 @@ class GfgSpiitemsreadSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required library
 import scrapy
 
@@ -180,7 +180,7 @@ class GfgSpiitemsreadSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 # Define here the models for your scraped
 # items
 # Import the required library
@@ -208,7 +208,7 @@ Field()类是内置字典类的别名。它允许在一个位置定义所有字�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required library
 import scrapy
 

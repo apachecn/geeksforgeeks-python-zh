@@ -5,7 +5,7 @@
 给你一个字符串和一个单词，你的任务是计算字符串中给定单词的出现次数，并打印单词的出现次数。
 **例:**
 
-```
+```py
 Input : string = "GeeksforGeeks A computer science portal for geeks"
 word = "portal"
 Output : Occurrences of Word = 1 Time
@@ -26,7 +26,7 @@ Output : Occurrences of Word = 0 Time
 
 ## C++
 
-```
+```py
 // C++ program to count the number
 // of occurrence of a word in
 // the given string
@@ -73,7 +73,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to count the number
 // of occurrence of a word in
 // the given string
@@ -112,7 +112,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to count the number of occurrence
 # of a word in the given string
 
@@ -139,7 +139,7 @@ print(countOccurrences(str, word))
 
 ## C#
 
-```
+```py
 // C# program to count the number
 // of occurrence of a word in
 // the given string
@@ -181,7 +181,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to count the number
 // of occurrence of a word in
@@ -217,7 +217,7 @@ echo (countOccurrences($str, $word));
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript program to count the number
@@ -253,7 +253,7 @@ echo (countOccurrences($str, $word));
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -266,7 +266,7 @@ echo (countOccurrences($str, $word));
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to count the number of occurrence
 # of a word in the given string
 def countOccurrences(str, word):
@@ -284,7 +284,7 @@ print(countOccurrences(str, word))
 
 **Output**
 
-```
+```py
 1
 ```
 

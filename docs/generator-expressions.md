@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate generator, yield() and next().
 def generator():
     t = 1
@@ -31,7 +31,7 @@ next(call)
 
 输出:
 
-```
+```py
 First result is  1
 Second result is  2
 Third result is  3
@@ -49,7 +49,7 @@ Third result is  3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate generator expression
 generator = (num ** 2 for num in range(10))
 for num in generator:
@@ -58,7 +58,7 @@ for num in generator:
 
 输出:
 
-```
+```py
 0
 1
 4
@@ -75,7 +75,7 @@ for num in generator:
 
 ## 蟒蛇 3
 
-```
+```py
 string = 'geek'
 li = list(string[i] for i in range(len(string)-1, -1, -1))
 print(li)
@@ -83,7 +83,7 @@ print(li)
 
 输出:
 
-```
+```py
 ['k', 'e', 'e', 'g']
 ```
 

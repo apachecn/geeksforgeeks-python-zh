@@ -24,7 +24,7 @@
 
 ****巨蟒**进场！我们需要编写 python 脚本来解析返回的 JSON 对象。**
 
-```
+```py
 import urllib #library for fetching internet resources 
 import json     #library for json operations 
 #import os 
@@ -45,13 +45,13 @@ print ("Meaning: ", result["tuc"][0]["meanings"][0]["text"]) 
 
 ****输入**** 
 
-```
+```py
 Geek
 ```
 
 ****输出:****
 
-```
+```py
 Enter word to search: Word:  geek
 Meaning:  expert in a technical field, particularly to do with computers
 ```
@@ -68,7 +68,7 @@ Meaning:  expert in a technical field, particularly to do with computers
 
 **因此，为了调用 python 代码，编写了一个 bash 脚本。**
 
-```
+```py
 #!/bin/bash
 word="$1"
 export word
@@ -85,7 +85,7 @@ python /home/vishaag/hacks/bash_scripts/terminal_dictionary.py "word"
 
 **$1 表示第一个参数($2 表示第二个参数，依此类推。为 n 个参数写入$@)。例如，当你写作时，**
 
-```
+```py
 **$dict hello**
 ```
 
@@ -95,7 +95,7 @@ python /home/vishaag/hacks/bash_scripts/terminal_dictionary.py "word"
 
 ***注意:删除上面 python 代码上的注释，并删除/comment 'title = raw_input("输入要搜索的单词: ")'，以便使用 bash 中的参数。***
 
-```
+```py
 import os
 title=os.environ["word"]
 #title = input("Enter word to search: ") 

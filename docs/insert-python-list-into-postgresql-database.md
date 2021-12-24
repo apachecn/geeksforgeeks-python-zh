@@ -6,7 +6,7 @@
 
 Psycopg2 是 Python 编程语言最流行的 PostgreSQL 适配器。Psycopg2 是一个符合 DB API 2.0 的 PostgreSQL 驱动程序，目前正在积极开发中。它是为多线程应用程序设计的，并管理自己的连接池。可以使用给定的命令安装该模块:
 
-```
+```py
 pip install psycopg2
 ```
 
@@ -14,7 +14,7 @@ pip install psycopg2
 
 **语法:**
 
-```
+```py
 list = [(),(),.....,()]
 for d in list:
     cursor.execute("INSERT into *table_name*(
@@ -27,7 +27,7 @@ for d in list:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 
@@ -76,7 +76,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 

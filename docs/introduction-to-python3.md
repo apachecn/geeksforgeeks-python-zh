@@ -27,7 +27,7 @@ Python 3.0/Python 3000/Py3k 是 Python 的新版本，与 Python 2.x 不兼容(P
 
 ## 计算机编程语言
 
-```
+```py
 # syntax in Python2,
 # invalid for Python3
 print "Hello GfG !!"
@@ -37,7 +37,7 @@ print "Hello GfG !!"
 
 ## 蟒蛇 3
 
-```
+```py
 # syntax for Python3
 print("Hello GfG !!")
 ```
@@ -53,7 +53,7 @@ print("Hello GfG !!")
 
 ## 计算机编程语言
 
-```
+```py
 a=1
 b=2
 print(a <> b)
@@ -61,7 +61,7 @@ print(a <> b)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -69,13 +69,13 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 print('GfG' != 'GfG')
 ```
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -84,7 +84,7 @@ False
 
 **例:**T2【中蟒 2，
 
-```
+```py
 try:
 
 except valueError :
@@ -93,7 +93,7 @@ except valueError :
 
 在 python3 中，
 
-```
+```py
 try:
 
 except valueError as err:

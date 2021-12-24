@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 __getitem__(slice(start, stop, step))
 ```
 
@@ -22,7 +22,7 @@ __getitem__(slice(start, stop, step))
 
 **例 1:**
 
-```
+```py
 # abcde is string can be 
 # an array as well.
 sliced ='abcde'.__getitem__(slice(0, 2, 1)) 
@@ -31,7 +31,7 @@ print(sliced)
 
 **输出**
 
-```
+```py
 ab
 ```
 
@@ -40,7 +40,7 @@ ab
 
 **例 2:**
 
-```
+```py
 class Demo:
     def __getitem__(self, key):
 
@@ -63,7 +63,7 @@ a[1, 2, 3]
 
 **输出**
 
-```
+```py
 1
 (1, 2) 
 (1, 2, 3)

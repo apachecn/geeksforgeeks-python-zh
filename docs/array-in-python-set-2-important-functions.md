@@ -12,7 +12,7 @@
 
 **3。buffer_info()** :-返回一个元组，该元组表示存储数组的**地址和其中的元素数量**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # typecode, itemsize, buffer_info()
 
@@ -38,7 +38,7 @@ print (arr.buffer_info())
 
 **输出:**
 
-```
+```py
 The datatype of array is : 
 i
 The itemsize of array is : 
@@ -50,7 +50,7 @@ The buffer info. of array is :
 
 除了导入数组，我们还可以使用*来导入数组。
 
-```
+```py
 # importing "array" using * for array operations
 from array import *
 
@@ -63,7 +63,7 @@ print(arr)
 
 **输出:**
 
-```
+```py
 array('i', [1, 2, 3, 1, 2, 5])
 
 ```
@@ -72,7 +72,7 @@ array('i', [1, 2, 3, 1, 2, 5])
 
 **5。extend(arr)** :-这个函数**将一个在其参数中提到的整个数组**追加到指定的数组中。
 
-```
+```py
 # Python code to demonstrate the working of 
 # count() and extend()
 
@@ -101,7 +101,7 @@ for i in range (0,9):
 
 **输出:**
 
-```
+```py
 The occurrences of 1 in array is : 
 2
 The modified array is : 
@@ -121,7 +121,7 @@ The modified array is :
 
 **7。tolist()** :-该功能用于**将数组转换为列表**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # fromlist() and tolist()
 
@@ -156,7 +156,7 @@ for i in range (0,len(li2)):
 
 **输出:**
 
-```
+```py
 The modified array is : 1 2 3 1 2 5 1 2 3 
 The new list created is : 1 2 3 1 2 5 1 2 3
 

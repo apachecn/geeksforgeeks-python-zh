@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 
 [{'a':[1, 2, 3], 'b':[4, 5, 6]}, 
  {'c':[7, 8, 9], 'd':[10, 11, 12]}]
@@ -28,7 +28,7 @@ Output:
 
 **方法#1:使用天真方法**
 
-```
+```py
 # Python code to demonstrate
 # converting list of dictionary to list of tuples
 
@@ -55,14 +55,14 @@ print ("Resultant list of tuples: {}".format(result))
 
 **输出:**
 
-```
+```py
 Resultant list of tuples: [('a', 1, 2, 3), ('d', 10, 11, 12), ('b', 4, 5, 6), ('c', 7, 8, 9)]
 
 ```
 
 **方法二:使用列表理解**
 
-```
+```py
 # Python code to demonstrate
 # converting list of dictionary to list of tuples
 
@@ -80,7 +80,7 @@ print ("Resultant list of tuples: {}".format(dict_list))
 
 **输出:**
 
-```
+```py
 Resultant list of tuples: [('b', 4, 5, 6), ('a', 1, 2, 3), ('d', 10, 11, 12), ('c', 7, 8, 9)]
 
 ```

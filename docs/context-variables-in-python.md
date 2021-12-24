@@ -29,7 +29,7 @@ Python 中的上下文变量对象是一种有趣的变量类型，它根据上�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import contextvars
 
@@ -60,7 +60,7 @@ print("\nvalue after calling reset method: \n",
 
 **输出:**
 
-```
+```py
 value of context variable cvar: 
 variable
 
@@ -89,7 +89,7 @@ variable
 
 ## 蟒蛇 3
 
-```
+```py
 import contextvars
 
 # declaring the variable
@@ -120,7 +120,7 @@ print(cvar.get())
 
 **输出:**
 
-```
+```py
 ContextVar object though which token was generated:
 <ContextVar name='cvar' default='variable' at 7f82d7c07048>
 

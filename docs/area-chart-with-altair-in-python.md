@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate 
 # How to make an area chart
 # using the altair library
@@ -60,7 +60,7 @@ alt.Chart(sp500).mark_area().encode( 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate 
 # How to make an area chart
 # using the altair library

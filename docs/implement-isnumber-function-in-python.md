@@ -5,7 +5,7 @@
 在本文中，我们将看到如何使用 Python 实现 **isNumber()** 方法。此方法接受一个字符串作为输入，并根据该字符串是否为数字返回真或假。
 **例:**
 
-```
+```py
 Input :  "12345"
 Output :  True
 
@@ -22,7 +22,7 @@ Output : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of isNumber() function
 def isNumber(s):
 
@@ -53,7 +53,7 @@ print("For input '{}' isNumber() returned : {}".format(s3, isNumber(s3)))
 
 **输出:**
 
-```
+```py
 For input '9748513' isNumber() returned : True
 For input '-9748513' isNumber() returned : True
 For input 'GeeksforGeeks' isNumber() returned : False

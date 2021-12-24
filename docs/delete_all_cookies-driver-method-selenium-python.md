@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.delete_all_cookies()
 ```
 
 **示例–**
 现在可以使用 delete_all_cookies 方法作为驱动程序方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.delete_all_cookies()
 
@@ -27,7 +27,7 @@ driver.delete_all_cookies()
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -16,13 +16,13 @@ python 中有很多框架可以让你创建像瓶子、瓶子、django 这样的
 
 Windows 操作系统
 
-```
+```py
 pip install bottle
 ```
 
 人的本质
 
-```
+```py
 pip3 install bottle
 ```
 
@@ -36,7 +36,7 @@ pip3 install bottle
 
 ## 蟒蛇 3
 
-```
+```py
 from bottle import route, run, template
 
 @route('/')
@@ -52,7 +52,7 @@ run(host='localhost', port=8080,debug=True)
 
 ## 超文本标记语言
 
-```
+```py
 <html>
     <head>
         <title>GFG</title>
@@ -67,13 +67,13 @@ run(host='localhost', port=8080,debug=True)
 
 Windows 操作系统
 
-```
+```py
 python app.py
 ```
 
 人的本质
 
-```
+```py
 python3 app.py
 ```
 
@@ -85,7 +85,7 @@ python3 app.py
 
 ## 蟒蛇 3
 
-```
+```py
 from bottle import get,post,request,Bottle,run,template
 
 app = Bottle()
@@ -107,7 +107,7 @@ run(app, host='0.0.0.0', port=8000)
 
 ## 超文本标记语言
 
-```
+```py
 <html>
     <head>
         <title>GFG</title>
@@ -125,13 +125,13 @@ run(app, host='0.0.0.0', port=8000)
 
 Windows 操作系统
 
-```
+```py
 python app.py
 ```
 
 人的本质
 
-```
+```py
 python3 app.py
 ```
 

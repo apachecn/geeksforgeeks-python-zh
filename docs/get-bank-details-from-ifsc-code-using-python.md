@@ -14,7 +14,7 @@
 
 **安装:**
 
-```
+```py
 pip install ifscApi
 
 ```
@@ -30,7 +30,7 @@ pip install ifscApi
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from ifscApi.getDetails import FetchData
 
@@ -60,7 +60,7 @@ print(data)
 
 **安装:**
 
-```
+```py
 pip install requests
 
 ```
@@ -80,7 +80,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import requests
 

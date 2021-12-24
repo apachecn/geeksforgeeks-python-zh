@@ -4,7 +4,7 @@
 
 给定列表列表，任务是检查给定列表列表中是否存在列表。
 
-```
+```py
 Input :
 lst = [[1, 1, 1, 2], [2, 3, 4], [1, 2, 3], [4, 5, 6]]
 list_search = [4, 5, 6]
@@ -24,7 +24,7 @@ Output:  False
 **方法#1:使用*计数器***
 查找列表列表中是否存在列表最简洁易读的方法是使用计数器。
 
-```
+```py
 # Python code find whether a list 
 # exists in list of list.
 import collections
@@ -52,14 +52,14 @@ else:
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 **方法 2:在** 中使用
 
-```
+```py
 *# Python code find whether a list 
 # exists in list of list.
 
@@ -79,14 +79,14 @@ else:
 
 ***Output:**
 
-```
+```py
 True
 
 ```* 
 
  ***方法三:使用`any`***
 
-```
+```py
 *# Python code find whether a list 
 # exists in list of list.
 
@@ -107,7 +107,7 @@ else:
 
 ***Output:**
 
-```
+```py
 True
 
 ```*

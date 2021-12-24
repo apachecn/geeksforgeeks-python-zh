@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring a string variable
 name = "Geek"
 #append a string within a string 
@@ -21,7 +21,7 @@ print("Hey, %s!" % name)
 
 **输出**
 
-```
+```py
 Hey, Geek!
 ```
 
@@ -31,7 +31,7 @@ Hey, Geek!
 
 ## 蟒蛇 3
 
-```
+```py
 #declaring numeric variables
 num = 2021
 #concatenating numeric value within string
@@ -40,7 +40,7 @@ print("%d is here!!" % num)
 
 **输出**
 
-```
+```py
 2021 is here!!
 ```
 
@@ -48,7 +48,7 @@ print("%d is here!!" % num)
 
 ## 蟒蛇 3
 
-```
+```py
 #declaring rational number
 frac_num = 8/3
 #concatenating numeric value within string
@@ -64,7 +64,7 @@ print("%d is equal to 10.9785 using this operator." % dec_num)
 
 **输出**
 
-```
+```py
 Rational number formatting using %d
 2 is equal to 8/3 using this operator.
 Decimal number formatting using %d
@@ -87,7 +87,7 @@ Decimal number formatting using %d
 
 ## 蟒蛇 3
 
-```
+```py
 name = "Sita"
 age = 22
 print("Using %s and %d both")
@@ -96,7 +96,7 @@ print ("%s's age is %d."%(name,age))
 
 **输出**
 
-```
+```py
 Using %s and %d both
 Sita's age is 22.
 ```
@@ -105,7 +105,7 @@ Sita's age is 22.
 
 ## 蟒蛇 3
 
-```
+```py
 name = "Sita"
 age = 22
 print("Using %s ")
@@ -114,7 +114,7 @@ print ("%s's age is %s."%(name,age))
 
 **输出**
 
-```
+```py
 Using %s 
 Sita's age is 22.
 ```
@@ -123,7 +123,7 @@ Sita's age is 22.
 
 ## 蟒蛇 3
 
-```
+```py
 name = "Sita"
 age = 22
 print("Using %d")
@@ -132,7 +132,7 @@ print ("%d's age is %d."%(name,age))
 
 **错误**
 
-```
+```py
 Using %d
 Traceback (most recent call last):
  File "<string>", line 4, in <module>

@@ -6,7 +6,7 @@
 
 好吧，如果你曾经做过一些事情，比如为任何活动的参与者创建证书，那么你知道这是一个多么乏味的过程。让我们使用 Python 自动实现这一点。我们将使用 Python 的枕头模块。要安装它，只需在您的终端中键入以下内容
 
-```
+```py
 pip install Pillow
 ```
 
@@ -24,7 +24,7 @@ pip install Pillow
 
 下面是实现。
 
-```
+```py
 # imports
 from PIL import Image, ImageDraw, ImageFont
 

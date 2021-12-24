@@ -11,7 +11,7 @@
 按钮是一个标签，当按钮被按下(或点击/触摸后释放)时会触发相关动作。要绑定按钮按下时的动作，我们有功能 **on_press** 。
 **按钮动作使用的基本方法。kv 文件:**
 
-```
+```py
 1) Import kivy
 2) Import kivy app
 3) Import Box layout
@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -68,7 +68,7 @@ myApp.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # Base widget from Rootwidget class in .py file
 <RootWidget>:
 

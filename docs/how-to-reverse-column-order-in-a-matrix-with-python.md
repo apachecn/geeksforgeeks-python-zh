@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 
 arr = [[10,20,30],
        [40,50,60],
@@ -41,7 +41,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a 3X4 matrix using nested lists
 matrix_1 = [['c1', 'c2', 'c3'],
             [10, 20, 30],
@@ -81,7 +81,7 @@ NumPy 中的数组对象称为 ndarray，它是使用 array()函数创建的。�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # creating a numpy array(matrix) with 3-columns and 4-rows

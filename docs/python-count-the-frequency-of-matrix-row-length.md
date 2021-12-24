@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Row lengths counts
 # Using dictionary + loop
@@ -51,7 +51,7 @@ print("Row length frequencies : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [[6, 3, 1], [8, 9], [2], [10, 12, 7], [4, 11]]
 Row length frequencies : {3: 2, 2: 2, 1: 1}
 ```
@@ -62,7 +62,7 @@ Row length frequencies : {3: 2, 2: 2, 1: 1}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Row lengths counts
 # Using Counter() + map() + len()
@@ -85,7 +85,7 @@ print("Row length frequencies : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [[6, 3, 1], [8, 9], [2], [10, 12, 7], [4, 11]]
 Row length frequencies : {3: 2, 2: 2, 1: 1}
 ```

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 11, 13, 21, 3, 9, 12
 Output :
 11 --> 21
@@ -32,7 +32,7 @@ Output :
 
 下面是 Python 中的一个简单实现。
 
-```
+```py
 # Function for implementation of NGE
 def NGE(arr):
 

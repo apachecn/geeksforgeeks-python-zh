@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for intersection() function
 set1 = {2, 4, 5, 6}
 set2 = {4, 6, 7, 8}
@@ -50,7 +50,7 @@ print("set1 intersection set2 intersection set3 :",
 
 **输出:**
 
-```
+```py
 set1 intersection set2 :  {4, 6}
 set1 intersection set2 intersection set3 : {4, 6}
 ```
@@ -61,7 +61,7 @@ set1 intersection set2 intersection set3 : {4, 6}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for intersection() function
 set1 = {2, 4, 5, 6}
 set2 = {4, 6, 7, 8}
@@ -75,7 +75,7 @@ print(set1 & set2 & set3)
 
 **输出:**
 
-```
+```py
 {4, 6}
 set()
 set()
@@ -87,7 +87,7 @@ symmetric_difference()与 set.intersection()方法相反。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for intersection() function
 set1 = {2, 4, 5, 6}
 set2 = {4, 6, 7, 8}
@@ -100,7 +100,7 @@ print(set2.symmetric_difference(set3))
 
 **输出:**
 
-```
+```py
 {2, 5, 7, 8}
 {0, 1, 2, 4, 5, 6, 12}
 {0, 1, 4, 6, 7, 8, 12}
@@ -110,7 +110,7 @@ print(set2.symmetric_difference(set3))
 
 ## 蟒蛇 3
 
-```
+```py
 set1 = {}
 set2 = {}
 
@@ -121,6 +121,6 @@ print("set1 intersection set2 : ",
 
 **输出:**
 
-```
+```py
 set1 intersection set2 :  set()
 ```

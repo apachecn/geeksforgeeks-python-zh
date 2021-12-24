@@ -6,7 +6,7 @@
 
 Selenium 是通过程序控制网络浏览器的强大工具。它适用于所有浏览器，适用于所有主要操作系统，其脚本是用各种语言编写的，如 Python、Java、C#等，我们将使用 Python。可以使用以下命令进行安装:
 
-```
+```py
 pip install selenium
 
 ```
@@ -17,7 +17,7 @@ pip install selenium
 
 ## python 3
 
-```
+```py
 # import required modules
 from selenium import webdriver
 from time import sleep
@@ -27,7 +27,7 @@ from time import sleep
 
 ## 蟒 3
 
-```
+```py
 # assign url in the webdriver object
 driver = webdriver.Chrome()
 driver.get("https://www.google.co.in/maps/@10.8091781,78.2885026,7z")
@@ -38,7 +38,7 @@ sleep(2)
 
 ## python 3
 
-```
+```py
 # search locations
 def searchplace():
     Place = driver.find_element_by_class_name("tactile-searchbox-input")
@@ -54,7 +54,7 @@ searchplace()
 
 ## 蟒 3
 
-```
+```py
 # get directions
 def directions():
     sleep(10)

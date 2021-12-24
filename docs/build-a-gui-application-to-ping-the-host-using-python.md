@@ -8,7 +8,7 @@
 
 在开始之前，我们需要将此模块安装到您的系统中。
 
-```
+```py
 pip install pythonping
 ```
 
@@ -29,7 +29,7 @@ pip install pythonping
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from pythonping import ping
 
@@ -39,7 +39,7 @@ ping('www.google.com', verbose=True)
 
 **输出:**
 
-```
+```py
 Reply from 142.250.71.4, 9 bytes in 61.09ms
 Reply from 142.250.71.4, 9 bytes in 60.24ms
 Reply from 142.250.71.4, 9 bytes in 60.22ms
@@ -58,7 +58,7 @@ Round Trip Times min/avg/max is 60.04/60.4/61.09 ms
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from pythonping import ping

@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip3 install openpyxl
 ```
 
@@ -35,7 +35,7 @@ pip3 install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 # import openpyxl library
 import openpyxl
 
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Maximum rows before removing: 15
 Maximum rows after removing: 14
 ```
@@ -108,7 +108,7 @@ Maximum rows after removing: 14
 
 ## 蟒蛇 3
 
-```
+```py
 # import openpyxl library
 import openpyxl
 
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Maximum rows before removing: 15
 Maximum rows after removing: 13
 ```
@@ -182,7 +182,7 @@ Maximum rows after removing: 13
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 def delete(sheet):
@@ -220,7 +220,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Maximum rows before removing: 15
 Maximum rows after removing: 1
 ```
@@ -242,7 +242,7 @@ Maximum rows after removing: 1
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 
 if __name__ == '__main__':
@@ -274,7 +274,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Maximum rows before removing: 15
 Maximum rows after removing: 1
 ```

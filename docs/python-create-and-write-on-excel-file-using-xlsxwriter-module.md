@@ -7,7 +7,7 @@
 **XlsxWriter** 是一个 Python 模块，用于以 XLSX 文件格式编写文件。它可用于将文本、数字和公式写入多个工作表。此外，它还支持格式、图像、图表、页面设置、自动过滤器、条件格式等功能。
 使用此命令安装 xlsxwriter 模块:
 
-```
+```py
  pip install xlsxwriter 
 ```
 
@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

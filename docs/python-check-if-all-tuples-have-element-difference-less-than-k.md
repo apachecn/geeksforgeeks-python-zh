@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if all tuples have element difference less than K
 # Using loop
@@ -45,7 +45,7 @@ print("Are all elements difference less than K ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4), (1, 2), (7, 8), (9, 8)]
 Are all elements difference less than K ? : True
 
@@ -57,7 +57,7 @@ Are all elements difference less than K ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Check if all tuples have element difference less than K
 # Using all()
@@ -80,7 +80,7 @@ print("Are all elements difference less than K ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4), (1, 2), (7, 8), (9, 8)]
 Are all elements difference less than K ? : True
 

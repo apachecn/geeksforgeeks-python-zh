@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -26,7 +26,7 @@ print (cmath.rect(3,10))
 
 **输出:**
 
-```
+```py
 (-2.517214587229357-1.6320633326681093j)
 
 ```
@@ -35,7 +35,7 @@ print (cmath.rect(3,10))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -45,7 +45,7 @@ print (cmath.rect(0,1))
 
 **输出:**
 
-```
+```py
 0j
 
 ```
@@ -54,7 +54,7 @@ print (cmath.rect(0,1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the Library
 import cmath 
 
@@ -64,7 +64,7 @@ print (cmath.rect(1,0))
 
 **输出:**
 
-```
+```py
 (1+0j)
 
 ```

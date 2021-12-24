@@ -30,7 +30,7 @@ JSON 代表 JavaScript 对象符号。这意味着由编程语言中的文本组
 
 ## 蟒蛇 3
 
-```
+```py
 import json 
 
 # Data to be written 
@@ -47,7 +47,7 @@ print(json_object)
 
 **Output**
 
-```
+```py
 {
     "id": "04",
     "name": "sunil",
@@ -57,7 +57,7 @@ print(json_object)
 
 **输出:**
 
-```
+```py
 {
     "department": "HR",
     "id": "04",
@@ -69,7 +69,7 @@ print(json_object)
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 # Data to be written

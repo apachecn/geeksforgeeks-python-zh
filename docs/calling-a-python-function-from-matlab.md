@@ -6,7 +6,7 @@
 
 当您键入 py.command 时，MATLAB 会加载 Python
 
-```
+```py
 py.modulename.functionname
 ```
 
@@ -19,7 +19,7 @@ py.modulename.functionname
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Module - print.py
 
 def printHello():
@@ -30,7 +30,7 @@ def printHello():
 
 ## 矩阵实验室
 
-```
+```py
 if count(py.sys.path, '') == 0
   insert(py.sys.path, int32(0), '');
 end
@@ -40,13 +40,13 @@ end
 
 ## 矩阵实验室
 
-```
+```py
 py.print.printHello();
 ```
 
 **输出:**
 
-```
+```py
 Hello
 ```
 
@@ -56,7 +56,7 @@ Hello
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Module - add.py
 
 def addgivenNumbers( num1, num2):
@@ -68,12 +68,12 @@ def addgivenNumbers( num1, num2):
 
 ## 矩阵实验室
 
-```
+```py
 py.add.addgivenNumbers(int32(2), int32(3));
 ```
 
 **输出:**
 
-```
+```py
 5
 ```

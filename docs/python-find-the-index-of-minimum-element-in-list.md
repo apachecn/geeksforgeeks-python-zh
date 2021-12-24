@@ -7,7 +7,7 @@
 **方法#1:使用`min() + enumerate()` +列表理解**
 在该方法中，上述功能的组合用于执行该特定任务。这分两步进行。在第一步中，我们获取最小元素，然后使用列表理解来访问列表，并使用枚举来访问对应的元素，并提取与步骤 1 中处理的最小元素相等的每个元素位置。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum element indices in list
 # Using list comprehension + min() + enumerate()
@@ -29,7 +29,7 @@ print("The Positions of minimum element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [2, 5, 6, 2, 3, 2]
 The Positions of minimum element : [0, 3, 5]
 

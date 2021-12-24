@@ -7,7 +7,7 @@ getpass()提示用户输入密码，而不进行回显。getpass 模块提供了
 
 1.  get pass()
 
-```
+```py
 getpass.getpass(prompt='Password: ', stream=None) 
 ```
 
@@ -17,7 +17,7 @@ getpass.getpass(prompt='Password: ', stream=None)
 
 ## 计算机编程语言
 
-```
+```py
 # A simple Python program to demonstrate
 # getpass.getpass() to read password
 import getpass
@@ -33,7 +33,7 @@ else:
 1.  这里，呼叫者不提供提示。因此，它被设置为默认提示“密码”。
     **输出:**
 
-```
+```py
 $ python3 getpass_example1.py
 
 Password: 
@@ -45,7 +45,7 @@ Password:
 
 ## 计算机编程语言
 
-```
+```py
 # A simple Python program to demonstrate
 # getpass.getpass() to read security question
 import getpass
@@ -60,7 +60,7 @@ else:
 
 1.  **输出:**
 
-```
+```py
 $ python3 getpass_example2.py
 
 Your favorite flower?
@@ -79,7 +79,7 @@ The answer entered by you is incorrect..!!!
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate working of
 # getpass.getuser()
 import getpass
@@ -98,7 +98,7 @@ while True:
 
 1.  **输出:**
 
-```
+```py
 $ python3 getpass_example3.py
 
 User Name : bot

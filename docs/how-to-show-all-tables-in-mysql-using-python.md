@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -60,7 +60,7 @@ gfg 数据库中的表名
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 mydb = mysql.connector.connect(

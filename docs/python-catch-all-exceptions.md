@@ -14,7 +14,7 @@ Python 中一般有两类错误，即[语法错误和](https://www.geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 amount = 10000
 
@@ -26,7 +26,7 @@ print("You are eligible to purchase Dsa Self Paced")
 
 **输出:**
 
-```
+```py
 SyntaxError: invalid syntax
 ```
 
@@ -36,7 +36,7 @@ SyntaxError: invalid syntax
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize the amount variable
 marks = 10000
 
@@ -47,7 +47,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 ZeroDivisionError: division by zero
 ```
 
@@ -59,7 +59,7 @@ ZeroDivisionError: division by zero
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to handle simple runtime error
 
 a = [1, 2, 3]
@@ -76,7 +76,7 @@ except:
 
 **Output**
 
-```
+```py
 Second element = 2
 An error occurred
 ```
@@ -87,7 +87,7 @@ An error occurred
 
 try 语句可以有多个 except 子句，以便为不同的异常指定处理程序。请注意，最多将执行一个处理程序。例如，我们可以在上面的代码中添加 IndexError。添加特定异常的一般语法是–
 
-```
+```py
 try:
    # statement(s)
 except IndexError:
@@ -100,7 +100,7 @@ except ValueError:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to handle multiple errors with one
 # except statement
 # Python 3
@@ -128,13 +128,13 @@ except NameError:
 
 **输出**
 
-```
+```py
 ZeroDivisionError Occurred and Handled
 ```
 
 如果你评论线趣(3)，输出会是
 
-```
+```py
 NameError Occurred and Handled
 ```
 

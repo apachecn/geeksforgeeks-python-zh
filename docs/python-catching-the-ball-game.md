@@ -9,7 +9,7 @@ Python 是一种多用途语言，几乎可以用于开发的每个领域。Pyth
 1.  使用 python 中的 Tkinter 包来构建 GUI(图形用户界面)。
 2.  在 Python 中使用画布绘制对象–画布是一个矩形区域，用于绘制图片或其他复杂布局。我们可以在画布上放置图形、文本、小部件或框架。
 
-```
+```py
 Syntax: w = Canvas ( master, option=value, ... )
 
 Parameters:
@@ -22,21 +22,21 @@ Example- width, height etc.
 1.  使用 canvas.create_oval 创建球。
     **create_oval** 在给定的坐标下创建一个圆或椭圆。它需要两对坐标；椭圆形边框的左上角和右下角。
 
-```
+```py
 Syntax: oval = canvas.create_oval(x0, y0, x1, y1, options)
 ```
 
 1.  使用 canvas.create_rectangle 创建栏。
     **create_rectangle** 在给定的坐标下创建一个矩形。它需要两对坐标；左上角和右下角的坐标。
 
-```
+```py
 Syntax: oval = canvas.create_rectangle(x0, y0, x1, y1, options)
 ```
 
 1.  使用 canvas.move 移动球或棒。
     **canvas.move** 使对象能够以指定的(x，y)坐标移动。
 
-```
+```py
 Syntax: move=canvas.move(name of object, x, y) 
 ```
 
@@ -47,7 +47,7 @@ Syntax: move=canvas.move(name of object, x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for catching the ball game
 
 # importing suitable packages

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : geeks, k = 1
 Output : {'gees', 'eeks', 'geks', 'geek'}
 
@@ -18,7 +18,7 @@ Output : {'do', 'dg', 'og'}
 **方法#1 :** 朴素方法
 这是删除 k 个字符后寻找所有可能子串的递归朴素方法。首先，我们分别用 0、字符串长度和 0 初始化*开始、结束*和索引变量。我们创建一个临时列表，比如说“ *temp* ”，它一个接一个地存储所有输出。我们从`temp[]`中的第一个索引开始，一个接一个地固定这个索引处的元素，并对剩余的索引重复。
 
-```
+```py
 # Python3 program to Find all combinations 
 # of string after deleting k characters
 list = []
@@ -52,7 +52,7 @@ print(set(list))
 
 **Output:**
 
-```
+```py
 {'eeks', 'gees', 'geks', 'geek'}
 
 ```
@@ -60,7 +60,7 @@ print(set(list))
 **方法 2 :** 使用 Itertools
 Python 模块 Itertools 给出了一个函数`combination()`，该函数采用字符串和长度给出字符串的所有可能组合。
 
-```
+```py
 # Python3 program to Find all combinations 
 # of string after deleting k characters
 from itertools import combinations
@@ -77,7 +77,7 @@ print(findCombinations(str, k))
 
 **Output:**
 
-```
+```py
 {'geek', 'eeks', 'geks', 'gees'}
 
 ```

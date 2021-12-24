@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(rating)
 
 **输出:**
 
-```
+```py
 Money Heist
 8.5
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(rating)
 
 **输出:**
 
-```
+```py
 Sacred Games
 8.7
 ```

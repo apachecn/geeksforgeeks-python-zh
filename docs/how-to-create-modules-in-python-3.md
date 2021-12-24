@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # defining a class Age
 class Age:                    
 
@@ -49,7 +49,7 @@ s = 'I love python!'            
 
 ## 巨蟒
 
-```
+```py
 # importing the module mod.py
 import mod         
 
@@ -59,7 +59,7 @@ mod.hello() 
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```
 
@@ -71,7 +71,7 @@ hello geeks!
 
 ## 【Python】
 
-```
+```py
 # importing only the function hello from the module mod.py
 from mod import hello         
 
@@ -81,7 +81,7 @@ hello()     
 
 **输出:**
 
-```
+```py
 hello geeks!
 ```
 
@@ -91,7 +91,7 @@ hello geeks!
 
 ## 【Python】
 
-```
+```py
 # importing the module mod.py
 import mod          
 
@@ -104,7 +104,7 @@ jack.getAge()                
 
 **输出:**
 
-```
+```py
 The age of jack is 21
 ```
 
@@ -112,7 +112,7 @@ The age of jack is 21
 
 ## 【蟒蛇】
 
-```
+```py
 # importing only the Age class from mod
 from mod import Age          
 

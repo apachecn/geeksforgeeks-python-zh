@@ -5,13 +5,13 @@
 ***【dir()】*****是 Python3 中一个强大的内置函数，它返回任何对象(比如函数、模块、字符串、列表、字典等)的属性和方法列表。)
 **语法:**** 
 
-```
+```py
 dir({object})
 ```
 
 ****参数:**** 
 
-```
+```py
 **object** *[optional]* : Takes object name
 ```
 
@@ -26,7 +26,7 @@ dir({object})
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate dir()
 # when no parameters are passed
 
@@ -45,7 +45,7 @@ print(dir())
 
 ****输出:**** 
 
-```
+```py
 ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__',
                                           '__name__', '__package__', '__spec__']
 
@@ -57,7 +57,7 @@ print(dir())
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate dir() function
 # when a module Object is passed as parameter.
 
@@ -74,7 +74,7 @@ print(dir(random))
 
 ****输出:**** 
 
-```
+```py
 The contents of the random library are ::
 
 ['BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST',
@@ -92,7 +92,7 @@ The contents of the random library are ::
 
 ## **蟒蛇 3**
 
-```
+```py
 # When a list object is passed as
 # parameters for the dir() function
 
@@ -118,7 +118,7 @@ print(dir(d))
 
 ****输出:**** 
 
-```
+```py
 ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__',
 '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', 
 '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', 
@@ -139,7 +139,7 @@ print(dir(d))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate working
 # of dir(), when user defined objects are
 # passed are parameters.
@@ -163,7 +163,7 @@ print(dir(my_cart))
 
 ****输出:**** 
 
-```
+```py
 ['customer_name', 'date', 'price', 'product', 'quantity']
 ```
 

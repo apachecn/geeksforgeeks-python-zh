@@ -23,7 +23,7 @@ Tweepy 模块中`API`类的 **`destroy_block()`** 方法用于将被阻止的用
 **示例 1 :** 考虑以下用户:
 ![](img/bc3d9d5595d6958247cd8ad67cfa80ac.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,7 +54,7 @@ api.destroy_block(screen_name)
 
 **示例 2 :** 通过`destroy_block()`方法检查用户是否已被解锁。
 
-```
+```py
 # ID of the user
 id = 4802800777
 
@@ -76,7 +76,7 @@ else:
 
 **输出:**
 
-```
+```py
 Before using the destroy_block() method : 
 The user has been blocked by the authenticated user.
 

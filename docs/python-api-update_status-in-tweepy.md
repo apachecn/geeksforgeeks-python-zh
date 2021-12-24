@@ -26,7 +26,7 @@ Tweepy 模块中`API`类的 **`API.update_status()`** 方法用于更新认证�
 
 **示例 1 :** 仅使用文本而不使用其他参数的`update_status()`方法。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -57,7 +57,7 @@ api.update_status(status)
 
 **示例 2 :** 使用带 in_reply_to_status_id 参数的`update_status()`方法回复之前的推文。
 
-```
+```py
 # the text to be tweeted
 status = "This is a tweet is a reply."
 

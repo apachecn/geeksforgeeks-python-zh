@@ -13,7 +13,7 @@
 
 我们必须指定你想要打开文件的模式，就像上面的代码片段，这会以读取模式打开一个文件。
 
-```
+```py
 # importing tkinter and tkinter.ttk
 # and all their functions and classes
 from tkinter import * 

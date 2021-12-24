@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 info = input_group("Group inputs", [
      input('Username', name='username'),
      input('Password', name='pass')])
@@ -32,6 +32,6 @@ info = input_group("Group inputs", [
 
 ## 蟒蛇 3
 
-```
+```py
 input("Your name")
 ```

@@ -5,7 +5,7 @@
 给定一个字典，编写一个 Python 程序，将给定的字典转换成元组列表。
 **例:**
 
-```
+```py
 Input: { 'Geeks': 10, 'for': 12, 'Geek': 31 }
 Output : [ ('Geeks', 10), ('for', 12), ('Geek', 31) ]
 
@@ -18,7 +18,7 @@ Output : [ ('dict', 11), ('to', 22), ('list_of_tup', 33) ]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to convert dictionary into list of tuples
 
 # Initialization of dictionary
@@ -33,6 +33,6 @@ print(list)
 
 **Output:** 
 
-```
+```py
 [('Geek', 31), ('for', 12), ('Geeks', 10)]
 ```

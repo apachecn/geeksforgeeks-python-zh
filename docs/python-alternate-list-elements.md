@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alternate List elements
 # Using loop
@@ -43,7 +43,7 @@ print("The zig-zag printing of elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [5, 3, 1, 4, 7]
 The original list 2 : [6, 4, 2, 5, 1]
 The zig-zag printing of elements : [5, 6, 3, 4, 1, 2, 4, 5, 7, 1]
@@ -56,7 +56,7 @@ The zig-zag printing of elements : [5, 6, 3, 4, 1, 2, 4, 5, 7, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate List elements
 # Using  zip() + loop
@@ -82,7 +82,7 @@ print("The zig-zag printing of elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [5, 3, 1, 4, 7]
 The original list 2 : [6, 4, 2, 5, 1]
 The zig-zag printing of elements : [5, 6, 3, 4, 1, 2, 4, 5, 7, 1]

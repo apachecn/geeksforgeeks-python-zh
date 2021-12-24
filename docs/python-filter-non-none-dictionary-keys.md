@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 在这种情况下，我们只是对所有键运行一个循环，并检查值，如果不是无，我们将所有非无键的键追加到一个存储列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Non-None dictionary Keys
 # Using loop
@@ -31,7 +31,7 @@ print("Non-None keys list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'for': 2, 'CS': None, 'Gfg': 1}
 Non-None keys list : ['for', 'Gfg']
 

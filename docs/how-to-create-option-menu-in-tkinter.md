@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the tkinter module using import keyword
 from tkinter import *
 
@@ -67,7 +67,7 @@ parent.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter using import keyword
 import tkinter as tk
 

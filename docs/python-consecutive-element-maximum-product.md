@@ -8,7 +8,7 @@
 
 这个问题可以用上述三个函数的组合来解决，其中 max 函数可以用来获得最大值，zip 和 list 理解完成了将逻辑扩展到整个列表的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive element maximum product
 # using zip() + max() + list comprehension
@@ -30,7 +30,7 @@ print("The maximum consecutive product is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : 2312231223124565128998
 The maximum consecutive product is : 81
 
@@ -40,7 +40,7 @@ The maximum consecutive product is : 81
 
 上述问题也可以使用另一种功能组合来解决。在这种组合中，map 函数执行将逻辑扩展到整个列表的任务，mul 运算符用于执行乘法。
 
-```
+```py
 # Python3 code to demonstrate
 # Consecutive element maximum product
 # using max() + map() + operator.mul
@@ -62,7 +62,7 @@ print("The maximum consecutive product is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : 6543452345456987653234
 The maximum consecutive product is : 72
 

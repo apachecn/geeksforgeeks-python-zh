@@ -10,7 +10,7 @@
 所以，任务是最小化泰迪熊的总数。
 **例** :
 
-```
+```py
 Input: n = 3, marks = [ 1, 2, 2 ]
 Output: 4
 Here 1, 2, 2 is the marks. 
@@ -33,7 +33,7 @@ Output: 10
 
 ## C++
 
-```
+```py
 // C++ implementation of the
 // above approach
 #include<bits/stdc++.h>
@@ -112,7 +112,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java implementation of the
 // above approach
 
@@ -191,7 +191,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation of the above approach
 
 def fun(marks, n):
@@ -238,7 +238,7 @@ print(fun(marks, n))
 
 ## C#
 
-```
+```py
 // C# implementation of the
 // above approach
 using System;
@@ -319,7 +319,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Javascript implementation of the above approach
 
@@ -394,6 +394,6 @@ class GFG
 
 **Output:** 
 
-```
+```py
 10
 ```

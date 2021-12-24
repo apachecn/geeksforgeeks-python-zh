@@ -7,7 +7,7 @@
 **方法#1:使用`list() + enumerate()`**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们只需将枚举列表传递给 list()，该列表返回第一个元素作为索引，第二个元素作为该索引处的列表元素的元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert list to indexed tuple
 # Using list() + enumerate()
@@ -28,7 +28,7 @@ print("List after conversion to tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [4, 5, 8, 9, 10]
 List after conversion to tuple list : [(0, 4), (1, 5), (2, 8), (3, 9), (4, 10)]

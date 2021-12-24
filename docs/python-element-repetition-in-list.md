@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 在这个方法中，我们只需对每个值重复循环两次，并添加到所需的新列表中。这只是简单方法的一种替代。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform element duplication
 # using list comprehension
@@ -28,7 +28,7 @@ print ("The list after element duplication " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after element duplication [4, 4, 5, 5, 6, 6, 3, 3, 9, 9]
 
@@ -37,7 +37,7 @@ The list after element duplication [4, 4, 5, 5, 6, 6, 3, 3, 9, 9]
 **方法 2:使用 **reduce() + add****
 我们还可以使用 reduce 函数来充当函数，在列表中同时执行一对相似数字的加法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform element duplication
 # using reduce() + add
@@ -59,7 +59,7 @@ print ("The list after element duplication " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after element duplication [4, 4, 5, 5, 6, 6, 3, 3, 9, 9]
 
@@ -68,7 +68,7 @@ The list after element duplication [4, 4, 5, 5, 6, 6, 3, 3, 9, 9]
 **方法 3:使用`itertools.chain().from_iterable()`**
 from_iterable 函数也可以执行这个添加副本的任务。它只是生成每个迭代元素的对，并将其连续插入。
 
-```
+```py
 # Python3 code to demonstrate 
 # to perform element duplication
 # using itertools.chain.from_iterable()
@@ -90,7 +90,7 @@ print ("The list after element duplication " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after element duplication [4, 4, 5, 5, 6, 6, 3, 3, 9, 9]
 

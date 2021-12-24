@@ -12,7 +12,7 @@
 
 **2。log(a，b)** :-该函数返回以 b 为基数的 a 的对数**值**。如果未提及基数，则计算值为自然对数。
 
-```
+```py
 # Python code to demonstrate the working of
 # exp() and log()
 
@@ -30,7 +30,7 @@ print (math.log(2,3))
 
 输出:
 
-```
+```py
 The e**4 value is : 54.598150033144236
 The value of log 2 with base 3 is : 0.6309297535714574
 
@@ -40,7 +40,7 @@ The value of log 2 with base 3 is : 0.6309297535714574
 
 **4。log10(a)** :-该函数计算基数为 10 的 **log a 的值。该值比上述函数的值**更准确**。**
 
-```
+```py
 # Python code to demonstrate the working of
 # log2() and log10()
 
@@ -58,7 +58,7 @@ print (math.log10(10000))
 
 输出:
 
-```
+```py
 The value of log2 of 16 is : 4.0
 The value of log10 of 10000 is : 4.0
 
@@ -68,7 +68,7 @@ The value of log10 of 10000 is : 4.0
 
 **6。sqrt()** :-该函数返回数字的**平方根**。
 
-```
+```py
 # Python code to demonstrate the working of
 # pow() and sqrt()
 
@@ -86,7 +86,7 @@ print (math.sqrt(25))
 
 输出:
 
-```
+```py
 The value of 3 to the power 2 is : 9.0
 The value of square root of 25 : 5.0
 

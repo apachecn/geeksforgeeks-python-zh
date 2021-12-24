@@ -7,7 +7,7 @@
 **方法一:使用`sorted() + index()` +列表理解**
 以上所有功能可以组合起来完成这个特定的任务。排序函数返回排序顺序，索引由索引函数完成。列表理解的任务是对整个列表元素进行操作，并整合这两项任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Finding relative order of elements in list
 # using sorted() + index() + list comprehension
@@ -29,7 +29,7 @@ print ("The relative ordering list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [6, 3, 1, 2, 5, 4]
 The relative ordering list is : [5, 2, 0, 1, 4, 3]
 

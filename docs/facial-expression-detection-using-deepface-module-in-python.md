@@ -10,7 +10,7 @@
 *   **Matplotlib:** Matplotlib 是一个全面的库，用于在 Python 中创建静态、动画和交互式可视化。
 *   **Deepface:** Deepface 是由脸书的一个人工智能研究小组建造的。它是 python 中用于面部识别和属性分析的框架。Deepface 的核心库组件用于 Keras 和 TensorFlow。
 
-```
+```py
 pip install deepface
 ```
 
@@ -22,7 +22,7 @@ pip install deepface
 
 ## 蟒蛇 3
 
-```
+```py
 #import the required modules
 import cv2
 import matplotlib.pyplot as plt
@@ -33,7 +33,7 @@ from deepface import DeepFace
 
 ## 蟒蛇 3
 
-```
+```py
 # read image
 img = cv2.imread('img1.jpg')
 
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # storing the result
 result = DeepFace.analyze(img,
                           actions = ['emotion'])
@@ -73,7 +73,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required modules
 import cv2
 import matplotlib.pyplot as plt

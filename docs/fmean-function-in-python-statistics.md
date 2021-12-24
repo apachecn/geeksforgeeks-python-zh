@@ -15,7 +15,7 @@ Python 3.8 的统计模块提供了一个函数 **fmean()** ，该函数将所�
 
 **代码# 1:**fmean()的演示
 
-```
+```py
 # Python program to demonstrate fmean() 
 
 import statistics 
@@ -31,14 +31,14 @@ print("Floating Point Mean is :", fm) 
 
 **输出:**
 
-```
+```py
 Floating Point Mean is: 4.914285714285714
 
 ```
 
 **代码# 2:**fmean()的演示
 
-```
+```py
 # Python program to demonstrate fmean() 
 
 from statistics import fmean 
@@ -65,7 +65,7 @@ print("Floating Point Mean of A4 is", fmean(A4))
 
 **输出:**
 
-```
+```py
 Floating Point Mean of A1 is 6.2
 Floating Point Mean of A2 is -7.8999999999999995
 Floating Point Mean of A3 is -0.41666666666666674
@@ -75,7 +75,7 @@ Floating Point Mean of A4 is 2.3000000000000003
 
 **代码 #3：** 统计错误
 
-```
+```py
 # Python3 code to demonstrate StatisticsError
 
 from statistics import fmean 

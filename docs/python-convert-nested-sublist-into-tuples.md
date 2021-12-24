@@ -7,7 +7,7 @@
 **方法一:使用`tuple()` +列表理解**
 这是解决这个问题的一条线方法。在这种情况下，我们只需遍历最里面的子列表，并使用`tuple()`将每个列表转换为元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert nested sublist into tuples
 # Using tuple() + list comprehension
@@ -28,7 +28,7 @@ print("The data after conversion to tuple is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[[1, 2, 3], [4, 6, 7]], [[6, 9, 8], [10, 11, 12]]]
 The data after conversion to tuple is : [[(1, 2, 3), (4, 6, 7)], [(6, 9, 8), (10, 11, 12)]]
 

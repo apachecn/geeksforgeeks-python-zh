@@ -10,13 +10,13 @@
 
 分数到百分比的手动转换可以通过将有理数乘以 100 来完成。通过使用内置的 math.round()函数，可以将获得的十进制数向上舍入到所需的位数，该函数具有以下语法:
 
-```
+```py
 round(number, digits)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # define a number
 num = 1/3
 
@@ -32,7 +32,7 @@ print (round(dec_num,2))
 
 **输出**
 
-```
+```py
 Decimal equivalent in %
 33.33
 ```
@@ -41,7 +41,7 @@ Decimal equivalent in %
 
 ## 蟒蛇 3
 
-```
+```py
 # define a number
 num = 2/4
 
@@ -57,7 +57,7 @@ print (round(dec_num,4))
 
 **输出**
 
-```
+```py
 Decimal equivalent in %
 50.0
 ```
@@ -66,7 +66,7 @@ Decimal equivalent in %
 
 str.format()方法用于通过指定小数点后的位数将数字转换为百分比。
 
-```
+```py
 "{:.n%}".format(num)
 ```
 
@@ -77,7 +77,7 @@ str.format()方法用于通过指定小数点后的位数将数字转换为百�
 
 ## 蟒蛇 3
 
-```
+```py
 # input an integer with denominator =1 
 integer_num = 2 
 print ("Converting number to percentage rounding to 0 place of decimal")
@@ -91,14 +91,14 @@ print ("{:.5%}".format(integer_num))
 
 **输出**
 
-```
+```py
 Converting number to percentage rounding to 0 place of decimal
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # input an integer with denominator =1 
 integer_num = 2 
 print ("Converting number to percentage rounding to 0 place of decimal")
@@ -110,7 +110,7 @@ print ("Converting number to percentage rounding to 5 place of decimal")
 print ("{:.5%}".format(integer_num))
 ```
 
-```
+```py
 200%
 Converting number to percentage rounding to 0 place of decimal
 -700.00000%
@@ -122,7 +122,7 @@ Converting number to percentage rounding to 0 place of decimal
 
 ## 蟒蛇 3
 
-```
+```py
 # input a fractional number
 num = 1/3
 
@@ -138,7 +138,7 @@ print ("{:.2%}".format(num))
 
 **输出**
 
-```
+```py
 Converting number to percentage rounding to 0 place of decimal
 33%
 Converting number to percentage rounding to 2 place of decimal

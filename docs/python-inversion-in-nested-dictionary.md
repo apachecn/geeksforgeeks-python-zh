@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Inversion in nested dictionary
 # Using loop + recursion
@@ -63,7 +63,7 @@ print("The inverted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'a': {'b': {'c': {}}}, 'd': {'e': {}}, 'f': {'g': {'h': {}}}}
 The inverted dictionary : {'c': {'b': {'a': {}}}, 'e': {'d': {}}, 'h': {'g': {'f': {}}}}
 

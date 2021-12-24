@@ -13,7 +13,7 @@
 
 **示例 1 :** 电子邮件过滤器
 
-```
+```py
 # import the required modules
 from enchant.tokenize import get_tokenizer
 from enchant.tokenize import EmailFilter
@@ -52,7 +52,7 @@ print(token_list_filter)
 
 **示例 2 :** URLFilter
 
-```
+```py
 # import the required modules
 from enchant.tokenize import get_tokenizer
 from enchant.tokenize import URLFilter
@@ -92,7 +92,7 @@ print(token_list_filter)
 **例 3:**WikiWord filter
 WikiWord 是由两个或两个以上以大写字母开头的单词组成的单词，一起运行。
 
-```
+```py
 # import the required modules
 from enchant.tokenize import get_tokenizer
 from enchant.tokenize import WikiWordFilter

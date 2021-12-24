@@ -9,7 +9,7 @@
 
 ![Multiple Inheritance](img/b85513dcc81a8377f595a56463ae6852.png)
 
-```
+```py
 Syntax:
 
 Class Base1:
@@ -34,7 +34,7 @@ Class Derived(Base1, Base2):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to depict multiple inheritance
 # when method is overridden in both classes
 
@@ -59,7 +59,7 @@ obj.m()
 
 **输出:**
 
-```
+```py
 In Class2
 ```
 
@@ -70,7 +70,7 @@ In Class2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to depict multiple inheritance
 # when method is overridden in one of the classes
 
@@ -94,7 +94,7 @@ obj.m()
 
 **输出:**
 
-```
+```py
 In Class3
 ```
 
@@ -102,7 +102,7 @@ In Class3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to depict multiple inheritance
 # when every class defines the same method
 
@@ -132,7 +132,7 @@ Class1.m(obj)
 
 **输出:**
 
-```
+```py
 In Class4
 In Class2
 In Class3
@@ -144,7 +144,7 @@ In Class1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to depict multiple inheritance
 # when we try to call the method m for Class1,
 # Class2, Class3 from the method m of Class4
@@ -174,7 +174,7 @@ obj.m()
 
 **输出:**
 
-```
+```py
 In Class4
 In Class2
 In Class3
@@ -185,7 +185,7 @@ In Class1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to depict multiple inheritance
 # when we try to call m of Class1 from both m of
 # Class2 and m of Class3
@@ -216,7 +216,7 @@ obj.m()
 
 **输出:**
 
-```
+```py
 In Class4
 In Class2
 In Class1
@@ -230,7 +230,7 @@ In Class1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # super()
 
@@ -259,7 +259,7 @@ obj.m()
 
 **输出:**
 
-```
+```py
 In Class4
 In Class2
 In Class3
@@ -283,7 +283,7 @@ In Class1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # super()
 

@@ -4,7 +4,7 @@
 
 python 中的 **`del`** 关键字主要用于删除 Python 中的对象。由于 python 中的所有内容都以这样或那样的方式表示一个对象，因此`del`关键字也可以用于删除列表、分割列表、删除字典、从字典中移除键值对、删除变量等。
 
-```
+```py
  Syntax: del object_name
 ```
 
@@ -15,7 +15,7 @@ python 中的 **`del`** 关键字主要用于删除 Python 中的对象。由于
 **示例:**
 在下面的程序中我们将使用 `del Sample_class` 语句删除 Sample_class。
 
-```
+```py
 class Sample_class:
     some_variable = 20
 
@@ -35,11 +35,11 @@ print(Sample_class)
 
 **输出:**
 
-```
+```py
 class '__main__.Sample_class'
 ```
 
-```
+```py
 NameError:name 'Sample_class' is not defined
 ```
 
@@ -48,7 +48,7 @@ NameError:name 'Sample_class' is not defined
 **示例:**
 在下面的程序中，我们将使用 `del`关键字删除一个变量。
 
-```
+```py
 my_variable1 = 20
 my_variable2 = "GeeksForGeeks"
 
@@ -67,13 +67,13 @@ print(my_variable2)
 
 **输出:**
 
-```
+```py
 20
 GeeksForGeeks
 20
 ```
 
-```
+```py
 NameError: name 'my_variable2' is not defined
 ```
 
@@ -82,7 +82,7 @@ NameError: name 'my_variable2' is not defined
 **示例:**
 在下面的程序中，我们将使用 `del`关键字删除一个列表并切片另一个列表。
 
-```
+```py
 my_list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 my_list2 =["Geeks", "For", "Geek"]
 
@@ -111,14 +111,14 @@ print(my_list2)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ['Geeks', 'For', 'Geek']
 [1, 3, 4, 5, 6, 7, 8, 9]
 [1, 3, 4, 7, 8, 9]
 ```
 
-```
+```py
 NameError: name 'my_list2' is not defined
 ```
 
@@ -127,7 +127,7 @@ NameError: name 'my_list2' is not defined
 **示例:**
 在下面的程序中，我们将删除一个字典，并使用 `del`关键字删除几个键值对。
 
-```
+```py
 my_dict1 = {"small": "big", "black": "white", "up": "down"}
 my_dict2 = {"dark": "light", "fat": "thin", "sky": "land"}
 
@@ -150,13 +150,13 @@ print(my_dict2)
 
 **输出:**
 
-```
+```py
 {'small': 'big', 'black': 'white', 'up': 'down'}
 {'dark': 'light', 'fat': 'thin', 'sky': 'land'}
 {'small': 'big', 'up': 'down'}
 ```
 
-```
+```py
 NameError: name 'my_dict2' is not defined
 ```
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Similar all elements as List in Matrix rows
 # Using loop
@@ -64,7 +64,7 @@ print("Are row index element similar\
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Similar all elements as List in Matrix rows
 # Using all() + generator expression

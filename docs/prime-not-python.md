@@ -7,7 +7,7 @@
 [Any and All](https://www.geeksforgeeks.org/any-all-in-python/) 的概念确实将这个问题简化为一条线，是的，它也很快。
 本程序使用的逻辑基于[校法查质数](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/)。
 
-```
+```py
 # Returns true if n is prime else false
 def prime(n):
     return all([(n % j) for j in range(2, int(n**0.5)+1)]) and n>1
@@ -20,7 +20,7 @@ else:
     print("No")
 ```
 
-```
+```py
 Yes
 
 ```

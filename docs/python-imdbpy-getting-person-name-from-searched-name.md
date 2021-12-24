@@ -13,7 +13,7 @@ search_name 方法返回列表，列表的每个元素都像字典一样工作�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -36,7 +36,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 [Person id:1596350[http] name:_Nawazuddin Siddiqui_]
 Nawazuddin Siddiqui
 ```
@@ -45,7 +45,7 @@ Nawazuddin Siddiqui
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -65,7 +65,7 @@ for i in range(len(search)):
 
 **输出:**
 
-```
+```py
 Neil Nitin Mukesh
 Nitin Mukesh
 Naman Nitin Mukesh

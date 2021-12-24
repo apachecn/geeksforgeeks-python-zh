@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -32,14 +32,14 @@ print(playlist["title"])
 
 **输出:**
 
-```
+```py
 Amazon Programming Interview Questions | GeeksforGeeks
 
 ```
 
 另一个例子
 
-```
+```py
 # importing pafy
 import pafy 
 
@@ -55,7 +55,7 @@ print(playlist["title"])
 
 **输出:**
 
-```
+```py
 Google Programming Interview Questions4
 
 ```

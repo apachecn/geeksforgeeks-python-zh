@@ -9,7 +9,7 @@
 
     例:
 
-    ```
+    ```py
     Please select operation -
     1\. Add
     2\. Subtract
@@ -22,7 +22,7 @@
 
     ```
 
-    ```
+    ```py
     # Python program for simple calculator
 
     # Function to add two numbers 
@@ -74,7 +74,7 @@
 
     输出:
 
-    ```
+    ```py
     Please select operation -
     1\. Add
     2\. Subtract

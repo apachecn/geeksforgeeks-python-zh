@@ -8,7 +8,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **要使用画布，您必须导入文件中的图形。**
 
-```
+```py
 from kivy.graphics import Rectangle, Color
 ```
 
@@ -23,7 +23,7 @@ from kivy.graphics import Rectangle, Color
 > 1)按钮行为混合类提供按钮行为。
 > 2)您可以将该类与其他小部件(如图像)相结合，以提供保留 Kivy 按钮行为的替代按钮。
 
-```
+```py
 Basic Approach -
 -> import kivy
 -> import kivy App
@@ -47,7 +47,7 @@ Basic Approach -
 
 **main.py**
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## working of canvas with buttonbehaviour i.e
 ## creating a circular button in Kivy using .kv file 
@@ -91,7 +91,7 @@ BtnApp().run() 
 
 **。kv 文件**
 
-```
+```py
 # .kv file of creating a circular button using canvas
 
 <CircularButton>: 

@@ -7,7 +7,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.find_element_by_partial_link_text("Text of Link")
 ```
 
@@ -17,7 +17,7 @@ driver.find_element_by_partial_link_text("Text of Link")
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <body>
 
@@ -31,7 +31,7 @@ driver.find_element_by_partial_link_text("Text of Link")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_element_by_partial_link_text('Conti')
 ```
 
@@ -43,7 +43,7 @@ login_form = driver.find_element_by_partial_link_text('Conti')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -68,7 +68,7 @@ print(element)
 
 现在使用运行–
 
-```
+```py
 Python run.py
 ```
 

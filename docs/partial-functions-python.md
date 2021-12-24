@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 from functools import partial
 
 # A normal function
@@ -23,7 +23,7 @@ print(g(5))
 
 **输出:**
 
-```
+```py
 3145
 
 ```
@@ -32,7 +32,7 @@ print(g(5))
 
 **另一个例子:**
 
-```
+```py
 from functools import *
 
 # A normal function
@@ -48,7 +48,7 @@ print(add_part(3))
 
 **输出:**
 
-```
+```py
 312
 
 ```

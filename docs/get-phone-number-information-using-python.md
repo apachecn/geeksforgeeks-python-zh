@@ -7,13 +7,13 @@
 **安装**
 在命令提示符下使用下面的命令安装软件包`phonenumbers`。
 
-```
+```py
 pip install phonenumbers
 ```
 
 **示例 1:** 获取电话号码所属国家名称的 Python 程序:
 
-```
+```py
 import phonenumbers
 
 # geocoder: to know the specific 
@@ -31,13 +31,13 @@ print(geocoder.description_for_number(phone_number, 
 
 **输出:**
 
-```
+```py
 India
 ```
 
 **示例 2:** Python 程序获取该电话号码的服务提供商名称
 
-```
+```py
 import phonenumbers
 
 # carrier: to know the name of 
@@ -55,7 +55,7 @@ print(carrier.name_for_number(service_provider,
 
 **输出:**
 
-```
+```py
 Airtel
 
 ```

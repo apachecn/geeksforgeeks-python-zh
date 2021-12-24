@@ -10,7 +10,7 @@
 
 下面是上面游戏的实现:
 
-```
+```py
 # import the modules 
 import tkinter
 import random

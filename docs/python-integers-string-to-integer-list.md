@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Integers String to Integer List
 # Using list comprehension + int() + split()
@@ -39,7 +39,7 @@ print("Converted Integers : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 4 5 -3 2 -100 -2 -4 9
 Converted Integers : [4, 5, -3, 2, -100, -2, -4, 9]
 
@@ -51,7 +51,7 @@ Converted Integers : [4, 5, -3, 2, -100, -2, -4, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Integers String to Integer List
 # Using map() + int()
@@ -73,7 +73,7 @@ print("Converted Integers : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 4 5 -3 2 -100 -2 -4 9
 Converted Integers : [4, 5, -3, 2, -100, -2, -4, 9]
 

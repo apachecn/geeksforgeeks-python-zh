@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # import image module from pillow
 from PIL import Image
 
@@ -41,7 +41,7 @@ Image1copy.save('D:\pasted2.png')
 
 **示例 2:** 更改纸型，将图像 2 放在图像 1 中猫的脸上。
 
-```
+```py
 # import image module from pillow
 from PIL import Image
 

@@ -46,7 +46,7 @@ SQLite 是一个实现轻量级关系数据库管理系统的软件库。与 Pos
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 import pandas as pd

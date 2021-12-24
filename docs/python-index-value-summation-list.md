@@ -7,7 +7,7 @@
 **方法 1:幼稚方法**
 这是最通用的方法，可以用来执行访问索引和列表元素值的任务。这是使用循环完成的。执行求和的任务是使用外部变量相加来执行的。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Index Value Summation List
 # using naive method
@@ -29,7 +29,7 @@ print ("The list index-value summation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7]
 The list index-value summation is : [1, 5, 7, 9, 11]
 

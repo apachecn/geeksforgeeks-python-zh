@@ -31,7 +31,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **代码 1#**
 
-```
+```py
 def build(self): 
         # use a (r, g, b, a) tuple 
         btn = Button(text ="Push Me !", 
@@ -51,7 +51,7 @@ def build(self): 
 
 **代码#2**
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## How to change button color in Kivy.
 ################################################### 

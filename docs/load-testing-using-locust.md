@@ -18,20 +18,20 @@
 
 蝗虫可以安装 pip。
 
-```
+```py
 pip install locust
 ```
 
 一旦蝗虫成功安装，蝗虫命令应该可以在您的外壳中使用。
 要查看更多可用选项:
 
-```
+```py
 locust --help
 ```
 
 **入门:**
 
-```
+```py
 from locust import HttpLocust, TaskSet, task
 from locust import ResponseError
 import json
@@ -71,7 +71,7 @@ class WebsiteUser(HttpLocust):
 **启动蝗虫:**
 要运行上面的代码，创建一个名为`locustfile.py`的 Python 文件，并在上面创建的文件的目录中打开终端。然后在终端写下下面的命令。
 
-```
+```py
 locust
 ```
 

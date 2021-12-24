@@ -14,7 +14,7 @@
 
 1.  **Importing Required Modules:** Import the required module using the command:
 
-    ```
+    ```py
     from pymongo import MongoClient
 
     ```
@@ -23,25 +23,25 @@
 
 2.  **创建连接:**现在我们已经导入了模块，是时候建立与 MongoDB 服务器的连接了，该服务器大概运行在端口 27017(端口号)的 localhost(主机名)上。
 
-    ```
+    ```py
     client = MongoClient(‘localhost’, 27017)
     ```
 
 3.  **访问数据库:**由于与 MongoDB 服务器的连接已经建立。我们现在可以创建或使用现有的数据库。
 
-    ```
+    ```py
     mydatabase = client.name_of_the_database
     ```
 
 4.  **访问集合:**我们现在使用以下语法从数据库中选择集合:
 
-    ```
+    ```py
     collection_name = mydatabase.name_of_collection
     ```
 
 5.  **获取索引信息:**使用函数 index_information 获取集合中所有索引的信息。
 
-    ```
+    ```py
     collection_name.index_information()
 
     ```
@@ -52,7 +52,7 @@
 
 ![python-mongodb-get-index](img/de3b0ec1ad6df8cd34327f6122d6b471.png)
 
-```
+```py
 # Python Program for demonstrating the 
 # PyMongo Cursor to Pandas DataFrame
 

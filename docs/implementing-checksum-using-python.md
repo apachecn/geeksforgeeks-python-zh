@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find the Checksum of Sent Message
 def findChecksum(SentMessage, k):
 
@@ -116,7 +116,7 @@ else:
 
 **输出:**
 
-```
+```py
 SENDER SIDE CHECKSUM:  10000101
 RECEIVER SIDE CHECKSUM:  0001001
 Receiver Checksum is not equal to 0\. Therefore,

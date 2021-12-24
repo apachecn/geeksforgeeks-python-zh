@@ -35,14 +35,14 @@ IQR 是第一和第三个四分位数之间的范围，即 Q1 和 Q3:*IQR = Q3�
 
 **步骤 1:导入必要的库。**
 
-```
+```py
 import numpy as np 
 import seaborn as sns
 ```
 
 **第二步:取数据，按升序排序。**
 
-```
+```py
 data = [6, 2, 3, 4, 5, 1, 50]
 sort_data = np.sort(data)
 sort_data
@@ -50,13 +50,13 @@ sort_data
 
 **输出:**
 
-```
+```py
 array([ 1,  2,  3,  4,  5,  6, 50])
 ```
 
 **第三步:计算 Q1、Q2、Q3、IQR。**
 
-```
+```py
 Q1 = np.percentile(data, 25, interpolation = 'midpoint') 
 Q2 = np.percentile(data, 50, interpolation = 'midpoint') 
 Q3 = np.percentile(data, 75, interpolation = 'midpoint') 
@@ -71,7 +71,7 @@ print('Interquartile range is', IQR)
 
 **输出:**
 
-```
+```py
 Q1 25 percentile of the given data is, 2.5
 Q1 50 percentile of the given data is, 4.0
 Q1 75 percentile of the given data is, 5.5
@@ -80,7 +80,7 @@ Interquartile range is 3.0
 
 **第四步:求下限和上限分别为 Q1–1.5 IQR 和 Q3 + 1.5 IQR。**
 
-```
+```py
 low_lim = Q1 - 1.5 * IQR
 up_lim = Q3 + 1.5 * IQR
 print('low_limit is', low_lim)
@@ -89,14 +89,14 @@ print('up_limit is', up_lim)
 
 **输出:**
 
-```
+```py
 low_limit is -2.0
 up_limit is 10.0
 ```
 
 **第五步:大于上限或小于下限的数据点为异常值**
 
-```
+```py
 outlier =[]
 for x in data:
     if ((x> up_lim) or (x<low_lim)):
@@ -106,13 +106,13 @@ print(' outlier in the dataset is', outlier)
 
 **输出:**
 
-```
+```py
  outlier in the dataset is [50]
 ```
 
 **第 6 步:绘制方框图，突出异常值。**
 
-```
+```py
 sns.boxplot(data)
 ```
 
@@ -120,7 +120,7 @@ sns.boxplot(data)
 
 **第七步:下面的代码也可以用来计算 IQR**
 
-```
+```py
 from scipy import stats
 IQR = stats.iqr(data, interpolation = 'midpoint')
 IQR
@@ -128,7 +128,7 @@ IQR
 
 **输出:**
 
-```
+```py
 3.0
 ```
 

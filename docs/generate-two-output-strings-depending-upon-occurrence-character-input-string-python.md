@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : str = "geeksforgeeks"
 Output : String with characters occurring once:
 "for".
@@ -27,7 +27,7 @@ String with characters occurring multiple times:
 2.  现在分离出频率为 1 和频率大于 1 的字符列表。
 3.  对两个列表中的字符进行排序以获得输出字符串。
 
-```
+```py
 # Function Generate two output strings depending upon 
 # occurrence of character in input string
 
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 String with characters occurring once:
 for
 String with characters occurring multiple times:

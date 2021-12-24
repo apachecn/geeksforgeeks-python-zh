@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: Hello World
 Output: {'H': ['Hello'], 
          'W': ['World']}
@@ -31,7 +31,7 @@ Output: {'W': ['Welcome'],
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to Create a Dictionary with Key as First
 # Character and Value as Words Starting with that Character
 
@@ -74,7 +74,7 @@ print(dictionary)
 
 ****输出:****
 
-```
+```py
 {'G': ['GeeksforGeeks'], 
  'i': ['is'], 
  'a': ['a', 'and', 'articles,'], 
@@ -96,7 +96,7 @@ print(dictionary)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to Create a Dictionary with Key as First
 # Character and Value as Words Starting with that Character
 
@@ -139,7 +139,7 @@ print(dictionary)
 
 ****输出:****
 
-```
+```py
 {'g': ['GeeksforGeeks', 'geeks.'],
  'i': ['is', 'It'],
  'a': ['a', 'and', 'articles,'], 

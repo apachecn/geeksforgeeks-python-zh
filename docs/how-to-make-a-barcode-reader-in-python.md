@@ -12,7 +12,7 @@
 
 对于安装:
 
-```
+```py
 pip install pyzbar
 ```
 
@@ -32,7 +32,7 @@ pyzbar 提供了在图像中定位条形码的 rect 方法。Rect 代表一个�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import cv2
 from pyzbar.pyzbar import decode
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 b'GeeksForGeek-112021'
 CODE128
 ```

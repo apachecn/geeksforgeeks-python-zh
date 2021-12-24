@@ -8,7 +8,7 @@
 
 开始之前，我们需要安装 **vininfo** 模块。将此代码运行到您的终端中进行安装:
 
-```
+```py
 pip install vininfo
 ```
 
@@ -16,7 +16,7 @@ pip install vininfo
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from vininfo import Vin
 
@@ -35,7 +35,7 @@ print(vin.region)
 
 **输出:**
 
-```
+```py
 India
 FordS
 Asia
@@ -45,7 +45,7 @@ Asia
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from tkinter import *
 from vininfo import Vin

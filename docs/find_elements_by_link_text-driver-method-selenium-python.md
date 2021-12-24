@@ -9,7 +9,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 driver.find_elements_by_link_text("link text")
 
 ```
@@ -17,7 +17,7 @@ driver.find_elements_by_link_text("link text")
 **示例–**
 例如，考虑一下这个页面来源:
 
-```
+```py
 <html>
  <body>
   <a href="#">Click Here</a>
@@ -27,7 +27,7 @@ driver.find_elements_by_link_text("link text")
 
 现在，在您创建了驱动程序之后，您可以使用–
 
-```
+```py
 login_form = driver.find_elements_by_link_text('Click Here')
 
 ```
@@ -37,7 +37,7 @@ login_form = driver.find_elements_by_link_text('Click Here')
 让我们尝试实际实现这个方法，并为**获取一个元素实例。让我们试着从导航栏中获取**教程**。
 创建一个名为 run.py 的文件来演示 find_elements_by_link_text 方法–**
 
-```
+```py
 # Python program to demonstrate
 # selenium
 
@@ -62,7 +62,7 @@ print(element)
 
 现在使用运行–
 
-```
+```py
 Python run.py
 ```
 

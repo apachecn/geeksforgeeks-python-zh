@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 hex(x) 
 Parameters : 
 x - an integer number (*int* object)
@@ -15,7 +15,7 @@ Returns :  Returns hexadecimal string.
 
 **错误和异常:**
 
-```
+```py
 TypeError :  Returns TypeError when anything other than
              integer type constants are passed as parameters.
 ```
@@ -24,7 +24,7 @@ TypeError :  Returns TypeError when anything other than
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # hex() function
 
@@ -40,7 +40,7 @@ print("The hexadecimal form of 3.9 is "
 
 **输出:**
 
-```
+```py
 The hexadecimal form of 23 is 0x17
 The hexadecimal form of the ascii value os 'a' is 0x61
 The hexadecimal form of 3.9 is 0x1.f333333333333p+1
@@ -50,7 +50,7 @@ The hexadecimal form of 3.9 is 0x1.f333333333333p+1
 
 ## 蟒蛇 3
 
-```
+```py
 # hex() accepts only integer values as parameters
 print("The hexadecimal form of 11.1 is "
                             + hex(11.1))
@@ -71,7 +71,7 @@ print("The hexadecimal form of 11.1 is "
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/7e1ac7e34362fd690cdb72cf294502e1.py", line 2, in 
     print("The hexadecimal form of 11.1 is "+hex(11.1))
@@ -85,7 +85,7 @@ hex()用于所有的**标准转换**。例如十六进制到十进制、十六�
 
 ## 蟒蛇 3
 
-```
+```py
 # TypeConversion from decimal with base 10
 # to hexadecimal form with base 16
 
@@ -132,7 +132,7 @@ if choice is 'c':
 
 输入变量 a)
 
-```
+```py
 Enter a number with base 10
 123
 a. Decimal to Hexadecimal 
@@ -145,7 +145,7 @@ Hexadecimal form of 123 is 7b
 
 输入变量 b)
 
-```
+```py
 Enter a number with base 10
 123456789
 a. Decimal to Hexadecimal 

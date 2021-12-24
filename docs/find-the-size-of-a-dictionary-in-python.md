@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 import sys
 
 # sample Dictionaries
@@ -26,7 +26,7 @@ print("Size of dic3: " + str(sys.getsizeof(dic3)) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of dic1: 216bytes
 Size of dic2: 216bytes
 Size of dic3: 216bytes
@@ -37,7 +37,7 @@ Size of dic3: 216bytes
 Python 还有一个内置的 __sizeof__()方法来确定对象的空间分配，而没有任何额外的垃圾值。它已在下面的示例中实现。
 **例 2:**
 
-```
+```py
 # sample Dictionaries
 dic1 = {"A": 1, "B": 2, "C": 3} 
 dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
@@ -51,7 +51,7 @@ print("Size of dic3: " + str(dic3.__sizeof__()) + "bytes")
 
 **输出:**
 
-```
+```py
 Size of dic1: 216bytes
 Size of dic2: 216bytes
 Size of dic3: 216bytes

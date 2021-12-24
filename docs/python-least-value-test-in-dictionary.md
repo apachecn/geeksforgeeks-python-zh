@@ -7,7 +7,7 @@
 **方法一:使用`all()` +字典理解**
 以上功能的组合可以用来执行以下任务。所有函数检查每个键，字典理解检查至少 K 值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Least Value test in Dictionary
 # Using all() + dictionary comprehension
@@ -31,7 +31,7 @@ print("Does all keys have atleast K value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 8, 'best': 11, 'is': 10}
 Does all keys have atleast K value ? : True
 

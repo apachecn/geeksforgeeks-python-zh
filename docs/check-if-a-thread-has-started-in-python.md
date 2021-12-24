@@ -10,7 +10,7 @@
 
 **代码#1:使用事件协调线程启动的代码。**
 
-```
+```py
 from threading import Thread, Event
 import time
 
@@ -46,7 +46,7 @@ print('countdown is running')
 
 **代码#2:实现一个周期计时器，只要计时器超时，其他线程就可以监视该计时器。**
 
-```
+```py
 import threading
 import time
 
@@ -82,7 +82,7 @@ def wait_for_tick(self):
 
 **代码#3:定时器的使用**
 
-```
+```py
 # Example use of the timer
 ptimer = PeriodicTimer(5)
 ptimer.start()
@@ -109,7 +109,7 @@ threading.Thread(target = countup, args =(5, )).start()
 
 **代码#4:涉及信号量的代码**
 
-```
+```py
 def worker(n, sema):
     # Wait to be signaled
     sema.acquire()
@@ -129,14 +129,14 @@ for n in range(nworkers):
 
 **代码#5 :**
 
-```
+```py
 sema.release()
 sema.release()
 ```
 
 **输出:**
 
-```
+```py
 Working 0
 Working 1
 ```

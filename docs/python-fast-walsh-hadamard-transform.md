@@ -9,7 +9,7 @@
 **sympy . discrete . transforms . fwht():**它可以执行**沃尔什哈达玛变换(WHT)** 。该方法使用哈达玛序列排序。
 序列自动向右填充零，因为基数-2 FWHT 要求样本点数为 2 的幂。
 
-```
+```py
 
 Parameters : 
 -> seq : [iterable] sequence on which WHT is to be applied.
@@ -21,7 +21,7 @@ Fast Walsh Hadamard Transform Transform
 
 **示例#1 :**
 
-```
+```py
 # import sympy 
 from sympy import fwht
 
@@ -38,13 +38,13 @@ print ("Transform  : ", transform)
 
 **输出:**
 
-```
+```py
 Transform  :  [646, -576, -488, 510]
 ```
 
  **例 2 :**
 
-```
+```py
 # import sympy 
 from sympy import fwht
 
@@ -58,7 +58,7 @@ print ("Transform  : ", transform)
 
 **输出:**
 
-```
+```py
 Transform  :  [93, -37, -21, 25]
 
 ```

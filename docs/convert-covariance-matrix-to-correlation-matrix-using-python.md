@@ -89,7 +89,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -106,7 +106,7 @@ dataset.head()
 
 ## 蟒蛇 3
 
-```
+```py
 data = dataset.iloc[:, :-1].values
 ```
 
@@ -114,7 +114,7 @@ data = dataset.iloc[:, :-1].values
 
 ## 蟒蛇 3
 
-```
+```py
 # calculates the covariance between x and y
 def calcCov(x, y):
 
@@ -152,7 +152,7 @@ numpy cov()输出:
 
 ## 蟒蛇 3
 
-```
+```py
 np.cov(data,rowvar=False)
 ```
 
@@ -168,7 +168,7 @@ np.cov(data,rowvar=False)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now calculating Correlation using our Covariance function (covMat())
 
 def corrMat(data):
@@ -198,7 +198,7 @@ def corrMat(data):
 
 ## 蟒蛇 3
 
-```
+```py
 np.corrcoef(data,rowvar=False)
 ```
 

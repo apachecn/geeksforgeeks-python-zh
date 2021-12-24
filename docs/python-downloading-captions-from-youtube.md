@@ -8,7 +8,7 @@ Python 提供了大量的 API 供开发人员选择。谷歌提供的每一项�
 
 **youtube _ 抄本 _api:** 该模块用于从 YouTube 视频中获取字幕/字幕。可以使用以下方式安装:
 
-```
+```py
 pip install youtube-transcript-api # for windows
 or 
 pip3 install youtube-transcript-api # for Linux and MacOs 
@@ -16,7 +16,7 @@ pip3 install youtube-transcript-api # for Linux and MacOs
 
 在开始这个过程之前，我们想解释一下如何获取 YouTube 视频的视频 id。例如，如果 YouTube 视频有以下网址
 
-```
+```py
 https://youtu.be/SW14tOda_kI
 ```
 
@@ -30,7 +30,7 @@ https://youtu.be/SW14tOda_kI
 
 ## 蟒蛇 3
 
-```
+```py
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # assigning srt variable with the list
@@ -53,7 +53,7 @@ print(srt)
 
 ## 蟒蛇 3
 
-```
+```py
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # assigning srt variable with the list of dictonaries
@@ -90,7 +90,7 @@ print(srt)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from youtube_transcript_api import YouTubeTranscriptApi
 
@@ -145,7 +145,7 @@ transcript = transcript_list.find_manually_created_transcript(['en'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from youtube_transcript_api import YouTubeTranscriptApi
 

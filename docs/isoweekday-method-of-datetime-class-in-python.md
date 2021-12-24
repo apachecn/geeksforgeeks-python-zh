@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 
@@ -59,7 +59,7 @@ print("The date", todays_date, "falls on",
 
 **输出:**
 
-```
+```py
 Today's date is : 2021-07-27
 The date 2021-07-27 falls on Tuesday
 ```
@@ -68,7 +68,7 @@ The date 2021-07-27 falls on Tuesday
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the datetime module
 import datetime
 

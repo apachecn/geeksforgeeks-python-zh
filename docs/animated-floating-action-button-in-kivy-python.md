@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 
 > 要设置小部件 x 或 y 位置的动画，只需指定小部件在动画结尾的目标 x/y 值:
 > 
-> ```
+> ```py
 > anim = Animation(x=100, y=100)
 > anim.start(widget)
 > ```
@@ -20,12 +20,12 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > **Clock:**Clock 对象允许您在将来调度函数调用；一次或以特定的时间间隔重复。
 > 使用动画和时钟时必须使用 kivy 内置模块–
 > 
-> ```
+> ```py
 > from kivy.animation import Animation
 > from kivy.clock import Clock
 > ```
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -51,7 +51,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating that
 ## How to create a button like floating Action Button
 ## in Kivy using .kv file
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 #.kv file implementation of BoxLayout
 
 # using Float Layout for the creation of Floatbutton

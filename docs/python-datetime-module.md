@@ -21,7 +21,7 @@ Python Datetime 模块提供了处理日期和时间的类。这些类提供了�
 
 ****构造函数语法:****
 
-```
+```py
 class datetime.date(year, month, day)
 ```
 
@@ -37,7 +37,7 @@ class datetime.date(year, month, day)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # demonstrate date class
 
@@ -62,11 +62,11 @@ print("Date passed as argument is", my_date)
 
 ****输出:****
 
-```
+```py
 Date passed as argument is 1996-12-11
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/ccabfb570d9bd1dcd11dc4fe55fd6ba2.py", line 14, in 
     my_date = date(1996, 12, 39)
@@ -84,7 +84,7 @@ TypeError: an integer is required (got type str)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # print current date
 
@@ -99,7 +99,7 @@ print("Today's date is", today)
 
 ****Output**
 
-```
+```py
 Today's date is 2021-08-19
 ```** 
 
@@ -109,7 +109,7 @@ Today's date is 2021-08-19
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import date
 
 # date object of today's date
@@ -122,7 +122,7 @@ print("Current day:", today.day)
 
 ****Output**
 
-```
+```py
 Current year: 2021
 Current month: 8
 Current day: 19
@@ -134,7 +134,7 @@ Current day: 19
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime
 
 # Getting Datetime from timestamp
@@ -144,7 +144,7 @@ print("Datetime from timestamp:", date_time)
 
 ****Output**
 
-```
+```py
 Datetime from timestamp: 2029-10-25 16:17:48
 ```** 
 
@@ -154,7 +154,7 @@ Datetime from timestamp: 2029-10-25 16:17:48
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import date
 
 # calling the today
@@ -169,7 +169,7 @@ print(type(Str))
 
 ****Output**
 
-```
+```py
 String Representation 2021-08-19
 <class 'str'>
 ```** 
@@ -217,7 +217,7 @@ String Representation 2021-08-19
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # demonstrate time class
 
@@ -249,7 +249,7 @@ print("\nTime without argument", my_time)
 
 ****输出:****
 
-```
+```py
 Entered time 13:24:56
 
 Time with one argument 00:12:00
@@ -257,7 +257,7 @@ Time with one argument 00:12:00
 Time without argument 00:00:00
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/95ff83138a1b3e67731e57ec6dddef25.py", line 21, in 
     print(time(hour=26))
@@ -275,7 +275,7 @@ TypeError: an integer is required (got type str)
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import time
 
 Time = time(11, 34, 56)
@@ -288,7 +288,7 @@ print("microsecond =", Time.microsecond)
 
 ****输出:****
 
-```
+```py
 hour = 11
 minute = 34
 second = 56
@@ -301,7 +301,7 @@ microsecond = 0
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import time
 
 # Creating Time object
@@ -315,7 +315,7 @@ print(type(Str))
 
 ****Output**
 
-```
+```py
 String Representation: 12:24:36.001212
 <class 'str'>
 ```** 
@@ -361,7 +361,7 @@ String Representation: 12:24:36.001212
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to
 # demonstrate datetime object
 
@@ -379,7 +379,7 @@ print(a)
 
 ****输出:****
 
-```
+```py
 1999-12-12 00:00:00
 1999-12-12 12:12:12.342380
 ```
@@ -390,7 +390,7 @@ print(a)
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime
 
 a = datetime(1999, 12, 12, 12, 12, 12)
@@ -404,7 +404,7 @@ print("timestamp =", a.timestamp())
 
 ****输出:****
 
-```
+```py
 year = 1999
 month = 12
 hour = 12
@@ -418,7 +418,7 @@ timestamp = 945000732.0
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime
 
 # Calling now() function
@@ -429,7 +429,7 @@ print("Current date and time is", today)
 
 ****输出:****
 
-```
+```py
 Current date and time is 2019-10-25 11:12:11.289834
 ```
 
@@ -439,7 +439,7 @@ Current date and time is 2019-10-25 11:12:11.289834
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime as dt
 
 # Getting current date and time
@@ -452,7 +452,7 @@ print(type(string))
 
 ****Output**
 
-```
+```py
 2021-08-19T18:13:25.346259
 <class 'str'>
 ```** 
@@ -503,7 +503,7 @@ print(type(string))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Timedelta function demonstration
 
 from datetime import datetime, timedelta
@@ -527,7 +527,7 @@ print('future_date_after_2days:', str(future_date_after_2days))
 
 ****输出:****
 
-```
+```py
 initial_date 2019-10-25 12:01:01.227848
 future_date_after_2yrs: 2021-10-24 12:01:01.227848
 future_date_after_2days: 2019-10-27 12:01:01.227848
@@ -539,7 +539,7 @@ future_date_after_2days: 2019-10-27 12:01:01.227848
 
 ## **蟒蛇 3**
 
-```
+```py
 # Timedelta function demonstration
 from datetime import datetime, timedelta
 
@@ -563,7 +563,7 @@ print('Time difference:', str(new_final_time -
 
 ****输出:****
 
-```
+```py
 initial_date 2019-10-25 12:02:32.799814
 new_final_time 2019-10-27 12:02:32.799814
 Time difference: 2 days, 0:00:00
@@ -601,7 +601,7 @@ Time difference: 2 days, 0:00:00
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate
 # strftime() function
 
@@ -630,7 +630,7 @@ print('\nExample 4:', s)
 
 ****Output**
 
-```
+```py
 Without formatting 2021-08-19 18:16:25.881661
 
 Example 1: Thursday 08 2021
@@ -652,7 +652,7 @@ Example 4: 18:16:25
 
 ## **蟒蛇 3**
 
-```
+```py
 # import datetime module from datetime
 from datetime import datetime
 
@@ -673,7 +673,7 @@ for i in time_data:
 
 ****Output**
 
-```
+```py
 1999-05-25 02:35:08.023000
 1999-05-26 12:45:00.003000
 1999-05-27 07:35:05.523000
@@ -686,7 +686,7 @@ for i in time_data:
 
 ## **蟒蛇 3**
 
-```
+```py
 from datetime import datetime
 from pytz import timezone
 
@@ -707,7 +707,7 @@ for tzone in timezones:
 
 ****Output**
 
-```
+```py
 2021-08-19 18:27:28 UTC+0000
 2021-08-19 23:57:28 IST+0530
 2021-08-19 21:27:28 EEST+0300

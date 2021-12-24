@@ -7,7 +7,7 @@
 **方法#1:使用正则表达式**
 这种问题可以使用 python 提供的正则表达式实用程序来解决。通过在`search()`中输入适当的正则表达式字符串，我们可以检查字符串中是否存在空格。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for spaces in string
 # Using regex
@@ -29,7 +29,7 @@ print("Does string contain spaces ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeks  forGeeks
 Does string contain spaces ? True
 
@@ -38,7 +38,7 @@ Does string contain spaces ? True
 **方法 2:使用`in`运算符**
 该任务也可以使用 in 运算符执行。只需要检查字符串中的空格。即使找到一个空格，返回的结果也是真的，否则就是假的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Check for spaces in string
 # Using in operator
@@ -59,7 +59,7 @@ print("Does string contain spaces ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeks  forGeeks
 Does string contain spaces ? True
 

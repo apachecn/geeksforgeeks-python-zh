@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > blur( radius, sigma )
 > ```
 > 
@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -40,7 +40,7 @@ img.write('2_a.png')
 ![](img/4bf9a4833b2eeae6890d8252c4335781.png)
 **例 2:**
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

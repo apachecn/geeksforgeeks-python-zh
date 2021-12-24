@@ -14,7 +14,7 @@
 
 因此，有了这四个要求，让我们开始编码输出模式。我假设您的系统上安装了 **python** 。要安装 **pydantic** 只需运行，
 
-```
+```py
 pip install pydantic
 ```
 
@@ -22,7 +22,7 @@ pip install pydantic
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from enum import Enum
 from typing import Optional

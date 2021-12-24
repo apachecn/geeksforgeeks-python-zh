@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adding Tuple to List and vice - versa
 # Using += operator (list + tuple)
@@ -32,7 +32,7 @@ print("The container after addition : " + str(test_list))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 7]
 The container after addition : [5, 6, 7, 9, 10]
 ```
@@ -42,7 +42,7 @@ The container after addition : [5, 6, 7, 9, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adding Tuple to List and vice - versa
 # Using tuple(), data type conversion [tuple + list]
@@ -66,7 +66,7 @@ print("The container after addition : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 7]
 The container after addition : (9, 10, 5, 6, 7)
 ```

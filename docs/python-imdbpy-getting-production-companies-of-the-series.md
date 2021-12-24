@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -38,14 +38,14 @@ print(companies)
 
 **输出:**
 
-```
+```py
 Sacred Games
 [Company id:0144901[http] name:_Netflix_, Company id:0077343[http] name:_Phantom Films_, Company id:0362371[http] name:_Phantom Films_]
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -70,7 +70,7 @@ print(companies)
 
 **输出:**
 
-```
+```py
 Money Heist
 [Company id:0445833[http] name:_Atresmedia_, Company id:0625845[http] name:_Vancouver Media_]
 ```

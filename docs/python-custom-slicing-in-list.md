@@ -7,7 +7,7 @@
 **方法:使用`compress() + cycle()`**
 以上功能的组合可以用来执行这个特定的任务。在这种情况下，我们过滤列表中所需元素的真值，并通过提供布尔值 false 来消除那些应该跳过的元素。然后使用内置的`compress()`累计结果
 
-```
+```py
 # Python3 code to demonstrate working of
 # Custom slicing in List
 # using compress() + cycle()
@@ -36,7 +36,7 @@ print("Custom sliced list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 4, 7, 3, 8, 6, 2, 10, 11, 17, 34, 23, 21]
 Custom sliced list is : [1, 2, 4, 7, 11, 17, 34, 23]
 

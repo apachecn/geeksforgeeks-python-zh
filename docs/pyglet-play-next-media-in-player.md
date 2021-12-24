@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 来创建一个窗口和玩家对象
 
-```
+```py
 # creating a window
 window = pyglet.window.Window(width, height, title)
 
@@ -23,7 +23,7 @@ player = pyglet.media.Player()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 

@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `enumerate()`**
 使用上述函数的组合可以轻松解决这个问题，字典理解可以执行构造字典的任务，枚举函数可以用来访问索引值以及元素。
 
-```
+```py
 # Python3 code to demonstrate
 # Incremental value initialization in Dictionary
 # using Dictionary comprehension + enumerate()
@@ -31,7 +31,7 @@ print("The Dictionary after index keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Nikhil', 'Akshat', 'Akash', 'Manjeet']
 The Dictionary after index keys : {'Akash': 12, 'Nikhil': 4, 'Manjeet': 16, 'Akshat': 8}
 

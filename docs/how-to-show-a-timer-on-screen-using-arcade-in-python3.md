@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import arcade
 ```
 
@@ -18,7 +18,7 @@ import arcade
 
 ## 蟒蛇 3
 
-```
+```py
 WIDTH = 800
 HEIGHT = 600
 TITLE = "Timer"
@@ -28,7 +28,7 @@ TITLE = "Timer"
 
 ## 蟒蛇 3
 
-```
+```py
 class MyTimer(arcade.Window):
 
     def setup(self):
@@ -40,7 +40,7 @@ class MyTimer(arcade.Window):
 
 ## 蟒蛇 3
 
-```
+```py
 def on_draw(self):
 
     # Start the render.
@@ -63,7 +63,7 @@ def on_draw(self):
 
 ## 蟒蛇 3
 
-```
+```py
 def on_update(self, delta_time):
     self.total_time += delta_time
 ```
@@ -72,7 +72,7 @@ def on_update(self, delta_time):
 
 ## 蟒蛇 3
 
-```
+```py
 def main():
     window = MyTimer()
     window.setup()
@@ -85,7 +85,7 @@ main()
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import arcade
 

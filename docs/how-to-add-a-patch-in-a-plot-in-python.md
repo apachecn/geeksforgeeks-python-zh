@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -43,7 +43,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.path as mpath
 import matplotlib.patches as mpatches
@@ -71,7 +71,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.path as mpath
 import matplotlib.patches as mpatches
@@ -104,7 +104,7 @@ ax.add_patch(pp3)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from matplotlib.patches import PathPatch
 from matplotlib.path import Path

@@ -20,13 +20,13 @@
 
 这里，高度和宽度以像素为单位。
 
-```
+```py
 minsize(height, width)
 ```
 
 在 Tkit 中，minsize()方法用于设置 Tkit 窗口的最小大小。使用这种方法，用户可以将窗口的初始化大小设置为其最小大小，并且仍然能够最大化和缩放窗口。
 
-```
+```py
 maxsize(height, width)
 ```
 
@@ -36,7 +36,7 @@ maxsize(height, width)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 
@@ -58,7 +58,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 

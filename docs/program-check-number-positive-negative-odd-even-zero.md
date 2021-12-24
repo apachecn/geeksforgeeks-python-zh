@@ -14,7 +14,7 @@
 
 示例:
 
-```
+```py
 Input : 10
 Output :
 Positive number
@@ -22,13 +22,13 @@ Positive number
 
 ```
 
-```
+```py
 Input : 0
 Output : 0 is Even
 
 ```
 
-```
+```py
 # Python Code to check if a number is
 # Positive, Negative, Odd, Even, Zero 
 # Using if...elif...else
@@ -47,14 +47,14 @@ else:
    print("{0} is Odd".format(num))
 ```
 
-```
+```py
 Output:
 Positive number
 10 is Even
 
 ```
 
-```
+```py
 # Python Code to check if a number is
 # Positive, Negative, Odd, Even, Zero
 # Using Nested if
@@ -74,7 +74,7 @@ else:
    print("{0} is Odd".format(num))
 ```
 
-```
+```py
 Output:
 Positive number
 20 is Even

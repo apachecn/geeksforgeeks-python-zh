@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst = [3.64, 5.2, 9.42, 9.35, 8.5, 8], K = 9.1
 Output : 9.35
 
@@ -19,7 +19,7 @@ Output : 5
 
 在这种方法中，我们使用 Python 中的`min` 方法，并应用一个键来找到每个元素与 K 的绝对差异，并返回具有最小差异的元素。
 
-```
+```py
 # Python3 program to find Closest number in a list
 
 def closest(lst, K):
@@ -34,7 +34,7 @@ print(closest(lst, K))
 
 **Output:**
 
-```
+```py
 9.35
 
 ```
@@ -43,7 +43,7 @@ print(closest(lst, K))
 
 该方法采用相同的方法，但使用 *numpy* 模块。首先，我们将给定的列表转换成一个数组。求每个元素与 K 的绝对差，从中返回最小值。
 
-```
+```py
 # Python3 program to find Closest number in a list
 import numpy as np
 def closest(lst, K):
@@ -60,7 +60,7 @@ print(closest(lst, K))
 
 **Output:**
 
-```
+```py
 9.35
 
 ```

@@ -20,14 +20,14 @@
 
 **语法:**
 
-```
+```py
 Permutations(iterator, r)
 
 ```
 
 **实施例 1:-**
 
-```
+```py
 from itertools import permutations 
 
 a = "GeEK"
@@ -43,7 +43,7 @@ for j in list(p): 
 
 **输出:-**
 
-```
+```py
 ('G', 'e', 'E', 'K')
 ('G', 'e', 'K', 'E')
 ('G', 'E', 'e', 'K')
@@ -73,7 +73,7 @@ for j in list(p): 
 
 **实施例 2:-**
 
-```
+```py
 from itertools import permutations  
 
 print ("All the permutations of the given list is:")   
@@ -90,7 +90,7 @@ print(list(permutations(range(3), 2)))  
 
 **输出:-**
 
-```
+```py
 All the permutations of the given list is:
 [(1, 'geeks'), ('geeks', 1)]
 

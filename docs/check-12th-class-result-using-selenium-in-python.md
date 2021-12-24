@@ -78,7 +78,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

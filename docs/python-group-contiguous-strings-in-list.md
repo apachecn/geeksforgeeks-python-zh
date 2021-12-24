@@ -4,7 +4,7 @@
 
 给定一个混合列表，任务是编写一个 python 程序来分组所有连续的字符串。
 
-```
+```py
 Input : test_list = [5, 6, 'g', 'f', 'g', 6, 5, 'i', 's', 8, 'be', 'st', 9]
 Output : [5, 6, ['g', 'f', 'g'], 6, 5, ['i', 's'], 8, ['be', 'st'], 9]
 Explanation : Strings are grouped to form result.
@@ -20,7 +20,7 @@ Explanation : Strings are grouped to form result.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group contiguous strings in List
 # Using isinstance() + generator + groupby()

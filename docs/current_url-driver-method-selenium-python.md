@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.current_url
 ```
 
 **示例–**
 现在可以使用 current_url 方法作为驱动程序方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.current_url
 
@@ -27,7 +27,7 @@ driver.current_url
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

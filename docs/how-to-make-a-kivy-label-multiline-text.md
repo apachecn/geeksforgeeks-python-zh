@@ -26,7 +26,7 @@ Kivy 是一个开源软件库，用于快速开发配备了新颖用户界面的
 
 ## 蟒蛇 3
 
-```
+```py
 # make sure you have installed kivy for this to work
 import kivy
 
@@ -63,7 +63,7 @@ label.run()
 
 ## 蟒蛇 3
 
-```
+```py
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label

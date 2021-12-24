@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract values of Particular Key in Nested Values
 # Using list comprehension
@@ -43,7 +43,7 @@ print("The extracted values : " + str(res)) 
 
 ****Output**
 
-```
+```py
 The original dictionary is : {'Gfg': {'a': 7, 'b': 9, 'c': 12}, 'is': {'a': 15, 'b': 19, 'c': 20}, 'best': {'a': 5, 'b': 10, 'c': 2}}
 The extracted values : [12, 20, 2]
 
@@ -55,7 +55,7 @@ The extracted values : [12, 20, 2]
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract values of Particular Key in Nested Values
 # Using list comprehension + values() + keys() 
@@ -80,7 +80,7 @@ print("The extracted values : " + str(res)) 
 
 ****Output**
 
-```
+```py
 The original dictionary is : {'Gfg': {'a': 7, 'b': 9, 'c': 12}, 'is': {'a': 15, 'b': 19, 'c': 20}, 'best': {'a': 5, 'b': 10, 'c': 2}}
 The extracted values : [12, 20, 2]
 

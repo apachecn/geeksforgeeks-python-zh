@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input: 25525511135
 Output: [“255.255.11.135”, “255.255.111.35”]
 Explanation:
@@ -24,7 +24,7 @@ address with this string.
 首先，我们将在给定的字符串中放置 3 个点，然后尝试这 3 个点的所有可能组合。
 有效性的角例:
 
-```
+```py
 For string "25011255255"
 25.011.255.255 is not valid as 011 is not valid.
 25.11.255.255 is not valid either as you are not
@@ -37,7 +37,7 @@ allowed to change the string.
 
 ## C++
 
-```
+```py
 // C++ program to generate all possible
 // valid IP addresses from given string
 #include <bits/stdc++.h>
@@ -137,7 +137,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java Program to generate all possible
 // valid IP addresses from given string
 import java.util.*;
@@ -236,7 +236,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to check valid possible IP
 
 # Function checks whether IP digits
@@ -296,7 +296,7 @@ print(convert(B))
 
 **Output**
 
-```
+```py
 255.255.11.135
 255.255.111.35
 
@@ -317,7 +317,7 @@ print(convert(B))
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java Program to generate all possible
 // valid IP addresses from given string
 import java.util.*;
@@ -448,7 +448,7 @@ class GFG
 
 **Output**
 
-```
+```py
 [255.255.11.135, 255.255.111.35]
 
 ```
@@ -462,7 +462,7 @@ class GFG
 
 ## C++
 
-```
+```py
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -507,7 +507,7 @@ int main()
 
 **Output**
 
-```
+```py
 255.255.11.135
 255.255.111.35
 

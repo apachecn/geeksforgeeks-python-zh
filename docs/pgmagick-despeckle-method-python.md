@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > emboss(radius)
 > ```
 > 
@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color
 
@@ -43,7 +43,7 @@ img.write('2_a.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from pgmagick import Image, DrawableCircle, DrawableText
 from pgmagick import Geometry, Color

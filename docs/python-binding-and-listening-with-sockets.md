@@ -12,7 +12,7 @@
 
 **例**
 
-```
+```py
 import socket
 import sys
 
@@ -56,14 +56,14 @@ print('Connected with ' + address[0] + ':' 
 
 现在我们需要服务器可以与之交互的东西。我们可以像这样对服务器进行特殊化，只是为了知道我们的服务器正在工作。在终端中键入以下命令:
 
-```
+```py
 # start the server
 $ python server.py
 ```
 
 保持上述终端打开现在打开另一个终端并键入:
 
-```
+```py
 $ telnet localhost 12345
 ```
 

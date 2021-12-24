@@ -12,13 +12,13 @@
 
 **语法:**
 
-```
+```py
 pie_chart = pygal.Pie()
 ```
 
 **例 1:**
 
-```
+```py
 # importing pygal
 import pygal
 
@@ -43,7 +43,7 @@ pie_chart
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

@@ -23,7 +23,7 @@
 
 这里是主要功能，有`get_audio()`和`assistant_speaks` 功能。`get_audio()`功能的创建是为了从使用麦克风的用户那里获取音频，短语限制设置为 5 秒(您可以更改它)。助手说话功能是根据处理后的数据提供输出。
 
-```
+```py
 # importing speech recognition package from google api
 import speech_recognition as sr 
 import playsound # to play saved mp3 file
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
 此外，`Wolframalpha api`已用于计算计算部分。
 
-```
+```py
 def process_text(input):
     try:
         if 'search' in input or 'play' in input:
@@ -169,7 +169,7 @@ def process_text(input):
 
 **open_application** 只是一个使用 *os package* 打开系统中存在的应用程序的功能。
 
-```
+```py
 def search_web(input):
 
     driver = webdriver.Firefox()
@@ -244,7 +244,7 @@ def open_application(input):
 
 下面是一些例子和输出，可以帮助你理解上面的处理是如何工作的。
 
-```
+```py
 1\. Say "Search google Geeks for Geeks"
 2\. Say "Play Youtube your favourite song"
 3\. Say "Wikipedia Dhoni"

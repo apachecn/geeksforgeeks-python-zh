@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`hashlib.shake_256()`方法，我们能够对字节字符串或密码进行加密，以使用该方法来保护它们。
 
-```
+```py
 # import hashlib
 import hashlib
 
@@ -29,7 +29,7 @@ print(gfg.digest(10))
 
 **例 2 :**
 
-```
+```py
 # import hashlib
 import hashlib
 

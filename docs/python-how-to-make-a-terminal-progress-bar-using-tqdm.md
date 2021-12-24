@@ -8,13 +8,13 @@
 
 打开命令提示符或终端，键入:
 
-```
+```py
 pip install tqdm
 ```
 
 如果您正在使用 Python3，请键入:
 
-```
+```py
 pip3 install tqdm
 ```
 
@@ -28,7 +28,7 @@ pip3 install tqdm
 
 **示例:**
 
-```
+```py
 from tqdm import tqdm
 
 for i in tqdm(range(int(9e6))):
@@ -45,13 +45,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, desc= “Text You want”)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -64,13 +64,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, total= 500)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -85,13 +85,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, disable=True)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -108,13 +108,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, ncols= 100)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -129,13 +129,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, mininterval=3)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -154,7 +154,7 @@ for i in tqdm(range(int(9e6))):
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -169,13 +169,13 @@ for i in tqdm(range(int(9e6))):
 
     **语法:**
 
-    ```
+    ```py
     tqdm (self, iterable, unit= “ ticks”)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 
@@ -189,13 +189,13 @@ for i in tqdm(range(int(9e6))):
     The initial value of the progress bar starts from 0\. If you wish to change this, you can use this parameter to initialize the progress bar from the value you wish
     **Syntax:**
 
-    ```
+    ```py
     tqdm (self, iterable, initial=50)
     ```
 
     **示例:**
 
-    ```
+    ```py
     from tqdm import tqdm
     from time import sleep
 

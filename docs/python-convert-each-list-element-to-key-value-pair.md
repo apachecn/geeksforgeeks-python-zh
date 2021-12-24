@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert each list element to key-value pair
 # Using loop + list slicing
@@ -46,7 +46,7 @@ print("Constructed Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2323, 82, 129388, 234, 95]
 Constructed Dictionary : {23: 23, 8: 2, 129: 388, 2: 34, 9: 5}
 

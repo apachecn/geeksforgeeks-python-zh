@@ -22,7 +22,7 @@ Tweepy 模块中 API 类的 **subscribe_list()** 方法用于作为认证用户�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -58,7 +58,7 @@ print("The number of subscribers after subscribe_list() method : " +
 
 **输出:**
 
-```
+```py
 The number of subscribers before subscribe_list() method : 0
 The number of subscribers after subscribe_list() method : 1
 ```
@@ -67,7 +67,7 @@ The number of subscribers after subscribe_list() method : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # the ID of the list
 list_id = 4343
 
@@ -91,7 +91,7 @@ print("The number of subscribers after subscribe_list() method : " +
 
 **输出:**
 
-```
+```py
 The number of subscribers before subscribe_list() method : 4064
 The number of subscribers after subscribe_list() method : 4065
 ```

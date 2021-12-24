@@ -30,7 +30,7 @@
 
 **第一步:加载数据集并预处理**
 
-```
+```py
 import keras
 from keras.utils.np_utils import to_categorical
 from keras.datasets import mnist
@@ -58,7 +58,7 @@ y_test = to_categorical(test_labels)
 
 **第二步:建立 CNN 模型**
 
-```
+```py
 from keras import models
 from keras import layers
 
@@ -82,14 +82,14 @@ model.summary()
 
 **第四步:用 RMSprop 优化器、分类交叉熵损失函数和准确度作为成功度量来编译模型**
 
-```
+```py
 model.compile(optimizer ="rmsprop", loss ="categorical_crossentropy",
                                              metrics =['accuracy'])
 ```
 
 **第五步:通过分割当前训练集**创建验证集和训练集
 
-```
+```py
 val_images = train_images[:10000]
 partial_images = train_images[10000:]
 val_labels = y_train[:10000]
@@ -98,7 +98,7 @@ partial_labels = y_train[10000:]
 
 **第六步:初始化早期预测回调并训练模型**
 
-```
+```py
 from keras import callbacks
 earlystopping = callbacks.EarlyStopping(monitor ="val_loss", 
                                         mode ="min", patience = 5, 

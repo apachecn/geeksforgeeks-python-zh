@@ -7,7 +7,7 @@
 **方法一:使用`urllib.urlencode()`(带元组)**
 `urlencode`函数是可以执行我们希望实现的任务的根函数。在元组的情况下，我们可以只传递元组，编码器完成字符串的其余转换。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of
 # Key-Value to URL Parameter Conversion
 # Using urllib.urlencode() ( with tuples )
@@ -29,7 +29,7 @@ print("The URL parameter string is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuples are : (('Gfg', 1), ('is', 2), ('best', 3))
 The URL parameter string is : Gfg=1&is=2&best=3
 

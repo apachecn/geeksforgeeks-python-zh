@@ -8,13 +8,13 @@
 
 1.  **导入 csv 模块**
 
-```
+```py
 import csv
 ```
 
 *   **创建域名列表**
 
-    ```
+    ```py
     field_names= ['No', 'Company', 'Car Model']
     ```
 
@@ -28,7 +28,7 @@ import csv
 
     *   **Writing content of dictionaries to CSV file**
 
-    ```
+    ```py
     with open('Names.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writeheader()
@@ -37,7 +37,7 @@ import csv
 
     **语法:**
 
-    ```
+    ```py
     DictWriter( (filename), fieldnames = [list of field names] )
     ```
 
@@ -50,7 +50,7 @@ import csv
 
     **完成在 CSV 文件中编写 python 字典的代码**
 
-    ```
+    ```py
     import csv
 
     field_names = ['No', 'Company', 'Car Model']

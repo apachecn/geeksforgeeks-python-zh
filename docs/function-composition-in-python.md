@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # Function to add 2 
 # to a number
 def add(x):
@@ -29,7 +29,7 @@ print("Adding 2 to 5 and multiplying the result with 2: ", 
 
 **输出:**
 
-```
+```py
 Adding 2 to 5 and multiplying the result with 2: 14
 
 ```
@@ -41,7 +41,7 @@ Adding 2 to 5 and multiplying the result with 2: 14
 
 有一个更好的方法来实现函数的组合。我们可以创建一个特殊的函数，它可以组合任何两个函数。
 
-```
+```py
 # Function to combine two
 # function which it accepts 
 # as argument
@@ -67,7 +67,7 @@ print("Adding 2 to 5 and multiplying the result with 2: ",
 
 **输出:**
 
-```
+```py
 Adding 2 to 5 and multiplying the result with 2: 14
 
 ```
@@ -75,7 +75,7 @@ Adding 2 to 5 and multiplying the result with 2: 14
 **组成 N 个数的函数**
 我们可以通过修改上面的方法组成任意个数的函数。
 
-```
+```py
 # Function to combine two 
 # function which it accepts
 # as argument
@@ -113,7 +113,7 @@ print("Adding 2 to 5, then subtracting 1 and multiplying the result with 2: ",
 
 现在我们将通过使用 functools 库中的 [reduce()](https://www.geeksforgeeks.org/reduce-in-python/) 函数，将我们的 composite_function 修改为一个可以组成任意数量函数的函数，而不是两个。
 
-```
+```py
 # importing reduce() from functools
 from functools import reduce
 

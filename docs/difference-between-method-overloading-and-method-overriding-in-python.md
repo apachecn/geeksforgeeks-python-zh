@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to take multiple arguments
 def add(datatype, *args):
 
@@ -42,7 +42,7 @@ add('str', 'Hi ', 'Geeks')
 
 **输出:**
 
-```
+```py
 11
 Hi Geeks
 ```
@@ -53,7 +53,7 @@ Hi Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 class A:
 
     def fun1(self):
@@ -81,7 +81,7 @@ obj.fun1()
 
 **输出:**
 
-```
+```py
 Modified feature_1 of class A by class B
 ```
 

@@ -8,7 +8,7 @@
 
 要安装此模块，请在您的终端上运行以下命令:
 
-```
+```py
 pip install pycairo
 ```
 
@@ -26,7 +26,7 @@ pip install pycairo
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -64,7 +64,7 @@ with cairo.SVGSurface("geek94.svg", 700, 700) as surface:
 
 ## 蟒蛇 3
 
-```
+```py
 import cairo
 
 # creating a SVG surface 
@@ -101,7 +101,7 @@ with cairo.SVGSurface("geek94.svg", 700, 700) as surface:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 
@@ -138,7 +138,7 @@ with cairo.SVGSurface("geek94.svg", 700, 700) as surface:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pycairo
 import cairo
 

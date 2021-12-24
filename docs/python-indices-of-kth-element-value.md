@@ -8,7 +8,7 @@
 
 这是解决这个问题的强力方法。在这种情况下，我们为索引保留一个计数器，如果我们在元组中的第 Kth 个位置找到特定的记录，就追加到列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Indices of Kth element value
 # Using loop
@@ -49,7 +49,7 @@ print("The indices of element at Kth position : " + str(res))
 
 上述功能的组合可以用来解决这个问题。在这种情况下，我们使用`enumerate()`来列举索引，其余的按照上述方法执行，但是以紧凑的方式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Indices of Kth element value
 # Using enumerate() + list comprehension

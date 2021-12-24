@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`destroy_saved_search()`** 方法用于删除已�
 
 **示例 1 :** 删除保存的搜索。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print(len(api.saved_searches()))
 
 **输出:**
 
-```
+```py
 The number of saved searches before destroy_saved_search() : 5
 The number of saved searches after destroy_saved_search() : 4
 
@@ -60,7 +60,7 @@ The number of saved searches after destroy_saved_search() : 4
 
 **示例 2 :** 删除所有保存的搜索。
 
-```
+```py
 # fetching all the saved searhces
 saved_searches = api.saved_searches()
 
@@ -77,7 +77,7 @@ print(len(api.saved_searches()))
 
 **输出:**
 
-```
+```py
 The number of saved searches before destroy_saved_search() : 4
 The number of saved searches after destroy_saved_search() : 0
 

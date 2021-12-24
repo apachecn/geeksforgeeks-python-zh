@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 root = tk.Tk()
@@ -65,7 +65,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 window = Tk()

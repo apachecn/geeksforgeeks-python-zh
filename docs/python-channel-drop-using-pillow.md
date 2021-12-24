@@ -6,14 +6,14 @@
 
 我们将使用`pillow`库来实现通道丢弃。要安装库，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 
 ```
 
 在后面的一个方法中，我们将利用 numpy 库提供的 elementwise 操作。要安装`numpy`，请在命令行中执行以下命令:
 
-```
+```py
 pip install numpy
 
 ```
@@ -22,7 +22,7 @@ pip install numpy
 
 在这个方法中，我们将使用传递给`Image.convert()`的变换矩阵作为参数。变换矩阵是:
 
-```
+```py
 newRed   = 1*oldRed  +  0*oldGreen  +  0*oldBlue  + constant
 newGreen = 0*oldRed  +  1*OldGreen  +  0*OldBlue  + constant
 newBlue  = 0*oldRed  +  0*OldGreen  +  1*OldBlue  + constant
@@ -31,7 +31,7 @@ newBlue  = 0*oldRed  +  0*OldGreen  +  1*OldBlue  + constant
 
 正常的 RGB 图像将具有如上所示的矩阵。
 
-```
+```py
 (1, 0, 0, 0,
  0, 1, 0, 0,
  0, 0, 1, 0)
@@ -46,7 +46,7 @@ newBlue  = 0*oldRed  +  0*OldGreen  +  1*OldBlue  + constant
 
 **代码:**
 
-```
+```py
 from PIL import Image
 
 # Creating a image object, of the sample image
@@ -80,7 +80,7 @@ img.show()
 
 相同的代码，但矩阵:
 
-```
+```py
 matrix = ( 0, 0, 0, 0,
            0, 0, 0, 0,
            0, 0, 1, 0)
@@ -95,7 +95,7 @@ matrix = ( 0, 0, 0, 0,
 
 与矩阵相同的代码:
 
-```
+```py
 matrix = ( 1, 0, 0, 0,
            0, 1, 0, 0,
            0, 0, 1, 0)
@@ -114,7 +114,7 @@ matrix = ( 1, 0, 0, 0,
 
 **代码:**
 
-```
+```py
 from PIL import Image
 import numpy as np
 

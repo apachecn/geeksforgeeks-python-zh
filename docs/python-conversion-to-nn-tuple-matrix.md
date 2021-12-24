@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `* operator`**
 这个问题可以使用 loop 解决。这是执行这个任务的蛮力方法。我们只是追加默认值的次数，因为数据在一行中比 n 少
 
-```
+```py
 # Python3 code to demonstrate working of
 # Conversion to N * N tuple matrix 
 # using loop + * operator
@@ -33,7 +33,7 @@ print("Tuple after filling values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple is : ((5, 4), (3, ), (1, 5, 6, 7), (2, 4, 5))
 Tuple after filling values : [(5, 4, 0, 0), (3, 0, 0, 0), (1, 5, 6, 7), (2, 4, 5, 0)]
 

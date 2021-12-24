@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # take input from user
 input_a = input()
 
@@ -26,7 +26,7 @@ print(type(input_a))
 
 **输出:**
 
-```
+```py
 100
 <class 'str'>
 <class 'int'>
@@ -37,7 +37,7 @@ print(type(input_a))
 
 ## 蟒蛇 3
 
-```
+```py
 # string input
 input_a = input()
 
@@ -53,7 +53,7 @@ print(type(input_b))
 
 **输出:**
 
-```
+```py
 10
 <class 'str'>
 20
@@ -65,7 +65,7 @@ print(type(input_b))
 
 ## 蟒蛇 3
 
-```
+```py
 # take multiple inputs in array
 input_str_array = input().split()
 
@@ -79,7 +79,7 @@ print("array:", input_int_array)
 
 **输出:**
 
-```
+```py
 10 20 30 40 50 60 70
 array: ['10', '20', '30', '40', '50', '60', '70']
 10 20 30 40 50 60 70

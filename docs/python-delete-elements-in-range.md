@@ -7,7 +7,7 @@
 **方法#1:使用 del + `sorted()`**
 在该方法中，我们将想要删除的索引列表反向，并以反向的方式在原始列表中删除它们，这样列表的重新排列不会破坏解决方案的完整性。
 
-```
+```py
 # Python3 code to demonstrate
 # range deletion of elements 
 # using del + sorted()
@@ -35,7 +35,7 @@ print ("The modified deleted list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : [3, 5, 6, 7, 2, 10]
 The indices list is : [1, 4, 2]
 The modified deleted list is : [3, 7, 10]
@@ -45,7 +45,7 @@ The modified deleted list is : [3, 7, 10]
 **方法 2:使用`enumerate()` +列表理解**
 如果我们制作一个删除列表中不会有元素的列表，也可以执行这个任务，即不是实际删除元素，而是不用元素就可以重新制作。
 
-```
+```py
 # Python3 code to demonstrate
 # range deletion of elements 
 # using enumerate() + list comprehension
@@ -73,7 +73,7 @@ print ("The modified deleted list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : [3, 5, 6, 7, 2, 10]
 The indices list is : [1, 4, 2]
 The modified deleted list is : [3, 7, 10]

@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`blocks_ids()`** 方法用于获取被认证用户
 
 **示例 1 :** 使用`blocks_ids()`方法查找被认证用户阻止的用户数量。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -46,13 +46,13 @@ print(len(blocked_users))
 
 **输出:**
 
-```
+```py
 63
 ```
 
 **示例 2 :** 使用`blocks_ids()`方法查找被认证用户阻止的所有用户的用户标识。
 
-```
+```py
 # getting the blocked users
 blocked_users = api.blocks_ids()
 
@@ -63,7 +63,7 @@ for IDs in blocked_users:
 
 **输出:**
 
-```
+```py
 28406270
 292558545
 705807268835672064

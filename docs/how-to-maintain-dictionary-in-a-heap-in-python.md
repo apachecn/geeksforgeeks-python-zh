@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import heapq as hq
 
@@ -65,7 +65,7 @@ print("Dictionary as heap :", di)
 
 **Output**
 
-```
+```py
 dictionary into list : [(11, 121), (2, 4), (5, 25), (3, 9)]
 Heapified list of tuples : [(2, 4), (3, 9), (5, 25), (11, 121)]
 Dictionary as heap : {2: 4, 3: 9, 5: 25, 11: 121}
@@ -77,7 +77,7 @@ Dictionary as heap : {2: 4, 3: 9, 5: 25, 11: 121}
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import heapq as hq
 
@@ -120,7 +120,7 @@ print("Dictionary as heap :", di)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import heapq as hq
 
@@ -157,7 +157,7 @@ print("Final dictionary :",new_dict)
 
 **Output**
 
-```
+```py
 Values of the dict after heapification : [4, 9, 25, 121]
 Final dictionary : {2: 4, 3: 9, 5: 25, 11: 121}
 ```

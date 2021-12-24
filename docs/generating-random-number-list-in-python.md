@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to generate random number list
 # using list comprehension + randrange()
@@ -26,7 +26,7 @@ print ("Random number list is : " +  str(res))
 
 **Output**
 
-```
+```py
 Random number list is : [30, 48, 14, 33, 1, 4, 18]
 
 ```

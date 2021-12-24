@@ -6,7 +6,7 @@
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python program to copy a nested list
 
 # List initialization
@@ -29,7 +29,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Initial list is:
 [[0, 1, 2], [3, 4, 5]]
 New assigned list is

@@ -12,7 +12,7 @@ Cron 作业实用程序是类 Unix 操作系统中基于时间的作业调度程
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 
@@ -28,13 +28,13 @@ if __name__ == '__main__':
 
 **注意:** #！/usr/bin/pyt 3(指定脚本解释器的路径)对于使脚本可执行是必要的。假设我们已经在主目录下将这个脚本保存为 my_script.py，我们可以通过在终端中输入以下命令来使它可执行:
 
-```
+```py
 $ sudo chmod +x my_script.py
 ```
 
 **我们可以测试我们的脚本是否正常工作:**
 
-```
+```py
 ./my_script.py
 ```
 
@@ -48,13 +48,13 @@ $ sudo chmod +x my_script.py
 
 为了调度要执行的脚本，我们需要在 crontab 文件中输入 crontab 调度表达式。为此，只需在终端中输入以下内容:
 
-```
+```py
 crontab -e
 ```
 
 系统可能会提示您选择一个编辑器，选择 nano，并在打开的 crontab 文件末尾添加以下行:
 
-```
+```py
 * */2 * * * /home/$(USER)/my_script.py
 ```
 
@@ -66,7 +66,7 @@ crontab -e
 
 它将列出所有计划的作业。
 
-```
+```py
 crontab -l
 ```
 

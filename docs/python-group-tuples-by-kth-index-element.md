@@ -13,7 +13,7 @@
 **方法:使用`groupby() + itemegetter()` +生成器表达式**
 以上功能的组合可以解决这个问题。在这种情况下，我们执行对使用 itemgetter 提取的 Kth 索引中的元素进行分组的任务，生成器表达式用于将整个逻辑绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Tuples by Kth Index Element
 # Using groupby() + itemegetter() + generator expression
@@ -40,7 +40,7 @@ print("Tuples after grouping : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (3, 2), (2, 2), (1, 2), (5, 5)]
 Tuples after grouping : [((1, 2), (2, 2), (3, 2)), ((4, 5), (5, 5))]
 

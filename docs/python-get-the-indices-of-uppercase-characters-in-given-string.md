@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Indices
 # Using list comprehension + range() + isupper()
@@ -38,7 +38,7 @@ print("Uppercase elements indices : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : GeeKsFoRGEEks
 Uppercase elements indices : [0, 3, 5, 7, 8, 9, 10]
 
@@ -50,7 +50,7 @@ Uppercase elements indices : [0, 3, 5, 7, 8, 9, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Indices
 # Using enumerate() + isupper()
@@ -71,7 +71,7 @@ print("Uppercase elements indices : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : GeeKsFoRGEEks
 Uppercase elements indices : [0, 3, 5, 7, 8, 9, 10]
 

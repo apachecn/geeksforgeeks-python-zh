@@ -20,7 +20,7 @@ degress()和 radians()是 Python 3 和 Python 2 中数学模块中指定的方�
 
 **代码#1 :** 演示弧度()
 
-```
+```py
 # Python code to demonstrate
 # working of radians()
 
@@ -40,7 +40,7 @@ print (math.radians(1))
 
 输出:
 
-```
+```py
 180/pi Degrees is equal to Radians : 1.0
 180 Degrees is equal to Radians : 3.141592653589793
 1 Degrees is equal to Radians : 0.017453292519943295
@@ -61,7 +61,7 @@ print (math.radians(1))
 
 **代码#2 :** 演示度()
 
-```
+```py
 # Python code to demonstrate
 # working of degrees()
 
@@ -81,7 +81,7 @@ print (math.degrees(1))
 
 输出:
 
-```
+```py
 pi/180 Radians is equal to Degrees : 1.0
 180 Radians is equal to Degrees : 10313.240312354817
 1 Radians is equal to Degrees : 57.29577951308232

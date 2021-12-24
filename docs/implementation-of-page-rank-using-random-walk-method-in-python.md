@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import random
 import numpy as np
@@ -90,7 +90,7 @@ for i in p_sort:
 
 **输出:**
 
-```
+```py
 PageRank using Random Walk Method
 [ 9 10  4  6  3  8 13 14  0  7  1  2  5 12 11]
 PageRank using inbuilt pagerank method

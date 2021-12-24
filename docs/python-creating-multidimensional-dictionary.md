@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Creating Multidimensional dictionary
 # Using setdefault()
@@ -30,7 +30,7 @@ print("Dictionary after nesting : " + str(test_dict))
 
 **Output : **
 
-```
+```py
 The original dictionary : {}
 Dictionary after nesting : {1: {4: 7}}
 ```
@@ -40,7 +40,7 @@ Dictionary after nesting : {1: {4: 7}}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Creating Multidimensional dictionary
 # Using defaultdict()
@@ -71,7 +71,7 @@ print("Dictionary after nesting : " + str(dict(test_dict)))
 
 **Output : **
 
-```
+```py
 The original dictionary : {}
 Dictionary after nesting : {2: defaultdict(<function multi_dict.<locals>.<lambda> at 0x7f8707a54158>, {3: defaultdict(<class 'int'>, {4: 1})})}
 ```

@@ -8,7 +8,7 @@ Python 支持一种类似于[字典](https://www.geeksforgeeks.org/python-set-4-
 
 ## 蟒 3
 
-```
+```py
 # Python code to demonstrate namedtuple()
 
 from collections import namedtuple
@@ -30,7 +30,7 @@ print(S.name)
 
 **输出:**
 
-```
+```py
 The Student age using index is : 19
 The Student name using keyname is : Nandini
 ```
@@ -45,7 +45,7 @@ The Student name using keyname is : Nandini
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate namedtuple() and
 # Access by name, index and getattr()
 
@@ -73,7 +73,7 @@ print(getattr(S, 'DOB'))
 
 **输出:**
 
-```
+```py
 The Student age using index is : 19
 The Student name using keyname is : Nandini
 The Student DOB using getattr() is : 2541997
@@ -87,7 +87,7 @@ The Student DOB using getattr() is : 2541997
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate namedtuple() and
 # _make(), _asdict() and "**" operator
 
@@ -122,7 +122,7 @@ print(Student(**di))
 
 ****输出:****
 
-```
+```py
 The namedtuple instance using iterable is  : 
 Student(name='Manjeet', age='19', DOB='411997')
 The OrderedDict instance using namedtuple is  : 
@@ -138,7 +138,7 @@ Student(name='Nikhil', age=19, DOB='1391997')
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate namedtuple() and
 # _fields and _replace()
 
@@ -164,7 +164,7 @@ print(S)
 
 ****输出:****
 
-```
+```py
 All the fields of students are : 
 ('name', 'age', 'DOB')
 The modified namedtuple is : 

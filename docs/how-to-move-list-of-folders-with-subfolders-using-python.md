@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import shutil module
 import shutil
 
@@ -82,7 +82,7 @@ print(os.listdir(base_path))
 
 ## 蟒蛇 3
 
-```
+```py
 # import shutil module
 import shutil
 

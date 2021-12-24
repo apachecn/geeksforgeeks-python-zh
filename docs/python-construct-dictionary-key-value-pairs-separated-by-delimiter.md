@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Contruct dictionary Key-Value pairs separated by delim
 # Using split() + loop
@@ -46,7 +46,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg$3, is$9, best$10
 The constructed dictionary : {'gfg': '3', 'is': '9', 'best': '10'}
 ```
@@ -57,7 +57,7 @@ The constructed dictionary : {'gfg': '3', 'is': '9', 'best': '10'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Contruct dictionary Key-Value pairs separated by delim
 # Using split() + dictionary comprehension
@@ -83,7 +83,7 @@ print("The constructed dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg$3, is$9, best$10
 The constructed dictionary : {'gfg': '3', 'is': '9', 'best': '10'}
 ```

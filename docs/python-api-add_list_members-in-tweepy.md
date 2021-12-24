@@ -25,7 +25,7 @@ Tweepy 模块中`API`类的 **`add_list_members()`** 方法用于向指定列表
 
 **示例 1 :** 使用`add_list_members()`方法向列表中添加单个成员。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -62,7 +62,7 @@ print("Number of members after add_list_member() is used : " +
 
 **输出:**
 
-```
+```py
 Number of members after add_list_members() is used : 0
 Number of members after add_list_members() is used : 1
 
@@ -70,7 +70,7 @@ Number of members after add_list_members() is used : 1
 
 **示例 2 :** 使用`add_list_members()`方法向列表中添加多个成员。
 
-```
+```py
 # the ID of the non-existent list
 list_id = 
 
@@ -90,7 +90,7 @@ print("Number of members after add_list_member() is used : " +
 
 **输出:**
 
-```
+```py
 Number of members before add_list_members() is used : 0
 Number of members after add_list_members() is used : 4
 

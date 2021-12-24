@@ -22,7 +22,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to demonstrate working of formatyearpage() method
 
 # importing calendar module
@@ -39,7 +39,7 @@ print(text_cal.formatyearpage(year))
 
 **输出:**
 
-```
+```py
 b'
 <?xml version="1.0" encoding="utf-8"?>\n
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n
@@ -835,7 +835,7 @@ b'
 
 **代码#2:** 宽度给定 5
 
-```
+```py
 # Python program to demonstrate working of formatyearpage() method
 
 # importing calendar module
@@ -851,7 +851,7 @@ print(text_cal.formatyearpage(2018, 5, encoding = None))
 
 **输出:**
 
-```
+```py
 b'
 <?xml version="1.0" encoding="utf-8"?>\n
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

@@ -30,7 +30,7 @@
 
 *下面的代码说明了如何使用 GridSearchCV*
 
-```
+```py
 # Necessary imports
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
@@ -63,7 +63,7 @@ print("Best score is {}".format(logreg_cv.best_score_))
 随机化搜索 CV 解决了 GridSearchCV 的缺点，因为它只通过固定数量的超参数设置。它以随机方式在网格中移动，以找到最佳超参数集。这种方法减少了不必要的计算。
  *以下代码说明了如何使用随机化搜索 CV*
 
-```
+```py
 # Necessary imports
 from scipy.stats import randint
 from sklearn.tree import DecisionTreeClassifier

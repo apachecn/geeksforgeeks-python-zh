@@ -18,7 +18,7 @@ Tweepy 模块中`API`类的 **`geo_id()`** 方法用于通过其推特 ID 获取
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print("Country : " + location.country)
 
 **输出:**
 
-```
+```py
 Place Type : city
 Name : London
 Full Name : London, England
@@ -62,7 +62,7 @@ Country : United Kingdom
 
 **例 2 :** 给出无效 id 时引发异常。
 
-```
+```py
 # invalid ID
 id = "xyz"
 
@@ -72,7 +72,7 @@ location = api.geo_id(id)
 
 **输出:**
 
-```
+```py
     raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'message': 'Sorry, that page does not exist', 'code': 34}]
 

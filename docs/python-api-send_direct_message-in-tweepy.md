@@ -21,7 +21,7 @@ Tweepy 模块中`API`类的 **`send_direct_message()`** 方法用于作为认证
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -55,7 +55,7 @@ print(direct_message.message_create['message_data']['text'])
 
 **输出:**
 
-```
+```py
 This is a Direct Message.
 
 ```
@@ -63,7 +63,7 @@ This is a Direct Message.
 **示例 2 :** 发送带有以下媒体附件的直接消息:
 ![](img/63ac17ed0ded2daedad1649abd6f7deb.png)
 
-```
+```py
 # ID of the recipient
 recipient_id = 
 

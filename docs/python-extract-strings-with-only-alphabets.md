@@ -7,7 +7,7 @@
 **方法一:使用`isalpha()` +列表理解**
 以上功能的组合可以用来执行此任务。在本文中，我们只使用 isalpha()提取字母字符串，并使用列表理解编译整个逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Alphabet only Strings
 # Using isalpha() + list comprehension
@@ -28,7 +28,7 @@ print("Strings after filtering : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is23', 'best', 'for2', 'geeks']
 Strings after filtering : ['gfg', 'best', 'geeks']
 

@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # These are the imports to be made
 import time
 from selenium import webdriver
@@ -41,7 +41,7 @@ from datetime import datetime
 
 ## 蟒蛇 3
 
-```
+```py
 # path of the chromedriver we have just downloaded
 PATH = r"D:\chromedriver"
 driver = webdriver.Chrome(PATH)  # to open the browser
@@ -69,7 +69,7 @@ driver.get(url)  
 
 ## 蟒蛇 3
 
-```
+```py
 # Xpath you just copied
 news_path = '/html/body/c-wiz/div/div[2]/div[2]/\
 div/main/c-wiz/div[1]/div[3]/div/div/article/h3/a'
@@ -105,7 +105,7 @@ print(link.text)  
 
 ## 蟒蛇 3
 
-```
+```py
 # I have used f-strings to format the string
 c = 1
 for x in range(3, 9):
@@ -127,7 +127,7 @@ for x in range(3, 9):
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 from selenium import webdriver
 from datetime import datetime
@@ -184,7 +184,7 @@ while(True):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -194,7 +194,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 url = 'https://finance.yahoo.com/cryptocurrencies/'
 response = requests.get(url)
 text = response.text
@@ -205,7 +205,7 @@ data = BeautifulSoup(text, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 # since, headings are the first row of the table
 headings = data.find_all('tr')[0]
 headings_list = []  # list to store all headings
@@ -228,7 +228,7 @@ for column in headings_list:
 
 ## 蟒蛇 3
 
-```
+```py
 # since we need only first five coins
 for x in range(1, 6):
     table = data.find_all('tr')[x]
@@ -247,7 +247,7 @@ for x in range(1, 6):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -303,7 +303,7 @@ while(True):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -354,7 +354,7 @@ while(True):
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from threading import Thread
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom elements repetition
 # Using  loop + extend()
@@ -44,7 +44,7 @@ print("The repeated list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['Gfg', 'is', 'Best']
 The original list 2 : [4, 3, 5]
 The repeated list : ['Gfg', 'Gfg', 'Gfg', 'Gfg', 'is', 'is', 'is', 'Best', 'Best', 'Best', 'Best', 'Best']
@@ -57,7 +57,7 @@ The repeated list : ['Gfg', 'Gfg', 'Gfg', 'Gfg', 'is', 'is', 'is', 'Best', 'Best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom elements repetition
 # Using  loop + zip()
@@ -81,7 +81,7 @@ print("The repeated list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['Gfg', 'is', 'Best']
 The original list 2 : [4, 3, 5]
 The repeated list : ['Gfg', 'Gfg', 'Gfg', 'Gfg', 'is', 'is', 'is', 'Best', 'Best', 'Best', 'Best', 'Best']

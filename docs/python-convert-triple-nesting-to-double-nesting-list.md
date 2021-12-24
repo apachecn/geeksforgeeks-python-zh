@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个任务可以使用列表理解的技巧来执行。在这种情况下，可以只取三重嵌套列表的初始元素，然后将其解包为双重嵌套列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Triple nesting to Double nesting list
 # using list comprehension
@@ -28,7 +28,7 @@ print("Double nested list from triple nested : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[[1, 4, 6]], [[8, 9, 10, 7]]]
 Double nested list from triple nested : [[1, 4, 6], [8, 9, 10, 7]]
 

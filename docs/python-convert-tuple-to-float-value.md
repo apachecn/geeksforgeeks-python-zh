@@ -8,7 +8,7 @@
 
 上述功能的结合可以解决这个问题。在这种情况下，我们首先将元组元素转换为字符串，然后将它们连接起来并转换为所需的整数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple to float
 # using join() + float() + str() + generator expression
@@ -29,7 +29,7 @@ print("The float after conversion from tuple is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original tuple : (4, 56)
 The float after conversion from tuple is : 4.56
 

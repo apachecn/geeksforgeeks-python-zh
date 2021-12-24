@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 list_name.append(element)
 ```
 
@@ -22,7 +22,7 @@ list_name.append(element)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to demonstrate
 # working of append function
 
@@ -39,7 +39,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ```
 
@@ -49,7 +49,7 @@ print(l)
 
 **语法:**
 
-```
+```py
 list_name(index,element)
 ```
 
@@ -59,7 +59,7 @@ list_name(index,element)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to demonstrate
 # working of insert function
 
@@ -75,7 +75,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ```
 
@@ -85,7 +85,7 @@ print(l)
 
 **语法:**
 
-```
+```py
 list_name.extend(iterable)
 ```
 
@@ -93,7 +93,7 @@ list_name.extend(iterable)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to demonstrate
 # working of extend function
 
@@ -109,7 +109,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 ['hello', 'welcome', 'to', 'geeks', 'for', 'geeks']
 ```
 
@@ -130,7 +130,7 @@ print(l)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # comparison between the three methods
 
@@ -154,7 +154,7 @@ print(list_3)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, [2, 3]]
 [1, 2, 3, [2, 3]]
 [1, 2, 3, 2, 3]

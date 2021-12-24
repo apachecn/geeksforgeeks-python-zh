@@ -17,7 +17,7 @@
 
 **代码#1:创建 kappa4 连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import kappa4  
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D50D62C8
 
@@ -39,7 +39,7 @@ RV :
 
  **代码#2:强森 SU 连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -50,7 +50,7 @@ print ("Random Variates : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.62293659 0.62825781 0.62377628 0.62308697 0.62665555 0.62802109
  0.62872844 0.62728058 0.62679381 0.62297679]
@@ -59,7 +59,7 @@ Random Variates :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -71,7 +71,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -89,7 +89,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

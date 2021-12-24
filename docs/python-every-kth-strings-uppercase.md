@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Every Kth Strings Uppercase
 # Using loop + upper()
@@ -47,7 +47,7 @@ print("The resultant String list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks', 'and', 'CS']
 The resultant String list : ['GFG', 'is', 'best', 'FOR', 'geeks', 'and', 'CS']
 
@@ -59,7 +59,7 @@ The resultant String list : ['GFG', 'is', 'best', 'FOR', 'geeks', 'and', 'CS']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Every Kth Strings Uppercase
 # Using list comprehension
@@ -83,7 +83,7 @@ print("The resultant String list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks', 'and', 'CS']
 The resultant String list : ['GFG', 'is', 'best', 'FOR', 'geeks', 'and', 'CS']
 

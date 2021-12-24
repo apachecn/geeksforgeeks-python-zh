@@ -6,7 +6,7 @@
 
 **节目 1:**
 
-```
+```py
 r = lambda q: q * 2
 s = lambda q: q * 3
 x = 2
@@ -18,7 +18,7 @@ print (x)
 
 **输出:**
 
-```
+```py
 24
 
 ```
@@ -27,7 +27,7 @@ print (x)
 
 **节目 2:**
 
-```
+```py
 a = 4.5
 b = 2
 print (a//b)
@@ -35,7 +35,7 @@ print (a//b)
 
 **输出:**
 
-```
+```py
 2.0
 ```
 
@@ -43,7 +43,7 @@ print (a//b)
 
 **节目 3:**
 
-```
+```py
 a = True
 b = False
 c = False
@@ -56,7 +56,7 @@ else:
 
 **输出:**
 
-```
+```py
 GEEKSFORGEEKS
 ```
 
@@ -64,7 +64,7 @@ GEEKSFORGEEKS
 
 **节目 4:**
 
-```
+```py
 a = True
 b = False
 c = False
@@ -81,7 +81,7 @@ else:
 
 **输出:**
 
-```
+```py
 3
 
 ```
@@ -90,7 +90,7 @@ else:
 
 **节目 5:**
 
-```
+```py
 count = 1 
 
 def doThis():
@@ -107,7 +107,7 @@ print (count)
 
 **输出:**
 
-```
+```py
  4 
 ```
 

@@ -32,7 +32,7 @@
 让我们用 Python 对整个过程进行编码。我们将使用 Numpy 库来帮助我们轻松地进行矩阵的所有计算。你需要在你的系统上安装一个 numpy 库来运行代码
 **命令来安装 numpy:**
 
-```
+```py
  sudo apt -get install python-numpy
 ```
 
@@ -40,7 +40,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from joblib.numpy_pickle_utils import xrange
 from numpy import *
 

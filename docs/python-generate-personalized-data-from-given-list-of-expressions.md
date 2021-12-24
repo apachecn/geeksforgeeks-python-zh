@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input :lists of your own expressions 
 Names   = ['David', 'Emilia', 'John', 'Karmen'], 
 Hobbies = ['Hiking', 'football', 'Gaming', 'Skydiving'],
@@ -34,7 +34,7 @@ Emilia, 65, "['football', 'Hiking']", leadership
 
 **代码:**生成个性化数据
 
-```
+```py
 # importing libraries
 import csv
 import random

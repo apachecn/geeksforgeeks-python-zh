@@ -18,7 +18,7 @@
 
 存在感百分比可以通过以下公式简单计算:
 
-```
+```py
 Frequency of the element present in the list/ total no. of elements in the list
 ```
 
@@ -28,7 +28,7 @@ Frequency of the element present in the list/ total no. of elements in the list
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element frequencies in percent range
 # Using Counter() + set() + loop + len()
@@ -59,7 +59,7 @@ print("Elements within range of frequencies : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 6, 2, 4, 6, 7, 8, 4, 9, 1, 4, 6, 7, 8]
 Elements within range of frequencies : [6, 7, 8]
 ```
@@ -69,7 +69,7 @@ Elements within range of frequencies : [6, 7, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Element frequencies in percent range
 # Using Counter() + loop + len()
@@ -101,7 +101,7 @@ print("Elements within range of frequencies : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 6, 2, 4, 6, 7, 8, 4, 9, 1, 4, 6, 7, 8]
 Elements within range of frequencies : [6, 7, 8]
 ```

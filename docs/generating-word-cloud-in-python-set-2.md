@@ -6,7 +6,7 @@
 单词云是一种数据可视化技术，用于表示文本数据，其中每个单词的大小表示其频率或重要性。使用词云可以突出显示重要的文本数据点。Word clouds 被广泛用于分析来自社交网络网站的数据。
 为了在 Python 中生成单词云，需要的模块有–matplotlib、pandas 和单词云。要安装这些软件包，请运行以下命令:
 
-```
+```py
 pip install matplotlib
 pip install pandas
 pip install wordcloud
@@ -18,7 +18,7 @@ pip install wordcloud
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the necessary modules
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt

@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```py
 import pymongo 
 
 # establishing connection 
@@ -37,7 +37,7 @@ for x in col.find({}, {"_id":0, "coursename": 1, "price": 1 }): 
 
 **例 2:**
 
-```
+```py
 import pymongo 
 
 # establishing connection 

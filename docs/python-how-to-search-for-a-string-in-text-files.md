@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 string1 = 'coding'
 
 # opening a text file
@@ -71,7 +71,7 @@ file1.close() 
 
 ## 蟒蛇 3
 
-```
+```py
 string1 = 'portal'
 
 # opening a text file

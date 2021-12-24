@@ -10,7 +10,7 @@
 
 ### Python ascii()函数示例
 
-```
+```py
 Input : ascii("¥")
 Output : '\xa5'
 
@@ -29,7 +29,7 @@ Output : '\xcb'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate ascii()
 str = "G ë ê k s f ? r G ? e k s"
 print (ascii(str))
@@ -37,7 +37,7 @@ print (ascii(str))
 
 **输出:**
 
-```
+```py
 'G \xeb \xea k s f ? r G ? e k s'
 ```
 
@@ -47,7 +47,7 @@ print (ascii(str))
 
 ## 蟒蛇 3
 
-```
+```py
 str = '''Geeks
 for
 geeks'''
@@ -56,7 +56,7 @@ print(ascii(str))
 
 **输出:**
 
-```
+```py
 'Geeks\nfor\ngeeks'
 ```
 
@@ -66,7 +66,7 @@ print(ascii(str))
 
 ## 蟒蛇 3
 
-```
+```py
 str = '''Geeks
 for
 geeks'''
@@ -76,7 +76,7 @@ print("Display with print function : ",str)
 
 **输出:**
 
-```
+```py
 Display with ascii function :  'Geeks\nfor\ngeeks'
 Display with print function :  Geeks
 for

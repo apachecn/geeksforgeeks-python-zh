@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Concatenate Dynamic Frequency
 # Using defaultdict() + "+" operator + str()
@@ -44,7 +44,7 @@ print("Dynamic Frequency list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['z', 'z', 'e', 'f', 'f', 'e', 'f', 'z', 'c']
 Dynamic Frequency list : ['1z', '2z', '1e', '1f', '2f', '2e', '3f', '3z', '1c']
 

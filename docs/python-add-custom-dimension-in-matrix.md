@@ -17,7 +17,7 @@
 **方法一:使用`zip()` +列表理解+“+”运算符**
 以上功能的组合可以解决这个问题。在本例中，我们使用+运算符添加一个元素，并使用 zip()将该逻辑扩展到 Matrix 的每一行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add custom dimension in Matrix
 # Using zip() + list comprehension + "+" operator
@@ -41,7 +41,7 @@ print("The result after adding dimension : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6), (1, 2), (7, 8), (9, 12)]
 The result after adding dimension : [(5, 6, 4), (1, 2, 5), (7, 8, 7), (9, 12, 3)]
 
@@ -50,7 +50,7 @@ The result after adding dimension : [(5, 6, 4), (1, 2, 5), (7, 8, 7), (9, 12, 3)
 **方法 2:使用`zip() + * operator`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用解包操作符执行 joinig 的任务来解包值，然后执行自定义值的 join。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Add custom dimension in Matrix
 # Using zip() + * operator
@@ -74,7 +74,7 @@ print("The result after adding dimension : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6), (1, 2), (7, 8), (9, 12)]
 The result after adding dimension : [(5, 6, 4), (1, 2, 5), (7, 8, 7), (9, 12, 3)]
 

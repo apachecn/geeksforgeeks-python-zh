@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 {(tuple1):value,(tuple2):value,.........,(tuple3):value}
 ```
 
@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # tuple of favourite food as key
 # value is name of student
 data = {("chapathi", "roti"): 'Bobby', 
@@ -32,7 +32,7 @@ data
 
 **输出:**
 
-```
+```py
 {('Paraota', 'Idly', 'Dosa'): 'ojaswi', ('chapathi', 'roti'): 'Bobby'}
 ```
 
@@ -42,7 +42,7 @@ data
 
 **语法:**
 
-```
+```py
 {key:(tuple),key :(tuple2).........,key:(tuple)}
 ```
 
@@ -52,7 +52,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # tuple of favourite food as value
 # key is name of student
 data = {'Bobby': ("chapathi", "roti"), 
@@ -64,7 +64,7 @@ data
 
 **输出:**
 
-```
+```py
 {'Bobby': ('chapathi', 'roti'), 'ojaswi': ('Paraota', 'Idly', 'Dosa')}
 ```
 
@@ -74,7 +74,7 @@ data
 
 **语法:**
 
-```
+```py
 dict((value, key) for key,value in nested_tuple)
 ```
 
@@ -82,7 +82,7 @@ dict((value, key) for key,value in nested_tuple)
 
 ## 蟒蛇 3
 
-```
+```py
 # one value is age of student
 # second value is student name
 data = ((24, "bobby"), (21, "ojsawi"))
@@ -96,6 +96,6 @@ print(final)
 
 **输出:**
 
-```
+```py
 {'bobby': 24, 'ojsawi': 21}
 ```

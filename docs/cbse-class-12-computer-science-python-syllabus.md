@@ -21,7 +21,7 @@ CLASS-XII(代码 083)
 
 **3。标记的分布**
 
-```
+```py
 UnitNo.  Unit Name                            Marks
 1\. Programming and Computational Thinking–2    30
 2\. Computer Networks                           15

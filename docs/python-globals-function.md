@@ -9,7 +9,7 @@
 
 不与任何类或函数相关联的函数、变量存储在全局范围内。
 
-```
+```py
 Syntax: globals()
 
 Parameters: No parameters required.
@@ -17,7 +17,7 @@ Parameters: No parameters required.
 
 **代码#1:**
 
-```
+```py
 # Python3 program to demonstrate global() function
 
 # global variable
@@ -37,14 +37,14 @@ func()
 
 **输出:**
 
-```
+```py
 15
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python3 program to demonstrate global() function
 
 # global variable
@@ -59,7 +59,7 @@ print('After modification:', name)
 
 **输出:**
 
-```
+```py
 Before modification: gautam
 After modification: gautam karakoti
 

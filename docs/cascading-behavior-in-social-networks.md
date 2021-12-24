@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # cascade pay off
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -126,7 +126,7 @@ Calculate(G)
 
 **输出:**
 
-```
+```py
 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 cascade complete
 
@@ -138,7 +138,7 @@ cascade complete
 
 ## 蟒蛇 3
 
-```
+```py
 # cascade key people
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -240,7 +240,7 @@ for i in G.nodes():
 
 **输出:**
 
-```
+```py
 ['0', '1'] :cascade complete
 ['0', '2'] :cascade incomplete
 ['0', '3'] :cascade complete
@@ -293,7 +293,7 @@ for i in G.nodes():
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import random
 import matplotlib.pyplot as plt
@@ -341,7 +341,7 @@ nx.write_gml(G, "community.gml")
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -444,7 +444,7 @@ for list1 in list2:
 
 **输出:**
 
-```
+```py
 [0, 1, 2, 3]
 cascade incomplete
 [0, 2, 3, 4]

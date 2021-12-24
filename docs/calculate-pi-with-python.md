@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialize denominator
 k = 1
 
@@ -50,7 +50,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 3.1415916535897743
 ```
 
@@ -61,7 +61,7 @@ print(s)
 1.  π的值使用 [acos()函数](https://www.geeksforgeeks.org/acos-function-in-c-stl/)计算，该函数返回一个介于**[-π，π]**之间的数值。
 2.  因为使用 **acos(0.0)** 将返回**2 *π**的值。因此要得到**π**的值:
 
-```
+```py
  pi = round(2*acos(0.0));
 ```
 
@@ -69,7 +69,7 @@ print(s)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to calculate the
 # value of pi up to 3 decimal places
 from math import acos
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 3.142
 ```
 
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 print( numpy.pi )
@@ -115,7 +115,7 @@ print( numpy.pi )
 
 **输出:**
 
-```
+```py
 3.141592653589793
 ```
 
@@ -125,7 +125,7 @@ Python 有一个名为 math 的内置库，我们可以简单地导入 math 并�
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 print( math.pi )
@@ -133,6 +133,6 @@ print( math.pi )
 
 **输出:**
 
-```
+```py
 3.141592653589793
 ```

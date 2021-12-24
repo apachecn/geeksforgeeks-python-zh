@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : geeks123available
 Output : ('available', 123)
 
@@ -18,7 +18,7 @@ Output : ('apple', 658)
 **方法#1 :** 蛮力
 这是寻找最长的连续字母和数字子串的幼稚或蛮力方法。我们取两个字符串型变量*最长字母*和*最长数字*。我们开始一个循环，检查字母和数字的连续子串。在每次迭代中，我们分别检查当前字母子串是否长于最长的字母或数字子串。如果是，我们将字母和数字的当前子串分别分配给最长的字母和数字子串。否则，什么都不做。
 
-```
+```py
 # Python3 program to find the longest 
 # consecutive substring of a certain type
 import re
@@ -64,7 +64,7 @@ print(longestSubstring(str))
 
 **Output:**
 
-```
+```py
 ('Geeksfor', '123')
 
 ```
@@ -72,7 +72,7 @@ print(longestSubstring(str))
 **方法 2 :** 使用 Python 正则表达式
 [Python 正则表达式](https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/)是解决给定问题的另一种方法。使用 Python 正则表达式找到数字和字母的子串序列，然后分别找到最长的子串长度。
 
-```
+```py
 # Python3 program to find the longest 
 # consecutive substring of a certain type
 import re
@@ -90,7 +90,7 @@ print(longestSubstring(str))
 
 **Output:**
 
-```
+```py
 ('geeksforgeeks', '123')
 
 ```

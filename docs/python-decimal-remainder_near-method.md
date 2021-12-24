@@ -12,7 +12,7 @@
 
 **代码# 1:`remainder_near()`方法示例**
 
-```
+```py
 # Python Program explaining 
 # remainder_near() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with remainder_near() method : ", b.remainder_near(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with remainder_near() method :  0.000000
 
 **代码# 2:`remainder_near()`方法示例**
 
-```
+```py
 # Python Program explaining 
 # remainder_near() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with remainder_near() method : ", b.remainder_near(b))
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

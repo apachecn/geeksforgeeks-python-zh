@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K length Combinations from given characters shorthand
 # Using itertools.product() + join() + map()
@@ -51,7 +51,7 @@ print("The generated Combinations : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # K length Combinations from given characters shorthand
 # Using itertools.product() + join() + map()

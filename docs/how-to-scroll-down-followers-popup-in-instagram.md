@@ -6,7 +6,7 @@
 
 ### 安装:
 
-```
+```py
 pip install Selenium
 ```
 
@@ -14,7 +14,7 @@ pip install Selenium
 
 ## 蟒 3
 
-```
+```py
 import selenium
 print(selenium.__version__)
 ```

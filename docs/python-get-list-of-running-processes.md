@@ -7,7 +7,7 @@ A *进程*是正在执行(处理)的程序。一个进程可能不必是由用�
 **方法 1:**
 我们将使用 wmi 库获取 Windows 操作系统上正在运行的进程列表。为了安装该模块，请在操作系统的命令解释器中执行以下命令:-
 
-```
+```py
 pip install wmi
 
 ```
@@ -16,7 +16,7 @@ pip install wmi
 
 ## 蟒蛇 3
 
-```
+```py
 import wmi
 
 # Initializing the wmi constructor

@@ -19,7 +19,7 @@ Python 中的 **colorsys** 模块定义了 RGB(红绿蓝)颜色与其他三个�
 
 **Code #1:** Convert the color from RGB coordinates to YIQ coordinates.
 
-```
+```py
 # Python program to explain colorsys.rgb_to_yiq() method 
 
 # importing colorsys module 
@@ -40,14 +40,14 @@ print(yiq)
 
 **Output:**
 
-```
+```py
 (0.33999999999999997, -0.11979999999999999, -0.04259999999999996)
 
 ```
 
 **代码#2:** 将颜色从 YIQ 坐标转换为 RGB 坐标。
 
-```
+```py
 # Python program to explain colorsys.yiq_to_rgb() method 
 
 # importing colorsys module 
@@ -68,14 +68,14 @@ print(rgb)
 
 **Output:**
 
-```
+```py
 (0.20143187066974597, 0.3984021607233726, 0.40466512702078516)
 
 ```
 
 **代码#3:** 将颜色从 RGB 坐标转换为 HLS 坐标。
 
-```
+```py
 # Python program to explain colorsys.rgb_to_hls() method 
 
 # importing colorsys module 
@@ -96,14 +96,14 @@ print(hls)
 
 **Output:**
 
-```
+```py
 (0.5, 0.30000000000000004, 0.3333333333333333)
 
 ```
 
 **代码#4:** 将颜色从 HLS 坐标转换为 RGB 坐标。
 
-```
+```py
 # Python program to explain colorsys.hls_to_rgb() method 
 
 # importing colorsys module 
@@ -124,14 +124,14 @@ print(rgb)
 
 **Output:**
 
-```
+```py
 (0.7899999999999999, 0.85, 0.5499999999999999)
 
 ```
 
 **代码#5:** 将颜色从 RGB 坐标转换为 HSV 坐标。
 
-```
+```py
 # Python program to explain colorsys.rgb_to_hsv() method 
 
 # importing colorsys module 
@@ -152,14 +152,14 @@ print(hsv)
 
 **Output:**
 
-```
+```py
 (0.5, 0.5, 0.4)
 
 ```
 
 **代码#6:** 将颜色从 HSV 坐标转换为 RGB 坐标。
 
-```
+```py
 # Python program to explain colorsys.hsv_to_rgb() method 
 
 # importing colorsys module 
@@ -180,7 +180,7 @@ print(rgb)
 
 **Output:**
 
-```
+```py
 (0.2, 0.4, 0.4)
 
 ```

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -40,7 +40,7 @@ print(image)
 
 **输出:**
 
-```
+```py
 Shahid Kapoor
 https://m.media-amazon.com/images/M/MV5BMjc5NTM5NjUyMV5BMl5BanBnXkFtZTgwMDEwMzU1OTE@._V1_UX67_CR0, 0, 67, 98_AL_.jpg
 ```
@@ -53,7 +53,7 @@ https://m.media-amazon.com/images/M/MV5BMjc5NTM5NjUyMV5BMl5BanBnXkFtZTgwMDEwMzU1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import imdb
 
@@ -78,7 +78,7 @@ print(image)
 
 **输出:**
 
-```
+```py
 Nawazuddin Siddiqui
 https://m.media-amazon.com/images/M/MV5BMTU5NTQwMTI0NV5BMl5BanBnXkFtZTcwNzQyNTgxOA@@._V1_UX67_CR0, 0, 67, 98_AL_.jpg
 ```

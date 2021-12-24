@@ -7,7 +7,7 @@
 让我们看看这个例子。
 示例:
 
-```
+```py
 Input : hello
 Output : l
 
@@ -25,7 +25,7 @@ Output : e g k s
 2)声明一个临时变量。
 3)打印键中值大于 1 的所有索引。
 
-```
+```py
 from collections import Counter
 
 def find_dup_char(input):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 e g k s
 
 ```

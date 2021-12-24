@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the asinh()function
 
@@ -34,7 +34,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 (1.8184464592320668+0j)
 ```
 
@@ -42,7 +42,7 @@ print(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the asinh()function
 
@@ -58,6 +58,6 @@ print(val)
 
 **输出:**
 
-```
+```py
 (2.37054853731792+1.184231684275022j)
 ```

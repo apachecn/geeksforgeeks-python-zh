@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `items()`**
 这种蛮力的方式我们可以执行这个任务。在这种情况下，我们循环遍历所有对，并使用 items()提取列表值元素，并在新列表中呈现。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Key-Value list Dictionary to Lists of List
 # Using loop + items()

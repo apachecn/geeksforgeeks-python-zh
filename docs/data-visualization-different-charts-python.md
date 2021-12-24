@@ -14,7 +14,7 @@
 
 在下面的代码中，绘制了`Age, Income, Sales`的直方图。因此，输出中的这些图显示了每个属性的每个唯一值的频率。
 
-```
+```py
 # import pandas and matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.show()
 **2。柱形图:**
 柱形图用于显示不同属性之间的比较，也可以显示项目随时间的比较。
 
-```
+```py
 # Dataframe of previous code is used here
 
 # Plot the bar chart for numeric values
@@ -71,7 +71,7 @@ plt.show()
 **3。箱线图:**
 箱线图是基于 `minimum, first quartile, median, third quartile, and maximum`的统计数据的图形表示。术语“方框图”来源于这样一个事实，即图表看起来像一个矩形，线条从顶部和底部延伸。因为有延伸线，这种类型的图有时被称为盒须图。关于分位数和中位数，请参考此[分位数和中位数](https://www-users.york.ac.uk/~mb55/intro/quantile.htm)。
 
-```
+```py
 # For each numeric attribute of dataframe
 df.plot.box()
 
@@ -86,7 +86,7 @@ plt.show()
 **4。饼图:**
 饼图显示了一个静态数字，以及类别如何代表整体的一部分，即某物的组成。饼图以百分比表示数字，所有分段的总和必须等于 100%。
 
-```
+```py
 plt.pie(df['Age'], labels = {"A", "B", "C",
                              "D", "E", "F",
                              "G", "H", "I", "J"},
@@ -114,7 +114,7 @@ plt.show()
 **5。散点图:**
 散点图显示两个不同变量之间的关系，可以揭示分布趋势。当有许多不同的数据点，并且您希望突出显示数据集中的相似之处时，应该使用它。这在寻找异常值和了解数据分布时非常有用。
 
-```
+```py
 # scatter plot between income and age
 plt.scatter(df['income'], df['age'])
 plt.show()

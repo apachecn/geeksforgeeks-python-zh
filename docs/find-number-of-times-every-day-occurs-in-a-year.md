@@ -5,7 +5,7 @@
 给一年时间。你的任务是找出一年中每天的数字，即该年中周一、周二、周三、周四、周五、周六、周日的数字。
 **例:**
 
-```
+```py
 Input: 2019
 Output: Monday-52
         Tuesday-53
@@ -31,7 +31,7 @@ Output: Monday-53
 
 ## 蟒蛇 3
 
-```
+```py
 # python program Find number of
 # times every day occurs in a Year
 
@@ -76,7 +76,7 @@ day_occur_time(year)
 
 **输出:**
 
-```
+```py
 Monday 52
 Tuesday 52
 Wednesday 52

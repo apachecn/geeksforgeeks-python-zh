@@ -8,13 +8,13 @@
 
 *   [**psutil(python 系统和进程实用程序):**](https://www.geeksforgeeks.org/psutil-module-in-python/) 它是一个跨平台的工具，用于检索 python 中运行的进程和系统利用率的信息
 
-```
+```py
 pip install psutil
 ```
 
 *   **普利特:** 普利特模块用于访问硬件的特性。这个模块没有内置 Python。我们需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install plyer
 ```
 
@@ -22,7 +22,7 @@ pip install plyer
 
 **步骤 1)** 从 plyer 模块导入通知类
 
-```
+```py
 from plyer import notification
 ```
 
@@ -46,7 +46,7 @@ from plyer import notification
 
 ## 蟒蛇 3
 
-```
+```py
 import psutil
 from plyer import notification
 import time

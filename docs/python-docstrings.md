@@ -20,7 +20,7 @@ Python 文档字符串(或 docstrings)提供了一种将文档与 Python 模块�
 
 **示例 1:** 使用三重单引号
 
-```
+```py
 def my_function():
     '''Demonstrates triple double quotes
     docstrings and does nothing really.'''
@@ -36,7 +36,7 @@ help(my_function)
 
 **输出:**
 
-```
+```py
 Using __doc__:
 Demonstrates triple double quotes
     docstrings and does nothing really.
@@ -51,7 +51,7 @@ my_function()
 
 **示例 2:** 使用三倍双引号
 
-```
+```py
 def my_function():
     """Demonstrates triple double quotes
     docstrings and does nothing really."""
@@ -67,7 +67,7 @@ help(my_function)
 
 **输出:**
 
-```
+```py
 Using __doc__:
 Demonstrates triple double quotes
     docstrings and does nothing really.
@@ -85,7 +85,7 @@ my_function()
 顾名思义，一行文档字符串可以放在一行中。它们用于明显的情况。结束引号和开始引号在同一行。这对单线来说更好看。
 例如:
 
-```
+```py
 def power(a, b):
     """Returns arg1 raised to power arg2."""
 
@@ -96,7 +96,7 @@ print(power.__doc__)
 
 **输出:**
 
-```
+```py
 Returns arg1 raised to power arg2.
 
 ```
@@ -106,7 +106,7 @@ Returns arg1 raised to power arg2.
 多行文档字符串由一个摘要行组成，就像单行文档字符串一样，后面是一个空行，后面是更详细的描述。摘要行可能与开始报价在同一行，也可能在下一行。
 下面的示例显示了一个多行文档字符串。
 
-```
+```py
 def my_function(arg1):
     """
     Summary line.
@@ -128,7 +128,7 @@ print(my_function.__doc__)
 
 **输出:**
 
-```
+```py
     Summary line.
     Extended description of function.
     Parameters:
@@ -147,7 +147,7 @@ print(my_function.__doc__)
 
 让我们举一个例子来说明如何为一个类及其方法编写文档字符串。**帮助**用于访问文档字符串。
 
-```
+```py
 class ComplexNumber:
     """
     This is a class for mathematical operations on complex numbers.
@@ -188,7 +188,7 @@ help(ComplexNumber.add)  # to access method's docstring
 
 输出:
 
-```
+```py
 Help on class ComplexNumber in module __main__:
 
 class ComplexNumber
@@ -237,14 +237,14 @@ add(self, num) unbound __main__.ComplexNumber method
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate comments
 print("GFG")
 ```
 
 **输出:**
 
-```
+```py
 GFG
 ```
 

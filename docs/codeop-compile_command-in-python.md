@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`codeop.compile_command()`方法，我们能够使用该方法编译多行代码。
 
-```
+```py
 # import codeop
 from codeop import compile_command
 
@@ -28,7 +28,7 @@ compile_command(code) 
 
 **例 2 :**
 
-```
+```py
 # import codeop
 from codeop import compile_command
 

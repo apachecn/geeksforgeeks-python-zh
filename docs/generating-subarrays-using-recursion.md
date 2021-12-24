@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 3]
 Output : [1], [1, 2], [2], [1, 2, 3], [2, 3], [3]
 
@@ -26,7 +26,7 @@ Output : [1], [1, 2], [2]
 
 ## C++
 
-```
+```py
 // C++ code to print all possible subarrays 
 // for given array using recursion
 
@@ -71,7 +71,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java code to print all possible subarrays
 // for given array using recursion
 
@@ -116,7 +116,7 @@ printSubArrays(arr, 0, 0);
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to print all possible subarrays
 # for given array using recursion
 
@@ -145,7 +145,7 @@ printSubArrays(arr, 0, 0)
 
 ## C#
 
-```
+```py
 // C# code to print all possible subarrays
 // for given array using recursion
 using System;
@@ -197,7 +197,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP code to print all possible
 // subarrays for given array using recursion
@@ -244,7 +244,7 @@ printSubArrays($arr, 0, 0);
 
 ## java 描述语言
 
-```
+```py
 <script>
 
 // Javascript code to print all possible
@@ -292,7 +292,7 @@ printSubArrays(arr, 0, 0);
 
 **Output:** 
 
-```
+```py
 [1]
 [1, 2]
 [2]

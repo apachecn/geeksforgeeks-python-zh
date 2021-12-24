@@ -20,7 +20,7 @@ Python 中的 assertLess()是一个 [unittest](https://www.geeksforgeeks.org/uni
 
 ## 蟒蛇 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # test suite
 import unittest
 

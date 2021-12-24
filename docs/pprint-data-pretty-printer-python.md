@@ -8,7 +8,7 @@
 
 让我们考虑一个例子:
 
-```
+```py
 # A python code without pprint
 import requests
 
@@ -28,7 +28,7 @@ print(data)
 
 上面程序的输出是这样的:
 
-```
+```py
 {'status': 'OK', 'results': [{'address_components': [{'long_name': 'Rajpath', 'types': ['route'], 
 'short_name': 'Rajpath'}, {'long_name': 'India Gate', 'types': ['political', 'sublocality', 
 'sublocality_level_1'], 'short_name': 'India Gate'}, {'long_name': 'New Delhi', 'types': 
@@ -47,7 +47,7 @@ India', 'place_id': 'ChIJC03rqdriDDkRXT6SJRGXFwc'}]}
 
 现在，考虑下面的代码:
 
-```
+```py
 # A python code with pprint
 import requests
 from pprint import pprint
@@ -66,7 +66,7 @@ pprint(data)
 
 上面代码的输出看起来是这样的:
 
-```
+```py
 {'results': [{'address_components': [{'long_name': 'Rajpath',
                                       'short_name': 'Rajpath',
                                       'types': ['route']},

@@ -6,7 +6,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python3 code here creating class
 class geeks: 
     def __init__(self, name, roll): 
@@ -30,7 +30,7 @@ for obj in list:
 
 **输出:**
 
-```
+```py
 Akash 2
 Deependra 40
 Reaper 44

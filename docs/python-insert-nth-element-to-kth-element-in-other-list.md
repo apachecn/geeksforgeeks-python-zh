@@ -7,7 +7,7 @@
 **方法:使用`pop() + insert() + index()`**
 该特定任务可以使用上述功能的组合来执行。在这种情况下，我们只是使用 pop 函数的属性来返回和移除元素，并使用索引函数将其插入到其他列表的特定位置。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Insert Nth element to Kth element in other list
 # Using pop() + index() + insert()
@@ -37,7 +37,7 @@ print("The list 2 after remove is : " + str(test_list2))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 6, 7, 3, 8]
 The original list 2 is : [7, 6, 3, 8, 10, 12]
 The list 1 after insert is : [4, 5, 6, 12, 7, 3, 8]

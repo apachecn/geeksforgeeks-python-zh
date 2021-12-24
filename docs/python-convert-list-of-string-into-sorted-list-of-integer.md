@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: ['21', '1', '131', '12', '15']
 Output: [1, 12, 15, 21, 131]
 
@@ -19,7 +19,7 @@ Output: [0, 1, 11, 15, 58]
 
 **方法 1:** 使用`map` 和`sorted()`
 
-```
+```py
 # Python code to convert list of
 # string into sorted list of integer
 
@@ -38,14 +38,14 @@ print(list_sorted)
 
 **Output:**
 
-```
+```py
 [1, 12, 15, 21, 131]
 
 ```
 
 **方法 2:** 使用列表理解
 
-```
+```py
 # Python code to convert list of 
 # string into sorted list of integer
 
@@ -64,14 +64,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [0, 1, 11, 15, 58]
 
 ```
 
 **方法#3:** 使用迭代
 
-```
+```py
 # Python code to convert list of
 # string into sorted list of integer
 
@@ -87,7 +87,7 @@ print(list_sorted)
 
 **Output:**
 
-```
+```py
 [0, 1, 11, 15, 58]
 
 ```

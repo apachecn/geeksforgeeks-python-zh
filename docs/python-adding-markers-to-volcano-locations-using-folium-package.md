@@ -8,7 +8,7 @@ Python 是一种多用途语言，它的实用程序不仅仅是普通的编程�
 **设置:**
 首先，安装像叶子、熊猫这样的库，以及上面提到的数据集:
 
-```
+```py
 pip3 install folium
 pip3 install pandas
 ```
@@ -29,7 +29,7 @@ pip3 install pandas
 
 ## 蟒蛇 3
 
-```
+```py
 #import the necessary packages
 import folium
 import pandas as pd

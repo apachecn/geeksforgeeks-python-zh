@@ -10,32 +10,32 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 element.get_property("property name")
 ```
 
 **示例–**
 
-```
+```py
 <a href="https://www.geeksforgeeks.org/" id="link" />Text Here</a>
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("link")
 element = driver.find_element_by_xpath("//a[@id='link']")
 ```
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_id("link")
 ```
 
 现在人们可以用
 
-```
+```py
 text_length = element.get_property("text_length")
 ```
 
@@ -44,7 +44,7 @@ text_length = element.get_property("text_length")
 让我们用 https://www.geeksforgeeks.org/在 Selenium Python 中说明这个方法。这里我们在 geeksforgeeks 的导航栏中获得课程选项卡的 href 属性。
 **节目–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

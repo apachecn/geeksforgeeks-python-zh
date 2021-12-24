@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 这是可以执行这个任务的方式之一。在这种情况下，我们使用暴力的方式来执行，但是通过将每个字符乘以大小来形成一行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive Repetition of  Characters
 # Using list comprehension

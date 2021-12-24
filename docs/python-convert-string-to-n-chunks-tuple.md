@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+元组**
 这是可以执行该任务的一种方法。在这种情况下，我们只需迭代字符串并分解字符串块，然后在一个线性中使用 tuple()构造元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String to N chunks tuple
 # Using list comprehension + tuple()
@@ -31,7 +31,7 @@ print("Chunked String into tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : ggggffffgggg
 Chunked String into tuple : ('gggg', 'ffff', 'gggg')
 

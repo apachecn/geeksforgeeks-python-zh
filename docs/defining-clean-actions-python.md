@@ -10,7 +10,7 @@
 
 **代码 1 :** 代码工作正常，最后进行清理动作
 
-```
+```py
 # Python code to illustrate
 # clean up actions
 def divide(x, y):
@@ -30,7 +30,7 @@ divide(3, 2)
 
 **输出:**
 
-```
+```py
 Yeah ! Your answer is : 1
 I'm finally clause, always raised !! 
 
@@ -38,7 +38,7 @@ I'm finally clause, always raised !!
 
 **代码 2 :** 代码引发错误，在**除了**条款中小心处理。请注意，清理操作将在最后进行。
 
-```
+```py
 # Python code to illustrate
 # clean up actions
 def divide(x, y):
@@ -58,7 +58,7 @@ divide(3, 0)
 
 **输出:**
 
-```
+```py
 Sorry ! You are dividing by zero 
 I'm finally clause, always raised !!
 
@@ -66,7 +66,7 @@ I'm finally clause, always raised !!
 
 **代码 3 :** 代码，引发错误但是我们除了子句没有任何**来处理。因此，首先采取清除动作，然后编译器引发**错误(默认情况下)**。**
 
-```
+```py
 # Python code to illustrate
 # clean up actions
 def divide(x, y):
@@ -86,13 +86,13 @@ divide(3, "3")
 
 **输出:**
 
-```
+```py
 I'm finally clause, always raised !! 
 ```
 
 **错误:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Users/DELL/Desktop/Code.py", line 15, in 
     divide(3, "3")

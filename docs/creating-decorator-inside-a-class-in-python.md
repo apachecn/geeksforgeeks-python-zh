@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating class A
 class A :
     def Decorators(func) :
@@ -35,7 +35,7 @@ obj.fun2()
 
 **输出:**
 
-```
+```py
 Decoration started.
 Decorating - Class A methods.
 Decoration of function completed.
@@ -50,7 +50,7 @@ Decoration of function completed.
 
 ## 蟒蛇 3
 
-```
+```py
 class Check_no :
 
     # decorator function
@@ -77,7 +77,7 @@ obj.is_even(7)
 
 **输出:**
 
-```
+```py
 User Input :  45
 No, it's ODD Number.
 User Input :  2
@@ -91,7 +91,7 @@ No, it's ODD Number.
 
 ## 蟒蛇 3
 
-```
+```py
 # parent class
 class Student :            
 
@@ -129,7 +129,7 @@ obj.result(34)
 
 **输出:**
 
-```
+```py
 Your Score :  89
 Grade : A
 Your Score :  34

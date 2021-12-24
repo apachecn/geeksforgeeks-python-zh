@@ -11,7 +11,7 @@
 
 **案例 1:没有扩展类方法**
 
-```
+```py
 # definition of superclass "Triangles"
 class Triangles(object):
 
@@ -69,7 +69,7 @@ main()
 
 **输出:**
 
-```
+```py
 Name: PQR
 Dimensions: 2, 3, 4
 9
@@ -78,7 +78,7 @@ Dimensions: 2, 3, 4
 
 **案例 2:扩展类方法**
 
-```
+```py
 # definition of superclass "Triangles"
 class Triangles(object):
 
@@ -139,7 +139,7 @@ main()
 
 **输出:**
 
-```
+```py
 Name: PQR
 Dimensions: 2, 3, 4
 9

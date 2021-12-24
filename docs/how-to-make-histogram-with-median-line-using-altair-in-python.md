@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import altair as alt
 import numpy as np
@@ -23,7 +23,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # generating data
 np.random.seed(42)
 df = pd.DataFrame({'height': np.random.normal(150, 10, 1000)})
@@ -33,7 +33,7 @@ df = pd.DataFrame({'height': np.random.normal(150, 10, 1000)})
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize chart
 base=alt.Chart(df)
 ```
@@ -42,7 +42,7 @@ base=alt.Chart(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # generate histogram
 hist = base.mark_bar().encode(
     x=alt.X('height:Q', bin=alt.BinParams(), axis=None), y='count()')
@@ -52,7 +52,7 @@ hist = base.mark_bar().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # generate median line
 median_line = base.mark_rule().encode(
     x=alt.X('mean(height):Q', title='Height'), size=alt.value(5))
@@ -62,7 +62,7 @@ median_line = base.mark_rule().encode(
 
 ## 蟒蛇 3
 
-```
+```py
 # depict illustration
 hist+median_line
 ```
@@ -85,7 +85,7 @@ hist+median_line
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import altair as alt
 import numpy as np

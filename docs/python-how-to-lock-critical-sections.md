@@ -6,7 +6,7 @@
 
 **代码#1 :**
 
-```
+```py
 import threading
 
 class counter_share:
@@ -35,7 +35,7 @@ class counter_share:
 
 **代码#2:代码 1 的变体**
 
-```
+```py
 import threading
 
 class counter_share:
@@ -68,7 +68,7 @@ class counter_share:
 
 **代码#3:实现 SharedCounter 类。**
 
-```
+```py
 import threading
 
 class counter_share:
@@ -100,7 +100,7 @@ class counter_share:
 
 **代码#4:要限制一部分代码的并发量，请使用信号量。**
 
-```
+```py
 from threading import Semaphore
 import urllib.request
 

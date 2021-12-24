@@ -24,7 +24,7 @@ create_tables()函数在供应商数据库中创建四个表:供应商、零件�
 
 ## 蟒 3
 
-```
+```py
 #!/usr / bin / python
 
 import psycopg2
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
 要执行 Python 程序，可以使用以下命令:
 
-```
+```py
 python create_table.py
 ```
 
@@ -105,7 +105,7 @@ python create_table.py
 
 其次，使用\dt 命令显示供应商数据库中的表列表。
 
-```
+```py
 suppliers=# \dt
 
              List of relations

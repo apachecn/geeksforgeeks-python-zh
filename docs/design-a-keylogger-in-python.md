@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for keylogger
 # to be used in windows
 import win32api

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 ##import required library
 import numpy as np
 import scipy.signal as signal
@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 #Given specification
 wc =np.pi/4        #Cutoff frequency in radian
 N1=int(input())    #Given filter length
@@ -53,7 +53,7 @@ M=(N1-1)/2         #Half length of the filter
 
 ## 蟒蛇 3
 
-```
+```py
 N = 512    ## Choose DFT size
 n = np.arange(-M,M)  
 #Desired impulse response coefficients of the lowpass
@@ -78,7 +78,7 @@ wx = np.fft.fftfreq(len(w))
 
 ## 蟒蛇 3
 
-```
+```py
 ##Plotting of the results
 fig,axs = plt.subplots(3, 1)
 fig.set_size_inches((16, 16))
@@ -118,7 +118,7 @@ ax.set_title('Frequency response of the Filter in dB', fontsize = 20)
 
 ## 蟒蛇 3
 
-```
+```py
 #Desired impulse response coefficients of the lowpass filter with cutoff frequency wc
 hd=wc/np.pi*np.sinc(wc*(n)/np.pi)### START CODE HERE ### (≈ 1 line of code)
 
@@ -142,7 +142,7 @@ wx =np.fft.fftfreq(len(w))### START CODE HERE ### (≈ 1 line of code)  
 
 ## 蟒蛇 3
 
-```
+```py
 ##Plotting of the results
 fig,axs = plt.subplots(3,1)
 fig.set_size_inches((10,10))
@@ -183,7 +183,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Desired impulse response coefficients of the lowpass filter with cutoff frequency wc
 hd=wc/np.pi*np.sinc(wc*(n)/np.pi)### START CODE HERE ### (≈ 1 line of code)
 

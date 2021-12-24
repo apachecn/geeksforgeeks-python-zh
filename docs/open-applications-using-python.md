@@ -17,7 +17,7 @@
 
 你可以和它聊天，或者输入要打开的应用程序的数量，或者简单地，你也可以输入软件名称或它的缩写，比如
 
-```
+```py
 'Photoshop' -> 'PS'
 ```
 
@@ -25,7 +25,7 @@
 
 *   **pyttsx3:** 是 Python 中的文本到语音转换库。与替代库不同，它脱机工作，并且兼容 Python 2 和 3。应用程序调用 pyttsx3.init()工厂函数来获取对 pyttsx3 的引用。引擎实例。这是一个非常容易使用的工具，可以将输入的文本转换成语音。可以使用以下命令安装:
 
-```
+```py
 pip install pyttsx3
 ```
 
@@ -33,7 +33,7 @@ pip install pyttsx3
 
 ## 蟒蛇 3
 
-```
+```py
 # create object
 engine = pyttsx3.init()
 
@@ -55,7 +55,7 @@ print("")
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pyttsx3
 import os

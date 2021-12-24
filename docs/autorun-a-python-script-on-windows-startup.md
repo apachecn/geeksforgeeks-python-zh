@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to add current script to the registry
 
 # module to edit the windows registry

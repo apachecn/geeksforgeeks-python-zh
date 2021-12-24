@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 widget_object = Widget(parent, command = widget_class_object.destroy)
 
 ```
@@ -17,7 +17,7 @@ widget_object = Widget(parent, command = widget_class_object.destroy)
 
 **代码#1:** 销毁()方法作为命令传递
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import * 
@@ -50,7 +50,7 @@ mainloop()
 
 **代码#2:** 用 after()方法销毁()方法
 
-```
+```py
 # importing only those functions
 # which are needed
 from tkinter import * 

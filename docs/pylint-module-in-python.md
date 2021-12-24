@@ -21,13 +21,13 @@ Pylint 工具类似于 **pychecker** 、 **pyflakes** 、 **flake8** 和 **mypy*
 
 要安装 pylint，请确保您的电脑上安装了 Python。在您的电脑上打开命令提示符(Windows) /终端(Linux)，然后键入以下命令
 
-```
+```py
 pip install pylint 
 ```
 
 要验证 pylint 安装，请键入以下命令
 
-```
+```py
 pylint --version
 ```
 
@@ -37,7 +37,7 @@ pylint --version
 
 考虑下面的程序，它接受两个数字并打印它们的总和。
 
-```
+```py
 a = 1
 b = 2
 print(a + b)
@@ -45,7 +45,7 @@ print(a + b)
 
 现在将上述程序保存在文件**中**打开你的命令提示符/终端，输入以下命令
 
-```
+```py
 pylint gfg.py
 ```
 
@@ -73,7 +73,7 @@ pylint gfg.py
 
 代码的修改版本是:
 
-```
+```py
 '''
 This program adds two numbers and displays their results
 '''
@@ -92,7 +92,7 @@ print('Sum of Numbers:', A + B)
 
 如前所述，默认情况下，pylint 模块将使用大写命名约定。用来标识大写约定的正则表达式是`(([A-Z_][A-Z1-9_]*)|(__.*__))$`。我们需要添加我们的建议作为一个正则表达式，接受以小写字母开头的标识符。为此，请打开命令提示符并执行以下语句。
 
-```
+```py
 pylint --const-rgx='[a-z\_][a-z0-9\_]{2, 30}{content}apos; filename.py
 ```
 

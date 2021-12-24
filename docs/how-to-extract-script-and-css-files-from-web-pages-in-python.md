@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 import requests
 from bs4 import BeautifulSoup
@@ -72,7 +72,7 @@ print(f"Total {len(cs_files)} CSS files found")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Library
 import requests
 from bs4 import BeautifulSoup

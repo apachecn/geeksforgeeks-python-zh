@@ -5,7 +5,7 @@
 给定一个列表，任务是找出在给定的整数列表中是否有任何元素出现了 n 次。它将基本上检查出现 n 次的第一个元素。
 **例:**
 
-```
+```py
 Input: l =  [1, 2, 3, 4, 0, 4, 3, 2, 1, 2], n = 3
 Output :  2
 
@@ -19,7 +19,7 @@ Output :  1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find occurrence of any element
 # appearing 'n' times
 
@@ -55,7 +55,7 @@ if flag == 0:
 
 **输出:**
 
-```
+```py
 There are 3 occurrences of 0 in [0, 0, 0, 1, 2, 3, 3, 4, 4]
 
 ```
@@ -64,7 +64,7 @@ There are 3 occurrences of 0 in [0, 0, 0, 1, 2, 3, 3, 4, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find occurrence of any element
 # appearing 'n' times
 
@@ -80,7 +80,7 @@ print("There are {} occurrences of {} in {}".format(input.count(n), n, input))
 
 **输出:**
 
-```
+```py
 There are 2 occurrences of 3 in [1, 2, 3, 4, 0, 4, 3, 4]
 
 ```
@@ -90,7 +90,7 @@ There are 2 occurrences of 3 in [1, 2, 3, 4, 0, 4, 3, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find occurrence of any element
 # appearing 'n' times
 
@@ -125,7 +125,7 @@ if flag == 0:
 
 **输出:**
 
-```
+```py
 Yes, 9 has 2 occurrence in [9, 8, 7, 6, 5, 9, 2]
 
 ```

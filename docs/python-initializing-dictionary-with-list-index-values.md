@@ -7,7 +7,7 @@
 **方法#1:利用字典理解和`enumerate()`**
 以上方法的组合可以实现这个任务。在这种情况下，enumerate()用其索引迭代值的内在能力被用来使用字典理解来构造对应值的键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initializing dictionary with index value
 # Using dictionary comprehension and enumerate()
@@ -28,7 +28,7 @@ print("Constructed dictionary with index value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'CS']
 Constructed dictionary with index value : {'gfg': 0, 'is': 1, 'best': 2, 'CS': 4, 'for': 3}
 

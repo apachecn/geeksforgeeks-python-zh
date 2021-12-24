@@ -16,7 +16,7 @@
 
 超级。NZ 为 Python 提供了一个易于使用的 SDK，因此我们将在本教程中使用它。所以首先我们必须安装软件开发工具包。
 
-```
+```py
 pip install mega.py
 ```
 
@@ -28,7 +28,7 @@ pip install mega.py
 
 ## 蟒蛇 3
 
-```
+```py
 # Enter File/Folder Name
 from mega import Mega
 
@@ -50,7 +50,7 @@ m.upload(filename)
 
 ## 蟒蛇 3
 
-```
+```py
 from mega import Mega
 
 mega = Mega()
@@ -69,7 +69,7 @@ print(details)
 
 ## 蟒蛇 3
 
-```
+```py
 from mega import Mega
 
 mega = Mega()
@@ -88,7 +88,7 @@ print("Total Space: ", quota)
 
 ## 蟒蛇 3
 
-```
+```py
 from mega import Mega
 
 mega = Mega()
@@ -119,7 +119,7 @@ m.download(file, '/home/john-smith/Desktop')
 
 ## 蟒蛇 3
 
-```
+```py
 from mega import Mega
 
 mega = Mega()

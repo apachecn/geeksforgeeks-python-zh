@@ -8,7 +8,7 @@
 
 该任务可以使用上述功能的组合来执行，其中我们使用字典理解来执行字典的构建，并使用`len`功能来索引有限的内容。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initializing dictionary with list index-values
 # Using dictionary comprehension + len()
@@ -29,7 +29,7 @@ print("The dictionary indexed as list is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best']
 The dictionary indexed as list is :  {0: 'Gfg', 1: 'is', 2: 'best'}
 
@@ -39,7 +39,7 @@ The dictionary indexed as list is :  {0: 'Gfg', 1: 'is', 2: 'best'}
 
 这些方法的组合也可用于执行此任务。在这种情况下，我们使用`enumerate` 函数的质量来获取索引，`dict()`用于将列表转换为字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Initializing dictionary with list index-values
 # Using dict() + enumerate()
@@ -60,7 +60,7 @@ print("The dictionary indexed as list is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best']
 The dictionary indexed as list is :  {0: 'Gfg', 1: 'is', 2: 'best'}
 

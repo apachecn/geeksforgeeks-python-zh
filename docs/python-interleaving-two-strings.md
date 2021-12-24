@@ -7,7 +7,7 @@
 **方法#1:使用`join() + zip()`**
 该任务可以使用上述功能执行。在这个连接函数中，执行在索引处连接每个元素对两个字符串的任务，而 zip 执行在每个字符串处交错字符的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Interleaving two strings
 # using join() + zip()
@@ -30,7 +30,7 @@ print("The Interleaved string : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original string 1 : geeksforgeeks
 The original string 2 : computerfreak

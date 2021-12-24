@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 filterfalse(function or None, sequence) --> filterfalse object
 ```
 
@@ -21,7 +21,7 @@ filterfalse(function or None, sequence) --> filterfalse object
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate 
 # the working of filterfalse 
 import itertools
@@ -39,14 +39,14 @@ print(list(itertools.filterfalse(None, li)))  
 
 **输出:**
 
-```
+```py
 0
 []
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate 
 # the working of filterfalse 
 import itertools
@@ -63,14 +63,14 @@ print(list(itertools.filterfalse(filterfalse, li)))
 
 **输出:**
 
-```
+```py
 [2, 4, 5]
 
 ```
 
 **例 3:**
 
-```
+```py
 # Python program to demonstrate 
 # the working of filterfalse 
 import itertools
@@ -84,7 +84,7 @@ print (list(itertools.filterfalse(lambda x : x % 2 == 0, li))) 
 
 **输出:**
 
-```
+```py
 [5, 7]
 
 ```

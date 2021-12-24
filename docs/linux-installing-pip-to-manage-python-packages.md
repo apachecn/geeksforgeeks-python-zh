@@ -12,25 +12,25 @@ Linux 只是一个内核，现实中有很多发行版。基于所使用的包�
 
 对于 Python 2:
 
-```
+```py
 $ sudo apt install python-pip python-setuptools
 ```
 
 对于 Python 3:
 
-```
+```py
 $ sudo apt install python3-pip
 ```
 
 **Red Hat Linux:**
 
-```
+```py
 $sudo yum install python-pip python-devel python-setuptools
 ```
 
 **Arch Linux:**
 
-```
+```py
 $ sudo pacman -S python-pip python3-setuptools
 ```
 
@@ -56,19 +56,19 @@ PIP 就像是 python 的 appstore。使用这个强大的工具，你可以提�
 
 安装最新版本:
 
-```
+```py
 $ sudo pip install packageName.
 ```
 
 安装特定版本:
 
-```
+```py
 $ sudo pip install packageName==version number.
 ```
 
 安装测试版:
 
-```
+```py
 $ sudo pip install --pre packageName
 ```
 
@@ -78,7 +78,7 @@ $ sudo pip install --pre packageName
 
 #### 升级软件包:
 
-```
+```py
 $ sudo pip install --upgrade packageName
 ```
 
@@ -88,7 +88,7 @@ $ sudo pip install --upgrade packageName
 
 #### 卸载软件包:
 
-```
+```py
 $ sudo pip uninstall packageName
 ```
 
@@ -98,7 +98,7 @@ $ sudo pip uninstall packageName
 
 #### 列出一个包:
 
-```
+```py
 $ pip list  --format columns
 ```
 

@@ -7,7 +7,7 @@
 **方法#1:使用列表切片+ del 操作符+min()**
 del 操作符可以通过切片操作来删除列表中的前后元素，从而获得列表的裁剪版本。使用 min()可以找到寻找最小值的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Cropped list Minimum
 # using del operator + list slicing + min()
@@ -32,7 +32,7 @@ print ("The cropped list minimum is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [2, 3, 5, 7, 9, 10, 8, 6]
 The cropped list minimum is : 5
 

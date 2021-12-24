@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def printf():
     print("*\n**\n")
 ```
@@ -29,7 +29,7 @@ def printf():
 
 ## 蟒蛇 3
 
-```
+```py
 from .check import printf
 ```
 

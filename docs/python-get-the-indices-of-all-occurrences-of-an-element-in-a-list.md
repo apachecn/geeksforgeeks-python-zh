@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize a list
 my_list = [1, 2, 3, 1, 5, 4]
 
@@ -38,7 +38,7 @@ for itr in range(list_size):  
 
 **输出:**
 
-```
+```py
 0
 3
 ```
@@ -61,7 +61,7 @@ for itr in range(list_size):  
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize a list
 my_list = [1, 2, 3, 1, 5, 4]  
 indices = [ind for ind, ele in enumerate(my_list) if ele == 1]
@@ -72,7 +72,7 @@ print(indices)  
 
 **输出:**
 
-```
+```py
 [0, 3]
 ```
 
@@ -92,7 +92,7 @@ Itertools 是内存高效的工具，它们本身或组合起来都很有用，�
 
 ## 蟒蛇 3
 
-```
+```py
 # import count method from itertools
 from itertools import count  
 
@@ -108,7 +108,7 @@ print(indices)  
 
 **输出:**
 
-```
+```py
 [0, 3]
 ```
 
@@ -130,7 +130,7 @@ NumPy 是通用的数组处理包，它提供了在 Python 中使用数组的便
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy module
 import numpy  
 
@@ -144,6 +144,6 @@ print(indices)  
 
 **输出:**
 
-```
+```py
 [0, 3]
 ```

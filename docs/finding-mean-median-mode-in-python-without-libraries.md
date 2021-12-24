@@ -6,7 +6,7 @@
 
 1.  **Mean :** The mean is the average of all numbers and is sometimes called the [arithmetic mean](https://www.geeksforgeeks.org/find-n-arithmetic-means-b/). This code calculates Mean or Average of a list containing numbers:
 
-    ```
+    ```py
     # Python program to print
     # mean of elements
 
@@ -22,7 +22,7 @@
 
     **Output:**
 
-    ```
+    ```py
     Mean / Average is: 3.0
 
     ```
@@ -31,7 +31,7 @@
 
 2.  **中位数:**中位数是一组数字中的中间数。此代码计算包含数字的列表的中位数:
 
-    ```
+    ```py
     # Python program to print
     # median of elements
 
@@ -51,7 +51,7 @@
 
     **输出:**
 
-```
+```py
 Median is: 3
 
 ```

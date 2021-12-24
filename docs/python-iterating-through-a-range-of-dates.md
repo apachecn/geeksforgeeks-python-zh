@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 delta = datetime.timedelta(days=1)
 while (start_date <= end_date):
     print(start_date)
@@ -21,7 +21,7 @@ while (start_date <= end_date):
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module
 import datetime
 
@@ -42,7 +42,7 @@ while (start_date <= end_date):
 
 **输出**:
 
-```
+```py
 2021-02-01
 2021-02-02
 2021-02-03
@@ -80,7 +80,7 @@ while (start_date <= end_date):
 
 **语法**:
 
-```
+```py
 pandas.date_range(start, end)
 ```
 
@@ -95,7 +95,7 @@ pandas.date_range(start, end)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -110,7 +110,7 @@ for i in a:
 
 **输出**:
 
-```
+```py
 2021-01-01
 2021-01-02
 2021-01-03

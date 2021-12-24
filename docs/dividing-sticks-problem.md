@@ -33,7 +33,7 @@
 
 ## C++
 
-```
+```py
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -147,7 +147,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 import java.util.*;
 
 class GFG{
@@ -262,7 +262,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```py
 # method to find number of sticks by breaking them
 def sticks_break(stick_length, n, desired_length):
 
@@ -359,7 +359,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```py
 using System;
 class GFG{
 
@@ -471,7 +471,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```py
 <script>
     // Method to find number of sticks by breaking them
     function sticks_break(stick_length, n, desired_length)
@@ -575,7 +575,7 @@ public static void Main()
 
 **Output:** 
 
-```
+```py
 3
 ```
 

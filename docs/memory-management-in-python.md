@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```py
 x = 10
 ```
 
@@ -29,7 +29,7 @@ x = 10
 
 让我们验证一下这是不是真的
 
-```
+```py
 x = 10
 y = x
 
@@ -39,7 +39,7 @@ if id(x) == id(y):
 
 **输出:**
 
-```
+```py
 x and y refer to the same object
 ```
 
@@ -49,7 +49,7 @@ x and y refer to the same object
 
 现在，让我们改变 x 的值，看看会发生什么。
 
-```
+```py
 x = 10
 y = x
 x += 1
@@ -60,7 +60,7 @@ if id(x) != id(y):
 
 **输出:**
 
-```
+```py
 x and y do not refer to the same object
 ```
 
@@ -85,7 +85,7 @@ x and y do not refer to the same object
 
 **示例:**
 
-```
+```py
 def func(): 
 
     # All these variables get memory  
@@ -101,7 +101,7 @@ def func(): 
 
 **示例:**
 
-```
+```py
 # This memory for 10 integers  
 # is allocated on heap.  
 a = [0]*10 

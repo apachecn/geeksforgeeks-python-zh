@@ -12,7 +12,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install climage
 ```
 
@@ -46,7 +46,7 @@ pip install climage
 
 ## 蟒蛇 3
 
-```
+```py
 import climage
 
 # converts the image to print in terminal
@@ -65,7 +65,7 @@ print(output)
 
 ## 蟒蛇 3
 
-```
+```py
 import climage
 
 # saves the converted encoded string
@@ -101,7 +101,7 @@ output = climage.to_file('banana.png', 'banana_ansi')
 
 ## 蟒蛇 3
 
-```
+```py
 import climage
 
 # converts the image to print in terminal

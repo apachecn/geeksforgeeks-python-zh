@@ -18,7 +18,7 @@ Selenium 是通过程序控制 web 浏览器，执行浏览器自动化的强大
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
@@ -29,7 +29,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 # assign web page url
 driver.get("http://demo.automationtesting.in/Windows.html")
 ```
@@ -46,7 +46,7 @@ driver.get("http://demo.automationtesting.in/Windows.html")
 
 ## 蟒蛇 3
 
-```
+```py
 # find XPath
 driver.find_element_by_xpath('//*[@id="Tabbed"]/a/button').click()
 ```
@@ -56,7 +56,7 @@ driver.find_element_by_xpath('//*[@id="Tabbed"]/a/button').click()
 
 ## 蟒蛇 3
 
-```
+```py
 # return all handles value of open browser window
 handles = driver.window_handles
 
@@ -75,7 +75,7 @@ for i in handles:
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select

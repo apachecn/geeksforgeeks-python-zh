@@ -8,14 +8,14 @@
 
 要消除高方差问题:
 
-```
+```py
 Use a smaller set of features.
 
 ```
 
 要消除高偏差问题:
 
-```
+```py
 Use additional features.
 Add polynomial features.
 

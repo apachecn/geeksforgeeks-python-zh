@@ -13,7 +13,7 @@
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -23,26 +23,26 @@ from scipy.stats import norm
 
 **加载数据**
 
-```
+```py
 data = pd.read_csv("House Price.csv")
 data.shape
 ```
 
 **输出:**
 
-```
+```py
 (1460, 81)
 ```
 
 **【销售价格】说明**
 
-```
+```py
 data['SalePrice'].describe()
 ```
 
 **输出:**
 
-```
+```py
 count      1460.000000
 mean     180921.195890
 std       79442.502883
@@ -56,7 +56,7 @@ Name: SalePrice, dtype: float64
 
 **直方图**
 
-```
+```py
 plt.figure(figsize = (9, 5))
 data['SalePrice'].plot(kind ="hist")
 ```
@@ -66,7 +66,7 @@ data['SalePrice'].plot(kind ="hist")
 
 **代码#1:** 相关矩阵
 
-```
+```py
 corrmat = data.corr()
 
 f, ax = plt.subplots(figsize =(9, 8))
@@ -78,7 +78,7 @@ sns.heatmap(corrmat, ax = ax, cmap ="YlGnBu", linewidths = 0.1)
 
 **代码#2:** 网格相关矩阵
 
-```
+```py
 corrmat = data.corr()
 
 cg = sns.clustermap(corrmat, cmap ="YlGnBu", linewidths = 0.1);
@@ -92,7 +92,7 @@ cg
 
 **代码#3:** 销售价格的相关性
 
-```
+```py
 # saleprice correlation matrix
 # k : number of variables for heatmap
 k = 15 

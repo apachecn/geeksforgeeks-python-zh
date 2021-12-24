@@ -5,13 +5,13 @@
 **什么是λ表达式？**
 lambda 表达式是一种特殊的语法，用于创建没有名称的函数。这些函数被称为[λ函数](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)。这些 lambda 函数可以有任意数量的参数，但只能有一个表达式和一个隐式返回语句。Lambda 表达式返回函数对象。例如，考虑λ表达式:
 
-```
+```py
 lambda (arguments) : (expression)
 ```
 
 这个 lambda 表达式定义了一个**未命名函数**，它接受两个参数并返回两个参数的和。但是我们如何调用一个未命名的函数呢？上面定义的未命名的**λ函数**可以称为:
 
-```
+```py
 (lambda x, y: x + y)(1, 2)
 ```
 
@@ -19,7 +19,7 @@ lambda (arguments) : (expression)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing a use
 # lambda function
 
@@ -34,7 +34,7 @@ print(x2)      
 
 **输出:**
 
-```
+```py
 9
 2
 ```
@@ -43,7 +43,7 @@ print(x2)      
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # variable is storing lambda
 # expression
@@ -58,7 +58,7 @@ print(x1)
 
 **输出:**
 
-```
+```py
 11
 ```
 
@@ -68,7 +68,7 @@ print(x1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # using of normal function
 def Key(x):
@@ -80,13 +80,13 @@ print(sort)
 
 *   **输出:**
 
-```
+```py
 [0, 2, 4, 6, 8, 1, 3, 5, 7, 9]
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing use
 # of lambda function
 
@@ -97,7 +97,7 @@ print(sort_lambda)
 
 *   **输出:**
 
-```
+```py
 [0, 2, 4, 6, 8, 1, 3, 5, 7, 9]
 ```
 
@@ -105,7 +105,7 @@ print(sort_lambda)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing a use
 # of lambda function
 
@@ -130,7 +130,7 @@ print(list(evens))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program performing
 # operation using def()
 def fun(x, y, z):
@@ -146,13 +146,13 @@ print(d)    
 
 *   **输出:**
 
-```
+```py
 5
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program performing
 # operation using lambda
 
@@ -162,7 +162,7 @@ print(d)
 
 *   **输出:**
 
-```
+```py
 5
 ```
 
@@ -174,7 +174,7 @@ print(d)
 
 ## 蟒蛇 3
 
-```
+```py
 def func(x):
     if x == 1:
         return "one"
@@ -190,13 +190,13 @@ print(num)
 
 *   **输出:**
 
-```
+```py
 three
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing use
 # of lambda function
 num = (lambda x: "one" if x == 1 else( "two" if x == 2
@@ -206,7 +206,7 @@ print(num)
 
 *   **输出:**
 
-```
+```py
 three
 ```
 
@@ -214,13 +214,13 @@ three
 
 *   **lambda 表达式的赋值:**官方 python 风格指南 [PEP8](https://www.python.org/dev/peps/pep-0008/) 强烈反对赋值 lambda 表达式，如下例所示。
 
-```
+```py
 func = lambda x, y, z: x*y + z
 ```
 
 *   相反，建议编写一个单行函数，
 
-```
+```py
 def func(x, y, z): return x*y + z 
 ```
 
@@ -228,7 +228,7 @@ def func(x, y, z): return x*y + z
 
 ## 蟒蛇 3
 
-```
+```py
 func = lambda x, y, z: x * y + z
 print(func)
 def func(x, y, z): return x * y + z
@@ -237,27 +237,27 @@ print(func)
 
 *   **围绕函数包装 lambda 表达式:**很多时候，lambda 表达式是不必要的围绕函数包装的，如下图所示。
 
-```
+```py
 nums = [-2, -1, 0, 1, 2]
 sort = sorted(nums, key=lambda x: abs(x))
 ```
 
 *   虽然上面的语法绝对正确，但是程序员必须明白 python 中的所有函数都可以作为函数对象传递。因此，相同的代码可以(也应该)写成，
 
-```
+```py
 sort = sorted(nums, key=abs)
 ```
 
 *   **不必要地传递函数:**很多时候，程序员传递的函数只执行一个操作。请参见以下代码。
 
-```
+```py
 nums = [1, 2, 3, 4, 5]
 summation = reduce(lambda x, y: x + y, nums)
 ```
 
 *   上面传递的 lambda 函数只执行一个操作，将两个参数相加。使用内置函数**和**可以得到同样的结果，如下图所示。
 
-```
+```py
 nums = [1, 2, 3, 4, 5]
 summation = sum(nums)
 ```
@@ -270,7 +270,7 @@ summation = sum(nums)
 
 ## 蟒蛇 3
 
-```
+```py
 details = [{'p':100, 'r':0.01, 'n':2, 't':4},
            {'p':150, 'r':0.04, 'n':1, 't':5},
            {'p':120, 'r':0.05, 'n':5, 't':2}]
@@ -288,7 +288,7 @@ print(sorted_details)
 
 ## 蟒蛇 3
 
-```
+```py
 details = [{'p':100, 'r':0.01, 'n':2, 't':4},
            {'p':150, 'r':0.04, 'n':1, 't':5},
            {'p':120, 'r':0.05, 'n':5, 't':2}]
@@ -311,7 +311,7 @@ print(sorted_details)
 
 *   另请参见下面使用 **def** 的代码。
 
-```
+```py
 def Key(person):
     name, sex, age = person
     return sex
@@ -323,7 +323,7 @@ sorted_people = sorted(people, key=Key)
 
 ## 蟒蛇 3
 
-```
+```py
 nums = [0, 1, 2, 3, 4, 5]
 mapped = map(lambda x: x * x, nums)
 filtered = filter(lambda x: x % 2, nums)
@@ -335,7 +335,7 @@ print(list(filtered))
 
 ## 蟒蛇 3
 
-```
+```py
 nums = [0, 1, 2, 3, 4, 5]
 mapped = (x * x for x in nums)
 filtered = (x for x in nums if x % 2 == 1)
@@ -348,14 +348,14 @@ print(list(filtered))
 *   **高阶函数的使用:**接受其他函数对象作为自变量的函数称为[高阶函数](https://www.geeksforgeeks.org/higher-order-functions-currying/)(即 map()和 filter())，在[函数编程](https://www.geeksforgeeks.org/functional-programming-paradigm/)中很常见。如上所述，lambda 表达式通常用作高阶函数的函数参数。比较下面显示的两个代码块。
     使用高阶函数减少()
 
-```
+```py
 nums = [1, 2, 3, 4, 5]
 product = reduce(lambda x, y: x*y, nums, 1)
 ```
 
 *   不使用高阶函数
 
-```
+```py
 nums = [1, 2, 3, 4, 5]
 def multiply(nums):
     prod = 1

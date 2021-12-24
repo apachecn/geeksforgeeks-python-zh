@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert .tsv file to .csv file
 # importing re library
 import re
@@ -38,7 +38,7 @@ print("Successfully made csv file")
 
 **输出:**
 
-```
+```py
 Successfully made csv file
 ```
 
@@ -56,7 +56,7 @@ Successfully made csv file
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert .tsv file to .csv file
 # importing pandas library
 import pandas as pd 
@@ -75,7 +75,7 @@ print("Successfully made csv file")
 
 **输出:**
 
-```
+```py
 Successfully made csv file
 ```
 

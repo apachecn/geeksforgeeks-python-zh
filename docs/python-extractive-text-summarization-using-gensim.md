@@ -20,7 +20,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from gensim.summarization.summarizer import summarize
 from gensim.summarization import keywords
 import wikipedia
@@ -51,7 +51,7 @@ print(summ_words)
 
 **输出**T2】
 
-```
+```py
 Percent summary
 Amitabh Bachchan (pronounced [?m??ta?b? ?b?t???n]; born Inquilaab Srivastava;
 11 October 1942) is an Indian film actor, film producer, television host, 
@@ -66,7 +66,7 @@ which Bachchan won for his performances throughout the years, he has been
 awarded several honours for his achievements in the Indian film industry.
 ```
 
-```
+```py
 Word count summary
 Beyond the Indian subcontinent, he also has a large overseas following 
 in markets including Africa (such as South Africa), the Middle East 

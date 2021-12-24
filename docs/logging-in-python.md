@@ -55,7 +55,7 @@ Python 有一个内置的日志记录模块**，允许将状态消息写入文�
 
     之后，创建一个对象，并使用示例中所示的各种方法。
 
-    ```
+    ```py
     #importing module
     import logging
 

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # library
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -78,7 +78,7 @@ plt.imshow(img2)
 
 ## 蟒蛇 3
 
-```
+```py
 # library
 from PIL import Image
 import matplotlib.pyplot as plt

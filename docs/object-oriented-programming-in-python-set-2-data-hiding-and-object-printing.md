@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 class MyClass:
 
     # Hidden member of MyClass
@@ -33,7 +33,7 @@ print (myObject.__hiddenVariable)
 
 输出:
 
-```
+```py
 2
 7
 Traceback (most recent call last):
@@ -48,7 +48,7 @@ no attribute '__hiddenVariable'
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate that hidden
 # members can be accessed outside a class
 class MyClass:
@@ -63,7 +63,7 @@ print(myObject._MyClass__hiddenVariable)
 
 输出:
 
-```
+```py
 10
 ```
 
@@ -76,7 +76,7 @@ print(myObject._MyClass__hiddenVariable)
 
 ## 计算机编程语言
 
-```
+```py
 class Test:
     def __init__(self, a, b):
         self.a = a
@@ -97,7 +97,7 @@ print([t]) # This calls __repr__()
 
 输出:
 
-```
+```py
 From str method of Test: a is 1234,b is 5678
 [Test a:1234 b:5678]
 ```
@@ -108,7 +108,7 @@ From str method of Test: a is 1234,b is 5678
 
 ## 计算机编程语言
 
-```
+```py
 class Test:
     def __init__(self, a, b):
         self.a = a
@@ -124,7 +124,7 @@ print(t)
 
 输出:
 
-```
+```py
 Test a:1234 b:5678
 ```
 
@@ -132,7 +132,7 @@ Test a:1234 b:5678
 
 ## 计算机编程语言
 
-```
+```py
 class Test:
     def __init__(self, a, b):
         self.a = a
@@ -145,7 +145,7 @@ print(t)
 
 输出:
 
-```
+```py
 <__main__.Test instance at 0x7fa079da6710> 
 ```
 

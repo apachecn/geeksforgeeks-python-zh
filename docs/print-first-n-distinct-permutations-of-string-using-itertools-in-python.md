@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : string = "abcab", n = 10
 Output : aabbc aabcb aacbb ababc abacb
                 abbac abbca abcab abcba acabb
@@ -24,7 +24,7 @@ Python 提供了一种内置的方法来查找`itertools` 包中存在的任何�
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 program to print first n unique 
 # permutations of the string using itertools
 from itertools import permutations
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 **Output:**
 
-```
+```py
 aabbc
 aabcb
 aacbb

@@ -23,7 +23,7 @@ Tweepy 模块中`API`类的 **`user_timeline()`** 方法用于获取认证用户
 
 **例 1 :**
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,14 +53,14 @@ print(str(len(statuses)) + " number of statuses have been fetched.")
 
 **输出:**
 
-```
+```py
 20 number of statuses have been fetched.
 
 ```
 
 **示例 2:** 使用带有计数参数的`user_timeline()`方法仅获取指定数量的状态。
 
-```
+```py
 # screen name of the account to be fetched
 screen_name = "geeksforgeeks"
 
@@ -77,7 +77,7 @@ for status in statuses:
 
 **输出:**
 
-```
+```py
 Hola Geeks!
 .
 Tell us what did you learned during this lockdown?

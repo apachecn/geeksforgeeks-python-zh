@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```py
 # Import math Library
 import math
 
@@ -24,7 +24,7 @@ print (math.e)
 
 **输出:**
 
-```
+```py
 2.718281828459045
 
 ```
@@ -37,7 +37,7 @@ print (math.e)
 
 **示例:**
 
-```
+```py
 # Import math Library
 import math
 
@@ -47,7 +47,7 @@ print (math.pi)
 
 **输出:**
 
-```
+```py
 3.141592653589793
 
 ```
@@ -60,7 +60,7 @@ print (math.pi)
 
 **示例:**
 
-```
+```py
 # Import math Library
 import math
 
@@ -70,7 +70,7 @@ print (math.tau)
 
 **输出:**
 
-```
+```py
 6.283185307179586
 
 ```
@@ -84,7 +84,7 @@ print (math.tau)
 
 **示例:**
 
-```
+```py
 # Import math Library
 import math
 
@@ -97,7 +97,7 @@ print (-math.inf)
 
 **输出:**
 
-```
+```py
 inf
 -inf
 
@@ -111,7 +111,7 @@ inf
 
 **示例:**
 
-```
+```py
 # Import math Library
 import math
 
@@ -121,7 +121,7 @@ print (math.nan)
 
 **输出:**
 
-```
+```py
 nan
 
 ```

@@ -6,7 +6,7 @@
 
 **与可变性指标相关的术语:**
 
-```
+```py
 -> Deviation 
 -> Variance
 -> Standard Deviation
@@ -21,7 +21,7 @@
 *   **偏差:**我们可以称之为——误差或残差。它是衡量值与中心值/观察值之间差异/分散程度的标准。
     T3】例:
 
-```
+```py
 Sequence : [2, 3, 5, 6, 7, 9] 
 Suppose, Central/Observed Value = 7
 
@@ -34,7 +34,7 @@ Deviation = [-5, -4, -2, -1, 0, 2]
 
 **示例:**
 
-```
+```py
 Sequence : [2, 3, 5, 6, 7, 9] 
 Mean              = 5.33
 Total Terms, n    = 6
@@ -47,7 +47,7 @@ Variance          = Squared Deviation / n
 
 ## 蟒蛇 3
 
-```
+```py
 # Variance
 
 import numpy as np
@@ -61,7 +61,7 @@ print("Variance : ", var)
 
 **输出:**
 
-```
+```py
 Variance :  5.5555555555555545
 ```
 
@@ -71,7 +71,7 @@ Variance :  5.5555555555555545
 
 **示例:**
 
-```
+```py
 Sequence : [2, 3, 5, 6, 7, 9] 
 Mean              = 5.33
 Total Terms, n    = 6
@@ -86,7 +86,7 @@ Standard Deviation   = (Variance)1/2
 
 ## 蟒蛇 3
 
-```
+```py
 # Standard Deviation
 
 import numpy as np
@@ -100,7 +100,7 @@ print("Standard Deviation : ", std)
 
 **输出:**
 
-```
+```py
 Standard Deviation :  2.357022603955158
 ```
 
@@ -110,7 +110,7 @@ Standard Deviation :  2.357022603955158
 
 **示例:**
 
-```
+```py
 Sequence : [2, 4, 6, 8] 
 Mean     = 5
 Deviation around mean = [-3, -1, 1, 3]
@@ -120,7 +120,7 @@ Mean Absolute Deviation = (3 + 1 + 1 + 3)/ 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Mean Absolute Deviation
 
 import numpy as np
@@ -136,6 +136,6 @@ print ("Mean Absolute Deviation : ", mad(Sequence))
 
 **输出:**
 
-```
+```py
 Mean Absolute Deviation :  2.0
 ```

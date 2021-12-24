@@ -9,7 +9,7 @@
 **安装:**
 这里我们使用 Python PyPDF2 的库来合并 PDF。
 
-```
+```py
 pip install PyPDF2
 ```
 
@@ -17,7 +17,7 @@ pip install PyPDF2
 
 下面是实现。
 
-```
+```py
 from io import BytesIO, SEEK_SET, SEEK_END
 import PyPDF2 
 import requests

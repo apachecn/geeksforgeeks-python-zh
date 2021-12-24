@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ join()**
 列表理解是解决这个问题最简单的方法。我们可以只迭代所有索引中的特定索引值，并将其存储在列表中，然后使用 join()连接它。
 
-```
+```py
 # Python3 code to demonstrate 
 # Concatenating Kth element in Tuple List
 # using list comprehension 
@@ -30,7 +30,7 @@ print ("String with only Kth tuple element (i.e names) concatenated : " + str(re
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 'Rash', 21), (2, 'Varsha', 20), (3, 'Kil', 19)]
 String with only Kth tuple element (i.e names) concatenated : Rash Varsha Kil
 

@@ -13,7 +13,7 @@
 **方法:使用`isinstance() + toupper()` +递归+循环**
 以上功能的组合也可以用来解决这个问题。在本文中，我们使用 toupper()来执行键的大写，递归也用于在嵌套键中执行键操作。isinstance()用于检查嵌套是否是字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change Keys Case in Dictionary
 # Using isinstance() + toupper() + recursion + loop
@@ -44,7 +44,7 @@ print("The modified dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'is': {'for': 2}, 'Gfg': {'b': 6, 'a': 5}, 'best': 3}
 The modified dictionary : {'GFG': {'A': 5, 'B': 6}, 'IS': {'FOR': 2}, 'BEST': 3}
 

@@ -12,7 +12,7 @@ Python 是一种非常用户友好的语言，唯一的缺点是速度慢。与 
 
 **示例:**
 
-```
+```py
 Input : 
 5
 1 2 3 4 5
@@ -28,7 +28,7 @@ Output :
 
 ## 计算机编程语言
 
-```
+```py
 # basic method of input output
 # input N
 n = int(raw_input())
@@ -54,7 +54,7 @@ print(summation)
 
 ## 计算机编程语言
 
-```
+```py
 # import inbuilt standard input output
 from sys import stdin, stdout
 
@@ -104,13 +104,13 @@ if __name__ == "__main__":
 
 假设输入为以下形式
 
-```
+```py
 5 7 19 20
 ```
 
 我们需要单独的变量来引用它们。我们想要的是:
 
-```
+```py
 a = 5
 b = 7
 c = 19
@@ -121,7 +121,7 @@ d = 20
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 def get_ints(): return map(int, sys.stdin.readline().strip().split())
 
@@ -134,13 +134,13 @@ a,b,c,d = get_ints()
 
 假设输入为以下形式
 
-```
+```py
 1 2 3 4 5 6 7 8
 ```
 
 我们希望一个变量可以保存整数的完整列表。我们想要的是:
 
-```
+```py
 Arr = [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
@@ -148,7 +148,7 @@ Arr = [1, 2, 3, 4, 5, 6, 7, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 def get_ints(): return list(map(int, sys.stdin.readline().strip().split()))
 
@@ -161,13 +161,13 @@ Arr = get_ints()
 
 假设输入为以下形式
 
-```
+```py
 GeeksforGeeks is the best platform to practice Coding.
 ```
 
 我们希望有一个引用变量来保存这个字符串。我们想要的是:
 
-```
+```py
 string = "GeeksforGeeks if the best platform to practice coding."
 ```
 
@@ -175,7 +175,7 @@ string = "GeeksforGeeks if the best platform to practice coding."
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 def get_string(): return sys.stdin.readline().strip()
 
@@ -190,7 +190,7 @@ string = get_string()
 
 ## 计算机编程语言
 
-```
+```py
 # template begins
 #####################################
 

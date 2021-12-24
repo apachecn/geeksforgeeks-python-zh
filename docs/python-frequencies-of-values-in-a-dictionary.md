@@ -13,7 +13,7 @@
 **方法一:使用`defaultdict()` +循环**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 defaultdict()用整数初始化计数器字典，并使用循环以暴力方式增加计数器。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Values Frequency
 # Using defaultdict() + loop
@@ -37,7 +37,7 @@ print("The frequency dictionary : " + str(dict(res))) 
 
 **Output:**
 
-```
+```py
 The original dictionary : {'Gfg': 3, 'code': 2, 'ide': 3}
 The frequency dictionary : {2: 1, 3: 2}
 
@@ -46,7 +46,7 @@ The frequency dictionary : {2: 1, 3: 2}
 **方法 2:使用`Counter() + values()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 values()执行值提取任务，使用 counter()执行频率计数器提取任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Dictionary Values Frequency
 # Using Counter() + values()
@@ -68,7 +68,7 @@ print("The frequency dictionary : " + str(dict(res))) 
 
 **Output:**
 
-```
+```py
 The original dictionary : {'code': 2, 'Gfg': 3, 'ide': 3}
 The frequency dictionary : {2: 1, 3: 2}
 

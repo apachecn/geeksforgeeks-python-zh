@@ -35,7 +35,7 @@ Tkinter 提供的一些字体有:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter.Tk and widgets
 from tkinter import Tk, font
 from tkinter.ttk import Button, Label

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy
@@ -47,13 +47,13 @@ print(df1.join(df2))
 
 数据帧 df1 和 df2 具有公共列 sepal_length(cm)，即两个数据帧的交集不为空。要检查是否有交叉列:
 
-```
+```py
 print(df1.columns.intersection(df2.columns))
 ```
 
 **输出:**
 
-```
+```py
 Index(['sepal_length(cm)'], dtype='object')
 ```
 
@@ -69,7 +69,7 @@ sepal_length(cm)是这里的交集列。
 
 **语法**:
 
-```
+```py
 df1.join(df2, lsuffix='suffix_name', rsuffix='suffix_name')
 ```
 
@@ -82,7 +82,7 @@ df1.join(df2, lsuffix='suffix_name', rsuffix='suffix_name')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy
@@ -117,7 +117,7 @@ print(df1.join(df2, lsuffix='_left', rsuffix='_right'))
 
 **语法**:
 
-```
+```py
 pd.merge(df1,df2, how='join_type', on=None, left_on= None, 
 right_on = None, left_index =boolean, 
 right_index=boolean, sort=boolean)
@@ -134,7 +134,7 @@ right_index=boolean, sort=boolean)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 # importing numpy

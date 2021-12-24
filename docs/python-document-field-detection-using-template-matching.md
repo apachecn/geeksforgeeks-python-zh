@@ -25,7 +25,7 @@
 
 下面是 Python 代码:
 
-```
+```py
 # importing libraries
 import numpy as np
 import imutils

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import gc module
 import gc
 
@@ -44,7 +44,7 @@ gc.get_objects()
 
 ## 蟒蛇 3
 
-```
+```py
 # import gc module
 import gc
 

@@ -19,13 +19,13 @@ Pygame 是一个 python 库，可以专门用来设计和构建游戏。Pygame �
 
 在初始化 pygame 库之前，我们需要安装它。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pygame
 ```
 
 在安装完 pygame 库之后，我们需要编写以下几行来初始化 pygame 库:-
 
-```
+```py
 import pygame
 pygame.init()
 ```
@@ -33,7 +33,7 @@ pygame.init()
 这些台词很容易理解。pygame.init()函数启动 pygame 库。
 然后我们需要初始化我们想要放置区块的屏幕。这可以通过写下面几行来完成:-
 
-```
+```py
 res = (720, 720)
 screen = pygame.display.set_mode(res)
 ```
@@ -41,7 +41,7 @@ screen = pygame.display.set_mode(res)
 元组 res 包含两个定义游戏分辨率的值。然后，我们需要定义另一个变量屏幕，它实际上将充当我们的工作台。这可以通过使用 pygame.display.set_mode((arg，arg))来完成。元组(arg，arg)可以存储到变量 res 中，以减少处理器负载。
 现在我们需要一个实际的屏幕来弹出，当我们运行代码时，这可以通过一个 for 和 while 循环来完成，方式如下:-
 
-```
+```py
 while True:
 for ev in pygame.event.get():
 if ev.type==pygame.QUIT:
@@ -53,7 +53,7 @@ pygame.quit()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # 8 bit game
 

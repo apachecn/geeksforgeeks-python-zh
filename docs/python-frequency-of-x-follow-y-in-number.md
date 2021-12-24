@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的蛮力方式。在这种情况下，我们遍历列表，不断检查结果的前一个和当前数字，并不断增加计数器。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Frequency of x follow y in Number
 # using loop
@@ -41,7 +41,7 @@ print("The count of x preceding y : " + str(res))
 
 **Output :**
 
-```
+```py
 The original number : 12457454
 The count of x preceding y : 2
 

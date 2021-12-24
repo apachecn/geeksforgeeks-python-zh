@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `enumerate()`**
 以上方法的组合可以用来执行这个任务。在本例中，我们使用循环和蛮力执行迭代任务，并借助 enumerate()在结果列表中执行适当的追加。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List of Dictionaries to List of Lists
 # Using loop + enumerate()
@@ -48,7 +48,7 @@ print("The converted list : " + str(res)) 
 **方法 2:使用列表理解**
 这个任务可以使用列表理解一行解决。在本例中，我们最初使用 key()提取键，使用 value()提取值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert List of Dictionaries to List of Lists
 # Using list comprehension

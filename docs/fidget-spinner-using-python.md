@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initial state of spinner is null (stable)
 state= {'turn':0 }
 
@@ -64,7 +64,7 @@ def spin():
 
 ## 蟒蛇 3
 
-```
+```py
 # Animate fidget spinner
 def animate():
     if state['turn'] > 0:
@@ -80,7 +80,7 @@ def animate():
 
 ## 蟒蛇 3
 
-```
+```py
 # Flick fidget spinner
 def flick():
 
@@ -111,7 +111,7 @@ done()
 
 ## 蟒蛇 3
 
-```
+```py
 # import object from module turtle
 from turtle import *
 

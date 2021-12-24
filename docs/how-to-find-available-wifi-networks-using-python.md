@@ -27,7 +27,7 @@ WiFi (Wireless Fidelity)是一种无线技术，允许计算机(笔记本电脑�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the subprocess module
 import subprocess
 

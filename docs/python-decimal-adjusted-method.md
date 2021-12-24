@@ -12,7 +12,7 @@
 
 **代码#1:调整()方法示例**
 
-```
+```py
 # Python Program explaining 
 # adjusted() method
 
@@ -36,7 +36,7 @@ print ("Decimal b with adjusted() method : ", b.adjusted())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -47,7 +47,7 @@ Decimal b with adjusted() method :  -1
 
 **代码#2:调整()方法示例**
 
-```
+```py
 # Python Program explaining 
 # adjusted() method
 
@@ -71,7 +71,7 @@ print ("Decimal b with adjusted() method : ", b.adjusted())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

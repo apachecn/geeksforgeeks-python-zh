@@ -15,7 +15,7 @@
 
 下面是实现
 
-```
+```py
 # importing the module
 import imdb
 
@@ -46,14 +46,14 @@ print("Total seasons = " + str(n))
 
 **输出:**
 
-```
+```py
 Money Heist
 Total seasons = 4
 ```
 
 另一个例子
 
-```
+```py
 # importing the module
 import imdb
 
@@ -84,7 +84,7 @@ print("Total seasons = " + str(n))
 
 **输出:**
 
-```
+```py
 Sacred Games
 Total seasons = 2
 ```

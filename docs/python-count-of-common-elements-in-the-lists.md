@@ -7,7 +7,7 @@
 **方法#1:使用 `sum() + zip()`**
 可以通过将执行两个列表相互映射任务的`zip()`传递给根据相等指数计算总和的`sum()`来执行该任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Identical element summation in lists
 # using sum() + zip()
@@ -30,7 +30,7 @@ print("Summation of Identical elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [5, 6, 10, 4, 7, 1, 19]
 The original list 2 is : [6, 6, 10, 3, 7, 10, 19]
 Summation of Identical elements : 4

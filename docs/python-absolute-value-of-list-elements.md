@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `abs()`**
 这个任务可以使用列表理解技术来执行，在该技术中，我们只需迭代每个元素，并使用`abs()`不断找到它的绝对值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Absolute value of list elements
 # using abs() + list comprehension
@@ -28,7 +28,7 @@ print("Absolute value list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, -6, 7, -8, -10]
 Absolute value list : [5, 6, 7, 8, 10]
 

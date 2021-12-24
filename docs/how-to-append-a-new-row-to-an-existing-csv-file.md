@@ -26,7 +26,7 @@
 
 让我们将一个要添加的列表作为新行。
 
-```
+```py
 List=[6,'William',5532,1,'UAE']
 
 ```
@@ -35,7 +35,7 @@ List=[6,'William',5532,1,'UAE']
 
 ## 蟒蛇 3
 
-```
+```py
 # Import writer class from csv module
 from csv import writer
 
@@ -81,7 +81,7 @@ with open('event.csv', 'a') as f_object:
 
 让我们将一个要添加的字典作为新行。
 
-```
+```py
 dict={'ID':6,'NAME':'William','RANK':5532,'ARTICLE':1,'COUNTRY':'UAE'}
 
 ```
@@ -90,7 +90,7 @@ dict={'ID':6,'NAME':'William','RANK':5532,'ARTICLE':1,'COUNTRY':'UAE'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Import DictWriter class from CSV module
 from csv import DictWriter
 

@@ -12,7 +12,7 @@
 
 **2。pop()** :-此方法**删除其参数中提到的位置**处的元素**。**
 
-```
+```py
 # Python code to demonstrate the working of
 # del and pop()
 
@@ -42,7 +42,7 @@ for i in range(0, len(lis)):
 
 输出:
 
-```
+```py
 List elements after deleting are : 2 1 3 8 
 List elements after popping are : 2 1 8 
 
@@ -52,7 +52,7 @@ List elements after popping are : 2 1 8
 
 **4。remove()** :-此函数用于**删除其参数中提到的数字的第一个出现的**。
 
-```
+```py
 # Python code to demonstrate the working of
 # insert() and remove()
 
@@ -81,7 +81,7 @@ for i in range(0, len(lis)):
 
 输出:
 
-```
+```py
 List elements after inserting 4 are : 2 1 3 4 5 3 8 
 List elements after removing are : 2 1 4 5 3 8 
 
@@ -91,7 +91,7 @@ List elements after removing are : 2 1 4 5 3 8
 
 **6。反向()** :-此功能**反向**列表的元素。
 
-```
+```py
 # Python code to demonstrate the working of
 # sort() and reverse()
 
@@ -119,7 +119,7 @@ for i in range(0, len(lis)):
 
 输出:
 
-```
+```py
 List elements after sorting are : 1 2 3 3 5 8 
 List elements after reversing are : 8 5 3 3 2 1 
 
@@ -129,7 +129,7 @@ List elements after reversing are : 8 5 3 3 2 1
 
 **8。clear()** :-该功能用于**清除列表的所有元素**。此操作后，列表变为空。
 
-```
+```py
 # Python code to demonstrate the working of
 # extend() and clear()
 
@@ -160,7 +160,7 @@ for i in range(0, len(lis1)):
 
 输出:
 
-```
+```py
 List elements after extending are : 2 1 3 5 6 4 3 
 List elements after clearing are : 
 

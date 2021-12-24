@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract String till Numeric
 # Using isdigit() + index() + loop
@@ -44,7 +44,7 @@ print("Extracted String : " + str(test_str[0 : temp])) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks is best
 Extracted String : geeks
 
@@ -56,7 +56,7 @@ Extracted String : geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract String till Numeric
 # Using regex()
@@ -77,7 +77,7 @@ print("Extracted String : " + str(res[0])) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks is best
 Extracted String : geeks
 

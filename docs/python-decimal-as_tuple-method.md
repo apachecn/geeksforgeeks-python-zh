@@ -15,7 +15,7 @@
 
 **代码# 1:as _ tuple()方法示例**
 
-```
+```py
 # Python Program explaining 
 # as_tuple() method
 
@@ -39,7 +39,7 @@ print ("Decimal b with as_tuple() method : ", b.as_tuple())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -1
 Decimal value b :  0.142857
 
@@ -50,7 +50,7 @@ Decimal b with as_tuple() method :  DecimalTuple(sign=0, digits=(1, 4, 2, 8, 5, 
 
 **代码# 2:as _ tuple()方法示例**
 
-```
+```py
 # Python Program explaining 
 # as_tuple() method
 
@@ -74,7 +74,7 @@ print ("Decimal b with as_tuple() method : ", b.as_tuple())
 
 **输出:**
 
-```
+```py
 Decimal value a :  -3.14
 Decimal value b :  3.21E+7
 

@@ -8,7 +8,7 @@
 
 这个任务可以使用简单的内置字符串函数*和*来执行，其中我们只需要传递所需的零的数量和元素到右边的填充，在这种情况下是零。
 
-```
+```py
 # Python3 code to demonstrate
 # adding trailing zeros
 # using ljust()
@@ -32,7 +32,7 @@ print("The string after adding trailing zeros : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding trailing zeros : GFG0000
 
@@ -42,7 +42,7 @@ The string after adding trailing zeros : GFG0000
 
 使用 format 函数进行字符串格式化可以很容易地执行这个任务，我们只需要提到元素总数、需要填充的元素以及填充的方向，在这种情况下是正确的。
 
-```
+```py
 # Python3 code to demonstrate
 # adding trailing zeros
 # using format()
@@ -68,7 +68,7 @@ print("The string after adding trailing zeros : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GFG
 The string after adding trailing zeros : GFG0000
 

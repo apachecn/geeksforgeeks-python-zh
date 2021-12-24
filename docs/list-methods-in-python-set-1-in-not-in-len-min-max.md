@@ -11,7 +11,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # "in" and "not in"
 # initializing list
@@ -30,7 +30,7 @@ else :  print ("List is having element with value 4")
 
 **输出:**
 
-```
+```py
 List is having element with value 4
 List is having element with value 4
 ```
@@ -41,7 +41,7 @@ List is having element with value 4
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # len(), min() and max()
 # initializing list 1
@@ -62,7 +62,7 @@ print (max(lis))
 
 **输出:**
 
-```
+```py
 The length of list is : 5
 The minimum element of list is : 1
 The maximum element of list is : 5
@@ -73,7 +73,7 @@ The maximum element of list is : 5
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # "+" and "*"
 # initializing list 1
@@ -103,7 +103,7 @@ for i in range(0,len(lis3)):
 
 **输出:**
 
-```
+```py
 list after concatenation is : 1 2 3 4 5 6 
 list after combining is : 1 2 3 1 2 3 1 2 3 
 ```
@@ -113,7 +113,7 @@ list after combining is : 1 2 3 1 2 3 1 2 3
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # index() and count()
 # initializing list 1
@@ -131,7 +131,7 @@ print (lis.count(3))
 
 **输出:**
 
-```
+```py
 The first occurrence of 3 after 3rd position is : 5
 The number of occurrences of 3 is : 2
 ```

@@ -17,7 +17,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import base64
 
 with open("food.jpeg", "rb") as image2string:
@@ -49,7 +49,7 @@ with open('encode.bin', "wb") as file:
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import base64
 
 file = open('encode.bin', 'rb')

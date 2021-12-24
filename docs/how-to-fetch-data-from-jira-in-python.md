@@ -27,7 +27,7 @@ JIRA 是一个 Python 库，用于连接 JIRA 工具。与应用编程接口方�
 
 **使用命令**安装 jira
 
-```
+```py
 pip install jira
 ```
 
@@ -44,7 +44,7 @@ pip install jira
 
 ## 计算机编程语言
 
-```
+```py
 # import the installed Jira library
 from jira import JIRA
 
@@ -78,7 +78,7 @@ for singleIssue in jira.search_issues(jql_str='project = MedicineAppBugs'):
 
 ## 计算机编程语言
 
-```
+```py
 # import the installed Jira library
 from jira import JIRA
 
@@ -145,7 +145,7 @@ JIRA 服务器平台为问题和工作流提供了 REST 应用编程接口。它
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 import requests
 from requests.auth import HTTPBasicAuth

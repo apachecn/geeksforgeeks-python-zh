@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们遍历列表，并使用理解和枚举()执行组合。
 
-```
+```py
 # Python3 code to demonstrate 
 # Dual element Rows Combinations
 # using list comprehension + enumerate()
@@ -30,7 +30,7 @@ print ("Combination of dual rows list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[3, 4], [5, 6], [7, 8]]
 Combination of dual rows list is : [[3, 4, 5, 6], [5, 6, 7, 8], [7, 8, 3, 4]]
 

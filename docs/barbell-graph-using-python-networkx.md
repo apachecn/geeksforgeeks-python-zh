@@ -24,13 +24,13 @@
 
 1.节点总数(在 n-杠铃图中):
 
-```
+```py
 The Total number of Nodes = 2*N
 ```
 
 2.总边数(在 n-杠铃图中):
 
-```
+```py
 Total number of edges = 2*number of edgesin complete graph + 1
 =2*(n*(n-1)/2)+1 = n*(n-1) + 1
 ```
@@ -48,13 +48,13 @@ Total number of edges = 2*number of edgesin complete graph + 1
 
 *   **python 中的 networkx 库**库，用于实现和分析 python 中不同种类的图形(数据结构)。对于安装，请使用以下命令:
 
-```
+```py
 pip install networkx
 ```
 
 *   **matplotlib 库:**python 中的库，用于实现和分析 python 中不同种类的函数。对于安装，请使用以下命令:
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -70,7 +70,7 @@ pip install matplotlib
 
 ## 计算机编程语言
 
-```
+```py
 # import module
 import networkx as nx  
 import matplotlib.pyplot as plt 
@@ -92,7 +92,7 @@ Python 中的杠铃图
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx  
 import matplotlib.pyplot as plt
 

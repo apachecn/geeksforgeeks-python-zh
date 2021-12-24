@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 menu = Menu(master, **options)
 ```
 
@@ -22,7 +22,7 @@ menu = Menu(master, **options)
 
 弹出式菜单是出现在用户交互中的上下文菜单。该菜单可以显示在客户端窗口的任何地方。下面是使用 Tkinter 库创建弹出菜单的 python 代码。
 
-```
+```py
 #creating popup menu in tkinter
 import tkinter
 

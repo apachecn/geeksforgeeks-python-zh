@@ -7,7 +7,7 @@
 **方法#1:使用`join()`**
 我们可以通过使用连接方法来简化这个任务，在该方法中，我们通过传递的分隔符(在本例中是逗号)将列表中的字符串连接在一起，从而解决了这个问题。
 
-```
+```py
 # Python3 code to demonstrate  
 # avoiding printing last comma
 # using join()
@@ -26,7 +26,7 @@ print (', '.join(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : ['Geeks', 'For', 'Geeks']
 The formatted output is : 
 Geeks, For, Geeks

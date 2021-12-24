@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个任务的方法之一。在本文中，我们使用循环迭代字符串的字符串列表，并根据 delim 执行连接操作。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert String list to Joined Single element
 # Using loop
@@ -36,7 +36,7 @@ print("String after performing join : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 String after performing join : ['gfg-is-best']
 

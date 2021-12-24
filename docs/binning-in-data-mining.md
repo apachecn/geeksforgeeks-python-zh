@@ -10,7 +10,7 @@
 
 **等频:**
 
-```
+```py
 Input:[5, 10, 11, 13, 15, 35, 50, 55, 72, 92, 204, 215] 
 
 Output:
@@ -21,7 +21,7 @@ Output:
 
 **等宽:**
 
-```
+```py
 Input: [5, 10, 11, 13, 15, 35, 50, 55, 72, 92, 204, 215]
 
 Output:
@@ -34,7 +34,7 @@ Output:
 
 ## 巴拉圭
 
-```
+```py
 # equal frequency
 def equifreq(arr1, m):   
     a = len(arr1)
@@ -80,7 +80,7 @@ equiwidth(data, 3)
 
 **输出:**
 
-```
+```py
 equal frequency binning
 [5, 10, 11, 13]
 [15, 35, 50, 55]

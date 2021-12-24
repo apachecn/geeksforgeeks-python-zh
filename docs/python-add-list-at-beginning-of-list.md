@@ -7,7 +7,7 @@
 **方法#1:使用 `"+" operator`**
 可以使用“+”运算符来执行该特定任务。在这种情况下，我们只需先添加一个列表，然后构建一个新的列表或添加到同一个列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adding list at beginning of list
 # using "+" operator
@@ -34,7 +34,7 @@ print("The original updated list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 7, 6]
 The add list is : [3, 4, 2, 10]
 The original updated list is : [3, 4, 2, 10, 1, 4, 5, 7, 6]

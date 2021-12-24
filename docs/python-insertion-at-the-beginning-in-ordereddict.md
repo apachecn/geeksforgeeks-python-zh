@@ -5,7 +5,7 @@
 给定一个有序字典，编写一个程序在有序字典的开头插入条目。
 **示例–**
 
-```
+```py
 Input: 
 original_dict = {'a':1, 'b':2}
 item to be inserted ('c', 3)
@@ -24,7 +24,7 @@ Output:  {'nikhil':3, 'akshat':1, 'manjeet':2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # insertion of items in beginning of ordered dict
 from collections import OrderedDict
@@ -50,7 +50,7 @@ print ("Resultant Dictionary : "+str(iniordered_dict))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # insertion of items in beginning of ordered dict
 from collections import OrderedDict

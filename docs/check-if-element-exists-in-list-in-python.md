@@ -16,7 +16,7 @@ Python 是检查一个元素是否存在于列表中的最常规的方法。如�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # checking of element existence
 # using loops and in
@@ -42,7 +42,7 @@ if (4 in test_list):
 
 **输出:**
 
-```
+```py
 Checking if 4 exists in list ( using loop ) : 
 Element Exists
 Checking if 4 exists in list ( using in ) : 
@@ -63,7 +63,7 @@ Element Exists
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # checking of element existence
 # using set() + in
@@ -101,7 +101,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 """
 Python code to demonstrate
 checking of element existence

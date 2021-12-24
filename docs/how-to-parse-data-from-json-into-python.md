@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing json library
 import json
 
@@ -36,7 +36,7 @@ print("\nValues in Languages: ", geek_dict['Languages'])
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 from collections import OrderedDict
 
@@ -57,7 +57,7 @@ print("Ordered Dictionary: ", data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing json library
 import json
 

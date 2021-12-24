@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter uppercase characters Tuples
 # Using loop
@@ -47,7 +47,7 @@ print("Filtered Tuples : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : [('GFG', 'IS', 'BEST'), ('GFg', 'AVERAGE'), ('GFG', ), ('Gfg', 'CS')]
 Filtered Tuples : [('GFG', 'IS', 'BEST'), ('GFG', )]
 
@@ -59,7 +59,7 @@ Filtered Tuples : [('GFG', 'IS', 'BEST'), ('GFG', )]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Filter uppercase characters Tuples
 # Using list comprehension + all() + isupper()
@@ -79,7 +79,7 @@ print("Filtered Tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('GFG', 'IS', 'BEST'), ('GFg', 'AVERAGE'), ('GFG', ), ('Gfg', 'CS')]
 Filtered Tuples : [('GFG', 'IS', 'BEST'), ('GFG', )]
 

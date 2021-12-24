@@ -26,7 +26,7 @@ PIP 是一个用来安装 python 包的工具。画中画是 Python 2.7 自动�
 
 要安装 Pygame，请打开命令提示符并给出如下所示的命令:
 
-```
+```py
 pip install pygame
 ```
 

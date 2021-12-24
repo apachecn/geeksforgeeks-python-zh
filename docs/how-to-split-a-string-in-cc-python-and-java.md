@@ -7,7 +7,7 @@
 
 ### **In C:**
 
-```
+```py
 // Splits str[] according to given delimiters.
 // and returns next token. It needs to be called
 // in a loop to get all tokens. It returns NULL
@@ -17,7 +17,7 @@ char * strtok(char str[], const char *delims);
 
 ## C
 
-```
+```py
 // A C/C++ program for splitting a string
 // using strtok()
 #include <stdio.h>
@@ -42,7 +42,7 @@ int main()
 }
 ```
 
-```
+```py
 Output: Geeks
     for
     Geeks
@@ -50,7 +50,7 @@ Output: Geeks
 
 ### **在 C++中**
 
-```
+```py
 Note:  The main disadvantage of strtok() is that it only works for C style strings.
        Therefore we need to explicitly convert C++ string into a char array.
        Many programmers are unaware that C++ has two additional APIs which are more elegant
@@ -63,7 +63,7 @@ Note:  The main disadvantage of strtok() is that it only works for C style strin
 
 Stringstream 对象可以使用字符串对象进行初始化，它自动 **<u>在空格字符上标记字符串。</u>** 就像“cin”流 stringstream 让你把一个字符串当成一个单词流来读。
 
-```
+```py
 Some of the Most Common used functions of StringStream.
 clear() — flushes the stream 
 str() —  converts a stream of words into a C++ string object.
@@ -75,7 +75,7 @@ operator >> — extracts a word from the stream.
 
 ## C++
 
-```
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -99,7 +99,7 @@ int main(int argc, char const* argv[])
 }
 ```
 
-```
+```py
 Output : How 
      do 
      you
@@ -114,7 +114,7 @@ Output : How
 
 ## C++
 
-```
+```py
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -140,7 +140,7 @@ int main(int argc, char const* argv[])
 }
 ```
 
-```
+```py
 Output: Hi 
     do 
     you
@@ -154,7 +154,7 @@ Output: Hi
 
 ## C++
 
-```
+```py
 #include <iostream>
 using namespace std;
 
@@ -190,14 +190,14 @@ int main() {
 
 **Output**
 
-```
+```py
 geeks for geeks
 ```
 
 **在 Java 中:**
 在 Java 中，split()是 String 类中的一个方法。
 
-```
+```py
 // expregexp is the delimiting regular expression; 
 // limit is the number of returned strings
 public String[] split(String regexp, int limit);
@@ -208,7 +208,7 @@ public String[] split(String regexp)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // A Java program for splitting a string
 // using split()
 import java.io.*;
@@ -233,7 +233,7 @@ public class Test
 
 **输出:**
 
-```
+```py
 Geeks
 for-Geeks
 
@@ -245,7 +245,7 @@ Geeks
 Python 中的**:**
 Python 中的 split()方法在用指定的分隔符断开给定的字符串后返回一个字符串列表。
 
-```
+```py
 
   // regexp is the delimiting regular expression; 
   // limit is limit the number of splits to be made 
@@ -254,7 +254,7 @@ Python 中的 split()方法在用指定的分隔符断开给定的字符串后�
 
 ## 计算机编程语言
 
-```
+```py
 line = "Geek1 \nGeek2 \nGeek3"
 print(line.split())
 print(line.split(' ', 1))
@@ -262,7 +262,7 @@ print(line.split(' ', 1))
 
 **输出:**
 
-```
+```py
 ['Geek1', 'Geek2', 'Geek3']
 ['Geek1', '\nGeek2 \nGeek3'] 
 ```

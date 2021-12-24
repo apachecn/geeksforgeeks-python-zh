@@ -12,7 +12,7 @@ Python 中的导入类似于 C/C++中的#include header_file。Python 模块可�
 
 ## 计算机编程语言
 
-```
+```py
 class GFG:
 
     # methods
@@ -34,7 +34,7 @@ def method():
 
 ## 蟒蛇
 
-```
+```py
 import module
 
 # Created a class object
@@ -50,7 +50,7 @@ module.method()
 
 **输出:**
 
-```
+```py
 20
 10
 GFG
@@ -60,7 +60,7 @@ GFG
 
 ## 【Python】
 
-```
+```py
 # import module
 from module import method
 
@@ -70,7 +70,7 @@ method()
 
 **输出:**
 
-```
+```py
 GFG
 ```
 

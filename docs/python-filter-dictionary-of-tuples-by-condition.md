@@ -7,7 +7,7 @@
 **方法一:使用`items()` +词典理解**
 这些功能组合在一起就可以完成这个任务。我们可以使用 `items()`访问所有值，条件可以通过字典理解来施加。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Filter dictionary of tuples by condition
 # Using items() + dictionary comprehension
@@ -28,7 +28,7 @@ print("The filtered dictionary is : " +  str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'b': (4, 8), 'a': (6, 3), 'c': (8, 4)}
 The filtered dictionary is : {'a': (6, 3), 'c': (8, 4)}
 

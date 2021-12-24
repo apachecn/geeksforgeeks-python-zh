@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to show that the variables with a value
 # assigned in class declaration, are class variables
 
@@ -50,7 +50,7 @@ print(b.stream) # prints 'mech'
 
 **输出:**
 
-```
+```py
 cse
 cse
 Geek

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Monodigit elements
 # Using list comprehension + all()
@@ -48,7 +48,7 @@ print("Extracted Numbers : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Monodigit elements
 # Using filter() + lambda + all()

@@ -6,7 +6,7 @@
 
 在本教程中我们将使用“luispedro”图像，下面是加载它的命令。
 
-```
+```py
 mahotas.demos.load('luispedro')
 ```
 
@@ -25,13 +25,13 @@ mahotas.demos.load('luispedro')
 
 为了过滤图像，我们将获取 numpy.ndarray 的图像对象，并在索引的帮助下过滤它，下面是这样做的命令
 
-```
+```py
 image = image[:, :, 0]
 ```
 
 **例 1:**
 
-```
+```py
 # importing various libraries
 import numpy as np
 import mahotas
@@ -65,7 +65,7 @@ show()
 
 **例 2:**
 
-```
+```py
 # importing required libraries
 import mahotas
 import numpy as np

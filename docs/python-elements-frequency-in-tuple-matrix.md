@@ -13,7 +13,7 @@
 **方法#1:使用嵌套`chain() + "*" operator + Counter()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 Counter()和嵌套链来执行获取频率的任务，以迎合嵌套，并使用“*”运算符来执行每个元素的解包和打包。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements frequency in Tuple Matrix
 # Using nested chain() + "*" operator + Counter()
@@ -36,7 +36,7 @@ print("Elements frequency : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2)], [(1, 2), (5, 5)]]
 Elements frequency : {4: 1, 5: 3, 3: 1, 2: 4, 1: 1}
 
@@ -45,7 +45,7 @@ Elements frequency : {4: 1, 5: 3, 3: 1, 2: 4, 1: 1}
 **方法 2:使用`chain.from_iterables() + Counter()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 chain.from_iterables()执行打包、解包和展平任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements frequency in Tuple Matrix
 # Using chain.from_iterables() + Counter()
@@ -68,7 +68,7 @@ print("Elements frequency : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2)], [(1, 2), (5, 5)]]
 Elements frequency : {4: 1, 5: 3, 3: 1, 2: 4, 1: 1}
 

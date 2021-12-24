@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -63,7 +63,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # group by studentID by marks 
 dataframe = dataframe.groupBy(
   'student ID').sum('subject marks')
@@ -80,7 +80,7 @@ dataframe.distinct().show()
 
 **输出:**
 
-```
+```py
 Unique ID count after Group By :  5
 the data is 
 +----------+------------------+
@@ -98,7 +98,7 @@ the data is
 
 ## 蟒蛇 3
 
-```
+```py
 # group by studentID by marks 
 dataframe = dataframe.groupBy(
   'student ID').sum('subject marks')
@@ -115,7 +115,7 @@ dataframe.select('student ID').distinct().show()
 
 **输出:**
 
-```
+```py
 Unique ID count after Group By :  5
 the data is 
 +----------+
@@ -139,7 +139,7 @@ the data is
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -181,7 +181,7 @@ FROM DATA GROUP BY 'subject marks'").show()
 
 **输出:**
 
-```
+```py
 +-----------------+
 |count(student ID)|
 +-----------------+

@@ -32,7 +32,7 @@ python 中的数据争论涉及以下功能:
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Import pandas package
 import pandas as pd
 
@@ -58,7 +58,7 @@ df*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Compute average
 c = avg = 0
 for ele in df['Marks']:

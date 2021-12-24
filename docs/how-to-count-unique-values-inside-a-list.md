@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # taking an input list
 input_list = [1, 2, 2, 5, 8, 4, 4, 8]
 
@@ -34,7 +34,7 @@ print("No of unique items are:", count)
 
 **输出:**
 
-```
+```py
 No of unique items are: 5
 
 ```
@@ -45,7 +45,7 @@ No of unique items are: 5
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Counter module
 from collections import Counter
 
@@ -58,7 +58,7 @@ print("No of unique items in the list are:", len(items))
 
 **输出:**
 
-```
+```py
 No of unique items in the list are: 5
 
 ```
@@ -71,7 +71,7 @@ No of unique items in the list are: 5
 
 ## 蟒蛇 3
 
-```
+```py
 input_list = [1, 2, 2, 5, 8, 4, 4, 8]
 
 # converting our list to set
@@ -81,7 +81,7 @@ print("No of unique items in the list are:", len(new_set))
 
 **输出:**
 
-```
+```py
 No of unique items in the list are: 5
 
 ```

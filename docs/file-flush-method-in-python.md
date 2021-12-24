@@ -9,7 +9,7 @@ Python 允许用户通过使用[文件处理](https://www.geeksforgeeks.org/file
 Python 文件处理中的 flush()方法清除文件的内部缓冲区。在 Python 中，文件在关闭时会自动刷新。但是，程序员可以在关闭文件之前使用 flush()方法来刷新文件。
 **语法:**
 
-```
+```py
 fileObject.flush()
 ```
 
@@ -21,7 +21,7 @@ fileObject.flush()
 
 ## 计算机编程语言
 
-```
+```py
 # opening the file in read mode
 fileObject = open("gfg.txt", "r")
 
@@ -40,7 +40,7 @@ fileObject.close()
 
 **输出:**
 
-```
+```py
 Geeks 4 geeks!
 ```
 
@@ -50,7 +50,7 @@ Geeks 4 geeks!
 
 ## 计算机编程语言
 
-```
+```py
 # program to demonstrate the use of flush()
 
 # creating a file
@@ -87,7 +87,7 @@ fileObject.close()
 
 **输出:**
 
-```
+```py
 Before flush():
 Geeks 4 geeks!
 

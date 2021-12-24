@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 array_name[index]
 ```
 
@@ -18,7 +18,7 @@ array_name[index]
 
 **语法:**
 
-```
+```py
 np.array([array elements])
 ```
 
@@ -30,7 +30,7 @@ Python 数组示例
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a array of elements
 arr = [4, 6, 3, 9, 2]
 
@@ -58,7 +58,7 @@ Python 的 numpy 模块数组示例
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing numpy module
 import numpy as np
 

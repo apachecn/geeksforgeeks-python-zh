@@ -6,7 +6,7 @@
 
 **代码#1:使用 argparse 模块**
 
-```
+```py
 '''
 Hypothetical command-line tool for searching a 
 collection of files for one or more text patterns.
@@ -33,7 +33,7 @@ args = parser.parse_args()
 
 上面提到的程序定义了一个命令行解析器，其用法如下
 
-```
+```py
 bash % python3 search.py -h
 usage: search.py [-h] [-p pattern] [-v] [-o OUTFILE] 
   [--speed {slow, fast}] [filename [filename ...]]
@@ -56,7 +56,7 @@ optional arguments:
 
 **代码:下面的会话显示了数据是如何在程序中显示的。**
 
-```
+```py
 bash % python3 search.py foo.txt bar.txt
 usage: search.py [-h] -p pattern [-v] [-o OUTFILE]
   [--speed {fast, slow}] [filename [filename ...]]
@@ -71,7 +71,7 @@ outfile = None
 speed = slow
 ```
 
-```
+```py
 bash % python3 search.py -v -p spam --pat = eggs 
                  foo.txt bar.txt -o results
 filenames = ['foo.txt', 'bar.txt']
@@ -81,7 +81,7 @@ outfile = results
 speed = slow
 ```
 
-```
+```py
 bash % python3 search.py -v -p spam --pat = eggs 
             foo.txt bar.txt -o results \--speed = fast
 filenames = ['foo.txt', 'bar.txt']
@@ -99,14 +99,14 @@ speed = fast
 
 **代码:**参数将所有额外的命令行参数收集到一个列表中。它被用来制作文件名列表
 
-```
+```py
 parser.add_argument(dest = 'filenames',
                     metavar = 'filename', nargs = '*')
 ```
 
 **代码:**参数根据是否提供了该参数来设置布尔标志
 
-```
+```py
 parser.add_argument('-v', dest = 'verbose', 
                     action = 'store_true', 
                     help = 'verbose mode')
@@ -114,7 +114,7 @@ parser.add_argument('-v', dest = 'verbose', 
 
 **代码:**参数接受单个值并将其存储为字符串
 
-```
+```py
 parser.add_argument('-o', dest = 'outfile', 
                     action = 'store', help = 'output file')
 ```

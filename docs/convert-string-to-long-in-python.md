@@ -10,13 +10,13 @@ long 是长度不限的整型值。通过将字符串转换为 long，我们将�
 
 **语法:**
 
-```
+```py
 int(string, base)
 ```
 
 **参数:**
 
-```
+```py
 string : consists of 1's and 0's
 base : (integer value) base of the number.example 1
 ```
@@ -25,7 +25,7 @@ base : (integer value) base of the number.example 1
 
 ## 蟒蛇 3
 
-```
+```py
 a_string = "123"
 print(type(a_string))
 
@@ -37,7 +37,7 @@ print(type(a_long))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 123
 <class 'int'>
@@ -47,7 +47,7 @@ print(type(a_long))
 
 ## 蟒蛇 3
 
-```
+```py
 a='0x'
 arr0 = '00000018000004000000000000000000'
 arr1 = '00000000000000000000000000000000'

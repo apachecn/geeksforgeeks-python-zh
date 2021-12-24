@@ -9,7 +9,7 @@ Python 如此灵活和易于使用是因为它的可用包托管在[pypi.org](ht
 *   如果不创建帐户，您必须有 pypi.org 的帐户
 *   创建*缠绕*库是为了简化 *pypi* 中的包上传。安装*缠绕*库。
 
-```
+```py
 pip install twine
 ```
 
@@ -47,7 +47,7 @@ pip install twine
 
 ## 蟒蛇 3
 
-```
+```py
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -104,14 +104,14 @@ setuptools.setup(
 
 创建*。dist* 文件使用命令:
 
-```
+```py
 # Windows
 python setup.py bdist_wheel 
 ```
 
 或者
 
-```
+```py
 # Linux/Mac
 python3 setup.py bdist_wheel 
 ```
@@ -122,7 +122,7 @@ python3 setup.py bdist_wheel
 
 现在我们的二进制*。dist* 文件被创建，现在我们需要使用下面的命令上传它:
 
-```
+```py
 twine upload dist/* 
 ```
 

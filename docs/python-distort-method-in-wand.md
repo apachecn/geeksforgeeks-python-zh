@@ -6,7 +6,7 @@ ImageMagick 通过对用户提供的参数应用各种转换，提供了几种�
 
 **语法:**
 
-```
+```py
 wand.image.distort(method, arguments, best_fit)
 ```
 
@@ -58,7 +58,7 @@ wand.image.distort(method, arguments, best_fit)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -77,7 +77,7 @@ with Image(filename ="gog.png") as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

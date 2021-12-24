@@ -6,13 +6,13 @@
 
 我们可以借助下面给出的命令创建一个窗口
 
-```
+```py
 pyglet.window.Window(width, height, title)
 ```
 
 下面是窗口激活事件的语法，当这个事件被触发时，这个方法被调用
 
-```
+```py
 @window.event       
 def on_activate():
     print("Keyboard focus is on window")
@@ -23,7 +23,7 @@ def on_activate():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyglet module
 import pyglet
 import pyglet.window.key
@@ -100,7 +100,7 @@ pyglet.app.run()
 
 当我们最小化窗口并点击标题栏时，这个事件被触发
 
-```
+```py
 Keyboard focus is on window
 Window activate Event
 ```

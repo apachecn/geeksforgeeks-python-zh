@@ -16,7 +16,7 @@ CSV 文件包含表格形式的数据，每行包含逗号分隔的值。这些�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing python package
 import pandas as pd
 
@@ -51,7 +51,7 @@ print(file2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import csv

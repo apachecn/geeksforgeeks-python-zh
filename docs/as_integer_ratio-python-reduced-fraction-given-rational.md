@@ -7,7 +7,7 @@
 给定一个有理数 d，打印给出 d 的简化分数
 **例:**
 
-```
+```py
 Input : d = 2.5 
 Output : 5/2
 Explanation: 5/2 gives 2.5 which is the reduced form
@@ -31,7 +31,7 @@ Output : 3/2
 
 ## 蟒蛇 3
 
-```
+```py
 # function to print the fraction of
 # a given rational number
 def reducedfraction(d):
@@ -50,6 +50,6 @@ print (b[0], "/", b[1])
 
 **输出:**
 
-```
+```py
 5 / 2 
 ```

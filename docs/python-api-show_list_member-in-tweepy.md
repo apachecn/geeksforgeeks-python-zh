@@ -23,7 +23,7 @@ Tweepy 模块中`API`类的 **`show_list_member()`** 方法用于检查指定用
 
 **示例 1 :** 当用户是列表的成员时。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -57,14 +57,14 @@ print("The user " + screen_name + " is present in the list.")
 
 **输出:**
 
-```
+```py
 The user geeksforgeeksis present in the list.
 
 ```
 
 **示例 2 :** 当用户不是列表的成员时。
 
-```
+```py
 # the ID of the list
 list_id = 
 
@@ -80,7 +80,7 @@ print("The user " + screen_name + " is present in the list.")
 
 **输出:**
 
-```
+```py
 raise TweepError(error_msg, resp, api_code=api_error_code)
 tweepy.error.TweepError: [{'code': 108, 'message': 'Cannot find specified user.'}]
 

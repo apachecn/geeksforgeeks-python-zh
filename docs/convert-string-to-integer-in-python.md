@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 num = '10'
 
 # check and print type num variable
@@ -30,7 +30,7 @@ print(converted_num + 20)
 
 作为旁注，要转换为 float，我们可以使用 Python 中的**[【float()】](https://www.geeksforgeeks.org/float-in-python/)**
 
-```
+```py
 num = '10.5'
 
 # check and print type num variable
@@ -54,7 +54,7 @@ print(converted_num + 20.5)
 
  **例:**
 
-```
+```py
 a = '2'
 b = '3'
 
@@ -78,7 +78,7 @@ print(sum)
 
 **输出:**
 
-```
+```py
 class 'str'
 class 'str'
 5.0

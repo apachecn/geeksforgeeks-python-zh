@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing button widget from kivy framework
 from kivy.uix.button import Button
 

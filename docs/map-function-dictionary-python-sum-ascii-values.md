@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  GeeksforGeeks, a computer science portal
          for geeks
 Output : Sentence representation as sum of ASCII 
@@ -32,7 +32,7 @@ Output : Sum of ASCII values:
 4.  当遍历每个单词时，将 ascii 值的总和映射到上面创建的结果字典中相应的单词上。
 5.  遍历拆分后的单词列表，并通过查找结果字典来打印它们相应的 ascii 值。
 
-    ```
+    ```py
     # Function to find sums of ASCII values of each 
     # word in a sentence in
 
@@ -68,7 +68,7 @@ Output : Sum of ASCII values:
 
     输出:
 
-    ```
+    ```py
     Sum of ASCII values:
     1361 97 879 730 658 327 527 
     Total sum -> 4579

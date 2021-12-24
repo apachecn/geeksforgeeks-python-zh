@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Assign keys with Maximum element index
 # Using max() + index() + loop
@@ -57,7 +57,7 @@ print("The maximum index assigned dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Assign keys with Maximum element index
 # Using dictionary comprehension + max() + index()

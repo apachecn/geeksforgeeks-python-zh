@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Returning the number of elements using
 # len() function in python
 
@@ -57,7 +57,7 @@ print(len(list))
 
 **Output**
 
-```
+```py
 [1, 2, 3, 4]
 No of elements in list are
 4
@@ -69,7 +69,7 @@ No of elements in list are
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for returning the number
 # of elements in the list using for loop
 
@@ -104,7 +104,7 @@ print(count)
 
 **Output**
 
-```
+```py
 [1, 2, 3, 4]
 No of elements in the list are
 4

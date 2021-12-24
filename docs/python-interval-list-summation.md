@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `enumerate() + sum()`**
 列表理解可以做可能的迭代部分，枚举可以帮助逻辑部分和检查列表中所需的有效元素。sum()用于执行求和。
 
-```
+```py
 # Python3 code to demonstrate 
 # Interval List Summation
 # using list comprehension + enumerate() + sum()

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import collections
 
@@ -55,7 +55,7 @@ print(linked_lst)
 
 **输出:**
 
-```
+```py
 elements in the linked_list:
 deque(['first', 'second', 'third'])
 elements in the linked_list:
@@ -76,7 +76,7 @@ deque(['first', 'second'])
 
 **llist** 是 CPython 提供基本链表数据结构的扩展模块。命令行中的命令下面给出了类型:
 
-```
+```py
 pip install llist
 ```
 
@@ -84,7 +84,7 @@ pip install llist
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import llist
 from llist import sllist,sllistnode
@@ -131,7 +131,7 @@ print()
 
 **输出:**
 
-```
+```py
 sllist([first, second, third])
 sllistnode(first)
 sllistnode(third)
@@ -163,7 +163,7 @@ sllistnode(fifth)
 
 在命令行中键入命令:
 
-```
+```py
 pip install structlinks
 ```
 
@@ -171,7 +171,7 @@ pip install structlinks
 
 ## 蟒蛇 3
 
-```
+```py
 import structlinks
 from structlinks import LinkedList
 
@@ -240,7 +240,7 @@ print(f'pop function also returns the element : {element}')
 
 **输出:**
 
-```
+```py
 [1 -> 10.0 -> string]
 
 Elements of list:

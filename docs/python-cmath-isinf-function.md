@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isinf()function
 
@@ -33,7 +33,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -41,7 +41,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement
 # the isinf()function
 
@@ -56,7 +56,7 @@ print(val)
 
 **输出:**
 
-```
+```py
 True
 
 ```

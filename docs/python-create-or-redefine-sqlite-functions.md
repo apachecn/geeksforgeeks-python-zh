@@ -36,7 +36,7 @@ SQLite 没有像 MySQL 那样的函数或存储过程语言。我们不能在 SQ
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # define user defined function
@@ -74,7 +74,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # re-define existing SQLite function with 

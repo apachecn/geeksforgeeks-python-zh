@@ -14,7 +14,7 @@
 
 ### 安装:
 
-```
+```py
 pip install data-patterns
 ```
 
@@ -43,7 +43,7 @@ a
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the data_patterns module
 import data_patterns
 

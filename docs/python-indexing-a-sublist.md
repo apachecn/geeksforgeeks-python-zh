@@ -7,7 +7,7 @@
 **方法一:使用`index()` +列表理解**
 这个方法分两部分解决这个问题，第一部分生成一个新的列表，然后对其进行索引。
 
-```
+```py
 # Python3 code to demonstrate
 # indexing of sublist 
 # using list comprehension + index()
@@ -28,7 +28,7 @@ print("Index of nested element is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 'Geeks'], [2, 'For'], [3, 'Geeks']]
 Index of nested element is : 1
 

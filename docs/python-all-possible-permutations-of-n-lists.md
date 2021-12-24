@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以将幼稚的方法任务转换成单行，因此更加紧凑。此方法检查每个元素是否有可用元素，并相应地进行配对。
 
-```
+```py
 # Python3 code to demonstrate 
 # to compute all possible permutations
 # using list comprehension 
@@ -40,7 +40,7 @@ print ("All possible permutations are : " +  str(res))
 **方法 2:使用`itertools.product()`**
 使用产品功能，可以更简洁明了地轻松完成这项任务。这是执行计算笛卡儿积任务最推荐的方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to compute all possible permutations
 # using itertools.product() 

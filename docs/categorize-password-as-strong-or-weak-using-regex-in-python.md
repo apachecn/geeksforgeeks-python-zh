@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 Input1 : Qggf!@ghf3
 Output1 : Strong Password!
 
@@ -40,7 +40,7 @@ Output6 : Password cannot be a newline or space!
 
 下面是实现。
 
-```
+```py
 # Categorizing password as Strong or 
 # Weak in Python using Regex 
 

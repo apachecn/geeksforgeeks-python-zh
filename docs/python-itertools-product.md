@@ -35,7 +35,7 @@ itertools.product()用于从给定的迭代器中找到笛卡尔乘积，输出�
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import product
 
 def cartesian_product(arr1, arr2):

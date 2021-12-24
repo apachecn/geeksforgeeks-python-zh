@@ -38,7 +38,7 @@
 *   然后键入–pip 安装包名称
     **示例:**
 
-```
+```py
 pip install numpy
 
 ```
@@ -46,7 +46,7 @@ pip install numpy
 *   Then after the installation is done. (Make sure you are connected to the internet!!) Open your IDE, then import those packages. To import, type – import package name
     **Example:**
 
-    ```
+    ```py
     import numpy
 
     ```
@@ -63,7 +63,7 @@ pip install numpy
 
     **第 1 步:**导入需要的模块。
 
-    ```
+    ```py
     # importing section
     import pandas as pd 
     import numpy as np
@@ -74,7 +74,7 @@ pip install numpy
 
     **第二步:**我们来检查数据集的前五个条目。
 
-    ```
+    ```py
     # using the Csv file
     df = pd.read_csv('output.csv') 
 
@@ -88,7 +88,7 @@ pip install numpy
 
     **步骤 3:** 定义数据集的标题。
 
-    ```
+    ```py
     headers = ["symboling", "normalized-losses", "make", 
                "fuel-type", "aspiration","num-of-doors",
                "body-style","drive-wheels", "engine-location",
@@ -107,7 +107,7 @@ pip install numpy
 
     **步骤 4:** 查找缺失值(如果有)。
 
-    ```
+    ```py
     data = df
 
     # Finding the missing values
@@ -123,7 +123,7 @@ pip install numpy
 
     **第四步:**将 mpg 转换为 L/100km，检查各列的数据类型。
 
-    ```
+    ```py
     # converting mpg to L / 100km
     data['city-mpg'] = 235 / df['city-mpg']
     data.rename(columns = {'city_mpg': "city-L / 100km"}, inplace = True)
@@ -140,7 +140,7 @@ pip install numpy
 
     **第五步:**这里，price 是 object 类型(字符串)，应该是 int 或者 float，需要修改
 
-    ```
+    ```py
     data.price.unique()
 
     # Here it contains '?', so we Drop it
@@ -158,7 +158,7 @@ pip install numpy
 
     **步骤 6:** 通过使用简单的特征缩放方法示例(对其余部分执行)和宁滨分组值来归一化值
 
-    ```
+    ```py
     data['length'] = data['length']/data['length'].max()
     data['width'] = data['width']/data['width'].max()
     data['height'] = data['height']/data['height'].max()
@@ -181,7 +181,7 @@ pip install numpy
 
     **第七步:**对分类到数值的数据进行描述性分析。
 
-    ```
+    ```py
     # categorical to numerical variables
     pd.get_dummies(data['fuel-type']).head()
 
@@ -196,7 +196,7 @@ pip install numpy
 
     **第 8 步:**根据基于发动机尺寸的价格绘制数据。
 
-    ```
+    ```py
     # examples of box plot
     plt.boxplot(data['price'])
 
@@ -219,7 +219,7 @@ pip install numpy
 
     **第九步:**根据车轮、车身样式、价格对数据进行分组。
 
-    ```
+    ```py
     # Grouping Data
     test = data[['drive-wheels', 'body-style', 'price']]
     data_grp = test.groupby(['drive-wheels', 'body-style'], 
@@ -234,7 +234,7 @@ pip install numpy
 
     **步骤 10:** 使用枢轴法，根据枢轴法得到的数据绘制热图
 
-    ```
+    ```py
     # pivot method
     data_pivot = data_grp.pivot(index = 'drive-wheels',
                                 columns = 'body-style')
@@ -254,7 +254,7 @@ pip install numpy
 
     **步骤 11:** 获得最终结果，并以图形的形式显示出来。当斜率正向增加时，它是一个正线性关系。
 
-    ```
+    ```py
     # Analysis of Variance- ANOVA
     # returns f-test and p-value
     # f-test = variance between sample group means divided by 

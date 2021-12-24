@@ -13,7 +13,7 @@
 **方法#1:使用`product() + setdefault()` +循环**
 上述功能的组合提供了解决这个问题的方法。在本文中，我们使用 product 执行所有组合，并使用 setdefault()和强力循环方法消除重复。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All Possible unique K size combinations till N
 # Using product() + setdefault() + loop
@@ -45,7 +45,7 @@ print("The unique combinations : " + str(res)) 
 **方法 2:使用`combinations_with_replacement()`**
 这为解决这个问题提供了一个替代方法。该功能在内部执行，这是获得解决方案所需的全部功能。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All Possible unique K size combinations till N
 # Using combinations_with_replacement()

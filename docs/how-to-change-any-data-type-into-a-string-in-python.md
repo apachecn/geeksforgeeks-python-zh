@@ -6,7 +6,7 @@ Python 定义了类型转换函数，直接将一种数据类型转换成另一�
 
 **示例:**以不同方式创建字符串:
 
-```
+```py
 # creating string using ' '
 str1 = 'Welcome to the Geeks for Geeks !'
 print(str1)
@@ -22,7 +22,7 @@ print(str3)
 
 **输出:**
 
-```
+```py
 Welcome to the Geeks for Geeks!
 Welcome Geek!
 Welcome again
@@ -39,13 +39,13 @@ Welcome again
 任何内置数据类型都可以通过`str()`函数转换为其字符串表示。python 内置的数据类型包括:- `int`、`float`、`complex`、`list`、`tuple`、`dict` 等。
 **语法:**
 
-```
+```py
 str(built-in data type)
 ```
 
 **示例:**
 
-```
+```py
 # a is of type int
 a = 10
 print("Type before : ", type(a))
@@ -81,7 +81,7 @@ print("Type after:-", type(d1))
 
 **输出:**
 
-```
+```py
 Type before : <class 'int'>
 Type after : <class 'str'>
 
@@ -100,7 +100,7 @@ Type after : <class 'str'>
 
 **示例:**
 
-```
+```py
 # class addition
 class addition:
     def __init__(self):
@@ -121,7 +121,7 @@ print(type(str(ad)))
 
 **输出:**
 
-```
+```py
 value of a =10 value of b =10
 <class 'str'>
 ```

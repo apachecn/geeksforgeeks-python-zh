@@ -10,7 +10,7 @@
 
 可以使用以下命令安装 Python selenium 模块:
 
-```
+```py
 pip install selenium
 ```
 
@@ -22,7 +22,7 @@ Chrome 驱动可以从 [Chrome 驱动](https://chromedriver.storage.googleapis.c
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from selenium import webdriver
 
@@ -46,7 +46,7 @@ driver.get(url)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from selenium import webdriver
 
@@ -80,7 +80,7 @@ driver.get(new_url)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from selenium import webdriver
 
@@ -107,7 +107,7 @@ driver.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from selenium import webdriver
 

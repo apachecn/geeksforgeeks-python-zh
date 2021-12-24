@@ -9,7 +9,7 @@
 *   **[Tkinter](https://www.geeksforgeeks.org/python-gui-tkinter/):**Tkinter 包(“Tk 接口”)是 Tk GUI 工具包的标准 Python 接口。
 *   **[枕头](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/):**Python 图像库为您的 Python 解释器增加了图像处理功能。该库提供了广泛的文件格式支持、高效的内部表示和相当强大的图像处理能力。可以使用以下命令安装:
 
-```
+```py
 pip install Pillow
 
 ```
@@ -20,7 +20,7 @@ pip install Pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import tkinter as tk
 from tkinter import *
@@ -32,7 +32,7 @@ from PIL import ImageTk
 
 ## 蟒蛇 3
 
-```
+```py
 # adjust window
 root = tk.Tk()
 root.geometry("200x200")
@@ -50,7 +50,7 @@ l.pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # using recursion to slide to next image
 x = 1
 
@@ -76,7 +76,7 @@ move()
 
 ## 蟒蛇 3
 
-```
+```py
 root.mainloop()
 ```
 
@@ -84,7 +84,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import tkinter as tk
 from tkinter import *

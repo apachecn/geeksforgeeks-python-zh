@@ -22,13 +22,13 @@
 
 运行这个或 pyttsx3:
 
-```
+```py
 pip install pyttsx3
 ```
 
 运行此程序进行语音识别:
 
-```
+```py
 pip install SpeechRecognition
 ```
 
@@ -49,7 +49,7 @@ pip install SpeechRecognition
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import print_function
 import datetime
 import pickle

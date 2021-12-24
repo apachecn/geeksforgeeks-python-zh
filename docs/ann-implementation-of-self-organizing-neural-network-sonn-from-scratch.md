@@ -16,7 +16,7 @@
 
 **SONN 的 Python 实现:**
 
-```
+```py
 # Importing Libraries 
 import math
 from tqdm.notebook import tqdm
@@ -106,7 +106,7 @@ for epoch in tqdm(range(1, epochs + 1)):
 **输出:**
 ![](img/6614a0bf117d760a2a4f932173cc221a.png)
 
-```
+```py
 # Testing the model performance
 test_inputs = np.array([[0.1, 0.8], [0.5, -0.2], [-0.8, -0.9], [-0.6, 0.9]]) 
 # print(test_inputs.shape) 

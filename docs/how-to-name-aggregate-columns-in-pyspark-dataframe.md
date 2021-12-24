@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -60,7 +60,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sum function
 from pyspark.sql.functions import sum
 
@@ -80,7 +80,7 @@ dataframe.groupBy(
 
 ## 蟒蛇 3
 
-```
+```py
 # importing avg function
 from pyspark.sql.functions import avg
 
@@ -100,7 +100,7 @@ dataframe.groupBy("sector") 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing count function
 from pyspark.sql.functions import count
 

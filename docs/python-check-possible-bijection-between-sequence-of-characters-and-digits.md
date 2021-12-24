@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : char_seq = 'bxdyxb'
         dig_seq = 123421
 Output : True
@@ -21,7 +21,7 @@ Output : False
 
 这个方法只是将“char_seq”和“dig_seq”压缩，并检查相应的数字和字符是否匹配。
 
-```
+```py
 # Python3 program to Check possible bijection 
 # between sequence of characters and digits
 
@@ -40,7 +40,7 @@ print(is_bijection(char_seq, dig_seq))
 
 **Output:**
 
-```
+```py
 True
 
 ```
@@ -49,7 +49,7 @@ True
 
 这个方法使用相同的方法，只是略有不同，它使用 *itertools.groupby* 将字符与数字进行匹配。
 
-```
+```py
 # Python3 program to Check possible bijection 
 # between sequence of characters and digits
 import itertools
@@ -70,7 +70,7 @@ print(is_bijection(char_seq, dig_seq))
 
 **Output:**
 
-```
+```py
 True
 
 ```

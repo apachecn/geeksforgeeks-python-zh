@@ -10,7 +10,7 @@
 
 它检测并提取图像中的文本。
 
-```
+```py
 import os
 import io
 from google.cloud import vision
@@ -54,7 +54,7 @@ plt.show()
 ![](img/825912307df8b55b01f1efd4a5ec6f8a.png)
 **输出:**
 
-```
+```py
 MY MORNING
 ROUTINE
 How Successful People Start
@@ -115,7 +115,7 @@ Vertices covering text: [(254, 575), (311, 587), (308, 602), (251, 591)]
 
 该功能还可以对密集文档执行光学字符识别，包括手写。
 
-```
+```py
 import os
 import io
 from google.cloud import vision
@@ -154,7 +154,7 @@ print(txt)
 ![](img/08f930e60f0dc6731eca0c74e164fb54.png)
 **输出:**
 
-```
+```py
 Block confidence: 97.00000286102295%
 
 ['Geeks', 'for', 'Geeks', 'A', 'computer', 'science', 'portal', 'for', 'Geeks', '.']
@@ -164,7 +164,7 @@ Block confidence: 97.00000286102295%
 
 此功能检测图像的一般属性，如主色。
 
-```
+```py
 import os
 import io
 from google.cloud import vision
@@ -198,7 +198,7 @@ for color in properties.dominant_colors.colors:
 ![](img/94b4b880c114c7e0abf10a088f1cfab4.png)
 **输出:**
 
-```
+```py
 fraction: 0.036332178860902786
         r: 5.0
         g: 185.0
@@ -245,7 +245,7 @@ fraction: 0.029411764815449715
 
 检测图像中的明确内容，如成人内容或暴力内容。该功能使用五个类别(“成人”、“欺骗”、“医疗”、“暴力”和“色情”)，并返回每个类别在给定图像中出现的可能性。
 
-```
+```py
 import os
 import io
 from google.cloud import vision
@@ -284,7 +284,7 @@ print('Racy: {}'.format(likelihood_name[safe.racy]))
 
 从图像中检测并提取多个对象。它定位多个对象并返回它们的坐标。
 
-```
+```py
 import os
 import io
 from google.cloud import vision
@@ -317,7 +317,7 @@ for object_ in objects:
 ![](img/5c467b039532748af50d5c86475667f8.png)
 **输出:**
 
-```
+```py
 Number of objects found:  1
 Object:  Scissors
 Confidence:  0.540185272693634

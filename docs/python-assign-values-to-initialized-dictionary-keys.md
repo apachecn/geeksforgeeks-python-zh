@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + zip()`**
 以上方法的组合可以用来执行此任务。在这种情况下，我们将列表值分配给已经构建的网格，zip()有助于根据列表索引映射值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Assign values to initialized dictionary keys
 # using dict() + zip()
@@ -31,7 +31,7 @@ print("The assigned value dictionary is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'is': '', 'best': '', 'gfg': ''}
 The assigned value dictionary is : {'gfg': 'C', 'best': 'B', 'is': 'A'}
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Lowerbound a List
 # Using list comprehension
@@ -41,7 +41,7 @@ print("List with Lowerbounds : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 7, 8, 2, 3, 5, 1]
 List with Lowerbounds : [5, 7, 8, 4, 4, 5, 4]
 
@@ -53,7 +53,7 @@ List with Lowerbounds : [5, 7, 8, 4, 4, 5, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Custom Lowerbound a List
 # Using list comprehension + max()
@@ -76,7 +76,7 @@ print("List with Lowerbounds : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 7, 8, 2, 3, 5, 1]
 List with Lowerbounds : [5, 7, 8, 4, 4, 5, 4]
 

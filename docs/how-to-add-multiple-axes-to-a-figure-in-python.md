@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 **# import matplotlib module
 import matplotlib.pyplot as plt
 
@@ -45,7 +45,7 @@ axes2 = fig.add_axes([0.2, 0.5, 0.5, 0.2]) **
 
 ## **蟒蛇 3**
 
-```
+```py
 **# import matplotlib module
 import matplotlib.pyplot as plt
 
@@ -81,7 +81,7 @@ fig.show()**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# import matplotlib module
 import matplotlib.pyplot as plt
 # Creating an empty object

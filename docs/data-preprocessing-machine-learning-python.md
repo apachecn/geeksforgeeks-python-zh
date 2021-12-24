@@ -30,7 +30,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import pandas
 import scipy
@@ -64,7 +64,7 @@ print(rescaledX[0:5,:])
 
 **输出:**
 
-```
+```py
 [[ 0.353  0.744  0.59   0.354  0.0    0.501  0.234  0.483]
  [ 0.059  0.427  0.541  0.293  0.0    0.396  0.117  0.167]
  [ 0.471  0.92   0.525  0\.     0.0    0.347  0.254  0.183]
@@ -82,7 +82,7 @@ print(rescaledX[0:5,:])
 
 ## 计算机编程语言
 
-```
+```py
 # import libraries
 from sklearn.preprocessing import Binarizer
 import pandas
@@ -112,7 +112,7 @@ print(binaryX[0:5,:])
 
 **输出:**
 
-```
+```py
 [[ 1\.  1\.  1\.  1\.  0\.  1\.  1\.  1.]
  [ 1\.  1\.  1\.  1\.  0\.  1\.  1\.  1.]
  [ 1\.  1\.  1\.  0\.  0\.  1\.  1\.  1.]
@@ -129,7 +129,7 @@ print(binaryX[0:5,:])
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 from sklearn.preprocessing import StandardScaler
 import pandas
@@ -159,7 +159,7 @@ print(rescaledX[0:5,:])
 
 **输出:**
 
-```
+```py
 [[ 0.64   0.848  0.15   0.907 -0.693  0.204  0.468  1.426]
  [-0.845 -1.123 -0.161  0.531 -0.693 -0.684 -0.365 -0.191]
  [ 1.234  1.944 -0.264 -1.288 -0.693 -1.103  0.604 -0.106]

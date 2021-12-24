@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `randrange()` +循环**
 执行这个特定任务的幼稚方法可以使用列表理解来缩短。randrange 函数用于执行生成随机数的任务。执行产品的任务是使用循环完成的。
 
-```
+```py
 # Python3 code to demonstrate 
 # Arbitrary List Product
 # using list comprehension + randrange() + loop
@@ -30,7 +30,7 @@ print ("Arbitrary number product list is : " + str(res))
 
 **Output :**
 
-```
+```py
 Arbitrary number product list is : 1182384000
 
 ```

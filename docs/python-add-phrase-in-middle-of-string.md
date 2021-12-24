@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add Phrase in middle of String
 # Using split() + slicing + join()
@@ -48,7 +48,7 @@ print("Formulated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is for geeks
 Formulated String : geekforgeeks is best for geeks
 
@@ -60,7 +60,7 @@ Formulated String : geekforgeeks is best for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Add Phrase in middle of String
 # Using split() + slicing + join()
@@ -87,7 +87,7 @@ print("Formulated String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is for geeks
 Formulated String : geekforgeeks is best for geeks
 

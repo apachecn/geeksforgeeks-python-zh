@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName(
@@ -41,7 +41,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName('Read Multiple CSV Files').getOrCreate()
@@ -69,7 +69,7 @@ display(df1.tail())
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName(

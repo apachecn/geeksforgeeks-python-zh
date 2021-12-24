@@ -35,7 +35,7 @@
 
     **语法:**
 
-    ```
+    ```py
     data = subprocess.Popen(['ls', '-l', filename], stdout = subprocess.PIPE)
     output = data.communicate()
     ```
@@ -46,7 +46,7 @@
 
     我们可以使用' ls '命令和选项，如'-l '，'-al '等来列出当前目录中的所有文件。然后，我们可以解析这个输出，并以可呈现的格式打印它。`get_permissions()`函数解析 list 命令的输出，只检索文件的名称及其对应的权限。
 
-    ```
+    ```py
     # importing libraries
     import subprocess
     import os
@@ -149,7 +149,7 @@
 
     ping 命令代表数据包互联网协议。它最常用于检查两个系统或节点之间的连通性。使用 ping 命令，我们可以检查一个节点和另一个节点之间的连接是否正常。它在两个节点之间交换数据包，并计算往返时间。
 
-    ```
+    ```py
     # importing libraries
     import subprocess
     import os
@@ -197,7 +197,7 @@
 
     `chmod` 命令可用于更改文件权限。它是变更模式的缩写。更多信息可以在这里找到
 
-    ```
+    ```py
     # importing libraries
     import subprocess
     import os

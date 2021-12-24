@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate calling the
 # function from another function
 
@@ -54,7 +54,7 @@ print("Sum of the Square of List of Numbers:", Total)
 
 **输出:**
 
-```
+```py
 Sum of the Square of List of Numbers: 385 
 ```
 
@@ -63,7 +63,7 @@ Sum of the Square of List of Numbers: 385
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 Call a function from within another function
 in the same class in Python
@@ -96,7 +96,7 @@ Object.Function1()
 
 **输出:**
 
-```
+```py
 Function2 :  Hello
 Function1 :  World
 ```
@@ -106,7 +106,7 @@ Function1 :  World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate calling parent class
 # method from the child class method
 
@@ -143,7 +143,7 @@ Object2.Function1()
 
 **输出:**
 
-```
+```py
 Function2 :  Hello
 Function1 :  World
 ```
